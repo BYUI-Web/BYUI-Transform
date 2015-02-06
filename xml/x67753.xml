@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x67753" Name="Forums" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Forums</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Forums brief description of upcoming forum speakers and forums to come</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<table border="0">
+<tbody>
+<tr>
+<td><img alt="Taylor Winter" height="180" src="Images/university-relations/Forums/Taylor Building.jpg" title="Taylor Building" width="380" /></td>
+<td>
+<ul>
+<li>
+<p>University Forums are held at <strong>2 p.m.</strong> in the Taylor Chapel.&nbsp;</p>
+</li>
+<li>
+<p>A question-and-answer session is held at&nbsp;<strong>3 p.m.</strong></p>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="1">
+<tbody>
+<tr>
+<td>
+<h3 style="text-align: left;"><span style="color: blue;"><strong>University Forum</strong></span></h3>
+<p style="text-align: left;"><span style="color: blue;"><strong>June 21, 2012</strong></span></p>
+<h3 style="text-align: left;"><span><strong>Dr. Ronald Hatzenbuehler</strong></span></h3>
+<p style="text-align: left;">Associate Dean, College of Arts &amp; Letters at ISU</p>
+</td>
+<td><img alt="Forum Speaker" height="170" src="Images/Employee Photos/Clark-Kim1.jpg" style="display: block; margin-left: auto; margin-right: auto;" title="Forum Speaker" width="120" /></td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: left;">Dr. Hatzenbuehler will speak on&nbsp;<strong>"Viewing and Re-Viewing Thomas Jefferson"</strong></p>
+<p>Because Thomas Jefferson lived before the invention of photography, contemporary images of the man typically reflect the views of the artist or the times more than his physical characteristics.&nbsp; Similarly, it has become commonplace for Jefferson's views to be shaped to support views on both the political right and the political left; his writings have become a grab-bag with a prize for everyone.&nbsp; By viewing and re-viewing images of Jefferson, it is possible to draw some conclusions about his thoughts and actions and to suggest why he remains one of the most important and controversial founders of our nation.</p>
+<p><span style="color: blue;"><strong>Upcoming Forums</strong></span></p>
+<table align="left" border="0">
+<tbody>
+<tr>
+<td style="width: 100px; text-align: center;">
+<h3><strong>Oct 18<span style="white-space: pre;">&nbsp;</span></strong></h3>
+</td>
+<td>
+<h3><strong>Jonathan W. Bullen </strong></h3>
+<p><strong>&nbsp;</strong>Majority Owner, CEO, and President of Eagle Gate College Group; Owner and Manager of Bullen &amp; Harris LLC</p>
+</td>
+</tr>
+<tr>
+<td style="text-align: center;">
+<h3><strong>Nov 15</strong></h3>
+</td>
+<td>
+<h3><strong>John Uibel</strong></h3>
+<p>Executive Producer, Former Director of LDS Church Creative &amp; Story Development Division; Former Director of Digital Media Division</p>
+</td>
+</tr>
+</tbody>
+</table>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x33224" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

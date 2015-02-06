@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<ColumnTextComponent ID="x57109" Name="Webcast Right Nav"><TextColumn type="dhtml" label="Column of Text" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+                    .webcast {
+                        width: 179px;
+                        height: 45px;
+                        background:url('images/alumni/sprite.png') 0 0;
+                        float: right;
+                    }
+                    .webcast a:link {
+                        color: #fff;
+                        display: block;
+                        width: 179px;
+                        height: 45px;
+                    }
+                    .webcast:hover {
+                        background:url('images/alumni/sprite.png') -179px 0;
+                    }
+                    .gray_button {
+                        width: 179px;
+                        height: 45px;
+                        background:url('images/alumni/sprite.png') 0 -45px;
+                        margin-bottom: 5px;
+                        float: right;
+                    }
+                    .gray_button a:link {
+                        color: #fff;
+                        display: block;
+                        width: 179px;
+                        height: 45px;
+                        text-decoration: none;
+                        font-size: 12px;
+                        font-family: Helvetica;
+                        padding-top: 10px;
+                        text-align: center;
+                        font-weight: bold;
+                    }
+                    .gray_button:hover {
+                        background:url('images/alumni/sprite.png') -179px -45px;
+                    }
+                    .yellow_box {
+                        margin: 10px;
+                        padding: 10px;
+                        background-color: #DEDB0C;
+                        width: 139px;
+                        height: 70px;
+                        font-family: Helvetica;
+                        font-size: 12px;
+                        line-height: 120%;
+                        font-weight: 700;
+                        float: right;
+                    }
+ @-moz-document url-prefix() {
+                        .yellow_box {
+                       height: 85px;
+                   }
+--></style>
+<div class="span-6 last webcast"><a href="x47082.xml"></a></div>
+<div class="span-6 last yellow_box">In preparation, please read the case study, explore the following links and post questions on the discussion board.</div>
+<div class="span-6 last gray_button"><a href="http://www.byui.edu/online/pathway/what-is-pathway" style="color: #fff;">What is Pathway?</a></div>
+<div class="span-6 last gray_button"><a href="http://www.byui.edu/online/pathway/how-it-works" style="color: #fff;">How Does Pathway Work?</a></div>
+<div class="span-6 last gray_button"><a href="http://www.byui.edu/online/pathway/testimonials" style="color: #fff;">Pathway Testimonials</a></div>
+<div class="span-6 last gray_button"><a href="http://www.byui.edu/online/speaking-partners" style="color: #fff;">Become a Speaking Partner</a></div>]]></TextColumn></ColumnTextComponent>

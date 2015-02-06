@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.82 - http://www.ingeniux.com ***-->
+<AdminPage ID="x33043" Name="About" Layout="admin_office_home.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">About BYUI</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">General overview of Brigham Young University - Idaho.</Abstract><MainMesgTop type="boolean" label="Enable to move &quot;Main Message&quot; to top of page" readonly="false" required="false" hidden="false">false</MainMesgTop><IntroCopy type="dhtml" label="Main Message" readonly="false" hidden="false" required="false"><![CDATA[<style><!--
+/*BEGIN about_byui.less*/
+#left_aside {
+  height: 100%;
+}
+#main_content {
+  width: 710px;
+  margin-right: 0;
+}
+#right_aside {
+  display: none;
+}
+.top_message {
+  font-family: Georgia;
+  font-style: italic;
+  color: #60686E;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #b7b7b7;
+  margin: 10px 0 0px;
+  font-size: 14px;
+}
+.left_column_articles {
+  width: 465px;
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+.left_column_articles .article {
+  padding: 20px 0;
+  border-bottom: 1px dotted #b7b7b7;
+}
+.left_column_articles .article .left_side {
+  display: block;
+  width: 175px;
+  float: left;
+  margin-right: 10px;
+}
+.left_column_articles .article .right_side {
+  display: block;
+  width: 270px;
+  float: left;
+}
+.left_column_articles .article .right_side .title {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #266ea9;
+  font-size: 18px;
+  line-height: 20px;
+}
+.left_column_articles .article .right_side .description {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  color: #404040;
+  line-height: 20px;
+  line-height: 20px;
+  font-style: italic;
+}
+.left_column_articles .article .right_side .learn_more a {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  color: #797979;
+  line-height: 20px;
+  text-decoration: none;
+  margin-top: 25px;
+  display: block;
+}
+.left_column_articles .article .right_side .learn_more a img {
+  position: relative;
+  top: 10px;
+  margin-left: 10px;
+}
+.right_column_ads {
+  width: 233px;
+  display: block;
+  float: right;
+}
+.right_column_ads .right_ad {
+  margin-bottom: 10px;
+  position: relative;
+}
+.right_column_ads .right_ad a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.right_column_ads .right_ad .top {
+  background-color: #ececec;
+  display: block;
+  border-bottom: 1px solid #a9a9a9;
+  padding: 16px 16px;
+}
+.right_column_ads .right_ad .top h3 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #082e63;
+  font-size: 19px;
+  line-height: 20px;
+}
+.right_column_ads .right_ad .top div {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #434343;
+  font-style: italic;
+  font-size: 12px;
+  line-height: 20px;
+}
+/*END about_byui.less*/
+--></style>
+<img alt="BYU-I Campus" height="255" src="images/about/about-byui.jpg" width="710" />
+<p class="top_message">Brigham Young University-Idaho is a private, four-year university affiliated with The Church of Jesus Christ of Latter-day Saints. Guided by that affiliation, BYU-Idaho seeks to create a wholesome learning environment in which students can strengthen their commitment to their faith and receive a quality education that prepares them for leadership in the home, the community, and the workplace.</p>
+<!-- BEGIN LEFT COLUMN ARTICLES -->
+<div class="left_column_articles">
+<div class="article">
+<div class="left_side"><img alt="About BYU-I" height="119" src="images/about/left_img2.jpg" width="175" /></div>
+<div class="right_side">
+<div class="title">Our Mission</div>
+<div class="description">The core values that define the BYU-Idaho experience</div>
+<div class="learn_more"><a href="x34873.xml">Learn more<img alt="Learn More" height="26" src="images/about/learn_more_button.png" width="27" /></a></div>
+</div>
+<span class="clearfix"> </span></div>
+<div class="article">
+<div class="left_side"><img alt="About BYU-I" height="119" src="images/about/left_img3.jpg" width="175" /></div>
+<div class="right_side">
+<div class="title">Our History</div>
+<div class="description">Major milestones since our founding in 1888</div>
+<div class="learn_more"><a href="x34945.xml">Learn more<img alt="Learn More" height="26" src="images/about/learn_more_button.png" width="27" /></a></div>
+</div>
+<span class="clearfix"> </span></div>
+<div class="article">
+<div class="left_side"><img alt="About BYU-I" height="120" src="images/about/left_img1.jpg" width="175" /></div>
+<div class="right_side">
+<div class="title">Facts and Figures</div>
+<div class="description">Academic offerings, student life, and the campus at a glance</div>
+<div class="learn_more"><a href="x34889.xml">Learn more<img alt="Learn More" height="26" src="images/about/learn_more_button.png" width="27" /></a></div>
+</div>
+<span class="clearfix"> </span></div>
+</div>
+<!-- END LEFT COLUMN ARTICLES --> <!-- BEGIN RIGHT COLUMN ADS -->
+<div class="right_column_ads">
+<div class="right_ad"><a href="x34943.xml"></a>
+<div class="top">
+<h3>Where We Are</h3>
+<div></div>
+</div>
+<img alt="ad" height="110" src="images/about/where-we-are-thumb.jpg" width="233" /></div>
+<div class="right_ad"><a href="x14921.xml"></a>
+<div class="top">
+<h3>Campus Photo Tour</h3>
+<div></div>
+</div>
+<img alt="ad" height="110" src="images/about/campus-photo-tour-thumb.jpg" width="233" /></div>
+<div class="right_ad"><a href="x10260.xml"></a>
+<div class="top">
+<h3>BYU-Idaho in the News</h3>
+<div></div>
+</div>
+<img alt="ad" height="110" src="images/about/in-the-news-thumb.jpg" width="233" /></div>
+</div>
+<!-- END RIGHT COLUMN ADS --> <span class="clearfix"> </span>]]></IntroCopy><xPower Type="GroupStart" GroupStart="" Name="CellGroup" label="Cells" readonly="false" hidden="false" required="false" Expanded="false"><numColumns type="enumeration" values="1 2 3 4 5" label="Select number of cell columns." readonly="false" hidden="false" required="true">3</numColumns><xPower Type="List" List="xpowercomponent_Cell" Name="CellList" label="Cell List" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"><xPower Type="Component" Component="" Name="Cell" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"/></xPower></xPower><xPower Type="List" List="xpowercomponent_BannerAd" Name="BannerAds" label="Rotating Ads (650x216px required)" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="true"><xPower Type="Component" Component="" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/></xPower><xPower Type="Navigation" StartPage="" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="" Query="" Name="DeptEvents" label="Define Your Events Folder" readonly="false" hidden="false" required="false" Expanded="false"/><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="QuickLinksGroup" label="Quick Links Group" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Component="" Name="QuickLinks" label="Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Insert" Insert="" WellFormed="false" ExtractHTMLBody="false" Name="HTMLInsert" label="Insert" readonly="false" hidden="true" required="false" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x33098" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></AdminPage>

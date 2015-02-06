@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<Content ID="x66802" Name="#6" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">#6</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">#6</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style><!--
+p { margin: 0 0 15px; line-height: 1.6em; }
+a { outline: 0; color: #309D9F; text-decoration: none; }
+li { list-style: none; }
+li a, img { display: block; }
+
+#wrapper { width: 984px; margin: auto; }
+.clr { clear: both; }
+#logo { float: left; padding: 30px 15px; }
+	#logo h1 a { color: #fff; }
+		#logo h1 a span { color: #808080; }
+#menu { height: 44px; padding: 5px 0 0 4px; }
+	#menu li { float: left; font-size: 1.0em; text-transform: uppercase; }
+		#menu li a { color: #888; margin: 0 50px 0 0; }
+			#menu li a.current, #menu li a:hover { color: #fff; }			
+	#pitch { clear: both; background: url(../images/pitch.jpg) no-repeat; height: 228px; margin: 0 0 30px; padding: 60px 360px 0 30px; }
+		#pitch h1 { font-size: 2.0em; color: #304D6F; margin: 0 0 20px; }
+		#pitch em { font-size: 1.0em; font-weight: bold; line-height: 1.6em; }
+.content { background: url(../images/content.gif) repeat; padding: 20px; }
+--></style>
+<meta content="text/html;charset=utf-8" http-equiv="content-type" /><link href="css/screen.css" media="screen" rel="stylesheet" type="text/css" />
+<title>BYU-Idaho Testing Center</title>
+<div id="wrapper">
+<div class="content">Testing Center<br />
+<ul id="menu">
+<li><a class="current" href="#">Home</a></li>
+<li><a href="#">Practice</a></li>
+<li><a href="#">test</a></li>
+<li><a href="#">test</a></li>
+<li><a href="#">test</a></li>
+<li><a href="#">test</a></li>
+<li><a href="#">Contact Us</a></li>
+</ul>
+</div>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x41457" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

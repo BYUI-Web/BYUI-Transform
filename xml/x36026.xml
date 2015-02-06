@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.68 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x36026" Name="Email for Employees" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Faculty/Staff Email Help</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">BYUI Email Assistance for Faculty/Staff</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<ul></ul>
+<h1><strong>Office 365 is Here!</strong></h1>
+<h2><strong>Frequently Asked Questions (FAQs) about Office 365 at BYU-Idaho</strong></h2>
+<ul>
+<li>Why is my Voice Mail not showing up in my Inbox anymore?
+<ul>
+<li>VoiceMail is currently available immediately on your Cisco phone. &nbsp;We're working on making it show up in your email Inbox without the 20-60 minute delay.</li>
+</ul>
+</li>
+<li>How will this affect Mac users?<br />
+<ul>
+<li>Reconfiguring the Mac takes a little more work than a PC but about the same effort as a mobile device.</li>
+</ul>
+</li>
+<li>Will I also have access to SkyDrive/OneDrive?
+<ul>
+<li>Not yet. &nbsp;This may come in a future update.</li>
+</ul>
+</li>
+<li>Will this allow me to access Office apps on my iPad?
+<ul>
+<li>Not yet. &nbsp;This may come in a future update.</li>
+</ul>
+</li>
+<li>I have some archived emails for future reference.&nbsp; Will all of those emails be lost in the transition?
+<ul>
+<li>No. &nbsp;Once the migration is complete we'll help you upload your archived messages into your larger mailbox.</li>
+</ul>
+</li>
+</ul>
+<p>The email system used for all employee email accounts was moved to the Microsoft Cloud in June of 2014. This includes full time faculty, administrative, and staff employees as well as part-time, remote faculty, adjunct, and retirees - any employee with a byui.edu email account. To help you with this change, we have provide some information below.&nbsp;<br /><br /> The change was made to avoid expensive updates to our current hardware and software. The new system provides a number of exciting features like additional storage space on your account. For most users the most&nbsp;noticeable&nbsp;change will be the need to update your settings on mobile devices you use to check your email. This is covered on the page below. After your account is transitioned please refer to this page for help in&nbsp;answering&nbsp;common questions. If you experience difficulties with your email or Outlook calendar, and don't find answers on this page, please contact the help desk at 208-496-9000.</p>
+<h3>What do I need to do?</h3>
+<ul>
+<li>Remove from your mailbox any items with attachments larger than 25MB. &nbsp;<br />(Contact the Help Desk if you need help sorting by size.)</li>
+</ul>
+<h3>How will I know when I've been migrated?</h3>
+<ul>
+<li>If you are a Windows user, you will be prompted that your administrator has made a change. &nbsp;Simply restart Outlook when prompted then proceed to reconfigure any non-Windows apps/devices.</li>
+<li>Any user can click the EMAIL tab in myBYUI and check for the "Office 365" logo in the top-left.</li>
+</ul>
+<h2 style="color: #000000;">External Devices</h2>
+<ul>
+<li>You will need to reconfigure the Exchange account on phones, tablets, Macintosh computers, or home computers on which you want to receive your employee email. &nbsp;Previous settings will need to the changed to the following:
+<ul>
+<li><strong><strong>Email Address </strong></strong>or<strong> Email</strong>: <em>YourEmailAddress</em>@<em>byui.edu</em></li>
+<li><strong style="font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; line-height: inherit;">Exchange server </strong>or<strong style="font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; line-height: inherit;"> Server</strong>:&nbsp;<em>outlook.Office365.com</em></li>
+<li><strong style="font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; line-height: inherit;">Domain</strong>: BYUI</li>
+<li><strong style="font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; line-height: inherit;">Domain/username </strong>or<strong style="font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; line-height: inherit;"> Username</strong>:&nbsp;<em>YourUsername</em>@<em>byui.edu</em>
+<ul>
+<li>(This is not an email address, but must be typed with the @byui.edu in order for Microsoft to recognize you as a BYU-Idaho user)</li>
+</ul>
+</li>
+<li><strong>Password</strong>: Your regular <em>BYU-Idaho password</em>
+<ul>
+<li>In rare instances you may be required to have a Password between 8 - 16 characters with 3 of the following types of characters: lower-case letters, numbers, upper-case letters, symbols or special characters (please avoid using the following characters: ? ! / \ &lt; &gt; ~)</li>
+<li>If necessary, change your password at&nbsp;<a href="http://www.byui.edu/password">http://www.byui.edu/password</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2>Outlook 2011 for Macintosh</h2>
+<ol>
+<li>Outlook</li>
+<li>Preferences</li>
+<li>Accounts</li>
+<li>BYUI</li>
+<li>Change username to username@byui.edu</li>
+<li>Advanced</li>
+<li>Type https://outlook.office365.com</li>
+</ol>
+<h2>Apple Mail</h2>
+<ol>
+<li>Exchange</li>
+<li>Name: (optional)</li>
+<li>Email Address: CampusUsername@byui.edu (not EmailAddress@byui.edu)</li>
+<li>Password</li>
+<li>Description: (optional)</li>
+<li>User Name: CampusUsername@byui.edu</li>
+<li>Password (should have carried over from previous screen)</li>
+<li>Server Address: outlook.office365.com</li>
+</ol>
+<h2>Voicemail</h2>
+<ul>
+<li>Your voicemail is now provided by Cisco Unity instead of Microsoft Exchange.</li>
+<li>You will still receive voicemail notifications in your email box, but you will need to reconfigure any custom greetings or settings. &nbsp;Missed Calls notifications will only appear on your Cisco phone, not in your email box.</li>
+<li>To access your voicemail from a Cisco phone, press the "<strong>messages</strong>" button on the phone and enter <strong>123456</strong> when asked for a PIN. &nbsp;You will be prompted to choose a new one.</li>
+<li>To access your voicemail from a different phone, dial 496-0510 and press * at the menu. You will be prompted to enter your extension and PIN.</li>
+</ul>
+<h2>Mailbox Size</h2>
+<ul>
+<li>After migrating to Office 365, you will have 50 GB of email storage space. &nbsp;That's 100x the limit we previously had! &nbsp;This means you can import your archives into your main mailbox so that you can access all your messages from any computer in the world. &nbsp;And, you won't have to worry about your computer crashing and losing your archives.</li>
+<li>To see your available space, right-click the status bar in Outlook and turn on Quota Information. &nbsp;</li>
+<li>You may need to clean out your mailbox prior to migration if you have large items (larger than 25 MB).</li>
+</ul>
+<h2>Spam</h2>
+<ul>
+<li>Previously, many spam emails were filtered by ProofPoint and sent to you in a daily digest. Now filtered spam messages are sent directly to your "Junk E-mail" folder in Microsoft Outlook.</li>
+<li>To manually add additional emails to this junk folder, click on a message and choose "Junk" and "Block Sender" from the ribbon. &nbsp;</li>
+<li>You may also want to download the Microsoft Junk E-mail Reporting Add-in from <a href="http://www.microsoft.com/en-us/download/details.aspx?id=18275">http://www.microsoft.com/en-us/download/details.aspx?id=18275</a> to report messages as Junk.</li>
+</ul>
+<h2>myBYUI</h2>
+<ul>
+<li>If you use the EMAIL tab in myBYUI to check your email online, you will notice an enhanced user experience.</li>
+<li>If you normally browse directly to owa.byui.edu the new address would be <a href="http://outlook.office365.com">http://outlook.office365.com</a>.&nbsp;</li>
+</ul>
+<h1><strong>Other Top Tips</strong></h1>
+<ul>
+<ul>
+<li>You can learn more about how to detect suspicious email messages by reading our tutorial at <a href="http://www.byui.edu/information-technology/categories/email/email-deception">http://www.byui.edu/information-technology/categories/email/email-deception</a>.</li>
+<li>Accessing your email from OWA in Internet Explorer 11 causes issues with using the full Outlook Web Access features and forces you to use the "lite" version. As of right now there is no fix but there is a work around. Go here for more information: <a href="http://support.microsoft.com/kb/2866064">http://support.microsoft.com/kb/2866064</a></li>
+<li>If you're not using Microsoft Outlook 2013, contact HelpDesk@byui.edu (or call x9000<a href="http://ingeniux.byui.edu/admin/xml/" style="overflow: hidden; cursor: hand; height: 16px; width: 16px; vertical-align: middle; white-space: nowrap; right: 0px; position: static !important; float: none; left: 0px; margin: 0px; display: inline; top: 0px; bottom: 0px;" title="Call: x9000"><img src="data:image/png;base64,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" style="overflow: hidden; cursor: hand; height: 16px; width: 16px; vertical-align: middle; white-space: nowrap; right: 0px; position: static !important; float: none; left: 0px; margin: 0px; display: inline; top: 0px; bottom: 0px;" title="Call: x9000" /></a>) to upgrade today.</li>
+<li>You can find email tips customized for BYUI users by simply typing "email" into any search box on any page at www.byui.edu.</li>
+<li>Does your mailbox need a quick cleanup? &nbsp; &nbsp;
+<ul>
+<li>On the <strong style="font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; line-height: inherit;">File&nbsp;</strong>menu, click&nbsp;<strong style="font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; line-height: inherit;">Cleanup Tools &gt; Mailbox Cleanup...</strong>. Select options to find items that are old or large and then move or delete them. Click&nbsp;<strong style="font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; line-height: inherit;">AutoArchive&nbsp;</strong>to move old items to&nbsp;<strong style="font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; line-height: inherit;">Archive Folders</strong>, or click&nbsp;<strong style="font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; line-height: inherit;">Empty&nbsp;</strong>to permanently delete items from your&nbsp;<strong style="font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; line-height: inherit;">Deleted Items</strong>&nbsp;folder.</li>
+</ul>
+</li>
+<li>Let Outlook find a meeting time when all attendees are available
+<ul>
+<li>On the&nbsp;<strong style="font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; line-height: inherit;">Scheduling</strong>&nbsp;tab, type the names of the attendees in the&nbsp;<strong style="font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; line-height: inherit;">All Attendees</strong>&nbsp;list, and then click&nbsp;<strong style="font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; line-height: inherit;">AutoPick Next</strong>.</li>
+</ul>
+</li>
+</ul>
+<li><a href="http://office.microsoft.com/en-us/outlook-help/training-courses-for-outlook-2013-HA104032127.aspx">Self-Paced Training</a></li>
+<li><a href="mailto:email@byui.edu">Request a Custom Email Checkup</a></li>
+</ul>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x35726" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

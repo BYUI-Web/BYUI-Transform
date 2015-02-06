@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.82 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x65682" Name="Ski/Snowboard Maintenance" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Ski and Snowboard Maintenance</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">We take care of skis and snowboards, including waxing, inspections, and repairs.  </Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<div>
+<p><img alt="Skiing" height="217" src="Images/outdoor-resource-center/ski_repair_image.jpg" title="Skiing" width="650" /></p>
+<p><strong><span style="font-size: x-large;">ORC Ski&nbsp;&amp; Snowboard Services <br /><br /></span></strong>Get ready for winter!&nbsp; Bring your skis or snowboard into the ORC for a complete tune up and wax. Other services we offer are binding test, base repairs, top sheet work and more. Contact us with questions at (208) 496-7337 or orc@byui.edu.<br /><br /><strong>Sorry, at this time we cannot mount ALPINE bindings.</strong><br /><br /><br />&nbsp;&nbsp;&nbsp;Service&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Price</p>
+<table border="0" style="width: 75.49%; height: 286px;">
+<tbody>
+<tr>
+<td>Nordic Binding Mounting</td>
+<td>$10</td>
+</tr>
+<tr>
+<td>Telemark Binding Mounting</td>
+<td>$20</td>
+</tr>
+<tr>
+<td>Ski Binding Adjustment</td>
+<td>$15</td>
+</tr>
+<tr>
+<td>Edge &amp; Side Wall Tune</td>
+<td>$25</td>
+</tr>
+<tr>
+<td>Machine Wax</td>
+<td>$10</td>
+</tr>
+<tr>
+<td>Hand Wax</td>
+<td>$15</td>
+</tr>
+<tr>
+<td>Hand Wax &amp; Tune</td>
+<td>$30</td>
+</tr>
+<tr>
+<td>P-Tex Repair</td>
+<td>Starts at<br />$15</td>
+</tr>
+<tr>
+<td>Other Repairs</td>
+<td>By Estimate</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</div>]]></BodyCopy><xPower Type="Component" Component="x30165" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x28149" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

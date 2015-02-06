@@ -1,0 +1,247 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x68047" Name="accordion.css" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">accordion.css</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">accordion.css</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">/* general */
+.accordion {
+	background-image: url('../../images/common/accordion/accordion_background.png');
+	background-repeat: repeat-y;
+	margin: 0 !important;
+	text-transform: capitalize;
+	padding-left: 0 !important;
+}
+
+.accordion * {
+	list-style: none;
+}
+
+/* control */
+#accordion_control {
+	background-image: url('../../images/common/accordion/accordion_control_background.png');
+	height: 16px;
+	padding-top: 4px;
+}
+.expand, .collapse {
+	float: left;
+	padding: 0 5px 0 10px;
+	text-transform: capitalize;
+	color: #C0C0C0;
+	font-size: 9px;
+}
+h3, h4, h5, .expand, .collapse {
+	cursor: pointer;
+}
+
+
+/* ACCORDION LISTS */
+/* primary */
+.accordion &gt; li { 
+	background-image: url('../../images/common/accordion/accordion_primary_background.png');
+	background-repeat: repeat-x;
+	padding-top: 9px;
+	font-size: 10px;
+	list-style: none;
+	padding-left: 10px;
+	padding-bottom: 3px;
+}
+.accordion h3 {
+	padding-left: 17px;
+	padding-bottom: 5px;
+	color: white;
+}
+
+/* secondary */
+.accordion &gt; li &gt; ul {
+/*	padding-left: 20px;*/
+}
+.accordion &gt; li &gt; ul &gt; li{ 	
+	background-image: url('../../images/common/accordion/secondary_down.png');
+	background-repeat: no-repeat;
+	padding-top: 8px;
+}
+.accordion h4 {
+	padding-left: 25px;
+	padding-bottom: 4px;
+	padding-top: 1px;
+	color: #1c74b5;
+}
+
+/* tertiary */
+.accordion &gt; li &gt; ul &gt; li &gt; ul {
+	background-image: url('../../images/common/accordion/accordion_second_background.png');
+	background-repeat: repeat-y;
+	padding-left: 10px;
+	margin-bottom: 14px;
+}
+.accordion &gt; li &gt; ul &gt; li &gt; ul &gt; li {
+	padding-top: 10px;
+	background-image: url('../../images/common/accordion/tertiary_closed.png');
+	background-repeat: no-repeat;
+	margin-top: 5px; /* pushes tertiary children background image down (light gray) to make the secordary li look vertically aligned */
+}
+.accordion h5 {
+	padding-left: 25px;
+	padding-top: 0;
+	height: 19px;
+	color: #1c74b5;
+}
+/* quanternary */
+.accordion &gt; li &gt; ul &gt; li &gt; ul &gt; li &gt; ul {
+	padding-left: 25px;
+	padding-top: 5px;
+}
+.accordion &gt; li &gt; ul &gt; li &gt; ul &gt; li &gt; ul &gt; li {
+	margin-bottom: 7px; /* spaces out li without pushing next parent down more */
+}
+
+
+/*Copy it here*/
+/* general */
+.get_connected {
+	/*background-image: url('../../images/common/accordion/accordion_background.png');
+	background-repeat: repeat-y;*/
+	/*background-image: url(../../images/get_connected/get_connected_background.png);
+	background-repeat: no-repeat;*/
+	margin: 0 !important;
+	text-transform: capitalize;
+	padding-left: 0 !important;
+	margin-top: 0px;
+	color: black;
+}
+
+
+.get_connected * {
+	list-style: none;
+}
+
+/* control 
+#get_connected {
+	background-image: url('../../images/common/accordion/accordion_control_background.png');
+	height: 16px;
+	padding-top: 4px;
+}*/
+.expand, .collapse {
+	float: left;
+	//padding: 0 0px 0 10px;
+	text-transform: capitalize;
+	color: #C0C0C0;
+	font-size: 9px;
+}
+h3, h4, h5, .expand, .collapse {
+	cursor: pointer;
+}
+
+#get_connected {
+	margin-top: 20px;
+}
+
+#get_connected_background{
+	background-image: url(../../images/get_connected/get_connected_background.png);
+	background-repeat: no-repeat;
+}
+
+/* ACCORDION LISTS */
+/* primary */
+.get_connected &gt; ul &gt; li { 
+	//background-image: url('../../images/common/accordion/secondary_down.png');
+	//background-repeat: repeat-x;
+	padding-top: 10px;
+	font-size: 10px;
+	list-style: none;
+	padding-left: 10px;
+	//padding-bottom: 3px;
+}
+
+#sub_find_friend{
+	padding-left: 20px;
+	margin-top: -7px;
+}
+
+.get_connected #second{
+	position: relative;
+	left: 40px;
+	top: 40px;
+}
+
+.get_connected h4 {
+	padding-left: 25px;
+	padding-top: 1px;
+	font-size: 10px;
+	list-style: none;
+	padding-left: 10px;
+	padding-bottom: 2px;
+}
+
+.get_connected &gt; ul{
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+}
+
+/* tertiary */
+.get_connected &gt; ul &gt; li {
+	background-image: url('../../images/common/accordion/accordion_second_background.png');
+	background-repeat: repeat-y;
+	padding-left: 10px;
+	margin-bottom: 3px;
+	padding-top: 10px;
+}
+.get_connected &gt; ul &gt; li {
+	//padding-top: 10px;
+	background-image: url('../../images/common/accordion/tertiary_closed.png');
+	background-repeat: no-repeat;
+	padding-top: 7px;
+	//margin-top: 5px; /* pushes tertiary children background image down (light gray) to make the secordary li look vertically aligned */
+}
+
+/*Copy it here*/
+/* general */
+.icons {
+	background-image: url('../../images/find_us_on/find_us_on_background.png');
+	background-repeat: no-repeat;
+	margin: 0 !important;
+	text-transform: capitalize;
+	padding-left: 0 !important;
+	margin-top: 0px;
+}
+
+
+.icons * {
+	list-style: none;
+	
+}
+
+#find_us_box div{
+	background-image: url('../../images/find_us_on/find_us_on_background.png');
+	background-repeat: no-repeat;
+}
+/* control 
+#get_connected {
+	background-image: url('../../images/common/accordion/accordion_control_background.png');
+	height: 16px;
+	padding-top: 4px;
+}*/
+.expand, .collapse {
+	float: left;
+	padding: 0 5px 0 10px;
+	text-transform: capitalize;
+	color: #C0C0C0;
+	font-size: 9px;
+}
+h3, h4, h5, .expand, .collapse {
+	cursor: pointer;
+}
+
+#find_us_on {
+	margin-top: 20px;
+	background-image: url('../../images/find_us_on/find_us_on_background.png');
+	background-repeat: no-repeat;
+	height: 75px;
+	margin-bottom: 20px;
+}
+
+.icons img {
+	float: left;
+	padding-left: 7px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+</ESContent></EmptyShell>

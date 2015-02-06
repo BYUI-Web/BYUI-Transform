@@ -1,0 +1,463 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.82 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x32036" Name="Eating Disorders Self Test" Layout="general_content.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Self-Test for Eating Disorders</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Self-Test for Eating Disorders from the BYU-Idaho Counseling Center</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<script type="text/Javascript">
+function radio(question, num, numAnswers) {
+for (var i = 1; i < numAnswers + 1; i++) {
+var img = document.getElementById(question * 10 + i);
+img.src = "http://ingeniux.byui.edu/beta/xml/Images/counseling-center/radio.png";
+}
+
+var img = document.getElementById(question * 10 + num);
+img.src = "http://ingeniux.byui.edu/beta/xml/Images/counseling-center/radio2.png"; 
+}
+
+function getResult() {
+	var score = 0;
+
+	for (var i = 1; i < 21; i++) {
+		var max;
+
+		if (i == 9) {
+
+			max = 5;
+
+		} else if (i == 4 || i == 6 || i == 13) {
+
+			max = 2;
+
+		} else {
+
+			max = 4;
+
+		}
+
+                var temp = 0;
+		for (var j = 1; j < max + 1; j++) {
+			var button = document.getElementById(i * 10 + j);
+                        
+			if (button.src == "http://ingeniux.byui.edu/beta/xml/Images/counseling-center/radio2.png") {
+                                temp = j;
+				break;
+			}
+
+		}
+                if (temp == 0) {
+                        score = 0;
+                        break;
+                } else {
+                        score += temp;
+                }
+	}
+
+	var output = document.getElementById("output");
+
+        if (score < 20) {
+                output.innerHTML = "<h4>You have to answer all of the questions.</h4>"
+	} else if (score < 30) {
+		output.innerHTML = "<h4>You have strong tendencies towards anorexia nervosa. It would be wise for you to seek out some kind of help or assistance.</h4>";
+	} else if (score < 45) {
+		output.innerHTML = "<h4>You have strong tendencies towards bulimia. It would be wise for you to seek out some kind of help or assistance.</h4>";
+	} else if (score <= 55) {
+		output.innerHTML = "<h4>Weight conscious, not necessarily with anorexic or bulimic tendencies.</h4>";
+	} else {
+		output.innerHTML = "<h4>No need for concern.</h4>";
+	}
+}
+</script>
+<div>
+<table border="0" id="test" width="650px">
+<tbody>
+<tr>
+<td colspan="5">1.)   I have eating habits that are different from those of my family and friends.</td>
+</tr>
+<tr>
+<td width="162.5px"><img alt="radio" height="12" id="11" onclick="radio(1, 1, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Often</p>
+</td>
+<td width="162.5px"><img alt="radio" height="12" id="12" onclick="radio(1, 2, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Sometimes</p>
+</td>
+<td width="162.5px"><img alt="radio" height="12" id="13" onclick="radio(1, 3, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Rarely</p>
+</td>
+<td width="100px"><img alt="radio" height="12" id="14" onclick="radio(1, 4, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Never</p>
+</td>
+</tr>
+<tr>
+<td colspan="5" height="15px"></td>
+</tr>
+<tr>
+<td colspan="5">2.)    I find myself panicking if I cannot exercise as I had planned for fear of gaining weight.</td>
+</tr>
+<tr>
+<td width="162.5px"><img alt="radio" height="12" id="21" onclick="radio(2, 1, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Often</p>
+</td>
+<td width="162.5px"><img alt="radio" height="12" id="22" onclick="radio(2, 2, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Sometimes</p>
+</td>
+<td width="162.5px"><img alt="radio" height="12" id="23" onclick="radio(2, 3, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Rarely</p>
+</td>
+<td width="100px"><img alt="radio" height="12" id="24" onclick="radio(2, 4, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Never</p>
+</td>
+</tr>
+<tr>
+<td colspan="5" height="15px"></td>
+</tr>
+<tr>
+<td colspan="5">3.)    My friends tell me I am thin but I don't believe them because I feel fat.</td>
+</tr>
+<tr>
+<td width="162.5px"><img alt="radio" height="12" id="31" onclick="radio(3, 1, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Often</p>
+</td>
+<td width="162.5px"><img alt="radio" height="12" id="32" onclick="radio(3, 2, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Sometimes</p>
+</td>
+<td width="162.5px"><img alt="radio" height="12" id="33" onclick="radio(3, 3, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Rarely</p>
+</td>
+<td width="100px"><img alt="radio" height="12" id="34" onclick="radio(3, 4, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Never</p>
+</td>
+</tr>
+<tr>
+<td colspan="5" height="15px"></td>
+</tr>
+<tr>
+<td colspan="5">4.)   (Females)  My menstrual period has ceased or become irregular due to no known medical  reasons.</td>
+</tr>
+<tr>
+<td width="162.5px"><img alt="radio" height="12" id="41" onclick="radio(4, 1, 2)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">True</p>
+</td>
+<td width="162.5px"><img alt="radio" height="12" id="42" onclick="radio(4, 2, 2)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">False</p>
+</td>
+</tr>
+<tr>
+<td colspan="5" height="15px"></td>
+</tr>
+<tr>
+<td colspan="5">5.)   I have become obsessed with food to the point that I cannot go through a  day without worrying about what I will or will not eat.</td>
+</tr>
+<tr>
+<td width="162.5px"><img alt="radio" height="12" id="51" onclick="radio(5, 1, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Often</p>
+</td>
+<td width="162.5px"><img alt="radio" height="12" id="52" onclick="radio(5, 2, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Sometimes</p>
+</td>
+<td width="162.5px"><img alt="radio" height="12" id="53" onclick="radio(5, 3, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Rarely</p>
+</td>
+<td width="100px"><img alt="radio" height="12" id="54" onclick="radio(5, 4, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Never</p>
+</td>
+</tr>
+<tr>
+<td colspan="5" height="15px"></td>
+</tr>
+<tr>
+<td colspan="5">6.)   I have lost more than 15 percent of the normal weight for my height (e.g., 30 lbs. from 120 lbs.)</td>
+</tr>
+<tr>
+<td width="162.5px"><img alt="radio" height="12" id="61" onclick="radio(6, 1, 2)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">True</p>
+</td>
+<td width="162.5px"><img alt="radio" height="12" id="62" onclick="radio(6, 2, 2)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">False</p>
+</td>
+</tr>
+<tr>
+<td colspan="5" height="15px"></td>
+</tr>
+<tr>
+<td colspan="5">7.)   I would panic if I got on the scale tomorrow and found out I had gained two pounds.</td>
+</tr>
+<tr>
+<td width="162.5px"><img alt="radio" height="12" id="71" onclick="radio(7, 1, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Often</p>
+</td>
+<td width="162.5px"><img alt="radio" height="12" id="72" onclick="radio(7, 2, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Sometimes</p>
+</td>
+<td width="162.5px"><img alt="radio" height="12" id="73" onclick="radio(7, 3, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Rarely</p>
+</td>
+<td width="100px"><img alt="radio" height="12" id="74" onclick="radio(7, 4, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Never</p>
+</td>
+</tr>
+<tr>
+<td colspan="5" height="15px"></td>
+</tr>
+<tr>
+<td colspan="5">8.)   I find that I prefer to eat alone or when I am sure no one will see me,  thus I am making excuses so I can eat less and less with friends.</td>
+</tr>
+<tr>
+<td width="162.5px"><img alt="radio" height="12" id="81" onclick="radio(8, 1, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Often</p>
+</td>
+<td width="162.5px"><img alt="radio" height="12" id="82" onclick="radio(8, 2, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Sometimes</p>
+</td>
+<td width="162.5px"><img alt="radio" height="12" id="83" onclick="radio(8, 3, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Rarely</p>
+</td>
+<td width="100px"><img alt="radio" height="12" id="84" onclick="radio(8, 4, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Never</p>
+</td>
+</tr>
+<tr>
+<td colspan="5" height="15px"></td>
+</tr>
+<tr>
+<td colspan="5">9.)   I find myself going on uncontrollable eating binges during which I  consume large amounts of food to the point that I feel sick and make  myself vomit.</td>
+</tr>
+<tr>
+<td width="200px"><img alt="radio" height="12" id="91" onclick="radio(9, 1, 5)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">3 or more times per day</p>
+</td>
+<td width="140px"><img alt="radio" height="12" id="92" onclick="radio(9, 2, 5)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">1-2 times per day</p>
+</td>
+<td width="140px"><img alt="radio" height="12" id="93" onclick="radio(9, 3, 5)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">1-2 times per week</p>
+</td>
+<td width="100px"><img alt="radio" height="12" id="94" onclick="radio(9, 4, 5)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Rarely</p>
+</td>
+<td width="70px"><img alt="radio" height="12" id="95" onclick="radio(9, 5, 5)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Never</p>
+</td>
+</tr>
+<tr>
+<td colspan="5" height="15px"></td>
+</tr>
+<tr>
+<td colspan="5">10.) I use laxatives as a means of weight control.</td>
+</tr>
+<tr>
+<td width="162.5px"><img alt="radio" height="12" id="101" onclick="radio(10, 1, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Often</p>
+</td>
+<td width="162.5px"><img alt="radio" height="12" id="102" onclick="radio(10, 2, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Sometimes</p>
+</td>
+<td width="162.5px"><img alt="radio" height="12" id="103" onclick="radio(10, 3, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Rarely</p>
+</td>
+<td width="100px"><img alt="radio" height="12" id="104" onclick="radio(10, 4, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Never</p>
+</td>
+</tr>
+<tr>
+<td colspan="5" height="15px"></td>
+</tr>
+<tr>
+<td colspan="5">11.) I find myself playing games with food (e.g. cutting it up into tiny pieces, hiding food so people will think I ate it, chewing it and spitting it out without swallowing) and telling myself certain foods are bad.</td>
+</tr>
+<tr>
+<td width="162.5px"><img alt="radio" height="12" id="111" onclick="radio(11, 1, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Often</p>
+</td>
+<td width="162.5px"><img alt="radio" height="12" id="112" onclick="radio(11, 2, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Sometimes</p>
+</td>
+<td width="162.5px"><img alt="radio" height="12" id="113" onclick="radio(11, 3, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Rarely</p>
+</td>
+<td width="100px"><img alt="radio" height="12" id="114" onclick="radio(11, 4, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Never</p>
+</td>
+</tr>
+<tr>
+<td colspan="5" height="15px"></td>
+</tr>
+<tr>
+<td colspan="5">12.)  People around me have become very interested in what I eat and I find myself getting angry at them for pushing food on me.</td>
+</tr>
+<tr>
+<td width="162.5px"><img alt="radio" height="12" id="121" onclick="radio(12, 1, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Often</p>
+</td>
+<td width="162.5px"><img alt="radio" height="12" id="122" onclick="radio(12, 2, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Sometimes</p>
+</td>
+<td width="162.5px"><img alt="radio" height="12" id="123" onclick="radio(12, 3, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Rarely</p>
+</td>
+<td width="100px"><img alt="radio" height="12" id="124" onclick="radio(12, 4, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Never</p>
+</td>
+</tr>
+<tr>
+<td colspan="5" height="15px"></td>
+</tr>
+<tr>
+<td colspan="5">13.)  I have felt more depressed and irritable recently than I used to and/or have been spending increasing amounts of time alone.</td>
+</tr>
+<tr>
+<td width="162.5px"><img alt="radio" height="12" id="131" onclick="radio(13, 1, 2)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">True</p>
+</td>
+<td width="162.5px"><img alt="radio" height="12" id="132" onclick="radio(13, 2, 2)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">False</p>
+</td>
+</tr>
+<tr>
+<td colspan="5" height="15px"></td>
+</tr>
+<tr>
+<td colspan="5">14.)  I keep a lot of my fears about food and eating to myself because I am afraid no one would understand.</td>
+</tr>
+<tr>
+<td width="162.5px"><img alt="radio" height="12" id="141" onclick="radio(14, 1, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Often</p>
+</td>
+<td width="162.5px"><img alt="radio" height="12" id="142" onclick="radio(14, 2, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Sometimes</p>
+</td>
+<td width="162.5px"><img alt="radio" height="12" id="143" onclick="radio(14, 3, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Rarely</p>
+</td>
+<td width="100px"><img alt="radio" height="12" id="144" onclick="radio(14, 4, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Never</p>
+</td>
+</tr>
+<tr>
+<td colspan="5" height="15px"></td>
+</tr>
+<tr>
+<td colspan="5">15.) I enjoy making gourmet, high-calorie meals or treats for others as long as I don't have to eat any myself.</td>
+</tr>
+<tr>
+<td width="162.5px"><img alt="radio" height="12" id="151" onclick="radio(15, 1, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Often</p>
+</td>
+<td width="162.5px"><img alt="radio" height="12" id="152" onclick="radio(15, 2, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Sometimes</p>
+</td>
+<td width="162.5px"><img alt="radio" height="12" id="153" onclick="radio(15, 3, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Rarely</p>
+</td>
+<td width="100px"><img alt="radio" height="12" id="154" onclick="radio(15, 4, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Never</p>
+</td>
+</tr>
+<tr>
+<td colspan="5" height="15px"></td>
+</tr>
+<tr>
+<td colspan="5">16.) The most powerful fear in my life is the fear of gaining weight or becoming fat.</td>
+</tr>
+<tr>
+<td width="162.5px"><img alt="radio" height="12" id="161" onclick="radio(16, 1, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Often</p>
+</td>
+<td width="162.5px"><img alt="radio" height="12" id="162" onclick="radio(16, 2, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Sometimes</p>
+</td>
+<td width="162.5px"><img alt="radio" height="12" id="163" onclick="radio(16, 3, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Rarely</p>
+</td>
+<td width="100px"><img alt="radio" height="12" id="164" onclick="radio(16, 4, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Never</p>
+</td>
+</tr>
+<tr>
+<td colspan="5" height="15px"></td>
+</tr>
+<tr>
+<td colspan="5">17.) I find myself totally absorbed when reading books about dieting,  exercising, and calorie counting to the point that I spend hours  studying them.</td>
+</tr>
+<tr>
+<td width="162.5px"><img alt="radio" height="12" id="171" onclick="radio(17, 1, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Often</p>
+</td>
+<td width="162.5px"><img alt="radio" height="12" id="172" onclick="radio(17, 2, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Sometimes</p>
+</td>
+<td width="162.5px"><img alt="radio" height="12" id="173" onclick="radio(17, 3, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Rarely</p>
+</td>
+<td width="100px"><img alt="radio" height="12" id="174" onclick="radio(17, 4, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Never</p>
+</td>
+</tr>
+<tr>
+<td colspan="5" height="15px"></td>
+</tr>
+<tr>
+<td colspan="5">18.)  I tend to be a perfectionist and am not satisfied with myself unless I do things perfectly.</td>
+</tr>
+<tr>
+<td width="162.5px"><img alt="radio" height="12" id="181" onclick="radio(18, 1, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Often</p>
+</td>
+<td width="162.5px"><img alt="radio" height="12" id="182" onclick="radio(18, 2, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Sometimes</p>
+</td>
+<td width="162.5px"><img alt="radio" height="12" id="183" onclick="radio(18, 3, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Rarely</p>
+</td>
+<td width="100px"><img alt="radio" height="12" id="184" onclick="radio(18, 4, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Never</p>
+</td>
+</tr>
+<tr>
+<td colspan="5" height="15px"></td>
+</tr>
+<tr>
+<td colspan="5">19.)  I go through long periods of time without eating anything (fasting) as a means of weight control.</td>
+</tr>
+<tr>
+<td width="162.5px"><img alt="radio" height="12" id="191" onclick="radio(19, 1, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Often</p>
+</td>
+<td width="162.5px"><img alt="radio" height="12" id="192" onclick="radio(19, 2, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Sometimes</p>
+</td>
+<td width="162.5px"><img alt="radio" height="12" id="193" onclick="radio(19, 3, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Rarely</p>
+</td>
+<td width="100px"><img alt="radio" height="12" id="194" onclick="radio(19, 4, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Never</p>
+</td>
+</tr>
+<tr>
+<td colspan="5" height="15px"></td>
+</tr>
+<tr>
+<td colspan="5">20.) It is important to me to try to be thinner than all of my friends.</td>
+</tr>
+<tr>
+<td width="162.5px"><img alt="radio" height="12" id="201" onclick="radio(20, 1, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Often</p>
+</td>
+<td width="162.5px"><img alt="radio" height="12" id="202" onclick="radio(20, 2, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Sometimes</p>
+</td>
+<td width="162.5px"><img alt="radio" height="12" id="203" onclick="radio(20, 3, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Rarely</p>
+</td>
+<td width="100px"><img alt="radio" height="12" id="204" onclick="radio(20, 4, 4)" src="Images/counseling-center/radio.png" width="12" />
+<p style="margin-top: -16px; margin-left: 15px; font-family: Calibri;">Never</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr>
+<td><input onclick="getResult()" type="button" value="Submit" /></td>
+<td id="output" style="padding-left: 30px;"></td>
+</tr>
+</tbody>
+</table>
+<p>Courtesy of Center for Change, Orem, Utah</p>
+</div>]]></BodyCopy><xPower Type="Component" Component="x24495" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x17637" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

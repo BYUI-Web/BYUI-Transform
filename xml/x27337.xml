@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CollegeDeptHome ID="x27337" Name="Chemistry " Layout="college-dept_home.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Chemistry</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Department of Chemistry</Abstract><xPower Type="List" Name="MainImages" label="Top Image(s) (950px width, 335px height required)" readonly="false" hidden="false" required="false" Expanded="true" List=""><MainImage type="imagefile" readonly="false" hidden="false" required="false" Width="950" Border="" Alignment="" Expanded="true" Height="335" AlternateText="" HSpace="" VSpace="">chemistry/Department Employee banner 950x335.jpg</MainImage><MainImage type="imagefile" readonly="false" hidden="false" required="false" Width="950" Border="" Alignment="" Expanded="true" Height="335" AlternateText="" HSpace="" VSpace="">chemistry/Zaugg Banner_950X335.jpg</MainImage><MainImage type="imagefile" readonly="false" hidden="false" required="false" Width="950" Border="" Alignment="" Expanded="true" Height="335" AlternateText="" HSpace="" VSpace="">chemistry/Hood II 2 Banner_950x335 copy.jpg</MainImage><MainImage type="imagefile" readonly="false" hidden="false" required="false" Width="950" Border="" Alignment="" Expanded="true" Height="335" AlternateText="" HSpace="" VSpace="">chemistry/Girl Banner_950x335.jpg</MainImage><MainImage type="imagefile" readonly="false" hidden="false" required="false" Width="950" Border="" Alignment="" Expanded="true" Height="335" AlternateText="" HSpace="" VSpace="">chemistry/Kendall Banner_950x335.jpg</MainImage><MainImage type="imagefile" readonly="false" hidden="false" required="false" Width="950" Border="" Alignment="" Expanded="true" Height="335" AlternateText="" HSpace="" VSpace="">chemistry/Hood Banner_950x335.jpg</MainImage><MainImage type="imagefile" readonly="false" hidden="false" required="false" Width="950" Border="" Alignment="" Expanded="true" Height="335" AlternateText="" HSpace="" VSpace="">chemistry/Two Girls Banner_950X335.jpg</MainImage></xPower><xPower Type="GroupStart" Name="Main" label="Main Content" readonly="false" hidden="false" required="false" Expanded="true" GroupStart=""><xPower Type="LinkSet" Name="CourseHighlights" label="Course Highlights" readonly="false" hidden="false" required="false" QuerySchemas="" QueryLocationRoots="" Title="" Values="" Expanded="false"><Exports></Exports></xPower><xPower Type="LinkSet" Name="FeaturedStudent" label="Featured Student" readonly="false" hidden="false" required="false" QuerySchemas="" QueryLocationRoots="" Title="Research at BYU-Idaho" Values="x96643|x96644" Expanded="true"><Exports></Exports></xPower><FullText type="boolean" label="Check for text body to use the full width of the page." readonly="false" hidden="false" required="false">false</FullText><TopText type="boolean" label="Check to put text body above Highlighted News" readonly="false" hidden="false" required="false">true</TopText><BodyCopy type="dhtml" label="Optional Content" readonly="false" hidden="false" required="false" Height=""><![CDATA[<p>The world is in a constant state of change because of technological advances in science.&nbsp; To keep up with this growth and change, the Chemistry faculty members at BYU-Idaho are committed to continually improve and expand scientific education.&nbsp; Our faculty members are excited to provide teaching and learning opportunities; to develop talents and moral character, not only for future scientists, but also for non-science majors who are influenced by advances in science technology.&nbsp; Small class sizes and faculty focused upon teaching make studying chemistry at BYU-Idaho a unique and rewarding experience.&nbsp;&nbsp;</p>
+<p style="text-align: center;"><a href="x68908.xml">View video about the Chemistry Department at BYU-Idaho</a></p>
+<p style="text-align: center;"><a href="https://video.byui.edu/media/Pres_Hinckley_on_Chemistry/0_2slxnpic">Video: President Hinckley on Chemistry</a></p>
+<style><!--
+#container710{
+                float:left;
+                overflow:hidden;           
+            }
+            .bottomboxes{
+                border-radius: 4px;
+                width: 218px;
+                height: 200px;
+                box-sizing: border-box;
+                background-color: #f2f2f2;
+                border: thin solid #e0e0e0;
+                float: left;
+                margin:5px;
+            }
+            .middle{
+                margin:5px 12px;
+            }
+            .bottomboxheader{
+                width: 100%; 
+                background-color: #eaeaea;
+                margin-right: 20px; 
+                padding-top: 5px; 
+                border-bottom: solid 1px #e0e0e0;
+            }
+            .bottomboxheadertext{
+                margin: 0px 0px 5px 15px;
+                font-size: large;
+            }
+            .bottomboxbullettext{
+                font-size: .9em;
+                margin-left: 10px; 
+                margin-top: 20px; 
+                padding-left: 5px;
+                margin-bottom: 10px;
+                color: #60686e;
+            }
+            .bottomboxbullettext a{
+                text-decoration: none;
+                color: #60686e;
+            }
+            .bottomboxbullettext a:hover{
+                color:#056CB6;
+            }
+--></style>]]></BodyCopy></xPower><xPower Type="GroupStart" Name="FaceBook" label="Facebook Integration" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false"></fbookDisplayed></xPower><BannerAd type="multiselect" label="Rotating Ads" readonly="false" hidden="false" required="false" MaxChoices="" PageSize="10" Query_PageType="BannerAdComponent" Query_LocationRoot="x32" Query_SelectedFields="@Name|@ID" AdditionalFilter_XPathQuery=""></BannerAd><xPower Type="GroupStart" Name="QuickLinksGroup" label="Quick Links Group" readonly="false" hidden="false" required="false" Expanded="true" GroupStart=""><xPower Type="Component" Name="QuickLinks1" label="Column 1" readonly="false" hidden="false" required="false" Component="x44925" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Name="QuickLinks2" label="Column 2" readonly="false" hidden="false" required="false" Component="x44929" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Name="QuickLinks3" label="Column 3" readonly="false" hidden="false" required="false" Component="x44930" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" Name="DeptEvents" label="Define Your Events Folder" readonly="false" hidden="false" required="false" Expanded="false" Navigation="Children" GenerationOrder="down" StartPage="x8082" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Navigation" Name="DeptAds" label="Define Your Ads Folder" readonly="false" hidden="false" required="false" Expanded="false" Navigation="Children" GenerationOrder="down" StartPage="" MaxNodes="" MaxDepth="" Query=""><Exports>&lt;Export&gt;&lt;Name&gt;Caption&lt;/Name&gt;&lt;Value&gt;/*/Caption&lt;/Value&gt;&lt;/Export&gt;</Exports></xPower><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List=""><xPower Type="Component" Component="" Name="xPower" readonly="false" hidden="false" required="false" CompTypes="" Expanded="false"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x1892" CompTypes="SiteControl" Expanded="false"/></CollegeDeptHome>

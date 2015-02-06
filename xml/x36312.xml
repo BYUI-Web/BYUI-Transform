@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?><Content ID="x36312" Name="Jobs" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Community Connection's Job Opportunities</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Please click either of the link or pictures below to follow instructions and apply for counselor and staff positions.</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false" /><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false" /><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style type="text/css"><!--
+.list-content h3, .list-content h3 a {
+   font-size: large !important;
+   text-decoration: none !important;
+}
+.list-content h3 a:hover {
+color: #666;
+}
+.list-content
+{
+  
+padding: 6px;
+}
+.table-listing {
+   width: 100%;
+}
+.table-listing tr {
+   padding: 15px !important;
+   height: 164px;
+}
+.image-column {
+   width: 170px;
+}
+.image-column img {
+   box-shadow: 0 1px 5px 0 #4a4a4a;
+}
+.image-column img:hover {
+   box-shadow: 0 1px 2px 0 #4a4a4a;
+}
+.content-column {
+   vertical-align: middle !important;
+}
+--></style>
+<table class="table-listing">
+<tbody>
+<tr>
+<td class="image-column"><a href="x28834.xml"><img src="images/community-connections/afy.jpg" /></a></td>
+<td class="content-column">
+<div class="list-content">
+<h3><a href="x28834.xml">Adventure For Youth (AFY)</a></h3>
+<p>Thank you for your interest in becoming an AFY Counselor. We are no  longer accepting applications for the summer of 2012. Please check the  website next January for 2013 summer employment.</p>
+</div>
+</td>
+</tr>
+<tr>
+<td class="image-column"><a href="x34719.xml"><img src="Images/community-connections/byouthspec.png" /></a></td>
+<td class="content-column">
+<div class="list-content">
+<h3><a href="x34719.xml">Boise Youth Spectacular</a></h3>
+<p>Please view our BYS page for Counselor options</p>
+<p class="list-desc"> </p>
+<a href="x30119.xml"></a></div>
+</td>
+</tr>
+<tr>
+<td class="image-column"><a href="x32754.xml"><img src="images/community-connections/camps.jpg" /></a></td>
+<td class="content-column">
+<div class="list-content">
+<h3><a href="x28838.xml">Experience Camps</a></h3>
+<p>Please apply by sending all application materials to Community   Connections at BYU-Idaho. Download and follow the instructions for the <a href="Documents/community-connections/yp_tc_application_staff.pdf">Theatre Camp Staff Application</a> .   Only applicants that have turned in a cover letter, resume,   application, two reference letters, and two letters of recommendation    will be considered for interviews.</p>
+</div>
+</td>
+</tr>
+<tr>
+<td class="image-column"><a href="Documents/community-connections/OYA/Generic_Summer_Staff_Application1.pdf"><img src="images/community-connections/oya.jpg" /></a></td>
+<td class="content-column">
+<div class="list-content">
+<h3><a href="Documents/community-connections/OYA/Generic_Summer_Staff_Application1.pdf">Outdoor Youth Adventure (OYA)</a></h3>
+<p>Thank you for your interest in becoming an OYA Counselor. We are no   longer accepting applications for the summer of 2012. Please check the   website next January for 2013 summer employment.</p>
+</div>
+</td>
+</tr>
+<tr>
+<td class="image-column"><a href="x28836.xml"><img src="images/community-connections/yfe.png" /></a></td>
+<td class="content-column">
+<div class="list-content">
+<h3><a href="x28836.xml">Youth For Excellence (YFE)</a></h3>
+<p>Staff positions coming soon!</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Component" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false" /></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" /><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" /><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" /></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="x28840" CompTypes="HighlightedLinksComponent" /><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet" /></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query="" /><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x28802" CompTypes="SiteControl" /></Content>

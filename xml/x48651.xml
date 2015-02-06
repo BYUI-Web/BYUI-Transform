@@ -1,0 +1,249 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x48651" Name="news_of_note_style.css" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">news_of_note_style.css</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">news_of_note_style.css</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">/*Alumni Magazine Fall 2009 Article Style */
+#page_layout2_content #title {
+	font-family: Arial, Helvetica, sans-serif;
+	color:#9c9c9c;
+	font-size:12px;
+	font-style:italic;
+	font-weight:normal;
+	display:block;
+	padding-bottom:10px;
+}
+#page_layout2_content {
+	margin-top:0px;
+}
+/*Page Title*/
+#page_layout2_content h1 {
+	color: rgb(42, 40, 39);
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	line-height: 25px;
+	letter-spacing: .25px;
+}
+/*News Item Image*/
+#page_layout2_content img {
+	padding-top:20px;
+	padding-bottom:20px;
+}
+/*Class Notes date title*/
+.nofnDate {
+	padding-top: 5px;	
+	font-family: Helvetica, Arial, sans-serif;
+	color:#2A2827!important;
+	font-size:22px;
+	border-bottom: 1px dotted #888888!important;
+}
+/*News item title*/
+#page_layout2_content h3 {
+	font-family: Helvetica, Arial, sans-serif;
+	color:#2a2827;
+	font-size:16px;
+}
+/*News item subtitle*/
+#page_layout2_content h4 {
+	font-family: Helvetica, Arial, sans-serif;
+	color:#888;
+	font-size:12px;
+	padding-bottom:10px;
+}
+/*Article Body Paragraph Style*/
+#page_layout2_content p {
+	font-family: Georgia, Times, serif;
+	color:#2a2827;
+	font-size:12px;
+	padding-bottom:10px;
+}
+/*Article Author Position Title*/
+#page_layout2_content blockquote {
+	font-family: Georgia, Times, serif;
+	color:#2a2827;
+	font-size:12px;
+	font-style:italic;
+}
+/*Used for headings of article sections*/
+#page_layout2_content .section_heading {
+	font-family: Arial, Helvetica, sans-serif;
+	display:block;
+	font-size:12px;
+	font-weight:bold;
+	padding-top:20px;
+}
+/*Used for pull-quotes*/
+#page_layout2_content .pull_quote {
+	display:block;
+	font-family: Georgia, Times, serif;
+	color:#9c9c9c;
+	font-size:16px;
+	font-style:italic;
+	border-top:solid 1px #2a2827;
+	border-bottom:solid 1px #2a2827;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+#page_layout2_content .first_news_item {
+	padding-bottom:20px;
+	border-bottom: dotted 1px #888; 
+}
+#page_layout2_content .news_item {
+	padding-top:10px;
+	padding-bottom:20px;
+	border-bottom: dotted 1px #888; 
+}
+#last_news_item_top {
+	width:213px;
+	height:32px;
+	background-image:url('http://www.byui.edu/magazine/fall2010/departments/on_campus/nav/topnav.jpg');
+	background-repeat:no-repeat;
+}
+#last_news_item_top p{
+	text-align:center;
+	color:#ffffff !important;
+	font-size:18px !important;
+	font-family:helvetica !important;
+}
+#last_news_item_mid {
+	width:213px;
+	padding-bottom:25px;
+	background-image:url('http://www.byui.edu/magazine/fall2010/departments/on_campus/nav/middlenav.jpg');
+	background-repeat:repeat-y;
+}
+#last_news_item_bottom {
+	width:213px;
+	height:22px;
+	background-image:url('http://www.byui.edu/magazine/fall2010/departments/on_campus/nav/bottomnav.jpg');
+	background-repeat:no-repeat;
+}
+#last_news_item {
+	padding:0px 10px 3px 10px;	
+	background-image:#e0e0e0;
+	float:right;
+	margin:20px -95px 0px 10px;	
+	*margin-left:0px;
+	width:213px;
+}
+#last_news_item p {
+	padding:10px;
+}
+
+#last_news_item a {
+	color: #555 !important;
+	text-decoration: none !important;
+	font-family:helvetica;
+}
+
+#last_news_item a:hover {
+	text-decoration:underline !important;
+}
+ 
+#last_news_item ul li{
+	list-style-type:none;
+	display: inline;
+}
+
+#page_layout2_content .date_divider {
+	padding:10px 0 0px 10px;
+	background-color: #ddd;
+	border-top: dotted 1px #888;
+	border-bottom: dotted 1px #888; 
+}
+
+#page_layout2_content p .date_divider_text {
+	padding:0 !important;
+	text-align: center!important;
+}
+
+#media_button_container{
+	border-top: dotted 1px #888;
+	border-bottom: dotted 1px #888;
+}
+#media_button_container img {
+	margin-left:30px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+#media_button_container p {
+	font-size:10px;
+}
+#media_button_container .left{
+	float:left;
+	width:15%;
+}
+#media_button_container .right{
+	float:left;
+	width:85%;
+}
+#media_button_container .inner_container{
+	padding-top:10px;
+	padding-bottom:50px;
+}
+#link_list {
+	list-style-type:none!important;
+	margin-left: .6em!important;
+}
+.videoList li a{
+	height: 10px;
+	width: 60px;
+	float: left;
+}
+ul.videoList {
+	list-style: none;
+	padding-bottom: 25px;
+}
+.videoList li {
+	display: inline;
+}
+#letter_list li {
+	list-style-type: lower-alpha;
+	}
+#type_A #main_body {
+	background-image: url(/magazine/fall2009/features/images/1pixwhite3.gif);
+	background-repeat: repeat-y;
+}
+#left_column a:hover {
+color:#00254A;
+text-decoration:none !important;
+}
+.linkClm {
+	width:50% !important;
+	margin:0 0 0 25px !important;
+	padding:10px 0 0 0 !important;
+	color:#458abc !important;
+	font-size:14px;
+	float:left;
+}
+.linkClm a {
+	color:#458abc !important;
+}
+.linkClm a:hover {
+	text-decoration:underline !important;
+}
+
+.linkClm2 {
+	width:30% !important;
+	margin:0 0 0 25px !important;
+	padding:10px 0 0 0 !important;
+	color:#458abc !important;
+	font-size:14px;
+	float:left;
+}
+.linkClm2 a {
+	color:#458abc !important;
+}
+.linkClm2 a:hover {
+	text-decoration:underline !important;
+}
+
+#links_header{
+	color: #666 !important;
+	font-size: 13px !important;
+	margin-right:-32px !important;
+	float:right !important;
+}
+}
+#link_list li {
+	list-style-type:none!important;
+}
+</ESContent></EmptyShell>

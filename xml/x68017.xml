@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x68017" Name="article_style.css" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">article_style.css</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">article_style.css</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">/*Alumni Magazine Fall 2009 Article Style */
+
+/*Article Title*/
+#page_layout2_content h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	color:#2a2827;
+	font-size:24px;
+	padding-top:30px;
+}
+/*Article Author*/
+#page_layout2_content h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	color:#9c9c9c;
+	font-size:14px;
+}
+/*Article Author Position Title*/
+#page_layout2_content #title {
+	font-family: Arial, Helvetica, sans-serif;
+	color:#9c9c9c;
+	font-size:12px;
+	font-style:italic;
+	font-weight:normal;
+	display:block;
+	padding-bottom:10px;
+}
+/*Article Author Position Title*/
+#page_layout2_content p {
+	font-family: Georgia, Times, serif;
+	color:#2a2827;
+	font-size:12px;
+	padding-bottom:10px;
+}
+/*Article Author Position Title*/
+#page_layout2_content blockquote {
+	font-family: Georgia, Times, serif;
+	color:#2a2827;
+	font-size:12px;
+	font-style:italic;
+}
+/*Used for headings of article sections*/
+#page_layout2_content .section_heading {
+	font-family: Arial, Helvetica, sans-serif;
+	display:block;
+	font-size:12px;
+	font-weight:bold;
+	padding-top:20px;
+}
+/*Used for pull-quotes*/
+#page_layout2_content .pull_quote {
+	display:block;
+	font-family: Georgia, Times, serif;
+	color:#9c9c9c;
+	font-size:16px;
+	font-style:italic;
+	border-top:solid 1px #2a2827;
+	border-bottom:solid 1px #2a2827;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+</ESContent></EmptyShell>

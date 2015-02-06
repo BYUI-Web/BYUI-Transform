@@ -1,0 +1,1006 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<Content ID="x51285" Name="Schedule - Old" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Schedule - Old</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Schedule</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<div class="style-container">[x50728][x51144] <link href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" rel="stylesheet" /></div>
+<style><!--
+.type h2 {
+	margin-bottom: 10px;
+	padding: 0;
+	background-color: #fff;
+	font-size: 1.3em;
+	letter-spacing: 1pt;
+	color: #0f6cb6;
+	display: block;
+}
+.type table {
+	width: 100%;
+	margin-bottom: 0;
+}
+
+tr.hour-divider td {
+	border-top: 1px solid #000;
+}
+
+/* INTERFACE STYLE */
+tr.multi {
+	background-color: ;
+}
+
+tr.repeat {
+	background-color: ;
+}
+
+tr.correlated {
+	background-color: ;
+}
+
+td.hour {
+	/* Make the hour cell narrow */
+	width: 50px;
+	text-align: right;
+}
+
+/* Tabs */
+
+#main-tabs,
+#glance-days,
+#classes-days
+{
+	padding: 0; 
+	background: none; 
+	border: none; 
+}
+
+#main-tabs .ui-tabs-nav {
+	padding-left: 0;
+	background: transparent;
+	border-width: 0 0 1px 0;
+	border-color: #0f6cb6;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+}
+
+#glance-days .ui-tabs-nav,
+#classes-days .ui-tabs-nav
+{
+	border-color: #ffcf06;
+}
+
+#main-tabs .ui-tabs-panel {
+	border-width: 0 1px 1px 1px;
+	border-color: #0f6cb6;
+}
+
+#glance-days .ui-tabs-panel,
+#classes-days .ui-tabs-panel
+{
+	border: 1px solid #ffcf06;
+	border-top: none;
+	background-color: #fffcf1;
+}
+
+/* Override jQuery tabs default CSS */
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default
+{
+	border: 1px solid #000;
+	background: #fff;
+	color: #000;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active
+{
+	border: none;
+	background: #0f6cb6;
+}
+
+#glance-days .ui-state-active,
+#glance-days .ui-widget-content .ui-state-active,
+#glance-days .ui-widget-header .ui-state-active,
+#classes-days .ui-state-active,
+#classes-days .ui-widget-content .ui-state-active,
+#classes-days .ui-widget-header .ui-state-active
+{
+	background: #ffcf06;
+}
+
+#glance-days .ui-state-active a:link,
+#glance-days .ui-widget-content .ui-state-active a:link,
+#glance-days .ui-widget-header .ui-state-active a:link,
+#glance-days .ui-state-active a:visited,
+#glance-days .ui-widget-content .ui-state-active a:visited,
+#glance-days .ui-widget-header .ui-state-active a:visited,
+#classes-days .ui-state-active a:link,
+#classes-days .ui-widget-content .ui-state-active a:link,
+#classes-days .ui-widget-header .ui-state-active a:link,
+#classes-days .ui-state-active a:visited,
+#classes-days .ui-widget-content .ui-state-active a:visited,
+#classes-days .ui-widget-header .ui-state-active a:visited
+{
+	color: #000;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+	background-color: #0f6cb6;
+}
+
+.ui-state-default a,
+.ui-state-default a:link,
+.ui-state-default a:visited
+{
+	color: #000;
+}
+
+.ui-corner-top {
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+}
+
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-right,
+.ui-corner-br
+{
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+#main-tabs .ui-state-active a,
+#main-tabs .ui-state-active a:link,
+#glance-days .ui-state-active a,
+#glance-days .ui-state-active a:link
+{
+	color: #fff;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active
+{
+	/* Overrides jQuery tabs default CSS */
+	border: none;
+	background: #0f6cb6;
+}
+
+/* Teacher thumbnails */
+
+div.teacher-thumbnail {
+	display: inline-block;
+	width: 220px;
+	padding: 8px;
+	border: 1px solid #888;
+	background-color: #fffcf1;
+	cursor: pointer;
+ffloat: left;
+}
+
+div.teacher-thumbnail:hover {
+	background-color: #eee;
+}
+
+div.teacher-thumbnail > div.pre-picture {
+	width: 40px;
+	height: 40px;
+	float: left;
+font-size: 0.7em;
+}
+
+div.teacher-thumbnail:hover > div.pre-picture {
+	opacity: 0.75;
+	filter: alpha(opacity=75); /* works in IE8 */
+}
+
+div.teacher-thumbnail > p {
+	margin: 0 0 4px 8px;
+	width: 77%;
+	font-size: 0.85em;
+	font-family: "Century Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	float: left;
+}
+
+div.teacher-thumbnail:hover > p {
+	color: #555;
+}
+
+/* Teacher information boxes */
+
+div.teacher-info-content {
+	border: 1px solid #000;
+	width: 380px;
+	min-height: 260px;
+	position: relative;
+	font-size: 0.8em;
+}
+
+div.teacher-picture {
+	width: 90px;
+	height: 90px;
+	padding: 0;
+	position: absolute;
+	top: 12px;
+	left: 12px;
+}
+
+div.teacher-picture,
+div.teacher-thumbnail > div.pre-picture /* see class on teacher thumbnails section */
+{
+	border: 1px solid #999;
+	background-color: #ffcf06;
+}
+
+div.teacher-picture > p {
+	/* Just for the placeholder text */
+	margin-top: 20px;
+	color: #000;
+	text-align: center;
+}
+
+div.teacher-info-text {
+	width: 250px;
+	position: absolute;
+	top: 12px;
+	right: 0;
+}
+
+div.teacher-info-text > h3 {
+	margin: 0;
+	color: #0f6cb6;
+	font-weight: bold;
+}
+
+div.teacher-info-text > p {
+	margin-top: 8px;
+}
+
+.ui-dialog,
+table
+{
+	-webkit-box-shadow: 2px 2px 3px #888;
+	-moz-box-shadow: 2px 2px 3px #888;
+	box-shadow: 2px 2px 3px #888;
+}
+
+.ui-dialog {
+	padding: 0;
+	border-color: #000;
+}
+
+.ui-dialog-titlebar {
+	background: #ffcf06;
+	border: none;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a {
+	cursor: default;
+}
+
+.ui-corner-all {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+	width: 25px;
+	height: 23px;
+	border: none;
+	background-color: #ffcf06;
+}
+
+.ui-state-default .ui-icon {
+	/* The close window icon */
+	width: 24px;
+	height: 24px;
+	top: 5px;
+	left: 10px;
+	background: url("Images/university-relations/education-week/exit-button.png") no-repeat 0 0;
+}
+
+.ui-state-default .ui-icon:hover {
+	background: url("Images/university-relations/education-week/exit-button.png") no-repeat 0 -25px;
+}
+--></style>
+<!--
+<p><a href="#" style="float: right; clear: left;" title="This link doesn't do anything yet, but hopefully it will in the near future.">Print</a></p>
+-->
+<p></p>
+<!-- BEGIN SCHEDULE DISPLAY -->
+<div class="main-title-container">
+<h1>Schedule</h1>
+</div>
+<div id="main-tabs" style="text-align: center;">
+<ul>
+<li><a href="#main-tabs-1"><strong>AT A GLANCE</strong></a></li>
+<li><a href="#main-tabs-2"><strong>CLASSES</strong></a></li>
+<!--<li><a href="#main-tabs-3"><strong>TEACHERS</strong></a></li>--></ul>
+<div id="main-tabs-1">
+<h2>At a Glance</h2>
+<div id="glance-days">
+<ul>
+<li><a href="#glance-days-1">Thursday</a></li>
+<li><a href="#glance-days-2">Friday</a></li>
+<li><a href="#glance-days-3">Saturday</a></li>
+</ul>
+<!-- THURSDAY -->
+<div id="glance-days-1">
+<h3>Thursday</h3>
+<table>
+<tbody>
+<tr><th>Time</th><th>Event</th><!--
+<th>Activity</th><th>Alumni</th>
+--></tr>
+<tr>
+<td class="hour">2 p.m.</td>
+<td>Welcome and Orientation</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">3 p.m.</td>
+<td>Classes</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">4 p.m.</td>
+<td>Classes</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">5 p.m.</td>
+<td>Family Picnic</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">6 p.m.</td>
+<td>Campus Tours</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">7 p.m.</td>
+<td>Opening Event</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">8 p.m.</td>
+<td>Alumni Reunion Open House</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+</tbody>
+</table>
+</div>
+<!-- FRIDAY -->
+<div id="glance-days-2">
+<h3>Friday</h3>
+<table>
+<tbody>
+<tr><th>Time</th><th>Event</th><!--
+<th>Activity</th><th>Alumni</th>
+--></tr>
+<tr>
+<td class="hour">7 a.m.</td>
+<td>Fitness Classes</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">9 a.m.</td>
+<td>Classes</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">10 a.m.</td>
+<td>Devotional / Interactive Story Time</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">11 a.m.</td>
+<td>Classes</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">12 p.m.</td>
+<td>Lunch Box Discussions</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">1 p.m.</td>
+<td>Classes</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">2 p.m.</td>
+<td>Classes</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">3 p.m.</td>
+<td>Classes</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">4 p.m.</td>
+<td>Classes</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">5 p.m.</td>
+<td>Alumni Reunion Banquets</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">7 p.m.</td>
+<td>Center Stage Concert</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">8 p.m.</td>
+<td>Youth Dance / Family Dance</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+</tbody>
+</table>
+</div>
+<!-- SATURDAY -->
+<div id="glance-days-3">
+<h3>Saturday</h3>
+<table>
+<tbody>
+<tr><th>Time</th><th>Event</th><!--
+<th>Activity</th><th>Alumni</th>
+--></tr>
+<tr>
+<td class="hour">7 a.m.</td>
+<td>Fitness Classes</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">10 a.m.</td>
+<td>Devotional / Interactive Story Time</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">11 a.m.</td>
+<td>Celebration of Learning</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">12 p.m.</td>
+<td>Lunch / Alumni Reunion Luncheons / Box Lunch Discussions</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">1 p.m.</td>
+<td>Classes</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">2 p.m.</td>
+<td>Classes</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">3 p.m.</td>
+<td>Classes</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+</tbody>
+</table>
+</div>
+<!-- end glance-days-3 --></div>
+<!-- end glance-days --></div>
+<!-- end tabs-1 -->
+<div id="main-tabs-2">
+<h2>Classes</h2>
+<!--
+<p style="margin-left: 15px; float: right; cursor: pointer;"><a href="#">View Youth classes</a></p>
+<p style="float: right; cursor: pointer;"><a href="#">View all classes</a></p>
+-->
+<div id="classes-days">
+<ul>
+<li><a href="#classes-days-1">Thursday</a></li>
+<li><a href="#classes-days-2">Friday</a></li>
+<li><a href="#classes-days-3">Saturday</a></li>
+</ul>
+<div id="classes-days-1">
+<h3>Thursday</h3>
+<table>
+<tbody>
+<tr><th>Time</th><th>Class</th></tr>
+<tr class="repeat">
+<td class="hour" rowspan="10">3 p.m.</td>
+<td><em><strong>Creating Multi-Generational Emotional Wealth </strong></em><br /><strong>Teacher: </strong>Amanda &nbsp;Buswell <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><em><strong>Don't Worry Be Happy!: Exercising Faith in Marriage</strong></em> <br /><strong>Teacher:</strong>&nbsp;Byron Webster &nbsp;<br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><em><strong>Create Spiritual Power in Daily Life</strong></em> <br /><strong>Teacher:</strong>&nbsp;Connie Sokol <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><em><strong>Spicy salsa, mirror mirror on the wall, and ME!</strong> </em><br /><strong>Teacher:</strong>&nbsp;Gaylene Bean <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><em><strong>How Can I Strengthen My Relationship With My Spouse And Other Family Members?</strong> </em><br /><strong>Teacher:</strong>&nbsp;Matthew Fackrell <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>The Family: God's Perspective</em></strong><br /><strong>Teacher:</strong>&nbsp;Phil Allred <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><em><strong>A Successful Mission &ndash; What We Can Do To Help Our Youth Succeed &nbsp;</strong></em><br /><strong>Teacher:</strong>Richard Smith <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Isaiah&rsquo;s vision of Latter-day temple worship</em></strong> <br /><strong>Teacher:</strong> Ross Baron <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Starting Your Marriage Off Right</em></strong> <br /><strong>Teacher:</strong> Russell Gaede <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Learning by the Spirit</em></strong> <br /><strong>Teacher:</strong> Troy Virgin <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr class="correlated hour-divider">
+<td class="hour" rowspan="12">4 p.m.</td>
+<td><strong><em>Finances: being a good steward of your money</em></strong>&nbsp;<br /><strong>Teacher:</strong> Brad Waddoups<br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Preparing teens for life beyond high school</em></strong> <br /><strong>Teacher:</strong> Brian Ashton <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Conversion</em></strong> <br /><strong>Teacher:</strong> Ed Sexton <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Making My Home a Refuge from the Storm</em></strong> <br /><strong>Teacher:</strong> John Parker <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><em><strong>The New Youth Curriculum: Insights and understanding</strong> </em><br /><strong>Teacher:</strong>&nbsp;Kelly &nbsp;Duffin <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><em><strong>Understanding our Eternal Identity</strong> </em><br /><strong>Teacher:</strong>&nbsp;Mark Seare <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Pending</em></strong><br /><strong>Teacher:</strong>&nbsp;Mark Seare <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><em><strong>Three Events of the High Middle Ages Which Made Your Life the Way it is Today</strong> </em><br /><strong>Teacher:</strong>&nbsp;Rick Davis <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Pending</em></strong><br /><strong>Teacher:</strong>&nbsp;Ron Anderson <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><em><strong>Wise Men and Women Still Search for the Savior: Luke 2</strong> </em><br /><strong>Teacher:</strong>&nbsp;Ryan &nbsp;Maxfield <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><em><strong>Date Night Dancin</strong></em>g <br /><strong>Teacher:</strong>&nbsp;Shawn Fisher <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><em><strong>How Do I Get From Here to Happily Ever After?</strong></em> <br /><strong>Teacher:</strong>&nbsp;Vickey Pahnkey Taylor <br /><strong>Location:</strong> TBA</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="classes-days-2">
+<h3>Friday</h3>
+<table>
+<tbody>
+<tr><th>Time</th><th>Class</th></tr>
+<tr>
+<td class="hour" rowspan="4">7 a.m.</td>
+<td><strong><em>Turbo Kick</em></strong> <br /><strong>Teacher:</strong> Carissa Stewart <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Water Aerobics</em></strong> <br /><strong>Teacher:</strong> Jennifer Brewer <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Strength Training</em></strong> <br /><strong>Teacher:</strong> Liz Stephenson <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Zumba Fitness</em></strong> <br /><strong>Teacher:</strong> Stephanie Fay <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr class="hour-divider">
+<td class="hour" rowspan="12">9 a.m.</td>
+<td><strong><em>Finding Peace in a World of Conflict and Confusion</em></strong> <br /><strong>Teacher:</strong> Art Rascon <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Charity and the Atonement</em></strong> <br /><strong>Teacher:</strong> Bill Riggins <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Pending</em></strong><br /><strong>Teacher:</strong>&nbsp;Ed Malstorm&nbsp;<br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Conversion</em></strong><br /><strong>Teacher:</strong>&nbsp;Ed Sexton<br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>What Books To Encourage Youth To Read And How To Talk To Them About What They Are Reading.</em></strong> <br /><strong>Teacher:</strong> Elaine Hawker <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Meet, Seat, and Greet</em></strong> <br /><strong>Teacher:</strong> Janie Fisher <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>The Necessity of Play</em></strong> <br /><strong>Teacher:</strong> Kari Archibald <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Why Weepest Thou</em></strong> <br /><strong>Teacher:</strong> Michael Cannon <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Careers and work: a path to happiness and joy</em></strong> <br /><strong>Teacher:</strong> Rob Ahrendsen <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Healthy Family Meals on a Budget</em></strong> <br /><strong>Teacher:</strong> Robyn Whitworth <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>The Road to Emmaus: Luke 24</em></strong> <br /><strong>Teacher:</strong> Ryan Maxfield<br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>&ldquo;Out of the Best Books&rdquo;: Navigating the World of Young Adult Literature</em></strong> <br /><strong>Teacher:</strong> Suzette Gee <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr class="hour-divider">
+<td class="hour" rowspan="10">11 a.m.</td>
+<td><strong><em>Becoming a Better Learner</em></strong> <br /><strong>Teacher:</strong> Arlen Wilcock <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Choose the Better Part</em></strong> <br /><strong>Teacher:</strong> Blaine Maxfield <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>How Digital Tools Can Help Establish Zion in our Families, Church Units, and Communities</em></strong> <br /><strong>Teacher:</strong> Brian Sevy <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>What Scholarly Research Can Tell Us About The Jaredites</em></strong> <br /><strong>Teacher:</strong> Daris Howard <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Pending</em></strong> <br /><strong>Teacher:</strong> Donald Parry <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Using Social Media to Share the Gospel</em></strong> <br /><strong>Teacher:</strong> John Dye <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>The Most Important Challenges of Life</em></strong> <br /><strong>Teacher:</strong> Larry Gibbons <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Beloved Emma</em></strong> <br /><strong>Teacher:</strong> Lori Woodland <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Bringing the Scriptures to Life (What if the Scriptures were a Movie?)</em></strong> <br /><strong>Teacher:</strong> Robert Wahlquist <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Handling the Mother Load: Learning to See Parenthood as a Process and not an Event</em></strong> <br /><strong>Teacher:</strong> Sarah D'Evegnee <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr class="hour-divider">
+<td class="hour" rowspan="11">1 p.m.</td>
+<td><strong><em>What Will Be Our Footprint? Stories of the Power of Example</em></strong> <br /><strong>Teacher:</strong> Art Rascon <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Defending Our Families Against Digital Destruction</em></strong> <br /><strong>Teacher:</strong> Blaine Maxfield <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Searching for Truth where Science and Religion Meet</em></strong> <br /><strong>Teacher:</strong> Dan Moore <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>The Weapon of Love</em></strong> <br /><strong>Teacher:</strong> David Pulsipher <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>BYU-Idaho Online Opportunities</em></strong> <br /><strong>Teacher:</strong> JD Griffith <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Abraham and Sarah: A Love Story</em></strong> <br /><strong>Teacher:</strong> Jeff Chapman <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Behold, here is the agency of man&hellip;.</em></strong> <br /><strong>Teacher:</strong> Kevin Packard <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>His Grace is Enough</em></strong> <br /><strong>Teacher:</strong> Mindy Davis <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>You Can Get Used To Anything</em></strong> <br /><strong>Teacher:</strong> Richard Woodland <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Healthy Family Meals on a Budget</em></strong> <br /><strong>Teacher:</strong> Robyn Whitworth <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>And Having Done All, To Stand</em></strong> <br /><strong>Teacher:</strong> Ty Tanner <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr class="hour-divider">
+<td class="hour" rowspan="12">2 p.m.</td>
+<td><strong><em>Finances: being a good steward of your money</em></strong> <br /><strong>Teacher:</strong> Brad Waddoups <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Stress and Adversity: Where is the Life Preserver?</em></strong> <br /><strong>Teacher:</strong> Carleen Tanner <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Christ, The Ultimate Healer (Through Music and the Spoken Word)</em></strong> <br /><strong>Teacher:</strong> Debbie Bastian <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Pending</em></strong> <br /><strong>Teacher:</strong> Devin Shaum <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Small decisions lead to big consequences</em></strong> <br /><strong>Teacher:</strong> Jason Meldrum <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>The 1856 Handcart Rescue Revisited - A Reminder of Our Responsibility Today</em></strong> <br /><strong>Teacher:</strong> Jeff Meservy <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Using Social Media to Share the Gospel</em></strong> <br /><strong>Teacher:</strong> John Dye <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>The Temple: A House of Learning</em></strong> <br /><strong>Teacher:</strong> Kent Jolley <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>What I wish I had known about Child Development before I became a Parent (part 1)!</em></strong> <br /><strong>Teacher:</strong> Kynda Roberts <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>The Most Important Challenges of Life</em></strong> <br /><strong>Teacher:</strong> Larry Gibbons <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Called and Clueless: Helps for Members with Music Callings</em></strong> <br /><strong>Teacher:</strong> Michelle Willis <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>The Power of Networking with LinkedIn</em></strong> <br /><strong>Teacher:</strong> Steve Davis <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr class="hour-divider">
+<td class="hour" rowspan="10">3 p.m.</td>
+<td><strong><em>Creating Multi-Generational Emotional Wealth</em></strong> <br /><strong>Teacher:</strong> Amanda Buswell <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Don&rsquo;t Worry Be Happy!: Exercising Faith in Marriage</em></strong> <br /><strong>Teacher:</strong> Byron Webster <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Feel Fit and Fabulous, Inside and Out</em></strong> <br /><strong>Teacher:</strong> Connie Sokol <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Communication Essentials for Missionaries and Families: Exceptional, indispensable, quintessential, fundamentally monumental skills!</em></strong> <br /><strong>Teacher:</strong> Gaylene Bean <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>How Can We Avoid The Evils That Threaten Our Family?</em></strong> <br /><strong>Teacher:</strong> Matthew Fackrell <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>The Family: God&rsquo;s Perspective</em></strong> <br /><strong>Teacher:</strong> Phil Allred <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>A Successful Mission &ndash; What We Can Do To Help Our Youth Succeed</em></strong> <br /><strong>Teacher:</strong> Richard Smith <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Types and symbols from the Old Testament</em></strong> <br /><strong>Teacher:</strong> Ross Baron <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Keeping the Flame Alive in your Marriage</em></strong> <br /><strong>Teacher:</strong> Russell Gaede <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Learning by the Spirit</em></strong> <br /><strong>Teacher:</strong> Troy Virgin <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr class="multi hour-divider">
+<td class="hour" rowspan="11">4 p.m.</td>
+<td><strong><em>Becoming A H.O.L.Y. Missionary Now</em></strong> <br /><strong>Teacher:</strong> David Christensen <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Pending</em></strong> <br /><strong>Teacher:</strong> Denice Lovell <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Pending</em></strong> <br /><strong>Teacher:</strong> Doug Ladle <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Fun Dances For The Family</em></strong> <br /><strong>Teacher:</strong> Doug Smith <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Grandchildren/Grandparents relationships</em></strong> <br /><strong>Teacher:</strong> Glade Wasden <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Life&rsquo;s Marvelous Teaching Experiences</em></strong> <br /><strong>Teacher:</strong> James Keller <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>The Natural Man versus The Nature of Man</em></strong> <br /><strong>Teacher:</strong> Joseph West <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Being Anxiously Engaged (without running faster than we have strength)</em></strong> <br /><strong>Teacher:</strong> Rob Stewart <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Come Follow Me: How to get the most out of the New Youth Curriculum.</em></strong> <br /><strong>Teacher:</strong> Robert Wahlquist <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Pending</em></strong> <br /><strong>Teacher:</strong> Scott Wood <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Your Perspective is Your Reality</em></strong> <br /><strong>Teacher:</strong> Teresa Codling <br /><strong>Location:</strong> TBA</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="classes-days-3">
+<h3>Saturday</h3>
+<table>
+<tbody>
+<tr><th>Time</th><th>Class</th></tr>
+<tr>
+<td class="hour" rowspan="4">7 a.m.</td>
+<td><strong><em>Turbo Kick</em></strong> <br /><strong>Teacher:</strong> Carissa Stewart <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Water Aerobics</em></strong> <br /><strong>Teacher:</strong> Jennifer Brewer <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Pending</em></strong> <br /><strong>Teacher:</strong> Liz Stephenson<br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Zumba Fitness</em></strong> <br /><strong>Teacher:</strong> Stephanie Fay <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr class="hour-divider">
+<td class="hour" rowspan="12">1 p.m.</td>
+<td><strong><em>The Gospel Menu in Bite-Size Pieces: Learn It! Live It! Love it!</em></strong> <br /><strong>Teacher:</strong> Angelle Anderson <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Malignancies and Miracles: "Lord, couldn&rsquo;t you have sent me a cruise ship?"</em></strong> <br /><strong>Teacher:</strong> Dane Dickson <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Pending</em></strong> <br /><strong>Teacher:</strong> Ed Malstrom <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Justice, Mercy, and the Atonement: A Judicial Perspective</em></strong> <br /><strong>Teacher:</strong> Greg Moeller <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Keeping Life&rsquo;s Demands in Balance</em></strong> <br /><strong>Teacher:</strong> Janiel Nelson <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Be the Chocolate Chip in the Oven of the World</em></strong> <br /><strong>Teacher:</strong> Jennifer Brewer <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>How To Teach Youth About Finance</em></strong> <br /><strong>Teacher:</strong> Jeremy Hall <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>The Church and Higher Education</em></strong> <br /><strong>Teacher:</strong> Jonathon Lawrence <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>50 Great Dates: Lots of fun&hellip;but so much more!</em></strong> <br /><strong>Teacher:</strong> Michael Williams <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Three Events of the High Middle Ages Which Made Your Life the Way it is Today</em></strong> <br /><strong>Teacher:</strong> Rick Davis <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>The Gospel Menu in Bite-Size Pieces: Learn It! Live It! Love it!</em></strong> <br /><strong>Teacher:</strong> Scott Anderson <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>It is Not Meet That Children Should Be Compelled in All Things</em></strong> <br /><strong>Teacher:</strong> Timothy Rarick <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr class="multi hour-divider">
+<td class="hour" rowspan="11">2 p.m.</td>
+<td><strong><em>Seeking Revelation: How It Saves Lives</em></strong> <br /><strong>Teacher:</strong> Art Rascon <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>True At All Times, Including Online</em></strong> <br /><strong>Teacher:</strong> Blaine Maxfield <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Positive Parenting from Cradle to MTC</em></strong> <br /><strong>Teacher:</strong> Carleen Tanner <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>What I wish I had known about Child Development before I became a Parent (part 2)! <br /><strong>Teacher:</strong> Kynda Roberts <br /><strong>Location:</strong> TBA</em></strong></td>
+</tr>
+<tr>
+<td><strong><em>Your Power, Purpose and Potential (Through Music &amp; the Spoken Word)</em></strong> <br /><strong>Teacher:</strong> Debbie Bastian <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Pending</em></strong> <br /><strong>Teacher:</strong> Devin Shaum <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>The Lord requires the heart of the children of men</em></strong> <br /><strong>Teacher:</strong> Jeff Meservy <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>The Temple: A House of Worship</em></strong> <br /><strong>Teacher:</strong> Kent Jolley <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>How Can I Hang On? Messages of Hope and Coping when You or a Loved One Suffers from Mental Illness</em></strong> <br /><strong>Teacher:</strong> Michelle Willis <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>His Grace is Enough</em></strong> <br /><strong>Teacher:</strong> Mindy Davis<br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Creating a Ridiculously Happy Marriage</em></strong> <br /><strong>Teacher:</strong> Rob Stewart <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr class="repeat hour-divider">
+<td class="hour" rowspan="10">3 p.m.</td>
+<td><strong><em>Creating Multi-Generational Emotional Wealth</em></strong> <br /><strong>Teacher:</strong> Amanda Buswell <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Don&rsquo;t Worry Be Happy!: Exercising Faith in Marriage</em></strong> <br /><strong>Teacher:</strong> Byron Webster <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Lessons from the Book of Mormon on the character of God</em></strong> <br /><strong>Teacher:</strong> Ross Baron <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Make a Life Change! Get Direction, Eliminate Emotional Clutter, &amp; Enjoy the Process</em></strong> <br /><strong>Teacher:</strong> Connie Sokol <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Communication Essentials for Missionaries and Families: Exceptional, indispensable, quintessential, fundamentally monumental skills!</em></strong> <br /><strong>Teacher:</strong> Gaylene Bean <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>How Can We Find Balance In Our Busy Lives?</em></strong> <br /><strong>Teacher:</strong> Matthew Fackrell <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>The Family: God&rsquo;s Perspective</em></strong> <br /><strong>Teacher:</strong> Phil Allred <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Your Perspective is Your Reality</em></strong> <br /><strong>Teacher:</strong> Richard Smith <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Raising your Children with a Healthy Sense of Sexuality</em></strong> <br /><strong>Teacher:</strong> Russell Gaede <br /><strong>Location:</strong> TBA</td>
+</tr>
+<tr>
+<td><strong><em>Learning by the Spirit</em></strong> <br /><strong>Teacher:</strong> Troy Virgin <br /><strong>Location:</strong> TBA</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<!--
+<div id="main-tabs-3">
+<h2>Teachers</h2>
+!-- TEACHER THUMBNAILS TO CLICK ON --
+<div class="teacher-thumbnail" id="opener">
+<div class="pre-picture">40x40</div>
+<p><strong>Teacher Lastname</strong></p>
+<p>Read more about this teacher.</p>
+</div>
+!-- TEACHER INFORMATION BOX --
+<div class="teacher-info-content" id="lastname">
+<div class="teacher-picture">
+<p></p>
+<p>Teacher photo here (90x90)</p>
+</div>
+<div class="teacher-info-text">
+<h3>Teacher Lastname</h3>
+<p>Professor Lastname has plenty of awesomeness associated with him. He has taught a lot of classes to a lot of students in a lot of colleges.</p>
+</div>
+</div>
+</div>
+--> <br />Visit the website often for updates and changes.<br /><!-- END CLASSES DISPLAY --><hr class="separator" />
+<div>[x69208]</div>
+</div>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="x28840" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="true" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="x50728" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x51144" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x69208" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x47794" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

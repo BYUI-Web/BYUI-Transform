@@ -1,0 +1,283 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x67968" Name="default.htm" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">default.htm</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">default.htm</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"&gt;
+&lt;head&gt;
+    &lt;meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /&gt;
+    &lt;title&gt;BYU&amp;ndash;Idaho&amp;nbsp;|&amp;nbsp;Online&amp;nbsp;Magazine&amp;nbsp;&gt;&amp;nbsp;A New University&lt;/title&gt;
+    &lt;!-- Remove TemplateSource line to disable the Web Editor --&gt;
+    &lt;!--TemplateSource="2A.htm"--&gt;
+    &lt;!--***********************************************************************
+    *   Brigham Young University-Idaho Template
+    *   Version:        1.2
+    *   Type:           2A
+    *   Last Revised:   June, 2006
+    *   Copyright� 2007 Brigham Young University-Idaho
+    *   All Rights Reserved.
+    ************************************************************************--&gt;
+    &lt;!-- REFERENCED STYLESHEETS --&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/v1/topBar.css" /&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/V1/structure.css" /&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/V1/body_text.css" /&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/V1/table.css" /&gt;
+	&lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/driveorwalk/css/walkordrivestyle.css" /&gt;
+	&lt;link rel="stylesheet" type="text/css" href="documents/BYUI Wupward/css/ol.css" /&gt;
+	&lt;link rel="stylesheet" type="text/css" href="documents/BYUI Wupward/css/article_style.css" /&gt;
+	&lt;link rel="stylesheet" href="documents/BYUI Wupward/css/print.css" type="text/css" media="print" /&gt;
+
+	
+    &lt;!-- EMBEDED JAVASCRIPT FUNCTIONS --&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/js/v2/changeSizeRevised.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/js/v2/leftLinks.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/driveorwalk/js/textswap.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/driveorwalk/js/active.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/driveorwalk/js/randomadimage.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="documents/BYUI Wupward/js/js.js"&gt;&lt;/script&gt;
+
+
+
+    &lt;!-- EDITOR JAVASCRIPT FUNCTIONS --&gt;
+
+&lt;/head&gt;
+&lt;body id="type_A" onload="callFunctions(); activeNav(1); randomAdImage();" style="visibility:hidden;"&gt;
+    &lt;!-- The body type determines the number of columns in the CONTENT AREA. View structure.css to where these types are specified --&gt;
+    &lt;!-- ********************************************************************* --&gt;
+    &lt;!-- TOP BAR                                                               --&gt;
+    &lt;!-- ********************************************************************* --&gt;
+    &lt;div id="topBar"&gt;
+        &lt;div id="blueSpace"&gt;&lt;/div&gt;
+        &lt;div&gt;
+            &lt;table id="tableBlue" cellspacing="0" cellpadding="0"&gt;
+                &lt;!-- Title menu with the Blue Background --&gt;
+                &lt;tr&gt;&lt;td id="tdBlueSpace"&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr id="trBlueTop"&gt;&lt;td id="tdBlueTop"&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td id="tdBlueMenu" align="center"&gt;
+                        &lt;div id="javaMenu"&gt;
+                            &lt;script type="text/javascript" src="http://www.byui.edu/js/V1/HomepageNavBar.js"&gt;&lt;/script&gt;
+                        &lt;/div&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+        &lt;/div&gt;
+        &lt;!-- Gray Bar --&gt;
+        &lt;div id="divGrayBarContainer"&gt;
+            &lt;div id="divDarkGrayBar"&gt;
+                &lt;!--&lt;div id="divStudent"&gt;
+                    &lt;script type="text/javascript" src="http://www.byui.edu/js/V1/imageChange.js"&gt;&lt;/script&gt;
+                &lt;/div&gt; //--&gt;
+                &lt;div id="divBYUILogo"&gt;
+                    &lt;a id="logoLink" href="http://www.byui.edu/"&gt;&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div id="divVertLine"&gt;&lt;/div&gt;
+                &lt;div id="divDepartmentTitle"&gt;
+                    &lt;!-- Department Title --&gt;
+                    &lt;div id="divSectionTitle"&gt;
+                        &lt;a id="iframeText" target="_top" href="http://www.byui.edu/magazine/fall2010"&gt;Online Magazine &amp;gt; A New University&lt;/a&gt;
+
+                    &lt;/div&gt;  
+                    &lt;span id="divSemester"&gt;
+						Fall 2010 
+                    &lt;/span&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;!-- White Bar --&gt;
+        &lt;div id="divWhiteContainer"&gt;
+        &lt;div id="divWhiteBar"&gt;
+            &lt;img src="http://www.byui.edu/css/V1/images/whiteBar.gif" alt="White Bar" /&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!-- END ***************************************************************** --&gt;
+    &lt;!--EditorForm--&gt;
+    &lt;!--EditorToolbar--&gt;
+    &lt;div id="container"&gt;
+        &lt;div id="main_body"&gt;
+            &lt;!-- LEFT COLUMN --&gt;
+            &lt;!-- NAVIGATION FILE INCLUDE --&gt;
+            			&lt;div id="left_column" style="background-color:#FFF";&gt;
+                
+				&lt;div id="onlinemagazinenav"&gt;
+					&lt;!--#include file="../../common/nav.inc"--&gt;
+					&lt;div id="sub_nav_watch"&gt;
+						&lt;!--#include file="../../common/navPhoto.inc"--&gt;
+						&lt;a href="#featurePhotoGallery"&gt;&lt;img id="video" src="viewgallery.jpg" /&gt;&lt;/a&gt;
+						&lt;p&gt;A New University&lt;/p&gt;
+					&lt;/div&gt;
+			   &lt;/div&gt;
+			   
+            &lt;/div&gt;
+            
+            &lt;div id="right_section"&gt;
+                &lt;div class="right_bottom_section"&gt;
+                    &lt;div class="leftAREA"&gt;
+                        &lt;div id="random_image"&gt;
+							&lt;div&gt;
+                        		&lt;img id="bannerImage" alt="Feature Template" src="../images/new_university.jpg" width="580px" height="230px"/&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+						
+
+						&lt;div id="page_layout2_content"&gt;&lt;br&gt;
+						
+						&lt;div class="printit"&gt;&lt;a href="javascript:window.print()"&gt;&lt;img src="../../images/common/print_issue.jpg" alt="Print Article" /&gt;&lt;/a&gt;&lt;/div&gt;
+							
+							&lt;div class="noprint"&gt;							
+							&lt;!-- AddThis Button BEGIN --&gt;
+							&lt;script type="text/javascript"&gt;var addthis_config = {"data_track_clickback":true};&lt;/script&gt;
+								&lt;a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;amp;username=byuiadmin"&gt;&lt;img src="http://s7.addthis.com/static/btn/sm-share-en.gif" width="83" height="16" alt="Bookmark and Share" style="border:0"/&gt;&lt;/a&gt;&lt;script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=byuiadmin"&gt;&lt;/script&gt;
+							&lt;!-- AddThis Button END --&gt;
+							&lt;/div&gt;
+							&lt;h1&gt;A New University&lt;/h1&gt;
+							
+							&lt;h3&gt;Henry J. Eyring&lt;/h3&gt;
+							&lt;span id="title"&gt;Advancement Vice President&lt;/span&gt;
+							&lt;div id="synopses"&gt;From cutting-edge courses to a robust activities program &amp;mdash; innovation is underway. New ideas and programs are continually nurtured as BYU-Idaho strives to enhance every aspect of the student experience. Perhaps best phrased by President Henry B. Eyring &amp;mdash; "[BYU-Idaho] is to be a place of educational innovation &amp;mdash; permanently."
+							&lt;/div&gt;
+							&lt;br/&gt;
+							&lt;div id="read_complete_article"&gt;READ COMPLETE ARTICLE BELOW&lt;/div&gt;
+							&lt;div id="viewGallery"&gt;&lt;a href="#featurePhotoGallery"&gt;VIEW PHOTO GALLERY&lt;/a&gt;&lt;/div&gt;
+							&lt;br/&gt;
+							&lt;p&gt;On Tuesday, June 20, 2000, the employees and students of Ricks College received an e-mail invitation to a meeting scheduled for the next morning at 8 o'clock. A crowd of several thousand gathered then in the school's basketball arena. President David A. Bednar opened the meeting and introduced Gordon B. Hinckley, who appeared via audio/visual feed from Salt Lake City, where he stood before the news media. President Hinckley made a startling &lt;a href="http://www.byui.edu/AboutBYUIdaho/transitionannouncement.htm"&gt;announcement:&lt;/a&gt;&lt;/p&gt;
+							
+							&lt;blockquote&gt;The First Presidency of The Church of Jesus Christ of Latter-day Saints and the Board of Trustees of Ricks College announce that Ricks College will change from its present two-year junior college status to a four-year institution. &lt;sup&gt;1&lt;/sup&gt;&lt;/blockquote&gt;
+							
+							&lt;p&gt;A few minutes and just 20 sentences later, President Hinckley finished describing a university like no other. Even President Bednar was wonder-struck: "I would have been less surprised," he told the audience after President Hinckley signed off, "if they announced the school was closed." &lt;sup&gt;2&lt;/sup&gt;&lt;/p&gt;
+														
+							&lt;p&gt;Some of the new university's design required significant change to what Ricks College had been. In addition to four-year status, there was a new name&amp;mdash;BYU-Idaho. The new university would also have a unique calendar. Unlike Ricks&amp;mdash;and most higher education institutions&amp;mdash;it would operate year-round. Also, a storied junior college intercollegiate tradition would be retired in favor of a new kind of student activities program.&lt;/p&gt;
+							
+							&lt;p&gt;But for those familiar with traditional universities, the real surprise was in what &lt;em&gt;wouldn't&lt;/em&gt; change as Ricks College became BYU-Idaho: President Hinckley ruled out the two hallmarks of university status&amp;mdash;graduate programs and faculty rank based on scholarly research. He also declared that the academic offerings would be focused, rather than expansive (the very word "university" implies a mission to study a broad range of subjects, and traditional universities take pride in their breadth). Likewise, President Hinckley predicted only a few new buildings. "With some additions and modifications," he said, "the physical facilities now in place in Rexburg are adequate to handle the new program." &lt;sup&gt;3&lt;/sup&gt;&lt;/p&gt;
+							&lt;p&gt;Above all, President Hinckley emphasized that BYU-Idaho would remain uniquely focused on students. "BYU-Idaho will continue to be teaching oriented," he stated. "Effective teaching and advising will be the primary responsibilities of its faculty, who are committed to academic excellence."&lt;sup&gt;4&lt;/sup&gt;Ricks College had a new name and a charge to grant bachelor's degrees, but the Spirit of Ricks would be preserved and enhanced at Brigham Young University-Idaho.&lt;/p&gt;
+							
+							&lt;span class="section_heading"&gt;A Fast Start and a Firm Foundation&lt;/span&gt;
+							&lt;p&gt;Under the inspired leadership of President Bednar, and thanks to the hard work of talented faculty, administrators, and staff, the new university quickly took shape. Little more than a year after President Hinckley's announcement, BYU-Idaho had won provisional accreditation, and dozens of four-year degree programs were under development. &lt;/p&gt;
+							&lt;p&gt;There was also the foundation for what President Hinckley had called "a year-round activity program designed to involve and meet the needs of a diverse student body."&lt;sup&gt;5&lt;/sup&gt; Less than 60 days after the announcement, a special task force proposed a truly wide-ranging set of activities: sports, fitness, outdoor recreation, visual and performing arts, hobbies and crafts, service, social, entertainment, and academic activities. What proved to be most significant for the university in the long run was the proposed principle that "students who advance will be given the opportunity to serve in teacher, coach, and supervisor capacities."&lt;sup&gt;6&lt;/sup&gt; The task force envisioned a student leadership pyramid. For example, a freshman might start as a participant on, say, a volleyball team and in the ensuing years rise to team captain, team coach, and ultimately league organizer. The last of these positions might come with a scholarship or stipend, but the other leadership responsibilities would be filled on a volunteer basis. All of the positions would allow students to teach other students.&lt;/p&gt;
+							&lt;p&gt;Involving students via what would become known as the "student-leadership model" was significant in two respects. In addition to offering hands-on leadership training beneficial to students in their personal and professional lives, it would also allow for cost-efficient growth. The entire activities budget, including the non-athletic categories, was funded at one-third the cost of the old athletics budget. Today, the university sponsors 192 unique &lt;a href="http://activities.byui.edu/"&gt;activity programs&lt;/a&gt; run by more than 7,500 students.&lt;/p&gt;
+							&lt;p&gt;Under President Bednar the university also created a unique internship program. Formal relationships with major employers were established in a dozen "hub cities" spread from Seattle, San Jose, and Los Angeles on the west coast to New York and Washington, D.C. in the east. The BYU-Idaho name provided instant recognition and credibility with employers, many of whom had BYU graduates already on the payroll. In addition, the school's year-round "track system" gave the new university's interns an advantage over their competitors from other schools. The internship office encouraged employers to think of their interns not as mere recruits, for whom special projects would have to be manufactured each summer, but as a steady stream of real workers available year-round.&lt;/p&gt;
+							
+							&lt;span class="section_heading"&gt;Three Imperatives&lt;/span&gt;
+							&lt;p&gt;President Kim B. Clark succeeded David A. Bednar in the summer of 2005. That fall, in his &lt;a href="http://www.byui.edu/Presentations/Transcripts/MiscellaneousAddresses/2005_10_11_Clark.htm"&gt;inaugural address&lt;/a&gt;, he outlined ambitious plans for building on the university foundation that President Bednar and his colleagues had firmly laid. President Clark spoke of three "imperatives." The first was to "raise substantially the quality of every aspect of the experience our students have," the second to "make a BYU-Idaho education available to many more [students]," and the third to "lower the relative cost of education."&lt;sup&gt;7&lt;/sup&gt; President Clark conceded that higher education tradition treats these three goals as mutually exclusive. It is generally assumed that reducing the cost of instruction is antithetical to increasing its quality. Likewise, tradition holds that more students can be served only if cost goes up or quality goes down. "But," President Clark declared, "we are not bound by tradition."&lt;sup&gt;8&lt;/sup&gt;&lt;/p&gt;
+							
+							&lt;p&gt;Of the many initiatives for raising the quality of the student experience, two stand out particularly prominently today. One is the BYU-Idaho &lt;a href="http://www.byui.edu/learningmodel/src/default.htm"&gt;Learning Model&lt;/a&gt;. The product of a faculty committee that spent more than a year deliberating and seeking input, the Learning Model includes five gospel-inspired teaching principles and a cycle of (1) preparation, (2) teaching one another, and (3) pondering and proving one's learning. This model, which was already practiced to a significant degree by many faculty members in Ricks College days, requires more than just facilitating the traditional textbook and classroom lecture. Instructors become responsible for dual competency, mastery of both the subject matter and the art of conveying it for maximum student learning. In this style of learning, teaching success depends as much on knowing the students as on knowing the subject matter. It also requires inviting the Spirit into every learning experience. Faculty and students have collaborated in creating a rich set of practical tools for applying Learning Model principles and practices in their studies.&lt;/p&gt;
+							
+							&lt;p&gt;The quality of student learning has been raised by another major initiative, the creation of a new general education program called Foundations. Even more than the creation of the Learning Model, the &lt;a href="http://igx.byui.edu/advising/Academic_Advising/General_Academic_Requirements/Foundations.html"&gt;Foundations&lt;/a&gt; project required tremendous effort and sacrifice by the faculty. They created 25 entirely new courses that not only embody the Learning Model but also cross disciplinary lines, giving students learning opportunities that are, by traditional academic standards, unusually holistic and applicable to real-world problems. For the faculty, the sacrifice included not only hard work, but stepping beyond their formal training.&lt;/p&gt;
+							&lt;p&gt;Several years earlier President Bednar had identified this as one of the great challenges and opportunities facing the new BYU-Idaho.&lt;/p&gt;
+							
+							&lt;blockquote&gt;We must learn to look across disciplines. Our success as an institution will be determined in large measure by how well we facilitate the integration of curriculum and pedagogy across traditional boundaries. If we focus exclusively on departmental development and fail to achieve this overarching objective of effective integration, then we will have bungled one of the greatest educational opportunities of this latter-day dispensation.&lt;sup&gt;9&lt;/sup&gt;&lt;/blockquote&gt;
+							
+							&lt;p&gt;The spirit of optimism and good will with which the BYU-Idaho faculty embraced the challenge to move beyond their formal expertise was exemplified by a team tasked with creating an International Foundations course on Pakistan. No one on the team had first-hand experience with that country. Their leader, religion professor Rob Eaton, quipped, "The makeup of our team sounded like the beginning of a bad joke: 'You've got a geographer, a linguist, an economist, and a religion professor all in the same room . . .'" Like all of the Foundations teams, though, this group had the benefit of a clear purpose&amp;mdash;helping students to understand a little-known but globally important country. The team let their lack of subject matter expertise and disparate backgrounds unite them, by divvying up themes according to individual interest and comfort level. They designed their course to engage students in a similar process of discovery. The result is, as with other Foundations courses, a learning opportunity that meets Elder Bednar's challenge to cross traditional academic disciplines and that provides uniquely valuable preparation for life. &lt;/p&gt;
+							
+							&lt;span class="section_heading"&gt;Lowering Cost and Serving More Students&lt;/span&gt;
+							&lt;p&gt;At his inauguration, Kim Clark shared a vision not only of raising quality but also of reducing costs to allow for serving more students. He referred specifically to information technology and innovative teaching techniques:&lt;/p&gt;
+							
+							&lt;blockquote&gt;[W]e will find new ways to use information technology to reach more students and to deepen the learning experience of those we touch. In a day not far from now, we will be able to break down the barriers of time and space and connect our students on internships or between semesters to the university and to each other and create outstanding, interactive educational experiences. In these experiences students will teach one another in new and powerful ways. This capacity to educate effectively across time and space will allow us to leverage the capacity of the university and reach many more young people.&lt;sup&gt;10&lt;/sup&gt;&lt;/blockquote&gt;
+							
+							&lt;p&gt;President Clark set the expectation of BYU-Idaho's serving more students on its Rexburg campus. But he also set a goal of taking higher education to students "all over the world."&lt;sup&gt;11&lt;/sup&gt; He expressed his conviction that "this university is in this valley where our pioneer heritage is deeply ingrained, where the people are humble and faithful, so that we can be a proving ground of great fidelity"&lt;sup&gt;12&lt;/sup&gt;  relative to global education needs.&lt;/p&gt;
+							&lt;p&gt;Online course development was already a university priority when President Clark made those statements. Since that time, though, the pace of online course creation has increased. So has the quality of the courses. In particular, BYU-Idaho has departed from the tradition of online learners studying alone and working at their own pace. Students in online courses collaborate, teaching one another via electronic media much as they do in face-to-face classroom settings. The result is an experience that is more rewarding both academically and socially. Student satisfaction with online courses is nearly as high as that for face-to-face offerings. These high-quality online courses open the door to serving students around the world. &lt;/p&gt;
+														
+							&lt;span class="section_heading"&gt;Preserving and Enhancing the Spirit of Ricks&lt;/span&gt;
+							&lt;p&gt;While forging a unique path as a university, BYU-Idaho is also preserving and enhancing the beloved Spirit of Ricks. In nearly 100 wards, students still love and lift one another as they did in Ricks College days. A new program called &lt;a href="http://www.byui.edu/studentliving/"&gt;Student Living&lt;/a&gt; is taking the quality of apartment life to higher levels as students apply the principles of caring for one in another found in Doctrine and Covenants 20 and Matthew 18:&lt;/p&gt;
+							
+							&lt;blockquote&gt;&lt;p&gt;[S]ee that there is no iniquity in the church, neither hardness with each other, neither lying, backbiting, nor evil speaking;&lt;/p&gt;
+
+&lt;p&gt;And see that the church meet together often, and also see that all the members do their duty.&lt;sup&gt;13&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Moreover if thy brother shall trespass against thee, go and tell him his fault between thee and him alone: if he shall hear thee, thou has gained thy brother. &lt;sup&gt;14&lt;/sup&gt;&lt;/p&gt;&lt;/blockquote&gt;
+							&lt;p&gt;As BYU-Idaho students practice these principles, they not only preserve and enhance the Spirit of Ricks, they begin to qualify for the promise made by then Elder Eyring in 2001, one year after President Hinckley's announcement that the college would become a university. Speaking extemporaneously at the end of a talk entitled "A Steady, Upward Course," he told the students,&lt;/p&gt;
+							
+							&lt;blockquote&gt;&lt;p&gt;I hope I live long enough to someday meet some employer who employed one of you and says, "Where did that come from? I've never had such a person. Why, people just flock around that person. And they want to follow. They don't have to be led; they're seeking to go where that person wants to go. And they come up with new ideas. I don't know where that comes from. They seem to find a better way, and the budget doesn't go up. I can't understand it." And I'll smile and say, "Well, come with me to Rexburg." And I may not be able to show it to you, and I may not be able to prove it to you, but you'll feel it. There will be a spirit here, I so testify, because of the love of God for all of His faithful children. And those blessings will be poured out here in rich abundance.&lt;sup&gt;15&lt;/sup&gt;&lt;/blockquote&gt;
+							
+							&lt;hr /&gt;
+							
+							&lt;span class="section_heading"&gt;Notes&lt;/span&gt;
+							
+							&lt;span class="notes"&gt;&lt;sup&gt;1&lt;/sup&gt; Gordon B. Hinckley, "Ricks College to become Brigham Young University-Idaho," June 2000
+							&lt;/span&gt;
+							
+							&lt;span class="notes"&gt;&lt;sup&gt;2&lt;/sup&gt; Standard Journal, June, 2000
+							&lt;/span&gt;
+							
+							&lt;span class="notes"&gt;&lt;sup&gt;3&lt;/sup&gt; Ibid&lt;/span&gt;
+							
+							&lt;span class="notes"&gt;&lt;sup&gt;4&lt;/sup&gt; Ibid&lt;/span&gt;
+							
+							&lt;span class="notes"&gt;&lt;sup&gt;5&lt;/sup&gt; Ibid&lt;/span&gt;
+							
+							&lt;span class="notes"&gt;&lt;sup&gt;6&lt;/sup&gt; Robert Worrell,&lt;em&gt; History of Ricks College and Brigham Young University-Idaho: The Bednar Years (1997-2004)&lt;/em&gt;, unpublished, 285&lt;/span&gt;
+							
+							&lt;span class="notes"&gt;&lt;sup&gt;7&lt;/sup&gt; Kim B. Clark, "Inaugural Response," BYU-Idaho Inauguration, Oct. 2005&lt;/span&gt;
+							
+							&lt;span class="notes"&gt;&lt;sup&gt;8&lt;/sup&gt; Ibid&lt;/span&gt;
+							
+							&lt;span class="notes"&gt;&lt;sup&gt;9&lt;/sup&gt; Robert Worrell, &lt;em&gt;History of Ricks College and Brigham Young University-Idaho: The Bednar Years (1997-2004)&lt;/em&gt;, unpublished, 496&lt;/span&gt;
+							
+							&lt;span class="notes"&gt;&lt;sup&gt;10&lt;/sup&gt; Ibid&lt;/span&gt;
+							
+							&lt;span class="notes"&gt;&lt;sup&gt;11&lt;/sup&gt; Ibid&lt;/span&gt;
+							
+							&lt;span class="notes"&gt;&lt;sup&gt;12&lt;/sup&gt; Ibid&lt;/span&gt;
+							&lt;span class="notes"&gt;&lt;sup&gt;13&lt;/sup&gt; Doctrine and Covenants 20:54-55&lt;/span&gt;
+
+							&lt;span class="notes"&gt;&lt;sup&gt;14&lt;/sup&gt; Matthew 18:15&lt;/span&gt;
+							
+							&lt;span class="notes"&gt;&lt;sup&gt;15&lt;/sup&gt; Henry B. Eyring, "A Steady, Upward Course," BYU-Idaho Devotional, Sept. 2001&lt;/span&gt;
+							
+					&lt;div class="noprint"&gt;							
+	
+						&lt;a name="featurePhotoGallery"&gt;&amp;nbsp;&lt;/a&gt;
+						&lt;div class="dashing_divider"&gt;&amp;nbsp;&lt;/div&gt;
+						&lt;h1 name"featurePhotoGallery"&gt;Photo Gallery&lt;/h1&gt;
+							&lt;!--Begin Photo Gallery--&gt;
+							&lt;iframe style="width:540px; height:440px; margin-left:0px; margin-top:10px;" src="slideshow_strengthening/index.html" scrolling="no" frameborder="0" width="540px" height="440px"&gt;
+							&lt;/iframe&gt;
+							&lt;!--End Photo Gallery--&gt;
+							&lt;a name="featureDownloadPDF"&gt;&amp;nbsp;&lt;/a&gt;
+							&lt;div class="dashing_divider"&gt;&amp;nbsp;&lt;/div&gt;
+					&lt;/div&gt;
+						
+                    &lt;/div&gt;
+					&lt;/div&gt;
+                    &lt;div class="rightAREA"&gt;&lt;img alt="Place Holder" src="http://www.byui.edu/css/V1/images/placeholder80.gif" /&gt;&lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div id="footer"&gt;
+            &lt;div id="shadow"&gt;Copyright&amp;copy; &lt;script type="text/javascript"&gt;var d = new Date();document.write(d.getFullYear());&lt;/script&gt; BYU&amp;ndash;Idaho&lt;br /&gt;All Rights Reserved.&lt;/div&gt;
+        &lt;/div&gt;
+  
+    &lt;!--EndEditorForm--&gt;
+    &lt;!-- TABLE FORMATTING SECTION --&gt;
+    &lt;script type="text/javascript"&gt;
+        &lt;!--
+        var tableTags = document.getElementById('main_body').getElementsByTagName("table");
+        for (var i = 0; i &lt; tableTags.length; i++)
+        {
+            var trTags = tableTags[i].getElementsByTagName("tr");
+            for (var j = 0; j &lt; trTags.length; j++)
+            {
+                if(j%2 == 0)
+                {
+                    trTags.item(j).style.backgroundColor = "#efefec";
+                }
+                else
+                {
+                    trTags.item(j).style.backgroundColor = "#ffffff";
+                }
+            }
+        }
+        --&gt;
+    &lt;/script&gt;
+&lt;!-- This script enables Google Analytics --&gt;
+		&lt;script type="text/javascript"&gt;
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		&lt;/script&gt;
+		&lt;script type="text/javascript"&gt;
+			try {
+			var pageTracker = _gat._getTracker("UA-12079604-1");
+			pageTracker._trackPageview();
+			} catch(err) {}
+		&lt;/script&gt;
+	&lt;/body&gt;
+&lt;/html&gt;</ESContent></EmptyShell>

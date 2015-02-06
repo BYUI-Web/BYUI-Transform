@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x44928" Name="Diabetes Society" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Diabetes Society</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Wellness' Diabetes Society Group</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+#slideshow { 
+    margin: 50px auto; 
+    position: relative; 
+    width: 640px; 
+    height: 350px; 
+    padding: 10px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+#slideshow img{
+	width:640px;
+	height: 350px;
+}
+--></style>
+<p>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$("#slideshow > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('#slideshow > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow');
+},  3000);
+</script>
+</p>
+<div id="headblock">
+<div id="content_header">
+<div class="icons"></div>
+<div class="titlehead">Health Center Wellness</div>
+<div class="subhead"></div>
+</div>
+</div>
+<div id="content_zone"><img alt="Banner" src="Images/health-center/banner/Diabetes%20Group%20Banner.png" title="Diabetes Society" width="594px" />
+<h2 style="margin-top: 18px;">Diabetes &amp; Campus Life</h2>
+<p>Ever sat in class and heard someone&rsquo;s insulin pump go off but don&rsquo;t know who it is? Many students at BYU-Idaho have Diabetes or know of someone who does. We want to make sure they don&rsquo;t feel like they are alone. The Diabetes support group allows new students to find student mentors to help answer their questions with real life experience. It also creates a friendly environment to learn from Diabetes Educators about diverse topics regarding your health and diabetes management in college. All are welcome.</p>
+<h2>What is Diabetes?</h2>
+<p>Diabetes is the condition in which the body does not properly process food for use as energy. Most of the food we eat is turned into glucose, or sugar, for our bodies to use for energy. The pancreas, an organ that lies near the stomach, makes a hormone called insulin to help glucose get into the cells of our bodies. When you have diabetes, your body either doesn't make enough insulin or can't use its own insulin as well as it should. This causes sugars to build up in your blood. This is why many people refer to diabetes as &ldquo;sugar.&rdquo;</p>
+<ul>
+<li>Type 1- Body does not produce insulin</li>
+<li>Type 2- Insulin resistant</li>
+</ul>
+<p>Gestational Diabetes- is a condition in which women without previously diagnosed diabetes exhibit high blood glucose levels during pregnancy</p>
+<div class="quote">"Optimism is a virtue that allows us to see God's loving hand in the details of our life."
+<div class="author">- Annon</div>
+</div>
+<div id="slideshow">
+<div><img src="Images/health-center/wellness/web_pictures/diabetes.jpg" /></div>
+<div><img src="Images/health-center/wellness/web_pictures/group.jpg" /></div>
+</div>
+<h2>Event Dates:</h2>
+<ul>
+<li>
+<h2>&nbsp;<strong>Wednesday, May 14th, 2014</strong>&nbsp;- Opening Social-Intro to diabetes Society and agenda for the semester</h2>
+</li>
+<li>May 29th Geust Speaker: Sister Nelson "Exercise and diabetes"</li>
+<li>June 11th Guest Speaker: Sam Butikofer "Helping yourself and others"</li>
+<li>June 25th Guest Speaker: Gwen Hoffman "The Future of Diabetes"</li>
+<li>July 9th Closing Social-Bring family and friends and ideas fir the next semester</li>
+<li>Group is for anyone who has, or is interested in Type1, Type2 or gestational diabetes.</li>
+</ul>
+<span style="color: #555555; font-family: Georgia; font-size: 12pt;">Download a printable calender for future events&nbsp;</span><a href="Documents/health-center/wellness/Calendar.docx" style="font-family: Georgia; font-size: 12pt;">here</a></div>
+<div></div>
+<div><a href="Documents/health-center/wellness/Calendar.docx" style="font-family: Georgia; font-size: 12pt;"></a>Interested in getting involved? Contact the Student Wellness Coordinator at:<br /> <a href="mailto:healthcenterwellness@byui.edu">healthcenterwellness@byui.edu</a></div>
+<p><link href="Documents/health-center/css/header.css" rel="stylesheet" /> <link href="Documents/health-center/css/body.css" rel="stylesheet" /> <link href="Documents/health-center/css/wellness.css" rel="stylesheet" /></p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x28441" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

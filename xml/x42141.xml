@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x42141" Name="E-Payment" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">E-Payment</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">E-Payment</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<p style="font-family: Verdana, Arial, sans-serif;">E-Payment facilitates payment on the student's school-related expenses (ie: tuition, I-Card Dollars, Dining Dollars, etc.). Below are several key points of the E-Payment service:</p>
+<ul style="font-family: Verdana, Arial, sans-serif;">
+<li>The preferred method of payment is online using an e-check (no convenience fee, safe, secure)</li>
+<li>Ability to pay outstanding student account balances, including tuition and fees online</li>
+<li>Ability to make online pre-payments on student account</li>
+<li>Ability to deposit I-Card and Dining Dollars</li>
+<li>Safely and securely store credit card or bank account information for future payments</li>
+<li>Add parent or other authorized user to:
+<ul style="font-family: Verdana, Arial, sans-serif; list-style-type: circle;">
+<li>Login and pay account balances</li>
+<li>Access and/or receive electronic bill notifications</li>
+<li>Does not include access to financial aid, grades, or other online student information</li>
+<li>Access can be edited or deleted at any time, but only expires when deleted</li>
+</ul>
+</li>
+<li>Expanded payment methods, including:
+<ul style="font-family: Verdana, Arial, sans-serif; list-style-type: circle;">
+<li>Electronic check from your U.S. checking or savings account (E-Check)(no convenience fee, safe, secure)</li>
+<li>All major credit cards -- a 2.75% convenience fee will be incurred</li>
+<li>I-Card Dollars (you must have funds deposited on your I-Card account)</li>
+<li>Foreign currency via wire transfer (for international students)</li>
+</ul>
+</li>
+</ul>
+<p style="font-family: Verdana, Arial, sans-serif;">For more information on the wire transfer payment method for international students, please click <a class="intLink" href="Documents/financial-services/International_Payments.pdf" title="International Payment Method" target="_blank">here</a>.</p>
+<p></p>
+<h4 style="font-weight: bold;">Frequently Asked Questions</h4>
+<p style="font-family: Verdana, Arial, sans-serif;">The following are some frequently asked questions regarding BYU-Idaho's ePayment service. This is not an all-inclusive list, and if you have additional questions regarding the ePayment service, please use <a href="https://byui.qualtrics.com/SE/?SID=SV_4NKHKbXku4gubE8" target="_blank">this form</a> and we'll include it in this list.</p>
+<p></p>
+<p style="font-family: Verdana, Arial, sans-serif;"><strong>Why was the change made?</strong></p>
+<p style="font-family: Verdana, Arial, sans-serif; padding-left: 10px;">We are dedicated to providing greater protection of credit card user information. By contracting with a third-party, we are able to provide a safer and more secure method of credit card payment. Also, to enhance payment options.</p>
+<p style="font-family: Verdana, Arial, sans-serif;"><strong>Can I now use a VISA Card to make payments on my student account?</strong></p>
+<p>&nbsp; Yes.&nbsp; Payments may be made with VISA, MasterCard, Discover, and American Express.</p>
+<p style="font-family: Verdana, Arial, sans-serif;"><strong>Can I have my parents or someone else pay my student account?</strong></p>
+<p style="font-family: Verdana, Arial, sans-serif; padding-left: 10px;">Yes, and it is easier than ever! Within ePayment, you have the option to give access to someoe else to pay your account. Simply add them as an authorized user.</p>
+<p style="font-family: Verdana, Arial, sans-serif;"><strong>Will I have to pay an additional charge to use my credit card?</strong></p>
+<p style="font-family: Verdana, Arial, sans-serif; padding-left: 10px;">Yes, there is a convenience fee of 2.75% that will be added to your charges<br /> Hint: If you are using a DEBIT CARD, please select the electronic check option and enter your bank account information (checking or savings account, NOT THE DEBIT CARD NUMBER). <strong>This will save you the 2.75% convenience fee.</strong></p>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x18419" CompTypes="SiteControl" Expanded="false"/></Content>

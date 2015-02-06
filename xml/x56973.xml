@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x56973" Name="Resources" Layout="general_content.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Resources</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Resources</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" hidden="true" label="Toggle column right or left (right is default)" readonly="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<table border="0" height="78" width="650">
+<tbody>
+<tr>
+<td style="background-color: #000000; border: 1px solid #000000; color: #ffffff; padding: 10px 0px 0px;">
+<h2 style="font-family: arial;"><strong><center>
+<h4 style="text-align: center;">Resources for Students</h4>
+</center></strong></h2>
+</td>
+</tr>
+<tr>
+<td style="border: 1px solid #e0e0e0; padding: 10px;"><a href="http://www.sde.idaho.gov/site/teacher_certification/" target="_self">State of Idaho Teacher Certification </a></td>
+</tr>
+<tr>
+<td style="border: 1px solid #e0e0e0; padding: 10px;"><a href="http://www.sde.idaho.gov/site/teacher_certification/subject_area.htm" target="_self">Endorsements</a>&nbsp; (BYU-Idaho does not offer all Endorsements)</td>
+</tr>
+<tr>
+<td style="border: 1px solid #e0e0e0; padding: 10px;"><a href="http://www.byui.edu/financialaid/scholarships/apply.htm" target="_self">Scholarships</a></td>
+</tr>
+<tr>
+<td style="border: 1px solid #e0e0e0; padding: 10px;"><a href="x19531.xml">Student Teaching</a><br /></td>
+</tr>
+</tbody>
+</table>
+<table border="0" height="176" width="650">
+<tbody>
+<tr>
+<td style="background-color: #0187c3; border: #000000 1px solid; color: #fff; padding: 10px 0px 0px;">
+<h2 style="font-family: arial;"><strong><center>
+<h4 style="text-align: center;">Tests</h4>
+</center></strong></h2>
+</td>
+</tr>
+<tr>
+<td style="border: 1px solid #e0e0e0; padding: 10px;"><a href="x6949.xml">Praxis</a></td>
+</tr>
+<tr>
+<td style="border: 1px solid #e0e0e0; padding: 10px;"><a href="x26135.xml">State Literacy Tests</a></td>
+</tr>
+<tr>
+<td style="border: 1px solid #e0e0e0; padding: 10px;"><a href="http://web.byui.edu/studentteaching/"></a><a href="https://www.byui.edu/edtech" target="_self">Technology Competency Assessment (TCA)</a></td>
+</tr>
+<tr>
+<td style="border: 1px solid #e0e0e0; padding: 10px;"><a href="Documents/education-human-dev/Field_Services_Office/Personal%20Intro%20Template.doc"></a></td>
+</tr>
+</tbody>
+</table>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="false" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x1851" Name="SiteControl" label="Site Control" readonly="true" hidden="true" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

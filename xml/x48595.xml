@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x48595" Name="c_slider_style.css" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">c_slider_style.css</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">c_slider_style.css</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">#featured{ 
+	width:400px; 
+	padding-right:250px; 
+	position:relative; 
+	/* border:5px solid #ccc;  */
+	height:260px; 
+	background:#fff;
+}
+#featured ul.ui-tabs-nav {
+	background:url("../images/content_slider/list_bg_final2_02.png") repeat-y 0 0 transparent;
+	height:260px;
+	left:460px;
+	list-style:none outside none;
+	margin:0;
+	padding:0;
+	position:absolute;
+	top:0;
+	width:190px;
+	overflow:hidden;
+}
+/*
+#featured ul.ui-tabs-nav{ 
+	position:absolute; 
+	top:0; left:400px; 
+	list-style:none; 
+	padding:0; margin:0; 
+	height:252px;
+	width:183px; 
+	background: url(../images/content_slider/list_bg_0.png) repeat-y;
+}
+*/
+#featured ul.ui-tabs-nav li{ 
+	height:64px; 
+	padding:0px 0 0px 10px;  
+	margin:0 0 0 7px;
+	font-size:12px; 
+	border-bottom: 1px solid #D2D3D5;
+	/* color:#666;  */
+}
+/*
+#featured ul.ui-tabs-nav li img{ 
+	float:left; margin:2px 5px; 
+	background:#fff; 
+	padding:2px; 
+	border:1px solid #eee;
+}
+*/
+#featured ul.ui-tabs-nav li img {
+/* background:none repeat scroll 0 0 #FFFFFF; */
+	border:2px solid #939598;
+	float:left;
+	margin:5px 7px 5px 5px;
+/* padding:2px; */
+}
+#featured ul.ui-tabs-nav li span{ 
+	font-size:11px; font-family:Verdana; 
+	line-height:15px; 
+	padding: 10px 10px 0 0;
+	display:block;
+}
+#featured li.ui-tabs-nav-item a{ 
+	display:block; 
+	color:#333;  
+	/* background:#fff;  */
+	line-height:20px;
+	text-decoration: none;
+}
+#featured li.ui-tabs-nav-item a:hover{ 
+	background:#f2f2f2; 
+}
+#featured li.ui-tabs-selected{ 
+	background:url('../images/content_slider/selected-item.png') #D2D3D5 top left no-repeat;
+	padding:0px 0px 0px 17px;
+	margin:0 0 0 7px;
+	position:relative;
+	z-index:999;  
+}
+#featured ul.ui-tabs-nav li.ui-tabs-selected a{ 
+	background:#D2D3D5; 
+	margin:0px 0 0px 0;
+}
+#featured .ui-tabs-panel{ 
+	width:460px; height:260px; 
+	/* background:#999; */ position:relative;
+}
+#featured .ui-tabs-panel .info{ 
+	position:absolute; 
+	top:180px; left:0; 
+	height:70px; 
+	background: url('../images/content_slider/transparent-bg.png'); 
+}
+#featured .info h2{ 
+	font-size:18px; font-family:Georgia, serif; 
+	color:#fff; padding:5px; margin:0;
+	overflow:hidden; 
+}
+#featured .info p{ 
+	margin:0 5px; 
+	font-family:Verdana; font-size:11px; 
+	line-height:15px; color:#f0f0f0;
+}
+#featured .info a{ 
+	text-decoration:none; 
+	color:#fff; 
+}
+#featured .info a:hover{ 
+	text-decoration:underline; 
+}
+#featured .ui-tabs-hide{ 
+	display:none; 
+}</ESContent></EmptyShell>

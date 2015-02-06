@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x57096" Name="Alumni QA" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Alumni Q &amp; A</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Alumni question and answer page.</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<script language="javascript" type="text/javascript">
+function toggle() {
+    var ele = document.getElementById("toggleText");
+    var text = document.getElementById("displayText");
+
+    if (ele.style.display == "block") {
+        ele.style.display = "none";
+        text.innerHTML = "continue reading";
+    }
+    else {
+        ele.style.display = "block";
+        text.innerHTML = "less text";
+    }
+}
+</script>
+<div class="span-12">
+<div class="span-3 live_webcast">LIVE WEBCAST</div>
+<div class="span-8 last date">&mdash; December 6, 7 p.m. MST</div>
+</div>
+<div class="span-12 clark">A Conversation with President Kim B. Clark</div>
+<div class="span-12">
+<p><em>Thank you for participating in our live <a href="x47082.xml">Alumni Webcast</a>. As alumni, we have many opportunities to serve and grow long after leaving BYU&ndash;Idaho. Some of you currently serve as a <a href="http://www.byuiconnect.com/s/1085/07-idaho/idaho-interior.aspx?sid=1085&amp;gid=4&amp;pgid=966">BYU&ndash;Idaho Mentor</a> or as a <a href="http://www.byuiconnect.com/s/1085/07-idaho/idaho-interior.aspx?sid=1085&amp;gid=4&amp;pgid=966">BYU&ndash;Idaho Ambassador</a>, for which we are extremely grateful. Our topic for this webcast will be Pathway, a BYU-Idaho program through which several thousands are being blessed world-wide. Please review the following information and join us for the live webcast on December 6, at 7 p.m. (MST).</em></p>
+<div style="height: 30px; width: 100%; padding: 15px 0px 15px 0px; margin: 20px 0px 40px 0px;"><a href="http://www.byuiconnect.com/webcast"><img height="46" src="Images/alumni/live-event-rsvp-btn.jpg" width="429" /></a></div>
+<p class="subtitle">CASE STUDY: <span class="after-colon">PATHWAY SPEAKING PARTNER</span></p>
+<p>Juan Hern&aacute;ndez looked apprehensively at his computer screen. He was just one week into his Pathway math class and already feeling unsure of himself. His current assignment required him to multiply and divide numbers without a calculator, using the techniques of rounding and estimating. He knew help would be available on Thursday night, when he met with his classmates and Elder and Sister P&eacute;rez at the Institute building. But that was two days away, and he wished there were someone he could talk to now.</p>
+<div id="toggleText" style="display: none;">
+<p>To this point, Juan had loved his Pathway experience. In fact, after just one semester, the program had already changed his life. Simply being a Pathway student, with the opportunity to earn a technical certificate or perhaps a college degree, had increased his confidence. And the techniques of time management he learned in his first-semester Life Skills course had already proven valuable at work, where his boss at the grocery store had promoted him.</p>
+<p>Still, Juan wasn't making enough money to quit the part-time jobs he worked on evenings and weekends. He had almost no time left over for his wife and their three young children, or for his two Church callings, elders quorum president and ward financial clerk.</p>
+<p>Thus, Juan had literally wept when he attended the fireside in which he learned of Pathway. Thanks to his missionary service ten years before in Southern California, he was among the fortunate attendees who knew enough English to qualify for the Pathway pilot in his city. Even with English-language experience, the first-semester Life Skills course and the Book of Mormon classes he attended at the Institute presented a real challenge. It had been a long time since he'd spoken English, and longer still since he had dropped out of high school to help his parents make a living. Even these Academic Start courses, specially designed to help students like him prepare for college-level work, pushed him to the limit.</p>
+<p>Along with the support of his classmates and the P&eacute;rezes, Juan's salvation in that first semester had been Tim Johnson, his Pathway speaking partner. Tim was a BYU-Idaho student who had volunteered to Skype with Juan twice a week for twenty or thirty minutes. Tim didn't speak Spanish, but that didn't matter; his job was simply to help Juan improve his English and his understanding of the topics covered in the Life Skills course. In fact, Juan was responsible for leading their discussions, using a template provided (<a href="http://www.byui.edu/online/speaking-partners/gs120l/gs-120l-lesson-2">see example</a>). Tim seemed to enjoy their twice-weekly Skype discussions: more often than not, they spent more than thirty minutes together. By the end of the semester, they were close friends.</p>
+<p>Tim would have known exactly how to coach Juan through the uncertainty he was feeling right now. Tim wasn't a math major, and he probably wouldn't remember the techniques of rounding and estimation any better than Juan did. But just having a partner at times like this had proven invaluable last semester. Together, he and Tim had always been able to figure things out.</p>
+<p>Sadly for Juan, Tim had been unable to continue as his speaking partner this semester, due to unusually heavy school, work, and Church responsibilities. The Pathway people at BYU-Idaho were looking for another partner for Juan but hadn't yet found one. Rapid growth of the Pathway program in non-English-speaking countries meant that nearly one thousand new volunteers were needed. Juan hoped that his new partner could be found soon.</p>
+</div>
+<p><a class="expand-collapse" href="javascript: toggle();" id="displayText">continue reading</a></p>
+<br /><hr />
+<h2>Join the Conversation!</h2>
+<p>(<strong>TIP: </strong>Please login before writing or submitting a comment. Otherwise, the text of your comment may be lost during the login process.)</p>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'byuiqa'; // required: replace example with your forum shortname
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+</script>
+<noscript>Please enable JavaScript to view the &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;a href="http://disqus.com/?ref_noscript"&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;comments powered by Disqus.&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/a&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;</noscript><a class="dsq-brlink" href="http://disqus.com">comments powered by <span class="logo-disqus">Disqus</span></a></div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="true"><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="true"><xPower Type="Component" Component="x47069" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="Component" Component="x47162" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x47104" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

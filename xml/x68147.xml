@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<Content ID="x68147" Name="Join the Conversation" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Join the Conversation</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Join the Conversation</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<div>[x50756][x50919]</div>
+<style type="text/css"><!--
+.logo img {
+padding-top: 0px;
+}
+.panels{
+    float: left;
+    margin: 5px 0 0 0;
+    padding: 5px 0 5px 0;
+    border-top: 1px dotted black;
+    border-bottom: 1px dotted black;
+    clear: both;
+    width: 950px;
+    position:relative;
+    }
+
+    .panel {
+    width: 950px;
+    height: 630px;
+    }
+
+    #our-responsibility {
+    background-image: url('http://www.byui.edu/Images/campaigns/join-the-conversation/JTCV2-FromPresident-websafe.jpg');
+    position:relative;
+    }
+
+#attribution{
+float:left;
+}
+    #be-heard {
+    background-image: url('http://www.byui.edu/Images/campaigns/join-the-conversation/JTCV2-BeHeard-websafe.jpg');
+    }
+
+    #be-informed {
+    background-image: url('http://www.byui.edu/Images/campaigns/join-the-conversation/JTCV2-BeInformed3-websafe.jpg');
+    }
+
+    .description {
+    height: 550px;
+    width: 290px;
+    border-left: 1px;
+    padding: 40px;
+    opacity: 0.8;
+    float: left;
+    }
+
+    #our-responsibility .description, #our-responsibility-button {
+    background-color: #8D912C;
+    }
+
+    #be-informed .description, #be-informed-button {
+    background-color: #E7C534;
+    }
+
+    #be-heard .description, #be-heard-button {
+    background-color: #99BFC5;
+    }
+
+ .description h1{
+    font-style:bold;
+    font-size:23px !important;
+    text-transform: uppercase;
+    color: black !important;
+padding: 10px;
+border-bottom: 2px solid white;
+margin: 0 !important;
+    }
+
+ .description p{
+margin-top: 5px;
+color: black;
+    }
+
+.description img{
+margin: 10px 0 30px 0;
+}
+
+.more{
+float:right;
+}
+
+    #holder{
+    float: left;
+    padding: 10px;
+    margin-left: 5px;
+    }
+
+    .button-bar{
+    width:580px;
+    text-align:center;
+position: absolute;
+bottom:5px;
+right:0px;
+background-color:#E0E0E0;
+/*opacity:0.8;*/
+    }
+
+    .button{
+    float:left;
+    display:inline;
+width:103px;
+padding: 22px 0 22px 0;
+margin:0 10px 0 10px;
+height: 64px;
+opacity:1.0;
+    }
+
+.button p{
+font-size: 8pt;
+color: black;
+font-family: helvetica, sans-serif;
+}
+
+#our-responsibility-button {
+margin-left: 117.5px;
+}
+.button {
+cursor: pointer;
+}
+--></style>
+<div class="panels span-24">
+<div class="panel" id="our-responsibility">
+<div class="description">
+<h1>Our Responsibility</h1>
+<p style="margin-top: 15px;">&ldquo;As we work to move BYU-Idaho forward on its steady, upward course, our ability to share information with each other is essential. We all have the responsibility to ensure information flows effectively across campus. Over the last year, much work has been done to develop transparent, two-way communication throughout the university. We still have a lot of work to do, but an important initiative has been designed to help us get there. I hope you will find the new communication tools useful. I encourage all of us to fully engage in this endeavor to make effective communication a defining aspect of our work at the university. The Lord will bless us as we <br />do so.&rdquo;<br /> <br /> <span id="attribution">&mdash; President Kim B. Clark</span></p>
+</div>
+</div>
+<div class="panel" id="be-informed">
+<div class="description"><img alt="Be Informed icon" height="120" src="Images/campaigns/join-the-conversation/icon-be-informed-white.png" width="120" />
+<h1>Be Informed</h1>
+<p>Your work is important to the university's success. In order for you to be effective in your stewardship, you need to be informed. To make that happen, university leaders have committed to share ideas, plans, and directions with you in a timely manner.</p>
+<div class="more"><a href="x50274.xml"><img alt="More button." height="26" src="Images/campaigns/join-the-conversation/More.png" width="44" /></a></div>
+</div>
+</div>
+<div class="panel" id="be-heard">
+<div class="description"><img alt="Be Heard icon" height="120" src="Images/campaigns/join-the-conversation/icon-be-heard-white.png" width="120" />
+<h1>Be Heard</h1>
+<p>BYU-Idaho is a place of educational innovation. When everyone has a voice and gives input, true innovation occurs. The university is committed to providing tools and creating venues that foster conversation from each of us.</p>
+<div class="more"><a href="x50273.xml"><img alt="More button." height="26" src="Images/campaigns/join-the-conversation/More.png" width="44" /></a></div>
+</div>
+</div>
+<div class="button-bar">
+<div class="button" id="our-responsibility-button"><img height="60" src="Images/campaigns/join-the-conversation/JTCV2-FromPresidentTN.jpg" width="60" />
+<p>Our Responsibility</p>
+</div>
+<div class="button" id="be-informed-button"><a href="javascript:onclick()"><img height="60" src="Images/campaigns/join-the-conversation/JTCV2-BeInformedTN3.jpg" width="60" /></a>
+<p>Be Informed</p>
+</div>
+<div class="button" id="be-heard-button"><img height="60" src="Images/campaigns/join-the-conversation/JTCV2-BeHeardTN.jpg" width="60" />
+<p>Be Heard</p>
+</div>
+</div>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="true"><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="true" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="true" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="x50275" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x50320" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x50361" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x50353" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x50351" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x50387" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x50756" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x50919" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x50691" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

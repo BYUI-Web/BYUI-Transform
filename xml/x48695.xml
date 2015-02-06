@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x48695" Name="article_template.htm" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">article_template.htm</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">article_template.htm</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"&gt;
+&lt;head&gt;
+    &lt;meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /&gt;
+    &lt;title&gt;BYU&amp;ndash;Idaho&amp;nbsp;|&amp;nbsp;Online&amp;nbsp;Magazine&amp;nbsp;&gt;&amp;nbsp;A&amp;nbsp;Vision&amp;nbsp;of&amp;nbsp;Online&amp;nbsp;Learning&lt;/title&gt;
+    &lt;!-- Remove TemplateSource line to disable the Web Editor --&gt;
+    &lt;!--TemplateSource="2A.htm"--&gt;
+    &lt;!--***********************************************************************
+    *   Brigham Young University-Idaho Template
+    *   Version:        1.2
+    *   Type:           2A
+    *   Last Revised:   June, 2006
+    *   Copyright� 2007 Brigham Young University-Idaho
+    *   All Rights Reserved.
+    ************************************************************************--&gt;
+    &lt;!-- REFERENCED STYLESHEETS --&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/v1/topBar.css" /&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/V1/structure.css" /&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/V1/body_text.css" /&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/V1/table.css" /&gt;
+	&lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/driveorwalk/css/walkordrivestyle.css" /&gt;
+	&lt;link rel="stylesheet" type="text/css" href="../css/ol.css" /&gt;
+	&lt;link rel="stylesheet" type="text/css" href="../css/article_style.css" /&gt;
+	&lt;link rel="stylesheet" href="../css/print.css" type="text/css" media="print" /&gt;
+
+	
+    &lt;!-- EMBEDED JAVASCRIPT FUNCTIONS --&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/js/v2/changeSizeRevised.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/js/v2/leftLinks.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/driveorwalk/js/textswap.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/driveorwalk/js/active.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/driveorwalk/js/randomadimage.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="../js/js.js"&gt;&lt;/script&gt;
+
+
+
+    &lt;!-- EDITOR JAVASCRIPT FUNCTIONS --&gt;
+&lt;/head&gt;
+&lt;body id="type_A" onload="callFunctions(); randomImageDisplay(); activeNav(1); randomAdImage();" style="visibility:hidden;"&gt;
+    &lt;!-- The body type determines the number of columns in the CONTENT AREA. View structure.css to where these types are specified --&gt;
+    &lt;!-- *********************************************************************** --&gt;
+    &lt;!-- TOP BAR                                                                 --&gt;
+    &lt;!-- *********************************************************************** --&gt;
+	&lt;!-- To ommitt printing images or navigation structures, add class="noprint" --&gt;
+	&lt;!-- *********************************************************************** --&gt;
+    &lt;div id="topBar"&gt;
+        &lt;div id="blueSpace"&gt;&lt;/div&gt;
+        &lt;div&gt;
+            &lt;table id="tableBlue" cellspacing="0" cellpadding="0"&gt;
+                &lt;!-- Title menu with the Blue Background --&gt;
+                &lt;tr&gt;&lt;td id="tdBlueSpace"&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr id="trBlueTop"&gt;&lt;td id="tdBlueTop"&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td id="tdBlueMenu" align="center"&gt;
+                        &lt;div id="javaMenu"&gt;
+                            &lt;script type="text/javascript" src="http://www.byui.edu/js/V1/HomepageNavBar.js"&gt;&lt;/script&gt;
+                        &lt;/div&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+        &lt;/div&gt;
+        &lt;!-- Gray Bar --&gt;
+        &lt;div id="divGrayBarContainer"&gt;
+            &lt;div id="divDarkGrayBar"&gt;
+                &lt;!--&lt;div id="divStudent"&gt;
+                    &lt;script type="text/javascript" src="http://www.byui.edu/js/V1/imageChange.js"&gt;&lt;/script&gt;
+                &lt;/div&gt; //--&gt;
+                &lt;div id="divBYUILogo"&gt;
+                    &lt;a id="logoLink" href="http://www.byui.edu/"&gt;&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div id="divVertLine"&gt;&lt;/div&gt;
+                &lt;div id="divDepartmentTitle"&gt;
+                    &lt;!-- Department Title --&gt;
+                    &lt;div id="divSectionTitle"&gt;
+                        &lt;a id="iframeText" target="_top" href="http://www.byui.edu/magazine"&gt;Online Magazine &amp;gt; Feature Template&lt;/a&gt;
+
+                    &lt;/div&gt;  
+                    &lt;span id="divSemester"&gt;
+						Fall 2009 
+                    &lt;/span&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;!-- White Bar --&gt;
+        &lt;div id="divWhiteContainer"&gt;
+        &lt;div id="divWhiteBar"&gt;
+            &lt;img src="http://www.byui.edu/css/V1/images/whiteBar.gif" alt="White Bar" /&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!-- END ***************************************************************** --&gt;
+    &lt;!--EditorForm--&gt;
+    &lt;!--EditorToolbar--&gt;
+    &lt;div id="container"&gt;
+        &lt;div id="main_body"&gt;
+            &lt;!-- LEFT COLUMN --&gt;
+            &lt;!-- NAVIGATION FILE INCLUDE --&gt;
+            			&lt;div id="left_column" style="background-color:#FFF";&gt;
+                
+				&lt;div id="onlinemagazinenav"&gt;
+					&lt;!--#include file="../common/nav.inc"--&gt;
+
+					&lt;div id="sub_nav_watch"&gt;
+						&lt;img src="http://www.byui.edu/Magazine/fall2009/images/watch.png" /&gt;
+						&lt;a href="#"&gt;&lt;img id="video" src="http://www.byui.edu/Magazine/fall2009/images/video_icon.jpg" /&gt;&lt;/a&gt;
+					&lt;/div&gt;
+					&lt;div id="sub_nav_item"&gt;
+						&lt;a href="#"&gt;&lt;img src="http://www.byui.edu/Magazine/fall2009/images/listen.png" /&gt;&lt;/a&gt;
+					&lt;/div&gt;
+					&lt;div id="sub_nav_item"&gt;
+						&lt;a href="#"&gt;&lt;img src="http://www.byui.edu/Magazine/fall2009/images/download_pdf.png" /&gt;&lt;/a&gt;
+					&lt;/div&gt;
+			   &lt;/div&gt;
+			   
+            &lt;/div&gt;
+            
+            &lt;div id="right_section"&gt;
+                &lt;div class="right_bottom_section"&gt;
+                    &lt;div class="leftAREA"&gt;
+                        &lt;div id="random_image"&gt;
+							&lt;div&gt;
+                        		&lt;img id="bannerImage" alt="Feature Template" src="images/tree-in-article.jpg" width="580px" height="230px"/&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+						
+
+						&lt;div id="page_layout2_content"&gt;&lt;br&gt;
+							&lt;h1&gt;A Feature Template&lt;/h1&gt;
+							&lt;h3&gt;Henry J. Eyring&lt;/h3&gt;
+							&lt;span id="title"&gt;Outreach and Online Learning Managing Director&lt;/span&gt;
+							&lt;p&gt;Even in Tokyo, President Clark's inaugural address grabbed my attention.  In October 2005, I was in the final year of a mission.  Rexburg's open fields seemed more than a world away from Japan's concrete canyons.  But our daughter Emily was a freshman at BYU-Idaho.  She called to say, &amp;quot;You've got to read Presdient Clark's talk.&amp;quot;&lt;/p&gt;
+							&lt;blockquote&gt;&amp;quot;I believe that at BYU-Idaho we must learn to use new technologies and develop methods, materials, programs, and concepts that not only can be applied to our students on and off our campus, but also can be effectively and efficiently applied by others across the Church and, indeed, across the world.  I am convinced that this unversity is in this valley where our pioneer heritage is deeply ingrained, where the people are humble and faithful, so that we can be a proving ground of great fidelity for education that will bless the young people of the Church worldwide.&amp;quot;&lt;/blockquote&gt;							
+							&lt;p&gt;That image of Primary children all over the world--especially the third world--especially the third world--transported me.  My thoughts shifted from the RExburg of my boyhood to a time and place equally far from Japan.&lt;/p&gt;
+							
+							&lt;span class="section_heading"&gt;Seen from the Mountain Top: Satellite Dishes in the Slum &lt;/span/&gt;
+							
+							&lt;p&gt;In the fall of 1998, I visited South American in search of prospective Master's of Business Administration (MBA) students.  Generous donors to BYU's Marriott School of Management had created a special scholarship for applicants who would pledge to return to their home countries after graduating.  The program had already produced many such graduates; they, were building up the Church through service not only in wards and stakes but also in prominent positions in business, education, and government.&lt;/p&gt;
+							&lt;p class="pull_quote"&gt;&amp;quot;The people can lay bricks by themselves, but they have to pay a technician to realign the dish.&amp;quot;&lt;/p&gt;
+							
+							
+							
+							&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class="rightAREA"&gt;&lt;img alt="Place Holder" src="http://www.byui.edu/css/V1/images/placeholder80.gif" /&gt;&lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div id="footer"&gt;
+            &lt;div id="shadow"&gt;Copyright&amp;copy; &lt;script type="text/javascript"&gt;var d = new Date();document.write(d.getFullYear());&lt;/script&gt; BYU&amp;ndash;Idaho&lt;br /&gt;All Rights Reserved.&lt;/div&gt;
+        &lt;/div&gt;
+    
+    &lt;!--EndEditorForm--&gt;
+    &lt;!-- TABLE FORMATTING SECTION --&gt;
+    &lt;script type="text/javascript"&gt;
+        &lt;!--
+        var tableTags = document.getElementById('main_body').getElementsByTagName("table");
+        for (var i = 0; i &lt; tableTags.length; i++)
+        {
+            var trTags = tableTags[i].getElementsByTagName("tr");
+            for (var j = 0; j &lt; trTags.length; j++)
+            {
+                if(j%2 == 0)
+                {
+                    trTags.item(j).style.backgroundColor = "#efefec";
+                }
+                else
+                {
+                    trTags.item(j).style.backgroundColor = "#ffffff";
+                }
+            }
+        }
+        --&gt;
+    &lt;/script&gt;
+&lt;!-- This script enables Google Analytics --&gt;
+		&lt;script type="text/javascript"&gt;
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		&lt;/script&gt;
+		&lt;script type="text/javascript"&gt;
+			try {
+			var pageTracker = _gat._getTracker("UA-12079604-1");
+			pageTracker._trackPageview();
+			} catch(err) {}
+		&lt;/script&gt;
+	&lt;/body&gt;
+&lt;/html&gt;
+</ESContent></EmptyShell>

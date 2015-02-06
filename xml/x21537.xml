@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<AdminPage ID="x21537" Name="Why BETA?" Layout="admin_office_home.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Why BETA?</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">As BYU-Idaho continues to grow and expand, the BYU-I website needs to keep up the pace in serving important needs for it's users.</Abstract><MainMesgTop type="boolean" label="Enable to move &quot;Main Message&quot; to top of page" readonly="false" required="false" hidden="false">false</MainMesgTop><IntroCopy type="dhtml" label="Main Message" readonly="false" hidden="false" required="false"><![CDATA[<p>BYU-Idaho's new website is a result of a new content management system (CMS). This system allows greater use of new technologies and helps web builders create more effective messages online.</p>
+<style><!--
+#recent-work{
+	margin-left: 15px;
+	display: block;
+	float: left;
+	width: 426px;
+	border-right: solid 1px #aeaeae;
+        border-bottom: 1px dotted #363636;
+}
+#recent-work h2{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 10px;
+	margin-top: 8px;
+}
+#ads{
+	display: block;
+	float: left;
+	width: 197;
+}
+.image{
+	width: 65px;
+	height: 65px;
+	float: left;
+	
+}
+.image img {
+        border: solid 1px #aeaeae;
+        padding: 3px;
+}
+.article{
+	display: block;
+	overflow: hidden;
+	margin: 10px 0;
+	cursor: pointer;
+}
+.article-body{
+	display: block;
+	overflow: hidden;
+	float: left;
+	width:295px;
+	margin-right: 30px;
+	margin-left: 25px;
+}
+.article-body h3 {
+	font-size: 16px;
+}
+.article-body p{
+        margin-bottom: 5px;
+        padding: 0!important;
+}
+.readMore{
+	margin-top: 5px;
+	display: block;
+	color: #693800;
+	font-size: 10px;
+        letter-spacing: 1px;
+        over-flow: hidden;
+        margin-bottom: 15px;
+}
+#ads img{
+        border: solid 1px #aeaeae;
+        padding: 3px;
+        margin-top: 10px;
+        margin-left: 15px;
+}
+--></style>
+<div id="recent-work">
+<h2>find out more</h2>
+<div class="article" onclick="location.href=''">
+<div class="image"><img alt="place-holder 1" height="55" src="Images/university-communications/place-holders/place-holder-1.jpg" width="56" /></div>
+<div class="article-body">
+<h3>Why change the website?</h3>
+<p>As BYU-Idaho continues to grow and expand, so does it's needs and purposes online. Having a website that...</p>
+<span class="readMore">read more &gt;&gt;</span></div>
+</div>
+<div class="article" onclick="location.href=''">
+<div class="image"><img alt="place holder 2" height="55" src="Images/university-communications/place-holders/place-holder-2.jpg" width="56" /></div>
+<div class="article-body">
+<h3>Pros and cons of the new system</h3>
+<p>As the new system gets more use, it's important we continue to identity it's strengths and weaknesses. Here are a few pros and cons we...</p>
+<span class="readMore">read more &gt;&gt;</span></div>
+</div>
+<div class="article" onclick="location.href=''">
+<div class="image"><img alt="place holder 3" height="55" src="Images/university-communications/place-holders/place-holder-3.jpg" width="56" /></div>
+<div class="article-body">
+<h3>History of the project</h3>
+<p>Although the BETA site has only been public since May 2011, the behind the scenes work building the new system has been...</p>
+<span class="readMore">read more &gt;&gt;</span></div>
+</div>
+</div>
+<div id="ads"><a><img alt="place holder 3" height="168" src="Images/university-communications/place-holders/place-holder-4.jpg" width="168" /></a> <a><img alt="place holder 5" height="168" src="Images/university-communications/place-holders/place-holder-5.jpg" width="168" /></a></div>]]></IntroCopy><xPower Type="GroupStart" GroupStart="" Name="CellGroup" label="Cells" readonly="false" hidden="false" required="false" Expanded="false"><numColumns type="enumeration" values="1 2 3 4 5" label="Select number of cell columns." readonly="false" hidden="false" required="true">3</numColumns><xPower Type="List" List="xpowercomponent_Cell" Name="CellList" label="Cell List" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"><xPower Type="Component" Component="" Name="Cell" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"/></xPower></xPower><xPower Type="List" List="xpowercomponent_BannerAd" Name="BannerAds" label="Rotating Ads (650x216px required)" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"><xPower Type="Component" Component="" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/></xPower><xPower Type="Navigation" StartPage="" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="" Query="" Name="DeptEvents" label="Define Your Events Folder" readonly="false" hidden="false" required="false" Expanded="false"/><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="QuickLinksGroup" label="Quick Links Group" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Component="" Name="QuickLinks" label="Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x21506" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></AdminPage>

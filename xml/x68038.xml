@@ -1,0 +1,264 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x68038" Name="home_page_static.css" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">home_page_static.css</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">home_page_static.css</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">#main{
+	margin:auto; 
+	height: 260px; 
+	width: 950px; 
+	overflow: hidden;
+	color: white;
+	font-family: arial;
+	position:relative;
+}
+
+#pics, #pics img{
+	z-index: -5000;
+	width: 650px; 
+	margin: 0;
+	padding: 0;
+	height: 260px; 
+}
+
+#info{
+	height: 260px; 
+	float: left; 
+	clear: right;
+	width: 300px; 
+	background: url('../../images/home_page/interactive/blk_large_side_block.png');
+	position:relative;
+}
+
+.replace ul{
+	margin-left: -25px;
+}
+
+#text{
+	width: 240px;
+	margin: auto;
+	position:  relative;
+	top: 10px;
+}
+
+#text .title{
+	font-size: 17px;
+	margin-top:5px;
+}
+
+#text p{
+	font-size: 11px;
+	padding: 5px 0 5px 0;
+}
+
+#interactive{
+	display: block;
+	height: 260px; 
+	width: 650px; 
+	float: left; 
+	z-index: -200;
+	overflow:hidden;
+	font-size: 14px;
+}
+
+#submenu1{
+	top: -40px;
+	visibility: hidden;
+	position: relative;
+	float: left; 
+	clear: left;
+	height: 40px;
+	width: 215px; 
+	background: url('../../images/home_page/interactive/sub_menu.png') repeat-y;
+	z-index: 1000;
+}
+
+#submenu1 p, #submenu2 p, #submenu3 p{
+	color: #d3d3d3;
+	margin-left: 25px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+#submenu1 p span:hover, #submenu2 p span:hover, #submenu3 p span:hover{
+	color: #FFFFFF;
+}
+
+#submenu1 p span, #submenu2 p span, #submenu3 p span{
+	width: 100px;
+	position: relative;
+	left: 13px;
+	top:  -13px;
+}
+
+#submenu1 ul, #submenu2 ul, #submenu3 ul{
+	font-size: 12px;
+	letter-spacing: -.5px;
+	position: relative;
+	left: 40px;
+	width: 175px;
+}
+
+#submenu1 a, #submenu2 a, #submenu3 a{
+	color: inherit;
+	text-decoration: none;
+}
+
+#submenu2, #submenu3{
+	top: -40px;
+	visibility: hidden;
+	position: relative;
+	margin-left: 0px; 
+	float: left;
+	height: 40px; 
+	width: 215px; 
+	background: url('../../images/home_page/interactive/sub_menu.png') repeat-y;
+	z-index: 1000;
+}
+
+
+/*CSS Menu with Sprites*/
+#menu{
+	padding-top: 1px; 
+	height: 30px;
+	margin: auto; 
+	width: 950px;
+	padding-bottom: 10px;
+}
+
+#menu ul{
+	height: 30px; 
+	width: 950px;
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+
+#menu li a{
+	display:  block;
+	background: url('../../images/home_page/interactive/blue_bar.png') no-repeat;
+	top: 0;
+	width: 190px;
+	height: 30px;
+}
+
+#menu ul li{
+	display:  inline;
+	float: left;
+}
+
+li#honorCode a{
+	left: 0;
+	width: 190px;
+	background-position: 0 -31px;
+}
+
+li#honorCode a:hover, li#honorCode a.active{
+	left: 0;
+	width: 190px;
+	background-position: 0 0;
+}
+
+li#learningModel a{
+	left: 0;
+	width: 190px;
+	background-position: -190px -31px;
+}
+
+li#learningModel a:hover, li#learningModel a.active{
+	left: 0;
+	width: 190px;
+	background-position: -190px 0;
+}
+
+li#leadershipDevelopment a{
+	left: 0;
+	width: 190px;
+	background-position: -380px -31px;
+}
+
+li#leadershipDevelopment a:hover, li#leadershipDevelopment a.active{
+	left: 0;
+	width: 190px;
+	background-position: -380px 0;
+}
+
+li#disciplePreparation a{
+	left: 0;
+	width: 190px;
+	background-position: -570px -31px;
+}
+
+li#disciplePreparation a:hover, li#disciplePreparation a.active{
+	left: 0;
+	width: 190px;
+	background-position: -570px 0;
+}
+
+li#spiritOfRicks a{
+	left: 0;
+	width: 190px;
+	background-position: -760px -31px;
+}
+
+li#spiritOfRicks a:hover, li#spiritOfRicks a.active{
+	left: 0;
+	width: 190px;
+	background-position: -760px 0;
+}
+/*End of CSS menu with sprites*/
+
+#submenu1 .video{
+	margin:  auto auto auto 15px;
+}
+
+.separator{
+	visibility: hidden;
+	z-index: 100;
+	position: relative;
+	top: -40px;
+	width: 2px;
+	height: 50px;
+	float: left;
+	margin-left: 0px;
+	background-image: url('../../images/home_page/interactive/two_px_divider_line.png');
+}
+
+#main div p span{
+	margin-left: 2px;
+}
+
+#more
+{
+position:absolute;
+top:220px;
+width:298px;
+height: 38px;
+z-index: 1000;
+}
+
+#more p
+{
+position: relative;
+margin-left: 10px;
+line-height: 18px;
+color: #666;
+width: 200px;
+float: left;
+top: 4px;
+font-size: 12px;
+}
+
+#more a{
+	position: relative;
+	width: 16px;
+	height: 16px;
+	margin-left: 15px;
+	top: 5px;
+	float: left;
+	clear: right;
+}
+
+#more img
+{
+width: 16px;
+height: 16px;
+}
+</ESContent></EmptyShell>

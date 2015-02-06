@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x68025" Name="styleIE7.css" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">styleIE7</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">styleIE7</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">		#GlobalNavigation form input.header_search_box{
+			height: 14px;
+			width: 148px;
+		}
+		
+		.searchButton{
+			position: absolute;
+			top: 1px;
+			left: 153px;
+		}
+		
+		#search_form form input.search_img{
+			position: absolute;
+			top:11px;
+		}
+		
+		#search_form form input.search_box{
+			height: 14px;
+		}
+		
+		#search_form &gt; form {
+			position: relative;
+			padding-top: 10px;
+		}</ESContent></EmptyShell>

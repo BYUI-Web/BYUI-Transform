@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<PhotoGallery ID="x67172" Name="Poster Gallery" Layout="photogallery.xsl">
+	<Title type="string" label="Title" readonly="false" hidden="false" required="true" ID="1">Poster Gallery</Title>
+	<Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true" ID="2">Poster Gallery</Abstract>
+	<xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" ID="3">
+		<NavName type="string" label="Navigation Name" readonly="false" hidden="false" required="false" ID="4"></NavName>
+		<BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false" ID="5"></BrowserBarTitle>
+		<MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false" ID="6"></MetaDescription>
+		<MetaKeywords type="string" label="Meta Keywords" readonly="false" hidden="false" required="false" ID="7"></MetaKeywords>
+		<Priority type="enumeration" values=".9 .8 .7 .6 .5 .4 .3 .2 .1" label="Priority" readonly="false" hidden="false" required="false" ID="8"/>
+		<NoFollow type="boolean" label="No Follow" readonly="false" hidden="false" required="false" ID="9">
+false
+</NoFollow>
+		<NoIndex type="boolean" label="No Index" readonly="false" hidden="false" required="false" ID="10">
+false
+</NoIndex>
+		<NoODP type="boolean" label="No ODP" readonly="false" hidden="false" required="false" ID="11">
+false
+</NoODP>
+	</xPower>
+	<BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" ID="12"><![CDATA[Body copy goes here]]></BodyCopy>
+	<Thumbnail type="imagefile" label="Thumbnail" readonly="false" hidden="false" required="false" Width="400" Height="266" Alignment="" Border="" Expanded="true" AlternateText="" HSpace="" VSpace="" ID="13">new_image_structure/administrative_departments/university_communications/Campaigns/fight_the_flu/small_icons/get_shot.png</Thumbnail>
+	<xPower Type="Navigation" StartPage="x4437" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Children" Query="" Name="Images" label="Images" readonly="true" hidden="true" required="false" Expanded="false" ID="14">
+		<Exports type="string" ID="15">
+			<Export><Name>Keywords</Name><Value>/*/Keywords</Value></Export><Export><Name>ImageFile</Name><Value>/*/@File</Value></Export><Export><Name>ImageThumbnail</Name><Value>/*/@Thumbnail</Value></Export><Export><Name>ImageAlternateText</Name><Value>/*/@AlternateText</Value></Export>
+		</Exports>
+	</xPower>
+	<xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" ID="16"/>
+	<xPower Type="Component" Component="x4205" Name="SiteControl" label="Site Control" readonly="true" hidden="true" required="false" CompTypes="SiteControl" Expanded="false" ID="17"/>
+</PhotoGallery>

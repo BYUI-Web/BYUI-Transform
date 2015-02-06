@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.101 - http://www.ingeniux.com ***-->
+<Content ID="x51357" Name="Address Example" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Address Example</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Address Example</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<p><strong>All official department envelopes, letterhead, and other official mailing correspondence should adhere strictly to the BYU-Idaho Style Guide.</strong></p>
+<hr />
+<p>The example below shows the format that should be used on business cards, and also when you are ordering online or subscribing to publications.&nbsp; Your address should&nbsp;show a contact, whether your name or department; and should include at least the receiving address information.&nbsp; To look up the 4-digit mail stop assigned to your department, <a href="x51337.xml"><strong><em>click here</em></strong></a>.</p>
+<table border="0">
+<tbody>
+<tr><th>Address Component</th><th>Example</th></tr>
+<tr>
+<td>&nbsp;Name of University<br /><br /></td>
+<td>&nbsp;Brigham Young University-Idaho</td>
+</tr>
+<tr>
+<td>&nbsp;Name of Person</td>
+<td>&nbsp;John Smith</td>
+</tr>
+<tr>
+<td>&nbsp;Name of Department</td>
+<td>&nbsp;Chemistry</td>
+</tr>
+<tr>
+<td>&nbsp;"Locator Address"</td>
+<td>&nbsp;123 Romney Bldg</td>
+</tr>
+<tr>
+<td>&nbsp;Receiving Address &amp; Mail Stop (2)</td>
+<td>&nbsp;525 S Center St&nbsp;Stop 0500</td>
+</tr>
+<tr>
+<td>&nbsp;City/State/Zip 4 (1)</td>
+<td>&nbsp;Rexburg ID 83460-0500</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;<br /><br /></p>
+<ol>
+<li>The last four digits of your Zip 4 must match the Mail Stop in the line above</li>
+<li>In the Receiving Address &amp; Mail Stop line, it is important to have proper spacing between everything and no punctuation</li>
+</ol>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="x35774" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x17998" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

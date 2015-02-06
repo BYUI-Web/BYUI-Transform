@@ -1,0 +1,222 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<AdminPage ID="x67773" Name="Verifications" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Enrollment Verification</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Enrollment Verification</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="Cells" label="Cells" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="GroupStart" GroupStart="" Name="Cell1" label="Cell 1" readonly="false" hidden="false" required="false" Expanded=""><Cell1Title type="string" label="Cell 1 Title" readonly="false" hidden="false" required="false"></Cell1Title><Cell1Image type="imagefile" label="Cell 1 Image" readonly="false" hidden="false" required="false" Width="" Height="" Alignment="" Border="" Expanded=""></Cell1Image><Cell1Text type="string" label="Cell 1 Text" readonly="false" hidden="false" required="false"></Cell1Text><xPower Type="Link" Link="" Name="Cell1Link" label="Cell 1 Link" readonly="false" hidden="false" required="false" LinkText="" Target="" Expanded=""/></xPower><xPower Type="GroupStart" GroupStart="" Name="Cell2" label="Cell 2" readonly="false" hidden="false" required="false" Expanded=""><Cell2Title type="string" label="Cell 2 Title" readonly="false" hidden="false" required="false"></Cell2Title><Cell2Image type="imagefile" label="Cell 2 Image" readonly="false" hidden="false" required="false" Width="" Height="" Alignment="" Border="" Expanded=""></Cell2Image><Cell2Text type="string" label="Cell 2 Text" readonly="false" hidden="false" required="false"></Cell2Text><xPower Type="Link" Link="" Name="Cell2Link" label="Cell 2 Link" readonly="false" hidden="false" required="false" LinkText="" Target="" Expanded=""/></xPower><xPower Type="GroupStart" GroupStart="" Name="Cell3" label="Cell 3" readonly="false" hidden="false" required="false" Expanded=""><Cell3Title type="string" label="Cell 3 Title" readonly="false" hidden="false" required="false"></Cell3Title><Cell3Image type="imagefile" label="Cell 3 Image" readonly="false" hidden="false" required="false" Width="" Height="" Alignment="" Border="" Expanded=""></Cell3Image><Cell3Text type="string" label="Cell 3 Text" readonly="false" hidden="false" required="false"></Cell3Text><xPower Type="Link" Link="" Name="Cell3Link" label="Cell 3 Link" readonly="false" hidden="false" required="false" LinkText="" Target="" Expanded=""/></xPower><xPower Type="List" List="xpowercomponent_CellComponent" Name="AdditionalCellComponents" label="Additional Cells" readonly="false" hidden="false" required="false" Component="" CompTypes="CellComponent" Expanded="false"><xPower Type="Component" Component="" Name="CellComponent" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"/></xPower></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<!--SCRIPTS AND STYLESHEETS-->
+<div><link href="http://fonts.googleapis.com/css?family=Cambo" rel="stylesheet" type="text/css" /></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+window.jQuery || document.write('<script src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" _mce_src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" _mce_src="prebuilt/stylenew/js/libs/jquery-1.7.min.js"><\/script>')
+</script>
+<script src="Documents/student-records-and-registration/ibox2.js" type="text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+        $(".answer").hide();
+$("p[id^=click]").click(function(){
+    var sufix = this.id.substring(5);
+    var el = $("#hidden" + sufix);
+    $(".answer").stop().not(el).hide();
+    el.show(300);
+}); 
+    });
+</script>
+<div><link href="Documents/student-records-and-registration/srrcss3.css" rel="stylesheet" type="text/css" /></div>
+<!--IBOXS-->
+<style><!--
+.pointer{cursor: pointer;}
+.clues{height: 110px;}
+.clue-text{width: 610px; float: left;}
+.clue-key{width: 100px; height: 90px; border: 1px solid gray; background: white; padding: 10px; float: left;}
+.clue-key-hr{color: black; background-color: black;}
+--></style>
+<div id="egg" style="display: none;">
+<p>Which of the following is NOT required when requesting an Alaskan PFD Form?</p>
+<p class="pointer" id="click1">Anticipated Grad Date.</p>
+<p class="pointer" id="click2">Return E-mail Address.</p>
+<p class="pointer" id="click3">Name.</p>
+<p class="pointer" id="click4">I-Number.</p>
+<div class="clues">
+<div class="answer" id="hidden1">
+<p class="clue-text">Your next clue can be found with in <a href="x44657.xml">Transcripts</a>.</p>
+<div class="clue-key"><center>
+<h2>K</h2>
+<hr class="clue-key-hr" />
+<h2>-</h2>
+</center></div>
+</div>
+<div class="answer" id="hidden2">
+<p class="clue-text">Your next clue can be found with in <a href="x41451.xml">Ferpa</a>.</p>
+<div class="clue-key"><center>
+<h2>C</h2>
+<hr class="clue-key-hr" />
+<h2>*</h2>
+</center></div>
+</div>
+<div class="answer" id="hidden3">
+<p class="clue-text">Your next clue can be found with in <a href="x44657.xml">Transcripts</a>.</p>
+<div class="clue-key"><center>
+<h2>O</h2>
+<hr class="clue-key-hr" />
+<h2>#</h2>
+</center></div>
+</div>
+<div class="answer" id="hidden4">
+<p class="clue-text">Your next clue can be found with in <a href="x41454.xml">Forms</a>.</p>
+<div class="clue-key"><center>
+<h2>V</h2>
+<hr class="clue-key-hr" />
+<h2>@</h2>
+</center></div>
+</div>
+</div>
+</div>
+<div id="ver1" style="display: none;">
+<p>Students can obtain enrollment verifications free of charge through <strong>National Student Clearinghouse Student Self-Service</strong>. This enables students to go online, day or night, and print enrollment certificates that can be provided to third parties, as requested.</p>
+<p>To obtain a verification of enrollment, follow these steps:</p>
+<ol start="1">
+<li>Log in at&nbsp;<a href="http://my.byui.edu"><span style="text-decoration: underline;">my.byui.edu.</span></a></li>
+<li>Click on the blue Student tab</li>
+<li>Scroll to Related Links at the bottom on the right</li>
+<li>Select Enrollment Verification under Academic Resources</li>
+<li>You can choose enrollment for the current semester or every semester attended</li>
+</ol>
+<p>Students can also access the verification site directly at <a href="http://www.byui.edu/verification"><span style="text-decoration: underline;">www.byui.edu/verification</span></a>.</p>
+</div>
+<div id="ver2" style="display: none;">
+<p>Students can obtain Good Student Discount certificates free of charge through <strong>National Student Clearinghouse Student Self-Service</strong>. This enables students to go online, day or night, and print enrollment certificates that can be provided to third parties, as requested.</p>
+<p>To obtain a Good Student Discount certificate, follow these steps:</p>
+<ol start="1">
+<li>Log in at <a href="http://my.byui.edu"><span style="text-decoration: underline;">my.byui.edu</span></a></li>
+<li>Click on the blue Student tab</li>
+<li>Scroll to Related Links at the bottom on the right</li>
+<li>Select Enrollment Verification under Academic Resources</li>
+<li>You can choose enrollment for the current semester or every semester attended</li>
+</ol>
+<p>Students can also access the verification site directly at <a href="http://www.byui.edu/verification"><span style="text-decoration: underline;">www.byui.edu/verification</span></a>.</p>
+</div>
+<div id="ver3" style="display: none;">
+<p>If you are in the Military or a dependent of someone in the Military and need proof of enrollment, please email <a href="mailto:verifications@byui.edu"><span style="text-decoration: underline;">verifications@byui.edu</span></a>.</p>
+<p>You will need to include the following in the email:</p>
+<ul>
+<li>Name</li>
+<li>I-Number</li>
+<li>Anticipated graduation date</li>
+<li>Return email where you want the verification emailed to</li>
+<li>Any other specific information you need to be included</li>
+</ul>
+</div>
+<div id="ver4" style="display: none;">
+<p>If you need to have a Canadian form completed, please bring it to the Student Records and Registration Office in Kimball 190. Please allow 24 business hours for our office to complete the form. We will also need the following information:</p>
+<ul>
+<li>Name</li>
+<li>I-Number</li>
+<li>Anticipated graduation date</li>
+<li>Semesters for which the form needs to be completed</li>
+<li>Any other specific information you need to be included</li>
+</ul>
+</div>
+<div id="ver5" style="display: none;">
+<p>For Alaskan students needing a PFD form completed, please email <a href="mailto:verifications@byui.edu"><span style="text-decoration: underline;">verifications@byui.edu</span></a> with your request and the blank form. You may also bring the form into our office in Kimball 190. Please allow 24 hours for our office to complete the PFD form and provide us with the following information:</p>
+<ul>
+<li>Name</li>
+<li>I-Number</li>
+<li>Return email address</li>
+</ul>
+</div>
+<div id="ver6" style="display: none;">
+<p>International Students will need to obtain a manual enrollment verification by emailing <a href="mailto:verifications@byui.edu"><span style="text-decoration: underline;">verifications@byui.edu</span></a>. Please include the following information:</p>
+<ul>
+<li>Name</li>
+<li>I-Number</li>
+<li>Anticipated graduation date</li>
+</ul>
+</div>
+<div id="ver7" style="display: none;">
+<p>Parents and third parties can access student enrollment information for a nominal fee through Enrollment Verify. Requesters can obtain individual verifications for $2.50 or set up a subscriber account. (BYU&ndash;Idaho does not impose an additional surcharge for this service.)</p>
+<p>To obtain an enrollment verification, follow these steps:</p>
+<ol start="1">
+<li>Go to <a href="http://www.studentclearinghouse.org"><span style="text-decoration: underline;">www.studentclearinghouse.org</span>.</a></li>
+<li>Select &ldquo;Verify Current Enrollment.&rdquo;</li>
+<li>Read and accept the EnrollmentVerify terms and conditions.</li>
+<li>Search for and select &ldquo;Brigham Young University&ndash;Idaho.&rdquo;</li>
+<li>Enter the student&rsquo;s name and date of birth.</li>
+<li>Enter your payment information.</li>
+<li>Receive and print the enrollment verification.</li>
+</ol></div>
+<div id="ver8" style="display: none;">
+<p>If needed, an <span style="text-decoration: underline;">official letter</span> can also be printed to include with your NSC document verifying that NSC is BYU-Idaho's authorized certifying agent. If you have other questions regarding enrollment verifications, contact Student Records and Registration at <a href="mailto:verifications@byui.edu"><span style="text-decoration: underline;">verifications@byui.edu</span></a> or (208) 496-1000.</p>
+</div>
+<!--IMAGES-->
+<div><img alt="Verification Banner" height="140" src="Images/Admin_Offices/Student Record and Registration/SecondLevelPage/laptopFinal2.jpg" width="510" /><img alt="Header Banner" height="140" src="Images/Admin_Offices/Student Record and Registration/SecondLevelPage/Verification.png" width="168" /></div>
+<div id="bar"><img alt="bar" height="4" src="Images/Admin_Offices/Student Record and Registration/SecondLevelPage/bar1.png" width="710" /></div>
+<!--TABZ-->
+<div class="sections">
+<div class="tabz"><a class="current" href="x44651.xml">Verification Information</a></div>
+<!--NAVIGATION-->
+<div class="box visible">
+<ul>
+<li><a href="#ver1" rel="ibox" title="Obtaining an Enrollment Verification">Obtaining an Enrollment Verification</a></li>
+<li><a href="#ver2" rel="ibox" title="Good Student Discount">Good Student Discount</a></li>
+<li><a href="#ver3" rel="ibox" title="Military Verification">Military Verification</a></li>
+<li><a href="#ver4" rel="ibox" title="Completing Canadian Forms">Completing Canadian Forms</a></li>
+<li><a href="#ver5" rel="ibox" title="Alaskan PFD forms">Alaskan PFD forms</a></li>
+<li><a href="#ver6" rel="ibox" title="International Students">International Students</a></li>
+<li><a href="#ver7" rel="ibox" title="Parents and Third Parties">Parents and Third Parties</a></li>
+<li><a href="#ver8" rel="ibox" title="National Student Clearinghouse">National Student Clearinghouse</a></li>
+</ul>
+</div>
+</div>
+<!--EVENTS-->
+<div class="span-18 last" id="events_bar_horizontal">
+<div class="span-18 last" id="window">
+<div id="events_bar_control"><span class="prev">&nbsp;</span><span class="next"></span></div>
+<div id="pane"><!--THE BEGING OF THE EVENTS-->
+<div class="single_event"><a class="event_link" href="http://ingeniux.byui.edu/admin/xml/"><span class="event_date"><span class="cal_day">25</span><br /><span class="cal_month">MAR</span></span></a>
+<p style="color: #303030;">Last day to withdraw from Second Block Classes and receive a "W" grade and not the grade earned.</p>
+</div>
+<div class="single_event"><a class="event_link" href="http://ingeniux.byui.edu/admin/xml/"><span class="event_date"><span class="cal_day">26</span><br /><span class="cal_month">MAR</span></span></a>
+<p style="color: #303030;">Last day to withdraw completely from school and receive a "W" grades and not the grades earned.</p>
+</div>
+<div class="single_event"><a class="event_link" href="http://ingeniux.byui.edu/admin/xml/"><span class="event_date"><span class="cal_day">2</span><br /><span class="cal_month">APR</span></span></a>
+<p style="color: #303030;">Last day to withdraw from all Second Block classes and receive a "W" grade and not the grade earned.</p>
+</div>
+<div class="single_event"><a class="event_link" href="http://ingeniux.byui.edu/admin/xml/"><span class="event_date"><span class="cal_day">10</span><br /><span class="cal_month">APR</span></span></a>
+<p style="color: #303030;">Last day of classes.</p>
+</div>
+<div class="single_event"><a class="event_link" href="http://ingeniux.byui.edu/admin/xml/"><span class="event_date"><span class="cal_day">12</span><br /><span class="cal_month">APR</span></span></a>
+<p style="color: #303030;">Graduation Commencement and Convocations.</p>
+</div>
+<div class="single_event"><a class="event_link" href="http://ingeniux.byui.edu/admin/xml/"><span class="event_date"><span class="cal_day">22</span><br /><span class="cal_month">APR</span></span></a>
+<p style="color: #303030;">Classes Begin.</p>
+</div>
+<div class="single_event"><a class="event_link" href="http://ingeniux.byui.edu/admin/xml/"><span class="event_date"><span class="cal_day">28</span><br /><span class="cal_month">APR</span></span></a>
+<p style="color: #303030;">Last day to Add to a Full Semester &amp; First Block Waiting List.</p>
+</div>
+<div class="single_event"><a class="event_link" href="http://ingeniux.byui.edu/admin/xml/"><span class="event_date"><span class="cal_day">28</span><br /><span class="cal_month">APR</span></span></a>
+<p style="color: #303030;">Last day to Add to a First Block Waiting List.</p>
+</div>
+<div class="single_event"><a class="event_link" href="http://ingeniux.byui.edu/admin/xml/"><span class="event_date"><span class="cal_day">29</span><br /><span class="cal_month">APR</span></span></a>
+<p style="color: #303030;">PAYMENT DEADLINES - Full Semester: Tuition, Fees, and Insurance - Late Charge of 5% on unpaid balance.</p>
+</div>
+<!--THE END OF THE EVENTS--></div>
+</div>
+</div>
+<!--FOOTER-->
+<div id="email" style="display: none;">
+<p>For any questions please email us at <a href="mailto:verifications@byui.edu"><span style="text-decoration: underline;">verifications@byui.edu</span></a>.</p>
+</div>
+<div id="phone" style="display: none;">
+<p>For any questions please call us at (208)-496-1025</p>
+</div>
+<p><img alt="Bar" height="2" src="Images/Admin_Offices/Student Record and Registration/HomePage/bottomBar.jpg" width="710" /></p>
+<div class="barb"><img alt="Bar" height="2" src="Images/Admin_Offices/Student Record and Registration/HomePage/bottomBar.jpg" width="710" /></div>
+<div id="bottomContact">
+<ul>
+<li><img alt="Email Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/envelope.png" width="23" /><a href="#email" rel="ibox" title="Email Information"> Email Us</a></li>
+<li><img alt="Phone Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/phone.png" width="23" /><a href="#phone" rel="ibox" title="Phone Information"> Call Us</a></li>
+<li><img alt="Visit Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/visit.png" width="23" /><a href="Images/Admin_Offices/Student Record and Registration/HomePage/byuidahoMap.jpg" rel="ibox"> Visit Us</a></li>
+<li><img alt="Facebook Link" height="16" src="Images/Admin_Offices/Student Record and Registration/HomePage/facebook.png" width="16" /><a href="http://www.facebook.com/pages/BYU-Idaho-Student-Records-and-Registration/276472292461946?fref=ts"> facebook</a></li>
+<li><img alt="Live Chat Link" height="16" src="Images/Admin_Offices/Student Record and Registration/HomePage/livechat.png" width="18" /><a href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=SRR&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large" onclick="window.open('https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=SRR&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large&amp;referrer='+escape(document.location),'chat1132447','width=472,height=320');return false;" target="chat1132447"> Live Chat</a></li>
+<li><img alt="Site Index Link" height="17" src="Images/Admin_Offices/Student Record and Registration/HomePage/index.png" width="18" /><a href="x43952.xml"> Index</a></li>
+</ul>
+</div>
+<div><a href="#egg" rel="ibox" title="Easter egg"><img height="30" src="Images/Admin_Offices/Student%20Record%20and%20Registration/egg/egg7.gif" style="margin: 0px 0px -35px -48px; position: relative; top: -205px; left: 471px;" width="41" /></a></div>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_BannerAd" Name="BannerAds" label="Rotating Ads" readonly="false" hidden="false" required="false" Component="" CompTypes="BannerAdComponent" Expanded="false"><xPower Type="Component" Component="" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/></xPower><xPower Type="GroupStart" GroupStart="" Name="QuickLinks" label="Quick Links" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="Quick Links Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="Quick Links Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="Quick Links Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Insert" Insert="" WellFormed="false" ExtractHTMLBody="false" Name="HTMLInsert" label="Insert" readonly="false" hidden="true" required="false" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x44652" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></AdminPage>

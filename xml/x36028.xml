@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.82 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x36028" Name="Size Limits" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">BYUI eMailbox Limits</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">BYUI eMailboxes - How do I know how much space I have left?  How large can attachments be?</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<h1>Mailbox Size Limits</h1>
+<div>The current email system on campus allows employees 500MB space. &nbsp;Here's how to tell how close you are to the limit:</div>
+<div></div>
+<h4>In Outlook 2010/2013:</h4>
+<ol>
+<li>Right-click your Mailbox</li>
+<li>Data File Properties...</li>
+<li>Folder Size...</li>
+</ol>
+<h4>In Outlook Web Access (OWA):</h4>
+<p>(Only viewable in Microsoft Internet Explorer)</p>
+<ol>
+<li>Log-in to <a href="http://my.byui.edu/">my.byui.edu</a>.</li>
+<li style="text-align: left;">Click the "EMAIL" tab.</li>
+<li style="text-align: left;">In the upper left, you will see the folder list. Your name will be displayed near the top as L<strong style="font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; line-height: inherit;"><code>astname, Firstname</code></strong>. Mouse over your name. A small box with your storage information will appear.</li>
+</ol>
+<h4>Mailbox Cleaning</h4>
+<p>If you need to clean your mailbox <a href="http://www.byui.edu/help-desk/frequently-asked-questions/email/employee-email/how-to-clean-your-full-mailbox">click here</a> for some tips.</p>
+<h4>Mailbox Size Increase</h4>
+<p>If you are having trouble with your mailbox saying that it is full or almost full this could make it so that some emails are not sent or recieved. If you feel like you need to have your mailbox size increased please take the survey below. It will guide you through some of the most common questions that we would ask when you are trying to increase your mailbox size. Once the survey is completed, an email will be sent to the email administrators so that they can increase your mailbox size.</p>
+<p><a href="https://byui.qualtrics.com/SE/?SID=SV_cNLVTy8XRr6GQV7">Request A Mailbox Size Increase</a></p>
+<hr />
+<p><a href="https://byui.qualtrics.com/SE/?SID=SV_cNLVTy8XRr6GQV7"></a></p>
+<ol></ol>
+<h1>Message Size Limits</h1>
+<p>In order to keep things running smoothly large files cannot be sent as email attachments.</p>
+<h4>Employee</h4>
+<ul>
+<li>Employees can send attachments up to 10MB. &nbsp;</li>
+<li>Larger files can be uploaded to a Box account.</li>
+</ul>
+<h4>Student&nbsp;</h4>
+<ul>
+<li>Students can send attachments up to 25MB. &nbsp;</li>
+<li>Check&nbsp;<a href="http://help.outlook.com/140/dd630704.aspx#MessageLimits">more about size restrictions here.</a><br /><a href="http://help.outlook.com/140/dd630704.aspx#MessageLimits"></a></li>
+</ul>
+<hr />
+<p></p>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x35726" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

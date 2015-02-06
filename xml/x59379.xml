@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x59379" Name="General Information" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">General Information</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">General Information</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p>Welcome to Recreational Sports, BYU-Idaho's intramural program. RecSports is committed to providing a fun and safe enviroment. Participants can enjoy multiple sports that differentiate each semester. &nbsp;Each sport plays once a week and allows students to stay focused on their homework while getting socially involved through our activities. Come Play.</p>
+<table border="10" cellpadding="5" cellspacing="5">
+<tbody>
+<tr>
+<td>
+<p>Location:</p>
+</td>
+<td>
+<p>Manwaring Center 101</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Office Hours:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+</td>
+<td>
+<p>Monday-Friday 8:30-5:30 (closed for Devotional)</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Schedualing Phone #:</p>
+</td>
+<td>
+<p>(208) 496-7450 Monday-Friday 1:00-5:00PM</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Email Comments to:</p>
+</td>
+<td>
+<p>recsportsactivities@byui.edu</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Participants are encouraged to provide feedback and/or concerns regarding the Recreational Sports program.&nbsp; Please email, call, or stop by during office hours to talk to a Recreational Sports staff member with any feedback or concerns you may have.</p>
+<br />]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="true"><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="true"><xPower Type="Component" Component="x45160" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="x10325" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="x25558" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="x26534" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="Component" Component="x6793" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x6784" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

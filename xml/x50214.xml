@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<Content ID="x50214" Name="StudentQ&amp;A" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">StudentQ&amp;A</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">StudentQ&amp;A</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style><!--
+#content{
+background-color:#894E4C;
+margin-top:2px;
+padding: 20px 10px 0px 30px;
+
+}
+#content p{
+padding-bottom:10px;
+}
+.questions{
+background-color:#3B2121;
+width:710px;
+margin-top:-22px;
+}
+.questions p{
+padding:5px 0px 5px 30px;
+}
+--></style>
+<div id="page">
+<h1><img alt="Student Representative Council" src="Images/student-support/SRC/Pres QA SRC banner.gif" /></h1>
+<div id="content"><!--<h1 style="color: #fff;">Student Q&amp;A with President Clark</h1>
+<h2 style="font-size: 1.2em; margin-top: 15px; padding: 0; color: #fff;">Thursday January 31st from 2:00-3:00pm in the Taylor Chapel</h2>-->
+<p style="color: #fff;">This event is being held to give students the opportunity to have a discussion with President Clark on any questions that they have. Students are encouraged to come prepared with thoughtful questions for President Clark. All students are encouraged to attend.</p>
+</div>
+<div class="questions">
+<p style="color: #fff;">Please send any questions about this event to <a href="mailto:src@byui.edu" style="color: #fff;">src@byui.edu</a></p>
+</div>
+</div>
+<p>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-33977325-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+</p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="x36320" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x36315" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

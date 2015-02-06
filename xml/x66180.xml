@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content ID="x66180" Name="Contacts" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Contacts</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Contacts</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<h1><strong>[F12</strong><strong> Semester</strong><strong>] Contact List</strong></h1>
+<h2><strong>Pi Sigma Alpha (Political Science Society)<br /></strong></h2>
+<table align="center" border="0">
+<tbody>
+<tr>
+<td>
+<h2>Position</h2>
+</td>
+<td>
+<h2>Name</h2>
+</td>
+<td>
+<h2>Contact Details</h2>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>Society President</strong></p>
+</td>
+<td>
+<p>Scott Howard</p>
+</td>
+<td>
+<p>E-mail: how07006@byui.edu</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>1st Vice President</strong></p>
+</td>
+<td>
+<p>xxx</p>
+</td>
+<td>
+<p>E-mail: xxx@byui.edu</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>2nd Vice President</strong></p>
+</td>
+<td>
+<p>xxx</p>
+</td>
+<td>
+<p>E-mail: xxx@byui.edu</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>Secretary</strong></p>
+</td>
+<td>
+<p>David Gonsalves*</p>
+</td>
+<td>
+<p>E-mail: gon06004@byui.edu</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>Faculty Advisor</strong></p>
+</td>
+<td>
+<p><a href="http://web.byui.edu/Directory/Employee/cartern" target="_blank">Professor Neal Carter</a></p>
+</td>
+<td>
+<p>E-mail: cartern@byui.edu</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>Administrative Support</strong></p>
+</td>
+<td>
+<p><a href="http://web.byui.edu/Directory/Employee/gohrm/201112" target="_blank">Marcanna Gohr</a>**</p>
+</td>
+<td>
+<p>E-mail: gohrm@byui.edu</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>*<em>Primary site manager</em><br />**<em>Site co-manager</em></p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x30837" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

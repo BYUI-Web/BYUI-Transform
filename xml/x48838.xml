@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x48838" Name="randomNoteImage.js" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">randomNoteImage.js</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">randomNoteImage.js</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">//Begin 
+                       
+	rnd.today=new Date();
+	rnd.seed=rnd.today.getTime();
+
+	function rnd() {
+		rnd.seed = (rnd.seed*9301+49297) % 233280;
+		return rnd.seed/(233280.0);
+	}
+
+	function rand(number) {
+		var result = Math.ceil(rnd()*number);
+		if (!result)result++;
+    	return result
+	}
+	
+function randomNewsNote(){ 
+	var ad_cnta =10;
+	var imageNumber = rand(ad_cnta);
+
+	var titleHeader = new Array();
+	titleHeader[1] = "New Degrees";
+	titleHeader[2] = "Elder Hinckley&amp;#39;s Grad Speech";
+	titleHeader[3] = "Foundations Administration";
+	titleHeader[4] = "BYU-Idaho Radio";
+	titleHeader[5] = "Connect with Alumni, Students";
+	titleHeader[6] = "Vice President Announced";
+	titleHeader[7] = "See BYU-Idaho&lt;br/&gt;on YouTube";
+	titleHeader[8] = "Record Enrollment in 2009";
+	titleHeader[9] = "I~Comm Works with United Way";
+	titleHeader[10] = "Interior Designers Win Big";
+	
+	var subTitle = new Array();
+	subTitle[1] = "Six new majors introduced in Fall Semester";
+	subTitle[2] = "Students given hope during difficult economic times";
+	subTitle[3] = "New administrative area provides key focus for programs";
+	subTitle[4] = "New online station brings BYU-Idaho to the world";
+	subTitle[5] = "Network and reconnect with alumni and students online";
+	subTitle[6] = "Kevin Miyasaki is the new VP of Student Services &amp; Activities";
+	subTitle[7] = "Keep in touch by watching university video content online";
+	subTitle[8] = "23,000 students attended BYU-Idaho throughout 2009";
+	subTitle[9] = "Campus media organization lands&lt;br/&gt;big account";
+	subTitle[10] = "Students take top awards at national competition";
+	
+	var link = new Array();
+	link[1] = "departments/news_of_note.htm#news02_01";
+	link[2] = "departments/news_of_note.htm#news02_02";
+	link[3] = "departments/news_of_note.htm#news02_03";
+	link[4] = "departments/news_of_note.htm#news02_04";
+	link[5] = "departments/news_of_note.htm#news02_05";
+	link[6] = "departments/news_of_note.htm#news02_06";
+	link[7] = "departments/news_of_note.htm#news02_07";
+	link[8] = "departments/news_of_note.htm#news02_08";
+	link[9] = "departments/news_of_note.htm#news02_09";
+	link[10] = "departments/news_of_note.htm#news02_10";
+	
+	//document.getElementById('rotating_image').src = "images/image_rotater/newsofNote/image" + imageNumber + ".jpg";
+	//document.getElementById('rotating_image').alt = "News of Note images";
+	document.getElementById('rotating_image_2').src = "images/image_rotater/newsofNote/image" + imageNumber + ".jpg";
+	document.getElementById('rotating_image_2').alt = "News of Note images";
+	document.getElementById('note_title').innerHTML = titleHeader[imageNumber];
+	document.getElementById('note_subtitle').innerHTML = subTitle[imageNumber];
+	document.getElementById('newsOfNoteLink').href = link[imageNumber];
+	
+	//setTimeout("doItAgain01()", 10000);			
+	//document.getElementById('pic').src = "images/image_rotater/newsofNote/image" + imageNumber + ".jpg";
+	//document.getElementById('pic').alt = "News of Note images";
+	//document.getElementById('note_title').innerHTML = titleHeader[imageNumber];
+	//document.getElementById('note_subtitle').innerHTML = subTitle[imageNumber];
+	//document.getElementById('newsOfNoteLink').href = "departments/news_of_note.htm#news"+[imageNumber];
+
+	//console.log("changed it");
+}
+// End
+/*function doItAgain01(){
+	randomNewsNote();
+}*/</ESContent></EmptyShell>

@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x46089" Name="Enrollment Verification" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Enrollment Verification</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Enrollment Verification</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<!--SCRIPTS AND STYLESHEETS-->
+<div><link href="http://fonts.googleapis.com/css?family=Cambo" rel="stylesheet" type="text/css" /></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+window.jQuery || document.write('<script src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" _mce_src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" _mce_src="prebuilt/stylenew/js/libs/jquery-1.7.min.js"><\/script>')
+</script>
+<script src="prebuilt/stylenew/js/mylibs/scrolling_events_bar.js" type="text/javascript"></script>
+<script src="Documents/student-records-and-registration/ibox2.js" type="text/javascript"></script>
+<div><link href="Documents/student-records-and-registration/srrcss3.css" rel="stylesheet" type="text/css" /></div>
+<!--IBOXS-->
+<div id="enrollment1" style="display: none;">
+<p>A verification is a proof of enrollment.</p>
+</div>
+<div id="enrollment2" style="display: none;">
+<p>You would need an enrollment verification to prove to someone (e.g., to your parent&rsquo;s insurance company) that you are a student (or a full-time student) at BYU&mdash;Idaho. Enrollment verifications are used for insurance purposes, loan deferments, scholarships, employers, government and legal offices, etc.</p>
+</div>
+<div id="enrollment3" style="display: none;">
+<p>Requests come from students, their parents, and third parties, including insurance agents, loan companies, scholarship companies, employment companies, etc.</p>
+</div>
+<div id="enrollment4" style="display: none;">
+<p>Enrollment Verifications show the student&rsquo;s personal information with name, current dates of attendance, and/or history of attendance.</p>
+</div>
+<div id="enrollment5" style="display: none;">
+<p>Free, electronic verifications of enrollment can be obtained by students at any time through the National Student Clearinghouse (<a href="x44651.xml"><span style="text-decoration: underline;">www.byui.edu/verification</span></a>).</p>
+</div>
+<div id="enrollment6" style="display: none;">
+<p>Yes, parents and interested third parties can obtain electronic verifications for a nominal fee at <a href="http://www.studentclearinghouse.org"><span style="text-decoration: underline;">www.studentclearinghouse.org</span></a>, then they can click the EnrollmentVerify option. Requesters can obtain individual verifications for $2.50 or set up a subscriber account. (BYU&mdash;Idaho does not impose an additional surcharge for this service.)</p>
+</div>
+<div id="enrollment7" style="display: none;">
+<p>The National Student Clearinghouse, a non-profit organization, is &ldquo;the nation&rsquo;s trusted source for student degree and enrollment verification.TM&rdquo; &ldquo;Through their verification reporting solutions, [they] help educational institutions improve efficiency, reduce costs and workload, and enhance the quality-of-service [we] provide to students and alumni, lending institutions, employers, and other organizations.&rdquo;<br /> (<a href="http://www.studentclearinghouse.org/about/default.htm"><span style="text-decoration: underline;">http://www.studentclearinghouse.org/about/default.htm</span></a></p>
+</div>
+<div id="enrollment8" style="display: none;">
+<p>If needed, an official letter can be printed to include with your NSC document verifying that NSC is BYU&mdash;Idaho&rsquo;s authorized certifying agent. <a href="Documents/student-records-and-registration/Forms/official letter.pdf"><span style="text-decoration: underline;">official letter</span></a></p>
+</div>
+<div id="enrollment9" style="display: none;">
+<p>Enrollment verifications that need to include GPA, SSN, and/or Academic Standing must be requested in writing, with the student&rsquo;s signature, because of FERPA privacy laws. Such requests can be submitted to the Student Records and Registration Office by letter, e-mail, fax, and in person. The student&rsquo;s name, ID number, and an address, e-mail, or fax number where the verification is to be sent are required.</p>
+</div>
+<div id="enrollment10" style="display: none;">
+<p>Yes, verification of student information such as attendance dates/degrees can be given verbally by contacting the Student Records and Registration Office directly.</p>
+</div>
+<div id="enrollment11" style="display: none;">
+<p>Please bring your form to the Student Records and Registration Office. Our verification clerks will fill out your form (sometimes in collaboration with the Financial Aid Office) and it will be ready for pick-up within 1&ndash;2 business days. Please specify where you would like it sent if you do not need to pick it up (e.g., fax number, mailing address, e-mail address, etc.).</p>
+</div>
+<div id="enrollment12" style="display: none;">
+<p>Please bring your form to the Student Records and Registration Office. Our verification clerks will fill out your form and it will be ready for pick-up within 1&ndash;2 business days. Please specify where you would like it sent if you do not need to pick it up (e.g., fax number, mailing address, e-mail address, etc.).</p>
+</div>
+<!--IMAGES-->
+<div><img alt="FAQ Banner" height="140" src="Images/Admin_Offices/Student Record and Registration/SecondLevelPage/FAQ1.jpg" width="510" /> <img alt="Question Mark Logo" height="140" src="Images/Admin_Offices/Student Record and Registration/SecondLevelPage/FAQ1.png" width="167" /></div>
+<div id="bar"><img alt="bar" height="4" src="Images/Admin_Offices/Student Record and Registration/SecondLevelPage/bar1.png" width="710" /></div>
+<!--TABZ-->
+<div class="sectionstwo">
+<div class="tabz"><a href="x43953.xml">Registration</a> <a href="x46090.xml">Transfer Evaluation</a> <a class="current" href="x46089.xml">Enrollment Verification</a> <a href="x46088.xml">Graduation</a></div>
+<div class="box visible">
+<div class="box visible"><!--NAVIGATION-->
+<ul>
+<li><a href="#enrollment1" rel="ibox" title="What is an enrollment verification?">What is an enrollment verification?</a></li>
+<li><a href="#enrollment2" rel="ibox" title="Why would I need an enrollment verification?">Why would I need an enrollment verification?</a></li>
+<li><a href="#enrollment3" rel="ibox" title="Who normally requests enrollment verifications?">Who normally requests enrollment verifications?</a></li>
+<li><a href="#enrollment4" rel="ibox" title="What kind of information does an enrollment information include?">What kind of information does an enrollment information include?</a></li>
+<li><a href="#enrollment5" rel="ibox" title="How can I obtain an enrollment verification?">How can I obtain an enrollment verification?</a></li>
+<li><a href="#enrollment6" rel="ibox" title="Can my parent(s) request an enrollment verification?">Can my parent(s) request an enrollment verification?</a></li>
+<li><a href="#enrollment7" rel="ibox" title="What is the National Student Clearinghouse (NSC)?">What is the National Student Clearinghouse (NSC)?</a></li>
+<li><a href="#enrollment8" rel="ibox" title="What if my insurance company/lender won&rsquo;t accept a verification from the NSC?">What if my insurance company/lender won&rsquo;t accept a verification from the NSC?</a></li>
+<li><a href="#enrollment9" rel="ibox" title="What if the NSC Verification does not include the information I need">What if the NSC Verification does not include the information I need</a></li>
+<li><a href="#enrollment10" rel="ibox" title="Can I call BYU&mdash;Idaho and receive a verbal verification of my enrollment?">Can I call BYU&mdash;Idaho and receive a verbal verification of my enrollment?</a></li>
+<li><a href="#enrollment11" rel="ibox" title="I'm a Canadian student and need a form filled out from my lender. Who can fill this out?">I'm a Canadian student and need a form filled out from my lender. Who can fill this out?</a></li>
+<li><a href="#enrollment12" rel="ibox" title="Who can complete my Alaska Permanent Fund Dividend(PFD) Devision Form">Who can complete my Alaska Permanent Fund Dividend(PFD) Devision Form</a></li>
+</ul>
+</div>
+</div>
+<!--EVENTS-->
+<div class="span-18 last" id="events_bar_horizontal">
+<div class="span-18 last" id="window">
+<div id="events_bar_control"><span class="prev">&nbsp;</span><span class="next">&nbsp;</span></div>
+<div id="pane"><!--THE BEGING OF THE EVENTS-->
+<script src="Documents/Admin_Offices/Student Records and Registration/Events Script.js" type="text/javascript"></script>
+<!--THE END OF THE EVENTS--></div>
+</div>
+</div>
+<!--FOOTER-->
+<div id="email" style="display: none;">
+<p>For any questions please email us at <a href="mailto:registrar@byui.edu"><span style="text-decoration: underline;">registrar@byui.edu</span></a></p>
+</div>
+<div id="phone" style="display: none;">
+<p>For any questions please call us at (208) 496-1000</p>
+</div>
+<div><img alt="Bar" height="2" src="Images/Admin_Offices/Student Record and Registration/HomePage/bottomBar.jpg" width="710" /></div>
+<div class="barb"><img alt="Bar" height="2" src="Images/Admin_Offices/Student Record and Registration/HomePage/bottomBar.jpg" width="710" /></div>
+<div id="bottomContact">
+<ul>
+<li><img alt="Email Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/envelope.png" width="23" /><a href="#email" rel="ibox" title="Email Information"> Email Us</a></li>
+<li><img alt="Phone Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/phone.png" width="23" /><a href="#phone" rel="ibox" title="Phone Information"> Call Us</a></li>
+<li><img alt="Visit Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/visit.png" width="23" /><a href="Images/Admin_Offices/Student Record and Registration/HomePage/byuidahoMap.jpg" rel="ibox"> Visit Us</a></li>
+<li><img alt="Facebook Link" height="16" src="Images/Admin_Offices/Student Record and Registration/HomePage/facebook.png" width="16" /><a href="http://www.facebook.com/pages/BYU-Idaho-Student-Records-and-Registration/276472292461946?fref=ts"> facebook</a></li>
+<li><img alt="Live Chat Link" height="16" src="Images/Admin_Offices/Student Record and Registration/HomePage/livechat.png" width="18" /><a href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=SRR&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large" onclick="window.open('https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=SRR&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large&amp;referrer='+escape(document.location),'chat1132447','width=472,height=320');return false;" target="chat1132447"> Live Chat</a></li>
+<li><img alt="Site Index Link" height="17" src="Images/Admin_Offices/Student Record and Registration/HomePage/index.png" width="18" /><a href="x43952.xml"> Index</a></li>
+</ul>
+</div>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x17143" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

@@ -1,0 +1,252 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content ID="x62426" Name="Planning" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Planning</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Planning</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p>
+<script language="javascript" type="text/javascript">
+var fa_slideSpeed = 15;	// Higher value = faster
+var fa_timer = 2;	// Lower value = faster
+
+var objectIdToSlideDown = false;
+var fa_activeId = false;
+var fa_slideInProgress = false;
+var fa_slideInProgress = false;
+var fa_expandMultiple = false; // true if you want to be able to have multiple items expanded at the same time.
+
+function showHideContent(e,inputId)
+{
+	if(fa_slideInProgress)return;
+	fa_slideInProgress = true;
+	if(!inputId)inputId = this.id;
+	inputId = inputId + '';
+	var numericId = inputId.replace(/[^0-9]/g,'');
+	var answerDiv = document.getElementById('fa_a' + numericId);
+
+	objectIdToSlideDown = false;
+
+	if(!answerDiv.style.display || answerDiv.style.display=='none'){
+		if(fa_activeId &&  fa_activeId!=numericId && !fa_expandMultiple){
+			objectIdToSlideDown = numericId;
+			slideContent(fa_activeId,(fa_slideSpeed*-1));
+		}else{
+
+			answerDiv.style.display='block';
+			answerDiv.style.visibility = 'visible';
+
+			slideContent(numericId,fa_slideSpeed);
+		}
+	}else{
+		slideContent(numericId,(fa_slideSpeed*-1));
+		fa_activeId = false;
+	}
+}
+
+function slideContent(inputId,direction)
+{
+
+	var obj =document.getElementById('fa_a' + inputId);
+	var contentObj = document.getElementById('fa_ac' + inputId);
+	height = obj.clientHeight;
+	if(height==0)height = obj.offsetHeight;
+	height = height + direction;
+	rerunFunction = true;
+	if(height>contentObj.offsetHeight){
+		height = contentObj.offsetHeight;
+		rerunFunction = false;
+	}
+	if(height<=1){
+		height = 1;
+		rerunFunction = false;
+	}
+
+	obj.style.height = height + 'px';
+	var topPos = height - contentObj.offsetHeight;
+	if(topPos>0)topPos=0;
+	contentObj.style.top = topPos + 'px';
+	if(rerunFunction){
+		setTimeout('slideContent(' + inputId + ',' + direction + ')',fa_timer);
+	}else{
+		if(height<=1){
+			obj.style.display='none';
+			if(objectIdToSlideDown && objectIdToSlideDown!=inputId){
+				document.getElementById('fa_a' + objectIdToSlideDown).style.display='block';
+				document.getElementById('fa_a' + objectIdToSlideDown).style.visibility='visible';
+				slideContent(objectIdToSlideDown,fa_slideSpeed);
+			}else{
+				fa_slideInProgress = false;
+			}
+		}else{
+			fa_activeId = inputId;
+			fa_slideInProgress = false;
+		}
+	}
+}
+
+
+
+function initShowHideDivs()
+{
+	var divs = document.getElementsByTagName('DIV');
+	var divCounter = 1;
+	for(var no=0;no<divs.length;no++){
+		if(divs[no].className=='fa_question'){
+			divs[no].onclick = showHideContent;
+			divs[no].id = 'fa_q'+divCounter;
+			var answer = divs[no].nextSibling;
+			while(answer && answer.tagName!='DIV'){
+				answer = answer.nextSibling;
+			}
+			answer.id = 'fa_a'+divCounter;
+			contentDiv = answer.getElementsByTagName('DIV')[0];
+			contentDiv.style.top = 0 - contentDiv.offsetHeight + 'px';
+			contentDiv.className='fa_answer_content';
+			contentDiv.id = 'fa_ac' + divCounter;
+			answer.style.display='none';
+			answer.style.height='1px';
+			divCounter++;
+		}
+	}
+}
+window.onload = initShowHideDivs;
+</script>
+</p>
+<style type="text/css"><!--
+/* CSS styles for the Show/Hide functionality. */
+
+.fa_question{
+        overflow:hidden;
+	cursor:pointer;
+        background-color: #f0f0f0;
+        color: #666;
+        padding: 10px;
+        border: 1px solid #000;
+        -webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+}
+.fa_question:hover{
+        background-color: #fcc35a;
+}
+.fa_answer{
+        visibility:hidden;
+	height:0px;
+	overflow:hidden;
+	position:relative;
+        margin-left:10px;
+}
+.fa_answer_content{	/* Content that is slided down */
+        margin-top: 10px;
+	padding:1px;
+	font-size:1em;
+	position:relative;
+}
+
+.h1 {font-family: futura, arial, sans-serif; font-size: 2em; color:#000;}
+.h2 {font-family: futura, arial, sans-serif; font-size: 1.75em; color: #000;}
+.h3 {font-family: futura, arial, sans-serif; font-size: 1.5em; color: #000;}
+.h4 {font-family: futura, arial, sans-serif; font-size: 1.3em; margin-left: 45px;}
+
+ul {margin-left:25px;}
+
+#page_title{
+     display: none;
+}
+#table_futura th{
+     color:#F8F8F8;
+     background-color: #333;   
+     font-family: futura, arial, sans-serif;
+     font-size: medium;
+     font-weight: normal;
+}
+#table_futura ul{
+     margin-left: 5px; color: #000;
+}
+
+.tableTitle{
+     font-size: 1.2em;
+     margin-bottom:10px;
+     color: #000;
+}
+--></style>
+<p><a href="x43998.xml"><img height="89" src="Images/Admin_Offices/Financial Aid/buttons/arrows/PlanningOrangeBlack.png" style="margin-bottom: 20px;" width="150" /></a><a href="x44001.xml"><img height="89" onmouseout="this.src='Images/Admin_Offices/Financial Aid/buttons/arrows/ScholarshipsOrange.png';" onmouseover="this.src='Images/Admin_Offices/Financial Aid/buttons/arrows/ScholarshipsOrange-Rollover.png';" src="Images/Admin_Offices/Financial Aid/buttons/arrows/ScholarshipsOrange.png" style="margin-bottom: 20px;" width="150" /></a> <a href="x44002.xml"><img height="89" onmouseout="this.src='Images/Admin_Offices/Financial Aid/buttons/arrows/FederalAidOrange.png';" onmouseover="this.src='Images/Admin_Offices/Financial Aid/buttons/arrows/FederalAidOrange-Rollover.png';" src="Images/Admin_Offices/Financial Aid/buttons/arrows/FederalAidOrange.png" style="margin-bottom: 20px;" width="150" /></a><a href="x44003.xml"><img height="89" onmouseout="this.src='Images/Admin_Offices/Financial Aid/buttons/arrows/Follow-upOrange.png';" onmouseover="this.src='Images/Admin_Offices/Financial Aid/buttons/arrows/Follow-upOrange-Rollover.png';" src="Images/Admin_Offices/Financial Aid/buttons/arrows/Follow-upOrange.png" style="margin-bottom: 20px;" width="150" /></a><br /><span style="font-size: 2.5em; font-family: futura, arial, sans-serif;">1. Planning and Budgeting</span></p>
+<p>Planning for the costs of a college degree is as important as planning for the courses. Students who plan and budget wisely gain the benefits of limiting debt and easing the transition into post-college life.</p>
+<p><span class="h1">Steps to Effectively Plan</span></p>
+<div class="fa_question"><span class="h2">Step 1 - Assess your costs of attendance</span></div>
+<div class="fa_answer">
+<div>
+<ul>
+<li><a href="http://www.byui.edu/admissions/costs">BYU-I Cost of Attendance</a></li>
+<li><a href="http://www.byui.edu/catalog">BYU-I Catalog</a> - under the "Admissions &amp; Financial Policies" heading, choose "Tuition, Fees, and Expenses"</li>
+</ul>
+</div>
+</div>
+<p></p>
+<div class="fa_question"><span class="h2">Step 2 - Make a budget</span></div>
+<div class="fa_answer">
+<div>
+<p>The <em>Student Budget Tool </em>helps students create a budget for their expenses while attending BYU-I. The more thorough students are with completing a budget, the more equipped they are to fund (and find funding) for their education.</p>
+<ul>
+<li><a href="Documents/Admin_Offices/Financial Aid/Student_Budget_Tool.xls">Student Budget Tool</a> - Budget MS Excel spreadsheet developed by the BYU-Idaho Financial Aid Office</li>
+<li><a href="https://fafsa.ed.gov/FAFSA/app/f4cForm">FAFSA 4caster Tool</a> - Get an idea of what kind of FAFSA funds you will be eligible to receive</li>
+</ul>
+</div>
+</div>
+<p></p>
+<div class="fa_question"><span class="h2">Step 3 - Draw on available financial resources</span></div>
+<div class="fa_answer">
+<div><span class="h3">Employment</span>
+<p>Employment should be the first consideration when planning on how to pay for school. Consider part-time employment as a possible resource to pay for college education. Employment opportunities are available on and off campus.</p>
+<ul>
+<li><a href="http://www.byui.edu/human-resources/seeking-employment/student-employment" title="Link to the Student Employment page of the Human Resources Office">Student Employment</a> - visit the human resources office student employment page for more information.</li>
+</ul>
+<span class="h3">Apply for Scholarships and Federal Aid</span>
+<p>Read through the Scholarships and Federal Aid sections of our site and begin the application processes.</p>
+</div>
+</div>
+<p></p>
+<div class="fa_question"><span class="h2">Step 4 - Visit with your Financial Aid advisor</span></div>
+<div class="fa_answer">
+<div>
+<p>Every student is assigned a Financial Aid Advisor according to their last name (See Table Below). Financial Aid Advisors are responsible for awarding financial aid. They are available to answer questions, educate students about financial aid opportunities, and offer guidance through the financial aid process.</p>
+<p style="font-weight: bold;"><em>Advisors are only available Monday - Friday 8am - 4pm<em></em></em></p>
+<table cellspacing="5" id="table_futura">
+<tbody>
+<tr><th>Advisor</th><th>Last name assignment</th><th>Direct line</th><th>Email</th></tr>
+<tr>
+<td>Suzanne Williams</td>
+<td>A - C</td>
+<td>(208) 496-1622</td>
+<td>williamss@byui.edu</td>
+</tr>
+<tr>
+<td>Holly Johnson</td>
+<td>D - G</td>
+<td>(208) 496-1615</td>
+<td>johnsonh@byui.edu</td>
+</tr>
+<tr>
+<td>Diane Ochs</td>
+<td>H - K</td>
+<td>(208) 496-1624</td>
+<td>ochsd@byui.edu</td>
+</tr>
+<tr>
+<td>Robin Dunlop</td>
+<td>L - 0</td>
+<td>(208) 496-1625</td>
+<td>dunlopr@byui.edu</td>
+</tr>
+<tr>
+<td>Sylvia Turley</td>
+<td>P - S</td>
+<td>(208) 496-1621</td>
+<td>turleys@byui.edu</td>
+</tr>
+<tr>
+<td>Jen Parkinson</td>
+<td>T - Z</td>
+<td>(208) 496-1626</td>
+<td>parkinsonj@byui.edu</td>
+</tr>
+</tbody>
+</table>
+<p>Students may contact their financial aid advisor over the phone, by email, or in person at the Financial Aid Office located on the 1st floor of the Kimball Building (RM 100). View the complete list of full-time <a href="http://www.byui.edu/financial-aid/about-financial-aid/financial-aid-staff" title="Link to the Financial Aid Staff directory">Financial Aid Office</a> staff.</p>
+</div>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="x18466" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x18206" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<Content ID="x63324" Name="Office Contacts" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Office Contacts</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Office Contacts</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<!-- APARTMENT MANAGERS NAV BAR -->
+<div><img src="Images/housing/navbar/apartmentmanagers/blank.png" width="63" /><a class="intLink" href="x8708.xml"><img onmouseout="this.src='Images/housing/navbar/apartmentmanagers/H.png';" onmouseover="this.src='Images/housing/navbar/apartmentmanagers/H-hover.png';" src="Images/housing/navbar/apartmentmanagers/H.png" width="148" /></a><a class="intLink" href="x44817.xml"><img onmouseout="this.src='Images/housing/navbar/apartmentmanagers/S.png';" onmouseover="this.src='Images/housing/navbar/apartmentmanagers/S-hover.png';" src="Images/housing/navbar/apartmentmanagers/S.png" width="111" /></a><a class="intLink" href="x44860.xml"><img onmouseout="this.src='Images/housing/navbar/apartmentmanagers/W.png';" onmouseover="this.src='Images/housing/navbar/apartmentmanagers/W-hover.png';" src="Images/housing/navbar/apartmentmanagers/W.png" width="161" /></a><a class="intLink" href="x44861.xml"><img src="Images/housing/navbar/apartmentmanagers/A-active.png" width="159" /></a><a class="intLink" href="x44863.xml"><img onmouseout="this.src='Images/housing/navbar/apartmentmanagers/M.png';" onmouseover="this.src='Images/housing/navbar/apartmentmanagers/M-hover.png';" src="Images/housing/navbar/apartmentmanagers/M.png" width="246" /></a></div>
+<div><img height="95" src="Images/housing/Student%20Living/Apartment%20Managers/resourcestitle.png" style="display: block; margin-left: auto; margin-right: auto;" width="800" />
+<div style="text-align: center;"><strong>Office Contacts</strong></div>
+<div style="text-align: center;"><strong>&nbsp;</strong></div>
+<table border="0">
+<thead style="background: #eee;">
+<tr>
+<td><span style="text-decoration: underline;"><strong>Office</strong></span></td>
+<td><span style="text-decoration: underline;"><strong>Location</strong></span></td>
+<td><span style="text-decoration: underline;"><strong>Hours</strong></span></td>
+<td><span style="text-decoration: underline;"><strong>Phone Number</strong></span></td>
+<td><span style="text-decoration: underline;"><strong>Email Address</strong></span></td>
+<td><span style="text-decoration: underline;"><strong>Website</strong></span></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Honor Office</td>
+<td>270 Kimball Building</td>
+<td>Mon-Fri 8 a.m. - 5 p.m.</td>
+<td>208-496-9600</td>
+<td>sho@byui.edu</td>
+<td><a href="x43013.xml" target="_blank">Student Honor</a></td>
+</tr>
+<tr>
+<td>*Counseling Center</td>
+<td>525 S. Center St. - 2020</td>
+<td>Mon-Fri 8 a.m. - 5 p.m.</td>
+<td>208-496-9370</td>
+<td>stoddardr@byui.edu</td>
+<td><a href="x16557.xml" target="_blank">Counseling Center</a></td>
+</tr>
+<tr>
+<td>**Health Center</td>
+<td>100 Student Health Center</td>
+<td>Mon-Fri 8 a.m. - 5 p.m.</td>
+<td>208-496-9330</td>
+<td></td>
+<td><a href="x27790.xml" target="_blank">Health Center</a></td>
+</tr>
+<tr>
+<td>Dean of Students</td>
+<td>290 Kimball Building</td>
+<td>Mon-Fri 8 a.m. - 5 p.m.</td>
+<td>208-496-9200</td>
+<td>dos@byui.edu</td>
+<td><a href="x42341.xml" target="_blank">Dean of Students</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<div>*For a life-threatening emergency after hours, dial 208-496-HELP</div>
+<div>**For after-hours medical advice, dial 1-800-777-3622</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="x9764" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x9287" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

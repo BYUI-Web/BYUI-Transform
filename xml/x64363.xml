@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x64363" Name="Interest Form" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Interest Form</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Interest Form</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<div>
+<p>&nbsp;</p>
+<p><span style="font-family: georgia, palatino;">Please indicate your interest in upcoming conference by completing the form below.&nbsp;&nbsp; Please note that <span style="text-decoration: underline;">completing the interest form does not guarantee your participation</span>.&nbsp; The committee will review the interest forms each semester and then allot the available slots among colleges and departments.</span></p>
+<p><span style="font-family: georgia, palatino;">The first priority is to support faculty that have not previously participated in a learning and teaching conference.&nbsp;&nbsp; To be considered,&nbsp;you must be a full-time, CFS-track faculty member.</span></p>
+<iframe frameborder="0" height="788" marginheight="0" marginwidth="0" src="https://docs.google.com/spreadsheet/embeddedform?formkey=dFBwdGJiVVhieF9IQm5abFBQR3RWNHc6MQ" width="760"></iframe>
+<p></p>
+<p><span style="font-family: georgia, palatino;">Faculty selected by the Travel Committee for the conferences will be notified a semester in advance so they can make arrangements for their classes.</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<br />
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</div>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x19084" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

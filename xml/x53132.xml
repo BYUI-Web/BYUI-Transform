@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.82 - http://www.ingeniux.com ***-->
+<AdminPage ID="x53132" Name="Meats Lab" Layout="admin_office_home.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Meats Lab</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Meats Lab</Abstract><MainMesgTop type="boolean" label="Enable to move &quot;Main Message&quot; to top of page" readonly="false" required="false" hidden="false">true</MainMesgTop><IntroCopy type="dhtml" label="Main Message" readonly="false" hidden="false" required="false"><![CDATA[<title>BYU-Idaho Meats Lab</title>
+<script type="text/javascript">
+var image1=new Image()
+image1.src="http://byuimeatslab.bravehost.com/images/LivstockCentera.jpg"
+var image2=new Image()
+image2.src="http://byuimeatslab.bravehost.com/images/Blackangushay.JPG"
+var image3=new Image()
+image3.src="http://byuimeatslab.bravehost.com/images/HolsteinsPose4.jpg"
+var image4=new Image()
+image4.src="http://byuimeatslab.bravehost.com/images/Beef1a.jpg"
+var image5=new Image()
+image5.src="http://byuimeatslab.bravehost.com/images/Steer1.jpg"
+</script>
+<style><!--
+#header
+{
+height: 4in;
+
+}
+
+/*#navigation
+{
+float: left;
+height: 100%;
+width: 10%;
+padding: 4px;
+}
+
+.nav
+{
+margin-top:.25in;
+margin-bottom:.25in;
+text-align:center;
+}*/
+
+img.slide
+{
+padding-left: 4.75in;
+padding-bottom: 2.50in;
+}
+
+#employee
+{
+float: left;
+width:31%;
+height:auto;
+padding: 6px;
+}
+
+
+
+#footer
+{
+width: 100%;
+float: right;
+border-top-style: solid;
+border-top-color: grey;
+border-top-width: 2px
+}
+--></style>
+<div id="header">
+<div>
+<h2 class="head" style="text-align: center;">Brigham Young University-Idaho Meats Lab</h2>
+<br /> <img name="slide" src="http://byuimeatslab.bravehost.com/images/Beef1a.jpg" style="display: block; margin-left: auto; margin-right: auto;" />
+<script type="text/javascript">
+//variable that will increment through the images
+var step=1
+function slideit(){
+//if browser does not support the image object, exit.
+if (!document.images)
+return
+document.images.slide.src=eval("image"+step+".src")
+if (step<5)
+step++
+else
+step=1
+//call function "slideit()" every 3.5 seconds
+setTimeout("slideit()",3500)
+}
+slideit()
+</script>
+</div>
+</div>
+<div id="context">
+<div style="text-align: justify;"><span style="white-space: pre;"> </span>The Brigham Young Univeristy-Idaho Meats Lab uses localy grown cattle for educational purposes about meat processing, quality standards, and business concepts. 	    <!--BEGIN QUALTRICS POPUP-->
+<script type="text/javascript">
+var q_viewrate=100;
+if (Math.random() < q_viewrate / 100){var q_popup_f = function(){var q_script = document.createElement("script");var q_popup_g = function(){new QualtricsEmbeddedPopup({
+	id: "SV_2lQ68793MGZ9zj6",
+	imagePath: "http://qdistribution.qualtrics.com/WRQualtricsShared/Graphics/",
+	surveyBase: "https://byui.qualtrics.com/WRQualtricsSurveyEngine/",
+	delay:500,
+	preventDisplay:0,
+	animate:true,
+	width:400,
+	height:300,
+	surveyPopupWidth:900,
+	surveyPopupHeight:600,
+	startPos:"ML",
+	popupText:"If you would like to receive information about promotions and offers from the BYU-Idaho Meats Lab, please take a moment to fill out this survey. ",
+	linkText:"BYU-Idaho Meats Lab Registration"
+});};q_script.onreadystatechange= function () {if (this.readyState == "loaded") q_popup_g();};q_script.onload= q_popup_g;q_script.src="http://qdistribution.qualtrics.com/WRQualtricsShared/JavaScript/Distribution/popup.js";document.getElementsByTagName("head")[0].appendChild(q_script);};if (window.addEventListener){window.addEventListener("load",q_popup_f,false);}else if (window.attachEvent){r=window.attachEvent("onload",q_popup_f);}else {};};
+</script>
+<noscript><a target="_blank" href="http://www.qualtrics.com/crm-integration">CRM Integration</a><br/><a target="_blank" href="http://www.qualtrics.com/survey-software">Survey Software</a><br/><a target="_blank" href="https://byui.qualtrics.com/WRQualtricsSurveyEngine/?SID=SV_2lQ68793MGZ9zj6">BYU-Idaho Meats Lab Registration</a><br/></noscript> <!--END QUALTRICS POPUP--></div>
+</div>
+<div id="footer">
+<div>
+<p>Copyright January, 9 2012</p>
+</div>
+</div>]]></IntroCopy><xPower Type="GroupStart" GroupStart="" Name="CellGroup" label="Cells" readonly="false" hidden="false" required="false" Expanded="false"><numColumns type="enumeration" values="1 2 3 4 5" label="Select number of cell columns." readonly="false" hidden="false" required="true">3</numColumns><xPower Type="List" List="xpowercomponent_Cell" Name="CellList" label="Cell List" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"><xPower Type="Component" Component="" Name="Cell" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"/></xPower></xPower><xPower Type="List" List="xpowercomponent_BannerAd" Name="BannerAds" label="Rotating Ads (650x216px required)" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"><xPower Type="Component" Component="" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/><BannerAd Expanded="false" Component=""></BannerAd></xPower><xPower Type="Navigation" StartPage="" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="" Query="" Name="DeptEvents" label="Define Your Events Folder" readonly="false" hidden="false" required="false" Expanded="false"/><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="QuickLinksGroup" label="Quick Links Group" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Component="" Name="QuickLinks" label="Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Insert" Insert="" WellFormed="false" ExtractHTMLBody="false" Name="HTMLInsert" label="Insert" readonly="false" hidden="true" required="false" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x1833" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></AdminPage>

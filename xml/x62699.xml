@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.70 - http://www.ingeniux.com ***-->
+<PolicyPage ID="x62699" Name="Payroll Distribution" Layout="general_Policy.xsl"><Title type="string" label="Policy Title" readonly="false" hidden="false" required="true">Payroll Distribution</Title><Abstract type="string" label="Policy Abstract" readonly="false" hidden="false" required="true">Explanation of Payroll Notifications as well as how University employees receive payroll</Abstract><Date type="date" label="Revision Date" readonly="false" hidden="false" required="true" display="localdateshort" UTC="true">20130213T19:00:00</Date><BodyCopy type="dhtml" label="Policy" readonly="false" hidden="false" required="false"><![CDATA[<h4 style="font-weight: bold;">Policy</h4>
+<p style="font-family: Verdana, Arial, sans-serif;">Payments for employment are made to regular employees either by direct deposit into each employee's bank account or by check to the employee.  Payment for student employees are made either by direct deposit to their bank account or deposit to their student account.  Employees are encouraged to have their pay deposited directly to their bank account.</p>
+<h4 style="font-weight: bold;">Procedures</h4>
+<ol style="font-family: Verdana, Arial, sans-serif; padding-left: 15px;">
+<li>Payroll advances will not be made.</li>
+<li>Payroll direct deposits or payroll checks are available on the 8<sup style="display: inline;">th</sup> and 23<sup style="display: inline;">rd</sup> day of each month or sooner if these days fall on a weekend or holiday.</li>
+<li><strong style="display: inline;">Payroll Notifications:</strong> Payroll notifications are available electronically on the web at <a href="http://www.byui.edu/payroll/notify">http://www.byui.edu/payroll/notify</a>.  Paper notifications are sent only to retirees and some part-time temporary employees.  Notification information is available on the web two days prior to payday and shows detailed information regarding:  
+<ul style="font-family: Verdana, Arial, sans-serif; padding-left: 30px; list-style-type: circle;">
+<li>Gross Pay</li>
+<li>Net Pay</li>
+<li>Deductions</li>
+<li>Vacation</li>
+<li>Sick Leave</li>
+<li>Exemptions</li>
+<li>Filing Status</li>
+</ul>
+</li>
+</ol> <br />]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="Policy" label="Policy" readonly="false" hidden="false" required="false" CompTypes="PolicyNavigationComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x18419" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></PolicyPage>

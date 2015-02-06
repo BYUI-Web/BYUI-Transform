@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.68 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x63202" Name="Department Email" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Department Mailbox: How to add or access the email account of the department that you work for</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">BYUI Department Mailboxes: How to add or access the email account of the department that you work for</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p>To <strong>request </strong>a mailbox:</p>
+<div style="text-align: left;"><ol>
+<li><a href="https://byui.qualtrics.com/SE/?SID=SV_3sKAANC5sy9Wbw8" style="font-size: 11pt; line-height: 1.4em;" target="_blank">Mailbox Request Form<br /><em style="color: #303538; font-size: 11pt; line-height: 1.4em;"><span style="vertical-align: sub;"><sup>(Opens in a new window as a Qualtrics form)</sup></span></em></a></li>
+<li><span style="vertical-align: sub;">Mailbox will be fully-accessible from on and off campus the day after you receive notification that it has been built.</span></li>
+</ol>
+<p>To <strong>access </strong>an existing mailbox:</p>
+<ul></ul>
+</div>
+<ol start="1">
+<li style="text-align: left;">Have your supervisor add you to the appropriate role in <a href="http://roles.byui.edu/" target="_self">Role Manager</a>.</li>
+<li style="text-align: left;">Restart your computer.</li>
+<li style="text-align: left;">Choose whether you want to access email via a web browser (<strong>Outlook Web Access</strong>) or email software (<strong>Outlook Client</strong>)<ol>
+<li><strong>Outlook Web Access:</strong><ol>
+<li>See and click through to all the mailboxes you have access to through<strong>&nbsp;<a href="http://roles.byui.edu/" target="_self">Role Manager</a>.</strong></li>
+<li>(Optional) Add as a bookmark/favorite or drag a shortcut to your desktop for quick access.</li>
+</ol></li>
+<li><strong>Outlook 2010 Client </strong>(Windows)<ol>
+<li>Student Employee - Main Mailbox<ol>
+<li>Replace&nbsp;<strong>user@byui.edu</strong>&nbsp;with&nbsp;<em>yourdepartmentemail</em><strong>@byui.edu</strong>&nbsp;on first launch.</li>
+</ol></li>
+<li>Full-Time Employee - 2nd Account (Send as User, Receive Notifications)<ol>
+<li><span style="font-size: 11pt; line-height: 1.4em;">File</span></li>
+<li><span style="font-size: 11pt; line-height: 1.4em;">Add Account</span></li>
+<li><span style="font-size: 11pt; line-height: 1.4em;">Type <em>DepartmentAddress</em>@byui.edu</span></li>
+</ol></li>
+<li>Full-Time Employee - 2nd Mailbox</li>
+<li><ol>
+<li><span style="font-size: 11pt; line-height: 1.4em;">File</span></li>
+<li><span style="font-size: 11pt; line-height: 1.4em;">Account Settings</span></li>
+<li><span style="font-size: 11pt; line-height: 1.4em;">Account Settings</span></li>
+<li><span style="font-size: 11pt; line-height: 1.4em;">Change</span></li>
+<li><span style="font-size: 11pt; line-height: 1.4em;">More Settings...</span></li>
+<li><span style="font-size: 11pt; line-height: 1.4em;">Advanced</span></li>
+<li><span style="font-size: 11pt; line-height: 1.4em;">Add Mailbox</span></li>
+</ol></li>
+</ol></li>
+<li><strong>Outlook 2011 Client</strong>(Macintosh)<ol>
+<li>Tools</li>
+<li>Accounts</li>
+<li>Advanced</li>
+<li>Delegates</li>
+<li>People I am a delegate for:</li>
+</ol></li>
+</ol></li>
+</ol>
+<p>To <strong>send</strong> mail from the new mailbox:</p>
+<ol>
+<li><strong style="font-size: 11pt; line-height: 1.4em;">Outlook 2010 Client&nbsp;</strong><span style="font-size: 11pt; line-height: 1.4em;">(Windows)</span><ol>
+<li><span style="font-size: 11pt; line-height: 1.4em;">Create new message</span></li>
+<li><span style="font-size: 11pt; line-height: 1.4em;">Click "From" in the "Show Fields" section of the ribbon bar</span></li>
+<li><span style="font-size: 11pt; line-height: 1.4em;">Click the "From" drop-down then click "Other email address..."</span></li>
+<li><span style="font-size: 11pt; line-height: 1.4em;">Type the department address then click "OK"</span></li>
+</ol></li>
+</ol>
+<table border="0">
+<tbody>
+<tr>
+<td></td>
+<td><strong>Add Account</strong></td>
+<td><strong>Add Mailbox</strong></td>
+</tr>
+<tr>
+<td><strong>Send as User</strong></td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+<tr>
+<td><strong>Receive Notifications (Toast Pop)</strong></td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p></p>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x35726" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

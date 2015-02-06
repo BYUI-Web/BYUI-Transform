@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?><Content ID="x39814" Name="TEST" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">THIS IS THE TITLE This is the Title</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Abstract with no page information in it.</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false" /><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false" /><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<link href="prebuilt/stylenew/css/OpenClose.css" media="screen, projection" rel="stylesheet" type="text/css" />
+<h1>This is a H1</h1>
+<h2>This is a H2</h2>
+<h3>This is a H3</h3>
+<h4>This is a H4</h4>
+<h5>This is a H5</h5>
+<h6>This is a H6</h6>
+<p>This is a paragraph This is a paragraph  This is a paragraph  This is a paragraph This is a paragraph  This is a paragraph  This is a paragraph  This is a paragraph  This is a paragraph  This is a paragraph  This is a paragraph  This is a paragraph  This is a paragraph  This is a paragraph.</p>
+<p> </p>
+<p>BOLD</p>
+<h1><strong>This is a H1</strong></h1>
+<h2><strong>This is a H2</strong></h2>
+<h3><strong>This is a H3</strong></h3>
+<h4><strong>This is a H4</strong></h4>
+<h5><strong>This is a H5</strong></h5>
+<h6><strong>This is a H6</strong></h6>
+<p><strong>This is a paragraph This is a paragraph  This is a paragraph  This is a paragraph This is a paragraph  This is a paragraph  This is a paragraph  This is a paragraph  This is a paragraph  This is a paragraph  This is a paragraph  This is a paragraph  This is a paragraph  This is a paragraph.</strong></p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p><strong><br /></strong></p>
+<div class="open_text">
+<div class="negMark"></div>
+<div>
+<p><strong>Enter Title Here</strong></p>
+</div>
+</div>
+<div class="close_text">
+<p>Enter Visible Text Here</p>
+</div>
+<div class="open_text"></div>
+<div class="open_text">
+<div class="negMark"></div>
+<div>
+<p><strong>Enter Title Here</strong></p>
+</div>
+</div>
+<div class="close_text">
+<p>Enter Visible Text Here</p>
+</div>
+<div class="open_text"></div>
+<div class="open_text">
+<div class="negMark"></div>
+<div>
+<p><strong>Enter Title Here</strong></p>
+</div>
+</div>
+<div class="close_text">
+<p>Enter Visible Text Here</p>
+</div>
+<div class="open_text"></div>
+<script type="text/javascript">
+function loadScript(url, callback){
+var body = document.getElementsByTagName('body')[0];
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = url;
+
+script.onreadystatechange = callback;
+script.onload = callback;
+
+body.appendChild(script);
+}
+
+window.onload = function(){
+loadScript("prebuilt/stylenew/js/OpenClose.js");
+}
+</script>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false" /></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" /><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" /><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" /></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="x30135" CompTypes="HighlightedLinksComponent" /><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet" /></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query="" /><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x21577" CompTypes="SiteControl" /></Content>

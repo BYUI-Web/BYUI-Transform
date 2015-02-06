@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<Content ID="x47316" Name="About Us" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">About The BYU-Idaho Outdoor Learning Center</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">About Us</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style><!--
+.about {
+padding-left:202px;
+}
+
+#whatwedo {
+padding-top: 220px;
+}
+
+		
+.slider{
+margin-left: 630px;
+
+}		
+			
+#page_title{
+opacity:0.0; 
+}
+ 
+ 
+#firstBanner {
+                position:absolute;
+margin-left: -615px;
+margin-top: 10px; 
+				opacity: 0.0;
+				transition-property: opacity ease-in;
+				transition-delay: 0s;
+				transition-duration: 1s;
+				-moz-transition-property: opacity ease-in;
+				-moz-transition-delay: 0s;
+				-moz-transition-duration: 1s;
+				-webkit-transition-property: opacity ease-in;
+				-webkit-transition-delay: 0s;
+				-webkit-transition-duration: 1s;
+				-o-transition-property: opacity ease-in;
+				-o-transition-delay: 0s;
+				-o-transition-duration: 1s;
+				
+                
+}
+ 
+ 
+#secondBanner {
+                position:absolute;
+margin-left: -615px;
+margin-top: 10px; 
+                opacity: 0.0;
+				transition-property: opacity ease-in;
+				transition-delay: 1s;
+				transition-duration: 0.5s;
+				-moz-transition-property: opacity ease-in;
+				-moz-transition-delay: 1s;
+				-moz-transition-duration: 0.5s;
+				-webkit-transition-property: opacity ease-in;
+				-webkit-transition-delay: 1s;
+				-webkit-transition-duration: 0.5s;
+				-o-transition-property: opacity ease-in;
+				-o-transition-delay: 1s;
+				-o-transition-duration: 0.5s;
+				
+               
+}
+ 
+ 
+#thirdBanner {
+                position:absolute;
+margin-left: -615px;
+margin-top: 10px; 
+                opacity: 0.0;
+				transition-property: opacity ease-in;
+				transition-delay: 2s;
+				transition-duration: 0.5s;
+				-moz-transition-property: opacity ease-in;
+				-moz-transition-delay: 2s;
+				-moz-transition-duration: 0.5s;
+				-webkit-transition-property: opacity ease-in;
+				-webkit-transition-delay: 2s;
+				-webkit-transition-duration: 0.5s;
+				-o-transition-property: opacity ease-in;
+				-o-transition-delay: 2s;
+				-o-transition-duration: 0.5s;
+                
+}
+
+#fourthBanner {
+                position:absolute;
+margin-left: -615px;
+margin-top: 10px; 
+                opacity: 0.0;
+				transition-property: opacity ease-in-out;
+				transition-delay: 3s;
+				transition-duration: 2s;
+				-moz-transition-property: opacity ease-in-out;
+				-moz-transition-delay: 3s;
+				-moz-transition-duration: 2s;
+				-webkit-transition-property: opacity ease-in-out;
+				-webkit-transition-delay: 3s;
+				-webkit-transition-duration: 2s;
+				-o-transition-property: opacity ease-in-out;
+				-o-transition-delay: 3s;
+				-o-transition-duration: 2s;
+               
+}
+
+#lastBanner {
+                position:absolute;
+margin-left: -640px;
+margin-top: 10px; 
+                opacity: 0.0;
+				transition-property: opacity;
+				transition-delay: 4s;
+				transition-duration: 2s;
+				-moz-transition-property: opacity ease-in;
+				-moz-transition-delay: 4s;
+				-moz-transition-duration: 2s;
+				-webkit-transition-property: opacity ease-in;
+				-webkit-transition-delay: 4s;
+				-webkit-transition-duration: 2s;
+				-o-transition-property: opacity ease-in;
+				-o-transition-delay: 4s;
+				-o-transition-duration: 2s;
+               
+}
+--></style>
+<p>
+<script type="text/javascript">
+window.onload=function(){
+ 
+var el = document.getElementById( 'page_title' );
+el.parentNode.removeChild( el );
+ 
+document.getElementById("firstBanner").style.opacity = '1.0';
+document.getElementById("secondBanner").style.opacity = '1.0';
+document.getElementById("thirdBanner").style.opacity = '1.0';
+document.getElementById("fourthBanner").style.opacity = '1.0';
+setTimeout(function(){document.getElementById("lastBanner").style.opacity = '1.0'},3000);
+ 
+};
+</script>
+</p>
+<div class="about"><img alt="About Us" src="Images/badger-creek/aboutus.png" title="About Us" /></div>
+<p><img src="Images/badger-creek/website/bottomdivide.png" /></p>
+<div class="slider"><img alt="mission1.jpg" id="firstBanner" src="images/badger-creek/website/mission1.jpg" /> <img alt="mission2.jpg" id="secondBanner" src="images/badger-creek/website/mission2.jpg" /> <img alt="mission3.jpg" id="thirdBanner" src="images/badger-creek/website/mission3.jpg" /> <img alt="mission4.jpg" id="fourthBanner" src="images/badger-creek/website/mission4.jpg" /> <img alt="mission5.jpg" id="lastBanner" src="images/badger-creek/website/mission5.jpg" /></div>
+<div id="page_title"><img alt="mission1.jpg" id="firstBanner" src="images/badger-creek/website/mission1.jpg" /> <img alt="mission2.jpg" id="secondBanner" src="images/badger-creek/website/mission2.png" /> <img alt="mission3.jpg" id="thirdBanner" src="images/badger-creek/website/mission3.jpg" /> <img alt="mission4.jpg" id="fourthBanner" src="images/badger-creek/website/mission4.jpg" /> <img alt="mission5.jpg" id="lastBanner" src="images/badger-creek/website/mission5.jpg" /></div>
+<div id="whatwedo"><img src="Images/badger-creek/website/bottomdivide.png" />
+<h3>What We Do</h3>
+<p>Take our dedicated ranch, 5 main ropes courses, the principle based learning activities, campsites, cabins, and lodge and use those to create experiences that you can take with you for a lifetime. We serve to create partnerships with academic departments and campus organizations, meaning that our certified staff and the group leaders will coordinate a learning experience focused on the principles chosen by the group while adventuring through our ropes courses and activities.</p>
+<p>Campus Groups from Brigham Young University-Idaho can also come up year-round to have their deeply significant experience. Bring your family home evening groups, ward groups, or sports team to come up and grow closer together and have an experience that won't be forgotten.</p>
+<p>We also host the <strong> <a class="Itext" href="http://www.byui.edu/outdoor-learning-center/adventure-for-youth-afy">Adventure for Youth (AFY)</a> </strong>summer youth camp.</p>
+</div>
+<div><img src="Images/badger-creek/website/bottomdivide.png" />
+<h3>Brief History</h3>
+<p>The BYU-Idaho Outdoor Learning Center has provided deeply significant experiences for the University and community since 1979. This facility has been dedicated President Bruce C. Hafen and President David A. Bednar to be a place of spiritual growth and learning for all those who experience the spirit of Badger Creek. Located at Badger Creek in the base of the Teton Valley, the Outdoor Learning Center is an outdoor, hands-on learning laboratory.</p>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="true"><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x44785" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

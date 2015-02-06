@@ -1,0 +1,2077 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<Content ID="x50522" Name="Schedule" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Schedule - Education Week 2014</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">View the schedule of all the topics and events for Education Week.</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<div class="style-container">[x50728][x51144] <link href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" rel="stylesheet" /></div>
+<style><!--
+.part{
+font-weight: normal;
+font-style: italic;
+display: inline-block;
+}
+#schedule {
+	   color: #ffcf06 !important;
+	   background-color: #000;
+    }
+
+    .ui-loader.ui-corner-all.ui-body-a.ui-loader-default {
+        display: none;
+    }
+    .type td {
+    line-height: 125% !important;
+    }
+    .bold-headings{
+    font-weight: bold;
+    display: block;
+    padding-bottom: 4px;
+    }
+    .sub-heading{
+    width: 60%;
+    margin-left: 20%;
+    }
+    #teachers-list {
+        text-align: left;
+        height: 520px;
+    }
+    #teachers-listOne {
+        text-align: left;
+        float: left;
+    }
+    #teachers-listTwo {
+        text-align: left;
+        float: left;
+    }
+    #teacherOne {
+        position: absolute;
+        top: 161px;
+        right: 50px;
+        width: 350px;
+    }
+    #teacherTwo {
+        position: absolute;
+        top: 428px;
+        right: 50px;
+    }
+    .type h2 {
+        margin-bottom: 10px;
+        padding: 0;
+        background-color: #fff;
+        font-size: 1.3em;
+        letter-spacing: 1pt;
+        color: #0f6cb6;
+        display: block;
+    }
+    li {
+        list-style-type: none !important;
+    }
+    .type table {
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .hour-divider td {
+        border-top: 1px solid #000;
+    }
+    /* INTERFACE STYLE */
+    .multi {
+        background-color: ;
+    }
+    .repeat {
+        background-color: ;
+    }
+    .correlated {
+        background-color: ;
+    }
+    .hour {
+        /* Make the hour cell narrow */
+        width: 50px;
+        text-align: right;
+    }
+    /* Tabs */
+    #main-tabs,
+    #glance-days,
+    #classes-days {
+        margin-top: 1em;
+        padding: 0;
+        background: none;
+        border: none;
+    }
+    #main-tabs .ui-tabs-nav {
+        padding-left: 0;
+        background: transparent;
+        border-width: 0 0 1px 0;
+        border-color: #0f6cb6;
+        -moz-border-radius: 0;
+        -webkit-border-radius: 0;
+        border-radius: 0;
+    }
+    #glance-days .ui-tabs-nav,
+    #classes-days .ui-tabs-nav {
+        border-color: #ffcf06;
+    }
+    #main-tabs .ui-tabs-panel {
+        border-width: 0 1px 1px 1px;
+        border-color: #0f6cb6;
+    }
+    #glance-days .ui-tabs-panel,
+    #classes-days .ui-tabs-panel {
+        border: 1px solid #ffcf06;
+        border-top: none;
+        background-color: #fffcf1;
+    }
+    /* Override jQuery tabs default CSS */
+    .ui-state-default,
+    .ui-widget-content .ui-state-default,
+    .ui-widget-header .ui-state-default {
+        border: 1px solid #000;
+        background: #fff;
+        color: #000;
+    }
+    .ui-state-active,
+    .ui-widget-content .ui-state-active,
+    .ui-widget-header .ui-state-active {
+        border: none;
+        background: #0f6cb6;
+    }
+    #glance-days .ui-state-active,
+    #glance-days .ui-widget-content .ui-state-active,
+    #glance-days .ui-widget-header .ui-state-active,
+    #classes-days .ui-state-active,
+    #classes-days .ui-widget-content .ui-state-active,
+    #classes-days .ui-widget-header .ui-state-active {
+        background: #ffcf06;
+    }
+    #glance-days .ui-state-active a:link,
+    #glance-days .ui-widget-content .ui-state-active a:link,
+    #glance-days .ui-widget-header .ui-state-active a:link,
+    #glance-days .ui-state-active a:visited,
+    #glance-days .ui-widget-content .ui-state-active a:visited,
+    #glance-days .ui-widget-header .ui-state-active a:visited,
+    #classes-days .ui-state-active a:link,
+    #classes-days .ui-widget-content .ui-state-active a:link,
+    #classes-days .ui-widget-header .ui-state-active a:link,
+    #classes-days .ui-state-active a:visited,
+    #classes-days .ui-widget-content .ui-state-active a:visited,
+    #classes-days .ui-widget-header .ui-state-active a:visited {
+        color: #000;
+    }
+    .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+        background-color: #0f6cb6;
+    }
+    .ui-state-default a,
+    .ui-state-default a:link,
+    .ui-state-default a:visited {
+        color: #000;
+    }
+    .ui-corner-top {
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+    }
+    .ui-corner-all,
+    .ui-corner-bottom,
+    .ui-corner-right,
+    .ui-corner-br {
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    #main-tabs .ui-state-active a,
+    #main-tabs .ui-state-active a:link,
+    #glance-days .ui-state-active a,
+    #glance-days .ui-state-active a:link {
+        color: #fff;
+    }
+    .ui-state-active,
+    .ui-widget-content .ui-state-active,
+    .ui-widget-header .ui-state-active {
+        /* Overrides jQuery tabs default CSS */
+        border: none;
+        background: #0f6cb6;
+    }
+    /* Teacher thumbnails */
+    .teacher-thumbnail {
+        display: inline-block;
+        width: 220px;
+        padding: 8px;
+        border: 1px solid #888;
+        background-color: #fffcf1;
+        cursor: pointer;
+    }
+    .teacher-thumbnail:hover {
+        background-color: #eee;
+    }
+    .teacher-thumbnail > div.pre-picture {
+        width: 40px;
+        height: 40px;
+        float: left;
+        font-size: 0.7em;
+    }
+    .teacher-thumbnail:hover > div.pre-picture {
+        opacity: 0.75;
+        filter: alpha(opacity=75);
+        /* works in IE8 */
+    }
+    .teacher-thumbnail > p {
+        margin: 0 0 4px 8px;
+        width: 77%;
+        font-size: 0.85em;
+        font-family: "Century Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        float: left;
+    }
+    .teacher-thumbnail:hover > p {
+        color: #555;
+    }
+    /* Teacher information boxes */
+    .teacher-info-content {
+        border: 1px solid #000;
+        width: 380px;
+        min-height: 260px;
+        position: relative;
+        font-size: 0.8em;
+    }
+    .teacher-picture {
+        width: 90px;
+        height: 90px;
+        padding: 0;
+        position: absolute;
+        top: 12px;
+        left: 12px;
+    }
+    .teacher-picture,
+    .teacher-thumbnail > div.pre-picture
+    /* see class on teacher thumbnails section */
+    {
+        border: 1px solid #999;
+        background-color: #ffcf06;
+    }
+    .teacher-picture > p {
+        /* Just for the placeholder text */
+        margin-top: 20px;
+        color: #000;
+        text-align: center;
+    }
+    .teacher-info-text {
+        width: 250px;
+        position: absolute;
+        top: 12px;
+        right: 0;
+    }
+    .teacher-info-text > h3 {
+        margin: 0;
+        color: #0f6cb6;
+        font-weight: bold;
+    }
+    .teacher-info-text > p {
+        margin-top: 8px;
+    }
+    .ui-dialog,
+    table {
+        -webkit-box-shadow: 2px 2px 3px #888;
+        -moz-box-shadow: 2px 2px 3px #888;
+        box-shadow: 2px 2px 3px #888;
+    }
+    .ui-dialog {
+        padding: 0;
+        border-color: #000;
+    }
+    .ui-dialog-titlebar {
+        background: #ffcf06;
+        border: none;
+    }
+    .ui-tabs .ui-tabs-nav li.ui-tabs-active a {
+        cursor: default;
+    }
+    .ui-corner-all {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    .ui-dialog .ui-dialog-titlebar-close {
+        width: 25px;
+        height: 23px;
+        border: none;
+        background-color: #ffcf06;
+    }
+    .ui-state-default .ui-icon {
+        /* The close window icon */
+        width: 24px;
+        height: 24px;
+        top: 5px;
+        left: 10px;
+        background: url("Images/university-relations/education-week/exit-button.png") no-repeat 0 0;
+    }
+    .ui-state-default .ui-icon:hover {
+        background: url("Images/university-relations/education-week/exit-button.png") no-repeat 0 -25px;
+    }
+    .separator {
+        margin-top: 3em;
+    }
+    .attention {
+        color: #8a1f11;
+        text-decoration: none;
+        font-weight: bold;
+    }
+--></style>
+<!--
+<p><a href="#" style="float: right; clear: left;" title="This link doesn't do anything yet, but hopefully it will in the near future.">Print</a></p>
+-->
+<p></p>
+<!-- BEGIN SCHEDULE DISPLAY -->
+<div class="main-title-container">
+<h1 id="header">SCHEDULE</h1>
+</div>
+<div class="text-box">
+<p>Following is the outline of what to expect for Education Week 2014. We hope this will be helpful as you plan your time during the conference. Information is subject to change, so please check back.</p>
+</div>
+<div id="main-tabs" style="text-align: center;">
+<ul>
+<li><a href="#main-tabs-1"><strong>AT A GLANCE</strong></a></li>
+<li><a href="#main-tabs-2"><strong>CLASSES</strong></a></li>
+<li><a href="#main-tabs-3"><strong>TEACHERS</strong></a></li>
+<li><a href="#main-tabs-4"><strong>ACTIVITIES</strong></a></li>
+<li><a href="#main-tabs-5"><strong>YOUTH SCHEDULE</strong></a></li>
+<li><a href="#main-tabs-6"><strong>PRINTABLE</strong></a></li>
+</ul>
+<div id="main-tabs-1">
+<h2>At a Glance</h2>
+<p class="sub-heading">Below is a quick overview of the conference events for each day. Please check the tabs above for details on classes, teachers, etc.</p>
+<div id="glance-days">
+<ul>
+<li><a href="#glance-days-1">Thursday</a></li>
+<li><a href="#glance-days-2">Friday</a></li>
+<li><a href="#glance-days-3">Saturday</a></li>
+</ul>
+<!-- THURSDAY -->
+<div id="glance-days-1">
+<h3>Thursday</h3>
+<table>
+<tbody>
+<tr><th>Time</th><th>Event</th><!--
+<th>Activity</th><th>Alumni</th>
+--></tr>
+<tr>
+<td class="hour">9 a.m.</td>
+<td>Opening Ceremony</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">10:20 a.m.</td>
+<td>Classes</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">11:40 a.m.</td>
+<td>Classes</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">1 p.m.</td>
+<td>Classes</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">2:20 p.m.</td>
+<td>Devotional</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">3:40 p.m.</td>
+<td>Classes</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">5 p.m.</td>
+<td>Classes</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">6:20 p.m.</td>
+<td>Classes</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">7:00 p.m.</td>
+<td>Family/Youth Dance</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">8:00 p.m.</td>
+<td>Youth Dance</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+</tbody>
+</table>
+</div>
+<!-- FRIDAY -->
+<div id="glance-days-2">
+<h3>Friday</h3>
+<table>
+<tbody>
+<tr><th>Time</th><th>Event</th><!--
+<th>Activity</th><th>Alumni</th>
+--></tr>
+<tr>
+<td class="hour">9 a.m.</td>
+<td>Classes</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">10:20 a.m.</td>
+<td>Classes</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">11:40 a.m.</td>
+<td>Classes</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">1 p.m.</td>
+<td>Classes</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">2:20 p.m.</td>
+<td>Devotional</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">3:40 p.m.</td>
+<td>Classes</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">5 p.m.</td>
+<td>Classes</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">6:20 p.m.</td>
+<td>Classes</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">7:30 p.m.</td>
+<td>Center Stage Concert</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+</tbody>
+</table>
+</div>
+<!-- SATURDAY -->
+<div id="glance-days-3">
+<h3>Saturday</h3>
+<table>
+<tbody>
+<tr><th>Time</th><th>Event</th><!--
+<th>Activity</th><th>Alumni</th>
+--></tr>
+<tr>
+<td class="hour">9 a.m.</td>
+<td>Classes</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">10:20 a.m.</td>
+<td>Classes</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">11:40 a.m.</td>
+<td>Classes</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">1 p.m.</td>
+<td>Classes</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+<tr>
+<td class="hour">2:20 p.m.</td>
+<td>Closing Ceremony</td>
+<!--
+<td></td>
+<td></td>
+--></tr>
+</tbody>
+</table>
+</div>
+<!-- end glance-days-3 --></div>
+<!-- end glance-days --></div>
+<!-- end tabs-1 -->
+<div id="main-tabs-6">
+<h2>Printable Schedule</h2>
+<p class="sub-heading">Option to print the schedule is below or <a href="Documents/university-relations/education-week/2014/General Schedule.pdf">download PDF</a></p>
+<iframe height="1380" src="http://docs.google.com/viewer?url=www.byui.edu%2Fdocuments%2Funiversity-relations%2Feducation-week%2F2014%2Fparticipant-documents%2Fgeneral-schedule.pdf&amp;embedded=true" style="border: none;" width="900"></iframe></div>
+<div id="main-tabs-2">
+<h2>Classes</h2>
+<p class="sub-heading">Select a day below for a complete list of class options,<br />including teachers, topics, and location.</p>
+<!--
+<p style="margin-left: 15px; float: right; cursor: pointer;"><a href="#">View Youth classes</a></p>
+<p style="float: right; cursor: pointer;"><a href="#">View all classes</a></p>
+-->
+<div id="classes-days">
+<ul>
+<li><a href="#classes-days-1">Thursday</a></li>
+<li><a href="#classes-days-2">Friday</a></li>
+<li><a href="#classes-days-3">Saturday</a></li>
+</ul>
+<div id="classes-days-1">
+<h3>Thursday</h3>
+<table class="tableizer-table"><colgroup> <col width="80" /> </colgroup>
+<tbody>
+<tr class="tableizer-firstrow"><th>Time</th><th>Teacher</th><th>Specific Topic</th><th>Building/Room</th></tr>
+<tr>
+<td>9:00 AM</td>
+<td>Opening Ceremony</td>
+<td>
+<div class="bold-headings">Sister Mary Ellen Smoot</div>
+Former General Relief Society President.</td>
+<td>TAYLOR CHAPEL</td>
+</tr>
+<tr>
+<td>10:20 AM</td>
+<td>Anderson, Joseph</td>
+<td>
+<div class="bold-headings">Physical Preparation for a Mission</div>
+I will cover some information about physical readiness for a mission with a focus on physical fitness.</td>
+<td>BENSON 287</td>
+</tr>
+<tr>
+<td>10:20 AM</td>
+<td>Bair, Ted M.</td>
+<td>
+<div class="bold-headings">Building a Temple Marriage Into an Eternal Marriage
+<div class="part">(Part 1)</div>
+</div>
+&ldquo;To Do Good and to Communicate Forget Not&rdquo; (Hebrews 13:16): Principles and Skills for Better Relationships.</td>
+<td>ROMNEY 172</td>
+</tr>
+<tr>
+<td>10:20 AM</td>
+<td>Baron, Ross</td>
+<td>
+<div class="bold-headings">Old Testament Lessons About the Priesthood</div>
+The story of Aaron and Miriam in Numbers 12, connected to Numbers 11 and 16. The story illustrates key principles related to supporting those who are called by God, not seeking position, being content with what the Lord has allotted to us, and not speaking against the Lord's anointed.</td>
+<td>TAYLOR CHAPEL</td>
+</tr>
+<tr>
+<td>10:20 AM</td>
+<td>Bell, Craig</td>
+<td>
+<div class="bold-headings">The Unspeakable Gift of the Holy Ghost</div>
+Striving to Live Up to Our Spiritual Privileges D&amp;C 121:26 - This class will explore scriptural and prophetic statements regarding the spiritual potential and blessings that are available to all covenant members who have received the Gift of the Holy Ghost.</td>
+<td>BENSON 219</td>
+</tr>
+<tr>
+<td>10:20 AM</td>
+<td>Castillow, Curtis</td>
+<td>
+<div class="bold-headings">Be a Christian Soldier Not a Weekend Warrior</div>
+The Stripling Warriors were painted to look powerful on the outside, but what&rsquo;s most important is the strength they had on the inside. These spiritual warriors from the past teach Christian soldiers in the present how to overcome this world. Teens, parents, or youth leaders will especially enjoy.</td>
+<td>BENSON 108/110</td>
+</tr>
+<tr>
+<td>10:20 AM</td>
+<td>Davis, Steve</td>
+<td>
+<div class="bold-headings">How to Become a Networking All-Star</div>
+Learn how to network effectively using LinkedIn and social media from life skills coach and networking professional Steve Davis. Steve will give an in depth review and training on how to use LinkedIn to &ldquo;be Found, Find Key Connections, and Foster valuable relationships.&rdquo;</td>
+<td>MANWARING CENTER 372A</td>
+</tr>
+<tr>
+<td>10:20 AM</td>
+<td>Packer, Phil</td>
+<td>
+<div class="bold-headings">Let Every Man Take Heed How He Builds</div>
+The opportunity each of us has to make choices occurs everyday. We know that as we travel through life we come in contact with situations and people. Sometimes our travel is referred to as a path, sometimes as a highway, but whichever it is, we have choices to make as we experience our lives. The title of this presentation is taken from 1 Corinthians 3:10, from the words of the Apostle Paul.</td>
+<td>RICKS 147</td>
+</tr>
+<tr>
+<td>10:20 AM</td>
+<td>Twitchell, Leslie</td>
+<td>
+<div class="bold-headings">The Grandin Press and the Printing of the Book of Mormon</div>
+Come visit the Iron Acorn Press! We will consider the conditions and technology surrounding the production of the first edition Book of Mormon. See Palmyra through the eyes of those who printed the largest edition of a published book in upstate New York at the time. Use a Grandin press reproduction to print your own keepsake of an 1830 title page.</td>
+<td>MCKAY 249</td>
+</tr>
+<tr>
+<td>10:20 AM</td>
+<td>Waddoups, Brad</td>
+<td>
+<div class="bold-headings">Is This Gambling or What? Starting a Financial Journey From Burdens to Blessings</div>
+A 12-Step Program - Members of the class will discuss information and specific steps to help them make sense of their finances and have hope in the journey.</td>
+<td>AUSTIN 105</td>
+</tr>
+<tr>
+<td>10:20 AM</td>
+<td>Whetten, Craig</td>
+<td>
+<div class="bold-headings">Treasures of the Vault</div>
+Follow the history of recordkeeping and the Bible with the staff of Special Collections in the David O. McKay library. See and handle ancient artifacts&mdash;some more than 2,000 years old&mdash;that trace how humans have kept a record of their lives. This presentation will also pay special attention to the history of the Reformation period through many original Bibles and display several essential translations in their original editions&mdash;illuminated bibles written by hand, an authentic Gutenberg leaf, a first edition King James Bible, and more. Be inspired to treasure your personal and family history through a first-hand experience with history. Teens, parents, or youth leaders will especially enjoy.</td>
+<td>MCKAY 220</td>
+</tr>
+<tr>
+<td>10:20 AM</td>
+<td>Youngberg, Brent</td>
+<td>
+<div class="bold-headings">Free Will Offerings, the Exalted Pattern of Obedience</div>
+All commandments appear to have areas where we can make "Free Will Offerings". This empowers our agency. Meekness, which is submitting to Divine Will, enables us to give our full free will offerings of Love.</td>
+<td>MANWARING CENTER 387</td>
+</tr>
+<tr>
+<td>11:40 AM</td>
+<td>Bair, Ted M.</td>
+<td>
+<div class="bold-headings">Chosen People and Choice Lands: Covenant of Abraham and the Nations of Israel and the Americas
+<div class="part">(Part 1)</div>
+</div>
+Israel: A Choice Land &amp; A Chosen People</td>
+<td>ROMNEY 172</td>
+</tr>
+<tr>
+<td>11:40 AM</td>
+<td>Bell, Craig</td>
+<td>
+<div class="bold-headings">Applying Principles of Effective Councils in Our Daily Lives</div>
+This class will focus on principles of effective councils and how they can apply in our homes, church, and community. Statements from scriptures and prophets will serve as the foundation for class discussion.</td>
+<td>BENSON 219</td>
+</tr>
+<tr>
+<td>11:40 AM</td>
+<td>Bell, Susan</td>
+<td>
+<div class="bold-headings">Give Us This Day Our Daily Rice Cake--How to Deal With Food Sensitivities</div>
+I will discuss how to deal with the initial shock of food sensitivity diagnosis, suggest practical ideas for substitute foods at camp and for the Sacrament, and provide scripture references about hope which emphasize that Heavenly Father loves us and will help us through our difficult trials.</td>
+<td>MANWARING CENTER 372A</td>
+</tr>
+<tr>
+<td>11:40 AM</td>
+<td>Donne, William A.</td>
+<td>
+<div class="bold-headings">We Will End the Conflict Now: A Discussion on Pornography, Addiction and the Sure Road to Understanding, Recovery, and Healing</div>
+You do not just treat pornography addiction; you conquer it! Join William A. Donne, author of We Will End the Conflict Now, as he discusses pornography, perspective, and the power in Christ to heal our broken hearts and end the conflict now! Teens, parents, or youth leaders will especially enjoy.</td>
+<td>BENSON 287</td>
+</tr>
+<tr>
+<td>11:40 AM</td>
+<td>King, Seth</td>
+<td>
+<div class="bold-headings">Accessing the Powers of Heaven</div>
+The Powers of Heaven are inseprably connected with the principles of righteousness. This class will creatively discuss how we as youth can most fully access the Powers of Heaven on a daily basis. Teens, parents, or youth leaders will especially enjoy.</td>
+<td>BENSON 108/110</td>
+</tr>
+<tr>
+<td>11:40 AM</td>
+<td>Parry, Jennifer</td>
+<td>
+<div class="bold-headings">Mental Health, Depression, Cognitive Therapy, and How to Change and Understand Our Thought Patterns</div>
+Thinking good thoughts, how it relates to depression; also President Uchtdorf's advice to women on how to partake of God's happiness now. Depression or happiness, can we chose?</td>
+<td>AUSTIN 105</td>
+</tr>
+<tr>
+<td>11:40 PM</td>
+<td>Raish, Martin</td>
+<td>
+<div class="bold-headings">Nephi's Zip Code and Other Perplexities: Geography and Archeology of the Book of Mormon</div>
+Because the Book of Mormon describes events that happened hundreds of years ago, it can sometimes be challenging to see the men and women of those times as real people. Where did they live? What did they looked like? What kind of clothes did they wear? What were their houses and cities like? While there are no definitive answers to questions such as these, we will explore some tantalizing possibilities that can help us bridge the gulf between their lives and ours, to make their experiences more powerful (as well as more poignant) for us today.</td>
+<td>SMITH 240</td>
+</tr>
+<tr>
+<td>11:40 AM</td>
+<td>Smoot, Shane &amp; Smoot, Mary Ellen</td>
+<td>
+<div class="bold-headings">The Divine Power of Family: Its Purpose &amp; Preservation</div>
+Session #1: This session will focus on the central role of the family in Heavenly Father's Plan of Happiness. We will discuss the divine design of our families and the inherit power of family relationships. We will further explore the essential and pivotal role of traditional marriage in the fulfillment of God's plan for His children. Finally, we will ponder upon the infinite mercy of the Atonement and its nurturing and healing influence in our families.</td>
+<td>TAYLOR CHAPEL</td>
+</tr>
+<tr>
+<td>11:40 AM</td>
+<td>Twitchell, Leslie</td>
+<td>
+<div class="bold-headings">The Grandin Press and the Printing of the Book of Mormon (repeat)</div>
+Come visit the Iron Acorn Press! We will consider the conditions and technology surrounding the production of the first edition Book of Mormon. See Palmyra through the eyes of those who printed the largest edition of a published book in upstate New York at the time. Use a Grandin press reproduction to print your own keepsake of an 1830 title page.</td>
+<td>MCKAY 249</td>
+</tr>
+<tr>
+<td>11:40 AM</td>
+<td>Wahlquist, Robert</td>
+<td>
+<div class="bold-headings">To Burn? or Not to Burn? What LDS Know About the 2nd Coming That the World Does Not Know</div>
+We are living in wonderfully exciting times. Each day brings us closer to the return of the LORD GOD to the earth to rule and reign for a thousand years (See Article of Faith 10). Latter-Day Saints have Living Prophets, who have been receiving revelation and talking about the 2nd coming for 186 years. During that time, they have revealed many things about the 2nd coming&mdash;that rest of the world does not know. (And as one Latter-day Apostle put it&hellip; &lsquo;have scarcely dawned on the Latter-day Saints themselves.&rsquo;) The 2nd Coming is Coming. We are commanded to know and watch the signs. (See D&amp;C 45:39) So, come to this class to see what the modern prophets are saying about the second coming. You will learn some things that Latter-day Saints should know that bring GREAT PEACE in a time of great commotion.</td>
+<td>RICKS 173</td>
+</tr>
+<tr>
+<td>11:40 AM</td>
+<td>Whetten, Craig</td>
+<td>
+<div class="bold-headings">Treasures of the Vault (repeat)</div>
+Follow the history of recordkeeping and the Bible with the staff of Special Collections in the David O. McKay library. See and handle ancient artifacts&mdash;some more than 2,000 years old&mdash;that trace how humans have kept a record of their lives. This presentation will also pay special attention to the history of the Reformation period through many original Bibles and display several essential translations in their original editions&mdash;illuminated bibles written by hand, an authentic Gutenberg leaf, a first edition King James Bible, and more. Be inspired to treasure your personal and family history through a first-hand experience with history. Teens, parents, or youth leaders will especially enjoy.</td>
+<td>MCKAY 220</td>
+</tr>
+<tr>
+<td>11:40 AM</td>
+<td>Willis, Michelle</td>
+<td>
+<div class="bold-headings">How to Conduct Music</div>
+Become an instant asset to your ward, school, or civic group by learning how to conduct music! We will cover beat patterns, entrances and cut-offs, cues, dynamics, and more.</td>
+<td>MANWARING CENTER 387</td>
+</tr>
+<tr>
+<td>1:00 PM</td>
+<td>Anderson, Joseph</td>
+<td>
+<div class="bold-headings">Physical Preparation for a Mission (repeat)</div>
+I will cover some information about physical readiness for a mission with a focus on physical fitness.</td>
+<td>BENSON 287</td>
+</tr>
+<tr>
+<td>1:00 PM</td>
+<td>Bair, Ted M.</td>
+<td>
+<div class="bold-headings">The Second Coming of Christ: Parallels with Christ's First Coming
+<div class="part">(Part 1)</div>
+</div>
+Warnings: Changes on Earth and in the Heavens</td>
+<td>ROMNEY 172</td>
+</tr>
+<tr>
+<td>1:00 PM</td>
+<td>Bell, Craig</td>
+<td>
+<div class="bold-headings">The Unspeakable Gift of the Holy Ghost - Striving to Live Up to Our Spiritual Privileges D&amp;C 121:26 (repeat)</div>
+This class will explore scriptural and prophetic statements regarding the spiritual potential and blessings that are available to all covenant members who have received the Gift of the Holy Ghost.</td>
+<td>BENSON 219</td>
+</tr>
+<tr>
+<td>1:00 PM</td>
+<td>Bell, Susan</td>
+<td>
+<div class="bold-headings">Give Us This Day Our Daily Rice Cake - How to Deal With Food Sensitivities (repeat)</div>
+I will discuss how to deal with the initial shock of food sensitivity diagnosis, suggest practical ideas for substitute foods at camp and for the Sacrament, and provide scripture references about hope which emphasize that Heavenly Father loves us and will help us through our difficult trials.</td>
+<td>MANWARING CENTER 372A</td>
+</tr>
+<tr>
+<td>1:00 PM</td>
+<td>Dunn, C. Ryan</td>
+<td>
+<div class="bold-headings">He Said, She Said - Finding Communion in Communication</div>
+In this class, we will discuss the importance of communication as a way to bring husbands and wives closer. We will discuss how this process also and most importantly, can bring the Lord into our lives and marriages.</td>
+<td>RICKS 147</td>
+</tr>
+<tr>
+<td>1:00 PM</td>
+<td>Fernquist, Robert</td>
+<td>
+<div class="bold-headings">Technology Can Benefit or Impair the Life of a Teenager</div>
+The focus of this class is how texting, surfing the Internet, etc. influence the lives of our children, for better and for worse.</td>
+<td>TAYLOR 120</td>
+</tr>
+<tr>
+<td>1:00 PM</td>
+<td>Lyons, Timm</td>
+<td>
+<div class="bold-headings">Singing Together - Education Week Choir
+<div class="part">(Part 1)</div>
+</div>
+Prepare a musical number for the closing ceremony</td>
+<td>TAYLOR 130</td>
+</tr>
+<tr>
+<td>1:00 PM</td>
+<td>Mandin, Thad</td>
+<td>
+<div class="bold-headings">Teaching and Learning the Gospel With Your Teens</div>
+Parents are the most influential gospel teachers in their teenager's life. Actively teaching and guiding is a two way street for both the teen and the parent, and when done carefully, both can greatly benefit.</td>
+<td>RICKS 161</td>
+</tr>
+<tr>
+<td>1:00 PM</td>
+<td>Satterfield, Bruce</td>
+<td>
+<div class="bold-headings">Our Premortal Experience</div>
+A discussion of Man's premortal existence based upon the scriptures and teachings of latter-day prophets.</td>
+<td>TAYLOR CHAPEL</td>
+</tr>
+<tr>
+<td>1:00 PM</td>
+<td>Wahlquist, Robert</td>
+<td>
+<div class="bold-headings">To Burn? or Not to Burn? What LDS Know About the 2nd Coming That the World Does Not Know (repeat)</div>
+We are living in wonderfully exciting times. Each day brings us closer to the return of the LORD GOD to the earth to rule and reign for a thousand years (See Article of Faith 10). Latter-Day Saints have Living Prophets, who have been receiving revelation and talking about the 2nd coming for 186 years. During that time, they have revealed many things about the 2nd coming&mdash;that rest of the world does not know. (And as one Latter-day Apostle put it&hellip; &lsquo;have scarcely dawned on the Latter-day Saints themselves.&rsquo;) The 2nd Coming is Coming. We are commanded to know and watch the signs. (See D&amp;C 45:39) So, come to this class to see what the modern prophets are saying about the second coming. You will learn some things that Latter-day Saints should know that bring GREAT PEACE in a time of great commotion.</td>
+<td>RICKS 173</td>
+</tr>
+<tr>
+<td>1:00 PM</td>
+<td>Youngberg, Brent &amp; Ruth</td>
+<td>
+<div class="bold-headings">Serving a Mission Together Can Enhance Your Marriage</div>
+Leaving home and family to go on a mission as a senior couple can be a scary undertaking, but the benefits are worth it. The growth and learning, stretching and becoming enhance your marriage. So. . . kids, we're here to help your folks go on a mission.</td>
+<td>MANWARING CENTER 387</td>
+</tr>
+<tr>
+<td>2:20 PM</td>
+<td>Devotional</td>
+<td>
+<div class="bold-headings">President Kim B. Clark</div>
+BYU-Idaho President.</td>
+<td>TAYLOR CHAPEL</td>
+</tr>
+<tr>
+<td>3:40 P.M.</td>
+<td>Bair, Ted M.</td>
+<td>
+<div class="bold-headings">The Plan: God&rsquo;s Plan for Our Salvation, Happiness and Redemption
+<div class="part">(Part 1)</div>
+</div>
+&ldquo;In the Beginning, God&rdquo;: Premortal Preparations &amp; Creation</td>
+<td>ROMNEY 172</td>
+</tr>
+<tr>
+<td>3:40 PM</td>
+<td>Davis, Steve</td>
+<td>
+<div class="bold-headings">How to Succeed in College 101</div>
+Steve Davis teaches the BYU-Idaho course Principles of Personal Achievement and has many years experience teaching students how to make the most of their time as college students maximizing their capacity to earn better grades &mdash; even straight A&rsquo;s. Steve will review effective time management, basic study skills including power reading, test taking tips, note taking skills, and memory methods. Teens, parents, or youth leaders will especially enjoy.</td>
+<td>MANWARING CENTER 372A</td>
+</tr>
+<tr>
+<td>3:40 PM</td>
+<td>Doman, Larry</td>
+<td>
+<div class="bold-headings">A Key to the Understanding of the Novel, Don Quixote de La Mancha and the Stage Play, Man of La Mancha</div>
+As a result of this experience, class members will gain a better understanding of one of the greatest novels ever written: Don Quixote de la Mancha by Miguel de Cervantes. By so doing, they too will be able to appreciate more fully the Broadway Stage Play &amp; Hollywood film, Opera, Ballet, etc. based on the book.</td>
+<td>RICKS 173</td>
+</tr>
+<tr>
+<td>3:40 PM</td>
+<td>Donne, William A</td>
+<td>
+<div class="bold-headings">We Will End the Conflict Now: A Discussion on Pornography, Addiction and the Sure Road to Understanding, Recovery and Healing (repeat)</div>
+You do not just treat pornography addiction; you conquer it! Join William A. Donne, author of We Will End the Conflict Now, as he discusses pornography, perspective, and the power in Christ to heal our broken hearts and end the conflict now! Teens, parents, or youth leaders will especially enjoy.</td>
+<td>BENSON 287</td>
+</tr>
+<tr>
+<td>3:40 PM</td>
+<td>Dye, John</td>
+<td>
+<div class="bold-headings">Tweeting Testimony, Blogging Beliefs, and Instagramming Inspiration: The Role of Social Media in Spreading the Gospel</div>
+With the advent of social media, missionary work has changed dramatically. With the single click of a button, we can share our beliefs with thousands of people in a matter of seconds.</td>
+<td>SMITH 240</td>
+</tr>
+<tr>
+<td>3:40 PM</td>
+<td>Gibson, Kelly</td>
+<td>
+<div class="bold-headings">Our Part of the Gift</div>
+As a group we&rsquo;ll explore answers to questions using our own experiences, the words of latter-day and ancient prophets that help us better understand our part of this precious mortal probation.</td>
+<td>TAYLOR CHAPEL</td>
+</tr>
+<tr>
+<td>3:40 PM</td>
+<td>Howard, Daris</td>
+<td>
+<div class="bold-headings">That Crazy World of Dating</div>
+Males and females were made to be different to be compliment each other. But these differences sometimes bring confusion to the opposite gender, especially during the dating years. Teens, parents, or youth leaders will especially enjoy.</td>
+<td>BENSON 108/110</td>
+</tr>
+<tr>
+<td>3:40 PM</td>
+<td>Mandin, Thad</td>
+<td>
+<div class="bold-headings">Teaching and Learning the Gospel With Your Teens (repeat)</div>
+Parents are the most influential gospel teachers in their teenager's life. Actively teaching and guiding is a two way street for both the teen and the parent, and when done carefully, both can greatly benefit.</td>
+<td>RICKS 161</td>
+</tr>
+<tr>
+<td>3:40 PM</td>
+<td>Packer, Phil</td>
+<td>
+<div class="bold-headings">Let Every Man Take Heed How He Builds (repeat)</div>
+The opportunity each of us has to make choices occurs everyday. We know that as we travel through life we come in contact with situations and people. Sometimes our travel is referred to as a path, sometimes as a highway, but whichever it is, we have choices to make as we experience our lives. The title of this presentation is taken from 1 Corinthians 3:10, from the words of the Apostle Paul.</td>
+<td>RICKS 147</td>
+</tr>
+<tr>
+<td>3:40 PM</td>
+<td>Thueson, Clair &amp; Ann</td>
+<td>
+<div class="bold-headings">The Power of the Temple in Our Lives</div>
+Elder Body K. Packer said: &ldquo;Ordinances and covenants become our credentials for admission to his presence. To worthily receive them is the quest of a lifetime; to keep them thereafter is the challenge of mortality.&rdquo; These ordinances can only be received in the temples of the Lord. Our lives are enriched as we receive these ordinances and continue to do the work for those who have gone before us. In the Wagon Box prophecy given in 1884 by Wilford Woodruff, he said that: &ldquo;God will bless and multiply the land.&rdquo; We see the results or that prophecy in our beautiful Snake River Valley today.</td>
+<td>TAYLOR 120</td>
+</tr>
+<tr>
+<td>3:40 PM</td>
+<td>Youngberg, Brent</td>
+<td>
+<div class="bold-headings">Free Will Offerings, the Exalted Pattern of Obedience (repeat)</div>
+All commandments appear to have areas where we can make "Free Will Offerings". This empowers our agency. Meekness, which is submitting to Divine Will, enables us to give our full free will offerings of Love.</td>
+<td>MANWARING CENTER 387</td>
+</tr>
+<tr>
+<td>5:00 PM</td>
+<td>Bair, Ted M.</td>
+<td>
+<div class="bold-headings">The Church of Jesus Christ and Other Christians
+<div class="part">(Part 1)</div>
+</div>
+&ldquo;Who is the Lord&hellip;&rdquo; (Exodus 5:2): The Nature of God</td>
+<td>ROMNEY 172</td>
+</tr>
+<tr>
+<td>5:00 PM<br /><ins class="attention">CLASS CANCELED</ins></td>
+<td>Doman, Larry</td>
+<td>
+<div class="bold-headings"><del>A Key to the Understanding of the Novel, Don Quixote de La Mancha and the Stage Play, Man of La Mancha (repeat)</del></div>
+<del>As a result of this experience, class members will gain a better understanding of one of the greatest novels ever written: Don Quixote de la Mancha by Miguel de Cervantes. By so doing they too will be able to appreciate more fully the Broadway Stage Play &amp; Hollywood film, Opera, Ballet, etc. based on the book.</del></td>
+<td>RICKS 173</td>
+</tr>
+<tr>
+<td>5:00 PM</td>
+<td>Dye, John</td>
+<td>
+<div class="bold-headings">Tweeting Testimony, Blogging Beliefs, and Instagramming Inspiration: The Role of Social Media in Spreading the Gospel</div>
+With the advent of social media, missionary work has changed dramatically. With the single click of a button, we can share our beliefs with thousands of people in a matter of seconds. Teens, parents, or youth leaders will especially enjoy.</td>
+<td>SMITH 240</td>
+</tr>
+<tr>
+<td>5:00 PM</td>
+<td>Fackrell, Matthew</td>
+<td>
+<div class="bold-headings">Finding Happiness Even in a Stressful Life</div>
+We will be talking about stress, the physiology behind stress, and what it can do to our bodies. We will also talk about what can be done to help--using modern medicine and the gospel.</td>
+<td>MANWARING CENTER 372A</td>
+</tr>
+<tr>
+<td>5:00 PM</td>
+<td>Fernquist, Robert</td>
+<td>
+<div class="bold-headings">His, Hers, and Theirs: Common Problems in (and Helpful Solutions for) Step Families</div>
+The focus of this class is on examining unique situations that step-families encounter, such as being a step-parent and dealing with both an ex-spouse and a current spouse while raising biological children and step-children.</td>
+<td>TAYLOR 120</td>
+</tr>
+<tr>
+<td>5:00 PM</td>
+<td>Howard, Daris</td>
+<td>
+<div class="bold-headings">What Scholarly Research Can Tell Us About the Jaredites</div>
+Both Mormon and Moroni felt a great need to include the story of the ancient civilization of the Jaredites. Not only are there great things to learn from the book of Ether itself, but there are fascinating scientific studies, that give much insight into these people and what we can learn from them. Not only are there great things to learn from the book of Ether itself, but there are fascinating scientific studies, that give much insight into these people and what we can learn from them.</td>
+<td>BENSON 108/110</td>
+</tr>
+<tr>
+<td>5:00 PM</td>
+<td>Mandin, Thad</td>
+<td>
+<div class="bold-headings">Teaching and Learning the Gospel With Your Teens (repeat)</div>
+Parents are the most influential gospel teachers in their teenager's life. Actively teaching and guiding is a two way street for both the teen and the parent, and when done carefully, both can greatly benefit.</td>
+<td>RICKS 161</td>
+</tr>
+<tr>
+<td>5:00 PM</td>
+<td>Packard, Kevin</td>
+<td>
+<div class="bold-headings">Blessed and Sanctified . . . (Gen 2:3)</div>
+To Moses, the Lord declared: "Verily my sabbaths ye shall keep: for it is a sign between me and you throughout your generations; that ye may know that I am the Lord that doth sanctify you."</td>
+<td>TAYLOR CHAPEL</td>
+</tr>
+<tr>
+<td>5:00 PM</td>
+<td>Poulter, LaNae</td>
+<td>
+<div class="bold-headings">The Parable of the Hair</div>
+This interactive presentation discusses a curious question: &ldquo;What if our testimonies were as obvious as the hairs on our head?&rdquo; The impromptu discovery reveals self-righteousness, human error, denial, sorrow, repentance, and healing.</td>
+<td>BENSON 287</td>
+</tr>
+<tr>
+<td>6:20 PM</td>
+<td>Donne, William A.</td>
+<td>
+<div class="bold-headings">Giving Victory Wings: Earning, Celebrating and Protecting Our Victories in Christ</div>
+No matter the struggle, there is hope. What&rsquo;s broken can be fixed, what hurts can be healed. When all seems lost, when you feel to go no further, remember this: you are never alone; for it is together that we stand on the threshold of victory!</td>
+<td>BENSON 287</td>
+</tr>
+<tr>
+<td>6:20 PM</td>
+<td>Dye, John</td>
+<td>
+<div class="bold-headings">Tweeting Testimony, Blogging Beliefs, and Instagramming Inspiration: The Role of Social Media in Spreading the Gospel</div>
+With the advent of social media, missionary work has changed dramatically. With the single click of a button, we can share our beliefs with thousands of people in a matter of seconds. Teens, parents, or youth leaders will especially enjoy.</td>
+<td>SMITH 240</td>
+</tr>
+<tr>
+<td>6:20 PM</td>
+<td>Fackrell, Matthew</td>
+<td>
+<div class="bold-headings">We Can Find Peace, Even Among Sadness, Depression, and Other Psychiatric Hardships</div>
+Depression and other psychiatric disorders can be devastating, but is also very common. We will be discussing what these disorders are, and how we can use both the gospel and modern medicine to overcome these hardships.</td>
+<td>MANWARING CENTER 372A</td>
+</tr>
+<tr>
+<td>6:20 PM</td>
+<td>Howard, Daris</td>
+<td>
+<div class="bold-headings">Book, Play, and Column Writing, Publishing and Marketing</div>
+Many people have written books, short stories, or other material, but have no idea what to do with them. This will give the participants a chance to learn some of the options that are available to get their work published in both print and digital forms. We will also talk about some strategies for marketing.</td>
+<td>BENSON 108/110</td>
+</tr>
+<tr>
+<td>6:20 PM</td>
+<td>Packard, Kevin</td>
+<td>
+<div class="bold-headings">Blessed and Sanctified . . . (Gen 2:3) (repeat)</div>
+To Moses, the Lord declared: "Verily my sabbaths ye shall keep: for it is a sign between me and you throughout your generations; that ye may know that I am the Lord that doth sanctify you."</td>
+<td>TAYLOR CHAPEL</td>
+</tr>
+<tr>
+<td>6:20 PM</td>
+<td>Youngberg, Brent &amp; Ruth</td>
+<td>
+<div class="bold-headings">Serving a Mission Together can Enhance Your Marriage (repeat)</div>
+Leaving home and family to go on a mission as a senior couple can be a scary undertaking, but the benefits are worth it. The growth and learning, stretching and becoming enhance your marriage. So. . . kids, we're here to help your folks go on a mission.</td>
+<td>MANWARING CENTER 387</td>
+</tr>
+<tr>
+<td>7:00-9:00</td>
+<td>Smith, Doug</td>
+<td>
+<div class="bold-headings">Fun Dances for Families</div>
+</td>
+<td>HINCKLEY 260</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="classes-days-2">
+<h3>Friday</h3>
+<table class="tableizer-table"><colgroup> <col width="80" /> </colgroup>
+<tbody>
+<tr class="tableizer-firstrow"><th>Time</th><th>Teacher</th><th>Specific Topic</th><th>Building/Room</th></tr>
+<tr>
+<td>9:00 AM</td>
+<td>Bair, Ted M.</td>
+<td>
+<div class="bold-headings">The Plan: God&rsquo;s Plan for Our Salvation, Happiness and Redemption
+<div class="part">(Part 2)</div>
+</div>
+&ldquo;Is There a Better Home Than Garden?&rdquo;: The Garden of Eden</td>
+<td>ROMNEY 172</td>
+</tr>
+<tr>
+<td>9:00 AM</td>
+<td>Castillow, Curtis</td>
+<td>
+<div class="bold-headings">God&rsquo;s Promises: Sometimes Slow but Always Certain</div>
+God makes promises to all of us through priesthood blessings, patriarchal blessings, and through the covenants we make. Yet, some blessings he promised seem unfulfilled. But even though his promises are not always swift, they are always certain.</td>
+<td>BENSON 108/110</td>
+</tr>
+<tr>
+<td>9:00 AM</td>
+<td>Cordon, Mike</td>
+<td>
+<div class="bold-headings">Educating Zion</div>
+Come learn about BYU-Idaho&rsquo;s Pathway program. What started as a humble pilot program of three sites in the United States serving roughly 50 students has emerged into a successful educational system of over 175 worldwide sites, serving thousands of students each year. As President Eyring suggested in 1971, this university must find &ldquo;direct ways to move the blessing of education &hellip; from this campus out into the lives of men and women everywhere.&rdquo;</td>
+<td>BENSON 219</td>
+</tr>
+<tr>
+<td>9:00 AM</td>
+<td>Fernquist, Robert</td>
+<td>
+<div class="bold-headings">Keeping the Love Alive During Middle-Age and After the Children (Initially) Leave Home</div>
+The focus of this class is on two topics related to marriage in later life: (1) Identifying ways to help couples maintain a strong love for one another as they become middle-aged and enter the &lsquo;empty nest&rsquo; syndrome and (2) helping couples deal with potential stresses when adult children move back in with their parents (often referred to as the &lsquo;full nest&rsquo; syndrome).</td>
+<td>SMITH 240</td>
+</tr>
+<tr>
+<td>9:00 AM</td>
+<td>Francis, Laurie</td>
+<td>
+<div class="bold-headings">Sneak Peek: Special Collections &amp; the Grandin Press Replica</div>
+Experience the history of 19th-century Latter-day Saint recordkeeping by viewing an original first edition Book of Mormon and learning how it was printed. This presentation will also focus on texts from Latter-day Saints in the 19th and early 20th centuries, including LDS editions of scriptures, missionary journals, early hymnals, and other records. Increase your testimony of the Book of Mormon and the value of your own personal history through a hands-on experience using the only working replica of the Grandin Press. Teens, parents, or youth leaders will especially enjoy.</td>
+<td>MCKAY 220</td>
+</tr>
+<tr>
+<td>9:00 AM</td>
+<td>Gibson, Kelly</td>
+<td>
+<div class="bold-headings">Technology and the Family: Developing Worthy Lifelong Digital Habits</div>
+With technology being paved into each of our lives it is important to learn habits that enable a healthy digital lifestyle. We&rsquo;ll explore practical tips and methods families and individuals can use to develop worthy lifelong digital habits.</td>
+<td>RICKS 173</td>
+</tr>
+<tr>
+<td>9:00 AM</td>
+<td>Mandin, Thad</td>
+<td>
+<div class="bold-headings">Teaching and Learning the Gospel With Your Teens (repeat)</div>
+Parents are the most influential gospel teachers in their teenager's life. Actively teaching and guiding is a two way street for both the teen and the parent, and when done carefully, both can greatly benefit.</td>
+<td>RICKS 161</td>
+</tr>
+<tr>
+<td>9:00 AM</td>
+<td>Packard, Kevin</td>
+<td>
+<div class="bold-headings">". . . six hundred threescore and six?"</div>
+In JST Revelation 13:1, the apostle John describes a beast that will rise up out of the sea. He afterwards associates this beast with the number six hundred threescore and six. Moroni declared that the revelations which John wrote will be "unfolded in the eyes of all the people." In this presentation, we will explore Old Testament connections that may help to unfold John's revelations.</td>
+<td>TAYLOR CHAPEL</td>
+</tr>
+<tr>
+<td>9:00 AM</td>
+<td>Packer, Phil</td>
+<td>
+<div class="bold-headings">Let Every Man Take Heed How He Builds (repeat)</div>
+The opportunity each of us has to make choices occurs everyday. We know that as we travel through life we come in contact with situations and people. Sometimes our travel is referred to as a path, sometimes as a highway, but whichever it is, we have choices to make as we experience our lives. The title of this presentation is taken from 1 Corinthians 3:10, from the words of the Apostle Paul.</td>
+<td>RICKS 147</td>
+</tr>
+<tr>
+<td>9:00 AM</td>
+<td>Poulter, LaNae</td>
+<td>
+<div class="bold-headings">The Parable of the Hair (repeat)</div>
+This interactive presentation discusses a curious question: &ldquo;What if our testimonies were as obvious as the hairs on our head?&rdquo; The impromptu discovery reveals self-righteousness, human error, denial, sorrow, repentance, and healing.</td>
+<td>BENSON 287</td>
+</tr>
+<tr>
+<td>9:00 AM</td>
+<td>Spiel, Robert</td>
+<td>
+<div class="bold-headings">The Power of the Word</div>
+A simple and life-changing approach to searching the Scriptures and experiencing the power of the word of God.</td>
+<td>AUSTIN 105</td>
+</tr>
+<tr>
+<td>9:00 AM</td>
+<td>Youngberg, Brent</td>
+<td>
+<div class="bold-headings">Free Will Offerings, the Exalted Pattern of Obedience (repeat)</div>
+All commandments appear to have areas where we can make "Free Will Offerings". This empowers our agency. Meekness, which is submitting to Divine Will, enables us to give our full free will offerings of Love.</td>
+<td>MANWARING CENTER 387</td>
+</tr>
+<tr>
+<td>9:00 AM</td>
+<td>Waddoups, Brad</td>
+<td>
+<div class="bold-headings">Is This Gambling or What? Starting a Financial Journey From Burdens to Blessings - A 12-Step Program (repeat)</div>
+Members of the class will discuss information and specific steps to help them make sense of their finances and have hope in the journey.</td>
+<td>MC 372</td>
+</tr>
+<tr>
+<td>10:20 AM</td>
+<td>Anderson, Joseph</td>
+<td>
+<div class="bold-headings">Physical Preparation for a Mission (repeat)</div>
+I will cover some information about physical readiness for a mission wit a focus on physical fitness</td>
+<td>BENSON 287</td>
+</tr>
+<tr>
+<td>10:20 AM</td>
+<td>Bair, Ted M.</td>
+<td>
+<div class="bold-headings">Building a Temple Marriage Into an Eternal Marriage
+<div class="part">(Part 2)</div>
+</div>
+&ldquo;Be Swift to Hear&rdquo; (James 1:19): Listen - - Do You Want to Know a Secret?</td>
+<td>ROMNEY 172</td>
+</tr>
+<tr>
+<td>10:20 AM</td>
+<td>Davis, Rick</td>
+<td>
+<div class="bold-headings">The Fall of Napoleon and the Rise of Joseph</div>
+Napoleon&rsquo;s brief fifteen years of power (1799-1814) left major changes across Europe, not just France. A natural leader, he single-handedly rewrote the roles of government, church, and the common man. Those ripples came to America too. You and I are what we are in large measure due to a single man.</td>
+<td>TAYLOR 120</td>
+</tr>
+<tr>
+<td>10:20 AM</td>
+<td>Davis, Steve</td>
+<td>
+<div class="bold-headings">How to Succeed in College 101</div>
+Steve Davis teaches the BYU-Idaho course Principles of Personal Achievement and has many years experience teaching students how to make the most of their time as college students maximizing their capacity to earn better grades &mdash; even straight A&rsquo;s. Steve will review effective time management, basic study skills including power reading, test taking tips, note taking skills, and memory methods. Teens, parents, or youth leaders will especially enjoy.</td>
+<td>MANWARING CENTER 372A</td>
+</tr>
+<tr>
+<td>10:20 AM</td>
+<td>Baron, Ross</td>
+<td>
+<div class="bold-headings">The Power of the Word: How Can I Enhance My Personal Scripture Study?</div>
+This class will be a review from the scriptures and the words of the prophets on how to enhance our personal scripture study. The purpose will be to motivate individuals to search and seek to understand the word of God such that they will be equipped to divide asunder all the cunning of the devil (Helaman 3:29). The focus will be on practical tips, skills, and techniques to make scripture study powerful.</td>
+<td>TAYLOR CHAPEL</td>
+</tr>
+<tr>
+<td>10:20 AM</td>
+<td>Bell, Craig</td>
+<td>
+<div class="bold-headings">Applying Principles of Effective Councils in our Daily Lives (repeat)</div>
+This class will focus on principles of effective councils and how they can apply in our homes, church, and community. Statements from scriptures and prophets will serve as the foundation for class discussion.</td>
+<td>BENSON 219</td>
+</tr>
+<tr>
+<td>10:20 AM</td>
+<td>Castillow, Curtis</td>
+<td>
+<div class="bold-headings">To &ldquo;See As&rdquo; We &ldquo;Are Seen&ldquo;&mdash;Seeing Ourselves As God Sees Us</div>
+If we could see ourselves and others as God sees us we would see people with less problems and more potential, less weakness and more strength. This talk focuses on how the Lord and his prophets teach us to see beyond what&rsquo;s on the outside and see what&rsquo;s on the inside, beyond what a person is now to what they will be later. Teens, parents, or youth leaders will especially enjoy.</td>
+<td>BENSON 108/110</td>
+</tr>
+<tr>
+<td>10:20 AM</td>
+<td>Dye, John</td>
+<td>
+<div class="bold-headings">Tweeting Testimony, Blogging Beliefs, and Instagramming Inspiration: The Role of Social Media in Spreading the Gospel (repeat)</div>
+With the advent of social media, missionary work has changed dramatically. With the single click of a button, we can share our beliefs with thousands of people in a matter of seconds.</td>
+<td>SMITH 240</td>
+</tr>
+<tr>
+<td>10:20 AM</td>
+<td>Luke, Adam</td>
+<td>
+<div class="bold-headings">Sneak Peek: Special Collections &amp; the Grandin Press Replica</div>
+Experience the history of 19th-century Latter-day Saint recordkeeping by viewing an original first edition Book of Mormon and learning how it was printed. This presentation will also focus on texts from Latter-day Saints in the 19th and early 20th centuries, including LDS editions of scriptures, missionary journals, early hymnals, and other records. Increase your testimony of the Book of Mormon and the value of your own personal history through a hands-on experience using the only working replica of the Grandin Press.</td>
+<td>MCKAY 220</td>
+</tr>
+<tr>
+<td>10:20 AM</td>
+<td>Waddoups, Brad</td>
+<td>
+<div class="bold-headings">Is This Gambling or What? Starting a Financial Journey From Burdens to Blessings - A 12-Step Program (repeat)</div>
+Members of the class will discuss information and specific steps to help them make sense of their finances and have hope in the journey.</td>
+<td>AUSTIN 105</td>
+</tr>
+<tr>
+<td>10:20 AM</td>
+<td>Willis, Michelle</td>
+<td>
+<div class="bold-headings">How Can I Hang On? Messages of Hope and Healing When You or Someone You Love Has a Mental Illness</div>
+Mental Illness is a disease that can strike anyone and leaves emotional scars on both the afflicted and their loved ones, but there is hope in seeking to understand the process and purpose of these illnesses and how to see the great potential behind the grief.</td>
+<td>MANWARING CENTER 387</td>
+</tr>
+<tr>
+<td>11:40 AM</td>
+<td>Bair, Ted M.</td>
+<td>
+<div class="bold-headings">Chosen People and Choice Lands: Covenant of Abraham and the Nations of Israel and the Americas
+<div class="part">(Part 2)</div>
+</div>
+The Americas: A Choice Land &amp; A Chosen People</td>
+<td>ROMNEY 172</td>
+</tr>
+<tr>
+<td>11:40 AM</td>
+<td>Bell, Craig</td>
+<td>
+<div class="bold-headings">The Unspeakable Gift of the Holy Ghost - Striving to Live Up to Our Spiritual Privileges D&amp;C 121:26 (repeat)</div>
+This class will explore scriptural and prophetic statements regarding the spiritual potential and blessings that are available to all covenant members who have received the Gift of the Holy Ghost.</td>
+<td>BENSON 219</td>
+</tr>
+<tr>
+<td>11:40 AM</td>
+<td>Bell, Susan</td>
+<td>
+<div class="bold-headings">Give Us This Day Our Daily Rice Cake--How to Deal With Food Sensitivities (repeat)</div>
+I will discuss how to deal with the initial shock of food sensitivity diagnosis, suggest practical ideas for substitute foods at camp and for the Sacrament, and provide scripture references about hope which emphasize that Heavenly Father loves us and will help us through our difficult trials.</td>
+<td>MANWARING CENTER 372A</td>
+</tr>
+<tr>
+<td>11:40 AM</td>
+<td>Donne, William A</td>
+<td>
+<div class="bold-headings">Giving Victory Wings: Earning, Celebrating and Protecting Our Victories in Christ (repeat)</div>
+No matter the struggle, there is hope. What&rsquo;s broken can be fixed, what hurts can be healed. When all seems lost, when you feel to go no further, remember this: you are never alone; for it is together that we stand on the threshold of victory!</td>
+<td>BENSON 287</td>
+</tr>
+<tr>
+<td>11:40 AM</td>
+<td>King, Seth</td>
+<td>
+<div class="bold-headings">Peter Was Not Known, but Are You?</div>
+The life of Peter is one filled with righteous example and insights. This class will discuss personal standards and will draw from the last moments of Peter and John's experience with the Savior. Teens, parents, or youth leaders will especially enjoy.</td>
+<td>BENSON 108/110</td>
+</tr>
+<tr>
+<td>11:40 AM-2:20 PM</td>
+<td>Nielson, Sam</td>
+<td>
+<div class="bold-headings">Hands-on With the Grandin Press Replica</div>
+This working seminar will allow you to learn more about the Grandin Press and actually design, create, and print your own small project. Learn about how to typeset, ink, and print on the only working replica of the Grandin Press (the press that printed the Book of Mormon in 1830). You admiration and respect for the Book of Mormon will increase as you experience firsthand the challenges and rewards of printing in the 1830s.</td>
+<td>MCKAY 249</td>
+</tr>
+<tr>
+<td>11:40 AM</td>
+<td>Packer, Phil</td>
+<td>
+<div class="bold-headings">Let Every Man Take Heed How He Builds (repeat)</div>
+The opportunity each of us has to make choices occurs everyday. We know that as we travel through life we come in contact with situations and people. Sometimes our travel is referred to as a path, sometimes as a highway, but whichever it is, we have choices to make as we experience our lives. The title of this presentation is taken from 1 Corinthians 3:10, from the words of the Apostle Paul.</td>
+<td>RICKS 147</td>
+</tr>
+<tr>
+<td>11:40 AM</td>
+<td>Parry, Jennifer</td>
+<td>
+<div class="bold-headings">Mental Health, Depression, Cognitive Therapy, and How to Change and Understand Our Thought Patterns (repeat)</div>
+Thinking good thoughts, how it relates to depression; also President Uchtdorf's advice to women on how to partake of God's happiness now. Depression or happiness, can we chose?</td>
+<td>AUSTIN 105</td>
+</tr>
+<tr>
+<td>11:40 AM</td>
+<td>Smoot, Shane &amp; Smoot, Mary Ellen</td>
+<td>
+<div class="bold-headings">The Power of Family: Its Role in Our Eternal Progression</div>
+This session will focus upon the importance of Family History in protecting and preserving our families. We will discuss why Family History is as essential to our mortal family as it is to our ancestral family. We will dispell the myths and misconceptions of Family History and discuss how it can unite and strengthen our families, both here and beyond the veil. We will invite you to engage in Family History, where you will learn for yourself the divine power of family and the strength of eternal family relationships.</td>
+<td>TAYLOR CHAPEL</td>
+</tr>
+<tr>
+<td>1:00 PM</td>
+<td>Anderson, Joseph</td>
+<td>
+<div class="bold-headings">Physical Preparation for a Mission (repeat)</div>
+I will cover some information about physical readiness for a mission with a focus on physical fitness.</td>
+<td>BENSON 287</td>
+</tr>
+<tr>
+<td>1:00 PM</td>
+<td>Bair, Ted M.</td>
+<td>
+<div class="bold-headings">The Second Coming of Christ: Parallels with Christ's First Coming
+<div class="part">(Part 2)</div>
+</div>
+Events: Appearances of Jesus Christ</td>
+<td>ROMNEY 172</td>
+</tr>
+<tr>
+<td>1:00 PM</td>
+<td>Bell, Craig</td>
+<td>
+<div class="bold-headings">Applying Principles of Effective Councils in Our Daily Lives (repeat)</div>
+This class will focus on principles of effective councils and how they can apply in our homes, church, and community. Statements from scriptures and prophets will serve as the foundation for class discussion.</td>
+<td>BENSON 219</td>
+</tr>
+<tr>
+<td>1:00 PM</td>
+<td>Dunn, C. Ryan</td>
+<td>
+<div class="bold-headings">Somebody Else (not living like somebody else will take care of it.)</div>
+What does it mean to be somebody else? Is that the person we wait upon, hoping they will take care of a problem or provide some needed service? Do we only do things if we will be "liked" online or applauded by the crowd? This class will discuss why it is important to be that somebody else - anxiously engaged even(and sometimes most importantly) when we are anonymously engaged. Teens, parents, or youth leaders will especially enjoy.</td>
+<td>RICKS 147</td>
+</tr>
+<tr>
+<td>1:00 PM</td>
+<td>Lyons, Timm</td>
+<td>
+<div class="bold-headings">Singing Together - Education Week Choir
+<div class="part">(Part 2)</div>
+</div>
+Prepare a musical number for the closing ceremony</td>
+<td>TAYLOR 130</td>
+</tr>
+<tr>
+<td>1:00 PM</td>
+<td>Mandin, Thad</td>
+<td>
+<div class="bold-headings">Teaching and Learning the Gospel With Your Teens (repeat)</div>
+Parents are the most influential gospel teachers in their teenager's life. Actively teaching and guiding is a two way street for both the teen and the parent, and when done carefully, both can greatly benefit.</td>
+<td>RICKS 161</td>
+</tr>
+<tr>
+<td>1:00 PM</td>
+<td>Moore, Dan</td>
+<td>
+<div class="bold-headings">Being Disciple Scholars: Searching for Truth Where Science and Religion Meet</div>
+Members of the church typically want to know how to resolve apparent conflicts between scientific and revealed truth about the origins of the universe, the Earth, and the human body. In this class, we will discuss principles that allow individuals to approach these topics as both faithful disciples and wise scholars.</td>
+<td>SMITH 240</td>
+</tr>
+<tr>
+<td>1:00 PM</td>
+<td>Satterfield, Bruce</td>
+<td>
+<div class="bold-headings">The Purpose of Our Mortality in the Great Plan of Happiness</div>
+A discussion of four revealed purposes of mortality as found in the scriptures and teachings of latter-day prophets.</td>
+<td>TAYLOR CHAPEL</td>
+</tr>
+<tr>
+<td>1:00 PM</td>
+<td>Spiel, Robert</td>
+<td>
+<div class="bold-headings">The Power of the Word (repeat)</div>
+A simple and life-changing approach to searching the Scriptures and experiencing the power of the word of God.</td>
+<td>BENSON 108/110</td>
+</tr>
+<tr>
+<td>1:00 AM</td>
+<td>Tanner, Nathan</td>
+<td>
+<div class="bold-headings">What Can I Do to Prepare for My Mission?</div>
+Whether you are planning to serve 3 months or 30 years from now preparation is the key to a successful mission. This class will use Preach My Gospel to explore those things that can get you personally ready to serve. Enjoy discovering the importance of preparation as we explore stories from the actual teaching situations of full-time missionaries. Teens, parents, or youth leaders will especially enjoy.</td>
+<td>TAYLOR CHAPEL</td>
+</tr>
+<tr>
+<td>1:00 PM</td>
+<td>Tanner, Tyler</td>
+<td>
+<div class="bold-headings">Lehi's Vision: Dream or Nightmare? Daily, Practical Application of Lehi's Vision of the Tree of Life</div>
+Lehi's Vision was more than just a dream! It was a map of our mortal journey. In it we can find ourselves at any given time in our life and receive instructions on how best to proceed from our current location.</td>
+<td>AUSTIN 105</td>
+</tr>
+<tr>
+<td>2:20 PM</td>
+<td>Devotional</td>
+<td>
+<div class="bold-headings">Heidi S. Swinton</div>
+Former member of the Relief Society General Board.</td>
+<td>TAYLOR CHAPEL</td>
+</tr>
+<tr>
+<td>3:40 PM</td>
+<td>Bair, Ted M.</td>
+<td>
+<div class="bold-headings">The Plan: God&rsquo;s Plan for Our Salvation, Happiness and Redemption-
+<div class="part">(Part 3)</div>
+</div>
+&ldquo;The Fall&rdquo;: Adam &amp; Eve &amp; Us Under The Atonement</td>
+<td>ROMNEY 172</td>
+</tr>
+<tr>
+<td>3:40 PM</td>
+<td>Donne, William A</td>
+<td>
+<div class="bold-headings">By the Small and Simple: Bringing Great Things to Pass through a Change in Perspective</div>
+It is by our small and simple choices that either great heartache or great joy come to pass in our lives. But of all the great things that are to &ldquo;become&rdquo; from these small moments of struggle and temptation, you are the greatest.</td>
+<td>BENSON 287</td>
+</tr>
+<tr>
+<td>3:40 PM</td>
+<td>Gibson, Kelly</td>
+<td>
+<div class="bold-headings">Our Part of the Gift (repeat)</div>
+As a group we&rsquo;ll explore answers to questions using our own experiences, the words of latter-day and ancient prophets that help us better understand our part of this precious mortal probation.</td>
+<td>RICKS 173</td>
+</tr>
+<tr>
+<td>3:40 PM</td>
+<td>Howard, Daris</td>
+<td>
+<div class="bold-headings">A Time Will Come When You Will Have To Stand Alone</div>
+It is important to surround ourselves with good friends. They can help us be strong and do what we should. But the nature of the gospel and Satan's powerful opposition, means that sometimes you will be in places where you will have to stand alone for what is right. Do you have the strength to do it? Teens, parents, or youth leaders will especially enjoy.</td>
+<td>BENSON 108/110</td>
+</tr>
+<tr>
+<td>3:40 PM</td>
+<td>Mandin, Thad</td>
+<td>
+<div class="bold-headings">Learning the Gospel As a Youth</div>
+Parents are the most influential gospel teachers in their teenager's life. Actively teaching and guiding is a two way street for both the teen and the parent, and when done carefully, both can greatly benefit. Teens, parents, or youth leaders will especially enjoy.</td>
+<td>RICKS 161</td>
+</tr>
+<tr>
+<td>3:40 PM</td>
+<td>Moore, Dan</td>
+<td>
+<div class="bold-headings">Being Disciple Scholars: Searching for Truth Where Science and Religion Meet (repeat)</div>
+Members of the church typically want to know how to resolve apparent conflicts between scientific and revealed truth about the origins of the universe, the Earth, and the human body. In this class, we will discuss principles that allow individuals to approach these topics as both faithful disciples and wise scholars.</td>
+<td>SMITH 240</td>
+</tr>
+<tr>
+<td>3:40 PM</td>
+<td>Packard, Kevin</td>
+<td>
+<div class="bold-headings">". . . Of Whatsoever Passeth Under the Rod . . ." (Lev 27:32)</div>
+Through Ezekiel, the Lord declared: "And I will cause you to pass under the rod, and I will bring you into the bond of the covenant."</td>
+<td>TAYLOR CHAPEL</td>
+</tr>
+<tr>
+<td>3:40 PM</td>
+<td>Spiel, Robert</td>
+<td>
+<div class="bold-headings">If Thou Art Called to Pass Through Tribulation</div>
+The precious opportunity we have to not simply pass through tribulation, but to allow tribulation to pass through us and change us forever.</td>
+<td>MANWARING CENTER 372A</td>
+</tr>
+<tr>
+<td>3:40 PM</td>
+<td>Thueson, Clair &amp; Ann</td>
+<td>
+<div class="bold-headings">The Power of the Temple in Our Lives (repeat)</div>
+Elder Body K. Packer said: &ldquo;Ordinances and covenants become our credentials for admission to his presence. To worthily receive them is the quest of a lifetime; to keep them thereafter is the challenge of mortality.&rdquo; These ordinances can only be received in the temples of the Lord. Our lives are enriched as we receive these ordinances and continue to do the work for those who have gone before us. In the Wagon Box prophecy given in 1884 by Wilford Woodruff, he said that: &ldquo;God will bless and multiply the land.&rdquo; We see the results or that prophecy in our beautiful Snake River Valley today.</td>
+<td>TAYLOR 120</td>
+</tr>
+<tr>
+<td>3:40 PM</td>
+<td>Wahlquist, Robert</td>
+<td>
+<div class="bold-headings">Are you SICK of Preach My Gospel? Stop it!</div>
+Preach My Gospel in Seminary. Preach My Gospel in Family Home Evening. Preach My Gospel in Young Men and Young Women classes. Preach My Gospel in Sunday School. ENOUGH ALREADY!!! WAIT??? Are you aware of the hidden gems in Preach My Gospel? Did you know Preach My Gospel is really a collection of the Great Quotes ever given by modern Prophets? Did you know that Preach My Gospel is really a HANDBOOK for teaching&hellip; something we all do throughout our lives? If you have gotten tired of Preach My Gospel&hellip; then come to this class to get FIRED-UP once again to love and study this great book. Teens, parents, or youth leaders will especially enjoy.</td>
+<td>RICKS 147</td>
+</tr>
+<tr>
+<td>3:40 PM</td>
+<td>Youngberg, Brent &amp; Ruth</td>
+<td>
+<div class="bold-headings">Serving a Mission Together can Enhance Your Marriage (repeat)</div>
+Leaving home and family to go on a mission as a senior couple can be a scary undertaking, but the benefits are worth it. The growth and learning, stretching and becoming enhance your marriage. So. . . kids, we're here to help your folks go on a mission.</td>
+<td>MANWARING CENTER 387</td>
+</tr>
+<tr>
+<td>5:00 PM</td>
+<td>Bair, Ted M.</td>
+<td>
+<div class="bold-headings">The Church of Jesus Christ and Other Christians-
+<div class="part">(Part 2)</div>
+</div>
+&ldquo;I Will Send Them Prophets&hellip;&rdquo; (Luke 11:49): Post-Biblical Revelation</td>
+<td>ROMNEY 172</td>
+</tr>
+<tr>
+<td>5:00 PM<br /><ins class="attention">CLASS CANCELED</ins></td>
+<td>Doman, Larry</td>
+<td>
+<div class="bold-headings"><del>A Key to the Understanding of the Novel, Don Quixote de La Mancha and the Stage Play, Man of La Mancha (repeat)</del></div>
+<del>As a result of this experience, class members will gain a better understanding of one of the greatest novels ever written: Don Quixote de la Mancha by Miguel de Cervantes. By so doing they too will be able to appreciate more fully the Broadway Stage Play &amp; Hollywood film, Opera, Ballet, etc. based on the book.</del></td>
+<td>RICKS 173</td>
+</tr>
+<tr>
+<td>5:00 PM</td>
+<td>Fackrell, Matthew</td>
+<td>
+<div class="bold-headings">Anxiety, What It Can Lead To and What We Can Do To Have a Happy Carefree Life</div>
+We will be talking about anxiety and other psychiatric disorders. We will be talking about what they are, how they can affect us and what we can do about it using modern medicine and the gospel.</td>
+<td>MANWARING CENTER 372A</td>
+</tr>
+<tr>
+<td>5:00 PM</td>
+<td>Fernquist, Robert</td>
+<td>
+<div class="bold-headings">Acquiring Spiritual Intelligence</div>
+In his very first devotional as President of Ricks College, Elder Bednar explains the importance of gaining intelligence, which is much more than simply knowing things.</td>
+<td>TAYLOR 120</td>
+</tr>
+<tr>
+<td>5:00 PM</td>
+<td>Howard, Daris</td>
+<td>
+<div class="bold-headings">The Power of the Book of Mormon</div>
+Too often, those of us who have been members all of our lives, take the Book Of Mormon for granted. What if we didn't have it. Sharing some insight from those whose lives it changed.</td>
+<td>BENSON 108/110</td>
+</tr>
+<tr>
+<td>5:00 PM</td>
+<td>Mandin, Thad</td>
+<td>
+<div class="bold-headings">Learning the Gospel As a Youth</div>
+Parents are the most influential gospel teachers in their teenager's life. Actively teaching and guiding is a two way street for both the teen and the parent, and when done carefully, both can greatly benefit. Teens, parents, or youth leaders will especially enjoy.</td>
+<td>RICKS 161</td>
+</tr>
+<tr>
+<td>5:00 PM</td>
+<td>Tanner, Nathan</td>
+<td>
+<div class="bold-headings">Helping Parents Create a Missionary Preparation Home</div>
+Preparing to serve as a full-time missionary cannot happen just in the MTC. Parents can help the next generation of missionaries by creating a home that naturally prepares great missionaries. Using ideas and principles taken from Preach My Gospel this class will give families ideas on how they can create a culture in the home that prepares powerful missionaries before that white envelope ever gets to the mailbox!</td>
+<td>TAYLOR CHAPEL</td>
+</tr>
+<tr>
+<td>5:00 PM</td>
+<td>Tanner, Tyler</td>
+<td>
+<div class="bold-headings">Priorities &ndash; Time Well-Spent?</div>
+In 2007, Elder Dallin H. Oaks of the Quorum of the Twelve Apostles gave a monumental address on priority management entitled Good, Better, Best. The structure of time is one of the single, most significant things we can control to catapult us into the presence of our Heavenly Father. However, the adversary recognizes this as well and will use every effort to entice us to get lost in the good, deceitfully convincing us that mediocre works might be sufficient to purchase mansions of eternal glory.</td>
+<td>AUSTIN 105</td>
+</tr>
+<tr>
+<td>5:00 PM</td>
+<td>Wahlquist, Robert</td>
+<td>
+<div class="bold-headings">Are you SICK of Preach My Gospel? Stop it!</div>
+Preach My Gospel in Seminary. Preach My Gospel in Family Home Evening. Preach My Gospel in Young Men and Young Women classes. Preach My Gospel in Sunday School. ENOUGH ALREADY!!! WAIT??? Are you aware of the hidden gems in Preach My Gospel? Did you know Preach My Gospel is really a collection of the Great Quotes ever given by modern Prophets? Did you know that Preach My Gospel is really a HANDBOOK for teaching&hellip; something we all do throughout our lives? If you have gotten tired of Preach My Gospel, come to this class to get FIRED UP once again to love and study this great book. Teens, parents, or youth leaders will especially enjoy.</td>
+<td>RICKS 147</td>
+</tr>
+<tr>
+<td>5:00 PM</td>
+<td>Youngberg, Brent</td>
+<td>
+<div class="bold-headings">Free Will Offerings, the Exalted Pattern of Obedience (repeat)</div>
+All commandments appear to have areas where we can make "Free Will Offerings". This empowers our agency. Meekness, which is submitting to Divine Will, enables us to give our full free will offerings of Love.</td>
+<td>MANWARING CENTER 387</td>
+</tr>
+<tr>
+<td>6:20 PM</td>
+<td>Baron, Ross</td>
+<td>
+<div class="bold-headings">Nursing Fathers and Nursing Mothers: Isaiah's Vision of Our Role in the Latter-days!</div>
+This class will focus on 2 Nephi 6:6-7 and Jacob's explication. It will outline what Isaiah saw and the role that Latter-day saints play in being partners with the Lord to fulfill His plan for His children.</td>
+<td>AUSTIN 105</td>
+</tr>
+<tr>
+<td>6:20 PM</td>
+<td>Fackrell, Matthew</td>
+<td>
+<div class="bold-headings">Finding Happiness Even in a Stressful Life (repeat)</div>
+We will be talking about stress, the physiology behind stress, and what it can do to our bodies. We will also talk about what can be done to help--using modern medicine and the gospel.</td>
+<td>MANWARING 372A</td>
+</tr>
+<tr>
+<td>6:20 PM</td>
+<td>Howard, Daris</td>
+<td>
+<div class="bold-headings">If You're Not Failing Now and Then, You're Not Reaching High Enough</div>
+The biggest thing that we fear in life is failure. We often avoid things that are hard, like taking math, because we feel we might fail. But we need to get beyond that concern. If we never fail, we are not reaching beyond our current capability, and we need to always be growing.</td>
+<td>BENSON 108/110</td>
+</tr>
+<tr>
+<td>6:20 PM</td>
+<td>Donne, William A</td>
+<td>
+<div class="bold-headings">By the Small and Simple: Bringing Great Things to Pass through a Change in Perspective (repeat)</div>
+It is by our small and simple choices that either great heartache or great joy come to pass in our lives. But of all the great things that are to &ldquo;become&rdquo; from these small moments of struggle and temptation, you are the greatest.</td>
+<td>BENSON 287</td>
+</tr>
+<tr>
+<td>6:20 PM</td>
+<td>Raish, Martin</td>
+<td>
+<div class="bold-headings">Nephi's Zip Code and Other Perplexities: Geography and Archeology of the Book of Mormon (repeat)</div>
+Because the Book of Mormon describes events that happened hundreds of years ago, it can sometimes be challenging to see the men and women of those times as real people. Where did they live? What did they looked like? What kind of clothes did they wear? What were their houses and cities like? While there are no definitive answers to questions such as these, we will explore some tantalizing possibilities that can help us bridge the gulf between their lives and ours, to make their experiences more powerful (as well as more poignant) for us today.</td>
+<td>SMITH 240</td>
+</tr>
+<tr>
+<td>6:20 PM</td>
+<td>Seamons, Rhonda</td>
+<td>
+<div class="bold-headings">Women in the Scriptures</div>
+This presentation explores about a dozen of the 200 women named in the scriptures, focusing on the spiritual gifts and positive attributes they possessed.</td>
+<td>TAYLOR 120</td>
+</tr>
+<tr>
+<td>6:20 PM</td>
+<td>Tanner, Nathan</td>
+<td>
+<div class="bold-headings">What Can I Do to Prepare for My Mission?</div>
+Whether you are planning to serve 3 months or 30 years from now preparation is the key to a successful mission. This class will use Preach My Gospel to explore those things that can get you personally ready to serve. Enjoy discovering the importance of preparation as we explore stories from the actual teaching situations of full-time missionaries. Teens, parents, or youth leaders will especially enjoy.</td>
+<td>TAYLOR CHAPEL</td>
+</tr>
+<tr>
+<td>6:20 PM</td>
+<td>Tanner, Tyler</td>
+<td>
+<div class="bold-headings">Holding Our Children Accountable: Why and for What?</div>
+As a teacher of youth, the thought crosses my mind every day, "This kid will be alright if he can just survive his parents!" What should parenting of the chosen generation look like? Is there a difference between being a parent and being a friend and which is more important? Who are your children, really, and what does God expect of them...and of you? Whose role is more critical - the chosen generation or the parents called to bring them up? This class targets the needs of both parents and youth and hopefully will help open all of our eyes!</td>
+<td>MAWARING CENTER 387</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="classes-days-3">
+<h3>Saturday</h3>
+<table class="tableizer-table"><colgroup> <col width="80" /> </colgroup>
+<tbody>
+<tr class="tableizer-firstrow"><th>Time</th><th>Teacher</th><th>Specific Topic</th><th>Building/Room</th></tr>
+<tr>
+<td>9:00 AM</td>
+<td>Ashton, Brian</td>
+<td>
+<div class="bold-headings">Grit and Resilience: Key Components of Personal and Family Growth</div>
+Developing Grit and Resilience can help us find contentment, face challenging times, overcome our weaknesses, and ultimately grow. Children and adults that develop grit and resilience tend to thrive; they are consistent in their daily effort; they see mistakes as opportunities to learn and grow; their faith reflects their understanding that they can grow. These are traits that can be developed in our life and in the lives of our loved ones.</td>
+<td>RICKS 173</td>
+</tr>
+<tr>
+<td>9:00 AM</td>
+<td>Bair, Ted M.</td>
+<td>
+<div class="bold-headings">The Church of Jesus Christ and Other Christians
+<div class="part">(Part 3)</div>
+</div>
+"What Must I Do To Be Saved?&rdquo; (ACTS 16:30): Doctrine of Salvation</td>
+<td>ROMNEY 172</td>
+</tr>
+<tr>
+<td>9:00 AM</td>
+<td>Castillow, Curtis</td>
+<td>
+<div class="bold-headings">Christ's Empty Tomb - A Place Full of Promise</div>
+In this class I will focus on timeless truths from the Savior&rsquo;s resurrection that are relevant today. Though the tomb was empty, it was full of promise&mdash;a promise of hope, a promise of happiness, and a promise of life eternal.</td>
+<td>BENSON 108/110</td>
+</tr>
+<tr>
+<td>9:00 AM</td>
+<td>Donne, William A</td>
+<td>
+<div class="bold-headings">We Will End the Conflict Now: A Discussion on Pornography, Addiction and the Sure Road to Understanding, Recovery and Healing</div>
+You do not just treat pornography addiction; you conquer it! Join William A. Donne, author of We Will End the Conflict Now, as he discusses pornography, perspective, and the power in Christ to heal our broken hearts and end the conflict now! Teens, parents, or youth leaders will especially enjoy.</td>
+<td>BENSON 287</td>
+</tr>
+<tr>
+<td>9:00 AM</td>
+<td>Mandin, Thad</td>
+<td>
+<div class="bold-headings">Teaching and Learning the Gospel with Your Teens (repeat)</div>
+Parents are the most influential gospel teachers in their teenager's life. Actively teaching and guiding is a two way street for both the teen and the parent, and when done carefully, both can greatly benefit.</td>
+<td>RICKS 161</td>
+</tr>
+<tr>
+<td>9:00 AM</td>
+<td>Miller, Robert</td>
+<td>
+<div class="bold-headings">The Sacrament, the Atonement, and You</div>
+While serving in the quorum of the twelve, Joseph Fielding Smith said, &ldquo;The partaking of these emblems (the bread and the water ) is one of the most holy and sacred ordinances in the Church&rdquo; In this session we would like to examine the history of the sacrament. What is the role of the sacrament in our worship? Ways that we can access the healing power of the atonement through this sacred ordinance.</td>
+<td>TAYLOR CHAPEL</td>
+</tr>
+<tr>
+<td>9:00 AM</td>
+<td>Spiel, Robert</td>
+<td>
+<div class="bold-headings">If Thou Art Called to Pass Through Tribulation (repeat)</div>
+The precious opportunity we have to not simply pass through tribulation, but to allow tribulation to pass through us and change us forever.</td>
+<td>AUSTIN 105</td>
+</tr>
+<tr>
+<td>9:00 AM</td>
+<td>Youngberg, Brent &amp; Ruth</td>
+<td>
+<div class="bold-headings">Serving a Mission Together can Enhance Your Marriage (repeat)</div>
+Leaving home and family to go on a mission as a senior couple can be a scary undertaking, but the benefits are worth it. The growth and learning, stretching and becoming enhance your marriage. So. . . kids, we're here to help your folks go on a mission.</td>
+<td>MANWARING CENTER 387</td>
+</tr>
+<tr>
+<td>9:00 AM</td>
+<td>Seamons, Rhonda</td>
+<td>
+<div class="bold-headings">Women in the Scriptures (repeat)</div>
+This presentation explores about a dozen of the 200 women named in the scriptures, focusing on the spiritual gifts and positive attributes they possessed.</td>
+<td>TAYLOR 120</td>
+</tr>
+<tr>
+<td>9:00 AM</td>
+<td>Richards, Eric</td>
+<td>
+<div class="bold-headings">The Book of Revelation: Preparation for the Second Coming</div>
+Come and enjoy a look into the book of Revelation and discover some powerful principles to assist us in overcoming the world as we look for the Second Coming of our Savior.</td>
+<td>MANWARING CENTER 372A</td>
+</tr>
+<tr>
+<td>10:20 AM</td>
+<td>Ashton, Brian</td>
+<td>
+<div class="bold-headings">Grit and Resilience: Key Components of Personal and Family Growth (repeat)</div>
+Developing Grit and Resilience can help us find contentment, face challenging times, overcome our weaknesses, and ultimately grow. Children and adults that develop grit and resilience tend to thrive; they are consistent in their daily effort; they see mistakes as opportunities to learn and grow; their faith reflects their understanding that they can grow. These are traits that can be developed in our life and in the lives of our loved ones.</td>
+<td>RICKS 173</td>
+</tr>
+<tr>
+<td>10:20 AM</td>
+<td>Bair, Ted M.</td>
+<td>
+<div class="bold-headings">Building a Temple Marriage Into an Eternal Marriage
+<div class="part">(Part 3)</div>
+</div>
+&ldquo;If thy brother [please or] offend thee&rdquo; (D&amp;C 42:88) Sharing Both Positive &amp; Negative Feelings</td>
+<td>ROMNEY 172</td>
+</tr>
+<tr>
+<td>10:20 AM</td>
+<td>Davis, Rick</td>
+<td>
+<div class="bold-headings">The Fall of Napoleon and the Rise of Joseph (repeat)</div>
+Napoleon&rsquo;s brief 15 years of power (1799-1814) left major changes across Europe, not just France. A natural leader, he single-handedly rewrote the roles of government, church, and the common man. Those ripples came to America too. You and I are what we are in large measure due to a single man.</td>
+<td>TAYLOR 120</td>
+</tr>
+<tr>
+<td>10:20 AM</td>
+<td>Dunn, C. Ryan</td>
+<td>
+<div class="bold-headings">In Good Times and in Bad, Until. . . Being Married Through Time and All Eternity</div>
+In this class, we will discuss the process of a celestial marriage. Many youth (and also adults) wait for decades to find their soul mate. Once the honeymoon period wears off and a few troubles come their way, they feel like they may have made a mistake. The world has decided that most things are disposable - and marriage is no different, but as eternal children of a Heavenly Father, we know better. Using the scriptures, words of the prophets, and clarifying the understanding of the world we will discuss ways in which we can grow closer to our companions over time, grow together through trials, and seek to create celestial marriages in our hearts and homes.</td>
+<td>RICKS 147</td>
+</tr>
+<tr>
+<td>10:20 AM</td>
+<td>Fackrell, Matthew</td>
+<td>
+<div class="bold-headings">Anxiety, What It Can Lead to and What We Can Do to Have A Happy Carefree Life (repeat)</div>
+We will be talking about anxiety and other psychiatric disorders. We will be talking about what they are, how they can affect us and what we can do about it using modern medicine and the gospel.</td>
+<td>MANWARING CENTER 372A</td>
+</tr>
+<tr>
+<td>10:20 AM</td>
+<td>Howard, Daris</td>
+<td>
+<div class="bold-headings">That Crazy World of Dating</div>
+Males and females were made to be different to be compliment each other. But these differences sometimes bring confusion to the opposite gender, especially during the dating years. Teens, parents, or youth leaders will especially enjoy.</td>
+<td>BENSON 108/110</td>
+</tr>
+<tr>
+<td>10:20 AM</td>
+<td>Poulter, LaNae</td>
+<td>
+<div class="bold-headings">The Parable of the Hair (repeat)</div>
+This interactive presentation discusses a curious question: &ldquo;What if our testimonies were as obvious as the hairs on our head?&rdquo; The impromptu discovery reveals self-righteousness, human error, denial, sorrow, repentance, and healing.</td>
+<td>BENSON 287</td>
+</tr>
+<tr>
+<td>10:20 AM</td>
+<td>Tanner, Tyler</td>
+<td>
+<div class="bold-headings">Programs vs. Principles - Where Are We Going Wrong?</div>
+Testimony is a fragile, but priceless gift which must be continuously fortified. Its value is often measured by the currency spent for its discovery &ndash; time, tears, and sacrifice. In a world of dynamic change and aggressive controversy, the foundation supporting one&rsquo;s testimony is critically important. However, that foundation is only as strong as the cementing force of the principles which give it substance. A testimony founded on programs will surely crumble in the quakes of an immoral society.</td>
+<td>AUSTIN 105</td>
+</tr>
+<tr>
+<td>10:20 AM</td>
+<td>Willden, Doug</td>
+<td>
+<div class="bold-headings">Educating Zion</div>
+Come learn about BYU-Idaho&rsquo;s Pathway program. What started as a humble pilot program of 3 sites in the United States serving roughly 50 students has emerged into a successful educational system of over 175 worldwide sites, serving thousands of students each year. As President Eyring suggested in 1971, this university must find &ldquo;direct ways to move the blessing of education &hellip; from this campus out into the lives of men and women everywhere.&rdquo;</td>
+<td>RICKS 161</td>
+</tr>
+<tr>
+<td>10:20 AM</td>
+<td>Willis, Michelle</td>
+<td>
+<div class="bold-headings">How to Conduct Music (repeat)</div>
+Become an instant asset to your ward, school, or civic group by learning how to conduct music! We will cover beat patterns, entrances and cut-offs, cues, dynamics, and more.</td>
+<td>MANWARING CENTER 387</td>
+</tr>
+<tr>
+<td>11:40 AM</td>
+<td>Bair, Ted M.</td>
+<td>
+<div class="bold-headings">Chosen People and Choice Lands: Covenant of Abraham and the Nations of Israel and the Americas
+<div class="part">(Part 3)</div>
+</div>
+Millennium: Grand Finale for Chosen People &amp; Choice Lands</td>
+<td>ROMNEY 172</td>
+</tr>
+<tr>
+<td>11:40 AM</td>
+<td>Donne, William A</td>
+<td>
+<div class="bold-headings">We Will End the Conflict Now: A Discussion on Pornography, Addiction and the Sure Road to Understanding, Recovery and Healing</div>
+You do not just treat pornography addiction; you conquer it! Join William A. Donne, author of We Will End the Conflict Now, as he discusses pornography, perspective, and the power in Christ to heal our broken hearts and end the conflict now! Teens, parents, or youth leaders will especially enjoy.</td>
+<td>BENSON 287</td>
+</tr>
+<tr>
+<td>11:40 AM</td>
+<td>Fackrell, Matthew</td>
+<td>
+<div class="bold-headings">We can find Peace, Even Among Sadness, Depression, and Other Psychiatric Hardships (repeat)</div>
+Depression and other psychiatric disorders can be devastating, but is also very common. We will be discussing what these disorders are, and how we can use both the gospel and modern medicine to overcome these hardships.</td>
+<td>MANWARING CENTER 372A</td>
+</tr>
+<tr>
+<td>11:40 AM</td>
+<td>Fernquist, Robert</td>
+<td>
+<div class="bold-headings">The Importance of Studying the Scriptures</div>
+As Church members, we are regularly counseled to study the scriptures, but why? Elder Bednar explains doctrinal reasons why we need to study the scriptures daily.</td>
+<td>TAYLOR 120</td>
+</tr>
+<tr>
+<td>11:40 AM</td>
+<td>Howard, Daris</td>
+<td>
+<div class="bold-headings">What Scholarly Research Can Tell Us About the Jaredites (repeat)</div>
+Both Mormon and Moroni felt a great need to include the story of the ancient civilization of the Jaredites. Not only are there great things to learn from the book of Ether itself, but there are fascinating scientific studies, that give much insight into these people and what we can learn from them. Not only are there great things to learn from the book of Ether itself, but there are fascinating scientific studies, that give much insight into these people and what we can learn from them.</td>
+<td>BENSON 108/110</td>
+</tr>
+<tr>
+<td>11:40 AM</td>
+<td>Parry, Jennifer</td>
+<td>
+<div class="bold-headings">Mental Health, Depression, Cognitive Therapy, and How to Change and Understand Our Thought Patterns (repeat)</div>
+Thinking good thoughts, how it relates to depression; also President Uchtdorf's advice to women on how to partake of God's happiness now. Depression or happiness, can we chose?</td>
+<td>AUSTIN 105</td>
+</tr>
+<tr>
+<td>11:40 AM</td>
+<td>Tanner, Nathan</td>
+<td>
+<div class="bold-headings">Prayer&mdash;Personally Applicable Lessons From the Book of Mormon</div>
+The Book of Mormon is replete with examples of powerful prayer. This class will examine some of these stories and uncover ways to make our personal prayers more powerful and meaningful with an emphasis on personal conversion.</td>
+<td>TAYLOR CHAPEL</td>
+</tr>
+<tr>
+<td>11:40 AM</td>
+<td>Youngberg, Brent &amp; Ruth</td>
+<td>
+<div class="bold-headings">Serving a Mission Together Can Enhance Your Marriage (repeat)</div>
+Leaving home and family to go on a mission as a senior couple can be a scary undertaking, but the benefits are worth it. The growth and learning, stretching and becoming enhance your marriage. So. . . kids, we're here to help your folks go on a mission.</td>
+<td>MANWARING CENTER 387</td>
+</tr>
+<tr>
+<td>1:00 PM</td>
+<td>Bair, Ted M.</td>
+<td>
+<div class="bold-headings">The Second Coming of Christ: Parallels With Christ's First Coming
+<div class="part">(Part 3)</div>
+</div>
+Reactions: Jesus Christ &amp; His Affect on Father&rsquo;s Children</td>
+<td>ROMNEY 172</td>
+</tr>
+<tr>
+<td>1:00 PM</td>
+<td>Dunn, C. Ryan</td>
+<td>
+<div class="bold-headings">Golden Opportunities (which references taking advantage of those opportunities Heavenly Father places in our lives.)</div>
+How do we notice and take advantage of those opportunities Heavenly Father places in our lives? Sometimes we want more, other times we want less, and even other times we want to feel like somebody knows we are there. In this class we will discuss how to become aware and take advantage of the plan and process our Heavenly Father has for us. Teens, parents, or youth leaders will especially enjoy.</td>
+<td>RICKS 147</td>
+</tr>
+<tr>
+<td>1:00 PM</td>
+<td>Fernquist, Robert</td>
+<td>
+<div class="bold-headings">The Character of Christ</div>
+Elder Neal A. Maxwell has stated that if it were not for the character of Christ, there would have been no Atonement. Elder Bednar explains why this is so.</td>
+<td>TAYLOR 120</td>
+</tr>
+<tr>
+<td>1:00 PM</td>
+<td>Gibson, Kelly</td>
+<td>
+<div class="bold-headings">Technology and the Family: Developing Worthy Lifelong Digital Habits (repeat)</div>
+With technology being paved into each of our lives it is important to learn habits that enable a healthy digital lifestyle. We&rsquo;ll explore practical tips and methods families and individuals can use to develop worthy lifelong digital habits.</td>
+<td>RICKS 173</td>
+</tr>
+<tr>
+<td>1:00 PM</td>
+<td>Lyons, Timm</td>
+<td>
+<div class="bold-headings">Singing Together - Education Week Choir
+<div class="part">(Part 3)</div>
+</div>
+Prepare a musical number for the closing ceremony</td>
+<td>TAYLOR 130</td>
+</tr>
+<tr>
+<td>1:00 PM</td>
+<td>Raish, Martin</td>
+<td>
+<div class="bold-headings">Nephi's Zip Code and Other Perplexities: Geography and Archeology of the Book of Mormon (repeat)</div>
+Because the Book of Mormon describes events that happened hundreds of years ago, it can sometimes be challenging to see the men and women of those times as real people. Where did they live? What did they look like? What kind of clothes did they wear? What were their houses and cities like? While there are no definitive answers to questions such as these, we will explore some tantalizing possibilities that can help us bridge the gulf between their lives and ours, to make their experiences more powerful (as well as more poignant) for us today.</td>
+<td>SMITH 240</td>
+</tr>
+<tr>
+<td>1:00 PM</td>
+<td>Satterfield, Bruce</td>
+<td>
+<div class="bold-headings">The Postmortal Spirit World</div>
+A discussion regarding six principles associated with the doctrine of the Postmortal spirit world as found in the scriptures and teachings of latter-day prophets.</td>
+<td>TAYLOR CHAPEL</td>
+</tr>
+<tr>
+<td>1:00 PM</td>
+<td>Willis, Michelle</td>
+<td>
+<div class="bold-headings">How Can I Hang On? Messages of Hope and Healing When You or Someone You Love Has a Mental Illness (repeat)</div>
+Mental Illness is a disease that can strike anyone and leaves emotional scars on both the afflicted and their loved ones, but there is hope in seeking to understand the process and purpose of these illnesses and how to see the great potential behind the grief.</td>
+<td>MANWARING CENTER 387</td>
+</tr>
+<tr>
+<td>2:20 PM</td>
+<td>Closing Ceremonies</td>
+<td>
+<div class="bold-headings">Elder W. Rolfe Kerr</div>
+Emeritus Member of the First Quorum of the Seventy.</td>
+<td>TAYLOR CHAPEL</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<!-- END CLASSES DISPLAY -->
+<div id="main-tabs-3">
+<h2>Teachers</h2>
+<p class="sub-heading">Select a teacher below to learn a little more about<br />their background and which classes they are teaching.</p>
+<img id="teacherOne" src="documents/university-relations/education-week/2014/EduWeek_One.jpg" /> <img id="teacherTwo" src="documents/university-relations/education-week/2014/EdWeek_Two.jpg" />
+<ul id="teachers-listOne"></ul>
+<ul id="teachers-listTwo"></ul>
+<div id="teachers-list"></div>
+</div>
+<div id="main-tabs-4">
+<h2>Activities</h2>
+<p class="sub-heading">To add to your experience, arrangements have been made for Education Week participants of all ages to choose from any of the following activities to do between the many classes offered. A 2014 Education Week Wrist Band is required to participate.</p>
+<table id="ewTable">
+<tbody>
+<tr>
+<td>ZUMBA</td>
+<td>Thu, Fri, and Sat, 7-8 a.m. Hart 234 (Modest dress standards, please.)</td>
+</tr>
+<tr>
+<td>MORNING BASKETBALL, Drop-In</td>
+<td>Thu, Fri, and Sat, 7-8 a.m. BYU-Idaho Center Auditorium Courts. Stop by with your team or come and be assigned. (Modest dress standards, please.)</td>
+</tr>
+<tr>
+<td>SWIMMING</td>
+<td>Thu, Fri, and Sat, 6 -10 a.m. Open for Free Swim (Bring your own suit. Modest dress standards, please.)</td>
+</tr>
+<tr>
+<td>ROLLER SKATING</td>
+<td>Thu and Fri, 6 -10 p.m. Manwaring Center West Ballroom</td>
+</tr>
+<tr>
+<td>BOWLING</td>
+<td>Thu and Fri, 6 -10 p.m. Manwaring Center, bottom floor</td>
+</tr>
+<tr>
+<td>ROPES COURSE</td>
+<td>Thu and Fri, 9 a.m.-9 p.m., and Sat., 9 a.m.-3 p.m., South of baseball diamonds on 7th South. (Classes are 2 hours and must be scheduled at the Education Week registration desk in the Manwaring Center. Waiver forms are required for all participants and parents' permission is required for participants under 18 years old.)</td>
+</tr>
+<tr>
+<td>FITNESS CENTER</td>
+<td>Thu, Fri, and Sat, 5 a.m. -11 p.m. Hart Building $3 fee (includes BYU-Idaho gym issue clothing)</td>
+</tr>
+<tr>
+<td>PLANETARIUM SHOWS</td>
+<td>Thu &amp; Fri, 9-4 p.m. and 7-9 p.m.; Sat 9-2 p.m.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="main-tabs-5">
+<h2>Youth Programs</h2>
+<p class="sub-heading">As part of Education Week 2014, youth ages 6-18 are invited to participate in a full program of age-appropriate classes, activities, and discussions throughout the conference. Individuals will be able to check in at Education Week Headquarters (Manwaring Center 176C) for his or her track when they arrive on campus. Following is a table showing the details and a schedule for each age group.</p>
+<iframe height="735" src="http://docs.google.com/viewer?url=www.byui.edu%2FDocuments%2Funiversity-relations%2Feducation-week%2F2014%2Fyouth-schedule4.pdf&amp;embedded=true" style="border: none;" width="900"></iframe></div>
+<p></p>
+<p>Join us for live, online streaming of the Opening and Closing events, President Clark's Devotional, and three selected classes.</p>
+<p>Sometimes parents may want to take a child to class; they are welcome to do so. However, we ask that parents be sensitive <br />to those around them.</p>
+<p>Programs specially designed for youth ages 6&ndash;11, 12&ndash;13, and 14&ndash;18 are available. You may view the <a href="Documents/university-relations/education-week/2014/youth-schedule4.pdf" type="application/pdf">Youth Programs schedule</a> (in PDF format) and register your children through the&nbsp;<a href="http://ems.byui.edu/EmsRegics/EdWeek2014" target="_blank">registration page</a>.</p>
+<p>Visit the website often for updates and changes.</p>
+<hr class="separator" /><!-- CONTENT TABS -->
+<div>[x69208]</div>
+<!-- LIST GENERATION -->
+<p></p>
+<div>[x96627]</div>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="Component" Component="x28840" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="true" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="x50728" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x51144" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x69208" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x96627" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x47794" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

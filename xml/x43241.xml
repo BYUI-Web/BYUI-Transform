@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content ID="x43241" Name="Password Best Practices" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Password Best Practices</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Password Best Practices</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<h3>Strength</h3>
+<ul>
+<li>The stronger the password the harder it is to crack (discoverd by a computer program). Nearly all passwords can be cracked given sufficient time. The more the characters and different types of characters that is used the longer it takes to crack; weak passwords can be cracked in a matter of seconds. We recommend using at least three or four types of characters: upper case, lower case, numbers, or special characters. For compatibility with some BYU-Idaho systems, consider avoiding the following characters: ? :&nbsp; ; / \ { } and space. Be creative but make it so you can remember. </li>
+</ul>
+<h3>Password Phrase</h3>
+<ul>
+<li>Phrase passwords are a great way to increase the complexity of your password and also easier to remember.&nbsp; This approach uses the first letter of each word from an easy-to-remember sentence or phrase.&nbsp; Some examples are: "When I was 16 dad bought me a car!" becomes "Wiw16dbmac!" and "I like to eat tacos on Fridays" becomes "iltetof"&nbsp; By adding numbers, special characters, upper case and lower case letters you increase the complexity of your password to be "Itet0F01". </li>
+</ul>
+<ul>
+</ul>
+<h3>Length</h3>
+<ul>
+<li>The longer the password the longer it takes to crack. BYU-Idaho will be upgrading the length requirement from 8 characters to 10. These longer passwords prevent passwords from being cracked in any resonable amount of time. </li>
+</ul>
+<h3>Sharing</h3>
+<ul>
+<li>Never share your password with anyone. If you share our passwords with other people then that gives that person the right to do things in your name.                   By sharing your password you put your reputation in the hands of another, and in some cases you may be held responsible for their actions.         Remember never share your password.</li>
+</ul>
+<h3>Not Dictionary Words</h3>
+<ul>
+<li>One of the ways that hackers try to crack your password is use a dictionary attack.  It takes very little      time for a computer to match your password with one in a dictionary. Try      to avoid using words in your password use a password phrase approach.</li>
+</ul>
+<h3>Never Re-use password</h3>
+<ul>
+<li><a> </a>We strongly recommend      you refrain from using any previous password. It is also suggested that      you don't use a password that is the same that you use elsewhere,      especially passwords that are already used for more secure accounts, or a      password that you may use on a site that is less trustworthy. If ever the      password for one account is discovered, other accounts which use the      password become vulnerable. </li>
+</ul>
+<p>&nbsp;</p>
+<h1><strong><a href="http://www.microsoft.com/security/online-privacy/passwords-create.aspx" title="Microsoft Security Password Suggestions">Microsoft's Security and Passwords Suggestions</a></strong></h1>
+<h1><strong> <a href="https://www.microsoft.com/security/pc-security/password-checker.aspx" title="Password Checker">Microsoft's Password Strength meter</a></strong></h1>
+<p>&nbsp;</p>
+<ul>
+</ul>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x35726" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

@@ -1,0 +1,476 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content ID="x43835" Name="Quotes Between Columns" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Quotes Between Columns</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Quotes Between Columns</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style><!--
+    #container710{
+        float:left;
+        overflow:auto;
+        text-align: justify;
+        width:710px;
+    }
+    #columncontainer{
+        position:relative;
+    }
+    #leftcolumncontainer{
+        width:50%;
+        float:left;
+    }
+    #rightcolumncontainer{
+        width:50%;
+        float:right;
+    }
+    #leftcolumn{
+        z-index:1;
+        padding:5px;
+    }
+    #rightcolumn{
+        z-index:1;
+        padding:5px;
+    }
+    #floatingpicture{
+        float:right;
+    }
+    .gallerybox{
+        -moz-box-shadow: 0px 0px 5px #000000;
+        -webkit-box-shadow: 0px 0px 5px #000000;
+        box-shadow: 0px 0px 5px #000000;
+        border:1px solid #777777;
+        z-index:2;
+        position:absolute;
+        overflow:hidden;
+        width:270px;
+        height:auto;
+        left:205px;
+        top:270px;
+        padding:10px;
+        margin:4px;
+    }
+    .picbox{
+        margin:0px 5px;
+        float:left;
+        width:256px;
+        height:auto;
+        font-size:200%;
+        line-height:30px;
+        text-align:center;
+        
+    }
+    img{
+        padding:0px;
+        margin:0px;
+        border:none;
+        float:left;
+    }
+    .picboxfirst{
+        margin-left:0px;
+        padding-left:0px;
+    }
+    .picboxlast{
+        margin-right:0px;
+        padding-right:0px;
+    }
+    .lW {
+        float: left; clear: left; height: 1em;
+    }
+    .rW {
+        float: right; clear: right; height: 1em;
+    }
+    .leftcustomize{
+        width: 50%;
+        float:left;
+    }
+    .rightcustomize{
+        width: 50%;
+        float:left;
+    }
+    .templatecode{
+        border: 2px solid #686868;
+        background-color:#f6f6f6;
+        padding:10px;
+        font-size: 11px;
+        font-family: "courier";
+        line-height: 12px;
+    }
+    .instructions{
+        margin:20px;
+    }
+    #tempexample{
+        margin:80px 0px;
+    }
+--></style>
+<div class="span-18" id="container710">
+<div class="layoutdesc loud">Below is a working example of this template.<br /> You'll find simple instructions of how to use it beneath it.<br /> This particular template does not provide any interaction with its user. However, if          you would like to add a link to any of the images or text, you can do          so in the editor after following the directions below.         <br /> <br />
+<div class="leftcustomize"><em>You can customize:</em> 
+<ul>
+<li>Text</li>
+<li>Font size in text box</li>
+</ul>
+</div>
+<div class="rightcustomize"><em>You cannot customize:</em> 
+<ul>
+<li>Layout</li>
+<li>Size of text box</li>
+<li>Spacing between text box and other text</li>
+</ul>
+</div>
+</div>
+<br />
+<div class="clear"></div>
+<div id="tempexample">
+<div id="columncontainer">
+<div id="leftcolumncontainer">
+<div id="leftcolumn">
+<div class="rW" style="width: 0px;"></div>
+<div class="rW" style="width: 0px;"></div>
+<div class="rW" style="width: 0px;"></div>
+<div class="rW" style="width: 0px;"></div>
+<div class="rW" style="width: 0px;"></div>
+<div class="rW" style="width: 0px;"></div>
+<div class="rW" style="width: 0px;"></div>
+<div class="rW" style="width: 0px;"></div>
+<div class="rW" style="width: 0px;"></div>
+<div class="rW" style="width: 0px;"></div>
+<div class="rW" style="width: 0px;"></div>
+<div class="rW" style="width: 0px;"></div>
+<div class="rW" style="width: 0px;"></div>
+<div class="rW" style="width: 0px;"></div>
+<div class="rW" style="width: 0px;"></div>
+<div class="rW" style="width: 0px;"></div>
+<div class="rW" style="width: 0px;"></div>
+<div class="rW" style="width: 0px;"></div>
+<div class="rW" style="width: 155px;"></div>
+<div class="rW" style="width: 155px;"></div>
+<div class="rW" style="width: 155px;"></div>
+<div class="rW" style="width: 155px;"></div>
+<div class="rW" style="width: 155px;"></div>
+<div class="rW" style="width: 155px;"></div>
+<div class="rW" style="width: 155px;"></div>
+<div class="rW" style="width: 155px;"></div>
+<div class="rW" style="width: 155px;"></div>
+<div class="rW" style="width: 155px;"></div>
+<div class="rW" style="width: 155px;"></div>
+<div class="rW" style="width: 155px;"></div>
+<div class="rW" style="width: 155px;"></div>
+<div class="rW" style="width: 155px;"></div>
+<div class="rW" style="width: 155px;"></div>
+<div class="rW" style="width: 155px;"></div>
+<div class="rW" style="width: 155px;"></div>
+<div class="rW" style="width: 155px;"></div>
+<div class="rW" style="width: 155px;"></div>
+<div class="rW" style="width: 155px;"></div>
+<div class="rW" style="width: 0px;"></div>
+<div class="rW" style="width: 0px;"></div>
+<div class="rW" style="width: 0px;"></div>
+<div class="rW" style="width: 0px;"></div>
+<div class="rW" style="width: 0px;"></div>
+<div class="rW" style="width: 0px;"></div>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.                         Curabitur in pulvinar tortor. Cum sociis natoque penatibus                          et magnis dis parturient montes, nascetur ridiculus mus.                              Vivamus varius ornare arcu, eleifend mollis leo ornare fermentum.                            Sed vitae arcu in tortor vestibulum varius. Nam a malesuada                                 quam. Etiam at arcu et elit posuere vulputate et elementum                                 tellus. Aenean dictum urna nec mauris vulputate facilisis.                                 Nulla cursus imperdiet elit, auctor lacinia dolor porttitor                                varius. Donec at facilisis lacus. Vivamus ac elit lorem. Sed                              semper tortor eu odio posuere vestibulum.</p>
+<p>Nullam gravida, enim eu interdum porta, massa sapien ornare                               magna, condimentum pulvinar metus ante id mi. Aliquam vel mi                             magna. Maecenas posuere, elit sed commodo bibendum, orci                                 turpis commodo dui, ac lacinia tortor diam nec arcu. Nunc                                at dolor urna. Praesent adipiscing, diam nec facilisis                                   condimentum, risus leo consectetur metus, eu feugiat turpis                               nunc ac dui. Suspendisse gravida volutpat felis, a vehicula                              lorem scelerisque eu. Nunc scelerisque ante non nisl bibendum                            fringilla. Quisque condimentum faucibus sapien nec porttitor.                             Nunc ornare ornare pellentesque. Suspendisse id sodales ligula.</p>
+<p>Nulla varius nibh ut ante lobortis convallis. Ut ultricies,                                nibh eu cursus rhoncus, urna leo consectetur leo, eget congue                              tortor sem vitae orci. Integer vel nibh mauris, ut tempor ante.                             Sed a ornare erat. Duis facilisis lorem non libero adipiscing                               euismod ipsum non sem feugiat a consequat erat egestas.                                     Pellentesque laoreet risus purus. Praesent auctor, odio eu                                  bibendum. Aliquam molestie neque nec libero hendrerit adipiscing                            lacinia tellus fermentum. Duis commodo ultricies congue. Mauris                             consectetur consectetur, leo metus sodales lacus, cursus                                    molestie orci neque et nisi. Nunc nibh libero, mollis id                                   iaculis lacinia, tempor sed urna. Duis dictum, augue malesuada                             dignissim consectetur, purus erat pharetra velit, sit amet                                 accumsan mauris orci nec erat. Quisque at dolor ut neque volutpat porttitor.</p>
+</div>
+</div>
+<div id="rightcolumncontainer">
+<div id="rightcolumn">
+<div class="lW" style="width: 0px;"></div>
+<div class="lW" style="width: 0px;"></div>
+<div class="lW" style="width: 0px;"></div>
+<div class="lW" style="width: 0px;"></div>
+<div class="lW" style="width: 0px;"></div>
+<div class="lW" style="width: 0px;"></div>
+<div class="lW" style="width: 0px;"></div>
+<div class="lW" style="width: 0px;"></div>
+<div class="lW" style="width: 0px;"></div>
+<div class="lW" style="width: 0px;"></div>
+<div class="lW" style="width: 0px;"></div>
+<div class="lW" style="width: 0px;"></div>
+<div class="lW" style="width: 0px;"></div>
+<div class="lW" style="width: 0px;"></div>
+<div class="lW" style="width: 0px;"></div>
+<div class="lW" style="width: 0px;"></div>
+<div class="lW" style="width: 0px;"></div>
+<div class="lW" style="width: 0px;"></div>
+<div class="lW" style="width: 155px;"></div>
+<div class="lW" style="width: 155px;"></div>
+<div class="lW" style="width: 155px;"></div>
+<div class="lW" style="width: 155px;"></div>
+<div class="lW" style="width: 155px;"></div>
+<div class="lW" style="width: 155px;"></div>
+<div class="lW" style="width: 155px;"></div>
+<div class="lW" style="width: 155px;"></div>
+<div class="lW" style="width: 155px;"></div>
+<div class="lW" style="width: 155px;"></div>
+<div class="lW" style="width: 155px;"></div>
+<div class="lW" style="width: 155px;"></div>
+<div class="lW" style="width: 155px;"></div>
+<div class="lW" style="width: 155px;"></div>
+<div class="lW" style="width: 155px;"></div>
+<div class="lW" style="width: 155px;"></div>
+<div class="lW" style="width: 155px;"></div>
+<div class="lW" style="width: 155px;"></div>
+<div class="lW" style="width: 155px;"></div>
+<div class="lW" style="width: 155px;"></div>
+<div class="lW" style="width: 0px;"></div>
+<div class="lW" style="width: 0px;"></div>
+<div class="lW" style="width: 0px;"></div>
+<div class="lW" style="width: 0px;"></div>
+<div class="lW" style="width: 0px;"></div>
+<div class="lW" style="width: 0px;"></div>
+<p>Nulla varius nibh ut ante lobortis convallis. Ut ultricies,                                   nibh eu cursus rhoncus, urna leo consectetur leo, eget congue                                tortor sem vitae orci. Integer vel nibh mauris, ut tempor ante.                              Sed a ornare erat. Duis facilisis lorem non libero adipiscing                                euismod ipsum non sem feugiat a consequat erat egestas.                                      Pellentesque laoreet risus purus. Praesent auctor, odio eu                                   bibendum. Aliquam molestie neque nec libero hendrerit adipiscing                             lacinia tellus fermentum. Duis commodo ultricies congue. Mauris                               consectetur consectetur, leo metus sodales lacus, cursus                                     molestie orci neque et nisi. Nunc nibh libero, mollis id                                     iaculis lacinia, tempor sed urna. Duis dictum, augue malesuada                                dignissim consectetur, purus erat pharetra velit, sit amet                                    accumsan mauris orci nec erat.</p>
+<p>Sed iaculis congue ligula, non luctus tellus tempor quis.                                      Vivamus in ante urna. Nulla et mi ipsum, eu pulvinar ligula.                                  Donec tincidunt sodales massa, sed sodales lorem pretium id.                                  Curabitur semper tempor dui, et ornare mi auctor in. Vivamus                                  non eros ac metus malesuada venenatis. Integer eget diam                                      ut eros consectetur ornare id at massa. Nulla bibendum dolor                                 sit amet magna aliquam venenatis. Fusce vestibulum, risus et                                 sagittis tristique, massa turpis fringilla libero, nec cursus                                risus justo eget mi.</p>
+<p>Aenean diam lectus, facilisis sit amet porttitor a, euismod                                  nec enim. Nam scelerisque nibh sed lacus fringilla dignissim                              laoreet et ipsum. Donec tristique iaculis eros id porttitor.                              Pellentesque eget leo ac risus tempus fermentum at sed massa.                              Vestibulum ante ipsum primis in faucibus orci luctus et                                    ultrices posuere cubilia Curae; Duis est mi, vulputate ac                                  dignissim vel, imperdiet vel arcu. Phasellus vehicula, lacus                               in vestibulum suscipit, metus nibh ultricies dolor, ut                                     elementum purus sem vitae odio.</p>
+</div>
+</div>
+<span class="gallerybox"><span class="picbox"> "Insert block quote or other text here.  Insert block quote or other text here.  Insert block quote or other text here.  Insert block quote or other text here." </span></span></div>
+</div>
+<div class="clear"></div>
+<h3>Instructions:</h3>
+<ol class="instructions">
+<li>Copy the code below.</li>
+<li>Find page in Ingeniux you want to use this template on.</li>
+<li>Click 'HTML'.</li>
+<li>Paste the code you copied in step 1.</li>
+<li>Click 'Update'.</li>
+<li>Customize the image sources, link, text, etc.</li>
+</ol>
+<pre class="templatecode">        &lt;style&gt;
+                #container710{
+                    float:left;
+                    overflow:auto;
+                    text-align: justify;
+                }
+                #columncontainer{
+                    position:relative;
+                }
+                #leftcolumncontainer{
+                    width:50%;
+                    float:left;
+                }
+                #rightcolumncontainer{
+                    width:50%;
+                    float:right;
+                }
+                #leftcolumn{
+                    z-index:1;
+                    padding:5px;
+                }
+                #rightcolumn{
+                    z-index:1;
+                    padding:5px;
+                }
+                #floatingpicture{
+                    float:right;
+                }
+                .gallerybox{
+                    -moz-box-shadow: 0px 0px 5px #000000;
+                    -webkit-box-shadow: 0px 0px 5px #000000;
+                    box-shadow: 0px 0px 5px #000000;
+                    border:1px solid #777777;
+                    z-index:2;
+                    position:absolute;
+                    overflow:hidden;
+                    width:270px;
+                    height:auto;
+                    left:205px;
+                    top:270px;
+                    padding:10px;
+                    margin:4px;
+                }
+                .picbox{
+                    margin:0px 5px;
+                    float:left;
+                    width:256px;
+                    height:auto;
+                    font-size:200%;
+                    line-height:30px;
+                    text-align:center;
+
+                }
+                img{
+                    padding:0px;
+                    margin:0px;
+                    border:none;
+                    float:left;
+                }
+                .picboxfirst{
+                    margin-left:0px;
+                    padding-left:0px;
+                }
+                .picboxlast{
+                    margin-right:0px;
+                    padding-right:0px;
+                }
+                .lW {
+                    float: left; clear: left; height: 1em;
+                }
+                .rW {
+                    float: right; clear: right; height: 1em;
+                }
+        &lt;/style&gt;
+        &lt;div class="span-18" id="container710"&gt;
+            &lt;div id="columncontainer"&gt;
+                &lt;div id="leftcolumncontainer"&gt;
+                    &lt;div id="leftcolumn"&gt;
+                        &lt;div class="rW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="rW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Curabitur in pulvinar tortor. Cum sociis natoque penatibus 
+                            et magnis dis parturient montes, nascetur ridiculus mus.     
+                            Vivamus varius ornare arcu, eleifend mollis leo ornare fermentum.   
+                            Sed vitae arcu in tortor vestibulum varius. Nam a malesuada        
+                            quam. Etiam at arcu et elit posuere vulputate et elementum        
+                            tellus. Aenean dictum urna nec mauris vulputate facilisis.        
+                            Nulla cursus imperdiet elit, auctor lacinia dolor porttitor       
+                            varius. Donec at facilisis lacus. Vivamus ac elit lorem. Sed     
+                            semper tortor eu odio posuere vestibulum.&lt;/p&gt;
+                        &lt;p&gt;Nullam gravida, enim eu interdum porta, massa sapien ornare      
+                            magna, condimentum pulvinar metus ante id mi. Aliquam vel mi    
+                            magna. Maecenas posuere, elit sed commodo bibendum, orci        
+                            turpis commodo dui, ac lacinia tortor diam nec arcu. Nunc       
+                            at dolor urna. Praesent adipiscing, diam nec facilisis          
+                            condimentum, risus leo consectetur metus, eu feugiat turpis      
+                            nunc ac dui. Suspendisse gravida volutpat felis, a vehicula     
+                            lorem scelerisque eu. Nunc scelerisque ante non nisl bibendum   
+                            fringilla. Quisque condimentum faucibus sapien nec porttitor.    
+                            Nunc ornare ornare pellentesque. Suspendisse id sodales ligula.&lt;/p&gt;
+                        &lt;p&gt;Nulla varius nibh ut ante lobortis convallis. Ut ultricies,       
+                            nibh eu cursus rhoncus, urna leo consectetur leo, eget congue     
+                            tortor sem vitae orci. Integer vel nibh mauris, ut tempor ante.    
+                            Sed a ornare erat. Duis facilisis lorem non libero adipiscing      
+                            euismod ipsum non sem feugiat a consequat erat egestas.            
+                            Pellentesque laoreet risus purus. Praesent auctor, odio eu         
+                            bibendum. Aliquam molestie neque nec libero hendrerit adipiscing   
+                            lacinia tellus fermentum. Duis commodo ultricies congue. Mauris    
+                            consectetur consectetur, leo metus sodales lacus, cursus           
+                            molestie orci neque et nisi. Nunc nibh libero, mollis id          
+                            iaculis lacinia, tempor sed urna. Duis dictum, augue malesuada    
+                            dignissim consectetur, purus erat pharetra velit, sit amet        
+                            accumsan mauris orci nec erat. Quisque at dolor ut neque volutpat porttitor.&lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div id="rightcolumncontainer"&gt;
+                    &lt;div id="rightcolumn"&gt;
+                        &lt;div class="lW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 155px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;div class="lW" style="width: 0px;"&gt;&lt;/div&gt;
+                        &lt;p&gt;Nulla varius nibh ut ante lobortis convallis. Ut ultricies,          
+                            nibh eu cursus rhoncus, urna leo consectetur leo, eget congue       
+                            tortor sem vitae orci. Integer vel nibh mauris, ut tempor ante.     
+                            Sed a ornare erat. Duis facilisis lorem non libero adipiscing       
+                            euismod ipsum non sem feugiat a consequat erat egestas.             
+                            Pellentesque laoreet risus purus. Praesent auctor, odio eu          
+                            bibendum. Aliquam molestie neque nec libero hendrerit adipiscing    
+                            lacinia tellus fermentum. Duis commodo ultricies congue. Mauris      
+                            consectetur consectetur, leo metus sodales lacus, cursus            
+                            molestie orci neque et nisi. Nunc nibh libero, mollis id            
+                            iaculis lacinia, tempor sed urna. Duis dictum, augue malesuada       
+                            dignissim consectetur, purus erat pharetra velit, sit amet           
+                            accumsan mauris orci nec erat.&lt;/p&gt;
+                        &lt;p&gt;Sed iaculis congue ligula, non luctus tellus tempor quis.             
+                            Vivamus in ante urna. Nulla et mi ipsum, eu pulvinar ligula.         
+                            Donec tincidunt sodales massa, sed sodales lorem pretium id.         
+                            Curabitur semper tempor dui, et ornare mi auctor in. Vivamus         
+                            non eros ac metus malesuada venenatis. Integer eget diam             
+                            ut eros consectetur ornare id at massa. Nulla bibendum dolor        
+                            sit amet magna aliquam venenatis. Fusce vestibulum, risus et        
+                            sagittis tristique, massa turpis fringilla libero, nec cursus       
+                            risus justo eget mi.&lt;/p&gt;
+                        &lt;p&gt;Aenean diam lectus, facilisis sit amet porttitor a, euismod         
+                            nec enim. Nam scelerisque nibh sed lacus fringilla dignissim     
+                            laoreet et ipsum. Donec tristique iaculis eros id porttitor.     
+                            Pellentesque eget leo ac risus tempus fermentum at sed massa.     
+                            Vestibulum ante ipsum primis in faucibus orci luctus et           
+                            ultrices posuere cubilia Curae; Duis est mi, vulputate ac         
+                            dignissim vel, imperdiet vel arcu. Phasellus vehicula, lacus      
+                            in vestibulum suscipit, metus nibh ultricies dolor, ut            
+                            elementum purus sem vitae odio.&lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;span class="gallerybox"&gt;&lt;span class="picbox"&gt;
+                    "Insert block quote or other text here.  Insert block quote or other text here.  Insert block quote or other text here.  Insert block quote or other text here."
+                &lt;/span&gt;&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    </pre>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x14845" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

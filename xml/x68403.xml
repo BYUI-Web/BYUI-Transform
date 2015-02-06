@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x68403" Name="Glossary" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Glossary</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Glossary</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<table cellpadding="10px">
+<tbody>
+<tr>
+<td width="80px"><strong>(X)HTML Editor</strong></td>
+<td>Provides a rich WYSIWYG editing environment to create and format content within an XML page.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Ancestor</strong></td>
+<td>Refers to page(s) above the currently selected page in the site tree.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Ancestor Navigation</strong></td>
+<td>Link(s) referencing nodes one level or more above the current page.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Archive</strong></td>
+<td>Storage of Ingeniux pages in a Microsoft SQL database.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Assign To</strong></td>
+<td>Administrative function that associates the selected page with another user.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Assignment List</strong></td>
+<td>A catalog of pages for which the current user is responsible.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Check-In</strong></td>
+<td>Process of submitting changes to the CMS, prior to publishing a page.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Check-out</strong></td>
+<td>Process of requesting permission to make changes to a page.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Child</strong></td>
+<td>Refers to a page existing one level below the currently selected page in the site tree.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Child Navigation</strong></td>
+<td>Link(s) referencing nodes below the current page.</td>
+</tr>
+<tr>
+<td width="80px"><strong>CMS Client</strong></td>
+<td>Application used to build, manage, and publish content by connecting to the BYU-I Web Builder.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Component</strong></td>
+<td>Contains content that can be used in multiple pages of the site.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Content Store</strong></td>
+<td>A collective term for the XML pages that make up the site.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Dependencies</strong></td>
+<td>The connections between pages.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Design-Time Server/BYU-I Web Builder</strong></td>
+<td>Used by content creators to build, manage, and publish content. (Also known as the Development Server.)</td>
+</tr>
+<tr>
+<td width="80px"><strong>Edit Pane</strong></td>
+<td>Displays the selected page and provides the interface for editing, if the page is checked out and assigned to the user (or the user has administrative rights to the page).</td>
+</tr>
+<tr>
+<td width="80px"><strong>Element</strong></td>
+<td>The smallest logical piece of an XML file represented by tags, e.g. .</td>
+</tr>
+<tr>
+<td width="80px"><strong>Enhanced Real-Time Monitoring</strong></td>
+<td>PeerSync scanning operations that track, in real time, a list of files in two directories and ensure the files contained in those directories are the same.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Exports</strong></td>
+<td>Send XML data (beyond xID, URL, schema, and name). Exports are configured to be included within a navigation. Local exports apply to a specific element; global exports apply across all pages in the site. Used by administrators only.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Full Access</strong></td>
+<td>Allows the specified group the ability to modify the node (and the nodes inheriting this permission).</td>
+</tr>
+<tr>
+<td width="80px"><strong>Full Publish</strong></td>
+<td>Deletes the contents of the Publishing Target, then publishes all pages checked in and marked for publish for a given publishing target.</td>
+</tr>
+<tr>
+<td width="80px"><strong>In-Context Edit (ICE)</strong></td>
+<td>A rendered preview of a page that allows changes to content; re-rendered after an edit completes.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Incremental Publish</strong></td>
+<td>Publishes selected pages and their dependent pages to the publishing target.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Mark for Publish</strong></td>
+<td>Tags a page for publish; tagged pages are published on the next full publish.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Navigation</strong></td>
+<td>Part of a page that provides a link to another resource.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Page Creation Rule</strong></td>
+<td>Specifies a page template used to create a new page and its location within the site tree; used in conjunction with workflow to simplify the creation and management of content.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Page Template/Schema</strong></td>
+<td>XML page used as a predesigned format or structure for creating new pages; specifies the element types and their attributes.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Page Types</strong></td>
+<td>Specifies a particular page template to use when creating a new page.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Pages</strong></td>
+<td>XML files created from templates; each contains content, a unique XID, and a Layout Attribute which points to a specific style sheet.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Parent</strong></td>
+<td>Refers to page(s) existing one level above the currently selected page in the Site Tree.</td>
+</tr>
+<tr>
+<td width="80px"><strong>PeerSync</strong></td>
+<td>Third-party utility used to replicate published pages from the publishing target to the Run-Time server.</td>
+</tr>
+<tr>
+<td width="80px"><strong>PeerSync Profile</strong></td>
+<td>Specific set of jobs and global configurations using the same service account.  An Ingeniux installation should only need one profile.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Permissions</strong></td>
+<td>The functions a given user group is able to perform, e.g. view the site tree, delete pages, create pages, etc.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Preview</strong></td>
+<td>Applies the specified stylesheet to the current page, rendering the page as it would appear on the Run-Time server.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Publish</strong></td>
+<td>Initiates the processing of a page by Ingeniux CMS to ready it for posting to the live, world-facing site; the process of creating XML pages in the Publishing Target for later replication to the Run-Time server.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Publishing Target</strong></td>
+<td>Sub-directory of the \xml\pub directory to which pages are published; specified during an incremental or full publish.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Read-Only Access</strong></td>
+<td>Allows the specified group to view the node (and the nodes inheriting this permission) without allowing edits.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Recycle Bin</strong></td>
+<td>Stores deleted pages. Pages can be restored if the Recycle Bin has not been emptied.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Revert (to Prior Version)</strong></td>
+<td>Action to restore a previous version of a page via the History tab and the versioning function. See also Rollback.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Rollback</strong></td>
+<td>Restores the page to the last checked-in version of the page, removing any changes made since the last check-in. See also Revert.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Run-Time server/Live site</strong></td>
+<td>Public-facing website (whether to a department, company, university, or the Internet) that serves content published by the Design-Time site.  (Also known as the production server)</td>
+</tr>
+<tr>
+<td width="80px"><strong>Sibling</strong></td>
+<td>Refers to a page existing on the same level in the site tree as the currently selected page.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Sibling Navigation</strong></td>
+<td>A link to a page at the same level in the site tree.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Site Folder</strong></td>
+<td>Hierarchical representation of site assets (pages, components, etc.).</td>
+</tr>
+<tr>
+<td width="80px"><strong>Site Tree</strong></td>
+<td>Logical representation of page relationships organized into ancestors, siblings, and children.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Start Page</strong></td>
+<td>Attribute of an ancestor navigation element which indicates the highest-level node to pull into the navigation; navigation stops one page below the page specified.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Static Directories</strong></td>
+<td>Directories containing files not edited by  the CMS. These directories are: Documents, Images, Media, PreBuilt.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Static Directories Job</strong></td>
+<td>PeerSync job designated to replicate content between static directories on the Design-Time and Run-Time servers.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Stylesheet</strong></td>
+<td>File used to format an XML document.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Unmark for Publish</strong></td>
+<td>Prevents the selected page from being published.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Upload</strong></td>
+<td>Function that allows a user to place documents, images, media, or other binary files onto the static directories of the Design-Time server.</td>
+</tr>
+<tr>
+<td width="80px"><strong>User Groups</strong></td>
+<td>Associate users into logical groups to which permissions are assigned.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Users</strong></td>
+<td>Accounts with access to the Ingeniux system; a user must be a member of a group to perform any functions.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Versioning</strong></td>
+<td>Provides for the storage of a predefined maximum number of previously checked-in versions of a page.</td>
+</tr>
+<tr>
+<td width="80px"><strong>Workflow</strong></td>
+<td>A logical sequence of workstates through which a page must move before being published.</td>
+</tr>
+<tr>
+<td width="80px"><strong>xID</strong></td>
+<td>A unique identifier assigned by the CMS.</td>
+</tr>
+<tr>
+<td width="80px"><strong>XML</strong></td>
+<td>A document using tags to give logical structure to the content without containing any formatting information.</td>
+</tr>
+<tr>
+<td width="80px"><strong>XSLT</strong></td>
+<td>Stylesheet language used to format an XML document.</td>
+</tr>
+</tbody>
+</table>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Component" readonly="false" hidden="false" required="false" Expanded="" List=""><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/><!--071613 xpowercomponent_Optional to xPower--></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x14845" CompTypes="SiteControl"/></Content>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x67892" Name="imageSwap.js" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">imageSwap.js</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">imageSwap.js</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">$(document).ready(function(){
+var speed = 5000;
+var stop = 0;
+var trgt = '';
+var newsLinkPic = $('#featured div.ui-tabs-panel');
+var newsLink = $('#featured ul.ui-tabs-nav li');
+/* alert("Hello" + newsLinkPic.length); */
+	$("#featured").tabs({fx:{opacity: "toggle"}}).tabs("rotate", speed, true);
+
+	$(newsLink).hover(function(){
+		$("#featured").tabs("rotate", stop, true);
+		$('#featured ul.ui-tabs-nav li.ui-tabs-selected').removeClass('ui-tabs-selected');
+		$(this).addClass('ui-tabs-selected');
+		trgt = $(this).children('a').attr('href');
+		$(newsLinkPic).addClass('ui-tabs-hide').hide();
+		$(trgt).removeClass('ui-tabs-hide');
+		$(trgt).show();
+	}, function(){
+		$("#featured").tabs({fx:{opacity: "toggle"}}).tabs("rotate", speed, true);
+	});
+});</ESContent></EmptyShell>

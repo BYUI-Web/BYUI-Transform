@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x35974" Name="Polynesian Fun facts" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Polynesian Association Fun Facts</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Brigham Young University Idaho - Polynesian Association Fun Facts</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style type="text/css"><!--
+#page{width: 710px; height: auto; min-height: 600px;}
+    #page #header{width: 710px; height: 265px;}
+    #page #content{width: 78%; height: auto; min-height: 300px; float: left; padding: 1%;}
+    #page #content p{padding-left: 5px;}
+
+    #page #buttons{width: 18%; height: auto; min-height: 300px; float: left; padding: 1%; text-align: center;}
+    #page #buttons div{width: 100px; height: 100px; margin-left: auto; margin-top: 10px; margin-bottom: 20px;}
+     #page .useful{
+background-image: url('Images/student-support/Associations/Association_icons/latinW.png'); 
+background-size: 100%; 
+background-repeat: no-repeat;
+display:block;
+height:100px;
+width:100px;
+margin-left:30px;
+
+}
+    #page #buttons .fun{
+background-image: url('Images/student-support/Associations/Association_icons/latinF.png'); 
+background-size: 100%; 
+background-repeat: no-repeat;
+display:block;
+height:100px;
+width:100px;
+margin-left:30px;
+}
+    #page #buttons .join{
+background-image: url('Images/student-support/Associations/Association_icons/join.png'); 
+background-size: 100%; 
+background-repeat: no-repeat;
+display:block;
+height:100px;
+width:100px;
+margin-left:30px;
+}
+
+    #page #buttons .useful:hover{background-image: url('Images/student-support/Associations/Association_icons/blackandwhite.png');}
+    #page #buttons .fun:hover{background-image: url('Images/student-support/Associations/Association_icons/blackandwhiteF.png');}
+   #page #buttons .join:hover{background-image: url('Images/student-support/Associations/Association_icons/join(0)blackandwhite.png');}
+--></style>
+<div id="page">
+<div id="header"><img src="Images/student-support/Associations/Association_headers/Polynesian_710px.jpg" /></div>
+<div id="content">
+<h1>Fun Facts</h1>
+<h3>Did you know that...</h3>
+<ul>
+<li>Rapa Nui was the only Polynesian culture to keep a written language.</li>
+<li>Easter Island get its name from its discovery on Easter Sunday, 1722.</li>
+<li>Tonga is located right on the International Date Line, so it's the first nation to bring in the New Year for the world.</li>
+<li>Tonga consists of&nbsp; over 170 islands. About 50 of the islands are inhabited.</li>
+<li>In ancient Fiji, all boys would have their heads sheved hen they were five years old- and they keep their heads shaved until they were 18.&nbsp; Growing their hairwas a symbol of manhood.</li>
+<li>Until the mid-19th century, the practice of eating one's enemy was an accepted and honored tradition in Fiji.</li>
+<li>Hawaii gets more visitors in 10 days than Tahiti does in an entire year.</li>
+<li>It's common to put a tiare (Tahiti's national flower) behind one's ear -- left side you're taken, right if you're looking.</li>
+<li>In Samoa, young men are in charge of the food- including the gathering and the cooking.</li>
+<li>Samoans are known throughout Polynesia as the "happy people" because of their enjoyment of life and their good-spirited nature.</li>
+<li>A kiwi is not a fruit - it is New Zealand's native flightless bird and a slang term for a New Zealander. Kiwis call the fruit "kiwifruit" - they are also known as Chinese Gooseberries.</li>
+<li>Sir Edmund Hillary - the first man to reach the peak of Mount Everest was a New Zealander (born in Auckland) and his face is on the New Zealand $5 bill.</li>
+<li>The highest recorded temperature in Hawaii was 100 degrees Fahrenheit.</li>
+<li>Hawaii produces about 320,000 tons of pineapple each year.</li>
+<li>The Hawaiian alphabet consists of only twelve letters. The five vowels are A,E, I, O,U. And the seven consonants are H,K,L,M,N,P,W.</li>
+</ul>
+</div>
+<div id="buttons"><a class="useful" href="x35973.xml">&nbsp;</a> <a class="fun" href="x35974.xml">&nbsp;</a> <a class="join" href="x35972.xml">&nbsp;</a></div>
+<a href="x35979.xml">
+<script type="text/javascript">
+window.onload=function(){
+    
+        $('.join').hover(function(){
+         $(this).attr('src','Images/student-support/Associations/Association_icons/joingray.png');
+},
+function(){
+   $(this).attr('src','Images/student-support/Associations/Association_icons/join.png');
+}
+);
+
+    }//end window load
+</script>
+</a></div>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Component" readonly="false" hidden="false" required="false" Expanded="" List=""><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/><!--071613 xpowercomponent_Optional to xPower--></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x35763" CompTypes="SiteControl" Expanded="false"/></Content>

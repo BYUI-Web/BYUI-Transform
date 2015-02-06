@@ -1,0 +1,509 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<Content ID="x50682" Name="Pathway New Student Checklist" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Pathway New Student Checklist</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Pathway New Student Checklist</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<div>
+<div>
+<p><meta /></p>
+</div>
+</div>
+<style><!--
+#page h1 {
+color: #fff;
+font-family: sans-serif;
+font-size: 150%;
+vertical-align: middle;
+line-height: 1.3em;
+}
+
+#page h1 span {
+font-size: 60%;
+opacity: .7;
+}
+        .checklist_item{
+            position:relative;
+            clear:both;
+            float:left;
+            width:700px;
+            
+        }
+        .checklist_item:not(:first-child){
+            margin-top:25px;
+        }
+        a:hover{
+            opacity:.8;
+        }
+        .top{
+            cursor:pointer;
+            margin-bottom:50px;
+        }
+        .circle{
+            background-color:#fff;
+            border:1px #D4D4D4 solid;
+            height:60px;
+            width:60px;
+            border-radius:30px;
+            position:absolute;
+            z-index:1;
+            margin-top:7px;
+        }
+        .accept_decline .circle{
+            background-image:url('Images/student-support/checklist/accept_decline.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .accessyourst .circle{
+            background-image:url('Images/student-support/checklist/accessyourst.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .applyfor .circle{
+            background-image:url('Images/student-support/checklist/applyfor.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .plannow .circle{
+            background-image:url('Images/student-support/checklist/plannow.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .findstudent .circle{
+            background-image:url('Images/student-support/checklist/findstudent.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .checkemail .circle{
+            background-image:url('Images/student-support/checklist/accept_decline.png');
+            background-size:100%;
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .preparetoreg .circle{
+            background-image:url('Images/student-support/checklist/online_prepare-to-register.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .sendtransfer .circle{
+            background-image:url('Images/student-support/checklist/sendtransfer.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .insuranceand .circle{
+            background-image:url('Images/student-support/checklist/insuranceand.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .reviewacademic .circle{
+            background-image:url('Images/student-support/checklist/reviewacademic.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .registerforclass .circle{
+            background-image:url('Images/student-support/checklist/registerforclass.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .reservetextb .circle{
+            background-image:url('Images/student-support/checklist/reservetextb.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .obtaincampus .circle{
+            background-image:url('Images/student-support/checklist/obtaincampus.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .exploredining .circle{
+            background-image:url('Images/student-support/checklist/exlporedining.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .learnhow .circle{
+            background-image:url('Images/student-support/checklist/learnhow.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .moveintoyour .circle{
+            background-image:url('Images/student-support/checklist/moveintoyour.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .obtain-youri .circle{
+            background-image:url('Images/student-support/checklist/obtain-youri.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .registerfor .circle{
+            background-image:url('Images/student-support/checklist/registerfor.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .paytuition .circle{
+            background-image:url('Images/student-support/checklist/paytuition.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .havelunchat .circle{
+            background-image:url('Images/student-support/checklist/havelunchat.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .purchaseorpi .circle{
+            background-image:url('Images/student-support/checklist/purchaseorpi.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .meetyouri .circle{
+            background-image:url('Images/student-support/checklist/meetyouri.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .participateing .circle{
+            background-image:url('Images/student-support/checklist/participateing.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .comp_and_tech .circle{
+            background-image:url('Images/student-support/checklist/comp-and-technology.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .registerforgs111 .circle{
+            background-image:url('Images/student-support/checklist/register-for-gs-111.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .byu_idaho_welcome .circle{
+            background-image:url('Images/student-support/checklist/online_BYU-Idaho-welcome.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .familiarize-yourself .circle{
+            background-image:url('Images/student-support/checklist/familiarize-yourself.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .first_day .circle{
+            background-image:url('Images/student-support/checklist/FIRST-DAY-BLUE.png');
+            background-size:100%;
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+
+        .head {
+width: 661px;
+height: 51px;
+background-color: #404041;
+position: absolute;
+z-index: 0;
+left: 40px;
+top: 12px;
+}
+
+        .head:hover{
+            opacity:.9;
+        }
+        .head h1{
+            font-size:1em;
+            margin-top:-10px;
+            font-family:helvetica, sans-serif;
+            font-weight:600;
+            position:absolute;
+            left:40px;
+            bottom:3px;
+        }
+
+
+        ul.content{
+            background-color:#FeFeFe;
+            box-shadow:1px 1px 1px #ddd;
+            font-size:1.3em;
+            margin:55px 0 0 50px;
+            padding:20px 20px;
+            width:610px;
+        }
+        ul.content p{
+            color:#434343;
+            font-size:.7em;
+            line-height:120%;
+        }
+        ul.content li ul li{
+            color:#434343;
+            font-size:.7em;
+            margin-top:-10px;
+            margin-bottom:20px;
+        }
+        #page ul.content li{
+            list-style-type:square;
+            color:#535354;
+            margin-left:35px;
+
+        }
+        .down_arrow{
+            border-color:white transparent transparent transparent;
+            border-width:9px;
+            border-style:solid;
+            width:0;
+            height:0;
+            float:right;
+            margin:12px 25px 0 0;
+        }
+        .up_arrow{
+            border-color:transparent transparent white transparent;
+            border-width:9px;
+            border-style:solid;
+            width:0;
+            height:0;
+            float:right;
+            margin:4px 25px 0 0;
+        }
+        .read_more{
+            float:left;
+            margin:-15px 0 0 120px;
+        }
+    .footer{
+        width:500px;
+        background-color:#E7E7E7;
+        float:left;
+        margin:110px 0 0 10px;
+        border-radius:20px;
+    }
+    .footer ul{
+        padding-left: 20px;
+        margin-left: 0px;
+    }
+    .footer li{
+        list-style-type:none;
+        float:left;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .footer .p_meta{
+        display: block;
+        float: left;
+        font-size: 12px;
+        font-weight: bold;
+        width: 90px;
+    }
+
+    .footer li img{
+        margin:15px 0 0 0;
+    }
+    .footer h5{
+        margin:10px 20px;
+        color:#2B5E95;
+        font-size:1em;
+    }
+    .footer p { width: 400px; }
+    .footer li p, .footer li a{
+    }
+    .footer .long{
+    }
+    ul ul li p{
+        margin:0;
+    }
+    ul.moo{
+      list-style-type:circle;  
+    }
+    .footer ul li{
+        list-style-type: none;
+    }
+--></style>
+<div>
+<div id="page">
+<section class="checklist_item accessyourst">
+<div class="top">
+<div class="circle"></div>
+<div class="head">
+<h1>Access Your Student Portal (pathway.lds.org)</h1>
+<div class="down_arrow arrow"></div>
+</div>
+</div>
+<ul class="content first" style="display: none;">
+<li>
+<p>Access your personalized student portal by logging in to <a class="long" href="https://pathway.lds.org" target="_blank">pathway.lds.org</a>.</p>
+</li>
+<li>
+<p>Use this portal to access your online courses, find your missionaries&rsquo; contact information, and pay tuition.</p>
+</li>
+</ul>
+</section>
+<section class="checklist_item checkemail">
+<div class="top">
+<div class="circle"></div>
+<div class="head">
+<h1>Check Your Email Regularly</h1>
+<div class="down_arrow arrow"></div>
+</div>
+</div>
+<ul class="content first" style="display: none;">
+<li style="list-style-type: square;">
+<p>Email is the official method of communication for Pathway. Be sure to open and read all email from the Pathway Home Office or the Pathway Support Center. Check your email regularly for important information and announcements.</p>
+</li>
+</ul>
+</section>
+<section class="checklist_item comp_and_tech">
+<div class="top">
+<div class="circle"></div>
+<div class="head">
+<h1>Computer and Technology Preparation</h1>
+<div class="down_arrow arrow"></div>
+</div>
+</div>
+<ul class="content first" style="display: none;">
+<li style="list-style-type: square;">
+<p>Before logging in to your BYU-Idaho online courses, ensure that you have daily access to a computer with reliable Internet access.</p>
+</li>
+</ul>
+</section>
+<section class="checklist_item registerforclass">
+<div class="top">
+<div class="circle"></div>
+<div class="head">
+<h1>Register for Institute <span>(Standard Version, Age 18-30 &amp; Age18+ Groups Only)</span></h1>
+<div class="down_arrow arrow"></div>
+</div>
+</div>
+<ul class="content second" style="display: none;">
+<li>
+<p>Register for your Pathway institute course by using the Institute of Religion <a class="long" href="http://institute.lds.org/find-institute" target="_blank">online registration system</a> or by contacting the institute staff.</p>
+</li>
+</ul>
+</section>
+<section class="checklist_item first_day">
+<div class="top">
+<div class="circle"></div>
+<div class="head">
+<h1>First Day of Class</h1>
+<div class="down_arrow arrow"></div>
+</div>
+</div>
+<ul class="content first" style="display: none;">
+<li>
+<p>Online courses become available Saturday, September 13, and the first official day of class is Monday, September 15.</p>
+</li>
+<li>
+<p>To access your courses, log in to your student portal at <a class="long" href="https://pathway.lds.org" target="_blank">pathway.lds.org</a> and select the course link in the &ldquo;My Classes&rdquo; section.</p>
+</li>
+<li>
+<p>Review your course syllabus and outline, then post your introduction on the discussion board.</p>
+</li>
+<li>
+<p>For help navigating your online course, view this <a class="long" href="https://video.byui.edu/media/Student+I-Learn+Intro/0_cc1miy1i" target="_blank">tutorial</a>.</p>
+</li>
+</ul>
+</section>
+<section class="checklist_item preparetoreg">
+<div class="top">
+<div class="circle"></div>
+<div class="head">
+<h1>First Gathering</h1>
+<div class="down_arrow arrow"></div>
+</div>
+</div>
+<ul class="content second" style="display: none;">
+<li>
+<p>The first Pathway gathering will be held on Thursday, September 18.</p>
+</li>
+<li>
+<p>Attend the gathering at the location and time listed when you log in at <a class="long" href="https://pathway.lds.org" target="_blank">pathway.lds.org</a>, or contact your Pathway missionaries.</p>
+</li>
+</ul>
+</section>
+<section class="checklist_item paytuition">
+<div class="top">
+<div class="circle"></div>
+<div class="head">
+<h1>Pay Tuition</h1>
+<div class="down_arrow arrow"></div>
+</div>
+</div>
+<ul class="content second" style="display: none;">
+<li>
+<p>To pay your tuition, access your personalized student portal by logging in to <a class="long" href="https://pathway.lds.org" target="_blank">pathway.lds.org</a>. Select the "Payment" option from the drop-down menu next to your name and follow the steps given.</p>
+</li>
+<li>
+<p>If you have payment issues, contact the <a class="long" href="https://pathway.lds.org/Main/AdvisingAndSupport" target="_blank">Pathway Support Center</a>.</p>
+</li>
+</ul>
+</section>
+<section class="checklist_item registerforgs111">
+<div class="top">
+<div class="circle"></div>
+<div class="head">
+<h1>Follow Pathway's Social Media</h1>
+<div class="arrow down_arrow"></div>
+</div>
+</div>
+<ul class="content second" style="display: none;">
+<li>
+<p>Like the <a class="long" href="https://www.facebook.com/BYUIdahoPathway" target="_blank">Pathway Facebook page</a>.</p>
+</li>
+<li>
+<p>Follow the Pathway <a class="long" href="https://www.pinterest.com/byuipop/" target="_blank">Pinterest boards</a>.</p>
+</li>
+<li>
+<p>Follow Pathway on <a class="long" href="https://www.twitter.com/BYUIdahoPathway" target="_blank">Twitter</a>.</p>
+</li>
+</ul>
+</section>
+<div class="footer">
+<h5><strong>Need Help?</strong><br /> Contact the Pathway Support Center</h5>
+<ul>
+<li><span class="p_meta">Phone</span> <a href="tel:+12084969898">(208) 496-9898</a>&nbsp;U.S. Toll Free Phone:<a href="tel:+18559946721">1 (855) 994-6721</a></li>
+<li><span class="p_meta">Email</span> <a class="long" href="mailto:pathwaysupport@byui.edu" target="_blank">pathwaysupport@byui.edu</a></li>
+<li><span class="p_meta">Webpage</span> <a class="long" href="https://pathway.lds.org/Main/AdvisingAndSupport" target="_blank">https://pathway.lds.org/Main/AdvisingAndSupport</a></li>
+<li><span class="p_meta">Open Hours</span>
+<p>Mon-Fri 7 a.m.-7 p.m. MDT</p>
+</li>
+</ul>
+</div>
+</div>
+<p>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+window.onload = function(){
+    (function(){
+        var content = $('.content'),
+            top = $('.top'),
+            checklist = {
+            init: function(){
+                content.hide();
+                top.on('click', checklist.show);
+                
+            },
+            show: function(){
+                var arrow = $(this).find('.head').find('div.arrow');
+                    
+
+                $(this).next('.content').slideToggle();
+                arrow.toggleClass('up_arrow');
+                arrow.toggleClass('down_arrow');
+
+
+            },
+            read: function(){
+                var arrow = $(this).find('.head').find('div.arrow');
+
+                $('<p class="read_more">Read More</p>')
+                    .appendTo('.top .head');
+
+            }
+        };
+        checklist.init();
+
+    })();
+}
+</script>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-33977325-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+</p>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="true" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x91759" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

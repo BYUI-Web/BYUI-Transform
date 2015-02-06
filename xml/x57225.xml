@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.70 - http://www.ingeniux.com ***-->
+<AdminPage ID="x57225" Name="Online Tutoring" Layout="admin_office_home.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Online Tutoring Options</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Online Tutoring</Abstract><MainMesgTop type="boolean" label="Enable to move &quot;Main Message&quot; to top of page" readonly="false" required="false" hidden="false">false</MainMesgTop><IntroCopy type="dhtml" label="Main Message" readonly="false" hidden="false" required="false"><![CDATA[<p>Please Note: If you are on campus, you need to use the Tutoring Center located at MCK 272. Online tutoring is only for students outside of Rexburg<br /><br /> You can sign up for online tutoring through <a href="https://tutortrac.byui.edu/TracWeb40/main.4sp">Tutortrac</a>. When signing up for a session, please keep in mind that all times posted are <a href="http://www.mapsofworld.com/usa/thematic-maps/usa-time-zone.html" target="_self">Mountain Time Zone.</a> <br /> </p>
+<ol><ol>
+<li>Once you've signed in to Tutor Trac, select the course for which you desire tutoring and search for available tutors.</li>
+<li>Select a day and time that works for you.</li>
+<li>You must specify in the "additional notes" box that this session will be online. You should also include any questions or concepts you&rsquo;ll want help with, then save the appointment.</li>
+<li>You must then email the tutor to confirm that this session is online. In this email dialogue it would be wise to exchange phone numbers to improve communication.</li>
+<li>You will then need to sign up for a <a href="https://login.skype.com/account/signup-form?return_url=https%3A%2F%2Fsecure.skype.com%2Faccount%2Flogin" target="_self">Skype</a> account, if you do not already have one. Once a Skype account has been created, you will need to add the following contacts to your contact list:</li>
+</ol></ol>
+<p></p>
+<pre>      Tutoringcenter1
+      Tutoringcenter2
+      Tutoringcenter3
+      Tutoringcenter4</pre>
+<p></p>
+<ol>
+<li>You will then meet the tutor on Skype at the specified time of your session. If the session needs an online whiteboard, then the tutor will arrange for it.</li>
+</ol>
+<p><br /> <br /> Please keep in mind that it may take a few minutes for tutors to get the tutoring session set up. Please be patient with the technology.<br /><br /> If there doesn't appear to be a tutor for a specific course, or there isn't a time that meets your need, please contact the Director of Tutoring. <br /> </p>
+<pre>      Brother Gentry
+      <a href="mailto:gentrym@byui.edu" target="_self">gentrym@byui.edu</a>
+      (208) 496-4287</pre>
+<p></p>
+<h3>Necessary Tools for Online Tutoring</h3>
+<ul>
+<li>A computer with a microphone and speakers (headset)</li>
+<li>High speed internet</li>
+<li>A Skype account</li>
+<li>A webcam (recommended)</li>
+</ul>]]></IntroCopy><xPower Type="GroupStart" GroupStart="" Name="CellGroup" label="Cells" readonly="false" hidden="false" required="false" Expanded="false"><numColumns type="enumeration" values="1 2 3 4 5" label="Select number of cell columns." readonly="false" hidden="false" required="true">3</numColumns><xPower Type="List" List="xpowercomponent_Cell" Name="CellList" label="Cell List" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"><xPower Type="Component" Component="" Name="Cell" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"/></xPower></xPower><xPower Type="List" List="xpowercomponent_BannerAd" Name="BannerAds" label="Rotating Ads (650x216px required)" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"><xPower Type="Component" Component="" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/></xPower><xPower Type="Navigation" StartPage="" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="" Query="" Name="DeptEvents" label="Define Your Events Folder" readonly="false" hidden="false" required="false" Expanded="false"/><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="QuickLinksGroup" label="Quick Links Group" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Component="" Name="QuickLinks" label="Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x25860" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></AdminPage>

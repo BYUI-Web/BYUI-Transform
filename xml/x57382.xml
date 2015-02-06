@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<AdminPage ID="x57382" Name="Academic Administration" Layout="byuidefault.xsl">
+	<Title type="string" label="Title" readonly="false" hidden="false" required="true" ID="1">Academic Administration</Title>
+	<Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true" ID="2">Academic Administration</Abstract>
+	<MainMesgTop type="boolean" label="Enable to move &quot;Main Message&quot; to top of page" readonly="false" required="false" hidden="false" ID="3">true</MainMesgTop>
+	<BodyCopy type="dhtml" label="Main Message" readonly="false" hidden="false" required="false" ID="4">
+		<![CDATA[<p><img height="222" src="Images/homepage-main/LearningModelA.jpg" style="display: block; margin-left: auto; margin-right: auto;" width="710" /></p>
+<p>Welcome to the Office of Academic Administration. Here we have the responsibility of coordinating all of the details related to providing instruction at BYU-Idaho. This includes coordination of the faculty, instruction, curriculum, on-line learning, academic and institutional research, and efficient use of instructional resources. For general information, please follow the contact details below, or use the left navigation to find specific resources related to our office.</p>
+<table border="0">
+</table>
+<table border="0">
+<thead> 
+<tr>
+<th>Mailing Address</th><th>Information</th>
+</tr>
+</thead> 
+<tbody>
+<tr>
+<td>
+<p>Brigham Young University-Idaho<br />Academic Office<br />210 KIMBALL<br />Rexburg, ID 83460-1690</p>
+</td>
+<td>
+<p>Phone: (208) 496-1141<br />Fax: (208) 496-3262<br />E-mail: hollandk@byui.edu</p>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>Office Hours:&nbsp;8am - 5pm MTWTF</p>
+</td>
+</tr>
+</tbody>
+</table>]]></BodyCopy>
+	<xPower Type="GroupStart" GroupStart="" Name="CellGroup" label="Cells" readonly="false" hidden="false" required="false" Expanded="true" ID="5">
+		<numColumns type="enumeration" values="1 2 3 4 5" label="Select number of cell columns." readonly="false" hidden="false" required="true" ID="6">1</numColumns>
+		<xPower Type="List" List="xpowercomponent_Cell" Name="CellList" label="Cell List" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false" ID="7">
+			<xPower Type="Component" Component="" Name="Cell" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false" ID="8"/>
+		</xPower>
+	</xPower>
+	<xPower Type="List" List="xpowercomponent_BannerAd" Name="BannerAds" label="Rotating Ads (650x216px required)" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="true" ID="9">
+		<xPower Type="Component" Component="" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false" ID="10"/>
+	</xPower>
+	<xPower Type="Navigation" StartPage="" MaxDepth="" MaxNodes="" GenerationOrder="" Navigation="" Query="" Name="DeptEvents" label="Define Your Events Folder" readonly="false" hidden="false" required="false" Expanded="true" ID="11"/>
+	<xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" ID="12" Expanded="false"/>
+	<xPower Type="GroupStart" GroupStart="" Name="QuickLinksGroup" label="Quick Links Group" readonly="false" hidden="false" required="false" Expanded="false" ID="13">
+		<xPower Type="Component" Component="" Name="QuickLinks" label="Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" ID="14" Expanded="false"/>
+		<xPower Type="Component" Component="" Name="QuickLinks" label="Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" ID="15" Expanded="false"/>
+		<xPower Type="Component" Component="" Name="QuickLinks" label="Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" ID="16" Expanded="false"/>
+	</xPower>
+	<xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" ID="17">
+		<BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false" ID="18"/>
+		<MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false" ID="19"/>
+		<NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false" ID="20">false</NoFollow>
+		<NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false" ID="21">false</NoIndex>
+		<NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false" ID="22">false</NoODP>
+		<Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false" ID="23">0.5</Priority>
+	</xPower>
+	<xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" ID="24"/>
+	<xPower Type="Component" Component="x17643" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" ID="25" Expanded="false"/>
+</AdminPage>

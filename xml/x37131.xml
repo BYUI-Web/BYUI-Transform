@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x37131" Name="About Get Connected" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">About Get Connected</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">BYU-Idaho About Get Connected</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style type="text/css"><!--
+#page{width: 710px; height: auto; min-height: 600px;}
+    #page #header{width: 710px; height: 265px;}
+    #page #content{width: 78%; height: auto; min-height: 300px; float: left; padding: 1%;}
+    #page #content p{padding-left: 5px;}
+    #page #buttons{width: 18%; height: auto; min-height: 300px; float: left; padding: 1%; text-align: center;}
+    #page #buttons div{width: 100px; height: 100px; margin-left: auto; margin-top: 10px; margin-bottom: 20px;}
+   #page #buttons .one{background-image: url('Images/student-support/Get Connected/get-connected-sprite2.gif');background-position:0 100px;}
+    #page #buttons .two{background-image: url('Images/student-support/Get Connected/get-connected-sprite2.gif');background-position:0 304px;}
+    #page #buttons .three{background-image: url('Images/student-support/Get Connected/get-connected-sprite2.gif');background-position:0 512px;}
+ 
+
+    #page #buttons .one:hover{background-image: url('Images/student-support/Get Connected/get-connected-sprite2.gif');background-position:0 203px;}
+    #page #buttons .two:hover{background-image: url('Images/student-support/Get Connected/get-connected-sprite2.gif');background-position:0 408px;}
+    #page #buttons .three:hover{background-image: url('Images/student-support/Get Connected/get-connected-sprite2.gif');background-position:0 615px;}
+
+    #page #buttons .live_chat{
+        margin-left:27px;
+        padding:10px 15px;
+        /* IE10 Consumer Preview */ 
+        background-image: -ms-linear-gradient(top, #BABABA 0%, #231F20 100%);
+
+        /* Mozilla Firefox */ 
+        background-image: -moz-linear-gradient(top, #BABABA 0%, #231F20 100%);
+
+        /* Opera */ 
+        background-image: -o-linear-gradient(top, #BABABA 0%, #231F20 100%);
+
+        /* Webkit (Safari/Chrome 10) */ 
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #BABABA), color-stop(1, #231F20));
+
+        /* Webkit (Chrome 11+) */ 
+        background-image: -webkit-linear-gradient(top, #BABABA 0%, #231F20 100%);
+
+        /* W3C Markup, IE10 Release Preview */ 
+        background-image: linear-gradient(to bottom, #BABABA 0%, #231F20 100%);
+        text-decoration:none;
+        color:#fff;
+        border-radius:4px;
+        font-family:sans-serif;
+        font-weight:bold;
+    }
+    #page #buttons .live_chat:hover{
+        opacity:.8;
+    }
+--></style>
+<div id="page">
+<div id="header"><img src="Images/student-support/Get Connected/about_get_Connected_header.jpg" /></div>
+<div id="content"><br />
+<h1>About Get Connected</h1>
+<p>At the start of each semester BYU-Idaho invites new students and parents to participate in Get Connected. New students are expected to fully participate in Get Connected.</p>
+<h2>Get Connected Registration</h2>
+<p>New students should register for Get Connected during the registration times posted on the Get Connected schedule. The registration process places new students in an I-Team (see below) and allows the University to track student participation in Get Connected.</p>
+<h2>I-Team</h2>
+<p>Volunteer to be on I-Team!An I-Team is a grouping of approximately 20 or more new students led by two or more current students who volunteer to serve as I-Team Leaders. New students will participate with their I-Team in key gatherings and events during Get Connected. Specialized I-Teams have been created for transfer and married students new to BYU-Idaho.</p>
+<a href="x37133.xml">Frequently Asked Questions</a></div>
+<br />
+<div id="buttons"><strong> Get Connected<br /> Schedules: </strong>
+<div class="one"></div>
+<div class="two"></div>
+<div class="three"></div>
+<p style="margin-top: -27px;">&nbsp;</p>
+<a class="live_chat" href="#">Live Chat</a></div>
+</div>
+<p>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-33977325-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+</p>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x19075" CompTypes="SiteControl" Expanded="false"/></Content>

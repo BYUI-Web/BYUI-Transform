@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.82 - http://www.ingeniux.com ***-->
+<CellComponent ID="x31945" Name="Column 2"><Title type="string" label="Title" readonly="false" hidden="false" required="true">temp title</Title><PicPosition type="enumeration" values="Top Right Left" label="Place Picture on ___ of text." readonly="false" hidden="false" required="true">Top</PicPosition><Image type="imagefile" label="Image" readonly="false" hidden="false" required="false" Width="" Height="" Alignment="" Border="" Expanded="true" AlternateText="" HSpace="" VSpace=""></Image><xPower Type="Link" Link="" Name="Link" label="Link" readonly="false" hidden="false" required="false" LinkText="" Target="" Expanded="false"/><IntroCopy type="dhtml" label="Message" readonly="false" hidden="false" required="false"><![CDATA[<div>
+<h3></h3>
+<h3><span style="text-decoration: underline;"><a href="https://dep.byui.edu/Parking/citdsp.asp">View or Appeal a Parking Citation</a></span></h3>
+<h3><span style="text-decoration: underline;"><a href="http://www.byui.edu/parkingservices/Parking%20Survey/">Parking Surveys</a></span></h3>
+<h3><span style="text-decoration: underline;"><a href="http://www.byui.edu/ParkingServices/Christmas_Break_Parking.htm">Leaving a Vehicle The Over a Break</a></span></h3>
+<h3><a href="http://www.rexburg.org/DocumentView.aspx?DID=175"><span style="text-decoration: underline;">Rexburg Bicylce Rules</span></a></h3>
+<h3><a href="http://www.byui.edu/ParkingServices/Campus%20Rules/Bicycle_and_Sidewalk_Safety.htm"><span style="text-decoration: underline;">Bicylcle and Sidewalk Safety</span></a></h3>
+<h3><span style="text-decoration: underline;"><a href="https://secure.byui.edu/cas/login?service=https://web.byui.edu/Services/Login/?RedirectURL=http%253a%252f%252fweb.byui.edu%252fpermits%252fbikepermit.aspx">Request a Bicylce Permit</a></span></h3>
+<p><span style="text-decoration: underline;"><br /></span></p>
+<hr />
+<h4><span style="color: #99ccff;"><strong><strong> </strong></strong>
+<h3><span style="color: #99ccff; font-size: large; font-family: times new roman,times;"> </span></h3>
+<strong><strong> </strong></strong></span></h4>
+</div>]]></IntroCopy><showLink type="boolean" label="Enable to display this cell's &quot;Footer Link&quot;." readonly="false" required="false" hidden="false">true</showLink><xPower Type="GroupStart" GroupStart="" Name="LinkText" label="Footer Link" readonly="false" hidden="false" required="false" Expanded="true"><LinkText type="string" label="Text" readonly="false" hidden="false" required="false">learn more here</LinkText><LinkHex type="string" label="Background Color | Enter hex value | Example: #000000" readonly="false" hidden="false" required="false">#000000</LinkHex><TextColor type="enumeration" values="Black White" label="Text Color" readonly="false" hidden="false" required="true">White</TextColor></xPower></CellComponent>

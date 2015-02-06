@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<PolicyPage ID="x63816" Name="Residence Hall Addresses" Layout="general_Policy.xsl"><Title type="string" label="Policy Title" readonly="false" hidden="false" required="true">What will be my address?</Title><Abstract type="string" label="Policy Abstract" readonly="false" hidden="false" required="true">This page contains information on mailing addresses for on-campus housing.</Abstract><Date type="date" label="Revision Date" readonly="false" hidden="false" required="true" display="localdateshort" UTC="true">20110411T06:00:00</Date><BodyCopy type="dhtml" label="Policy" readonly="false" hidden="false" required="false"><![CDATA[<p>All mail should be sent to:</p>
+<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>
+<h3>Your name</h3>
+<h4>[Apt #] [Name of Hall]</h4>
+<h4>525 S. Center St.</h4>
+<h4>Rexburg, ID 83460 - zip extension (see below)</h4>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>For Example, if you lived at Champman Hall, your address would be :</p>
+<h3>John Doe</h3>
+<h4>123 Chapman Hall</h4>
+<h4>525 S. Center St.</h4>
+<h4>Rexburg, ID 83460-0036</h4>
+<p>&nbsp;</p>
+<p>Residents should arrange their schedules to be available when luggage or packages arrive. Packages that are delivered to the residence halls by a parcel service are sometimes stacked in the lounge and their security cannot be guaranteed. When leaving BYU-Idaho residence halls to go home, be sure to notify friends, family, magazine subscriptions, etc. of a change of address.</p>
+<p>&nbsp;</p>
+<hr />
+<table border="0" style="width: 100%;">
+<tbody>
+<tr>
+<td colspan="2">
+<h3>The 4 zip extensions are:</h3>
+</td>
+</tr>
+<tr>
+<td>Virginia H. Perkins Hall</td>
+<td>0031</td>
+</tr>
+<tr>
+<td>Helen Lamprecht Hall</td>
+<td>0035</td>
+</tr>
+<tr>
+<td>Annie S. Kerr Hall</td>
+<td>0032</td>
+</tr>
+<tr>
+<td>Sarah Ann Barnes Hall</td>
+<td>0033</td>
+</tr>
+<tr>
+<td>Edna Ricks Hall<br /></td>
+<td>0034</td>
+</tr>
+<tr>
+<td>Lowell G. Biddulph Hall</td>
+<td>0046</td>
+</tr>
+<tr>
+<td>Verla J. Chapman Hall</td>
+<td>0036</td>
+</tr>
+</tbody>
+</table>
+<br />]]></BodyCopy><xPower Type="Component" Component="x11115" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="Policy" label="Policy" readonly="false" hidden="false" required="false" CompTypes="PolicyNavigationComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x9287" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></PolicyPage>

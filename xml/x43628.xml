@@ -1,0 +1,327 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content ID="x43628" Name="Private Scholarships" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Private Scholarships</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Private Scholarships</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p>
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40754833-1', 'byui.edu');
+  ga('send', 'pageview');
+</script>
+</p>
+<p><!--- Code for the slide features --->
+<script language="javascript" type="text/javascript">
+var fa_slideSpeed = 20;	// Higher value = faster
+var fa_timer = 2;	// Lower value = faster
+
+var objectIdToSlideDown = false;
+var fa_activeId = false;
+var fa_slideInProgress = false;
+var fa_slideInProgress = false;
+var fa_expandMultiple = false; // true if you want to be able to have multiple items expanded at the same time.
+
+function showHideContent(e,inputId) 
+{
+	if(fa_slideInProgress)return;
+	fa_slideInProgress = true;
+	if(!inputId)inputId = this.id;
+	inputId = inputId + '';
+	var numericId = inputId.replace(/[^0-9]/g,'');
+	var answerDiv = document.getElementById('fa_a' + numericId);
+
+	objectIdToSlideDown = false;
+
+	if(!answerDiv.style.display || answerDiv.style.display=='none'){
+		if(fa_activeId &&  fa_activeId!=numericId && !fa_expandMultiple){
+			objectIdToSlideDown = numericId;
+			slideContent(fa_activeId,(fa_slideSpeed*-1));
+		}else{
+
+			answerDiv.style.display='block';
+			answerDiv.style.visibility = 'visible';
+
+			slideContent(numericId,fa_slideSpeed);
+		}
+	}else{
+		slideContent(numericId,(fa_slideSpeed*-1));
+		fa_activeId = false;
+	}
+}
+
+function slideContent(inputId,direction)
+{
+
+	var obj =document.getElementById('fa_a' + inputId);
+	var contentObj = document.getElementById('fa_ac' + inputId);
+	height = obj.clientHeight;
+	if(height==0)height = obj.offsetHeight;
+	height = height + direction;
+	rerunFunction = true;
+	if(height>contentObj.offsetHeight){
+		height = contentObj.offsetHeight;
+		rerunFunction = false;
+	}
+	if(height<=1){
+		height = 1;
+		rerunFunction = false;
+	}
+
+	obj.style.height = height + 'px';
+	var topPos = height - contentObj.offsetHeight;
+	if(topPos>0)topPos=0;
+	contentObj.style.top = topPos + 'px';
+	if(rerunFunction){
+		setTimeout('slideContent(' + inputId + ',' + direction + ')',fa_timer);
+	}else{
+		if(height<=1){
+			obj.style.display='none';
+			if(objectIdToSlideDown && objectIdToSlideDown!=inputId){
+				document.getElementById('fa_a' + objectIdToSlideDown).style.display='block';
+				document.getElementById('fa_a' + objectIdToSlideDown).style.visibility='visible';
+				slideContent(objectIdToSlideDown,fa_slideSpeed);
+			}else{
+				fa_slideInProgress = false;
+			}
+		}else{
+			fa_activeId = inputId;
+			fa_slideInProgress = false;
+		}
+	}
+}
+
+
+
+function initShowHideDivs()
+{
+	var divs = document.getElementsByTagName('DIV');
+	var divCounter = 1;
+	for(var no=0;no<divs.length;no++){
+		if(divs[no].className=='fa_question'){
+			divs[no].onclick = showHideContent;
+			divs[no].id = 'fa_q'+divCounter;
+			var answer = divs[no].nextSibling;
+			while(answer && answer.tagName!='DIV'){
+				answer = answer.nextSibling;
+			}
+			answer.id = 'fa_a'+divCounter;
+			contentDiv = answer.getElementsByTagName('DIV')[0];
+			contentDiv.style.top = 0 - contentDiv.offsetHeight + 'px';
+			contentDiv.className='fa_answer_content';
+			contentDiv.id = 'fa_ac' + divCounter;
+			answer.style.display='none';
+			answer.style.height='1px';
+			divCounter++;
+		}
+	}
+}
+window.onload = initShowHideDivs;
+</script>
+</p>
+<style type="text/css"><!--
+/* CSS styles for the Show/Hide functionality. */
+.deadline{
+        margin-left: 100px;
+        background-color: #f0f0f0;
+        color: #666;
+        padding: 10px;
+        border: 1px solid #000;
+        
+    
+}
+
+.deadline:hover{
+        background-color: #fcc35a;
+}
+
+.fa_question{
+        overflow:hidden;
+	cursor:pointer;
+        background-color: #f0f0f0;
+        color: #666;
+        padding: 10px;
+        border: 1px solid #000;
+        -webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+	}
+.fa_question:hover{
+        background-color: #fcc35a;
+}
+.fa_answer{
+        visibility:hidden;
+	height:0px;
+	overflow:hidden;
+	position:relative;
+}
+.fa_answer_content{	/* Content that is slided down */
+        margin-top: 10px;
+	padding:1px;
+	font-size:1em;
+	position:relative;
+}
+
+.h1 {font-family: sans-serif; font-size: 3em; color: #000}
+.h2 {font-family: sans-serif; font-size: 2.25em; color: #000;}
+.h3 {font-family: sans-serif; font-size: 1.75em; color: #000;}
+.h4 {font-family: sans-serif; font-size: 1.3em; color: #000;}
+.h5 {font-family: sans-serif; font-size: 1em; }
+
+.move{margin-top: -25px;}
+--></style>
+<!--<div class="move"> -->
+<div class="fa_question"><span class="h3">Based on Major</span></div>
+<div class="fa_answer">
+<div>
+<div class="deadline"><span class="h4">Betty Schmidt Scholarship Fund </span><br /><br /><hr /><span class="h5">Scholarship for Accounting majors who are Idaho State residents. </span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">April 15, 2014</span> <a href="http://www.iapacct.com/Scholarships/" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br />
+<div class="deadline"><span class="h4">Lemhi County Cattlewomen</span><br /><br /><hr /><span class="h5">This scholarship was created for Students who have completed one year of college in Agricultural-related field.</span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">July 15, 2013</span> <a href="http://extension.ag.uidaho.edu/lemhi/" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br />
+<div class="deadline"><span class="h4">SEMA Memorial Scholarship Fund </span><br /><br /><hr /><span class="h5">The SEMA Memorial Scholarship Fund is dedicated to fostering the next generation of industry leaders and innovators. This program is dedicated to students entering the automotive industry. Awards range from $2,000 - $3,000, with $5,000 going to the top student.</span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">March 28,2014</span> <a href="http://www.sema.org/scholarships" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br />
+<div class="deadline"><span class="h4">SEMA Loan Forgiveness Program </span><br /><br /><hr /><span class="h5">This program is dedicated to aiding recent graduates in getting off to a successful start in their automotive aftermarket career. They offer $2,000 awards toward outstanding student loans for individuals who are employed by SEMA-member companies. </span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">March 28, 2104</span> <a href="http://www.sema.org/loan-forgiveness-program" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br />
+<div class="deadline"><span class="h4">HBPE Young Entrepreneur Scholarship</span><br /><br /><hr /><span class="h5">Hayes Barnard, CEO of Paramount Equity, built Paramount Equity with his two best friends and a small army of selfless people who were committed to helping families save money on the biggest expenses in their lives. The HBPE Young Entrepreneur Scholarship gives future entrepreneurs the opportunity to develop their ideas through higher education and help make a difference in the world. (see PDF application for details) </span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">See Application</span> <a href="Google" style="float: right;" target="_blank"><span class="h5">Coming Soon!</span></a></div>
+<br />
+<div class="deadline"><span class="h4">CEO of Tomorrow Scholarship</span><br /><br /><hr /><span class="h5">The CEO of Tomorrow Scholarship is directed to students interested in business leadership and/or entrepreneurship. The following submissions are required to be considered for the scholarship: (1) A short online survey and (2) a 500-1000 word essay on &ldquo;the CEO of tomorrow&rdquo; </span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">June 1, 2014</span> <a href="http://www.ceo.com/ceo-of-tomorrow-scholarship/" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br />
+<div class="deadline"><span class="h4">Vacation Roost Marketing Scholarship </span><br /><br /><hr /><span class="h5">The Interactive Marketing Scholarship is designed to encourage and promote creative marketing in relation to online business. A scholarship of $2,500 is awarded twice per year, once in August and January. </span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">June 15, 2013</span> <a href="http://www.vacationroost.com/about-us/community/scholarships" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br />
+<div class="deadline"><span class="h4">Society of Women Engineers (Letter)</span><br /><br /><hr /><span class="h5">This scholarship was designed to ease the shortage of engineers and is or students in preparation for careers in engineering in Washington, Oregon, and Idaho. Applicants must have completed at least one year of full time equivalent engineering credits at an ABET accredited school</span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">February 13, 2014</span> <a href="https://bluprd0113.outlook.com/owa/attachment.ashx?attach=1&amp;id=RgAAAACQbZtHRl5iS6ArYXFLpj%2bXBwDZpFvbNSV8TZGbMmFBhyIuAAAAwMvWAADZpFvbNSV8TZGbMmFBhyIuAAB26GyZAAAJ&amp;attid0=BAAAAAAA&amp;attcnt=1" style="float: right;" target="_blank"><span class="h5">PDF Application</span></a></div>
+<br />
+<div class="deadline"><span class="h4">JustHomeMedical.com Health Care Leaders Scholarship </span><br /><br /><hr /><span class="h5">Available to undergraduate or graduate students pursuing a career in health care. Applicants must make a 3-minute or less video answering the question &ldquo;What are your long and short term goals as a future health care professional?&rdquo; to apply. </span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">December 31, 2013</span> <a href="http://justhomemedical.com/health-care-leaders-scholarship" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br />
+<div class="deadline"><span class="h4">Thermo Scientific Pierce Scholarship </span><br /><br /><hr /><span class="h5">This scholarship was created to help provide educational opportunities for the future generation of scientists.</span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">December 31, 2013</span> <a href="http://www.pierce-antibodies.com/PierceScholarship/" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br />
+<div class="deadline"><span class="h4">AfterCollege Scholarships </span><br /><br /><hr /><span class="h5">Submit a resume and complete a profile on Aftercollege.com. You can apply for as many scholarships that you meet requirements for. This site offers access to internship opportunities, future employers, and job openings suited to you and your skills.</span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">December 31, 2013</span> <a href="http://aftercollege.com/content/scholarships/?source=finaidQ413" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br />
+<div class="deadline"><span class="h4">Employee Ownership in America: A Scholarship Opportunity from SES Advisors</span><br /><br /><hr /><span class="h5">In 500 words or less, submit an answer to the specified essay prompt. The scholarship is open to all majors, but is aimed at those pursuing a career in finance, accounting, employee benefits, or law.</span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">May 16, 2014</span> <a href="http://www.sesadvisors.com/esop-resources-articles-scholarship.htm" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br />
+<div class="deadline"><span class="h4">Corcentric Accounting Software Scholarship</span><br /><br /><hr /><span class="h5">This scholarship is open to all majors, but aimed at those interested in careers in Accounting or Finance. Applicants must submit and essay answering the specific writing prompt. Visit their site for more details and requirements.</span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">May 23, 2014</span> <a href="http://www.corcentric.com/contact/2014-accounting-software-scholarship.aspx" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br />
+<div class="deadline"><span class="h4">Idaho Irrigation Equipment Association Scholarship</span><br /><br /><hr /><span class="h5">This scholarship is awarded to students interested in the irrigation industry. Specified majors are included in application description. Applicants must complete the application, answer an essay question, and include a transcript (may be unofficial) from their most current school.</span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">February 24, 2014</span> <a href="Documents/Admin_Offices/Financial Aid/Outside_scholarships/Irrigation_schol_app.pdf" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br /> <br /><br /></div>
+</div>
+<div class="fa_question"><span class="h3">Based on Need</span></div>
+<div class="fa_answer">
+<div>
+<div class="deadline"><span class="h4">Sixt rent a car Scholarship</span><br /><hr /><span class="h5">Only the first 500 applicants are accepted and are selected on academic record, leadership in school and the community, honors, work experience, goals and aspirations, unusual circumstances, and an outside appraisal. See application for all requirements.</span> <br /><br /><br /> <span class="h5">Deadline: </span><hr /><span class="h5">March 13, 2014</span> <a href="http://www.sixt.com/actions/sixt-scholars" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br />
+<div class="deadline"><span class="h4">Adeline Neilson Scholarship</span><br /><hr /><span class="h5">Scholarship program available to students pursuing graduate or undergraduate degrees. Awards are determined by financial need, record of good personal conduct, distinguishing qualities, and goals.</span> <br /><br /><br /> <span class="h5">Deadline: </span><hr /><span class="h5">April 20, 2013</span> <a href="mailto:ansfnd@gmail.com?Subject=Adeline%20Neilson%20Scholarship" style="float: right;" target="_blank"><span class="h5">Email ansfnd@gmail.com by April 13, 2013</span></a></div>
+<br />
+<div class="deadline"><span class="h4">Jacobsen Scholarship Fund </span><br /><hr /><span class="h5">Scholarship program available to students pursuing graduate or undergraduate degrees. Awards are determined by financial need, record of good personal conduct, distinguishing qualities, and goals.</span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5"><span class="h5">Winter 2013 Semester - October 15, 2013;</span></span>
+<p style="color: grey;">Fall 2014 Semester - June 1, 2014</p>
+<a href="http://www.jacobsenscholarshipfund.com" style="margin-top: -50px; float: right;" target="_blank"><span class="h5">Click here for more information</span></a></div>
+<br /> <br /><br /></div>
+</div>
+<div class="fa_question"><span class="h3">Essay Scholarship</span></div>
+<div class="fa_answer">
+<div>
+<div class="deadline"><span class="h4">B. Davis Scholarship</span><br /><hr /><span class="h5">Student Award Search Aid is offering an annual scholarship to help students who visit their site. This is not an academic scholarship and applicants are required to submit an essay of less than 1000 words on the specified topic.</span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">May 26, 2014</span> <a href="http://www.studentawardsearch.com/scholarships.htm" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br />
+<div class="deadline"><span class="h4">Your Favorite Car Scholarship </span><br /><hr /><span class="h5">Scholarship offered through New Car Sell Off for students in an accredited post-secondary institution or planning to enroll in any program that is two years in length or more. Must be a resident of Canada or U.S. and submit essay and application online. </span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">April 30, 2014</span> <a href="http://www.calgarycardealerships.ca/used/327/used_ford_calgary.php" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br />
+<div class="deadline"><span class="h4">Global Lift Equipment Scholarship </span><br /><hr /><span class="h5">To be considered for this scholarship a student must be currently attending or planning on attending a post-secondary institution in Canada or the U.S. by September 2013 or 2014. This scholarship requires a short story, minimum GPA of 2.5, and residency in Canada or U.S.</span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">June 15, 2014</span> <a href="http://www.usedforklifttexas.com/used_inventory/2868/used_caterpillar_forklifts_inventory_texas.php" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br />
+<div class="deadline"><span class="h4">Carrington Dental Centre Scholarship Application </span><br /><hr /><span class="h5">Applicants must be a High School Senior, College/University Freshman, or College/University Sophomore as of Oct. 30th, 2013. Students must submit the answer to an essay question provided, have a parent/guardian submit a recommendation letter, be a resident of Canada or the U.S., and be enrolled in a post-secondary school no later than Fall of 2014. More information can be found on the website. </span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">October 30, 2013</span> <a href="http://www.westkelownadentists.ca/apply.php" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br />
+<div class="deadline"><span class="h4">ZingBroadBand Bloggership </span><br /><hr /><span class="h5">Applicants must be a High School Senior, College/University Freshman, or College/University Sophomore as of Oct. 30th, 2013. Students must submit the answer to an essay question provided, have a parent/guardian submit a recommendation letter, be a resident of Canada or the U.S., and be enrolled in a post-secondary school no later than Fall of 2014. More information can be found on the website. </span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">November 30, 2013</span> <a href="http://www.zingbroadband.com/scholarship/" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br />
+<div class="deadline"><span class="h4">Shout It Out Scholarship </span><br /><hr /><span class="h5">Applicants must sign up for membership on ScholarshipExperts.com and submit a short response (250 words or less) to the question: &ldquo;If you could say one thing to the entire world at once, what would it be and why?&rdquo; </span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">September 30, 2014</span> <a href="https://www.scholarshipexperts.com/our-scholarships/shout-it-out-scholarship" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br />
+<div class="deadline"><span class="h4">JonesTshirts.com Scholarship </span><br /><hr /><span class="h5">Applicants must submit a 500 to 1000 word essay describing at least 3 steps that you plan to take in the next year to start a path towards having a career that you love. More information can be found online. </span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">December 31, 2013</span> <a href="http://www.jonestshirts.com/scholarship" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br />
+<div class="deadline"><span class="h4">Odenza Marketing Group Spring Scholarship </span><br /><hr /><span class="h5">Applicants must be ages 16-25 on March 30th, 2014, have at least one full year of post secondary studies remaining, and have a minimum GPA of 2.5. One $500 award will be awarded and application requires two essay questions found online. </span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">March 30th, 2014</span> <a href="http://scholarshipguidance.com/scholarship_odenza_marketing_group_scholarship_8931.php" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br />
+<div class="deadline"><span class="h4">Peter Pasula Study Habits Scholarship </span><br /><hr /><span class="h5">Answer an essay question in 1,000 words or less. This scholarship is for Canada or U.S. Residents who are attending a post-secondary institution by Fall 2014, and must be enrolled in a program that is two years or longer. </span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">April 1st, 2014</span> <a href="http://scholarshipguidance.com/scholarship_peter_pasula_study_habits_scholarship_8935.php" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br />
+<div class="deadline"><span class="h4">Find a Law Scholarship </span><br /><hr /><span class="h5">One student will be awarded $500 for submitting an example of the craziest law still in existence in the United States (Federal, State, or Local). </span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">May 15th, 2014</span> <a href="http://scholarshipguidance.com/scholarship_find_a_law_scholarship_8929.php" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br />
+<div class="deadline"><span class="h4">The Best Price Nutrition &amp; Health Scholarship </span><br /><hr /><span class="h5">Complete a survey and submit an answer to an essay question in 750 words or less. Winner will receive $1,000 and $250 in supplements. Alumni may also apply, and if chosen, the award will be given to the school the alumni graduated from. </span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">December 31, 2013</span> <a href="http://www.bestpricenutrition.com/scholarship.html" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br />
+<div class="deadline"><span class="h4">Giva, Inc. Corporate Scholarship </span><br /><hr /><span class="h5">Scholarship is aimed at helping undergraduate or graduate students further their education. Applicants must write a thoughtful essay, include a current resume, and perform community service volunteer work. </span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">December 1 of each year</span> <a href="http://www.givainc.com/scholarships/" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br />
+<div class="deadline"><span class="h4">SaveOnEnergy.com Scholarship</span><br /><hr /><span class="h5">Applicants must research their school's green initiatives and submit a 600-800 word essay on the topic specified on the website. The top 5 essays will be chosen and then voted on via social media to pick the winner.</span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">November 17, 2013</span> <a href="http://www.saveonenergy.com/energy-scholarship/" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br />
+<div class="deadline"><span class="h4">Wholesale Halloween Costumes $500 Scholarship Award</span><br /><hr /><span class="h5">This site offers multiple scholarships each year. If you have missed the current deadline, re-visit to find the next scholarship period. Current prompt: write a Christmas story titled, "The Tale of the Christmas Dragon".</span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">January 31, 2014</span> <a href="http://www.wholesalehalloweencostumes.com/scholarship/" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br />
+<div class="deadline"><span class="h4">The Drive to Learn Scholarship</span><br /><br /><hr /><span class="h5">This scholarship is designed to encourage students to learn in and out of school. Reflect on your most memorable experiences as a driver/passenger and choose from 4 different prompts and write a 750-1,000 word essay.</span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">March 1, 2014</span> <a href="http://www.shiftins.com/automobile/car-insurance-program.aspx" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br />
+<div class="deadline"><span class="h4">The BigSun Scholarship </span><br /><br /><hr /><span class="h5">This scholarship is designed to help young athletes have success in academic pursuits. Applicants must be high school seniors or enrolled in a post secondary institute, and submit a short essay answering the specified question. </span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">June 20, 2014</span> <a href="http://www.bigsunathletics.com" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br />
+<div>
+<div class="deadline"><span class="h4">Zombie Apocalypse $1,500 Scholarship</span><br /><br /><hr /><span class="h5">Applicants must sign up for membership on ScholarshipExperts.com and respond (250 words max) to: "Use your brain to flesh out a plan to avoid the Zombies, including where you would hide and the top 5 things you would bring with you to stay alive."</span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">October 31, 2014</span> <a href="https://www.scholarshipexperts.com/our-scholarships/zombie-apocalypse-scholarship" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br />
+<div>
+<div class="deadline"><span class="h4">Education Matters $5K Scholarship</span><br /><br /><hr /><span class="h5">Applicants must sign up for membership on ScholarshipExperts.com and Respond (250 words max) to: "What would you say to someone who thinks education doesn't matter, or that college is a waste of time and money?"</span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">November 30, 2014</span> <a href="https://www.scholarshipexperts.com/our-scholarships/education-matters-scholarship" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br />
+<div class="deadline"><span class="h4">Mango Salute Hello Scholarship</span><br /><br /><hr /><span class="h5">Mango Salute is offering a $1,000 scholarship for a college or graduate student that submits an answer to their essay topic: &ldquo;The way we say Hello and how it has developed in space and time.&rdquo; Visit site for more details and requirements.</span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">May 1, 2014</span> <a href="http://mangosalute.com/about/scholarship" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br />
+<div class="deadline"><span class="h4">Doorbell Scholarship</span><br /><br /><hr /><span class="h5">Submit an original essay, 1,000 words or less, on what invention has made our lives significantly better that we end up taking for granted. This scholarship is open to college freshmen, sophomores, or high school seniors enrolling in college.</span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">January 10, 2014</span> <a href="http://www.1800doorbell.com/db800-doorbell-scholarship-2014.htm" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br />
+<div class="deadline"><span class="h4">Heart on Your Wrist Scholarship</span><br /><br /><hr /><span class="h5">Submit an essay, 500 words or less, on &ldquo;What innovative ways do you see social media changing the way people buy jewelry?&rdquo; See site for more details and requirements.</span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">May 15, 2014</span> <a href="http://www.heartonyourwrist.com/scholarship/" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br />
+<div class="deadline"><span class="h4">Active Data Scholarships</span><br /><br /><hr /><span class="h5">This scholarship is to recognize and reward students who are active leaders. Applicants must submit a 500-1,000 word essay answering &ldquo;why knowing what&rsquo;s happening on campus is vital to your success as a student.&rdquo;</span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">April 23, 2014</span> <a href="http://www.activedata.com/scholarship/" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br />
+<div class="deadline"><span class="h4">Competition Accessories: Why 2 Wheels are Better Than 4!</span><br /><br /><hr /><span class="h5">This scholarship is for college students who have a motorcycle or other non-4 wheel vehicle while going to school. Submit an essay explaining advantages and disadvantages, and the best article will win.</span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">March 10, 2014</span> <a href="http://www.compacc.com/e/2014-Motorcycle-Scholarship" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br />
+<div class="deadline"><span class="h4">Spokeo Connections Scholarship</span><br /><br /><hr /><span class="h5">Select one of the listed topics and submit a 1,000 to 1,600 word essay and maintain a minimum 3.0 GPA. More rules and regulations can be found online.</span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5"><span class="h5">November 20th, 2013;</span></span>
+<p>July 1, 2014</p>
+<a href="http://www.spokeo.com/spokeo-connections-scholarship" style="margin-top: -50px; float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br /> <br /> <br /><br /></div>
+</div>
+</div>
+</div>
+<div class="fa_question"><span class="h3">Non-Traditional Students/Parents in School</span></div>
+<div class="fa_answer">
+<div>
+<div class="deadline"><span class="h4">Job-Applications.com </span><br /><br /><hr /><span class="h5">This scholarship is to help working parents pay for school. Eligible students must submit a 600 to 1,000 word essay about the following: &ldquo;Clearly outline three keys to successfully balancing parenthood, working, and excelling in school&rdquo;. Eligibility requirements are listed online. </span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">December 15, 2013</span> <a href="http://www.job-applications.com/scholarships/" style="float: right;" target="_blank"><span class="h5">Click here for more information</span></a></div>
+<br /> <br /><br /></div>
+</div>
+<div class="fa_question"><span class="h3">Non-Essay Scholarships</span></div>
+<div class="fa_answer">
+<div>
+<div class="deadline"><span class="h4">Dr. Alma S. Adams Scholarship</span><br /><br /><hr /><span class="h5">Scholarship program to benefit high school, undergraduate, or graduate students. Awards are granted on a competitive basis on: commitment to tobacco prevention through community service and use of media, visual arts, creative writing to promote tobacco prevention. </span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">April 30, 2013</span> <a href="http://www.legacyforhealth.org/get-involved/awards-scholarships/alma-s.-adams-scholarships" style="float: right;" target="_blank"><span class="h5">Online PDF Application</span></a></div>
+<br />
+<div>
+<div class="deadline"><span class="h4">CableTV.com Memorable TV Moment Scholarship</span><br /><br /><hr /><span class="h5">The CableTV.com Historical Photograph Scholarship is open to current or prospective college students. Pick a favorite TV moment and recreate it in a creative way, all media is accepted and you don't have to be an artist to enter.</span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">November 8, 2013</span> <a href="http://www.cabletv.com/scholarship" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br />
+<div class="deadline"><span class="h4">Sussle Scholarship</span><br /><br /><hr /><span class="h5">This is a non-traditional scholarship through Sussle.com where applicants contribute to the site with interesting information. Students must be full-time undergraduate or graduate students during Fall 2013 and U.S. citizen or legal permanent resident. </span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">Monthly Awards</span> <a href="http://sussle.org/scholarship" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br />
+<div>
+<div class="deadline"><span class="h4">ScholarshipPoints Scholarship </span><br /><br /><hr /><span class="h5">This is a non-traditional scholarship where students earn points by being active online and completing simple activities on the web. </span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">Quarterly Awards</span> <a href="http://www.scholarshippoints.com/win/?st=1107&amp;utm_source=scholarshipexperts.com&amp;utm_medium=Affiliate&amp;utm_campaign=ScholarshipPoints%2B%2410%2C000%2BScholarship%2B(CPA)" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br />
+<div>
+<div class="deadline"><span class="h4">College Prowler Scholarships </span><br /><br /><hr /><span class="h5">This site offers four different scholarships with various requirements that can be found online. Deadline: Applications accepted every month/various deadlines </span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">Various periods during the year</span> <a href="https://collegeprowler.com/scholarship/apply.aspx" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br />
+<div>
+<div class="deadline"><span class="h4">EDvestinU Scholarship</span><br /><br /><hr /><span class="h5">This site is a private student loan program that aims at helping students achieve higher goals. Their scholarship is another way to encourage and support students.</span> <br /><br /><br /> <span class="h5">Deadline:</span><hr /><span class="h5">Various periods during the year</span> <a href="https://edvestinu.com/scholarship.asp" style="float: right;" target="_blank"><span class="h5">Online Application</span></a></div>
+<br /> <br /><br /></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p><br /><br /></p>
+<div><span class="h3">Scholarship Search and Directory Sites</span>
+<div><span class="h4">The following resources are not affiliated or endorsed by BYU-Idaho:</span><br /><br />
+<ul>
+<li><a href="http://www.collegeboard.org/" target="_blank"><span class="h5">College Board</span></a> - College Planning and Scholarship Search</li>
+<li><a href="http://www.collegesavings.org/index.aspx" target="_blank"><span class="h5">College Savings Plan Network</span></a>- College Savings Plan Resource</li>
+<li><a href="http://www.college-scholarships.com/" target="_blank"><span class="h5">College Scholarships</span></a> - Scholarship Search</li>
+<li><a href="http://www.fastaid.com/" target="_blank"><span class="h5">Fast Aid</span></a> - Scholarship Search</li>
+<li><a href="http://www.fastweb.com/" target="_blank"><span class="h5">Fast Web</span></a> - Scholarship Search</li>
+<li><a href="http://www.finaid.org//" target="_blank"><span class="h5">Fin Aid - Smart Student Guide to Financial Aid</span></a> - Scholarship Search</li>
+<li><a href="http://www.mappingyourfuture.org/" target="_blank"><span class="h5">Mapping Your Future</span></a> - College Planning Resource</li>
+<li><a href="http://www.princetonreview.com/" target="_blank"><span class="h5">Princeton Review</span></a> - College Planning and Scholarship Search</li>
+<li><a href="https://www.salliemae.com/" target="_blank"><span class="h5">Sallie Mae</span></a> - Student Loans</li>
+<li><a href="http://www.scholarshipamerica.org" target="_blank"><span class="h5">Scholarship America</span></a>- Scholarship Provider and Search</li>
+<li><a href="http://www.scholarshiphelp.org/" target="_blank"><span class="h5">Scholarship Help</span></a>- Scholarship Search</li>
+<li><a href="http://www.scholarshiphunter.com/" target="_blank"><span class="h5">ScholarshipHunter.com</span></a> - Scholarship Search</li>
+<li><a href="http://www.scholarships.com//" target="_blank"><span class="h5">Scholarships.com</span></a> - Scholarship Search</li>
+<li><a href="http://schoolsoup.com/scholarship-directory/" target="_blank"><span class="h5">School Soup</span></a> - Scholarship Search</li>
+<li><a href="http://studentaid2.ed.gov/getmoney/scholarship/" target="_blank"><span class="h5">Student Aid</span></a>- US Department of Education - Links to Other Scholarship Searches</li>
+<li><a href="&lt;/p&gt;http:/www.zinch.com/scholarships/" target="_blank"><span class="h5">Zinch.com</span></a> - Scholarship and College Finder with Filter Search</li>
+</ul>
+<br /><hr /></div>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x18206" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

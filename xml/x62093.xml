@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x62093" Name="Concern For Others" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Concern For Others</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">How to get help for a friend or loved one.</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style type="text/css"><!--
+.textShadow {text-align: left; color: #fff; font-family:arial;}
+.textShadow1 {text-align: left; color: #fff; font-family:arial;}
+.box1 {
+    -moz-box-shadow: 0 0 3px #000;
+    -webkit-box-shadow: 0 0 3px #000;
+    box-shadow: 0px 0px 3px #000;
+    border: 1px solid #444;
+    width: 225px;
+    min-height: 200px;
+    float: left;
+    margin: 20px 11px 30px 11px;
+    padding: 20px;
+    position:relative;
+    border-radius:15px;
+}
+#page_title{
+     display:none
+}
+#specialbox{
+     background-color: #fafafa;
+     border: 1px solid #ddd; 
+     padding: 10px 20px 5px 20px; 
+     font-weight: normal; 
+     margin: 10px 0px 0px 0px; 
+     clear:both;
+     box-shadow: 0 0 5px #f0f0f0;
+}
+--></style>
+<span style="line-height: 40px; margin-top: 10px; font-size: 250%; font-family: Georgia; color: black;">Concern for Others</span> 
+<hr />
+<div id="textybox">
+<h3></h3>
+<h3>Helping a Friend or Loved One</h3>
+<p>It takes a lot of courage to refer a friend or loved one for counseling. Follow the appropriate path below to find out exactly how you can help your friend or loved one.</p>
+<h3></h3>
+<h3>Confidentiality Notice</h3>
+<p>Anything a student discusses with a counselor is held in strict confidence. We will not release any information to you unless a <a href="Documents/counseling-center/Release of Counseling Information.pdf" target="_blank">Release of Information</a> is signed. This includes if a student is being seen in our office or if they have kept their appointment. We ask that you speak directly with the student to learn this information and/or request to have them sign the appropriate form.</p>
+<p><a href="x41574.xml"><img height="350" src="Images/counseling-center/graphics/Friend.jpg" width="350" /></a><a href="x41575.xml"><img height="350" src="Images/counseling-center/graphics/Ecclesiastic.jpg" width="350" /></a></p>
+</div>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="x24495" CompTypes="HighlightedLinksComponent"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x17637" CompTypes="SiteControl"/></Content>

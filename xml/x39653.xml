@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x39653" Name="International Students" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">International Students</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Financial assistance available for international students</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="true" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false">International Students</BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false">Financial assistance available for international students. Perpetual Education Fund.</MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<p>
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40754833-1', 'byui.edu');
+  ga('send', 'pageview');
+</script>
+</p>
+<p>
+<script language="javascript" type="text/javascript">
+var fa_slideSpeed = 15;	// Higher value = faster
+var fa_timer = 2;	// Lower value = faster
+
+var objectIdToSlideDown = false;
+var fa_activeId = false;
+var fa_slideInProgress = false;
+var fa_slideInProgress = false;
+var fa_expandMultiple = false; // true if you want to be able to have multiple items expanded at the same time.
+
+function showHideContent(e,inputId)
+{
+	if(fa_slideInProgress)return;
+	fa_slideInProgress = true;
+	if(!inputId)inputId = this.id;
+	inputId = inputId + '';
+	var numericId = inputId.replace(/[^0-9]/g,'');
+	var answerDiv = document.getElementById('fa_a' + numericId);
+
+	objectIdToSlideDown = false;
+
+	if(!answerDiv.style.display || answerDiv.style.display=='none'){
+		if(fa_activeId &&  fa_activeId!=numericId && !fa_expandMultiple){
+			objectIdToSlideDown = numericId;
+			slideContent(fa_activeId,(fa_slideSpeed*-1));
+		}else{
+
+			answerDiv.style.display='block';
+			answerDiv.style.visibility = 'visible';
+
+			slideContent(numericId,fa_slideSpeed);
+		}
+	}else{
+		slideContent(numericId,(fa_slideSpeed*-1));
+		fa_activeId = false;
+	}
+}
+
+function slideContent(inputId,direction)
+{
+
+	var obj =document.getElementById('fa_a' + inputId);
+	var contentObj = document.getElementById('fa_ac' + inputId);
+	height = obj.clientHeight;
+	if(height==0)height = obj.offsetHeight;
+	height = height + direction;
+	rerunFunction = true;
+	if(height>contentObj.offsetHeight){
+		height = contentObj.offsetHeight;
+		rerunFunction = false;
+	}
+	if(height<=1){
+		height = 1;
+		rerunFunction = false;
+	}
+
+	obj.style.height = height + 'px';
+	var topPos = height - contentObj.offsetHeight;
+	if(topPos>0)topPos=0;
+	contentObj.style.top = topPos + 'px';
+	if(rerunFunction){
+		setTimeout('slideContent(' + inputId + ',' + direction + ')',fa_timer);
+	}else{
+		if(height<=1){
+			obj.style.display='none';
+			if(objectIdToSlideDown && objectIdToSlideDown!=inputId){
+				document.getElementById('fa_a' + objectIdToSlideDown).style.display='block';
+				document.getElementById('fa_a' + objectIdToSlideDown).style.visibility='visible';
+				slideContent(objectIdToSlideDown,fa_slideSpeed);
+			}else{
+				fa_slideInProgress = false;
+			}
+		}else{
+			fa_activeId = inputId;
+			fa_slideInProgress = false;
+		}
+	}
+}
+
+
+
+function initShowHideDivs()
+{
+	var divs = document.getElementsByTagName('DIV');
+	var divCounter = 1;
+	for(var no=0;no<divs.length;no++){
+		if(divs[no].className=='fa_question'){
+			divs[no].onclick = showHideContent;
+			divs[no].id = 'fa_q'+divCounter;
+			var answer = divs[no].nextSibling;
+			while(answer && answer.tagName!='DIV'){
+				answer = answer.nextSibling;
+			}
+			answer.id = 'fa_a'+divCounter;
+			contentDiv = answer.getElementsByTagName('DIV')[0];
+			contentDiv.style.top = 0 - contentDiv.offsetHeight + 'px';
+			contentDiv.className='fa_answer_content';
+			contentDiv.id = 'fa_ac' + divCounter;
+			answer.style.display='none';
+			answer.style.height='1px';
+			divCounter++;
+		}
+	}
+}
+window.onload = initShowHideDivs;
+</script>
+</p>
+<style type="text/css"><!--
+/* CSS styles for the Show/Hide functionality. */
+
+.fa_question{
+        overflow:hidden;
+	cursor:pointer;
+        background-color: #f0f0f0;
+        color: #666;
+        padding: 10px;
+        border: 1px solid #000;
+        -webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+}
+.fa_question:hover{
+        background-color: #fcc35a;
+}
+.fa_answer{
+        visibility:hidden;
+	height:0px;
+	overflow:hidden;
+	position:relative;
+}
+.fa_answer_content{	/* Content that is slided down */
+        margin-top: 10px;
+	padding:1px;
+	font-size:1em;
+	position:relative;
+}
+
+.h1 {font-family: futura, arial, sans-serif; font-size: 2em; color: #000}
+.h2 {font-family: futura, arial, sans-serif; font-size: 1.75em; color: #000;}
+.h3 {font-family: futura, arial, sans-serif; font-size: 1.5em; color: #000;}
+.h4 {font-family: futura, arial, sans-serif; font-size: 1.3em; margin-left: 15px;}
+.h5 {font-family: futura, arial, sans-serif; font-size: 1em; margin-left: 12px;}
+
+#table_futura th{
+     color:#F8F8F8;
+     background-color: #333;   
+     font-family: futura, arial, sans-serif;
+     font-size: medium;
+     font-weight: normal;
+}
+#table_futura ul{
+     margin-left: 5px;
+}
+#table_futura td{
+     color:#000;
+}
+ul {margin-left:30px;}
+
+.my_container{ margin-top: -20px; }
+--></style>
+<style type="text/css"><!--
+/* General Element CSS Styles */
+a {
+font-family: Arial; 
+}
+.question {
+margin:0;
+padding:0;
+font-family:Arial;
+font-weight:bold;
+}
+
+#page_title{ display: none;}
+
+/* CSS Style for in Body GUIDE */ 
+.guide ul {
+display:inline-block; 
+padding: 0; 
+margin: 0 0 5px 0; 
+text-align: center;
+width:100%;
+} 
+.guide li { 
+padding: 0; 
+margin: 0; 
+text-align: center; 
+display:inline-block;
+float:left; 
+list-style-type:none; 
+white-space: nowrap; 
+}
+.guide_container {
+margin:0 200px 15px 0;
+padding:0;
+width:100%;
+display:inline-block;
+}
+--></style>
+<h1><strong>International Students</strong></h1>
+<hr />
+<h2><em>Preparing to Attend BYU-Idaho</em></h2>
+<p>U.S. immigration law requires that international students provide proof of their ability to pay for college before BYU-Idaho can issue an <a href="http://travel.state.gov/visa/temp/types/types_1268.html" title="Link to U.S. Department of State's Travel.gov Student Visa web page">I-20 form</a> (students will need an I-20 to apply for a non-immigrant student visa and enter the United States). Students are responsible for documenting their own funding <br /> - this can be completed by filling out the BYU-Idaho Admissions application.</p>
+<p><img alt="International flags" src="Images/Admin_Offices/Financial Aid/international.jpg" style="float: right;" title="International students" width="250" /></p>
+<p>For additional resources and information about attending BYU-Idaho as an international student, contact the <a href="http://www.byui.edu/International/" title="Link to BYU-Idaho International Services webpage">International Services Office</a> (Kimball 120).</p>
+<p></p>
+<h2><em>Financial Resources</em></h2>
+<hr />
+<p>International students are often faced with financial challenges while attending school; however, with some advanced planning and hard work, most students should be able to provide for most if not all of their school expenses. We have listed some potential sources of support below.</p>
+<div class="fa_question"><span class="h3">Employment</span></div>
+<div class="fa_answer">
+<div>
+<p>Consider part-time employment as a possible resource to pay for college education. Employment opportunities are available on and off campus. BYU-Idaho endeavors to equally consider and fairly employ international students. Visit the Human Resource office <a href="http://www.byui.edu/human-resources/employment-opportunities/student-employment">Student Employment</a> page for employment opportunities.</p>
+</div>
+</div>
+<div class="fa_question"><span class="h3">Practical Training</span></div>
+<div class="fa_answer">
+<div>
+<p>Another option available to international students, after they have finished their first school year, is practical training. This comes in two types: <a href="http://www.uscis.gov/portal/site/uscis/menuitem.eb1d4c2a3e5b9ac89243c6a7543f6d1a/?vgnextoid=e34c83453d4a3210VgnVCM100000b92ca60aRCRD&amp;vgnextchannel=e34c83453d4a3210VgnVCM100000b92ca60aRCRD" title="Link to the Citizenship and Immigration Services site">Curricular Practical Training</a> (CPT) and <a href="http://www.uscis.gov/portal/site/uscis/menuitem.eb1d4c2a3e5b9ac89243c6a7543f6d1a/?vgnextoid=e34c83453d4a3210VgnVCM100000b92ca60aRCRD&amp;vgnextchannel=e34c83453d4a3210VgnVCM100000b92ca60aRCRD" title="Link to the Citizenship and Immigration Services site">Optional Practical Training</a> (OPT). To be considered for either option, or to find answers to your questions students will need to apply through the <a href="http://www.byui.edu/International/" title="Link to BYU-Idaho International Services webpage">International Services Office</a> (Kimball 120).</p>
+<ul>
+<li><strong>CPT</strong> allows students to find jobs off campus that are related to their major to gain practical experience. This is often used to authorize students for an internship or other academic program, but it also allows students to work off-campus and earn money while gaining experience in their major field of study.</li>
+<li><strong>OPT</strong> is mainly used after a student's graduation, but can be used before you complete your program of study</li>
+</ul>
+</div>
+</div>
+<div class="fa_question"><span class="h3">Financial Aid Options</span></div>
+<div class="fa_answer">
+<div>
+<p>There are limited financial aid options available to international students at BYU-Idaho. The two primary sources of available financial assistance are University Aid and Outside Aid. The available options for University Aid and Outside Aid are available through the Scholarship pages for the respective classification of the students.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>New Freshmen</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Transfer Students</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Continuing Students</strong></p>
+<hr /><a class="extLink" href="http://www.byui.edu/financial-aid/new-freshmen" style="margin-left: 20px;" title="New Freshmen"><img alt="New Freshmen" height="155" onmouseout="this.src='Images/Admin_Offices/Financial Aid/buttons/new-Buttons/new_freshman.png';" onmouseover="this.src='Images/Admin_Offices/Financial Aid/buttons/new-Buttons/hover_new_freshman.png';" src="Images/Admin_Offices/Financial%20Aid/buttons/new-Buttons/new_freshman.png" title="New Freshmen" width="165" /></a> <a class="extLink" href="http://www.byui.edu/financial-aid/transfer-students" style="margin-left: 40px;" title="Transfer Students"><img alt="Transfer Students" height="155" onmouseout="this.src='Images/Admin_Offices/Financial Aid/buttons/new-Buttons/transfer_students.png';" onmouseover="this.src='Images/Admin_Offices/Financial Aid/buttons/new-Buttons/hover_transfer_students.png';" src="Images/Admin_Offices/Financial%20Aid/buttons/new-Buttons/transfer_students.png" title="Transfer Students" width="165" /></a> <a class="extLink" href="http://www.byui.edu/financial-aid/continuing-students" style="margin-left: 40px;" title="Continuing Students"><img alt="Continuing Students" height="155" onmouseout="this.src='Images/Admin_Offices/Financial Aid/buttons/new-Buttons/continuing_students.png';" onmouseover="this.src='Images/Admin_Offices/Financial Aid/buttons/new-Buttons/hover_continuing_students.png';" src="Images/Admin_Offices/Financial%20Aid/buttons/new-Buttons/continuing_students.png" title="Continuing Students" width="165" /></a> <img height="155" src="Images/Admin_Offices/Financial%20Aid/buttons/new-Buttons/blank.png" style="float: left;" width="20" />
+<div class="guide_container"><!-- End of #guide_container --></div>
+</div>
+</div>
+<hr />]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="true" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" List=""><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="x18466" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x18206" CompTypes="SiteControl" Expanded="false"/></Content>

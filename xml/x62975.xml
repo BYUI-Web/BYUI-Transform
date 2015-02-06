@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content ID="x62975" Name="Premarital Exams" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Premarital Exams</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Premarital Exams at the BYU-Idaho Student Health Center</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<link href="Documents/health-center/topper.css" rel="stylesheet" /> <link href="Documents/health-center/css/layout.css" rel="stylesheet" />
+<style type="text/css"><!--
+body #content_zone .titlehead {    
+      border-bottom: solid thin #F7C903;
+      line-height: 120%;
+   }
+
+   body #content_zone .comment{
+      color: #F7C903;
+      font-weight: bold;
+   }
+
+   .premarital{background-position:        -450px  0px;}
+
+   body #content_zone .print {
+      position: relative;
+      top: -5px;
+      float:left;
+      margin: 0 10px 10px 0;
+   }
+
+   body #content_zone ul li {
+      list-style-image: url(./images/health-center/square.png);
+   }
+
+   body #content_zone ul li ul li {
+      list-style-image: none;
+      list-style-type: disc;
+   }
+
+   body #content_zone ul li ul li ul .comment {
+      list-style-type: none;
+   }
+--></style>
+<div id="content_zone">
+<div id="topper">
+<div class="titlehead">Premarital examination Guidelines</div>
+<div id="frame">
+<div class="icons premarital"></div>
+<div class="shadow"></div>
+</div>
+</div>
+<div id="topsec"><a href="Documents/health-center/Premarital Appointment Checklist.pdf"><img class="print" src="Images/health-center/print.png" /> Printer Friendly Version</a>
+<div class="clear"></div>
+<h4>Call The Student Health Center to schedule a Premarital Appointment by calling 208-496-9330:</h4>
+<ul>
+<li>Provide the receptionist with your BYU-I username and I-Number</li>
+</ul>
+<h4>Complete the following before coming to your appointment:</h4>
+<ul>
+<li>Log into I-Learn/Brain Honey and select &ldquo;Student Health Center&rdquo; from your class list</li>
+<li>Open and view &ldquo;Premarital PowerPoint&rdquo; in the Premarital Education folder</li>
+<li>Select &ldquo;Premarital Quiz&rdquo;
+<ul>
+<li>Enter the password given at the end of PowerPoint</li>
+</ul>
+</li>
+<li>Take the Quiz (a 100% score is not required)</li>
+<li>Bring the Following:
+<ul>
+<li>Print off your quiz results and bring them to your appointment.</li>
+</ul>
+</li>
+</ul>
+<p>*If the Student Health Center does not show up in your list of classes on Brain Honey 24 hours before your scheduled appointment, please call the Health Center at 208-496-9330.</p>
+<iframe frameborder="0" height="240" id="footer" scrolling="no" src="http://www.byui.edu/Documents/health-center/footer.html" width="320"></iframe></div>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x28441" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

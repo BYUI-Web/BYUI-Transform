@@ -1,0 +1,190 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x21936" Name="Registration" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Online Course Registration</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Registration Information: How to register; registration schedule; academic deadlines; advising; system requirements; authorizations</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="true"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent" Expanded="false"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent" Expanded="false"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<table border="0" cellpadding="0" cellspacing="0" style="display: inline-table; width: 608px; height: 581px;">
+<tbody>
+<tr>
+<td colspan="3" valign="top"><a href="x30317.xml"><img height="21" id="RegistationPage_r1_c1_s1" name="RegistationPage_r1_c1_s1" src="Images/Admin_Offices/Online Learning/OSC/HowtoRegister.png" style="border: 0pt none;" width="600" /></a></td>
+</tr>
+<tr>
+<td valign="top"><a href="x30317.xml"><img height="78" src="Images/Admin_Offices/Online Learning/OSC/1.png" width="76" /></a></td>
+<td valign="top"></td>
+<td style="padding-left: 30px;" valign="top">
+<p>Registration for online classes is the same as face-to-face courses. If you have questions or concerns you can contact the <a href="x28630.xml">Online Support Center</a>.</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" valign="top"><a href="http://www.byui.edu/registrarsoffice/RegSchedule.htm"></a><a href="http://www.byui.edu/registration/registration-schedule"><img height="21" id="RegistationPage_r1_c1_s1" name="RegistationPage_r1_c1_s1" src="Images/Admin_Offices/Online Learning/OSC/RegistrationSchedule.png" style="border: 0pt none;" width="600" /></a></td>
+</tr>
+<tr>
+<td valign="top"><a href="http://www.byui.edu/registration/registration-schedule"><img height="78" src="Images/Admin_Offices/Online Learning/OSC/2.png" width="76" /></a></td>
+<td valign="top"></td>
+<td style="padding-left: 30px;" valign="top">
+<p>Online classes are available each semester and during the seven-week break. View registration credit requirements and deadlines.</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" valign="top"><a href="http://www.byui.edu/registrarsoffice/AcademicDeadlines.htm"></a><a href="http://www.byui.edu/student-records/academic-deadlines"><img height="21" id="RegistationPage_r1_c1_s1" name="RegistationPage_r1_c1_s1" src="Images/Admin_Offices/Online Learning/OSC/AcademicDeadlines.png" style="border: 0pt none;" width="600" /></a></td>
+</tr>
+<tr>
+<td valign="top"><a href="http://www.byui.edu/student-records/academic-deadlines"><img height="78" src="Images/Admin_Offices/Online Learning/OSC/3.png" width="76" /></a></td>
+<td valign="top"></td>
+<td style="padding-left: 30px;" valign="top">
+<p>View a full list of academic deadlines i.e. last day to withdraw for a full refund, last day for classes, etc.</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" valign="top"><a href="http://igx.byui.edu/advising/Career_And_Academic_Advising.html"></a><a href="http://www.byui.edu/academic-discovery-center/students/academic-advising-and-class-planning"><img height="21" id="RegistationPage_r1_c1_s1" name="RegistationPage_r1_c1_s1" src="Images/Admin_Offices/Online Learning/OSC/Advising.png" style="border: 0pt none;" width="600" /></a></td>
+</tr>
+<tr>
+<td valign="top"><a href="http://www.byui.edu/academic-discovery-center/students/academic-advising-and-class-planning"><img height="78" src="Images/Admin_Offices/Online Learning/OSC/4.png" width="76" /></a></td>
+<td valign="top"></td>
+<td style="padding-left: 30px;" valign="top">
+<p>Visit with your advisor to review graduation requirements.</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" valign="top"><a href="https://byui.qualtrics.com/SE/?SID=SV_4It03OSWLglcWKE"><img height="21" id="RegistationPage_r1_c1_s1" name="RegistationPage_r1_c1_s1" src="Images/Admin_Offices/Online Learning/OSC/Authorizations.png" style="border: 0pt none;" width="600" /></a></td>
+</tr>
+<tr>
+<td valign="top"><a href="x28630.xml"><img height="78" src="Images/Admin_Offices/Online Learning/OSC/6.png" width="76" /></a></td>
+<td valign="top"></td>
+<td style="padding-left: 30px;" valign="top">
+<p>Approval must be obtained from your academic advisor prior to processing a prerequisite or requirement waiver for online courses. Requests for capacity authorization can be made at the <a href="x28630.xml">Online Support Center</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<style><!--
+/*
+* Setup
+*/
+div.contactBox, div.contactHeader {
+	float:right;
+	text-align:right;
+	font-family: "Arial Narrow", Arial, sans-serif;
+	letter-spacing:.1em;
+	line-height:1.2em;
+	color:#555;
+}
+
+div.contactBox {
+	margin-top:10px;
+	width:250px;
+}
+
+.contactBox a, .contactHeader a {
+	color:inherit;
+} 
+
+.clear:after {
+	content: ".";
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}
+
+.contactBox .right {
+	float:right;
+        margin-left:3%;
+}
+
+.contactInfo {
+	padding-top:5px;
+}
+
+ul.socialmenu {
+	float:right;
+	list-style: none;
+	padding: 0px;
+	z-index:1;
+	padding-bottom:10px;
+}
+
+.displace {
+	position: absolute;
+	left: -5000px;
+	}
+
+ul.socialmenu li {
+	float: left;
+	list-style-type:none;
+	}
+
+ul.socialmenu li a {
+	display: block;
+	width: 32px;
+	height: 32px;
+	margin-left:5px;
+	background: url(Images/Admin_Offices/Online%20Learning/Speaking%20Partners/UpdatedSite/sprites/socialIcons.png);
+	}
+
+/*
+*	Normal Links
+*/
+ul.socialmenu li.linkedIn a {
+	background-position: -1px -1px;
+	}
+
+ul.socialmenu li.twitter a {
+	background-position: -33px -1px;
+	}
+
+ul.socialmenu li.facebook a {
+	background-position: -66px -1px;
+	}
+
+ul.socialmenu li.youtube a {
+	background-position: -99px -1px;
+	}
+
+/*
+*	Hover Links
+*/
+ul.socialmenu li.linkedIn a:hover {
+	background-position: -1px -33px;
+	}
+
+ul.socialmenu li.twitter a:hover {
+	background-position: -33px -33px;
+	}
+
+ul.socialmenu li.facebook a:hover {
+	background-position: -66px -33px;
+	}
+
+ul.socialmenu li.youtube a:hover {
+	background-position: -99px -33px;
+	}
+
+/*
+*	Clicked Links
+*/
+ul.socialmenu li.linkedIn a:active {
+	background-position: -1px -1px;
+	}
+
+ul.socialmenu li.twitter a:active {
+	background-position: -33px -1px;
+	}
+
+ul.socialmenu li.facebook a:active {
+	background-position: -66px -1px;
+	}
+	
+ul.socialmenu li.youtube a:active {
+	background-position: -99px -1px;
+	}
+--></style>
+<div class="contactBox clear">
+<ul class="socialmenu">
+<li class="linkedIn"><a href="http://www.linkedin.com/groups/Official-BYUIdaho-Student-Alumni-Network-42868?trk=myg_ugrp_ovr" title="LinkedIn"> <span class="displace">LinkedIn</span> </a></li>
+<li class="twitter"><a href="https://twitter.com/BYUIdahoOnline" title="Twitter"> <span class="displace">Twitter</span> </a></li>
+<li class="facebook"><a href="https://www.facebook.com/PathwaySpeakingPartners" title="Facebook"> <span class="displace">Facebook</span> </a></li>
+<li class="youtube"><a href="http://www.youtube.com/playlist?list=PLUMQbBUw4V_btWHPJltnowa-kyjqN0lOr" title="Youtube"> <span class="displace">Youtube</span> </a></li>
+</ul>
+<div class="contactInfo clear"><span><a href="mailto:onlinelearning@byui.edu?Subject=Online%20Question">onlinelearning@byui.edu</a></span><br />
+<div class="right">(208) 496-1800<br /> (866) 672-2984<br /> (208) 557-4142</div>
+<div class="right">Phone<br /> Toll Free<br /> Text</div>
+</div>
+</div>]]></BodyCopy><xPower Type="Component" Component="x91889" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x17147" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

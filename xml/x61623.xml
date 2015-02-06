@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content ID="x61623" Name="News Coverage" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">News Coverage</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">News Coverage</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style><!--
+.divsMain {
+width: 345px;
+margin: 5px;
+float: left;
+}
+
+.title {
+font-size: 12pt;
+display: block;
+padding-left: 15px;
+}
+
+.subTitle {
+font-size: 9pt;
+color: #999;
+display: block;
+padding-left: 15px;
+padding-bottom: 15px;
+}
+--></style>
+<div class="divsMain"><img alt="Elder Eyring " height="336" src="Images/buildings-grounds/icenter/news_home.jpg" title="Elder Eyring Speaks at Dedication of BYU-Idaho Center" width="350" /></div>
+<div class="divsMain">
+<div class="title"><a href="x44186.xml">The Spirit of Ricks</a></div>
+<div class="subTitle">25 December 2010 by Gerry Avant</div>
+<div class="title"><a href="x44205.xml">BYU-Idaho Dedicates New Building</a></div>
+<div class="subTitle">18 December 2010 By: Lindsey Bush at the Post Register</div>
+<div class="title"><a href="x44202.xml">Vision Fulfilled</a></div>
+<div class="subTitle">17 December 2010 By: Nate Sunderland at the Standard Journal</div>
+<div class="title"><a href="x45709.xml">Two New Buildings at BYU-Idaho Dedicated</a></div>
+<div class="subTitle">17 December 2010 by KSL.com</div>
+<div class="title"><a href="x44220.xml">Tour of the BYU-Idaho Center</a></div>
+<div class="subTitle">17 December 2010 by Aaron Kunz from KPVI News 6</div>
+<div class="title"><a href="x44218.xml">Elder Henry B. Eyring Dedicates BYU-Idaho Center</a></div>
+<div class="subTitle">17 December 2010, by Steven Pope from KIDK 3 Eyewitness News</div>
+<div class="title"><a href="x44181.xml">Church Reaffirms Its Commitment to Education</a></div>
+<div class="subTitle">17 December 2010 by The Church of Jesus Christ of Latter-Day Saints Newsroom</div>
+<div class="title"><a href="x44203.xml">BYU-Idaho Center Opens its Doors</a></div>
+<div class="subTitle">16 December 2010 By: Brett Crandall at Local 8 News</div>
+<div class="title"><a href="x44201.xml">BYU-Idaho Center Ready</a></div>
+<div class="subTitle">15 December 2010 By: Nate Sunderland at the Standard Journal</div>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x44207" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

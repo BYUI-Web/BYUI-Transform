@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CollegeDeptHome ID="x24079" Name="History, Geography and Political Science" Layout="college-dept_home.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Department of History, Geography and Political Science</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Department of History, Geography and Political Science</Abstract><xPower Type="List" Name="MainImages" label="Top Image(s) (950px width, 335px height required)" readonly="false" hidden="false" required="false" Expanded="false" List=""><MainImage type="imagefile" readonly="false" hidden="false" required="false" Width="950" Border="" Alignment="" Expanded="true" Height="335" AlternateText="" HSpace="" VSpace="">HistoryGeographyPolsci/HGP5.jpg</MainImage><MainImage type="imagefile" readonly="false" hidden="false" required="false" Width="950" Border="" Alignment="" Expanded="true" Height="335" AlternateText="" HSpace="" VSpace="">HistoryGeographyPolsci/HGP1.jpg</MainImage><MainImage type="imagefile" readonly="false" hidden="false" required="false" Width="950" Border="" Alignment="" Expanded="true" Height="335" AlternateText="" HSpace="" VSpace="">HistoryGeographyPolsci/HGP3.jpg</MainImage><MainImage type="imagefile" readonly="false" hidden="false" required="false" Width="950" Border="" Alignment="" Expanded="true" Height="335" AlternateText="" HSpace="" VSpace="">HistoryGeographyPolsci/HGP2.jpg</MainImage><MainImage type="imagefile" readonly="false" hidden="false" required="false" Width="950" Border="" Alignment="" Expanded="true" Height="335" AlternateText="" HSpace="" VSpace="">HistoryGeographyPolsci/HGP4.jpg</MainImage></xPower><xPower Type="GroupStart" Name="Main" label="Main Content" readonly="false" hidden="false" required="false" Expanded="true" GroupStart=""><xPower Type="LinkSet" Name="CourseHighlights" label="Course Highlights" readonly="false" hidden="false" required="false" QuerySchemas="" QueryLocationRoots="" Title="" Values="" Expanded="false"><Exports></Exports></xPower><xPower Type="LinkSet" Name="FeaturedStudent" label="Featured Student" readonly="false" hidden="false" required="false" QuerySchemas="" QueryLocationRoots="" Title="" Values="" Expanded="false"><Exports></Exports></xPower><FullText type="boolean" label="Check for text body to use the full width of the page." readonly="false" hidden="false" required="false">false</FullText><TopText type="boolean" label="Check to put text body above Highlighted News" readonly="false" hidden="false" required="false">false</TopText><BodyCopy type="dhtml" label="Optional Content" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style><!--
+@media (max-width: 480px){
+    #totalWrapper{
+    width: 300px !important;
+    }
+    .span-6{
+    display: none;
+    }
+    }
+p.customSize {
+font-size: 11pt !important;
+}
+li.customSize {
+font-size: 11pt !important;
+}
+--></style>
+<p>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript"></script>
+</p>
+<style><!--
+div#events_bar_horizontal{
+    display: none;
+}
+
+/*    this is for the fading box */
+        .outerWrapper {
+    width: 230px;
+    height: 160px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 6px;
+    font-size: .5em;
+     border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+     
+    .bgimage {
+        width: 230px;
+        height: 160px;
+        position: absolute;
+
+    }
+    
+    .contentOuter {
+        width: 230px;
+        height: 160px;
+        position: absolute;
+
+    }
+    
+    .fgcolor {
+        margin: 0 auto;
+        width: 230px;
+        height: 160px;
+        background: #12558e;
+        color: #FFFFFF;
+        opacity: .6;
+
+            border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    }
+        
+    .outerText {
+      position:absolute;
+      z-index: 1;
+      font-size: 5em;
+     left:50%;
+       top:50%;
+       -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+       transform: translate(-50%, -50%);
+       position:absolute;
+        color: white;
+        text-shadow:1px 1px gray;
+        line-height: 35px;
+}
+
+    
+    a.alinks {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    /* Makes sure the link doesn't get underlined */
+    z-index: 10;
+    /* raises anchor tag above everything else in div */
+    background-color: white;
+    /*workaround to make clickable in IE */
+    opacity: 0;
+    /*workaround to make clickable in IE */
+    filter: alpha(opacity=0);
+    /*workaround to make clickable in IE */
+}
+    
+    #totalWrapper{
+    width: 720px;
+    }
+--></style>
+<p></p>
+<h1>About Us</h1>
+<p class="span-12 customSize" style="float: none;">Classes taught in the department of History, Geography and Political Science; help all students to understand the political, social, intellectual, cultural, religious and economic forces that have influenced the world, our own heritage and the present conditions of the human family. Students are also introduced to critical interpretations of historical events and movements. Those students who major in these degrees are also introduced to the tools and methods of research, thus preparing them to be successful in any endeavor they choose to pursue.</p>
+<hr />
+<div id="totalWrapper"><!--    Geography-->
+<div class="outerWrapper">
+<div class="outerText">Geography</div>
+<div class="bgimage"><img src="images/HistoryGeographyPolsci/HGP1w.jpg" /></div>
+<div class="contentOuter">
+<div class="fgcolor"></div>
+</div>
+<!-- "contentOuter" --> <a class="alinks" href="x23727.xml"></a></div>
+<!-- "outerWrapper" --> <!--    History-->
+<div class="outerWrapper">
+<div class="outerText">History</div>
+<div class="bgimage"><img src="images/HistoryGeographyPolsci/HGP2w.jpg" /></div>
+<div class="contentOuter">
+<div class="fgcolor"></div>
+</div>
+<!-- "contentOuter" --> <a class="alinks" href="x8458.xml"></a></div>
+<!-- "outerWrapper" --> <!--    Political Science  -->
+<div class="outerWrapper">
+<div class="outerText">Political Science</div>
+<div class="bgimage"><img src="images/HistoryGeographyPolsci/HGP5w.jpg" /></div>
+<div class="contentOuter">
+<div class="fgcolor"></div>
+</div>
+<!-- "contentOuter" --> <a class="alinks" href="x23757.xml"></a></div>
+<!-- "outerWrapper" -->
+<p></p>
+</div>
+<p>
+<script src="jquery-1.11.1.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+        $('.outerWrapper').hover(function() { 
+    $('.fgcolor', this).stop().animate({"opacity": 0}, 400); 
+},function() { 
+    $('.fgcolor', this).stop().animate({"opacity": .6}, 600 ); 
+    });
+});
+</script>
+</p>]]></BodyCopy></xPower><xPower Type="GroupStart" Name="FaceBook" label="Facebook Integration" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BannerAd type="multiselect" label="Rotating Ads" readonly="false" hidden="false" required="false" MaxChoices="" PageSize="" Query_PageType="BannerAdComponent" Query_LocationRoot="x6922" Query_SelectedFields="@Name|@ID" AdditionalFilter_XPathQuery=""></BannerAd><xPower Type="GroupStart" Name="QuickLinksGroup" label="Quick Links Group" readonly="false" hidden="false" required="false" Expanded="true" GroupStart=""><xPower Type="Component" Name="QuickLinks1" label="Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Name="QuickLinks2" label="Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Name="QuickLinks3" label="Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" Name="DeptEvents" label="Define Your Events Folder" readonly="false" hidden="false" required="false" Expanded="false" Navigation="Children" GenerationOrder="down" StartPage="x6931" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Navigation" Name="DeptAds" label="Define Your Ads Folder" readonly="false" hidden="false" required="false" Expanded="false" Navigation="Children" GenerationOrder="down" StartPage="" MaxNodes="" MaxDepth="" Query=""><Exports>&lt;Export&gt;&lt;Name&gt;Caption&lt;/Name&gt;&lt;Value&gt;/*/Caption&lt;/Value&gt;&lt;/Export&gt;</Exports></xPower><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List=""><xPower Type="Component" Component="" Name="xPower" readonly="false" hidden="false" required="false" CompTypes="" Expanded="false"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x24080" CompTypes="SiteControl" Expanded="false"/></CollegeDeptHome>

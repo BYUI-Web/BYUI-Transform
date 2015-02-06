@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<PhotoGallery ID="x52862" Name="Test Photo Gallery - JM Test 556 part2b" Layout="photogallery.xsl">
+	<Title type="string" label="Title" readonly="false" hidden="false" required="true" ID="1">Test Photo Gallery</Title>
+	<Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true" ID="2">Test Photo Gallery</Abstract>
+	<xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" ID="3">
+		<NavName type="string" label="Navigation Name" readonly="false" hidden="false" required="false" ID="4"></NavName>
+		<BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false" ID="5"></BrowserBarTitle>
+		<MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false" ID="6"></MetaDescription>
+		<MetaKeywords type="string" label="Meta Keywords" readonly="false" hidden="false" required="false" ID="7"></MetaKeywords>
+		<Priority type="enumeration" values=".9 .8 .7 .6 .5 .4 .3 .2 .1" label="Priority" readonly="false" hidden="false" required="false" ID="8"/>
+		<NoFollow type="boolean" label="No Follow" readonly="false" hidden="false" required="false" ID="9">false</NoFollow>
+		<NoIndex type="boolean" label="No Index" readonly="false" hidden="false" required="false" ID="10">false</NoIndex>
+		<NoODP type="boolean" label="No ODP" readonly="false" hidden="false" required="false" ID="11">false</NoODP>
+	</xPower>
+	<Thumbnail type="imagefile" label="Thumbnail" readonly="false" hidden="false" required="false" Width="502" Height="333" Alignment="" Border="" Expanded="true" AlternateText="" HSpace="" VSpace="" ID="12">photo_gallery/Beyond Campus Scenes/100327_GrandTeton.jpg</Thumbnail>
+	<xPower Type="Navigation" StartPage="x4517" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Children" Query="" Name="Images" label="Images" readonly="false" hidden="false" required="false" Expanded="true" ID="13">
+		<Exports type="string" ID="14">
+			<Export ID="15">
+				<Name ID="16">Keywords</Name>
+				<Value ID="17">/*/Keywords</Value>
+			</Export>
+			<Export ID="18">
+				<Name ID="19">ImageFile</Name>
+				<Value ID="20">/*/@File</Value>
+			</Export>
+			<Export ID="21">
+				<Name ID="22">ImageThumbnail</Name>
+				<Value ID="23">/*/@Thumbnail</Value>
+			</Export>
+			<Export ID="24">
+				<Name ID="25">ImageAlternateText</Name>
+				<Value ID="26">/*/@AlternateText</Value>
+			</Export>
+		</Exports>
+	</xPower>
+	<xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" ID="27"/>
+	<xPower Type="Component" Component="x3387" Name="SiteControl" label="Site Control" readonly="true" hidden="true" required="false" CompTypes="SiteControl" Expanded="false" ID="28"/>
+</PhotoGallery>

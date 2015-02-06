@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<CampaignInfo ID="x14689" Name="Create" Layout="general_campaign.xsl"><Campchild type="boolean" label="Check if this page is a child of a campaign home page." readonly="false" required="false" hidden="false">true</Campchild><Title type="string" label="Title" readonly="false" hidden="false" required="true">Create</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Check out the new web content.</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="List" List="MainImage" Name="MainImages" label="Images" readonly="false" hidden="false" required="true" Width="" Border="" Alignment="" Expanded="true" Height=""><MainImage type="imagefile" readonly="false" hidden="false" required="true" Width="" Border="" Alignment="" Expanded="false" Height="">Admin_Offices/university_communications/campaigns/beta_campaign/explore/betaCreate.jpg</MainImage></xPower><ThumbnailImage type="imagefile" label="Navigation Thumbnail (31 x 20) required for child pages only" readonly="false" hidden="false" required="false" Width="" Height="" Alignment="" Border="" Expanded="false">Admin_Offices/university_communications/campaigns/beta_campaign/icons/icon_05.png</ThumbnailImage><xPower Type="GroupStart" GroupStart="" Name="IntroText" label="Intro Text" readonly="false" hidden="false" required="false" Expanded="true"><IntroCopy type="dhtml" label="Intro Text" readonly="false" hidden="false" required="false"><![CDATA[<p>The new BYU-Idaho Web site is built on a modern content management system called Web Builder, replacing the previous Web Editor system. Site administration is improved, page creation and maintenance are simplified, and features and services are enhanced - all while providing a foundation for future functionality.  Thanks to the new system, site authors can focus on what matters most: great content. They'll also enjoy a support community to learn better web publishing techniques and new technologies.  If you're interested in helping with BYU-Idaho Web pages or have questions or feedback, let us know.<a href="x15018.xml" title="Tell Us What You Think" target="_blank"></a></p>
+<p><a href="x15018.xml" title="Tell Us What You Think" target="_blank">Give your feedback</a><a href="x77.xml"> </a></p>
+<p><a href="x77.xml">Visit BETA site </a><span style="font-size: x-small;">&nbsp;</span></p>]]></IntroCopy></xPower><BodyCopy type="dhtml" label="Optional Content" readonly="false" hidden="false" required="false"><![CDATA[<div class="cwrap">
+<div class="ccl">
+<p><strong>Author Interface</strong></p>
+<ul>
+<li>Web Builder is a "smart" system with many automatic and easy-to-use functions.</li>
+<li>Training tabs will give authors all the materials needed to build a site.</li>
+<li>Orientation will be held each semester to introduce new authors to Web Builder.</li>
+</ul>
+</div>
+<img alt="Ingeniux Content Management System" height="310" src="Images/Admin_Offices/university_communications/campaigns/beta_campaign/create/ingeniuxGUI.jpg" title="Ingeniux Content Management System" width="435" /></div>
+<div class="cwrap">
+<div class="ccl">
+<p><strong>30+ Templates</strong></p>
+<ul>
+<li>A variety of approved templates allow authors to present content easily and effectively.</li>
+<li>Templates are designed with all skill levels in mind. Beginners and experienced programmers alike will benefit from these templates.&nbsp;</li>
+</ul>
+</div>
+<img alt="Ingeniux Content Management System" height="223" src="Images/Admin_Offices/university_communications/campaigns/beta_campaign/create/index.jpg" title="Ingeniux Content Management System" width="435" /></div>
+<div class="cwrap">
+<div class="ccl">
+<p><strong>Web Community and Resources </strong></p>
+<ul>
+<li>A <a href="https://groups.google.com/group/byuiwebdev/" title="BYU-Idaho Web Developers' Forum">campus web developers community</a> is forming to discuss web communication needs and to train authors.</li>
+<li> The Help Desk and Academic Technology Services will provide immediate support for authors in the new system. </li>
+</ul>
+</div>
+<img alt="Web Developer Community" height="322" src="Images/Admin_Offices/university_communications/campaigns/beta_campaign/create/webDev.jpg" title="Web Developer Community" width="435" /></div>]]></BodyCopy><xPower Type="Component" Component="x14686" Name="CampaignNav" label="Campaign Navigation" readonly="false" hidden="false" required="true" CompTypes="CampaignNavigationComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x15497" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></CampaignInfo>

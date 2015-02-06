@@ -1,0 +1,399 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<Content ID="x66580" Name="Get Prepared" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Get Prepared for BYU-Idaho</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">New Student Mailer</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style><!--
+.content-font {
+  font-family: Helvetica, Arial, sans-serif;
+}
+.xxl-txt {
+  font-size: 30px;
+}
+.xl-txt {
+  font-size: 22px;
+}
+.lg-txt {
+  font-size: 18px;
+}
+.ms-txt {
+  font-size: 16px;
+}
+.sm-txt {
+  font-size: 14px;
+}
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+
+}
+.border-radius {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+#tinymce,
+.type {
+  width: 710px;
+  /* CONTENT STYLES */
+
+  /* DROP DOWN CONTROLS */
+
+}
+#tinymce h1,
+.type h1,
+#tinymce h2,
+.type h2,
+#tinymce h3,
+.type h3,
+#tinymce p,
+.type p,
+#tinymce ul,
+.type ul,
+#tinymce ul li,
+.type ul li,
+#tinymce a,
+.type a {
+  padding: 0;
+}
+#tinymce h1,
+.type h1,
+#tinymce h2,
+.type h2,
+#tinymce h3,
+.type h3 {
+  font-family: Helvetica, Arial, sans-serif;
+}
+#tinymce h2,
+.type h2 {
+  font-size: 22px;
+  font-weight: normal;
+  color: #3a5ba9;
+}
+#tinymce h3,
+.type h3 {
+  font-size: 18px;
+  color: #fff;
+}
+#tinymce p,
+.type p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: .5em;
+}
+#tinymce ul,
+.type ul {
+  margin: 0;
+  padding: 0;
+  padding-left: 2em;
+}
+#tinymce ul li,
+.type ul li {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #555555;
+  margin-bottom: .5em;
+}
+#tinymce a,
+.type a {
+  color: #5a74b8;
+  text-decoration: none;
+}
+#tinymce a:hover,
+.type a:hover {
+  color: #344778;
+}
+#tinymce .align-left,
+.type .align-left {
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+#tinymce .align-right,
+.type .align-right {
+  float: right;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+#tinymce .banner img,
+.type .banner img {
+  display: block;
+}
+#tinymce .banner h2,
+.type .banner h2 {
+  margin: .5em 0;
+}
+#tinymce .banner-content,
+.type .banner-content {
+  width: 220px;
+  float: right;
+}
+#tinymce .get-connected-content,
+.type .get-connected-content {
+  width: 320px;
+  float: right;
+}
+#tinymce .defer-cta,
+.type .defer-cta {
+  background: #3a5ba9;
+  color: #fff;
+  float: left;
+  margin-left: 50px;
+  padding-left: 5em;
+  padding-right: 1em;
+  position: relative;
+  width: 236px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+#tinymce .defer-cta img,
+.type .defer-cta img {
+  position: absolute;
+  left: -50px;
+  top: -0.75em;
+}
+#tinymce .defer-cta p,
+.type .defer-cta p {
+  color: #fff;
+}
+#tinymce .defer-cta a,
+.type .defer-cta a {
+  color: #e2bf22;
+}
+#tinymce .defer-cta a:hover,
+.type .defer-cta a:hover {
+  text-decoration: underline;
+  color: #eed97c;
+}
+#tinymce .page-footer,
+.type .page-footer {
+  width: 710px;
+  height: 300px;
+  background: url(http://www.byui.edu/Images/student-support/get-prepared/see-ya.jpg) bottom no-repeat;
+  position: relative;
+  overflow: hidden;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+#tinymce .student-support-office,
+.type .student-support-office {
+  background-color: #eeeeee;
+  background-color: rgba(255, 255, 255, 0.85);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  padding: 1em;
+  width: 50%;
+  position: absolute;
+  right: 1em;
+  bottom: 1em;
+}
+#tinymce .student-support-office ul li,
+.type .student-support-office ul li {
+  list-style: none;
+}
+#tinymce .student-support-office h2,
+.type .student-support-office h2 {
+  color: #333333;
+  font-weight: normal;
+  margin: 0 0 .5em;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+#tinymce .student-support-office ul,
+.type .student-support-office ul {
+  padding: 0;
+}
+#tinymce .student-support-office .contact-links,
+.type .student-support-office .contact-links {
+  width: 70%;
+  float: left;
+}
+#tinymce .student-support-office .contact-location,
+.type .student-support-office .contact-location {
+  width: 30%;
+  float: right;
+}
+#tinymce .top,
+.type .top {
+  background-color: #3a5ba9;
+  margin: .5em 0;
+  position: relative;
+}
+
+.type .top:hover {
+  cursor:pointer;
+}
+#tinymce .top h3,
+.type .top h3 {
+  margin: 0;
+  padding: .5em 1em;
+}
+#tinymce .content,
+.type .content {
+  padding: 1em 0;
+}
+#tinymce .arrow,
+.type .arrow {
+  position: absolute;
+  right: 0;
+  top: 1px;
+}
+#tinymce .down-arrow,
+.type .down-arrow {
+  border-color: white transparent transparent transparent;
+  border-width: 9px;
+  border-style: solid;
+  width: 0;
+  height: 0;
+  float: right;
+  margin: 12px 25px 0 0;
+}
+#tinymce .up-arrow,
+.type .up-arrow {
+  border-color: transparent transparent white transparent;
+  border-width: 9px;
+  border-style: solid;
+  width: 0;
+  height: 0;
+  float: right;
+  margin: 4px 25px 0 0;
+}
+--></style>
+<div class="banner group"><img class="align-left" src="http://www.byui.edu/Images/student-support/get-prepared/students-on-steps.jpg" />
+<div class="banner-content">
+<h2>Congratulations!</h2>
+<p>Now that you have been admitted, you can start your preparations to attend BYU-Idaho. Use this guide to access helpful resources and links, including:</p>
+<ul>
+<li><a href="x30305.xml">Your Student Ambassador</a></li>
+<li><a href="x50436.xml">New Student Checklist</a></li>
+<li><a href="x30290.xml">Parent Information</a></li>
+<li><a href="x18876.xml">Deferral Information</a></li>
+<li><a href="x43245.xml">Get Connected (New Student Orientation)</a></li>
+</ul>
+</div>
+</div>
+<div class="top group">
+<h3>Your Student Ambassador is Here to Help You!</h3>
+<div class="arrow down-arrow"></div>
+</div>
+<div class="content group"><img class="align-right" src="http://www.byui.edu/Images/student-support/get-prepared/student-ambassador.jpg" />
+<p>A <a href="x30305.xml">Student Ambassador</a> will be assigned to you upon accepting your offer. They will:</p>
+<ul>
+<li>Be your first point of contact with BYU-Idaho</li>
+<li>Guide you through the <a href="x50436.xml">New Student Checklist</a></li>
+<li>Help answer your questions and direct you to campus services and resources</li>
+</ul>
+</div>
+<div class="top group">
+<h3>New Student Checklist</h3>
+<div class="arrow down-arrow"></div>
+</div>
+<div class="content group"><img class="align-right" src="http://www.byui.edu/Images/student-support/get-prepared/student-checklist.jpg" />
+<p>The <a href="x50436.xml">New Student Checklist</a> outlines key steps you need to complete prior to starting classes. Links, videos and detailed information in the checklist will help you with these steps. Items include:</p>
+<ul>
+<li>Scholarships</li>
+<li>Housing</li>
+<li>Registration dates and Information</li>
+<li>Move-in Day / Get Connected dates</li>
+<li>Academic Advising</li>
+<li><a href="x50436.xml">And More!</a></li>
+</ul>
+</div>
+<div class="top group">
+<h3>Get Connected</h3>
+<div class="arrow down-arrow"></div>
+</div>
+<div class="content group"><img class="align-left" src="http://www.byui.edu/Images/student-support/get-prepared/get-connected_06.jpg" />
+<div class="get-connected-content">
+<p><a href="x43245.xml">Get Connected</a> (New Student Orientation) serves as the official start to your BYU-Idaho experience.</p>
+<p>Events include:</p>
+<ul>
+<li>Move-in day (<a href="x43483.xml">See Schedule</a>)</li>
+<li>Housing</li>
+<li>Registration dates and Information</li>
+<li>Move-in Day / Get Connected dates</li>
+<li>Academic Advising</li>
+<li><a href="x43483.xml">And More!</a></li>
+</ul>
+</div>
+</div>
+<div class="top group">
+<h3>Visit Days</h3>
+<div class="arrow down-arrow"></div>
+</div>
+<div class="content group"><img class="align-right" src="http://www.byui.edu/Images/student-support/get-prepared/visit-days.jpg" />
+<p>Want to visit campus and get a better feel for the University? <a href="https://creator.zoho.com/ambassadors/sign-up-form/form-perma/Sign_up_form/">Sign up</a> for a customized visit day, options include:</p>
+<ul>
+<li>Attend a class</li>
+<li>Explore housing options</li>
+<li>Meet with an Academic Advisor</li>
+<li>Move-in Day / Get Connected dates</li>
+<li><a href="x37137.xml">And More!</a></li>
+</ul>
+</div>
+<div class="top group">
+<h3>Parents</h3>
+<div class="arrow down-arrow"></div>
+</div>
+<div class="content group"><img class="align-right" src="http://www.byui.edu/Images/student-support/get-prepared/parents.jpg" />
+<p>Parents of new students can stay connected to BYU-Idaho, access parent resources and get important information by visiting the <a href="x30290.xml">parents' portal</a>.</p>
+<div class="defer-cta"><img src="http://www.byui.edu/Images/student-support/get-prepared/defer.png" />
+<p>Leaving on a Mission? Be sure to <a href="x18876.xml">defer your offer</a> so you don't lose your spot.</p>
+</div>
+</div>
+<div class="page-footer">
+<div class="student-support-office group">
+<h2>Student Support Office</h2>
+<ul class="contact-links">
+<li><a href="mailto:studentambassadors@byui.edu">studentambassadors@byui.edu</a></li>
+<li><a href="http://www.byui.edu/student-support/student-ambassadors">Student Ambassadors</a></li>
+<li><a href="https://www.facebook.com/BYUIstudentambassadors">Facebook Page</a></li>
+</ul>
+<ul class="contact-location">
+<li>Rigby Hall 272</li>
+<li><a href="tel:2084961420">(208) 496-1420</a></li>
+</ul>
+</div>
+</div>
+<p>
+<script type="text/javascript">
+window.onload = function(){
+    (function(){
+        var content = $('.content'),
+            top = $('.top'),
+            checklist = {
+            init: function(){
+                content.hide();
+                top.on('click', checklist.show);    
+            },
+            show: function(){
+                var arrow = $(this).find('div.arrow');
+                $(this).next('.content').slideToggle();
+                arrow.toggleClass('up-arrow');
+                arrow.toggleClass('down-arrow');
+            },
+            read: function(){
+            }
+        };
+        checklist.init();
+    })();
+}
+</script>
+</p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="true"><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="true" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x19075" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

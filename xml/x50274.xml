@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<Content ID="x50274" Name="Be informed" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Be Informed</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Be informed</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style><!--
+.intro{
+	display: block;
+	float: left;
+	background-color:#E7C534;
+	z-index:0;
+	position:relative;
+	border-top: 1.75px dotted #A9A9A9;
+	margin-top:5px;
+	font-size: 24px;
+}
+
+.intro h4{
+ 	font-family: helvetica; 
+ 	letter-spacing: 2px; 
+ 	font-size: 23px;
+ 	padding:8px 13px;
+	margin-top: 22px;
+	margin-left: 1px;
+}
+
+#intro{
+	font-family: helvetica; 
+	font-size: 25px;
+	padding: 0;
+	margin: 0 30px 40px 30px;
+
+}	
+/*.survey{
+	display: block;
+	float: right;
+	background-color:#8D912C;
+	height: 50px;
+	color:#FFFFFF;
+	text-align: center;
+	z-index:1;
+	position:relative;
+	margin-right:-5px;
+	margin-top:-25px;
+
+
+}
+
+.survey img{
+	float:right;
+	margin-right:-35px;
+	margin-top:-1px;
+	
+
+}
+
+.survey p{
+	color:#FFF;
+	width:500px;
+	padding-top:12px;
+	font-family: Georgia;
+	font-size: 18px;
+
+	}*/
+
+	.content1{
+		display:block;
+	}
+
+	.content2{
+		display:block;
+	}
+
+
+
+	.content h3{
+		font-family: helvetica;
+		font-size: 10px;
+		font-weight: bold;
+	}
+
+
+
+	.line{
+		border-top: 2px solid #FFFFFF;	
+		position:absolute;
+		left:30px;
+		width: 890px;
+
+	}
+
+	.line2{
+
+		border-top: 1px #000 dotted;
+		margin-top:8px;
+		position:relative;
+		left:3px;
+	}
+
+	.dotted{
+		border-top: 1.75px dotted #A9A9A9;	
+		margin-bottom: 40px;
+
+	}
+
+	.text{
+		float:right;
+	}
+
+	.comm{
+		height:75px;
+		background-color:#89689D;
+		border-top: 1.75px dotted #A9A9A9;
+		border-bottom: 1.75px dotted #A9A9A9;
+		position:relative;
+		left:3px;
+	}
+
+	.comm p{
+		color:#FFFFFF;
+		position:absolute;
+		left:195px;
+		top:27px;
+		font-size: 16px;
+	}
+
+	.comm img{
+		position:absolute;
+		z-index:1;
+		margin-top:12px;
+	}
+
+	#big-arrow{
+		position:absolute;
+		right:-110px;
+		bottom:-14px;
+	}
+
+	#icon{
+		position:absolute;
+		left:10px;
+	}
+	
+	#commFooter{
+		position:absolute; 
+		width:100%;
+		height:100%;
+		top:0;
+		left: 0;
+		z-index:5;
+	}
+.main_content {
+left-margin: -5px;
+}
+--></style>
+<div id="container">
+<div>[x50767]</div>
+<div style="border-top: 1px  #000 dotted; margin-top: 5px;">
+<div class="intro span-24">
+<h4><strong>BE INFORMED</strong></h4>
+<div class="line span-23"></div>
+&nbsp;
+<p id="intro">As employees at BYU-Idaho, we are more successful when we have access to useful information. To make that happen, university leaders are committed to sharing ideas, plans, and policies with you in a timely manner.</p>
+</div>
+<!-- 		<div class="survey span-14">
+			<p>Employee Communication Survey Results <img alt="small-arrow" src="Images/campaigns/join-the-conversation/small-arrow2.png" /></p>
+		</div> --></div>
+<p>&nbsp; &nbsp;</p>
+<div class="content1 span-23"><img alt="Vice President Graphic" src="Images/campaigns/join-the-conversation/VP.png" />
+<div class="text span-11">
+<p style="font-family: Helvetica, sans-serif; font-weight: bold;">Vice presidents and line managers at every level of the university have committed to share information and foster effective communication in the following ways:</p>
+<p style="font-family: Helvetica, sans-serif; font-weight: bold;">Vice presidents will:</p>
+<ul style="font-family: Georgia, serif; padding-left: 2.5em;">
+<li>share information from President's Executive Group (PEG) and President&rsquo;s Council with line management and in the Employee Blog,</li>
+<li>accompany the President on visits to departments for personal interaction and questions, and</li>
+<li>make regular personal visits in their respective areas.</li>
+</ul>
+</div>
+</div>
+<div class="dotted span-24"></div>
+<div>
+<div class="content2 span-24"><img alt="Line Manager Graphic" src="Images/campaigns/join-the-conversation/LM.png" />
+<div class="text span-11" style="margin-right: 45px;">
+<p style="font-family: Helvetica, sans-serif; font-weight: bold;">Line managers throughout the university have committed to assist vice presidents by implementing several practices designed to assist the flow of information.</p>
+<p style="font-family: Helvetica, sans-serif; font-weight: bold;">Line managers will:</p>
+<ul style="font-family: Georgia, serif; padding-left: 2.5em;">
+<li>hold regular staff meetings in each of their areas,</li>
+<li>include a communication agenda item in all management meetings,</li>
+<li>have regularly scheduled one-on-one meetings with their employees,</li>
+<li>listen to suggestions and surface issues from their individual areas, and</li>
+<li>communicate to supervisors the needs and suggestions within their stewardship.</li>
+</ul>
+<p><a href="Documents/Admin_Offices/University Communications/Employee_Communication_Survey_Results.pdf">Employee Communication Survey Results</a> - See employee feedback about communication on campus.</p>
+</div>
+</div>
+<div class="comm span-24"><a href="x50271.xml"><span id="commFooter"></span></a><img alt="Communication Tools Icon" id="icon" src="Images/campaigns/join-the-conversation/comm-link.png" />
+<p>Be part of the conversation now by using the new <strong>BYU-Idaho communication tools. </strong> <img alt="large-arrow" id="big-arrow" src="Images/campaigns/join-the-conversation/large-arrow3.png" /></p>
+</div>
+<div class="line2 span-24"></div>
+</div>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="true"><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="true" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="x48032" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x50373" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x50767" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x50691" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

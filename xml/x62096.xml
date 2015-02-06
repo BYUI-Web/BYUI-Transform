@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x62096" Name="Self-Help" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Self-Help</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Self-Help</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<p>
+<script language="javascript" type="text/javascript">
+function showHide(shID) {
+   if (document.getElementById(shID)) {
+      if (document.getElementById(shID+'-show').style.display != 'none') {
+         document.getElementById(shID+'-show').style.display = 'none';
+         document.getElementById(shID).style.display = 'block';
+      }
+      else {
+         document.getElementById(shID+'-show').style.display = 'inline';
+         document.getElementById(shID).style.display = 'none';
+      }
+   }
+}
+</script>
+</p>
+<style type="text/css"><!--
+#page_title{
+     display:none;
+}
+#specialbox{
+     background-color: #fafafa;
+border: 1px solid #ccc; padding: 10px 10px 15px 10px; font-weight: normal; margin: 10px 0px 20px 0px; text-align: left; clear:both;
+box-shadow: 3px 3px 3px #ddd;
+}
+#specialbox:hover{
+background-color: #eeeeee;
+}
+-->
+.myspan {
+    display: block;
+     background-color: #fafafa;
+border: 1px solid #ccc; padding: 10px 10px 15px 10px; font-weight: normal; margin: 10px 0px 20px 0px; text-align: left; clear:both;
+box-shadow: 3px 3px 3px #ddd;
+}
+--></style>
+<p><span style="line-height: 40px; margin-top: 10px; font-size: 250%; font-family: Georgia; color: black;">Self-Help</span></p>
+<hr />
+<p>Please feel free to browse this listing of selected topics in your search for improving your life or to better understand someone you care about. Simply click on the topic to learn more.</p>
+<div id="specialbox" style="position: relative;">
+<h3 style="font-family: Georgia;">Abusive Relationships</h3>
+<a href="x42423.xml" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; display: inline; text-decoration: none; color: #666;"></a></div>
+<div id="specialbox" style="position: relative;">
+<h3 style="font-family: Georgia;">ADD/ADHD</h3>
+<a href="x42413.xml" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; display: inline; text-decoration: none; color: #666;"></a></div>
+<div id="specialbox" style="position: relative;">
+<h3 style="font-family: Georgia;">Anger</h3>
+<a href="x42414.xml" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; display: inline; text-decoration: none; color: #666;"></a></div>
+<div id="specialbox" style="position: relative;">
+<h3 style="font-family: Georgia;">Anxiety</h3>
+<a href="x42415.xml" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; display: inline; text-decoration: none; color: #666;"></a></div>
+<div id="specialbox" style="position: relative;">
+<h3 style="font-family: Georgia;">Assertiveness</h3>
+<a href="x42416.xml" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; display: inline; text-decoration: none; color: #666;"></a></div>
+<div id="specialbox" style="position: relative;">
+<h3 style="font-family: Georgia;">Bipolar</h3>
+<a href="x42419.xml" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; display: inline; text-decoration: none; color: #666;"></a></div>
+<div id="specialbox" style="position: relative;">
+<h3 style="font-family: Georgia;">Compulsive Behaviors</h3>
+<a href="x42420.xml" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; display: inline; text-decoration: none; color: #666;"></a></div>
+<div id="specialbox" style="position: relative;">
+<h3 style="font-family: Georgia;">Decision Making</h3>
+<a href="x42421.xml" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; display: inline; text-decoration: none; color: #666;"></a></div>
+<div id="specialbox" style="position: relative;">
+<h3 style="font-family: Georgia;">Depression</h3>
+<a href="x42422.xml" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; display: inline; text-decoration: none; color: #666;"></a></div>
+<div id="specialbox" style="position: relative;">
+<h3 style="font-family: Georgia;">Eating Disorders</h3>
+<a href="x42424.xml" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; display: inline; text-decoration: none; color: #666;"></a></div>
+<div id="specialbox" style="position: relative;">
+<h3 style="font-family: Georgia;">Mindfulness and Meditation</h3>
+<a href="x42425.xml" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; display: inline; text-decoration: none; color: #666;"></a></div>
+<div id="specialbox" style="position: relative;">
+<h3 style="font-family: Georgia;">OCD</h3>
+<a href="x42426.xml" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; display: inline; text-decoration: none; color: #666;"></a></div>
+<div id="specialbox" style="position: relative;">
+<h3 style="font-family: Georgia;">Perfectionism</h3>
+<a href="x42427.xml" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; display: inline; text-decoration: none; color: #666;"></a></div>
+<div id="specialbox" style="position: relative;">
+<h3 style="font-family: Georgia;">Same Gender Attraction</h3>
+<a href="x42428.xml" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; display: inline; text-decoration: none; color: #666;"></a></div>
+<div id="specialbox" style="position: relative;">
+<h3 style="font-family: Georgia;">Self-Worth</h3>
+<a href="x42429.xml" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; display: inline; text-decoration: none; color: #666;"></a></div>
+<div id="specialbox" style="position: relative;">
+<h3 style="font-family: Georgia;">Sexual Assault</h3>
+<a href="x42430.xml" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; display: inline; text-decoration: none; color: #666;"></a></div>
+<div id="specialbox" style="position: relative;">
+<h3 style="font-family: Georgia;">Sleep</h3>
+<a href="x42431.xml" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; display: inline; text-decoration: none; color: #666;"></a></div>
+<div id="specialbox" style="position: relative;">
+<h3 style="font-family: Georgia;">Stress Management</h3>
+<a href="x42432.xml" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; display: inline; text-decoration: none; color: #666;"></a></div>
+<div id="specialbox" style="position: relative;">
+<h3 style="font-family: Georgia;">Time Management</h3>
+<a href="x42433.xml" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; display: inline; text-decoration: none; color: #666;"></a></div>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" List=""><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" CompTypes="ContentSnippet" Expanded="false"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x17637" CompTypes="SiteControl" Expanded="false"/></Content>

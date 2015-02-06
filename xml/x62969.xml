@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x62969" Name="First Visit" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">First Visit</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Your First Visit at the BYU-Idaho Student Health Center</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<link href="Documents/health-center/topper.css" rel="stylesheet" /> <link href="Documents/health-center/css/layout.css" rel="stylesheet" />
+<style><!--
+body #content_zone .titlehead {
+      border-bottom: solid thin #CC2222;
+   }
+
+   body #content_zone #frame .icons {
+      background-position: -300px -600px;
+   }
+--></style>
+<div id="content_zone">
+<div id="topper">
+<div class="titlehead">First Visit</div>
+<div id="frame">
+<div class="icons"></div>
+<div class="shadow"></div>
+</div>
+</div>
+<div id="topsec">
+<p>If this is your first visit to the BYU-Idaho Student Health Center, plan to arrive approximately 15 -30 minutes before your scheduled appointment. This time will be needed to complete paperwork before seeing the doctor.</p>
+<p>When you arrive at the Student Health Center, check in at the front desk.</p>
+<p>Upon checking-in, you will be asked to sign a page concerning the HIPAA privacy act. You may find additional information about HIPAA at<a href="http://www.hhs.gov/ocr/hipaa/"> http://www.hhs.gov/ocr/hipaa/</a>.</p>
+</div>
+<div id="setwidth">
+<p>Although quick service is always hoped for, all doctor's offices experience some backup. It is wise to plan your appointment for a time when you will not be rushed. Generally, it would be wise to plan to be at the Student Health Center for at least one hour.</p>
+<p>For questions regarding fees at the Student Health Center, refer to "Billing and Insurance" on this website.</p>
+<h4>Billing and Insurance</h4>
+<p>When you see a physician at the Student Health Center, you will be charged for an office visit. The charge for an office visit is $10 if you are covered by the Deseret Mutual Student Health Plan, and $20 dollars if you are not covered by the Deseret Mutual Student Health Plan. There may be additional charges depending upon what tests or procedures you receive. Services received at the BYU-Idaho Student Health Center will be billed to your student account. We do not accept cash, credit cards, or debit cards.</p>
+<p>Private insurance is not billed by the Health Center and is the responsibility of the patient. An insurance form with the necessary information for the insurance company may be picked up at the student health center a few days after the appointment. However, the student is still responsible for charges placed on his/her student account. If a student account is unpaid after 30 days, a finance fee will be charged by the accounting office. Please allow 6-8 weeks for payment to be made by the insurance company.</p>
+<p><strong>We are not a health care provider for Medicare or Medicaid.</strong></p>
+<p>To add or drop student insurance, contact Ruth Clark at <strong>208-496-9331</strong> or visit her at the Student Health Center.</p>
+</div>
+<iframe frameborder="0" height="240" id="footer" scrolling="no" src="Documents/health-center/footer.html" width="320"></iframe></div>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Component" readonly="false" hidden="false" required="false" Expanded="" List=""><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/><!--071613 xpowercomponent_Optional to xPower--></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x28441" CompTypes="SiteControl"/></Content>

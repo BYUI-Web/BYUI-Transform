@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x65054" Name="MATH 100L " Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">MATH 100L: Personal Finance &amp; English Language</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">MATH 100L: Personal Finance &amp; English Language</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<h3></h3>
+<h3><strong>Speaking Partners Evaluations</strong></h3>
+<p>Please check to make sure that you report only under the correct section for your student. If you do not know which section your student is in, refer to the original email in which you received your Speaking Partner assignment.<strong><br /></strong></p>
+<h2><strong><strong><strong><strong>Find your assigned student&rsquo;s course section here and turn in your evaluation:<br /></strong><strong><br /></strong></strong></strong></strong></h2>
+<script src="http://code.jquery.com/jquery-1.4.2.min.js" type="text/javascript"></script>
+<script src="http://cdn.sendori.com/js/inlinekeywords.js" type="text/javascript"></script>
+<script src="http://cdn.sendori.com/js/pconfig.js" type="text/javascript"></script>
+<script type="text/javascript">
+ var sndpID = '10603';
+ var sndgID = '{B703B5F1-6A9D-4DEC-A965-6D6D599BCC4C}';
+ var CorrectedDomain;
+ var OriginalDomain;
+ function sendoriInline2(){function b(a,b,d){if((a==-1||!c(d.charAt(a)))&&(b>=d.length||!c(d.charAt(b)))){return true}return false}function c(a){var b=a.charCodeAt(0);if(b>47&&b<58||b>64&&b<91||b>96&&b<123){return true}return false}var a=window.location!=window.parent.location?true:false;if(a){return false}var d=jQuery.noConflict();d(document).ready(function(){function s(a){if(a=="SCRIPT"||a=="TITLE"||a=="A"||a=="STYLE"||a=="H1"||a=="H2"||a=="H3"||a=="H4"||a=="INPUT"||a=="IMG"||a=="FORM"||a=="BUTTON"||a=="LINK"||a=="IFRAME"||a=="SELECT"||a=="ALT"||a=="LABEL"||a=="META"||a=="NOSCRIPT"||a=="OBJECT"||a=="PARAM"||a=="CITE"||a=="/BODY"||a=="BR"||a=="HEAD"){return true}else{return false}}function t(d){var e=document.URL;var i=new Object;i.substituted=false;if(f==true){return i}var l=0;var m;textlower=d.toLowerCase();l=0;var p="</a>";i.newText="";var q=0;for(o=0;o<d.length&&a<b;++o){if(g[d]!=null||d[o]==" "||d[o]==";"||d[o]==","||d[o]=="."||d[o]=="<"||d[o]==">"||d[o]=="?"){if(g[d]!=null){l=0;o=d.length}if(h[textlower]!=undefined&&h[textlower]!=""){f=true;break}word=d.substring(l,o);wordlower=word.toLowerCase();if(g[word]!=null&&h[wordlower]==undefined&&(e.indexOf(g[word])<0||g[word]=="keyword")){adbrandterm=word;if(word.indexOf("&")>=0){adbrandterm=word.replace("&","")}if(word.indexOf("'")>=0){adbrandterm=word.replace("'","")}if(i.newText==""){preElement=d.substring(0,l)}else{preElement=i.newText.substring(0,l+q)}postElement=d.substring(o);if(g[word]=="keyword"){if(!n){highlightStartTag="<a href='http://securelink.sendori.com/r?key="+adbrandterm+"&spid=1908&output=redirect&ix=1' target='_blank'>"}else if(n&&k!=undefined&&k!=""){highlightStartTag="<a href='http://securelink.sendori.com/r?key="+adbrandterm+"&spid="+k+"&output=redirect&ix=1' target='_blank'>"}else continue}else{if(!n){highlightStartTag="<a href='http://securelink.sendori.com/br?key="+adbrandterm+"&spid=1853&output=redirect&ix=1' target='_blank'>"}else if(n&&j!=undefined&&j!=""){highlightStartTag="<a href='http://securelink.sendori.com/br?key="+adbrandterm+"&spid="+j+"&output=redirect&ix=1' target='_blank'>"}else continue}p="</a>";i.newText=preElement+highlightStartTag+word+p+postElement;i.substituted=true;q+=highlightStartTag.length+p.length;c[c.length]="http://l.sendori.com/stbin/lognow.cgi/?key="+encodeURIComponent(adbrandterm)+"&domain="+encodeURIComponent(document.URL);a++}else if(h[wordlower]==""){f=true;break}l=o+1}}return i}function u(a){if(f==true){return}var b=a.nodeValue;var c=a.parentNode;var d=t(b);if(d.substituted==true){var e=document.createElement("text");e.innerHTML=d.newText;c.replaceChild(e,a)}}function v(a){if(s(a.nodeName)){return}if(a.nodeName=="#text"&&d.trim(a.nodeValue).length>0){u(a)}if(a.hasChildNodes()){for(var b=0;b<a.childNodes.length;b++){v(a.childNodes[b])}}}var a=0;var b=3;var c=new Array;var e=document.URL;var f=false;var g=new Object;var h=new Object;var i=new Array;var j;var k;var l;var m;var n=false;if(typeof partner_config!=="undefined"){for(var o=0;o=0){e=true}});return e};if(d("a:HasBlackListURL('')").length>0){f=true}var w=document.getElementsByTagName("body");for(var x=0;x<w.length;x++){var y=w[x];v(y)}d("[class*=nav_pop_li]").find("a[href*=securelink.sendori.com/]").each(function(a){var b=d(this).text();d(this).replaceWith(b)});if(!f){d("HTML").find("span#inlineTextHighlight").css("visibility","visible");for(var x=0;x<c.length;x++){d.ajax({url:c[x],type:"GET",dataType:"jsonp",cache:false,error:function(){}})}}else{d("a[href*=securelink.sendori.com/]").each(function(a){var b=d(this).text();d(this).replaceWith(b)})}})}function sendoriSlider(){function j(){var a=false;if(CorrectedDomain!=undefined&&OriginalDomain!=undefined){if(c!=undefined&&c!=""){for(var e=0;e<slider_keywords.slidertext.length;e++){var f=slider_keywords.slidertext[e].BRAND;if(CorrectedDomain.indexOf(f.toLowerCase())>=0){brand_category=slider_keywords.slidertext[e].CATEGORY;if(c!=undefined&&c!="")r(brand_category,"NX",c,"");else r(brand_category,"NX",1860,"");a=true;break}}}if(!a&&d!=undefined&&d=="Y"){l(CorrectedDomain,"NX")}}if(b!=undefined&&b!=""){if(!m()&&!n()&&!o()&&!p())return false;if(o()){query=q("p")}else{query=q("q")}if(query==undefined||query==null||query==""){return false}for(var e=0;e<slider_keywords.slidertext.length;e++){var f=slider_keywords.slidertext[e].BRAND;if(f.toLowerCase()==query.toLowerCase()){faviconsrc=slider_keywords.slidertext[e].FAVICONSRC;if(b!=undefined&&b!="")r(f,"SERP",b,"");else r(f,"SERP",1871,faviconsrc)}}}}function k(a,b,c,e,f,g){divToInsert="";if(a=="NX"&&d!=undefined&&d=="Y"){divToInsert+=""+""}divToInsert+=""+""+"";var i=h.browser;if(i.msie&&i.version.slice(0,3)=="7.0"){divToInsert+=""}else{h("#favicon").css("height","16px");divToInsert+=""}divToInsert+=""+""+""+""+""+""+"";divToInsert+="<img src='//pixel.quantserve.com/pixel/p-fbiS6Ydv_HyB-.gif' border='0' height='1' width='1' alt='Quantcast'/>";var j=j||[];j.push({qacct:"p-fbiS6Ydv_HyB-"});var k=document.createElement("script");k.type="text/javascript";k.src="http://edge.quantserve.com/quant.js";k.async=true;var l=document.getElementsByTagName("script")[0];l.parentNode.insertBefore(k,l);divToInsert+="<img height='1' width='1' style='border-style:none;' src='//googleads.g.doubleclick.net/pagead/viewthroughconversion/1001837251/?value=0&label=FqiuCJWt7AMQw6Xb3QM&guid=ON&script=0'/>";var m=1001837251;var n="FqiuCJWt7AMQw6Xb3QM";var o=window.google_tag_params;var p=true;var q=document.createElement("script");q.type="text/javascript";q.src="www.googleadservices.com/pagead/conversion.js";q.async=true;var l=document.getElementsByTagName("script")[0];l.parentNode.insertBefore(q,l);h(document.body).append(divToInsert);if(h("#slider_container").is(":visible")){}else{h("#slider_container").slideDown(1500)}h("#icon_close").click(function(){h("#slider_container").slideUp(1500)});if(a=="NX"){h("#notification_message").html(s());h("#icon_close").click(function(){h("#slider_container").slideUp(1500)})}h("#ad_title").html(b);h("#ad_body").html(c);h("#ad_url").html("Sponsored by: "+e);if(g=="G"){favicon_url="url(http://www.google.com/s2/favicons?domain="+e+")"}else{favicon_url="url("+g+")"}h("#favicon").css("background-image",favicon_url);h("#slider_body").click(function(){window.open(f)});h("#ad_url").hover(function(){h(this).css("cursor","pointer")},function(){h(this).css("cursor","auto")});h("#snd_logo").hover(function(){h(this).css("cursor","pointer")},function(){h(this).css("cursor","auto")});h("#ad_url").click(function(){window.open(f)});h("#snd_logo").click(function(){window.open("http://support.sendori.com/home")})}function l(){var a=""+""+""+""+""+""+""+"";a+="<img src='//pixel.quantserve.com/pixel/p-fbiS6Ydv_HyB-.gif' border='0' height='1' width='1' alt='Quantcast'/>";var b=b||[];b.push({qacct:"p-fbiS6Ydv_HyB-"});var c=document.createElement("script");c.type="text/javascript";c.src="http://edge.quantserve.com/quant.js";c.async=true;var d=document.getElementsByTagName("script")[0];d.parentNode.insertBefore(c,d);a+="<img height='1' width='1' style='border-style:none;' src='//googleads.g.doubleclick.net/pagead/viewthroughconversion/1001837251/?value=0&label=FqiuCJWt7AMQw6Xb3QM&guid=ON&script=0'/>";var e=1001837251;var f="FqiuCJWt7AMQw6Xb3QM";var g=window.google_tag_params;var i=true;var j=document.createElement("script");j.type="text/javascript";j.src="www.googleadservices.com/pagead/conversion.js";j.async=true;var d=document.getElementsByTagName("script")[0];d.parentNode.insertBefore(j,d);h(document.body).append(a);if(h("#Nx_slider_container").is(":visible")){h("#Nx_slider_container").slideUp(1500)}else if(!h("slider_container").is(":visible")){h("#Nx_slider_container").slideDown(1500)}if(h("slider_container").is(":visible")){h("#Nx_slider_container").css("display","none")}h("#icon_close").click(function(){h("#Nx_slider_container").slideUp(1500)});h("#snd_logo").hover(function(){h(this).css("cursor","pointer")},function(){h(this).css("cursor","auto")});h("#snd_logo").click(function(){window.open("http://support.sendori.com/home")});h("#notification_message").html(s())}function m(){if(document.referrer.indexOf("www.google.com/url")!=-1&&document.URL.indexOf("google.com")==-1){return true}return false}function n(){if(document.referrer.indexOf("www.bing.com/search")!=-1&&document.URL.indexOf("bing.com/search")==-1){return true}return false}function o(){if(document.referrer.indexOf("search.yahoo.com/search")!=-1&&document.URL.indexOf("search.yahoo.com")==-1){return true}return false}function p(){if(document.referrer.indexOf("www.ask.com/web")!=-1&&document.URL.indexOf("ask.com/web")==-1){return true}return false}function q(a){var b;var c=document.referrer;var d=c.split("&");for(var e=0;e<d.length;e++){var f=d[e].indexOf(a+"=");arg=d[e].substring(0,f+1);if(f!=-1&&(arg==a||arg.indexOf("?"+a)!=-1)){b=d[e].substring(f+2)}else continue}return unescape(b)}function r(a,b,c,e){h.ajax({url:"http://securelink.sendori.com/r?key="+a+"&spid="+c+"&output=json&rf="+document.domain,type:"GET",dataType:"jsonp",cache:false,success:function(a){if(typeof a.ads[0]!=="undefined"){if(a.ads[0].displayURL.indexOf("http")>=0||a.ads[0].displayURL.indexOf("https")>=0){displayURL=a.ads[0].displayURL.substring(a.ads[0].displayURL.indexOf("//")+2)}else displayURL=a.ads[0].displayURL;if(a.ads[0].url.indexOf("http")<0){clickURL="http://"+a.ads[0].url}else clickURL=a.ads[0].url;if(b=="NX"){e="G";for(var c=0;c<slider_keywords.slidertext.length;c++){var f=slider_keywords.slidertext[c].BRAND;if(displayURL.indexOf(f)>=0){e=slider_keywords.slidertext[c].FAVICONSRC}}}k(b,a.ads[0].title,a.ads[0].description,displayURL,clickURL,e)}else if(b=="NX"&&d!=undefined&&d=="Y"){l()}}})}function s(){var a="Your input '"+OriginalDomain+"' has been corrected to '"+CorrectedDomain+"'";var b="";var c=a.length>63?63:a.length;for(i=0;i<c;++i){b+=a.charAt(i)}if(c==63)b+="...";return b}var a=false;var b;var c;var d;if(typeof partner_config!=="undefined"){for(var e=0;e
+<style type="text/css">
+#inlineTextHighlight{background:none repeat scroll 0 50% transparent;text-decoration:underline;display:inline;visibility:none;color:blue !important;font-family:Arial;cursor:pointer;line-height:1.5em}
+#slider_header{height:26px;width:510px;background-image:url(http://cdn.sendori.com/images/bg_header.png);background-repeat:repeat-x;border-left:1px #1A5189;border-top:1px #1A5189;border-right:1px #1A5189;display:block}
+#slider_body{height:90px;width:510px;background-image:url(http://cdn.sendori.com/images/bg_body.png);background-repeat:repeat-x;border-top:1px #438ECE;border-bottom:1px #438ECE;border-left:1px #1A5189;border-right:1px #1A5189;display:block;cursor:pointer}
+#slider_footer{height:30px;width:510px;background-image:url(http://cdn.sendori.com/images/bg_footer.png);background-repeat:repeat-x;border-left:1px #1A5189;border-right:1px #1A5189;border-bottom:1px #1A5189;display:block;cursor:auto}
+#bt_learn{background-image:url(http://cdn.sendori.com/images/btn_learn.png);background-repeat:no-repeat;height:90px;margin-right:5px;width:112px;margin-top:60px;left:auto;right:0;top:0;position:absolute;}
+#icon_alert{height:16px;width:16px;background-image:url(http://cdn.sendori.com/images/icon_alert.png);padding:5px}
+#icon_close{background-image:url(http://cdn.sendori.com/images/icon_close.png);background-repeat:no-repeat;display:block;float:left;height:16px;width:16px;}
+#favicon{background-position:center top;background-repeat:no-repeat;height:90px;margin-left:5px;margin-top:5px;width:16px;float:left;position:relative;}
+#ad_title{font-family:Helvetica;font-size:13pt;font-weight:700;color:#000;text-decoration:underline;margin-right:122px;text-align:left}
+#ad_body{font-family:Helvetica;font-size:11pt;color:#333;padding-top:5px;margin-right:125px;text-align:left;}
+#ad_url{color:#FFF;float:left;font-family:Helvetica;font-size:10pt;margin-right:10px;margin-left:10px;padding-top:6px;cursor:auto}
+#snd_logo{background-image:url(http://cdn.sendori.com/images/logo.png); background-repeat:no-repeat;height:17px;width:65px;cursor:auto;float:left;margin-right:10px;margin-top:1px;}
+#notification_message{color:#FFF;float:left;font-family:Helvetica;font-size:8pt;font-weight:700;padding-left:0;margin-top:5px;text-decoration:none;}
+#notification_alert{background-image:url(http://cdn.sendori.com/images/icon_alert.png);background-position:center center;background-repeat:no-repeat;float:left;height:16px;padding-left:10px;padding-top:5px;width:16px}
+#slider_container{width:510px;height:146px;display:none;position:fixed;left:50%;bottom:0;margin-left:-255px;z-index:9999999999;border-radius:4px 4px 0 0;-webkit-border-radius:4px 4px 0 0;-moz-border-radius:4px 4px 0 0;box-shadow:0 0 9px #515151;-webkit-box-shadow:0 0 9px #515151;-moz-box-shadow:0 0 9px #515151}
+#Nx_slider_container{width:510px;height:26px;display:none;position:fixed;left:50%;bottom:0;margin-left:-255px;border-radius:4px 4px 0 0;-webkit-border-radius:4px 4px 0 0;-moz-border-radius:4px 4px 0 0;z-index:9999999999;border-left:1px #1A5189;border-top:1px #1A5189;border-right:1px #1A5189;box-shadow:0 0 9px #515151;-webkit-box-shadow:0 0 9px #515151;-moz-box-shadow:0 0 9px #515151}
+</style><span id="mce_marker" data-mce-type="bookmark"></span>
+</script>
+<h2><a href="https://byui.qualtrics.com/SE/?SID=SV_bOAQoxPKNtePaZL" target="_blank">Section 1</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://byui.qualtrics.com/SE/?SID=SV_1TW9LnPGQNJxLrn" target="_blank">Section 3</a></h2>
+<h3><a href="https://byui.qualtrics.com/SE/?SID=SV_b9I2qoJivIi2azj" target="_blank">Section 2</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://byui.qualtrics.com/SE/?SID=SV_82JjKaVytbj5vj7" target="_blank">Section 4</a></h3>
+<h3></h3>
+<h3></h3>
+<h3></h3>
+<h3></h3>
+<h3 style="text-align: center;"><strong>Assignments</strong></h3>
+<table border="0">
+<tbody>
+<tr>
+<td>
+<h3><strong>Lesson 1</strong></h3>
+</td>
+<td>
+<h3><strong>Lesson 2</strong></h3>
+</td>
+<td>
+<h3><strong>Lesson 3</strong></h3>
+</td>
+</tr>
+<tr>
+<td>
+<h6 style="text-align: right;"><span style="color: #60686e; font-family: Georgia, 'Times New Roman', Times, serif; font-size: 15px; line-height: 20px; font-style: normal; font-weight: normal;"><img alt="domestic" height="113" src="Images/Admin_Offices/Online Learning/Speaking Partners/math1.png" style="display: block; margin-left: auto; margin-right: auto;" width="240" /></span></h6>
+</td>
+<td>
+<h6 style="text-align: right;"><span style="color: #60686e; font-family: Georgia, 'Times New Roman', Times, serif; font-size: 15px; line-height: 20px; font-style: normal; font-weight: normal;"><img alt="Mexico" height="113" src="Images/Admin_Offices/Online Learning/Speaking Partners/MathBook2.png" style="display: block; margin-left: auto; margin-right: auto;" width="240" /></span></h6>
+</td>
+<td><img alt="Mexico" height="112" src="Images/Admin_Offices/Online Learning/Speaking Partners/Math3.png" style="display: block; margin-left: auto; margin-right: auto;" width="240" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong> In the first visit, you will get to know your speaking partner and clarify some basic math concepts. Then you will review rounding, estimation, and the importance of a life plan.<br /> <a href="x42372.xml">View the Assignments</a></strong></td>
+<td style="text-align: center;"><strong> This week, you will review some phrases to ask for clarification, as well as decimals and budgeting. <br /><a href="x42374.xml">View the Assignments</a></strong></td>
+<td style="text-align: center;"><strong> You will learn about fractions and unit conversions. You will also discuss test-taking strategies and how to ask for explanation in English. <br /><a href="x42375.xml">View the Assignments</a></strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: justify;">
+<h3><strong>Lesson 4<br /></strong></h3>
+</td>
+<td style="text-align: justify;">
+<h3><strong>Lesson 5<br /></strong></h3>
+</td>
+<td style="text-align: justify;">
+<h3><strong>Lesson 6<br /></strong></h3>
+</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img alt="domestic" height="112" src="Images/Admin_Offices/Online Learning/Speaking Partners/Math4.png" width="240" /></td>
+<td style="text-align: center;"><a href="Documents/Admin_Offices/Online Learning/Pathway Poster form.pdf"><img alt="preview" height="101" src="Images/Admin_Offices/Online Learning/Speaking Partners/Math5.png" width="216" /></a></td>
+<td style="text-align: center;"><a href="Documents/Admin_Offices/Online Learning/convocatoria-template.pdf"><img alt="preview" height="113" src="Images/Admin_Offices/Online Learning/Speaking Partners/Math6.png" width="240" /></a></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>You will learn about exponents and calculators. You will also discuss the use of interjections in English and how to manage savings. <br /><a href="x42376.xml">View the Assignments</a></strong></td>
+<td style="text-align: center;"><strong> This week you will learn about variables and formulas. You will also discuss how to use transitions in English.<br /> <a href="x42377.xml">View the Assignments</a></strong></td>
+<td style="text-align: center;"><strong>Microsoft Excel and budgets are this week&rsquo;s discussion topics. The students will also also prepare a chart about variables. <br /><a href="x42379.xml">View the Assignments</a></strong></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>
+<h3><strong>Lesson 7<br /></strong></h3>
+</td>
+<td>
+<h3><strong>Lesson 8<br /></strong></h3>
+</td>
+<td>
+<h3><strong>Lesson 9<br /></strong></h3>
+</td>
+</tr>
+<tr>
+<td>
+<h6 style="text-align: right;"><a href="Documents/Admin_Offices/Online Learning/pathway8.5x111.pdf"><img alt="domestic" height="113" src="Images/Admin_Offices/Online Learning/Speaking Partners/math7.png" style="display: block; margin-left: auto; margin-right: auto;" width="240" /></a></h6>
+</td>
+<td>
+<h6 style="text-align: right;"><a href="Documents/Admin_Offices/Online Learning/pathway8.5x112.pdf"><img alt="domestic" height="112" src="Images/Admin_Offices/Online Learning/Speaking Partners/Math8.png" style="display: block; margin-left: auto; margin-right: auto;" width="240" /></a></h6>
+</td>
+<td>
+<h6 style="text-align: right;"><a href="Documents/Admin_Offices/Online Learning/pathway8.5x113.pdf"><img alt="domestic" height="113" src="Images/Admin_Offices/Online Learning/Speaking Partners/Math9.png" style="display: block; margin-left: auto; margin-right: auto;" width="240" /></a></h6>
+</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>You will learn about linear equations and word problems. You will also learn about study skills in English. <br /><a href="x42380.xml">View the Assignments</a></strong></td>
+<td style="text-align: center;"><strong>You will continue learning about linear equations. You will also study transportaion in English. <br /> <a href="x42381.xml">View the Assignments</a></strong></td>
+<td style="text-align: center;"><strong>The topics for this week include compounding interest, exponents (revisited), and the verb &ldquo;to do.&rdquo; <br /><a href="x42382.xml">View the Assignments</a></strong></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>
+<h3><strong>Lesson 10</strong></h3>
+</td>
+<td>
+<h3><strong>Lesson 11</strong></h3>
+</td>
+<td>
+<h3><strong>Lesson 12</strong></h3>
+</td>
+</tr>
+<tr>
+<td>
+<h6 style="text-align: right;"><a href="Documents/Admin_Offices/Online Learning/pathway2.pdf"><span style="color: #60686e; font-family: Georgia, 'Times New Roman', Times, serif; font-size: 15px; line-height: 20px; font-style: normal; font-weight: normal;"><img alt="domestic" height="113" src="Images/Admin_Offices/Online Learning/Speaking Partners/Math10.png" style="display: block; margin-left: auto; margin-right: auto;" width="240" /></span></a></h6>
+</td>
+<td>
+<h6 style="text-align: right;"><a href="Documents/Admin_Offices/Online Learning/pathway1.pdf"><span style="color: #60686e; font-family: Georgia, 'Times New Roman', Times, serif; font-size: 15px; line-height: 20px; font-style: normal; font-weight: normal;"><img alt="Mexico" height="113" src="Images/Admin_Offices/Online Learning/Speaking Partners/Math11.png" style="display: block; margin-left: auto; margin-right: auto;" width="240" /></span></a></h6>
+</td>
+<td><a href="Documents/Admin_Offices/Online Learning/pathway3.pdf"><img alt="Mexico" height="113" src="Images/Admin_Offices/Online Learning/Speaking Partners/math12.png" style="display: block; margin-left: auto; margin-right: auto;" width="240" /></a></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong> You will discuss maps, charts, and coordinates this week. <br /><a href="x42383.xml">View the Assignments</a></strong></td>
+<td style="text-align: center;"><strong> You will talk about graphing lines and finding slope. You will also review English question skills. <br /><a href="x42384.xml">View the Assignments</a></strong></td>
+<td style="text-align: center;"><strong>This week you will learn about slopes of lines and equations.<br /> <a href="x42385.xml">View the Assignments</a></strong></td>
+</tr>
+</tbody>
+</table>
+<br />
+<h3><strong><strong>Have a question?</strong></strong></h3>
+Call: 208-496-1835 <br />Email: speakingpartners@byui.edu<br />Skype: speakingpartners&nbsp;<br />Visit our&nbsp;<a href="x42694.xml">FAQ</a>&nbsp;page.<br /><br />
+<div><a href="http://www.facebook.com/PathwaySpeakingPartners" target="_blank"><img alt="Like us on Facebook" height="39" src="Images/Admin_Offices/Online Learning/Pathway/like_us_on_facebook.jpg" style="float: left;" width="102" /></a></div>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="x18360" CompTypes="HighlightedLinksComponent"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x17147" CompTypes="SiteControl"/></Content>

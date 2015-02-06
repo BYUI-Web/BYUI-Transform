@@ -1,0 +1,215 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<Content ID="x47490" Name="Internship Activity Report" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Internship Activity Report</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Internship Activity Report</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<div id="container">
+<div id="main_body"><!-- LEFT COLUMN --><!-- RIGHT COLUMN -->
+<div id="content_section">
+<div class="content_bottom_section">
+<div class="leftAREA"><!--Editor="MainBody1" Size="67x23"-->
+<h2 align="center"><span style="text-decoration: underline;">Internship Activity Report</span></h2>
+<p align="center">(To be completed by the student intern)</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<form action="http://www2.byui.edu/AspUtilities/emailAForm.asp" method="post"><input name="txtEmailTo" type="hidden" value="tollj@byui.edu" /> <input name="txtEmailSubject" type="hidden" value="Internship Activity Report" />
+<table border="0">
+<tbody>
+<tr>
+<td>Student Intern's Name:</td>
+<td><input name="Student Intern's Name" size="41" type="text" /></td>
+</tr>
+<tr>
+<td>Please enter today's date:</td>
+<td><input name="Conferences with student" size="11" type="text" /></td>
+</tr>
+<tr>
+<td>Report number:</td>
+<td><select name="report number" size="1">
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+</select></td>
+</tr>
+<tr>
+<td>Communication with supervisor:</td>
+<td><select name="communication with supervisor" size="1">
+<option>Excellent</option>
+<option>Good</option>
+<option>Average</option>
+<option>Poor</option>
+</select></td>
+</tr>
+<tr>
+<td>Physical well being (food, lodging, general health):</td>
+<td><select name="Well being" size="1">
+<option>Excellent</option>
+<option>Good</option>
+<option>Average</option>
+<option>Poor</option>
+</select></td>
+</tr>
+<tr>
+<td>Opportunity to learn and practice skills:</td>
+<td><select name="opportunity to learn" size="1">
+<option>Excellent</option>
+<option>Good</option>
+<option>Average</option>
+<option>Poor</option>
+</select></td>
+</tr>
+<tr>
+<td>Your level of satisfaction with this experience so far:</td>
+<td><select name="student satisfaction" size="1">
+<option>Excellent</option>
+<option>Good</option>
+<option>Average</option>
+<option>Poor</option>
+</select></td>
+</tr>
+<tr>
+<td>
+<p>Assumed level of satisfaction of the experience provider:</p>
+</td>
+<td><select name="provider satisfaction" size="1">
+<option>Excellent</option>
+<option>Good</option>
+<option>Average</option>
+<option>Poor</option>
+</select></td>
+</tr>
+<tr>
+<td>Cooperation with fellow workers:</td>
+<td><select name="coop with fellow workers" size="1">
+<option>Excellent</option>
+<option>Good</option>
+<option>Average</option>
+<option>Poor</option>
+</select></td>
+</tr>
+<tr>
+<td>Please rate your work speed:</td>
+<td><select name="Work speed" size="1">
+<option>Superior</option>
+<option>Good</option>
+<option>Average</option>
+<option>Fair</option>
+<option>Needs Improvement</option>
+</select></td>
+</tr>
+<tr>
+<td>Please tell me your level of ability to handle responsibility:</td>
+<td><select name="Responsibility" size="1">
+<option>Superior</option>
+<option>Good</option>
+<option>Average</option>
+<option>Fair</option>
+<option>Needs Improvement</option>
+</select></td>
+</tr>
+<tr>
+<td>How are you handling suggestions from supervisors?</td>
+<td><select name="handling suggestions by supervisors" size="1">
+<option>Superior</option>
+<option>Good</option>
+<option>Average</option>
+<option>Fair</option>
+<option>Needs Improvement</option>
+</select></td>
+</tr>
+<tr>
+<td>What level of technical competence have you achieved?</td>
+<td><select name="Technical competence" size="1">
+<option>Superior</option>
+<option>Good</option>
+<option>Average</option>
+<option>Fair</option>
+<option>Needs Improvement</option>
+</select></td>
+</tr>
+<tr>
+<td>In the following boxes, please list jobs or duties you have been performing. Indicate how many hours you have spent on each job, and what level of proficiency you have achieved:</td>
+<td><textarea cols="20" name="Additional duties" rows="5"></textarea></td>
+</tr>
+<tr>
+<td><strong>Additional job or duty:</strong></td>
+<td><textarea cols="20" name="Additional duties" rows="5"></textarea></td>
+</tr>
+<tr>
+<td><strong>Additional job or duty:</strong></td>
+<td><textarea cols="20" name="Additional duties" rows="5"></textarea></td>
+</tr>
+<tr></tr>
+<tr>
+<td>Are you keeping a daily journal of your experiences?</td>
+<td><select name="provider relations developing well?" size="1">
+<option>Yes</option>
+<option>No</option>
+</select></td>
+</tr>
+<tr>
+<td>&nbsp;
+<p>Please enter the number of hours worked during this report period:</p>
+</td>
+<td><input name="Number of hours worked this period" size="26" type="text" /></td>
+</tr>
+<tr>
+<td>Please indicate number of hours/days absent from duty, and explain reason for absence.&nbsp; Please remember to clear any absence with your supervisor, and the department coordinator.</td>
+<td><textarea cols="20" name="days absent, reason" rows="4"></textarea></td>
+</tr>
+<tr>
+<td>Firm name and address:</td>
+<td><textarea cols="20" name="firm name and address" rows="6"></textarea></td>
+</tr>
+<tr>
+<td>Owner/Supervisor name:</td>
+<td><input name="owner/supervisor name" size="33" type="text" /></td>
+</tr>
+<tr>
+<td>Phone number:</td>
+<td><input name="phone" size="20" type="text" /></td>
+</tr>
+<tr>
+<td>Your preferred email address (not the employers):</td>
+<td><input name="txtEmailFrom" size="33" type="text" /></td>
+</tr>
+<tr>
+<td>Initial:</td>
+<td><input name="initials" size="20" type="text" /></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p><strong>If it does not submit, please print or save this form and send it to:</strong> Jerry Toll, 263 BEN or tollj@byui.edu</p>
+<p><br /> <input type="submit" value="Submit" />&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value="Reset" /></p>
+<p>&nbsp;</p>
+<!--EndEditor--></form></div>
+<div class="rightAREA"><!--Editor="MainBody2" Size="18x17"--><br />
+<h3>Applied Plant Science Department</h3>
+<p>Rexburg, ID 83460-1110</p>
+<p>(208) 496-2018</p>
+<!--EndEditor-->
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--EndEditorForm--><!-- TABLE FORMATTING SECTION -->
+<script type="text/javascript">
+var tableTags = document.getElementById('main_body').getElementsByTagName("table");
+        for (var i = 0; i < tableTags.length; i++)
+        {
+            var trTags = tableTags[i].getElementsByTagName("tr");
+            for (var j = 0; j < trTags.length; j++)
+            {
+                if(j%2 == 0)
+                {
+                    trTags.item(j).style.backgroundColor = "#efefec";
+                }
+                else
+                {
+                    trTags.item(j).style.backgroundColor = "#ffffff";
+                }
+            }
+        }
+</script>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x6517" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

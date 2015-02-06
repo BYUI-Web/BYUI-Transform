@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x16259" Name="Logos" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Logos</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Logos</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p><link href="PreBuilt/css_v2/pagetype_groups/autocomplete.css" rel="stylesheet" type="text/css" /></p>
+<div id="upper-identity">
+<p><img alt="Logos" height="138" src="Images/Admin_Offices/university_communications/Office Templates/logo.png" width="189" /></p>
+<p>All communication pieces need to have a logo which identifies the sponsoring office, college or program. Unless otherwise determined by the Communication Council, a logo should be used on all communication pieces.</p>
+<p>INSTRUCTIONS: These logos can be downloaded by visiting the&nbsp;<a href="https://inet.byui.edu/sites/Identity/SitePages/Home.aspx">Identity Site on SharePoint</a>&nbsp;After entering your username and password, select the logo that matches your department or office.&nbsp;<em>(If you are a student, you currently have limited access to this site and will need the help of your supervisor.)</em></p>
+</div>
+<div id="results">
+<p id="title"></p>
+<div id="downloadLogo"></div>
+</div>
+<p></p>
+<p>
+<script type="text/javascript">
+//Ignore this function area
+function loadScript(url, callback){
+	//load script tag at end of body
+	var body = document.getElementsByTagName('body')[0];
+	var script = document.createElement('script');
+	script.type = 'text/javascript';
+	script.src = url;
+
+	// then bind the event to the callback function 
+	// there are several events for cross browser compatibility
+	script.onreadystatechange = callback;
+	script.onload = callback;
+
+	// fire the loading
+	body.appendChild(script);
+}
+
+//define inline script to be called inside the callback function parameter
+var identityCallback = function(){
+
+
+	LogoMap = new Map();
+	LogoMap.put("Academic Administration","Academic Administration.zip");
+	LogoMap.put("Academic Development","Academic Development.zip");
+	LogoMap.put("Academic Discovery Center","Academic Discovery Center.zip");
+	LogoMap.put("Academic Support Center","Academic Support Center.zip");
+	LogoMap.put("Academic Technology Services","Academic Technology Services.zip");
+        LogoMap.put("Academic Travel Studies","Academic Travel Studies.zip");
+	LogoMap.put("Academics","Academics.zip");
+	LogoMap.put("Accounting Office","Accounting Office.zip");
+	LogoMap.put("Activities and Spirit Events","Activities and Spirit Events.zip");
+	LogoMap.put("Activities Fitness","Activities Fitness.zip");
+	LogoMap.put("Activities Outdoor","Activities Outdoor.zip");
+	LogoMap.put("Activities Service","Activities Service.zip");
+	LogoMap.put("Activities Social","Activities Social.zip");
+	LogoMap.put("Activities Sports","Activities Sports.zip");
+	LogoMap.put("Activities Talent","Activities Talent.zip");
+	LogoMap.put("Adaptable Activity","Adaptable Activity.zip");
+	LogoMap.put("Admissions","Admissions.zip");
+	LogoMap.put("Advancement","Advancement.zip");
+	LogoMap.put("Alumni and Community Connections Main Street","Alumni and Community Connections Main Street.zip");
+	LogoMap.put("Alumni and Community Connections","Alumni and Community Connections.zip");
+	LogoMap.put("Alumni Relations","Alumni Relations.zip");
+	LogoMap.put("Alumni","Alumni.zip");
+	LogoMap.put("Associate Chief Technology Officer","Associate Chief Technology Officer.zip");
+	LogoMap.put("Associations","Associations.zip");
+	LogoMap.put("Automotive Technology","Automotive Technology.zip");
+	LogoMap.put("AV Productions", "AV Productions.zip");
+	LogoMap.put("Broadcast and News Services","Broadcast and News Services.zip");
+	LogoMap.put("Budget Office","Budget Office.zip");
+	LogoMap.put("BUILD","BUILD.zip");
+	LogoMap.put("Bursars","Bursars Office.zip");
+	LogoMap.put("BYU-Idaho Radio","BYU-Idaho Radio.zip");
+	LogoMap.put("Campus Wellness","Campus Wellness.zip");
+	LogoMap.put("Career and Academic Advising","Career and Academic Advising.zip");
+	LogoMap.put("Career Services and Employer Relations","Career Services and Employer Relations.zip");
+	LogoMap.put("Cashiers Office","Cashiers Office.zip");
+	LogoMap.put("Classroom Technology","Classroom Technology.zip");
+	LogoMap.put("College of Agriculture and Life Sciences","College of Agriculture and Life Sciences.zip");
+	LogoMap.put("College of Business and Communication","College of Business and Communication.zip");
+	LogoMap.put("College of Education and Human Development","College of Education and Human Development.zip");
+	LogoMap.put("College of Language and Letters","College of Language and Letters.zip");
+	LogoMap.put("College of Performing and Visual Arts","College of Performing and Visual Arts.zip");
+	LogoMap.put("College of Physical Sciences and Engineering","College of Physical Sciences and Engineering.zip");
+	LogoMap.put("Community Connections","Community Connections.zip");
+	LogoMap.put("Computer Science and Electrical Engineering Department","Computer Science and Electrical Engineering Department.zip");
+	LogoMap.put("Continuing Education","Continuing Education.zip");
+	LogoMap.put("Copy Spot","Copy Spot.zip");
+	LogoMap.put("Counseling Center","Counseling Center.zip");
+	LogoMap.put("Creative Services","Creative Services.zip");
+	LogoMap.put("Curriculum Development","Curriculum Development.zip");
+	LogoMap.put("Dean of Students Office","Dean of Students Office.zip");
+	LogoMap.put("Department of Accounting","Department of Accounting.zip");
+        LogoMap.put("Department of Animal and Food Science","Department of Animal and Food Science.zip");
+	LogoMap.put("Department of Applied Plant Science", "Department of Applied Plant Science.zip");
+	LogoMap.put("Department of Art","Department of Art.zip");
+	LogoMap.put("Department of Biology","Department of Biology.zip");
+	LogoMap.put("Department of Business Management","Department of Business Management.zip");
+	LogoMap.put("Department of Chemistry","Department of Chemistry.zip");
+	LogoMap.put("Department of Communication","Department of Communication.zip");
+	LogoMap.put("Department of Computer Information Technology","Department of Computer Information Technology.zip");
+	LogoMap.put("Department of Computer Science and Electrical Engineering","Department of Computer Science and Electrical Engineering.zip");
+        LogoMap.put("Department of Design and Construction Management","Department of Design and Construction Management.zip");
+	LogoMap.put("Department of Economics","Department of Economics.zip");
+	LogoMap.put("Department of English","Department of English.zip");
+	LogoMap.put("Department of Exercise and Sports Science","Department of Exercise and Sports Science.zip");
+	LogoMap.put("Department of Geology","Department of Geology.zip");
+	LogoMap.put("Department of Health Science","Department of Health Science.zip");
+	LogoMap.put("Department of History, Geography and Political Science","Department of History, Geography and Political Science.zip");
+	LogoMap.put("Department of Home and Family","Department of Home and Family.zip");
+	LogoMap.put("Department of Humanities and Philosophy","Department of Humanities and Philosophy.zip");
+	LogoMap.put("Department of Interior Design","Department of Interior Design.zip");
+        LogoMap.put("Department of Languages and International Studies","Department of Languages and International Studies.zip");
+	LogoMap.put("Department of Mathematics","Department of Mathematics.zip");
+	LogoMap.put("Department of Mechanical Engineering","Department of Mechanical Engineering.zip");
+	LogoMap.put("Department of Music","Department of Music.zip");
+	LogoMap.put("Department of Nursing","Department of Nursing.zip");
+	LogoMap.put("Department of Physics","Department of Physics.zip");
+	LogoMap.put("Department of Psychology","Department of Psychology.zip");
+	LogoMap.put("Department of Recreation Management","Department of Recreation Management.zip");
+	LogoMap.put("Department of Religious Education","Department of Religious Education.zip");
+	LogoMap.put("Department of Teacher Education","Department of Teacher Education.zip");
+	LogoMap.put("Department of Theatre and Dance","Department of Theatre and Dance.zip");
+	LogoMap.put("Disability Services Office","Disability Services.zip");
+	LogoMap.put("Distant Site Education","Distant Site Education.zip");
+	LogoMap.put("Enrollment Services","Enrollment Services.zip");
+	LogoMap.put("Enterprise Information Systems","Enterprise Information Systems.zip");
+	LogoMap.put("Event Management","Event Management.zip");
+	LogoMap.put("Event Services","Event Services.zip");
+	LogoMap.put("Executive Office","Executive Office.zip");
+	LogoMap.put("Facilities Management","Facilities Management.zip");
+	LogoMap.put("Facility Planning and Construction","Facility Planning and Construction.zip");
+	LogoMap.put("Financial Services","Financial Services.zip");
+	LogoMap.put("Food Services","Food Services.zip");
+	LogoMap.put("Foreign Languages and Literature Department","Foreign Languages and Literature Department.zip");
+	LogoMap.put("Foundations and Interdisciplinary Studies","Foundations and Interdisciplinary Studies.zip");
+	LogoMap.put("Get Prepared","Get Prepared.zip");
+	LogoMap.put("Hart Management","Hart Management.zip");
+	LogoMap.put("Health Professions Office","Health Professions Office.zip");
+	LogoMap.put("Health Science Department","Health Science Department.zip");
+	LogoMap.put("Health, Recreation, and Human Performance","Health, Recreation, and Human Performance.zip");
+	LogoMap.put("Honor Code Office","Honor Code Office.zip");
+	LogoMap.put("Housing and Student Living Office","Housing and Student Living Office.zip");
+	LogoMap.put("Human Resources","Human Resources.zip");
+	LogoMap.put("I-Card Office","I-Card Office.zip");
+	LogoMap.put("IBC","IBC.zip");
+	LogoMap.put("Information Security","Information Security.zip");
+	LogoMap.put("Information Technology","Information Technology.zip");
+	LogoMap.put("Infrastructure","Infrastructure.zip");
+	LogoMap.put("Institutional Events","Institutional Events.zip");
+	LogoMap.put("Instructional Development","Instructional Development.zip");
+	LogoMap.put("Internal Audit","Internal Audit.zip");
+	LogoMap.put("International Services","International Services.zip");
+	LogoMap.put("Internship and Career Services","Internship and Career Services.zip");
+	LogoMap.put("Investment Society","Investment Society.zip");
+	LogoMap.put("KBYI","KBYI.zip");
+	LogoMap.put("LDS Philanthropies","LDS Philanthropies.zip");
+	LogoMap.put("Mail Services","Mail Services.zip");
+	LogoMap.put("McKay Library","McKay Library.zip");
+	LogoMap.put("Mechanical Engineering Department","Mechanical Engineering Department.zip");
+	LogoMap.put("Nursing Outreach","Nursing Outreach.zip");
+	LogoMap.put("Office of the President","Office of the President.zip");
+	LogoMap.put("One-Card System","One-Card System.zip");
+	LogoMap.put("Online Administration","Online Administration.zip");
+LogoMap.put("Online Degrees and Services","Online Degrees and Services.zip");
+	LogoMap.put("Online Learning","Online Learning.zip");
+	LogoMap.put("Outdoor Learning Center","Outdoor Learning Center.zip");
+        LogoMap.put("Outdoor Resource Center","Outdoor Resource Center.zip");
+	LogoMap.put("Pathway Administration","Pathway Administration.zip");
+	LogoMap.put("Personal Honor","Personal Honor.zip");
+	LogoMap.put("Perspective","Perspective.zip");
+	LogoMap.put("Physics Department","Physics Department.zip");
+	LogoMap.put("Presentation Practice Center","Presentation Practice Center.zip");
+	LogoMap.put("Print and Copy Services","Print and Copy Services.zip");
+	LogoMap.put("Purchasing and Travel","Purchasing and Travel.zip");
+	LogoMap.put("Recycling Center","Recycling Center.zip");
+LogoMap.put("Research and Creative Works Council","Research and Creative Works Council.zip");
+        LogoMap.put("ROTC-Military Sciences","ROTC-Military Sciences.zip");
+	LogoMap.put("Safety Office","Safety Office.zip");
+	LogoMap.put("Scheduling Office","Scheduling Office.zip");
+        LogoMap.put("Soapbox Creative Agency","Soapbox Creative Agency.zip");
+	LogoMap.put("Sociology and Social Work Department","Sociology and Social Work Department.zip");
+	LogoMap.put("Software Engineering Department","Software Engineering Department.zip");
+	LogoMap.put("Sports First Aid","Sports First Aid.zip");
+	LogoMap.put("Stores and Receiving","Stores and Receiving.zip");
+	LogoMap.put("Student Activities","Student Activities.zip");
+	LogoMap.put("Student Connections","Student Connections.zip");
+	LogoMap.put("Student Counseling Center","Student Counseling Center.zip");
+	LogoMap.put("Student Financial Aid","Student Financial Aid.zip");
+	LogoMap.put("Student Health Center","Student Health Center.zip");
+	LogoMap.put("Student Honor Office","Student Honor Office.zip");
+	LogoMap.put("Student Living Office","Student Living Office.zip");
+	LogoMap.put("Student Peer Instruction","Student Peer Instruction.zip");
+	LogoMap.put("Student Records and Registration","Student Records and Registration.zip");
+	LogoMap.put("Student Representative Council","Student Representative Council.zip");
+	LogoMap.put("Student Safety Council","Student Safety Council.zip");
+	LogoMap.put("Student Services and Activities","Student Services and Activities.zip");
+	LogoMap.put("Student Spirit Events","Student Spirit Events.zip");
+	LogoMap.put("Student Support","Student Support.zip");
+	LogoMap.put("Student Well-Being","Student Well-Being.zip"); LogoMap.put("Study Skills Center","Study Skills Center.zip");
+	LogoMap.put("Technology Implementation Service","Technology Implementation Service.zip");
+	LogoMap.put("Technology Support","Technology Support.zip");
+	LogoMap.put("Testing Center","Testing Center.zip");
+	LogoMap.put("Testing Unit","Testing Unit.zip");
+	LogoMap.put("Ticket Services","Ticket Services.zip");
+	LogoMap.put("Tutoring Center","Tutoring Center.zip");
+	LogoMap.put("University Events","University Events.zip");
+	LogoMap.put("University Operations","University Operations.zip");
+	LogoMap.put("University Parking Services","University Parking Services.zip");
+        LogoMap.put("University Relations","University Relations.zip");
+	LogoMap.put("University Relations and Services","University Relations and Services.zip");
+	LogoMap.put("University Relations and Services","University Relations and Services.zip");
+	LogoMap.put("University Resources","University Resources.zip");
+	LogoMap.put("University Security and Safety","University Security andac Safety.zip");
+	LogoMap.put("University Services","University Services.zip");
+	LogoMap.put("University Store","University Store.zip");
+
+	var key = LogoMap.keySet();
+
+	$(document).ready(function(){
+		var data = key;
+		$("#results").hide();
+		$("#example").autocomplete(data);
+		$('input#example').result(function(event, data, formatted) {
+console.log(data); 
+			$("#results").show();
+			$("#instructions").hide();
+			$("#results #title").html(!data ? "No match!" : formatted);
+			$("#downloadLogo").html( !data ? "No match!" : "<a class='identityButton' href='Documents/Identity/logos/" + LogoMap.get(formatted) + "'><img src='Images/Admin_Offices/university_communications/Office Templates/identity_office_template_button.png' alt='Download Now' /></a> ");
+			});
+	});
+}/* end callback code*/
+
+// Execute the entire function after page has finished 
+// loading (script import and callback inline javascript)
+window.onload = function(){ 
+	//put the path to your jquery-dependent script below here
+	console.log("inside window onload"); 
+	loadScript("PreBuilt/js/third_party/hashmap.js");
+	loadScript("PreBuilt/js/third_party/jquery.autocomplete.js", identityCallback);
+}
+</script>
+</p>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x10072" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

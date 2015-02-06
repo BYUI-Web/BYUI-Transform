@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<Content ID="x50819" Name="Accommodations" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Accommodations</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Accommodations</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<!-- insert inline CSS styles here -->
+<style type="text/css"><!--
+DIV li {
+			 margin-left: 10px;
+	}
+
+	DIV h2 {
+			color: #3E77B5; font-size: 16px;
+	}
+   
+   DIV A.links {
+          color: black; font-size: 20px; font-weight: bold; font-family: Arial;
+   }
+--></style>
+<!--contents-->
+<div>
+<p>Academic accommodations include such things as the following</p>
+<ul>
+<li>Additional time for testing</li>
+<li>Preferential seating</li>
+<li>Volunteer note-takers</li>
+<li>Oral testing</li>
+<li>Audio taped lectures</li>
+<li>Priority registration</li>
+<li>Distraction free environment for testing</li>
+<li>Access/Assistive technology equipment</li>
+</ul>
+<p>These accommodations are considered on an individual basis determined on the clinical information and by an interactive dialog with the student who has a disability. <br /><br />If needed, written descriptions of specific accommodations may be sent to instructors or requested by students. With students' permission, clinical information regarding the disability may also be shared with instructors to help in providing better services.</p>
+<br /> <a class="links" href="http://www.byui.edu/AcademicLearning/">Department of Academic Learning Services</a>
+<p>All students, regardless of disability issues, are encouraged to take advantage of the services offered through the Academic Learning Department located in the McKay Library on the 3rd floor, East wing. Elevator access is provided</p>
+<ul>
+<li>Reading Center</li>
+<li>Writing Center</li>
+<li>Math Center</li>
+<li>Study Skills Center</li>
+<li>Tutoring Center</li>
+</ul>
+<p>These services are provided at no extra cost to the student. It is the student's responsibility to contact the centers and make arrangements for services. Information can be found on the BYU-Idaho home page by following the prompts under "Students," then "Services," to "Academic Learning." A person may also call the Department at (208) 496-4271.</p>
+<br /> <a class="links" href="http://activities.byui.edu/adaptiveservices/default.htm">See also "Adaptive Service Adventure Program" (ASAP)</a>
+<p>Steve Andersen<br />Phone Number: 496-2229<br />Email: <a href="mailto:AndersenS@byui.edu" style="color: black;" target="_parent">AndersenS@byui.edu</a></p>
+<br />
+<h2>Personal Assistance</h2>
+<p>Services such as a personal attendant, help with activities of daily living (ADL's), transportation to campus, or transportation on campus, etc., are classified as "Personal Services," and not provided by the university. Referral to appropriate agencies and resources is available through the SSD Office.</p>
+</div>
+<!--contents end-->]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x25860" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

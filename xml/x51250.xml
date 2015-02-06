@@ -1,0 +1,316 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<Content ID="x51250" Name="New Student Checklist" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">New Student Checklist</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">New Student Checklist</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style><!--
+<span data-mce-bogus="1" id="_mce_caret"><sup data-mce-bogus="1"></sup></span><!--.type ul li {
+    width: 99%;
+  }
+  .cl-block-content ul li {
+    padding: 6px 0;
+    list-style-type: square;
+  }
+  .cl-block-content > h4 {
+    font-family: inherit;
+    font-size: 14pt;
+    padding: 9px;
+  }
+  .cl-block-top {
+    position: relative;
+    cursor: pointer;
+  }
+  .cl-block {
+    margin-bottom: 30px;
+    font-size: 12px;
+  }
+  h4.cl-header {
+    font-weight: normal;
+    font-size: 15px;
+    font-family: helvetica, sans-serif;
+    font-style: normal;
+    margin-left: 45px;
+    padding: 10px 10px 10px 20px;
+    background-color: #dddddd;
+  }
+  .cl-icon {
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+    border-radius: 55px 55px 55px 55px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -8px;
+    left: 0px;
+  }
+  .cl-block-content {
+    border-right: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    /* display: none; */
+  }
+  .cl-block-content > ul {
+    margin: 0px;
+  }
+  .cl-icon-accept {
+    background-image: url(Images/student-support/checklist/icons/Icons%20checklist-04.png);
+  }
+  .cl-icon-access {
+    background-image: url(Images/student-support/checklist/icons/Icons%20checklist-01.png);
+  }
+  .cl-icon-scholarship {
+    background-image: url(Images/student-support/checklist/icons/Icons%20checklist-02.png);
+  }
+  .cl-icon-connected {
+    background-image: url(Images/student-support/checklist/icons/Icons%20checklist-03.png);
+  }
+  .cl-icon-housing {
+    background-image: url(Images/student-support/checklist/icons/Icons%20checklist-09.png);
+  }
+  .cl-icon-register {
+    background-image: url(Images/student-support/checklist/icons/Icons%20checklist-10.png);
+  }
+  .cl-icon-tuition {
+    background-image: url(Images/student-support/checklist/icons/Icons%20checklist-07.png);
+  }
+  .cl-icon-buybooks {
+    background-image: url(Images/student-support/checklist/icons/Icons%20checklist-06.png);
+  }
+  .cl-icon-privacy {
+    background-image: url(Images/student-support/checklist/icons/Icons%20checklist-05.png);
+  }
+  .cl-icon-spiritually {
+    background-image: url(Images/student-support/checklist/icons/spirituality.png);
+  }
+  .cl-arrow {
+    right: 10px;
+    position: absolute;
+    border-style: solid;
+    width: 0;
+    height: 0;
+    margin: 4px 25px 0 0;
+    border-width: 9px;
+  }
+  .cl-down-arrow {
+    border-color: grey transparent transparent;
+    top: 12px;
+  }
+  .cl-up-arrow {
+    border-color: transparent transparent grey transparent;
+    top: 2px;
+  }
+--></style>
+<div id="cl-content">
+<div class="cl-block">
+<div class="cl-block-top"><span class="cl-icon-accept cl-icon" data-mce-mark="1"></span>
+<h4 class="cl-header">Accept / Decline Your BYU-Idaho Offer</h4>
+<span class="cl-arrow cl-down-arrow" data-mce-mark="1"></span></div>
+<div class="cl-block-content">
+<ul>
+<li>Accept or decline your BYU-Idaho admission offer online at <a href="https://web.byui.edu/Services/CESLogin/?RedirectURL=https%3a%2f%2fweb.byui.edu%2fadmissions%2fresponse">www.byui.edu/response</a>. &nbsp;You must decline your offer if you no longer plan to attend BYUI.</li>
+<li>Need to defer your admissions offer for LDS mission service? &nbsp;View the deferment policies and submit the deferment form on the <a href="http://www.byui.edu/admissions/current-students/deferments-time-off/lds-missionary-deferment">Admissions Office</a>&nbsp;website. &nbsp;</li>
+<li>Once admitted as a new student you will be assigned to a <span style="text-decoration: underline;" data-mce-mark="1"> <a href="http://www.byui.edu/student-support/student-ambassadors">Student Ambassador</a> </span>who will answer your questions about attending BYU-Idaho and help guide you through the <em>New Student Checklist</em>. <br /> <br /> <iframe frameborder="0" height="400" src="http://www.youtube.com/embed/AOeOnj3ULD8" width="637"></iframe></li>
+</ul>
+</div>
+</div>
+<div class="cl-block">
+<div class="cl-block-top"><span class="cl-icon-access cl-icon" data-mce-mark="1"></span>
+<h4 class="cl-header">Access Your Student Portal (my.byui.edu) and BYUI Email Account</h4>
+<span class="cl-arrow cl-down-arrow" data-mce-mark="1"></span></div>
+<div class="cl-block-content">
+<ul>
+<li>Login (see "First Login" information below) to your <a href="https://secure.byui.edu/cas/login?service=https://web.byui.edu/Services/Login/?RedirectURL=https%3a%2f%2fmy.byui.edu%2f">student portal </a>(my.byui.edu). &nbsp;</li>
+<li>If you haven't accepted your offer you won't be able to login to your student portal, register for classes, apply for housing or take care of any other key services.</li>
+</ul>
+<em style="color: #111111; line-height: 1; font-size: 1.5em; orphans: 3; widows: 3;">First Login to Your Student Portal (Health Plan Requirements)</em> <br />
+<ul>
+<li>You are required to have insurance coverage, even when off-track, and will be automatically enrolled in the <a href="http://www.byui.edu/health-center/student-health-plan" title="BYU-Idaho Student Health Plan">BYU-Idaho Student Health Plan</a> unless your current insurance qualifies and you submit a waiver.</li>
+<li>If you plan to submit a waiver, you will be prompted to do so the first time you login to my.byui.edu.</li>
+<li>Frequently access your BYUI email account through your <a href="https://secure.byui.edu/cas/login?service=https://web.byui.edu/Services/Login/?RedirectURL=https%3a%2f%2fmy.byui.edu%2f">student portal</a>. &nbsp;Email is the official method of communication at BYU-Idaho. &nbsp;You are responsible for all emails sent to you from the University.<br />
+<ul>
+<li><em>Urgent Notices - contains urgent information (sent as needed). </em></li>
+<li><em>Student Advisory -&nbsp;</em>contains essential University information (sent on Tuesdays).</li>
+<li><em>The Feed -&nbsp;</em> features campus life and promotional information (sent on Thursdays).</li>
+<li><em>New Student Update -</em> contains information about preparing to attend BYUI (sent on Fridays as needed).</li>
+</ul>
+</li>
+<li>Experiencing difficulties with Net ID/password, web access or other technology issues? Access the <a href="http://www.byui.edu/help-desk">Technology Help Desk </a> website or call 1-866-237-5195 <a href="http://ingeniux.byui.edu/admin/xml/" style="position: static !important; margin: 0px; width: 16px; bottom: 0px; display: inline; white-space: nowrap; float: none; height: 16px; vertical-align: middle; overflow: hidden; cursor: hand; right: 0px; top: 0px; left: 0px;" title="Call: 1-866-237-5195"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAKLSURBVHjadJPfS5NhFMe/21xvuhXRyJAZroiSrJnbRdT7vrAf5HBaK5RABmEEwQIvkpZ/QRcWXdSFw5soKaF0F7qZeLO13mGBDpQsf5CoxVKHOt0Pctp2uvEdrzG/V+c553w/54HnPDIiQiGpPMETABoB2AAYd9MRAMMAvGmX+RcAyAoBVJ7gZQDtABworH4AHWmX+bOMZdkjCoXiUzabvcAwzPSsob5p/VTNY9GcdpnxdmYZ9wJThSCtCr1e/4XjuNPd3d1KjUZzaGbI27ysqzGQoggAsLa1A7ehArrDxfDNr0oBlQB+wmKxbJFEL968SxoamsjkHaPU9l9piUo6A0RE1DG2QCWdASrpDAzJM5kMI8XecdjVxfEl+K9dxFgsgUvvR6HyBKHyBAEATyKLeGSsENuNcqk5kUjEGm7fzcYqr0ClVODl99+YXEvl6+c1amjVe+ahiGGYaUEQKnmeh91uL43rqheixjpdmzCL11er0PcjhrTLvMfUJsyKYUSeyWQ6enp6tgCgrKxsfbP8bB8AdE1G89cOReMAgOv+Cag8QXRNRkXAsDwcDr+am5tLCYKA3t7eo2dG+1vVK/MfpRPtA+MIReMYaKj+/xm9MiICx3EmpVL5wefzFavValis1u1vvHMkdfykCQC0kSGUTo+Ajmnx1dSC7IGD+UUCEYGIwLKsyWazrSeTSSIiMpnNf7Ttz5+ec96fr7/VnE0mk+QfHMzV3WjcKH/4rEr05QGFIA6HY4llWRLPRER+v3/HYrFMFQSIkNra2tVQKJSlfcSyLO0LECFWq3XF6XRGA4HAptTsdrsXeZ6fEHtl+31nAOA4rkUulz/I5XL63dQGgHEAN8Ph8AYA/BsAt4ube4GblQIAAAAASUVORK5CYII=" style="position: static !important; margin: 0px; width: 16px; bottom: 0px; display: inline; white-space: nowrap; float: none; height: 16px; vertical-align: middle; overflow: hidden; cursor: hand; right: 0px; top: 0px; left: 0px;" title="Call: 1-866-237-5195" /> </a>.</li>
+</ul>
+</div>
+</div>
+<div class="cl-block">
+<div class="cl-block-top"><span class="cl-icon-scholarship cl-icon" data-mce-mark="1"></span>
+<h4 class="cl-header">Funding Your Education - Financial Aid &amp; Student Employment Options</h4>
+<span class="cl-arrow cl-down-arrow" data-mce-mark="1"></span></div>
+<div class="cl-block-content">
+<ul></ul>
+<h4><em style="color: #111111; font-size: 14pt; line-height: 1.25;">Apply for Financial Aid</em></h4>
+<ul>
+<li>Visit the <a href="http://www.byui.edu/financial-aid/planning-ahead"> Planning Ahead </a>page for projected expenses and resource ideas to help create a plan to fund your education.</li>
+<li>Apply for <a href="http://www.fafsa.ed.gov/"> Federal Financial Aid </a>and <a href="http://www.byui.edu/financial-aid/scholarships">Scholarships </a>before the <a href="http://www.byui.edu/financial-aid">deadline.</a></li>
+<li>Watch your Document Tracking page (<a href="http://my.byui.edu/">my.byui.edu</a>; Finances tab, view Financial Aid Document Tracking) for any required documents that might need to be turned into the Financial Aid office.</li>
+<li>Watch your Financial Aid Awards page (<a href="http://my.byui.edu/">my.byui.edu</a>; Finances tab, view Financial Aid Awards) for aid that is awarded to you. To receive the aid that is listed, you will need to be enrolled for the credits shown by&nbsp;each award.&nbsp; If you do not plan on enrolling in the required credits, you will need to email the Financial Aid office (financialaid@byui.edu) so they can adjust your aid.</li>
+<li>Refer to the <a href="http://www.byui.edu/financial-aid">Financial Aid </a>website often to be aware of upcoming <a href="http://www.byui.edu/financial-aid/policies/deadlines">deadlines</a>.</li>
+</ul>
+<h4><em>Consider Student Employment</em></h4>
+<ul>
+<li>Explore both on-campus and off-campus&nbsp; <a href="http://www.byui.edu/human-resources/employment-opportunities/student-employment">employment</a>&nbsp;options. &nbsp;If you plan to work while in Rexburg, remember to bring the&nbsp; <a href="http://www.byui.edu/Documents/human-resources/acceptableID.pdf">required identification documents</a>&nbsp;that verify your ability to work in the United States.</li>
+</ul>
+</div>
+</div>
+<div class="cl-block">
+<div class="cl-block-top"><span class="cl-icon-connected cl-icon" data-mce-mark="1"></span>
+<h4 class="cl-header">Plan Now to Attend Get Connected / Move-in Day</h4>
+<span class="cl-arrow cl-down-arrow" data-mce-mark="1"></span></div>
+<div class="cl-block-content">
+<ul>
+<li>Make travel arrangements now so you can move into your housing on the morning of Move-in Day and participate fully in Get Connected. &nbsp;See <span style="text-decoration: underline;" data-mce-mark="1"> <a href="http://www.byui.edu/get-connected/get-connected-schedules">Get Connected Schedule</a> </span>.</li>
+<li>Review <span style="text-decoration: underline;" data-mce-mark="1"> <a href="http://www.byui.edu/get-connected/about-get-connected/travel-and-transportation">travel and transportation information</a> </span>.</li>
+<li>Parents are invited to attend the Move-in Day portion of Get Connected and participate in the BYU-Idaho Welcome with their student. &nbsp;Those unable to travel to Rexburg may view the <span style="text-decoration: underline;" data-mce-mark="1"> <a href="http://www.byui.edu/live/video">BYU-Idaho Welcome</a> </span>streamed live (also available on demand for 72 hours after the broadcast).</li>
+</ul>
+</div>
+</div>
+<div class="cl-block">
+<div class="cl-block-top"><span class="cl-icon-housing cl-icon" data-mce-mark="1"></span>
+<h4 class="cl-header">Find Housing, Parking &amp; Dining Options</h4>
+<span class="cl-arrow cl-down-arrow" data-mce-mark="1"></span></div>
+<div class="cl-block-content">
+<h4><em>Housing &amp; Student Living</em></h4>
+<ul>
+<li>All single students, on or off track, must live in BYU-Idaho approved housing. &nbsp;Married students or student families may live in community housing.</li>
+<li>Begin your search for approved or community housing through the <span style="text-decoration: underline;" data-mce-mark="1"> <a href="http://www.byui.edu/housing">Housing and Student Living</a> </span>website.</li>
+<li>Learn more about the culture of apartment life at BYU-Idaho by watching a few <a href="http://www.byui.edu/housing/student-living">Student Living videos</a>. <br /> <br /> <iframe frameborder="0" height="400" src="http://www.youtube.com/embed/3L4b-Dyg1UA" width="637"></iframe></li>
+</ul>
+<h4><em>Parking &amp; Transportation</em></h4>
+<ul>
+<li>Bringing a car to campus? &nbsp;Apply for a campus and/or city parking permit through the <span style="text-decoration: underline;" data-mce-mark="1"> <a href="http://www.byui.edu/university-operations/security-and-safety/parking-services">Parking Office</a> </span>.</li>
+<li>Need transportation while in Rexburg? The <a href="http://www.enterprisecarshare.com/car-sharing/program/byu">Enterprise CarShare program</a> is available for those without a car.</li>
+</ul>
+<h4><em>Dining on Campus</em></h4>
+<ul>
+<li>Learn about the various dining options as well as prices and plans available through <a href="http://www.byui.edu/food-services">Food Services</a>.</li>
+</ul>
+</div>
+</div>
+<div class="cl-block">
+<div class="cl-block-top"><span class="cl-icon-register cl-icon" data-mce-mark="1"></span>
+<h4 class="cl-header">Prepare to Register (Academic Advising)</h4>
+<span class="cl-arrow cl-down-arrow" data-mce-mark="1"></span></div>
+<div class="cl-block-content">
+<h4><em>When to Register</em></h4>
+<ul>
+<li>Determine your <span style="text-decoration: underline;" data-mce-mark="1"> <a href="http://www.byui.edu/registration/registration-schedule">registration date</a> </span>. &nbsp;Registration is determined by the number of college credits already completed and posted to your BYU-Idaho transcript.</li>
+<li>Obtain credit approval for transfer and Advanced Placement (AP) course work through the <span style="text-decoration: underline;" data-mce-mark="1"> <a href="http://www.byui.edu/student-records">Student Records and Registration Office</a> </span>.</li>
+</ul>
+<h4><em>What Classes You Should Register for</em></h4>
+<ul>
+<li>Determine the classes you need to take by reviewing the class planning section of the <span style="text-decoration: underline;" data-mce-mark="1"> <a href="http://www.byui.edu/academic-discovery-center/students/academic-advising-and-class-planning">Academic Discovery Center</a> </span>&nbsp;website.</li>
+<li>Review the <span style="text-decoration: underline;" data-mce-mark="1"> <a href="http://www.byui.edu/registration/gateway-foundations">Gateway Foundations</a> </span>registration schedule. &nbsp;Freshmen are given one week of priority registration to register for two Gateway Foundations courses.</li>
+<li>You are encouraged to enroll in at least one online class each semester. Explore your online course options through <span style="text-decoration: underline;" data-mce-mark="1"> <a href="http://www.byui.edu/online/courses">Online Learning</a> </span>.</li>
+</ul>
+<h4><em>Registering for Classes</em></h4>
+<ul>
+<li>Review registration information made available through <span style="text-decoration: underline;" data-mce-mark="1"> <a href="http://www.byui.edu/student-records">Student Records and Registration</a> </span>and watch the video below. <br /> <br /> <iframe frameborder="0" height="400" src="http://www.youtube.com/embed/cc50N2HAuwI" width="637"></iframe></li>
+<li>Register for classes beginning at 6:00 a.m. (MT) on your designated day. &nbsp;See the <a href="http://www.byui.edu/registration/registration-schedule">registration schedule</a> for your date.</li>
+<li>Complete the tuberculosis survey when you register for classes. &nbsp;You may have to do a tuberculosis skin test ( <a href="http://www.byui.edu/health-center/medical-services/tb-testing">TB test</a>) prior to attending classes. &nbsp;You may take a TB test at the <span style="text-decoration: underline;" data-mce-mark="1"> <a href="http://www.byui.edu/health-center">Student Health Center</a> </span>- no appointment is needed.</li>
+</ul>
+<h4><em>Academic Assistance</em></h4>
+<ul>
+<li>Learn how to get a tutor and other free academic help available through the <span style="text-decoration: underline;" data-mce-mark="1"> <a href="http://www.byui.edu/academic-support-centers">Academic Support Centers</a> </span>.</li>
+</ul>
+</div>
+</div>
+<div class="cl-block">
+<div class="cl-block-top"><span class="cl-icon-tuition cl-icon" data-mce-mark="1"></span>
+<h4 class="cl-header">Pay Your Tuition</h4>
+<span class="cl-arrow cl-down-arrow" data-mce-mark="1"></span></div>
+<div class="cl-block-content">
+<ul>
+<li>Tuition is due on the first day of classes. &nbsp;It is recommended that you pay your tuition through <span style="text-decoration: underline;" data-mce-mark="1"> <a href="http://my.byui.edu/ics">my.byui.edu</a> </span>(Finances tab) before you arrive on campus. &nbsp;See <span style="text-decoration: underline;" data-mce-mark="1"> <a href="http://www.byui.edu/financial-services/my-personal-account/payment-methods">payment methods</a> </span>.</li>
+<li>Payment of tuition, reserved textbooks, or student charges can be paid by American Express, Discover, Visa, and Mastercard with a 2.75% service charge (subject to change). &nbsp;You may also pay by using an electronic check (eCheck). &nbsp;There is no additional fee for paying with an eCheck. &nbsp;Credit Card and eCheck payments can only be paid online through <a href="http://my.byui.edu/ics">my.byui.edu </a>(Finance Tab).</li>
+<li>Need to authorize a parent or other user access to pay on your account? You can do this through <a href="http://my.byui.edu/ics">my.byui.edu</a> (Finances tab).</li>
+<li>Enroll in <span style="text-decoration: underline;"> <a href="http://www.byui.edu/financial-services/my-personal-account/cashnet/e-refund">eRefund</a> </span>so that any excess funds, after tuition and other fees are paid, are deposited directly into your bank account.</li>
+</ul>
+</div>
+</div>
+<div class="cl-block">
+<div class="cl-block-top"><span class="cl-icon-buybooks cl-icon" data-mce-mark="1"></span>
+<h4 class="cl-header">Buy Your Books and School Supplies</h4>
+<span class="cl-arrow cl-down-arrow" data-mce-mark="1"></span></div>
+<div class="cl-block-content">
+<ul>
+<li>Reserve your textbooks and approved exercise clothing in advance at the <span style="text-decoration: underline;" data-mce-mark="1"> <a href="http://www.byuistore.com/">University Store</a>&nbsp;</span> to avoid lines when you arrive on campus.</li>
+<li>Use the <span style="text-decoration: underline;" data-mce-mark="1"> <a href="http://www.byuistore.com/c-260-purchase-your-books.aspx">textbook reservation comparison tool</a> </span>to get the best deals on textbooks from the University Store or from other sources.</li>
+<li>Review <span style="text-decoration: underline;" data-mce-mark="1"> <a href="http://www.byui.edu/help-desk/laptop-initiative">BYU-Idaho Laptop Initiative</a> </span>and determine your technology options. &nbsp;The University Store offers discounted laptops at educational prices as well as other technology items. <br /> <br /> <iframe frameborder="0" height="400" src="http://www.youtube.com/embed/Te4wWUKPp4E" width="637"></iframe> <iframe frameborder="0" height="400" src="http://www.youtube.com/embed/rxQqqSkI1e4" width="637"></iframe></li>
+</ul>
+</div>
+</div>
+<div class="cl-block">
+<div class="cl-block-top"><span class="cl-icon-privacy cl-icon" data-mce-mark="1"></span>
+<h4 class="cl-header">Review Student Privacy / Parental Requests &amp; Grades</h4>
+<span class="cl-arrow cl-down-arrow" data-mce-mark="1"></span></div>
+<div class="cl-block-content">
+<ul>
+<li>Review links about <span style="text-decoration: underline;" data-mce-mark="1"> <a href="http://www.byui.edu/student-records/ferpa/family-education-rights-and-privacy-act-(ferpa)">student privacy and parental requests</a> </span>to receive midterm/final grades, as well as <span style="text-decoration: underline;" data-mce-mark="1"> <a href="http://www.byui.edu/academic-standards">BYU-Idaho's Academic Standards</a> </span>.</li>
+</ul>
+</div>
+</div>
+<div class="cl-block">
+<div class="cl-block-top"><span class="cl-icon-spiritually cl-icon" data-mce-mark="1"></span>
+<h4 class="cl-header">Prepare Spiritually</h4>
+<p></p>
+<span class="cl-arrow cl-down-arrow" data-mce-mark="1"></span></div>
+<div class="cl-block-content">
+<ul>
+<li>A significant part of your experience at BYU-Idaho is to learn to become a better disciple-leader.&nbsp; Review the items below and apply the principles taught as part of your spiritual preparation to attend BYU-Idaho.</li>
+<li><a href="http://www2.byui.edu/Presentations/transcripts/devotionals/2004_08_31_bednardavid.htm">BYU-Idaho: A Disciple Preparation Center</a>- by Elder David A. Bednar</li>
+<li><a href="http://www.byui.edu/student-honor-office/ces-honor-code">CES Honor Code</a></li>
+<li><a href="http://www.byui.edu/about/defining-aspects/personal-honor">Principles of Personal Honor</a></li>
+<li><a href="https://video.byui.edu/media/Henry+B.+Eyring++%22The+Temple+and+the+College+on+the+Hill%22/0_vjcam511/14388952">The Temple and the College on the Hill</a>- by President Henry B. Eyring</li>
+</ul>
+</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$('.cl-block-content').css("display", "none");
+    window.onload = function() {
+      (function() {
+        var content = $('.cl-block-content'),
+          top = $('.cl-block-top'),
+          checklist = {
+            init: function() {
+              top.on('click', checklist.show);
+              content.css("display", "none");
+            },
+            show: function() {
+              var arrow = $(this).find(".cl-arrow");
+              var contentBlock = $(this).next(content);
+              var isVisible = contentBlock.is(":visible");
+
+              contentBlock.slideToggle();
+              //if content is visible display the up arrow
+              arrow.toggleClass('cl-up-arrow', !isVisible);
+              //otherwise display the down arrow
+              arrow.toggleClass('cl-down-arrow', isVisible);
+            }
+          };
+        checklist.init();
+
+      })();
+    };
+</script>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-43458717-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script');
+      ga.type = 'text/javascript';
+      ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x19075" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

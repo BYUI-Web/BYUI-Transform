@@ -1,0 +1,274 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x68001" Name="news_of_note.htm" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">news_of_note.htm</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">news_of_note.htm</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"&gt;
+&lt;head&gt;
+    &lt;meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /&gt;
+    &lt;title&gt;BYU&amp;ndash;Idaho&amp;nbsp;|&amp;nbsp;Online&amp;nbsp;Magazine&amp;nbsp;&gt;&amp;nbsp;News&amp;nbsp;of&amp;nbsp;Note&lt;/title&gt;
+    &lt;!-- Remove TemplateSource line to disable the Web Editor --&gt;
+    &lt;!--TemplateSource="2A.htm"--&gt;
+    &lt;!--***********************************************************************
+    *   Brigham Young University-Idaho Template
+    *   Version:        1.2
+    *   Type:           2A
+    *   Last Revised:   June, 2006
+    *   Copyrightï¿½ 2007 Brigham Young University-Idaho
+    *   All Rights Reserved.
+    ************************************************************************--&gt;
+    &lt;!-- REFERENCED STYLESHEETS --&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/v1/topBar.css" /&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/V1/structure.css" /&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/V1/body_text.css" /&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/V1/table.css" /&gt;
+	&lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/driveorwalk/css/walkordrivestyle.css" /&gt;
+	&lt;link rel="stylesheet" type="text/css" href="css/ol.css" /&gt;
+	&lt;link rel="stylesheet" type="text/css" href="css/news_of_note_style.css" /&gt;
+
+	
+    &lt;!-- EMBEDED JAVASCRIPT FUNCTIONS --&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/js/v2/changeSizeRevised.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/js/v2/leftLinks.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/driveorwalk/js/textswap.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/driveorwalk/js/active.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/driveorwalk/js/randomadimage.js"&gt;&lt;/script&gt;
+
+
+
+    &lt;!-- EDITOR JAVASCRIPT FUNCTIONS --&gt;
+&lt;/head&gt;
+&lt;body id="type_A" onload="callFunctions(); randomImageDisplay(); activeNav(1); randomAdImage();" style="visibility:hidden;"&gt;
+    &lt;!-- The body type determines the number of columns in the CONTENT AREA. View structure.css to where these types are specified --&gt;
+    &lt;!-- ********************************************************************* --&gt;
+    &lt;!-- TOP BAR                                                               --&gt;
+    &lt;!-- ********************************************************************* --&gt;
+    &lt;div id="topBar"&gt;
+        &lt;div id="blueSpace"&gt;&lt;/div&gt;
+        &lt;div&gt;
+            &lt;table id="tableBlue" cellspacing="0" cellpadding="0"&gt;
+                &lt;!-- Title menu with the Blue Background --&gt;
+                &lt;tr&gt;&lt;td id="tdBlueSpace"&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr id="trBlueTop"&gt;&lt;td id="tdBlueTop"&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td id="tdBlueMenu" align="center"&gt;
+                        &lt;div id="javaMenu"&gt;
+                            &lt;script type="text/javascript" src="http://www.byui.edu/js/V1/HomepageNavBar.js"&gt;&lt;/script&gt;
+                        &lt;/div&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+        &lt;/div&gt;
+        &lt;!-- Gray Bar --&gt;
+        &lt;div id="divGrayBarContainer"&gt;
+            &lt;div id="divDarkGrayBar"&gt;
+                &lt;!--&lt;div id="divStudent"&gt;
+                    &lt;script type="text/javascript" src="http://www.byui.edu/js/V1/imageChange.js"&gt;&lt;/script&gt;
+                &lt;/div&gt; //--&gt;
+                &lt;div id="divBYUILogo"&gt;
+                    &lt;a id="logoLink" href="http://www.byui.edu/"&gt;&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div id="divVertLine"&gt;&lt;/div&gt;
+                &lt;div id="divDepartmentTitle"&gt;
+                    &lt;!-- Department Title --&gt;
+                    &lt;div id="divSectionTitle"&gt;
+                        &lt;a id="iframeText" target="_top" href="http://www.byui.edu/magazine/fall2009"&gt;Online Magazine &amp;gt; News of Note&lt;/a&gt;
+
+                    &lt;/div&gt;  
+                    &lt;span id="divSemester" style="width:100px;align:right;margin-left:240px;"&gt;
+                        &lt;!--EditorContacts--&gt;
+						&lt;font color="white"&gt;&lt;b&gt;Fall 2010&lt;/b&gt;&lt;/font&gt;
+                        &lt;!--EndEditorContacts--&gt;
+                    &lt;/span&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;!-- White Bar --&gt;
+        &lt;div id="divWhiteContainer"&gt;
+        &lt;div id="divWhiteBar"&gt;
+            &lt;img src="http://www.byui.edu/css/V1/images/whiteBar.gif" alt="White Bar" /&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!-- END ***************************************************************** --&gt;
+    &lt;!--EditorForm--&gt;
+    &lt;!--EditorToolbar--&gt;
+    &lt;div id="container"&gt;
+        &lt;div id="main_body"&gt;
+            &lt;!-- LEFT COLUMN --&gt;
+            &lt;!-- NAVIGATION FILE INCLUDE --&gt;
+            			&lt;div id="left_column"&gt;
+							&lt;div id="onlinemagazinenav"&gt;
+								&lt;!--#include file="../common/nav.inc"--&gt;
+								
+							&lt;/div&gt;
+					   
+						&lt;/div&gt;
+            
+            &lt;div id="right_section"&gt;
+                &lt;div class="right_bottom_section"&gt;
+                    &lt;div class="leftAREA"&gt;
+						&lt;div id="page_layout2_content"&gt;&lt;br&gt;
+							&lt;h1&gt;News of Note&lt;/h1&gt;
+							&lt;a name="news02_01"&gt;&lt;/a&gt;
+							&lt;div class="news_item"&gt;
+								&lt;img src="images/welding.jpg" alt="New Majors (Welding)" width="250" height="175" /&gt;
+								&lt;h3&gt;New majors introduced to meet student needs&lt;/h3&gt;
+								&lt;p&gt;Across campus, departments are continually looking for ways to more effectively meet the needs of a diverse student body. New degrees are being created, and some are being refocused to better aid students as they prepare to enter the workforce. Following are some new degrees that have recently been introduced.&lt;/p&gt;
+								&lt;p&gt;&lt;i&gt;Welding&lt;/i&gt;&lt;br /&gt;According to Department Chair Garth Miller, a welding degree has been requested for some time. This degree, Miller said, is designed for students looking to work in welding, manufacturing, or fabrication fields.&lt;/p&gt;
+								&lt;p&gt;&lt;i&gt;Vet Tech&lt;/i&gt;&lt;br /&gt;Fifteen classes have been created to furnish the new veterinary technology degree. Some of these classes include large animal nursing, veterinary office management, and veterinary pharmacology and hospital supplies. BYU-Idaho is the only Church university offering this degree.&lt;/p&gt;
+								&lt;p&gt;&lt;i&gt;Industrial/Organizational Psychology&lt;/i&gt;&lt;br /&gt;The Department of Psychology has introduced an industrial/organizational psychology emphasis that will better prepare students to enter the workforce, or go on to receive higher education, according to Samuel Clay, department chair.&lt;/p&gt;
+								&lt;p&gt;&amp;#8220;Although this degree falls under psychology, it represents a collaboration of the psychology, business, health science, and communication departments,&amp;#8221; said Yohan Delton of the Department of Psychology. &amp;#8220;This partnership gives students a more applied education as they are trained in main areas that have an impact on the world of work.&amp;#8221;&lt;/p&gt;
+								&lt;p&gt;&lt;i&gt;International Studies&lt;/i&gt;&lt;br /&gt;With this major, students choose an emphasis, and a wide range of language courses will augment their studies. The emphases include business, economics, history, political science, geography, and health science.&lt;/p&gt;
+								&lt;p&gt;According to Scott Galer, chair of the Department of Language and Letters, this degree will help students become more marketable in their respective fields. The language skills and cultural knowledge that this degree provides will set students apart from others. &amp;#8220;Even though, for some graduates, their language may not become the tool they use every day, they are showing employers that they are willing to step outside themselves,&amp;#8221; he said.&lt;/p&gt;
+								&lt;p&gt;&lt;i&gt;Humanities&lt;/i&gt;&lt;br /&gt;Two new classes have been created for this major: critical thinking and analysis in arts, and classical heritage. Courses from other disciplines will supplement the rest of the degree&amp;#39;s curriculum. These disciplines include psychology, art, English, and political science. There are three different emphases available for the new degree, two of which are designed as preparation for graduate school and the other to give students a solid liberal arts education.&lt;/p&gt;
+								&lt;p&gt;&lt;i&gt;Web Design and Development&lt;/i&gt;&lt;br /&gt;The Web design and development major includes courses from the computer science, computer information technology, art, communication, and business departments. &amp;#8220;This degree opens students to the entire Web,&amp;#8221; said Eric Karl, chair of the Department of Computer Science and Engineering. &amp;#8220;You can program something, but unless you understand how to effectively communicate your message, you won&amp;#39;t really hit the mark. The same with the artistic side: the best Web sites are those that are functional and visually appealing.&amp;#8221;&lt;/p&gt;
+								&lt;!-- &lt;a href="#"&gt;Back to Top&lt;/a&gt; --&gt;
+							&lt;/div&gt;&lt;!--END NEWS ITEM--&gt;
+							
+							&lt;a name="news02_02"&gt;&lt;/a&gt;
+							&lt;div class="news_item"&gt;
+								&lt;img src="images/hinkley.jpg" alt="New Hope" width="250" height="175" /&gt;
+								&lt;h3&gt;Students given hope during hard economic times&lt;/h3&gt;
+								&lt;p&gt;Elder Richard G. Hinckley, a member of the First Quorum of the Seventy for The Church of Jesus Christ of Latter-day Saints, addressed 1,305 graduates at the Brigham Young University-Idaho Spring Commencement July 23.&lt;/p&gt;
+								&lt;p&gt;&amp;#8220;I have decided to talk to you about these times in which we live,&amp;#8221; Elder Hinckley said, &amp;#8220;which are both difficult economically and morally, and how you might approach them, and to give you hope that things will work out for you if you plan and pray and work.&amp;#8221;&lt;/p&gt;
+								&lt;p&gt;Hinckley encouraged students to do four things: be optimistic, apply themselves, deny themselves, and eliminate shortcuts.&lt;/p&gt;
+								&lt;p&gt;He related some of the trials that his father, former Church President Gordon B. Hinckley, faced as a recent graduate. His father was in charge of the family farm and the home and was trying to make ends meet on an income of $100 each month.&lt;/p&gt;
+								&lt;p&gt;&amp;#8220;We have no such trials today,&amp;#8221; Hinckley said. &amp;#8220;And there is no reason for pessimism; but there is every reason for optimism and hope. Remember, that in a country of 10 percent unemployment, there is 90 percent employment. Most indicators point to economic recovery and job creation. The question is: What values will you take away from today&amp;#39;s recession? Just determine to make the best of every circumstance. Be optimistic.&amp;#8221;&lt;/p&gt;
+								&lt;a href="#"&gt;Back to Top&lt;/a&gt;
+							&lt;/div&gt;&lt;!--END NEWS ITEM--&gt;
+							
+							&lt;a name="news02_03"&gt;&lt;/a&gt;
+							&lt;div class="news_item"&gt;
+								&lt;img src="images/biology.jpg" alt="Key Majors (Biology)" width="250" height="175" /&gt;
+								&lt;h3&gt;New administrative area provides added focus for key programs&lt;/h3&gt;
+								&lt;p&gt;Brigham Young University-Idaho has created a new administrative area. Aptly named, the Foundations and Interdisciplinary Studies area will provide strategic oversight to both Foundations courses and interdisciplinary degrees.&lt;/p&gt;
+								&lt;p&gt;The Foundations Program is BYU-Idaho&amp;#39;s unique blend of general education courses, which emphasizes critical thinking and study. The courses provide a more focused approach than traditional general education, allowing students to go into more detail as they learn about specific aspects of subject matter. Interdisciplinary degrees draw upon resources and faculty from several departments to provide students a diversified learning experience. The university currently has three interdisciplinary degrees in Web design and development, international studies, and humanities.&lt;/p&gt;
+								&lt;p&gt;&amp;#8220;We have launched the Foundations Program and put the basic structures in place, but now we have the opportunity to really focus on how to make it better,&amp;#8221; said Bruce Kusch, associate academic vice president over curriculum. &amp;#8220;We also want to be sure we&amp;#39;re giving the faculty all the support they need as they prepare to teach classes for interdisciplinary degrees.&amp;#8221;&lt;/p&gt;
+								&lt;a href="#"&gt;Back to Top&lt;/a&gt;
+							&lt;/div&gt;&lt;!--END NEWS ITEM--&gt;
+							
+							&lt;a name="news02_04"&gt;&lt;/a&gt;
+							&lt;div class="news_item"&gt;
+								&lt;img src="images/byui_radio.jpg" alt="Byui Radio" width="250" height="175" /&gt;
+								&lt;h3&gt;New radio station goes online&lt;/h3&gt;
+								&lt;p&gt;Brigham Young University-Idaho has unveiled a new online radio station, bringing the university to a worldwide audience through podcasts and a live stream.&lt;/p&gt;
+								&lt;p&gt;BYU-Idaho Radio is hosted solely online at &lt;a href="http://www.byui.edu/radio" style="text-decoration:none" target="_blank"&gt;&lt;i&gt;www.byui.edu/radio&lt;/i&gt;&lt;/a&gt;, giving alumni and others around the world an opportunity to feel and understand the &amp;#8220;BYU-Idaho experience.&amp;#8221; &amp;#8220;This new radio station has been established to reflect the mission of BYU-Idaho and represent university life to people across the world. We hope the station will convey to many people a sense of what our students experience,&amp;#8221; said Jim Clark, BYU-Idaho Radio Services manager.&lt;/p&gt;
+								&lt;p&gt;Perhaps the most unique aspect of the new station is the voice you hear behind the programs. Students have been given the responsibility to not only assist with the station, but completely take control of it. With some mentoring from a few full-time employees, students create, produce, and execute all of the station&amp;#39;s programming. &amp;#8220;I don&amp;#39;t know of another university that gives students the experience of building a radio station from the ground up,&amp;#8221; said Jess Cannon, previous student station manager. &amp;#8220;We don&amp;#39;t just have to stand back and watch others run the day-to-day operations&amp;#8212;we get to do it ourselves. It&amp;#39;s a great learning opportunity.&amp;#8221;&lt;/p&gt;
+								&lt;p&gt;Listeners can tune-in to a live stream that runs in three-hour segments or can listen on-demand to one-time downloads. Additionally, individuals can subscribe to podcasts, making it easy to stay connected to favorite programming.&lt;/p&gt;
+								&lt;a href="#"&gt;Back to Top&lt;/a&gt;
+							&lt;/div&gt;&lt;!--END NEWS ITEM--&gt;
+							
+							&lt;a name="news02_05"&gt;&lt;/a&gt;
+							&lt;div class="news_item"&gt;
+								&lt;img src="images/byui_connect.jpg" alt="Byui Connect" width="250" height="175" /&gt;
+								&lt;h3&gt;New online community connects alumni, students&lt;/h3&gt;
+								&lt;p&gt;Brigham Young University-Idaho alumni and students have a new tool to connect with one another&amp;#8212;BYUI Connect, a new online career and social network found at &lt;a href="http://www.byuiconnect.com" style="text-decoration:none"&gt;&lt;i&gt;www.byuiconnect.org&lt;/i&gt;.&lt;/a&gt;&lt;/p&gt;
+								&lt;p&gt;The purposes of the site, according to Alumni and Community Connections Director Steve Davis, are to help current students form networks with alumni in their chosen fields, to help alumni reconnect with old classmates, and to provide a place for news of the Alumni Association.&lt;/p&gt;
+								&lt;p&gt;&amp;#8220;BYUI Connect assists alumni and students as they seek to build their networks and associate with others who love the university and wish to share the Spirit of Ricks,&amp;#8221; Davis said. Primarily, BYUI Connect will serve as a tool for the BYUI Mentoring Network, a group of current students, alumni, campus employees, and friends of the university who provide career, academic, and personal support. Volunteers in the Mentoring Network connect with students to provide career advice, compare notes, and point the way to job opportunities.&lt;/p&gt;
+								&lt;p&gt;A directory on the site includes all alumni and students and displays basic contact information, making it easy for alumni and students to connect with one another. In addition, users can post blogs, get RSS feeds, display YouTube videos, and link to other accounts such as Facebook, LinkedIn, and Twitter. They can also keep updated on the latest news from the Alumni Association, including upcoming reunions and other events.&lt;/p&gt;
+								&lt;a href="#"&gt;Back to Top&lt;/a&gt;
+							&lt;/div&gt;&lt;!--END NEWS ITEM--&gt;
+							
+							&lt;a name="news02_06"&gt;&lt;/a&gt;
+							&lt;div class="news_item"&gt;
+								&lt;img src="images/kevinmyasaki.jpg" alt="New Vice President" width="250" height="175" /&gt;
+								&lt;h3&gt;New vice president announced&lt;/h3&gt;
+								&lt;p&gt;Brigham Young University-Idaho has a new Student Services and Activities Vice President. Effective June 1, Kevin Miyasaki replaced Garth Hall, who left to serve as a mission president for The Church of Jesus Christ of Latter-day Saints.&lt;/p&gt;
+								&lt;p&gt;&amp;#8220;Garth Hall has done a magnificent job as vice president establishing and developing the area of Student Services and Activities,&amp;#8221; Brother Miyasaki said. &amp;#8220;I love BYU-Idaho, the students and employees, and am humbled by this great opportunity to serve.&amp;#8221;&lt;/p&gt;
+								&lt;p&gt;Kevin Miyasaki began his employment with BYU-Idaho in 1992. As part of his new responsibilities, he will oversee areas such as Student Activities &amp; Events, Student Support, and the Dean of Students Office.&lt;/p&gt;
+								&lt;p&gt;&amp;#8220;Kevin has served this university faithfully for nearly 20 years. He is a wonderful leader and a dedicated employee, and we look forward to the great work he will perform in this new position,&amp;#8221; said President Kim Clark.&lt;/p&gt;
+								&lt;a href="#"&gt;Back to Top&lt;/a&gt;
+							&lt;/div&gt;&lt;!--END NEWS ITEM--&gt;
+							
+							&lt;a name="news02_07"&gt;&lt;/a&gt;
+							&lt;div class="news_item"&gt;
+								&lt;img src="images/byui_youtube.jpg" alt="BYU-I YouTube" width="250" height="175" /&gt;
+								&lt;h3&gt;BYU-Idaho launches YouTube channel&lt;/h3&gt;
+								&lt;p&gt;Brigham Young University-Idaho has found a new way to share both secular and spiritual knowledge with the world: YouTube. The university has created a channel on the popular Web site to post videos originating from the university.&lt;/p&gt;
+								&lt;p&gt;&amp;#8220;We are thrilled with the opportunity to share the light of BYU-Idaho with the world,&amp;#8221; said Kirk Rawlins, communications coordinator for University Communications. &amp;#8220;With this channel we can now reach a much larger audience.&amp;#8221;&lt;/p&gt;
+								&lt;p&gt;If the channel receives enough traffic it will be added to YouTube EDU, a site specifically for educational institutions, which will ultimately lead to more traffic. YouTube EDU also offers greater flexibility regarding the design and functionality of a channel&amp;#39;s page. &amp;#8220;We encourage everyone to visit the channel, rate the videos positively, and share them with their friends and family,&amp;#8221; Rawlins said. &amp;#8220;It is very easy to share the channel&amp;#39;s content with others through Facebook, Twitter, and other social media.&amp;#8221; Users may also subscribe to the channel and choose to be alerted when new content is uploaded.&lt;/p&gt;
+								&lt;p&gt;Several videos are currently featured on the channel, including &amp;#8220;I Came to BYU-Idaho to Challenge Myself,&amp;#8221; the channel&amp;#39;s most popular video.&lt;/p&gt;
+								&lt;p&gt;To access the BYU-Idaho YouTube channel, visit &lt;a href="http://www.byui.edu/disclaimer.asp?page=http://www.youtube.com/byui" style="text-decoration:none" target="_blank"&gt;&lt;i&gt;www.YouTube.com/byui&lt;/i&gt;.&lt;/a&gt;&lt;/p&gt;
+								&lt;a href="#"&gt;Back to Top&lt;/a&gt;
+							&lt;/div&gt;&lt;!--END NEWS ITEM--&gt;
+							
+							&lt;a name="news02_08"&gt;&lt;/a&gt;
+							&lt;div class="news_item"&gt;
+								&lt;img src="images/record_number.jpg" alt="Record Number" width="250" height="175" /&gt;
+								&lt;h3&gt;BYU-Idaho serves record number of students in 2009&lt;/h3&gt;
+								&lt;p&gt;A record 22,997 students attended Brigham Young University-Idaho throughout 2009, continuing the university&amp;#39;s steady increase in enrollment since becoming a four-year institution in 2001.&lt;/p&gt;
+								&lt;p&gt;A major reason for the university&amp;#39;s enrollment growth is the three-track system, which offers three distinct 14-week semesters throughout the year: fall, winter, and spring. Each student is admitted to a track consisting of two semesters: fall/winter, winter/spring, or spring/fall. Each semester has approximately 14,000 students attending. By having three full semesters, the university is able to serve thousands more students.&lt;/p&gt;
+								&lt;p&gt;BYU-Idaho expects enrollment growth to continue. Last year the university announced a phased enrollment expansion plan, with the first phase currently being implemented. The first phase increases the full-time equivalent enrollment cap by almost 1,000 students per semester. Subsequent enrollment increases are tentatively planned through 2015.&lt;/p&gt;
+								&lt;a href="#"&gt;Back to Top&lt;/a&gt;
+							&lt;/div&gt;&lt;!--END NEWS ITEM--&gt;
+							
+							&lt;a name="news02_09"&gt;&lt;/a&gt;
+							&lt;div class="news_item"&gt;
+&lt;!--
+								&lt;img src="images/iCom.jpg" alt="I~Comm wins" width="250" height="175" /&gt;
+--&gt;
+								&lt;h3&gt;I~Comm wins United Way account, exemplifies Learning Model&lt;/h3&gt;
+								&lt;p&gt;The United Way of Idaho Falls and Bonneville County awarded the account for its 2010 communications campaign to I~Comm Student Media in April. The charitable organization&amp;#39;s account represents one of I~Comm&amp;#39;s first well-known and most prominent clients.&lt;/p&gt;
+								&lt;p&gt;I~Comm is housed in the Department of Communication and is divided into several sections, including &lt;i&gt;Scroll&lt;/i&gt; newspaper, I~News, and a PR/advertising agency. It was the PR/advertising section that secured the United Way contract.&lt;/p&gt;
+								&lt;p&gt;Jeff Hochstrasser, a faculty advisor in I~Comm, first heard about the chance to win the account in January. He sought approval from administration, after which a group of students met with United Way to see what the potential clients would want. The students then had less than three weeks to create the campaign.&lt;/p&gt;
+								&lt;p&gt;Twelve students worked on the campaign. As they collaborated outside of their regular class time, the campaign took shape. Its creative concept focused on the idea that every &amp;#8220;one&amp;#8221; counts&amp;#8212;one penny, one life, one donation&amp;#8212;and took the form of brochures, donation cards, a completed television commercial, corporate posters, flyers, and other media.&lt;/p&gt;
+								&lt;p&gt;A team of three students pitched the idea before a board of directors for United Way. And after a month-long wait, Hochstrasser and the students received a letter announcing they had won the account.&lt;/p&gt;
+								&lt;p&gt;&amp;#8220;[Members of] the United Way Board of Directors &amp;#8230; were extremely impressed by the work and your students&amp;#39; presentation,&amp;#8221; the letter read. Soon after, United Way of Pocatello also expressed interest in working with I~Comm.&lt;/p&gt;
+								&lt;p&gt;The win is a success for I~Comm, Hochstrasser said, in part because it showcases the successful implementation of BYU-Idaho&amp;#39;s Learning Model. I~Comm was created in 2007 as a consolidation of various student media outlets on campus. Since then, it has focused on letting students teach students, guided by professional faculty advisors.&lt;/p&gt;
+								&lt;a href="#"&gt;Back to Top&lt;/a&gt;
+							&lt;/div&gt;&lt;!--END NEWS ITEM--&gt;
+
+							&lt;a name="news01_10"&gt;&lt;/a&gt;
+							&lt;div class="news_item"&gt;
+								&lt;img src="images/interiordesign.jpg" alt="Interior Design" width="250" height="175" /&gt;
+								&lt;h3&gt;Five students win top awards in national design competitions&lt;/h3&gt;
+								&lt;p&gt;Since 1996, students of Brigham Young University-Idaho&amp;#39;s Department of Interior Design have been successful in receiving awards in national design competitions. Recently, five students won a total of $17,500, and each was given a free trip to Chicago for the National Kitchen and Bath Industry Show (K/BIS).&lt;/p&gt;
+								&lt;p&gt;&amp;#8220;We&amp;#39;ve had individual students do very well in the competitions, but we&amp;#39;ve never placed first in every single competition before,&amp;#8221; said Wendy Harris, a faculty member in the Department of Interior Design. &amp;#8220;It&amp;#39;s amazing to me.&amp;#8221;&lt;/p&gt;
+								&lt;p&gt;The National Kitchen and Bath Association (NKBA)/General Electric (GE) Design Charette Competition requires a complete, hand-drafted kitchen solution using GE appliances in three hours. Out of 509 entries, first and third prizes were awarded to Hillaree Harris and Brittany McPheters, respectively.&lt;/p&gt;
+								&lt;p&gt;NKBA also hosts annual kitchen and bath design competitions. This year, in the Kitchen Competition, first and second places were taken by Hillaree Harris and Clarisse McCann, who competed against 235 other students. First place in the Bath Competition was also awarded to McCann, out of 119 competitors.&lt;/p&gt;
+							&lt;/div&gt;&lt;!--END NEWS ITEM--&gt;
+						&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class="rightAREA"&gt;&lt;img alt="Place Holder" src="http://www.byui.edu/css/V1/images/placeholder80.gif" /&gt;&lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div id="footer"&gt;
+            &lt;div id="shadow"&gt;Copyright&amp;copy; &lt;script type="text/javascript"&gt;var d = new Date();document.write(d.getFullYear());&lt;/script&gt; BYU&amp;ndash;Idaho&lt;br /&gt;All Rights Reserved.&lt;/div&gt;
+        &lt;/div&gt;
+    
+    &lt;!--EndEditorForm--&gt;
+    &lt;!-- TABLE FORMATTING SECTION --&gt;
+    &lt;script type="text/javascript"&gt;
+        &lt;!--
+        var tableTags = document.getElementById(&amp;#8217;main_body&amp;#8217;).getElementsByTagName("table");
+        for (var i = 0; i &lt; tableTags.length; i++)
+        {
+            var trTags = tableTags[i].getElementsByTagName("tr");
+            for (var j = 0; j &lt; trTags.length; j++)
+            {
+                if(j%2 == 0)
+                {
+                    trTags.item(j).style.backgroundColor = "#efefec";
+                }
+                else
+                {
+                    trTags.item(j).style.backgroundColor = "#ffffff";
+                }
+            }
+        }
+        --&gt;
+    &lt;/script&gt;
+&lt;!-- This script enables Google Analytics --&gt;
+		&lt;script type="text/javascript"&gt;
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src=&amp;#8217;" + gaJsHost + "google-analytics.com/ga.js&amp;#8217; type=&amp;#8217;text/javascript&amp;#8217;%3E%3C/script%3E"));
+		&lt;/script&gt;
+		&lt;script type="text/javascript"&gt;
+			try {
+			var pageTracker = _gat._getTracker("UA-12079604-1");
+			pageTracker._trackPageview();
+			} catch(err) {}
+		&lt;/script&gt;
+	&lt;/body&gt;
+&lt;/html&gt;
+</ESContent></EmptyShell>

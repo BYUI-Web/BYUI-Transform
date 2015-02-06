@@ -1,0 +1,472 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content ID="x43330" Name="Student Services Protocol" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Student Services Protocol</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Student Services Protocol</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<table border="0" cellpadding="0" cellspacing="0" style="margin-left: auto; width: 1050px; margin-right: auto;"><colgroup> <col width="50" /> <col width="149" /> <col span="10" width="86" /></colgroup>
+<tbody>
+<tr class="highlightable">
+<td colspan="2" height="60" style="text-align: center; border: 1px solid #c6c6c6;" width="186"><strong>Role</strong></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;" width="86"><strong>New Student</strong></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;" width="86"><strong>On-Track Student</strong></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;" width="86"><strong>Off-Track Student</strong></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;" width="86"><strong>Part-Time Student</strong></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;" width="86"><strong>Non-Matriculated Student</strong></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;" width="86"><strong>Continuing Ed Student</strong></td>
+<td style="width: 86px;"><strong>Online Students</strong></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;" width="86"><strong>Suspended Student</strong></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;" width="86"><strong>Student Spouse</strong></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;" width="86"><strong>Student Child</strong></td>
+</tr>
+<tr>
+<td colspan="2" height="92" rowspan="3" style="text-align: center; border: 1px solid #c6c6c6;" width="187"><strong>Implementation</strong><br /><strong>Details</strong></td>
+<td colspan="8" style="text-align: center; border: 1px solid #c6c6c6;" width="688"><em>adm_stat = ADMT and ACST <em style="color: red;">*</em> = DSML</em></td>
+<td rowspan="3" style="text-align: left;" width="86"><strong><br /><br /><br /><br />Spouse has Student role</strong></td>
+<td rowspan="3" style="text-align: left;" width="86"><strong><br /><br /><br /><br />Parent has Student role</strong></td>
+</tr>
+<tr>
+<td colspan="3" height="28" style="text-align: center; border: 1px solid #c6c6c6;" width="258"><em>subprog = DAY, POST</em></td>
+<td rowspan="2" style="text-align: left;" width="86"><strong><br /><br />subprog = PART</strong></td>
+<td rowspan="2" style="text-align: left;" width="86"><strong><br /><br />subprog = NONM,</strong><strong>CECE, PBTC,ACST <em style="color: red;">*</em></strong></td>
+<td rowspan="2" style="text-align: left;" width="86"><strong><br /><br />subprog = CTED</strong></td>
+<td rowspan="2" style="text-align: left;" width="86"><strong><br /><br />subprog = ONLN</strong></td>
+<td rowspan="2" style="text-align: left;" width="86"><strong><br />ACST&nbsp;<em style="color: red;">*</em> = SUSP or hold = HNRS</strong></td>
+</tr>
+<tr>
+<td height="36" style="text-align: left;" width="86"><strong>prior to expected date</strong></td>
+<td style="text-align: left;" width="86"><strong>current semester</strong></td>
+<td style="text-align: left;" width="86"><strong>not current semester</strong></td>
+</tr>
+<tr class="highlightable">
+<td colspan="2" height="20" style="text-align: center; border: 1px solid #c6c6c6;"><strong><em>Username and Email</em></strong></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">Credit only</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+</tr>
+<tr class="highlightable">
+<td colspan="2" height="20" style="text-align: center; border: 1px solid #c6c6c6;"><strong><em>I-Card Services</em></strong></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+</tr>
+<tr class="highlightable">
+<td colspan="2" height="20" style="text-align: center; border: 1px solid #c6c6c6;"><strong><em>Career &amp; Academic Advising</em></strong></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">Limited</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+</tr>
+<tr class="highlightable">
+<td colspan="2" height="20" style="text-align: center; border: 1px solid #c6c6c6;"><strong><em>Approved Housing</em></strong></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">Exception</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;"></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+</tr>
+<tr class="highlightable">
+<td colspan="2" height="20" style="text-align: center; border: 1px solid #c6c6c6;"><strong><em>Health Center</em></strong></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;"></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+</tr>
+<tr class="highlightable">
+<td colspan="2" height="20" style="text-align: center; border: 1px solid #c6c6c6;"><em><strong>Health Insurance</strong></em></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;"></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+</tr>
+<tr class="highlightable">
+<td colspan="2" height="20" style="text-align: center; border: 1px solid #c6c6c6;"><em><strong>Counseling Center</strong></em></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;"></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;"></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">Couples</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+</tr>
+<tr class="highlightable">
+<td colspan="2" height="20" style="text-align: center; border: 1px solid #c6c6c6;"><em><strong>Academic Support</strong></em></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">off campus</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;"></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;"></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;"></td>
+</tr>
+<tr class="highlightable">
+<td colspan="2" height="20" style="text-align: center; border: 1px solid #c6c6c6;"><em><strong>University Events</strong></em></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">Limited</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">Limited</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+</tr>
+<tr class="highlightable">
+<td colspan="2" height="20" style="text-align: center; border: 1px solid #c6c6c6;"><em><strong>Financial Aid</strong></em></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">Limited</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">Limited</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+</tr>
+<tr class="highlightable">
+<td colspan="2" height="20" style="text-align: center; border: 1px solid #c6c6c6;"><em><strong>Library</strong></em></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">With fees</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">Credit only</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">Limited</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">Limited</td>
+</tr>
+<tr class="highlightable">
+<td colspan="2" height="20" style="text-align: center; border: 1px solid #c6c6c6;"><em><strong>Testing Center</strong></em></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+</tr>
+<tr class="highlightable">
+<td colspan="2" height="20" style="text-align: center; border: 1px solid #c6c6c6;"><em><strong>Internships</strong></em></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+</tr>
+<tr class="highlightable">
+<td colspan="2" height="20" style="text-align: center; border: 1px solid #c6c6c6;"><em><strong>Placement</strong></em></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">Limited</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">Grads only</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+</tr>
+<tr class="highlightable">
+<td colspan="2" height="20" style="text-align: center; border: 1px solid #c6c6c6;"><em><strong>Scholarships</strong></em></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">14 credits</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">Limited</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">Exception</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+</tr>
+<tr class="highlightable">
+<td colspan="2" height="20" style="text-align: center; border: 1px solid #c6c6c6;"><em><strong>Student Employment</strong></em></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">6&nbsp;credits</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;"></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;"></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+</tr>
+<tr class="highlightable">
+<td colspan="2" height="20" style="text-align: center; border: 1px solid #c6c6c6;"><em><strong>Ticketing</strong></em></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">Credit only</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;"></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<h2 style="background-color: #a6beca; color: #fff; width: 1000px; padding: 25px; font-family: Arial,verdana,serif; font-size: 28px;">Activities</h2>
+<table border="0" cellpadding="0" cellspacing="0" style="margin-left: auto; width: 1050px; margin-right: auto;"><colgroup> <col width="50" /> <col width="149" /> <col span="10" width="86" /></colgroup>
+<tbody>
+<tr style="border: 1px solid #a6beca;"></tr>
+<tr class="highlightable">
+<td colspan="2" height="60" style="text-align: center; border: 1px solid #c6c6c6;" width="186"><strong>Role</strong></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;" width="86"><strong>New Student</strong></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;" width="86"><strong>On-Track Student</strong></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;" width="86"><strong>Off-Track Student</strong></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;" width="86"><strong>Part-Time Student</strong></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;" width="86"><strong>Non-Matriculated Student</strong></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;" width="86"><strong>Continuing Ed Student</strong></td>
+<td style="width: 86px;"><strong>Online Students</strong></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;" width="86"><strong>Suspended Student</strong></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;" width="86"><strong>Student Spouse</strong></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;" width="86"><strong>Student Child</strong></td>
+</tr>
+<tr>
+<td colspan="2" height="92" rowspan="3" style="border: 1px solid #c6c6c6;" width="187"><strong>Implementation</strong><br /><strong>Details</strong></td>
+<td colspan="8" style="text-align: center; border: 1px solid #c6c6c6;" width="688"><em>adm_stat = ADMT and ACST <em style="color: red;">*</em> = DSML</em></td>
+<td rowspan="3" style="text-align: left;" width="86"><strong><br /><br /><br /><br />Spouse has Student role</strong></td>
+<td rowspan="3" style="text-align: left;" width="86"><strong><br /><br /><br /><br />Parent has Student role</strong></td>
+</tr>
+<tr>
+<td colspan="3" height="28" style="text-align: center; border: 1px solid #c6c6c6;" width="258"><em>subprog = DAY, POST</em></td>
+<td rowspan="2" style="text-align: left;" width="86"><strong><br /><br />subprog = PART</strong></td>
+<td rowspan="2" style="text-align: left;" width="86"><strong><br /><br />subprog = NONM,</strong><strong>CECE, PBTC,ACST <em style="color: red;">*</em></strong></td>
+<td rowspan="2" style="text-align: left;" width="86"><strong><br /><br />subprog = CTED</strong></td>
+<td rowspan="2" style="text-align: left;" width="86"><strong><br /><br />subprog = ONLN</strong></td>
+<td rowspan="2" style="text-align: left;" width="86"><strong><br />ACST&nbsp;<em style="color: red;">*</em> = SUSP or hold = HNRS</strong></td>
+</tr>
+<tr>
+<td height="36" style="text-align: left;" width="86"><strong>prior to expected date</strong></td>
+<td style="text-align: left;" width="86"><strong>current semester</strong></td>
+<td style="text-align: left;" width="86"><strong>not current semester</strong></td>
+</tr>
+<tr class="highlightable">
+<td colspan="2" style="text-align: center; border: 1px solid #c6c6c6;"><strong><em>Leadership</em></strong></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;"></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+</tr>
+<tr class="highlightable">
+<td colspan="2" height="20" style="text-align: center; border: 1px solid #c6c6c6;"><strong><em>Volunteers</em></strong></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;"></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+</tr>
+<tr class="highlightable">
+<td colspan="2" height="20" style="text-align: center; border: 1px solid #c6c6c6;"><strong><em>Competitive Sports</em></strong></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;"></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+</tr>
+<tr class="highlightable">
+<td colspan="2" height="20" style="text-align: center; border: 1px solid #c6c6c6;"><strong><em>Recreational Sports</em></strong></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;"></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+</tr>
+<tr class="highlightable">
+<td colspan="2" height="20" style="text-align: center; border: 1px solid #c6c6c6;"><strong><em>Fitness</em></strong></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;"></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+</tr>
+<tr class="highlightable">
+<td colspan="2" height="20" style="text-align: center; border: 1px solid #c6c6c6;"><strong><em>Outdoor</em></strong></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;"></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+</tr>
+<tr class="highlightable">
+<td colspan="2" height="20" style="text-align: center; border: 1px solid #c6c6c6;"><strong><em>Service</em></strong></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;"></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+</tr>
+<tr class="highlightable">
+<td colspan="2" height="20" style="text-align: center; border: 1px solid #c6c6c6;"><strong><em>Social</em></strong></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;"></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+</tr>
+<tr class="highlightable">
+<td colspan="2" height="20" style="text-align: center; border: 1px solid #c6c6c6;"><strong><em>Talent</em></strong></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;"></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+</tr>
+<tr class="highlightable">
+<td colspan="2" height="20" style="text-align: center; border: 1px solid #c6c6c6;"><strong><em>Life Skills</em></strong></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;"></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+</tr>
+<tr class="highlightable">
+<td colspan="2" height="20" style="text-align: center; border: 1px solid #c6c6c6;"><strong><em>Fitness Center</em></strong></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;"></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+</tr>
+<tr class="highlightable">
+<td colspan="2" height="20" style="text-align: center; border: 1px solid #c6c6c6;"><strong><em>Other Hart Facilities</em></strong></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">Limited/fee</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">Limited/fee</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;"></td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">X</td>
+<td style="text-align: center; border: 1px solid #c6c6c6;">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p><em style="color: red;">*</em> ACST does not qualify for I Card services</p>
+<script type="text/javascript">
+function get(name){
+   if(name=(new RegExp('[?&]'+encodeURIComponent(name)+'=([^&]*)')).exec(location.search))
+      return decodeURIComponent(name[1]);
+}
+var row = get('column');
+var style = document.documentElement.appendChild(document.createElement("style"));
+var rule =  "section#main_content table tbody tr.highlightable td:nth-child(" + row + "){background-color:#EDEC6E;}";
+if (CSSRule.WEBKIT_KEYFRAMES_RULE) { // WebKit
+    style.sheet.insertRule(rule, 0);
+}
+else if (CSSRule.MOZ_KEYFRAMES_RULE) { // Mozilla
+    style.sheet.insertRule(rule, 0);
+}
+else if (CSSRule.KEYFRAMES_RULE) { // W3C
+    style.sheet.insertRule(rule, 0);
+}
+</script>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="x43094" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x42756" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

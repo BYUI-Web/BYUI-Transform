@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x61695" Name="Header" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;html&gt;
+
+&lt;head&gt;
+
+	&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"&gt;&lt;/script&gt; 
+        &lt;script src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"&gt;&lt;/script&gt;
+
+	&lt;script&gt; $('.rotatorA').cycle({ fx: 'fade', timeout: 3000 }); &lt;/script&gt;
+
+	&lt;script&gt; $('.rotatorB').cycle({ fx: 'fade', delay: 1000, timeout: 3000 }); &lt;/script&gt;
+
+
+	&lt;style&gt;
+
+	.container2{
+		display:inline-block;
+               
+
+	}
+
+	#container3{
+		margin-left:30px;
+	}
+
+	.rotatorA{
+		position:relative;
+		float:left;
+		z-index: 0;
+                margin-right:-2px;
+             
+	}
+
+
+	.rotatorB{
+		position:relative;
+		float:right;
+		z-index: 0;
+		bottom:150px; 
+                left: 21px;
+       
+}
+
+
+	.welcome-button{
+		position:relative;
+		float:left;
+		z-index:1;
+		left:-65px;
+		top:-30px;
+	}
+	
+	.welcome-button p{
+		color:#663;		
+                font-family:Georgia, "Times New Roman", Times, serif;
+		font-size:43px;
+		margin-left:72px !important;
+		margin-top:-194px !important;
+		font-variant:small-caps;
+		letter-spacing:1px;
+		
+
+	}
+
+
+
+
+	&lt;/style&gt;
+
+
+&lt;/head&gt;
+&lt;body&gt;
+
+	&lt;div class="container2"&gt;
+
+		&lt;div id="container3" class="span-16"&gt;
+
+		&lt;div class="rotatorA"&gt;  
+
+			&lt;img src="Images/food-services/Catering/page_layout/ss1.png" alt="turkey bruschetta"/&gt; 
+
+			&lt;img src="Images/food-services/Catering/page_layout/ss13.png" alt="lemon meringue pie"/&gt;
+
+			&lt;img src="Images/food-services/Catering/page_layout/ss11.png" alt="cherry pie"/&gt;	
+
+			&lt;img src="Images/food-services/Catering/page_layout/ss9.png" alt="chicken and potatoes"/&gt;
+
+			&lt;img src="Images/food-services/Catering/page_layout/ss18.png" alt="fruit bar"/&gt;
+
+			&lt;img src="Images/food-services/Catering/page_layout/ss10.png" alt="mini cream puffs"/&gt;
+
+			&lt;img src="Images/food-services/Catering/page_layout/ss16.png" alt="turkey, potatoes, and brocolli"/&gt;
+
+			&lt;img src="Images/food-services/Catering/page_layout/ss17.png" alt="brownie sundae"/&gt;
+
+			&lt;img src="Images/food-services/Catering/page_layout/ss6.png" alt="dessert"/&gt;
+
+
+
+			
+		&lt;/div&gt;
+
+
+		&lt;div class="welcome-button"&gt;
+
+			&lt;img src="Images/food-services/Catering/page_layout/welcome-button.png" alt="Welcome to Catering Services"/&gt;  
+
+			&lt;div class="welcome"&gt;
+				&lt;p&gt;Welcome!&lt;/p&gt;
+			&lt;/div&gt;
+
+		&lt;/div&gt;
+
+		&lt;div class="rotatorB"&gt; 
+
+			&lt;img src="Images/food-services/Catering/page_layout/ss12.png" alt="steak"/&gt;
+
+			&lt;img src="Images/food-services/Catering/page_layout/ss15.png" alt="oatmeal raisin cookies"/&gt;
+
+			&lt;img src="Images/food-services/Catering/page_layout/ss2.png" alt="turkey bruschetta"/&gt; 
+
+			&lt;img src="Images/food-services/Catering/page_layout/ss8.png" alt="mini desserts"/&gt;
+
+			&lt;img src="Images/food-services/Catering/page_layout/ss14.png" alt="asparagus"/&gt;
+
+			&lt;img src="Images/food-services/Catering/page_layout/ss19.png" alt="lemmon dessert"/&gt;
+
+			&lt;img src="Images/food-services/Catering/page_layout/ss4.png" alt="bread and rolls"/&gt;
+
+			&lt;img src="Images/food-services/Catering/page_layout/ss3.png" alt="ham"/&gt;
+
+			&lt;img src="Images/food-services/Catering/page_layout/ss5.png" alt="shrimp and rice"/&gt;
+
+			&lt;img src="Images/food-services/Catering/page_layout/ss7.png" alt="chicken cordon bleu"/&gt;
+
+
+
+			
+		&lt;/div&gt;
+
+		&lt;/div&gt;
+
+	&lt;/div&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</ContentSnippet></ContentSnippet>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x33990" Name="Rule 1: Players" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Rule 1: Players</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Futsal Rules</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="true"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">true</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent" Expanded="false"/><xPower Type="Component" Component="x33988" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent" Expanded="false"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p><meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Untitled Document</title>
+</p>
+<p><strong>Rule 1: Players</strong></p>
+<ul>
+<li><span style="font-size: 11pt; line-height: 1.4em;">Each team shall consist of five (5) players on the field, however, a team may begin with as few as four (4). The maximum number of players allowed on each team shall be nine (9) with at least one (1) player of each gender.</span>
+<ul>
+<li><span style="font-size: 11pt; line-height: 1.4em;">Ward Team Exception: The maximum number of players allowed on ward teams shall be twelve (12) with at least one (1) player of each gender. </span></li>
+</ul>
+</li>
+<li><span style="font-size: 11pt; line-height: 1.4em;">One player of each gender is required to be on the court at all times. </span></li>
+<li><span style="font-size: 11pt; line-height: 1.4em;">All players must check in using a valid photo ID. </span></li>
+<li><span style="font-size: 11pt; line-height: 1.4em;">If during a game a team has fewer than four (4) eligible players due to ejection, the game shall be terminated. </span></li>
+<li><span style="font-size: 11pt; line-height: 1.4em;">If during a game a team has fewer than four (4) eligible players due to injury, the game may continue at the official's discretion. </span></li>
+<li><strong><span style="font-size: 11pt; line-height: 1.4em;">Competitive Athlete Rule</span></strong><span style="font-size: 11pt; line-height: 1.4em;"><strong>:</strong> A student is considered a "competitive player" if they are currently participating in the Competitive Sports Program.</span>
+<ul>
+<li><span style="font-size: 11pt; line-height: 1.4em;">Beginner: No competitive players allowed in this league. </span></li>
+<li><span style="font-size: 11pt; line-height: 1.4em;">Intermediate: One (1) competitive player allowed in this league. </span></li>
+<li><span style="font-size: 11pt; line-height: 1.4em;">Advanced: Two (2) competitive players allowed in this league.  Substituting may occur anytime during the game on the fly. </span></li>
+</ul>
+</li>
+</ul>
+<p><span style="font-size: 11pt; line-height: 1.4em;"><em>Substitutions</em></span></p>
+<ul>
+<li><span style="font-size: 11pt; line-height: 1.4em;">Substitutes shall go to their team entry position and cannot enter the game until the player they are replacing is </span><span style="font-size: 11pt; line-height: 1.4em;">completely </span><span style="font-size: 11pt; line-height: 1.4em;">off of the field. </span></li>
+<li><span style="font-size: 11pt; line-height: 1.4em;">A player who receives a yellow card must be substituted. </span></li>
+<li><span style="font-size: 11pt; line-height: 1.4em;">A player that is bleeding must be substituted from the game. </span></li>
+<li><span style="font-size: 11pt; line-height: 1.4em;">Goalkeeper may be changed on the fly as well except in the case that the substitution occurs between the goalkeeper and one of the players already in play on the court. In that case the official must be informed of substitution and the change must be made during a stoppage in play.</span></li>
+</ul>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x6784" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

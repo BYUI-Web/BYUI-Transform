@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x34889" Name="Facts" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Facts and Figures</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Facts and Figures</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style><!--
+.top_message {
+                      font-family: Georgia;
+                      font-style: italic;
+                      color: #60686E;
+                      padding-bottom: 15px;
+                      border-bottom: 1px solid #b7b7b7;
+                      margin-bottom: 15px;
+                      font-size: 14px;
+                    }
+                    .left_column{
+                        font-weight: bold;
+                        width: 200px;
+                    }
+                    .right_column{
+                        width:470px;
+                        display: block;
+                        margin-bottom:5px;
+                    }
+                    .left_column, .right_column{
+                        font-size: 12px;
+                        float: left;
+                        color: #252525;
+                    }
+                    .column_row{
+                        border-bottom: 1px solid #252525;
+                        margin-top: 10px;
+
+                    }
+--></style>
+<p class="top_message">Here's a quick overview of BYU-Idaho's campus, student body, and academic offerings.</p>
+<p><img alt="Taylor building in the winter" height="254" src="Images/university-communications/about_pages/Facts/taylor_building.png" width="710" /></p>
+<div class="column_row span-18 last">
+<div class="left_column">Founded</div>
+<ul class="right_column">
+<li>November 12, 1888</li>
+</ul>
+</div>
+<div class="column_row span-18 last">
+<div class="left_column">Location</div>
+<ul class="right_column">
+<li>Rexburg, Idaho</li>
+<li>Community of 28,000 in the agriculturally rich Snake River Valley of eastern Idaho</li>
+<li>Yellowstone National Park, Grand Teton National Park, and Jackson Hole all within close driving distance</li>
+</ul>
+</div>
+<div class="column_row span-18 last">
+<div class="left_column">Enrollment</div>
+<ul class="right_column">
+<li>Approximately 15,000 students each semester</li>
+<li>Largest private university in Idaho</li>
+</ul>
+</div>
+<div class="column_row span-18 last">
+<div class="left_column">Student Body</div>
+<ul class="right_column">
+<li>All 50 states and more than 70 countries represented</li>
+</ul>
+</div>
+<div class="column_row span-18 last">
+<div class="left_column">Campus</div>
+<ul class="right_column">
+<li>Over 40 major buildings on 400 acres</li>
+</ul>
+</div>
+<div class="column_row span-18 last">
+<div class="left_column">Academic Offerings</div>
+<ul class="right_column">
+<li>Over a dozen associate degrees and nearly 80 bachelor's degress</li>
+<li>Eight colleges and 33 departments</li>
+<li>Four online associate degrees</li>
+<li>10 online bachelor's degrees</li>
+<li>Over 100 online courses</li>
+</ul>
+</div>
+<div class="column_row span-18 last">
+<div class="left_column">Academic Calendar</div>
+<ul class="right_column">
+<li>Three, 14-week semesters: Fall, Winter, and Spring</li>
+<li>Each student admitted to a track comprised of two semesters</li>
+</ul>
+</div>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Component" readonly="false" hidden="false" required="false" Expanded="" List=""><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/><!--071613 xpowercomponent_Optional to xPower--></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x33098" CompTypes="SiteControl" Expanded="false"/></Content>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x34771" Name="What to Do About the Flu" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">What to Do If You Get Flu-Like Symptoms</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">What to do about the flu at the BYU-Idaho Student Health Center</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<div id="headblock">
+<div id="content_header">
+<div class="icons"></div>
+<div class="titlehead">What To Do About The Flu</div>
+</div>
+</div>
+<style><!--
+#content_header .icons{background-position: 0px -400px !important;}
+--></style>
+<p>
+<script type="text/javascript">
+var ContentHeight = 300;var TimeToSlide = 300.0;var openAccordion = '';function runAccordion(index){  var nID = "Accordion" + index + "Content";  if(openAccordion == nID)    nID = '';  setTimeout("animate(" + new Date().getTime() + "," + TimeToSlide + ",'"       + openAccordion + "','" + nID + "')", 33);  openAccordion = nID;}function animate(lastTick, timeLeft, closingId, openingId){    var curTick = new Date().getTime();  var elapsedTicks = curTick - lastTick;  var opening = (openingId == '') ? null : document.getElementById(openingId);  var closing = (closingId == '') ? null : document.getElementById(closingId);  if(timeLeft <= elapsedTicks)  {    if(opening != null)      opening.style.height = 'auto';    if(closing != null)    {      closing.style.display = 'none';      closing.style.height = '0px';    }    return;  }  timeLeft -= elapsedTicks;  var newClosedHeight = Math.round((timeLeft/TimeToSlide) * ContentHeight);  if(opening != null)  {    if(opening.style.display != 'block')      opening.style.display = 'block';    opening.style.height = (ContentHeight - newClosedHeight) + 'px';  }  if(closing != null)    closing.style.height = newClosedHeight + 'px';  setTimeout("animate(" + curTick + "," + timeLeft + ",'"       + closingId + "','" + openingId + "')", 33);}
+</script>
+</p>
+<p><link href="documents/health-center/css/faqtest.css" rel="stylesheet" type="text/css" /></p>
+<div class="subhead"><img alt="Flu shot awareness" height="322" src="Images/health-center/Flu/flu2.jpg" width="602" /></div>
+<div class="subhead" style="text-align: center;">
+<p style="padding-right: 100px ! important; text-align: left;">Flu Season is officially here. Don't let it ruin your semester.Getting the annual flu vaccine is the best way to avoid contracting and spreading seasonal flu. When more people get vaccinated, the less it will spread throughout the community.Let's help protect our BYU-Idaho community by getting vaccinated against Influenza! The Health Center will be hosting a Flu Clinic in the Manwaring Center on:</p>
+<strong>Thursday January 30th</strong></div>
+<div class="subhead" style="text-align: center;"><strong></strong><strong> and </strong></div>
+<div class="subhead" style="text-align: center;"><strong>Thursday February 6th </strong></div>
+<div class="subhead" style="text-align: center;"><strong>8:00am to 5:00pm</strong></div>
+<div class="subhead" style="text-align: center;"><strong></strong></div>
+<div class="subhead">
+<p style="padding-right: 100px !important;">All Students (and their dependents) who are on the Student Health Plan can receive the vaccine for <strong><em>FREE</em></strong>! All full-time employees and their families (enrolled on the DMBA Health Plan) can also receive the vaccine for <strong><em>FREE</em></strong>! &nbsp;Students who are on a private health plan can receive it for just $20 - that's a lot less than what it'll cost you if you do get the flu! <br /><strong>If you think you may already have the flu, scroll down for more information on symptoms and treatment options</strong>. If you don't have time to drop in on one of these clinics, the Flu vaccines are offered every day at the Student Health Center from 8am-4.30pm. No appointment needed.</p>
+</div>
+<p></p>
+<div class="AccordionContainer" id="AccordionContainer">
+<div onclick="runAccordion(1);">
+<div class="AccordionTitle">&nbsp;What is the flu?</div>
+</div>
+<div class="AccordionContent" id="Accordion1Content"><br />
+<p>Influenza, commonly known as the &lsquo;Flu&rsquo;, is a contagious viral infection that affects the<br />nose, throat and lungs. The best way to avoid getting the flu is by getting a yearly<br />flu shot. For more information on the flu vaccine, visit <a href="http://www.byui.edu/health-center/wellness/flu-and-pertussis-shots/flu-shot-faqs">Flu Shot FAQs.</a></p>
+</div>
+<div onclick="runAccordion(2);">
+<div class="AccordionTitle">&nbsp;What are the symptoms of the flu?</div>
+</div>
+<div class="AccordionContent" id="Accordion2Content"><br />
+<ul>
+<li>Fever</li>
+<li>Cough</li>
+<li>Sore Throat</li>
+<li>Runny or Stuffy Nose</li>
+<li>Body Aches</li>
+<li>Headache</li>
+<li>Chills</li>
+<li>Fatigue</li>
+<li>Some people may also have diarrhea and vomiting.</li>
+</ul>
+<br />
+<p>When there are a number of patients infected with the flu, it creates a problem for<br />health care providers. There are not enough appointments in the day to see all the<br />patients who seem to have the flu. Unfortunately, for most patients, there is little<br />that can be done to ease the symptoms. It can be very beneficial for health care <br />providers to assess those that are at a higher risk.</p>
+<br /><br /></div>
+<div onclick="runAccordion(3);">
+<div class="AccordionTitle">&nbsp;What puts a person at high risk of developing the flu?</div>
+</div>
+<div class="AccordionContent" id="Accordion3Content"><br /><br />There are specific people that are at a higher risk for getting flu than others.<br />The following factors can contribute to being a high risk:
+<ul>
+<li>Age 65 or older</li>
+<li>Pregnant</li>
+<li>Asthma or other chronic lung diseases</li>
+<li>Diabetes</li>
+<li>Seizure disorders</li>
+<li>Compromised immune system (either by illness or medication)</li>
+<li>Heart problems</li>
+<li>Age 2 or younger</li>
+<li>Extreme obesity</li>
+<li>Cancer patients</li>
+<li>Those with blood disorders</li>
+<li>Kidney or liver disorders</li>
+</ul>
+<br /><br /></div>
+<div onclick="runAccordion(4);">
+<div class="AccordionTitle">&nbsp;What are my treatment options?</div>
+</div>
+<div class="AccordionContent" id="Accordion4Content"><br />
+<p>It is expected that most people will recover from the flu without needing medical care.<br />You can alleviate many of your symptoms through the use of over-the-counter<br />medicines (decongestants, cough preparations, etc.) that can be obtained without having<br />to meet with a provider.</p>
+<p>Fever and body aches can often be lessened with the use of acetaminophen (Tylenol)<br />or NSAIDS (Ibuprofen, Advil, Motrin). Cough drops can also help ease the pain of a<br />sore throat&nbsp;and a cough. Check all labels and use over-the-counter medications as directed.</p>
+<p>Aside from taking medication, proper rest, healthy eating habits, and an increase of <br />fluid intake can speed up the recovery process.</p>
+</div>
+<div onclick="runAccordion(5);">
+<div class="AccordionTitle">&nbsp;Should I avoid contact with other people?</div>
+</div>
+<div class="AccordionContent" id="Accordion5Content"><br />Yes, avoidance of others who are sick is beneficial in order to decrease your risk<br />of developing&nbsp;the illness. If you are sick, you may be ill for several days and<br />should avoid contact with&nbsp;other people as much as you can. Avoiding highly <br />populated areas (church, work, school, etc.)and tightly compacted areas<br />(buses, airplanes, etc.) will help eliminate spreading of the illness.<br /><br /></div>
+<div onclick="runAccordion(6);">
+<div class="AccordionTitle">&nbsp;How can I keep the Flu Germs away?</div>
+</div>
+<div class="AccordionContent" id="Accordion6Content"><br />Here are a few ways you can help keep them at bay:
+<ul>
+<li>Cover your mouth and nose with a tissue when you cough or sneeze. Throw the<br />tissue in the trash after you use it.</li>
+<li>Wash your hands often with soap and water, especially after you cough or sneeze.</li>
+<li>If soap and water is not readily available, alcohol-based hand sanitizers are also effective.</li>
+<li>Avoid touching your eyes, nose and mouth. Germs spread this way.</li>
+</ul>
+<br /><br /></div>
+<div onclick="runAccordion(7);">
+<div class="AccordionTitle">&nbsp;How will I know if I need an appointment with a Health Care provider?</div>
+</div>
+<div class="AccordionContent" id="Accordion7Content"><br />
+<ul>
+<li>If you have one of the high risk factors as stated above</li>
+<li>Shortness of breath or difficulty breathing at rest</li>
+<li>Severe pain or pressure in the chest or abdomen</li>
+<li>Sudden dizziness</li>
+<li>Confusion</li>
+<li>Severe or persistent vomiting</li>
+<li><strong>Flu-like symptoms improve but then return with fever and worse cough</strong></li>
+</ul>
+<br /><br /></div>
+<div onclick="runAccordion(8);">
+<div class="AccordionTitle">&nbsp;When can I return to School/Work?</div>
+</div>
+<div class="AccordionContent" id="Accordion8Content"><br />
+<p>The CDC recommends that you stay home for at least 24 hours after your fever is <br />gone (this is <strong>not including</strong> the elimination of your fever through the use of<br />fever-reducing medication).</p>
+<br /><br /></div>
+<div onclick="runAccordion(9);">
+<div class="AccordionTitle">&nbsp;Embrace the Friend of Time:</div>
+</div>
+<div class="AccordionContent" id="Accordion9Content"><br />
+<p>Viral illnesses can take some time to resolve. As long as you follow the<br />advice above, you will improve. The common cold can take about 7-12 <br />days to resolve, and influenza can take up&nbsp;to 3 weeks. Those with a <br />cough may find that the cough persists a while after all the other <br />symptoms have resolved.</p>
+<p>If you felt like you were getting better but suddenly get worse, <br />you should seek treatment&nbsp;immediately.</p>
+<p>Check the BYU-Idaho website (<a href="http://www.byui.edu/fighttheflu">www.byui.edu/fighttheflu</a>) for links <br />to more helpful information.</p>
+</div>
+</div>
+<p><iframe frameborder="0" height="240" id="footer" scrolling="no" src="Documents/health-center/footer.html" width="100%"></iframe></p>
+<p><link href="Documents/health-center/css/faqs.css" rel="stylesheet" /><link href="Documents/health-center/css/header.css" rel="stylesheet" /></p>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="true" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Component" readonly="false" hidden="false" required="false" Expanded="true" List=""><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" CompTypes="ContentSnippet" Expanded="false"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x28441" CompTypes="SiteControl" Expanded="false"/></Content>

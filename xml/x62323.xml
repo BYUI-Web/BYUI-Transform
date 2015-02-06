@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<Content ID="x62323" Name="Register" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Register</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Register</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style><!--
+/* Set the nav menu item for the current page to appear selected */
+ul#top-nav > li > a#register {
+	color: #ffcf06;
+	background-color: #000;
+}
+--></style>
+<div class="style-container">[x50728][x51144]</div>
+<style><!--
+/* Text inside the boxes in the Lodging section */
+div.hotel-copy {
+	width: 420px;
+	padding: 20px;
+	border: 1px solid #777;
+	margin-bottom: 30px;
+}
+/* Big buttons that take the user to hotel info */
+div.link-button {
+	width: 180px;
+	margin: 0 auto;
+	text-align: center;
+	border: solid 1px #0c5691;
+}
+div.link-button:hover {
+	border: solid 1px #e5ba05;
+}
+div.link-button > a {
+	padding: 10px;
+	background-color: #0f6cb6;
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.1em;
+	font-family: "Century Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	display: block;
+}
+div.link-button > a:hover {
+	background-color: #ffcf06;
+	color: #000;
+}
+--></style>
+<div class="main-title-container">
+<h1>Register</h1>
+</div>
+<div class="text-box">
+<p>Registration will begin April 17, 2013.</p>
+</div>
+<!-- Registration form here -->
+<div class="subtitle-container">
+<h2>Pricing</h2>
+</div>
+<table style="margin-bottom: 20px;">
+<tbody>
+<tr>
+<td><strong>Individual</strong></td>
+<td>$25.00</td>
+</tr>
+<tr>
+<td><strong>Family*</strong></td>
+<td>$75.00</td>
+</tr>
+<tr>
+<td><strong>BYU&ndash;Idaho student</strong></td>
+<td>$15.00</td>
+</tr>
+<tr>
+<td><strong>Online participant</strong></td>
+<td>No charge</td>
+</tr>
+</tbody>
+<caption>*Immediate family members living in your home only.</caption></table>
+<hr />
+<div>
+<div class="subtitle-container">
+<h2>Lodging</h2>
+</div>
+</div>
+<div class="hotel-copy" style="float: left;">
+<h3>Hotels</h3>
+<p>Several hotels in the Rexburg area have offered special rates to Education Week participants.</p>
+<div class="link-button"><a href="x50738.xml">View hotel<br />information</a></div>
+</div>
+<div class="hotel-copy" style="float: right;">
+<h3>Rexburg Housing</h3>
+<p>Alternatively, you can reserve a room in one of the eight dorm apartment complexes owned by Rexburg Housing.</p>
+<div class="link-button"><a href="x51173.xml">View Rexburg<br />Housing information</a></div>
+</div>
+<hr class="separator" />]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="x28840" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="true" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="x50728" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x51144" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x47794" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

@@ -1,0 +1,988 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content ID="x62432" Name="Scholarships" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Scholarships</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Scholarships</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p>
+<script language="javascript" type="text/javascript">
+var fa_slideSpeed = 15;	// Higher value = faster
+var fa_timer = 2;	// Lower value = faster
+
+var objectIdToSlideDown = false;
+var fa_activeId = false;
+var fa_slideInProgress = false;
+var fa_slideInProgress = false;
+var fa_expandMultiple = true; // true if you want to be able to have multiple items expanded at the same time.
+
+function showHideContent(e,inputId)
+{
+	if(fa_slideInProgress)return;
+	fa_slideInProgress = true;
+	if(!inputId)inputId = this.id;
+	inputId = inputId + '';
+	var numericId = inputId.replace(/[^0-9]/g,'');
+	var answerDiv = document.getElementById('fa_a' + numericId);
+
+	objectIdToSlideDown = false;
+
+	if(!answerDiv.style.display || answerDiv.style.display=='none'){
+		if(fa_activeId &&  fa_activeId!=numericId && !fa_expandMultiple){
+			objectIdToSlideDown = numericId;
+			slideContent(fa_activeId,(fa_slideSpeed*-1));
+		}else{
+
+			answerDiv.style.display='block';
+			answerDiv.style.visibility = 'visible';
+
+			slideContent(numericId,fa_slideSpeed);
+		}
+	}else{
+		slideContent(numericId,(fa_slideSpeed*-1));
+		fa_activeId = false;
+	}
+}
+
+function slideContent(inputId,direction)
+{
+
+	var obj =document.getElementById('fa_a' + inputId);
+	var contentObj = document.getElementById('fa_ac' + inputId);
+	height = obj.clientHeight;
+	if(height==0)height = obj.offsetHeight;
+	height = height + direction;
+	rerunFunction = true;
+	if(height>contentObj.offsetHeight){
+		height = contentObj.offsetHeight;
+		rerunFunction = false;
+	}
+	if(height<=1){
+		height = 1;
+		rerunFunction = false;
+	}
+
+	obj.style.height = height + 'px';
+	var topPos = height - contentObj.offsetHeight;
+	if(topPos>0)topPos=0;
+	contentObj.style.top = topPos + 'px';
+	if(rerunFunction){
+		setTimeout('slideContent(' + inputId + ',' + direction + ')',fa_timer);
+	}else{
+		if(height<=1){
+			obj.style.display='none';
+			if(objectIdToSlideDown && objectIdToSlideDown!=inputId){
+				document.getElementById('fa_a' + objectIdToSlideDown).style.display='block';
+				document.getElementById('fa_a' + objectIdToSlideDown).style.visibility='visible';
+				slideContent(objectIdToSlideDown,fa_slideSpeed);
+			}else{
+				fa_slideInProgress = false;
+			}
+		}else{
+			fa_activeId = inputId;
+			fa_slideInProgress = false;
+		}
+	}
+}
+
+
+
+function initShowHideDivs()
+{
+	var divs = document.getElementsByTagName('DIV');
+	var divCounter = 1;
+	for(var no=0;no<divs.length;no++){
+		if(divs[no].className=='fa_question'){
+			divs[no].onclick = showHideContent;
+			divs[no].id = 'fa_q'+divCounter;
+			var answer = divs[no].nextSibling;
+			while(answer && answer.tagName!='DIV'){
+				answer = answer.nextSibling;
+			}
+			answer.id = 'fa_a'+divCounter;
+			contentDiv = answer.getElementsByTagName('DIV')[0];
+			contentDiv.style.top = 0 - contentDiv.offsetHeight + 'px';
+			contentDiv.className='fa_answer_content';
+			contentDiv.id = 'fa_ac' + divCounter;
+			answer.style.display='none';
+			answer.style.height='1px';
+			divCounter++;
+		}
+	}
+}
+window.onload = initShowHideDivs;
+</script>
+<script type="text/javascript">
+function unhide(divID) {
+ var item = document.getElementById(divID);
+ if (item) {
+ item.className=(item.className=='hidden')?'unhidden':'unhidden';
+}
+ }
+
+ function hide(divID) {
+ var item = document.getElementById(divID);
+ if (item) {
+ item.className=(item.className=='unhidden')?'hidden':'hidden';
+}
+ }
+</script>
+</p>
+<style type="text/css"><!--
+/* CSS styles for the Show/Hide functionality. */
+
+.fa_question{
+        overflow:hidden;
+	cursor:pointer;
+        background-color: #f0f0f0;
+        color: #666;
+        padding: 10px;
+        border: 1px solid #000;
+        -webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+}
+.fa_question:hover{
+        background-color: #fcc35a;
+}
+.fa_answer{
+        visibility:hidden;
+	height:0px;
+	overflow:hidden;
+	position:relative;
+}
+.fa_answer_content{	/* Content that is slided down */
+        margin-top: 10px;
+	padding:1px;
+	font-size:1em;
+	position:relative;
+}
+
+.h1 {font-family: futura, arial, sans-serif; font-size: 2em; color: #000;}
+.h2 {font-family: futura, arial, sans-serif; font-size: 1.75em; color: #000;}
+.h3 {font-family: futura, arial, sans-serif; font-size: 1.5em; color: #000;}
+.h4 {font-family: futura, arial, sans-serif; font-size: 1.3em; margin-left: 15px;}
+
+ul {margin-left:30px;}
+
+#page_title{
+     display: none;
+}
+#table_futura th{
+     color:#F8F8F8;
+     background-color: #333;   
+     font-family: futura, arial, sans-serif;
+     font-size: medium;
+     font-weight: normal;
+}
+#table_futura ul{
+     margin-left: 5px; color: #000;
+}
+
+.tableTitle{
+     font-size: 1.2em;
+     margin-bottom:10px;
+     color: #000;
+}
+.caption{
+     font-size: .8em;
+}
+--></style>
+<p><a href="x44007.xml"><img height="89" onmouseout="this.src='Images/Admin_Offices/Financial Aid/buttons/arrows/Red/PlanningRed.png';" onmouseover="this.src='Images/Admin_Offices/Financial Aid/buttons/arrows/Red/PlanningRed-Rollover.png';" src="Images/Admin_Offices/Financial Aid/buttons/arrows/Red/PlanningRed.png" style="margin-bottom: 20px;" width="150" /></a><a href="x44006.xml"><img alt="Red " height="89" src="Images/Admin_Offices/Financial Aid/buttons/arrows/Red/ScholarshipsRedBlack.png" style="margin-bottom: 20px;" width="150" /></a> <a href="x44005.xml"><img height="89" onmouseout="this.src='Images/Admin_Offices/Financial Aid/buttons/arrows/Red/FederalAidRed.png';" onmouseover="this.src='Images/Admin_Offices/Financial Aid/buttons/arrows/Red/FederalAidRed-Rollover.png';" src="Images/Admin_Offices/Financial Aid/buttons/arrows/Red/FederalAidRed.png" style="margin-bottom: 20px;" width="150" /></a><a href="x44004.xml"><img height="89" onmouseout="this.src='Images/Admin_Offices/Financial Aid/buttons/arrows/Red/Follow-upRed.png';" onmouseover="this.src='Images/Admin_Offices/Financial Aid/buttons/arrows/Red/Follow-upRed-Rollover.png';" src="Images/Admin_Offices/Financial Aid/buttons/arrows/Red/Follow-upRed.png" style="margin-bottom: 20px;" width="150" /></a><br /><span style="font-size: 2.5em; font-family: futura, arial, sans-serif;">2. Apply for Scholarships</span></p>
+<p>Academic and need-based awards granted to eligible students are broken into two categories: University Scholarships and Outside Aid Opportunities. Generally, students must be full time degree seeking students to be eligible for most university aid awards.</p>
+<div id=".hidden">
+<div id=".unhidden">
+<div id="1213"><a href="javascript:unhide('2012-2013'); javascript:hide('2013-2014')"><img alt="2012-2013 Scholarship Details" height="130" src="Images/Admin_Offices/Financial Aid/buttons/1213Button.PNG" style="float: left; margin: 0px 0px 0px 75px;" width="218" /></a> <a href="javascript:unhide('2013-2014');javascript:hide('2012-2013')"><img alt="2013-2014 Scholarship Details" height="130" src="Images/Admin_Offices/Financial Aid/buttons/1314Button.PNG" style="margin: 0px 0px 0px 20px;" width="219" /></a><br /><br />
+<div class="hidden" id="2012-2013">
+<div id="2012-2013"><span class="h3"><span style="text-decoration: underline;">2012-2013 Scholarship Information</span></span><br /><br /><span class="h1">University Scholarships</span><br /><span class="caption">There are 4 types of scholarship awards available from BYU-Idaho:</span><br /><br />
+<div class="fa_question"><span class="h3">Heber J. Grant Scholarships</span><br /><small>Awarded to students based on extra-curricular involvement and academic performance.</small></div>
+<div class="fa_answer">
+<div><span class="h4">Application:</span>
+<ul>
+<li>Heber J. Grant Scholarship application - For the 2013-14 academic year, the application will be available December 1, 2012</li>
+</ul>
+<span class="h4">Deadline:</span>
+<ul>
+<li>April 1st</li>
+</ul>
+<span class="h4">Requirements:</span>
+<ul>
+<li>Credits
+<ul>
+<li>Be enrolled in at least 12 credit hours to receive <strong>full award.</strong></li>
+<li>6-11.5 credits receives a <strong>prorated</strong> award</li>
+<li>If students are in their last semester and taking less than 6 credits, they can petition to receive a prorated award.
+<ul>
+<li>Students must be enrolled in the correct amount of credits by the Financial Aid Determination Date each semester. (See <a href="http://www.byui.edu/financial-aid/policies/deadlines">Deadlines</a> for specific date)</li>
+<li>To petition, send an email explaining your situation to scholarships@byui.edu</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Fill out Heber J. Grant Application</li>
+</ul>
+<span class="h4">Criteria:</span>
+<ul>
+<li>Includes all University Scholarships except the Award of Excellence, Academic Scholarships, and Department Talent awards.</li>
+</ul>
+<span class="h4">Duration:</span>
+<ul>
+<li>One academic school year</li>
+</ul>
+<span class="h4">Accepting Award:</span>
+<ul>
+<li>Students who receive awards that are determined through the Heber J. Grant Scholarship application are required to submit a <a href="Documents/Admin_Offices/Financial Aid/2012_2013_Documents/Thank you letter.pdf"><strong>Thank You Letter</strong></a> response.&nbsp; Certain University Aid awards will not be disbursed to the student until a valid Thank You Letter has been processed by the Financial Aid Office.</li>
+</ul>
+<span class="h4">Important information:</span>
+<ul>
+<li>Send all questions for the Heber J. Grant Scholarship Application to scholarships@byui.edu.</li>
+<li>While filling out the application, if your application is idle for 30 minutes you will have to start over.</li>
+<li>After you submit your application the message, <em>"Thank you. Your application has been submitted"</em> will be displayed once your application has been received by our office.</li>
+<li>Students will be notified if they receive any awards through their BYU-Idaho email account.</li>
+</ul>
+</div>
+</div>
+<br />
+<div class="fa_question"><span class="h3">Award of Excellence Scholarships</span><br /><small>Awarded exclusively to incoming Freshmen</small></div>
+<div class="fa_answer">
+<div><span class="h4">Application</span>
+<ul>
+<li>No Application required.
+<ul>
+<li>All incoming freshman are automatically considered for the award of excellence scholarship.</li>
+</ul>
+</li>
+</ul>
+<span class="h4">Requirements:</span>
+<ul>
+<li>Be a Freshman (have less than 16 college credits)</li>
+<li>Be enrolled for at least 14 credits during the semester the award is received</li>
+</ul>
+<span class="h4">Criteria:</span>
+<ul>
+<li>60% Extracurricular
+<ul>
+<li>Church Activity</li>
+<li>Seminary Attendance</li>
+<li>Leadership Experience</li>
+<li>Service (church or community)</li>
+<li>Extracurricular Activities</li>
+<li>Admissions Application Essay</li>
+</ul>
+</li>
+<li>40% Academic
+<ul>
+<li>High School GPA</li>
+<li>ACT or SAT scores</li>
+</ul>
+</li>
+</ul>
+<span class="h4">Award Levels:</span>
+<ul>
+<li>Full Tuition Plus</li>
+<li>Full Tuition</li>
+<li>Half Tuition</li>
+<li>Quarter Tuition</li>
+</ul>
+<span class="h4">Duration:</span>
+<ul>
+<li>Two semesters (the student's first two semesters)</li>
+</ul>
+<span class="h4">Important Information:</span>
+<ul>
+<li>Send all questions for the Award of Excellence to: Scholarships@byui.edu</li>
+<li>Students will be automatically notified if they receive any awards through their BYU-Idaho email account.</li>
+</ul>
+</div>
+</div>
+<br />
+<div class="fa_question"><span class="h3">Academic Scholarship</span><br /><small>Awards offered to students based purely on academic performance.</small></div>
+<div class="fa_answer">
+<div><span class="h4">Application:</span>
+<ul>
+<li>No Application required.
+<ul>
+<li>All students are automatically considered for Academic Scholarship awards</li>
+</ul>
+</li>
+</ul>
+<span class="h4">Requirements:</span>
+<ul>
+<li>Credits
+<ul>
+<li>Must have completed at least 30 cumulative college credits</li>
+<li>Students with more than 129 cumulative credits at the time of evaluation will not be eligible.</li>
+</ul>
+</li>
+<li>Have completed at least one semester at BYU-Idaho</li>
+<li>Be enrolled in at least 14 credits during the semester of the award.
+<ul>
+<li>Students in their last semester taking less than 14 credits must petition to receive a prorated award.
+<ul>
+<li>To petition, send an email explaining your situation to scholarships@byui.edu.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<span class="h4">Award Levels:</span>
+<table cellpadding="1" cellspacing="5" id="table_futura" style="width: 650px; font-family: Arial; margin-left: 50px; margin-top: 15px;">
+<tbody>
+<tr><th>Cumulative Credit Level<br />(at the time of evaluation)</th><th>Cumulative GPA</th><th>Award Amount</th></tr>
+<tr>
+<td>30 - 59 Credits</td>
+<td>3.900 - 4.000<br />3.800 - 3.899<br />3.700 - 3.799</td>
+<td>Full Tuition<br />Half Tuition<br />Quarter Tuition</td>
+</tr>
+<tr>
+<td>60 - 89 Credits</td>
+<td>3.850 - 4.000<br />3.750 - 3.849<br />3.650 - 3.749</td>
+<td>Full Tuition<br />Half Tuition<br />Quarter Tuition</td>
+</tr>
+<tr>
+<td>90 - 129 Credits</td>
+<td>3.800 - 4.000<br />3.700 - 3.799<br />3.600 - 3.699</td>
+<td>Full Tuition<br />Half Tuition<br />Quarter Tuition</td>
+</tr>
+</tbody>
+</table>
+<span class="h4">Duration:</span>
+<ul>
+<li>Academic Scholarships are awarded for a full academic year.</li>
+<li>Can be received all 3 semesters as long as students take the required 14 credits each semester</li>
+</ul>
+<span class="h4">Important Information:</span>
+<ul>
+<li>Evaluation
+<ul>
+<li>Students who have not yet received an Academic Scholarship are automatically evaluated after each semester</li>
+<li>After having received an Academic Scholarship, reevaluation occurs after every <strong>Winter</strong>semester for the next academic year, regardless of track
+<ul>
+<li>The Academic Year begins with the Fall semester and ends after the Spring semester.</li>
+</ul>
+</li>
+<li>Because the Academic Scholarship lasts for the entire Academic Year, the Winter evaluation will not affect Financial Aid for that Spring.</li>
+</ul>
+</li>
+<li>Students will be automatically notified if they receive any awards through their BYU-Idaho email account.</li>
+<li>Academic Scholarships can not be used in combination with the Award of Excellence. If you received the Award of Excellence, it must be fully dispersed in order to become eligible for an Academic Scholarship.</li>
+<li>See the policies page for more information.
+<ul>
+<li><a href="http://www.byui.edu/financial-aid/policies">BYU-I Financial Aid Policies</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<br />
+<div class="fa_question"><span class="h3">College/Department Talent Awards</span><br /><small>Awards offered by individual departments at BYU-I.</small></div>
+<div class="fa_answer">
+<div><span class="h4">Application:</span>
+<ul>
+<li>To apply contact the specific department. The Financial Aid office does not award college/department talent awards.</li>
+</ul>
+<span class="h4">Requirements:</span>
+<ul>
+<li>Credits
+<ul>
+<li>Must be enrolled in 14 credits to receive full award</li>
+<li>6-11.5 credits to receive a prorated award</li>
+<li>Students in their last semester taking less than 6 credits must petition to receive a prorated award.
+<ul>
+<li>To petition, send an email explaining your situation to scholarships@byui.edu</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<span class="h4">Important Info:</span>
+<ul>
+<li>All other information about these scholarships can be found by contacting the specific department:
+<ul>
+<li><strong>Art Scholarships - Department of Art</strong>
+<ul>
+<li>208.496.4901</li>
+</ul>
+</li>
+<li><strong>Dance Scholarships - Department of Dance</strong>
+<ul>
+<li>208.496.4850</li>
+</ul>
+</li>
+<li><strong>Music Scholarships - Department of Music</strong>
+<ul>
+<li>208.496.4951</li>
+</ul>
+</li>
+<li><strong>Theater Arts Scholarships - Department of Theatre</strong>
+<ul>
+<li>208.496.4820</li>
+</ul>
+</li>
+<li><strong>Journalism Scholarships</strong>
+<ul>
+<li>208.496.3711</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<br /><br /><span class="h1">Outside Aid Opportunities</span><br /><span class="caption">The following scholarships/awards are awarded by local and national organizations unaffiliated with BYU-Idaho. Students are individually responsible for finding and applying for these awards.</span><br /><br />
+<div class="fa_question"><span class="h3">Outside Scholarship Opportunities</span> <br /><small>Awards offered by private institutions</small></div>
+<div class="fa_answer">
+<div class="more_content"><br /><!-- __________________________________________________________________________________________________________________________________________________________OUTSIDE SCHOLARSHIPS LIST      --><span class="h4">Private Scholarships</span>
+<ul>
+<li><a href="x43628.xml">BYU-I Financial Aid Office outside scholarships page</a>
+<ul>
+<li>An unofficial list of some of the privately funded scholarships available to BYU-I students</li>
+</ul>
+</li>
+</ul>
+<span class="h4">Scholarship search and directory sites</span>
+<ul>
+<li>The following resources are not affiliated or endorsed by BYU-Idaho:
+<ul>
+<li><a href="http://scholarshipamerica.org/" title="Link to ScholarshipAmerica.org">Scholarship America</a> - Scholarship provider and search</li>
+<li><a href="http://www.collegeboard.org/" title="Link to CollegeBoard.org">College Board</a> - College Planning and Scholarship Search</li>
+<li><a href="http://www.scholarshiphelp.org/" title="Link to ScholarshipHelp.org">Scholarship Help</a> - Scholarship search</li>
+<li><a href="http://www.fastweb.com/" title="Link to FastWeb.com">Fast Web</a> - Scholarship search</li>
+<li><a href="https://www.salliemae.com/" title="Link to SallieMae.com">Sallie Mae</a> - Student Loans</li>
+<li><a href="http://www.finaid.org//" title="Link to FinAid.org">Fin Aid - Smart Student Guide to Financial Aid</a> - Scholarship search</li>
+<li><a href="http://www.scholarshiphunter.com/" title="Link to ScholarshipHunter.com/">ScholarshipHunter.com</a> - Scholarship search</li>
+<li><a href="http://studentaid2.ed.gov/getmoney/scholarship/" title="Link to StudentAid.ed.gov">Student Aid - US Department of Education</a> - Links to other scholarship searches</li>
+<li><a href="http://www.scholarships.com//" title="Link to Scholarships.com">Scholarships.com</a> - Scholarship search</li>
+<li><a href="http://www.college-scholarships.com/" title="Link to College-Scholarships.com">College Scholarships</a> - Scholarship search</li>
+<li><a href="http://www.fastaid.com/" title="Link to FastAid.com">Fast Aid</a> - Scholarship search</li>
+<li><a href="http://www.princetonreview.com/" title="Link to PrincetonReview.com">Princeton Review</a> - College Planning and Scholarship Search</li>
+<li><a href="http://www.mappingyourfuture.org/" title="Link to MappingYourFuture.org">Mapping Your Future</a> - College Planning resource</li>
+<li><a href="http://www.collegesavings.org/index.aspx" title="College Savings Plan Network">College Savings Plan Network</a> - College Savings plan resource</li>
+</ul>
+</li>
+</ul>
+<!-- __________________________________________________________________________________________________________________________________________________________   END OUTSIDE SCHOLARSHIPS LIST   --></div>
+</div>
+<br />
+<div class="fa_question"><span class="h3">Robert R. Lee Promise Scholarship Category A</span> <br /><small>For Idaho residents who have completed high school and are applying to an Idaho college or university.</small></div>
+<div class="fa_answer">
+<div><span class="h4">Application</span>
+<ul>
+<li><a href="http://www.boardofed.idaho.gov/scholarship/documents/renewal/promisea-renewal.pdf">Robert R. Lee Promise Scholarship Category A Application</a></li>
+<li>Deadline
+<ul>
+<li>Must be filled out between November 15th and January 15th</li>
+</ul>
+</li>
+</ul>
+<span class="h4">Requirements</span>
+<ul>
+<li>Be an Idaho resident</li>
+<li>Effective for the current academic year, be a graduating senior of an Idaho high school or its equivalent</li>
+<li>Enroll as a full-time (12 credits) student in an academic or professional-technical program at an eligible Idaho college or university</li>
+<li>Effective for the current academic year, have a cumulative GPA of 3.5 or above and an ACT score of 28 or above</li>
+<li>Enroll as a full-time student in an academic program at an eligible Idaho college or university.</li>
+</ul>
+<span class="h4">Important Information</span>
+<ul>
+<li>For more information go to <br /><a href="http://www.boardofed.idaho.gov/scholarship/promise_a.asp">http://www.boardofed.idaho.gov/scholarship/promise_a.asp</a></li>
+</ul>
+</div>
+</div>
+<br />
+<div class="fa_question"><span class="h3">Robert R. Lee Promise Scholarship Category B</span> <br /><small>For Idaho residents who have completed high school and are applying to an Idaho college or university.</small></div>
+<div class="fa_answer">
+<div><br /><span class="h4">Application:</span>
+<ul>
+<li>No application necessary.</li>
+<li>Based on information provided on the BYU-Idaho Admissions Application.</li>
+<li>Students will be notified via e-mail upon reception of award and will be required to submit the <a href="Documents/Admin_Offices/Financial Aid/2012_2013_Documents/IPS(0).pdf">Robert R. Lee Promise Scholarship Acceptance form</a>.</li>
+</ul>
+<span class="h4">Requirements for Incoming Freshman</span>
+<ul>
+<li>Be an Idaho resident</li>
+<li>Be under the age of 22 prior to July 1 of the year of the award</li>
+<li>Enroll as a full-time (12 credits) student in an academic or professional-technical program at an eligible Idaho college or university</li>
+<li>Earned at least a 3.0 High School GPA or an ACT score of 20 or above.</li>
+</ul>
+<span class="h4">Requirements for Continued Eligibility</span>
+<ul>
+<li>Effective for the current academic year, receipients must have earned a cumulative GPA of 2.5 or above</li>
+<li>Be under the age of 22 prior to July 1 of the year of the award</li>
+<li>Enroll as a full-time (12 credits) student in an academic or professional-technical program at an eligible Idaho college or university</li>
+</ul>
+<span class="h4">Duration</span>
+<ul>
+<li>Varies from 1-4 semesters</li>
+</ul>
+<span class="h4">Important Info:</span>
+<ul>
+<li>For more questions, go to <a href="http://www.boardofed.idaho.gov/scholarship/promiseb.asp">http://www.boardofed.idaho.gov/scholarship/promiseb.asp</a></li>
+</ul>
+</div>
+</div>
+<br />
+<div class="fa_question"><span class="h3">Bureau of Indian Affairs Benefits</span> <br /><small>Financial Aid for students of Native American heritage</small></div>
+<div class="fa_answer">
+<div><br /><span class="h4">Eligibility:</span>
+<ul>
+<li>To be eligible for BIA funding, in most cases a student must:
+<ul>
+<li>Be at least 1/4 Indian blood</li>
+<li>Be registered with a tribe that has a treaty with the U.S. Gov. and an assigned census number</li>
+</ul>
+</li>
+<li>Other requirements may apply.</li>
+</ul>
+<span class="h4">Application:</span>
+<ul>
+<li>Students who are eligible to receive BIA awards at BYU-Idaho need to complete the following steps:
+<ul>
+<li>Notify the BYU-Idaho Financial Aid Office of eligibility for Bureau of Indian Affairs funding</li>
+<li>Submit a FAFSA form for the current academic year (available at <a href="https://fafsa.ed.gov/">www.fafsa.ed.gov</a>)</li>
+<li>Contact the appropriate tribal agency or office and request:
+<ul>
+<li>An application</li>
+<li>Privacy release form</li>
+<li>Other required forms and documents (based on tribal requirements)</li>
+</ul>
+</li>
+<li>Submit the privacy release form to the BYU-Idaho Financial Aid office</li>
+<li>Submit the application and other required forms to the proper tribal agency or office</li>
+<li>At the end of each semester students must send a copy of their grades to the tribe</li>
+</ul>
+</li>
+</ul>
+<span class="h4">Important info:</span>
+<ul>
+<li>Policies regarding BIA benefit awards are not managed or controlled by BYU-Idaho. For more information regarding BIA awards students may contact the associated tribal agency.</li>
+</ul>
+</div>
+</div>
+<br /><br /></div>
+</div>
+</div>
+</div>
+<!--                       START OF 2013-2014 SECTION                      -->
+<div id="1314">
+<div class="hidden" id="2013-2014">
+<div id="2013-2014"><span class="h3"><span style="text-decoration: underline;">2013-2014 Scholarship Information</span></span><br /><br /></div>
+<p>In an effort to bolster student need-based aid and student employment, the following changes are being made:</p>
+<ul>
+<li>All University Scholarships (with the exceptions of talent and leadership scholarships) are now evaluated through the <a href="https://my.byui.edu/ICS/Finances/Heber_J._Grant_Scholarship_Application.jnz" title="Link to BYU-Idaho Scholarship Application">BYU-Idaho Scholarship Application</a> <small>(Heber J. Grant)</small>.</li>
+<li>There are no longer automatic considerations for any university scholarships.</li>
+<li>This change is taking place in order to allow students to be considered for more financial aid opportunities. By completing this one comprehensive application, students will be evaluated for both Academic Scholarships and all other General Scholarships offered at BYU-Idaho.</li>
+<li>The Academic Scholarship GPA requirements are changing (see Academic Scholarships for Continuing Students below).</li>
+<li>The Application will open November 1, 2012 and will close April 1, 2013.</li>
+</ul>
+<p>If students are admitted after April 1st, or if they return from their mission after April 1st, they will be given an opportunity to complete the application. These students must contact our office at: <a href="mailto:scholarships@byui.edu">scholarships@byui.edu</a></p>
+<span class="h4">The process is easy:</span><ol><ol>
+<li>Complete the 2013-2014 <a href="https://my.byui.edu/ICS/Finances/Heber_J._Grant_Scholarship_Application.jnz" title="Link to BYU-Idaho Scholarship Application">BYU-Idaho Scholarship Application</a> <small>(Heber J. Grant)</small> by <strong><span style="text-decoration: underline;">April 1, 2013</span></strong>. (The Application will be available November 1, 2012.)</li>
+</ol></ol><br /><ol><ol>
+<li>Your application information along with your GPA, major, credits earned, etc. will be compared to the criteria of all available scholarships offered at BYU-Idaho. If you meet the qualifications of a particular scholarship(s) you will then be considered for that award. Your award could possibly include an Academic Scholarship, a General BYU-Idaho Scholarship, or both.</li>
+</ol></ol><br /><ol>
+<li>You will be notified by the end of May 2013 of any possible awards.</li>
+</ol><span class="h1">University Scholarships</span><br /><span class="caption">There are 4 types of scholarship awards available from BYU-Idaho:</span><br /><br />
+<div class="fa_question"><span class="h3">General BYU-Idaho Scholarships</span><br /><small>There are many scholarships donated to BYU-Idaho by generous donors who wish to help students obtain an education. These scholarships are based on the specific individual requirements of the scholarship. <strong>Demonstrate financial need; Self-reliance and extra-curricular involvement</strong> will also be considered.</small></div>
+<div class="fa_answer">
+<div><span class="h4">Application:</span>
+<ul>
+<li>The <a href="https://my.byui.edu/ICS/Finances/Heber_J._Grant_Scholarship_Application.jnz" title="Link to BYU-Idaho Scholarship Application">BYU-Idaho Scholarship Application</a> is <strong>required</strong> and will be available November 1, 2012.</li>
+</ul>
+<span class="h4">Application Deadline:</span>
+<ul>
+<li>April 1st, 2013</li>
+</ul>
+<span class="h4">Requirements for General Scholarships:</span>
+<ul>
+<li>Complete the <a href="https://my.byui.edu/ICS/Finances/Heber_J._Grant_Scholarship_Application.jnz" title="Link to BYU-Idaho Scholarship Application">BYU-Idaho Scholarship Application</a></li>
+<li>Be enrolled for at least 12 credits during the semester the award is received.
+<ul>
+<li>6-11.5 credits receives a <strong>prorated</strong> award</li>
+<li>If students are in their last semester and taking less than 6 credits, they can petition to receive a prorated award.
+<ul>
+<li>Students must be enrolled in the correct amount of credits by the Financial Aid Determination Date each semester. (See <a href="http://www.byui.edu/financial-aid/policies/deadlines">Deadlines</a> for specific date)</li>
+<li>To petition, send an email explaining your situation to <a href="mailto:scholarships@byui.edu">scholarships@byui.edu</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>No more than 140 earned credits at the time of evaluation</li>
+</ul>
+<span class="h4">Criteria:</span>
+<ul>
+<li>Meet the basic requirements of the general scholarships.</li>
+<li>Other factors considered may include:
+<ul>
+<li>financial need</li>
+<li>self-reliance</li>
+<li>involvement in extracurricular activities</li>
+</ul>
+</li>
+<li>Students are encouraged to do all they can for themselves to pay for their education. Working, saving, living frugally and sacrificing unnecessary things, etc. are ways of becoming self-reliant</li>
+</ul>
+<span class="h4">Award Duration:</span>
+<ul>
+<li>One academic school year (Fall 2013 through Spring 2014)</li>
+<li>Students will be awarded for those semesters which they indicate on the <a href="https://my.byui.edu/ICS/Finances/Heber_J._Grant_Scholarship_Application.jnz" title="Link to BYU-Idaho Scholarship Application">BYU-Idaho Scholarship Application</a>.</li>
+</ul>
+<span class="h4">Accepting Award:</span>
+<ul>
+<li>Students who receive a General BYU-Idaho scholarship may be required to submit a <a href="Documents/Admin_Offices/Financial Aid/2012_2013_Documents/Thank you letter.pdf"><strong>Thank You Letter</strong></a>. These letters are given to the generous donors who contribute these scholarships to BYU-Idaho. Awards will not be disbursed to the student until a valid Thank You Letter has been received by the Student Financial Aid Office.</li>
+</ul>
+<span class="h4">Important information:</span>
+<ul>
+<li>Send all questions for the <a href="https://my.byui.edu/ICS/Finances/Heber_J._Grant_Scholarship_Application.jnz" title="Link to BYU-Idaho Scholarship Application">BYU-Idaho Scholarship Application</a> to <a href="mailto:scholarships@byui.edu">scholarships@byui.edu</a></li>
+<li>Students will be notified if they receive any awards through their BYU-Idaho email account.</li>
+<li>If you have a General BYU-Idaho Scholarship and later become eligible for an academic scholarship in the same academic year, your General BYU-Idaho Scholarship may be reduced or eliminated.
+<ul>
+<li>This is done because General BYU-Idaho Scholarships are largely based on financial need and your need was met by your academic scholarship.</li>
+<li>Students will be notified if they receive any awards through their BYU-Idaho email account.</li>
+</ul>
+</li>
+<li>Scholarships will be based on the number of credits that you are registered for on the last day to drop classes without receiving a W grade. This date, which usually falls around the third week of each semester, is referred to as the <a href="http://www.byui.edu/financial-aid/policies/deadlines/financial-aid-determination-date"><strong>Financial Aid Determination Date (FADD)</strong></a>. It is the student's responsibility to be aware of the FADD each semester, as well as their individual credit requirements.
+<ul>
+<li><strong>General BYU-Idaho Scholarships</strong> - If a student is enrolled in less than 12 credits but at least 6, the award amount will be prorated based on the number of credits on FADD. If a student has less than 6 credits, the entire scholarship will be returned.</li>
+<li><strong>Academic Scholarships for Freshmen and Continuing students</strong> - If a student is enrolled in less than 14 credits as of midnight on the FADD, the entire amount of the academic scholarship will be reversed and the student will be required to return these funds.</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<br />
+<div class="fa_question"><span class="h3">Academic Scholarships for Incoming Freshmen</span><br /><small>Awarded exclusively to incoming Freshmen</small></div>
+<div class="fa_answer">
+<div><span class="h4">Application</span>
+<ul>
+<li>The <a href="https://my.byui.edu/ICS/Finances/Heber_J._Grant_Scholarship_Application.jnz" title="Link to BYU-Idaho Scholarship Application">BYU-Idaho Scholarship Application</a> is <strong>required</strong> and will be available November 1, 2012.</li>
+</ul>
+<span class="h4">Application Deadline:</span>
+<ul>
+<li>April 1st, 2013</li>
+</ul>
+<span class="h4">Requirements:</span>
+<ul>
+<li>Complete the <a href="https://my.byui.edu/ICS/Finances/Heber_J._Grant_Scholarship_Application.jnz" title="Link to BYU-Idaho Scholarship Application">BYU-Idaho Scholarship Application</a> <strong>AFTER</strong> you accept your track offer from the Admissions Office.</li>
+<li>Be a Freshman (recently graduated and/or first time college student)</li>
+<li>Minimum credit requirements:
+<ul>
+<li>Be enrolled for at least 14 credits during the semester the award is received.</li>
+</ul>
+</li>
+</ul>
+<span class="h4">Criteria:</span>
+<ul>
+<li>Based on the following:
+<ul>
+<li>High School GPA</li>
+<li>ACT or SAT Scores</li>
+</ul>
+</li>
+</ul>
+<span class="h4">Award Levels:</span>
+<ul>
+<li>Full LDS Tuition</li>
+<li>Half LDS Tuition</li>
+<li>Quarter LDS Tuition</li>
+</ul>
+<span class="h4">Award Duration:</span>
+<ul>
+<li>Two semesters (the student's first two semesters)</li>
+</ul>
+<span class="h4">Important Information:</span>
+<ul>
+<li>Send all questions regarding academic scholarships for freshmen students to: <a href="mailto:scholarships@byui.edu">scholarships@byui.edu</a></li>
+<li>Students will be automatically notified if they receive any awards through their BYU-Idaho email account.
+<ul>
+<li>If you have a General BYU-Idaho Scholarship and later become eligible for an academic scholarship in the same academic year, your General BYU-Idaho Scholarship may be reduced or eliminated.
+<ul>
+<li>This is done because General BYU-Idaho Scholarships are largely based on financial need and your need was met by your academic scholarship.</li>
+</ul>
+</li>
+<li>Scholarships will be based on the number of credits that you are registered for on the last day to drop classes without receiving a W grade. This date, which usually falls around the third week of each semester, is referred to as the <a href="http://www.byui.edu/financial-aid/policies/deadlines/financial-aid-determination-date"><strong>Financial Aid Determination Date (FADD)</strong></a>. It is the student's responsibility to be aware of the FADD each semester, as well as their individual credit requirements.
+<ul>
+<li><strong>Academic Scholarships for Freshmen and Continuing students</strong> - If a student is enrolled in less than 14 credits as of midnight on the FADD, the entire amount of the academic scholarship will be reversed and the student will be required to return these funds.</li>
+<li><strong>General BYU-Idaho Scholarships</strong> - If a student is enrolled in less than 12 credits but at least 6, the award amount will be prorated based on the number of credits on FADD. If a student has less than 6 credits, the entire scholarship will be returned.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<br />
+<div class="fa_question"><span class="h3">Academic Scholarships for Continuing Students</span><br /><small>Awards offered to students based solely on academic performance.</small></div>
+<div class="fa_answer">
+<div><span class="h4">Application:</span>
+<ul>
+<li>The <a href="https://my.byui.edu/ICS/Finances/Heber_J._Grant_Scholarship_Application.jnz" title="Link to BYU-Idaho Scholarship Application">BYU-Idaho Scholarship Application</a> is <strong>required</strong> and will be available November 1, 2012.</li>
+</ul>
+<span class="h4">Application Deadline:</span>
+<ul>
+<li>April 1st, 2013</li>
+</ul>
+<span class="h4">Requirements:</span>
+<ul>
+<li>Complete the <a href="https://my.byui.edu/ICS/Finances/Heber_J._Grant_Scholarship_Application.jnz" title="Link to BYU-Idaho Scholarship Application">BYU-Idaho Scholarship Application</a>.</li>
+<li>Completion of at least 28 credits at BYU-Idaho.
+<ul>
+<li>Upon completion of at least 28 cumulative college credits your cumulative BYU-Idaho GPA will be considered (see below).</li>
+</ul>
+</li>
+<li>No more than 129 cumulative credits at the time of evaluation.</li>
+<li>Minimum credit requirements:
+<ul>
+<li>Be enrolled in at least 14 credits during the semester of the award.
+<ul>
+<li>Students in their last semester taking less than 14 credits may receive a <strong>prorated</strong> award.</li>
+<li>To request a prorated award during your last semester, send an email explaining your situation to <a href="mailto:scholarships@byui.edu">scholarships@byui.edu</a>.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<span class="h4">Transfer Students:</span>
+<ul>
+<li>The same criteria/award levels below will be used in the evaluation.
+<ul>
+<li>The transfer GPA will be used.</li>
+<li>If a transfer student does not qualify on the criteria below at the time of admission, they must accumulate 28 BYU-Idaho credits before they can be reconsidered.</li>
+</ul>
+</li>
+</ul>
+<span class="h4">Criteria/Award Levels:</span>
+<ul>
+<li>All academic scholarships for continuing students (sophomores, juniors and seniors) will be disbursed based on the following criteria:</li>
+</ul>
+<table cellpadding="1" cellspacing="1" id="table_futura" style="width: 500px; font-family: Arial; margin-left: 50px; margin-top: 15px;">
+<tbody>
+<tr><th>Cumulative Credits</th><th>Cumulative GPA &amp; Award Levels</th></tr>
+<tr>
+<td>Sophomores, Juniors, Seniors</td>
+<td>3.950 - 4.000-----Full LDS Tuition<br />3.900 - 3.949-----Half LDS Tution<br />3.750 - 3.899-----Quarter LDS Tuition</td>
+</tr>
+</tbody>
+</table>
+<span class="h4">Award Duration:</span>
+<ul>
+<li>Awards will be for one academic year.</li>
+<li>Academic scholarships will be awarded based on the semesters students indicate on the <a href="https://my.byui.edu/ICS/Finances/Heber_J._Grant_Scholarship_Application.jnz" title="Link to BYU-Idaho Scholarship Application">BYU-Idaho Scholarship Application</a> that they will be attending.</li>
+</ul>
+<span class="h4">Important Information:</span>
+<ul>
+<li>Evaluation:
+<ul>
+<li>Students who have not yet received an Academic Scholarship are evaluated after each semester as long as the <a href="https://my.byui.edu/ICS/Finances/Heber_J._Grant_Scholarship_Application.jnz" title="Link to BYU-Idaho Scholarship Application">BYU-Idaho Scholarship Application</a> has been completed.</li>
+<li>After having received an Academic Scholarship, reevaluation occurs after every Winter semester for the next academic year, regardless of track.
+<ul>
+<li>The academic year begins with the fall semester and ends after the spring semester.</li>
+</ul>
+</li>
+<li>Because the Academic Scholarship lasts for the entire Academic Year, the Winter evaluation will not affect Financial Aid for that Spring.</li>
+</ul>
+</li>
+<li>Academic scholarships cannot be used in combination with each other. If you received the Freshmen Academic Scholarship, it must be fully disbursed in order to be eligible to receive a Continuing Academic Scholarship.</li>
+<li>If you have a General BYU-Idaho Scholarship and later become eligible for an academic scholarship in the same academic year, your General BYU-Idaho Scholarship may be reduced or eliminated.
+<ul>
+<li>This is done because General BYU-Idaho Scholarships are largely based on financial need and your need was met by your academic scholarship.</li>
+</ul>
+</li>
+<li>Students will be automatically notified if they receive any awards through their BYU-Idaho email account.</li>
+<li>See the policies page for more information.
+<ul>
+<li><a href="http://www.byui.edu/financial-aid/policies">BYU-I Financial Aid Policies</a></li>
+</ul>
+</li>
+<li>Scholarships will be based on the number of credits that you are registered for on the last day to drop classes without receiving a W grade. This date, which usually falls around the third week of each semester, is referred to as the <a href="http://www.byui.edu/financial-aid/policies/deadlines/financial-aid-determination-date"><strong>Financial Aid Determination Date (FADD)</strong></a>. It is the student's responsibility to be aware of the FADD each semester, as well as their individual credit requirements.
+<ul>
+<li><strong>Academic Scholarships for Freshmen and Continuing students</strong> - If a student is enrolled in less than 14 credits as of midnight on the FADD, the entire amount of the academic scholarship will be reversed and the student will be required to return these funds.</li>
+<li><strong>General BYU-Idaho Scholarships</strong> - If a student is enrolled in less than 12 credits but at least 6, the award amount will be prorated based on the number of credits on FADD. If a student has less than 6 credits, the entire scholarship will be returned.</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<br />
+<div class="fa_question"><span class="h3">Talent Awards</span><br /><small>Talent Award Scholarships are offered by individual departments at BYU-Idaho.</small></div>
+<div class="fa_answer">
+<div><span class="h4">Application:</span>
+<ul>
+<li>To apply contact the specific department. The Financial Aid office does not award college/department talent awards.</li>
+</ul>
+<span class="h4">Requirements:</span>
+<ul>
+<li>Credits
+<ul>
+<li>Must be enrolled in 12 credits to receive full award</li>
+<li>6-11.5 credits to receive a <strong>prorated</strong> award</li>
+<li>Students in their last semester taking less than 6 credits must petition to receive a prorated award.
+<ul>
+<li>To petition, send an email explaining your situation to <a href="mailto:scholarships@byui.edu">scholarships@byui.edu</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<span class="h4">Important Info:</span>
+<ul>
+<li>All other information about these scholarships can be found by contacting the specific department:
+<ul>
+<li><strong>Art Scholarships - Department of Art</strong>
+<ul>
+<li>208.496.4901</li>
+</ul>
+</li>
+<li><strong>Dance Scholarships - Department of Dance</strong>
+<ul>
+<li><a href="mailto:dance_dept@byui.edu">dance_dept@byui.edu</a></li>
+<li>208.496.4850</li>
+</ul>
+</li>
+<li><strong>Music Scholarships - Department of Music</strong>
+<ul>
+<li><a href="mailto:music@byui.edu">music@byui.edu</a></li>
+<li>208.496.4951</li>
+</ul>
+</li>
+<li><strong>Theater Arts Scholarships - Department of Theatre</strong>
+<ul>
+<li>208.496.4820</li>
+</ul>
+</li>
+<li><strong>Journalism Scholarships</strong>
+<ul>
+<li>208.496.3711</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<br /><br /><span class="h1">Outside Aid Opportunities</span><br /><span class="caption">The following scholarships/awards are awarded by local and national organizations unaffiliated with BYU-Idaho. Students are individually responsible for finding and applying for these awards.</span><br /><br />
+<div class="fa_question"><span class="h3">Outside Scholarship Opportunities</span> <br /><small>Awards offered by private institutions</small></div>
+<div class="fa_answer">
+<div class="more_content"><br /><!-- __________________________________________________________________________________________________________________________________________________________OUTSIDE SCHOLARSHIPS LIST      --><span class="h4">Private Scholarships</span>
+<ul>
+<li><a href="x43628.xml">BYU-I Financial Aid Office outside scholarships page</a>
+<ul>
+<li>An unofficial list of some of the privately funded scholarships available to BYU-I students</li>
+</ul>
+</li>
+</ul>
+<span class="h4">Scholarship search and directory sites</span>
+<ul>
+<li>The following resources are not affiliated or endorsed by BYU-Idaho:
+<ul>
+<li><a href="http://scholarshipamerica.org/" title="Link to ScholarshipAmerica.org">Scholarship America</a> - Scholarship provider and search</li>
+<li><a href="http://www.collegeboard.org/" title="Link to CollegeBoard.org">College Board</a> - College Planning and Scholarship Search</li>
+<li><a href="http://www.scholarshiphelp.org/" title="Link to ScholarshipHelp.org">Scholarship Help</a> - Scholarship search</li>
+<li><a href="http://www.fastweb.com/" title="Link to FastWeb.com">Fast Web</a> - Scholarship search</li>
+<li><a href="https://www.salliemae.com/" title="Link to SallieMae.com">Sallie Mae</a> - Student Loans</li>
+<li><a href="http://www.finaid.org//" title="Link to FinAid.org">Fin Aid - Smart Student Guide to Financial Aid</a> - Scholarship search</li>
+<li><a href="http://www.scholarshiphunter.com/" title="Link to ScholarshipHunter.com/">ScholarshipHunter.com</a> - Scholarship search</li>
+<li><a href="http://studentaid2.ed.gov/getmoney/scholarship/" title="Link to StudentAid.ed.gov">Student Aid - US Department of Education</a> - Links to other scholarship searches</li>
+<li><a href="http://www.scholarships.com//" title="Link to Scholarships.com">Scholarships.com</a> - Scholarship search</li>
+<li><a href="http://www.college-scholarships.com/" title="Link to College-Scholarships.com">College Scholarships</a> - Scholarship search</li>
+<li><a href="http://www.fastaid.com/" title="Link to FastAid.com">Fast Aid</a> - Scholarship search</li>
+<li><a href="http://www.princetonreview.com/" title="Link to PrincetonReview.com">Princeton Review</a> - College Planning and Scholarship Search</li>
+<li><a href="http://www.mappingyourfuture.org/" title="Link to MappingYourFuture.org">Mapping Your Future</a> - College Planning resource</li>
+<li><a href="http://www.collegesavings.org/index.aspx" title="College Savings Plan Network">College Savings Plan Network</a> - College Savings plan resource</li>
+</ul>
+</li>
+</ul>
+<!-- __________________________________________________________________________________________________________________________________________________________   END OUTSIDE SCHOLARSHIPS LIST   --></div>
+</div>
+<br />
+<div class="fa_question"><span class="h3">Robert R. Lee Promise Scholarship Category A</span> <br /><small>For Idaho residents who have completed high school and are applying to an Idaho college or university.</small></div>
+<div class="fa_answer">
+<div><span class="h4">Application</span>
+<ul>
+<li><a href="http://www.boardofed.idaho.gov/scholarship/documents/renewal/promisea-renewal.pdf">Robert R. Lee Promise Scholarship Category A Application</a></li>
+<li>Deadline
+<ul>
+<li>Must be filled out between November 15th and January 15th</li>
+</ul>
+</li>
+</ul>
+<span class="h4">Requirements</span>
+<ul>
+<li>Be an Idaho resident</li>
+<li>Effective for the current academic year, be a graduating senior of an Idaho high school or its equivalent</li>
+<li>Enroll as a full-time (12 credits) student in an academic or professional-technical program at an eligible Idaho college or university</li>
+<li>Effective for the current academic year, have a cumulative GPA of 3.5 or above and an ACT score of 28 or above</li>
+<li>Enroll as a full-time student in an academic program at an eligible Idaho college or university.</li>
+</ul>
+<span class="h4">Important Information</span>
+<ul>
+<li>For more information go to <br /><a href="http://www.boardofed.idaho.gov/scholarship/promise_a.asp">http://www.boardofed.idaho.gov/scholarship/promise_a.asp</a></li>
+</ul>
+</div>
+</div>
+<br />
+<div class="fa_question"><span class="h3">Robert R. Lee Promise Scholarship Category B</span> <br /><small>For Idaho residents who have completed high school and are applying to an Idaho college or university.</small></div>
+<div class="fa_answer">
+<div><br /><span class="h4">Application:</span>
+<ul>
+<li>No application necessary.</li>
+<li>Based on information provided on the BYU-Idaho Admissions Application.</li>
+<li>Students will be notified via e-mail upon reception of award and will be required to submit the <a href="Documents/Admin_Offices/Financial Aid/2012_2013_Documents/IPS(0).pdf">Robert R. Lee Promise Scholarship Acceptance form</a>.</li>
+</ul>
+<span class="h4">Requirements for Incoming Freshman</span>
+<ul>
+<li>Be an Idaho resident</li>
+<li>Be under the age of 22 prior to July 1 of the year of the award</li>
+<li>Enroll as a full-time (12 credits) student in an academic or professional-technical program at an eligible Idaho college or university</li>
+<li>Earned at least a 3.0 High School GPA or an ACT score of 20 or above.</li>
+</ul>
+<span class="h4">Requirements for Continued Eligibility</span>
+<ul>
+<li>Effective for the current academic year, receipients must have earned a cumulative GPA of 2.5 or above</li>
+<li>Be under the age of 22 prior to July 1 of the year of the award</li>
+<li>Enroll as a full-time (12 credits) student in an academic or professional-technical program at an eligible Idaho college or university</li>
+</ul>
+<span class="h4">Duration</span>
+<ul>
+<li>Varies from 1-4 semesters</li>
+</ul>
+<span class="h4">Important Info:</span>
+<ul>
+<li>For more questions, go to <a href="http://www.boardofed.idaho.gov/scholarship/promiseb.asp">http://www.boardofed.idaho.gov/scholarship/promiseb.asp</a></li>
+</ul>
+</div>
+</div>
+<br />
+<div class="fa_question"><span class="h3">Bureau of Indian Affairs Benefits</span> <br /><small>Financial Aid for students of Native American heritage</small></div>
+<div class="fa_answer">
+<div><br /><span class="h4">Eligibility:</span>
+<ul>
+<li>To be eligible for BIA funding, in most cases a student must:
+<ul>
+<li>Be at least 1/4 Indian blood</li>
+<li>Be registered with a tribe that has a treaty with the U.S. Gov. and an assigned census number</li>
+</ul>
+</li>
+<li>Other requirements may apply.</li>
+</ul>
+<span class="h4">Application:</span>
+<ul>
+<li>Students who are eligible to receive BIA awards at BYU-Idaho need to complete the following steps:
+<ul>
+<li>Notify the BYU-Idaho Financial Aid Office of eligibility for Bureau of Indian Affairs funding</li>
+<li>Submit a FAFSA form for the current academic year (available at <a href="https://fafsa.ed.gov/">www.fafsa.ed.gov</a>)</li>
+<li>Contact the appropriate tribal agency or office and request:
+<ul>
+<li>An application</li>
+<li>Privacy release form</li>
+<li>Other required forms and documents (based on tribal requirements)</li>
+</ul>
+</li>
+<li>Submit the privacy release form to the BYU-Idaho Financial Aid office</li>
+<li>Submit the application and other required forms to the proper tribal agency or office</li>
+<li>At the end of each semester students must send a copy of their grades to the tribe</li>
+</ul>
+</li>
+</ul>
+<span class="h4">Important info:</span>
+<ul>
+<li>Policies regarding BIA benefit awards are not managed or controlled by BYU-Idaho. For more information regarding BIA awards students may contact the associated tribal agency.</li>
+</ul>
+</div>
+</div>
+<br /><br /></div>
+</div>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="x18466" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x18206" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

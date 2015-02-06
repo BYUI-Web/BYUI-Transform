@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x62995" Name="Flu Shot FAQs" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Flu Shot Frequently Asked Questions</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Frequently Asked Questions about the Flu from the BYU-Idaho Student Health Center</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p><link href="Documents/health-center/wellness/well_main.css" rel="stylesheet" type="text/css" /></p>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+<script src="Documents/health-center/faqs1.js" type="text/javascript"></script>
+<div id="wellness">
+<div id="header">
+<div class="icon"></div>
+Health Center Wellness</div>
+<div id="wholebody"><iframe frameborder="0" height="240" id="mynav" scrolling="no" src="Documents/health-center/wellness/well_nav.html" width="350"></iframe>
+<div id="maincontent">
+<div id="subheader">Flu Shot Facts<span>Flu and Pertussis</span></div>
+<h2><strong>Flu Facts:</strong></h2>
+<ul>
+<li><strong>You CANNOT get the flu from the flu shot.</strong></li>
+<li>It takes two weeks for your body to build immunity to the flu after getting the flu shot.</li>
+<li>Flu season is between August and May.</li>
+</ul>
+<h2>Common Flu Questions*:</h2>
+<p><strong>What is the flu shot?</strong></p>
+<div class="quote">The flu shot is an inactivated vaccine (containing killed virus) that is given with a needle, usually in the arm. It contains three seasonal influenza viruses that are grown in eggs. The seasonal flu vaccine protects against three influenza viruses that research indicates will be most common during the upcoming season.</div>
+<p><strong>Who should NOT get a flu vaccine?</strong></p>
+<div class="quote">Talk with a doctor before getting a flu shot if you:
+<ul>
+<li>Have ever had a severe allergic reaction to eggs</li>
+<li>Have ever had a serious reaction to a previous flu shot</li>
+<li>Have ever had Guillain-Barr&eacute; Syndrome (a severe paralytic illness, also called GBS) that occurred after receiving influenza vaccine. Your doctor will help you decide whether the vaccine is recommended for you.</li>
+</ul>
+If you are sick with a fever when you go to get your flu shot, you should talk to your doctor or nurse about getting your shot at a later date. However, you can get a flu shot at the same time you have a respiratory illness without fever or if you have another mild illness.</div>
+<p><strong>Can the flu shot give me the flu?</strong></p>
+<div class="quote">No, a flu shot cannot cause flu illness. The viruses contained in flu shots are inactivated (killed), which means they cannot cause infection. Flu vaccine manufacturers kill the viruses used in the flu shot during the process of making vaccine, and batches of flu vaccine are tested to make sure they are safe. In randomized, blinded studies, where some people got flu shots and others got saltwater shots, the only differences in symptoms was increased soreness in the arm and redness at the injection site among people who got the flu shot. There were no differences in terms of body aches, fever, cough, runny nose or sore throat.</div>
+<p><strong>Why do some people not feel well after getting the flu shot?</strong></p>
+<div class="quote">The most common side effect of the flu vaccine in adults is soreness at the spot where the shot was given, which usually lasts less than two days. The soreness is often caused by a person&rsquo;s immune system making protective antibodies to the killed viruses in the vaccine. These antibodies are what allow the body to fight against flu. The needle stick may also cause some soreness at the injection site. According to the Advisory Committee on Immunization Practices (ACIP), rare symptoms include fever, muscle pain, and feelings of discomfort or weakness. If these problems occur, they are very uncommon and usually begin soon after the shot and last 1-2 days.</div>
+<p><strong>What about people who get a seasonal flu vaccine and still get sick with flu-like symptoms?</strong></p>
+<div class="quote">There are several reasons why someone might get flu-like symptoms even after they have been vaccinated against the flu.
+<ul>
+<li>People may be exposed to an influenza virus shortly before getting vaccinated or during the two-week period that it takes the body to gain protection after getting vaccinated. This exposure may result in a person becoming ill with flu before the vaccine begins to protect them.</li>
+<li>People may become ill from other (non-flu) viruses that circulate during the flu season, which can also cause flu-like symptoms (such as rhinovirus).</li>
+<li>3. A person may be exposed to an influenza virus that is not included in the seasonal flu vaccine. There are many different influenza viruses that circulate every year. The flu shot protects against the 3 viruses that research suggests will be most common. Unfortunately, some people can remain unprotected from flu despite getting the vaccine. This is more likely to occur among people that have weakened immune systems. However, even among people with weakened immune systems, the flu vaccine can still help prevent influenza complications. For more information about the effectiveness of the flu vaccine, see <a href="http://www.cdc.gov/flu/about/qa/vaccineeffect.htm">How Well Does the Seasonal Flu Vaccine Work?</a></li>
+</ul>
+Seasonal influenza vaccine provides the best protection available from seasonal flu &mdash; even when the vaccine does not closely match circulating flu strains, and even when the person getting the vaccine has a weakened immune system. Vaccination can lessen illness severity and is particularly important for people at high risk for serious flu-related complications and for close contacts of high-risk people.</div>
+<p>*All of this information is from the CDC website <a href="http://www.cdc.gov">www.cdc.gov</a></p>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<script src="Documents/health-center/faqs2.js" type="text/javascript"></script>
+<p><iframe frameborder="0" height="240" id="footer" scrolling="no" src="http://www.byui.edu/Documents/health-center/footer.html" width="320"></iframe></p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x28441" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

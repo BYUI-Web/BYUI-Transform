@@ -1,0 +1,233 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x47072" Name="Online Magazine" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Online Magazine</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Online Magazine</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<script type="text/javascript">
+//BEGIN jquery.min.js
+
+
+
+
+
+//END jquery-ui.min.js
+
+
+
+
+
+
+//BEGIN global.js
+
+//END global.js
+
+//BEGIN cycle.js
+
+//END cycle.js
+
+//BEGIN hotkeys.js
+
+//END hotkeys.js
+
+//BEGIN hoverIntent.js
+
+//END hoverIntent.js
+
+//BEGIN jScrollPane.js
+
+//END jScrollPane.js
+
+//BEGIN jquery.mousewheel.min.js
+
+//END jquery.mousewheel.min.js
+
+//BEGIN jfeed.js
+
+//END jfeed.js
+
+//BEGIN imageSwap.js
+
+//END imageSwap.js
+
+//BEGIN randomImage.js
+
+//END randomImage.js
+
+//BEGIN randomNoteImage.js
+
+//END randomNoteImage.js
+</script>
+<style type="text/css"><!--
+/*BEGIN*/
+
+/*END*/
+
+/*BEGIN*/
+
+/*END*/
+
+/*BEGIN*/
+
+/*END*/
+
+/*BEGIN*/
+
+/*END*/
+
+/*BEGIN*/
+
+/*END*/
+--></style>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.5.3/jquery-ui.min.js" type="text/javascript"></script>
+<!--		<mce:script type="text/javascript" _mce_src="js/custom/home_page.js"></mce:script>-->
+<script src="js/custom/global.js" type="text/javascript"></script>
+<!-- testing cycle.js to cycle_test.js -->
+<script src="js/third_party/cycle.js" type="text/javascript"></script>
+<!--		<mce:script type="text/javascript" _mce_src="js/third_party/cycle.js"></mce:script> -->
+<script src="js/third_party/hotkeys.js" type="text/javascript"></script>
+<script src="js/third_party/hoverIntent.js" type="text/javascript"></script>
+<script src="js/third_party/jScrollPane.js" type="text/javascript"></script>
+<script src="js/third_party/jquery.mousewheel.min.js" type="text/javascript"></script>
+<script src="js/custom/jfeed.js" type="text/javascript"></script>
+<script src="js/custom/imageSwap.js" type="text/javascript"></script>
+<script src="js/custom/randomImage.js" type="text/javascript"></script>
+<script src="js/custom/randomNoteImage.js" type="text/javascript"></script>
+<link charset="utf-8" href="css/style.css" media="screen" rel="stylesheet" title="no title" type="text/css" />
+<link href="css/pt/home_page.css" rel="stylesheet" type="text/css" />
+<link charset="utf-8" href="css/common/rss_events_box.css" media="screen" rel="stylesheet" title="no title" type="text/css" />
+<link href="css/common/jScrollPane_home.css" rel="stylesheet" type="text/css" />
+<link href="css/c_slider_style.css" rel="stylesheet" type="text/css" />
+<!--[if lte IE 7]>
+<link href="css/styleIE7.css" _mce_href="css/styleIE7.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<title>BYU-Idaho Magazine</title>
+<div id="container">
+<div id="GlobalNavigation">
+<ul>
+<li class="blackBar">Black Bar</li>
+</ul>
+<!-- 
+<ul>
+<li class="currentStu"><a href="#1" _mce_href="#1">Current Students</a></li>
+<li class="employees"><a href="#1" _mce_href="#1">Employees</a></li>
+<li class="alumni"><a href="#1" _mce_href="#1">Alumni and Community</a></li>
+<li class="prospective"><a href="#1" _mce_href="#1">>Prospective Students</a></li>
+</ul>
+-->  				 
+<ul id="blueMenu">
+<li class="directories"><a href="http://www.byui.edu">BYU-Idaho Home</a> </li>
+<li class="calendar"><a href="http://www.byui.edu/magazine/fall2011/departments/connected/alumni_news_fall_2011.htm">Alumni News</a> </li>
+<li class="aboutbyui"><a href="http://www.byui.edu/magazine/fall2011/departments/connected/Class_Notes.htm">Alumni Profiles</a> </li>
+<li class="library"><a href="http://web.byui.edu/devotionalsandspeeches/Default.aspx">Devotional Archives</a> </li>
+<li class="siteindex"><a href="http://www.byuidahoradio.org">BYU-Idaho Radio</a></li>
+</ul>
+<!-- SEARCH BOX  			<form action=""> <input class="header_search_box" name="search" type="text" /> <input class="searchButton" value="Search" type="image" src="images/common/go_button.gif" _mce_src="images/common/go_button.gif" /> </form> -->  			<a href="#"><img alt="Brigham Young University - Idaho Logo" src="images/common/byui_header_logo.png" /></a> <!-- LINKS ABOVE THE SEARCH BOX (below)--> <!--
+<p><a href="#" _mce_href="#">CONTACT US</a> <span>|</span> <a href="#" _mce_href="#">FAQ</a> <span>|</span> <a href="#" _mce_href="#">LDS.ORG</a></p>
+-->
+<p class="header_title">&nbsp;</p>
+</div>
+<!-- #GlobalNavigation -->
+<div id="top_banner"><img src="images/common/masthead.png" />
+<p>Fall 2011</p>
+</div>
+<div id="main">
+<div id="info">
+<div id="top">
+<p class="title">A Decade of Progress &mdash; The Tenth Anniversary of BYU-Idaho</p>
+</div>
+<div id="image"><a href="http://www.byui.edu/magazine/fall2011/Article_index.htm"> <img src="images/cover-image.jpg" /> </a></div>
+<div id="message">
+<p class="message_text">Get an in-depth look at <br />BYU-Idaho's historic first decade, the university's reach and impact today, and what lies ahead in the future.</p>
+</div>
+</div>
+<div id="interactive">
+<div id="featured">
+<ul class="ui-tabs-nav">
+<li class="ui-tabs-nav-item ui-tabs-selected" id="nav-fragment-1"><a href="#fragment-1"></a><a href="features/The_Changing_Face_of_Campus/"><img src="images/content_slider/ChangingFace_thumb.jpg" /><span>The Changing<br />Face of Campus</span></a></li>
+<li class="ui-tabs-nav-item" id="nav-fragment-2"><a href="#fragment-2"></a><a href="features/Developing_Disciple_Leaders/"><img src="images/content_slider/DiscipleLeader_thumb.jpg" /><span>Developing<br />Disciple Leaders</span></a></li>
+<li class="ui-tabs-nav-item" id="nav-fragment-3"><a href="#fragment-3"></a><a href="features/Staying_Connected_Making_a_Difference/"><img src="images/content_slider/StayConnected_thumb.jpg" /><span>Staying Connected, Making a Difference</span></a></li>
+<li class="ui-tabs-nav-item" id="nav-fragment-4"><a href="#fragment-4"></a><a href="features/A_Look_Into_the_Future/"><img src="images/content_slider/LookFuture_thumb.jpg" /><span>A Look Into the<br />Future</span></a></li>
+</ul>
+<!-- First Content -->
+<div class="ui-tabs-panel" id="fragment-1"><a href="features/The_Changing_Face_of_Campus/"><img alt="The Changing Face of Campus" src="images/content_slider/ChangingFace.jpg" style="border: none;" /></a></div>
+<!-- Second Content -->
+<div class="ui-tabs-panel ui-tabs-hide" id="fragment-2"><a href="features/Developing_Disciple_Leaders/"><img alt="Developing Disciple Leaders" src="images/content_slider/DiscipleLeader.jpg" style="border: none;" /></a></div>
+<!-- Third Content -->
+<div class="ui-tabs-panel ui-tabs-hide" id="fragment-3"><a href="features/Staying_Connected_Making_a_Difference/"><img alt="Staying Connected, Making a Difference" src="images/content_slider/StayConnected.jpg" style="border: none;" /></a></div>
+<!-- Fourth Content -->
+<div class="ui-tabs-panel ui-tabs-hide" id="fragment-4"><a href="features/A_Look_Into_the_Future/"><img alt="A Look Into the Future" src="images/content_slider/LookFuture.jpg" style="border: none;" /></a></div>
+</div>
+</div>
+</div>
+<div id="menu">
+<ul>
+<li id="president_message"><a href="departments/letter_from_the_president.htm">
+<p>VIEW PRESIDENT CLARK'S WELCOME</p>
+</a></li>
+<li id="learningModel"><a href="Article_index.htm">
+<p>TABLE OF CONTENTS</p>
+</a></li>
+<li id="learningModel"><a href="http://www.byui.edu/Magazine/fall2011/departments/connected/past_issues.htm">
+<p>PAST ISSUES</p>
+</a></li>
+<li id="learningModel"><a href="http://www.byuiconnect.com">
+<p>BYUI CONNECT</p>
+</a></li>
+<li id="spiritOfRicks"><a href="print/print.htm">
+<p>PRINT MAGAZINE</p>
+</a></li>
+</ul>
+</div>
+<div id="leftBox"><a href="http://www.byui.edu/magazine/fall2011/features/A_Look_Into_the_Future/videos/our_future.htm"> <img class="seperator" id="rotating_image3" src="images/ mag_home_lowerAd_Our_Future.png" /> </a> <!-- <a href="http://www.byui.edu/magazine/fall2011/features/A_Look_Into_the_Future/videos/pioneer_legacy.htm" _mce_href="http://www.byui.edu/magazine/fall2011/features/A_Look_Into_the_Future/videos/pioneer_legacy.htm"> <img id="rotating_image3" class="seperator" src="images/_mag_home_lowerAd_PioneerLegacy.png" _mce_src="images/_mag_home_lowerAd_PioneerLegacy.png"  /> </a> -->    				<!-- <a href="http://www.byui.edu/magazine/fall2011/features/A_Look_Into_the_Future/videos/pathway.htm" _mce_href="http://www.byui.edu/magazine/fall2011/features/A_Look_Into_the_Future/videos/pathway.htm"> <img id="rotating_image3" class="seperator" src="images/_mag_home_lowerAd_Pathway.png" _mce_src="images/_mag_home_lowerAd_Pathway.png"  /> </a> -->    				<!-- <a href="http://www.byui.edu/magazine/fall2011/features/A_Look_Into_the_Future/videos/online_learning.htm" _mce_href="http://www.byui.edu/magazine/fall2011/features/A_Look_Into_the_Future/videos/online_learning.htm"> <img id="rotating_image3" class="seperator" src="images/_mag_home_lowerAd_OnlineLearning.png" _mce_src="images/_mag_home_lowerAd_OnlineLearning.png"  /> </a> -->    				<!-- <a href="http://www.byui.edu/magazine/fall2011/features/A_Look_Into_the_Future/videos/affordability.htm" _mce_href="http://www.byui.edu/magazine/fall2011/features/A_Look_Into_the_Future/videos/affordability.htm"> <img id="rotating_image3" class="seperator" src="images/_mag_home_lowerAd2_Affordability.png" _mce_src="images/_mag_home_lowerAd2_Affordability.png"  /> </a> -->    				<!--
+<div id="news" class="selected"></div>
+<div id="events" ></div>
+<div id="displayBox">
+<div id="newsEventsListScroll">
+<div id="newsEventsList" class="scroll-pane"><!  RSS feed gets added using jQuery --> <!--</div>
+</div>
+<div id="newsEventsLinks"><! <img alt="Visit the Press Room Button" src="images/home_page/interactive/dark_grey_button.png" _mce_src="images/home_page/interactive/dark_grey_button.png" /><a href="#" _mce_href="#">Visit the Press Room</a> <img alt="Ticket Office Button" src="images/home_page/interactive/dark_grey_button.png" _mce_src="images/home_page/interactive/dark_grey_button.png" /><a href="#" _mce_href="#">Ticket Office</a></div>
+</div>
+--></div>
+<a class="devo_link" href="#" id="newsOfNoteLink">
+<div id="middleBox">
+<h6>IN THE NEWS</h6>
+<p id="note_title">Devotional</p>
+<p id="note_subtitle">President Henry B. Eyring speaks of "the Miracle" on the hill ...</p>
+<!--<img id="pic" class="seperator" src="images/common/eyring_devo.jpg" _mce_src="images/common/eyring_devo.jpg" alt="President Eyring" />-->  				<img class="seperator" id="rotating_image_2" src="images/common/devotional_speaker.jpg" /> <!--<img class="devo_button" src="images/home_page/interactive/dark_grey_button.png" _mce_src="images/home_page/interactive/dark_grey_button.png" alt="arrow Button" />-->  				<!--
+<p class="click_Button">More News of Note ...</p>
+--></div>
+</a> <a class="devo_link" href="#" id="onCampusLink">
+<div id="rightBox">
+<h6>ON CAMPUS</h6>
+<p id="devo_description">&nbsp;</p>
+<p id="devo_speaker">&nbsp;</p>
+<img class="seperator" id="rotating_image" src="images/common/devotional_speaker.jpg" /> <!--<img class="devo_button" src="images/home_page/interactive/dark_grey_button.png" _mce_src="images/home_page/interactive/dark_grey_button.png" alt="arrow Button" />-->  				<!--<a id="onCampusLink" class="devo_link" href="#" _mce_href="#">Read More ...</a>--></div>
+</a>
+<div id="footer">
+<p>&copy;2011 Brigham Young University&ndash;Idaho, 525 South Center St., Rexburg, ID 83460, (208) 496-1411</p>
+<ul>
+<li><a href="http://www.byu.edu">BYU</a></li>
+<li><a href="http://www.byuh.edu/">BYU-Hawaii</a></li>
+<li><a href="http://www.ldsbc.edu/">LDS Business College</a></li>
+<li><a href="http://www.byui.edu/disabilities/"><img src="http://www2.byui.edu/ada2.jpg" style="border: 0px none; left: 478px; top: 28px;" />Disability Services</a></li>
+<li class="lastListItem"><a href="http://www.byui.edu/defaulttext.asp">Text Home Page</a></li>
+</ul>
+<a href="http://www.lds.org"><img alt="The Church of Jesus Christ of Latter-day Saints" src="images/common/church_footer_logo.jpg" /></a></div>
+</div>
+<!--END container --> <!--These scripts enables Omniture tracking -->
+<script src="http://web.byui.edu/Omniture/s_code.js" type="text/javascript"></script>
+<script src="http://web.byui.edu/Omniture/omniture_code.js" type="text/javascript"></script>
+<!-- This script enables Google Analytics -->
+<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+			try {
+
+			var pageTracker = _gat._getTracker("UA-12079604-1");
+
+			pageTracker._trackPageview();
+
+			} catch(err) {}
+</script>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

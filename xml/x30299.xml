@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.68 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x30299" Name="Career Exploration Resources" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Career Exploration Resources</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">A collection of career exploration resources including several hard copy documents at the ADC as well as online resources. </Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<h1><strong>Hard Copy Resources</strong></h1>
+<p>You are welcome to visit the Career Networking Center in 127 Manwaring Center to access any of these items. Resources may not be removed from the office.&nbsp;Regular business hours are Monday - Friday, 8 a.m. to 5 p.m.</p>
+<hr />
+<h3>Master File</h3>
+<p>The Master File contains summary sheets, newspaper and magazine articles and other current information about careers and majors. It also includes information about graduate programs. Students can make copies of handouts or brochures for their personal use.</p>
+<hr />
+<h3>Encyclopedia of Careers</h3>
+<p>This encyclopedia set provides information for more than 900 careers. It lists a general description of the job or career field, the professional requirements, salary statistics, work environment, future outlook and sources for more information.</p>
+<hr />
+<h3>Books on Careers</h3>
+<p>These books offer an in-depth look at specific majors and careers.</p>
+<hr />
+<h3>The Business Journal: Books of Lists</h3>
+<p style="border-bottom: 1px dotted #000; padding-bottom: 10px;">Get essential information on the leading businesses and employers in&nbsp;<a href="x28938.xml" title="Hub Cities">Hub cities</a>. Each market-specific edition is created by the local business journal to give you a perspective you can't get anywhere else. Note: the Service Missionaries are responsible for the books for each city, however, they are not all in the main office, and may be located in another ADC Center. You may call ahead to find out in which center each book is currently located. (208) 496-9816.</p>
+<p></p>
+<h1>Online Resources</h1>
+<hr />
+<h3>Occupational Outlook Handbook</h3>
+<p>The Occupational Outlook Handbook is a nationally recognized source of career information produced by the U.S. Department of Labor. It provides valuable information needed to make career decisions.</p>
+<p style="padding-left: 30px;">Online Access:&nbsp;<a href="http://www.bls.gov/oco">www.bls.gov/oco</a></p>
+<hr />
+<h3>O*NET</h3>
+<p>The U.S. Department of Labor developed the Occupational Network (O*NET) to help people find a job that interests them. It allows people to search for jobs listed alphabetically, by required education or training, by O*NET number, or by interests. It also lists jobs by earning rates, growth rates, and number of openings.</p>
+<p style="padding-left: 30px;">Online Access:&nbsp;<a href="http://www.online.onetcenter.org">www.online.onetcenter.org</a></p>
+<p style="padding-left: 30px;">New and Emerging Occupations: <a href="http://www.onetcenter.org/dl_files/Taxonomy2010_AppD.pdf">www.onetcenter.org/dl_files/Taxonomy2010_AppD.pdf</a></p>
+<hr />
+<h3>Best Jobs of 2013</h3>
+<p>A collection of lists compiled by US News, as based on data categorized by the U.S. Bureau of Labor Statistics (BLS).</p>
+<table border="0">
+<tbody>
+<tr>
+<td><strong>Resource</strong></td>
+</tr>
+<tr>
+<td><a href="http://money.usnews.com/careers/best-jobs/rankings/the-100-best-jobs" title="Best 100 Jobs">Best 100 Jobs</a></td>
+</tr>
+<tr>
+<td><a href="http://money.usnews.com/money/careers" title="Best Jobs Ranked by Industry">Best Jobs Ranked by Industry</a></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>What's it Worth?</h3>
+<p>A resource from Georgetown University which shows the worth of Bachelor's Degrees from a variety of different majors:</p>
+<p><a href="http://cew.georgetown.edu/whatsitworth/">http://cew.georgetown.edu/whatsitworth/</a></p>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x17690" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

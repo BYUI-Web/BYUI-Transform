@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<Content ID="x66801" Name="#7" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">#7</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">#7</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style><!--
+#linearBg2 { 
+    /* fallback */ background-color: #1a82f7; background: url(images/linear_bg_2.png); background-repeat: repeat-x;
+    /* Safari 4-5, Chrome 1-9 */ background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#2f2727), to(#06799F));
+    /* Safari 5.1, Chrome 10+ */ background: -webkit-linear-gradient(top, #06799F, #2f2727);
+    /* Firefox 3.6+ */ background: -moz-linear-gradient(top, #06799F, #2f2727);
+    /* IE 10 */ background: -ms-linear-gradient(top, #06799F, #2f2727);
+    /* Opera 11.10+ */ background: -o-linear-gradient(top, #06799F, #2f2727); 
+    
+}
+
+#container
+{
+	margin: 0 30px;
+	background: #fff;
+    
+        
+}
+
+#header
+{
+	background: #1A1A1A;
+	padding: 20px; 
+        border-top-left-radius: 20px; 
+}
+
+#header h1 { margin: 0;color:#000000; }
+
+#navigation
+{
+	float: left;
+	width: 100%;
+	background: #336699;
+
+      
+}
+
+#navigation ul
+{
+	margin: 0;
+	padding: 0;
+
+}
+
+#navigation ul li
+{
+	list-style-type: none;
+	display: inline;
+        
+}
+
+#navigation li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #fff;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+        border-top-left-radius:1em;
+        border-top-right-radius:1em;
+        font-size:105%
+}
+
+#navigation li a:hover { background: #003366; }
+
+#content
+{
+	clear: left;
+	padding: 20px;
+        
+        
+}
+
+#content h2
+{
+	color: #000;
+	font-size: 160%;
+	margin: 0 0 .5em;
+        
+}
+
+#footer
+{
+	background: #336699;
+	text-align: right;
+	padding: 20px;
+	height: 1%;
+         border-radius: 0px;
+}
+--></style>
+<div>
+<div>
+<div id="linearBg2">
+<h1 style="color: #fffafa; font-size: 300%; padding: 10px;">Testing Center</h1>
+</div>
+<div><meta />
+<title>Pure CSS Tabbed Areas</title>
+<link href="css/style.css" rel="stylesheet" /></div>
+</div>
+</div>
+<style><!--
+p { margin: 0 0 15px; line-height: 1.6em; }
+a { outline: 0; color: #309D9F; text-decoration: none; }
+li { list-style: none; }
+li a, img { display: block; }
+
+#wrapper { width: 984px; margin: auto; }
+.clr { clear: both; }
+#logo { float: left; padding: 30px 15px; }
+	#logo h1 a { color: #fff; }
+		#logo h1 a span { color: #808080; }
+#menu { height: 44px; padding: 5px 0 0 4px; }
+	#menu li { float: left; font-size: 1.0em; text-transform: uppercase; }
+		#menu li a { color: #888; margin: 0 50px 0 0; }
+			#menu li a.current, #menu li a:hover { color: #fff; }			
+	#pitch { clear: both; background: url(../images/pitch.jpg) no-repeat; height: 228px; margin: 0 0 30px; padding: 60px 360px 0 30px; }
+		#pitch h1 { font-size: 2.0em; color: #304D6F; margin: 0 0 20px; }
+		#pitch em { font-size: 1.0em; font-weight: bold; line-height: 1.6em; }
+.content { background: url(../images/content.gif) repeat; padding: 20px; }
+--></style>
+<meta content="text/html;charset=utf-8" http-equiv="content-type" /><link href="css/screen.css" media="screen" rel="stylesheet" type="text/css" />
+<title>BYU-Idaho Testing Ce</title>
+<div id="wrapper">
+<div class="content">
+<ul id="menu">
+<li><a class="current" href="#">Home</a></li>
+<li><a href="#">Practice</a></li>
+<li><a href="#">national tests</a></li>
+<li><a href="#">proctoring</a></li>
+<li><a href="#">test</a></li>
+<li><a href="#">test</a></li>
+<li><a href="#">Contact Us</a></li>
+</ul>
+</div>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x41457" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

@@ -1,0 +1,316 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content ID="x68398" Name="Multiple Image Layout" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Multiple Image Layout</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Layout2a</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style><!--
+    #container710{
+        float:left;
+        overflow:hidden;
+    }
+    #mainpicture{
+        float: left;
+        margin-bottom: 15px;
+        width:560px;
+        height:375px;
+    }
+    #mainpicture img{
+        width:560px;
+        height:375px;
+    }
+    .subpicture{
+        width:135px;
+        height:115px;
+        margin-left:15px;
+        margin-top:15px;
+        float:left;
+        opacity:1;
+    }
+    .subpicture img{
+        width:135px;
+        height:115px;
+    }
+    .firstsubpicture{
+        margin-top:0px;
+    }
+    .subpicture:hover{
+        opacity:.75;
+    }
+    .bottomboxes{
+        border-radius: 4px;
+        width: 225px;
+        height: 200px;
+        background-color: #f2f2f2;
+        border: thin solid #e0e0e0;
+        float: left;
+        margin:0px;
+    }
+    .middle{
+        margin:0px 14px;
+    }
+    .bottomboxheader{
+        width: 100%; 
+        background-color: #eaeaea;
+        margin-right: 15px; 
+        padding-top: 10px; 
+        border-bottom: solid 1px #e0e0e0;
+    }
+    .bottomboxheadertext{
+        margin: 0px 0px 5px 15px;
+        font-size: large;
+    }
+    .bottomboxbullettext{
+        font-size: .9em;
+        margin-left: 10px; 
+        margin-top: 15px; 
+        padding-left: 5px;
+        margin-bottom: 10px;
+        color: #60686e;
+    }
+    .bottomboxbullettext a{
+        text-decoration: none;
+        color: #60686e;
+    }
+    .bottomboxbullettext a:hover{
+        color:#056CB6;
+    }
+    .leftcustomize{
+        width: 50%;
+        float:left;
+    }
+    .rightcustomize{
+        width: 50%;
+        float:left;
+    }
+    .templatecode{
+        border: 2px solid #686868;
+        background-color:#f6f6f6;
+        padding:10px;
+        font-size: 11px;
+        font-family: "courier";
+        line-height: 12px;
+    }
+    .instructions{
+        margin:20px;
+    }
+    #tempexample{
+        margin:80px 0px;
+    }
+--></style>
+<div class="span-18" id="container710">
+<div class="layoutdesc loud">Below is a working example of this template.<br /> You'll find simple instructions of how to use it beneath it.<br /> This particular template provides interaction with its viewer. All four          images have links attached to them, they just need to be specified/customized         by right clicking on the image and clicking "Insert/edit link". This also          applies to the links below the images.         <br /><br />
+<div class="leftcustomize"><em>You can customize:</em> 
+<ul>
+<li>Images</li>
+<li>Text</li>
+<li>'href' links</li>
+</ul>
+</div>
+<div class="rightcustomize"><em>You cannot customize:</em> 
+<ul>
+<li>Image size</li>
+<li>Layout</li>
+<li>Spacing between images</li>
+</ul>
+</div>
+<br /><br /> Note: for images to display properly in this template, use these sizes:         
+<ul>
+<li>Large Image -- width: 790px</li>
+<li>Large Image -- height: 514px</li>
+<li>Small Images -- width: 135px</li>
+<li>Small Images -- height: 115px</li>
+</ul>
+</div>
+<br />
+<div class="clear"></div>
+<div id="tempexample">
+<div id="mainpicture"><a href="#" title="This is the Main Picture"> <img alt="BYUI Center" height="514" src="http://www.byui.edu/Images/101116_BYU-IdahoCenter_09a.jpg" title="BYUI Center" width="790" /> </a></div>
+<div class="subpicture firstsubpicture"><a href="#" title="Live Chat with an Academic Advisor"> <img alt="Sunset" height="115" src="http://www.byui.edu/Images/art/030730SunsetFence_2622.jpg" title="Sunset" width="135" /></a></div>
+<div class="subpicture"><a href="#" title="Career Navigator"> <img alt="MC Building" height="115" src="http://www.byui.edu/Images/dance/ManwaringCenterThumbnailsmall.jpg" title="MC Building" width="135" /></a></div>
+<div class="subpicture"><a href="#" title="Career Preparation"> <img alt="Arial View" height="115" src="http://www.byui.edu/Images/planetarium/Directions.png" title="Arial View" width="135" /></a></div>
+<div>
+<div class="bottomboxes">
+<div class="bottomboxheader">
+<p class="bottomboxheadertext">Other Links...</p>
+</div>
+<p class="bottomboxbullettext"><a href="#" title="Expeditions"> <img alt="arrow" height="9" src="http://www.byui.edu/Images/advising/blue-arrow.png" width="5" /> Link 1</a></p>
+<p class="bottomboxbullettext"><a href="#" title="Events and Recruiting"> <img alt="arrow" height="9" src="http://www.byui.edu/Images/advising/blue-arrow.png" width="5" /> Another Link 2</a></p>
+<p class="bottomboxbullettext"><a href="#" title="Academic Advising"> <img alt="arrow" height="9" src="http://www.byui.edu/Images/advising/blue-arrow.png" width="5" /> A third Link</a></p>
+<p class="bottomboxbullettext"><a href="#" title="Health Professions"> <img alt="arrow" height="9" src="http://www.byui.edu/Images/advising/blue-arrow.png" width="5" /> One More link for this column</a></p>
+</div>
+<div class="bottomboxes middle">
+<div class="bottomboxheader">
+<p class="bottomboxheadertext">...or articles...</p>
+</div>
+<p class="bottomboxbullettext"><a href="#" title="Change Major"> <img alt="arrow" height="9" src="http://www.byui.edu/Images/advising/blue-arrow.png" width="5" /> More Links</a></p>
+<p class="bottomboxbullettext"><a href="#" title="Internship Info"> <img alt="arrow" height="9" src="http://www.byui.edu/Images/advising/blue-arrow.png" width="5" /> More Links</a></p>
+<p class="bottomboxbullettext"><a href="#" title="Class Planning"> <img alt="arrow" height="9" src="http://www.byui.edu/Images/advising/blue-arrow.png" width="5" /> More Links</a></p>
+<p class="bottomboxbullettext"><a href="#" title="Find a Job"> <img alt="arrow" height="9" src="http://www.byui.edu/Images/advising/blue-arrow.png" width="5" /> More Links</a></p>
+</div>
+<div class="bottomboxes">
+<div class="bottomboxheader">
+<p class="bottomboxheadertext">...or Contact Information</p>
+</div>
+<p class="bottomboxbullettext"><strong>Hours</strong> <br />Monday-Friday<br />8-5pm</p>
+<p class="bottomboxbullettext"><strong>Locations</strong><br />Please see our <a href="#" style="color: #056cb6; text-decoration: underline;" title="Academic Discovery Center Locations">locations</a> page for your major specific center.</p>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<h3>Instructions:</h3>
+<ol class="instructions">
+<li>Copy the code below.</li>
+<li>Find page in Ingeniux you want to use this template on.</li>
+<li>Click 'HTML'.</li>
+<li>Paste the code you copied in step 1.</li>
+<li>Click 'Update'.</li>
+<li>Customize the image sources, link, text, etc.</li>
+</ol>
+<pre class="templatecode">        &lt;style&gt;
+            #container710{
+                float:left;
+                overflow:hidden;
+            }
+            #mainpicture{
+                float: left;
+                margin-bottom: 15px;
+                width:560px;
+                height:375px;
+            }
+            #mainpicture img{
+                width:560px;
+                height:375px;
+            }
+            .subpicture{
+                width:135px;
+                height:115px;
+                margin-left:15px;
+                margin-top:15px;
+                float:left;
+                opacity:1;
+            }
+            .subpicture img{
+                width:135px;
+                height:115px;
+            }
+            .firstsubpicture{
+                margin-top:0px;
+            }
+            .subpicture:hover{
+                opacity:.75;
+            }
+            .bottomboxes{
+                border-radius: 4px;
+                width: 225px;
+                height: 200px;
+                background-color: #f2f2f2;
+                border: thin solid #e0e0e0;
+                float: left;
+                margin:0px;
+            }
+            .middle{
+                margin:0px 14px;
+            }
+            .bottomboxheader{
+                width: 100%; 
+                background-color: #eaeaea;
+                margin-right: 15px; 
+                padding-top: 10px; 
+                border-bottom: solid 1px #e0e0e0;
+            }
+            .bottomboxheadertext{
+                margin: 0px 0px 5px 15px;
+                font-size: large;
+            }
+            .bottomboxbullettext{
+                font-size: .9em;
+                margin-left: 10px; 
+                margin-top: 15px; 
+                padding-left: 5px;
+                margin-bottom: 10px;
+                color: #60686e;
+            }
+            .bottomboxbullettext a{
+                text-decoration: none;
+                color: #60686e;
+            }
+            .bottomboxbullettext a:hover{
+                color:#056CB6;
+            }
+        &lt;/style&gt;
+        &lt;div class="span-18" id="container710"&gt;
+            &lt;div id="mainpicture"&gt;
+                &lt;a href="#" title="This is the Main Picture"&gt;
+                    &lt;img src="http://www.byui.edu/Images/101116_BYU-IdahoCenter_09a.jpg" title="BYUI Center" alt="BYUI Center" width="790" height="514"/&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="subpicture firstsubpicture"&gt;
+                &lt;a href="#" title="Live Chat with an Academic Advisor"&gt;
+                    &lt;img src="http://www.byui.edu/Images/art/030730SunsetFence_2622.jpg" title="Sunset" alt="Sunset" width="135" height="115"/&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="subpicture"&gt;
+                &lt;a href="#" title="Career Navigator"&gt;
+                    &lt;img src="http://www.byui.edu/Images/dance/ManwaringCenterThumbnailsmall.jpg" title="MC Building" alt="MC Building" width="135" height="115"/&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="subpicture"&gt;
+                &lt;a href="#" title="Career Preparation"&gt;
+                    &lt;img src="http://www.byui.edu/Images/planetarium/Directions.png" title="Arial View" alt="Arial View" width="135" height="115"/&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div&gt;
+                &lt;div class="bottomboxes"&gt;
+                    &lt;div class="bottomboxheader"&gt;
+                        &lt;p class="bottomboxheadertext"&gt;Other Links...&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;p class="bottomboxbullettext"&gt;
+                        &lt;a href="#" title="Expeditions"&gt;
+                            &lt;img src="http://www.byui.edu/Images/advising/blue-arrow.png" alt="arrow" width="5" height="9"/&gt; Link 1&lt;/a&gt;
+                    &lt;/p&gt;
+                    &lt;p class="bottomboxbullettext"&gt;
+                        &lt;a href="#" title="Events and Recruiting"&gt;
+                            &lt;img src="http://www.byui.edu/Images/advising/blue-arrow.png" alt="arrow" width="5" height="9"/&gt; Another Link 2&lt;/a&gt;
+                    &lt;/p&gt;
+                    &lt;p class="bottomboxbullettext"&gt;
+                        &lt;a href="#" title="Academic Advising"&gt;
+                            &lt;img src="http://www.byui.edu/Images/advising/blue-arrow.png" alt="arrow" width="5" height="9"/&gt; A third Link&lt;/a&gt;
+                    &lt;/p&gt;
+                    &lt;p class="bottomboxbullettext"&gt;
+                        &lt;a href="#" title="Health Professions"&gt;
+                            &lt;img src="http://www.byui.edu/Images/advising/blue-arrow.png" alt="arrow" width="5" height="9"/&gt; One More link for this column&lt;/a&gt;
+                    &lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class="bottomboxes middle"&gt;
+                    &lt;div class="bottomboxheader"&gt;
+                        &lt;p class="bottomboxheadertext"&gt;...or articles...&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;p class="bottomboxbullettext"&gt;
+                        &lt;a href="#" title="Change Major"&gt;
+                            &lt;img src="http://www.byui.edu/Images/advising/blue-arrow.png" alt="arrow" width="5" height="9"/&gt; More Links&lt;/a&gt;
+                    &lt;/p&gt;
+                    &lt;p class="bottomboxbullettext"&gt;&lt;a href="#" title="Internship Info"&gt;
+                            &lt;img src="http://www.byui.edu/Images/advising/blue-arrow.png" alt="arrow" width="5" height="9"/&gt; More Links&lt;/a&gt;
+                    &lt;/p&gt;
+                    &lt;p class="bottomboxbullettext"&gt;
+                        &lt;a href="#" title="Class Planning"&gt;
+                            &lt;img src="http://www.byui.edu/Images/advising/blue-arrow.png" alt="arrow" width="5" height="9"/&gt; More Links&lt;/a&gt;
+                    &lt;/p&gt;
+                    &lt;p class="bottomboxbullettext"&gt;
+                        &lt;a href="#" title="Find a Job"&gt;
+                            &lt;img src="http://www.byui.edu/Images/advising/blue-arrow.png" alt="arrow" width="5" height="9"/&gt; More Links&lt;/a&gt;
+                    &lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class="bottomboxes"&gt;
+                    &lt;div class="bottomboxheader"&gt;
+                        &lt;p class="bottomboxheadertext"&gt;...or Contact Information&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;p class="bottomboxbullettext"&gt;
+                        &lt;strong&gt;Hours&lt;/strong&gt;
+                        &lt;br/&gt;Monday-Friday&lt;br/&gt;8-5pm&lt;/p&gt;
+                    &lt;p class="bottomboxbullettext"&gt;
+                        &lt;strong&gt;Locations&lt;/strong&gt;
+                        &lt;br/&gt;Please see our &lt;a href="#" title="Academic Discovery Center Locations" style="color: #056cb6; text-decoration: underline;"&gt;locations&lt;/a&gt; page for your major specific center.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="clear"&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    </pre>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x14845" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

@@ -1,0 +1,288 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x48684" Name="news_of_note.htm" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">news_of_note.htm</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">news_of_note.htm</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"&gt;
+&lt;head&gt;
+    &lt;meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /&gt;
+    &lt;title&gt;BYU&amp;ndash;Idaho&amp;nbsp;|&amp;nbsp;Online&amp;nbsp;Magazine&amp;nbsp;&gt;&amp;nbsp;News&amp;nbsp;of&amp;nbsp;Note&lt;/title&gt;
+    &lt;!-- Remove TemplateSource line to disable the Web Editor --&gt;
+    &lt;!--TemplateSource="2A.htm"--&gt;
+    &lt;!--***********************************************************************
+    *   Brigham Young University-Idaho Template
+    *   Version:        1.2
+    *   Type:           2A
+    *   Last Revised:   June, 2006
+    *   Copyright� 2007 Brigham Young University-Idaho
+    *   All Rights Reserved.
+    ************************************************************************--&gt;
+    &lt;!-- REFERENCED STYLESHEETS --&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/v1/topBar.css" /&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/V1/structure.css" /&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/V1/body_text.css" /&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/V1/table.css" /&gt;
+	&lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/driveorwalk/css/walkordrivestyle.css" /&gt;
+	&lt;link rel="stylesheet" type="text/css" href="css/ol.css" /&gt;
+	&lt;link rel="stylesheet" type="text/css" href="css/news_of_note_style.css" /&gt;
+
+	
+    &lt;!-- EMBEDED JAVASCRIPT FUNCTIONS --&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/js/v2/changeSizeRevised.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/js/v2/leftLinks.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/driveorwalk/js/textswap.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/driveorwalk/js/active.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/driveorwalk/js/randomadimage.js"&gt;&lt;/script&gt;
+
+
+
+    &lt;!-- EDITOR JAVASCRIPT FUNCTIONS --&gt;
+&lt;/head&gt;
+&lt;body id="type_A" onload="callFunctions(); randomImageDisplay(); activeNav(1); randomAdImage();" style="visibility:hidden;"&gt;
+    &lt;!-- The body type determines the number of columns in the CONTENT AREA. View structure.css to where these types are specified --&gt;
+    &lt;!-- ********************************************************************* --&gt;
+    &lt;!-- TOP BAR                                                               --&gt;
+    &lt;!-- ********************************************************************* --&gt;
+    &lt;div id="topBar"&gt;
+        &lt;div id="blueSpace"&gt;&lt;/div&gt;
+        &lt;div&gt;
+            &lt;table id="tableBlue" cellspacing="0" cellpadding="0"&gt;
+                &lt;!-- Title menu with the Blue Background --&gt;
+                &lt;tr&gt;&lt;td id="tdBlueSpace"&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr id="trBlueTop"&gt;&lt;td id="tdBlueTop"&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td id="tdBlueMenu" align="center"&gt;
+                        &lt;div id="javaMenu"&gt;
+                            &lt;script type="text/javascript" src="http://www.byui.edu/js/V1/HomepageNavBar.js"&gt;&lt;/script&gt;
+                        &lt;/div&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+        &lt;/div&gt;
+        &lt;!-- Gray Bar --&gt;
+        &lt;div id="divGrayBarContainer"&gt;
+            &lt;div id="divDarkGrayBar"&gt;
+                &lt;!--&lt;div id="divStudent"&gt;
+                    &lt;script type="text/javascript" src="http://www.byui.edu/js/V1/imageChange.js"&gt;&lt;/script&gt;
+                &lt;/div&gt; //--&gt;
+                &lt;div id="divBYUILogo"&gt;
+                    &lt;a id="logoLink" href="http://www.byui.edu/"&gt;&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div id="divVertLine"&gt;&lt;/div&gt;
+                &lt;div id="divDepartmentTitle"&gt;
+                    &lt;!-- Department Title --&gt;
+                    &lt;div id="divSectionTitle"&gt;
+                        &lt;a id="iframeText" target="_top" href="http://www.byui.edu/magazine/fall2009"&gt;Online Magazine &amp;gt; News of Note&lt;/a&gt;
+
+                    &lt;/div&gt;  
+                    &lt;span id="divSemester" style="width:100px;align:right;margin-left:240px;"&gt;
+                        &lt;!--EditorContacts--&gt;
+						&lt;font color="white"&gt;&lt;b&gt;Fall 2009&lt;/b&gt;&lt;/font&gt;
+                        &lt;!--EndEditorContacts--&gt;
+                    &lt;/span&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;!-- White Bar --&gt;
+        &lt;div id="divWhiteContainer"&gt;
+        &lt;div id="divWhiteBar"&gt;
+            &lt;img src="http://www.byui.edu/css/V1/images/whiteBar.gif" alt="White Bar" /&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!-- END ***************************************************************** --&gt;
+    &lt;!--EditorForm--&gt;
+    &lt;!--EditorToolbar--&gt;
+    &lt;div id="container"&gt;
+        &lt;div id="main_body"&gt;
+            &lt;!-- LEFT COLUMN --&gt;
+            &lt;!-- NAVIGATION FILE INCLUDE --&gt;
+            			&lt;div id="left_column"&gt;
+							&lt;div id="onlinemagazinenav"&gt;
+								&lt;!--#include file="../common/nav.inc"--&gt;
+								
+							&lt;/div&gt;
+					   
+						&lt;/div&gt;
+            
+            &lt;div id="right_section"&gt;
+                &lt;div class="right_bottom_section"&gt;
+                    &lt;div class="leftAREA"&gt;
+						&lt;div id="page_layout2_content"&gt;&lt;br&gt;
+							&lt;h1&gt;News of Note&lt;/h1&gt;
+							&lt;a name="news1"&gt;&lt;/a&gt;
+							&lt;div class="first_news_item"&gt;
+								&lt;img src="images/eyering_temple.jpg" alt="Eyring Temple" width="250" height="175" /&gt;
+								&lt;h3&gt;President Henry B. Eyring describes &amp;#147;the miracle&amp;#148; on the hill &lt;br&gt;at devotional&lt;/h3&gt;
+								&lt;p&gt;President Henry B. Eyring, first counselor in the First Presidency of The Church of Jesus Christ of Latter-day Saints, called the Rexburg Temple and Brigham Young University-Idaho &amp;#147;a miracle&amp;#148; at devotional June 9.&lt;/p&gt;
+								&lt;p&gt;&amp;#147;The miracle has at least three parts,&amp;#148; he explained. &amp;#147;First, that the temple and the university are side-by-side on one Rexburg hill; second, that the two were created together at this time; and third, that the few but significant differences between the university and the temple should combine so well to accomplish the Lord's purposes.&amp;#148;&lt;/p&gt;
+								&lt;p&gt;President Eyring shared that such a miracle would truly present positive results. &amp;#147;All of the people who learn and serve here will be changed for the better. Wherever they go they will be more eager to help others, more determined to keep promises, more confident that with God's help we can accomplish hard things, and more inclined to give credit for success to others but mostly to God.&amp;#148;&lt;/p&gt;
+								
+							&lt;/div&gt;&lt;!--END NEWS ITEM--&gt;
+							&lt;a name="news2"&gt;&lt;/a&gt;
+							&lt;div class="news_item"&gt;
+								&lt;img src="images/tech_support.jpg" alt="Tech Support" width="250" height="175" /&gt;
+								&lt;h3&gt;New department offers one-stop-shop &lt;br&gt;academic technology support&lt;/h3&gt;
+								&lt;p&gt;Brigham Young University-Idaho has a brand-new addition to its robust campus&amp;#151;the newly formed Academic Technology Services Department. This new area was created to establish a first-class customer service base; a one-stop shop students and faculty can turn to for all of their academically related technology needs.&lt;/p&gt;
+								&lt;p&gt;Previously, for example, faculty would need to call one department for help with online learning tools, another for help with a classroom video shoot, and another for help using a classroom projector. Now, they can turn to just one department, whether they have a burnt-out light bulb or need high-level technical support.&lt;/p&gt;
+								&lt;p&gt;"One of our main goals is to act as a 'partner' with the faculty and students. We&amp;#146;re here to help them in the most effective and efficient way possible,&amp;#148; said Kent Barrus, Academic Technology Services director.&lt;/p&gt;
+								&lt;a href="#"&gt;Back To Top&lt;/a&gt;
+							&lt;/div&gt;&lt;!--END NEWS ITEM--&gt;
+							&lt;a name="news3"&gt;&lt;/a&gt;
+							&lt;div class="news_item"&gt;
+								&lt;img src="images/clark_zion.jpg" alt="Clark Zion" width="250" height="175" /&gt;
+								&lt;h3&gt;President Kim B. Clark invites students to build Zion&lt;/h3&gt;
+								&lt;p&gt;President Kim B. Clark encouraged Brigham Young University-Idaho students to seek high moral standards and to build Zion in the first devotional address of Fall Semester 2009. His wife, Sue, also addressed the students and spoke of three essential nutrients for spiritual growth: love of God, love of fellowman, and love of self.&lt;/p&gt;
+								&lt;p&gt;Comparing low morals to Babylon and using the holy city of Zion as a metaphor for high values, President Clark urged students to lift each other to a new level of morality and virtue. &amp;#147;We are to leave the towers and the great and spacious buildings of spiritual Babylon and to come to Zion,&amp;#148; President Clark said.&lt;/p&gt;
+								&lt;p&gt;He also gave three characteristics that will help students flee from Babylon and build Zion. He encouraged students to be unified and pure in heart, and to take care that there are no poor among them by watching over each other&amp;#146;s spiritual and temporal well-being.&lt;/p&gt;
+								&lt;a href="#"&gt;Back To Top&lt;/a&gt;
+							&lt;/div&gt;&lt;!--END NEWS ITEM--&gt;
+							&lt;a name="news4"&gt;&lt;/a&gt;
+							&lt;div class="news_item"&gt;
+								&lt;img src="images/enrollment.jpg" alt="Enrollment" width="250" height="175" /&gt;
+								&lt;h3&gt;Fall 2009 enrollment proves consistent&lt;/h3&gt;
+								&lt;p&gt;Statistics show this Fall's enrollment at Brigham Young University-Idaho is comparable to last Fall.&lt;/p&gt;
+								&lt;p&gt;According to figures from the BYU-Idaho Student Records and Registration Office, total enrollment increased by 1.3 percent when compared to last Fall Semester, and the full-time equivalent (FTE) increased by 1.8 percent. FTE is calculated by dividing the total number of credits being taken by 15, a full credit load.&lt;/p&gt;
+								&lt;p&gt;&amp;#147;Consistency in enrollment now allows the university to adequately prepare for our enhanced enrollment goals in years to come,&amp;#148; said Kyle Martin, registrar.&lt;/p&gt;
+								&lt;a href="#"&gt;Back To Top&lt;/a&gt;
+							&lt;/div&gt;&lt;!--END NEWS ITEM--&gt;
+							&lt;a name="news5"&gt;&lt;/a&gt;
+							&lt;div class="news_item"&gt;
+								&lt;img src="images/oaks_freedom.jpg" alt="Oaks Freedom" width="250" height="175" /&gt;
+								&lt;h3&gt;Elder Dallin H. Oaks encourages students to protect religious freedom&lt;/h3&gt;
+								&lt;p&gt;Elder Dallin H. Oaks, a member of the Quorum of the Twelve Apostles for The Church of Jesus Christ of Latter-day Saints, encouraged students to defend religious freedom during a devotional October 13.&lt;/p&gt;
+								&lt;p&gt;Elder Oaks taught that religious freedom, as outlined in the First Amendment of the United States Constitution, is and will continue to be under attack. &amp;#147;The contest is of eternal importance,&amp;#148; he said, &amp;#147;and it is your generation that must understand the issues and make the efforts to prevail.&amp;#148;&lt;/p&gt;
+								&lt;p&gt;Elder Oaks outlined five steps to protect religious freedom: always speak with love, don&amp;#146;t be deterred or coerced into silence by intimidation, insist on the freedom to preach doctrines of the LDS faith, be wise in political participation, and never advocate that religious tests are necessary to qualify a candidate for a public office.&lt;/p&gt;
+								&lt;p&gt;&amp;#147;Religious values and political realities are so interlinked in the origin and perpetuation of this nation that we cannot lose the influence of Christianity in the public square without seriously jeopardizing our freedoms,&amp;#148; he said. &amp;#147;I maintain that this is a political fact, well qualified for argument in the public square by religious people whose freedom to believe and act must always be protected by what is properly called our &amp;#145;First Freedom&amp;#146;: the free exercise of religion.&amp;#148;&lt;/p&gt;
+								&lt;a href="#"&gt;Back To Top&lt;/a&gt;
+							&lt;/div&gt;&lt;!--END NEWS ITEM--&gt;
+							&lt;a name="news6"&gt;&lt;/a&gt;
+							&lt;div class="news_item"&gt;
+								&lt;img src="images/charles_anderson.jpg" alt="Charles Andersen" width="250" height="175" /&gt;
+								&lt;h3&gt;New university vice president appointed&lt;/h3&gt;
+								&lt;p&gt;BYU-Idaho appointed Charles Andersen to the position of University Resources vice president, effective November 23. Andersen replaced James Smyth, who retired, after thirty years of service to the university.&lt;/p&gt;
+								&lt;p&gt;Charles Anderson began his employment with BYU-Idaho in August 2002. Prior to being appointed as a vice president, he served as the managing director of University Operations. As part of his new responsibilities he oversees Physical Facilities Operations, University Relations, Financial Services, and Human Resources.&lt;/p&gt;
+								&lt;p&gt;&amp;#147;We are very pleased to have Brother Andersen in this new capacity. He brings with him a wealth of qualifications and experience that will serve the university well. We welcome him and look forward to his faithful service,&amp;#148; said President Kim Clark.&lt;/p&gt;
+								&lt;p&gt;Prior to coming to BYU-Idaho, Brother Andersen worked as the assistant vice president for Facilities Management at Minnesota State University, as director of Facilities Management at Yavapai College, and as building operations specialist at Amoco Corporation. He received a bachelor&amp;#146;s degree in physical plant administration from Brigham Young University.&lt;/p&gt;
+								&lt;a href="#"&gt;Back To Top&lt;/a&gt;
+							&lt;/div&gt;&lt;!--END NEWS ITEM--&gt;
+							&lt;a name="news7"&gt;&lt;/a&gt;
+							&lt;div class="news_item"&gt;
+								&lt;img src="images/nursing_holyland.jpg" alt="Nursing Holy Land" width="250" height="175" /&gt;
+								&lt;h3&gt;Nursing program extends to Holy Land&lt;/h3&gt;
+								&lt;p&gt;Rising tensions in the Middle East forced BYU-Idaho&amp;#146;s nursing program home nine years ago, but they returned Fall Semester 2009. &lt;/p&gt;
+								&lt;p&gt;Susan Dicus, chair of the Department of Nursing, is staying at the BYU Jerusalem Center for the duration of Fall Semester and is helping to reinstate the nursing program in four Palestinian hospitals. &lt;/p&gt;
+								&lt;p&gt;Nursing students are re-establishing relationships with hospitals and the Jerusalem community. They are also laying the foundation for a future community settings course that will help students learn how to deal with medical issues in different cultures. &lt;/p&gt;
+								&lt;a href="#"&gt;Back To Top&lt;/a&gt;
+							&lt;/div&gt;&lt;!--END NEWS ITEM--&gt;
+							&lt;a name="news8"&gt;&lt;/a&gt;
+							&lt;div class="news_item"&gt;
+								&lt;img src="images/online_learning.jpg" alt="Online Learning" width="250" height="175" /&gt;
+								&lt;h3&gt;BYU-Idaho offers new online degree&lt;/h3&gt;
+								&lt;p&gt;BYU-Idaho recently introduced a new online associate degree, available to help students who live away from campus. &lt;/p&gt;
+								&lt;p&gt;About a year-and-a-half ago, BYU-Idaho introduced the Bachelor of University Studies (B.U.S.) online degree. University Studies is a general, non-specialized degree, in which students complete two minors and one cluster. The program was designed to help students who began studying at BYU-Idaho but had to move away from campus. The new online associate degree will make it possible for similar students to obtain a two-year degree if they do not wish to complete the bachelor&amp;#146;s program. &lt;/p&gt;
+								&lt;a href="#"&gt;Back To Top&lt;/a&gt;
+							&lt;/div&gt;&lt;!--END NEWS ITEM--&gt;
+							&lt;a name="news9"&gt;&lt;/a&gt;
+							&lt;div class="last_news_item"&gt;
+								&lt;!-- &lt;img src="images/online_learning.jpg" alt="Online Learning" width="250" height="175" /&gt; --&gt;
+								&lt;h3&gt;News of Note Update&lt;/h3&gt;
+								&lt;h4&gt;President Clark's 2010 University Goals&lt;/h4&gt;
+								&lt;p&gt;This is an exciting time at Brigham Young University-Idaho. As the institution moves into 2010, we are continually striving to enhance educational opportunities for our students while cultivating meaningful relations within the local community. A few of the university&amp;#146;s goals for 2010 include:&lt;/p&gt;
+								&lt;ul&gt;
+									&lt;li&gt;&lt;b&gt;Construction&lt;/b&gt; &amp;mdash; The Manwaring Center (MC) expansion and the new auditorium will be completed at the end of this year. When finished, the MC will connect to the McKay Library via an enclosed skyway, providing students with a more effective gathering space. In addition, the auditorium will contain 15,000 seats as well as a multi-purpose area for student activities.&lt;/li&gt;
+									&lt;li&gt;&lt;b&gt;Growth&lt;/b&gt; &amp;mdash; The first phase in BYU-Idaho&amp;#146;s enrollment expansion plan begins this fall with an increase in our enrollment cap from 11,600 to 12,500 FTE. Due to this planned growth, BYU-Idaho is coordinating closely with a number of housing developers as they consider building additional student housing complexes near campus.&lt;/li&gt;
+									&lt;li&gt;&lt;b&gt;Online Education&lt;/b&gt; &amp;mdash; Significant progress is being made to provide a BYU-Idaho education to many more individuals, even beyond the Rexburg campus. Through BYU-Idaho&amp;#146;s Online Learning Program, we are strengthening existing courses, creating additional classes, and implementing new technology and infrastructure.&lt;/li&gt;
+									&lt;li&gt;&lt;b&gt;Pedestrian Safety and Parking&lt;/b&gt; &amp;mdash; BYU-Idaho is working closely with the City of Rexburg to promote a safe environment for students, employees, and the community. Significant progress is being made to improve pedestrian safety, enhance lighting on streets adjacent to campus, and support the city&amp;#146;s new parking ordinances.&lt;/li&gt;
+									&lt;li&gt;&lt;b&gt;Academic Progress&lt;/b&gt; &amp;mdash; Important progress is being made to enhance all academic areas. For example, we have an effort underway to expand and strengthen our agriculture program. Discussions are also underway with Idaho State University and University of Idaho regarding graduate programs that will benefit BYU-Idaho students. &lt;/li&gt;
+								&lt;/ul&gt;
+								&lt;h4&gt;Apostle gives guidance to &amp;quot;launching&amp;quot; graduates&lt;/h4&gt;
+								&lt;p&gt;Elder Richard G. Scott of the Quorum of the Twelve Apostles of The Church of Jesus Christ of Latter-day Saints addressed 1,280 graduates at Brigham Young University-Idaho&amp;#146;s largest Fall Commencement ever, held Dec. 19.&lt;/p&gt;
+								&lt;p&gt;Elder Scott compared graduation to the launching of a spacecraft, describing the moment of takeoff as a culmination of much planning, training and hard work. He said that preparation begins a journey that places crews in position to fulfill important and honorable assignments.&lt;/p&gt;
+								&lt;p&gt;&amp;quot;In recent weeks you have been experiencing a similar countdown to a very real launching into the orbit of life, where you have substantially increased control of your destiny,&amp;quot; Elder Scott said. &amp;quot;Your parents, loved ones, university professors and priesthood leaders have performed support functions similar to those of the gantry crane. For the obedient, the Holy Spirit has provided direction from the Lord as from a divine control center.&amp;quot;&lt;/p&gt;
+								&lt;p&gt;Elder Scott then encouraged students to continue living righteously so they can stay in contact with &amp;quot;the control center&amp;quot; and enjoy the guidance of the Holy Spirit throughout their journey.&lt;/p&gt;
+								&lt;h4&gt;BYU-Idaho obtains illustrious religious artifact&lt;/h4&gt;
+								&lt;p&gt;Brigham Young University-Idaho recently purchased a fragmentary copy of the Gutenberg bible. The artifact is a one-page translation from the Latin Vulgate bible and is a section derived from the book of Job.&lt;/p&gt;
+								&lt;p&gt;The page is in excellent condition, with the exception of a slightly worn edge on the lower right-hand corner. This, according to Martin Raish, university librarian, makes it more interesting and valuable. &amp;quot;Something like this torn page puts you in immediate contact with some other human being. It could have been a monk or a preacher in the 16th or 17th century. It makes the relic almost as important as the words,&amp;quot; he declared.&lt;/p&gt;
+								&lt;p&gt;Johannes Gutenberg printed approximately 180 bibles&amp;mdash;140 on paper and 40 on vellum. Only about 46 are still in existence in some fragmentary condition, and of those, approximately 23 are complete.&lt;/p&gt;
+								&lt;h4&gt;Winter enrollment shows BYU-Idaho continues to expand&lt;/h4&gt;
+								&lt;p&gt;Enrollment statistics released for Winter Semester 2010 show Brigham Young University-Idaho continues to grow.&lt;/p&gt;
+								&lt;p&gt;Total enrollment rose from 12,667 during Winter Semester 2009 to 13,375 in 2010, an increase of 5.6 percent. Enrollment has increased by over 57 percent from 8,500 since 2000, when the university announced its transition to become a four-year university.&lt;/p&gt;
+								&lt;p&gt;&amp;quot;The constant growth of BYU-Idaho reflects the efforts of many people to provide quality education to as many people as possible, while still maintaining relatively low costs to students,&amp;quot; said University Registrar Kyle Martin. &lt;/p&gt;
+								&lt;h4&gt;Elder Russell M. Nelson encourages students to seek wisdom&lt;/h4&gt;
+								&lt;p&gt;Elder Russell M. Nelson, a member of the Quorum of the Twelve Apostles for The Church of Jesus Christ of Latter-day Saints, encouraged students to make education a top lifetime priority during a devotional held Jan. 26.&lt;/p&gt;
+								&lt;p&gt;&amp;#147;Your mind is precious!&amp;#148; Elder Nelson said. &amp;#147;It is sacred. Therefore, the education of one&amp;#146;s mind is also sacred. Indeed, education is a religious responsibility. Of course, our opportunities and abilities will vary a great deal. But, in the pursuit of one&amp;#146;s education, individual desire is more important than the institution he or she chooses, and personal drive is more significant than faculty.&amp;#148;&lt;/p&gt;
+								&lt;p&gt;After explaining the importance of education, Nelson warned students to beware of unbalance as they study and obtain knowledge. &amp;#147;Choose carefully what you will learn, whose teachings you will follow, and whose purposes you will serve,&amp;#148; he said. &amp;#147;And don&amp;#146;t place all of your intellectual eggs in the basket of secular learning.&amp;#148; &lt;/p&gt;
+								&lt;h4&gt;Special Collections acquires Rosetta Stone replica&lt;/h4&gt;
+								&lt;p&gt;BYU-Idaho recently became the first university in the world to possess a full-size replica of the Rosetta Stone, an ancient Egyptian artifact instrumental to understanding hieroglyphic writing. &amp;#147;We are actively developing a collection of materials that represent the history of writing,&amp;#148; said Brooks Haderlie, BYU-Idaho&amp;#146;s assistant university librarian.&lt;/p&gt;
+								&lt;p&gt;The replica was manufactured by the Freeman Institute in Maryland, which purchased a mold from the British Museum in London, England, where the original is housed. The institute spent four years developing a laser scanning process to make the replica exact within 0.0005 inches.&lt;/p&gt;
+								&lt;p&gt;It is estimated that the full column would have been six feet tall, with pictorial engravings at the top. &amp;#147;People may say, 'It&amp;#146;s just a piece of rock!' However, I consider this the Mona Lisa of rocks. In terms of an archeological find, it&amp;#146;s almost as enigmatic as Mona Lisa&amp;#146;s smile.&amp;#148;&lt;/p&gt;
+								&lt;h4&gt;University employee develops military academy in Iraq&lt;/h4&gt;
+								&lt;p&gt;Rubbing the sleep from his eyes at 4:30 a.m., Colonel Guy Hollingsworth dons his 50-pound body armor, prepping for a journey on his Black Hawk helicopter to meet with a three-star Iraqi general. The blasts outside Hollingsworth&amp;#146;s home on the Tigris River remind him that the stakes of his work are much different in Baghdad than Rexburg. However, he is concentrating on the same thing&amp;mdash;improving education.&lt;/p&gt;
+								&lt;p&gt;Hollingsworth, usually BYU-Idaho&amp;#146;s Internship and Career Services director, currently serves as senior advisor to the Iraqi army chief-of-staff over training, helping oversee Iraqi military instruction. He is working to finalize new curricula for the Iraqi Military Academy, the country&amp;#146;s elementary version of West Point. The accreditation process for the new curricula, which is almost complete, would allow Iraqi army cadets to earn both a bachelor&amp;#146;s degree and an army commission (become a ranked officer). Since being in Iraq, Hollingsworth has also helped rewrite the Iraqi Warrior Training Program, which is the only battalion-level collective training exercise in the Iraqi Army.&lt;/p&gt;
+								&lt;p&gt;Hollingsworth was deployed in March 2009 and arrived in Iraq in the early summer. Before being assigned to his current position, he worked for five months as director of training for the Multi-National Security Transition Command, overseeing all United States forces that advised Iraqi Army training. Prior to deployment, he served in the National Guard and Army Reserve for 34 years, but he said his experience in Iraq has opened his eyes in new ways.&lt;/p&gt;
+								&lt;p&gt;&amp;#147;I have seen a people struggle for freedom and desperately work toward what you and I enjoy every day in the United States,&amp;#148; Hollingsworth said. &amp;#147;I have seen and felt firsthand evil in its purest form, as the last several terrible bombings in Baghdad have affected my Iraqi brothers whom I work with every day. I have seen parents look through the rubble of destruction hoping to find a son or daughter. I have seen corruption tear a society apart and terrorism devastate families and communities. But on the other hand, I have seen the Light of Christ in the eyes of many who want the same things you and I want out of life, who pray for their families and loved ones on a daily basis, and who want peace and harmony each day when they wake up.&amp;#148;&lt;/p&gt;
+								&lt;p&gt;While putting in 16- to 18-hour days to provide peace and freedom to Iraqis, Hollingsworth also finds time to serve the Lord. He is the district president for the newly formed Baghdad Iraq Military District.&lt;/p&gt;
+								&lt;p&gt;&amp;#147;It has been a tremendous experience and a great blessing to have the keys of the priesthood here in Babylon for the first time in centuries,&amp;#148; he said. &amp;#147;It has been humbling and life changing.&amp;#148;&lt;/p&gt;
+								&lt;p&gt;Hollingsworth played a part in forming the first three LDS branches in Iraq. He now presides over 1,300 members of the Church in a district that covers the entire country of Iraq&amp;mdash;mostly military personnel, State Department employees, and civilian contractors. BYU-Idaho faculty member Sean Cannon also serves as a council member (similar to a high councilor) in the district.&lt;/p&gt;
+								&lt;p&gt;Hollingsworth said his opportunities to serve in the last year have been a great blessing, but he is looking forward to completing his 400-day mission in late March. He is especially anxious for a long nap when he returns home.&lt;/p&gt;
+								&lt;p&gt;&amp;#147;The Lord has been kind to me and has blessed me beyond what I deserve while I have been in this combat zone,&amp;#148; he said. &amp;#147;I am grateful for the faith and prayers of many, and I look forward to being back on campus in the coming months.&amp;#148;&lt;/p&gt;
+								&lt;h4&gt;Alumni Relations and Community Youth Programs Merge&lt;/h4&gt;
+								&lt;p&gt;BYU-Idaho has worked to keep alumni and community connected to the university for years. Recently, the university made a renewed effort to improve these connections by combining the Alumni Relations Office and Community and Youth Programs into a new office, called Alumni and Community Connections.&lt;/p&gt;
+								&lt;p&gt;The offices merged to keep alumni actively coming back to campus. The major goal is to invite more alumni to activities traditionally planned by Community and Youth Programs, such as Education Week, Best of EFY, and Mother&amp;#146;s Weekend.&lt;/p&gt;
+								&lt;p&gt;With the merge, Alumni and Community Connections offers 20 non-credit programs, targeting both alumni and community members. Historically those programs have brought more alumni back to campus than other alumni efforts. &amp;#147;Education Week brings about 2,500 alumni to campus, whereas a class reunion only brings 300,&amp;#148; Davis said, &amp;#147;With the merge, we&amp;#146;re hoping to encourage even more alumni to participate in the non-credit programs.&amp;#148;&lt;/p&gt;
+								&lt;p&gt;For more information about Alumni &amp;amp; Community Connections non-credit programs, visit &lt;a href="http://www.byui.edu/ce" target="_blank"&gt;www.byui.edu/ce&lt;/a&gt;.&lt;/p&gt;
+								&lt;h4&gt;Construction Update&lt;/h4&gt;
+								&lt;p&gt;Last year was monumental for construction projects, upgrades, and facelifts for the BYU-Idaho campus. Two of the larger projects were a new roof for the John W. Hart Building, which was replaced after parts were damaged by wind, and a new stage in the Eliza R. Snow Drama Theater, which was unlevel after years of use. &lt;/p&gt;
+								&lt;p&gt;Many smaller projects were also completed, including new windows on the west side of the David O. McKay Library and improved exterior lighting on campus. Also, several buildings received classroom improvements and upgrades. &lt;/p&gt;
+								&lt;p&gt;The biggest undertakings of 2009 were the completion of the Hyrum Manwaring Student Center&amp;#146;s second phase of renovation, and continued construction on the Auditorium. Rulon Nielsen, BYU-Idaho&amp;#146;s construction director, said progress continues to be made on these projects. They are both scheduled for completion in late 2010. Here is an update on their progress:&lt;/p&gt;
+								&lt;h4&gt;&lt;i&gt;Auditorium&lt;/i&gt;&lt;/h4&gt;
+								&lt;p&gt;The 15,000-seat Auditorium is now completely watertight and most of the remaining work will take place on the inside. The balcony and mezzanine are in place, and concrete for the main floor will be poured in coming weeks. Installation of audio and video equipment is underway.&lt;/p&gt;
+								&lt;p&gt;Workers are also active in the southwest corner of the Hart Building, constructing a  &amp;#147;skywalk&amp;#148; that will connect it with the Auditorium&amp;#146;s new gymnasium. The new exercise facility, which will feature 10 multi-purpose sport courts and an elevated jogging track, is about 80 percent complete.&lt;/p&gt;
+								&lt;p&gt;The second phase of the renovation was completed during the summer, which included the The Crossroads food court, a special events room, and several new classrooms and conference rooms. Most of the remaining construction will be on the first floor, which will be home to Student Activities, a new convenience store, JoLynn&amp;#146;s Bakery, and Freshens. A &amp;#147;skywalk&amp;#148; will also be built, connecting the Manwaring Center with the McKay Library.&lt;/p&gt;
+								&lt;a href="#"&gt;Back To Top&lt;/a&gt;
+							&lt;/div&gt;&lt;!--END NEWS ITEM--&gt;
+						&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class="rightAREA"&gt;&lt;img alt="Place Holder" src="http://www.byui.edu/css/V1/images/placeholder80.gif" /&gt;&lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div id="footer"&gt;
+            &lt;div id="shadow"&gt;Copyright&amp;copy; &lt;script type="text/javascript"&gt;var d = new Date();document.write(d.getFullYear());&lt;/script&gt; BYU&amp;ndash;Idaho&lt;br /&gt;All Rights Reserved.&lt;/div&gt;
+        &lt;/div&gt;
+    
+    &lt;!--EndEditorForm--&gt;
+    &lt;!-- TABLE FORMATTING SECTION --&gt;
+    &lt;script type="text/javascript"&gt;
+        &lt;!--
+        var tableTags = document.getElementById('main_body').getElementsByTagName("table");
+        for (var i = 0; i &lt; tableTags.length; i++)
+        {
+            var trTags = tableTags[i].getElementsByTagName("tr");
+            for (var j = 0; j &lt; trTags.length; j++)
+            {
+                if(j%2 == 0)
+                {
+                    trTags.item(j).style.backgroundColor = "#efefec";
+                }
+                else
+                {
+                    trTags.item(j).style.backgroundColor = "#ffffff";
+                }
+            }
+        }
+        --&gt;
+    &lt;/script&gt;
+&lt;!-- This script enables Google Analytics --&gt;
+		&lt;script type="text/javascript"&gt;
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		&lt;/script&gt;
+		&lt;script type="text/javascript"&gt;
+			try {
+			var pageTracker = _gat._getTracker("UA-12079604-1");
+			pageTracker._trackPageview();
+			} catch(err) {}
+		&lt;/script&gt;
+	&lt;/body&gt;
+&lt;/html&gt;
+</ESContent></EmptyShell>

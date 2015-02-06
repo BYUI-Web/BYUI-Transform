@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.101 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x69168" Name="graphic" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;style type="text/css"&gt;
+@font-face {
+font-family: Asap;
+src: url("https://byui.box.com/shared/static/z3jkvkc4lrq9zigojb95.otf") format("opentype");
+}
+@font-face {
+font-family: Goudy;
+src: url("https://byui.box.com/shared/static/tfhihow6sspbm3tur81h.otf") format("opentype");
+}
+
+ul.nav {
+   margin: 0; padding: 0; position: relative; display: table; border: 0; width: 100%; overflow: visible; zoom: 1;
+}
+ul.nav li {
+   list-style: none; margin: 0px; width: 20%; float: left;
+}
+ul.nav li a.nav_btn {
+   display: block;               text-align: center; text-decoration: none;
+	border: 1px solid 		#ccc /*{c-bup-border}*/;
+	background: 			#eee /*{c-bup-background-color}*/;
+	font-weight: bold;
+	color: 					#222 /*{c-bup-color}*/;
+	text-shadow: 0 /*{c-bup-shadow-x}*/ 1px /*{c-bup-shadow-y}*/ 0 /*{c-bup-shadow-radius}*/ #fff /*{c-bup-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #fff /*{c-bup-background-start}*/), to( #f1f1f1 /*{c-bup-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #fff /*{c-bup-background-start}*/, #f1f1f1 /*{c-bup-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #fff /*{c-bup-background-start}*/, #f1f1f1 /*{c-bup-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #fff /*{c-bup-background-start}*/, #f1f1f1 /*{c-bup-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #fff /*{c-bup-background-start}*/, #f1f1f1 /*{c-bup-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #fff /*{c-bup-background-start}*/, #f1f1f1 /*{c-bup-background-end}*/);
+   font-family: Helvetica,Arial,sans-serif; cursor: pointer;
+}
+ul.nav li a.nav_btn:hover {
+	border: 1px solid 		#bbb /*{c-bhover-border}*/;
+	background: 			#dfdfdf /*{c-bhover-background-color}*/;
+	font-weight: bold;
+	color: 					#222 /*{c-bhover-color}*/;
+	text-shadow: 0 /*{c-bhover-shadow-x}*/ 1px /*{c-bhover-shadow-y}*/ 0 /*{c-bhover-shadow-radius}*/ #fff /*{c-bhover-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #f6f6f6 /*{c-bhover-background-start}*/), to( #e0e0e0 /*{c-bhover-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #f6f6f6 /*{c-bhover-background-start}*/, #e0e0e0 /*{c-bhover-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #f6f6f6 /*{c-bhover-background-start}*/, #e0e0e0 /*{c-bhover-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #f6f6f6 /*{c-bhover-background-start}*/, #e0e0e0 /*{c-bhover-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #f6f6f6 /*{c-bhover-background-start}*/, #e0e0e0 /*{c-bhover-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #f6f6f6 /*{c-bhover-background-start}*/, #e0e0e0 /*{c-bhover-background-end}*/);
+   font-family: Helvetica,Arial,sans-serif; cursor: pointer;
+}
+ul.nav li a.nav_btn_visited {
+   display: block; text-align: center; text-decoration: none;
+   border: 1px solid #2373a5;
+   background: #5393c5;
+   font-weight: bold;
+   color: #fff;
+   cursor: pointer;
+   text-shadow: 0 1px 0 #3373a5;
+   text-decoration: none;
+   background-image: -webkit-gradient(linear,left top,left bottom,from( #5393c5 ),to( #6facd5 ));
+   background-image: -webkit-linear-gradient( #5393c5,#6facd5 );
+   background-image: -moz-linear-gradient( #5393c5,#6facd5 );
+   background-image: -ms-linear-gradient( #5393c5,#6facd5 );
+   background-image: -o-linear-gradient( #5393c5,#6facd5 );
+   background-image: linear-gradient( #5393c5,#6facd5 );
+   font-family: Helvetica,Arial,sans-serif;
+}
+ul.nav li a span.nav_txt {
+   display: block; padding-top: 6%; padding-bottom: 6%;
+}
+.banner{
+   WIDTH:100%;
+}
+.dept{
+   display:table; width:100%; margin-left: 5%;
+}
+.dept a {
+  text-decoration: none;
+}
+.dept img {
+   width: 250px; float: left;
+}
+.dept p {
+   float: left; color: grey; font-family:Asap,Trebuchet MS,Tahoma;
+}
+p.welcome {
+   font-family: Goudy; margin:0px; margin-left: 23px; 
+}
+img.icon {
+   width: 100%;
+}
+div.main .graphic {
+   margin-left:60px; margin-right:60px;
+}
+.graphic img {
+   margin: 0px; width: 100%;
+}
+.view_1 {
+   display:none;
+}
+.view_2 {
+   display:none;
+}
+.view_3 {
+   display:none;
+}
+.view_4 {
+   display:none;
+}
+.view_5 {
+   display:none;
+}
+.main h3 {
+   color: orange;
+}
+&lt;/style&gt;
+&lt;script type="text/javascript"&gt;
+window.onload = function() { 
+$(".slide_1").click(function(){ 
+    $(".view_1").slideToggle("slow"); 
+  }); 
+$(".slide_2").click(function(){ 
+    $(".view_2").slideToggle("slow"); 
+  }); 
+$(".slide_3").click(function(){ 
+    $(".view_3").slideToggle("slow"); 
+  });
+$(".slide_4").click(function(){ 
+    $(".view_4").slideToggle("slow"); 
+  });
+$(".slide_5").click(function(){ 
+    $(".view_5").slideToggle("slow"); 
+  });
+};  
+
+function btnClick(obj)
+{
+   obj.className = "nav_btn_visited";
+};
+&lt;/script&gt;
+&lt;div class="main"&gt;
+&lt;ul id="nav" class="nav"&gt;
+&lt;li&gt;&lt;a href="http://www.byui.edu/academic-support-centers/advertising-council" class="nav_btn" onClick="btnClick(this)"&gt;&lt;span class="nav_txt"&gt;Home&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.byui.edu/academic-support-centers/advertising-council/portfolio" class="nav_btn" onClick="btnClick(this)"&gt;&lt;span class="nav_txt"&gt;Portfolio&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.byui.edu/academic-support-centers/advertising-council/practicum-info" class="nav_btn" onClick="btnClick(this)"&gt;&lt;span class="nav_txt"&gt;Practicum info&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.byui.edu/academic-support-centers/advertising-council/requirements" class="nav_btn" onClick="btnClick(this)"&gt;&lt;span class="nav_txt"&gt;Requirements&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.byui.edu/academic-support-centers/advertising-council/about-us" class="nav_btn" onClick="btnClick(this)"&gt;&lt;span class="nav_txt"&gt;About us&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br /&gt;
+&lt;div class="banner"&gt;
+&lt;img src="http://courses.byui.edu/AcademicSupport/ad-council/banner/graphics_banner.png" width="100%" /&gt;
+&lt;/div&gt;
+&lt;div class="graphic"&gt;
+&lt;h3 class="slide_1" style="cursor:pointer;"&gt;Reveal the Professional Within&lt;/h3&gt;
+&lt;div class="view_1"&gt;
+&lt;img src="http://courses.byui.edu/AcademicSupport/ad-council/graphic/ppc.jpg" /&gt;
+&lt;/div&gt;
+&lt;p class="content" style="margin:0px"&gt;
+The Presentation Practice Center (PPC) helps students learn the importance of giving a professional appearance while speaking. Our client wanted something that would stand out to students and appeal to them. We chose the campaign of "Reveal the Professional Within" to advertise this, the contrast of the professional with the casual.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="graphic"&gt;
+&lt;h3 class="slide_2" style="cursor:pointer;"&gt;'Did You Know?' campaign&lt;/h3&gt;
+&lt;div class="view_2"&gt;
+&lt;img src="http://courses.byui.edu/AcademicSupport/ad-council/graphic/tutoring.jpg" /&gt;
+&lt;/div&gt;
+&lt;p class="content" style="margin:0px"&gt;
+This banner used an infographic to catch the viewer's attention, based on statistics gathered by the Tutoring Center.  The Tutoring Center wanted to make the student body aware of what kinds of people attend the center. We illustrated this through an eye-catching infographic.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="graphic"&gt;
+&lt;h3 class="slide_3" style="cursor:pointer;"&gt;Physics lab Drop-in Lab&lt;/h3&gt;
+&lt;div class="view_3"&gt;
+&lt;img src="http://courses.byui.edu/AcademicSupport/ad-council/graphic/physics.jpg" /&gt;
+&lt;/div&gt;
+&lt;p class="content" style="margin:0px"&gt;
+The use of black and white adds a good contrast with other ads that would inevitably be competing for attention.  Text arrangement makes optimal use of white space to add visual appeal and a clean appearance. The depiction adds a touch of humor to give a friendly and inviting feel to the poster.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="graphic"&gt;
+&lt;h3 class="slide_4" style="cursor:pointer;"&gt;Reveal the Professional Within 2&lt;/h3&gt;
+&lt;div class="view_4"&gt;
+&lt;img src="http://courses.byui.edu/AcademicSupport/ad-council/graphic/ppc2.jpg" /&gt;
+&lt;/div&gt;
+&lt;p class="content" style="margin:0px"&gt;
+This is another poster for the PPC campaign. The model was placed within the banner to flow with the text and give balance to the advertisement. The volunteers involved had a lot of fun at the photoshoot. We found that the PPC embodies the same casual yet, professional atmosphere.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="graphic"&gt;
+&lt;h3 class="slide_5" style="cursor:pointer;"&gt;Writing Center Campaign&lt;/h3&gt;
+&lt;div class="view_5"&gt;
+&lt;img src="http://courses.byui.edu/AcademicSupport/ad-council/graphic/writing.jpg" /&gt;
+&lt;/div&gt;
+&lt;p class="content" style="margin:0px"&gt;
+The design demonstrates a feel for the writing center by using elements from the writing center, such as correction marks and revisions typically associated with the editing process. This gives students an idea of what they can expect and what services are offered. The text is also aligned to show not only grammatical assistance, but also punctuation and structure assistance as well.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="dept"&gt;
+&lt;a href="mailto:byuiadcncl@gmail.com" target="_parent"&gt;
+&lt;img src="http://courses.byui.edu/AcademicSupport/ad-council/icons/mail.png" /&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Join: Graphic services!&lt;br /&gt; Please put 'Graphic Service' in the subject of email&lt;/p&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- END html area --&gt;</ContentSnippet></ContentSnippet>

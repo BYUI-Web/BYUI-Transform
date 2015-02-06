@@ -1,0 +1,314 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x50377" Name="Video List" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;p&gt;&lt;style type="text/css"&gt;
+	@import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Open+Sans:400italic,600italic,700italic,400,600,700);
+
+	.sect-header {
+		margin: 0;
+		padding:0;
+		font-family: 'Open Sans';
+		font-weight: 100;
+		font-size: 30px;
+		font-style: italic;
+		margin-bottom: 20px;
+		border-bottom: solid 2px #eee;
+		text-align: left;
+	}
+	.pathway_logo {
+		display: inline-block;
+		height: 45px;
+		vertical-align: sub;
+		margin-bottom: -11px;
+	}
+	.vid-container {
+		text-align: left;
+		font-size: 0; /*Collapse whitespace*/
+		margin-bottom: 66px;
+	}
+	.vid-container .vid-item {
+		font-size: 12px;
+		display: inline-block;
+		font-family: 'Lato';
+		width: 290px;
+		height: auto;
+		padding-bottom:20px;
+		margin-right:20px;
+		box-sizing: border-box;
+		vertical-align: top;
+	}
+	.vid-container .vid-item .vid-img {
+		position: relative;
+	}
+	.vid-container .vid-item .vid-img img{
+		display:block;
+		width: 100%;
+	}
+	.vid-container .vid-item .vid-img .vid-duration {
+		position: absolute;
+		padding:3px 8px;
+		background: rgba(0,0,0,.5);
+		color:white;
+		bottom:0;
+		right:0;
+	}
+	.vid-container .vid-item .vid-title {
+		padding:10px 0;
+		font-size:160%;
+		display: block;
+		text-decoration: none;
+		color:black;
+		font-weight: bold;
+	}
+	.vid-container .vid-item .vid-title:hover {
+		color:#444;
+	}
+	.vid-container .vid-item .vid-desc {
+		font-style: italic;
+		font-size: 100%;
+	}
+&lt;/style&gt;&lt;/p&gt;
+
+&lt;!--************** STUDENT PROFILES *****************--&gt;
+&lt;div class="sect-header"&gt;Student Profiles&lt;/div&gt;
+&lt;div class="vid-container"&gt;
+	&lt;div class="vid-item"&gt;
+		&lt;div class="vid-img"&gt;
+		&lt;a href="x95924.xml"&gt;&lt;img src="Images/Admin_Offices/Online%20Learning/Pathway/Lemon.jpg"&gt;&lt;/a&gt;
+		&lt;div class="vid-duration"&gt;9:28&lt;/div&gt;&lt;/div&gt;
+		&lt;a href="x95924.xml" class="vid-title"&gt;Kameron and Chad Lemon&lt;/a&gt;
+		&lt;div class="vid-desc"&gt;Check out this couple's educational journey from Pathway students to BYU-Idaho graduates.&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="vid-item"&gt;
+		&lt;div class="vid-img"&gt;
+		&lt;a href="x48252.xml"&gt;&lt;img src="Images/Admin_Offices/Online%20Learning/Pathway/Amber.jpg"&gt;&lt;/a&gt;
+		&lt;div class="vid-duration"&gt;2:03&lt;/div&gt;&lt;/div&gt;
+		&lt;a href="x48252.xml" class="vid-title"&gt;Amber Wild&lt;/a&gt;
+		&lt;div class="vid-desc"&gt;"There has been such an increase of the Spirit in my life."&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="vid-item"&gt;
+		&lt;div class="vid-img"&gt;
+		&lt;a href="x48251.xml"&gt;&lt;img src="Images/Admin_Offices/Online%20Learning/Pathway/Ark.jpg"&gt;&lt;/a&gt;
+		&lt;div class="vid-duration"&gt;2:11&lt;/div&gt;&lt;/div&gt;
+		&lt;a href="x48251.xml" class="vid-title"&gt;Arkadiusz Kolodziej&lt;/a&gt;
+		&lt;div class="vid-desc"&gt;Meet a father, a husband, a Branch President and a student of the Pathway Program.&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="vid-item"&gt;
+		&lt;div class="vid-img"&gt;
+		&lt;a href="x48250.xml"&gt;&lt;img src="Images/Admin_Offices/Online%20Learning/Pathway/Davis.jpg"&gt;&lt;/a&gt;
+		&lt;div class="vid-duration"&gt;2:10&lt;/div&gt;&lt;/div&gt;
+		&lt;a href="x48250.xml" class="vid-title"&gt;Mike and Summer Davis&lt;/a&gt;
+		&lt;div class="vid-desc"&gt;"Take the opportunity. Don't let it pass you by."&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="vid-item"&gt;
+		&lt;div class="vid-img"&gt;
+		&lt;a href="x48249.xml"&gt;&lt;img src="Images/Admin_Offices/Online%20Learning/Pathway/Taylor.jpg"&gt;&lt;/a&gt;
+		&lt;div class="vid-duration"&gt;1:47&lt;/div&gt;&lt;/div&gt;
+		&lt;a href="x48249.xml" class="vid-title"&gt;Tayler Price&lt;/a&gt;
+		&lt;div class="vid-desc"&gt;Learn about how the Pathway program helped her overcome her fears about being able to succeed academically in college.&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="vid-item"&gt;
+		&lt;div class="vid-img"&gt;
+		&lt;a href="x48242.xml"&gt;&lt;img src="Images/Admin_Offices/Online%20Learning/icons/VALERIE%20ion3.jpg"&gt;&lt;/a&gt;
+		&lt;div class="vid-duration"&gt;0:38&lt;/div&gt;&lt;/div&gt;
+		&lt;a href="x48242.xml" class="vid-title"&gt;Valerie&lt;/a&gt;
+		&lt;div class="vid-desc"&gt;Valerie describes how learning online has helped her life.&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="vid-item"&gt;
+		&lt;div class="vid-img"&gt;
+		&lt;a href="x48241.xml"&gt;&lt;img src="Images/Admin_Offices/Online%20Learning/icons/SHERLYN%20icon3.jpg"&gt;&lt;/a&gt;
+		&lt;div class="vid-duration"&gt;1:09&lt;/div&gt;&lt;/div&gt;
+		&lt;a href="x48241.xml" class="vid-title"&gt;Sherlyn&lt;/a&gt;
+		&lt;div class="vid-desc"&gt;Sherlyn relates how online courses helped her and her family.&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="vid-item"&gt;
+		&lt;div class="vid-img"&gt;
+		&lt;a href="x48234.xml"&gt;&lt;img src="Images/Admin_Offices/Online%20Learning/Pathway/Nick.jpg"&gt;&lt;/a&gt;
+		&lt;div class="vid-duration"&gt;2:39&lt;/div&gt;&lt;/div&gt;
+		&lt;a href="x48234.xml" class="vid-title"&gt;Nick and Kati Clark&lt;/a&gt;
+		&lt;div class="vid-desc"&gt;Follow Nick and Kati as they outline the struggles and successes of being Pathway students.&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="vid-item"&gt;
+		&lt;div class="vid-img"&gt;
+		&lt;a href="x48235.xml"&gt;&lt;img src="Images/Admin_Offices/Online%20Learning/Pathway/Joe.jpg"&gt;&lt;/a&gt;
+		&lt;div class="vid-duration"&gt;4:04&lt;/div&gt;&lt;/div&gt;
+		&lt;a href="x48235.xml" class="vid-title"&gt;Joe Hedrick and Lisa Trainor&lt;/a&gt;
+		&lt;div class="vid-desc"&gt;"If I don't understand something in a class...I can just ask a classmate that lives with me."&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="vid-item"&gt;
+		&lt;div class="vid-img"&gt;
+		&lt;a href="x48072.xml"&gt;&lt;img src="Images/Admin_Offices/Online%20Learning/Pathway/WILDE icon_crop.jpg"&gt;&lt;/a&gt;
+		&lt;div class="vid-duration"&gt;5:09&lt;/div&gt;&lt;/div&gt;
+		&lt;a href="x48072.xml" class="vid-title"&gt;Jordan and Tanya Wilde&lt;/a&gt;
+		&lt;div class="vid-desc"&gt;Students and Service Missionaries in Denton, Texas express their gratitude and results of the Pathway Program&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--************** PATHWAY *****************--&gt;
+&lt;div class="sect-header"&gt;&lt;img class="pathway_logo" src="Images/Admin_Offices/Online%20Learning/Pathway/pathway-large.png"&gt;&lt;/div&gt;
+&lt;div class="vid-container"&gt;
+	&lt;div class="vid-item"&gt;
+		&lt;div class="vid-img"&gt;
+		&lt;a href="x48243.xml"&gt;&lt;img src="Images/Admin_Offices/Online%20Learning/Pathway/howitworks.jpg"&gt;&lt;/a&gt;
+		&lt;div class="vid-duration"&gt;2:38&lt;/div&gt;&lt;/div&gt;
+		&lt;a href="x48243.xml" class="vid-title"&gt;How Pathway Works&lt;/a&gt;
+		&lt;div class="vid-desc"&gt;What the Pathway Program is and how it works.&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="vid-item"&gt;
+		&lt;div class="vid-img"&gt;
+		&lt;a href="x48233.xml"&gt;&lt;img src="Images/Admin_Offices/Online%20Learning/Pathway/Overview.jpg"&gt;&lt;/a&gt;
+		&lt;div class="vid-duration"&gt;3:20&lt;/div&gt;&lt;/div&gt;
+		&lt;a href="x48233.xml" class="vid-title"&gt;Pathway Overview&lt;/a&gt;
+		&lt;div class="vid-desc"&gt;President Kim B. Clark, other administrators and students outline what Pathway is.&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="vid-item"&gt;
+		&lt;div class="vid-img"&gt;
+		&lt;a href="x48246.xml"&gt;&lt;img src="Images/Admin_Offices/Online%20Learning/icons/LEAAD%20STUDENT.jpg"&gt;&lt;/a&gt;
+		&lt;div class="vid-duration"&gt;1:25&lt;/div&gt;&lt;/div&gt;
+		&lt;a href="x48246.xml" class="vid-title"&gt;Lead Student&lt;/a&gt;
+		&lt;div class="vid-desc"&gt;What is the "Lead Student"?&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="vid-item"&gt;
+		&lt;div class="vid-img"&gt;
+		&lt;a href="x48245.xml"&gt;&lt;img src="Images/Admin_Offices/Online%20Learning/icons/MISSON%20COUPLES%20icon3.jpg"&gt;&lt;/a&gt;
+		&lt;div class="vid-duration"&gt;0:41&lt;/div&gt;&lt;/div&gt;
+		&lt;a href="x48245.xml" class="vid-title"&gt;Pathway Mission Couples&lt;/a&gt;
+		&lt;div class="vid-desc"&gt;What is the role of the Pathway Mission Couples?&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="vid-item"&gt;
+		&lt;div class="vid-img"&gt;
+		&lt;a href="x48248.xml"&gt;&lt;img src="Images/Admin_Offices/Online%20Learning/icons/WEEKLY%20GATHERINGS%20icon%203-.jpg"&gt;&lt;/a&gt;
+		&lt;div class="vid-duration"&gt;1:13&lt;/div&gt;&lt;/div&gt;
+		&lt;a href="x48248.xml" class="vid-title"&gt;Weekly Gatherings&lt;/a&gt;
+		&lt;div class="vid-desc"&gt;What do Pathway students say about meeting every Thursday?&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="vid-item"&gt;
+		&lt;div class="vid-img"&gt;
+		&lt;a href="x48239.xml"&gt;&lt;img src="Images/Admin_Offices/Online%20Learning/Pathway/speaking-partners.jpg"&gt;&lt;/a&gt;
+		&lt;div class="vid-duration"&gt;1:21&lt;/div&gt;&lt;/div&gt;
+		&lt;a href="x48239.xml" class="vid-title"&gt;Speaking Partners&lt;/a&gt;
+		&lt;div class="vid-desc"&gt;Volunteer to help non-English speaking students succeed!&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="vid-item"&gt;
+		&lt;div class="vid-img"&gt;
+		&lt;a href="x48244.xml"&gt;&lt;img src="Images/Admin_Offices/Online%20Learning/icons/ONE%20WORD.jpg"&gt;&lt;/a&gt;
+		&lt;div class="vid-duration"&gt;0:38&lt;/div&gt;&lt;/div&gt;
+		&lt;a href="x48244.xml" class="vid-title"&gt;One Word&lt;/a&gt;
+		&lt;div class="vid-desc"&gt;Pathway students describe the program as best they can in one word.&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="vid-item"&gt;
+		&lt;div class="vid-img"&gt;
+		&lt;a href="x48240.xml"&gt;&lt;img src="Images/Admin_Offices/Online%20Learning/icons/THANK%20YOU.jpg"&gt;&lt;/a&gt;
+		&lt;div class="vid-duration"&gt;3:01&lt;/div&gt;&lt;/div&gt;
+		&lt;a href="x48240.xml" class="vid-title"&gt;Thank You!&lt;/a&gt;
+		&lt;div class="vid-desc"&gt;Students express their gratitude for the Pathway Program.&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="vid-item"&gt;
+		&lt;div class="vid-img"&gt;
+		&lt;a href="x48232.xml"&gt;&lt;img src="Images/Admin_Offices/Online%20Learning/icons/PUEBLA.jpg"&gt;&lt;/a&gt;
+		&lt;div class="vid-duration"&gt;6:01&lt;/div&gt;&lt;/div&gt;
+		&lt;a href="x48232.xml" class="vid-title"&gt;Puebla&lt;/a&gt;
+		&lt;div class="vid-desc"&gt;Pathway Students in Puebla, Mexico express their gratitude for the Program.&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="vid-item"&gt;
+		&lt;div class="vid-img"&gt;
+		&lt;a href="x50881.xml"&gt;&lt;img src="Images/Admin_Offices/Online%20Learning/icons/PUEBLA%20CHANGED.jpg"&gt;&lt;/a&gt;
+		&lt;div class="vid-duration"&gt;3:02&lt;/div&gt;&lt;/div&gt;
+		&lt;a href="x50881.xml" class="vid-title"&gt;Puebla Changed Our Hearts&lt;/a&gt;
+		&lt;div class="vid-desc"&gt;Find out what makes Puebla, Mexico so special&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="vid-item"&gt;
+		&lt;div class="vid-img"&gt;
+		&lt;a href="x69271.xml"&gt;&lt;img src="Images/Admin_Offices/Online%20Learning/Pathway/Leadership/Priesthood-Pathway-Ministry.jpg"&gt;&lt;/a&gt;
+		&lt;div class="vid-duration"&gt;3:13&lt;/div&gt;&lt;/div&gt;
+		&lt;a href="x69271.xml" class="vid-title"&gt;Pathway As A Priesthood Program  &lt;/a&gt;
+		&lt;div class="vid-desc"&gt;Using Pathway in your ministry&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="vid-item"&gt;
+		&lt;div class="vid-img"&gt;
+		&lt;a href="x90930.xml"&gt;&lt;img src="Images/Admin_Offices/Online%20Learning/Pathway/pathway_ghana_smaller.png"&gt;&lt;/a&gt;
+		&lt;div class="vid-duration"&gt;6:19&lt;/div&gt;&lt;/div&gt;
+		&lt;a href="x90930.xml" class="vid-title"&gt;Pathway In Ghana&lt;/a&gt;
+		&lt;div class="vid-desc"&gt;Pathway provides educational and career benefits, but perhaps the most valuable aspect for participants is the spiritual nourishment that comes through regular gospel study and the association of fellow students.&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--************** ONLINE COURSES *****************--&gt;
+&lt;div class="sect-header"&gt;Online Courses&lt;/div&gt;
+&lt;div class="vid-container"&gt;
+	&lt;div class="vid-item"&gt;
+		&lt;div class="vid-img"&gt;
+		&lt;a href="x50989.xml"&gt;&lt;img src="Images/Admin_Offices/Online%20Learning/Pathway/Leadership/Orientation.jpg"&gt;&lt;/a&gt;
+		&lt;div class="vid-duration"&gt;3:07&lt;/div&gt;&lt;/div&gt;
+		&lt;a href="x50989.xml" class="vid-title"&gt;Orientation to Online Courses&lt;/a&gt;
+		&lt;div class="vid-desc"&gt;Student orientation to Online Learning&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="vid-item"&gt;
+		&lt;div class="vid-img"&gt;
+		&lt;a href="x48247.xml"&gt;&lt;img src="Images/Admin_Offices/Online%20Learning/icons/ONLINE-COURSES(0).jpg"&gt;&lt;/a&gt;
+		&lt;div class="vid-duration"&gt;1:20&lt;/div&gt;&lt;/div&gt;
+		&lt;a href="x48247.xml" class="vid-title"&gt;Online Courses&lt;/a&gt;
+		&lt;div class="vid-desc"&gt;Online instructors and students share their thoughts on the classes.
+&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="vid-item"&gt;
+		&lt;div class="vid-img"&gt;
+		&lt;a href="x50888.xml"&gt;&lt;img src="Images/Admin_Offices/Online%20Learning/icons/WHAT%20I%20WISH%20I%20KNEW.jpg"&gt;&lt;/a&gt;
+		&lt;div class="vid-duration"&gt;0:58&lt;/div&gt;&lt;/div&gt;
+		&lt;a href="x50888.xml" class="vid-title"&gt;What I Wish I Knew&lt;/a&gt;
+		&lt;div class="vid-desc"&gt;Online students give their thoughts and advice on how to handle online classes at BYU-Idaho.&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="vid-item"&gt;
+		&lt;div class="vid-img"&gt;
+		&lt;a href="x48236.xml"&gt;&lt;img src="Images/Admin_Offices/Online%20Learning/icons/INTERACTION%20STUDENTS.jpg"&gt;&lt;/a&gt;
+		&lt;div class="vid-duration"&gt;1:28&lt;/div&gt;&lt;/div&gt;
+		&lt;a href="x48236.xml" class="vid-title"&gt;Interactions With Students&lt;/a&gt;
+		&lt;div class="vid-desc"&gt;Instructors play an integral role in online classes at BYU-Idaho. &lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="vid-item"&gt;
+		&lt;div class="vid-img"&gt;
+		&lt;a href="x51001.xml"&gt;&lt;img src="Images/Admin_Offices/Online%20Learning/Pathway/DEEP-LEARNING_small.png"&gt;&lt;/a&gt;
+		&lt;div class="vid-duration"&gt;3:01&lt;/div&gt;&lt;/div&gt;
+		&lt;a href="x51001.xml" class="vid-title"&gt;Deep Learning&lt;/a&gt;
+		&lt;div class="vid-desc"&gt;Students speak on the dynamic learning gained through online courses.&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="vid-item"&gt;
+		&lt;div class="vid-img"&gt;
+		&lt;a href="x51021.xml"&gt;&lt;img src="Images/Admin_Offices/Online%20Learning/icons/INTERACTING-PEERS.jpg"&gt;&lt;/a&gt;
+		&lt;div class="vid-duration"&gt;1:26&lt;/div&gt;&lt;/div&gt;
+		&lt;a href="x51021.xml" class="vid-title"&gt;Interacting with Peers and Teachers Online&lt;/a&gt;
+		&lt;div class="vid-desc"&gt;Students outline the benefits of an interactive curriculum&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="vid-item"&gt;
+		&lt;div class="vid-img"&gt;
+		&lt;a href="x48237.xml"&gt;&lt;img src="Images/Admin_Offices/Online%20Learning/Pathway/Off-track.jpg"&gt;&lt;/a&gt;
+		&lt;div class="vid-duration"&gt;1:30&lt;/div&gt;&lt;/div&gt;
+		&lt;a href="x48237.xml" class="vid-title"&gt;Off-Track Commercial&lt;/a&gt;
+		&lt;div class="vid-desc"&gt;Wondering what to do during your off-track semester? Why not take an online class?&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--************** ONLINE DEGREES *****************--&gt;
+&lt;div class="sect-header"&gt;Online Degrees&lt;/div&gt;
+&lt;div class="vid-container"&gt;
+	&lt;div class="vid-item"&gt;
+		&lt;div class="vid-img"&gt;
+		&lt;a href="x48238.xml"&gt;&lt;img src="Images/Admin_Offices/Online%20Learning/Pathway/OD-710-Video-Cover.jpg"&gt;&lt;/a&gt;
+		&lt;div class="vid-duration"&gt;1:21&lt;/div&gt;&lt;/div&gt;
+		&lt;a href="x48238.xml" class="vid-title"&gt;Why I chose BYU-I Online&lt;/a&gt;
+		&lt;div class="vid-desc"&gt;Online students explain why they chose to pursue an online degree from BYU-Idaho.&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="vid-item"&gt;
+		&lt;div class="vid-img"&gt;
+		&lt;a href="x50984.xml"&gt;&lt;img src="Images/Admin_Offices/Online%20Learning/icons/STUDENTEXPERIENCES(0).jpg"&gt;&lt;/a&gt;
+		&lt;div class="vid-duration"&gt;1:36&lt;/div&gt;&lt;/div&gt;
+		&lt;a href="x50984.xml" class="vid-title"&gt;Student Experiences with Online Degrees  &lt;/a&gt;
+		&lt;div class="vid-desc"&gt;Students speak on their experiences with BYU-Idaho Online Courses&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="vid-item"&gt;
+		&lt;div class="vid-img"&gt;
+		&lt;a href="x50996.xml"&gt;&lt;img src="Images/Admin_Offices/Online%20Learning/icons/ONLINEDEGREES.jpg"&gt;&lt;/a&gt;
+		&lt;div class="vid-duration"&gt;0:32&lt;/div&gt;&lt;/div&gt;
+		&lt;a href="x50996.xml" class="vid-title"&gt;BYU-Idaho Online Degrees&lt;/a&gt;
+		&lt;div class="vid-desc"&gt;The benefits of pursuing a degree online through BYU-Idaho&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</ContentSnippet></ContentSnippet>

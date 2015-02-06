@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<TrainingDetails ID="x16519" Name="News Article" Layout="default-training.xsl"><IfComponent type="boolean" label="Check if this is a component tutorial">false</IfComponent><Title type="string" label="Title" readonly="false" hidden="false" required="true">News Article</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">The News Article publishes a news story. These articles are then pulled into the BYU-I Newsroom, News Index, and News Archive pages. Specific articles can be highlighted on home pages as well.</Abstract><TrainingImage type="imagefile" label="Page Type Image" hidden="false" readonly="false" required="false">Internal_Use/Ingeniux_Training/Template Thumbnails/generalNewsDetail.jpg</TrainingImage><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p>Required Information:</p>
+<ul>
+<li>You need to know how to upload photos into the Ingeniux CMS</li>
+</ul>
+<p>&nbsp;</p>
+<p>Required Elements on this page(These elements are needed to save the page):&nbsp;</p>
+<ul>
+<li>Title</li>
+<li>Abstract</li>
+<li>Date</li>
+<li>Image</li>
+<li>ImageThumbnail</li>
+<li>Author</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;"><strong>Title Element:</strong></span></p>
+<p>Here you need to enter the title of the article that is to be pasted in the body copy of the web page.</p>
+<p><span style="text-decoration: underline;"><strong>Abstract Element:</strong></span></p>
+<p>A summary of the article</p>
+<p><img alt="Title and Abstract" height="82" src="Images/Ingeniux_Training/titleAbstract.jpg" width="580" /></p>
+<p><span style="text-decoration: underline;"><strong>Date Element:&nbsp;</strong></span></p>
+<p>The date the article was published. It should be in the MM/DD/YYYY format. If it is not in that format, it will not save correctly.</p>
+<p><img alt="Date" height="67" src="Images/Ingeniux_Training/Components/Date Comp.png" width="212" /></p>
+<p><strong><span style="text-decoration: underline;">Image Element:</span></strong></p>
+<p>You need to upload an image prior to this step.&nbsp;</p>
+<p>You will be replacing the image that was placed in as a default.</p>
+<p style="font: normal normal normal 9pt/17pt georgia; margin-top: 0px; margin-right: 5px; margin-bottom: 0px; margin-left: 5px;">Maximum image size is:&nbsp;</p>
+<p style="font: normal normal normal 9pt/17pt georgia; margin-top: 0px; margin-right: 5px; margin-bottom: 0px; margin-left: 5px;"><span style="white-space: pre;"> </span>Width: 100px</p>
+<p style="font: normal normal normal 9pt/17pt georgia; margin-top: 0px; margin-right: 5px; margin-bottom: 0px; margin-left: 5px;"><span style="white-space: pre;"> </span>Height: 80px</p>
+<ol>
+<li><span style="white-space: pre;"> </span>Click on browse on the right of the box.</li>
+<li><span style="white-space: pre;"> </span>Find your image within the structure</li>
+<li><span style="white-space: pre;"> </span>Click ok</li>
+<li><span style="white-space: pre;"> </span>Add alt text in the box provided. This text should be descriptive of the image you are adding to the page.</li>
+</ol>
+<p><br />
+<meta content="text/html;charset=UTF-8" http-equiv="Content-Type" />
+</p>
+<p><span style="text-decoration: underline;"><strong>ImageThumbnail Element: </strong></span> 
+<meta />
+<span style="font-family: georgia; font-size: 12px; color: #555753; line-height: 22px;">&nbsp;</span></p>
+<p style="font: normal normal normal 9pt/17pt georgia; margin-top: 0px; margin-right: 5px; margin-bottom: 0px; margin-left: 5px;"><span style="white-space: pre;"> </span>You need to upload an image prior to this step.&nbsp;</p>
+<p style="font: normal normal normal 9pt/17pt georgia; margin-top: 0px; margin-right: 5px; margin-bottom: 0px; margin-left: 5px;">
+<meta />
+<span style="font-family: georgia; font-size: 12px; color: #555753; line-height: 22px;"><span style="white-space: pre;"> </span>You will be replacing the image that was placed in as a default.</span></p>
+<p style="font: normal normal normal 9pt/17pt georgia; margin-top: 0px; margin-right: 5px; margin-bottom: 0px; margin-left: 5px;"><span style="white-space: pre;"> </span>Maximum image size is:&nbsp;</p>
+<p style="font: normal normal normal 9pt/17pt georgia; margin-top: 0px; margin-right: 5px; margin-bottom: 0px; margin-left: 5px;"><span style="white-space: pre;"> <span style="white-space: pre;"> </span></span>Width: 80px</p>
+<p style="font: normal normal normal 9pt/17pt georgia; margin-top: 0px; margin-right: 5px; margin-bottom: 0px; margin-left: 5px;"><span style="white-space: pre;"> <span style="white-space: pre;"> </span></span>Height: 80px</p>
+<ol>
+<li><span style="white-space: pre;"> </span>Click on browse on the right of the box.</li>
+<li><span style="white-space: pre;"> </span>Find your image within the structure</li>
+<li><span style="white-space: pre;"> </span>Click ok</li>
+<li><span style="white-space: pre;"> </span>Add alt text in the box provided. This text should be descriptive of the image you are adding to the page.</li>
+</ol>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;"><strong>Author Element:</strong></span></p>
+<p><span style="white-space: pre;"> <span style="white-space: pre;"> </span></span>This is where you put the article's author.</p>
+<p>
+<meta content="text/html;charset=UTF-8" http-equiv="Content-Type" />
+<img alt="Author's Name" height="73" src="Images/Ingeniux_Training/Components/Author Comp.png" width="242" /></p>
+<p><strong><span style="text-decoration: underline;">Body Copy Element:</span></strong></p>
+<p>This is where your article will go.</p>
+<p><img alt="Body Copy" height="111" src="Images/Ingeniux_Training/Body Copy.png" width="543" /></p>
+<p>When you are done with this go to the top of the page, left side and click save. If the above elements are filled in correctly, then no errors will appear. However, if you missed filling in one of the elements above you will have to go back and fill it in before you can continue to save.</p>
+<p>&nbsp;</p>
+<h3>The next few elements are so the page displays correctly and so that the news article is published in the correct news index.</h3>
+<h3>You will need to know which index your article is to be publish in to complete the next steps.</h3>
+<p>&nbsp;</p>
+<p><strong><span style="text-decoration: underline;">Publications</span></strong></p>
+<p>This is the location where the article you just created will be published. Please choose the correct indexes.</p>
+<p>For example if you work for University Communications you would choose "News and Notes" from the slection</p>
+<p><img alt="Publication Example" height="183" src="Images/Ingeniux_Training/Components/Publication Componet.png" width="185" /></p>
+<p><strong><span style="text-decoration: underline;">Related Links</span></strong></p>
+<p>The organization you work for should also have its won related links section. You will need to choose that one.</p>
+<p><img alt="Related Links example" height="81" src="Images/Ingeniux_Training/Related Links.png" width="145" /></p>
+<p><span style="text-decoration: underline;"><strong>News</strong></span></p>
+<p>Choose the "News Navigation Component."&nbsp;</p>
+<p><img alt="News Component Example" height="81" src="Images/Ingeniux_Training/Components/News Component.png" width="214" /></p>
+<p><span style="text-decoration: underline;"><strong>Site Control</strong></span></p>
+<p>You will need to choose the site control that is related to your department.</p>
+<p><img alt="Site Control Example" height="77" src="Images/Ingeniux_Training/Site Control.png" width="214" /></p>]]></BodyCopy><xPower Type="References" References="" Name="PageUsage" label="Page or Component Reference" readonly="false" hidden="false" required="true" QueryLocationRoots="" IncludeCrossReferences="false" Depth="0" QuerySchemas="TrainingDetails" Expanded="false"><Exports></Exports></xPower><xPower Type="Navigation" StartPage="x5758" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Children" Query="" Name="FAQs" label="FAQs Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Navigation" StartPage="x10283" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Children" Query="" Name="Icons" label="Element Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/></TrainingDetails>

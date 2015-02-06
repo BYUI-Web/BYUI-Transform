@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?><Content ID="x39666" Name="Exit Interview" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Exit Interview</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Exit Interview</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false" /><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false" /><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<div style="font-family: Times New Roman;">
+<table border="0" cellpadding="0" cellspacing="0" id="AutoNumber1" style="border-collapse: collapse;" width="100%">
+<tbody>
+<tr>
+<td width="100%"><em>The purpose of this interview is to provide information on employment patterns for accreditation. Information we are requesting in this survey is for accreditation purposes only and will not be made public.</em></td>
+</tr>
+</tbody>
+</table>
+<form accept-charset="UNKNOWN" action="../emailAForm.asp" enctype="application/x-www-form-urlencoded" method="get" name="frmExit">
+<p align="left"><br /><strong>Demographics</strong><br />Name: <input name="txtName" size="28" type="text" /> Phone: <input name="txtPhone" size="26" type="text" /></p>
+<p align="left">Email Address: <input name="txtEmailFrom" size="33" type="text" /></p>
+<p align="left">Permanent Address:<input name="txtPermanent_Address" size="60" type="text" /></p>
+<p align="left">Gender: <input name="radGender" type="radio" value="Male" />Male <input name="radGender" type="radio" value="Female" />Female <br />Birth date: <input name="txtBirth_Date" type="text" /><br />Race: <input name="txtRace" type="text" /></p>
+<p align="left">Marital Status: <input name="chkSingle" type="radio" value="Single" />Single<input name="chkMarried" type="radio" value="Married" />Married <input name="chkOther" type="radio" value="Other" />Other <br />Number of Children<input name="txtNumber_Children" type="text" /></p>
+<p align="left">Religious Affiliation: <input name="chkReligion" type="radio" value="LDS" />LDS <input name="chkOtherReligion" type="radio" value="Other" />Other</p>
+<br />
+<p align="left"><strong>Degree Information for Health Science Majors<br /><br /></strong>Minor or Clusters: <input name="txtMinor_Clusters" size="45" type="text" /><strong><br /></strong>Date awarded: <input name="txtDate_graduated" type="text" /> Cumulative GPA:<input name="txtGPA" type="text" /></p>
+<br />
+<p align="left"><strong>College Experience<br /><br /></strong>Total Semesters attended:<input name="txtTotal_Semesters_attended" type="text" /> <br />Semesters at BYU-Idaho<input name="txtSemesters_BYU_Idaho" type="text" /><br />Honors received or positions held at BYU-Idaho <input name="txtHonors_Positions" size="50" type="text" /><br />BYU-Idaho Employment <input name="chkBYUIEmployment" type="checkbox" value="BYUIEmployment" /> Internship<input name="chkIntership" type="checkbox" value="Internship" /> Teaching assistant<input name="chkTeaching_Assistant" type="checkbox" value="Teaching Assistant" />Other<input name="chkOther" type="checkbox" value="Other" /><br />Description:<br /><textarea cols="60" name="txtDescription_Employment_Other" rows="9"></textarea></p>
+<p align="left"><strong>Other Experience<br /><br /></strong>Non BYU-Idaho Employment:<br />Employer<input name="txtEmployer" size="60" type="text" /><br />How did you find your position?<input name="txtPosition_found" size="60" type="text" /></p>
+<p align="left">Volunteer Experience:<br />Organization <input name="txtVolunteer_organization_name" size="60" type="text" /><br />How did you find your position?<input name="txtVolunteer_position_found" size="60" type="text" /></p>
+<p align="left">Mission:<br />Where <input name="txtMission" size="40" type="text" /> When <input name="txtMission_when" size="33" type="text" /></p>
+<br />
+<p align="left">What leadership skills have you developed and how?<br /><textarea cols="60" name="txtLeadership_skills_Developed" rows="8"></textarea></p>
+<br />
+<p align="left">What countries have you toured?<br /><textarea cols="60" name="txtCountries_toured" rows="6"></textarea></p>
+<p align="left"><strong>Plans After Graduation<br /></strong>Employment:<strong><br /></strong>Are you employed? <strong><input name="chkEmployed" type="checkbox" value="Yes" />Yes <input name="chkEmployed" type="checkbox" value="No" />No In the area of your training? <input name="chkArea_Of_Training" type="checkbox" value="Yes" />Yes <input name="chkArea_Of_Training" type="checkbox" value="No" />No<br /><br />Employers Name &amp; Address<br /></strong><textarea cols="60" name="txtEmployer_after_graduation" rows="7"></textarea><br />Position: <input name="txtPosition" type="text" /> Salary: <input name="txtSalary" type="text" /><br /># of other offers <input name="txtnumber_other_offers" size="10" type="text" /> Salary range: <input name="txtSalary_range_other" size="16" type="text" /><br /><br />What has the department done to help you secure employment?<br /><textarea cols="60" name="txtdepartment_help_employment" rows="8"></textarea></p>
+<br />
+<p align="left">Graduate School:<br />Have you been accepted into a graduate program? <input name="chkGrad_Program" type="checkbox" value="Yes" /> Yes <input name="chkGrad_Program" type="checkbox" value="No" /> No<br />If yes, describe the program, give the name of the University and the name of the graduate program..<br /><textarea cols="60" name="txtgrad_program_Name" rows="9"></textarea></p>
+<br />
+<p align="left"><strong>Other Plans:<br /><br /></strong>Short Term<br /><textarea cols="60" name="txtShort_term_plans" rows="9"></textarea></p>
+<br />
+<p align="left">Long Term<br /><textarea cols="60" name="txtLong_term_plans" rows="9"></textarea><br /><br /><strong>Program Evaluation<br /></strong>1. How well do you feel that your major program has prepared you for successful completion of your goals?<br /><textarea cols="60" name="txtProgram_prepared_goals" rows="9"></textarea><br /><br />2. What do you consider the most valuable part of your major experience? Why?<br /><textarea cols="60" name="txtValuable_part_major_experience" rows="9"></textarea></p>
+<p align="left">3. If given the opportunity, what would you change about your major program? Why?<br /><textarea cols="60" name="txtChange_major_program" rows="9"></textarea><br /><br />4. How could we have been of more help to you in completing your program?<br /><textarea cols="60" name="txtHelp_completing_Program" rows="9"></textarea></p>
+<br />
+<p align="left">5. What is the single most important thing the department/college can do to improve its program?<br /><textarea cols="60" name="txtSingle_important_program_change" rows="9"></textarea></p>
+<br />
+<p align="left">6. What are the strengths of the current program?<br /><textarea cols="60" name="txtStrengths_program" rows="9"></textarea></p>
+<br />
+<p align="left">7. What are the weaknesses of the current program?<br /><textarea cols="60" name="txtWeaknesses_Program" rows="9"></textarea></p>
+<br />
+<p align="left">8. What classes in the department are most and least important for early level workers in your field?</p>
+<p align="left">Most Important<br /><textarea cols="60" name="txtMost_Important_classes_early_level_workers" rows="9"></textarea></p>
+<br />
+<p align="left">Least Important<br /><textarea cols="60" name="txtLeast_Important_classes" rows="9"></textarea></p>
+<br />
+<p align="left">9. Are there any classes you would cut or any required course that should be electives?<br />Classes to cut<br /><textarea cols="60" name="txtClasses_to_cut" rows="9"></textarea><br />Classes to become electives<br /><textarea cols="60" name="txtClasses_to_be_electives" rows="9"></textarea></p>
+<br />
+<p align="left">10. Are there classes that should be added?<br /><textarea cols="60" name="txtClasses_to_add" rows="9"></textarea></p>
+<br />
+<p align="left">11. What issues, skills and competencies do we need to spend more time on?<br /><textarea cols="60" name="txtSkills_Competencies_more_time" rows="9"></textarea></p>
+<br />
+<p align="left">12. Was duplication of course content a problem when you were a student in our program? Explain<br /><textarea cols="60" name="txtduplication_course_content" rows="9"></textarea></p>
+<br />
+<p align="left">13. How prepared do you feel for finding a job in your field? Describe any concerns.<br /><textarea cols="60" name="txtprepared_for_finding_job" rows="9"></textarea></p>
+<br />
+<p align="left">14. Comment on your experience with your advisor? How could it be improved?<br /><textarea cols="60" name="txtAdvisor_Evaluation" rows="9"></textarea></p>
+<br />
+<p align="left">15. What can the department do to make the internship a more meaningful experience?<br /><textarea cols="60" name="txtIntern_evaluation" rows="9"></textarea></p>
+<br />
+<p align="left">16. Comment on the quality of teaching in the department.<br /><textarea cols="60" name="txtTeaching_evaluation" rows="9"></textarea></p>
+<br />
+<p align="left">17. What additional insights or suggestions do you have that would improve the quality of the program?<br /><textarea cols="60" name="txtMisc_suggestions" rows="9"></textarea></p>
+<br />
+<p align="left">18. What scheduling problems did you experience in your program?<br /><textarea cols="60" name="txtScheduling_problems" rows="9"></textarea></p>
+<br />
+<p align="left">19. If you were starting your program again, what would you do differently?<br /><textarea cols="60" name="txtWhat_do_different_if_just_starting" rows="9"></textarea></p>
+<br />
+<p align="left">20. Do you feel you were spiritually strengthened by your experiences in Recreation Leadership? How?<br /><textarea cols="60" name="txtspiritual_experiences" rows="9"></textarea></p>
+<br />
+<p align="left">21. Do you feel your character has been developed? How?<br /><textarea cols="60" name="txtCharacter_development" rows="9"></textarea></p>
+<br />
+<p align="left">22. Have your leadership skills been enhanced? How?<br /><textarea cols="60" name="txtLeadership_Skills_enhanced" rows="9"></textarea></p>
+<br />
+<p align="left">23. Did your BYU-Idaho education prepare you for lifelong learning and service? How?<br /><textarea cols="60" name="txtLearning_Service_preparation" rows="11"></textarea></p>
+<p align="left"> </p>
+<input name="txtEmailTo" type="hidden" value="hardyj@byui.edu" /> <input name="txtEmailSubject" type="hidden" value="Health Science Exit Interview" />
+<p align="left"><input name="submit" type="submit" value="SUBMIT" /></p>
+</form></div>
+<p> </p>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false" /></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" /><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" /><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" /></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent" /><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet" /></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query="" /><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x1837" CompTypes="SiteControl" /></Content>

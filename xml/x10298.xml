@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<TrainingElement ID="x10298" Name="Component" Layout="default-training.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Component</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Component</Abstract><LinkText type="string" label="Icon Address" readonly="false" hidden="false" required="true">Internal_Use/Ingeniux_Training/Icons/component.png</LinkText><TrainingIcon type="imagefile" label="Icon Image" hidden="false" readonly="false" required="false">Internal_Use/Ingeniux_Training/Icons/component.png</TrainingIcon><TrainingImage type="imagefile" label="Element Image" hidden="false" readonly="false" required="false">Internal_Use/Ingeniux_Training/Element Views/Component_Field.png</TrainingImage><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<div class="intro">
+<p>The Component element is where users identify components that are to be used within a web page.</p>
+</div>
+<p><strong>Components</strong></p>
+<p>&nbsp;&nbsp; Components are predefined web content that can be inserted into web pages. Components are not web pages themselves, but do stand independent form web pages as selectable items within the <a href="x6409.xml" style="color: #3366ff;">CMS tree</a>.</p>
+<p>&nbsp;&nbsp; Components can be shared by multiple web pages at anyone time, and any changes made to a component will show in all the web pages using the component.</p>
+<p>&nbsp;&nbsp; When making components it is best to store components within a folder.</p>
+<p><strong>Using the Correct Component</strong></p>
+<p>&nbsp;&nbsp; Not all components are the same, and each component element will only work with certain component types. When choosing a component with a given component element, the component element will find and show only components it can use. Thus the banner ad component element will only show banner ad components in the "Select a Component" window.</p>
+<p><strong>Interface</strong></p>
+<img alt="Component Selection Window" height="143" src="Images/Internal_Use/Ingeniux_Training/Element Views/Component_Window.png" style="float: right; margin-left: 10px;" title="Component Selection Window" width="430" />
+<h4 class="sub_title">Pick</h4>
+<p>&nbsp;&nbsp; The <em>Pick</em> button allows the user to choose a component to activate.                 The "Select a Component" window will display listing all possible components.</p>
+<p>&nbsp;&nbsp; To narrow your search you can type the name of the component you wish to use in the top right corner text field.</p>
+<h4 class="sub_title">Go To</h4>
+<p>&nbsp;&nbsp; The <em>Go To</em> button takes you to the component currently active in the component field.</p>
+<h4 class="sub_title">Clear</h4>
+<p>&nbsp;&nbsp; The <em>Clear</em> button removes the active component.</p>
+<p><strong>FAQ</strong></p>
+<p style="padding-bottom: 0;">Q.                 I want to use a specific component, but it doesn't show within the "Select a Component" window. Why?</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      A. Does the component you have created match the component element you are using?&nbsp; &nbsp; &nbsp; See section "Using the Correct Component".</p>]]></BodyCopy><xPower Type="Navigation" StartPage="x10283" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Children" Query="" Name="Icons" label="Element Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/></TrainingElement>

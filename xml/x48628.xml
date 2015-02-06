@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x48628" Name="defaultOLD.htm" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">defaultOLD.htm</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">defaultOLD.htm</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" &gt;
+	&lt;head&gt;
+		&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+		&lt;script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"&gt;&lt;/script&gt;
+		&lt;script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.5.3/jquery-ui.min.js" &gt;&lt;/script&gt;
+&lt;!--		&lt;script type="text/javascript" src="js/custom/home_page.js"&gt;&lt;/script&gt;--&gt;
+		&lt;script type="text/javascript" src="js/custom/global.js"&gt;&lt;/script&gt;
+		&lt;!-- testing cycle.js to cycle_test.js --&gt;
+		&lt;script type="text/javascript" src="js/third_party/cycle.js"&gt;&lt;/script&gt;
+&lt;!--		&lt;script type="text/javascript" src="js/third_party/cycle.js"&gt;&lt;/script&gt;		--&gt;
+		&lt;script type="text/javascript" src="js/third_party/hotkeys.js"&gt;&lt;/script&gt;
+		&lt;script type="text/javascript" src="js/third_party/hoverIntent.js"&gt;&lt;/script&gt;
+		&lt;script type="text/javascript" src="js/third_party/jScrollPane.js"&gt;&lt;/script&gt;
+		&lt;script type="text/javascript" src="js/third_party/jquery.mousewheel.min.js"&gt;&lt;/script&gt;
+		&lt;script type="text/javascript" src="js/custom/jfeed.js"&gt;&lt;/script&gt;
+		&lt;script type="text/javascript" src="js/custom/imageSwap.js"&gt;&lt;/script&gt;
+		&lt;script type="text/javascript" src="js/custom/randomImage.js"&gt;&lt;/script&gt;
+		&lt;script type="text/javascript" src="js/custom/randomNoteImage.js"&gt;&lt;/script&gt;
+		
+
+		&lt;link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="no title" charset="utf-8" /&gt;
+		&lt;link rel="stylesheet" type="text/css" href="css/pt/home_page.css" /&gt;
+		&lt;link rel="stylesheet" href="css/common/rss_events_box.css" type="text/css" media="screen" title="no title" charset="utf-8" /&gt;
+		&lt;link rel="stylesheet" type="text/css" href="css/common/jScrollPane_home.css" /&gt;
+		&lt;link rel="stylesheet" type="text/css" href="css/c_slider_style.css" /&gt;
+
+		
+		&lt;!--[if lte IE 7]&gt;
+			&lt;link href="css/styleIE7.css" rel="stylesheet" type="text/css" /&gt;
+		&lt;![endif]--&gt;
+		&lt;title&gt;BYU-Idaho Magazine&lt;/title&gt;
+		
+	&lt;/head&gt;
+	&lt;body onload="randomImage(); randomNewsNote();"&gt;
+		&lt;div id="container"&gt;
+			&lt;div id="GlobalNavigation"&gt;
+				&lt;ul&gt;
+					&lt;li class="blackBar"&gt;Black Bar&lt;/li&gt;
+				&lt;/ul&gt;
+				&lt;!--&lt;ul&gt;
+					&lt;li class="currentStu"&gt;&lt;a href="#1"&gt;Current Students&lt;/a&gt;&lt;/li&gt;
+					&lt;li class="employees"&gt;&lt;a href="#1"&gt;Employees&lt;/a&gt;&lt;/li&gt;
+					&lt;li class="alumni"&gt;&lt;a href="#1"&gt;Alumni and Community&lt;/a&gt;&lt;/li&gt;
+					&lt;li class="prospective"&gt;&lt;a href="#1"&gt;&gt;Prospective Students&lt;/a&gt;&lt;/li&gt;
+				&lt;/ul&gt;--&gt;
+				&lt;ul id="blueMenu"&gt;
+					&lt;li class="directories"&gt;&lt;a href="http://www.byui.edu"&gt;BYU-Idaho Home&lt;/a&gt;
+						
+					&lt;/li&gt;
+					&lt;li class="calendar"&gt;&lt;a href="http://www.byui.edu/magazine/fall2010/departments/connected/alumni_news_fall_2010.htm"&gt;Alumni News&lt;/a&gt;
+						
+					&lt;/li&gt;
+					&lt;li class="aboutbyui"&gt;&lt;a href="http://www.byui.edu/magazine/fall2010/departments/connected/Class_Notes.htm"&gt;Class Notes&lt;/a&gt;
+						
+					&lt;/li&gt;
+					&lt;li class="library"&gt;&lt;a href="http://web.byui.edu/devotionalsandspeeches/Default.aspx"&gt;Devotional Archives&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class="siteindex"&gt;&lt;a href="http://www.byuidahoradio.org"&gt;BYU-Idaho Radio&lt;/a&gt;&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;!-- SEARCH BOX
+			&lt;form action=""&gt;
+				&lt;input class="header_search_box" name="search" type="text" /&gt;
+				&lt;input class="searchButton" value="Search" type="image" src="images/common/go_button.gif" /&gt; 
+			&lt;/form&gt;
+			--&gt;
+			&lt;a href="#"&gt;&lt;img src="images/common/byui_header_logo.png" alt="Brigham Young University - Idaho Logo" /&gt;&lt;/a&gt;
+				&lt;!-- LINKS ABOVE THE SEARCH BOX (below)--&gt;
+				&lt;!--&lt;p&gt;&lt;a href="#"&gt;CONTACT US&lt;/a&gt; &lt;span&gt;|&lt;/span&gt; &lt;a href="#"&gt;FAQ&lt;/a&gt; &lt;span&gt;|&lt;/span&gt; &lt;a href="#"&gt;LDS.ORG&lt;/a&gt;&lt;/p&gt;--&gt;
+				&lt;p class="header_title"&gt;&lt;/p&gt;
+			
+			&lt;/div&gt; &lt;!-- #GlobalNavigation --&gt;
+			&lt;div id="top_banner"&gt;
+				&lt;img src="images/common/masthead.png" /&gt;
+				&lt;p&gt;Fall 2010&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div id="main"&gt;
+			
+				&lt;div id="info"&gt;
+					&lt;div id="top"&gt; 
+						&lt;p class="title"&gt;A New Approach in Education&lt;/p&gt;
+					&lt;/div&gt;
+					&lt;div id="image"&gt;
+						&lt;a href="http://www.byui.edu/magazine/fall2010/departments/letter_from_the_president.htm"&gt;
+							&lt;img src="images/mailer_icon.png" /&gt;
+						&lt;/a&gt;
+					&lt;/div&gt;
+					&lt;div id="message"&gt;
+						&lt;p class="message_text"&gt;&amp;nbsp;From creative academic offerings to student-focused programs, BYU-Idaho is continually innovating as it strives to provide students with outstanding educational opportunities.&lt;/p&gt;
+	
+					&lt;/div&gt;
+					&lt;!-- &lt;div id="more"&gt;&lt;a href="#"&gt;&lt;img src="images/home_page/interactive/dark_grey_button.png" alt="Button" /&gt;&lt;/a&gt;&lt;a class="video_link" href="#"&gt;&lt;p&gt;View President Clark's Message&lt;/p&gt;&lt;/a&gt;&lt;/div&gt; --&gt;
+				&lt;/div&gt;
+				&lt;div id="interactive" &gt;
+							&lt;div id="featured" &gt;
+			  &lt;ul class="ui-tabs-nav"&gt;
+		        &lt;li class="ui-tabs-nav-item ui-tabs-selected" id="nav-fragment-1"&gt;&lt;a href="#fragment-1"&gt;&lt;a href="http://www.byui.edu/magazine/fall2010/features/A_New_University/"&gt;&lt;img src="images/content_slider/thumb_01.jpg" alt="" /&gt;&lt;span&gt;A New&lt;br/&gt;University&lt;/span&gt;&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+		        &lt;li class="ui-tabs-nav-item" id="nav-fragment-2"&gt;&lt;a href="#fragment-2"&gt;&lt;a href="http://www.byui.edu/magazine/fall2010/features/Architects_Learning_Environment/"&gt;&lt;img src="images/content_slider/thumb_02.jpg" alt="" /&gt;&lt;span&gt;Architects of&lt;br/&gt;Learning Environments&lt;/span&gt;&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+
+		        &lt;li class="ui-tabs-nav-item" id="nav-fragment-3"&gt;&lt;a href="#fragment-3"&gt;&lt;a href="http://www.byui.edu/magazine/fall2010/features/Foundations_Experience/"&gt;&lt;img src="images/content_slider/thumb_03.jpg" alt="" /&gt;&lt;span&gt;Foundations Experience&lt;/span&gt;&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+		        &lt;li class="ui-tabs-nav-item" id="nav-fragment-4"&gt;&lt;a href="#fragment-4"&gt;&lt;a href="http://www.byui.edu/magazine/fall2010/features/past_presidents/"&gt;&lt;img src="images/content_slider/thumb_04.jpg" alt="" /&gt;&lt;span&gt;On a Steady &lt;br/&gt; Upward Course&lt;/span&gt;&lt;/a&gt;&lt;/a&gt;&lt;/li&gt; 
+		      &lt;/ul&gt;
+	
+		    &lt;!-- First Content --&gt;
+		    &lt;div id="fragment-1" class="ui-tabs-panel" style=""&gt;
+				&lt;a href="http://www.byui.edu/magazine/fall2010/features/A_New_University/"&gt;&lt;img  style="border:none;" src="images/content_slider/image1.jpg" alt="" /&gt;&lt;/a&gt;
+				 &lt;!--
+	&lt;div class="info" &gt;
+					&lt;h2&gt;&lt;a href="#" &gt;15+ Excellent High Speed Photographs&lt;/a&gt;&lt;/h2&gt;
+					&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt condimentum lacus. Pellentesque ut diam....&lt;a href="#" &gt;read more&lt;/a&gt;&lt;/p&gt;
+				 &lt;/div&gt;
+	--&gt;
+		    &lt;/div&gt;
+
+	
+		    &lt;!-- Second Content --&gt;
+		    &lt;div id="fragment-2" class="ui-tabs-panel ui-tabs-hide" style=""&gt;
+				&lt;a href="http://www.byui.edu/magazine/fall2010/features/Architects_Learning_Environment/"&gt;&lt;img style="border:none;" src="images/content_slider/image2.jpg" alt="" /&gt;&lt;/a&gt;
+				 &lt;!--
+	&lt;div class="info" &gt;
+					&lt;h2&gt;&lt;a href="#" &gt;20 Beautiful Long Exposure Photographs&lt;/a&gt;&lt;/h2&gt;
+					&lt;p&gt;Vestibulum leo quam, accumsan nec porttitor a, euismod ac tortor. Sed ipsum lorem, sagittis non egestas id, suscipit....&lt;a href="#" &gt;read more&lt;/a&gt;&lt;/p&gt;
+				 &lt;/div&gt;
+	--&gt;
+		    &lt;/div&gt;
+	
+		    &lt;!-- Third Content --&gt;
+		    &lt;div id="fragment-3" class="ui-tabs-panel ui-tabs-hide" style=""&gt;
+				&lt;a href="http://www.byui.edu/magazine/fall2010/features/Foundations_Experience/"&gt;&lt;img  style="border:none;" src="images/content_slider/image3.jpg" alt="" /&gt;&lt;/a&gt;
+				 &lt;!--
+	&lt;div class="info" &gt;
+					&lt;h2&gt;&lt;a href="#" &gt;35 Amazing Logo Designs&lt;/a&gt;&lt;/h2&gt;
+					&lt;p&gt;liquam erat volutpat. Proin id volutpat nisi. Nulla facilisi. Curabitur facilisis sollicitudin ornare....&lt;a href="#" &gt;read more&lt;/a&gt;&lt;/p&gt;
+		         &lt;/div&gt;
+	--&gt;
+
+		    &lt;/div&gt;
+	
+		    &lt;!-- Fourth Content --&gt;
+
+		    &lt;div id="fragment-4" class="ui-tabs-panel ui-tabs-hide" style=""&gt;
+				&lt;a href="http://www.byui.edu/magazine/fall2010/features/past_presidents/"&gt;&lt;img  style="border:none;" src="images/content_slider/image4.jpg" alt="" /&gt;&lt;/a&gt;
+
+				 &lt;!--
+	&lt;div class="info" &gt;
+					&lt;h2&gt;&lt;a href="#" &gt;Create a Vintage Photograph in Photoshop&lt;/a&gt;&lt;/h2&gt;
+					&lt;p&gt;Quisque sed orci ut lacus viverra interdum ornare sed est. Donec porta, erat eu pretium luctus, leo augue sodales....&lt;a href="#" &gt;read more&lt;/a&gt;&lt;/p&gt;
+		         &lt;/div&gt;
+	--&gt;
+&lt;!--
+		    &lt;/div&gt;
+--&gt;
+			&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	
+				
+			&lt;/div&gt;
+
+			&lt;div id="menu" &gt;
+					&lt;ul&gt;
+						&lt;li id="president_message"&gt;&lt;a href="departments/letter_from_the_president.htm"&gt;&lt;p&gt;VIEW PRESIDENT CLARK'S WELCOME&lt;/p&gt;&lt;/a&gt;&lt;/li&gt;
+						&lt;li id="learningModel"&gt;&lt;a href="Article_index.htm"&gt;&lt;p&gt;TABLE OF CONTENTS&lt;/p&gt;&lt;/a&gt;&lt;/li&gt;
+						&lt;li id="learningModel"&gt;&lt;a href="http://www.byui.edu/Magazine/fall2010/departments/connected/past_issues.htm"&gt;&lt;p&gt;PAST ISSUES&lt;/p&gt;&lt;/a&gt;&lt;/li&gt;
+						&lt;li id="learningModel"&gt;&lt;a href="http://www.byuiconnect.com"&gt;&lt;p&gt;BYUI CONNECT&lt;/p&gt;&lt;/a&gt;&lt;/li&gt;
+						&lt;li id="spiritOfRicks"&gt;&lt;a href="print/print.htm"&gt;&lt;p&gt;PRINT MAGAZINE&lt;/p&gt;&lt;/a&gt;&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/div&gt;
+				
+			&lt;div id="leftBox"&gt;
+				&lt;a href="http://www.byui.edu/magazine/fall2010/features/past_presidents/"&gt;
+					&lt;img id="rotating_image3" class="seperator" src="images/home_page/eyring_merv2.jpg"  /&gt;	
+				&lt;/a&gt;	
+				&lt;!--&lt;div id="news" class="selected"&gt;&lt;/div&gt;
+				&lt;div id="events" &gt;&lt;/div&gt;
+				&lt;div id="displayBox"&gt;
+				  &lt;div id="newsEventsListScroll"&gt;
+	  				&lt;div id="newsEventsList" class="scroll-pane"&gt;
+	                      &lt;!-- RSS feed gets added using jQuery --&gt;      
+	  				&lt;!--&lt;/div&gt;
+	  			&lt;/div&gt;
+	  			&lt;div id="newsEventsLinks"&gt;
+					  &lt;!--&lt;img alt="Visit the Press Room Button" src="images/home_page/interactive/dark_grey_button.png" /&gt;&lt;a href="#"&gt;Visit the Press Room&lt;/a&gt;
+	          &lt;img alt="Ticket Office Button" src="images/home_page/interactive/dark_grey_button.png" /&gt;&lt;a href="#"&gt;Ticket Office&lt;/a&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;--&gt;
+			&lt;/div&gt;
+			
+			&lt;a id="newsOfNoteLink" class="devo_link" href="#"&gt;&lt;div id="middleBox"&gt;
+				&lt;h6&gt;NEWS OF NOTE&lt;/h6&gt;
+				&lt;p id="note_title"&gt;Devotional&lt;/p&gt;
+				&lt;p id="note_subtitle"&gt;President Henry B. Eyring speaks of "the Miracle" on the hill ...&lt;/p&gt;
+				&lt;!--&lt;img id="pic" class="seperator" src="images/common/eyring_devo.jpg" alt="President Eyring" /&gt;--&gt;
+				&lt;img id="rotating_image_2" class="seperator" src="images/common/devotional_speaker.jpg"  /&gt;
+				&lt;!--&lt;img class="devo_button" src="images/home_page/interactive/dark_grey_button.png" alt="arrow Button" /&gt;--&gt;
+				&lt;!--&lt;p class="click_Button"&gt;More News of Note ...&lt;/p&gt;--&gt;
+			&lt;/div&gt;&lt;/a&gt;
+			&lt;a id="onCampusLink" class="devo_link" href="#"&gt;&lt;div id="rightBox"&gt;
+				&lt;h6&gt;ON CAMPUS&lt;/h6&gt;
+				&lt;p id="devo_description"&gt;New Auditorium&lt;/p&gt;
+				&lt;p id="devo_speaker"&gt;Expected completion date December 2011&lt;/p&gt;
+				&lt;img id="rotating_image" class="seperator" src="images/common/devotional_speaker.jpg"  /&gt;
+				&lt;!--&lt;img class="devo_button" src="images/home_page/interactive/dark_grey_button.png" alt="arrow Button" /&gt;--&gt;
+				&lt;!--&lt;a id="onCampusLink" class="devo_link" href="#"&gt;Read More ...&lt;/a&gt;--&gt;
+			&lt;/div&gt;&lt;/a&gt;
+		  
+			
+			
+			&lt;div id="footer"&gt;
+			&lt;p&gt;&amp;copy;2010 Brigham Young University&amp;ndash;Idaho, 525 South Center St., Rexburg, ID 83460, (208) 496-1411&lt;/p&gt;
+			&lt;ul&gt;
+				&lt;li&gt;&lt;a href="http://www.byu.edu"&gt;BYU&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="http://www.byuh.edu/"&gt;BYU-Hawaii&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="http://www.ldsbc.edu/"&gt;LDS Business College&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="http://www.byui.edu/disabilities/"&gt;&lt;img src="images/common/ada.jpg" style="border: 0px none; left: 478px; top: 28px;" /&gt;Disability Services&lt;/a&gt;&lt;/li&gt;
+				&lt;li class="lastListItem"&gt;&lt;a href="http://www.byui.edu/defaulttext.asp"&gt;Text Home Page&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+			&lt;a href="http://www.lds.org"&gt;&lt;img src="images/common/church_footer_logo.jpg" alt="The Church of Jesus Christ of Latter-day Saints" /&gt;&lt;/a&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;&lt;!--END container --&gt;
+		&lt;!--These scripts enables Omniture tracking --&gt;
+		&lt;script type="text/javascript" src="http://web.byui.edu/Omniture/s_code.js"&gt;&lt;/script&gt;
+		&lt;script type="text/javascript" src="http://web.byui.edu/Omniture/omniture_code.js"&gt;&lt;/script&gt;
+		&lt;!-- This script enables Google Analytics --&gt;
+		&lt;script type="text/javascript"&gt;
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		&lt;/script&gt;
+		&lt;script type="text/javascript"&gt;
+			try {
+			var pageTracker = _gat._getTracker("UA-12079604-1");
+			pageTracker._trackPageview();
+			} catch(err) {}
+		&lt;/script&gt;
+		
+	&lt;/body&gt;
+&lt;/html&gt;</ESContent></EmptyShell>

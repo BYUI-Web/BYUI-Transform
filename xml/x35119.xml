@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?><Content ID="x35119" Name="Mole Day Fun Run" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Mole Day Fun Run</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Mole Day Fun Run</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="true" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false" /><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false" /><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style><!--
+            #bodycontainer {
+                padding-top:140px;
+                width:100%;
+            }
+            #innercontainer{
+                width:1000px;
+                margin:auto;
+            }
+            #container710{
+                /*                background-color: lightgray;*/
+                height:600px;
+            }
+            #left230{
+                background-color:#326BA9;
+                height:500px;
+            }
+            .gallerybox{
+                -moz-box-shadow: 0px 0px 5px #000000;
+                -webkit-box-shadow: 0px 0px 5px #000000;
+                box-shadow: 0px 0px 5px #000000;
+                border:1px solid #777777;
+                overflow:auto;
+                padding:10px;
+                margin:4px;
+            }
+            .picbox{
+                background-color:lightblue;
+                margin:0px 5px;
+                float:left;
+                width:218px;
+                height:200px;
+                border: 1px solid #787878;
+            }
+            img{
+                padding:0px;
+                margin:0px;
+                border:none;
+            }
+            .picboxfirst{
+                margin-left:0px;
+                padding-left:0px;
+            }
+            .picboxlast{
+                margin-right:0px;
+                padding-right:0px;
+            }
+--></style>
+<p>&nbsp;</p>
+<div class="span-18" id="container710">
+<div class="gallerybox">
+<div class="picbox picboxfirst"><img alt="mole day" height="200" src="Images/chemistry/Mole day 2 218x200.jpg" width="218" /></div>
+<div class="picbox"><img alt="mole day" height="200" src="Images/chemistry/Mole day 1 218x200.jpg" width="218" /></div>
+<div class="picbox picboxlast"><img alt="mole day" height="200" src="Images/chemistry/mole day 3 218x200.jpg" width="218" /></div>
+</div>
+<p><!--[endif] --> One popular event sponsored by the BYUI Chemistry Society is the annual Mole Day Fun Run.&nbsp; This event is held on the bi-weekly Wednesday meeting which falls closest to the 23<sup>rd</sup> day of the 10<sup>th</sup> month (October), in celebration of the value of the mole, 6.02&times;10<sup>23</sup>.</p>
+<p class="MsoNormal">The course for the Mole Day Fun Run begins at the front steps of the Romney Science Building and proceeds through much of the perimeter of campus for 6 moles of zeptometers (very close to 2.25 miles).&nbsp; The fastest runner each year has his/her picture taken with the winning award&mdash;a constructed trophy of a mole (the mammal)&mdash;and the picture is posted in the Chemistry Society&rsquo;s display case.</p>
+</div>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Component" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false" /></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" /><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" /><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" /></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent" /><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet" /></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query="" /><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x1892" CompTypes="SiteControl" /></Content>

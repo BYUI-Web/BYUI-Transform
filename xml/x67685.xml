@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.82 - http://www.ingeniux.com ***-->
+<CellComponent ID="x67685" Name="Services"><Title type="string" label="Title" readonly="false" hidden="false" required="true">temp title</Title><PicPosition type="enumeration" values="Top Right Left" label="Place Picture on ___ of text." readonly="false" hidden="false" required="true">Top</PicPosition><Image type="imagefile" label="Image" readonly="false" hidden="false" required="false" Width="" Height="" Alignment="" Border="" Expanded="true" AlternateText="" HSpace="" VSpace=""></Image><xPower Type="Link" Link="" Name="Link" label="Link" readonly="false" hidden="false" required="false" LinkText="" Target="" Expanded="false"/><IntroCopy type="dhtml" label="Message" readonly="false" hidden="false" required="false"><![CDATA[<div style="line-height: 45%;">
+<h2><span style="text-decoration: underline;">Services</span></h2>
+<p> </p>
+<p><a href="x34483.xml">Crime Log</a></p>
+<strong><span style="font-size: xx-small;">History of comitted crimes.</span></strong>
+<p> </p>
+<p><a href="x34524.xml">Jump Starts &amp; Lock Outs</a></p>
+</div>
+<div style="line-height: 45%;"><strong><span style="font-size: xx-small;">Jump Starts, Lock Outs, </span></strong></div>
+<div style="line-height: 45%;"></div>
+<div style="line-height: 45%;"><br /><strong><span style="font-size: xx-small;">Let-Ins, and Escorts.</span></strong></div>]]></IntroCopy><showLink type="boolean" label="Enable to display this cell's &quot;Footer Link&quot;." readonly="false" required="false" hidden="false">true</showLink><xPower Type="GroupStart" GroupStart="" Name="LinkText" label="Footer Link" readonly="false" hidden="false" required="false" Expanded="true"><LinkText type="string" label="Text" readonly="false" hidden="false" required="false">learn more here</LinkText><LinkHex type="string" label="Background Color | Enter hex value | Example: #000000" readonly="false" hidden="false" required="false">#000000</LinkHex><TextColor type="enumeration" values="Black White" label="Text Color" readonly="false" hidden="false" required="true">White</TextColor></xPower></CellComponent>

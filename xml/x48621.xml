@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x48621" Name="stylethis.css" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">stylethis.css</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">stylethis.css</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">
+img {
+border:0 none;
+}
+#heading {
+display:block;
+width:520px;
+margin-bottom: 10px;
+}
+
+#heading h1 {
+color:#524A43;
+font-family:Helvetica,Arial,sans-serif;
+font-size:32px;
+padding-bottom:10px;
+padding-top:20px;
+}
+#heading p {
+color:#524A43;
+font-family:Georgia,Times New Roman,serif;
+font-size:14px;
+padding-bottom:10px;
+}
+#main_page{
+	float: left;
+}
+#thumbnail{
+	width: 70px;
+	float: left;
+}
+#description{
+	float: left;
+	width: 400px;
+}
+#feature_item{
+	width: 500px;
+	padding: 10px;
+}
+
+#article_index {
+	margin-bottom: 30px;
+}
+
+#president_message{
+	width: 500px;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.item_image {
+margin-left:10px;
+margin-top:0;
+width:96px;
+}
+
+.item_description {
+color:#524A43;
+display:block;
+font-family:Georgia,Times New Roman,serif;
+font-size:11px;
+padding:5px 5px 5px 19px;
+margin-left: 40px;
+width:412px;
+text-decoration:  none;
+}
+
+#feature_item a {
+	text-decoration: none;
+}
+
+.item_description h3 {
+color:#524A43;
+font-family:Helvetica,Arial,sans-serif;
+font-size:14px;
+}
+
+#feature_item img {
+	padding-bottom:24px;
+	padding-right:16px;
+	float: left;
+}
+
+#departments {
+	margin-top: 30px;
+}
+
+#largImageDiv {
+left:0;
+position:absolute;
+top:300px;
+visibility:hidden;
+width:560px;
+}
+
+.specialNav {
+font-size:15px;
+font-weight:bold;
+padding:0;
+}
+
+.imageNav {
+padding-bottom:10px;
+}
+
+.right_bottom_section {
+border-left:1px solid #E4E1D9;
+width:578px;
+}
+
+#type_A .leftAREA {
+width:579px;
+}
+
+.back, .back:hover, a.back {
+float:right;
+padding:10px;
+text-decoration:none;
+}
+
+.next, .next:hover, a.next {
+float:right;
+padding:10px;
+text-decoration:none;
+}
+
+#head_h3 {
+color:#524A43;
+font-family:Helvetica,Arial,sans-serif;
+font-size:22px;
+padding-bottom:20px;
+padding-left:10px;
+padding-top:20px;
+}
+
+#deparment_item{
+	color:#524A43;
+	font-family:Helvetica,Arial,sans-serif;
+	font-size:18px;
+	padding-left:10px;
+	padding-top: 5px;
+	padding-bottom:15px;
+}
+
+#department_item a{
+	text-decoration: none;
+}
+
+#new_content {
+position:relative;
+left:-15px;
+background-color: #ddd;
+margin-bottom:20px;
+padding: 10px 0 0 15px;
+
+}
+
+/*Additional styles for magazine article index*/
+#deparment_item ul  {
+	
+}
+
+#deparment_item li {
+	list-style-type:none;
+	margin-left:30px;
+	text-decoration: none;
+}
+
+/*
+#deparment_item h3 a{
+	text-decoration: none;
+	color:#524A43; 
+}
+*/
+#featured_articles {
+	clear:both;
+}</ESContent></EmptyShell>

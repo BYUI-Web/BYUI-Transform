@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<AdminPage ID="x10231" Name="Resources" Layout="admin_office_home.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Activities Resources</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Various resources associated with activities on campus: physical facilities, like the pool, racquetball courts, the ropes course, etc; the Wellness Center, Outdoor Recreation Center (equipment rental), and more.</Abstract><MainMesgTop type="boolean" label="Enable to move &quot;Main Message&quot; to top of page" readonly="false" required="false" hidden="false">true</MainMesgTop><IntroCopy type="dhtml" label="Main Message" readonly="false" hidden="false" required="false"><![CDATA[<h2><a class="extLink" href="http://www.facebook.com/byuiactivities" title="FB Site"><img alt="FB" height="68" onmouseout="this.src='Images/activities/likeus.png';" onmouseover="this.src='Images/activities/likeus3.png';" src="Images/activities/likeus.png" style="float: right;" width="59" /></a><img alt="Title" height="68" src="Images/activities/title3.png" style="display: block; margin-left: auto; margin-right: auto;" width="528" /></h2>
+<style><!--
+#page_title{
+opacity:0.0;
+}
+
+#cf {
+  position:relative;
+  height:183px;
+  width:710px;
+  margin:0 auto;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 3s ease-in-out;
+  -moz-transition: opacity 3s ease-in-out;
+  -o-transition: opacity 3s ease-in-out;
+  transition: opacity 3s ease-in-out;
+}
+
+@-webkit-keyframes cf3FadeInOut {
+   0% {
+     opacity:1;
+   }
+   25% {
+    opacity:1;
+  }
+  75% {
+    opacity:0;
+  }
+  100% {
+   opacity:0;
+ }
+}
+
+@-moz-keyframes cf3FadeInOut {
+ 0% {
+   opacity:1;
+ }
+ 25% {
+  opacity:1;
+}
+75% {
+  opacity:0;
+}
+100% {
+ opacity:0;
+}
+}
+
+@-o-keyframes cf3FadeInOut {
+ 0% {
+   opacity:1;
+ }
+ 25% {
+  opacity:1;
+}
+75% {
+  opacity:0;
+}
+100% {
+ opacity:0;
+}
+}
+
+@keyframes cf3FadeInOut {
+ 0% {
+   opacity:1;
+ }
+ 25% {
+  opacity:1;
+}
+75% {
+  opacity:0;
+}
+100% {
+ opacity:0;
+}
+}
+
+#cf img.top {
+  -webkit-animation-name: cf3FadeInOut;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-duration: 7s;
+  -webkit-animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+
+  -moz-animation-name: cf3FadeInOut;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-iteration-count: 1;
+  -moz-animation-duration: 7s;
+  -moz-animation-direction: normal;
+  -moz-animation-fill-mode: forwards;
+
+  -o-animation-name: cf3FadeInOut;
+  -o-animation-timing-function: ease-in-out;
+  -o-animation-iteration-count: 1;
+  -o-animation-duration: 7s;
+  -o-animation-direction: normal;
+  -o-animation-fill-mode: forwards;
+
+  animation-name: cf3FadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-duration: 7s;
+  animation-direction: normal;
+}
+--></style>
+<div id="cf"><img class="bottom" src="Images/activities/facilities/FacilitiesBanner3.jpg" /> <img class="top" src="Images/activities/facilities/FacilitiesBanner1.jpg" /></div>
+<p><a href="x32953.xml"><img alt="Fitness Centers" height="263" onmouseout="this.src='Images/activities/Resources page/ExerciseVenues_01.jpg';" onmouseover="this.src='Images/activities/Resources page/ExerciseVenues_hover_01_01.jpg';" src="Images/activities/Resources%20page/ExerciseVenues_01.jpg" width="703" /></a></p>
+<p><a href="x28068.xml"><img alt="ORC" height="262" onmouseout="this.src='Images/activities/Resources page/Resourcepage_02.jpg';" onmouseover="this.src='Images/activities/Resources page/Resourcepage_hover_02.jpg';" src="Images/activities/Resources%20page/Resourcepage_02.jpg" width="703" /></a></p>
+<p><a href="x26501.xml"><img alt="Ropes Course" height="268" onmouseout="this.src='Images/activities/Resources page/Resourcepage_03.jpg';" onmouseover="this.src='Images/activities/Resources page/Resourcepage_hover_03.jpg';" src="Images/activities/Resources%20page/Resourcepage_03.jpg" width="703" /></a></p>
+<p><a href="x34042.xml"><img alt="Lodges" height="261" onmouseout="this.src='Images/activities/Resources page/ResourcesPagePics2_hover_04.jpg';" onmouseover="this.src='Images/activities/Resources page/ResourcesPagePics2_04.jpg';" src="Images/activities/Resources%20page/ResourcesPagePics2_hover_04.jpg" width="703" /></a></p>
+<p><a href="x10259.xml"><img alt="Adaptive Services" height="293" onmouseout="this.src='Images/activities/Resources page/ResourcesPagePics2_hover_05.jpg';" onmouseover="this.src='Images/activities/Resources page/ResourcesPagePics2_05.jpg';" src="Images/activities/Resources%20page/ResourcesPagePics2_hover_05.jpg" width="703" /></a></p>]]></IntroCopy><numColumns type="enumeration" values="1 2 3 4 5" label="Select number of cell columns." readonly="false" hidden="false" required="false">3</numColumns><xPower Type="List" List="xpowercomponent_Cell" Name="CellList" label="Cell List" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"><xPower Type="Component" Component="" Name="Cell" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"/></xPower><xPower Type="List" List="xpowercomponent_BannerAd" Name="BannerAds" label="Rotating Ads (650x216px required)" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="true"><xPower Type="Component" Component="x51395" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/><xPower Type="Component" Component="x51004" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/></xPower><xPower Type="Navigation" StartPage="" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="" Query="" Name="DeptEvents" label="Define Your Events Folder" readonly="false" hidden="false" required="false" Expanded="false"/><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="QuickLinksGroup" label="Quick Links Group" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Component="" Name="QuickLinks" label="Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x6784" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></AdminPage>

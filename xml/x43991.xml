@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content ID="x43991" Name="About Us" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Student Support Mission Statement</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">About Us</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p><link href="http://fonts.googleapis.com/css?family=Roboto+Condensed|Balthazar" rel="stylesheet" type="text/css" /> <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" /></p>
+<style type="text/css"><!--
+#mcontent { 
+    position: relative;
+    margin-left: 40px;
+}
+p.headinfo{
+color: #b9c532 !important;
+font-family: 'Roboto Condensed', sans-serif;
+font-size: 13pt;
+}
+.blockinfo {
+padding: 10px 10px 10px 50px;
+background-color: #848e8a;
+border-radius: 4px;
+width: 580px;
+}
+.blockinfo * {
+color: white !important;
+}
+.blockinfo h3{
+font-family: 'Roboto Condensed', sans-serif;
+}
+.block{
+margin-top: 50px;
+position: relative;
+}
+.block > img{
+    position: absolute;
+    left: -50px;
+    top: -42px;
+}
+.blockinfo > p{
+margin: 0px !important;
+}
+--></style>
+<div id="mcontent">
+<p class="headinfo">Assist and inspire students to prepare for, connect to, and get involved in their BYU-Idaho learning experience.</p>
+<div id="blocks">
+<div class="block"><img src="images/student-support/mission/pic2.jpg" />
+<div class="blockinfo">
+<h3>Assist</h3>
+<p>Students will ASSIST new and current students, parents and other by answering questions, resolving concerns, giving counsel, and directing them to the services and resources needed.</p>
+</div>
+</div>
+<div class="block"><img src="images/student-support/mission/pic1.jpg" />
+<div class="blockinfo">
+<h3>Inspire</h3>
+<p>Students will INSPIRE one another and those they work with they strive to "bring down the powers of heaven" and recognize the hand of the Lord throughout their service.</p>
+</div>
+</div>
+<div class="block"><img src="images/student-support/mission/pic5.jpg" />
+<div class="blockinfo">
+<h3>Prepare</h3>
+<p>Students will help new and current students to PREPARE for and participate in the BYU-Idaho disciple preparation center experience.</p>
+</div>
+</div>
+<div class="block"><img src="images/student-support/mission/pic4.jpg" />
+<div class="blockinfo">
+<h3>Connect</h3>
+<p>Students will help new and current students CONNECT to fellow students, faculty and administration and to BYU-Idaho</p>
+</div>
+</div>
+<div class="block"><img src="images/student-support/mission/pic3.jpg" />
+<div class="blockinfo">
+<h3>Involve</h3>
+<p>Students will help new and current students GET INVOLVED to strengthen their disciple leadership for future service in the Church, family, workplace, and community.</p>
+</div>
+</div>
+</div>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x19075" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

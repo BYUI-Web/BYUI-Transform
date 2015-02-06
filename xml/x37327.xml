@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<AdminPage ID="x37327" Name="Managers" Layout="admin_office_home.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Approved Housing Managers and Owners</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">View student-family &amp; community housing options.</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="false" required="false">0.5</Priority></xPower><MainMesgTop type="boolean" label="Enable to move &quot;Main Message&quot; to top of page" readonly="false" required="false" hidden="false">true</MainMesgTop><IntroCopy type="dhtml" label="Main Message" readonly="false" hidden="false" required="false"><![CDATA[<style><!--
+#page_title{display:none}
+#area {margin-top: -10px;}
+.body{padding: 20px; width: 490px; margin-right: 10px;}
+.rtcolumn {float:right;margin-top: 10px;}
+.rtcolumn a{text-decoration:none;}
+.rtcolumn a:visited {color:black; text-decoration:none;}
+.button{font-family: 'arial', sans-serif; text-decoration:none; height: 40px;width: 200px; background-color: #ef8c67; color: white; border: solid 2px #333333; margin-bottom: 10px; padding-top: 20px; text-align:center;}
+.button:hover {background-color: #ee612c}
+--></style>
+<div id="area"><img alt="Approved Housing Managers &amp; Owners" height="77" src="Images/housing/banners/man-title.png" width="710" /></div>
+<div>
+<div class="rtcolumn">
+<div class="button"><strong><a href="http://web.byui.edu/TIS/Support/Login?ReturnUrl=%2fTIS%2fManagement" target="_blank">TIS Log-In</a></strong></div>
+<div class="button"><strong><a href="Documents/housing/2013-schedule.pdf">Manager Forums</a></strong></div>
+<a href="Documents/housing/2013-schedule.pdf"> </a>
+<div class="button"><strong><a class="intLink" href="x44861.xml">Student Living</a></strong></div>
+</div>
+<a href="Documents/housing/Approved Housing Guidebook - Alex Revision - Final UPDATE.pdf"> </a>
+<div class="body">
+<p>Managers and Owners of Approved Housing have a unique opporunity to help students learn and live principles of Zion in their apartments.</p>
+<p>You may use the links to the right to get started. Don't forget to take a look at the calendar below.</p>
+<p><a href="x39529.xml">NEW! 2012-2014 Contract Dates</a></p>
+<p><a href="x22027.xml">Interested in developing Approved Housing?</a></p>
+<p><a href="x10085.xml">Interested in a management position?</a></p>
+<p><a href="Documents/Admin_Offices/Housing/Approved Housing Guidebook.pdf">Approved Housing Guidebook</a></p>
+</div>
+</div>]]></IntroCopy><numColumns type="enumeration" values="1 2 3 4 5" label="Select number of cell columns." readonly="false" hidden="false" required="false">2</numColumns><xPower Type="List" List="xpowercomponent_Cell" Name="CellList" label="Cell List" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="true"><xPower Type="Component" Component="" Name="Cell" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"/></xPower><xPower Type="List" List="xpowercomponent_BannerAd" Name="BannerAds" label="Rotating Ads" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"><xPower Type="Component" Component="" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/></xPower><xPower Type="Navigation" StartPage="x37330" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Children" Query="" Name="DeptEvents" label="Define Your Events Folder" readonly="false" hidden="false" required="false" Expanded="false"/><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="QuickLinksGroup" label="Quick Links Group" readonly="false" hidden="false" required="false" Expanded="true"><xPower Type="Component" Component="x9161" Name="QuickLinks" label="Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="x10660" Name="QuickLinks" label="Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="x10677" Name="QuickLinks" label="Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x9287" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></AdminPage>

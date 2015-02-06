@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<CommonPage ID="x67382" Name="Policies" Layout="default.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Policy</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Identity Policy</Abstract><xPower Type="GroupStart" GroupStart="" Name="ImageColumn" label="Image Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveRight type="boolean" hidden="true" label="Toggle column left or right (left is default)" readonly="false" required="false">false</MoveRight><xPower Type="List" List="xpowercomponent_ImageComponent" Name="ImageColumnComponentList" label="Images" readonly="false" hidden="false" required="false" Component="" CompTypes="LeftColumnImageComponent" Expanded="false"><xPower Type="Component" Component="" Name="ImageComponent" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent" Expanded="false"/></xPower><xPower Type="List" List="xpowercomponent_TextComponent" Name="TextColumnComponentList" label="Text Box" readonly="false" hidden="false" required="false" Component="" CompTypes="ColumnTextComponent" Expanded="false"><xPower Type="Component" Component="" Name="TextComponent" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent" Expanded="false"/></xPower></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p><strong>Policy</strong></p>
+<br />
+<p>This policy is intended to:</p>
+<ul>
+<li>Preserve the integrity of the mission of BYU-Idaho</li>
+<li>Secure the rights of students and faculty</li>
+<li>Safeguard the moral values and principles of The Church of Jesus Christ of Latter-day Saints</li>
+</ul>
+<br />
+<p>All solicitations, publicity and <a href="http://www.byui.edu/identity/glossary.htm" title="See glossary definition">Advertising</a> must be conducted in a manner in harmony with the standards and mission of BYU-Idaho.</p>
+<br />
+<p>All solicitations, publicity and <a href="http://www.byui.edu/identity/glossary.htm" title="See glossary definition">Advertising</a> must be approved by a <a href="http://www.byui.edu/identity/glossary.htm" title="See glossary definition">Communication Council</a> representative or by University Communications.</p>
+<br />
+<p><strong>COMMERCIAL SOLICITATIONS AND ADVERTISING</strong></p>
+<br />
+<p>The McKay library has specific publicity and <a href="http://www.byui.edu/identity/glossary.htm" title="See glossary definition">advertising</a> guidelines such as:</p>
+<ul>
+<li>All advertisements need to be submitted to the Library Administrative Office, and</li>
+<li>All printed advertisements will be put up and taken down by Library staff.</li>
+</ul>
+<br />
+<p>For a complete list, see <a href="http://www.byui.edu/studentpolicies/policy1_23.htm">http://www.byui.edu/studentpolicies/policy1_23.htm</a>.</p>
+<br />
+<p><strong>POSTER GUIDELINES</strong></p>
+<br />
+<p>Style: Any communication or promotional material sponsored by BYU-Idaho must incorporate the official  						BYU-Idaho<a href="http://www.byui.edu/identity/glossary.htm#Identity" title="See glossary definition"> identity </a>guidelines (www.byui.edu/identity) and carry the appropriate logo.</p>
+<p>Standards: Must be on poster-quality paper.</p>
+<p>Size: May be no larger than 14" x 22" and no smaller than 11" x 17."</p>
+<p>Quality: No more than two posters per event, per hallway are allowed.</p>
+<p>Approved: University Communications</p>
+<p>Location: Attached to bulletin boards and/or wall railings by pins or clasps; no tape.</p>
+<br />
+<p><strong>E-MAIL</strong></p>
+<br />
+<p>All-employee and all-student e-mails are first sent to Andy  Cargal of University Communications. He reviews messages for content and  appropriateness before being sent campus-wide. Submit email updates to  Andy at <a href="http://www.byui.edu/identity/newsdesk@byui.edu">newsdesk@byui.edu.</a></p>
+<br />
+<p>Messages should:</p>
+<ul>
+<li>Be no more than 100 words.</li>
+<li>Contain no graphics or attachments</li>
+</ul>
+<br /> <br />
+<p>Links:</p>
+<ul>
+<li><a href="http://www.byui.edu/studentpolicies/policy1_23.htm" title="Policy 1-23">Policy 1-23 On-Campus Publicity, </a><a href="http://www.byui.edu/identity/glossary.htm" title="See glossary definition">Advertising</a>, and Solicitations Policy</li>
+<li><a href="http://www.byui.edu/studentpolicies/policy1_23%28IBC%29.htm" title="IBC Groups">On-Campus Publicity, </a><a href="http://www.byui.edu/identity/glossary.htm" title="See glossary definition">Advertising</a>, and Solicitations Policy Adapted for IBC Groups </li>
+<li><a href="http://www.byui.edu/identity/UniversityQuickstartGuide.pdf" title="Quick Start Guide">Quick Start Guide</a></li>
+<li><a href="http://www.byui.edu/identity/MC_Advertising_Policy.pdf" title="MC Advertising Policy">MC Advertising Policy</a> </li>
+</ul>
+<br /> Questions? Send us an e-mail: <a href="mailto:ucidentity@byui.edu">ucidentity@byui.edu</a>]]></BodyCopy><xPower Type="Component" Component="x14" Name="RelatedLinks" label="Related Links" readonly="false" hidden="false" required="false" CompTypes="RelatedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="false" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x4147" Name="SiteControl" label="Site Control" readonly="true" hidden="true" required="false" CompTypes="SiteControl" Expanded="false"/></CommonPage>

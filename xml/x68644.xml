@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<CMenuNav ID="x68644" Name="LeftNav1"><Title type="string" label="Title" readonly="false" hidden="false" required="false">1: Get prepared for BYU-Idaho</Title><Description type="string" label="Description" readonly="false" hidden="false" required="false">Access resources to help you prepare for BYUI</Description><BodyCopy type="dhtml" label="BodyCopy" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+/*Flyout box is to hold the different flyouts margins begin at 0*/
+    #flyout_box{width:630px;height:615px; overflow:hidden;}
+    /*Shows the image of the student on the left 35% of 630px = 220.5px*/
+    #flyout_box #picture_box{
+        width: 35%; max-width: 220.5px; height: 615px; 
+        margin: 0px; padding: 0px; float: left;}
+    #flyout_box.step1 #picture_box{background-image: url('http://www.byui.edu/Images/student-support/newly_admitted_students/ambassador.png'); background-repeat: no-repeat;}
+    #flyout_box.step2 #picture_box{background-image: url('http://www.byui.edu/Images/student-support/newly_admitted_students/point.png'); background-repeat: no-repeat;}
+    #flyout_box.step3 #picture_box{background-image: url('http://www.byui.edu/Images/student-support/newly_admitted_students/bank.png'); background-repeat: no-repeat;}
+    #flyout_box.step4 #picture_box{background-image: url('http://www.byui.edu/Images/student-support/newly_admitted_students/fall_girl.png'); background-repeat: no-repeat;}
+    #flyout_box.step5 #picture_box{background-image: url('http://www.byui.edu/Images/student-support/newly_admitted_students/book_girl.png'); background-repeat: no-repeat;}
+    #flyout_box.step6 #picture_box{background-image: url('http://www.byui.edu/Images/student-support/newly_admitted_students/girl_student.png'); background-repeat: no-repeat;}
+    #flyout_box.step7 #picture_box{background-image: url('http://www.byui.edu/Images/student-support/newly_admitted_students/devotional.png'); background-repeat: no-repeat;}
+    /*Fonts and text areas*/
+    #flyout_box div, #flyout_box #bolder, #flyout_box #sub, #flyout_box ul{
+        font-family: Century Gothic,sans-serif; padding: 0px; margin: 0px;}
+    #flyout_box #bolder{font-weight: bold;}
+    #flyout_box #comment_box #bolder{font-size: 14px;}
+    #flyout_box #comment_box #sub{padding: 0px 0px 0px 10px; font-size: 13px;}
+    #flyout_box #text_box #bolder{color: #326BA9; font-size: 13.5px;}
+    #flyout_box #text_box #sub{margin: 0px 0px 10px 10px; font-size: 12px;}
+    #flyout_box #text_box #small{font-size: 11px; color: #326BA9;}
+    /*Shows the content on the right 65% of 630px = 409.5px*/
+    #flyout_box #content_box{
+        width: 65%; max-width: 409.5px; height: 615px;
+        margin: 0px; padding: 0px; display: inline-block;}
+    /*The blue comment box*/
+    #flyout_box #comment_box{
+        position: relative; left: -40px;
+        width: 389px; height: 80px;overflow: hidden;
+        padding: 5px 5px 5px 55px;
+        background-image: url('http://www.byui.edu/Images/student-support/newly_admitted_students/speech_bubble.png');
+        background-size: 100% 100%; background-repeat: no-repeat;}
+    /*The text_box contains all the info*/
+    #flyout_box #text_box{width: 399.5px; height: 460px; padding: 5px 0px 0px 10px;overflow: hidden;}
+    /*Unordered List with contact information*/
+    #flyout_box #text_box #contact {margin: 0px; padding: 0px 0px 10px 45px; font-size: 11px;}
+    #flyout_box #text_box #contact #email{list-style: url('http://www.byui.edu/Images/student-support/newly_admitted_students/email_icon.png');}
+    #flyout_box #text_box #contact #call{list-style: url('http://www.byui.edu/Images/student-support/newly_admitted_students/call_icon.png');}
+    #flyout_box #text_box #contact #facebook{list-style: url('http://www.byui.edu/Images/student-support/newly_admitted_students/facebook_icon.png');}
+    /*Buttons on the bottom of the page*/
+    #flyout_box #text_box div{float: left;}
+    #flyout_box #text_box div{width: 199px;}
+    #flyout_box #button_box a{display: inline-block; margin: 0px 0px 0px 55px;}
+    #flyout_box #button_box a:hover{position: relative; top: -5px;}
+--></style>
+<div class="step1" id="flyout_box">
+<div id="picture_box"></div>
+<div id="content_box">
+<div id="comment_box"><span id="bolder">Welcome to BYUI!</span>
+<p id="sub">Look over the steps below to see what you need to do in preparation for coming to college.</p>
+</div>
+<div id="text_box"><span id="bolder">Student Ambassador Program</span>
+<p id="sub">You have been assigned a volunteer Student Ambassador who will contact you regularly and answer your questions.</p>
+<ul id="contact">
+<li id="facebook"><a href="http://www.facebook.com/BYUIstudentambassadors" target="_blank">Like us on Facebook</a></li>
+<li id="email"><a href="mailto:studentambassadors@byui.edu">studentambassadors@byui.edu</a></li>
+<li id="call">(208) 496-1420</li>
+</ul>
+<span id="bolder">New Student Guide/Admitted Student Checklist</span>
+<p id="sub">Your Student Ambassador will help you through the Admitted Student Checklist found in the link below.</p>
+<span id="bolder">Get Connected</span>
+<p id="sub">All new students to BYU-Idaho are expected to move into their housing complex on Move-In Day and attend <a href="http://www.byui.edu/getconnected" target="_blank">Get Connected</a>. Plan now to fully participate in Get Connected.</p>
+<ul id="contact">
+<li id="email"><a href="mailto:getconnected@byui.edu">getconnected@byui.edu</a></li>
+</ul>
+<span id="bolder">Visit Days</span>
+<p id="sub">Visit days are personalized tours of campus including departments and campus services you wish to see for you and your family.</p>
+</div>
+<div id="button_box"><a href="http://www.byui.edu/Documents/student-support/2012%20New%20Student%20Guide-web%20version-2.pdf" target="_blank"> <img alt="New Student Guide" height="55px" src="http://www.byui.edu/Images/student-support/newly_admitted_students/guide.png" title="Click here to see the New Student Guide pdf file" /></a> <a href="http://www.byui.edu/Documents/student-support/new_student_checklist.pdf" target="_blank"> <img alt="Admitted Student Checklist" height="55px" src="http://www.byui.edu/Images/student-support/newly_admitted_students/checklist.png" title="Click here to see the Admitted Student Checklist pdf file" /></a> <a href="http://www.byui.edu/getconnected" target="_blank"> <img alt="Get Connected" height="55px" src="http://www.byui.edu/Images/student-support/newly_admitted_students/getconnected.png" title="Learn more about Get Connected" /></a></div>
+</div>
+</div>]]></BodyCopy></CMenuNav>

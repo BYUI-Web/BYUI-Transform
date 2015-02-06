@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<CollegeDeptHome ID="x8454" Name="Humanities Philosophy" Layout="college-dept_home.xsl">
+	<Title type="string" label="Title" readonly="false" hidden="false" required="true">Humanities and Philosophy</Title>
+	<Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Mission Statement</Abstract>
+	<xPower Type="List" List="MainImage" Name="MainImages" label="Top Image(s) (950px width, 335px height required)" readonly="false" hidden="false" required="false" Width="" Border="" Alignment="" Expanded="true" Height="">
+		<MainImage Expanded="true" AlternateText="" Border="" HSpace="" VSpace="" Width="950" Height="330" Alignment="">humanities-philosophy/Florence copy.jpg</MainImage><MainImage type="imagefile" readonly="false" hidden="false" required="false" Width="950" Border="" Alignment="" Expanded="true" Height="330" AlternateText="" HSpace="" VSpace="">humanities-philosophy/Salisbury copy.jpg</MainImage><MainImage type="imagefile" readonly="false" hidden="false" required="false" Width="950" Border="" Alignment="" Expanded="true" Height="330" AlternateText="" HSpace="" VSpace="">humanities-philosophy/Caen copy.jpg</MainImage><MainImage type="imagefile" readonly="false" hidden="false" required="false" Width="950" Border="" Alignment="" Expanded="true" Height="330" AlternateText="" HSpace="" VSpace="">humanities-philosophy/Luxor Hieroglyphs copy.jpg</MainImage><MainImage type="imagefile" readonly="false" hidden="false" required="false" Width="950" Border="" Alignment="" Expanded="true" Height="330" AlternateText="" HSpace="" VSpace="">humanities-philosophy/Priene copy.jpg</MainImage><MainImage type="imagefile" readonly="false" hidden="false" required="false" Width="950" Border="" Alignment="" Expanded="true" Height="330" AlternateText="" HSpace="" VSpace="">humanities-philosophy/Alhambra Palace copy.jpg</MainImage><MainImage type="imagefile" readonly="false" hidden="false" required="false" Width="950" Border="" Alignment="" Expanded="true" Height="330" AlternateText="" HSpace="" VSpace="">humanities-philosophy/Blue Mosque Istanbul copy.jpg</MainImage><MainImage type="imagefile" readonly="false" hidden="false" required="false" Width="950" Border="" Alignment="" Expanded="true" Height="330" AlternateText="" HSpace="" VSpace="">humanities-philosophy/Hagia Sophia copy.jpg</MainImage><MainImage type="imagefile" readonly="false" hidden="false" required="false" Width="950" Border="" Alignment="" Expanded="true" Height="330" AlternateText="" HSpace="" VSpace="">humanities-philosophy/Istanbul copy.jpg</MainImage><MainImage type="imagefile" readonly="false" hidden="false" required="false" Width="950" Border="" Alignment="" Expanded="true" Height="330" AlternateText="" HSpace="" VSpace="">humanities-philosophy/Jerusalem night view copy.jpg</MainImage><MainImage type="imagefile" readonly="false" hidden="false" required="false" Width="950" Border="" Alignment="" Expanded="true" Height="330" AlternateText="" HSpace="" VSpace="">humanities-philosophy/Venice2.jpg</MainImage><MainImage type="imagefile" readonly="false" hidden="false" required="false" Width="950" Border="" Alignment="" Expanded="true" Height="330" AlternateText="" HSpace="" VSpace="">humanities-philosophy/tapestry.jpg</MainImage><MainImage type="imagefile" readonly="false" hidden="false" required="false" Width="950" Border="" Alignment="" Expanded="true" Height="330" AlternateText="" HSpace="" VSpace="">humanities-philosophy/St Apollinare Classe copy.jpg</MainImage></xPower>
+	<xPower Type="GroupStart" GroupStart="" Name="Main" label="Main Content" readonly="false" hidden="false" required="false" Expanded="true">
+		<FeaturedNews type="multiselect" label="Highlighted News" readonly="false" hidden="false" required="false" PageSize="" Query_SelectedFields="@Name|@ID" Query_LocationRoot="x7854" Query_PageType="NewsDetail" MaxChoices="1" AdditionalFilter_XPathQuery=""/>
+		<OtherNews type="multiselect" label="Featured Student" readonly="false" hidden="false" required="false" PageSize="" Query_SelectedFields="@Name|@ID" Query_LocationRoot="x7854" Query_PageType="NewsDetail" MaxChoices="1" AdditionalFilter_XPathQuery=""></OtherNews>
+		<FullText type="boolean" label="Check for text body to use the full width of the page.">false</FullText>
+		<TopText type="boolean" label="Check to put text body above Highlighted News">false</TopText>
+		<BodyCopy type="dhtml" label="Optional Content" readonly="false" hidden="false" required="false">
+			<![CDATA[<p style="text-align: left;"><span style="font-family: 'times new roman', times; font-size: large;">"The studies of humanities gives an aspect of living that is essential. You need technology. You need the professions. You need all of those things, but we need the heart also, and the humanities speak to the heart, men's aspirations for the good and the beautiful."</span></p>
+<p style="text-align: right;"><span style="font-family: 'times new roman', times; font-size: large;"></span><span style="font-family: 'times new roman', times; font-size: large;">-</span><span style="font-family: 'times new roman', times; font-size: large;">Pres. Gordon B. Hinckley</span></p>
+<p style="text-align: right;"></p>
+<p style="text-align: left;"></p>
+<p style="text-align: left;"><span style="font-family: 'times new roman', times; font-size: large;">&nbsp;</span></p>
+<p style="text-align: left;"></p>]]></BodyCopy>
+	</xPower>
+	<BannerAd type="multiselect" label="Rotating Ads (225px width, 171px height required)" readonly="false" hidden="false" required="false" PageSize="" Query_SelectedFields="@Name|@ID" Query_LocationRoot="x6922" Query_PageType="BannerAdComponent" MaxChoices="" AdditionalFilter_XPathQuery=""/>
+	<xPower Type="GroupStart" GroupStart="" Name="QuickLinksGroup" label="Quick Links Group" readonly="false" hidden="false" required="false" Expanded="false">
+		<xPower Type="Component" Component="" Name="QuickLinks" label="Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/>
+		<xPower Type="Component" Component="" Name="QuickLinks" label="Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/>
+		<xPower Type="Component" Component="" Name="QuickLinks" label="Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/>
+	</xPower>
+	<xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/>
+	<xPower Type="Navigation" StartPage="x7854" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Children" Query="" Name="DeptArticles" label="Define Your Articles Folder" readonly="false" hidden="true" required="false" Expanded="false" Exports="">
+		<Exports type="string">&lt;Export&gt;&lt;Name&gt;ALText&lt;/Name&gt;&lt;Value&gt;/*/ThumbnailImage/@AlternateText&lt;/Value&gt;&lt;/Export&gt;</Exports>
+	</xPower>
+	<xPower Type="Navigation" StartPage="x7857" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Children" Query="" Name="DeptEvents" label="Define Your Events Folder" readonly="true" hidden="true" required="false" Expanded="false"/>
+	<xPower Type="Navigation" StartPage="x7845" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Children" Query="" Name="DeptAds" label="Define Your Ads Folder" readonly="true" hidden="true" required="false" Expanded="false" Exports="">
+		<Exports type="string">&lt;Export&gt;&lt;Name&gt;Caption&lt;/Name&gt;&lt;Value&gt;/*/Caption&lt;/Value&gt;&lt;/Export&gt;</Exports>
+	</xPower>
+	<xPower Type="Component" Component="" Name="Message" label="Institutional Message" readonly="true" hidden="true" required="false" CompTypes="InstitutionalMessage" Expanded="false"/>
+	<xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false">
+		<BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/>
+		<MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/>
+		<NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow>
+		<NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex>
+		<NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP>
+		<Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="false" required="false">0.5</Priority>
+	</xPower>
+	<xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/>
+	<xPower Type="Component" Component="x1902" Name="SiteControl" label="Site Control" readonly="true" hidden="true" required="false" CompTypes="SiteControl" Expanded="false"/>
+</CollegeDeptHome>

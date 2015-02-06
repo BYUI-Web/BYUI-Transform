@@ -1,0 +1,400 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<Content ID="x50521" Name="Learning Model" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Learning Model - Education Week 2014</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Learn how to get involved during Education Week at BYU-Idaho.</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<p>fsecondary</p>
+<style><!--
+/* Set the nav menu item for the current page to appear selected */
+ul#top-nav > li > a#what-to-expect {
+	color: #ffcf06;
+	background-color: #000;
+}
+
+.learning-section-title h2 {
+	font-family: "Century Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.secondary-title > p {
+	font-family: Georgia, Times, serif !important;
+}
+
+/* Style for the rest of the page */
+.number-point {
+	height: 26px;
+	width: 26px;
+	margin: 3px 15px 0 0;
+	padding: 0;
+	-webkit-border-radius: 13px;
+	-moz-border-radius: 13px;
+	border-radius: 13px;
+	background: #000;
+	text-align: center;
+	float: left;
+}
+
+.number-point > p {
+	color: #ffcf06 !important;
+	font-family: "Century Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	margin: 0;
+	height: 100%;
+	line-height: 24px !important;
+}
+
+div#learning-section-container1,
+div#learning-section-container2,
+div#learning-section-container3
+{
+	margin: 2px 0 10px 0;
+	border: solid 1px #777;
+	-webkit-box-shadow: 2px 2px 3px #888;
+	-moz-box-shadow: 2px 2px 3px #888;
+	box-shadow: 2px 2px 3px #888;
+	border-collapse: separate;
+	position: relative;
+}
+
+div.learning-section-title {
+	width: 370px;
+	height: 55px;
+	padding: 10px 0 0 20px;
+	background-color: #0f6cb6;
+	position: relative;
+}
+
+.header-container:hover h2,
+.header-container:hover .secondary-title > p
+{
+	text-decoration: underline;
+}
+
+.learning-section-title > h2 {
+	font-size: 1.7em;
+	text-transform: uppercase;
+	display: block;
+	padding: none;
+	line-height: 0.75em;
+}
+
+.secondary-title {
+	position: absolute;
+	top: 0;
+	left: 362px;
+	height: 100%;
+	width: 586px;
+	background: #000;
+}
+
+.learning-section-title > h2,
+.secondary-title > p
+{
+	color: #fff !important;
+}
+
+div.secondary-title > p {
+	margin: 16px 0 0 60px;
+	font-size: 1.4em;
+}
+
+div.text-container {
+	width: 337px;
+	padding-right: 25px;
+}
+
+div.image-container {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 586px;
+	height: 100%;
+	overflow: hidden;
+}
+
+div#prepare-content,
+div#participate-content,
+div#ponder-content
+{
+	width: 100%;
+	position: relative;
+}
+
+.header-container
+{
+	cursor: pointer;
+}
+
+.blue-arrow {
+	position: absolute;
+	top: 24px;
+	left: 362px;
+	width: 7px;
+	height: 13px;
+	background: url("Images/university-relations/education-week/side-arrow-blue.png") no-repeat;
+}
+
+div#down-arrow1,
+div#down-arrow2,
+div#down-arrow3
+{
+	width: 28px;
+	height: 28px;
+	position: absolute;
+	top: 14px;
+	right: 20px;
+	background: url("images/university-relations/education-week/up-down-arrow.png") no-repeat 0 0;
+}
+
+div#prepare-click:hover div#down-arrow1,
+div#participate-click:hover div#down-arrow2,
+div#ponder-click:hover div#down-arrow3
+{
+	background: url("images/university-relations/education-week/up-down-arrow.png") no-repeat 0 -28px;
+}
+
+div#up-arrow1,
+div#up-arrow2,
+div#up-arrow3
+{
+	width: 28px;
+	height: 28px;
+	position: absolute;
+	top: 14px;
+	right: 20px;
+	background: url("images/university-relations/education-week/up-down-arrow.png") no-repeat -28px 0;
+}
+
+div#prepare-click:hover div#up-arrow1,
+div#participate-click:hover div#up-arrow2,
+div#ponder-click:hover div#up-arrow3
+{
+	background: url("images/university-relations/education-week/up-down-arrow.png") no-repeat -28px -28px;
+}
+
+p.subheading {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+p.info-text,
+ul.item-list
+{
+	margin: 0;
+	padding: 14px 14px 7px 14px;
+	font-family: "Century Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+ul.item-list {
+	margin-left: 18px;
+}
+
+ul.item-list > li {
+	margin-bottom: 7px;
+}
+ul.item-list > ul > li {
+	margin: 10px 18px;
+	padding: 0;
+}
+--></style>
+<div class="style-container">[x50728][x51144]</div>
+<div>[x91900]</div>
+<div>
+<script type="text/javascript">
+$(function() {
+// Hide content on page load using JS so that
+// it still shows up on JS-disabled browsers
+	// $("#prepare-content").hide(); <-- visible by default
+	$("#participate-content").hide();
+	$("#ponder-content").hide();
+});
+</script>
+</div>
+<div class="main-title-container">
+<h1>Learning Model</h1>
+</div>
+<div class="text-box">
+<p>Education Week seeks to strengthen individuals and families by encouraging <a href="http://www.byui.edu/about/defining-aspects/learning-model" target="_blank">an active learning process</a>&mdash;one that will enable you to learn and rediscover true principles and apply them to your life, thus helping you become a lifelong learner.</p>
+</div>
+<hr class="separator" /><!-- PREPARE SECTION -->
+<div id="learning-section-container1">
+<div class="header-container" id="prepare-click">
+<div class="learning-section-title">
+<div class="number-point">
+<p>1</p>
+</div>
+<h2>Prepare</h2>
+</div>
+<div class="secondary-title">
+<p><em>How can I best prepare myself to learn?</em></p>
+</div>
+<div class="blue-arrow"></div>
+<div id="down-arrow1"></div>
+</div>
+<div id="prepare-content">
+<div class="text-container">
+<p class="info-text">Prior to the conference, you'll have online access to class materials such as outlines, articles, slide presentations, etc. You can plan which classes to attend and prepare for a more fulfilling experience.</p>
+<p class="info-text subheading">Suggestions</p>
+<ul class="item-list">
+<li><strong>Prayerfully decide to attend</strong> Education Week.</li>
+<li><strong>Set goals</strong> you want to achieve before, during, and after Education Week.</li>
+<li><strong>Invite your friends and family members</strong> to come along with you to Education Week.</li>
+<li><strong>Study the scriptures</strong> for ways to learn and prepare.</li>
+<li><strong>Review this website</strong>, and plan to attend <a href="x50522.xml">classes</a> that will broaden your learning experience.</li>
+<li><strong>Plan how your children can attend</strong> their classes and who will watch them when needed.</li>
+<li><strong>Prepare to try new experiences</strong>, such as rope courses or evening concerts.</li>
+</ul>
+<p class="info-text subheading">Additional resources</p>
+<ul class="item-list">
+<li><a href="x94619.xml">Upward's Inforgraphic about Education Week</a></li>
+<li><a href="http://www.byui.edu/visitors/" target="_blank">BYU-Idaho Visitor Web Page</a></li>
+<li style="padding-bottom: 14px;"><a href="http://www.lds.org" target="_blank">The Church of Jesus Christ of Latter-day Saints</a></li>
+</ul>
+</div>
+<div class="image-container"><img alt="Prepare graphic" src="http://www.byui.edu/Images/university-relations/education-week/prepare-graphic.jpg" width="586" /></div>
+</div>
+</div>
+<!-- PARTICIPATE SECTION -->
+<div id="learning-section-container2">
+<div class="header-container" id="participate-click">
+<div class="learning-section-title">
+<div class="number-point">
+<p>2</p>
+</div>
+<h2>Participate</h2>
+</div>
+<div class="secondary-title">
+<p><em>How can I participate effectively?</em></p>
+</div>
+<div class="blue-arrow"></div>
+<div id="down-arrow2"></div>
+</div>
+<div id="participate-content">
+<div class="text-container">
+<p class="info-text">Get ready for an interactive experience. Teachers welcome your participation, as it makes the experience more enriching. While you'll find classes geared toward specific ages, everyone is welcome to any class.</p>
+<p class="info-text subheading">Suggestions</p>
+<ul class="item-list">
+<li><strong>Prepare questions</strong> to bring to class.</li>
+<li><strong>Meet at least one classmate</strong> per class.</li>
+<li><strong>Share insights</strong> on social media sites.</li>
+<li><strong>Participate</strong> in Education Week activities.</li>
+<li><strong>Meet teachers</strong> after class if time permits.</li>
+<li><strong>Thank hosting staff</strong> for their volunteer work.</li>
+<li><strong>Visit each building</strong> on campus.</li>
+<li><strong>Get involved</strong> with BYU&ndash;Idaho programs, initiatives, and the alumni community.</li>
+<li><strong>Discuss</strong> Education Week topics with your friends and family each night.</li>
+</ul>
+<p class="info-text subheading">Additional resources</p>
+<ul class="item-list">
+<li><a href="http://www.byui.edu/about/defining-aspects/learning-model" target="_blank">The BYU&ndash;Idaho Learning Model</a></li>
+<li><a href="http://www.byuiconnect.com" target="_blank">BYU&ndash;Idaho Student and Alumni Network</a></li>
+<li style="padding-bottom: 14px;"><a href="http://www.byui.edu/about/defining-aspects" target="_blank">Defining Aspects of BYU&ndash;Idaho</a></li>
+</ul>
+</div>
+<div class="image-container"><img alt="Participate graphic" src="images/university-relations/education-week/participate-graphic.jpg" width="586" /></div>
+</div>
+</div>
+<!-- PONDER SECTION -->
+<div id="learning-section-container3">
+<div class="header-container" id="ponder-click">
+<div class="learning-section-title">
+<div class="number-point">
+<p>3</p>
+</div>
+<h2>Ponder</h2>
+</div>
+<div class="secondary-title">
+<p><em>What happens after Education Week?</em></p>
+</div>
+<div class="blue-arrow"></div>
+<div id="down-arrow3"></div>
+</div>
+<div id="ponder-content">
+<div class="text-container">
+<p class="info-text">After Education Week, online follow-up materials will assist you in the process of lifelong learning and help you share with others what you experienced.</p>
+<p class="info-text subheading">Suggestions</p>
+<ul class="item-list">
+<li><strong>Prayerfully consider</strong> the implications of what you learned at Education Week.</li>
+<li><strong>Write in your journal</strong> about your experience.</li>
+<li><strong>Review</strong> your notes, handouts, and resource material.</li>
+<li><strong>Discuss</strong> Education Week topics with your friends and family.</li>
+<li><strong>Apply</strong>&nbsp;the teachings and materials in family home evening, Mutual, etc.</li>
+<li><strong>Create a study program</strong> to continue learning about topics discovered.</li>
+<li><strong>Set goals</strong> to prepare for next year's Education Week.</li>
+</ul>
+<!--
+<p class="info-text subheading">Additional resources</p>
+<ul class="item-list">
+<li><a href="http://www.byui.edu/education-week" target="_blank">Education Week home page</a></li>
+<li style="padding-bottom: 14px;"><a href="http://www.mormon.org" target="_blank">Mormon.org</a></li>
+</ul>
+--></div>
+<div class="image-container"><img alt="Ponder graphic" src="images/university-relations/education-week/ponder-graphic.jpg" width="586" /></div>
+</div>
+</div>
+<hr class="separator" />
+<div>
+<script type="text/javascript">
+$(function() {
+	// "Prepare" will be expanded by default, so the arrow should point up
+	$("#down-arrow1").attr("id", "up-arrow1");
+
+	// Is each section currently hidden?
+	var visible1 = true;  // have "Prepare" expanded by default
+	var visible2 = false;
+	var visible3 = false;
+
+	// Expands or contracts the corresponding section,
+	//    then changes the arrow to point up or down
+	function expandToggle(sectionId) {
+		var visible;
+		var idNumber;
+
+		// Set some section-specific values
+		if (sectionId == "#prepare") {
+			visible1 = !visible1;  // is the section visible?
+			visible = visible1;    // should arrow point up or down?
+			idNumber = "1";        // append to the end of string to
+			                       //   make a complete section name
+		} else if (sectionId == "#participate") {
+			visible2 = !visible2;
+			visible = visible2;
+			idNumber = "2";
+		} else {
+			visible3 = !visible3;
+			visible = visible3;
+			idNumber = "3";
+		}
+
+		// Make the arrow point up or down
+		if (visible) {
+			$("#down-arrow" + idNumber).attr("id", "up-arrow" + idNumber);
+		} else {
+			$("#up-arrow" + idNumber).attr("id", "down-arrow" + idNumber);
+		}
+
+		// Expand the section into and out of view
+		$(sectionId + "-content").slideToggle(800);
+	}
+
+	// Listen for a section to be clicked
+
+	$("#prepare-click").click(function() {
+		expandToggle("#prepare");       // pass only the first
+		                                //   part of the section name
+	});
+
+	$("#participate-click").click(function() {
+		expandToggle("#participate");  // pass only the first
+		                               //   part of the section name
+	});
+
+	$("#ponder-click").click(function() {
+		expandToggle("#ponder");      // pass only the first
+		                              //   part of the section name
+	});
+});
+</script>
+<script type="text/javascript">
+(function () {
+    console.log("                           .:'\n                       _.::'\n                      (_.'\n               __\n              / ')\n     _.----._/ /\n    /         /\n __/ (  | (  |\n/__.-'|_|--|_|\n\nSorry, but don't expect any dinosaurs. We couldn't get them this year.\n\n");
+}());
+</script>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="Component" Component="x28840" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="true" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="x50728" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x51144" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x91900" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x47794" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x48618" Name="site_index.css" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">site_index.css</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">site_index.css</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">	#box_selector{
+		width: 930px;
+		padding: 10px;
+		color: white;
+		background-color: #2e2e2e;
+	}
+	
+	#box_selector ul{
+		list-style: none;
+		width: 475px;
+		margin: 0px auto;
+	}
+	
+	#box_selector li{
+		display: inline;
+		float: left;
+		padding: 5px;
+	}
+	
+	#box_selector li a{
+		color: white;
+		text-transform: uppercase;
+		font-size: 12px;
+	}
+	
+	.box_column{
+		width: 235px;
+		float: left;
+		font-size: 12px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	
+	.box_column h3{
+		color: #666;
+		font-size: 14px;
+		font-weight: bold;
+	}
+	
+	.box_column ul{
+		list-style: none;
+		padding-right: 10px;
+	}
+	
+	.box_column li{
+		padding-top: 5px;
+	}
+		</ESContent></EmptyShell>

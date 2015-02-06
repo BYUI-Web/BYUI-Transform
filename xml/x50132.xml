@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x50132" Name="snipStudentLiving" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;meta http-equiv="X-UA-Compatible" content="IE=edge" /&gt;
+&lt;script type="text/javascript" src="http://code.jquery.com/jquery.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="Documents/housing/links/detectIEMode.js"&gt;&lt;/script&gt;
+
+&lt;script&gt;
+window.onload=function(){
+
+var p = navigator.platform;
+
+if ((document.all &amp;&amp; !(window.opera)) || navigator.userAgent.indexOf('Firefox') != -1  ||( p === 'iPad' || p === 'iPhone' || p === 'iPod' )){
+
+
+document.getElementById("loveB").href = "x50107.xml";
+document.getElementById("srB").href = "x50118.xml";
+document.getElementById("mrB").href = "x50112.xml";
+
+}
+
+};
+&lt;/script&gt;
+
+&lt;script&gt;
+$(document).ready(function(){
+var ie = $compMode();
+
+if (ie == 5 || ie == 7 || ie == 8 || ie == 9) {
+ $("#StudentLivingPlayer").attr('src', "Documents/housing/studentLivingPlayer/iePlayer0814.html");
+}
+});
+&lt;/script&gt;
+
+&lt;style&gt;
+#StudentLivingPlayer{
+position:absolute;
+left:104px;
+}
+#empty {
+width:740px;
+height:360px;
+margin:auto;
+}
+&lt;/style&gt;
+
+&lt;!-- STUDENT LIVING NAV BAR --&gt;
+&lt;div&gt;&lt;img src="Images/housing/navbar/studentliving/blank.png" width="63" /&gt;&lt;a class="intLink" href="x8708.xml"&gt;&lt;img onmouseout="this.src='Images/housing/navbar/studentliving/H.png';" onmouseover="this.src='Images/housing/navbar/studentliving/H-hover.png';" src="Images/housing/navbar/studentliving/H.png" width="148" /&gt;&lt;/a&gt;&lt;a class="intLink" href="x44817.xml"&gt;&lt;img src="Images/housing/navbar/studentliving/S-active.png" width="111" /&gt;&lt;/a&gt;&lt;a class="intLink" href="x44860.xml"&gt;&lt;img onmouseout="this.src='Images/housing/navbar/studentliving/W.png';" onmouseover="this.src='Images/housing/navbar/studentliving/W-hover.png';" src="Images/housing/navbar/studentliving/W.png" width="161" /&gt;&lt;/a&gt;&lt;a class="intLink" href="x44861.xml"&gt;&lt;img onmouseout="this.src='Images/housing/navbar/studentliving/A.png';" onmouseover="this.src='Images/housing/navbar/studentliving/A-hover.png';" src="Images/housing/navbar/studentliving/A.png" width="159" /&gt;&lt;/a&gt;&lt;a class="intLink" href="x44863.xml"&gt;&lt;img onmouseout="this.src='Images/housing/navbar/studentliving/M.png';" onmouseover="this.src='Images/housing/navbar/studentliving/M-hover.png';" src="Images/housing/navbar/studentliving/M.png" width="246" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;!-- END NAV BAR --&gt;
+
+&lt;div&gt;&lt;img height="61" src="Images/housing/Student Living/bannerStudentLiving.png" width="950" /&gt;&lt;/div&gt;
+&lt;div&gt;
+
+&lt;iframe id="StudentLivingPlayer" height="360" scrolling="no" src="Documents/housing/studentLivingPlayer/vPlayer0814.html" width="740"&gt;&lt;/iframe&gt;
+&lt;div id="empty"&gt;&lt;/div&gt;
+&lt;br/&gt;
+&lt;div&gt;&lt;a  id="loveB" class="intLink" href="x45053.xml"&gt;&lt;img height="30" src="Images/housing/blank.png" width="65" /&gt;&lt;img height="74" onmouseout="this.src='Images/housing/Student Living/ribbonL.png';" onmouseover="this.src='Images/housing/Student Living/ribbonLH.png';" src="Images/housing/Student%20Living/ribbonL.png" width="232" /&gt;&lt;/a&gt;&lt;a  id="srB" class="intLink" href="x45054.xml"&gt;&lt;img id="srB" height="74" onmouseout="this.src='Images/housing/Student Living/ribbonSR.png';" onmouseover="this.src='Images/housing/Student Living/ribbonSRH.png';" src="Images/housing/Student Living/ribbonSR.png" width="259" /&gt;&lt;/a&gt;&lt;a id="mrB" class="intLink" href="x45055.xml"&gt;&lt;img height="74" onmouseout="this.src='Images/housing/Student Living/ribbonMR.png';" onmouseover="this.src='Images/housing/Student Living/ribbonMRH.png';" src="Images/housing/Student Living/ribbonMR.png" width="248" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;style&gt;
+#dock {
+position:relative;
+width:550px;
+height:180px;
+margin:auto;
+}
+#dockImage {
+position:absolute;
+z-index:-1;
+height:71px;
+width:550px;
+bottom:15px;
+}
+#imageDiv {
+width:500px;
+margin:auto;
+}
+&lt;/style&gt;
+&lt;div id="dock"&gt;
+	&lt;div id="imageDiv"&gt;
+		&lt;a href="Documents/housing/guidebooks/Student%20Living%20Guidebook.pdf" target="_blank"&gt;&lt;img height="176" onmouseout="this.src='Images/housing/Student Living/dockSLG.png';" onmouseover="this.src='Images/housing/Student Living/dockSLGH.png';" src="Images/housing/Student Living/dockSLG.png" width="150" /&gt;&lt;/a&gt;
+		&lt;a class="intLink" href="x44931.xml"&gt;&lt;img height="176" onmouseout="this.src='Images/housing/Student Living/dockHEL.png';" onmouseover="this.src='Images/housing/Student Living/dockHELH.png';" src="Images/housing/Student Living/dockHEL.png" width="150" /&gt;&lt;/a&gt;
+		&lt;a href="Documents/Housing/HTMLtools/Family_Proclamation_Tool.html" target="_blank"&gt;&lt;img height="176" onmouseout="this.src='Images/housing/Student Living/dockFPT.png';" onmouseover="this.src='Images/housing/Student Living/dockFPTH.png';" src="Images/housing/Student%20Living/dockFPT.png" width="150" /&gt;&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;img id="dockImage" src="Images/housing/dock.png" /&gt;
+&lt;/div&gt;
+&lt;div id="backup"&gt;&lt;/div&gt;</ContentSnippet></ContentSnippet>

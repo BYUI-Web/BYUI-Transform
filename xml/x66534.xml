@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x66534" Name="Bright Ideas" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Bright Ideas</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">more stuff</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style type="text/css"><!--
+#page{width:710px;}
+    #page #content{width:78%;float:left;}
+#page #buttons{width: 18%; height: auto; min-height: 300px; float: left; padding: 1%; text-align: center;}
+    
+    #page #buttons .one,#page #buttons .two,
+    #page #buttons .three{
+        width: 100px; 
+        height: 100px; 
+        margin-left: auto; 
+        margin-top: 10px; 
+        margin-bottom: 10px;
+        display:block;
+    }
+    #page #buttons .one{background-image: url('Images/student-support/SRC/Graphics/src-sprite.gif');background-position:0 100px;}
+    #page #buttons .two{background-image: url('Images/student-support/SRC/Graphics/src-sprite.gif');background-position:0 304px;}
+    #page #buttons .three{background-image: url('Images/student-support/SRC/Graphics/src-sprite.gif');background-position:0 510px;}
+
+
+    #page #buttons .one:hover{background-image: url('Images/student-support/SRC/Graphics/src-sprite.gif'); background-position:0 202px;}
+    #page #buttons .two:hover{background-image: url('Images/student-support/SRC/Graphics/src-sprite.gif');background-position:0 407px;}
+    #page #buttons .three:hover{background-image: url('Images/student-support/SRC/Graphics/src-sprite.gif');background-position:0 612px;}
+
+    #page #buttons .live_chat{
+        margin-left:27px;
+        padding:10px 15px;
+        
+        background-color:#D21F22;
+        text-decoration:none;
+        color:#fff;
+        border-radius:4px;
+        font-family:sans-serif;
+        font-weight:bold;
+    }
+    #page #buttons .live_chat:hover{
+        background-color:#842325;
+    }
+--></style>
+<div id="page">
+<h1><img alt="Student Representative Council" src="Images/student-support/SRC/Ambassadors_header.png" /></h1>
+<div id="content">
+<title>Untitled document</title>
+<br />
+<p>The biggest issues facing students are often only visible to the students themselves. For that reason, the Student Representative Council is interested in your <em>Bright Ideas </em>to improve the student experience at BYU-Idaho.</p>
+<p>As you submit your <em>Bright Idea</em>s ensure that they are:</p>
+<p><strong>Global</strong>- The SRC is most able to help with problems and solutions that affect a large number of students. If you have an individual issue/complaint we encourage you to contact <a href="x37128.xml">Ask BYU-Idaho</a>, which can connect you directly to the person best able to resolve your individual problem.</p>
+<p><strong>Appropriate</strong> - Is your solution compatible with the objectives of the SRC and the <a href="x9274.xml">BYU-Idaho mission statement</a>?</p>
+<p><strong>Practical </strong>- Some issues that may keep a resolution from being practical are financial and legal concerns.</p>
+<p>Now, tell us your idea!</p>
+<iframe frameborder="0" height="240" name="internal" scrolling="auto" src="https://byui.qualtrics.com/SE/?SID=SV_79fWlC40CAP9R52" style="width: 600px; height: 600px;" width="320"></iframe></div>
+<div id="buttons"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Quick Links: </strong> <a class="one" href="x36938.xml"></a> <a class="two" href="x36275.xml"></a> <a class="three" href="x37055.xml"></a>
+<p style="margin-top: -34px;">&nbsp;</p>
+<a class="live_chat" href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=Student%20Support">Live Chat</a></div>
+</div>
+<p>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-33977325-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+</p>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/><!--071613 xpowercomponent_Optional to xPower--></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="x36320" CompTypes="HighlightedLinksComponent"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x36315" CompTypes="SiteControl"/></Content>

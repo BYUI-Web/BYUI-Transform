@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<ColumnTextComponent ID="x68607" Name="Getting Started Navigation"><TextColumn type="dhtml" label="Column of Text" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+.instrctNav {width: 240px; cursor: pointer; border-left: 1px solid #000000 !important; float: left; height: 520px;}
+.instrctNav ul {margin: 0px !important; list-style-type: none !important; padding-left: 0; width: 230px;}
+.instrctNav ul li {margin-bottom: 18px; list-style-type: none;}
+.instrctNav ul li ul {margin: 3px 0 0 10px !important;}
+.instrctNav ul li ul li {line-height: 16px; font-size: 12px !important; margin-bottom: 5px; list-style-type: none;}
+.instrctNav li {font-size: 14px !important; margin: 0 0 5px 10px;}
+.instrctNav a {text-decoration: none !important;}
+.instrctNav a:hover {text-decoration: underline !important;}
+--></style>
+<div class="instrctNav">
+<ul>
+<li><a href="x35899.xml">Home Page</a></li>
+<li><a href="x35738.xml#setup">Finding Web Pages</a></li>
+<li><a href="x35738.xml#Dashboard">Dashboard</a> 
+<ul>
+<li><a href="x35738.xml#Favorites">Favorites</a></li>
+<li><a href="x35738.xml#In_Progress">In Progress Items</a></li>
+<li><a href="x35738.xml#Recently_Visited">Recently Visited</a></li>
+<li><a href="x35738.xml#Active_Users">Active Users</a></li>
+</ul>
+</li>
+<li> <a href="x35738.xml#Igx_CMS_Interface_One">Web Builder Interface One</a> 
+<ul>
+<li><a href="x35738.xml#CMS_tool_bar">CMS Tool Bar</a></li>
+<li><a href="x35738.xml#CMS_tree">CMS Tree</a></li>
+</ul>
+</li>
+<li> <a href="x35738.xml#Web_Design">Creation &amp; Organization</a> 
+<ul>
+<li><a href="x35738.xml#Pages">Pages</a></li>
+<li><a href="x35738.xml#Components">Components</a></li>
+<li><a href="x35738.xml#fldr">Folders</a></li>
+<li><a href="x35738.xml#External_Link">External Link Component</a></li>
+</ul>
+</li>
+<li> <a href="x35738.xml#Igx_CMS_Interface_Two">Web Builder Interface Two</a> 
+<ul>
+<li><a href="x35738.xml#R_Click">Right Click Menu</a></li>
+<li><a href="x35738.xml#CMS_tabs">CMS Work Space</a></li>
+</ul>
+</li>
+<li> <a href="x35844.xml">Element Types Overview</a> </li>
+</ul>
+</div>]]></TextColumn></ColumnTextComponent>

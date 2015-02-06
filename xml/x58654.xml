@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<AdminPage ID="x58654" Name="Academic Factors" Layout="admin_office_home.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Academic Factors</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Academic Factors for BYU-Idaho</Abstract><MainMesgTop type="boolean" label="Enable to move &quot;Main Message&quot; to top of page" readonly="false" required="false" hidden="false">false</MainMesgTop><IntroCopy type="dhtml" label="Main Message" readonly="false" hidden="false" required="false"><![CDATA[<p class="ie7"><img alt="BYU-I students in classroom" height="150" src="Images/Admin_Offices/Admissions/Academic_Banner.jpg" title="BYU-I students in classroom" width="710" /></p>
+<p class="ie7"><strong>Admission to BYU-Idaho for new freshmen is based 40% on academic factors. These factors include:</strong></p>
+<ul>
+<li>Cumulative un-weighted high school grade point average (GPA)</li>
+<li>ACT or SAT scores</li>
+<li>AP or IB classes</li>
+<li><a class="intLink" href="x18617.xml">GED or COMPASS</a> scores (*required of students from home, private, charter school, and non-nationally accredited public school programs in place of the high school GPA)</li>
+</ul>
+<h3><img alt="Admission Requirements Graphic" height="323" src="Images/Admin_Offices/Admissions/AdmissionRequirements_Image_710(1).jpg" title="Admission Requirements Graphic" width="710" /></h3>
+<p><strong>Testing Requirements and Academic Minimums</strong></p>
+<p>New freshmen and transfer students with less than 24 credits completed by the application deadline must take the ACT or SAT.</p>
+<p>Since students often improve after taking the ACT or SAT a second time, we encourage students to test more than once. Mid-junior year of high school is a good time to begin testing. To learn more about the ACT or SAT tests or to sign up, please visit <a href="http://www.act.org/">www.act.org</a> or <a href="http://www.sat.org/">www.sat.org</a>. BYU-Idaho will use the highest score submitted prior to the application deadline.</p>
+<p><strong>New Freshmen &amp; Transfer Students with Less Than 24 Completed Semester (36 quarter hours) Credits</strong></p>
+<table border="0" style="background-color: #f5f5f5;">
+<tbody>
+<tr>
+<td><strong>Test/Category</strong></td>
+<td><strong>Minimum Acceptable Score</strong></td>
+<td><strong>Average Accepted Score</strong></td>
+</tr>
+<tr>
+<td>ACT</td>
+<td>16</td>
+<td>24</td>
+</tr>
+<tr>
+<td>SAT</td>
+<td>760-800</td>
+<td>1090-1120</td>
+</tr>
+<tr>
+<td>High School GPA</td>
+<td>2.0</td>
+<td>3.4</td>
+</tr>
+</tbody>
+</table>
+<p><em><strong>*BYU-Idaho does not require or consider the writing portion of the SAT or ACT.</strong></em></p>
+<p><strong>Transfer Students with 24 or More Completed Semester (36 quarter hours) Credits and Former Students</strong></p>
+<table border="0" style="background-color: #f5f5f5;">
+<tbody>
+<tr>
+<td><strong>Transfer Students</strong></td>
+<td><strong>Minimum Requirement</strong></td>
+</tr>
+<tr>
+<td>Cumulative College GPA</td>
+<td>2.5</td>
+</tr>
+<tr>
+<td><strong>Former Students</strong></td>
+<td><strong>Minimum Requirement</strong></td>
+</tr>
+<tr>
+<td>Cumulative BYU-Idaho GPA</td>
+<td>2.0</td>
+</tr>
+</tbody>
+</table>]]></IntroCopy><xPower Type="GroupStart" GroupStart="" Name="CellGroup" label="Cells" readonly="false" hidden="false" required="false" Expanded="false"><numColumns type="enumeration" values="1 2 3 4 5" label="Select number of cell columns." readonly="false" hidden="false" required="true">3</numColumns><xPower Type="List" List="xpowercomponent_Cell" Name="CellList" label="Cell List" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"><xPower Type="Component" Component="" Name="Cell" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"/></xPower></xPower><xPower Type="List" List="xpowercomponent_BannerAd" Name="BannerAds" label="Rotating Ads (650x216px required)" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"><xPower Type="Component" Component="" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/></xPower><xPower Type="Navigation" StartPage="" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="" Query="" Name="DeptEvents" label="Define Your Events Folder" readonly="false" hidden="false" required="false" Expanded="false"/><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="QuickLinksGroup" label="Quick Links Group" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Component="" Name="QuickLinks" label="Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x17636" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></AdminPage>

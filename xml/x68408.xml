@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<TrainingDetails ID="x68408" Name="Page Types and Schemas" Layout="default-training.xsl"><IfComponent type="boolean" label="Check if this is a component tutorial" ID="1">false</IfComponent><Title type="string" label="Title" readonly="false" hidden="false" required="true" ID="2">Page Types and Schemas</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true" ID="3">This is a list of page types and their corresponding schemas</Abstract><TrainingImage type="imagefile" label="Page Type Image" hidden="false" readonly="false" required="false" ID="4" Width="365" Height="541">Internal_Use/Ingeniux_Training/Page Type Examples.png</TrainingImage><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" ID="5"><![CDATA[<style type="text/css"><!--
+.pageTypeTable {
+border: solid black 1px;
+}
+.pageTypeTable td{
+border: solid black 1px;
+padding: 0 5px 0 5px;
+}
+.pageTypeTable th{
+border: solid black 1px;
+padding: 0 5px 0 5px;
+text-align: center;
+}
+.pageTypeTable .odd{
+background-color: #dddddd;
+}
+.pageTypeTable .even{
+background-color: #eeeeee;
+}
+--></style>
+<p>This is a&nbsp;summary list of all the page types that are on Ingeniux. This list should help you find the correct schema type. This list is based on the page type <strong>example</strong> name. The examples are list in folder Page Type Examples in the folders of the Ingeniux CMS System. This page will be updated on a continual baises as new pages are created and old ones are removed.</p>
+<p>&nbsp;</p>
+<p>Please note that some templates are not generally available, as they have unique purposes restricted to academic, administrative, or site-wide functions.</p>
+<p>&nbsp;</p>
+<h2>How to create a new page.</h2>
+<p>1.To create a new page go to the location where you want to create your page.</p>
+<p>2.Go to the top of the Ingeniux Window and click new then page</p>
+<p><img alt="New button" height="31" src="Images/Ingeniux_Training/New button.png" width="70" /></p>
+<p>3.In the window type in the name of your new page</p>
+<p><img alt="New Page Window" height="221" src="Images/Ingeniux_Training/Create new page.png" width="370" /></p>
+<p>4. Select the corresponding scheme at the bottom of the window</p>
+<p>5. Click create</p>
+<p>&nbsp;</p>
+<h2>Summary List</h2>
+<table class="pageTypeTable">
+<tbody>
+<tr>
+<th>Page Type</th><th>Schema</th><th>Description</th>
+</tr>
+<tr class="odd">
+<td>A-Z Index Info Page type</td>
+<td>A-Z Info Page</td>
+<td>Index page for the whole site. Only used by the root of the website.</td>
+</tr>
+<tr class="even">
+<td>Advising | Career and Academic Front</td>
+<td>Career Academic page</td>
+<td>Home page of Career and Academic Department</td>
+</tr>
+<tr class="odd">
+<td>Advising | Grad Planner</td>
+<td>(!Broken)</td>
+<td>Glad Planner</td>
+</tr>
+<tr class="even">
+<td>Advising | Group Index</td>
+<td>Group Index</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Advising | Major Information</td>
+<td>Major Info Page</td>
+<td>A page for displaying information for the majors offered at BYu-Idaho</td>
+</tr>
+<tr class="even">
+<td>Department | Front</td>
+<td>Department Page</td>
+<td>Front page to all of the Departments</td>
+</tr>
+<tr class="odd">
+<td>General | Audience Front</td>
+<td>General Audience Page</td>
+<td>A landing page for the general public</td>
+</tr>
+<tr class="even">
+<td>General | Blank Page | With Header</td>
+<td>Blank Page with Header</td>
+<td>*Only for use by University Communications and Creative Services</td>
+</tr>
+<tr class="odd">
+<td>General | Blank Page | With Left Nav</td>
+<td>Blank Page with Left Nav</td>
+<td>A black page with a left navigation for custom content</td>
+</tr>
+<tr class="even">
+<td>General | Contact | Faculty</td>
+<td>Faculty Page</td>
+<td>Display Faculty Information</td>
+</tr>
+<tr class="odd">
+<td>General | Custom | Full Width</td>
+<td>Custom Page with Header</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>General | Image Gallery | 1.0</td>
+<td>Photo Gallery</td>
+<td>Photo gallery 1.0. Similar to IGX-Style Gallery</td>
+</tr>
+<tr class="odd">
+<td>General | Image Gallery | 2.0</td>
+<td>Image Gallery</td>
+<td>Image gallery for general use. User-changeable settings. it comes in two types full width images, and one with left navigation.</td>
+</tr>
+<tr class="even">
+<td>General | Index | A-Z Definition</td>
+<td>A-Z Info Page</td>
+<td>Index page for the whole site. Only used by the root of the website<br /></td>
+</tr>
+<tr class="odd">
+<td>General | Index | A-Z Site Top Introduction</td>
+<td>A-Z Index</td>
+<td>List sites and pages alphabetically. Has a description area at the top.</td>
+</tr>
+<tr class="even">
+<td>General | Index | A-Z Site</td>
+<td>A-Z Index</td>
+<td>List sites and pages alphabetically</td>
+</tr>
+<tr class="odd">
+<td>General | Index | Section</td>
+<td>Section Index</td>
+<td>Creates a mini</td>
+</tr>
+<tr class="even">
+<td>General | Photo Gallery IGX-Style | Left Nav</td>
+<td>Photo Gallery</td>
+<td>Photo gallery proto type based off of the Ingeniux original</td>
+</tr>
+<tr class="odd">
+<td>General | Print Page</td>
+<td>(!Broken)</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>General | Section Front</td>
+<td>General Landing Page</td>
+<td>Section main page</td>
+</tr>
+<tr class="odd">
+<td>General | Section Front | Blue Links</td>
+<td>General Landing Page</td>
+<td>Section main page with blue links</td>
+</tr>
+<tr class="even">
+<td>General | Text and Image</td>
+<td>Common Text Page</td>
+<td>General Content page with optional image</td>
+</tr>
+<tr class="odd">
+<td>Home | Front</td>
+<td>Home</td>
+<td>The Main Home Page</td>
+</tr>
+</tbody>
+</table>
+<h3>News Room Page Types</h3>
+<table class="pageTypeTable">
+<tbody>
+<tr>
+<th>Page Type</th><th>Schema</th><th>Description</th>
+</tr>
+<tr class="even">
+<td>General | Detail | News</td>
+<td>News detail</td>
+<td>Detail page for news section</td>
+</tr>
+<tr class="odd">
+<td>General | Archive | News</td>
+<td>News Archive</td>
+<td>Archive page for news section</td>
+</tr>
+<tr class="even">
+<td>General | Front | News</td>
+<td>News Front</td>
+<td>Front page for news section</td>
+</tr>
+<tr class="odd">
+<td>General | Index | News</td>
+<td>News Index</td>
+<td>Index page for news section</td>
+</tr>
+</tbody>
+</table>]]></BodyCopy><xPower Type="References" References="" Name="PageUsage" label="Page or Component Reference" readonly="false" hidden="false" required="true" QueryLocationRoots="" IncludeCrossReferences="false" Depth="0" QuerySchemas="TrainingDetails" Expanded="false" ID="6"><Exports ID="7"></Exports></xPower><xPower Type="Navigation" StartPage="x5758" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Children" Query="" Name="FAQs" label="FAQs Navigation" readonly="true" hidden="true" required="false" Expanded="true" ID="8"/><xPower Type="Navigation" StartPage="x10283" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Children" Query="" Name="Icons" label="Element Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="true" ID="9"/></TrainingDetails>

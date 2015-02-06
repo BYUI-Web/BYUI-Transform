@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<TrainingDetails ID="x10614" Name="Image Gallery with Nav" Layout="default-training.xsl"><IfComponent type="boolean" label="Check if this is a component tutorial">false</IfComponent><Title type="string" label="Title" readonly="false" hidden="false" required="true">Image Gallery with Left Navigation</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">This page is for displaying large groups of images in a convenient format. It also includes the left-hand navigation.</Abstract><TrainingImage type="imagefile" label="Page Type Image" hidden="false" readonly="false" required="false">Internal_Use/Ingeniux_Training/Template Thumbnails/imageGalleryLeftNav.jpg</TrainingImage><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p>[Copy content from Image Gallery tutorial page, plus information about the navigation element.]</p>
+<p>Under Construction</p>
+<p><span style="text-decoration: underline;"><strong>For this page you will need to know:</strong></span></p>
+<ul>
+<li>How to upload an image</li>
+<li>How to create an image component and place it under the gallery page (As a child page)</li>
+</ul>
+<p><span style="text-decoration: underline;"><strong>Other Notes:</strong></span></p>
+<p>Images go under the gallery page.</p>
+<p>All images that are under the gallery page will appear in the gallery.</p>
+<p>Images that are under the gallery need to have the "make thumbnail" box checked, this will create a small thumbnail at the top of the page.</p>
+<p>This gallery is very customizable:</p>
+<p>Auto-rotation- When the page loads, do you want it to start the gallery automatically or not</p>
+<p>Thumbnails per page- How many thumbnails do you want displayed at the top of the page</p>
+<p>Seconds per image- How many seconds per image do you want the player to pause on any given thumbnail.</p>]]></BodyCopy><xPower Type="References" References="" Name="PageUsage" label="Page or Component Reference" readonly="false" hidden="false" required="true" QueryLocationRoots="" IncludeCrossReferences="false" Depth="0" QuerySchemas="TrainingDetails" Expanded="false"><Exports></Exports></xPower><xPower Type="Navigation" StartPage="x5758" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Children" Query="" Name="FAQs" label="FAQs Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Navigation" StartPage="x10283" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Children" Query="" Name="Icons" label="Element Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/></TrainingDetails>

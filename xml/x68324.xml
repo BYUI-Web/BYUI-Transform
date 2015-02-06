@@ -1,0 +1,1078 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<Content ID="x68324" Name="Editor Tools" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Editor Tools</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Documentation for the Ingeniux Web Editor and its tools.</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><xPower Type="List" List="Image" Name="RelatedImage" label="Related Image(s)" readonly="false" hidden="true" required="false" Border="" Alignment="" Expanded="false" Height="" Width=""><Image type="imagefile" readonly="false" hidden="true" required="false" Border="" Alignment="" Expanded="true" Height="" Width="" AlternateText="" HSpace="" VSpace=""></Image></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+.acdmevent, .acdmhome, .adminhome, .home, .content, .contentfaq, .employee, .eventdetail, .imgindex, .newsartl, .policy {display: block !important;}
+
+.cell, .column, .faqcomp, .sitecntlcmn {display: block !important;}
+
+#content_main {overflow: visible !important;}
+#eleBody {width: 710px;}
+.elmBox { float: left; width: 650px; }
+.blert { height: 25px; border-bottom: 1px solid black !important; border-top: 1px solid #FFFFFF !important; border-left: 1px solid #FFFFFF !important; width: inherit; margin-bottom: 5px !important; cursor: pointer; padding: 4px 0 0 4px !important; font-family: helvetica;}
+.blert:hover {background-color: #FFFF00 !important; opacity: 0.75; border:1px solid #000000 !important;}
+.blert a { text-decoration: none !important;}
+.blert strong {font-size: 14px !important;}
+#row_1, #row_2, #row_3 { width: 610px; position: relative; display:block; float: left;}
+#iconNav { background-color: #CFD0D4; margin: 10px 15px; float: left; padding: 5px 0 5px 5px; width: 610px;}
+#iconNav a { text-decoration: none  !important}
+.blert div.icon, div.navIcon, div.separator { background: url(Images/Internal_Use/Ingeniux_Training/Icons/icons.gif) no-repeat scroll 20px 20px #CFD0D4; position: relative; display:block; height: 20px; width: 20px; float: left;}
+.blert div.menuIcon, div.navMenuIcon { background: url(Images/Internal_Use/Ingeniux_Training/Icons/EditMenu.png) no-repeat scroll #CFD0D4; position: relative; display:block; height: 24px; margin: 2px; margin-right: 30px; float: left;}
+.blert div.menuIcon { background: url(Images/Internal_Use/Ingeniux_Training/Icons/EditMenu.png) no-repeat scroll #CFD0D4; position: relative; display:block; height: 24px; margin-right: 30px; float: left;}
+.blert div.icon, .blert div.iconMenu { margin-right: 30px;}
+div.navIcon {margin-right: 2px; cursor: pointer; border: 1px solid #CFD0D4;}
+div.navMenuIcon {margin: 0; cursor: pointer; border: 1px solid #CFD0D4;}
+div.navIcon:hover, div.navMenuIcon:hover {border: 1px solid black;}
+.pageOptions {float: right; height: 20px;}
+.pageOptions a p {margin-right: 10px;}
+.pageOptions p {float: left; color: #000000; cursor: pointer;}
+.pageOptions p:hover {text-decoration: underline;}
+div.separator {background-position: -180px 0; margin: 2px 2px 0 4px !important; width: 2px; }
+.hiddenText {padding-top: 5px !important; display: none; margin: 8px 0 15px !important; border-left: 1px dotted black !important; border-right: 1px dotted black !important; padding: 0 15px !important; width: 96%; font-family: helvetica;}
+.hiddenText .introtxt {border: 1px solid black; padding: 8px; width: 595px;}
+.hiddenText strong { margin-left: 0 !important; font-size: inherit !important; color: #000000 !important;}
+.subTitle {margin: 0 0 2px 8px !important; font-weight: bold;}
+.elmBox span {float:none !important;}
+.elmBox li {padding: 0 !important;}
+.subBlock {position: relative; left: 30px; width: 550px; margin: 5px 0 15px !important;}
+#youTubeBlert:hover {background-color: #FFFFFF !important; border-top: 1px solid #FFFFFF !important; border-left: 1px solid #FFFFFF !important; width: inherit; border-right: 1px solid #FFFFFF !important; width: inherit; opacity: 1.0}
+.expandBody {margin-right: 10px;}
+--></style>
+<div id="eleBody"><!--<img alt="Web Content Editor" height="110" src="Images/Internal_Use/Ingeniux_Training/Element Views/Editor.png" _mce_src="Images/Internal_Use/Ingeniux_Training/Element Views/Editor.png" title="Web Content Editor" width="570" />
+<p> </p>
+-->
+<div class="intro">
+<p>The (X)HTML Editor uses Tiny MCE to provide a rich text environment for formatting content. The content generated with this editor is validated for (X)HTML compliance.</p>
+</div>
+<h3 style="margin-left: 15px;">Click on a button below for instructions.</h3>
+<div id="iconNav">
+<div id="row_1"><a href="#Edit_HTML_Source" title="Edit HTML Source">
+<div class="navIcon" id="ID_Edit_HTML_Source" style="background-position: -260px 0;"></div>
+</a>
+<div class="separator"></div>
+<a href="#Cut" title="Cut">
+<div class="navIcon" id="ID_Cut" style="background-position: -680px 0;"></div>
+</a> <a href="#Copy" title="Copy">
+<div class="navIcon" id="ID_Copy" style="background-position: -700px 0;"></div>
+</a> <a href="#Paste" title="Paste">
+<div class="navIcon" id="ID_Paste" style="background-position: -560px 0;"></div>
+</a> <a href="#Paste_from_Word" title="Paste from Word">
+<div class="navIcon" id="ID_Paste_from_Word" style="background-position: -380px -20px;"></div>
+</a> <a href="#Paste_as_Plain_Text" title="Paste as Plain Text">
+<div class="navIcon" id="ID_Paste_as_Plain_Text" style="background-position: -360px -20px;"></div>
+</a>
+<div class="separator"></div>
+<a href="#Undo" title="Undo">
+<div class="navIcon" id="ID_Undo" style="background-position: -160px 0;"></div>
+</a> <a href="#Redo" title="Redo">
+<div class="navIcon" id="ID_Redo" style="background-position: -100px 0;"></div>
+</a>
+<div class="separator"></div>
+<a href="#Bold" title="Bold">
+<div class="navIcon" id="ID_Bold" style="background-position: 0 0;"></div>
+</a> <a href="#Italic" title="Italic">
+<div class="navIcon" id="ID_Italic" style="background-position: -60px 0;"></div>
+</a> <a href="#Underline" title="Underline">
+<div class="navIcon" id="ID_Underline" style="background-position: -140px 0;"></div>
+</a> <a href="#Strikethrough" title="Strikethrough">
+<div class="navIcon" id="ID_Strikethrough" style="background-position: -120px 0;"></div>
+</a> <a href="#Superscript" title="Superscript">
+<div class="navIcon" id="ID_Superscript" style="background-position: -620px 0;"></div>
+</a> <a href="#Subscript" title="Subscript">
+<div class="navIcon" id="ID_Subscript" style="background-position: -600px 0;"></div>
+</a>
+<div class="separator"></div>
+<a href="#Ordered_list" title="Ordered list">
+<div class="navIcon" id="ID_Ordered_list" style="background-position: -80px 0;"></div>
+</a> <a href="#Unordered_list" title="Unordered list">
+<div class="navIcon" id="ID_Unordered_list" style="background-position: -20px 0;"></div>
+</a>
+<div class="separator"></div>
+<a href="#Outdent" title="Outdent">
+<div class="navIcon" id="ID_Outdent" style="background-position: -540px 0;"></div>
+</a> <a href="#Indent" title="Indent">
+<div class="navIcon" id="ID_Indent" style="background-position: -400px 0;"></div>
+</a>
+<div class="separator"></div>
+<a href="#Align_left" title="Align left">
+<div class="navIcon" id="ID_Align_left" style="background-position: -460px 0;"></div>
+</a> <a href="#Align_center" title="Align center">
+<div class="navIcon" id="ID_Align_center" style="background-position: -420px 0;"></div>
+</a> <a href="#Align_right" title="Align right">
+<div class="navIcon" id="ID_Align_right" style="background-position: -480px 0;"></div>
+</a> <a href="#Align_full" title="Align full">
+<div class="navIcon" id="ID_Align_full" style="background-position: -440px 0;"></div>
+</a>
+<div class="separator"></div>
+<a href="#Blockquote" title="Blockquote">
+<div class="navIcon" id="ID_Blockquote" style="background-position: -220px 0;"></div>
+</a></div>
+<div id="row_2"><a href="#Insert_horizontal_ruler" title="Insert horizontal ruler">
+<div class="navIcon" id="ID_Insert_horizontal_ruler" style="background-position: -360px 0;"></div>
+</a><a href="#Insert_edit_link" title="Insert/edit link">
+<div class="navIcon" id="ID_Insert_edit_link" style="background-position: -500px 0;"></div>
+</a> <a href="#Unlink" title="Unlink">
+<div class="navIcon" id="ID_Unlink" style="background-position: -640px 0;"></div>
+</a> <a href="#Insert_edit_anchor" title="Insert/edit anchor">
+<div class="navIcon" id="ID_Insert_edit_anchor" style="background-position: -200px 0;"></div>
+</a> <a href="#Insert_edit_image" title="Insert/edit image">
+<div class="navIcon" id="ID_Insert_edit_image" style="background-position: -380px 0;"></div>
+</a>
+<div class="separator"></div>
+<a href="#Insert_edit_embedded_media" title="Insert / edit embedded media">
+<div class="navIcon" id="ID_Insert_edit_embedded_media" style="background-position: -320px -20px;"></div>
+</a> <a href="#Inserts_a_new_table" title="Inserts a new table">
+<div class="navIcon" id="ID_Inserts_a_new_table" style="background-position: -580px -20px;"></div>
+</a>
+<div class="separator"></div>
+<a href="#Table_row_properties" title="Table row properties">
+<div class="navIcon" id="ID_Table_row_properties" style="background-position: -780px -20px;"></div>
+</a> <a href="#Table_cell_properties" title="Table cell properties">
+<div class="navIcon" id="ID_Table_cell_properties" style="background-position: -600px -20px;"></div>
+</a>
+<div class="separator"></div>
+<a href="#Insert_row_before" title="Insert row before">
+<div class="navIcon" id="ID_Insert_row_before" style="background-position: -740px -20px;"></div>
+</a> <a href="#Insert_row_after" title="Insert row after">
+<div class="navIcon" id="ID_Insert_row_after" style="background-position: -720px -20px;"></div>
+</a> <a href="#Delete_row" title="Delete row">
+<div class="navIcon" id="ID_Delete_row" style="background-position: -660px -20px;"></div>
+</a>
+<div class="separator"></div>
+<a href="#Insert_column_before" title="Insert column before">
+<div class="navIcon" id="ID_Insert_column_before" style="background-position: -700px -20px;"></div>
+</a> <a href="#Insert_column_after" title="Insert column after">
+<div class="navIcon" id="ID_Insert_column_after" style="background-position: -680px -20px;"></div>
+</a> <a href="#Remove_column" title="Remove column">
+<div class="navIcon" id="ID_Remove_column" style="background-position: -640px -20px;"></div>
+</a>
+<div class="separator"></div>
+<a href="#Split_merged_table_cells" title="Split merged table cells">
+<div class="navIcon" id="ID_Split_merged_table_cells" style="background-position: -800px -20px;"></div>
+</a> <a href="#Merge_table_cells" title="Merge table cells">
+<div class="navIcon" id="ID_Merge_table_cells" style="background-position: -760px -20px;"></div>
+</a></div>
+<div id="row_3"><a href="#Font_size" title="Font size">
+<div class="navMenuIcon" id="ID_Font_size" style="background-position: -1px 0; width: 80px;"></div>
+</a> <a href="#Styles" title="Styles">
+<div class="navMenuIcon" id="ID_Styles" style="background-position: -79px 0; width: 68px;"></div>
+</a> <a href="#Format" title="Format">
+<div class="navMenuIcon" id="ID_Format" style="background-position: -145px 0; width: 76px;"></div>
+</a>
+<div class="separator"></div>
+<a href="#Toggle_guidelines_invisible_elements" title="Toggle guidelines/invisible elements">
+<div class="navIcon" id="ID_Toggle_guidelines_invisible_elements" style="background-position: -660px 0;"></div>
+</a> <a href="#Insert_custom_character" title="Insert custom character">
+<div class="navIcon" id="ID_Insert_custom_character" style="background-position: -240px 0;"></div>
+</a> <a href="#Help" title="Help">
+<div class="navIcon" id="ID_Help" style="background-position: -340px 0;"></div>
+</a>
+<div class="separator"></div>
+<a href="#Find" title="Find">
+<div class="navIcon" id="ID_Find" style="background-position: -520px -20px;"></div>
+</a> <a href="#Find_Replace" title="Find/Replace">
+<div class="navIcon" id="ID_Find_Replace" style="background-position: -500px -20px;"></div>
+</a> <a href="#Select_All" title="Select All">
+<div class="navIcon" id="ID_Select_All" style="background-position: -400px -20px;"></div>
+</a> <a href="#Toggle_spellchecker" title="Toggle spellchecker">
+<div class="navIcon" id="ID_Toggle_spellchecker" style="background-position: -540px -20px;"></div>
+</a></div>
+</div>
+<div class="pageOptions" style="width: 200px;">
+<p class="expandBody">Expand All</p>
+<p class="collapseBody">Collapse All</p>
+</div>
+<div class="elmBox">
+<div class="blert" id="Edit_HTML_Source">
+<div class="icon" style="background-position: -260px 0;"></div>
+<strong>Edit HTML Source:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">"Edit HTML Source" is a tool for advanced users that know the proper use of the html language, and to transfer content from an existing html source.</p>
+<p>Clicking on this button will bring up the "HTML Source Editor", which consists of the HTML code that generates the content found within the rich text environment of the "Web Content Editor". This same code will also be directly inserted into the web page. Be advise that any errors made by changes in the "HTML Source Editor" can case the web page to not render properly in most web browsers.</p>
+<p class="subTitle"><em>Transfer of HTML code</em></p>
+<p>A user that has pre-written HTML code can copy and paste the code into the "HTML Source Editor". If you wish to change the content within any transferred HTML code, it is suggested to change content within existing text.</p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Cut">
+<div class="icon" style="background-position: -680px 0;"></div>
+<strong>Cut:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The "Cut" button removes highlighted content to be placed in a new location by using the "Paste" button.</p>
+<p style="text-decoration: underline; margin-bottom: 2px;">Shortcut keys:</p>
+<p>For Mac Computers:               <em>Command + x</em><br />For Windows Computers:           <em>Control + x</em></p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Copy">
+<div class="icon" style="background-position: -700px 0;"></div>
+<strong>Copy:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The "Copy" button copies highlighted content to be placed in another location by using the "Paste" button.</p>
+<p style="text-decoration: underline; margin-bottom: 2px;">Shortcut keys:</p>
+<p>For Mac Computers:               <em>Command + c</em><br />For Windows Computers:           <em>Control + c</em></p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Paste">
+<div class="icon" style="background-position: -560px 0;"></div>
+<strong>Paste:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The “Paste” button applies content saved by the “Copy” or “Cut “ buttons to the location designated by the cursor in the “Web Content Editor”. Highlighted content will be replaced by the new content.</p>
+<p>The “Web Content Editor” will attempt to use font/attribute settings assigned to text content.</p>
+<p style="text-decoration: underline; margin-bottom: 2px;">Shortcut keys:</p>
+<p>For Mac Computers:               <em>Command + v</em><br />For Windows Computers:           <em>Control + v</em></p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Paste_from_Word">
+<div class="icon" style="background-position: -380px -20px;"></div>
+<strong>Paste from Word:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The “Paste from Word” button applies content saved by the “Copy” or “Cut “ buttons to the location designated by the cursor in the “Web Content Editor”. Highlighted content will be replaced by the new content.</p>
+<p>This Paste function is specifically designed for content being copied from Microsoft Word Programs, which removes unwanted hidden material.</p>
+<p style="text-decoration: underline; margin-bottom: 2px;">Shortcut keys:</p>
+<p>For Mac Computers:               <em>Command + v</em><br />For Windows Computers:           <em>Control + v</em></p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Paste_as_Plain_Text">
+<div class="icon" style="background-position: -360px -20px;"></div>
+<strong>Paste as Plain Text:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The “Paste as Plain Text” button applies content saved by the “Copy” or “Cut “ buttons to the location designated by the cursor in the “Web Content Editor”. Highlighted content will be replaced by the new content.</p>
+<p>The “Web Content Editor” will strip all font/attribute settings from text content.</p>
+<p style="text-decoration: underline; margin-bottom: 2px;">Shortcut keys:</p>
+<p>For Mac Computers:               <em>Command + v</em><br />For Windows Computers:           <em>Control + v</em></p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Undo">
+<div class="icon" style="background-position: -160px 0;"></div>
+<strong>Undo:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The “Undo” button will undo changes made to the content in reverse order of when the changes were made.</p>
+<p style="text-decoration: underline; margin-bottom: 2px;">Shortcut keys:</p>
+<p>For Mac Computers:               <em>Command + z</em><br />For Windows Computers:           <em>Control + z</em></p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Redo">
+<div class="icon" style="background-position: -100px 0;"></div>
+<strong>Redo:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The “Redo” button will reverse the changes made by the “Undo” button.</p>
+<p style="text-decoration: underline; margin-bottom: 2px;">Shortcut keys:</p>
+<p>For Mac Computers:               <em>Do not have a shortcut</em><br />For Windows Computers:           <em>Control + y</em></p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Bold">
+<div class="icon" style="background-position: 0 0;"></div>
+<strong>Bold:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The “Bold” button will increase the font weight to a darker setting to highlighted text.</p>
+<p>This is <strong>Bold</strong> Text.</p>
+<p style="text-decoration: underline; margin-bottom: 2px;">Shortcut keys:</p>
+<p>For Mac Computers:               <em>Command + b</em><br />For Windows Computers:           <em>Control + b</em></p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Italic">
+<div class="icon" style="background-position: -60px 0;"></div>
+<strong>Italic:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The “Italic” button will change font style of highlighted text to italic.</p>
+<p>This is <em>Italic</em> Text.</p>
+<p style="text-decoration: underline; margin-bottom: 2px;">Shortcut keys:</p>
+<p>For Mac Computers:               <em>Command + i</em><br />For Windows Computers:           <em>Control + i</em></p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Underline">
+<div class="icon" style="background-position: -140px 0;"></div>
+<strong>Underline:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The “Underline” button will place an underline to highlighted text.</p>
+<p>This is <span style="text-decoration: underline;">Underline</span> Text.</p>
+<p style="text-decoration: underline; margin-bottom: 2px;">Shortcut keys:</p>
+<p>For Mac Computers:               <em>Command + u</em><br />For Windows Computers:           <em>Control + u</em></p>
+</div>
+</div>
+<div class="pageOptions"><a href="#">
+<p>Move to Top</p>
+</a>
+<p class="collapseBody">Collapse All</p>
+</div>
+<div class="elmBox">
+<div class="blert" id="Strikethrough">
+<div class="icon" style="background-position: -120px 0;"></div>
+<strong>Strikethrough:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The “Strikethrough” button draws a line through the center of the text that is highlighted.</p>
+<p>This is <span style="text-decoration: line-through;">Strikethrough</span> Text.</p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Superscript">
+<div class="icon" style="background-position: -620px 0;"></div>
+<strong>Superscript:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The “Superscript” button assigns the superscript format to highlighted text.</p>
+<p>This is Super<sup>script</sup> Text.</p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Subscript">
+<div class="icon" style="background-position: -600px 0;"></div>
+<strong>Subscript:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The “Subscript” button assigns the subscript format to highlighted text.</p>
+<p>This is Sub<sub>script</sub> Text.</p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Ordered_list">
+<div class="icon" style="background-position: -80px 0;"></div>
+<strong>Ordered list:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The “Ordered list” button assigns a number at the beginning of each item of a highlighted list of text. Numbers are given in ascending order.</p>
+<ol style="margin-left: 60px;">
+<li>Item a</li>
+<li>Item b</li>
+<li>Itme c</li>
+</ol>
+<p>To make a list every item of content will need to end with a return line.</p>
+<em class="subTitle">Transferring Lists from Word Documents</em>
+<p>Often a list generated from a word document will not copy into the “Web Content Editor” as expected. What often happens is that a number character would be place in front of each listed item. Just remove the numbers and leading spaces, and highlight the list and click on the “Ordered list” button.</p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Unordered_list">
+<div class="icon" style="background-position: -20px 0;"></div>
+<strong>Unordered list:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The “Unordered list” button assigns bullet points at the beginning of a highlighted list of text.</p>
+<ul>
+<li>Item a</li>
+<li>Item b</li>
+<li>Itme c</li>
+</ul>
+<p>To make a list every item of content will need to end with a return line.</p>
+<em class="subTitle">Transferring Lists from Word Documents</em>
+<p>Often a list generated from a word document will not copy into the "Web Content Editor" as expected. What will often happen is that a dot character would be place in front of each listed item. Just remove the dots and leading spaces, and highlight the list and click on the “Unordered list” button.</p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Outdent">
+<div class="icon" style="background-position: -540px 0;"></div>
+<strong>Outdent:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The “Outdent” button will move lines of highlighted content to the <strong>left</strong> 30 pixels from its current position.</p>
+<p style="padding-left: 60px;">This is</p>
+<p style="padding-left: 30px;">Outdent</p>
+<p style="padding-left: 60px;">Text.</p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Indent">
+<div class="icon" style="background-position: -400px 0;"></div>
+<strong>Indent:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The "Intdent" button will move lines of highlighted content to the <strong>right</strong> 30 pixels from its current position.</p>
+<p style="padding-left: 30px;">This is</p>
+<p style="padding-left: 60px;">Indent</p>
+<p style="padding-left: 30px;">Text.</p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Align_left">
+<div class="icon" style="background-position: -460px 0;"></div>
+<strong>Align left:</strong></div>
+<div class="hiddenText" style="height: 185px;">
+<p class="introtxt">The “Align left” button will align highlighted text along the left margin.</p>
+<p style="width: 200px; float: left;">This text is left aligned.</p>
+<p style="width: 200px; float: left; text-align: left;">Nam lacus ligula, vulputate vitae dictum a, tristique nec felis. In hac habitasse platea dictumst. Suspendisse suscipit euismod diam quis dignissim. Nam sollicitudin ipsum non quam pulvinar elementum.</p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Align_center">
+<div class="icon" style="background-position: -420px 0;"></div>
+<strong>Align center:</strong></div>
+<div class="hiddenText" style="height: 185px;">
+<p class="introtxt">The “Align center” button will center highlighted text within the text area.</p>
+<p style="width: 200px; float: left;">This text is centered.</p>
+<p style="width: 200px; float: left; text-align: center;">Nam lacus ligula, vulputate vitae dictum a, tristique nec felis. In hac habitasse platea dictumst. Suspendisse suscipit euismod diam quis dignissim. Nam sollicitudin ipsum non quam pulvinar elementum.</p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Align_right">
+<div class="icon" style="background-position: -480px 0;"></div>
+<strong>Align right:</strong></div>
+<div class="hiddenText" style="height: 185px;">
+<p class="introtxt">The “Align right” button will align highlighted text along the right margin.</p>
+<p style="width: 200px; float: left;">This text is right aligned.</p>
+<p style="width: 200px; float: left; text-align: right;">Nam lacus ligula, vulputate vitae dictum a, tristique nec felis. In hac habitasse platea dictumst. Suspendisse suscipit euismod diam quis dignissim. Nam sollicitudin ipsum non quam pulvinar elementum.</p>
+</div>
+</div>
+<div class="pageOptions"><a href="#">
+<p>Move to Top</p>
+</a>
+<p class="collapseBody">Collapse All</p>
+</div>
+<div class="elmBox">
+<div class="blert" id="Align_full">
+<div class="icon" style="background-position: -440px 0;"></div>
+<strong>Align full (Justified):</strong></div>
+<div class="hiddenText" style="height: 205px;">
+<p class="introtxt">The “Align full” button will fill the text area and align the highlighted text along the left and right margins. This is most commonly known as justified among word processor users.</p>
+<p style="width: 200px; float: left;">This text is full aligned.</p>
+<p style="width: 200px; float: left; text-align: justify;">Nam lacus ligula, vulputate vitae dictum a, tristique nec felis. In hac habitasse platea dictumst. Suspendisse suscipit euismod diam quis dignissim. Nam sollicitudin ipsum non quam pulvinar elementum.</p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Blockquote">
+<div class="icon" style="background-position: -220px 0;"></div>
+<strong>Blockquote:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The “Blockquote” button indents and provides spacing around highlighted text to indicate that the highlighted text is a block quote.</p>
+<p>The text below is in a block quote.</p>
+<blockquote>
+<p>Nam lacus ligula, vulputate vitae dictum a, tristique nec felis. In hac habitasse platea dictumst. Suspendisse suscipit euismod diam quis dignissim. Nam sollicitudin ipsum non quam pulvinar elementum.</p>
+</blockquote>
+<p>The text above is in a block quote.</p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Insert_horizontal_ruler">
+<div class="icon" style="background-position: -360px 0;"></div>
+<strong>Insert horizontal ruler:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The “Insert horizontal ruler” Inserts a horizontal line that stretches from the left to the right margins of the text area.</p>
+<p>The line below is a horizontal ruler.</p>
+<hr />
+<p>The line above is a horizontal ruler.</p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Insert_edit_link">
+<div class="icon" style="background-position: -500px 0;"></div>
+<strong>Insert/edit link:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">“The “Insert/edit link” button makes highlighted text/item into a link to another webpage, another location on the page, or enables a document/file to be downloaded.</p>
+<p>First highlight the text/item you wish to make into a link. Then click on the “Insert/edit link” button, which will display the Insert/edit link window.</p>
+<p>You need to decide on what link you wish to make and select the radio button for the link in the “Link To” area. This should supply the proper input fields you need for the link you wish to make.</p>
+<h3 style="margin: 0 0 10px 30px;">Click on a link type below for unique instructions.</h3>
+<div class="subBlock">
+<div class="blert"><em>Internal:</em> A link to a web page within the Content Management System</div>
+<div class="hiddenText"><em class="subTitle">Page</em>
+<p>The “Page” text field is where you enter the <a href="x20476.xml" title="Page Properties">ID number</a> (x######) of the CMS page you wish to link.</p>
+</div>
+<div class="blert"><em>External:</em> A link to a web page outside of the Content Management System</div>
+<div class="hiddenText"><em class="subTitle">URL</em>
+<p>The “URL” text field is where you place the URL or web page address. Most URL’s start with “http://www” at the beginning of the address.</p>
+<em class="subTitle">Browse Button</em>
+<p>If you are not sure what URL to use, you can click on the “Browse” button located on the right of the "URL" text field and browse for your web page. Click “Save Address” when done.</p>
+</div>
+<div class="blert"><em>Document:</em> A link used to download a document</div>
+<div class="hiddenText"><em class="subTitle">Document</em>
+<p>The “Document” text field is where you place the file address contained within the assets folder for your document. You will need to upload the document to the assets folder before it can be used.<br />You can upload documents to the assets folder by clicking on “Assets” in the CMS tool bar. You can also upload documents using the “Browse” button.</p>
+<em class="subTitle">Browse Button</em>
+<p>If you are not sure what file address to use, you can click on the “Browse” button located on the right of the "Document" text field and browse for your document. Click “Save Address” when done.</p>
+</div>
+<div class="blert"><em>Anchor:</em> A link to a spacific location in the same web page</div>
+<div class="hiddenText">
+<p style="margin-bottom: 0;">To make a working anchor for a web page you will need an anchor link and an anchor.</p>
+<ul style="margin-left: 20px; margin-top: 0; width: 530px;">
+<li>The anchor link is a link the user clicks on to change the focus of the<br />web page to view the anchor.</li>
+<li>The anchor marks the location of where the view will focus.</li>
+</ul>
+<em class="subTitle">Anchor</em>
+<p>In the "Anchor" text field enter a pound sign (#) followed by the name of the anchor without spaces. This must be the exact same spelling that will be used for the name of the "Anchor".</p>
+<p>Note: Just enter a pound sign (#) without spaces to make an anchor link that will focus the view at the top of the web page.</p>
+<em class="subTitle">Anchors</em>
+<p>The “Anchors” menu lists all anchors already made within the editor. Selecting one of these will fill in the “Anchor” text field with the selected anchor name.</p>
+<a href="#Insert_edit_anchor">
+<div class="navIcon" id="DI_Insert_edit_anchor" style="float: left; background-image: none; width: 288px; background-color: #ffffff; border: none;"><em class="subTitle">Click here to learn how to make an Anchor</em></div>
+<div class="navIcon" id="ID_Insert_edit_anchor" style="background-position: -200px 0; margin-left: 5px;"></div>
+</a>
+<div style="clear: both; height: 15px;"></div>
+</div>
+<div class="blert"><em>E-Mail:</em> A link used to activate an e-mail client for a given email address</div>
+<div class="hiddenText"><em class="subTitle">E-Mail</em>
+<p>The “E-Mail” text field is where you place an e-mail address.</p>
+</div>
+</div>
+<p class="subTitle" style="padding-left: 10px; font-size: 18px;">Shared Input Fields</p>
+<div style="margin: 5px 0 0 20px;"><em class="subTitle">Target</em>
+<p style="margin-bottom: 0;">The “Target” menu determines how the linked web page will load.</p>
+<ul style="margin-left: 23px; margin-top: 0;">
+<li>“Open in this window / frame” will load the linked page in the same window as the current web page.</li>
+<li>“Open in new window (_blank)” will load the page in a new window.</li>
+<li>The last two options in the menu should not be used.</li>
+</ul>
+<em class="subTitle">Title</em>
+<p>Enter the title of the link or a small message in the “Title” text field. This will display on hover. Leaving this text field blank will not provide a hover message.</p>
+<em class="subTitle">Class</em>
+<p>The “Class” menu is currently not in use and should be left set on “-- Not set --”.</p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Unlink">
+<div class="icon" style="background-position: -640px 0;"></div>
+<strong>Unlink:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The ”Unlink” button removes selected links from the content.</p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Insert_edit_anchor">
+<div class="icon" style="background-position: -200px 0;"></div>
+<strong>Insert/edit anchor:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The ”Insert/edit anchor” button makes a marker that marks the location of where the browser view can focus.</p>
+<p>To make a working anchor for a web page you will need an anchor link and an anchor.</p>
+<ul>
+<li>The anchor link is a link the user clicks on to change the focus of the web page to view the anchor.</li>
+<li>The anchor marks the location of where the view will focus.</li>
+</ul>
+<em class="subTitle">How to make an Anchor</em> <ol style="margin-top: 0;">
+<li>In the web editor highlight the content you wish to make into an anchor. The title of a paragraph is most commonly used.</li>
+<li>Click on the ”Insert/edit anchor” button.</li>
+<li>Enter a name for the anchor without spaces, do <span style="text-decoration: underline;">not</span> enter a pound sign (#).</li>
+<li>Click "Insert" when finished.</li>
+</ol> <a href="#Insert_edit_link">
+<div class="navIcon" id="DI_Insert_edit_link" style="float: left; background-image: none; width: 322px; background-color: #ffffff; border: none;"><em class="subTitle">Click here to learn how to make an Anchor Link</em></div>
+<div class="navIcon" id="ID_Insert_edit_link" style="background-position: -500px 0; margin-left: 5px;"></div>
+</a>
+<div style="padding: 5px; width: 300px; border: 1px solid red; float: right; margin: 10px 40px 0pt 0pt;">There is a bug with inserting anchors when using the Google Chrome web browser. Use a different web browser to prevent this bug.</div>
+<div style="clear: both; height: 15px;"></div>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Insert_edit_image">
+<div class="icon" style="background-position: -380px 0;"></div>
+<strong>Insert/edit image:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The “Insert/edit image” button inserts images into the content area, and supplies an editing window to help aid in the use of images.</p>
+<p>First position the curser at the location you wish to insert a picture, or double click on a picture to select the picture. Then click on the “Insert/edit image” button.</p>
+<p>Then select the tab you wish to edit. Instructions for each tab is given below.</p>
+<p>You can also click and drag the picture to a new location within the content view.</p>
+<h3 style="margin: 0 0 10px 30px;">Click on a “tab subject” below for further instructions.</h3>
+<div class="subBlock">
+<div class="blert"><em>General Tab:</em> Image selection and preview</div>
+<div class="hiddenText"><em class="subTitle">Image URL</em>
+<p>The “Image URL” text field is where you place the image file's address contained within the assets folder for your image. You will need to upload the image to the assets folder before it can be used.<br />You can upload images to the assets folder by clicking on “Assets” in the CMS tool bar. You can also upload images using the “Browse” button.</p>
+<em class="subTitle">Browse Button</em>
+<p>If you are not sure what file address to use, you can click on the “Browse” button located on the right of the "Image URL" text field and browse for your image.</p>
+<em class="subTitle">Image Description</em>
+<p>The “Image description” text field is a brief message or name of your image. This text will display if the image cannot be loaded into the web page.</p>
+<em class="subTitle">Title</em>
+<p>Enter the title of the image or a small message in the “Title” text field. This will display on hover. Leaving this text field blank will not provide a hover message.</p>
+</div>
+<div class="blert"><em>Appearance Tab:</em> Image size and position</div>
+<div class="hiddenText"><em class="subTitle">Alignment</em>
+<p>The “Alignment” menu aligns the content around the image according to the selected value. The most common practice is to keep this menu set to<br />“-- Not set --“.</p>
+<em class="subTitle">"Dimensions" (Width/Height) and "Constrain Proportions"</em>
+<p>The text boxes control the width and the height of the image. You will need to give a number value.</p>
+<p>By having the “Constrain proportions” check box enabled, the changes in one box will rescale the other box value to keep the image size ratio.</p>
+<em class="subTitle">Vertical Space</em>
+<p>The “Vertical Space” text field adds space above and below the image by the amount of the entered number value.</p>
+<em class="subTitle">Horizontal Space</em>
+<p>The “Horizontal Space” text field adds space to the left and right of the image by the amount of the entered number value.</p>
+<em class="subTitle">Border</em>
+<p>The “Border” text field adds a black border around the image with the thickness of the entered number value.</p>
+<em class="subTitle">Class</em>
+<p>The “Class” menu consists of predesigned BYU-I attribute and format settings for content within the Web Content Editor.</p>
+<p>Warning not all items listed are design to be used with images.</p>
+<em class="subTitle">Style</em>
+<p>The “Style” text field is the styling code used to style the image you are editing. You can make changes to the code in this text field to make more detailed changes. If an error is made in the style code, the style will not render to the image.</p>
+<p style="font-size: 18px;">NOTE: The unit values of all measurements are in pixels.</p>
+</div>
+<div class="blert"><em>Advanced Tab:</em> Hover image control</div>
+<div class="hiddenText">
+<p class="subTitle" style="font-size: 18px;">Swap Image</p>
+<p>The “Swap image” section enables the use of swapping images during hover state.<br /> The “Alternative image” check box will need to be check on to enable the hover image ability.</p>
+<div style="margin-left: 20px;"><span><em>For Mouse Over</em></span>
+<p style="margin-left: 20px;">The "Mouse Over" text field is for the image that will be viewed when the mouse is hovering over the image area.</p>
+<span><em>For Mouse Out</em></span>
+<p style="margin-left: 20px;">The "Mouse Out" text field is for the image that will be viewed after the mouse leaves the hover state.</p>
+<span><em>Browse Button and Image Selection</em></span>
+<p style="margin-left: 20px;">Refer to the "General" section above for information on the browse button and selecting an image.</p>
+</div>
+<p class="subTitle" style="font-size: 18px;">Miscellaneous</p>
+<p>The “Miscellaneous” section is made for advanced users and should be left blank.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Insert_edit_embedded_media">
+<div class="icon" style="background-position: -320px -20px;"></div>
+<strong>Insert/edit embedded media:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The “Insert/edit embedded media” button allows the editing and insertion of multimedia files into Web Content Editor.</p>
+<p>Insertion of media will be placed at the location of the cursor. Highlighting media within the content will allow editing the media properties.</p>
+<p>You can click and drag media content within the content view.</p>
+<em class="subTitle">YouTube   Media</em>
+<p>A YouTube video can be inserted into the “Web Content Editor” by using the “Edit HTML Source” button.</p>
+<p>If you do, you need to be aware that any flyouts, drop-down menus or other items that move over the top of the player may appear behind and not in front of the YouTube video.</p>
+<p>If you choose to use the “Insert/edit embedded media” button to edit a YouTube video, you may introduce undesirable changes.</p>
+<p>Learn to <a href="http://www.google.com/support/youtube/bin/answer.py?answer=57924" style="text-decoration: underline ! important;" target="_blank">upload</a> youtube videos.</p>
+<p class="blert" id="youTubeBlert" style="border-bottom: medium none ! important;">Learn to <a href="http://www.google.com/support/youtube/bin/answer.py?answer=171780" style="text-decoration: underline ! important;" target="_blank">embed</a> youtube videos <span style="text-decoration: underline; color: #1c74b5;">within the Ingeniux environment</span>.</p>
+<div class="hiddenText" style="padding-left: 8px ! important; padding-top: 8px ! important; width: 490px; border: 1px solid; margin-left: 65px ! important;"><em>How to Embed YouTube Code into the Ingeniux Environment</em>
+<p>Once you have the youtube code used to embed the video in a webpage, click on the  <a href="#Edit_HTML_Source" style="text-decoration: none ! important;"> <span class="navIcon" id="DI_Edit_HTML_Source">“Edit HTML Source”</span> </a></p>
+<div class="navIcon" id="ID_Edit_HTML_Source" style="background-position: -260px 0; margin-left: 5px; margin-right: 5px;"><a href="#Edit_HTML_Source" style="text-decoration: none ! important;"> </a></div>
+<a href="#Edit_HTML_Source" style="text-decoration: none ! important;"> </a> button.<br />Copy the code within the "HTML Source Editor" window. It would be best to insert the code after a “
+<p> </p>
+” tag.<br />If you are not sure where to paste this code you can call web services for help.
+<p> </p>
+</div>
+<p>...</p>
+<h3 style="margin: 0 0 10px 30px;">Click on a “tab subject” below for further instructions.</h3>
+<p class="blert" style="font-size: 18px; width: 600px; margin-left: 18px;">General Tab</p>
+<div class="hiddenText" style="margin: 5px 0 0 18px !important; width: 575px;"><em class="subTitle">Type</em>
+<p>The “Type” menu specifies the type of media file: Flash, Quicktime, Shockwave, Windows Media, or Real Media, of the file being used. This selection will affect what options are displayed in the advance options tab. <br />It is important that you select the correct media type of the media file you are using or the media file will not work.</p>
+<em class="subTitle">File/URL</em>
+<p>The “File/URL” text field specifies the file address contained within the assets folder for your media file. You will need to upload the media file to the assets folder before it can be used.</p>
+<em class="subTitle">Browse Button</em>
+<p>If you are not sure what file address to use, you can click on the “Browse” button located on the right of the "File/URL Text" text field and browse for your media file.</p>
+<em class="subTitle">"Dimensions" (Width/Height) and "Constrain Proportions"</em>
+<p>The text boxes control the width and the height of the player. You will need to give a number value.</p>
+<p>By having the “Constrain proportions” check box enabled, the changes in one box will rescale the other box value to keep the player's size ratio.</p>
+<p>WARNING: If the width and height for the player is too small only a small portion of the player will be visible and the player could be rendered un-usable.</p>
+</div>
+<p class="blert" style="font-size: 18px; width: 600px; margin-left: 18px;">Advanced Tab</p>
+<div class="hiddenText" style="margin: 5px 0 0 18px !important; width: 575px;">
+<p class="subTitle" style="font-size: 18px;">Advanced</p>
+<p>The "Advanced" section should have little use for the general user and should be kept at default values.</p>
+<p class="subTitle" style="font-size: 18px;">Media Player Options</p>
+<p>The values contained in the media player options are determined by the type of media selected in the “type” menu found under the “General” tab.</p>
+<h3 style="margin: 0 0 10px 30px;">Click on a “media type” below for further instructions.</h3>
+<div style="margin-left: 20px; width: 545px;">
+<p style="font-size: 16px;">NOTE: Most player options available are best left on their default values. What are listed in the slide down menus below are options you may be interested in changing.</p>
+<div class="blert"><em>Flash</em></div>
+<div class="hiddenText"><em class="subTitle">Quality</em>
+<p>The “quality” menu chooses the quality level of the video. Be mindful that the higher the quality of the video the more of a need for a faster download speed for the video.</p>
+<p>A good default setting would be the “best” setting.</p>
+<em class="subTitle">Auto Play</em>
+<p>Enabling will cause the media to play as soon as the page loads.</p>
+<em class="subTitle">Loop</em>
+<p>Enabling will specify that the media repeat indefinitely.</p>
+<em class="subTitle">Show menu</em>
+<p>Enabling will specify that the full Flash Menu appear.</p>
+</div>
+<div class="blert"><em>Quicktime</em></div>
+<div class="hiddenText"><em class="subTitle">Controller</em>
+<p>Enabling will specify that the control bar appear.</p>
+<em class="subTitle">Auto Play</em>
+<p>Enabling will cause the media to play as soon as the page loads.</p>
+<em class="subTitle">Loop</em>
+<p>Enabling will specify that the media repeat indefinitely.</p>
+<em class="subTitle">Kiosk Mode</em>
+<p>Enabling will prevent the display of the Quicktime save option.</p>
+</div>
+<div class="blert"><em>Shockwave</em></div>
+<div class="hiddenText"><em class="subTitle">Auto Play</em>
+<p>Enabling will cause the media to play as soon as the page loads.</p>
+<em class="subTitle">Sound</em>
+<p>Enable and Disable sound</p>
+<em class="subTitle">Progress</em>
+<p>Enabling will specify that a progress bar be displayed.</p>
+</div>
+<div class="blert"><em>Windows Media</em></div>
+<div class="hiddenText"><em class="subTitle">Auto Start</em>
+<p>Enabling will cause the media to play as soon as the page loads.</p>
+<em class="subTitle">Enabled</em>
+<p>Enabling will specify that the control bar appear.</p>
+<em class="subTitle">Show menu</em>
+<p>Enabling will specify that the Windows Media Menu appear.</p>
+<em class="subTitle">Fullscreen</em>
+<p>Enabling will indicate that the Windows Media file should display as a full screen.</p>
+<em class="subTitle">Mute</em>
+<p>Enabling will specify that the Windows Media file plays without sound.</p>
+<em class="subTitle">Play Count</em>
+<p>Specifies the number of times a Windows Media file plays once it is loaded.</p>
+</div>
+<div class="blert"><em>Real Media</em></div>
+<div class="hiddenText"><em class="subTitle">Auto Start</em>
+<p>Enabling will cause the media to play as soon as the page loads.</p>
+<em class="subTitle">Loop</em>
+<p>Enabling will specify that the media repeat indefinitely.</p>
+<em class="subTitle">Shuffle</em>
+<p>Enabling will sets the Real Media to play in a random sequence.</p>
+<em class="subTitle">Controls</em>
+<p>Enabling will specify that the full Real Media Menu appear.</p>
+<em class="subTitle">Num Loops</em>
+<p>Specifies the number of times a Windows Media file plays once it is loaded.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Inserts_a_new_table">
+<div class="icon" style="background-position: -580px -20px;"></div>
+<strong>Inserts a new table  /  Table properties:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The “Insert a new table” button allows you to insert and edit tables in the Web Content Editor.</p>
+<p>If you have a table highlighted, clicking on this button will activate the editing window for the table.</p>
+<p>You can "Right click" on the table and select "Table properties" from the dropdown menu to activate the editing window for the table.</p>
+<p>You can click and drag tables within the content view.</p>
+<p>NOTE: It is best to fill in as much information in the general tab as you can, otherwise working with the table can become difficult.</p>
+<h3 style="margin: 0 0 10px 30px;">Click on a “tab subject” below for further instructions.</h3>
+<div class="subBlock">
+<div class="blert"><em>General Tab:</em></div>
+<div class="hiddenText"><img alt="Table_Map" src="Images/Internal_Use/Ingeniux_Training/Element Views/Table_Map.png" style="height: 160px; width: 535px; margin: 10px 0 10px 2px;" /> <em class="subTitle">Alignment</em>
+<p>The “Alignment” menu controls if the table aligns agents the left or right margin of the content area or centered within the content area.</p>
+<em class="subTitle">Class</em>
+<p>The “Class” menu consists of predesigned attribute and format settings for tables. At this time these values are not programmed for use. Leave this menu set to "-- Not set --".</p>
+<em class="subTitle">Table Caption</em>
+<p>Enabling the “Table Caption” Check Box will allow you to place a table caption at the top of the table. Just click at the top of the table to enter and edit the caption.</p>
+</div>
+<div class="blert"><em>Advanced Tab:</em></div>
+<div class="hiddenText"><em class="subTitle">Unused Fields</em>
+<p>The following fields are best left at default settings unless you understand how to use them.</p>
+<ul style="float: left; width: 100px; margin-top: 0;">
+<li>Id</li>
+<li>Summary</li>
+</ul>
+<ul style="float: left; width: 100px; margin-top: 0;">
+<li>Style</li>
+<li>Language Code</li>
+</ul>
+<ul style="float: left; width: 130px; margin-top: 0;">
+<li>Frame</li>
+<li>Rules</li>
+</ul>
+<em class="subTitle" style="both: clear;">Style</em>
+<p>The “Style” text field is the styling code used to style the table you are editing. You can make changes to the code in this text field to make more detailed changes. If an error is made in the style code, the style will not render to the table.</p>
+<em class="subTitle">Background Image</em>
+<p>The “Background Image” text field is where you place the backgrond image file's address contained within the assets folder for your image. You will need to upload the image to the assets folder before it can be used.</p>
+<p>You can upload images to the assets folder by clicking on “Assets” in the CMS tool bar. You can also upload images using the “Browse” button, which is located left of the text field.</p>
+<p>NOTE: It would be best to use an image that matches the width and height dimensions given to the table. It is also important to choose an image that does don’t conflict with the readability of your table's content.</p>
+<em class="subTitle">Language Direction</em>
+<p>The “Language Direction” menu aligns the content of all cells along the left cell’s margin (Left to right) or right cell’s margin (Right to left).</p>
+<em class="subTitle">Border Color</em>
+<p>The “Border Color” text field is used to insert a color hex value. For Example: #cfd0d4.</p>
+<p>The color you select will fill in the outside border of the table.</p>
+<p>You can also write in a color name such as “blue”. Note not all colors are displayed the same across all browsers when using color names.</p>
+<p>If you don’t have a specific color’s hex value you can choose a color using the “Color Selection” button located on the left of the text field.</p>
+<em class="subTitle">Background Color</em>
+<p>The “Background Color” text field is used to store the color hex value, as explained in the “Border Color” section above.</p>
+<p>The color you select will fill in the inside area of the table.</p>
+<p>NOTE: If you choose to use an image as your background, this color will not replace the image.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Table_row_properties">
+<div class="icon" style="background-position: -780px -20px;"></div>
+<strong>Table row properties:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The “Table row properties” button changes properties that pertain to rows within a table. (Content alignment in cells) (Row background)</p>
+<h3 style="margin: 0 0 10px 30px;">Click on a “tab subject” below for further instructions.</h3>
+<div class="subBlock">
+<div class="blert"><em>General Tab:</em></div>
+<div class="hiddenText"><img alt="Test Image" height="400" src="Images/Internal_Use/Ingeniux_Training/Element Views/RowPropty.png" style="position: absolute; top: 40px; left: 620px; height: 400px; width: 250px;" width="250" /> <em class="subTitle">Row in Table Part</em>
+<p>The “Row in table part” menu assigns the selected row to be a header, body or footer row. The row will move to the top, center, or bottom of the table and change height to reflect the selected label.</p>
+<em class="subTitle">Alignment</em>
+<p>The “Alignment” menu assigns the selected row to align cell content along the left/right margin, or centers the content.</p>
+<em class="subTitle">Vertical Alignment</em>
+<p>The “Vertical Alignment” menu assigns the selected row to align cell content along the top/bottom margin, or vertically centers the content.</p>
+<em class="subTitle">Class</em>
+<p>The “Class” menu consists of predesigned attribute and format settings for tables. At this time these values are not programmed for use. Leave this menu set to "-- Not set --".</p>
+<em class="subTitle">Height</em>
+<p>The “Height” text field changes the height of the selected row.</p>
+</div>
+<div class="blert"><em>Advanced Tab:</em></div>
+<div class="hiddenText"><em class="subTitle">Unused Fields</em>
+<p>The following fields are best left at default settings unless you understand how to use them.</p>
+<ul style="float: left; width: 100px; margin-top: 0;">
+<li>Id</li>
+<li>Style</li>
+</ul>
+<ul style="float: left; width: 300px; margin-top: 0;">
+<li>Language Direction</li>
+<li>Language Code</li>
+</ul>
+<em class="subTitle" style="both: clear;">Style</em>
+<p>The “Style” text field is the styling code used to style the table you are editing. You can make changes to the code in this text field to make more detailed changes. If an error is made in the style code, the style will not render to the table.</p>
+<em class="subTitle">Background Image</em>
+<p>The “Background Image” text field is where you place the backgrond image file's address contained within the assets folder for your image. You will need to upload the image to the assets folder before it can be used.</p>
+<p>You can upload images to the assets folder by clicking on “Assets” in the CMS tool bar. You can also upload images using the “Browse” button, which is located left of the text field.</p>
+<p>NOTE: It would be best to use an image that matches the width and height dimensions of the selected row. It is also important to choose an image that does don’t conflict with the readability of your table's content.</p>
+<em class="subTitle">Background Color</em>
+<p>The “Background Color” text field is used to store the color hex value, For Example: #cfd0d4.</p>
+<p>The color you select will fill in the inside area of the selected row.</p>
+<p>You can also write in a color name such as “blue”. Note not all colors are displayed the same across all browsers when using color names.</p>
+<p>If you don’t have a specific color’s hex value you can choose a color using the “Color Selection” button located on the left of the text field.</p>
+<p>NOTE: If you choose to use an image as your background, this color will not replace the image.</p>
+</div>
+</div>
+<em class="subTitle">Update Target Rows Menu</em>
+<p>There is an unlabeled drop down menu located just above the “Update” and “Cancel” buttons.<br />This menu allows you to select what rows will be effected by the changes made in the editor.</p>
+</div>
+</div>
+<div class="pageOptions"><a href="#">
+<p>Move to Top</p>
+</a>
+<p class="collapseBody">Collapse All</p>
+</div>
+<div class="elmBox">
+<div class="blert" id="Table_cell_properties">
+<div class="icon" style="background-position: -600px -20px;"></div>
+<strong>Table cell properties:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The “Table cell properties” button changes properties that pertain to cells within a table. (Content alignment in cells) (cell background)</p>
+<p>To edit a cell select the content inside the cell and click on the “Table cell properties” button.</p>
+<h3 style="margin: 0 0 10px 30px;">Click on a “tab subject” below for further instructions.</h3>
+<div class="subBlock">
+<div class="blert"><em>General Tab:</em></div>
+<div class="hiddenText"><em class="subTitle">Alignment</em>
+<p>The “Alignment” menu assigns the selected row to align cell content along the left/right margin, or centers the content.</p>
+<em class="subTitle">Vertical Alignment</em>
+<p>The “Vertical Alignment” menu assigns the selected row to align cell content along the top/bottom margin, or vertically centers the content.</p>
+<em class="subTitle">Height</em>
+<p>The “Height” text field changes the height of the selected cell.</p>
+<em class="subTitle">Width</em>
+<p>The “Width” text field changes the width of the selected cell.</p>
+<em class="subTitle">Class</em>
+<p>The "Class" menu consists of predesigned attribute and format settings for tables. At this time these values are not programmed for use. Leave this menu set to "-- Not set --".</p>
+<em class="subTitle">Cell type</em>
+<p>The "Cell type" drop down menu changes the demotions of the cell between being a header cell, or as default settings, a data cell.</p>
+<em class="subTitle">Scope</em>
+<p>The "Scope" should not be used by users. Leave this menu set to "-- Not set --".</p>
+</div>
+<div class="blert"><em>Advanced Tab:</em></div>
+<div class="hiddenText"><em class="subTitle">Unused Fields</em>
+<p>The following fields are best left at default settings unless you understand how to use them.</p>
+<ul style="float: left; width: 100px; margin-top: 0;">
+<li>Id</li>
+<li>Style</li>
+</ul>
+<ul style="float: left; width: 300px; margin-top: 0;">
+<li>Language Direction</li>
+<li>Language Code</li>
+</ul>
+<em class="subTitle" style="both: clear;">Style</em>
+<p>The “Style” text field is the styling code used to style the table you are editing. You can make changes to the code in this text field to make more detailed changes. If an error is made in the style code, the style will not render to the table.</p>
+<em class="subTitle">Background Image</em>
+<p>The “Background Image” text field is where you place the backgrond image file's address contained within the assets folder for your image. You will need to upload the image to the assets folder before it can be used.</p>
+<p>You can upload images to the assets folder by clicking on “Assets” in the CMS tool bar. You can also upload images using the “Browse” button, which is located left of the text field.</p>
+<p>NOTE: It would be best to use an image that matches the width and height dimensions of the selected row. It is also important to choose an image that does don’t conflict with the readability of your table's content.</p>
+<em class="subTitle">Border Color</em>
+<p>The “Border Color” text field is used to insert a color hex value. For Example: #cfd0d4.</p>
+<p>The color you select will fill in the outside border of the cell.</p>
+<p>You can also write in a color name such as “blue”. Note not all colors are displayed the same across all browsers when using color names.</p>
+<p>If you don’t have a specific color’s hex value you can choose a color using the “Color Selection” button located on the left of the text field.</p>
+<em class="subTitle">Background Color</em>
+<p>The “Background Color” text field is used to store the color hex value, For Example: #cfd0d4.</p>
+<p>The color you select will fill in the inside area of the selected row.</p>
+<p>You can also write in a color name such as “blue”. Note not all colors are displayed the same across all browsers when using color names.</p>
+<p>If you don’t have a specific color’s hex value you can choose a color using the “Color Selection” button located on the left of the text field.</p>
+<p>NOTE: If you choose to use an image as your background, this color will not replace the image.</p>
+</div>
+</div>
+<em class="subTitle">Update Target Rows Menu</em>
+<p>There is an unlabeled drop down menu located just above the “Update” and “Cancel” buttons.<br />This menu allows you to select what cells will be effected by the changes made in the editor.</p>
+</div>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Insert_row_before">
+<div class="icon" style="background-position: -740px -20px;"></div>
+<strong>Insert row before:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The “Insert row before” button insert a row above a selected row.</p>
+<p>The row being created will mimic the settings of the selected row.</p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Insert_row_after">
+<div class="icon" style="background-position: -720px -20px;"></div>
+<strong>Insert row after:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The “Insert row after” button insert a row below a selected row.</p>
+<p>The row being created will mimic the settings of the selected row.</p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Delete_row">
+<div class="icon" style="background-position: -660px -20px;"></div>
+<strong>Delete row:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The “Delete row” button will remove the selected row and its content.</p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Insert_column_before">
+<div class="icon" style="background-position: -700px -20px;"></div>
+<strong>Insert column before:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The “Insert column before” button insert a column to the left of a selected column.</p>
+<p>The column being created will mimic the settings of the selected column.</p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Insert_column_after">
+<div class="icon" style="background-position: -680px -20px;"></div>
+<strong>Insert column after:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The “Insert column after” button insert a column to the right of a selected column.</p>
+<p>The column being created will mimic the settings of the selected column.</p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Remove_column">
+<div class="icon" style="background-position: -640px -20px;"></div>
+<strong>Remove column:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The “Remove column” button will delete the selected column and its content.</p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Split_merged_table_cells">
+<div class="icon" style="background-position: -800px -20px;"></div>
+<strong>Split merged table cells:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The "Split merged table cells" button removes a cell's behavior of spanning across multiple rows and/or columns, by splitting the cell into smaller cells that line up with adjacent rows and columns.</p>
+<p>The content of the cell is placed into the top left cell.</p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Merge_table_cells">
+<div class="icon" style="background-position: -760px -20px;"></div>
+<strong>Merge table cells:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The “Merge table cells” button combines multiple cells into one cell that spans across the rows and columns of the merged cells.</p>
+<p>To select cells to be merged:</p>
+<p>1. Highlight the content of the cell you wish to merge.<br /> 2. Click on the “Merge table cells” button.</p>
+<p>OR</p>
+<p>1. Place your curser in the top left cell and click on the “Merge table cells” button.<br /> 2. Input the given number of cells to the right (Cols) and below (Rows) of the selected cell.<br /> 3. Click "update" to merge the selected cells.</p>
+<p>The content of all the cells combined will be entered into the new cell.</p>
+</div>
+</div>
+<div class="pageOptions"><a href="#">
+<p>Move to Top</p>
+</a>
+<p class="collapseBody">Collapse All</p>
+</div>
+<div class="elmBox">
+<div class="blert" id="Font_size" style="height: 32px;">
+<div class="menuIcon" style="background-position: -1px 0; width: 80px;"></div>
+<strong>Font size (menu):</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The “Font size” drop down menu will change the size of any selected text to an appointed size.</p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Styles" style="height: 32px;">
+<div class="menuIcon" style="background-position: -79px 0; width: 68px;"></div>
+<strong>Styles (menu):</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The “Styles” drop down menu consists of BYU-I personalized styles that can be applied to highlighted content.</p>
+<p>These styles have yet to be determined.</p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Format" style="height: 32px;">
+<div class="menuIcon" style="background-position: -145px 0; width: 76px;"></div>
+<strong>Format (menu):</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The “format” drop down menu presets a selection of heading sizes determined by the web browser. These are used to format selected headings and titles.</p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Toggle_guidelines_invisible_elements">
+<div class="icon" style="background-position: -660px 0;"></div>
+<strong>Toggle guidelines/invisible elements:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The “Toggle guidelines/invisible elements” is used to mark invisible boundaries and elements within the editing view.</p>
+<p>This feature is best used with tables that do not use borders around cells.</p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Insert_custom_character">
+<div class="icon" style="background-position: -240px 0;"></div>
+<strong>Insert custom character:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The “Insert custom character” button bring up a table that lists non-keyboard characters that can be inserted into the editor view.</p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Help">
+<div class="icon" style="background-position: -340px 0;"></div>
+<strong>Help:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The “Help” Button give you access to the Web Content Editor’s help dialog box.</p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Find">
+<div class="icon" style="background-position: -520px -20px;"></div>
+<strong>Find:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The “Find” button gives you access to the "Find" dialog box, used to find key words within the editor's content.</p>
+<p style="text-decoration: underline; margin-bottom: 2px;">Shortcut keys:</p>
+<p>For Mac Computers:               <em>Command + f</em><br />For Windows Computers:           <em>Control + f</em></p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Find_Replace">
+<div class="icon" style="background-position: -500px -20px;"></div>
+<strong>Find/Replace:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The “Find/Replace” button gives you access to the “Find/Replace” dialog box, used to find key words within the editor's content and replacement the text with new text.</p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Select_All">
+<div class="icon" style="background-position: -400px -20px;"></div>
+<strong>Select All:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The “Select All” button highlights all content within the Editor View.</p>
+<p style="text-decoration: underline; margin-bottom: 2px;">Shortcut keys:</p>
+<p>For Mac Computers:               <em>Command + a</em><br />For Windows Computers:           <em>Control + a</em></p>
+</div>
+</div>
+<div class="elmBox">
+<div class="blert" id="Toggle_spellchecker">
+<div class="icon" style="background-position: -540px -20px;"></div>
+<strong>Toggle spellchecker:</strong></div>
+<div class="hiddenText">
+<p class="introtxt">The “Toggle spellchecker” will turn off/on the spellchecker tool. Used to automatically check for spelling, within the editor view.</p>
+<p>When the spellchecker is active red squiggly lines will appear under misspelled words.</p>
+<p>Clicking on the arrow will provide a list of languages to select a specific spelling dictionary.</p>
+</div>
+</div>
+<div class="pageOptions"><a href="#">
+<p>Move to Top</p>
+</a>
+<p class="collapseBody">Collapse All</p>
+</div>
+</div>
+<script type="text/javascript">
+	function loadScript(url, callback){
+	//load script tag at end of body
+	var body = document.getElementsByTagName('body')[0];
+	var script = document.createElement('script');
+	script.type = 'text/javascript';
+	script.src = url;
+
+	// then bind the event to the callback function 
+	// there are several events for cross browser compatibility
+	script.onreadystatechange = callback;
+	script.onload = callback;
+
+	// fire the loading
+	body.appendChild(script);
+}
+
+// Execute the entire function after page has finished 
+// loading (script import and callback inline javascript)
+window.onload = function(){ 
+	//put the path to your jquery-dependent script below here
+	loadScript("PreBuilt/js/custom/trainingTinyMCE.js");
+}
+</script>]]></BodyCopy><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Component" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="true" Component=""><xPower Type="Component" Component="x36276" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/><xPower Type="Component" Component="x36121" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowerinsert_InsertItems" Name="Insert" label="Insert" readonly="false" hidden="true" required="false" WellFormed="false" Expanded="false" ExtractHTMLBody="false" Insert=""><xPower Type="Insert" Insert="" WellFormed="false" ExtractHTMLBody="false" Name="InsertItems" readonly="false" hidden="true" required="false" Expanded="false"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x14845" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

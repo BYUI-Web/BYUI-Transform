@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.82 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x61750" Name="Program Details" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">YFE Program Details</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Program details will give the youth an idea of what to expect at YFE.</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style><!--
+@import "documents/community-connections/js_css/cycle.css";
+--></style>
+<p>We appreciate your interest in the Youth For Excelence program. Due to the increase in the number of students at BYU-Idaho, our department resources are being reassigned to other areas. We will no longer be able to offer many of the programs that we used to provide. &nbsp;Read <a href="http://www.byui.edu/community-connections">Letter to the Community for more information</a>.</p>
+<p>We would like to thank you for your past support of our programs. We have had many enjoyable years and appreciate the contributions and value that you brought to our programs. If you are still interested in this type of program, we suggest that you look for other alternatives provided by BYU-Idaho or the community.</p>
+<p>View the <a href="x33722.xml">YFE Video!</a></p>
+<h3>What YFE offers you!</h3>
+<ul>
+<li>Church Historical Sites</li>
+<li>Palmyra Temple</li>
+<li>Scripture Study Classes</li>
+<li>Visit the Sacred Grove</li>
+</ul>
+<p>See how all of these exciting activities fit into our&nbsp;<a href="x33685.xml"> Agenda!</a></p>
+<h3>Activities</h3>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script src="documents/community-connections/js_css/cycle_helper.js" type="text/javascript"></script>
+<div id="slideshow">
+<div id="slide_nav"><a href="#"><img id="prev" src="Images/community-connections/arrow_left.png" /></a> <a href="#"><img id="next" src="Images/community-connections/arrow_right.png" /></a></div>
+<div id="slide_caption"></div>
+<img alt="Sacred Grove" class="slides first" src="Images/community-connections/YFEactivities/yfe_activities_sacredgrove.jpg" /> <img alt="Hill Cumorah" class="slides" src="Images/community-connections/YFEactivities/yfe_activities_cumorah.jpg" /> <img alt="Baptisms for the Dead" class="slides" src="Images/community-connections/YFEactivities/yfe_activities_baptisms.jpg" /> <img alt="Peter Whitmer House" class="slides" src="Images/community-connections/YFEactivities/yfe_activities_whitmer.jpg" /> <img alt="Intimate Group Setting" class="slides" src="Images/community-connections/YFEactivities/yfe_activities_smallgroup.jpg" /> <img alt="Daily Scripture Study" class="slides" src="Images/community-connections/YFEactivities/yfe_activities_scripture.jpg" /></div>
+<br />
+<h3>Prepare for YFE</h3>
+<p align="center"><a href="Documents/community-connections/YFE/youth_yfe_packing_list_2011.pdf"><span style="text-decoration: underline;">YFE Printable Packing List</span></a></p>
+<p>Please  follow the BYU-Idaho Honor Code's Dress and Grooming Standards for each  clothing item. Bare feet, midriffs, tank tops (boys and girls), shorts,  capris, flip-flops, etc. are <strong>NOT ALLOWED</strong>.    <br /> Please do not bring video games, TV/DVD equipment, or any other electronics of any kind. Cell phones will not be allowed during any scheduled activity time.</p>
+<p>Download our <a href="Documents/community-connections/YFE/yfe_travel_palmyra.pdf">Travel Information</a> for Lodging, and Travel Plans.</p>
+<h3>After YFE</h3>
+<p>Keep your YFE experience alive with the following suggestions:</p>
+<ul>
+<li>Write your thoughts about your experience in your journal.</li>
+<li>Stay in contact with your friends from YFE. Create a Facebook fan page for your session.</li>
+<li>Set goals about what you want to accomplish after YFE.</li>
+<li>Pray for guidance on how you can apply what you learned from YFE. </li>
+</ul>]]></BodyCopy><xPower Type="Component" Component="x33678" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x28802" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

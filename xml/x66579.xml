@@ -1,0 +1,285 @@
+<?xml version="1.0"?>
+<AdminPage ID="x66579" Name="Student Support" Layout="admin_office_home.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true" ID="1">Student Support</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true" ID="2">Brigham Young University Idaho - Student Support Home Page</Abstract><MainMesgTop type="boolean" label="Enable to move &quot;Main Message&quot; to top of page" readonly="false" required="false" hidden="false" ID="3">true</MainMesgTop><IntroCopy type="dhtml" label="Main Message" readonly="false" hidden="false" required="false" ID="4"><![CDATA[<style type="text/css"><!--
+#get_connected{
+        font-family: Arial,FreeSans,sans-serif;
+        padding: 0px; margin: 0;
+        width: 710px; height: 460px;}
+
+    #main_picture{
+        background-image: url('Images/student-support/home_page/student_support_home.jpg');
+        width: 710px; height: 450px;
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        border-radius: 7px;}
+
+    h2{
+        font-size: 22px;
+        color: white;
+        margin: 0px; padding: 0px;}
+
+    #nav{
+        position: relative; top: 9px;
+        text-align: center;
+        float: left;
+        width:125px; height: 48.274px; 
+        z-index: 11;}
+
+    #nav #nav_link{
+        display: block; 
+        padding-top: 4.5px;
+        width: 125px; height: 45px; 
+        text-decoration: none; color: white;
+        font-size: 14px;
+    }
+
+    #nav #left_space,#nav #left_space2,#nav #left_space3,#nav #left_space4{
+        display: none; float: left;
+        position: absolute; width: 510px; height: 410px; 
+        z-index: 9;}
+
+    #nav #right_space{
+        display:none;
+        position: absolute; width: 210px; height: 458px;
+        left: 510px; top: 0px;
+        z-index: 8;}
+
+    #nav:hover{box-shadow: 2px 1px 5px #333333; border-style: none; z-index: 12;}
+    #nav:hover ~ #main_picture #label_name{display: none;}
+
+
+/*    #nav.one:hover ~ #main_picture div, #nav.two:hover ~ #main_picture div, 
+    #nav.three:hover ~ #main_picture div, #nav.four:hover ~ #main_picture div{
+        display: none;
+    }*/
+
+
+
+
+/*    #nav.two:hover #left_space, #nav.two:hover #right_space{display: block;}*/
+    #nav.two #left_space2{left: -127px;} #nav.two #right_space{left: 383px;}
+
+
+/*    #nav.three:hover #left_space, #nav.three:hover #right_space{display: block;}*/
+    #nav.three #left_space3{left: -254px;} #nav.three #right_space{left: 256px;}
+
+
+/*    #nav.four:hover #left_space, #nav.four:hover #right_space{display: block;}*/
+    #nav.four #left_space4{left: -381px;} #nav.four #right_space{left: 129px;}
+
+    #buttons{display: inline-block; width: 670px; height: 82px;}
+    #buttons a{color: white; text-decoration: none;}
+    #buttons li{
+        list-style: none;
+        padding: 20px 0px 0px 10px;
+        height: 62px; width: 110px; display: inline-block;
+        color: white; text-align: center; font-size: 13px;
+        background-repeat: no-repeat;}
+
+    #buttons .shown{background-position:0px 10px; background-repeat: no-repeat;}
+    #buttons .shown:hover{background-position:0px 6px; padding-top: 14px;}
+
+    #buttons #shown2{background-position:0px 10px; background-repeat: no-repeat;}
+
+    #main_picture #buttons{position: absolute; left: 500px; top: 377px;}
+    #main_picture #buttons li{float: right; position: absolute; top: 110.2px; left: 255px;}
+
+    #nav #buttons{position: absolute; left: 0; top: 335px;}
+    #nav #buttons li{float: left; margin: 0px 5px 0px 0px;}
+
+    #main_picture #buttons #shown2{background-image: url('Images/student-support/home_page/blue-tab.png'); font-size:12px}
+    #main_picture #buttons #shown2:hover{background-position:0 0 2px 0; text-decoration:underline;}
+
+
+
+    #nav.one #buttons .shown{background-image: url('Images/student-support/home_page/blue-small.png');}
+    #nav.one #buttons .shown:hover{background-image: url('Images/student-support/home_page/blue-big.png');}
+
+    #nav.two #buttons .shown{background-image: url('Images/student-support/home_page/orange-small.png');}
+/*    #nav.two #buttons #shown.volunteer:hover{background-image: url('Images/student-support/home_page/yellow-big.png');}
+    #nav.two #buttons #shown.ambassadors:hover{background-image: url('Images/student-support/home_page/dark-gray-big.png');}
+    #nav.two #buttons #shown.get_connected:hover{background-image: url('Images/student-support/home_page/orange-big.png');}
+    #nav.two #buttons #shown.src:hover{background-image: url('Images/student-support/home_page/red-big.png');}
+    #nav.two #buttons #shown.associations:hover{background-image: url('Images/student-support/home_page/purple-big.png');}*/
+
+    #nav.three #buttons .shown{background-image: url('Images/student-support/home_page/purple-small.png');}
+/*    #nav.three #buttons #shown:hover{background-image: url('Images/student-support/home_page/purple-big.png');}*/
+
+    #nav.four #buttons .shown{background-image: url('Images/student-support/home_page/green-small.png');}
+/*    #nav.four #buttons #shown:hover{background-image: url('Images/student-support/home_page/green-big.png');}*/
+--></style>
+<div id="get_connected">
+<div class="one" id="nav"><a id="nav_link"></a>New Students/<br />Parents
+<div id="left_space">
+<ul>
+<li class="shown">New Student Checklist</li>
+</ul>
+<ul>
+<li class="shown">Get<br /> Connected</li>
+</ul>
+<ul>
+<li class="shown">Parents Page</li>
+</ul>
+<ul>
+<li class="shown">Visit Days</li>
+</ul>
+<ul>
+<li class="shown">Student Ambassadors</li>
+</ul>
+</div>
+<div id="right_space"></div>
+</div>
+<div class="two" id="nav"><a id="nav_link"></a>Student<br />Organizations
+<div id="left_space2">
+<ul>
+<li class="shown" id="shown">Volunteer</li>
+</ul>
+<ul>
+<li class="shown" id="shown">Student <br />Ambassadors</li>
+</ul>
+<ul>
+<li class="shown" id="shown">Get<br /> Connected</li>
+</ul>
+<ul>
+<li class="shown" id="shown">SRC</li>
+</ul>
+<ul>
+<li class="shown" id="shown">Student <br /> Associations</li>
+</ul>
+</div>
+<div id="right_space"></div>
+</div>
+<div class="three" id="nav"><a id="nav_link"></a>Ask BYUI
+<div id="left_space3">
+<ul>
+<li class="shown">Bulletin Board</li>
+</ul>
+<ul>
+<li class="shown">Live Chat</li>
+</ul>
+<ul>
+<li class="shown">Ask BYUI</li>
+</ul>
+<ul>
+<li class="shown">Lost and Found</li>
+</ul>
+</div>
+<div id="right_space"></div>
+</div>
+<div class="four" id="nav"><a id="nav_link"></a>Contact Us
+<div id="left_space4">
+<ul>
+<li class="shown">About Us</li>
+</ul>
+<ul>
+<li class="shown">Contact Us</li>
+</ul>
+</div>
+<div id="right_space"></div>
+</div>
+<div id="main_picture">
+<div id="left_space">
+<ul>
+<li id="shown2">Having trouble viewing this page?</li>
+</ul>
+</div>
+<div id="right_space"></div>
+</div>
+</div>
+<p>
+<script type="text/javascript">
+    window.onload=function(){
+        $('.one').click(function(){
+            $('#main_picture').css("background-image","url('Images/student-support/home_page/student_parents.jpg')");
+            $('#shown2').css("display","none");
+            $('#left_space2').css("display","none");
+            $('#left_space3').css("display","none");
+            $('#left_space4').css("display","none");
+            $('#left_space').css("display","block");
+            $('#nav.one #buttons #shown').css("background-image", "url('Images/student-support/home_page/blue-small.png')");
+            $('.shown').hover(
+               
+               function(){
+                   $(this).css("background-image","url('Images/student-support/home_page/blue-big.png')");
+               },
+                function(){
+                    $(this).css("background-image","url('Images/student-support/home_page/blue-small.png')");
+                }
+               
+               
+            );
+        });//end .one
+        $('.two').click(function(){
+            $('#main_picture').css("background-image", "url('Images/student-support/home_page/volunteer.jpg')");
+             $('#shown2').css("display","none");
+             $('#left_space').css("display","none");
+              $('#left_space3').css("display","none");
+            $('#left_space4').css("display","none");
+             $('#left_space2').css("display","block");
+             
+              $('.shown').hover(
+               
+               function(){
+                   $(this).css("background-image","url('Images/student-support/home_page/orange-big.png')");
+               },
+                function(){
+                    $(this).css("background-image","url('Images/student-support/home_page/orange-small.png')");
+                }
+               
+               
+            );
+                
+        });// end .two
+        $('.three').click(function(){
+           $('#main_picture').css("background-image", "url('Images/student-support/home_page/ask.jpg')"); 
+            $('#shown2').css("display","none");
+            $('#left_space').css("display","none");
+              $('#left_space3').css("display","block");
+            $('#left_space4').css("display","none");
+             $('#left_space2').css("display","none");
+             
+              $('.shown').hover(
+               
+               function(){
+                   $(this).css("background-image","url('Images/student-support/home_page/purple-big.png')");
+               },
+                function(){
+                    $(this).css("background-image","url('Images/student-support/home_page/purple-small.png')");
+                }
+               
+               
+            );
+        });
+        $('.four').click(function(){
+           $('#main_picture').css("background-image","url('Images/student-support/home_page/contact.jpg')");
+            $('#shown2').css("display","none");
+            $('#left_space').css("display","none");
+              $('#left_space3').css("display","none");
+            $('#left_space4').css("display","block");
+             $('#left_space2').css("display","none");
+              $('.shown').hover(
+               
+               function(){
+                   $(this).css("background-image","url('Images/student-support/home_page/green-big.png')");
+               },
+                function(){
+                    $(this).css("background-image","url('Images/student-support/home_page/green-small.png')");
+                }
+               
+               
+            );
+             
+        });
+    }
+</script>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-XXXXX-Y']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+</p>]]></IntroCopy><xPower Type="GroupStart" GroupStart="" Name="CellGroup" label="Cells" readonly="false" hidden="false" required="false" Expanded="false" ID="5"><numColumns type="enumeration" values="1 2 3 4 5" label="Select number of cell columns." readonly="false" hidden="false" required="true" ID="6">1</numColumns><xPower Type="List" List="xpowercomponent_Cell" Name="CellList" label="Cell List" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false" ID="7"><xPower Type="Component" Component="" Name="Cell" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false" ID="8"/></xPower></xPower><xPower Type="List" List="xpowercomponent_BannerAd" Name="BannerAds" label="Rotating Ads (650x216px required)" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="true" ID="9"><xPower Type="Component" Component="" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false" ID="10"/><xPower Type="Component" Component="" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false" ID="10"/><xPower Type="Component" Component="" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false" ID="10"/><xPower Type="Component" Component="" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false" ID="10"/></xPower><xPower Type="Navigation" StartPage="x42561" MaxDepth="4" MaxNodes="4" GenerationOrder="down" Navigation="" Query="" Name="DeptEvents" label="Define Your Events Folder" readonly="false" hidden="false" required="false" Expanded="true" ID="11"><Exports></Exports></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" ID="12" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="QuickLinksGroup" label="Quick Links Group" readonly="false" hidden="false" required="false" Expanded="true" ID="13"><xPower Type="Component" Component="" Name="QuickLinks" label="Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" ID="14" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" ID="15" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" ID="16" Expanded="false"/></xPower><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="true" ID="17"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false" ID="18"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false" ID="19"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false" ID="20">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false" ID="21">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false" ID="22">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false" ID="23">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" ID="24"/><xPower Type="Component" Component="x19075" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" ID="25" Expanded="false"/></AdminPage>

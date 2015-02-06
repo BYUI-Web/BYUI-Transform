@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<HideTxtPage ID="x63173" Name="content QnA" Layout="hidden_Text.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">content QnA</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">content QnA</Abstract><topNav type="boolean" label="Enable to show top navigation." readonly="false" hidden="false" required="false">false</topNav><OpenAll type="boolean" label="Enable to expand all questions." readonly="false" hidden="false" required="false">false</OpenAll><BodyCopy type="dhtml" label="Message Block" readonly="false" hidden="false" required="false"><![CDATA[<h1>Help Request Form</h1>
+<form action="http://www2.byui.edu/helpdesk/email.asp" enctype="x-www-form-urlencoded">
+<table border="0" style="width: 100%;">
+<tbody>
+<tr>
+<td colspan="2"><span style="font-size: 9pt;">1. Fill in the form, then click Submit.</span></td>
+</tr>
+<tr>
+<td colspan="2"><span style="font-size: 9pt;">2. You will receive a reply via email.</span></td>
+</tr>
+<tr>
+<td>
+<p align="right"><span style="font-size: 9pt;">Your Name</span></p>
+</td>
+<td><input name="Name" size="30" type="text" /></td>
+</tr>
+<tr>
+<td>
+<p align="right"><span style="font-size: 9pt;">Email</span></p>
+</td>
+<td><input name="Email" size="30" type="text" /></td>
+</tr>
+<tr>
+<td>
+<p align="right"><span style="font-size: 9pt;">Phone</span></p>
+</td>
+<td><input name="Phone" size="15" type="text" /></td>
+</tr>
+<tr>
+<td>
+<p align="right"><span style="font-size: 9pt;">Please describe the help you need in detail:</span></p>
+</td>
+<td><textarea cols="28" name="Problem" rows="6"></textarea></td>
+</tr>
+<tr>
+<td align="center" colspan="2"><input name="b1" type="submit" value="Submit" /> <input name="name" type="reset" value="Reset" /></td>
+</tr>
+</tbody>
+</table>
+</form>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="HiddenList" label="Hidden Text Group" readonly="false" hidden="false" required="false" Expanded="true"><sort type="boolean" label="Enable to alphabetize list." readonly="false" hidden="false" required="false">true</sort><xPower Type="List" List="xpowercomponent_HiddenText" Name="HidTextList" label="Hidden Text List" readonly="false" hidden="false" required="false" Component="" CompTypes="HiddenText" Expanded="true"><xPower Type="Component" Component="" Name="HiddenText" readonly="false" hidden="false" required="false" CompTypes="HiddenText" Expanded="false"/><xPower Type="Component" Component="" Name="HiddenText" readonly="false" hidden="false" required="false" CompTypes="HiddenText" Expanded="false"/><xPower Type="Component" Component="" Name="HiddenText" readonly="false" hidden="false" required="false" CompTypes="HiddenText" Expanded="false"/><xPower Type="Component" Component="" Name="HiddenText" readonly="false" hidden="false" required="false" CompTypes="HiddenText" Expanded="false"/></xPower></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x35726" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></HideTxtPage>

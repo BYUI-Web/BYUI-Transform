@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x66408" Name="Frequently Asked Questions" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Frequently Asked Questions</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Frequently Asked Questions</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style><!--
+#honor_policies_lower{
+	font-style:italic;
+	margin-top:25px;
+	float:left;
+	font-family:Georgia, &quot;Times New Roman&quot;, Times, serif;	
+}
+
+#honor_policies_lower h4{
+	color:#989898;
+}
+		
+#honor_question{
+	color:#000;
+        margin:none;
+}
+
+#question_even{
+	background-color:#FFF7E5;
+	padding:15px 10px 1px 10px;
+}
+
+#question_odd{
+	padding-top:30px;
+	padding-left:10px;
+	padding-right:10px;
+	
+}
+
+#question_text{
+	font-size:13px;	
+}
+--></style>
+<div id="honor_policies_lower">
+<div id="question_even">
+<p id="honor_question">QUESTION: <br />What is the electronic continuing ecclesiastical endorsement?</p>
+<p id="honor_answer">ANSWER: <br /><span id="question_text">The electronic continuing endorsement is an online form students must complete before meeting with their bishop for a continuing ecclesiastical endorsement interview. Following the interview, bishops complete the endorsement process, removing the continuing endorsement hold from the student&rsquo;s account.</span></p>
+</div>
+<div id="question_odd">
+<p id="honor_question">QUESTION: <br />Why do I need a new endorsement when I just got one?</p>
+<p id="honor_answer">ANSWER: <br /><span id="question_text">The Board of Trustees has indicated that "[T]he continuing endorsement will help ensure that students who are active Church members are not excluded through enrollment ceilings while inactive members enjoy the blessings of attending Church schools."</span></p>
+</div>
+<div id="question_even">
+<p id="honor_question">QUESTION: <br />I tried to register and was told that there was a hold on my record. What should I do?</p>
+<p id="honor_answer">ANSWER: <br />You need to determine what kind of hold is placed on your record. Is it a financial, academic, Honor Code or continuing endorsement hold? You will need to contact the office that placed the hold and clear it up before you can register.</p>
+</div>
+<div id="question_odd">
+<p id="honor_question">QUESTION: <br />I am not LDS; do I need an endorsement?</p>
+<p id="honor_answer">ANSWER: <br /><span id="question_text">Yes. Contact the leader of the LDS area ward or branch unit in which you currently reside.</span></p>
+</div>
+<div id="question_even">
+<p id="honor_question">QUESTION: <br />I have to work on Sunday and cannot attend church? What should I do?</p>
+<p id="honor_answer">ANSWER: <br /><span id="question_text">A variety of meeting start times are available in most areas. If you are unable to attend your assigned ward, try to find a time that works for you. You will also need to visit with your bishop to work it out with him.</span></p>
+</div>
+<div id="question_odd">
+<p id="honor_question">QUESTION: <br />I will be doing an internship this summer. Do I need an endorsement?</p>
+<p id="honor_answer">ANSWER: <br /><span id="question_text">Yes. A Continuing Ecclesiastical Endorsement is necessary for anyone representing the university through either coursework or other activities.</span></p>
+</div>
+<div id="question_even">
+<p id="honor_question">QUESTION: <br />I am taking less than 12 credits. Do I need an endorsement?</p>
+<p id="honor_answer">ANSWER: <br /><span id="question_text">Yes. All BYU-Idaho students should have current endorsements.</span></p>
+</div>
+<div id="question_odd">
+<p id="honor_question">QUESTION: <br />Does my campus bishop have to do my endorsement or can my home bishop do it?</p>
+<p id="honor_answer">ANSWER: <br /><span id="question_text">Students who are on campus must receive their continuing endorsement from their campus ward bishop.</span></p>
+</div>
+<div id="question_even">
+<p id="honor_question">QUESTION: <br />What if my bishop does not endorse me?</p>
+<p id="honor_answer">ANSWER: <br /><span id="question_text">You will not be able to register until you are eligible for an ecclesiastical endorsement.</span></p>
+</div>
+<div id="question_odd">
+<p id="honor_question">QUESTION: <br />If my university bishop will not endorse me, can I get my home bishop or another bishop to do it?</p>
+<p id="honor_answer">ANSWER: <br /><span id="question_text">No.</span></p>
+</div>
+<div id="question_even">
+<p id="honor_question">QUESTION: <br />I decided not to return to BYU-Idaho before I left school but have now changed my mind. What should I do?</p>
+<p id="honor_answer">ANSWER: <br /><span id="question_text">Contact your bishop and make arrangements with him to do your endorsement as part of the reapplication process.</span></p>
+</div>
+<div id="question_odd">
+<p id="honor_question">QUESTION: <br />Does my stake president have to do my continuing endorsement?</p>
+<p id="honor_answer">ANSWER: <br /><span id="question_text">No.</span></p>
+</div>
+<p id="honor_answer"></p>
+<div id="question_even">
+<p id="honor_answer"><span id="question_text"></span></p>
+</div>
+<div id="question_odd">&nbsp;</div>
+<p id="honor_answer"><span id="question_text"></span></p>
+<div id="question_odd">
+<p id="honor_question"><span id="question_text"></span>&nbsp;</p>
+</div>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x43014" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

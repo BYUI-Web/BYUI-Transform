@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<Content ID="x63006" Name="Nutrition" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Nutrition</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Nutrition</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p><link href="Documents/health-center/wellness/well_main.css" rel="stylesheet" type="text/css" /></p>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+<script src="Documents/health-center/faqs1.js" type="text/javascript"></script>
+<div id="wellness">
+<div id="header">
+<div class="icon"></div>
+Health Center Wellness</div>
+<div id="wholebody"><iframe frameborder="0" height="240" id="mynav" scrolling="no" src="Documents/health-center/wellness/well_nav.html" width="350"></iframe>
+<div id="maincontent">
+<div id="subheader">Nutrition<span>Health Center Wellness</span></div>
+<br />
+<p class="comment">A key component in maintaining proper health is managing your diet and staying hydrated.</p>
+<h4>What is a Diet?</h4>
+<p>Diet is not a strict &ldquo;you can&rsquo;t eat that&rdquo; regimen, but rather a conscious effort to eat healthy, well-balanced foods that will benefit your body.</p>
+<h2>What is a "Healthy Diet"?</h2>
+<p>The Dietary Guidelines for Americans describe a healthy diet as one that:</p>
+<ul>
+<li>Balances calories with physical activity to manage weight</li>
+<li>Includes more of certain foods and nutrients such as fruits, vegetables, whole grains, fat-free and low-fat dairy products, and seafood</li>
+<li>Includes fewer foods with sodium (salt), saturated fats, trans fats, cholesterol, added sugars, and refined grains</li>
+</ul>
+<h4>What Should I Eat?</h4>
+<h2>Carbohydrates:</h2>
+<p>Carbohydrates are the preferred energy source of the body. There are two types of carbohydrates: simple and complex. Simple carbohydrates are more quickly digested and complex carbohydrates take longer to digest. This difference often determines the way that the energy is stored. It is recommended that you limit your intake of simple sugars such as cakes, cookies and sugar-sweetened beverages.</p>
+<p class="quote">It is recommended that 45% to 65% of your total calories come from carbohydrates.</p>
+<br />
+<p>You can find carbohydrates in the following:</p>
+<ul>
+<li>Fruits and vegetables</li>
+<li>Breads, cereals, and other grains</li>
+<li>Foods containing added sugars (e.g., cakes, cookies, and sugar-sweetened beverages)</li>
+</ul>
+<h2>Dietary Fat:</h2>
+<p>The Dietary Guidelines for Americans from 2010 recommend that Americans keep their total fat intake within certain limits. This limit is defined as a percentage of your total caloric needs:</p>
+<p class="quote">It is recommended that 20%-35% of your total calories come from fat.</p>
+<br />
+<ul>
+<li>Limit your saturated fat intake to less than 10 percent of your total calories</li>
+<li>Avoid all trans fats because it greatly increases your risk for heart disease</li>
+</ul>
+<h2>Proteins:</h2>
+<p>Most of your body structures, organs, and tissues are made up of protein. It is important that you consume adequate amounts for your body.</p>
+<p class="quote">In general, it's recommended that 10%&ndash;35% of your daily calories come from protein.</p>
+<br />
+<p>There are numerous sources of protein including:</p>
+<ul>
+<li>Nuts and seeds</li>
+<li>Beans and Legumes</li>
+<li>Seafood, poultry, beef or pork</li>
+<li>Eggs and milk products</li>
+</ul>
+<p>The recommendation for protein depends on the individual:</p>
+<h2>Protein Calculation:</h2>
+body weight/ 2.2 x activity level value= total grams per day
+<table>
+<tbody>
+<tr><th>Sedentary</th><th>Active</th></tr>
+<tr>
+<td>0.8</td>
+<td>1.0</td>
+</tr>
+</tbody>
+</table>
+<h2>Fruits and Vegetables:</h2>
+<p>Any fruit or 100% fruit juice counts as part of the fruit group. Fruits may be fresh, canned, frozen, or dried, and may be whole, cut-up, or pureed. These recommendations are the minimum amounts suggested for a healthy lifestyle.</p>
+<table>
+<tbody>
+<tr><th rowspan="2">Women</th>
+<td>19-30 years old</td>
+<td>2 cups</td>
+</tr>
+<tr>
+<td>31- 50 years old</td>
+<td>1 &frac12; cups</td>
+</tr>
+<tr><th rowspan="2">Men</th>
+<td>19-30 years old</td>
+<td>2 cups</td>
+</tr>
+<tr>
+<td>31-50 years old</td>
+<td>2 cups</td>
+</tr>
+</tbody>
+</table>
+<h2>Dairy:</h2>
+<p>Dairy products are essential for optimal bone health and decreased risk for osteoporosis later in life. It is recommended that you intake 3 servings of various dairy products; however, it is suggested that you consume fat free or low-fat products.</p>
+<h2>Hydration:</h2>
+<p>Staying hydrated is crucial for maintaining optimal health; however, the recommended amount varies on the need of the individual. It is important to be aware of your body&rsquo;s needs and be consistent in your fluid intake. Avoid drinks that contain excess amounts of added sugar or that will cause your body to be dehydrated, such as soda or energy drinks.</p>
+<p>Reviewed and approved by Doctor Bradbury, September 2012</p>
+<a href="x43027.xml" target="_blank"><img class="print" src="Images/health-center/print.png" /> Printer Friendly Version</a>
+<div class="clear"></div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<script src="Documents/health-center/faqs2.js" type="text/javascript"></script>
+<p><iframe frameborder="0" height="240" id="footer" scrolling="no" src="http://www.byui.edu/Documents/health-center/footer.html" width="320"></iframe></p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x28441" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

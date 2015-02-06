@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x67897" Name="browser_detect.js" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">browser_detect.js</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">browser_detect.js</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">var BrowserDetect = {
+	init: function () {
+		this.browser = this.searchString(this.dataBrowser) || "An unknown browser";
+		this.version = this.searchVersion(navigator.userAgent)
+			|| this.searchVersion(navigator.appVersion)
+			|| "an unknown version";
+		this.OS = this.searchString(this.dataOS) || "an unknown OS";
+	},
+	searchString: function (data) {
+		for (var i=0;i&lt;data.length;i++)	{
+			var dataString = data[i].string;
+			var dataProp = data[i].prop;
+			this.versionSearchString = data[i].versionSearch || data[i].identity;
+			if (dataString) {
+				if (dataString.indexOf(data[i].subString) != -1)
+					return data[i].identity;
+			}
+			else if (dataProp)
+				return data[i].identity;
+		}
+	},
+	searchVersion: function (dataString) {
+		var index = dataString.indexOf(this.versionSearchString);
+		if (index == -1) return;
+		return parseFloat(dataString.substring(index+this.versionSearchString.length+1));
+	},
+	dataBrowser: [
+		{
+			string: navigator.userAgent,
+			subString: "MSIE",
+			identity: "Explorer",
+			versionSearch: "MSIE"
+		}
+	],
+	dataOS : [
+		{
+			string: navigator.platform,
+			subString: "Win",
+			identity: "Windows"
+		},
+		{
+			string: navigator.platform,
+			subString: "Mac",
+			identity: "Mac"
+		},
+		{
+			   string: navigator.userAgent,
+			   subString: "iPhone",
+			   identity: "iPhone/iPod"
+	    },
+	]
+
+};
+BrowserDetect.init();
+
+if (BrowserDetect.browser == "Explorer" &amp;&amp; BrowserDetect.version &lt; 8 ){
+    var general_ie=document.createElement("link");
+    general_ie.setAttribute("rel", "stylesheet");
+    general_ie.setAttribute("type", "text/css");
+    general_ie.setAttribute("href", "css/styleIE7.css");
+    document.getElementsByTagName("head")[0].appendChild(general_ie);
+    
+    var accordion_ie=document.createElement("link");
+    accordion_ie.setAttribute("rel", "stylesheet");
+    accordion_ie.setAttribute("type", "text/css");
+    accordion_ie.setAttribute("href", "css/common/accordion_ie.css");
+    document.getElementsByTagName("head")[0].appendChild(accordion_ie);
+    
+    var accordion_ie=document.createElement("link");
+    accordion_ie.setAttribute("rel", "stylesheet");
+    accordion_ie.setAttribute("type", "text/css");
+    accordion_ie.setAttribute("href", "css/pt/newsroomIE7.css");
+    document.getElementsByTagName("head")[0].appendChild(accordion_ie);
+} else {
+    var accordion=document.createElement("link")
+    accordion.setAttribute("rel", "stylesheet")
+    accordion.setAttribute("type", "text/css")
+    accordion.setAttribute("href", "css/common/accordion.css")
+    document.getElementsByTagName("head")[0].appendChild(accordion)
+    
+    var accordion_ie=document.createElement("link");
+    accordion_ie.setAttribute("rel", "stylesheet");
+    accordion_ie.setAttribute("type", "text/css");
+    accordion_ie.setAttribute("href", "css/pt/newsroom.css");
+    document.getElementsByTagName("head")[0].appendChild(accordion_ie);
+}</ESContent></EmptyShell>

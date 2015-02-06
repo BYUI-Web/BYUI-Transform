@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content ID="x43467" Name="New Student Talent Show" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">New Student Talent Show</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">New Student Talent Show</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+#page {
+	MIN-HEIGHT: 600px; WIDTH: 710px; HEIGHT: auto
+}
+#page #header {
+	BACKGROUND-IMAGE: url(Images/student-support/Get Connected/Talent Show/Talnet-Show-header.jpg); WIDTH: 710px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 265px; background-size: 100% 100%
+}
+#page #content {
+	PADDING-BOTTOM: 1%; MIN-HEIGHT: 300px; PADDING-LEFT: 1%; WIDTH: 78%; PADDING-RIGHT: 1%; FLOAT: left; HEIGHT: auto; PADDING-TOP: 1%
+}
+#page #content P {
+	PADDING-LEFT: 5px
+}
+#page #buttons {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 1%; MIN-HEIGHT: 300px; PADDING-LEFT: 1%; WIDTH: 18%; PADDING-RIGHT: 1%; FLOAT: left; HEIGHT: auto; PADDING-TOP: 1%
+}
+#page #buttons DIV {
+	MARGIN: 10px auto 20px; WIDTH: 100px; HEIGHT: 100px
+}
+#page #buttons .one {
+	BACKGROUND-IMAGE: url(Images/student-support/Get Connected/Talent Show/talent-show-sprite.gif); BACKGROUND-POSITION: 0px 100px
+}
+#page #buttons .five {
+	BACKGROUND-IMAGE: url(Images/student-support/Get Connected/Talent Show/talent-show-sprite.gif); BACKGROUND-POSITION: 0px 306px
+}
+#page #buttons .two {
+	BACKGROUND-IMAGE: url(Images/student-support/Get Connected/get-connected-sprite2.gif); BACKGROUND-POSITION: 0px 100px
+}
+#page #buttons .three {
+	BACKGROUND-IMAGE: url(Images/student-support/Get Connected/get-connected-sprite2.gif); BACKGROUND-POSITION: 0px 304px
+}
+#page #buttons .four {
+	BACKGROUND-IMAGE: url(Images/student-support/Get Connected/get-connected-sprite2.gif); BACKGROUND-POSITION: 0px 512px
+}
+#page #buttons .one:hover {
+	BACKGROUND-IMAGE: url(Images/student-support/Get Connected/Talent Show/talent-show-sprite.gif); BACKGROUND-POSITION: 0px 203px
+}
+#page #buttons .five:hover {
+	BACKGROUND-IMAGE: url(Images/student-support/Get Connected/Talent Show/talent-show-sprite.gif); BACKGROUND-POSITION: 0px 408px
+}
+#page #buttons .two:hover {
+	BACKGROUND-IMAGE: url(Images/student-support/Get Connected/get-connected-sprite2.gif); BACKGROUND-POSITION: 0px 203px
+}
+#page #buttons .three:hover {
+	BACKGROUND-IMAGE: url(Images/student-support/Get Connected/get-connected-sprite2.gif); BACKGROUND-POSITION: 0px 408px
+}
+#page #buttons .four:hover {
+	BACKGROUND-IMAGE: url(Images/student-support/Get Connected/get-connected-sprite2.gif); BACKGROUND-POSITION: 0px 615px
+}
+#page #buttons .live_chat {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; FONT-FAMILY: sans-serif; COLOR: #fff; MARGIN-LEFT: 0px; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 10px; border-radius: 4px
+}
+#page #buttons .live_chat:hover {
+	opacity: .8
+}
+--></style>
+<div id="page">
+<div id="header"><img src="Images/student-support/Get Connected/Talent Show/Talnet-Show-header.jpg" /></div>
+<div id="content">
+<h1>New Student Talent Show</h1>
+<p>Don't miss the New Student Talent Show featuring the talent of new students. The New Student Talent Show will be held on Friday, September 12 from 8:30 - 10:00 p.m.</p>
+<p>Are you interested in sharing your talent?&nbsp;</p>
+<h2>Audition</h2>
+<p>Incoming students who want to audition for the New Student Talent Show can: <br />1) Submit a video audition to <a href="mailto:getconnected@byui.edu">getconnected@byui.edu</a>.<br />2) Attend Talent Show Auditions on:&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Friday, September 12, 2014 9:00 a.m.-3:00 p.m.<br />&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; in the Manwaring Center Dance Studio (MC 201).&nbsp;</p>
+<p>If you have any questions concerning the New Student Talent Show, send an &nbsp;email to&nbsp;<a href="mailto:getconnected@byui.edu">getconnected@byui.edu</a>&nbsp;or call the Student Support office at&nbsp;(208)496-1420.</p>
+</div>
+<div id="buttons">
+<div class="two"></div>
+<div class="three"></div>
+<div class="four"></div>
+<p style="margin-top: -27px;">&nbsp;</p>
+<a class="live_chat" href="#">Live Chat</a></div>
+</div>
+<p>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-33977325-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+</p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x19075" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

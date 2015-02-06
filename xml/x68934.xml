@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.101 - http://www.ingeniux.com ***-->
+<Content ID="x68934" Name="Events" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Events</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Events</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<p>[x69863]</p>
+<h1>Events</h1>
+<table border="0">
+<tbody>
+<tr>
+<td>
+<p><span style="text-decoration: underline;"><strong>Upcoming Events</strong></span></p>
+<p><strong><span style="font-size: 9pt; line-height: 1em;">Speaking Partner Info Session 1<br /><br /></span></strong><span style="font-size: 9pt; line-height: 1em;">Thu 25th April, 2pm, TAY 120</span></p>
+<ul>
+<li><span style="font-size: 12px; line-height: 12px;">Open session for any new or interested speaking partner volunteers.</span></li>
+</ul>
+<p><strong><span style="font-size: 12px; line-height: 12px;">Speaking Partner Info Session 2<br /><br /></span></strong><span style="font-size: 12px; line-height: 12px;">Wed 1st May, TAY 120</span></p>
+<ul>
+<li><span style="font-size: 12px; line-height: 12px;">Open session for any new or interested speaking partner volunteers.</span></li>
+</ul>
+<p><span style="text-decoration: underline;"><strong>Past Events</strong></span></p>
+<p><span style="font-size: 9pt; line-height: 1em;">(W13) Think Globally Act Locally: BYU-Idaho and the LDS Church's Global Education Efforts</span></p>
+<ul>
+<li><span style="font-size: 12px; line-height: 12px;">A presentation by the manager of the Speaking Partner Program about the unique development of BYU-Idaho's role in educating the globe. Prezi can be <a href="http://prezi.com/zhvfdkp9t6bg/byu-i-pathway-speaking-partner-program-w13/?auth_key=a79bcefba24678b45c839511465ce91d67ad117b" target="_blank">viewed here</a>.</span></li>
+</ul>
+</td>
+<td><img height="400" src="Images/cto-lab/PSP_Poster.PNG" style="display: block; margin-left: auto; margin-right: auto;" width="308" /></td>
+</tr>
+</tbody>
+</table>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="x18360" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="true" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="x69863" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x17147" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

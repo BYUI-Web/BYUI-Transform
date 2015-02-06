@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content ID="x43357" Name="Election Events" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Election Events</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Campaigning, Voting, and Fun!</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<div id="electionsMenu" style="padding-bottom: 15px;">
+<h1 style="padding: 10px; margin-bottom: 8px; background-color: #a60000; color: white; border-radius: 10px;">Student Body Officer Elections | November 18-22, 2013</h1>
+<ul style="display: inline; padding-left: 0px;">
+<li style="display: inline; list-style: none; font-weight: bold; font-family: Helvetica; font-size: 19px; padding-bottom: 8 px;"><a href="http://web.byui.edu/VotingService" style="color: #a60000;"><img alt="Candidate Icon" height="32" src="Images/student-support/SRC/Graphics/vote_red_32.png" style="margin-bottom: -8px; margin-right: 5px;" width="32" />Vote</a></li>
+<li style="display: inline; list-style: none; font-weight: bold; font-family: Helvetica; font-size: 19px; padding-bottom: 8 px;"><a href="x43356.xml"><img alt="Candidate Icon" height="32" src="Images/student-support/SRC/Graphics/delete_user.png" style="margin-bottom: -8px; margin-right: 5px;" width="32" />Candidates</a></li>
+<li style="display: inline; list-style: none; font-weight: bold; font-family: Helvetica; font-size: 19px; padding-bottom: 8 px;"><a href="x43357.xml"><img alt="Events Icon" height="32" src="Images/student-support/SRC/Graphics/calendar.png" style="margin-bottom: -8px; margin-right: 5px;" width="32" />Events</a></li>
+</ul>
+</div>
+<h1>Elections Events</h1>
+<p>Student Body Officer Elections is one of the few activities that involves every student at BYU-Idaho. Voting begins November 18 and continues thru 12 noon on November 22.&nbsp; Don't forget to vote!</p>
+<table border="0">
+<tbody>
+<tr>
+<td>
+<p><strong>Event</strong></p>
+</td>
+<td>
+<p><strong>Dates</strong></p>
+</td>
+<td>
+<p><strong>Location</strong></p>
+</td>
+</tr>
+<tr>
+<td>
+<h2>Winners Announced</h2>
+<p>Candidates, their teams, and all students are welcome to gather at The Crossroads Stage in the MC to find out who will be BYU-Idaho's next Student Body President and Student Body Vice President.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</td>
+<td style="text-align: center;">
+<p>Friday, November 22 at 12:30 p.m.</p>
+</td>
+<td>
+<p style="text-align: center;">The Crossroads Stage</p>
+</td>
+</tr>
+</tbody>
+</table>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="x36320" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x36315" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

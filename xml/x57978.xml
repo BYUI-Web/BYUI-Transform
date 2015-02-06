@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.82 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x57978" Name="BYUI Connect: Finding a Mentor" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">BYUI Connect: Finding a Mentor</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Information about BYUI Connect, a tool to help students make connections with mentors in particular career fields.</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p>BYUI Connect, the university’s alumni connections site, puts students in contact with BYU-Idaho employees and other people throughout the United States who have volunteered to answer students' questions about specific careers. The volunteers are either actively involved in their listed career, or have previously worked in the career for an extended period of time. They can give students career-related advice and information based on personal experience.</p>
+<p>Follow the steps below to find career mentors.</p>
+<div class="step_section">
+<p>Step 1: Go to <a href="http://www.byuiconnect.com" target="_blank">BYUI Connect</a>.</p>
+</div>
+<p> </p>
+<div class="step_section">
+<p>Step 2: Create a user account by selecting the First Time Log In button.</p>
+</div>
+<div class="step_image"><img alt="Step_2" src="Images/new_image_structure/administrative_departments/career_and_academic_advising/mentor_list_steps/step_2.jpg" title="Step 2" /></div>
+<div class="step_section">
+<p>Step 3: Log in to BYUI Connect.</p>
+</div>
+<div class="step_image"><img alt="Step_3" src="Images/new_image_structure/administrative_departments/career_and_academic_advising/mentor_list_steps/step_3.jpg" title="Step 3" /></div>
+<div class="step_section">
+<p>Step 4: Go to the Online Directory.</p>
+</div>
+<div class="step_image"><img alt="Step_4" src="Images/new_image_structure/administrative_departments/career_and_academic_advising/mentor_list_steps/step_4.jpg" title="Step 4" /></div>
+<div class="step_section">
+<p>Step 5: Select Advanced Search.</p>
+</div>
+<div class="step_image"><img alt="Step_5" src="Images/new_image_structure/administrative_departments/career_and_academic_advising/mentor_list_steps/step_5.jpg" title="Step 5" /></div>
+<div class="step_section">
+<p>Step 6: Select “Yes” in the Mentoring Network drop down menu.</p>
+</div>
+<div class="step_image"><img alt="Step_6" src="Images/new_image_structure/administrative_departments/career_and_academic_advising/mentor_list_steps/step_6.jpg" title="Step 6" /></div>
+<div class="step_section">
+<p>Step 7: Select from the various list options to find mentors matching certain criteria.</p>
+</div>
+<div class="step_image"><img alt="Step_7" src="Images/new_image_structure/administrative_departments/career_and_academic_advising/mentor_list_steps/step_7.jpg" title="Step 7" /></div>
+<style type="text/css"><!--
+#right_wrapper{
+	float: left;
+	width: 450px;
+	display: block;
+}
+
+#intro_section{
+	float: left;
+	width: 450px;
+	display: block;
+}
+
+.step_section{
+	float: left;
+	width: 450px;
+	display: block;
+}
+
+.step_image{
+	float: left;
+	width: 450px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	display: block;
+}
+--></style>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x17690" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

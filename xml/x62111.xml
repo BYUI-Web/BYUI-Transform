@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x62111" Name="Eating Disorders" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Eating Disorders</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Eating Disorders</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<script type="text/Javascript">
+   function expand(num) {
+      var hidden = document.getElementById("hidden" + num);
+      var expand = document.getElementById("plus" + num);
+
+      if (expand.innerHTML == "+") {
+         expand.innerHTML = "-";
+         hidden.style.display="block";
+      } else {
+         expand.innerHTML = "+";
+         hidden.style.display="none";
+      }
+   }
+
+   function hover(type, num) {
+      var hover = document.getElementById("plus" + num);
+
+      if (type == 1) {
+         hover.style.backgroundColor = "#999999";
+      } else {
+         hover.style.backgroundColor = "#007ebd";
+      }
+   }
+</script>
+<p align="left"><a href="x32036.xml" target="_parent">Take an eating disorder questionnaire to assess eating disorder tendencies or indicators</a></p>
+<h3 align="left">Eating Disorder Statistics</h3>
+<ul>
+<li>90% of anorexics and bulimics are female, and 10% are male.</li>
+</ul>
+<ul>
+<li>Anorexia has the highest fatality rate of any identified   psychological disorder; in fact, it is estimated that 10% of those   suffering with anorexia will die from the disorder or its complications.</li>
+</ul>
+<ul>
+<li>Recent studies have suggested that 6-13% of high school students in Nevada and Utah have diagnosable eating disorders.</li>
+</ul>
+<ul>
+<li>These studies also found that 30-35% of high school students have   attitudes and beliefs about food and weight that fall into the abnormal   range and put them at risk for developing an eating disorder.</li>
+</ul>
+<ul>
+<li>50% of 9-year-old girls and 80% of 10-year-old girls have dieted.</li>
+</ul>
+<ul>
+<li>75% of American women are dissatisfied with their appearance.</li>
+</ul>
+<ul>
+<li>The 'ideal' woman portrayed by models and screen actresses is 5'10"   tall, and weighs 110 lbs. The average American woman is 5'4" and weighs   140 lbs.</li>
+</ul>
+<ul>
+<li>Young girls are more afraid of becoming fat than they are of nuclear war, cancer, or losing their parents.</li>
+</ul>
+<ul>
+<li>Girls develop eating and self-image problems before drug or alcohol   problems. There are drug and alcohol treatment programs in almost every   school, but no eating disorder programs.</li>
+</ul>
+<h3>Eating Disorder Criteria</h3>
+<ul>
+</ul>
+<p>The following criteria are used by mental health professionals to   determine if someone is suffering from an eating disorder.  They are   taken from the <em>Diagnostic and Statistical Manual of Mental Disorders</em> (DSM-IV)<em>. </em>Click the (+) next to each topic to learn more.<em><br /></em></p>
+<table border="0">
+<tbody>
+<tr>
+<td id="plus1" onclick="expand(1)" onmouseout="hover(2, 1)" onmouseover="hover(1, 1)" style="padding: 0pt 5px 5px; font-weight: bold; color: #ffffff; cursor: pointer; border: 1px solid #ffffff; background-color: #007ebd;">+</td>
+<td style="padding: 0 5px 5px;"><strong>Anorexia Nervosa: </strong>Deliberate self-starvation</td>
+</tr>
+<tr>
+<td></td>
+<td id="hidden1" style="display: none;">
+<ul style="margin-left: 15px;">
+<li>Refusal to maintain body weight at 85% or above, or not making expected weight gains during puberty.</li>
+<li>Intense fear of gaining weight though underweight.</li>
+<li>Disturbance or distortion in body image perception and experience.</li>
+<li>Amenorrhea (loss of menstruation) with absence of at least three consecutive periods.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td id="plus2" onclick="expand(2)" onmouseout="hover(2, 2)" onmouseover="hover(1, 2)" style="padding: 0pt 5px 5px; font-weight: bold; color: #ffffff; cursor: pointer; border: 1px solid #ffffff; background-color: #007ebd;">+</td>
+<td style="padding: 0 5px 5px;"><strong>Bulimia Nervosa: </strong>Binge-eating followed by purging</td>
+</tr>
+<tr>
+<td></td>
+<td id="hidden2" style="display: none;">
+<ul style="margin-left: 15px;">
+<li>Recurrent episodes of binge eating with large food amounts and feelings of lack of control.</li>
+<li>Recurrent compensatory behavior (purging, excessive exercise, laxatives) to prevent weight gain.</li>
+<li>The binge eating and purging occur at least 2 times weekly for 3 months.</li>
+<li>Self-evaluation unduly influenced by body shape and weight.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<ul>
+</ul>
+<ul>
+</ul>
+<h3>What are some of the danger signs indicating an eating disorder?</h3>
+<p style="margin-top: 10px; margin-bottom: 5px;"><strong>Anorexia Nervosa</strong></p>
+<p style="margin-top: 5px;">People with  anorexia restrict their caloric intake for long periods of  time and  deliberately starve themselves, resulting in loss of body  weight of at  least 15 percent.  Weight loss is achieved by avoiding  food, fasting,  frenzied exercise, vomiting, laxatives and other means.   An intense  fear of becoming obese as well as distorted body image are  significant  characteristics of anorexia nervosa.  Loss of hair,  dehydration, cold  hands and feet, bloating, fatigue, menstrual  irregularities or loss of  menstrual period, loss of muscle tissue, low  blood pressure, dizziness,  growth of body hair (languno), rigid food  rules and rituals, frequent  weighing of self on a scale, layering of  clothing, insomnia, purging or  compulsive exercise are other signs of  this illness.  Emotional and  psychological characteristics can include  depression, low sense of  self-worth, difficulty thinking clearly,  suicidal thoughts,  self-hatred, perfectionism, obsession about thinness,  loss of sexual  interest, withdrawal and isolation.</p>
+<p style="margin-bottom: 5px;"><strong>Bulimia Nervosa</strong></p>
+<p style="margin-top: 5px;">A cyclic  pattern of binge eating associated with some type of purging  describes  bulimia nervosa.  The purging takes on several different  forms:  fasting, self-induced vomiting, excessive exercising, or use of   cathartics, diuretics, laxatives, or enemas.  It is characterized by an   intense fear of becoming fat linked to secretive and recurring episodes   of compulsively acquiring and eating large quantities of food and   purging the food through self-induced vomiting or other compensatory   behaviors such as excessive exercise.  Fear of not being able to stop   eating or control what or how much is being eaten is another significant   characteristic.  Weight fluctuations, heart arrhythmia and   irregularities, swollen glands and face, sore throat, abdominal pain and   distress, chest pain, tooth decay, loss of tooth enamel, gum erosion,   dry mouth, headaches, fatigue, and constipation are other signs of this   illness.  Emotional and psychological evidences can include an intense   preoccupation with appearance and 'image', constant ruminations and   worries about body weight and size, self-loathing, self-disgust,   perfectionism, unreasonable comparisons with the appearance of other   women, constant feelings of being out of control, isolation, and an   inability to be in touch with or express their own feelings.</p>
+<p>Bulimia Nervosa and Anorexia Nervosa are often present together.   These  disorders are prevalent among women, especially between the ages  of 12  and 30.  One in 150 females suffer from Anorexia Nervosa, and  recent  studies on college campuses show that almost 20 percent of  college  females struggle with bulimia.</p>
+<h3>Eating Disorder Prevention</h3>
+<p>Eating disorders are complex and painful illnesses that have many   underlying and contributing causes and factors in their development.  In   view of the growing epidemic in the number of women and men in the   United States with eating disorders, it is important to explore ways to   prevent this disorder from taking root in someone's life.</p>
+<p>The prevention of an eating disorder requires a balanced approach  which  avoids the extremes in a person's response to life and its  challenges  and stresses, performance expectations, media influences,  cultural and  social experiences, etc.  Prevention for any addictive  problem requires  awareness, honesty, balance and wisdom in a person's  choices and coping  strategies.</p>
+<p>In clinical observations, it can be noted that the strategies and  ideas  helpful in preventing an eating disorder are the same strategies  that  someone who is in the process of recovery from an eating disorder  uses  to help them maintain their positive improvements and changes.</p>
+<p><a href="x32121.xml">10 Ways to Prevent an Eating Disorder</a></p>
+<h3>Dieting can Become a Precursor to Eating Disorders</h3>
+<p align="left">Dieting may not be the cause of eating disorders, but it  is often a  precursor.  The National Eating Disorders Association  reports that 35%  of "normal dieters" progress to pathological dieting  and that 20-25% of  those individuals develop eating disorders.  It is  far too common that  eating disorders start off as dieting.  Dieting can  be a way for  individuals to exercise control - counting calories and  fat grams,  limiting types and amounts of food, and watching the numbers  drop on the  scale.  Focusing on dieting and weight loss can be a  "perfect" escape  from true emotions and issues.  Not only can the focus  on dieting and  weight loss be distracting, but also dieters tend to  have slower  reaction time and less ability to concentrate due to lack  of adequate  nutrition.</p>
+<p align="left">Our culture has brainwashed us into thinking being  ultra-thin is equated  with beauty.  To obtain this image, Americans put  so much time, energy,  and money into diets, and in the end the diets  don't even work.  The  dieting failure rate helps to explain the  industry's rapid growth.  When  a diet fails, the search is on for a new  one that "really works." <a href="x32125.xml"></a></p>
+<p align="left"><a href="x32125.xml">Read the article "Dieting is Out; Listening to Our Bodies is In"</a></p>
+<h3>Overcoming a Negative Body Image</h3>
+<p>How often do you look in the mirror and say, "If I could just lose  ten  pounds, then I would be happy?"  Unfortunately, the majority of  American  women and girls are dissatisfied with their bodies, and many  take  extreme measures in an attempt to change their bodies.  For  example, one  study found that 63% of female participants identified  weight as the  key factor in determining how they felt about  themselves-more important  than family, school, or career.  Other  research suggests that 85% of all  women are dissatisfied with their  bodies and want to lose weight.   Women and adolescent girls regard  size, much like weight, as a  definitive element of their identity.   Some girls assume there is  something wrong with their bodies when they  cannot fit consistently into  some "standard" size; others will reject a  pair of jeans simply because  they won't wear a particular size.</p>
+<p>Although a large majority of women are displeased with their bodies,   many women and girls experience extreme body image difficulties that  can  be part of more complicated problems.  These extreme body image   disturbances include body dysmorphic disorder, eating disorders and   severe depression.</p>
+<p><a href="x32200.xml">Read about ways to overcome negative body image</a></p>
+<h3>Helping a Family Member or Friend</h3>
+<p>When you realize that someone you love may be struggling with anorexia  nervosa or bulimia nervosa, naturally you want to know more about it.   And because you care, you also want to understand what they are  experiencing so that you can be as supportive as you can throughout  their recovery.</p>
+<p>You may already know that anorexia and bulimia are complex and confusing  illnesses.  Now that you are past the initial shock of discovery, you  may be experiencing feelings of anxiety, guilt, anger, fear, and  frustration-all understandable reactions.  Seeing a family member of a  friend suffer from an eating disorder is very frightening and  difficult.  We know it's not easy.</p>
+<p>You can play a critically important role in the recovery process.   Knowledge-based appropriate actions and support can be a tremendous  source of strength and comfort to your loved one.</p>
+<p><a href="x32202.xml">Click here to read "Anorexia and Bulimia: How Friends and Family can Help"</a></p>
+<h3>Self-Esteem and Eating Disorders</h3>
+<p>Those suffering from eating disorders most often have two things which  are the common denominators of eating disorders.   The first common  denominator is poor self-esteem, the belief that they are not good  enough, that they do not have much to offer the world, and the "felt  need" to do something to "make up for that," which is partially acted  out in the eating disorder.  Secondly, the eating disorder truly is a  disorder of avoidance.  It becomes a way for those so addicted and so  trapped in its grip to avoid painful emotions, painful beliefs about  self, pain that comes from a lost sense of one's identity, and further, a  way to avoid rejection and other painful experiences in life.</p>
+<p>Poor self-esteem is the thread of the deep woven fabric of an eating  disorder.  Eating disorder patients most often become trapped in a  belief about self which is: 'I am nothing more than my appearance, my  achievements, and what others think of me.'  It is these beliefs about  themselves that keep the eating disorder alive and well.  Therefore, a  step to recovery, and then ultimately one of the blessings of recovery,  is to once again learn that esteem and worth are much more than  appearance, so much more than achievements, and everything more than  what others might think and feel.</p>
+<p>Self-esteem has more to do with what one believes in, what one thinks,  feels and desires, the intentions of one's heart, one's sensibility,  intuition, capabilities, and more.  It has to do with passion and how  one lives their life.  Self-esteem has more to do with the internal than  the external.  For the religious, it has to do with deity and divinity,  the meaning of being a creation of God.   For others, it may include  ideas of connection with others, self-respect, good intention, talents,  whether developed or not, a sense of being rather than doing.  It is  about who we are, and the intentions of the heart.</p>
+<p>According to Bednar Wells and Peterson (1989), self-esteem is:  "An  enduring and affective sense of personal value based on accurate  self-perceptions."</p>
+<p><a href="x32213.xml">Read the article: "Antidotes for Low Self-Esteem in Eating Disorder Recovery"</a></p>
+<h3>Spirituality and Eating Disorders</h3>
+<p>At their core eating disorders are a spiritual problem.  Almost all  women with eating disorders have distorted and lost touch with their  sense of identity and worth.  This identity loss is pervasive to the  extent that they lose touch with virtually every healthy aspect of their  identity until their identity <em>is</em> their eating disorder.  They  no longer are capable of seeing themselves as women, daughters, mothers,  artists, creations of God, and so on but see themselves exclusively <em>as</em> an eating disorder, or as the expression of an eating disorder.  Their  whole sense of identity revolves around their body and their eating  disorder.  A 19-year-old former patient who participated in a survey we  conducted about the role of faith and spirituality in recovery wrote,</p>
+<p style="padding-left: 30px;"><em>An eating disorder doesn't want just a part of your life, it wants  it all-it demands it all.  This was the case for me.  Before I knew it, I  was consumed by my eating disorder and spent 110% of my time thinking  about food, weight, etc. </em></p>
+<p>A 22-year-old former patient wrote,</p>
+<p style="padding-left: 30px;"><em>Having an eating disorder hurt my spirituality and relationship  with God just as it hurt everything else.  There was nothing else-only an  eating disorder to occupy my time and energy. </em></p>
+<p>For many patients, the loss of their spiritual sense of identity is an  extremely painful part of their experience.  Many patients feel that  they have lost God or that God has left them.  They no longer feel  worthy or deserving of God's love.  A 25-year-old former patient wrote,</p>
+<p style="padding-left: 30px;"><em>My eating disorder destroyed my relationship with God.  It blocked  me from God and I lost all faith and trust in God.  I became very angry  with God because I felt like God had abandoned me.  Eventually, I just  stopped thinking about God.  My eating disorder became my God and my  body became the Devil.</em></p>
+<p>A 23-year-old former patient wrote,</p>
+<p style="padding-left: 30px;"><em>My eating disorder robbed me of my relationship with God.  I was in  a personal anguish that shred my soul and threatened my spiritual and  mortal life.  I felt no love and saw no mercy.  Anger consumed me.  I  felt abandoned and worthless.  My heart turned bitter and hard.  I cut  God out of my life completely.  My eating disorder robbed me of my  self-worth.  I felt like nothing.  I could not feel love, for I was  unlovable.  I could not give love, for I was incapable.  I lost my  self-respect and went against all I believed to be true.  It was a  downward spiral that almost led to my death. </em></p>
+<p>These statements help illustrate the damage an eating disorder can do to  a woman's sense of spiritual identity and worth and to her relationship  with God.  One of the sad consequences for women who suffer with eating  disorders is that through the course and development of the eating  disorder, they often lose touch with what is most powerful within  themselves.  They become numb or lose contact with the feelings of their  heart or spiritual identity and worth.</p>
+<p><a href="x32214.xml">Read the article: "Eating Disorder Recovery: A Spiritual Perspective"</a></p>
+<h3>Resources</h3>
+<p>National Eating Disorder Association (NEDA)<a href="http://www.nationaleatingdisorders.org/" target="_parent"> http://www.nationaleatingdisorders.org/</a></p>
+<p>International Association of Eating Disorder Professionals (IAEDP)<a href="http://www.iaedp.com/" target="_parent"> http://www.iaedp.com/</a></p>
+<p>Gurze 2008 Eating Disorders Resource Catalogue - Gurze Books (specializing in eating disorder publications, education and treatment directory) Catalogue is available at BYU-Idaho Counseling Center.<a href="http://www.bulimia.com/" target="_parent"> http://www.bulimia.com/</a></p>
+<p>National Institute of Mental health<a href="http://www.nimh.nih.gov/" target="_parent"> http://www.nimh.nih.gov/</a></p>
+<p>Eating Disorder Awareness Week<a href="http://www.edaw.org/" target="_parent"> http://www.edaw.org/</a></p>
+<p>American Dietetic Association<a href="http://www.eatright.org/" target="_parent"> http://www.eatright.org/</a></p>
+<p>Eating Disorder Hope<a href="http://www.eatingdisorderhope.com/" target="_self"> http://www.eatingdisorderhope.com/</a> <span style="text-decoration: underline;"> </span></p>
+<p><a href="x32215.xml">Hidden Feelings Article of An Eating Disorder</a></p>
+<span style="text-decoration: underline;">How to Avoid a Thinness Obsession in Today's World</span> (upload the Powerpoint)<span style="text-decoration: underline;"> </span><br /><span style="text-decoration: underline;">Not Being Good Enough:  Steps to Self Acceptance (Bodies Are Included)</span> (upload the Powerpoint)<br /> Courtesy of Center for Change, Orem, Utah<br />]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x17637" CompTypes="SiteControl"/></Content>

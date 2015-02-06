@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x46920" Name="tabs on content test" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">tabs on content test</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">tabs on content test</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style><!--
+ul.tabz {
+	height: 28px;
+	line-height: 25px;
+	list-style: none;
+        position:relative;
+        left: -22px;
+        top: -9px;
+        margin-left: 0;
+        margin-bottom: 5px;
+}
+.tabz li {
+	float: left;
+	display: inline;
+	margin: 0 1px -1px 0px;
+	padding: 0 4px 1px; // width of boxes
+	color: #777;
+	cursor: pointer;
+	background: #F9F9F9;
+	border: 1px solid #E4E4E4;
+	position: relative;
+        font-family:Arial,Helvetica,sans-serif;
+        font-weight:bold;
+        font-size: 11px;
+        
+}
+.tabz li:hover,
+
+.verticall .tabz li:hover {
+	color: #F70;
+	padding: 0 4px;
+	background: #FFFFDF;
+	border: 1px solid #FFCA95;
+}
+.tabz li.current {
+	color: white;
+	background: #4370a6;
+	padding: 0 4px 2px; //width of current box
+	border: 1px solid #D4D4D4;
+  
+}
+}
+--></style>
+<ul class="tabz">
+<a href="x44657.xml">
+<li>General Transcript Info</li>
+</a> <a href="x46822.xml">
+<li>Electronic Transcript Info</li>
+</a> <a href="x46895.xml">
+<li>Leadership Transcript Info</li>
+</a> 
+</ul>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque magna sit amet tellus accumsan rutrum. Pellentesque elit ligula, tempor nec sagittis at, dignissim ut diam. Vivamus at arcu dui. Vivamus vitae tortor et diam vehicula varius sed at leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse vehicula tempus lacus, sit amet feugiat odio commodo id. Curabitur id magna eu nunc dapibus facilisis. Curabitur et mauris ante. In hac habitasse platea dictumst.</p>
+<p>Ut eget aliquet lacus. Sed aliquet ullamcorper turpis, nec pulvinar felis porta eu. Phasellus cursus lectus et massa tincidunt sit amet tincidunt lacus tempus. Nullam nibh est, interdum at lacinia vel, tincidunt in nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis justo augue, eleifend quis hendrerit eu, imperdiet porttitor magna. Ut eget turpis nibh. Mauris leo libero, sollicitudin eu gravida sit amet, adipiscing id leo. Donec at mauris in diam tempus auctor non nec ligula. Donec mollis gravida consectetur.</p>
+<p>In hac habitasse platea dictumst. Etiam cursus diam non mauris sollicitudin at fringilla dui mattis. Morbi vulputate sollicitudin velit, sit amet varius elit malesuada sit amet. Integer ultrices enim quis magna auctor venenatis. In tincidunt erat ut justo placerat euismod. Integer adipiscing elementum est, id ornare nisi posuere quis. Aliquam sodales elementum urna a consectetur. Nam sed condimentum sem.</p>
+<p>Morbi tempus enim vitae est accumsan euismod. Praesent euismod diam sed arcu pretium semper. Ut sit amet ipsum a tortor interdum rhoncus eget non purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin fermentum massa sed justo aliquam blandit. Mauris eu neque in turpis luctus molestie id et mauris. Curabitur sed felis in nisl pellentesque ultricies. Sed enim quam, condimentum vitae molestie ac, porttitor et neque. Morbi eget magna id dui dapibus vehicula at vitae mauris. Donec at nisi justo, feugiat facilisis turpis. Ut adipiscing, tortor eu mattis varius, leo enim bibendum justo, quis tincidunt mi dolor sit amet odio. Pellentesque id purus et lorem porttitor pretium. Proin vitae neque dolor. Fusce iaculis libero id sem pellentesque rutrum. Vivamus gravida lacinia nisi, a dignissim augue tempus ut. Suspendisse potenti.</p>
+<p>In congue enim velit. Pellentesque enim felis, fringilla in ultrices vitae, porttitor eget nibh. Donec vulputate pulvinar nisi sed rhoncus. Pellentesque dictum adipiscing dapibus. Nullam vulputate ultrices elit in blandit. Donec commodo gravida mi, id eleifend ante iaculis vel. Aliquam porttitor, metus eu posuere sodales, nibh sem consectetur massa, eu rutrum quam risus congue augue. Fusce sed mattis sem. Mauris in porta elit.</p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x17143" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

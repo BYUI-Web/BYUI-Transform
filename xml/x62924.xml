@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.70 - http://www.ingeniux.com ***-->
+<AdminPage ID="x62924" Name="Health Center" Layout="admin_office_home.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Student Health Center</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">The Homepage of the BYU-Idaho Student Health Center</Abstract><MainMesgTop type="boolean" label="Enable to move &quot;Main Message&quot; to top of page" readonly="false" required="false" hidden="false">true</MainMesgTop><IntroCopy type="dhtml" label="Main Message" readonly="false" hidden="false" required="false"><![CDATA[<p>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+<script type="text/Javascript">
+function goTo(object) {
+      var place = object.children[1].href;
+
+      window.location = place;
+   }
+</script>
+</p>
+<div id="maincontent" style="position: relative; top: -27px;">
+<p><link href="Documents/health-center/css/layout.css" rel="stylesheet" /></p>
+<div class="homepage" id="content_zone"><iframe frameborder="0" height="42" scrolling="no" src="Documents/health-center/news2.html" style="padding-bottom: 0px; margin-top: 0px; margin-bottom: 0px; padding-top: 0px;" width="710"></iframe>
+<div id="columns">
+<div class="col">
+<div class="title">i need...</div>
+<div class="items firstitems">
+<ul>
+<li class="item">
+<div class="icon_sm mission"></div>
+<a href="x37090.xml">Mission Physicals</a></li>
+<li class="item">
+<div class="icon_sm pharm"></div>
+<a href="x37092.xml">Pharmacy</a></li>
+<li class="item">
+<div class="icon_sm pmarex"></div>
+<a href="x43063.xml">Premarital Exams</a></li>
+<li class="item">
+<div class="icon_sm insp"></div>
+<a href="x37091.xml">INS Physicals</a></li>
+<li class="item">
+<div class="icon_sm brocher"></div>
+<a href="x41757.xml">Brochures</a></li>
+<li class="item">
+<div class="icon_sm pricare"></div>
+<a href="x47539.xml">Primary Care</a></li>
+<li class="item">
+<div class="icon_sm travel"></div>
+<a href="x35851.xml">Travel Health</a></li>
+<li class="item">
+<div class="icon_sm wellness"></div>
+<a href="x43023.xml">Wellness</a></li>
+<li class="item">
+<div class="icon_sm immune"></div>
+<a href="x34773.xml">Immunizations</a></li>
+<li class="item">
+<div class="icon_sm radi"></div>
+<a href="x47541.xml">Radiology</a></li>
+</ul>
+</div>
+</div>
+<div class="col">
+<div class="title">questions</div>
+<div class="items">
+<ul>
+<li class="item">
+<div class="icon_sm insure"></div>
+<a href="x34763.xml">Insurance</a></li>
+<li class="item">
+<div class="icon_sm tb"></div>
+<a href="x34770.xml">TB Holds</a></li>
+<li class="item">
+<div class="icon_sm question"></div>
+<a href="x37061.xml">Frequently Asked</a></li>
+<li class="item">
+<div class="icon_sm phone"></div>
+<a href="x34768.xml">Appointments</a></li>
+<li class="item">
+<div class="icon_sm lab"></div>
+<a href="x47523.xml">Laboratory</a></li>
+<li class="item">
+<div class="icon_sm doctor"></div>
+<a href="x34798.xml">About Us</a></li>
+</ul>
+</div>
+</div>
+<div class="col lastcol" style="width: 32.8%;">
+<div class="title">contact us</div>
+<div class="items">
+<div id="contact">
+<p><span class="heading">Health Center:</span> <span class="phone">(208) 496-9330</span></p>
+<p><span class="heading">Pharmacy: </span><span class="phone">(208) 496-9342</span></p>
+<p><span class="heading">DMBA Insurance: </span><span class="phone">(800) 777-3622</span></p>
+<div class="clear"></div>
+<p><span class="oh">Office Hours</span><br /><span class="heading">MWThF:</span> <span class="phone">8am - 5pm</span><br /><span class="heading">Tues:</span> <span class="phone">8am - 2pm, 3pm - 5pm</span></p>
+</div>
+<ul>
+<li class="item">
+<div class="icon_sm map"></div>
+<a href="x34828.xml">Directions</a></li>
+<li class="item">
+<div class="icon_sm clock"></div>
+<a href="x35019.xml">After Hours</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+<iframe frameborder="0" height="200" scrolling="auto" src="Documents/health-center/banner.html" style="margin-top: 0.5%;" width="710"></iframe>
+<div class="clear" id="social" style="margin-top: 5px;">
+<div id="blog">
+<p><a href="http://healthcenterwellness.blogspot.com"><span class="logo wellness">&nbsp;</span> Health Center Wellness Blog</a></p>
+<p class="women"><a href="http://shcwomenshealth.blogspot.com"><span class="logo women">&nbsp;</span> Women's Health Blog (New!)</a></p>
+</div>
+<iframe frameborder="0" height="240" scrolling="no" src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FBYU-Idaho-Student-Health-Center%2F265956886794883&amp;width=400&amp;height=62&amp;colorscheme=light&amp;show_faces=false&amp;border_color&amp;stream=false&amp;header=false" width="320"></iframe></div>
+</div>
+</div>
+<p>
+<script type="text/javascript">
+$(document).ready(function() {
+   $('.item').click(function() { goTo(this); });
+});
+</script>
+</p>]]></IntroCopy><xPower Type="GroupStart" GroupStart="" Name="CellGroup" label="Cells" readonly="false" hidden="false" required="false" Expanded="true"><numColumns type="enumeration" values="1 2 3 4 5" label="Select number of cell columns." readonly="false" hidden="false" required="true">1</numColumns><xPower Type="List" List="xpowercomponent_Cell" Name="CellList" label="Cell List" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"><xPower Type="Component" Component="" Name="Cell" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"/></xPower></xPower><xPower Type="List" List="xpowercomponent_BannerAd" Name="BannerAds" label="Rotating Ads (650x216px required)" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="true"><xPower Type="Component" Component="" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/></xPower><xPower Type="Navigation" StartPage="" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="" Query="" Name="DeptEvents" label="Define Your Events Folder" readonly="false" hidden="false" required="false" Expanded="false"/><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="QuickLinksGroup" label="Quick Links Group" readonly="false" hidden="false" required="false" Expanded="true"><xPower Type="Component" Component="" Name="QuickLinks" label="Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x28441" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></AdminPage>

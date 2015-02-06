@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x69077" Name="Video 4" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;!-- Start of Brightcove Player --&gt;
+&lt;div style="display:none"&gt;
+&lt;/div&gt;
+&lt;!--
+By use of this code snippet, I agree to the Brightcove Publisher T and C 
+found at https://accounts.brightcove.com/en/terms-and-conditions/. 
+--&gt;
+&lt;script language="JavaScript" type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"&gt;&lt;/script&gt;
+&lt;object id="myExperience2378543808001" class="BrightcoveExperience"&gt;
+  &lt;param name="bgcolor" value="#FFFFFF" /&gt;
+  &lt;param name="width" value="710" /&gt;
+  &lt;param name="height" value="400" /&gt;
+  &lt;param name="playerID" value="1958213874001" /&gt;
+  &lt;param name="playerKey" value="AQ~~,AAABCveqgBk~,pxVJqGv_EwrfdAXQpzSmZvxch-8aaSFb" /&gt;
+  &lt;param name="isVid" value="true" /&gt;
+  &lt;param name="isUI" value="true" /&gt;
+  &lt;param name="dynamicStreaming" value="true" /&gt;
+  
+  &lt;param name="@videoPlayer" value="2378543808001" /&gt;
+&lt;/object&gt;
+&lt;!-- 
+This script tag will cause the Brightcove Players defined above it to be created as soon
+as the line is read by the browser. If you wish to have the player instantiated only after
+the rest of the HTML is processed and the page load is complete, remove the line.
+--&gt;
+&lt;script type="text/javascript"&gt;brightcove.createExperiences();&lt;/script&gt;
+&lt;!-- End of Brightcove Player --&gt;</ContentSnippet></ContentSnippet>

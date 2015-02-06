@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.82 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x62104" Name="Assertiveness Self-Test" Layout="general_content.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Self-Test for Assertiveness</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">A Self-Test for Assertiveness from the BYU-Idaho Counseling Center</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<script type="text/Javascript">
+function check(num) {
+var checkbox = document.getElementById("q" + num);
+if (checkbox.src == "http://ingeniux.byui.edu/beta/xml/Images/counseling-center/check.png") {
+checkbox.src="http://ingeniux.byui.edu/beta/xml/Images/counseling-center/check2.png";
+} else {
+checkbox.src="http://ingeniux.byui.edu/beta/xml/Images/counseling-center/check.png";
+}
+}
+
+function getResult() {
+	var unassertive = 0;
+	var assertive = 0;
+	var aggressive = 0;
+
+	for (var i = 1; i < 25; i++) {
+		var check = document.getElementById("q" + i);
+
+		if (check.src == "http://ingeniux.byui.edu/beta/xml/Images/counseling-center/check2.png") {
+   			if (i == 3 || i == 5 || i == 6 || i == 11 || i == 15 || i == 17 || i == 18 || i == 24) {
+      				unassertive++;
+   			} else if (i == 1 || i == 8 || i == 10 || i == 13 || i == 16 || i == 19 || i == 20 || i == 22) {
+      				assertive++;
+   			} else {
+      				aggressive++;
+   			}
+		}
+	}
+
+	var output = document.getElementById("output");
+
+	if (unassertive > assertive && unassertive > aggressive) {
+		output.innerHTML = "<h4>Your typical style of communication is unassertive.</h4>";
+	} else if (assertive > unassertive && assertive > aggressive) {
+		output.innerHTML = "<h4>Your typical style of communication is assertive.</h4>";
+	} else if (aggressive > assertive && aggressive > unassertive) {
+		output.innerHTML = "<h4>Your typical style of communication is aggressive.</h4>";
+	} else {
+		output.innerHTML = "<h4>Your typical style of communication is equally unassertive, assertive, and aggressive.</h4>";
+	}
+}
+</script>
+<p><span style="font-family: helvetica;">This is a self-test to help you determine whether your typical style of communication is assertive, unassertive, or aggressive.  Check the statements that apply to you and click "Submit".</span></p>
+<table border="0">
+<tbody>
+<tr>
+<td><img alt="check" height="13" id="q1" onclick="check(1)" src="Images/counseling-center/check.png" width="13" /></td>
+<td style="padding-left: 30px; padding-top: 10px; padding-bottom: 10px;"><span style="font-family: helvetica;">I am able to recognize and express my good points.</span></td>
+</tr>
+<tr>
+<td><img alt="check" height="13" id="q2" onclick="check(2)" src="Images/counseling-center/check.png" width="13" /></td>
+<td style="padding-left: 30px; padding-top: 10px; padding-bottom: 10px;"><span style="font-family: helvetica;">I often brag and make unrealistic claims about my good points.</span></td>
+</tr>
+<tr>
+<td><img alt="check" height="13" id="q3" onclick="check(3)" src="Images/counseling-center/check.png" width="13" /></td>
+<td style="padding-left: 30px; padding-top: 10px; padding-bottom: 10px;"><span style="font-family: helvetica;">I feel guilty when I stand up for my rights or express my feelings.</span></td>
+</tr>
+<tr>
+<td><img alt="check" height="13" id="q4" onclick="check(4)" src="Images/counseling-center/check.png" width="13" /></td>
+<td style="padding-left: 30px; padding-top: 10px; padding-bottom: 10px;"><span style="font-family: helvetica;">I sometimes make other people look or feel stupid, small, or afraid.</span></td>
+</tr>
+<tr>
+<td><img alt="check" height="13" id="q5" onclick="check(5)" src="Images/counseling-center/check.png" width="13" /></td>
+<td style="padding-left: 30px; padding-top: 10px; padding-bottom: 10px;"><span style="font-family: helvetica;">I let other people take unfair advantage of me.</span></td>
+</tr>
+<tr>
+<td><img alt="check" height="13" id="q6" onclick="check(6)" src="Images/counseling-center/check.png" width="13" /></td>
+<td style="padding-left: 30px; padding-top: 10px; padding-bottom: 10px;"><span style="font-family: helvetica;">I do not express my views and feelings.</span></td>
+</tr>
+<tr>
+<td><img alt="check" height="13" id="q7" onclick="check(7)" src="Images/counseling-center/check.png" width="13" /></td>
+<td style="padding-left: 30px; padding-top: 10px; padding-bottom: 10px;"><span style="font-family: helvetica;">I often ignore another person's rights.</span></td>
+</tr>
+<tr>
+<td><img alt="check" height="13" id="q8" onclick="check(8)" src="Images/counseling-center/check.png" width="13" /></td>
+<td style="padding-left: 30px; padding-top: 10px; padding-bottom: 10px;"><span style="font-family: helvetica;">I am able to express negative feelings about other people and what they do without being abusive or cruel.</span></td>
+</tr>
+<tr>
+<td><img alt="check" height="13" id="q9" onclick="check(9)" src="Images/counseling-center/check.png" width="13" /></td>
+<td style="padding-left: 30px; padding-top: 10px; padding-bottom: 10px;"><span style="font-family: helvetica;">Frequently I take unfair advantage of other people.</span></td>
+</tr>
+<tr>
+<td><img alt="check" height="13" id="q10" onclick="check(10)" src="Images/counseling-center/check.png" width="13" /></td>
+<td style="padding-left: 30px; padding-top: 10px; padding-bottom: 10px;"><span style="font-family: helvetica;">I am able to receive compliments without denying them.</span></td>
+</tr>
+<tr>
+<td><img alt="check" height="13" id="q11" onclick="check(11)" src="Images/counseling-center/check.png" width="13" /></td>
+<td style="padding-left: 30px; padding-top: 10px; padding-bottom: 10px;"><span style="font-family: helvetica;">I have difficulty saying "no" when I do not want to say "yes" to someone's request.</span></td>
+</tr>
+<tr>
+<td><img alt="check" height="13" id="q12" onclick="check(12)" src="Images/counseling-center/check.png" width="13" /></td>
+<td style="padding-left: 30px; padding-top: 10px; padding-bottom: 10px;"><span style="font-family: helvetica;">I often make unreasonable demands of other people.</span></td>
+</tr>
+<tr>
+<td><img alt="check" height="13" id="q13" onclick="check(13)" src="Images/counseling-center/check.png" width="13" /></td>
+<td style="padding-left: 30px; padding-top: 10px; padding-bottom: 10px;"><span style="font-family: helvetica;">I usually stand up for my own rights and let other people do the same.</span></td>
+</tr>
+<tr>
+<td><img alt="check" height="13" id="q14" onclick="check(14)" src="Images/counseling-center/check.png" width="13" /></td>
+<td style="padding-left: 30px; padding-top: 10px; padding-bottom: 10px;"><span style="font-family: helvetica;">I often monopolize conversations.</span></td>
+</tr>
+<tr>
+<td><img alt="check" height="13" id="q15" onclick="check(15)" src="Images/counseling-center/check.png" width="13" /></td>
+<td style="padding-left: 30px; padding-top: 10px; padding-bottom: 10px;"><span style="font-family: helvetica;">I have difficulty making reasonable requests of other people.</span></td>
+</tr>
+<tr>
+<td><img alt="check" height="13" id="q16" onclick="check(16)" src="Images/counseling-center/check.png" width="13" /></td>
+<td style="padding-left: 30px; padding-top: 10px; padding-bottom: 10px;"><span style="font-family: helvetica;">I am able to start or carry on conversations comfortably.</span></td>
+</tr>
+<tr>
+<td><img alt="check" height="13" id="q17" onclick="check(17)" src="Images/counseling-center/check.png" width="13" /></td>
+<td style="padding-left: 30px; padding-top: 10px; padding-bottom: 10px;"><span style="font-family: helvetica;">I have difficulty recognizing and expressing my good points.</span></td>
+</tr>
+<tr>
+<td><img alt="check" height="13" id="q18" onclick="check(18)" src="Images/counseling-center/check.png" width="13" /></td>
+<td style="padding-left: 30px; padding-top: 10px; padding-bottom: 10px;"><span style="font-family: helvetica;">I rarely stand up for my rights.</span></td>
+</tr>
+<tr>
+<td><img alt="check" height="13" id="q19" onclick="check(19)" src="Images/counseling-center/check.png" width="13" /></td>
+<td style="padding-left: 30px; padding-top: 10px; padding-bottom: 10px;"><span style="font-family: helvetica;">I can ask for what is rightfully mine.</span></td>
+</tr>
+<tr>
+<td><img alt="check" height="13" id="q20" onclick="check(20)" src="Images/counseling-center/check.png" width="13" /></td>
+<td style="padding-left: 30px; padding-top: 10px; padding-bottom: 10px;"><span style="font-family: helvetica;">I can take criticism without becoming defensive.</span></td>
+</tr>
+<tr>
+<td><img alt="check" height="13" id="q21" onclick="check(21)" src="Images/counseling-center/check.png" width="13" /></td>
+<td style="padding-left: 30px; padding-top: 10px; padding-bottom: 10px;"><span style="font-family: helvetica;">Sometimes I become physically or verbally abusive when I am angry with someone or when I am criticizing someone.</span></td>
+</tr>
+<tr>
+<td><img alt="check" height="13" id="q22" onclick="check(22)" src="Images/counseling-center/check.png" width="13" /></td>
+<td style="padding-left: 30px; padding-top: 10px; padding-bottom: 10px;"><span style="font-family: helvetica;">I can easily express positive feelings about other people and what they do.</span></td>
+</tr>
+<tr>
+<td><img alt="check" height="13" id="q23" onclick="check(23)" src="Images/counseling-center/check.png" width="13" /></td>
+<td style="padding-left: 30px; padding-top: 10px; padding-bottom: 10px;"><span style="font-family: helvetica;">I cannot comfortably start or carry on conversations.</span></td>
+</tr>
+<tr>
+<td><img alt="check" height="13" id="q24" onclick="check(24)" src="Images/counseling-center/check.png" width="13" /></td>
+<td style="padding-left: 30px; padding-top: 10px; padding-bottom: 10px;"><span style="font-family: helvetica;">I usually feel good at first about getting my way but feel guilty later as a result of how I went about it.</span></td>
+</tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr>
+<td><input onclick="getResult()" type="button" value="Submit" /></td>
+<td id="output" style="padding-left: 30px;"></td>
+</tr>
+</tbody>
+</table>]]></BodyCopy><xPower Type="Component" Component="x24495" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x17637" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<TrainingElement ID="x16465" Name="Image" Layout="default-training.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Image</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Image</Abstract><LinkText type="string" label="Icon Address" readonly="false" hidden="false" required="true">Internal_Use/Ingeniux_Training/Icons/image.png</LinkText><TrainingIcon type="imagefile" label="Icon Image" hidden="false" readonly="false" required="false">Internal_Use/Ingeniux_Training/Icons/image.png</TrainingIcon><TrainingImage type="imagefile" label="Element Image" hidden="false" readonly="false" required="false">Internal_Use/Ingeniux_Training/Element Views/Image.png</TrainingImage><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+ul.one_line {
+   margin-bottom: 10px;
+}
+ul.one_line li { 
+   float: left; 
+   margin-right: 15px;
+}
+--></style>
+<div class="intro">
+<p>Images will be commonly used within the BYU-I site. The Image&nbsp;element allows users to import images from the assets folder.</p>
+</div>
+<p><strong>How to upload Images</strong></p>
+<p>&nbsp;&nbsp; In order to upload an image to the assets folder click on the&nbsp;  <a href="http://ingeniux.byui.edu/beta/help/ClientHTMLHelp/Universal_Client_Table_of_Contents/Manage_Assets.asp" style="color: #3366ff;" title="Assets" target="_blank"><img alt="upload" height="12" src="Images/Internal_Use/Ingeniux_Training/Icons/upload.png" title="upload" width="12" /> Assets&nbsp; button</a> located in the <a href="http://ingeniux.byui.edu/beta/help/ClientHTMLHelp/Universal_Client_Table_of_Contents/Client_Interface/Toolbar.asp" style="color: #3366ff;" title="CMS tool bar" target="_blank">CMS tool bar</a>. All departments should have a predefined image folder to place images in. If you are not sure where to upload images to, please refer to upper management or technical support.</p>
+<span class="title" style="text-decoration: underline;"> </span>
+<p><strong>Interface</strong></p>
+<h4 class="sub_title">Image:</h4>
+<p>&nbsp;&nbsp; The Image field is where the user can type the file address of the image file the wish to use.</p>
+<p>&nbsp;&nbsp; If needed, the <em>Browse</em> button can be used to display the contents of the assets image folder where a user can select an image. Doing so will insert the file address of the selected image.</p>
+<h4 class="sub_title">Width and Height</h4>
+<p>&nbsp;&nbsp; The Width and Height fields only display the selected image's width and height. Changing the width and height within these fields does not change the size of the image.</p>
+<h4 class="sub_title">Unused Fields</h4>
+<ul class="one_line">
+<li class="dot">Alt Text:</li>
+<li class="dot">Alignment</li>
+<li class="dot">Border:</li>
+<li class="dot">HSpace:</li>
+<li class="dot">VSpace:</li>
+</ul>
+<br />
+<p><strong>How to Edit a Selected Image (Image Editor)</strong></p>
+<img alt="Image Editor" height="319" src="Images/Internal_Use/Ingeniux_Training/Element Views/Image_Edit.png" style="margin-left: 10px; float: right;" title="Image Editor" width="520" />
+<p>&nbsp;&nbsp; If a correct file address has been entered in the image field, the image will be displayed within the image field. Double clicking this image will bring up the Image Editor.</p>
+<h4 class="sub_title">Image Editor Interface</h4>
+<p>&nbsp;&nbsp; Basic imaging tools are available for user changes, but remember after making changes to accept or reject your changes.</p>
+<p><img alt="Y N" height="20" src="Images/Internal_Use/Ingeniux_Training/Element Views/Image_Yes_No.png" style="margin-right: 3px; position: relative; top: 5px;" title="Y N" width="50" />These buttons will be provided.</p>
+<h4 class="sub_title">Saving</h4>
+<ul>
+<li>Save Changes - Save changes to current image file</li>
+<li>Save As - Save to new image file</li>
+<li>Close - Disregard all changes and close editor</li>
+</ul>]]></BodyCopy><xPower Type="Navigation" StartPage="x10283" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Children" Query="" Name="Icons" label="Element Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/></TrainingElement>

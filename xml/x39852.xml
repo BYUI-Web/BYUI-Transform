@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?><Content ID="x39852" Name="Open Hide Slider" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Open Hide Slider</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Web Editor HTML Snippets</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false" /><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false" /><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style type="text/css"><!--
+.acdmevent, .acdmhome, .adminhome, .home, .content, .contentfaq, .employee, .eventdetail, .imgindex, .newsartl, .policy {display: block !important;}
+
+.webEdit {display: block !important;}
+--></style>
+<!-- ****  apply only once  ************************* -->
+<link href="prebuilt/stylenew/css/OpenClose.css" media="screen, projection" rel="stylesheet" type="text/css" />
+<!-- ****  apply only once  ************************* -->
+<p>The following snippet of html code is used to hide/expose content. The content can &ldquo;hide or display&rdquo; by clicking on a title located above the content.</p>
+<p>1. Copy and paste the code given below into the text area by using the &ldquo;<a href="x20473.xml">html</a>&rdquo; button.<br /> 2. Add or remove additional hidden and visible code sections.<br /> 3. Replace the visible content inside editor view.</p>
+<div style="width: 410px; border: 1px solid #000; padding: 20px; float: left;">
+<p><strong>Demo</strong></p>
+<div class="open_text">
+<div class="posMark"></div>
+<div>
+<p><strong>Moses 1:39</strong></p>
+</div>
+</div>
+<div class="close_text hide">
+<p>For behold, this is my work and my<br />glory &mdash; to bring to pass the immortality and eternal life of man.</p>
+</div>
+<div class="open_text">
+<div class="posMark"></div>
+<div>
+<p><strong>2 Timothy 3:16-7</strong></p>
+</div>
+</div>
+<div class="close_text hide">
+<p>All scripture is given by inspiration of God, and is profitable for  doctrine, for reproof, for correction, for instruction in righteousness:  That the man of God may be perfect, throughly furnished unto all good  works.</p>
+</div>
+<div class="open_text">
+<div class="posMark"></div>
+<div>
+<p><strong>Mosiah 3:19</strong></p>
+</div>
+</div>
+<div class="close_text hide">
+<p>For the natural man is an enemy to God, and has been from the fall of  Adam, and will be, forever and ever, unless he yields to the enticings  of the Holy Spirit, and putteth off the natural man and becometh a saint  through the atonement of Christ the Lord, and becometh as a child,  submissive, meek, humble, patient, full of love, willing to submit to  all things which the Lord seeth fit to inflict upon him, even as a child  doth submit to his father.</p>
+</div>
+</div>
+<div style="width: 410px; padding: 20px; float: left;">
+<div class="open_text">
+<div class="negMark"></div>
+<div>
+<p><strong>Enter Title Here</strong></p>
+</div>
+</div>
+<div class="close_text">
+<p>Enter Visible Text Here</p>
+</div>
+<!-- Visible text above **** Hidden text below -->
+<div class="open_text">
+<div class="posMark"></div>
+<div>
+<p><strong>Enter Title Here</strong></p>
+</div>
+</div>
+<div class="close_text hide">
+<p>Enter Hidden Text Here</p>
+</div>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<hr />
+<hr />
+<p>&nbsp;</p>
+<p><!-- **** &nbsp;apply only once &nbsp;************************* --><br />
+<link href="prebuilt/stylenew/css/OpenClose.css" media="screen, projection" rel="stylesheet" type="text/css" />
+<br /><!-- **** &nbsp;apply only once &nbsp;************************* --><br /><br /><br /></p>
+<div class="open_text"><br />
+<div class="negMark"></div>
+<br />
+<div><br />
+<p><strong>Enter Title Here</strong></p>
+</div>
+</div>
+<br />
+<div class="close_text"><br />
+<p>Enter Visible Text Here</p>
+</div>
+<p>&nbsp;</p>
+<p><br /><!-- Visible text above **** Hidden text below --></p>
+<p>&nbsp;</p>
+<div class="open_text"><br />
+<div class="posMark"></div>
+<br />
+<div><br />
+<p><strong>Enter Title Here</strong></p>
+</div>
+</div>
+<br />
+<div class="close_text hide"><br />
+<p>Enter Hidden Text Here</p>
+</div>
+<p>&nbsp;</p>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="true" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="x36276" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false" /><xpowercomponent_Optional Type="Component" Component="x35847" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false" /></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" /><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" /><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" /></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent" /><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet" /></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query="" /><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x14845" CompTypes="SiteControl" /></Content>

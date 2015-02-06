@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x53041" Name="Art Seminar" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Art Seminar</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Art Seminar</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent" Expanded="false"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent" Expanded="false"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<div>
+<h1><span style="font-family: Helvetica, Arial, 'MS Trebuchet', sans-serif; font-size: 15px; display: inline;">Art Seminar Dates &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Winter 2013</span></h1>
+<div style="color: #666666; font-family: Helvetica, Arial, 'MS Trebuchet', sans-serif; font-size: 10px; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: #ffffff; display: block; font-style: normal; font-weight: normal; text-align: left; padding: 0px; border: 0px none initial;">
+<table border="0" style="color: #666666; font-size: 10px;">
+<tbody>
+<tr align="left">
+<td style="width: 60px;">
+<h5><span style="font-size: large;"><strong>Jan. 17</strong><br /></span></h5>
+</td>
+<td style="width: 100px;">
+<h5><strong><span style="font-size: large;">Nick Bontorno</span></strong></h5>
+</td>
+<td style="width: 120px;">
+<h5><strong><span style="font-size: large;">Printmaking</span></strong></h5>
+</td>
+</tr>
+<tr align="left">
+<td>
+<h5><strong><span style="font-size: large;">Jan. 31</span></strong></h5>
+</td>
+<td>
+<h2><strong><span style="font-size: medium;">&nbsp; &nbsp; &nbsp; &nbsp;Mel Ralph</span></strong></h2>
+</td>
+<td>
+<h2><strong>&nbsp; &nbsp; &nbsp; Art Education</strong></h2>
+</td>
+</tr>
+<tr align="left">
+<td>
+<h4><span style="font-size: medium;">&nbsp; &nbsp;Feb. 14</span></h4>
+</td>
+<td>
+<h4><span style="font-size: large;">&nbsp; &nbsp;Salman Chishty</span></h4>
+</td>
+<td>
+<h4><strong><span style="font-size: medium;">&nbsp; &nbsp; Painting - Sufi Artist</span></strong></h4>
+</td>
+</tr>
+<tr align="left">
+<td>
+<h5><span style="font-size: medium;"><span style="white-space: pre;">Feb. 21</span></span></h5>
+</td>
+<td>
+<h5><span style="font-size: medium;">Mike Valle<br /></span></h5>
+</td>
+<td>
+<h5><span style="font-size: large;">Illustration<br /></span></h5>
+</td>
+</tr>
+<tr align="left">
+<td>
+<h5><span style="font-size: large;"><strong>Mar. 7</strong><br /></span></h5>
+</td>
+<td>
+<h5><span style="font-size: large;"><strong>Craig Cornwall</strong><br /></span></h5>
+</td>
+<td>
+<h5><span style="font-size: large;">Printmaking</span></h5>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" style="color: #666666; font-size: 10px;">
+<tbody>
+<tr>
+<td><img alt="sunset" height="327" src="Images/art/030730SunsetFence_2622.jpg" width="500" /></td>
+<td>
+<h2></h2>
+</td>
+<td>
+<h2></h2>
+</td>
+</tr>
+</tbody>
+</table>
+<br /><span style="color: #555753;"><span style="font-size: 20px;"><br /></span></span></div>
+<h1 style="text-align: center;"></h1>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</div>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x1853" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

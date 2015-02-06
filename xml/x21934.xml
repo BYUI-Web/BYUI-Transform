@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x21934" Name="Explore" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Explore BYU-Idaho Online Courses</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Explore BYU-Idaho online classes. Who can take an online class? What are online classes like? What to expect from due dates and assignments? How are online classes graded? Technical support for online classes.</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="true"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent" Expanded="false"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent" Expanded="false"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p>Brigham Young University-Idaho offers a place for students to learn and grow with an uplifting and inspirational atmosphere. This education, which in previous years has been<img height="186" src="Images/Admin_Offices/Online%20Learning/General/Study-LeftPicture.jpg" style="float: right;" width="167" /> limited to students living in and around Rexburg, is now widely available through a rapidly growing number of online courses. When President Gordon B. Hinckley announced the formation of BYU-Idaho, he explained that the university would be &ldquo;taking advantage of advancements in technology which will enable the four-year institution to serve more students" (<a href="http://www.ldschurchnews.com/articles/38038/Ricks-College-graduates-to--4-year-school.html">Church News, 2000</a>). That vision is continued today as BYU-Idaho offers its courses around the globe.&nbsp;</p>
+<h3></h3>
+<h3></h3>
+<h3></h3>
+<h3></h3>
+<h3>What are online classes like?</h3>
+<p><iframe frameborder="0" height="399" src="http://www.youtube.com/embed/kWTCQMSpNSY?rel=0" width="710"></iframe></p>
+<p>Online courses are created and taught by dedicated experts in each field, and are attended by students who come from diverse backgrounds and locations. Courses online benefit students by providing a flexible schedule for completing coursework. Just like courses taught in a classroom, online courses are modeled after the Learning Model, which allows for constructive dialogue between students and instructors. Students will be required to accept responsibility for learning and teaching based on this model.</p>
+<h3>Who can take an online class?</h3>
+<p>Online classes mirror campus-based courses in format and schedule. Courses are available to students who are currently enrolled in face-to-face class, who are in their off-track, or who are interested in pursuing a degree from home. Students may be participating in online courses from around the world, or they may be trying to earn a college degree while raising a family or working full-time.</p>
+<h3>What can I expect from assignments and due-dates?</h3>
+<p>Classes move together through a structured learning experience based on the semester calendar. Typically, homework for the week is assigned at the beginning of the week, and students will have until Friday or Saturday to complete it. Homework is much like work done in the classroom. Students will be expected to complete readings, practice problems, or participate in audiovisual material. Students will have to pace themselves in order to complete assignments, and will also be responsible for their schedule. Even though the curriculum and schedule are flexible, students should not feel like they are alone as they learn course material. A common component of online classes is a discussion board, where students can discuss questions and concerns in open forum. Teachers are also committed to offering the best experience possible. Instructors will be available to answer questions and provide feedback on assignments.</p>
+<h3>How do grades work?</h3>
+<p>Just like any other class, online courses offer quizzes and tests to help students assess their understanding of course material. Tests are offered for many classes online, but are not always graded by a computer. Teachers will often evaluate responses in order to gauge a student&rsquo;s understanding. Students will also participate in self-assessments, where they will be asked to evaluate their own performance or participation. How do I get help? Brigham Young University-Idaho is committed to providing its students with the best learning resources available. Teachers in online courses are willing to help or answer questions, and may also offer other help resources, such as the Online Support Center, online tutoring, or technical support.<br /><br /><br /></p>
+<p style="text-align: center;"><a href="http://www.byui.edu/online/online-support-center"><br /><br /></a></p>
+<p></p>
+<p style="text-align: center;"></p>
+<style><!--
+/*
+* Setup
+*/
+div.contactBox, div.contactHeader {
+	float:right;
+	text-align:right;
+	font-family: "Arial Narrow", Arial, sans-serif;
+	letter-spacing:.1em;
+	line-height:1.2em;
+	color:#555;
+}
+
+div.contactBox {
+	margin-top:10px;
+	width:250px;
+}
+
+.contactBox a, .contactHeader a {
+	color:inherit;
+} 
+
+.clear:after {
+	content: ".";
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}
+
+.contactBox .right {
+	float:right;
+        margin-left:3%;
+}
+
+.contactInfo {
+	padding-top:5px;
+}
+
+ul.socialmenu {
+	float:right;
+	list-style: none;
+	padding: 0px;
+	z-index:1;
+	padding-bottom:10px;
+}
+
+.displace {
+	position: absolute;
+	left: -5000px;
+	}
+
+ul.socialmenu li {
+	float: left;
+	list-style-type:none;
+	}
+
+ul.socialmenu li a {
+	display: block;
+	width: 32px;
+	height: 32px;
+	margin-left:5px;
+	background: url(Images/Admin_Offices/Online%20Learning/Speaking%20Partners/UpdatedSite/sprites/socialIcons.png);
+	}
+
+/*
+*	Normal Links
+*/
+ul.socialmenu li.linkedIn a {
+	background-position: -1px -1px;
+	}
+
+ul.socialmenu li.twitter a {
+	background-position: -33px -1px;
+	}
+
+ul.socialmenu li.facebook a {
+	background-position: -66px -1px;
+	}
+
+ul.socialmenu li.youtube a {
+	background-position: -99px -1px;
+	}
+
+/*
+*	Hover Links
+*/
+ul.socialmenu li.linkedIn a:hover {
+	background-position: -1px -33px;
+	}
+
+ul.socialmenu li.twitter a:hover {
+	background-position: -33px -33px;
+	}
+
+ul.socialmenu li.facebook a:hover {
+	background-position: -66px -33px;
+	}
+
+ul.socialmenu li.youtube a:hover {
+	background-position: -99px -33px;
+	}
+
+/*
+*	Clicked Links
+*/
+ul.socialmenu li.linkedIn a:active {
+	background-position: -1px -1px;
+	}
+
+ul.socialmenu li.twitter a:active {
+	background-position: -33px -1px;
+	}
+
+ul.socialmenu li.facebook a:active {
+	background-position: -66px -1px;
+	}
+	
+ul.socialmenu li.youtube a:active {
+	background-position: -99px -1px;
+	}
+--></style>
+<div class="contactBox clear">
+<ul class="socialmenu">
+<li class="linkedIn"><a href="http://www.linkedin.com/groups/Official-BYUIdaho-Student-Alumni-Network-42868?trk=myg_ugrp_ovr" title="LinkedIn"> <span class="displace">LinkedIn</span> </a></li>
+<li class="twitter"><a href="https://twitter.com/BYUIdahoOnline" title="Twitter"> <span class="displace">Twitter</span> </a></li>
+<li class="facebook"><a href="https://www.facebook.com/PathwaySpeakingPartners" title="Facebook"> <span class="displace">Facebook</span> </a></li>
+<li class="youtube"><a href="http://www.youtube.com/playlist?list=PLUMQbBUw4V_btWHPJltnowa-kyjqN0lOr" title="Youtube"> <span class="displace">Youtube</span> </a></li>
+</ul>
+<div class="contactInfo clear"><span><a href="mailto:onlinelearning@byui.edu?Subject=Online%20Question">onlinelearning@byui.edu</a></span><br />
+<div class="right">(208) 496-1800<br /> (866) 672-2984<br /> (208) 557-4142</div>
+<div class="right">Phone<br /> Toll Free<br /> Text</div>
+</div>
+</div>]]></BodyCopy><xPower Type="Component" Component="x91889" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x17147" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<CollegeDeptHome ID="x8464" Name="Department of Music" Layout="college-dept_home.xsl">
+	<Title type="string" label="Title" readonly="false" hidden="false" required="true">Department of Music</Title>
+	<Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Department of Music</Abstract>
+	<xPower Type="List" List="MainImage" Name="MainImages" label="Top Image(s) (950px width, 335px height required)" readonly="false" hidden="false" required="false" Width="" Border="" Alignment="" Expanded="false" Height="">
+		<MainImage type="imagefile" readonly="false" hidden="false" required="false" Width="950" Border="" Alignment="" Expanded="true" Height="335" AlternateText="" HSpace="" VSpace="">music/edited/home-page/main-images/111203_ChristmasConcert_126_web.jpg</MainImage>
+		<MainImage type="imagefile" readonly="false" hidden="false" required="false" Width="950" Border="" Alignment="" Expanded="true" Height="335" AlternateText="" HSpace="" VSpace="">music/edited/home-page/main-images/091106SacredMusic_077_web.jpg</MainImage></xPower>
+	<xPower Type="GroupStart" GroupStart="" Name="Main" label="Main Content" readonly="false" hidden="false" required="false" Expanded="true">
+		<FeaturedNews type="multiselect" label="Highlighted News" readonly="false" hidden="false" required="false" PageSize="" Query_SelectedFields="@Name|@ID" Query_LocationRoot="x7879" Query_PageType="NewsDetail" MaxChoices="1" AdditionalFilter_XPathQuery=""/>
+		<OtherNews type="multiselect" label="Featured Student" readonly="false" hidden="false" required="false" PageSize="" Query_SelectedFields="@Name|@ID" Query_LocationRoot="x7879" Query_PageType="NewsDetail" MaxChoices="1" AdditionalFilter_XPathQuery=""/>
+		<FullText type="boolean" label="Check for text body to use the full width of the page.">false</FullText>
+		<TopText type="boolean" label="Check to put text body above Highlighted News">false</TopText>
+		<BodyCopy type="dhtml" label="Optional Content" readonly="false" hidden="false" required="false">
+			<![CDATA[<p>&nbsp;</p>
+<p>The Department of Music at Brigham Young University is housed in the Eliza R. Snow Center for the Performing Arts, a beautiful and well-equipped facility. The faculty and facilities provide a superior environment for the serious student of music. In addition, the Department offers a diversity of opportunities for the non-music major to develop musical skills.</p>
+<p>The Department is an accredited institutional member of the National Association of Schools of Music.</p>
+<p>&nbsp;</p>
+<p>We offer diverse opportunities for every student</p>
+<p>with 27 different ensembles, 5 Baccalaureate degrees and 4 emphases.&nbsp;To audition for an ensemble visit the related area page for more information.</p>
+<p>&nbsp;</p>
+<p>Attend class in newly remodeled and expanded facilities.&nbsp;The Eliza R. Snow Performing Arts Center houses the latest in music technology, recital halls, and a reverberant concert hall featuring the beautiful Ruffatti organ.</p>
+<p><br />Learn from an elite faculty.&nbsp;Experienced teachers empower students through meaningful interaction in both the classroom and rehearsal halls.<br /><br />We are an accredited member of NASM and MENC.&nbsp;A degree from BYU-Idaho represents quality.</p>
+<p>&nbsp;</p>]]></BodyCopy>
+	</xPower>
+	<BannerAd type="multiselect" label="Rotating Ads (225px width, 171px height required)" readonly="false" hidden="false" required="false" PageSize="" Query_SelectedFields="@Name|@ID" Query_LocationRoot="x6922" Query_PageType="BannerAdComponent" MaxChoices="" AdditionalFilter_XPathQuery=""/>
+	<xPower Type="GroupStart" GroupStart="" Name="QuickLinksGroup" label="Quick Links Group" readonly="false" hidden="false" required="false" Expanded="true">
+		<xPower Type="Component" Component="" Name="QuickLinks" label="Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/>
+		<xPower Type="Component" Component="" Name="QuickLinks" label="Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/>
+		<xPower Type="Component" Component="" Name="QuickLinks" label="Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/>
+	</xPower>
+	<xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/>
+	<xPower Type="Navigation" StartPage="x7879" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Children" Query="" Name="DeptArticles" label="Define Your Articles Folder" readonly="false" hidden="true" required="false" Expanded="false" Exports="">
+		<Exports type="string">&lt;Export&gt;&lt;Name&gt;ALText&lt;/Name&gt;&lt;Value&gt;/*/ThumbnailImage/@AlternateText&lt;/Value&gt;&lt;/Export&gt;</Exports>
+	</xPower>
+	<xPower Type="Navigation" StartPage="x7882" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Children" Query="" Name="DeptEvents" label="Define Your Events Folder" readonly="true" hidden="true" required="false" Expanded="false"/>
+	<xPower Type="Navigation" StartPage="x7870" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Children" Query="" Name="DeptAds" label="Define Your Ads Folder" readonly="true" hidden="true" required="false" Expanded="false" Exports="">
+		<Exports type="string">&lt;Export&gt;&lt;Name&gt;Caption&lt;/Name&gt;&lt;Value&gt;/*/Caption&lt;/Value&gt;&lt;/Export&gt;</Exports>
+	</xPower>
+	<xPower Type="Component" Component="" Name="Message" label="Institutional Message" readonly="true" hidden="true" required="false" CompTypes="InstitutionalMessage" Expanded="false"/>
+	<xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="true">
+		<BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false">BYU-Idaho Department of Music</BrowserBarTitle>
+		<MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription>
+		<NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow>
+		<NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex>
+		<NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP>
+		<Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="false" required="false">0.5</Priority>
+	</xPower>
+	<xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/>
+	<xPower Type="Component" Component="x1900" Name="SiteControl" label="Site Control" readonly="true" hidden="true" required="false" CompTypes="SiteControl" Expanded="false"/>
+</CollegeDeptHome>

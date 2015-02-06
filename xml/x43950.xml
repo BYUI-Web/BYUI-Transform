@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content ID="x43950" Name="Parent" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Parent Information</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Parent Information</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<!--SCRIPTS AND STYLESHEETS-->
+<div><link href="http://fonts.googleapis.com/css?family=Cambo" rel="stylesheet" type="text/css" /></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+window.jQuery || document.write('<script src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" _mce_src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" _mce_src="prebuilt/stylenew/js/libs/jquery-1.7.min.js"><\/script>')
+</script>
+<script src="prebuilt/stylenew/js/mylibs/scrolling_events_bar.js" type="text/javascript"></script>
+<script src="Documents/student-records-and-registration/ibox2.js" type="text/javascript"></script>
+<div><link href="Documents/student-records-and-registration/srrcss3.css" rel="stylesheet" type="text/css" /></div>
+<!--IBOXS-->
+<div><img alt="Parent Banner" height="140" src="Images/Admin_Offices/Student Record and Registration/SecondLevelPage/parent.jpg" width="510" /> <img alt="Header Banner" height="140" src="Images/Admin_Offices/Student Record and Registration/SecondLevelPage/parent1.png" width="168" /></div>
+<div id="bar"><img alt="bar" height="4" src="Images/Admin_Offices/Student Record and Registration/SecondLevelPage/bar1.png" width="710" /></div>
+<!--IMAGES-->
+<div id="parent1" style="display: none;">
+<p>According to the Family Educational Rights and Privacy Act of 1974 (FERPA), when a student becomes an &ldquo;eligible student&rdquo; the rights to inspect education records transfers from the parent to the student. Eligible student is defined as a student who has reached 18 years of age or is attending an institution of postsecondary education. This means that when your student begins attending BYU&mdash;Idaho, they have discretion as to who may see their education records including course grades and academic standing even if Mom and Dad are paying the tuition!</p>
+<p>FERPA does allow, however, for parents to receive midterm and final grade reports for their student if the student was claimed as a dependent on the parent&rsquo;s most recent tax return forms. Parents desiring to receive their student&rsquo;s midterm and final grades can fill out the <a href="Documents/student-records-and-registration/Forms/CertDependence.pdf"><span style="text-decoration: underline;">Certificate of Dependence form</span></a>.</p>
+<p>Additionally, students may submit the <a href="Documents/student-records-and-registration/Forms/MissionaryPrivacyReleaseDocument.pdf"><span style="text-decoration: underline;">Missionary Privacy Release Form</span></a> if they desire to have their parents have access to additional education records on their behalf.</p>
+</div>
+<div id="parent2" style="display: none;">
+<p>Students at BYU&mdash;Idaho are held to three academic standards during their time at the University. They are:</p>
+<ul>
+<li>2.0 Cumulative GPA</li>
+<li>1.0 Semester GPA</li>
+<li>75% Semester SAP (Satisfactory Academic Progress)</li>
+</ul>
+<p>A detailed description of each of these standards, as well as the implications for failing to maintain these standards, can be reviewed on the <a href="x44647.xml"><span style="text-decoration: underline;">Academic Standards Webpage</span></a>.</p>
+</div>
+<div id="parent3" style="display: none;">
+<p>Registration at BYU&mdash;Idaho can be done through an online registration system. Information on how to register, the dates each student can register, and a checklist for registration are available on the <a href="x44606.xml"><span style="text-decoration: underline;">Registration Webpage</span></a>. Each student is assigned to a specific <a href="http://www.byui.edu/academic-discovery-center"><span style="text-decoration: underline;">Academic Discovery</span></a> Center, based on his or her major, which can assist students in determining the courses needed for their degree.</p>
+</div>
+<div id="parent4" style="display: none;">
+<p>Questions about your student&rsquo;s tuition, fees, and financial aid application and awards can best be answered by the Student <a href="http://www.byui.edu/financial-aid"><span style="text-decoration: underline;">Financial Aid</span></a> and <a href="http://www.byui.edu/financial-services/my-account"><span style="text-decoration: underline;">Bursar&rsquo;s</span></a> Offices.</p>
+</div>
+<div id="parent5" style="display: none;">
+<p>There is a wide array of opportunities for your student to get involved. The Activities Program is all about giving students the opportunity to learn and grow through &lsquo;taking action&rsquo; in ways that enable them to develop into the best, most interesting and capable versions of themselves. To understand how Activities can complete the BYU&mdash;Idaho experience, please visit the <a href="http://www.byui.edu/activities"><span style="text-decoration: underline;">Student Activities Program Webpage</span></a>.</p>
+</div>
+<div id="parent6" style="display: none;">
+<p>While students are encouraged to resolve issues and difficulties at the lowest level possible, they may at times have questions or need assistance in finding a solution to more difficult problems such as the death of a spouse, divorce or other life circumstances. In these situations, students and parents are welcome to make an appointment with the <a href="http://www2.byui.edu/DeanofStudents/"><span style="text-decoration: underline;">Dean of Students</span></a> for assistance, recommendations, and direction to available campus resources.</p>
+</div>
+<div id="parent7" style="display: none;">
+<p>New students and current students that will be leaving for a mission should consider <a href="http://www.byui.edu/admissions/current-students/deferments-time-off/lds-missionary-deferment"><span style="text-decoration: underline;">deferring</span></a> their enrollment so that they do not need to reapply to the University upon return home from their missions. Additionally, if it is anticipated that you as a parent will assist your missionary student with registration prior to their return, your student should fill out the <a href="http://www.byui.edu/Documents/student-records-and-registration/Forms/MissionaryPrivacyReleaseDocument.pdf">Missionary Privacy Release Form</a> so that you can assist them without delay.</p>
+</div>
+<!--TABZ-->
+<div class="sections">
+<div class="tabz"><a class="current">Parent Information</a></div>
+<!--NAVIGATION-->
+<div class="box visible">
+<ul>
+<li><a href="#parent1" rel="ibox" title="Access to your Student&rsquo;s Education Records">Access to your Student&rsquo;s Education Records</a></li>
+<li><a href="#parent2" rel="ibox" title="BYU&mdash;Idaho's Academic Standards">BYU&mdash;Idaho's Academic Standards</a></li>
+<li><a href="#parent3" rel="ibox" title="Helping your Student Register for Classes">Helping your Student Register for Classes</a></li>
+<li><a href="#parent4" rel="ibox" title="Your Student&rsquo;s Tuition, Fees, and Financial Aid">Your Student&rsquo;s Tuition, Fees, and Financial Aid</a></li>
+<li><a href="#parent5" rel="ibox" title="Getting your Student Involved">Getting your Student Involved</a></li>
+<li><a href="#parent6" rel="ibox" title="How the Dean of Students can Help">How the Dean of Students can Help</a></li>
+<li><a href="#parent7" rel="ibox" title="Student to Missionary/Missionary to Student Transition">Student to Missionary/Missionary to Student Transition</a></li>
+<li><a href="x43437.xml">Parent / Guardian Grade Request</a></li>
+</ul>
+</div>
+</div>
+<div class="span-18 last" id="events_bar_horizontal">
+<div class="span-18 last" id="window">
+<div id="events_bar_control"><span class="prev">&nbsp;</span><span class="next">&nbsp;</span></div>
+<!--EVENTS-->
+<div id="pane"><!--THE BEGING OF THE EVENTS-->
+<script src="Documents/Admin_Offices/Student Records and Registration/Events Script.js" type="text/javascript"></script>
+<!--THE END OF THE EVENTS--></div>
+</div>
+</div>
+<!--FOOTER-->
+<div id="email" style="display: none;">
+<p>For any questions please email us at <a href="mailto:registrar@byui.edu"><span style="text-decoration: underline;">registrar@byui.edu</span></a></p>
+</div>
+<div id="phone" style="display: none;">
+<p>For any questions please call us at (208) 496-1000</p>
+</div>
+<div><img alt="Bar" height="2" src="Images/Admin_Offices/Student Record and Registration/HomePage/bottomBar.jpg" width="710" /></div>
+<div class="barb"><img alt="Bar" height="2" src="Images/Admin_Offices/Student Record and Registration/HomePage/bottomBar.jpg" width="710" /></div>
+<div id="bottomContact">
+<ul>
+<li><img alt="Email Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/envelope.png" width="23" /><a href="#email" rel="ibox" title="Email Information"> Email Us</a></li>
+<li><img alt="Phone Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/phone.png" width="23" /><a href="#phone" rel="ibox" title="Phone Information"> Call Us</a></li>
+<li><img alt="Visit Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/visit.png" width="23" /><a href="Images/Admin_Offices/Student Record and Registration/HomePage/byuidahoMap.jpg" rel="ibox"> Visit Us</a></li>
+<li><img alt="Facebook Link" height="16" src="Images/Admin_Offices/Student Record and Registration/HomePage/facebook.png" width="16" /><a href="http://www.facebook.com/pages/BYU-Idaho-Student-Records-and-Registration/276472292461946?fref=ts"> facebook</a></li>
+<li><img alt="Live Chat Link" height="16" src="Images/Admin_Offices/Student Record and Registration/HomePage/livechat.png" width="18" /><a href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=SRR&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large" onclick="window.open('https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=SRR&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large&amp;referrer='+escape(document.location),'chat1132447','width=472,height=320');return false;" target="chat1132447"> Live Chat</a></li>
+<li><img alt="Site Index Link" height="17" src="Images/Admin_Offices/Student Record and Registration/HomePage/index.png" width="18" /><a href="x43952.xml"> Index</a></li>
+</ul>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x17143" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<TrainingDetails ID="x16520" Name="News Archive" Layout="default-training.xsl"><IfComponent type="boolean" label="Check if this is a component tutorial">false</IfComponent><Title type="string" label="Title" readonly="false" hidden="false" required="true">News Archive</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">The News Archive is the portal to find and view all your news articles according to their date of publication.</Abstract><TrainingImage type="imagefile" label="Page Type Image" hidden="false" readonly="false" required="false">Internal_Use/Ingeniux_Training/Template Thumbnails/generalNewsArchive.jpg</TrainingImage><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p>This is to show how to make and modify a News Front Page</p>
+<p>&nbsp;</p>
+<p>Articles that display on this page reference the Featured News component and the other news component. Reading through this documentation will help you understand the processes and usable functions of the News Front page.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Required Elements on this page(These elements are needed to save the page):&nbsp;</p>
+<ul>
+<li>Title</li>
+<li>Abstract</li>
+</ul>
+<p><span style="text-decoration: underline;"><strong>Title</strong></span><br />The title of the page</p>
+<p><span style="text-decoration: underline;"><strong>Abstract</strong></span><br />A summary of the index</p>
+<p><img alt="Title and Abstract" height="82" src="Images/Ingeniux_Training/titleAbstract.jpg" width="580" /></p>
+<p><span style="text-decoration: underline;"><strong>SEO Group</strong></span></p>
+<p style="padding-left: 30px;"><strong>Browser Bar Title</strong><br />Title of the page that will go in the browser bar<br /><strong>No Follow</strong><br />Search engines will not index the links on this page.<br /><strong>No Index</strong><br />Search engines will not index the links on this page AND this page will not be either.<br /><strong>NO ODP</strong><br />This page will not be indexed by the ODP search engine. Please see this <a href="http://en.wikipedia.org/wiki/Open_Directory_Project" target="_blank">link</a> for more information about ODP.<br /><strong>Priority</strong><br />Please do not adjust this setting</p>
+<p><span style="text-decoration: underline;"><strong>Featured News</strong></span></p>
+<p>This is to add stories to the page. To do so, click select. From the left select the article you want to display. &nbsp;The click the arrow pointing to the right. If you want to remove and article, select the article from the right and then click the arrow pointing to the left. Click ok when done.</p>
+<p><img alt="Featured News Example" height="134" src="Images/Ingeniux_Training/Components/Featured News.png" width="151" /></p>
+<p><strong><span style="text-decoration: underline;">Other News</span></strong></p>
+<p>This is to add stories to the page. To do so, click select. From the left select the article you want to display.  The click the arrow pointing to the right. If you want to remove and article, select the article from the right and then click the arrow pointing to the left. Click ok when done.</p>
+<p><img alt="Other News example" height="94" src="Images/Ingeniux_Training/Components/Other News.png" width="167" /></p>
+<p><span style="text-decoration: underline;"><strong>Related Links</strong></span><br />The organization you work for should also have its won related links section. You will need to choose that one.</p>
+<p><img alt="Related Links Example" height="81" src="Images/Ingeniux_Training/Related Links.png" width="145" /></p>
+<p><span style="text-decoration: underline;"><strong>Publications</strong></span><br />This is the location where the article you just created will be published. Please choose the correct indexes.<br />For example if you work for University Communications you would choose "News and Notes" from the selection.</p>
+<p><img alt="Publication Example" height="183" src="Images/Ingeniux_Training/Components/Publication Componet.png" width="185" /></p>
+<p><strong><span style="text-decoration: underline;">News</span></strong></p>
+<p>Choose the "News Navigation Component."</p>
+<p><img alt="News Component Example" height="81" src="Images/Ingeniux_Training/Components/News Component.png" width="214" /></p>
+<p><strong><span style="text-decoration: underline;">Site Control</span></strong><br />You will need to choose the site control that is related to your department.<br />Choose the "News Navigation Component." &nbsp;This component is required for this page. If it is not selected, the page will NOT render correctly. This element enable the left navigation.&nbsp;</p>
+<p><img alt="Site Control Example" height="77" src="Images/Ingeniux_Training/Site Control.png" width="214" /></p>]]></BodyCopy><xPower Type="References" References="" Name="PageUsage" label="Page or Component Reference" readonly="false" hidden="false" required="true" QueryLocationRoots="" IncludeCrossReferences="false" Depth="0" QuerySchemas="TrainingDetails" Expanded="true"><Exports></Exports></xPower><xPower Type="Navigation" StartPage="x5758" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Children" Query="" Name="FAQs" label="FAQs Navigation" readonly="true" hidden="true" required="false" Expanded="true"><Exports></Exports></xPower><xPower Type="Navigation" StartPage="x10283" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Children" Query="" Name="Icons" label="Element Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/></TrainingDetails>

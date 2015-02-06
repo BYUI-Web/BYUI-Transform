@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x40533" Name="College of Language and Letters" Layout="byuidefault.xsl">
+	<Title type="string" label="Title" readonly="false" hidden="false" required="true">College of Language and Letters</Title>
+	<Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">College of Language and Letters</Abstract>
+	<xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart="">
+		<BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/>
+		<MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/>
+		<NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow>
+		<NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex>
+		<NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP>
+		<Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority>
+	</xPower>
+	<xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart="">
+		<HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle>
+		<Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation>
+	</xPower>
+	<BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height="">
+		<![CDATA[<h1><a href="Documents/instructional_development/outcomes-assessment/Language and Letters/Language and Letters Report March 2014.pdf">College Report</a></h1>
+<p><a href="Documents/instructional_development/outcomes-assessment/Language and Letters/Praxis Report 2012-2013 Education Programs.pdf">2012/2013 Praxis Report for Education Programs&nbsp;</a></p>
+<h1>English</h1>
+<ul>
+<li><a href="Documents/instructional_development/outcomes-assessment/Language and Letters/BA in English-.pdf">BA in English</a></li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Language and Letters/July 2013/BA in English Education.pdf">BA in English Education</a></li>
+</ul>
+<h1>History/Geography/Political Science</h1>
+<ul>
+<li><a href="Documents/instructional_development/outcomes-assessment/Language and Letters/July 2013/BA in History.pdf">BA in History</a></li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Language and Letters/July 2013/BA in History Education.pdf">BA in History Education</a></li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Language and Letters/July 2013/BS in Social Studies Education Composite History Emphasis.pdf">BS in Social Studies Education Composite, History Education Emphasis</a></li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Business and Communication/July 2013/BA in Social Studies Education Composite American Government Emphasis.pdf">BS in Social Studies Education Composite, American Government Emphasis</a></li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Language and Letters/July 2013/BA in Political Science Foreign Affairs Emphasis.pdf">BA in Political Science, Foreign Affairs Emphasis</a>&nbsp;+ <a href="Documents/instructional_development/outcomes-assessment/Language and Letters/Matrix BA in Political Science - Foreign Affairs Emphasis.pdf">Matrix</a></li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Language and Letters/July 2013/BA in Political Science American Government Emphasis.pdf">BA in Political Science, American Government Emphasis</a></li>
+</ul>
+<h1>Humanities and Philosophy</h1>
+<ul>
+<li><a href="Documents/instructional_development/outcomes-assessment/Language and Letters/July 2013/BA in Humanities.pdf">BA in Humanities</a></li>
+</ul>
+<h1><a href="Documents/instructional_development/outcomes-assessment/Language and Letters/LIS/Language and International Studies.pdf">Languages and International Studies</a></h1>
+<ul>
+<li><a href="Documents/instructional_development/outcomes-assessment/Language and Letters/BA in International Studies.pdf">BA in International Studies</a></li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Language and Letters/July 2013/BA in Spanish Education .pdf">BA in Spanish Education</a></li>
+</ul>
+<ul>
+<li><a href="Documents/instructional_development/outcomes-assessment/Language and Letters/LIS/Minor in Chinese.pdf">Minor in Chinese</a></li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Language and Letters/LIS/Minor in Chinese Education.pdf">Minor in Chinese Education</a></li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Language and Letters/LIS/Minor in French.pdf">Minor in French</a></li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Language and Letters/LIS/Minor in French Education.pdf">Minor in French Education</a></li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Language and Letters/LIS/Minor in German.pdf">Minor in German</a></li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Language and Letters/LIS/Minor in German Education.pdf">Minor in German Education</a></li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Language and Letters/LIS/Minor in Russian.pdf">Minor in Russian</a></li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Language and Letters/LIS/Minor in Russian Education.pdf">Minor in Russian Education</a></li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Language and Letters/LIS/Minor in Spanish.pdf">Minor in Spanish</a></li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Language and Letters/LIS/Minor in Spanish Education.pdf">Minor in Spanish Education</a></li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Language and Letters/LIS/Multilingual Minor.pdf">Multi-Lingual Minor</a>
+<ul>
+<li><a href="Documents/instructional_development/outcomes-assessment/Language and Letters/LIS/Multi-Lingual Course Outcomes.pdf">Multi-Lingual Course Outcomes</a></li>
+</ul>
+</li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Language and Letters/LIS/Minor in TESOL Education.pdf">Minor in TESOL Education</a></li>
+</ul>
+<p>&nbsp;</p>
+<ul></ul>
+<ul></ul>]]></BodyCopy>
+	<xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart="">
+		<xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List="">
+			<xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/>
+		</xPower>
+		<xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/>
+		<xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/>
+		<xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/>
+	</xPower>
+	<xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="x35591" CompTypes="HighlightedLinksComponent" Expanded="false"/>
+	<xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_ContentSnippet">
+		<xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/>
+	</xPower>
+	<xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/>
+	<xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x34679" CompTypes="SiteControl" Expanded="false"/>
+</Content>

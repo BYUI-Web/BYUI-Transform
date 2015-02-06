@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x66352" Name="Top Navigation(D)" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;script&gt;
+if(document.getElementById("topic_head") == "Academic Honesty")
+{
+document.getElementById("academics").innerHTML = "&lt;span class="current_page"&gt;Academic Honesty&lt;/span&gt;";
+}
+&lt;/script&gt;
+
+&lt;div id="honor_nav"&gt;
+&lt;ul&gt;
+&lt;li style="padding-left: 3px;"&gt;&lt;a href="x47004.xml"&gt;&lt;div id="academics"&gt;Academic Honesty&lt;/div&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class="orange"&gt;|&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="x47006.xml"&gt;Student Life&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class="orange"&gt;|&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="x47007.xml"&gt;Church Attendance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class="orange"&gt;|&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="x47008.xml"&gt;Ecclesiastical Endorsement&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class="orange"&gt;|&lt;/span&gt;&lt;/li&gt;
+&lt;li style="padding-right: 0px;"&gt;&lt;a href="x47009.xml"&gt;Dress &amp;amp; Grooming&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</ContentSnippet></ContentSnippet>

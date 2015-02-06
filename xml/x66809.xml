@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x66809" Name="Testing Center" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">template</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">template</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+#leftmenu {margin-top:15px; width:204px; float:left;}  
+#leftmenu_top {width:204px; height:13px; background-image:url(images/testing-services/leftmenu_top.png);}
+#leftmenu_bottom {width:204px; height:13px; background-image:url(images/testing-services/leftmenu_bottom.png);} 
+#leftmenu_main {width:204px; height:auto; background-color:#000000;}  
+#leftmenu_main ul {list-style: none; padding: 0px; width:204px;}   
+#leftmenu_main h3 {list-style: none; padding: 0px; width:204px; color:#66FF00; padding-left:-10px; padding-bottom:14px;}  
+#leftmenu_main ul li {list-style: none; padding: 0px; width:204px; text-align:left;}  
+#leftmenu_main ul li a, #leftmenu_main ul li a:visited { display:block; list-style: none; padding: 10px; width:192px; padding-left:12px; padding-top:4px; height:30px; text-align:left; background-image:url(images/testing-services/leftmenu_link.png); background-repeat:repeat-x; margin-top:5px; color:#FFFFFF; text-decoration:none; font-size:15px; font-weight:bold; } 
+#leftmenu_main ul li a:hover {color:#EED7D7;}    
+
+
+.image { 
+   position: relative; 
+   width: 100%; 
+}
+
+.image1 {top: 1em; left: 1em; z-index:1}
+.image2 {top: 2em; left: 3em; z-index:2}
+
+
+
+body #border111 {
+      padding: 10px;
+      -moz-box-shadow: 0 0 5px #888888;
+      box-shadow: 0 0 5px #888888;
+      -webkit-box-shadow: 0 0 5px #888888;
+      -o-box-shadow: 0 0 5px #888888;
+      -ms-box-shadow: 0 0 5px #888888;
+      min-height: 1500px;}
+
+#testin1 {
+      font-family: Georgia;
+      text-transform:uppercase;
+      font-size: 25pt;
+      border-bottom: solid thin #008000;
+      padding: 0 0 10px 10px;
+      margin-bottom: 30px;
+      width: 470px;
+   }
+
+ body #wellness #maincontent .icon {
+      background-image: url("Images/health-center/symbols_600x450.png");
+      background-position: -150px -150px;
+      width: 150px;
+      height: 150px;
+      margin: 10px;
+      float: right;
+   }
+     
+
+   #navborder ul li { font-size: 25px; background-color: #66FFFF;border-radius: border 3px;  border-style: solid; border-width: 1px; border-length: 10px; border-width: 1px; list-style-type: none;padding: 0;margin-left: 0;}  
+   #navborder1 {border-top-left-radius: 5px;border-top-right-radius: 5px; background-color: yellow;border-radius: border 3px;  border-style: solid; border-width: 1px; border-length: 10px; border-width: 2px;}
+   #navborder2 {border-bottom-left-radius: 5px;border-bottom-right-radius: 5px; background-color: yellow;border-radius: border 3px;  border-style: solid; border-width: 1px; border-length: 10px; border-width: 2px;}
+
+   #borderLeft  {
+         border-left: 2px solid #f51c40;
+         position: absolute;
+         top: 9%;
+         bottom: 0;
+         }
+
+   #table {position:relative;top:-315px;right:-315px;}
+
+   #camera { position: relative; top:5px; right:-10px;}
+   #header1 {}
+    { font-size:40px; border-radius: 3px; box-shadow: 3px 3px 2px #888888; text-align: ; border-style: solid; border-width: 1px;}
+--></style>
+<img height="280" src="Images/testing-services/Picture1.png" width="902" />&nbsp; Testing Center&nbsp;
+<div id="border111">
+<div id="borderLeft" style="top: 101px; left: 27px; width: 642px; height: 179px;">
+<div id="leftmenu">
+<div id="leftmenu_main">
+<ul>
+<li><a href="#">Testing Center Home</a></li>
+<li><a href="#">National Tests</a></li>
+<li><a href="#">Faculty Testing Help</a></li>
+<li><a href="#">Test and Study Tips</a></li>
+<li><a href="#">Proctoring</a></li>
+<li><a href="#">FAQ</a></li>
+</ul>
+</div>
+</div>
+<div id="camera">
+<h3 style="text-align: center;">Current Conditions<img alt="View from the Testing Center Web Cam" height="250" id="video" name="video" src="http://www2.byui.edu/images/testingcenter.asp" width="300" /><img src="Images/testing-services/Picture2.png" style="top: 489px; left: 119px; width: 457px; height: 434px;" /></h3>
+<p style="text-align: center;"><strong>Image updates every 30 seconds.</strong></p>
+</div>
+<div id="table">
+<table border="1" cellspacing="0" height="347" style="margin-left: auto; margin-right: auto; height: 248px; width: 200px;" width="321">
+<tbody>
+<tr>
+<td valign="top">Day</td>
+<td valign="top">Open</td>
+<td valign="top">Doors Close</td>
+<td valign="top">Closed</td>
+</tr>
+<tr>
+<td valign="top">Monday</td>
+<td valign="top">8:00am</td>
+<td valign="top">5:00pm</td>
+<td valign="top">6:00pm</td>
+</tr>
+<tr>
+<td valign="top">Tuesday</td>
+<td valign="top">8:00am</td>
+<td valign="top">9:00pm</td>
+<td valign="top">10:00pm</td>
+</tr>
+<tr>
+<td valign="top">Wednesday</td>
+<td valign="top">8:00am</td>
+<td valign="top">9:00pm</td>
+<td valign="top">10:00pm</td>
+</tr>
+<tr>
+<td valign="top">Thursday</td>
+<td valign="top">8:00am</td>
+<td valign="top">9:00pm</td>
+<td valign="top">10:00pm</td>
+</tr>
+<tr>
+<td valign="top">Friday</td>
+<td valign="top">8:00am</td>
+<td valign="top">9:00pm</td>
+<td valign="top">10:00pm</td>
+</tr>
+<tr>
+<td valign="top">Saturday</td>
+<td valign="top">8:00am<br /></td>
+<td>4:00pm</td>
+<td>5:00pm</td>
+</tr>
+<tr>
+<td valign="top">Sunday</td>
+<td valign="top">Closed</td>
+<td>Closed</td>
+<td>&nbsp;Closed</td>
+</tr>
+<tr>
+<td colspan="4">
+<div style="text-align: center;"><a href="http://www.byui.edu/student-records/department">Finals Schedule</a></div>
+<div style="text-align: center;"></div>
+<div style="text-align: center;"><strong>Test Center Office open <span style="text-decoration: underline;">M-F 8-5</span></strong></div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x41457" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

@@ -1,0 +1,637 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<Content ID="x50801" Name="sandbox" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">sandbox</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">sandbox</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style type="text/css"><!--
+	body{
+		background-color:#2F2F2F;
+	}
+	#page{
+		
+	}
+		#page .timelineContainer_right {
+		border-left:2px solid #ccc;
+		margin:80px 0 0 600px;
+		padding:10px;
+		width:650px;
+		margin-bottom:-100px;
+	}
+	#page .timelineContainer_left {
+		border-right:2px solid #ccc;
+		margin:80px 0 0 80px;
+		padding:10px;
+		width:500px;
+		margin-bottom:-105px;
+	}
+	
+	#page .timelineContainer_right .timelineMajorMarker, #page .timelineContainer_left .timelineMajorMarker{
+		background-color:#CCCCCC;
+		color:#311313;
+		font-family:'Times New Roman';
+		font-weight:normal;
+		font-size:1.7em;
+		letter-spacing:2px;
+		width:195px;
+		height:40px;
+		border-radius:6px;
+		text-align:center;
+	}
+	#page .timlineContainer_left.timelineMajor{
+		background-color:#CCCCCC;
+		color:#311313;
+		font-family:'Times New Roman';
+		font-weight:normal;
+		font-size:1.7em;
+		letter-spacing:2px;
+		width:195px;
+		height:40px;
+		border-radius:6px;
+		text-align:right;
+	}
+	#page .timelineContainer_left .timelineMajorMarker{
+		margin-left:305px;
+	}
+	#page .timelineContainer_left .timelineMajorMarker:hover, #page .timelineContainer_right .timelineMajorMarker:hover{
+		background-color:#B2B2B2;
+	}
+	
+	#page .timelineContainer_left .timelineMajorMarker .year, #page .timelineContainer_right .timelineMajorMarker .year{
+	margin-left:8px;
+	margin-top:3px;
+	display:inline-block;
+	}
+	#page .timelineContainer_left .timelineMinor, #page .timelineContainer_right .timelineMinor{
+		display:none;
+		color:#EEEFCF;
+		padding-left:10px;
+	}
+	#page .timelineContainer_left .timelineMinor dt h3, #page .timelineContainer_right .timelineMinor dt h3{
+		font-size:25px;
+		font-weight:normal;
+	}
+	#page .timelineContainer_left .timelineMajor:hover, #page .timelineContainer_left .timelineMajor:hover{
+		cursor:pointer;
+	}
+	#page .timelineContainer_left + .timelineMinor{
+		width:500px;
+		margin:100px 0px -80px 600px;
+		border-left:2px solid #ccc;
+		padding-left:20px;
+		
+	}
+		
+--></style>
+<div id="page">
+<div class="timelineContainer_right">
+<div class="timelinemajor">
+<h2 class="timelineMajorMarker"><span class="year">1999</span></h2>
+<h3>Fall</h3>
+<dl class="timelineMinor"><dt></dt><dd>
+<ul>
+<li>Bro. Jones hired on as 1/2 Orientation &amp; 1/2 Safety Coordinator.</li>
+<li>Office of Orientation created.</li>
+<li>Philosophy that Orientation was not an event or series of events</li>
+but rather a process was established.
+<li>Three fold orientation focus of Pre-Campus, Campus and On- Going Orientation was proposed and approved.</li>
+<li>Opposition: several key administrators believed Orientation proposal was too big, too fast and would not be approved, but it was!</li>
+<li>Safety Web site created and training programs were developed using Blackboard for gator and custodial training.</li>
+</ul>
+</dd></dl></div>
+</div>
+<div class="timelineContainer_left">
+<div class="timelinemajor">
+<h2 class="timelineMajorMarker"><span class="year">2000</span></h2>
+</div>
+</div>
+<h3>Winter</h3>
+<dl class="timelineMinor"><dt></dt><dd>
+<ul>
+<li>First Orientation Team created with eight student directors selected out of 30 applicants.</li>
+<li>These first student directors were asked to build a ship of curious workmanship they had never before seen or participated in.</li>
+<li>Students worked 10+ hours a week for 10 months out of a oneroom office shared with Bro. J., and received a $500 scholarship.</li>
+</ul>
+</dd></dl><br />
+<h3>Summer</h3>
+<dl class="timelineMinor"><dt></dt><dd>
+<ul>
+<li>Online Pre-Campus Orientation program presented by Bro. Jones to Church Board of Education, including the First Presidency, in SLC one month prior to transition announcement (Ricks to BYU&ndash;Idaho).</li>
+<li>Pathway Pre-Campus Orientation receives May Dunn Ward and NASPA Regional Innovative Program awards.</li>
+</ul>
+</dd></dl><br />
+<h3>Fall</h3>
+<dl class="timelineMinor"><dt></dt><dd>
+<ul>
+<li>First R-Team Leader Conference held.</li>
+<li>First two-day Campus Orientation held.</li>
+<li>First humanitarian service project held. The project included: hygiene kits, quilts, and fleece toy patterns for the LDS Humanitarian Service Center. BYU followed suit with a similar service project two years later.</li>
+<li>First Orientation concert &amp; fireworks show held.</li>
+<li>First Orientation Newspaper published.</li>
+<li>First Mentor Handbook published.</li>
+<li>Orientation Budget was $30,000 for the year.</li>
+<li>Bro. J. made full-time orientation coordinator. Safety responsibilities were transferred to the Safety Office.</li>
+</ul>
+</dd></dl>
+<div class="timelineContainer_right">
+<div class="timelinemajor">
+<h2 class="timelineMajorMarker"><span class="year">2001</span></h2>
+<h3>Winter</h3>
+<dl class="timelineMinor"><dt></dt><dd>
+<ul>
+<li>Second Orientation Team selected, students served for 10 months.and received a scholarship of $1,000 for their service.</li>
+<li>First two-day winter Orientation held.</li>
+</ul>
+</dd></dl><br />
+<h3>Fall</h3>
+<dl class="timelineMinor"><dt></dt><dd>
+<ul>
+<li>Becca Dumont, an Orientation student director, presented on BYU&ndash;Idaho&rsquo;s campus Orientation to the BYU&ndash;Idaho Board of Education including Elders Ballard, Scott &amp; Eyring of the Twelve and Elder Bateman of the Seventy.</li>
+<li>Orientation builds first university float for BYU&ndash;Idaho Homecoming parade.</li>
+<li>Orientation told it was the model for student leadership and referenced in philosophical change by President&rsquo;s Council wherein departments were encouraged to hire students rather than staff for some employee positions.</li>
+<li>First I-Night Extravaganza held in Manwaring Center after a year of people saying it couldn&rsquo;t be done.</li>
+<li>Orientation moves from one-room office to four dorm offices at Rigby Hall.</li>
+<li>R-Team changes name to Y-Team due to transition from Ricks College to BYU&ndash;Idaho.</li>
+<li>Power of the Dream and His Hands videos created. After seeing the His Hands video for the first time, Elder Bednar asked Bro. J. how long he had waited to make this video (answer is four years). His Hands video later made a permanent closure item for the Morningside until 2010.</li>
+<li>Orientation budget request approved and quadrupled from the previous year. President Wilkes prophecies if approved, marvelous things would happen here at BYU&ndash;Idaho through this program!</li>
+</ul>
+</dd></dl></div>
+</div>
+<div class="timelineContainer_left">
+<div class="timelinemajor">
+<h2 class="timelineMajorMarker"><span class="year">2002</span></h2>
+</div>
+</div>
+<h3>Winter</h3>
+<dl class="timelineMinor"><dt></dt><dd>
+<ul>
+<li>Third Orientation Team Selected, students received scholarship of $600 per semester for a total of $1,800 for their year of service.</li>
+<li>Orientation Board created.</li>
+<li>Orientation invited by President Bednar and Vice President Wilkes to develop a graduation programming proposal. From this proposal Grad Fair was created.</li>
+</ul>
+</dd></dl><br />
+<h3>Summer</h3>
+<dl class="timelineMinor"><dt></dt><dd>
+<ul>
+<li>Orientation builds 2nd float for BYU&ndash;Idaho and participates in local parades.</li>
+<li>Orientation Team cast in BYUI Honor Code video remake.</li>
+<li>First two-day 2nd summer Orientation held.</li>
+<li>Three track system recruitment of I-Team Leaders started. Orientation was the first organization to start providing volunteer/ leadership positions to students on alternate admission tracks.</li>
+<li>President Wilkes asks Bro. J. to assist ASBYUI as an advisor over campus events.</li>
+</ul>
+</dd></dl><br />
+<h3>Fall</h3>
+<dl class="timelineMinor"><dt></dt><dd>
+<ul>
+<li>Becca Dumont, an Orientation student director, presented on BYU&ndash;Idaho&rsquo;s campus Orientation to the BYU&ndash;Idaho Board of Education including Elders Ballard, Scott &amp; Eyring of the Twelve and Elder Bateman of the Seventy.</li>
+<li>Fourth Orientation Team selected, students serve for six months rather than two semesters due to new University policy which changed the term of service for all student organizations.</li>
+<li>Orientation asked to create a President&rsquo;s Club student exhibit. The display wall was purchased for part of this exhibit.</li>
+<li>Orientation partners with Food Services for discounted food options at I-Night Extravaganza.</li>
+<li>Heart of a Volunteer (In the Midst of a Miracle) video created by Micah West.</li>
+<li>Orientation produces entertainment portion of Student Life Christmas program, telling how 3 Christmas songs came to be.</li>
+<li>Grad Night - President Bednar asks that Orientation implement this new event. The first Grad Night was held three weeks after being asked to plan the event. The Elder Eyring/President Hinckley video was shown at this event.</li>
+<li>New Student Guide publication produced - wins CASE (Council for the Advancement and Support of Education) Silver Award for University recruitment publications.</li>
+<li>ASBYUI is dissolved and becomes the Activities Program. Bro. J. oversees events of Halloween Carnival and Homecoming Parade.</li>
+<li>First ever Macy&rsquo;s Day parade type helium balloons featured in eastern Idaho as part of Homecoming parade.</li>
+<li>First Orientation Team Reunion held during Homecoming. Orientation Team and Orientation Alumni play behind-thescenes role in helping with implementation of the Homecoming Parade.</li>
+<li>Orientation invited to have I-Team Leaders carry torches in Torch-Lighting parade as part of Homecoming/Spirit Week (lasted through 2003).</li>
+</ul>
+</dd></dl>
+<div class="timelineContainer_right">
+<div class="timelinemajor">
+<h2 class="timelineMajorMarker"><span class="year">2003</span></h2>
+<h3>Winter</h3>
+<dl class="timelineMinor"><dt></dt><dd>
+<ul>
+<li>Fifth Orientation Team selected, students receive full tuition scholarship for six months.</li>
+<li>First Grad Fair held.</li>
+<li>Talk About Series and Good Manners programs created.</li>
+<li>Orientation partners with Alumni Association to help plan and advertise Senior Celebration.</li>
+<li>First i-magazine produced, a full-page 44 color publication.</li>
+<li>Bro. J. appointed to Homecoming Committee.</li>
+<li>Y-Team changed to I-Team after survey indicates students identified more with the &ldquo;I&rdquo; rather than the &ldquo;Y.&rdquo;</li>
+<li>Andrea Hooper hired on as 1st student assistant (managing director).</li>
+<li>Catch the Spirit approved by President&rsquo;s Council as permanent Orientation theme.</li>
+<li>Bro. J. leaves Activities Program and returns to Orientation fulltime, which was authorized by President Wilkes.</li>
+</ul>
+</dd></dl><br />
+<h3>Summer</h3>
+<dl class="timelineMinor"><dt></dt><dd>
+<ul>
+<li>Sixth Orientation Team selected.</li>
+<li>Bring Them In video created.</li>
+<li>First Summer I-Team Conference held for 2nd summer orientation.</li>
+<li>Orientation builds third float for BYU&ndash;Idaho.</li>
+<li>Devotional Challenge bookmarks produced and distributed on campus.</li>
+<li>Two student assistants (managing directors) hired for Orientation.</li>
+<li>New I-Team brand created; new orange shirts and brand unveiled for Orientation Board (red shirts) and Orientation Team (light blue) as well.</li>
+<li>First Parents&rsquo; Day Orientation held at request of President Wilkes. Parents&rsquo; Day included: parent sessions and Parents&rsquo; Day Luau.</li>
+<li>Bro. J. invites guests to sit at President Bednar&rsquo;s table, guest&rsquo;s mother was not LDS. One of those meant to happen miracles.</li>
+<li>First Spirit of Ricks Showcase held.</li>
+<li>First Winter I-Team Conference held.</li>
+<li>Orientation Alumni brand developed.</li>
+<li>Bro. J. asked to chair Orientation Committee.</li>
+</ul>
+</dd></dl></div>
+</div>
+<div class="timelineContainer_left">
+<div class="timelinemajor">
+<h2 class="timelineMajorMarker"><span class="year">2004</span></h2>
+</div>
+</div>
+<h3>Winter</h3>
+<dl class="timelineMinor"><dt></dt><dd>
+<ul>
+<li>Seventh Orientation Team selected, largest team ever with 10 directors.</li>
+<li>First ever Winter Parents&rsquo; Day held.</li>
+<li>Talk About Series and Good Manners programs created.</li>
+<li>Orientation asked to assist with Character Education, Honor Outreach created.</li>
+<li>Folder added to new student packet mailings.</li>
+<li>Part-time staff member added to Orientation.</li>
+</ul>
+</dd></dl><br />
+<h3>Summer</h3>
+<dl class="timelineMinor"><dt></dt><dd>
+<ul>
+<li>Part-time FTE position vacated. Students rather than non-students purposely selected to fill this position.</li>
+<li>President Bednar gives Orientation the charge to move forward Career Services by helping students become familiar with and utilize Career Placement/Internships Office. Junior Days program, and the Preparing for <em>Graduation and Beyond</em> publication was created from this charge.</li>
+<li>I-Honor It name, logo and programming created.</li>
+<li>Live chats for pre-campus orientation initiated.</li>
+<li><em>Stand in Holy Places</em> video created.</li>
+<li>Pre-Campus Orientation changed to Pathway Web-site. This name later adopted to be used for online learning.</li>
+</ul>
+</dd><dt></dt></dl>
+<h3>Fall</h3>
+<dl class="timelineMinor"><dt></dt><dd>
+<ul>
+<li>5 Year Orientation anniversary reunion held at Teton Lodge.</li>
+<li>Orientation Alumni video created.</li>
+<li>First ever academic honesty campaign held as part of Honor Outreach.</li>
+<li>I-Night Extravaganza brand created along with venue cards and T-shirts.</li>
+<li>I-Night Extravaganza expanded to two buildings: MC and Taylor for Winter 2005.</li>
+</ul>
+</dd></dl>
+<div class="timelineContainer_right">
+<div class="timelinemajor">
+<h2 class="timelineMajorMarker"><span class="year">2005</span></h2>
+<h3>Winter</h3>
+<dl class="timelineMinor"><dt></dt><dd>
+<ul>
+<li>Eight team/councils selected.</li>
+<li>Preparing for Graduation and Beyond publication produced by Orientation - wins Bronze CASE Award.</li>
+<li>I-Honor It wristbands unveiled as part of Honor Outreach.</li>
+<li>I-Reps program created.</li>
+</ul>
+</dd></dl><br />
+<h3>Summer</h3>
+<dl class="timelineMinor"><dt></dt><dd>
+<ul>
+<li>Ninth team/councils selected.</li>
+<li>Traditions Trek component of I-Team Conference created.</li>
+<li>First Involvement Fair held.</li>
+<li>I-Team Council created</li>
+</ul>
+</dd><dt></dt></dl>
+<h3>Fall</h3>
+<dl class="timelineMinor"><dt></dt><dd>
+<ul>
+<li>Tenth team/councils selected.</li>
+<li>First Junior Days program held.</li>
+<li>First I-Honor It Conference program held.</li>
+</ul>
+</dd></dl></div>
+</div>
+<div class="timelineContainer_left">
+<div class="timelinemajor">
+<h2 class="timelineMajorMarker"><span class="year">2006</span></h2>
+</div>
+</div>
+<h3>Winter</h3>
+<dl class="timelineMinor"><dt></dt><dd>
+<ul>
+<li>Eleventh team/councils selected.</li>
+<li>Roller skating added to I-Night Extravaganza.</li>
+<li>I-Reps expands to off-campus complexes.</li>
+<li><em>One Voice</em> video created.</li>
+<li>Honor Outreach discontinued from Orientation per our request and placed solely under the supervision of Honor Code Office.</li>
+</ul>
+</dd></dl><br />
+<h3>Summer</h3>
+<dl class="timelineMinor"><dt></dt><dd>
+<ul>
+<li>Twelfth team/councils selected.</li>
+<li>New polos purchased for I-Team, I-Reps, Board &amp; Team as part of President Clark&rsquo;s emphasis on raising the bar (see A More Excellent Way Devotional Address). Volunteers also asked to dress in khaki pants.</li>
+<li><em>One Dream</em> video created.</li>
+<li>I-Reps program doubles in size.</li>
+<li>Largest Orientation to date held on campus.</li>
+<li>Ice cream social added following the Welcome Week Fireside.</li>
+<li><em>Student Handbook</em> publication done away with. Now a Web site. Orientation prints bookmarks to publicize the Online Handbook.</li>
+</ul>
+</dd><dt></dt></dl>
+<h3>Fall</h3>
+<dl class="timelineMinor"><dt></dt><dd>
+<ul>
+<li>Thirteenth team/councils selected.</li>
+<li>I-Night Extravaganza expands to Hart Building.</li>
+<li>President Jim Gee authorizes Orientation to partner with Food Services to sell Finals Survival Kits to parents and deliver them to freshmen students prior to finals.</li>
+<li>Orientation is reduced to two days rather than three due to the new academic calendar.</li>
+<li>First appreciation dinner held for all Orientation volunteers.</li>
+<li>Ownership of Student Handbook transferred to Dean of Students.</li>
+</ul>
+</dd></dl>
+<div class="timelineContainer_right">
+<div class="timelinemajor">
+<h2 class="timelineMajorMarker"><span class="year">2007</span></h2>
+<h3>Winter</h3>
+<dl class="timelineMinor"><dt></dt><dd>
+<ul>
+<li>Fourteenth team/councils selected.</li>
+<li>Orientation Team director positions switch to semester-long positions resulting in three teams per year being selected rather than two.</li>
+<li>Managing Director roles reprised from 2002-2003.</li>
+<li>I-Reps &amp; I-Team Conference are combined for purpose of unity.</li>
+<li>I-Team Conference is expanded to better facilitate training of I-Team Leaders and I-Reps and foster unity and parity between the two organizations.</li>
+<li>First two-day orientation for summer semester is held (minus high school freshmen).</li>
+<li>First morning secretary hired for Orientation.</li>
+<li>Orientation is restructured and given a new name...Student Spirit Events. Pre-Campus Orientation is moved to Admissions, Grad Fair is moved to Alumni Relations, Junior Days to Career &amp; Academic Advising, Grad Night remains with Spirit Events, publications are moved to Admissions. Campus Orientation remains with Spirit Events.</li>
+<li>Spirit Week is transferred to Spirit Events.</li>
+</ul>
+</dd></dl><br />
+<h3>Summer</h3>
+<dl class="timelineMinor"><dt></dt><dd>
+<ul>
+<li>Fifteenth team/councils selected.</li>
+<li>Orientation name changed to Get Connected.</li>
+<li>Traditions Trek added to Get Connected.</li>
+<li>Devotionals added to Spirit Events responsibilities.</li>
+<li>7th float built for the university.</li>
+<li>I-Reps teach at campus tours/I-Team Leaders teach at traditions treks.</li>
+<li>First custom I-Night wristbands printed, new I-Night staff buttons created.</li>
+<li>Also first volunteer check-in for I-Night and first time I-Team Leaders not required to assist with I-Night.</li>
+</ul>
+</dd><dt></dt></dl>
+<h3>Fall</h3>
+<dl class="timelineMinor"><dt></dt><dd>
+<ul>
+<li>Sixteenth team/councils selected.</li>
+<li>First ever Spirit Week sponsored by Student Spirit Events. Events included torch bearer nominations, torch lighting and fireworks, spirit cup challenge, spirit week luncheon, community service project, lunch, essay contest and spirit rally. Went with historicalheritage look. First ever door flyers for Spirit Week.</li>
+<li>I-Team/I-Reps recruitment completed after only 3 interviews.</li>
+</ul>
+</dd></dl></div>
+</div>
+<div class="timelineContainer_left">
+<div class="timelinemajor">
+<h2 class="timelineMajorMarker"><span class="year">2008</span></h2>
+<h3>Winter</h3>
+<dl class="timelineMinor"><dt></dt><dd>
+<ul>
+<li>Seventeenth team/councils selected.</li>
+<li>Students and Bro. J. sit on Devotional Council.</li>
+<li><em>Gather for Devotional</em> campaign approved.</li>
+<li>2nd Spirit Week held. First-ever snow-shoe spirit rally held.</li>
+<li>Flame trophies added to Spirit Week Torchbearer process.</li>
+<li>Bro. Degraw added to Student Support staff.</li>
+<li>Judy Kay Drake added to Student Support staff.</li>
+</ul>
+</dd></dl><br />
+<h3>Spring</h3>
+<dl class="timelineMinor"><dt></dt><dd>
+<ul>
+<li>Eighteenth team/councils selected.</li>
+<li>Get Connected Area and University Events Areas created.</li>
+<li>Get Connected Web site created.</li>
+<li>First Freshmen Academy Get Connected held.</li>
+<li><em>Arise &amp; Shine</em> Forth video created by Jared Smart.</li>
+<li>Brother Degraw added to Devotional Council.</li>
+<li>Program managers added to Student Spirit Events.</li>
+<li>I-Night expands to Library Quad, and new Web site created!</li>
+<li>New uniforms and signs roll-out: I-Night switches from T-shirts to polos. Board switches from red to green polos. Directors, Coordinators, Program Managers and Staff now all wear the same polo.</li>
+<li>Communications Director added to Student Spirit Events Team.</li>
+<li>Third Spirit Week held: President attends Spirit Week luncheon and says we are on the right track and was very impressed.</li>
+<li>First Spirit Week Rodeo held.</li>
+<li>Graduation Web site added to list of responsibilities for Student Spirit Events.</li>
+<li>Get Connected changed to &ldquo;expected&rdquo; participation. Student attendance increases greatly surpassing 2,000 new students. Largest Get Connected to date.</li>
+<li>Largest number of volunteers to date to participate in a single Get Connected.</li>
+<li>Two Spirit Conferences held back-to-back due to number of volunteers.</li>
+<li>Jacobson&rsquo;s - owners of the Sky Mountain Lodge and Quickwater facilities speak at and participate in Spirit Conferences.</li>
+<li>New Student Talent Show - showcased amazing new student talent.</li>
+<li>This new event first experimented with during winter 08 Get Connected now added permanently to Get Connected schedule.</li>
+<li>New I-Team housing boundary software created by IT for SSE use.</li>
+<li>New Get Connected cards printed for Get Connected Check-ins. This experiment failed, but we learned a lot from it.</li>
+<li>Bro. J invited to participate on the Events Management Task Force. The Task Force proposed new structure and responsibilities for the Events Management organization.</li>
+</ul>
+</dd><dt></dt></dl>
+<h3>Fall</h3>
+<dl class="timelineMinor"><dt></dt><dd>
+<ul>
+<li>Nineteenth team/councils selected.</li>
+<li>Organization Charts created for Spirit Events Directors.</li>
+<li>Revision of Area Director role created.</li>
+<li>Area Director&rsquo;s Council created.</li>
+<li>Job Description Template created.</li>
+<li>Planning Guide Template created.</li>
+<li>Director interviews modeled after board interviews. Candidates not asked for specific position interests, rather the Spirit was to guide the selection process.</li>
+<li>First board interviews held prior to completion of Get Connected for newly selected Director interviews.</li>
+<li>Creation of Inventory system and equipment check-out process.</li>
+<li>Devotional Board launches I-Learn site to promote student discussion on Devotionals as a test pilot for President Eyring.</li>
+<li>Door-to-door Devotional invitations initiated.</li>
+<li>Devotional ushering revised to zones.</li>
+<li>Ushers assist with Mother&rsquo;s Weekend, conduct some sessions and usher at Woman of Excellence Fireside.</li>
+<li>Mother&rsquo;s Weekend transferred from Activities to Student Spirit Events per our request. Name proposal approved to change it to Parents&rsquo; Weekend.</li>
+<li>I-Night expanded to Romney and Snow Buildings due to MC renovations.</li>
+<li>First I-Night 1/2 day volunteer training held.</li>
+<li>Director and staff positions revised at close of fall 2008: Staff absorbs Communications Council and Get Connected Events Area Director position is eliminated. I-Reps, I-Night and I-Team now make up the Get Connected Area. Showcase transferred to University Events.</li>
+<li>Boards changed to councils to better reflect management style and correspond with Elder Ballard&rsquo;s General Conference address on <em>Counseling With Our Councils.</em></li>
+<li>Individual budgets established for each SSE Council. Responsibility for budgets now transferred to Area Directors and Directors.</li>
+<li>Spirit Week Celebration proposal approved by President&rsquo;s Council. A yearly production will be held in the new auditorium.</li>
+</ul>
+</dd></dl></div>
+</div>
+<div class="timelineContainer_right">
+<div class="timelinemajor">
+<h2 class="timelineMajorMarker"><span class="year">2009</span></h2>
+<h3>Winter</h3>
+<dl class="timelineMinor"><dt></dt><dd>
+<ul>
+<li>Twentieth team/councils selected.</li>
+<li>Date for Singled-Out Dating Game for I-Night. Took students on date on campus (dinner in elevator with menu, waitress, violinist, etc.).</li>
+<li>I-Reps/I-Team cell phone contacting; helped bridge gap between I-Team and I-Reps.</li>
+<li>First ever Spirit Week Showcase.</li>
+<li>Elimination of Showcase Director and council following winter; all other councils restructured.</li>
+<li>Exemplary Womanhood award done away with by President&rsquo;s Council. Suggested we move event in a new direction it has not previously been at - go in a new direction.</li>
+<li>Reported back to Bro. J. that President &amp; Sister Clark loves this program and greatly appreciates the work being done here in SSE.</li>
+<li>President Clark asks for a single-format proposal for Get Connected. Purpose is to have program start and end on same days each semester.</li>
+<li>Newell Dayley and Jack Weyland approved as Service Missionaries to assist with Spirit Week Celebration.</li>
+<li>Bro. Jones added to auditorium and ushering task forces. Looking at what events should take place in the auditorium and what policies should be created for this space. Also exploring how students can assist with event ushering on campus.</li>
+</ul>
+</dd></dl><br />
+<h3>Spring</h3>
+<dl class="timelineMinor"><dt></dt><dd>
+<ul>
+<li>Twenty-first team/councils selected.</li>
+<li>Showcase moved to I-Team Council, becomes a program manager position.</li>
+<li>Strengthening of Devotional Outreach Council. Establishment of building coordinators, also 95 students apply to be ushers.</li>
+<li>Bro. Jones asked to chair Flags, Banners and Campus Promotions committee. Exploring light-pole flags, indoor banners and large building signs for major institutional events including graduation, Spirit Week, Get Connected, Parents&rsquo; Weekend, etc.</li>
+<li>Parents&rsquo; Weekend Advisory Council created.</li>
+<li>New templates created for Get Connected guides.</li>
+<li>Get Connected revised (mid-semester) after meeting with Vice President Garth Hall. Events now align with Disciple Leader model.</li>
+<li>New events added to Get Connected lineup including: Meet Your I-Team, Getting Involved, and Get Connected Expeditions.</li>
+<li>Academic Connections changed to 7 breakout college meetings (included General Advising/University Studies).</li>
+<li>Largest I-Night held to date (3,116 people), event also expanded to the Kirkham Auditorium for the first time with the addition of Kirby Heyborne comedy and acoustic concert.</li>
+<li>Largest ever student volunteer pool to date recruited and served for fall Get Connected. 180 I-Team Leaders, 120 I-Reps, and 100+ I-Night staff.</li>
+<li>Get Connected attendance drops significantly with the deletion of the GS 111 class, still 1,800+ new students participated.</li>
+<li>1,000+ students participated in the first-ever Get Connected Expeditions on Saturday after classes started.</li>
+<li>BYU&ndash;Hawaii orientation personnel asked by their University President to observe Get Connected programs.</li>
+<li>Judy Kay Drake accepts full-time position with Financial Aid.</li>
+</ul>
+</dd><dt></dt></dl>
+<h3>Fall</h3>
+<dl class="timelineMinor"><dt></dt><dd>
+<ul>
+<li>Twenty-second team/councils selected.</li>
+<li>First winter Get Connected Expeditions held.</li>
+<li>First council interviews held right after Spirit Conference.</li>
+<li>First Mentor interviews held prior to Appreciation Dinner.</li>
+<li>Bro. Jones asked to head up newly created department to be called Get Prepared. Get Connected stays with department, Grad Night and float go to Alumni, Devotional to Events Management and Spirit Week and Parents&rsquo; Weekend to Activities. Student Spirit Events name/organization dissolved.</li>
+</ul>
+</dd></dl></div>
+</div>
+<div class="timelineContainer_left">
+<div class="timelinemajor">
+<h2 class="timelineMajorMarker"><span class="year">2010</span></h2>
+</div>
+</div>
+<h3>Winter</h3>
+<dl class="timelineMinor"><dt></dt><dd>
+<ul>
+<li>Twenty-third team/councils selected.</li>
+<li>First comprehensive council retreat held.</li>
+<li>First comprehensive council meetings held on Tuesdays.</li>
+<li>Last Devotional Council sponsored by the department, ushering transferred to Events Management.</li>
+<li>I-Night Council dissolved and duties combined with I-Reps Council.</li>
+<li>Bro. J. reports to Kip Harris, Managing Director over Student Support.</li>
+</ul>
+</dd><dt></dt></dl>
+<h3>Spring</h3>
+<dl class="timelineMinor"><dt></dt><dd>
+<ul>
+<li>Twenty-fourth team/councils selected.</li>
+<li>Last Spirit Week held by our department.</li>
+<li>BYU-Hawaii comes to see Spirit Conference - have already modeled orientation after our program including H-Reps and H-Team Leaders.</li>
+<li>Added Meet the Faculty/Lunch session to Get Connected.</li>
+<li>Last New Student/Parent Luau held, discontinued at President Clark&rsquo;s request.</li>
+<li>Added texting program to the department to communicate with volunteers.</li>
+<li>Information Desks, Campus Operators and Lost &amp; Found added to department. Lead Student and Student Coordinator positions created.</li>
+<li>Launched I-Prepare Council to assist and prepare incoming students and parents for BYU-Idaho.</li>
+<li>Bro. J. reports to Rob Garrett, as Kip Harris moved to Dean of Students with appointment of Kevin Miysasaki as Vice President of Student Services and Activities.</li>
+<li>New Student Guide transferred back to Get Prepared.</li>
+<li>Get Prepared initiative disbanded per President Clark. I-Prepare Council also disbanded.</li>
+</ul>
+</dd><dt></dt></dl>
+<h3>Winter</h3>
+<dl class="timelineMinor"><dt></dt><dd>
+<ul>
+<li>Twenty-Fifth team/councils selected.</li>
+<li>Get Connected Councils restructured - forming Events Council, and Recruitment Council.</li>
+<li>Get Prepared department name disbanded, renamed Student Support with the Student Support Council renamed Enrollment Services. Moved to Dean of Students Area and Bro. J. now reports to Kip Harris once again.</li>
+<li>Get Connected Recruitment completed early, Mentor Groups assembled two months prior to Spirit Conference. Groups get together and bond prior to Spirit Conference.</li>
+<li>Student Ambassadors organization transferred from Admissions to Student Support. Ambassadors and I-Prepare Council concepts merged and Get Prepared initiative restarted.</li>
+<li>Visit Days now added to programming as Ambassadors host prospective and admitted students and their parents on campus.</li>
+<li>Student Associations and Student Representative Council (SRC) moved under Student Support. Student Associations student director position created.</li>
+<li>Get Involved Web site transferred to Student Support.</li>
+<li>First-ever department Christmas Social held.</li>
+</ul>
+</dd></dl><br />
+<div class="timelineContainer_right">
+<div class="timelinemajor">
+<h2 class="timelineMajorMarker"><span class="year">2011</span></h2>
+<h3>Winter</h3>
+<dl class="timelineMinor"><dt></dt><dd>
+<ul>
+<li>Twenty-sixth team/councils selected.</li>
+<li>All-Council Retreat held with Get Connected, Recruitment Council, Student Ambassadors, SRC and Student Associations.</li>
+<li>Comprehensive Leadership Council for all Student Support organizations held each Tuesday, including SRC.</li>
+<li>Ask BYUI (Call Center) approved and given to Student Support after a long-protracted turf war between Technology Help Desk and Student Support.</li>
+<li>Student Support&rsquo;s first sponsorship of Cultural Night takes place.</li>
+<li>Student Support Coordination Council created for Office Staff and Directors.</li>
+<li>Admitted Student Checklist created.</li>
+<li>Communications Manager position created.</li>
+<li>First SRC Elections under Student Support held.</li>
+<li>New Student Guide publication receives first major overhaul since it was created in 2002.</li>
+<li>Parents&rsquo; Web site in process of being created.</li>
+<li>Ask BYUI Web site in process of being created.</li>
+<li>Student Support will be hold it&rsquo;s 10+1 Year Reunion for past directors and office staff.</li>
+</ul>
+</dd><dt></dt></dl>
+<h3>Spring</h3>
+<h3></h3>
+<dl class="timelineMinor"><dt></dt><dd>
+<ul>
+<li>Parents&rsquo; Web site in process of being created.</li>
+<li>Ask BYUI Web site in process of being created.</li>
+<li>Student Support will be hold it&rsquo;s 10+1 Year Reunion for past directors and office staff.</li>
+</ul>
+</dd></dl><br />
+<h3>Fall</h3>
+<dl class="timelineMinor"><dt></dt><dd>
+<ul>
+<li>Twenty-eighth team/councils selected.</li>
+<li>Kim Clinger hired on as a full-time First Year Experience Coordinator over Get Connected, Recruitment and Student Ambassadors. Kim served as a student director on the first NSO Team.</li>
+<li>Joanna Relken was hired on as full-time Student Support Coordinator over the Ask BYUI area, SRC and Student Associations.</li>
+<li>Student Ambassadors start keeping weekly reports on how they are helping students.</li>
+<li>New SRC structure developed and implemented with the newly incoming elected student body officers.</li>
+<li>Student Ambassadors start weekly reporting process which captures the contacts and preparation progression student ambassadors are giving to their incoming students.</li>
+<li>Student concerns transfer from SRC to Ask BYUI.</li>
+<li>Specific tender mercies were shared with Kip Harris - Dean of Students and Kevin Miyasaki - Student Services and Activities Vice President, who in turn shared them with President Clark. Several examples from our tender mercies and business practices were highlighted in President Clark&rsquo;s Alumni broadcast.</li>
+<li>Approval given to proceed with Freshmen Survival Conference starting in spring 2012.</li>
+<li>All future Get Connected changed to a two-day model.</li>
+<li>Pathway and Online students transferred from Build program to Student Ambassadors at the request of Online Learning.</li>
+<li>Ask BYUI Access reporting process started.</li>
+<li>Plans are underway to have Ask BYUI oversee Live Chats as part of the Web Site. Each web page in the University site will feature Ask BYUI.</li>
+</ul>
+</dd></dl></div>
+</div>
+<div class="timelineContainer_left">
+<div class="timelinemajor">
+<h2 class="timelineMajorMarker"><span class="year">2012</span></h2>
+<h3>Winter</h3>
+<dl class="timelineMinor"><dt></dt><dd>
+<ul>
+<li>Twenty-ninth team/councils selected.</li>
+<li>Recruitment Council name changed to Involvement Council and given yellow polos.</li>
+<li>Two Coordinator positions created for Student Associations to work with the Student Associations Director and help manage the various Student Associations.</li>
+<li>Area Director role revised to focus less on programs and focus more on helping directors build those who serve on their councils and volunteer with their programs.</li>
+<li>Office staff positions modified. Student Program Assistant positions created and report to Staff Coordinators. Student Office Assistant positions remain and report to Bro. J.</li>
+<li>SharePoint Office Staff position created. Files and processes start moving to SharePoint.</li>
+<li>Communications area expands and starts working on video production.</li>
+<li>Online and Pathway Ambassador programs commence.</li>
+</ul>
+</dd><dt></dt></dl>
+<h3>Spring</h3>
+<dl class="timelineMinor"><dt></dt><dd>
+<ul>
+<li>Thirtieth team/councils selected.</li>
+</ul>
+</dd></dl></div>
+</div>
+<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		
+		
+		$('.timelinemajor').click(function(){
+		
+		if($(this).parent().attr('class') == 'timelineContainer_right'){
+			$(this).find('.timelineMinor').toggle(function(){
+				$(this).find('dt').toggleClass("majorclicked");
+				});
+			}else{
+				$(this).parent().next('.timelineMinor').toggle(function(){
+				$(this).find('dt').toggleClass("majorclicked");
+				});
+				}
+		
+		
+			
+			
+		});
+		
+		
+	});//end ready
+</script>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x19075" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

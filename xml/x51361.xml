@@ -1,0 +1,353 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.101 - http://www.ingeniux.com ***-->
+<Content ID="x51361" Name="OLC Home" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">OLC Home</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">OLC Home</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<p></p>
+<style><!--
+#right_aside{
+display:none;
+}
+
+html{
+margin-left: 20px;
+}
+
+.olc_container{
+				width: 703px;
+				height: 180px;
+				position: relative;	
+			}
+			
+			.aboutboxes{
+				float:left;	
+				
+			}
+			
+			.about{
+				float:left;
+					
+			}
+
+bottomlogo{
+margin-left: -30px;
+}
+
+.afy{
+position: relative;
+float: left;
+margin-right: -3px;
+margin-left: -3px;
+
+}
+
+.afyhover{
+float: left;
+margin-left: -189px;
+position: absolute;
+opacity: 0;
+}
+
+.afyhover:hover{
+float: left;
+position: absolute;
+opacity: 1;
+}
+			
+			
+                        .programs{
+				  opacity:1;
+				  float: left;
+                                  position: relative;
+                                  background-image: url (images/badger-creek/website/programshover.jpg);
+                                	
+			}
+
+                        .programs:hover{
+                                 opacity: .85;
+}
+		
+                        .planning{
+				float: left;
+                                margin-right: -20px;
+                               	
+			}
+			
+			.planning:hover{
+                                opacity: .85;
+}
+		
+			
+			.aboutboxes1:hover {
+					background: url(images/badger-creek/website/whohover.png) no-repeat;
+			}
+			
+			.aboutboxes2:hover {
+					background: url(images/badger-creek/website/whathover.png) no-repeat;
+			}
+			
+			.aboutboxes3:hover {
+					background: url(images/badger-creek/website/wherehover.png) no-repeat;
+			}
+			
+			.aboutboxes4:hover {
+					background: url(images/badger-creek/website/contacthover.png) no-repeat;
+			}
+
+.slider{
+margin-left: 680px;
+margin-top: -30px;
+margin-bottom: 50px;
+
+}
+
+
+.about_container{
+        margin-left: 50px;
+}
+
+.update-frame{
+	width: 150px;
+	height: 120px;
+	position: relative;
+	overflow: hidden;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+.update-meta{
+	background-color: rgb(56, 56, 56);
+	background-color: rgba(85, 85, 85, .95);
+	padding: 12px;
+	position: absolute;
+	bottom: -120px;
+	transition: all .4s;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-ms-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	z-index: 1;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+}
+.update-frame:hover .update-meta{
+	bottom: -3px;
+}
+h3.update-title{
+	color: white;
+	margin: 0;	padding: 0;
+	margin-top: -2px;
+	margin-bottom: 6px;
+	font-size: 13px;
+	height: 16px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+
+}
+h3.update-title a{
+	color: #fff;
+	text-decoration: none;
+}
+h3.update-title a:hover{
+	color: #fff;
+	text-decoration: underline;
+}
+p.update-caption {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
+    height: 48px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+   
+}
+a.update-href {
+    color: #ccc;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 11px;
+    line-height: 18px;
+}
+
+a.email {
+    color: white;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 11px;
+    line-height: 11px;
+}
+a.update-href:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+a.email:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+		
+
+
+		
+			
+#page_title{
+opacity:0.0; 
+}
+ 
+ 
+#firstBanner {
+                position:absolute;
+margin-left: -615px;
+margin-top: 10px; 
+				opacity: 0.0;
+				transition-property: opacity ease-in;
+				transition-delay: 0s;
+				transition-duration: 1s;
+				-moz-transition-property: opacity ease-in;
+				-moz-transition-delay: 0s;
+				-moz-transition-duration: 1s;
+				-webkit-transition-property: opacity ease-in;
+				-webkit-transition-delay: 0s;
+				-webkit-transition-duration: 1s;
+				-o-transition-property: opacity ease-in;
+				-o-transition-delay: 0s;
+				-o-transition-duration: 1s;
+				
+                
+}
+ 
+ 
+#secondBanner {
+                position:absolute;
+margin-left: -615px;
+margin-top: 10px; 
+                opacity: 0.0;
+				transition-property: opacity ease-in;
+				transition-delay: 1s;
+				transition-duration: 0.5s;
+				-moz-transition-property: opacity ease-in;
+				-moz-transition-delay: 1s;
+				-moz-transition-duration: 0.5s;
+				-webkit-transition-property: opacity ease-in;
+				-webkit-transition-delay: 1s;
+				-webkit-transition-duration: 0.5s;
+				-o-transition-property: opacity ease-in;
+				-o-transition-delay: 1s;
+				-o-transition-duration: 0.5s;
+				
+               
+}
+ 
+ 
+#thirdBanner {
+                position:absolute;
+margin-left: -615px;
+margin-top: 10px; 
+                opacity: 0.0;
+				transition-property: opacity ease-in;
+				transition-delay: 2s;
+				transition-duration: 0.5s;
+				-moz-transition-property: opacity ease-in;
+				-moz-transition-delay: 2s;
+				-moz-transition-duration: 0.5s;
+				-webkit-transition-property: opacity ease-in;
+				-webkit-transition-delay: 2s;
+				-webkit-transition-duration: 0.5s;
+				-o-transition-property: opacity ease-in;
+				-o-transition-delay: 2s;
+				-o-transition-duration: 0.5s;
+                
+}
+
+#fourthBanner {
+                position:absolute;
+margin-left: -615px;
+margin-top: 10px; 
+                opacity: 0.0;
+				transition-property: opacity ease-in-out;
+				transition-delay: 3s;
+				transition-duration: 2s;
+				-moz-transition-property: opacity ease-in-out;
+				-moz-transition-delay: 3s;
+				-moz-transition-duration: 2s;
+				-webkit-transition-property: opacity ease-in-out;
+				-webkit-transition-delay: 3s;
+				-webkit-transition-duration: 2s;
+				-o-transition-property: opacity ease-in-out;
+				-o-transition-delay: 3s;
+				-o-transition-duration: 2s;
+               
+}
+
+#lastBanner {
+                position:absolute;
+margin-left: -640px;
+margin-top: 10px; 
+                opacity: 0.0;
+				transition-property: opacity;
+				transition-delay: 4s;
+				transition-duration: 2s;
+				-moz-transition-property: opacity ease-in;
+				-moz-transition-delay: 4s;
+				-moz-transition-duration: 2s;
+				-webkit-transition-property: opacity ease-in;
+				-webkit-transition-delay: 4s;
+				-webkit-transition-duration: 2s;
+				-o-transition-property: opacity ease-in;
+				-o-transition-delay: 4s;
+				-o-transition-duration: 2s;
+               
+}
+--></style>
+<p>
+<script type="text/javascript">
+window.onload=function(){
+ 
+var el = document.getElementById( 'page_title' );
+el.parentNode.removeChild( el );
+ 
+document.getElementById("firstBanner").style.opacity = '1.0';
+document.getElementById("secondBanner").style.opacity = '1.0';
+document.getElementById("thirdBanner").style.opacity = '1.0';
+document.getElementById("fourthBanner").style.opacity = '1.0';
+setTimeout(function(){document.getElementById("lastBanner").style.opacity = '1.0'},3000);
+ 
+};
+</script>
+</p>
+<div class="span-18">
+<p><img alt="welcome.jpg" class="welcome" src="images/badger-creek/website/welcome.png" /> <img alt="topdivide.jpg" class="divide" src="images/badger-creek/website/topdivide.jpg" /></p>
+<div class="slider"><img alt="mission1.jpg" id="firstBanner" src="images/badger-creek/website/mission1.jpg" /> <img alt="mission2.jpg" id="secondBanner" src="images/badger-creek/website/mission2.jpg" /> <img alt="mission3.jpg" id="thirdBanner" src="images/badger-creek/website/mission3.jpg" /> <img alt="mission4.jpg" id="fourthBanner" src="images/badger-creek/website/mission4.jpg" /> <img alt="mission5.jpg" id="lastBanner" src="images/badger-creek/website/mission5.jpg" /></div>
+<div id="page_title"><img alt="mission1.jpg" id="firstBanner" src="images/badger-creek/website/mission1.jpg" /> <img alt="mission2.jpg" id="secondBanner" src="images/badger-creek/website/mission2.png" /> <img alt="mission3.jpg" id="thirdBanner" src="images/badger-creek/website/mission3.jpg" /> <img alt="mission4.jpg" id="fourthBanner" src="images/badger-creek/website/mission4.jpg" /> <img alt="mission5.jpg" id="lastBanner" src="images/badger-creek/website/mission5.jpg" /></div>
+<div class="olc_container"></div>
+<p><img alt="middledivide.jpg" class="divide" src="images/badger-creek/website/middledivide.jpg" /><br />&nbsp; <img alt="programs(0).jpg" class="programs" src="images/badger-creek/website/programs(0).jpg" /><a class="afy" href="#"><img alt="afy.png" class="afy" src="images/badger-creek/website/afy.jpg" /></a><a class="afyhover" href="x28834.xml"><img alt="afyhover.jpg" class="afyhover" src="images/badger-creek/website/afyhover.jpg" /></a><a class="planning" href="x69273.xml"><img alt="planning(0).jpg" class="planning" src="images/badger-creek/website/planning(0).jpg" /></a><a class="afy" href="x47316.xml"> <img alt="bottomdivide.png" class="divide" src="images/badger-creek/website/bottomdivide.png" /><br /><img alt="aboutus.png" class="about" src="images/badger-creek/website/aboutus.png" /></a></p>
+<div class="about_container">
+<div class="update-frame"><a href="http://www.byui.edu/badger-creek/about-us" title="Who We Are"><span class="make-link"></span><img alt="who we are" class="update-thumbnail" height="130" src="images/badger-creek/website/who.png" title="Who We Are" width="160" /></a>
+<div class="update-meta">
+<h3 class="update-title">Who We Are</h3>
+<p class="update-caption">Staffed by BYU-Idaho students, the OLC staff exists to serve you!</p>
+<a class="update-href" href="http://www.byui.edu/badger-creek/about-us" title="Academic Discovery Center">More...</a></div>
+</div>
+<div class="update-frame"><a href="../../upward/winter-2013/infographic-academic-discovery-center" title="What We Do"><span class="make-link"></span><img alt="what we do" class="update-thumbnail" height="130" src="images/badger-creek/website/what.png" title="What We Do" width="160" /></a>
+<div class="update-meta">
+<h3 class="update-title">What We Do</h3>
+<p class="update-caption">Create significant learning, leadership and recreation in a unique outdoor setting.</p>
+<a class="update-href" href="../../upward/winter-2013/infographic-academic-discovery-center" title="Academic Discovery Center">More...</a></div>
+</div>
+<div class="update-frame"><a href="x30288.xml" title="Where We Are"><span class="make-link"></span><img alt="where we are" class="update-thumbnail" height="125" src="images/badger-creek/website/where.png" title="Where We Are" width="160" /></a>
+<div class="update-meta">
+<h3 class="update-title">Where We Are</h3>
+<p class="update-caption">Roughly 45 miles from BYU-Idaho at the base of the majestic Tetons.</p>
+<a class="update-href" href="x30288.xml" title="Academic Discovery Center">More...</a></div>
+</div>
+<div class="update-frame"><a href="http://www.byui.edu/badger-creek/contact-us" title="Contact Us"><span class="make-link"></span><img alt="contact us" class="update-thumbnail" height="130" src="images/badger-creek/website/contact.png" title="Contact Us" width="150" /></a>
+<div class="update-meta">
+<h3 class="update-title">Contact Us</h3>
+<p class="update-caption"><a class="email" href="mailto:OLC@byui.edu" title="Campus Users">Campus Users</a> <a class="email" href="mailto:badgercreek@byui.edu" title="Community Groups">Community Groups</a> <a class="email" href="mailto:youthprograms@byui.edu" title="Youth Programs">Youth Programs</a></p>
+<h3 class="update-title"><a class="update-href" href="http://www.byui.edu/badger-creek/contact-us" title="Contact The Outdoor Learning Center">More...</a></h3>
+</div>
+</div>
+<p><img alt="bottomlogo.png" class="bottomlogo" src="images/badger-creek/website/bottomlogo.png" /></p>
+</div>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="Component" Component="x47404" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="true" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x44785" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

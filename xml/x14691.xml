@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<CampaignInfo ID="x14691" Name="Share" Layout="general_campaign.xsl"><Campchild type="boolean" label="Check if this page is a child of a campaign home page." readonly="false" required="false" hidden="false">true</Campchild><Title type="string" label="Title" readonly="false" hidden="false" required="true">Share</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Now use social media to share your favorite articles and links.</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="List" List="MainImage" Name="MainImages" label="Images" readonly="false" hidden="false" required="true" Width="" Border="" Alignment="" Expanded="true" Height=""><MainImage type="imagefile" readonly="false" hidden="false" required="true" Width="" Border="" Alignment="" Expanded="false" Height="">Admin_Offices/university_communications/campaigns/beta_campaign/explore/betaShare.jpg</MainImage></xPower><ThumbnailImage type="imagefile" label="Navigation Thumbnail (31 x 20) required for child pages only" readonly="false" hidden="false" required="false" Width="" Height="" Alignment="" Border="" Expanded="false">Admin_Offices/university_communications/campaigns/beta_campaign/icons/icon_03.png</ThumbnailImage><xPower Type="GroupStart" GroupStart="" Name="IntroText" label="Intro Text" readonly="false" hidden="false" required="false" Expanded="true"><IntroCopy type="dhtml" label="Intro Text" readonly="false" hidden="false" required="false"><![CDATA[<p>There's no question the Internet is a powerful way to communicate.  And at BYU-Idaho, we have a wonderful story to tell. Following the  Church's <a href="http://lds.org/church/news/church-members-share-the-gospel-online?lang=eng" title="Church News article about initiative to increase positive LDS information online.">example</a> of positive online communication, BYU-Idaho recently launched official pages on <a href="http://www.facebook.com/pages/BYU-Idaho/140492225964954" title="Official BYU-Idaho Facebook Page">Facebook</a> and <a href="http://www.youtube.com/user/byui" title="Official BYU-Idaho YouTube Channel">YouTube</a>,  with plans to include LinkedIn, Twitter, and others. The new site  provides convenient "like" links on news articles that can post to over  300 social networking sites and even personal blogs.</p>
+<p><a href="x15018.xml" title="Tell Us What You Think" target="_blank">Give your feedback</a><a href="x77.xml"> </a></p>
+<p><a href="x77.xml">Visit BETA site </a><span style="font-size: x-small;">&nbsp;</span></p>]]></IntroCopy></xPower><BodyCopy type="dhtml" label="Optional Content" readonly="false" hidden="false" required="false"><![CDATA[<div class="cwrap">
+<div class="ccl">
+<p><strong>Facebook status updates</strong></p>
+<ul>
+<li>View recent Facebook status updates directly from academic and administrative office homepages.</li>
+<li>Status updates will allow departments to share important information such as deadlines, upcoming events, and news of interest.</li>
+<li>Users can easily be redirected to an office's Facebook page through this portal.</li>
+</ul>
+</div>
+<img alt="Sare your favorite articles" height="264" src="Images/Admin_Offices/university_communications/campaigns/beta_campaign/share/facebook.jpg" title="Share your favorite article" width="435" /></div>
+<div class="cwrap">
+<div class="ccl">
+<p><strong>YouTube Videos</strong></p>
+<ul>
+<li>Approved videos can be posted to the web using BYU-Idaho's official YouTube channel.</li>
+</ul>
+</div>
+<img alt="Sare your favorite articles" height="234" src="Images/Admin_Offices/university_communications/campaigns/beta_campaign/share/youtube.jpg" title="Share your favorite article" width="435" /></div>
+<div class="cwrap">
+<div class="ccl">
+<p><strong>Recommendation links from article pages</strong></p>
+<ul>
+<li> Share your favorite articles with easy share links on over 300 social media sites. </li>
+</ul>
+</div>
+<img alt="Sare your favorite articles" height="177" src="Images/Admin_Offices/university_communications/campaigns/beta_campaign/share/share.jpg" title="Share your favorite article" width="435" /></div>]]></BodyCopy><xPower Type="Component" Component="x14686" Name="CampaignNav" label="Campaign Navigation" readonly="false" hidden="false" required="true" CompTypes="CampaignNavigationComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x15497" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></CampaignInfo>

@@ -1,0 +1,253 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content ID="x43897" Name="Schedule" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">schedule</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">schedule</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+#page{width: 710px; height: auto; min-height: 600px;}
+    #page #header{width: 710px; height: 265px;}
+    #page #content{width: 78%; height: auto; min-height: 300px; float: left; padding: 1%;}
+    #page #content p{padding-left: 5px;}
+
+    #page #content table h3{padding: 0px; margin: 0px; letter-spacing: 1.5px; font-weight: bold; color: #E45B3E;} 
+    #page #content table p{padding: 0px; margin: 0px; font-size: 12.5px; padding-left: 3px; color: black;}
+    #page #content table span{font-size: 15px; font-weight: bold; color: #E45B3E;}
+    #page #content table caption{text-align: left; padding: 10px;}
+    #page #content table td{color: black;}
+
+    .dark #image, .dark #info, .dark #time, .dark{background-color: #b3cebc;}
+    .dark:hover #image, .dark:hover #info, .dark:hover #time{background-color: #94baa1;}
+    .light #image, .light #info, .light #time, .light{background-color: #f3f8f7;}
+    .light:hover #image, .light:hover #info, .light:hover #time{background-color: #e3efec;}
+
+    #page #content table #image{width: 85px; height: 85px;}
+    #page #content table #time{width: 95px; border-left: #cd1f15 solid medium; padding-left: 10px; padding-right: 3px;}
+
+    #page #buttons{width: 18%; height: auto; min-height: 300px; float: left; padding: 1%; text-align: center;margin-top:42px;}
+    #page #buttons div{width: 100px; height: 100px; margin-left: auto; margin-right: auto; margin-top: 10px; margin-bottom: 20px;}
+
+   #page #buttons .one{
+        background-image: url('Images/student-support/Get Connected/Talent Show/student-success-sprite.gif');
+        background-position:0 100px;
+          height:100px;
+                          width:100px;
+                          display:block;
+                          margin-left:13px;
+                          margin-top:10px;
+    }
+    #page #buttons .two{
+        background-image: url('Images/student-support/Get Connected/Talent Show/student-success-sprite.gif');
+        background-position:0 306px;
+          height:100px;
+                          width:100px;
+                          display:block;
+                          margin-left:13px;
+                          margin-top:10px;
+    }
+    #page #buttons .three{
+        background-image: url('Images/student-support/Get Connected/Talent Show/student-success-sprite.gif');
+        background-position:0 510px;
+          height:100px;
+                          width:100px;
+                          display:block;
+                          margin-left:13px;
+                          margin-top:10px;
+    }
+
+
+    #page #buttons .one:hover{background-image: url('Images/student-support/Get Connected/Talent Show/student-success-sprite.gif');background-position:0 203px;}
+    #page #buttons .two:hover{background-image: url('Images/student-support/Get Connected/Talent Show/student-success-sprite.gif');background-position:0 409px;}
+    #page #buttons .three:hover{background-image: url('Images/student-support/Get Connected/Talent Show/student-success-sprite.gif');background-position:0 613px;}
+
+    #page #buttons .live_chat{
+        margin-left:0px;
+        padding:10px 15px;
+        background-color:#E2593E;
+        /* IE10 Consumer Preview */ 
+        background-image: -ms-linear-gradient(top left, #E2593E 0%, #C44D36 100%);
+
+        /* Mozilla Firefox */ 
+        background-image: -moz-linear-gradient(top left, #E2593E 0%, #C44D36 100%);
+
+        /* Opera */ 
+        background-image: -o-linear-gradient(top left, #E2593E 0%, #C44D36 100%);
+
+        /* Webkit (Safari/Chrome 10) */ 
+        background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #E2593E), color-stop(1, #C44D36));
+
+        /* Webkit (Chrome 11+) */ 
+        background-image: -webkit-linear-gradient(top left, #E2593E 0%, #C44D36 100%);
+
+        /* W3C Markup, IE10 Release Preview */ 
+        background-image: linear-gradient(to bottom right, #E2593E 0%, #C44D36 100%);
+        text-decoration:none;
+        color:#fff;
+        border-radius:4px;
+        font-family:sans-serif;
+        font-weight:bold;
+    }
+    #page #buttons .live_chat:hover{
+        background-color:#AD4936;
+
+        background-image: -ms-linear-gradient(top left, #AD4936 0%, #9C4231 100%);
+
+        /* Mozilla Firefox */ 
+        background-image: -moz-linear-gradient(top left, #AD4936 0%, #9C4231 100%);
+
+        /* Opera */ 
+        background-image: -o-linear-gradient(top left, #AD4936 0%, #9C4231 100%);
+
+        /* Webkit (Safari/Chrome 10) */ 
+        background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #AD4936), color-stop(1, #9C4231));
+
+        /* Webkit (Chrome 11+) */ 
+        background-image: -webkit-linear-gradient(top left, #AD4936 0%, #9C4231 100%);
+
+        /* W3C Markup, IE10 Release Preview */ 
+        background-image: linear-gradient(to bottom right, #AD4936 0%, #9C4231 100%);
+    }
+--></style>
+<div id="page">
+<div id="header"><img src="Images/student-support/Get Connected/Talent Show/header.gif" /></div>
+<div id="content">
+<h1>Student Success Conference Schedule</h1>
+<br />
+<h3>Tuesday, May 14, 2013<br />Taylor Building | 6:00 - 9:00pm</h3>
+<table cellspacing="0">
+<tbody>
+<tr class="dark">
+<td id="image"></td>
+<td id="info"><span>Welcome session</span>
+<p>Participate in an interactive session which focuses on what student success means at BYU-Idaho and why you can succeed!</p>
+</td>
+<td id="time"><span>Time</span>
+<p>5:45pm</p>
+<span>Location</span>
+<p>Taylor Chapel</p>
+</td>
+</tr>
+<tr class="light">
+<td id="image"><img height="85" src="Images/student-support/Get Connected/Talent Show/roommates.gif" width="85" /></td>
+<td id="info"><span>Roommates ... Friends for Life</span>
+<p>Tips for great roommate experience through unity, conflict solution, and personal honor.</p>
+</td>
+<td id="time"><span>Time</span>
+<p>6:00pm</p>
+<span>Location</span>
+<p>Taylor 100</p>
+</td>
+</tr>
+<tr class="dark">
+<td id="image"><img height="85" src="Images/student-support/Get Connected/Talent Show/stress.png" width="85" /></td>
+<td id="info"><span>Manage Stress and Healthy Living</span>
+<p>Help how to manage the stress of college life and find contentment in everyday life.</p>
+</td>
+<td id="time"><span>Time</span>
+<p>6:00pm</p>
+<span>Location</span>
+<p>Taylor 105</p>
+</td>
+</tr>
+<tr class="light">
+<td id="image"><img height="85" src="Images/student-support/Get Connected/Talent Show/financial-management.gif" width="85" /></td>
+<td id="info"><span>Taking Control of your Finances</span>
+<p>Taking the time to consider and understand your perspectives and habits regarding money now will help you develop sound financial goals that will help you achieve financial freedom dot your future.</p>
+</td>
+<td id="time"><span>Time</span>
+<p>6:00pm</p>
+<span>Location</span>
+<p>Taylor 140</p>
+</td>
+</tr>
+<tr class="dark">
+<td id="image"><img height="85" src="Images/student-support/Get Connected/Talent Show/academic-support.gif" width="85" /></td>
+<td id="info"><span>Academic Support</span>
+<p>Learn about the various academic Support Center services, how to sign up for a tutor, study skills tip page and video vignettes, tutoring video tutorials, and online volunteering.</p>
+</td>
+<td id="time"><span>Time</span>
+<p>6:00pm</p>
+<span>Location</span>
+<p>Taylor 120</p>
+</td>
+</tr>
+<tr class="light">
+<td id="image"><img height="85" src="Images/student-support/Get Connected/Talent Show/INVOLVED.png" width="85" /></td>
+<td id="info"><span>Get Involved</span>
+<p>Learn how being involved in BYU Idaho can change your life and those whom you serve. Become a better disciple and inspire others to get involved too.</p>
+</td>
+<td id="time"><span>Time</span>
+<p>6:00pm</p>
+<span>Location</span>
+<p>Taylor 111</p>
+</td>
+</tr>
+<tr class="dark">
+<td id="image"><img height="85" src="Images/student-support/Get Connected/Talent Show/academic-success.gif" width="85" /></td>
+<td id="info"><span>Achieving Academic success</span>
+<p>Academic standings, standards and deadlines, oh my! Everything you need to know to stay in good academic standing in 25 minutes or less.</p>
+</td>
+<td id="time"><span>Time</span>
+<p>6:00pm</p>
+<span>Location</span>
+<p>Taylor 106</p>
+</td>
+</tr>
+<tr class="light">
+<td id="image"><img height="85" src="Images/student-support/Get Connected/Talent Show/TIME.png" width="85" /></td>
+<td id="info"><span>Time Management Skills For College Students</span>
+<p>come learn various time management skills to help you as a college student.</p>
+</td>
+<td id="time"><span>Time</span>
+<p>6:00pm</p>
+<span>Location</span>
+<p>Taylor 146</p>
+</td>
+</tr>
+<tr class="dark">
+<td id="image"><img height="85" src="Images/student-support/Get Connected/Talent Show/wellness.gif" width="85" /></td>
+<td id="info"><span>Wellness</span>
+<p>Want to learn how to avoid the freshmen 15? Want to have a healthier lifestyle, then come to the wellness workshop and learn how to achieve your wellness goals.</p>
+</td>
+<td id="time"><span>Time</span>
+<p>6:00pm</p>
+<span>Location</span>
+<p>Taylor 144</p>
+</td>
+</tr>
+<tr class="light">
+<td id="image"><img height="85" src="Images/student-support/Get Connected/Talent Show/dating.gif" width="85" /></td>
+<td id="info"><span>Dating at BYUI</span>
+<p>Come and learns tips, proper dating etiquette and be ready for your next date.</p>
+</td>
+<td id="time"><span>Time</span>
+<p>6:00pm</p>
+<span>Location</span>
+<p>Taylor 147</p>
+</td>
+</tr>
+<tr class="dark">
+<td id="image"></td>
+<td id="info"><span>Dinner</span>
+<p>Enjoy a free dinner and get to know your fellow conference attendees</p>
+</td>
+<td id="time"><span>Time</span>
+<p>8:00pm</p>
+<span>Location</span>
+<p>Taylor Cultural Hall</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="buttons"><a class="one" href="x43897.xml"></a> <a class="two" href="x43898.xml" title="Contact"></a> <a class="three" href="https://cms.byui.edu/home/StudentSupport/Lists/Student%20Success%20Conference%20RSVP/Item/newifs.aspx?List=6f0a7da4%2D89f6%2D4baf%2Daeaa%2D03bb48c4116d&amp;Source=https%3A%2F%2Fcms%2Ebyui%2Eedu%2Fhome%2FStudentSupport%2FLists%2FStudent%2520Success%2520Conference%2520RSVP%2FMy%2520Referrals%2Easpx%3FIsDlg%3D1&amp;RootFolder=&amp;IsDlg=1&amp;Web=9d8e59ae%2Dcaad%2D4c52%2Da0d7%2D706060345244" title="RSVP"></a>
+<p style="margin-top: -4px;"></p>
+<a class="live_chat" href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=Student%20Support">Live Chat</a></div>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-33977325-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x19075" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<Content ID="x24333" Name="Taxonomy Navigation" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Taxonomy Navigation</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">There are conditions in which a user will want to select and use only specific CMS Pages within the CMS Tree.</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><xPower Type="List" List="Image" Name="RelatedImage" label="Related Image(s)" readonly="false" hidden="true" required="false" Border="" Alignment="" Expanded="false" Height="" Width=""><Image type="imagefile" readonly="false" hidden="true" required="false" Border="" Alignment="" Expanded="true" Height="" Width="" AlternateText="" HSpace="" VSpace=""></Image></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+.azindex, .audience, .home, .policyindex {display: block !important;}
+--></style>
+<div id="eleBody"><img alt="Check Box" height="70" src="Images/Internal_Use/Ingeniux_Training/Element Views/Taxonomy.png" title="Check Box" width="280" />
+<p> </p>
+<div class="intro">
+<p>There are conditions in which a user will want to select and use only specific CMS Pages within the CMS Tree. This is different from the “Navigation” element, which selects groups of CMS Pages within the CMS Tree. These specific CMS Pages are selected for navigation features within web pages.</p>
+</div>
+<p>Items selected within the Taxonomy Navigation should be organized using a taxonomy style for best results.</p>
+<p style="margin-top: 50px;"><strong style="font-size: 20px;">What is Taxonomy?</strong></p>
+<p>We should see taxonomy as a tree of topics that have similar characteristics. To organize the tree we give a name or title at each level of the tree. The title should describe or identify the characteristics of all topics that would be contain under the given level of the tree. The further we traverse down the taxonomy tree the more detailed the characteristics and similar the topics at each level become.</p>
+<p> </p>
+<p>The following diagram is an example of a taxonomy tree that consists of topics of animals:</p>
+<p>Animal</p>
+<p>Canine                                  Feline</p>
+<p>Dog   Wolf   Coyote            Cat   Tiger   Lion</p>
+<p> </p>
+<p>If a user wanted to create a taxonomy tree of "Pet", they can make a separate taxonomy with "Dog" and "Cat" listed under "Pet".</p>
+<p style="margin-top: 50px;"><strong style="font-size: 20px;">Creating and Removing a Taxonomy</strong></p>
+<img alt="Check Box" height="310" src="Images/Internal_Use/Ingeniux_Training/Element Views/TaxonTree.png" title="Check Box" width="550" /><ol>
+<li>To create a taxonomy for use within the Content Management System a user will need to select the "Categorize" tab. Under the "Categorize" tab one should see the taxonomy tree listing all topics.</li>
+<li>To edit this taxonomy tree click on the "Manage Taxonomy" button on the bottom left corner of the view.</li>
+<li>Then traverse the tree and select the level in which you want to insert the new level or sub-taxonomy and click on the plus (+) sign on the right of the selected level. Clicking on the negative ( - ) sign will delete the level selected.</li>
+<li>Under the "Category" tab, found within the right section of the "Categorize" tab, consists of fields used to provide a title and description of the new taxonomy created. Fill in these fields with proper information about the taxonomy and save. "Type Name" and "External Id" are not used at this moment.</li>
+<li>The "Associations" tab is the section that lists all CMS Pages that are related to the selected taxonomy level.</li>
+<li>To add a CMS Page, click on the Plus (+) button which supplies a text field. Then enter the ID number of the CMS Page you wish to add to the selected taxonomy.</li>
+<li>Users can select and hover on an existing CMS Page in the list to provide an available negative ( - ) button used to remove the CMS Page from the taxonomy.</li>
+<li>Any changes made in the "Association" tab are done in real time so saving is not required.</li>
+</ol>
+<p style="margin-top: 50px;"><strong style="font-size: 20px;">Selecting Taxonomy for use</strong></p>
+<ol>
+<li>Once a taxonomy has been created for use, a "Taxonomy Navigation" element allows the user to select the taxonomy by clicking on the "Pick" button.</li>
+<li>The "Pick a Category" dialog box will appear showing the CMS taxonomy tree. Find and select the taxonomy you wish to use and click on "OK". To select multiple taxonomies hold down the shift key.</li>
+<li>The "Clear" button will deselect all taxonomies.</li>
+<li>The "Cancel" button ignores all changes made and closes the dialog box.</li>
+<li>All active taxonomies should display below the "Taxonomy Navigation" element.</li>
+</ol>
+<p style="margin-top: 50px;"><strong style="font-size: 20px;">Interface</strong></p>
+<h4 class="sub_title">Pick:</h4>
+<p>Used to bring up the "Pick a Category" dialog box.</p>
+<h4 class="sub_title">Include Pages:</h4>
+<p>Enabling this check box enables the use of the selected taxonomies in the navigation.</p>
+<h4 class="sub_title">Depth:</h4>
+<p>A taxonomy can include multiple levels of sub-taxonomies. This selects how many levels down the taxonomy hierarchy the user can select for navigation.</p>
+<h4 class="sub_title">Filter Schemas and Filter Ancestor Pages:</h4>
+<p>Will require information the general user will not be able to obtain, and should be left blank.</p>
+<h4 class="sub_title">Exports:</h4>
+<p>Exports are designed to assist in the coding of the web page.</p>
+<p>Do not add to or remove any content from the Export fields without help from technical support. Doing so can result in breaking the web page.</p>
+</div>]]></BodyCopy><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Component" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="true" Component=""><xPower Type="Component" Component="x36276" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowerinsert_InsertItems" Name="Insert" label="Insert" readonly="false" hidden="true" required="false" WellFormed="false" Expanded="false" ExtractHTMLBody="false" Insert=""><xPower Type="Insert" Insert="" WellFormed="false" ExtractHTMLBody="false" Name="InsertItems" readonly="false" hidden="true" required="false" Expanded="false"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x14845" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x67044" Name="Web Style Guide" Layout="general_content.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Typography Example</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Typography Example</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<h1>H1 heading</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+<br />
+<h2>H2 heading</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+<br />
+<h3>H3 heading</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+<br />
+<h4>H4 heading</h4>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+<br />
+<h5>H5 heading</h5>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+<br />
+<h6>H6 heading</h6>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+<div class="divider top"><a href="#">Top</a></div>
+<br />
+<h2>Dropcaps</h2>
+<div class="one_half">
+<h6>Dropcap style 1</h6>
+<p><span class="dropcap1">L</span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<div class="one_half last">
+<h6>Dropcap style 2</h6>
+<p><span class="dropcap2">L</span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<div class="clearboth"></div>
+<br />
+<div class="one_half">
+<h6>Dropcap style 3</h6>
+<p><span class="dropcap3">L</span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<div class="one_half last">
+<h6>Dropcap style 4</h6>
+<p><span class="dropcap4">L</span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<div class="clearboth"></div>
+<div class="divider top"><a href="#">Top</a></div>
+<br />
+<h2>Block Quotes</h2>
+<blockquote class="alignleft">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed pharetra aliquet metus.</p>
+</blockquote>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris metus tortor, commodo sit amet tempor id, gravida eget orci. In molestie feugiat nunc ac lobortis. Ut non nisi dolor, ac ultricies lorem. Vestibulum non lectus in arcu gravida malesuada. Curabitur sed sollicitudin mi. Aenean sit amet tortor ac arcu gravida rutrum eget ac dui. Phasellus rutrum dapibus nulla, a venenatis tortor eleifend vitae. Ut tincidunt vestibulum blandit. Nulla aliquet urna non enim convallis in vehicula mi scelerisque. Aliquam blandit imperdiet lorem eu ultrices. Nulla in dolor non ipsum fringilla sodales sed ac turpis. Nam nisi arcu, tincidunt sodales porta vel, ornare ac magna. Morbi in metus a felis accumsan interdum. Aliquam eros est, suscipit sit amet iaculis non, sagittis in lorem. Fusce bibendum sagittis sem, sit amet scelerisque tortor pharetra eu. Nullam facilisis ante vulputate metus accumsan lobortis.</p>
+<blockquote class="alignright">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed pharetra aliquet metus.</p>
+</blockquote>
+<p>Etiam sit amet lobortis justo. Donec gravida semper nisl, sit amet interdum ligula condimentum et. Etiam eleifend laoreet arcu eu dictum. Pellentesque vel sem lectus. Curabitur ut urna eu elit molestie egestas. Nunc ac nibh sit amet turpis consectetur fermentum in in mauris. Etiam tristique orci nec nibh euismod tempor. In nulla lorem, blandit blandit sagittis id, vulputate ut risus. Sed accumsan, dui at rutrum auctor, ipsum tellus bibendum lorem, et sollicitudin felis mauris id nunc. Fusce congue ullamcorper massa, sit amet lobortis dolor auctor et. Phasellus ipsum ligula, posuere sed rutrum non, scelerisque vitae sem. Cras vehicula molestie enim, ut sagittis quam aliquet sed. Maecenas ac lectus ut massa iaculis volutpat nec a diam. Fusce at massa at elit feugiat tincidunt vitae at tortor. Praesent gravida, mi ut cursus imperdiet, lectus magna congue justo, non consequat massa orci nec turpis. Aliquam neque lorem, interdum a scelerisque vel, sodales id neque.</p>
+<br />
+<blockquote>
+<p>Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<p><cite>- Henry Brown,  EndUser, Inc.</cite></p>
+</blockquote>
+<div class="divider top"><a href="#">Top</a></div>
+<br />
+<h2>Code</h2>
+<pre class="pre">function theme_code_before_filter_callback(&amp;$match){
+		echo '<pre>';
+		print_r($match);
+		echo '</pre>
+'; 		exit; 	}</pre>
+<div class="divider top"><a href="#">Top</a></div>
+<br />
+<h2>styled list</h2>
+<div class="one_fourth">
+<ul class="list1">
+<li>style = list1</li>
+<li>style = list1</li>
+<li>style = list1</li>
+</ul>
+</div>
+<div class="one_fourth">
+<ul class="list2">
+<li>style = list2</li>
+<li>style = list2</li>
+<li>style = list2</li>
+</ul>
+</div>
+<div class="one_fourth">
+<ul class="list3">
+<li>style = list3</li>
+<li>style = list3</li>
+<li>style = list3</li>
+</ul>
+</div>
+<div class="one_fourth last">
+<ul class="list4">
+<li>style = list4</li>
+<li>style = list4</li>
+<li>style = list4</li>
+</ul>
+</div>
+<div class="clearboth"></div>
+<div class="one_fourth">
+<ul class="list5">
+<li>style = list5</li>
+<li>style = list5</li>
+<li>style = list5</li>
+</ul>
+</div>
+<div class="one_fourth">
+<ul class="list6">
+<li>style = list6</li>
+<li>style = list6</li>
+<li>style = list6</li>
+</ul>
+</div>
+<div class="one_fourth">
+<ul class="list7">
+<li>style = list7</li>
+<li>style = list7</li>
+<li>style = list7</li>
+</ul>
+</div>
+<div class="one_fourth last">
+<ul class="list8">
+<li>style = list8</li>
+<li>style = list8</li>
+<li>style = list8</li>
+</ul>
+</div>
+<div class="clearboth"></div>
+<div class="one_fourth">
+<ul class="list9">
+<li>style = list9</li>
+<li>style = list9</li>
+<li>style = list9</li>
+</ul>
+</div>
+<div class="one_fourth">
+<ul class="list10">
+<li>style = list10</li>
+<li>style = list10</li>
+<li>style = list10</li>
+</ul>
+</div>
+<div class="one_fourth">
+<ul class="list11">
+<li>style = list11</li>
+<li>style = list11</li>
+<li>style = list11</li>
+</ul>
+</div>
+<div class="one_fourth last">
+<ul class="list12">
+<li>style = list12</li>
+<li>style = list12</li>
+<li>style = list12</li>
+</ul>
+</div>
+<div class="clearboth"></div>
+<div class="divider top"><a href="#">Top</a></div>
+<br />
+<h2>Number list</h2>
+<ol>
+<li>List item</li>
+<li>List item</li>
+<li>List item</li>
+</ol>
+<div class="divider top"><a href="#">Top</a></div>
+<br />
+<h2>Other markup code</h2>
+<address>Address: Example address 224, Sweden</address>
+<p>I am <a href="?abc123">the a tag</a> example<br /> I am <abbr title="test">the abbr tag</abbr> example<br /> I am <acronym>the acronym tag</acronym> example<br /> I am <strong>the b tag</strong> example<br /> I am <big>the big tag</big> example<br /> I am <cite>the cite tag</cite> example<br /> I am <del>the del tag</del> example<br /> I am <dfn>the dfn tag</dfn> example<br /> I am <em>the em tag</em> example<br /> I am <em>the i tag</em> example<br /> I am <ins>the ins tag</ins> example<br /> I am the mark tag example<br /> I am <q>the q tag</q> example<br /> I am <small>the small tag</small> example<br /> I am <span>the span tag</span> example<br /> I am <strong>the strong tag</strong> example<br /> I am <sub>the sub tag</sub> example<br /> I am <sup>the sup tag</sup> example<br /> I am <kbd>the kbd tag</kbd> example<br /> I am <samp>the samp tag</samp> example<br /> I am <tt>the tt tag</tt> example<br /> I am <var>the var tag</var> example</p>
+<div class="divider top"><a href="#">Top</a></div>
+<h2>Highlight</h2>
+<p><span class="highlight">Morbi blandit, eros non blandit dictum, orci enim tincidunt odio, vitae tempus ipsum nibh quis est. </span>Donec vehicula nisi sed dolor volutpat commodo. Nullam scelerisque varius tellus, in dapibus velit aliquet sit amet. Nullam tempus, <span class="highlight dark">metus aliquam pretium tempus</span>, elit elit vehicula nisl, ut mattis nibh urna in sem. Curabitur eget libero vitae nibh lobortis adipiscing.</p>
+<div class="divider top"><a href="#">Top</a></div>
+<h2>Image Styles</h2>
+<div class="caption alignleft" id="attachment_449"><img class="size-thumbnail" src="Images/Admin_Offices/Activities/Learm-more-Activities_03.jpg" title="visualpanic_2608937632" />
+<p class="caption-text">Caption Title</p>
+</div>
+<p>Pellentesque pretium, quam id eleifend convallis, neque erat aliquam nisl, sed porta ipsum libero feugiat odio. Duis faucibus ipsum a elit mattis quis pharetra felis pharetra. Nullam sodales, nisl tempor imperdiet tincidunt, nisi sapien convallis erat, nec fringilla nibh ante quis tortor. Maecenas id erat nisi, sed sagittis diam. Aliquam fermentum, quam ut feugiat fermentum, quam nisi convallis nisl, ac imperdiet odio risus eget quam. Fusce consequat hendrerit ante sit amet aliquam. Nam facilisis purus a ligula commodo dapibus. Sed malesuada rutrum erat, id faucibus lacus consectetur ac.</p>
+<img class="alignright" src="Images/Admin_Offices/Activities/Learm-more-Activities_03.jpg" title="visualpanic_2608937632" />
+<p>Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Lorem ipsum dolor sit amet. Quisque aliquam. Donec faucibus. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Lorem ipsum dolor sit amet. Quisque aliquam. Donec faucibus.</p>
+<p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+<div class="caption aligncenter" id="attachment_449"><img class="size-medium wp-image-449" height="212" src="Images/Admin_Offices/Activities/tryit_homepg_banner_talent.jpg" title="visualpanic_2608937632" width="638" />
+<p class="caption-text">Caption Title</p>
+</div>
+<div class="divider top"><a href="#">Top</a></div>
+<h2>Table Styles</h2>
+<div class="table_style">
+<table>
+<tbody>
+<tr>
+<th>Header 1</th> <th>Header 2</th> <th>Header 1</th> <th>Header 2</th> <th>Header 1</th>
+</tr>
+<tr>
+<td>Company 1</td>
+<td>Division</td>
+<td>Division</td>
+<td>Division</td>
+<td>Division</td>
+</tr>
+<tr>
+<td>Company 2</td>
+<td>Division</td>
+<td>Division</td>
+<td>Division</td>
+<td>Division</td>
+</tr>
+<tr>
+<td>Company 3</td>
+<td>Division</td>
+<td>Division</td>
+<td>Division</td>
+<td>Division</td>
+</tr>
+<tr>
+<td>Company 4</td>
+<td>Division</td>
+<td>Division</td>
+<td>Division</td>
+<td>Division</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="divider top"><a href="#">Top</a></div>
+<div class="clearboth"></div>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x9354" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

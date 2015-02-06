@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x48757" Name="js.js" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">js.js</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">js.js</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">var vidArray=new Array('highVid','mediumVid','lowVid');
+
+function selectVid(Vid){
+		for (i = 0; i &lt; vidArray.length; i++){
+			//alert(vidArray[i])
+			var listElementStyle = document.getElementById(vidArray[i]).style;
+			listElementStyle.display="none";
+		}
+		toggle(Vid);
+}
+
+function toggle(list){ 
+					var listElementStyle=document.getElementById(list).style; 
+					if (listElementStyle.display=="none"){ 
+						listElementStyle.display="block"; 
+						}
+					else{ listElementStyle.display="none"; 
+					 	} 
+					}
+</ESContent></EmptyShell>

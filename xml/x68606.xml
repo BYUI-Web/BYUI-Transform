@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<ColumnTextComponent ID="x68606" Name="Common Elements Nav"><TextColumn type="dhtml" label="Column of Text" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+#common_element_nav {margin-bottom: 15px;}
+#common_element_nav h3 {font-size: 18px; margin-bottom: 7px; border-bottom: 1px solid; text-indent: 25px;}
+#common_element_nav ul {padding-left: 0; margin: 0;}
+#common_element_nav li {list-style-type: none; margin-bottom: 5px;}
+#common_element_nav img {width: 15px; height: 15px; float: left; margin-right: 10px;}
+#common_element_nav p {font-size: 14px; margin-bottom: 0; line-height: 16px; color: #056CB6}
+#common_element_nav a {text-decoration: none;}
+#common_element_nav a:hover {text-decoration: underline;}
+
+.fade, .fade p {opacity: 0.7;}
+--></style>
+<!-- Use this style in the body copy area to choose what links to hide.  <mce:style type=&quot;text/css&quot;> .pgProp, .titleElmt, .abstractElmt, .bodycopyElmt, .ancestornavElmt, .seogrpElmt, .sitecontrol {display: none !important;} -->
+<div id="common_element_nav">
+<h3>Common Elements</h3>
+<ul>
+<li class="pgProp"> <a class="fade" onclick="underConstruction1()"> <img height="32" src="Images/Internal_Use/Ingeniux_Training/Icons/header.png" width="32" />
+<p>Page Properties</p>
+</a> </li>
+<li class="titleElmt"> <a class="fade" onclick="underConstruction1()"><img height="32" src="Images/Internal_Use/Ingeniux_Training/Icons/text.png" width="32" />
+<p>Title</p>
+</a> </li>
+<li class="abstractElmt"> <a class="fade" onclick="underConstruction1()"><img height="32" src="Images/Internal_Use/Ingeniux_Training/Icons/text.png" width="32" />
+<p>Abstract</p>
+</a> </li>
+<li class="bodycopyElmt"> <a class="fade" onclick="underConstruction1()"> <img height="32" src="Images/Internal_Use/Ingeniux_Training/Icons/edit.png" width="32" />
+<p>Body Copy</p>
+</a> </li>
+<li class="ancestornavElmt"> <a class="fade" onclick="underConstruction1()"> <img height="32" src="Images/Internal_Use/Ingeniux_Training/Icons/navigation.png" width="32" />
+<p>Ancestor Navigation</p>
+</a> </li>
+<li class="seogrpElmt"> <a class="fade" onclick="underConstruction1()"> <img height="32" src="Images/Internal_Use/Ingeniux_Training/Icons/list.png" width="32" />
+<p>SEO Group</p>
+</a> </li>
+<li class="sitecontrol"> <a class="fade" onclick="underConstruction1()"> <img height="32" src="Images/Internal_Use/Ingeniux_Training/Icons/component.png" width="32" />
+<p>Site Control</p>
+</a> </li>
+</ul>
+</div>
+<script type="text/javascript">
+function underConstruction1() {
+	alert ("We are sorry the training page you tried to access is under construction.");
+}
+</script>
+<!--
+<p>Links info below are for working training pages.</p>
+<p> </p>
+<pre>
+class = pgProp            href = x20476.xml   Page Properties<br />
+class = titleElmt         href = x36767.xml   Title<br />
+class = abstractElmt      href = x36769.xml   Abstract<br />
+class = bodycopyElmt      href = x36771.xml   Body Copy<br />
+class = ancestornavElmt   href = x36772.xml   Ancestor Navigation<br />
+class = seogrpElmt        href = x36773.xml   SEO Group<br />
+class = sitecontrol       href = x36774.xml   Site Control
+</pre>
+-->]]></TextColumn></ColumnTextComponent>

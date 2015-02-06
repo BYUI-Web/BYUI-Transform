@@ -1,0 +1,270 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<Content ID="x47624" Name="12)contactPage" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Contact Information</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Contact Information</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p><meta />
+<title>Pure CSS Tabbed Areas</title>
+</p>
+<p><link href="css/style.css" rel="stylesheet" /></p>
+<style type="text/css"><!--
+* {
+		margin: 0;
+		padding: 0;
+	}
+	body {
+		overflow-x: hidden;
+	}
+	.bsa_it_ad {
+		padding: 8px 4px 8px 12px !important;
+		position: relative;
+		border: 0 !important;
+		background: #D6D5D5 !important;
+		border-top: 0 !important;
+		box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+		font: 11px "Lucida Grande", Sans-Serif !important;
+	}
+	.bsa_it_ad:before, .bsa_it_ad:after {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 6px;
+		width: 100%;
+		height: 100%;
+		background: #989898;
+		border-bottom: 6px solid #989898;
+		z-index: -1;
+		box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+	}
+	.bsa_it_ad:before {
+		top: 0;
+		left: 12px;
+		z-index: -2;
+		background: #6C6666;
+		border-bottom: 12px solid #6C6666;
+	}
+
+	.bsa_it_ad a {
+	  margin: 0 !important;
+		padding: 0 !important;
+	}
+	.bsa_it_ad a img {
+	  border: 0 !important;
+		position: static !important;
+	}
+	.bsa_it_ad a:hover img {
+		margin: 0 !important;
+	}
+	.bsa_it_ad a:hover {
+	  background: none !important;
+	}
+	.bsa_it_i {
+		margin: 0 15px 0 0 !important;
+	}
+	.bsa_it_t {
+		font-size: 14px !important;
+		margin: 12px 0 0 0 !important;
+	}
+	.bsa_it_d {
+		padding-right: 10px;
+	}
+	.bsa_it_p{
+		display: none !important;
+	}
+	#demo-bar-ad {
+		width: 416px;
+		position: absolute;
+		right: 0;
+		top: -20px;
+		font: 11px "Lucida Grande", Sans-Serif !important;
+	}
+	#bsap_aplink {
+		position: absolute;
+		color: #999;
+		text-decoration: none;
+		bottom: 8px !important;
+		right: 8px !important;
+		padding: 0 !important;
+	}
+	.bsa_it_p a:hover {
+		background:none !important;
+	}
+	#demo-top-bar {
+		text-align: left;
+		background: #e18728;
+		position: relative;
+		zoom: 1;
+		width: 100% !important;
+		z-index: 6000;
+		box-shadow: 0 0 10px black;
+		padding: 20px 0 15px;
+	}
+	#demo-bar-inside {
+		width: 960px;
+		margin: 0 auto;
+		position: relative;
+	}
+	#demo-top-bar:before, #demo-top-bar:after {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 6px;
+		width: 100%;
+		height: 100%;
+		background: #e18728;
+		border-bottom: 6px solid #8F5314;
+		z-index: -1;
+		box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+	}
+	#demo-top-bar:before {
+		top: 0;
+		left: 12px;
+		background: #6C6666;
+		border-bottom: 12px solid #62390E;
+	}
+
+	#demo-bar-buttons {
+		display: inline-block;
+		width: 236px;
+		text-align: center;
+		vertical-align: top;
+		font-size: 0;
+	}
+	#demo-bar-buttons a {
+		font-size: 12px;
+		color: white;
+		display: block;
+		margin: 2px 0;
+		text-decoration: none;
+		font: 14px "Lucida Grande", Sans-Serif !important;
+	}
+	#demo-bar-buttons a:hover,
+	#demo-bar-buttons a:focus {
+		color: #333;
+	}
+
+	#demo-bar-badge {
+		display: inline-block;
+		width: 302px;
+		padding: 0 !important;
+		margin: 0 !important;
+		background-color: transparent !important;
+	}
+	#demo-bar-badge a {
+		display: block;
+		width: 100%;
+		height: 38px;
+		border-radius: 0;
+		bottom: auto;
+		margin: 0;
+		background: url(/images/examples-logo.png) no-repeat;
+		background-size: 100%;
+		overflow: hidden;
+		text-indent: -9999px;
+	}
+	#demo-bar-badge:before, #demo-bar-badge:after {
+		display: none !important;
+	}
+--></style>
+<style><!--
+.tabs {
+      position: relative;   
+      min-height: 200px; /* This part sucks */
+      clear: both;
+      margin: 25px 0;
+    }
+    .tab {
+      float: left;
+    }
+    .tab label {
+      background: #eee; 
+      padding: 10px; 
+      border: 1px solid #ccc; 
+      margin-left: -1px; 
+      position: relative;
+      left: 1px; 
+    }
+    .tab [type=radio] {
+      display: none;   
+    }
+    .content {
+      position: absolute;
+      top: 28px;
+      left: 0;
+      background: white;
+      right: 0;
+      bottom: 0;
+      padding: 20px;
+      border: 1px solid #ccc; 
+      
+      overflow: hidden;
+    }
+    .content > * {
+      opacity: 0;
+      
+      -webkit-transform: translate3d(0, 0, 0);
+    
+      -webkit-transform: translateX(-100%);
+      -moz-transform:    translateX(-100%);
+      -ms-transform:     translateX(-100%);
+      -o-transform:      translateX(-100%);
+      
+      -webkit-transition: all 0.6s ease;
+      -moz-transition:    all 0.6s ease;
+      -ms-transition:     all 0.6s ease;
+      -o-transition:      all 0.6s ease;
+    }
+    [type=radio]:checked ~ label {
+      background: white;
+      border-bottom: 1px solid white;
+      z-index: 2;
+    }
+    [type=radio]:checked ~ label ~ .content {
+      z-index: 1;
+    }
+    [type=radio]:checked ~ label ~ .content > * {
+      opacity: 1;
+      
+      -webkit-transform: translateX(0);
+      -moz-transform:    translateX(0);
+      -ms-transform:     translateX(0);
+      -o-transform:      translateX(0);
+    }
+--></style>
+<div id="page-wrap">
+<div class="tabs">
+<div class="tab"><input checked="checked" id="tab-1" name="tab-group-1" type="radio" /> <label for="tab-1">Contact Information</label>
+<div class="content">
+<p>Phone: (208) 496-1751 <br /> Fax: (208) 496-1753 <br /> Email: TestCenter@byui.edu</p>
+</div>
+</div>
+<div class="tab"><input id="tab-2" name="tab-group-1" type="radio" /> <label for="tab-2">Mailing Address</label>
+<div class="content">
+<p>Brigham Young University-Idaho <br /> 525 South Center STOP 0780 <br /> Rexburg, ID 83460-0780</p>
+</div>
+</div>
+<div class="tab"><input id="tab-3" name="tab-group-1" type="radio" /> <label for="tab-3">Location</label>
+<div class="content">
+<p><a href="Documents/testing-services/The Map.pdf" title="The Map" target="_blank">Printable Map </a><br />Manwaring Center<br /> Down the stairs across from the University Store going West toward the BYU-Idaho Center <br />Room #5</p>
+</div>
+</div>
+<div class="tab"><input id="tab-4" name="tab-group-1" type="radio" /> <label for="tab-4">Other Contacts</label>
+<div class="content">
+<p>Testing Center Director - Seth Deming - (208) 496-1755 - <a href="mailto:Demings@byui.edu">Demings@byui.edu</a><br /> Office Assistant- Carlene Grover - (208) 496-1751 - <a href="mailto:TestCenter@byui.edu">TestCenter@byui.edu</a><br /> Online Testing - Nate Borsella - (208) 496-1758 - <a href="mailto:OnlineTesting@byui.edu">OnlineTesting@byui.edu</a></p>
+</div>
+</div>
+<div class="tab"><input id="tab-5" name="tab-group-1" type="radio" /> <label for="tab-5">Faculty Forms</label>
+<div class="content">
+<p>The following is a list of forms for requesting tests at the Testing Center. You may submit the Test Information Sheets with your test, but a key will still need to be delivered to the Testing Center if we do not already have one on file.</p>
+<ul>
+<li><a href="http://www2.byui.edu/OnlineTesting/Pages/testrequesthelp.pdf">How to Request a Test</a></li>
+<li><a href="http://www2.byui.edu/OnlineTesting/Pages/cbtinfosheet.pdf">Computer Based Test Information Sheet</a></li>
+<li><a href="http://www2.byui.edu/OnlineTesting/Pages/testinformation.pdf">Paper/Pencil Test Information Sheet</a></li>
+</ul>
+</div>
+</div>
+<script type="text/javascript">
+(function(){ var bsa = document.createElement('script'); bsa.type = 'text/javascript'; bsa.async = true; bsa.src = '//s3.buysellads.com/ac/bsa.js'; (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa); })();
+</script>
+<script type="text/javascript">
+var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-68528-29']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga); })();
+</script>
+</div>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x41457" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

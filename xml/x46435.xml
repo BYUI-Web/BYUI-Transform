@@ -1,0 +1,503 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content_FullWidth ID="x46435" Name="Get Involved" Layout="general_content.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Get Involved</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Get Involved at BYU-Idaho</Abstract><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<!-- Begin Copy/Paste Here -->
+<style><!--
+/* STYLING HERE */
+.page_header{
+	height: 80px;
+	position: relative;
+}
+#page_header-title{
+	height:100px;
+}
+#page_header-title img {
+	margin-top:20px;
+}
+h2.page_title{
+	text-transform: uppercase;
+	color: #777;
+	font-size: 14px;
+	line-height: 16px;
+	padding-top: 14px;
+	padding-bottom: 10px;
+
+}
+.social-links{
+	position: absolute;
+	float: right;
+	right: -10px;
+	top: 0;
+	width: 212px;
+}
+.social-links ul{
+	padding: 0;
+}
+.social-links li{
+	display: inline-block;
+	overflow: hidden;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-indent: -99999px;
+	width: 36px;
+	height: 36px;
+	margin-left: -6px;
+}
+
+.update-frame{
+	width: 200px;
+	height: 150px;
+	position: relative;
+	overflow: hidden;
+	margin-right: 40px;
+	margin-bottom: 40px;
+	float: left;
+}
+.update-meta{
+	background-color: rgb(56, 56, 56);
+	background-color: rgba(0, 0, 0, .8);
+	padding: 12px;
+	position: absolute;
+	bottom: -80px;
+	transition: all .4s;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-ms-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+}
+.update-frame:hover .update-meta{
+	bottom: -3px;
+}
+h3.update-title{
+	color: white;
+	margin: 0;
+	padding: 0;
+	margin-top: -2px;
+	margin-bottom: 6px;
+	font-size: 13px;
+	height: 16px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+h3.update-title a{
+	color: #fff; text-decoration: none;
+}
+h3.update-title a:hover{
+	color: #fff; text-decoration: underline;
+}
+p.update-caption{
+	color: white;
+	margin: 0;
+	padding: 0;
+	font-size: 11px;
+	height: 48px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+a.update-href{
+	color: #ccc;
+	font-style: italic;
+	text-decoration: none;
+	font-size: 11px;
+	line-height: 18px;
+}
+a.update-href:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+.archive{
+	width: 720px;
+	float: left;
+}
+.galleries{
+	width: 190px;
+	float: right;
+}
+.galleries hr{
+	color: #111;
+}
+.gallery-list{
+	padding: 0;
+}
+.gallery-list a{
+	text-decoration: none;
+}
+.gallery-list li{
+	display: block;
+	list-style-type: none;
+	height: 72px;
+	margin-bottom: 8px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	padding-right: 8px;
+}
+.gallery-list li:hover{
+	background-color: #eee;
+}
+.gallery-list li p{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	color: #111;
+	display: block;
+	padding: 20px 0;
+	text-decoration: none;
+}
+.gallery-list-thumbnail{
+	float: left;
+	border: 1px solid #ccc;
+	margin-right: 10px;
+}
+ul.related-links{
+	padding: 0;
+}
+ul.related-links>li {
+	list-style-type: none;
+	margin-bottom: 10px;
+}
+ul.related-links a {
+	font-size: 12px;
+	color: #111;
+	text-decoration: none;
+	font-style: italic;
+}
+ul.related-links a:hover {
+	text-decoration: underline;
+}
+.update{
+
+}
+
+.update-figure{
+}
+.article-title{
+
+}
+.update-text p{
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/* Clickable divs */
+div.clickable-container {
+	margin-bottom: 50px;
+	height: 109px;
+}	
+div.clickable-container p {
+	font-size: 13px;
+	font-family: Arial, sans-serif;
+	margin-bottom: 5px;
+}
+div.clickable-container h4 {
+	text-indent: 0px;
+	font-size: 16px;
+}
+div.clickable-container:hover {
+	background-color: #ececec;
+}
+
+a.div-link {
+	text-decoration: none;
+}
+a.more-link {
+	color: #959595;
+	text-decoration: none;
+	font-size: 13px;
+	font-style: italic;
+	font-family: Georgia, "Times New Roman", serif;
+}
+a.more-link:hover {
+	text-decoration: underline;
+}
+
+/* Mouse over Pictures */
+
+#involved  {
+	height: 110px;
+	width: 110px;
+	background:url(images/magazine/issue-2012-fall/get_involved/menu-sprite.png);
+	z-index: 3;
+}
+.clickable-container:hover #involved{
+	background-position: 0px -112px;
+	z-index: 3;
+}
+
+#alumni	{
+	height: 110px;
+	width: 110px;
+	background:url(images/magazine/issue-2012-fall/get_involved/menu-sprite.png) -112px 0;
+}
+.clickable-container:hover #alumni{
+	background-position: -112px -112px;
+}
+#mentors{
+	height: 110px;
+	width: 110px;
+	background:url(images/magazine/issue-2012-fall/get_involved/menu-sprite.png) -224px 0;
+}
+.clickable-container:hover  #mentors{
+	background-position: -224px -112px;
+}
+#partners{
+	height: 110px;
+	width: 110px;
+	background:url(images/magazine/issue-2012-fall/get_involved/menu-sprite.png) -336px 0;
+}
+.clickable-container:hover #partners	{
+	background-position: -336px -112px;
+}
+#giving	{
+	height: 110px;
+	width: 110px;
+	background:url(images/magazine/issue-2012-fall/get_involved/menu-sprite.png) -447px 0;
+}
+.clickable-container:hover #giving{
+	background-position: -447px -112px;
+}
+
+#adjunct{
+	height: 110px;
+	width: 110px;
+	background:url(images/magazine/issue-2012-fall/get_involved/menu-sprite.png) -558px 0;
+}
+.clickable-container:hover #adjunct {
+	background-position: -558px -111px;
+}
+--></style>
+<!-- CONTENT HERE -->
+<div class="page_header"><a href="x48045.xml"> <img alt="Upward / BYU-Idaho's Online Update" height="39" src="Images/magazine/upward_logo_header.png" style="margin-left: -3px;" width="529" /> </a>
+<style><!--
+.social-links {
+	float: right;
+	clear: both;
+	margin: 10px 4px 0 0;
+	width: 180px;
+}
+.social-links ul {
+	padding: 0;
+}
+.social-links li {
+	display: inline-block;
+	overflow: hidden;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-indent: -99999px;
+	width: 36px;
+	height: 36px;
+	margin-left: -6px;
+}
+.addthis_default_style .at300b,
+.addthis_default_style .at300m,
+.addthis_default_style .at300bo
+{
+	padding:0 6px;
+}
+--></style>
+<div class="social-links">
+<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_google_plusone_share"></a>
+<a class="addthis_button_pinterest_share"></a>
+<a class="addthis_button_compact"></a>
+</div>
+<script type="text/javascript">
+	var addthis_config = {
+		"data_track_addressbar":true
+	};
+</script>
+<script src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4e8f53ed7638d457" type="text/javascript"></script>
+</div>
+</div>
+<style>
+.pageback{
+	margin-bottom: 10px;
+	width: 90px;
+}
+.pageback span{
+	position: relative;
+	top: -9px;
+}
+.pageback a{
+	text-transform: uppercase;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	display: block;
+	color: #777;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+span.make-link {
+	position:absolute; 
+	width:100%;
+	height:100%;
+	top:0;
+	left: 0;
+	z-index: 1;
+}
+</style>
+<div class="pageback"><a href="x48045.xml"> <img alt="report-back-button" height="27" src="images/magazine/report-back-button.png" width="41" /> <span>Back</span> </a></div>
+<!-- CLICKABLE DIVS -->
+<div class="span-24 last"><a class="div-link" href="x45176.xml"> </a>
+<div class="span-8 clickable-container"><a class="div-link" href="x45176.xml">
+<div class="span-3" id="involved">&nbsp;</div>
+<h4>Student Involvement</h4>
+<p>See how students get involved on BYU-Idaho campus.</p>
+</a><a class="more-link" href="x45176.xml">more &gt;</a></div>
+<a class="div-link" href="http://www.byuiconnect.com/s/1085/07-idaho/idaho-interior.aspx?sid=1085&amp;gid=4&amp;pgid=966"> </a>
+<div class="span-8 clickable-container"><a class="div-link" href="http://www.byuiconnect.com/s/1085/07-idaho/idaho-interior.aspx?sid=1085&amp;gid=4&amp;pgid=966">
+<div class="span-3" id="alumni">&nbsp;</div>
+</a>
+<div class="span-5 last"><a class="div-link" href="http://www.byuiconnect.com/s/1085/07-idaho/idaho-interior.aspx?sid=1085&amp;gid=4&amp;pgid=966">
+<h4>Alumni Ambassadors</h4>
+<p>Represent BYU-Idaho no matter where you live.</p>
+</a><a class="more-link">more &gt;</a></div>
+</div>
+<a class="div-link" href="http://www.byuiconnect.com/s/1085/07-idaho/idaho-interior.aspx?sid=1085&amp;gid=4&amp;pgid=1572"> </a>
+<div class="span-8 last clickable-container"><a class="div-link" href="http://www.byuiconnect.com/s/1085/07-idaho/idaho-interior.aspx?sid=1085&amp;gid=4&amp;pgid=1572">
+<div class="span-3" id="mentors">&nbsp;</div>
+</a>
+<div class="span-5 last"><a class="div-link" href="http://www.byuiconnect.com/s/1085/07-idaho/idaho-interior.aspx?sid=1085&amp;gid=4&amp;pgid=1572">
+<h4>BYU-Idaho Mentors</h4>
+<p>Provide advice and networking support to both students and alumni.</p>
+</a><a class="more-link">more &gt;</a></div>
+</div>
+<a class="div-link" href="http://www.byui.edu/online/speaking-partners"> </a>
+<div class="span-8 clickable-container"><a class="div-link" href="http://www.byui.edu/online/speaking-partners">
+<div class="span-3" id="partners">&nbsp;</div>
+</a>
+<div class="span-5 last"><a class="div-link" href="http://www.byui.edu/online/speaking-partners">
+<h4>Speaking Partners</h4>
+<p>Help students around the world learn to speak English.</p>
+</a><a class="more-link">more &gt;</a></div>
+</div>
+<a class="div-link" href="http://www.byui.edu/giving?cid=fli:124"> </a>
+<div class="span-8 clickable-container"><a class="div-link" href="http://www.byui.edu/giving?cid=fli:124">
+<div class="span-3" id="giving">&nbsp;</div>
+</a>
+<div class="span-5 last"><a class="div-link" href="http://www.byui.edu/giving?cid=fli:124">
+<h4>Giving to BYU-Idaho</h4>
+<p>Learn how you can contribute to the mission of BYU-Idaho.</p>
+</a><a class="more-link">more &gt;</a></div>
+</div>
+<a class="div-link" href="http://www.byui.edu/giving?cid=fli:124"> </a>
+<div class="span-8 clickable-container" style="margin-right: 0px;"><a class="div-link" href="http://www.byui.edu/online/employment">
+<div class="span-3" id="adjunct">&nbsp;</div>
+</a>
+<div class="span-5 last"><a class="div-link" href="http://www.byui.edu/online/employment">
+<h4>Online Adjunct Faculty</h4>
+<p>Become an online adjunct faculty instructor.</p>
+</a><a class="more-link">more &gt;</a></div>
+</div>
+</div>
+<!-- END OF CLICKABLE DIVS -->
+<!-- BOTTOM RIGHT COMMENT MENU --> <link href="prebuilt/stylenew/css/ui-theme/jquery-ui-1.8.24.custom.css" media="screen, projection" rel="stylesheet" type="text/css" />
+<style><!--
+#comment-menu {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	background-color: rgba(240,240,240, 0.9);
+	z-index: 100;
+}
+#comment-menu>ul {
+	margin: 0;
+	padding: 0;
+}
+#comment-menu>ul>li {
+            list-style-type: none;
+            margin: none;
+            padding: none;
+}
+#comment-menu>ul>li>a {
+	color: #333;
+	text-decoration: none;
+	font-family: Helvetica, Arial, sans-serif;
+	display: inline-block;
+	padding: 8px 15px;
+	font-size: 12px;
+	width: 145px;
+}
+#comment-menu>ul>li:hover>a {
+	background-color: #ccc;
+}
+.comment-logo {
+	width: 14px;
+	height: 14px;
+	background: url(images/magazine/gray-arrow.png);
+	position: absolute;
+	right: 15px;
+	margin-top: -25px;
+}
+#comment-menu>ul>li:hover>.comment-logo {
+	background: url(images/magazine/hover-arrow.png);
+}
+--></style>
+<!-- COMMENT BOX -->
+<div id="comment-menu">
+<ul>
+<li><a href="x48086.xml" title="Archive">Archive</a>
+<div class="comment-logo"><a href="x48086.xml" title="Archive"><span class="make-link"></span></a></div>
+</li>
+<li><a class="suggest-open"> Suggest Future Topics</a>
+<div class="comment-logo"><a class="suggest-open"><span class="make-link"></span></a></div>
+</li>
+<li><a class="feedback-open"> Give Feedback</a>
+<div class="comment-logo"><a class="feedback-open"><span class="make-link"></span></a></div>
+</li>
+</ul>
+</div>
+<!-- HIDDEN SURVEYS -->
+<div class="suggest-survey hidden" title="Suggest Future Topics"><!--BEGIN QUALTRICS SURVEY--> <iframe frameborder="0" height="420" scrolling="auto" src="https://byui.qualtrics.com/SE/?SID=SV_1B35uD5HEcPd2Op" width="410"></iframe> <!--END QUALTRICS SURVEY--></div>
+<div class="feedback-survey hidden" title="Give Feedback"><!--BEGIN QUALTRICS SURVEY--> <iframe frameborder="0" height="560" scrolling="auto" src="https://byui.qualtrics.com/SE/?SID=SV_6yR6ZQtfDgTmhr6" width="410"></iframe> <!--END QUALTRICS SURVEY--></div>
+<script type="text/javascript">// <![CDATA[
+//Ignore this function area
+	function loadScript(url, callback){
+		//load script tag at end of body
+		var body = document.getElementsByTagName('body')[0];
+		var script = document.createElement('script');
+		script.type = 'text/javascript';
+		script.src = url;
+
+		// then bind the event to the callback function 
+		// there are several events for cross browser compatibility
+		script.onreadystatechange = callback;
+		script.onload = callback;
+
+		// fire the loading
+		body.appendChild(script);
+	}
+
+	//define inline script to be called inside the callback function parameter
+	var scriptCallback = function(){
+		$(".suggest-survey").dialog({
+			autoOpen: false,
+			modal: true,
+			width: 450
+		});
+		$(".feedback-survey").dialog({
+			autoOpen: false,
+			modal: true,
+			width: 450
+		});
+
+		$(".suggest-open").click(function (){
+			$(".suggest-survey").removeClass("hidden").dialog("open");
+			return false;
+		});
+		$(".feedback-open").click(function (){
+			$(".feedback-survey").removeClass("hidden").dialog("open");
+			return false;
+		});
+	}
+
+	// Execute the entire function after page has finished 
+	// loading (script import and callback inline javascript)
+	window.onload = function(){ 
+		//put the path to your jquery-dependent script below here
+		loadScript("prebuilt/js/third_party/jquery-ui-1.8.6.custom.min.js", scriptCallback);
+	}
+</script>
+<!-- END OF COMMENT MENU -->
+]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x46118" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_FullWidth>

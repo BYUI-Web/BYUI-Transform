@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<TrainingElement ID="x16463" Name="Multi Select" Layout="default-training.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Multi Select</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Multi Select</Abstract><LinkText type="string" label="Icon Address" readonly="false" hidden="false" required="true">Internal_Use/Ingeniux_Training/Icons/drop_down.png</LinkText><TrainingIcon type="imagefile" label="Icon Image" hidden="false" readonly="false" required="false">Internal_Use/Ingeniux_Training/Icons/drop_down.png</TrainingIcon><TrainingImage type="imagefile" label="Element Image" hidden="false" readonly="false" required="false">Internal_Use/Ingeniux_Training/Element Views/Multi_Select.png</TrainingImage><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<div class="intro">
+<p>The Multi Select element is used to select components or web pages to be used for content within the web page that contains the Multi Select.</p>
+</div>
+<p>&nbsp;&nbsp; The Multi Select has a predefined folder located within the <a href="x6409.xml" style="color: #3366ff;">CMS tree</a> where components or web pages can be placed inside. All items within the folder are visible to the multi select element.</p>
+<p>&nbsp;</p>
+<div style="background-color: #ccffcc; width: 400px; padding: 10px; border: 1px solid #000;">
+<p><strong>Please take note:<br /></strong></p>
+&nbsp;&nbsp; Other folders cannot replace the folders being used by Multi Selects.<br />In order to reassign a new folder the user will need to call web services to have them make a manual change within content files. If you need to create a new page that uses a multi select, please contact web services for help.</div>
+<p>&nbsp;</p>
+<h4 class="sub_title">Select</h4>
+<p>&nbsp;&nbsp; Click on the <em>select</em> button to select items for use.</p>
+<p>A window will display showing available items on the left, and items currently in use on the right. By selecting items and using the center arrows, a user can choose what items can be used for the web page.</p>]]></BodyCopy><xPower Type="Navigation" StartPage="x10283" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Children" Query="" Name="Icons" label="Element Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/></TrainingElement>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?><Content ID="x41030" Name="FAQs" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Group Counseling FAQs</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Frequently Asked Questions about Group Counseling</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false" /><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false" /><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<script language="javascript" type="text/javascript">
+function showHide(shID) {
+   if (document.getElementById(shID)) {
+      if (document.getElementById(shID+'-show').style.display != 'none') {
+         document.getElementById(shID+'-show').style.display = 'none';
+         document.getElementById(shID).style.display = 'block';
+      }
+      else {
+         document.getElementById(shID+'-show').style.display = 'inline';
+         document.getElementById(shID).style.display = 'none';
+      }
+   }
+}
+</script>
+<style type="text/css"><!--
+#specialbox1{
+     background-color: #fafafa;
+border: 1px solid #ccc; padding: 25px 20px 20px 20px; font-weight: normal; margin: 20px 0px 30px 0px; text-align: left; clear:both;
+box-shadow: 3px 3px 3px #ddd;
+}
+#specialbox2{
+     background-color: #f3f3f3;
+border: 1px solid #ccc; padding: 25px 20px 20px 20px; font-weight: normal; margin: 20px 0px 30px 0px; text-align: left; clear:both;
+box-shadow: 3px 3px 3px #ddd;
+}
+.brownbox {
+background: #C3b59d;
+border: 1px solid #C6aa8d;
+}
+.yellowbox {
+background: #f0e0b2;
+border: 1px solid #ebd699;
+}
+.more_container {
+display:none;
+margin:0;
+padding:0;
+}
+.more_content {
+margin: 0 0 0 30px; 
+padding: 8px; 
+box-shadow: 0 0 2px #bbb;  
+color: #444;
+background-color: #fff;
+}
+.more_content p, .more_content li {
+font-family:Arial;
+font-size:12px;
+}
+.more_content h4, .more_content h5 {
+margin:0 0 4px 0;
+padding:0;
+text-indent: 0;
+font-family:Arial;
+}
+
+.more_content h4 {
+font-size:14px;
+font-weight:bold;
+}
+
+.more_content h5 {
+font-size:12px;
+font-weight:bold;
+}
+
+.more_content ul {
+margin-left:20px;
+padding:;
+}
+
+#page_title{
+     display: none;
+}
+--></style>
+<span style="line-height: 35px; margin-top: 10px; font-size: 200%; font-family: Georgia; color: black;">Group FAQs</span> 
+<hr />
+Below are some of the most frequently asked questions at the BYU-I Counseling Center. For any other questions you have, please feel free to email Marci Nite at <a href="mailto:nitem@byui.edu" target="_blank">nitem@byui.edu</a> or call 208.496.9370.<br />
+<div id="specialbox2">
+<h3>How can group be as effective as individual therapy since I share the time with others?</h3>
+<a class="showlink" href="#" id="faq1-show" onclick="showHide('faq1');return false;">Answer</a>
+<div class="more_container" id="faq1"><br />
+<div class="more_content">Actually, group therapy is often more efficient than individual therapy for two reasons. First, you can benefit from the group by listening carefully to toerhs and their experiences. You will find that you have much in common with other group members, and, as they work on a concern, you can learn more about yourself. Secondly, group members will often bring up issues that strike a chord with you, but that you might not have been aware of or brought up yourself.</div>
+<br /><a class="hideLink" href="#" id="faq1-hide" onclick="showHide('faq1');return false;">Hide</a></div>
+</div>
+<div id="specialbox1">
+<h3>What are the benefits of group therapy versus individual therapy?</h3>
+<a class="showlink" href="#" id="faq2-show" onclick="showHide('faq2');return false;">Answer</a>
+<div class="more_container" id="faq2"><br />
+<div class="more_content">Group therapy offers many benefits that are not as available with individual therapy. One reason for this is that groups are composed of various personalities, experiences, and coping strategies. The strengths of each individual group member can serve as a model for other group members who are still learning about those skills and strengths.<br />In everyday life it is often difficult to get useful and reliable information about yourself from others. People seldom take the time to carefully observe others as well as themselves, and the social constraints against giving others honest feedback inhibits the sharing of observations that could be helpful and instructive. By contrast, group members do take the time to observe and share impressions in honest and caring ways.</div>
+<br /><a class="hideLink" href="#" id="faq2-hide" onclick="showHide('faq2');return false;">Hide</a></div>
+</div>
+<div id="specialbox2">
+<h3>What if I am too scared to talk in group?</h3>
+<a class="showlink" href="#" id="faq3-show" onclick="showHide('faq3');return false;">Answer</a>
+<div class="more_container" id="faq3"><br />
+<div class="more_content">Most people are anxious about being able to talk in group. Almost without exception, within a few sessions people find that they do begin to talk in the group. The other group members understand what it is like to be new to the group, so you will most likely get a lot of support for beginning to talk in the group, particularly from the group leaders.</div>
+<br /><a class="hideLink" href="#" id="faq3-hide" onclick="showHide('faq3');return false;">Hide </a></div>
+</div>
+<div id="specialbox1">
+<h3>Will I be forced to share my deepest thought and feelings in group?</h3>
+<a class="showlink" href="#" id="faq4-show" onclick="showHide('faq4');return false;">Answer</a>
+<div class="more_container" id="faq4"><br />
+<div class="more_content">Just like in individual therapy, you control what, how much, and when you shar with the group. Most people find that when they feel safe enough to share what is troubling them, a group can be very helpful and affirming. Group members and leaders may invite you to share your fear of opening up to the group, but will also respect your decision not to share. We encourage you only to disclose what you are comfortable discussing. However, you can also be helped by listening to others and reflecting on how what they've shared may apply to you as well. As the group continues to develop and build safety, most people find themselves more comfortable to communicate openly.</div>
+<br /><a class="hideLink" href="#" id="faq4-hide" onclick="showHide('faq4');return false;">Hide</a></div>
+</div>
+<div id="specialbox2">
+<h3>How can I be certain other group members will not talk about me outside of the group?</h3>
+<a class="showlink" href="#" id="faq5-show" onclick="showHide('faq5');return false;">Answer</a>
+<div class="more_container" id="faq5"><br />
+<div class="more_content">Each group memeber agrees to the confidentiality of the information shared in the group prior to joining the group. What is said in groups must remain among the members of the group in order for all members to feel safe and trusting in the group. It is not appropriate for a group memeber to disclose events of the group to an outside person or other group members outside of group outside of group meetings. While the group leaders cannot guarantee that members will maintain group confidentiality outside the group, this is thoroughly discussed and agreed upon with each member prior to joining the group.</div>
+<br /><a class="hideLink" href="#" id="faq5-hide" onclick="showHide('faq5');return false;">Hide</a></div>
+</div>
+<div id="specialbox1">
+<h3>Will it be safe for me to share with the group and not be criticized or judged for what I do, think or feel?</h3>
+<a class="showlink" href="#" id="faq6-show" onclick="showHide('faq6');return false;">Answer</a>
+<div class="more_container" id="faq6"><br />
+<div class="more_content">It is very important that members feel safe in the group. Group leaders are there to help develop a safe environment and will work to maintain a constructive and caring atmosphere. We undertand that feedback from others may at times be difficult to hear. A benefit of group therapy is receiving feedback from others who are trying to help, while also having a trained group leader present to facilitate the conversation. Group may be one of the only places in which you can receive honest and supportive feedback about how you might be behaving in ways that are hurtful to yourself or others. Group leaders will help members give feedback in a way that is respectful, thoughtful, and constructive.</div>
+<br /><a class="hideLink" href="#" id="faq6-hide" onclick="showHide('faq6');return false;">Hide</a></div>
+</div>
+<div id="specialbox2">
+<h3>Can I just try group and if I don't like it, stop coming?</h3>
+<a class="showlink" href="#" id="faq7-show" onclick="showHide('faq7');return false;">Answer</a>
+<div class="more_container" id="faq7"><br />
+<div class="more_content">Because it takes time to get acquainted and warm up to other people, group members are asked to commit to at least four sessions before making the decision to leave group. Group therapists are available for consultation regarding the issue to leave or to stay. Once the decision to leave group is reached, the exiting group member should inform the other group members of the decision to leave and the reason why. Ideally, this is done in person at the last group session the exiting member is attending.</div>
+<br /><a class="hideLink" href="#" id="faq7-hide" onclick="showHide('faq7');return false;">Hide</a></div>
+</div>
+<p>If you have any other questions about group, please contact any member of the professional staff.</p>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false" /></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" /><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" /><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" /></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="x24495" CompTypes="HighlightedLinksComponent" /><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet" /></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query="" /><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x17637" CompTypes="SiteControl" /></Content>

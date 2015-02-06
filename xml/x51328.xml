@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.101 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x51328" Name="Browser Warning Script" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;script type="javascript"&gt;
+/*
+ * Old Browser Warning - requests old IE users to switch or upgrade
+ * 
+ * Copyright 2011 Tibor Bősze &lt;tibor.boesze@gmail.com&gt;
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+ * This small script will dynamically insert a div that fills up the whole client area
+ * and suggests the user to upgrade IE or switch to another browser. Based on the browser
+ * language text is displayed either in Hungarian or English.
+ * 
+ * Use this script between conditional comments, i.e.:
+ * &lt;!--[if lt IE 8]&gt;&lt;script type="text/javascript" src="old-browser/warning.js"&gt;&lt;/script&gt;&lt;![endif]--&gt;
+ */
+(function() {
+	var text_hu = [
+			"Tudsz róla, hogy az Internet Explorer böngésződ elavult?",
+			"A jobb böngészési élményért és a biztonságos internethasználat érdekében próbálj ki egy ingyenes, korszerű böngészőt, vagy frissítsd Internet Explorer-edet a legújabb verzióra.",
+			"Íme néhány népszerű böngésző - letöltéshez kattints az ikonra!",
+			"most inkább folytatom ezzel a böngészővel &amp;raquo;" ];
+
+	var text_en = [
+			"Did you know that your Internet Explorer is out of date?",
+			"To get better browsing experience and enhanced security, try one of the free, modern web browsers or upgrade to the newest version of Internet Explorer.",
+			"Some popular web browsers - just click on the icon to get to the download page!",
+			"continue with my current browser &amp;raquo;" ];
+
+	var text = (navigator.userLanguage || navigator.language).indexOf("hu") &gt;= 0 ? text_hu : text_en;
+
+	var browsers = [
+			{
+				name : "Firefox",
+				icon : "old-browser/ff.png",
+				link : "http://www.mozilla.com/firefox/"
+			},
+			{
+				name : "Chrome",
+				icon : "old-browser/ch.png",
+				link : "http://www.google.com/chrome/"
+			},
+			{
+				name : "Opera",
+				icon : "old-browser/op.png",
+				link : "http://www.opera.com/download/"
+			},
+			{
+				name : "Internet Explorer 8+",
+				icon : "old-browser/ie.png",
+				link : "http://windows.microsoft.com/en-US/internet-explorer/downloads/ie"
+			} ];
+
+	var base = "/a/~shanq/";
+	
+	function create_warning() {
+		var markup = "&lt;div style='margin: 10% 20%;'&gt;&lt;h1 style='color:white;'&gt;" + text[0] + "&lt;/h1&gt;&lt;p style='color:white;'&gt;" + text[1] + "&lt;/p&gt;&lt;p style='color:white;'&gt;" + text[2] + "&lt;/p&gt;&lt;div style='text-align: center'&gt;";
+
+		for ( var i = 0; i &lt; browsers.length; i++) {
+			markup += "&lt;a href='" + browsers[i].link + "' title='" + browsers[i].name + "'&gt;&lt;img border='0' src='" + base + browsers[i].icon + "' /&gt;&lt;/a&gt;";
+		}
+		markup += '&lt;/div&gt;&lt;a href="javascript:void(0)" onclick="this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode)"&gt;' + text[3] + '&lt;/a&gt;&lt;/div&gt;';
+
+		var div = document.createElement("div");
+		div.setAttribute("id", "old-browser-warning");
+		//Ouch... setAttribute("style", ...) does not work in IE &lt; 8 
+		div.style.top = div.style.left = div.style.margin = div.style.right = div.style.bottom = "0";
+		div.style.backgroundImage = "url('" + base + "img/opacity80.png')";
+		div.style.position = "fixed";
+		div.style.overflow = "auto";
+		div.style.zIndex = "2147483647";
+		
+		if (/MSIE 6/i.test(navigator.userAgent)) { //Ouch... fixed position does not work in IE &lt; 7
+			div.style.position = "absolute";
+			div.style.width = "100%";
+			function max(a,b) { return a &gt; b ? a : b; }
+			div.style.height = max(document.body.scrollHeight, document.body.clientHeight) + "px";
+		}
+		
+		div.innerHTML = markup;
+		document.body.appendChild(div);
+	}
+
+	var old_onload = window.onload;
+	window.onload = typeof old_onload === 'function' ? function() {
+		create_warning();
+		old_onload();
+	} : create_warning;
+})();
+&lt;/script&gt;</ContentSnippet></ContentSnippet>

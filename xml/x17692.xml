@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NewsIndex ID="x17692" Name="News Index" IsComponent="false" Layout="general_newsroom.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Newsroom</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">News and events related to Pathway</Abstract><CustomHeaderContent type="string" label="Custom Header Content" readonly="false" hidden="false" required="false">&lt;style&gt;
+/** Pathway Newsroom Styles **/
+#top_content {
+	display: block;
+	position: relative;
+	background: url("Images/Admin_Offices/Online%20Learning/Pathway/Header.png");
+        border-radius:4px 4px 0 0;
+	height: 120px;
+	margin-bottom: 20px;
+	line-height: 120px;
+	padding-left: 286px;
+	box-sizing: border-box;
+}
+#top_content #page_title {
+	display: inline-block;
+	background: none;
+	border: none;
+	vertical-align: sub;
+	line-height: normal;
+	float:none;
+        width:auto;
+}
+#page_title h2 {
+	display:none;
+}
+#page_title .h2-styled {
+	color: white;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 150%;
+}
+#contact_info {
+	display: none;
+}
+#social_network_links {
+	display: none;
+}
+#page_title_date {
+        display: none;
+}
+&lt;/style&gt;
+&lt;script&gt;
+window.onload= function() {
+document.getElementById('page_title').innerHTML="&lt;div class='h2-styled'&gt;Newsroom&lt;/div&gt;";
+};
+&lt;/script&gt;</CustomHeaderContent><ItemsPerPage type="enumeration" label="Items Per Page" readonly="false" hidden="false" required="false" values="2 3 4 5 6 7 8 9 10 11 12 13 14 15">5</ItemsPerPage><xPower Type="List" Name="Publications" label="Publications" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_Publication"><xPower Type="Component" Component="x17" Name="Publication" readonly="false" hidden="false" required="false" CompTypes="PublicationComponent" Expanded="false"/><xPower Type="Component" Component="x18" Name="Publication" readonly="false" hidden="false" required="false" CompTypes="PublicationComponent" Expanded="false"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="x18360" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Component" Name="News" label="News" readonly="false" hidden="false" required="false" Component="x27163" CompTypes="NewsNavigationComponent" Expanded="false"/><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="true" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false">Pathway Newsroom</BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false">Pathway news and events</MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x91759" CompTypes="SiteControl" Expanded="false"/></NewsIndex>

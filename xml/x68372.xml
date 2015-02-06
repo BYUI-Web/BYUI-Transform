@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x68372" Name="Elements" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Elements</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">An index of Ingeniux elements for BYU-Idaho web authors.</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style type="text/css"><!--
+.elmBox{ min-height: 50px; float: left; width: 650px; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; }
+.elmBox img{ margin-right: 10px; float: left;}
+.icon {height: 35px;}
+.icon a {position: relative; top: 5px;}
+--></style>
+<p>The Element Type section is a set of instructions on the general use of the different elements that may be encountered within the Content Management System. It does not describe how the element is use among different page types.</p>
+<div>
+<div class="elmBox">
+<div class="icon"><a href="x20483.xml"><img height="32" src="Images/Internal_Use/Ingeniux_Training/Icons/check.png" width="32" /> <strong>Boolean / Checkbox:</strong></a></div>
+<p>The check box allows users to switch between two different options that are available within the page.</p>
+</div>
+<div class="elmBox">
+<div class="icon"><a href="x20482.xml"><img height="32" src="Images/Internal_Use/Ingeniux_Training/Icons/component.png" width="32" /> <strong>Component:</strong></a></div>
+<p>The Component element is where users identify components that are to be used within a web page.</p>
+</div>
+<div class="elmBox">
+<div class="icon"><a href="x20481.xml"><img height="32" src="Images/Internal_Use/Ingeniux_Training/Icons/date_time.png" width="32" /> <strong>Date:</strong></a></div>
+<p>There are web pages with content material that can have connection to a specific calendar date.</p>
+</div>
+<div class="elmBox">
+<div class="icon"><a href="x20480.xml"><img height="32" src="Images/Internal_Use/Ingeniux_Training/Icons/drop_down.png" width="32" /> <strong>Enumeration / Dropdown:</strong></a></div>
+<p>Dropdowm menus allow users to select predetermined settings or content for web pages.</p>
+</div>
+<div class="elmBox">
+<div class="icon"><a href="x20479.xml"><img height="32" src="Images/Internal_Use/Ingeniux_Training/Icons/list.png" width="32" /> <strong>Group or List:</strong></a></div>
+<p>Content fields can be grouped together to help determine a common relationship. Groups of content fields generally control one feature within a web page.</p>
+</div>
+<div class="elmBox">
+<div class="icon"><a href="x20478.xml"><img height="32" src="Images/Internal_Use/Ingeniux_Training/Icons/image.png" width="32" /> <strong>Image:</strong></a></div>
+<p>Images will be commonly used within the BYU-I site. The Image element allows users to import images from the assets folder.</p>
+</div>
+<div class="elmBox">
+<div class="icon"><a href="x24525.xml"><img height="32" src="Images/Internal_Use/Ingeniux_Training/Icons/insert.png" width="32" /> <strong>Insert:</strong></a></div>
+<p>The "Insert" element can pull in content from an outside source, such as a web page, or from an internal HTML document, such as an HTML or ASP page.</p>
+</div>
+<div class="elmBox">
+<div class="icon"><a href="x20477.xml"><img height="32" src="Images/Internal_Use/Ingeniux_Training/Icons/link.png" width="32" /> <strong>Links:</strong></a></div>
+<p>The Link element allows users to distinguish hyperlinks within web pages.</p>
+</div>
+<div class="elmBox">
+<div class="icon"><a href="x25730.xml"><img height="32" src="Images/Internal_Use/Ingeniux_Training/Icons/linkset.png" width="32" /> <strong>LinkSet:</strong></a></div>
+<p>The “LinkSet” enables the user to select CMS Pages for use within the web page. These CMS Pages are most commonly selected for navigation.</p>
+</div>
+<div class="elmBox">
+<div class="icon"><a href="x36410.xml"><img height="32" src="Images/Internal_Use/Ingeniux_Training/Icons/media.png" width="32" /> <strong>Media</strong> </a></div>
+<p>The Media element allows users to import videos from the assets folder.</p>
+<div class="elmBox">
+<div class="icon"><a href="x20476.xml"><img height="32" src="Images/Internal_Use/Ingeniux_Training/Icons/header.png" width="32" /> <strong>Page Properties:</strong></a></div>
+<p>All CMS Pages (the items shown in the <a href="x6409.xml" style="color: #3366ff;">CMS tree</a>) have a Page Properties area. The Page Properties area contains status information about the selected CMS Page.</p>
+</div>
+<div class="elmBox">
+<div class="icon"><a href="x20475.xml"><img height="32" src="Images/Internal_Use/Ingeniux_Training/Icons/navigation.png" width="32" /> <strong>Navigation / Index:</strong></a></div>
+<p>Some web pages will require referring to groups of web pages or components within the Content Management System. The Navigation element allows users to select grouped CMS pages.</p>
+</div>
+<div class="elmBox">
+<div class="icon"><a href="x24333.xml"><img height="32" src="Images/Internal_Use/Ingeniux_Training/Icons/navigation.png" width="32" /> <strong>Taxonomy Navigation:</strong></a></div>
+<p>There are conditions in which a user will want to select and use only specific CMS Pages within the CMS Tree. This is different from the "Navigation" element, which selects groups of CMS Pages within the CMS Tree.</p>
+</div>
+<div class="elmBox">
+<div class="icon"><a href="x20474.xml"><img height="32" src="Images/Internal_Use/Ingeniux_Training/Icons/text.png" width="32" /> <strong>Text Field:</strong></a></div>
+<p>Key information is often needed to build web pages. The text field is a common method used to collect this information.</p>
+</div>
+<div class="elmBox">
+<div class="icon"><a href="x20473.xml"><img height="32" src="Images/Internal_Use/Ingeniux_Training/Icons/edit.png" width="32" /> <strong>Web Content Editor:</strong></a></div>
+<p>The will be many areas within web pages where custom content can be entered. The Web Content Editor assist the user in entering thier content.</p>
+</div>
+</div>
+</div>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Component" readonly="false" hidden="false" required="false" Expanded="" List=""><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/><!--071613 xpowercomponent_Optional to xPower--></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x14845" CompTypes="SiteControl"/></Content>

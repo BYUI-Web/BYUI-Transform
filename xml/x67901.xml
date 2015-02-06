@@ -1,0 +1,332 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x67901" Name="default.htm" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">default.htm</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">default.htm</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"&gt;
+&lt;head&gt;
+    &lt;meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /&gt;
+    &lt;title&gt;BYU&amp;ndash;Idaho&amp;nbsp;|&amp;nbsp;Online&amp;nbsp;Magazine&amp;nbsp;&gt;&amp;nbsp;A&amp;nbsp;Vision&amp;nbsp;of&amp;nbsp;Online&amp;nbsp;Learning&lt;/title&gt;
+    &lt;!-- Remove TemplateSource line to disable the Web Editor --&gt;
+    &lt;!--TemplateSource="2A.htm"--&gt;
+    &lt;!--***********************************************************************
+    *   Brigham Young University-Idaho Template
+    *   Version:        1.2
+    *   Type:           2A
+    *   Last Revised:   June, 2006
+    *   Copyright� 2007 Brigham Young University-Idaho
+    *   All Rights Reserved.
+    ************************************************************************--&gt;
+    &lt;!-- REFERENCED STYLESHEETS --&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/v1/topBar.css" /&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/V1/structure.css" /&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/V1/body_text.css" /&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/V1/table.css" /&gt;
+	&lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/driveorwalk/css/walkordrivestyle.css" /&gt;
+	&lt;link rel="stylesheet" type="text/css" href="../css/ol.css" /&gt;
+	&lt;link rel="stylesheet" type="text/css" href="../css/article_style.css" /&gt;
+	&lt;link rel="stylesheet" href="../css/print.css" type="text/css" media="print" /&gt;
+
+	
+    &lt;!-- EMBEDED JAVASCRIPT FUNCTIONS --&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/js/v2/changeSizeRevised.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/js/v2/leftLinks.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/driveorwalk/js/textswap.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/driveorwalk/js/active.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/driveorwalk/js/randomadimage.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="../js/js.js"&gt;&lt;/script&gt;
+
+
+
+    &lt;!-- EDITOR JAVASCRIPT FUNCTIONS --&gt;
+&lt;/head&gt;
+&lt;body id="type_A" onload="callFunctions(); randomImageDisplay(); activeNav(1); randomAdImage();" style="visibility:hidden;"&gt;
+    &lt;!-- The body type determines the number of columns in the CONTENT AREA. View structure.css to where these types are specified --&gt;
+    &lt;!-- ********************************************************************* --&gt;
+    &lt;!-- TOP BAR                                                               --&gt;
+    &lt;!-- ********************************************************************* --&gt;
+    &lt;div id="topBar"&gt;
+        &lt;div id="blueSpace"&gt;&lt;/div&gt;
+        &lt;div&gt;
+            &lt;table id="tableBlue" cellspacing="0" cellpadding="0"&gt;
+                &lt;!-- Title menu with the Blue Background --&gt;
+                &lt;tr&gt;&lt;td id="tdBlueSpace"&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr id="trBlueTop"&gt;&lt;td id="tdBlueTop"&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td id="tdBlueMenu" align="center"&gt;
+                        &lt;div id="javaMenu"&gt;
+                            &lt;script type="text/javascript" src="http://www.byui.edu/js/V1/HomepageNavBar.js"&gt;&lt;/script&gt;
+                        &lt;/div&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+        &lt;/div&gt;
+        &lt;!-- Gray Bar --&gt;
+        &lt;div id="divGrayBarContainer"&gt;
+            &lt;div id="divDarkGrayBar"&gt;
+                &lt;!--&lt;div id="divStudent"&gt;
+                    &lt;script type="text/javascript" src="http://www.byui.edu/js/V1/imageChange.js"&gt;&lt;/script&gt;
+                &lt;/div&gt; //--&gt;
+                &lt;div id="divBYUILogo"&gt;
+                    &lt;a id="logoLink" href="http://www.byui.edu/"&gt;&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div id="divVertLine"&gt;&lt;/div&gt;
+                &lt;div id="divDepartmentTitle"&gt;
+                    &lt;!-- Department Title --&gt;
+                    &lt;div id="divSectionTitle"&gt;
+                        &lt;a id="iframeText" target="_top" href="http://www.byui.edu/magazine/fall2009/"&gt;Online Magazine &amp;gt; A Vision of Online Learning&lt;/a&gt;
+
+                    &lt;/div&gt;  
+                    &lt;span id="divSemester"&gt;
+						Fall 2009 
+                    &lt;/span&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;!-- White Bar --&gt;
+        &lt;div id="divWhiteContainer"&gt;
+        &lt;div id="divWhiteBar"&gt;
+            &lt;img src="http://www.byui.edu/css/V1/images/whiteBar.gif" alt="White Bar" /&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!-- END ***************************************************************** --&gt;
+    &lt;!--EditorForm--&gt;
+    &lt;!--EditorToolbar--&gt;
+    &lt;div id="container"&gt;
+        &lt;div id="main_body"&gt;
+            &lt;!-- LEFT COLUMN --&gt;
+            &lt;!-- NAVIGATION FILE INCLUDE --&gt;
+            			&lt;div id="left_column" style="background-color:#FFF";&gt;
+                
+				&lt;div id="onlinemagazinenav"&gt;
+					&lt;!--#include file="../../common/nav.inc"--&gt;
+					&lt;div id="sub_nav_watch"&gt;
+						&lt;!--#include file="../../common/navVideo.inc"--&gt;
+						
+						
+						&lt;a href="#featureVideo"&gt;&lt;img id="video" src="watchvideo_online.jpg" /&gt;&lt;/a&gt;
+						&lt;p&gt;Henry Eyring and others discuss online learning.&lt;/p&gt;
+					&lt;/div&gt;
+					&lt;!--#include file="../../common/navAudio.inc"--&gt;
+					&lt;!--#include file="../../common/navPDF.inc"--&gt;
+			   &lt;/div&gt;
+			   
+            &lt;/div&gt;
+            
+            &lt;div id="right_section"&gt;
+                &lt;div class="right_bottom_section"&gt;
+                    &lt;div class="leftAREA"&gt;
+                        &lt;div id="random_image"&gt;
+							&lt;div&gt;
+                        		&lt;img id="bannerImage" alt="Feature Template" src="vision-learning.jpg" width="580px" height="230px"/&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+						
+
+						&lt;div id="page_layout2_content"&gt;&lt;br&gt;
+						
+						&lt;div class="printit"&gt;&lt;a href="javascript:window.print()"&gt;&lt;img src="../../images/common/print_issue.jpg" alt="Print Article" /&gt;&lt;/a&gt;&lt;/div&gt;
+
+						&lt;div class="noprint"&gt;							
+						
+							&lt;!-- AddThis Button BEGIN --&gt;
+							&lt;script type="text/javascript"&gt;var addthis_config = {"data_track_clickback":true};&lt;/script&gt;
+								&lt;a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;amp;username=byuiadmin"&gt;&lt;img src="http://s7.addthis.com/static/btn/sm-share-en.gif" width="83" height="16" alt="Bookmark and Share" style="border:0"/&gt;&lt;/a&gt;&lt;script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=byuiadmin"&gt;&lt;/script&gt;
+							&lt;!-- AddThis Button END --&gt;
+						&lt;/div&gt;
+
+							&lt;h1&gt;A Vision of Online Learning&lt;/h1&gt;&lt;!--Style 1--&gt;
+							&lt;h3&gt;Henry J. Eyring&lt;/h3&gt;&lt;!--Style 2--&gt;
+							&lt;span id="title"&gt;Advancement Vice President&lt;/span&gt;&lt;!--Style 3--&gt;
+							
+							&lt;p&gt;&lt;i&gt;Perspective&lt;/i&gt;, Spring 2007&lt;/p&gt;&lt;!--Style 4--&gt;
+							
+							&lt;div id="synopses"&gt;Reflecting on a previous trip to South America, Vice President Henry J. Eyring takes us on a journey to the slums of Rio de Janeiro. Nestled at the foot of the mountain were adobe and tin shacks piled on top of one another. While the dwellers of these homes lived in poverty, he noticed that most of them had satellite dishes. Perplexed, he began to wonder about the possibilities. These individuals would never be able to afford a higher education, but could an education somehow be brought to them through technology?
+							&lt;/div&gt;
+							&lt;div id="synopses"&gt;Vice President Eyring continues by outlining ways BYU-Idaho is striving to educate many more individuals&amp;#8212;whether a student resides in Rexburg, Rio, or one of numerous other locations around the world. Through the university&amp;#8217;s Online Learning initiative, students both on and off campus are receiving enhanced educational opportunities.
+							&lt;/div&gt;
+							&lt;div id="synopses" class="bottom_padding"&gt;Read or listen to this article, and be inspired by how the Lord is finding ways to bless people&amp;#8217;s lives throughout the world. In addition, watch a roundtable discussion as Vice President Eyring discusses BYU-Idaho&amp;#8217;s current efforts in distance education with other university employees.
+							&lt;/div&gt;
+							&lt;div id="read_complete_article"&gt;READ COMPLETE ARTICLE BELOW&lt;/div&gt;
+							
+							&lt;p&gt;Even in Tokyo, President Clark's inaugural address grabbed my attention.  In October 2005, I was in the final year of a mission.  Rexburg's open fields seemed more than a world away from Japan's concrete canyons.  But our daughter Emily was a freshman at BYU-Idaho.  She called to say, &amp;quot;You've got to read President Clark's talk.&amp;quot;&lt;/p&gt;
+							&lt;p&gt;I was taken with the new president's description of the university's pioneer heritage. My father baptized me in the basement of the Rexburg Tabernacle, built by those pioneers. Our home teacher, Craig Moore, taught my brothers and me to dry farm&amp;#151;and pray for summer rain&amp;#151;on the high benches east of town. In the winter, we waded through drifts to Lincoln Elementary (and I'm here to say that the snow was deeper when we were kids). Knowing President Clark's hometown of thirty years, urbane Belmont, Mass., I was impressed by his appreciation of Rexburg's unique history and environment.&lt;/p&gt;
+							&lt;p&gt;Even more remarkable was the connection he made between the university's pioneer heritage and its potential for worldwide influence. Scrolling down the screen of my computer, I read:&lt;/p&gt;
+							&lt;blockquote&gt;I believe that at BYU-Idaho we must learn to use new technologies and develop methods, materials, programs, and concepts that not only can be applied to our students on and off our campus, but also can be effectively and efficiently applied by others across the Church and, indeed, across the world.  I am convinced that this university is in this valley where our pioneer heritage is deeply ingrained, where the people are humble and faithful, so that we can be a proving ground of great fidelity for education that will bless the young people of the Church worldwide.&lt;/blockquote&gt;
+							&lt;p&gt;The emotional clincher for me was his reference to children far from Rexburg. Addressing particularly the opportunity to lower the relative cost of education, he said:&lt;/p&gt;
+							&lt;blockquote&gt;When I think of this...imperative, I see little girls and boys sitting in Primary classes in this country and, indeed, all over the world. These children will make and keep sacred covenants with the Lord. I believe the Lord desires to bless them and, like the army of Helaman, raise them up as a righteous generation of disciple leaders all across the earth. That will take education&amp;#151;higher education of the kind we have talked about today.&lt;sup&gt;2&lt;/sup&gt;&lt;/blockquote&gt;
+							&lt;p&gt;That image of Primary children all over the world&amp;#151;especially the third world&amp;#151;transported me.  My thoughts shifted from the Rexburg of my boyhood to a time and place equally far from Japan.&lt;/p&gt;
+							
+							&lt;span class="section_heading"&gt;Seen from the Mountain Top: Satellite Dishes in the Slum &lt;/span/&gt;
+							
+							&lt;p&gt;In the fall of 1998, I visited South America in search of prospective Master's of Business Administration (MBA) students.  Generous donors to BYU's Marriott School of Management had created a special scholarship for applicants who would pledge to return to their home countries after graduating.  The program had already produced many such graduates; they were building up the Church through service not only in wards and stakes but also in prominent positions in business, education, and government.&lt;/p&gt;
+							&lt;p&gt;The great challenge to providing such educational opportunities, however, was not one of fundraising. There was more than enough money. Nor was it a matter of motivating prospective students. Candidates flocked to the MBA program seminars, most traveling long distances. Every candidate was dressed as for church, and each brought a carefully prepared resume.&lt;/p&gt;
+							&lt;p&gt;The problem was that few were qualified for MBA study, even with full financial support. Some had deficiencies that might be cured with time and effort&amp;#151;better English, more full-time work experience, or remedial coursework. However, many faced more-permanent barriers, such as business and family obligations or personal debts. Others served already as bishops and stake presidents; conscience made them reluctant to leave their flocks.&lt;/p&gt;
+							&lt;p&gt;A lucky few would ultimately reach Provo. But it was painfully apparent that most could never qualify for what we had to offer. I tried to give advice and encouragement in one personal interview after another. Yet each day's end brought the feeling of having inspired too much false hope and offered too few solid solutions.&lt;/p&gt;
+							&lt;p&gt;The sense of impotence only increased during sightseeing tours arranged by my hosts. In Rio de Janeiro, for instance, I stood atop Santa Marta, the smaller sister mountain to Corcovado, famous for its giant &amp;quot;Christ the Redeemer&amp;quot; statue. The view from Santa Marta was picture perfect: emerald green mountains and the Christ statue above with shimmering white beaches and brilliant blue bay below.&lt;/p&gt;
+							&lt;p&gt;It was impossible, though, to ignore the scene directly at the foot of the mountain. The vast Santa Marta favela (slum) clings to the mountainside like a frozen orange wave. Adobe and tin shacks lie piled on top of one another, their ascent halted only where the mountain slope becomes vertical.&lt;/p&gt;
+							&lt;p&gt;From the mountaintop the streets of the favela can't be seen, but it isn't hard to imagine their filth. The slum has no sewers. It is also spiritually filthy; whatever order that exists is kept not by police but by gangs. The missionaries are forbidden to enter for safety's sake. Far more than unqualified MBA applicants, the Santa Marta favela seems beyond hope of help. It is not only out of reach&amp;#151;it is impenetrable.&lt;/p&gt;
+							&lt;p&gt;It was in the midst of these gloomy thoughts that my eyes awakened me to another reality. There was something wrong with the picture of the favela. I asked my host, &amp;quot;What are those round, gray things growing on the rooftops?&amp;quot; &lt;/p&gt;
+							&lt;p&gt;&amp;quot;Satellite dishes,&amp;quot; he replied. &lt;/p&gt;
+							&lt;p&gt;&amp;quot;Satellite dishes?!&amp;quot; The all-but-inconceivable reply provoked a storm of questions, each answered patiently by my host:&lt;/p&gt;
+							&lt;p&gt;&amp;quot;How can a dwelling without running water have a satellite dish?&amp;quot;&lt;/p&gt;
+							&lt;p&gt;&amp;quot;The homes have no water pipes, but there is electricity.&amp;quot;&lt;/p&gt;
+							&lt;p&gt;&amp;quot;But how can people without sewers afford satellite TV?&amp;quot;&lt;/p&gt;
+							&lt;p&gt;&amp;quot;Sewers require a community investment, but anyone who saves for it can buy a dish.&amp;quot;&lt;/p&gt;
+							&lt;p&gt;&amp;quot;But aren't these homes just temporary? Doesn't the government often tear them down?&amp;quot;&lt;/p&gt;
+							&lt;p&gt;&amp;quot;Yes, but the people rebuild. Reinstalling the satellite dish is actually one of the biggest costs of rebuilding. The people can lay bricks by themselves, but they have to pay a technician to realign the dish.&amp;quot;&lt;/p&gt;
+							&lt;p&gt;Satellite dishes in the slums&amp;#151;the improbable image stayed with me, not just during the remainder of my South American recruiting trip but through the ensuing years. We were able to do great good with our MBA program scholarships. But there was&amp;#151;and still is&amp;#151;the nagging thought of the slums. Can nothing be done for its inhabitants? The satellite dishes give the lie to the obvious objection to educating them: inaccessibility. All by themselves, the slum dwellers have established communication access with the outside world. Of course, they'd never be able to pay for their education, and one wonders about the quality of what could be done through those satellite dishes alone. But one also has to wonder about the possibilities. What if a communication system were specifically designed to give the best possible education under the circumstances? What if profit were no concern? What if the technology continually got better? What if...?&lt;/p&gt;
+							&lt;span class="section_heading"&gt;So Little for So Many&lt;/span/&gt;
+							&lt;p&gt;President Clark's reference to Primary children around the world rekindled those old questions. It reminded me, too, of a story that President Henry B. Eyring told after visiting Rexburg a few years ago. He happened to see the newly completed John Taylor Chapel for the first time after a long trip of his own through South America. Like all who see it, he admired the chapel's beauty. Yet the contrast between where he had been and the magnificence of the new chapel caused him to remark, &amp;quot;We do so much for so few and so little for so many.&amp;quot;&lt;/p&gt;
+							&lt;p&gt;It's a sentiment that even the busiest members of the BYU-Idaho community feel; we hope to somehow do more for those who cannot come to Rexburg.  Long before my mission in Japan ended, I was looking forward to a new mission in Rexburg, with a long-term dream of sharing the blessings of BYU-Idaho more broadly. Of course, upon arriving, I learned just how full our hands already are, serving a growing number of students. That discovery led me back to President Clark's inaugural address. The first time I read it, in Tokyo, I saw only his vision of what we might do&amp;#151;blessing all faithful youth worldwide with higher education. I've since studied how we'll do this, even as we scramble to serve more students than ever in Rexburg. Just as you'd expect from a production design specialist, President Clark embedded in his statement of vision the method by which the vision will be fulfilled.&lt;/p&gt;
+							&lt;p&gt;His comments about Primary children include the recognition that they won't participate directly in our classroom activities: &amp;quot;Now, I realize,&amp;quot; he said, &amp;quot;that most of these young people will never come to BYU-Idaho. But they will be blessed by what we learn here about learning by faith and delivering a high-quality education at relatively low cost.&amp;quot;&lt;sup&gt;3&lt;/sup&gt;&lt;/p&gt;
+							&lt;p&gt;President Clark's inaugural remarks also contain a theory of how the work we do here will translate into blessings for those far away. This theory is captured in the phrase, &amp;quot;a proving ground of great fidelity,&amp;quot; cited already. Here is that citation again: &amp;quot;I believe that at BYU-Idaho we must learn to use new technologies and develop methods, materials, programs, and concepts that not only can be applied to our students on and off our campus, but also can be effectively and efficiently applied by others across the Church and, indeed, across the world. I am convinced that this university is in this valley where our pioneer heritage is deeply ingrained, where the people are humble and faithful, so that we can be &lt;i&gt;a proving ground of great fidelity&lt;/i&gt; for education that will bless the young people of the Church worldwide.&amp;quot;&lt;sup&gt;4&lt;/sup&gt; (Emphasis added.)&lt;/p&gt;
+							&lt;p&gt;Recently, when I reread that passage, the word &amp;quot;fidelity&amp;quot; caught my attention. I wondered if it might be a term of art, something with special technical meaning. President Clark confirmed my hunch. He taught me that when pharmaceuticals are tested prior to mass distribution, the tests are evaluated for their fidelity. A test of good fidelity is one that yields results on a small scale that accurately reflect&amp;#151;and thus predict&amp;#151;a medication's performance in the broader market.&lt;/p&gt;
+							&lt;span class="section_heading"&gt;Test Fidelity&lt;/span/&gt;
+							&lt;p&gt;That concept strikes a chord with me. Ever since the sixth grade, I've been on the lookout for cures for a skin condition called alopecia. That was the first year that my hair started falling out. It didn't all fall out, just patches of it. My mother was first to notice the problem, and she quietly tried to help me hide it. In the morning before school started she would swoop and swirl the hair to cover the bald spots. Then she applied hair spray to keep the swoops and swirls in place.&lt;/p&gt;
+							&lt;p&gt;As the problem grew worse, Mother also took me to doctors. One of them was sure that I was pulling my hair out in my sleep. He recommended that I wear socks on my hands at night. I did that but to no great effect.&lt;/p&gt;
+							&lt;p&gt;Mother didn't give up. We saw other doctors; one day she drove me all the way to Idaho Falls to see a skin specialist. But even he didn't have a cure. None of the prescribed medicines worked. Meanwhile, it was taking longer and longer for Mother to do my hair each morning.&lt;/p&gt;
+							&lt;p&gt;Then, one day, Mother announced that the whole family would be taking a vacation to Baja, Mexico. My brothers and I were very happy; it was a real surprise to be leaving in the spring, when school was still in session. That vacation was my all-time favorite. We went to a tiny beach resort so remote that there were no televisions. Every day, we went to the beach to swim and sunbathe. My father read books aloud to us under a cabana made of palm fronds&amp;#151;I especially liked a biography of Rose Kennedy. As we read, brown pelicans would circle the skies and then dive for fish, hitting the water with a loud bang.&lt;/p&gt;
+							&lt;p&gt;Of course, during this wonderful time on the beach, my hair began to grow back in without my even noticing. Mother didn't tell me, but she had figured out that the problem was stress and worry. As a sixth grader, I was afraid of graduating to junior high school. Lincoln Elementary had just six rooms in those days, one for each grade. Madison Junior High School seemed huge by comparison; I got lost sometimes when I went there for my trumpet lessons. I apparently worried so much that my hair fell out.&lt;/p&gt;
+							&lt;p&gt;As can readily be inferred from my hairline, life's stress levels haven't fallen since my days at Lincoln. Someone is always trying to sell me a cure for what I now know is alopecia, a skin disease that is partly hereditary but in my case especially exacerbated by stress. I don't doubt that the heartily recommended prescriptions have proven efficacious under ideal test conditions. In fact, if I were invited to test a new medication at Club Med, I'll bet it would work for me as well as anyone. But, in my case, a test of good fidelity would have to include conditions of stress and worry. Otherwise, what works for others in a clinical trial won't necessarily work for me.&lt;/p&gt;
+							&lt;p&gt;This concept of test fidelity sheds light on my experiences with recruiting MBA students in South America. The MBA program at BYU serves its students well. However, those students have unusual qualifications&amp;#151;outstanding scholastic performance, full-time work experience, financial resources. An educational program that meets their needs well nonetheless fails to meet the needs and circumstances of the vast majority of young Church members in South America. For them, such a program is of poor fidelity.&lt;/p&gt;
+							&lt;p&gt;That is why President Clark's prediction is so remarkable. He has suggested that, even as we build an ever-better university, we can be a proving ground for education of great fidelity relative to the needs of all Church members, including the poorest. Somehow, our deeply ingrained pioneer heritage&amp;#151;manifest in humility and faith&amp;#151;will allow us to discover means of learning here that will work everywhere. The cost of this education will be low enough and the quality high enough. And we will prove it here first. The path to Rio and other places around the world somehow runs through Rexburg.&lt;/p&gt;
+							&lt;span class="section_heading"&gt;Fidelity in Distance Learning&lt;/span/&gt;
+							&lt;p&gt;It's hard to imagine how that will all work out. However, even now I see the great wisdom in starting here first. Specifically, doing our innovation in Rexburg, primarily to meet the needs of traditional students, makes it more likely that what ultimately gets to Rio will be of high quality. Too commonly, distance education is developed as just that&amp;#151;a technology-delivered approximation of what happens in the classroom. The assumption is that the student learning at a distance will get some fraction of what he or she might on a real campus. Unfortunately, these low expectations are inevitably fulfilled.&lt;/p&gt;
+							&lt;p&gt;Unlike most distance education providers though, we start with the goal of using technology to enhance learning on our own campus. Our goal is not primarily to reduce the cost of learning but to raise its quality. Others have shown how to use technology to beat the cost of a traditional university education. Our aim, by contrast, is to increase its value. Having done that, we are much more likely to be able to someday export learning programs that are both high quality and low cost.&lt;/p&gt;
+							&lt;p&gt;Accordingly, the focus of BYU-Idaho's current online learning initiatives is close to home. Many faculty members already use online technology to enhance learning in the classroom. They are discovering how the foundation for great classroom experiences can be laid before class starts. Individually and through online conversations, students can acquire basic knowledge and comprehension of the subject matter. Then, when they come to class, they are ready to move quickly to application, analysis, synthesis, and evaluation&amp;#151;the higher levels of learning. They are also better prepared to be taught by the Spirit.&lt;/p&gt;
+							&lt;p&gt;I'm watching that happen in a class that religion professor Roy Huff and I teach. With our students, we're exploring the principles of disciple leadership. Each class is based on a case, as in graduate business or law school, but with two twists. First, the students write the cases. Working from assigned topics and drawing mainly from Web sources, small teams develop analyses of subjects such as the Dot-com Bubble and the framing of the U.S. Constitution.&lt;/p&gt;
+							&lt;p&gt;The other twist on the traditional case method is that we don't wait for class to begin the discussion. Each case is posted electronically 48 hours ahead of time, and the blogging begins. Pure classroom-based case discussion pales in comparison to what happens online. Each student has equal opportunity to weigh in. Comments, being written, are more thoughtful. Data is added to the original case materials, as students not among the original authors surf the Web and find more nuggets.&lt;/p&gt;
+							&lt;p&gt;We still have the same sixty minutes of class time. Only now, the faculty discussion leader is prepared as never before, knowing where every student stands on the issues at hand. Who, for instance, thinks that investing in the stock market is a sure thing, and who thinks that it's tantamount to gambling? In the days before online technology, a professor had to &amp;quot;cold-call&amp;quot; someone to open the case, merely guessing the likely reaction. Now, the first call&amp;#151;and every one after it&amp;#151;is warm with prior insight.&lt;/p&gt;
+							&lt;p&gt;The technology required for this kind of higher-quality learning is not especially &amp;quot;high-tech&amp;quot; from a user's standpoint. Faculty and students can, through simple online tools, create and use discussion boards, blogs, and wikis without the aid of technicians. The focus of our Academic Technology group is on training faculty in this kind of do-it-yourself online innovation.&lt;/p&gt;
+							&lt;span class="section_heading"&gt;Three Initiatives for Online Learning&lt;/span/&gt;
+							&lt;p&gt;In addition to supporting continuous &amp;quot;hybridization&amp;quot; of on-campus courses, the university is also sponsoring two major online learning projects. One is the creation of an online Bachelor of University Studies degree program (BUS). Existing online courses are being upgraded and many new ones prepared for a Fall 2007 launch of this program, which will allow former Ricks College and BYU-Idaho students to complete their bachelor's degrees online.&lt;/p&gt;
+							&lt;p&gt;The new online courses will be of enhanced quality in several ways. One is that BUS students will interact with one another, studying and completing assignments together, albeit asynchronously, online. Another innovation is the inclusion of current BYU-Idaho students in these classes. Beginning this fall, all of our online courses will simultaneously serve full-time students in Rexburg and part-time BUS students living at a distance. The creation of this kind of Rexburg-and-beyond learning community will foster unique learning experiences for both &amp;quot;traditional&amp;quot; and &amp;quot;non-traditional&amp;quot; students. It is a step on the road to serving students even farther away.&lt;/p&gt;
+							&lt;p&gt;A second major online learning project is the creation of preparatory content for future BYU-Idaho students. To achieve the imperatives of giving more students better education at lower cost, we need students who are better prepared to learn before they ever enroll. In particular, new BYU-Idaho students must be ready to make the most of the university's academic and spiritual resources. In its first phase, our &amp;quot;Get Prepared&amp;quot; project will put online the resources that prospective students need to both plan their paths of university study and also sign the Honor Code with real appreciation for what it means.&lt;sup&gt;5&lt;/sup&gt; The goal is to induct new BYU-Idaho students who can learn and serve at higher levels, sooner.&lt;/p&gt;
+							&lt;p&gt;Compared to the Bachelor of University Studies degree program, the Get Prepared project is a step farther down the road away from Rexburg. The target students are less seasoned than those we serve on campus, and they will be learning exclusively online. If we can help them learn by the Spirit and make important decisions without the benefit of having been on our campus, we'll have discovered more of the pedagogy required to someday lift those who will never come here.&lt;/p&gt;
+							&lt;p&gt;These three initiatives&amp;#151;adding online elements to on-campus courses, the BUS degree, and the Get Prepared effort&amp;#151;may seem small steps relative to the distance to be covered to reach the whole world. For nearly ten years, I have been haunted by the image of the rooftops of Santa Marta, with those satellite dishes that might be put to such a better use. We still seem so far away.&lt;/p&gt;
+							&lt;p&gt;I take comfort, however, in knowing that many others share my longing and that we are all led by prophecy. The work will roll forth according to a divine timetable as we attend faithfully to our individual assignments.&lt;/p&gt;
+							&lt;p&gt;My old friend Dean Sorenson taught me that lesson a few months ago. We were addressing a large, fine group of prospective missionaries. On a break, we talked about the good old days, when he was a young Ricks College administrator and I still had some hair.&lt;/p&gt;
+							&lt;p&gt;As we discussed the university's new mission and our mutual desire to spread the blessings of BYU-Idaho more broadly, he recalled a 1970's visit to Ricks College by then Elder Thomas S. Monson of the Quorum of the Twelve Apostles. Elder Monson was teaching a group of college leaders how to think about progress and change in the Kingdom. He said, &amp;quot;You'll never see the Church advance like this.&amp;quot; He then made a leaping broad jump. &amp;quot;When the Church moves,&amp;quot; Elder Monson continued, &amp;quot;it happens like this.&amp;quot; He then took several long, confident strides forward.&lt;/p&gt;
+							&lt;p&gt;The Doctrine and Covenants makes the same vital point in these words:&lt;/p&gt;
+							&lt;blockquote&gt;Ye cannot behold with your natural eyes, for the present time, the design of your God concerning those things which shall come hereafter, and the glory which shall follow after much tribulation.&lt;sup&gt;6&lt;/sup&gt; Wherefore, be not weary in well-doing, for ye are laying the foundation of a great work. And out of small things proceedeth that which is great.&lt;sup&gt;7&lt;/sup&gt;&lt;/blockquote&gt;
+							&lt;p&gt;I am thankful to be part of such a great work, one that promises, in due time, to be of great fidelity.&lt;/p&gt;
+							
+							&lt;span class="section_heading"&gt;Notes&lt;/span&gt;
+							
+							&lt;span class="notes"&gt;&lt;sup&gt;1.&lt;/sup&gt; Kim B. Clark, &amp;quot;Inaugural Response,&amp;quot; Brigham Young University&amp;#151;Idaho devotional, Oct. 2005&lt;/span&gt;
+							
+							&lt;span class="notes"&gt;&lt;sup&gt;2.&lt;/sup&gt; Ibid&lt;/span&gt;
+							
+							&lt;span class="notes"&gt;&lt;sup&gt;3.&lt;/sup&gt; Ibid&lt;/span&gt;
+							
+							&lt;span class="notes"&gt;&lt;sup&gt;4.&lt;/sup&gt; Ibid&lt;/span&gt;
+							
+							&lt;span class="notes"&gt;&lt;sup&gt;5.&lt;/sup&gt; Seamons, &amp;quot;The Pre-matriculation Project,&amp;quot; &lt;i&gt;Perspective&lt;/i&gt; 7.1. 80-84&lt;/span&gt;
+							&lt;span class="notes"&gt;&lt;sup&gt;6.&lt;/sup&gt; Doctrine and Covenants 58:3&lt;/span&gt;
+							&lt;span class="notes"&gt;&lt;sup&gt;7.&lt;/sup&gt; Doctrine and Covenants 64:33&lt;/span&gt;
+
+&lt;div class="noprint"&gt;												
+							
+&lt;a name="featureVideo"&gt;&amp;nbsp;&lt;/a&gt;
+	&lt;div class="dashing_divider"&gt;&amp;nbsp;&lt;/div&gt;
+		&lt;h1&gt;Watch&lt;/h1&gt;
+
+			&lt;ul class="videoList"&gt;
+				&lt;li&gt;&lt;a href="javascript:selectVid('lowVid')"&gt;&lt;img src="../images/low-button.png" alt="Low Stream" /&gt;&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="javascript:selectVid('mediumVid')"&gt;&lt;img src="../images/medium-button.png" alt="Medium Stream" /&gt;&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="javascript:selectVid('highVid')"&gt;&lt;img src="../images/high-button.png" alt="High Stream" /&gt;&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="http://www.byuimagazine.net/video/OnlineDiscussion_Large.mp4"&gt;&lt;img src="../images/download-button.png" alt="Download Stream" /&gt;&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+
+	&lt;div id="lowVid" class="previewDiv" style="width: 320px; height: 260px; display:none"&gt;
+		&lt;p&gt;Low Stream&lt;/p&gt;
+			&lt;embed width="320" height="260" src="http://stream.byui.edu/fms/player.swf" type="swf" flashvars="streamer=rtmp://stream.byui.edu/vod&amp;file=BYUIProduced/alumniMagazine/OnlineDiscussion_Sm.flv&amp;type=flv" allowfullscreen="true" allowscriptaccess="always" /&gt;
+
+		&lt;a href="http://stream.byui.edu/fms/player.swf" class="eyhmcernmqxnrrrrgktc"&gt;&lt;/a&gt; 
+
+	&lt;/div&gt;
+
+	&lt;div id="mediumVid" class="previewDiv" style="width: 400px; height: 325px; display:block"&gt;
+		&lt;p&gt;Medium Stream&lt;/p&gt;
+			&lt;embed width="400" height="325" src="http://stream.byui.edu/fms/player.swf" type="swf" flashvars="streamer=rtmp://stream.byui.edu/vod&amp;file=BYUIProduced/alumniMagazine/OnlineDiscussion_Med.flv&amp;type=flv" allowfullscreen="true" allowscriptaccess="always" /&gt;
+
+		&lt;a href="http://stream.byui.edu/fms/player.swf" class="eyhmcernmqxnrrrrgktc"&gt;&lt;/a&gt; 
+
+	&lt;/div&gt;
+
+	&lt;div id="highVid" class="previewDiv" style="width: 480px; height: 390px; display:none"&gt;
+		&lt;p&gt;High Stream&lt;/p&gt;
+			&lt;embed width="480" height="390" src="http://stream.byui.edu/fms/player.swf" type="swf" flashvars="streamer=rtmp://stream.byui.edu/vod&amp;file=BYUIProduced/alumniMagazine/OnlineDiscussion_Large.flv&amp;type=flv" allowfullscreen="true" allowscriptaccess="always" /&gt;
+
+		&lt;a href="http://stream.byui.edu/fms/player.swf" class="eyhmcernmqxnrrrrgktc"&gt;&lt;/a&gt; 
+
+	&lt;/div&gt;
+
+	&lt;a name="featureAudio"&gt;&amp;nbsp;&lt;/a&gt;
+	&lt;div class="dashing_divider"&gt;&amp;nbsp;&lt;/div&gt;
+		&lt;h1 name="featureAudio"&gt;Listen&lt;/h1&gt;
+			&lt;ul class="videoList"&gt;
+				&lt;li&gt;&lt;a href="http://www.byuimagazine.net/video/AVisionOfOnlineLearning_HenryJEyring.mp3"&gt;&lt;img src="../images/download-button.png" alt="Low Stream" /&gt;&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+
+		&lt;div class="previewDiv" style="width: 320px; height: 20px;"&gt;
+
+		&lt;embed width="320" height="20" src="http://stream.byui.edu/fms/player.swf" type="swf" flashvars="streamer=rtmp://stream.byui.edu/vod&amp;file=BYUIProduced/alumniMagazine/AVisionOfOnlineLearning_HenryJEyring.mp3&amp;type=mp3" allowfullscreen="false" allowscriptaccess="always" /&gt;
+
+		&lt;a href="http://stream.byui.edu/fms/player.swf" class="eyhmcernmqxnrrrrgktc"&gt;&lt;/a&gt; 
+
+	&lt;/div&gt;
+		&lt;a name="featureDownloadPDF"&gt;&amp;nbsp;&lt;/a&gt;
+	&lt;div class="dashing_divider"&gt;&amp;nbsp;&lt;/div&gt;
+		&lt;h1 name="featureAudio"&gt;Download PDF&lt;/h1&gt;
+		&lt;ul class="videoList"&gt;
+			&lt;li&gt;&lt;a href="A_Vision_of_Online_Learning.pdf"&gt;&lt;img src="../images/download-button.png" alt="Low Stream" /&gt;&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+														
+						&lt;/div&gt;
+                    &lt;/div&gt;
+					&lt;/div&gt;
+                    &lt;div class="rightAREA"&gt;&lt;img alt="Place Holder" src="http://www.byui.edu/css/V1/images/placeholder80.gif" /&gt;&lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div id="footer"&gt;
+            &lt;div id="shadow"&gt;Copyright&amp;copy; &lt;script type="text/javascript"&gt;var d = new Date();document.write(d.getFullYear());&lt;/script&gt; BYU-Idaho&lt;br /&gt;All Rights Reserved.&lt;/div&gt;
+        &lt;/div&gt;
+    
+    &lt;!--EndEditorForm--&gt;
+    &lt;!-- TABLE FORMATTING SECTION --&gt;
+    &lt;script type="text/javascript"&gt;
+        &lt;!--
+        var tableTags = document.getElementById('main_body').getElementsByTagName("table");
+        for (var i = 0; i &lt; tableTags.length; i++)
+        {
+            var trTags = tableTags[i].getElementsByTagName("tr");
+            for (var j = 0; j &lt; trTags.length; j++)
+            {
+                if(j%2 == 0)
+                {
+                    trTags.item(j).style.backgroundColor = "#efefec";
+                }
+                else
+                {
+                    trTags.item(j).style.backgroundColor = "#ffffff";
+                }
+            }
+        }
+        --&gt;
+    &lt;/script&gt;
+&lt;!-- This script enables Google Analytics --&gt;
+		&lt;script type="text/javascript"&gt;
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		&lt;/script&gt;
+		&lt;script type="text/javascript"&gt;
+			try {
+			var pageTracker = _gat._getTracker("UA-12079604-1");
+			pageTracker._trackPageview();
+			} catch(err) {}
+		&lt;/script&gt;
+	&lt;/body&gt;
+&lt;/html&gt;
+</ESContent></EmptyShell>

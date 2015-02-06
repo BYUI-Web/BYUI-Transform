@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x57365" Name="test code" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt; 
+&lt;script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"&gt;&lt;/script&gt; 
+&lt;script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.4/jquery-ui.min.js"&gt;&lt;/script&gt; 
+&lt;script type="text/javascript"&gt; 
+&lt;!--// 
+$(document).ready(function(){ 
+$(".flip").click(function(){ 
+    $(".panel").slideToggle("slow"); 
+  }); 
+}); 
+//--&gt; 
+&lt;/script&gt; 
+ 
+&lt;style type="text/css"&gt; 
+div.panel,p.flip 
+{ 
+margin:0px; 
+padding:5px; 
+text-align:center; 
+background:#e5eecc; 
+border:solid 1px #c3c3c3; 
+} 
+div.panel 
+{ 
+height:120px; 
+display:none; 
+} 
+&lt;/style&gt; 
+&lt;p class="flip"&gt;Show/Hide Panel&lt;/p&gt; 
+&lt;div class="panel"&gt; 
+&lt;p&gt;Because time is valuable, we deliver quick and easy learning.&lt;/p&gt; 
+&lt;p&gt;At W3Schools, you can study everything you need to learn, in an accessible and handy format.&lt;/p&gt; 
+&lt;/div&gt; </ContentSnippet></ContentSnippet>

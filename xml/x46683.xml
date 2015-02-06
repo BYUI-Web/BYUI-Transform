@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x46683" Name="Radiology" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Radiology</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Radiology</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<link href="Documents/health-center/topper.css" rel="stylesheet" />
+<link href="Documents/health-center/layout.css" rel="stylesheet" />
+<style><!--
+   body #content_zone .titlehead {    
+      border-bottom: solid thin #002060;
+   }
+
+   body #content_zone .comment {    
+      color: #002060;
+      font-weight: bold;
+   }
+
+   body #content_zone #maincontent #frame .icons {
+      background-position: -450px  -150px;
+   }
+--></style>
+<div id="content_zone">
+<div id="nav"><a href="x27790.xml">
+<div class="title">Student Health Center</div>
+</a> <iframe class="items" frameborder="0" scrolling="auto" src="Documents/health-center/links.html"></iframe></div>
+<div id="maincontent">
+<div id="topper">
+<div class="titlehead">Radiology</div>
+<div id="frame">
+<div class="icons"></div>
+<div class="shadow"></div>
+</div>
+</div>
+<div id="topsec">
+<p>X-rays are available at the BYU-Idaho Health Center with a doctor's order. We will perform x-rays for doctors inside and outside the Student Health Center facility. For outside orders, you may bring a written order from the doctor or have the doctor send it to the Health Center via fax. X-ray results will be sent to the ordering physician.</p>
+<p class="comment">If you wish to have an x-ray, you will need an appointment.</p>
+<p>For information about pricing, call <strong>(208) 496-9330</strong></p>
+</div>
+<iframe frameborder="0" id="footer" scrolling="no" src="http://www.byui.edu/Documents/health-center/footer.html"></iframe></div>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x28441" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

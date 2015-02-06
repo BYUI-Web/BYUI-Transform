@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x45722" Name="Guest Information" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Guest Information</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Guest Information</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<!--SCRIPTS AND STYLESHEETS-->
+<div><link href="http://fonts.googleapis.com/css?family=Cambo" rel="stylesheet" type="text/css" /></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+window.jQuery || document.write('<script src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" _mce_src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" _mce_src="prebuilt/stylenew/js/libs/jquery-1.7.min.js"><\/script>')
+</script>
+<script src="Documents/student-records-and-registration/ibox2.js" type="text/javascript"></script>
+<div><link href="Documents/student-records-and-registration/srrcss3.css" rel="stylesheet" type="text/css" /></div>
+<script src="prebuilt/stylenew/js/mylibs/scrolling_events_bar.js" type="text/javascript"></script>
+<!--IBOXS-->
+<div id="ctran1" style="display: none;">
+<div><!--                Dress Information                  --> <img alt="Dress Standards example" height="300" src="Images/Admin_Offices/Student Record and Registration/GradPhoto/DressPic2.png" style="float: right;" width="300" />
+<p>BYU&ndash;Idaho dress standards apply to all visitors on campus. To invite the Spirit, guests are encouraged to wear Sunday dress to all graduation events.</p>
+<h4>While on campus please refrain from wearing the following attire:</h4>
+<ul>
+<li>Shorts</li>
+<li>Capris/Gauchos</li>
+<li>Flip-Flops</li>
+<li>Worn or ragged jeans</li>
+<li>Hats</li>
+</ul>
+<p>Please visit the <a href="http://www.byui.edu/studenthonor/" style="text-decoration: underline;">Student Honor Office</a> for additional information.</p>
+</div>
+</div>
+<div id="ctran2" style="display: none;">
+<div><!--               Transportation Information                -->
+<p>The closest commercial airport to BYU&ndash;Idaho is in Idaho Falls, Idaho, 25 miles south of Rexburg. Skywest, a Delta connection, and Horizon Air are the major providers. Pocatello, Idaho, is the next closest airport, 74 miles south of Rexburg. Salt Lake City, Utah, has the closest international airport, approximately 260 miles south of Rexburg.</p>
+<p>The following shuttle transportation options service the BYU&ndash;Idaho area:</p>
+<ul>
+<li>Salt Lake Express: (208) 656-8824 or (800) 356-9796; <a href="http://www.saltlakeexpress.com/" style="text-decoration: underline;" target="_blank">www.saltlakeexpress.com</a></li>
+<li>TRPTA: (208) 356-9033; operates Monday-Friday only; fixed routes run on an hourly basis anywhere in town. Door-to-door runs are on a "call basis."</li>
+</ul>
+<img alt="bus" height="173px" src="Images/Admin_Offices/Student Record and Registration/bus2.png" style="float: right;" width="400px" /></div>
+</div>
+<div id="ctran3" style="display: none;">
+<p><img alt="Map of eastern Idaho" height="517" src="Images/Admin_Offices/Student Record and Registration/hotel-map.gif" style="float: left; margin-right: 5px;" width="370" /></p>
+<div style="margin-left: 30px;">
+<p>The following links have been provided as a resource for lodging accommodations. Parents are not allowed to stay with their son or daughter in Single Student University Housing.</p>
+<p>Some discounts are available for BYU&ndash;Idaho alumni at area hotels. Remember to ask when making your reservation.</p>
+</div>
+<a href="https://maps.google.com/maps?hl=en&amp;q=rexburg+hotels&amp;ie=UTF-8" target="_blank"><img alt="Rexburg Lodging link" height="89" onmouseout="this.src='Images/Admin_Offices/Student Record and Registration/GradPhoto/roadsignRex.png';" onmouseover="this.src='Images/Admin_Offices/Student Record and Registration/GradPhoto/roadsignRexAlt.png';" src="Images/Admin_Offices/Student Record and Registration/GradPhoto/roadsignRex.png" style="float: left;" width="160" /></a>
+<p><a href="https://maps.google.com/maps?hl=en&amp;q=hotels+near+Idaho+Falls,+ID&amp;safe=active&amp;ie=UTF-8" target="_blank"><img alt="Idaho Falls Lodging information" height="89" onmouseout="this.src='Images/Admin_Offices/Student Record and Registration/GradPhoto/roadsignIF.png';" onmouseover="this.src='Images/Admin_Offices/Student Record and Registration/GradPhoto/roadsignIFAlt.png';" src="Images/Admin_Offices/Student Record and Registration/GradPhoto/roadsignIF.png" style="float: left;" width="160" /></a></p>
+<p><a href="https://maps.google.com/maps?hl=en&amp;q=rigby+hotels&amp;safe=active&amp;ie=UTF-8" target="_blank"><img alt="Rigby Lodging information" height="89" onmouseout="this.src='Images/Admin_Offices/Student Record and Registration/GradPhoto/roadsignRig.png';" onmouseover="this.src='Images/Admin_Offices/Student Record and Registration/GradPhoto/roadsignRigAlt.png';" src="Images/Admin_Offices/Student Record and Registration/GradPhoto/roadsignRig.png" style="float: left;" width="160" /></a></p>
+<p><a href="https://maps.google.com/maps?hl=en&amp;q=st+anthony+id+hotels&amp;safe=active&amp;ie=UTF-8" target="_blank"><img alt="St. anthony lodging information" height="89" onmouseout="this.src='Images/Admin_Offices/Student Record and Registration/GradPhoto/roadsignStA.png';" onmouseover="this.src='Images/Admin_Offices/Student Record and Registration/GradPhoto/roadsignStAAlt.png';" src="Images/Admin_Offices/Student Record and Registration/GradPhoto/roadsignStA.png" style="float: left;" width="160" /></a></p>
+<p><a href="https://maps.google.com/maps?hl=en&amp;q=hotels+near+Ashton,+ID&amp;safe=active&amp;ie=UTF-8" target="_blank"><img alt="Ashton link" height="93" onmouseout="this.src='Images/Admin_Offices/Student Record and Registration/GradPhoto/roadsignAsh.png';" onmouseover="this.src='Images/Admin_Offices/Student Record and Registration/GradPhoto/roadsignAshAlt.png';" src="Images/Admin_Offices/Student Record and Registration/GradPhoto/roadsignAsh.png" style="float: left;" width="160" /></a></p>
+<p><a href="https://maps.google.com/maps?hl=en&amp;q=hotels+near+Island+Park,+ID&amp;safe=active&amp;ie=UTF-8" target="_blank"><img alt="Island Park Link" height="93" onmouseout="this.src='Images/Admin_Offices/Student Record and Registration/GradPhoto/roadsignIsland.png';" onmouseover="this.src='Images/Admin_Offices/Student Record and Registration/GradPhoto/roadsignIslandAlt.png';" src="Images/Admin_Offices/Student Record and Registration/GradPhoto/roadsignIsland.png" style="float: left;" width="160" /></a></p>
+</div>
+<div id="ctran4" style="display: none;">
+<p>Parking regulations during graduation may vary each semester. For more information regarding parking during Graduation Please contact Parking services.</p>
+<a href="http://www.byui.edu/university-operations/security-and-safety/parking-services">www.byui.edu/university-operations/security-and-safety/parking-services</a><br /> <a href="mailto:Parkingservices@byui.edu">Parkingservices@byui.edu </a>
+<p>208-496-3030</p>
+</div>
+<div id="ctran5" style="display: none;">
+<p>&nbsp;</p>
+</div>
+<!--IMAGES-->
+<div><img height="140" src="Images/Admin_Offices/Student Record and Registration/SecondLevelPage/Kyle Grad Final.png" width="510" /> <img alt="Header Banner" height="140" src="Images/Admin_Offices/Student Record and Registration/SecondLevelPage/grad.png" width="168" /></div>
+<div id="bar"><img alt="bar" height="4" src="Images/Admin_Offices/Student Record and Registration/SecondLevelPage/bar1.png" width="710" /></div>
+<!--TABZ-->
+<div class="sectionstwo">
+<div class="tabz"><a href="x44653.xml">Graduates</a> <a href="x45721.xml">Graduation Events</a> <a class="current" href="x45722.xml">Guest Information</a></div>
+<!--NAVIGATION-->
+<div class="box visible">
+<ul>
+<li><a href="#ctran1" rel="ibox" title="Dress">Dress</a></li>
+<li><a href="#ctran3" rel="ibox" title="Lodging">Lodging</a></li>
+<li><a href="#ctran4" rel="ibox" title="Parking">Parking</a></li>
+<li><a href="#ctran2" rel="ibox" title="Transportation Information">Transportation</a></li>
+</ul>
+</div>
+</div>
+<!--EVENTS-->
+<div class="span-18 last" id="events_bar_horizontal">
+<div class="span-18 last" id="window">
+<div id="events_bar_control"><span class="prev">&nbsp;</span><span class="next">&nbsp;</span></div>
+<div id="pane"><!--THE BEGING OF THE EVENTS-->
+<script src="Documents/Admin_Offices/Student Records and Registration/Events Script.js" type="text/javascript"></script>
+<!--THE END OF THE EVENTS--></div>
+</div>
+</div>
+<!--FOOTER-->
+<div id="email" style="display: none;">
+<p>For any questions please email us at <a href="mailto:graduation@byui.edu"><span style="text-decoration: underline;">graduation@byui.edu</span></a></p>
+</div>
+<div id="phone" style="display: none;">
+<p>For any questions please call us at (208) 496-1027</p>
+</div>
+<div><img alt="Bar" height="2" src="Images/Admin_Offices/Student Record and Registration/HomePage/bottomBar.jpg" width="710" /></div>
+<div class="barb"><img alt="Bar" height="2" src="Images/Admin_Offices/Student Record and Registration/HomePage/bottomBar.jpg" width="710" /></div>
+<div id="bottomContact">
+<ul>
+<li><img alt="Email Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/envelope.png" width="23" /><a href="#email" rel="ibox" title="Email Information"> Email Us</a></li>
+<li><img alt="Phone Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/phone.png" width="23" /><a href="#phone" rel="ibox" title="Phone Information"> Call Us</a></li>
+<li><img alt="Visit Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/visit.png" width="23" /><a href="Images/Admin_Offices/Student Record and Registration/HomePage/byuidahoMap.jpg" rel="ibox"> Visit Us</a></li>
+<li><img alt="Facebook Link" height="16" src="Images/Admin_Offices/Student Record and Registration/HomePage/facebook.png" width="16" /><a href="http://www.facebook.com/pages/BYU-Idaho-Student-Records-and-Registration/276472292461946?fref=ts"> facebook</a></li>
+<li><img alt="Live Chat Link" height="16" src="Images/Admin_Offices/Student Record and Registration/HomePage/livechat.png" width="18" /><a href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=SRR&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large" onclick="window.open('https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=SRR&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large&amp;referrer='+escape(document.location),'chat1132447','width=472,height=320');return false;" target="chat1132447"> Live Chat</a></li>
+<li><img alt="Site Index Link" height="17" src="Images/Admin_Offices/Student Record and Registration/HomePage/index.png" width="18" /><a href="x43952.xml"> Index</a></li>
+</ul>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x44654" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

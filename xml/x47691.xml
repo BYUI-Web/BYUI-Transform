@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<PolicyPage ID="x47691" Name="Waiting List Priority" Layout="general_Policy.xsl" IsComponent="false"><Title type="string" label="Policy Title" readonly="false" hidden="false" required="true">Waiting List Priority</Title><Abstract type="string" label="Policy Abstract" readonly="false" hidden="false" required="true">Waiting List Priority</Abstract><Date type="date" label="Revision Date" readonly="false" hidden="false" required="true" display="localdateshort" UTC="true">20120127T19:00:00</Date><BodyCopy type="dhtml" label="Policy" readonly="false" hidden="false" required="false"><![CDATA[<p><strong><a name="_Toc331666128"></a></strong>Waiting lists will be created when an online class is at capacity. The OSC will create that list.&nbsp; Information concerning the students track, need for graduation, and request date will be used to determine priority on the waiting list. The chart below will show the breakdown of priority.</p>
+&nbsp;
+<table border="1" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td valign="top" width="121"><strong>Priority</strong></td>
+<td valign="top" width="150"><strong>Student's Track</strong></td>
+<td valign="top" width="240"><strong>Graduation</strong></td>
+<td valign="top" width="127"><strong>Request Date</strong></td>
+</tr>
+<tr>
+<td valign="top" width="121">1st Priority</td>
+<td valign="top" width="150">Online Student</td>
+<td valign="top" width="240">This Semester</td>
+<td valign="top" width="127">Earliest Date</td>
+</tr>
+<tr>
+<td valign="top" width="121">2<sup>nd</sup> Priority</td>
+<td valign="top" width="150">Off Track Students</td>
+<td valign="top" width="240">This Semester</td>
+<td valign="top" width="127">Earliest Date</td>
+</tr>
+<tr>
+<td valign="top" width="121">3<sup>rd</sup> Priority</td>
+<td valign="top" width="150">On Track Students</td>
+<td valign="top" width="240">This Semester</td>
+<td valign="top" width="127">Earliest Date</td>
+</tr>
+<tr>
+<td valign="top" width="121">4<sup>th</sup> &nbsp;Priority</td>
+<td valign="top" width="150">Part Time Students</td>
+<td valign="top" width="240">This Semester</td>
+<td valign="top" width="127">Earliest Date</td>
+</tr>
+<tr>
+<td valign="top" width="121">5<sup>th</sup> &nbsp;Priority</td>
+<td valign="top" width="150">Online Students</td>
+<td valign="top" width="240">Next Semester</td>
+<td valign="top" width="127">Earliest Date</td>
+</tr>
+<tr>
+<td valign="top" width="121">6<sup>th</sup> Priority</td>
+<td valign="top" width="150">Off&nbsp; Track Students</td>
+<td valign="top" width="240">Next Semester</td>
+<td valign="top" width="127">Earliest Date</td>
+</tr>
+<tr>
+<td valign="top" width="121">7<sup>th</sup> Priority</td>
+<td valign="top" width="150">On Track Students</td>
+<td valign="top" width="240">Next Semester</td>
+<td valign="top" width="127">Earliest Date</td>
+</tr>
+<tr>
+<td valign="top" width="121">8<sup>th</sup> Priority</td>
+<td valign="top" width="150">Part Time Students</td>
+<td valign="top" width="240">Next Semester</td>
+<td valign="top" width="127">Earliest Date</td>
+</tr>
+<tr>
+<td valign="top" width="121">9<sup>th</sup> Priority</td>
+<td valign="top" width="150">Online Students</td>
+<td valign="top" width="240">None</td>
+<td valign="top" width="127">Earliest Date</td>
+</tr>
+<tr>
+<td valign="top" width="121">10<sup>th</sup> Priority</td>
+<td valign="top" width="150">Off Track Students</td>
+<td valign="top" width="240">None</td>
+<td valign="top" width="127">Earliest Date</td>
+</tr>
+<tr>
+<td valign="top" width="121">11<sup>th</sup> Priority</td>
+<td valign="top" width="150">On Track Students</td>
+<td valign="top" width="240">None</td>
+<td valign="top" width="127">Earliest Date</td>
+</tr>
+<tr>
+<td valign="top" width="121">12<sup>th</sup> Priority</td>
+<td valign="top" width="150">Part Time Students</td>
+<td valign="top" width="240">None</td>
+<td valign="top" width="127">Earliest Date</td>
+</tr>
+<tr>
+<td width="121">Last Priority</td>
+<td valign="top" width="150">Non-matriculated Students</td>
+<td width="240">None</td>
+<td width="127">Earliest Date</td>
+</tr>
+</tbody>
+</table>
+<strong><em><br />Note:</em></strong><em> We also take into consideration some of the student's comments. For example: I am getting married and moving to Japan and want to finish my associate's degree.&nbsp; We may take that type information into considerations. </em> &nbsp; Email Template We received an email from <span style="text-decoration: underline;">Brother Springer</span> about your desire to add <span style="text-decoration: underline;">COMM352.</span> &nbsp;We put you on the waiting list for this class.&nbsp; The waiting list doesn't guarantee you will be able to get into the class, so we suggest that you continue to check the class for drops during the registration period.&nbsp; You will receive an e-mail if we add another section or if we can authorize you.&nbsp; Please let us know if you have any questions or concerns.&nbsp; Thanks!]]></BodyCopy><xPower Type="Component" Component="x18360" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="Policy" label="Policy" readonly="false" hidden="false" required="false" CompTypes="PolicyNavigationComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x17147" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></PolicyPage>

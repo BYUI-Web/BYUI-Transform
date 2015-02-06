@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x66479" Name="Grades" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Grades and Credits</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Grades and Credits</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<!--SCRIPTS AND STYLESHEETS-->
+<div><link href="http://fonts.googleapis.com/css?family=Cambo" rel="stylesheet" type="text/css" /></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+window.jQuery || document.write('<script src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" _mce_src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" _mce_src="prebuilt/stylenew/js/libs/jquery-1.7.min.js"><\/script>')
+</script>
+<script src="prebuilt/stylenew/js/mylibs/scrolling_events_bar.js" type="text/javascript"></script>
+<script src="Documents/student-records-and-registration/ibox2.js" type="text/javascript"></script>
+<div><link href="Documents/student-records-and-registration/srrcss3.css" rel="stylesheet" type="text/css" /></div>
+<!--IBOXS-->
+<div id="grade1" style="display: none;">
+<p>Departments have the right to refuse to allow students to audit individual courses. The Department Chair must report all courses that students may not audit to the Student Records and Registration Ofﬁce. Audit restrictions will remain in effect until they are removed by the Department Chair</p>
+<p>Students must ﬁrst register for the class for credit and then contact the Student Records and Registration Ofﬁce to change the course to audit. Generally students may not audit a Foundations or an online course.</p>
+<p>Tuition for audit classes is assessed on the same basis as for credit classes. Students may not change from credit to audit after the deadline to drop a course without earning a &ldquo;W.&rdquo; Students wishing to change from audit to credit after the deadline to drop a course without earning a &ldquo;W&rdquo; must receive instructor approval.</p>
+<p>Students who audit a class are not responsible for attendance, daily preparations or examinations, and no grade is reported or recorded on the permanent record. An &ldquo;I&rdquo; grade may not be made up by repeating the class as an audit</p>
+<p>Registered students who drop all credit classes and only have audit class(es) remaining are considered withdrawn from the University effective the latest drop date of the non-audit class(es). Students will need to re-apply through the Admissions Ofﬁce for the next semester. Compliance with deadlines is required, unless a deferment is obtained.</p>
+</div>
+<div id="grade4" style="display: none;">
+<p>Repeat classes allow a class to be taken two or more times for additional credit. Most classes at BYU&mdash;Idaho are not repeatable for credit. Departments establish the maximum number of times a class can be repeated. A repeated class does not replace the former grade or credit of a previously repeated class. Approval to enroll in a repeatable course for the purpose of replacing a previous credit grade must be obtained from the Academic Exceptions Committee prior to registering for the course.</p>
+<p>Retake classes replace the credit and grade of a previously completed equivalent course even if the previous grade was higher. The most recently completed course is calculated into the GPA, earned credits, and degree requirements. Previous courses remain on the transcript and are designated as retake courses and will not fulfill degree requirements.</p>
+<p>Students are allowed a maximum of four retakes during their BYU&mdash;Idaho experience. Retakes occur when retaking BYU&ndash;Idaho classes previously completed at this University.</p>
+<p>BYU&mdash;Idaho courses cannot be replaced by equivalent courses from other institutions. Exceptions must be approved by the Academic Exceptions Committee.</p>
+<p>Students who transfer must recognize that a transfer institution may not accept the retake class per this definition.</p>
+</div>
+<div id="grade5" style="display: none;">
+<p>BYU&mdash;Idaho offers a limited number of pass/fail courses. Students in these classes receive no letter grade; instead, they either pass or fail depending on whether or not they have met the course criteria. All pass credits count toward graduation but are not included in GPA calculations. Courses designated as letter grade cannot be changed to pass/fail, and courses designated as pass/fail cannot be changed to letter grade.</p>
+</div>
+<div id="grade6" style="display: none;">
+<ul>
+<li>Progress grades are both attempted and earned credits (A, B, C, D)</li>
+<li>Non-progress grades are attempted but not earned credits (F, W, UW, I, T)</li>
+</ul>
+</div>
+<div id="grade7" style="display: none;">
+<p>Satisfactory Academic Progress (SAP) is a calculation of each semesters earned credits divided by attempted credits. There are reasons that SAP is a fundamental standard at BYU&mdash;Idaho; however, two of those reasons are:</p>
+<ul>
+<li>Students need to complete each course they are enrolled in so they can move quickly toward graduation</li>
+<li>To safeguard the sacred tithing dollars utilized to help each student in their education</li>
+</ul>
+</div>
+<div id="grade8" style="display: none;">
+<ul>
+<li>W grades are placed on your academic record (transcript) if you drop a class anytime after the 22nd day in a semester (or after the 15th day in a block) up until the final drop deadline, for any reason.</li>
+<li>W grades are NOT calculated into your grade point average (GPA).</li>
+<li>W grades remain on your transcript even if you re-take the class at a later date.</li>
+<li>W grades are considered non-progress grades and are calculated into the 75% progress requirement.</li>
+<li>If you are receiving Federal Financial Aid, you must check with that office to determine how W grades affect your eligibility.</li>
+</ul>
+<p>A UW grade represents an unofficial withdrawal which is given to a student who meets all of the following criteria:</p>
+<ol>
+<li>The student did not complete proper withdrawal procedures from the course (i.e., did not drop the class within the established academic deadlines).</li>
+<li>The student has a record of non-attendance</li>
+<li>The student did not complete any work, tests, or class-related assignments after attendance ceased.</li>
+<li>The student&rsquo;s record of non-attendance began <span style="text-decoration: underline;">before</span> the last date to drop classes without receiving the grade earned (June 15 for full-semester Summer 2008 classes or June 30 for second block Summer 2008 classes).</li>
+</ol>
+<p>Based on this information, an F grade is appropriate if:</p>
+<ol>
+<li>the student <span style="text-decoration: underline;">does not</span> have a record of non-attendance and the student&rsquo;s academic performance warrants a failing grade</li>
+<li>the student&rsquo;s record of non-attendance began <span style="text-decoration: underline;">after</span> the last date to drop a class without receiving the grade earned (June 15 for full-semester Summer 2008 classes or June 30 for second block Summer 2008 classes).</li>
+</ol>
+<p>Both an F and a UW are calculated into the GPA as a failing grade value (0.0).</p>
+</div>
+<div id="grade9" style="display: none;">
+<p>"T" grades represent a temporary grade that was assigned for courses that do not fall within the normal academic deadlines of any given semester (e.g., internships, student teaching, tours). T grades can only be assigned by the Student Records and Registration Office for courses that meet these conditions.</p>
+<p>T grades do not impact a student&rsquo;s GPA, but may impact Satisfactory Academic Standing in that the credits for the course are counted as attempted, but not yet earned. Therefore, instructors over courses for which T grades are assigned are encouraged to submit their final grades as soon as the coursework is completed.</p>
+<p>"NR" represents that the grade was not reported by the instructor. A student receiving an "NR" grade should contact the instructor to request that a valid grade be submitted to the Student Records and Registration Office.</p>
+<p>As with T Grades, NR grades do not impact a student&rsquo;s GPA, but may impact Satisfactory Academic Standing in that the credits for the course are counted as attempted, but not yet earned. Therefore, instructors over courses for which NR grades were assigned are encouraged to submit their final grades as soon as possible</p>
+</div>
+<!--IMAGES-->
+<div><img height="140" src="Images/Admin_Offices/Student Record and Registration/SecondLevelPage/homies final.png" width="510" /><img height="140" src="Images/Admin_Offices/Student Record and Registration/SecondLevelPage/grades.png" width="168" /></div>
+<div id="bar"><img alt="bar" height="4" src="Images/Admin_Offices/Student Record and Registration/SecondLevelPage/bar1.png" width="710" /></div>
+<!--TABZ-->
+<div class="sectionstwo">
+<div class="tabz"><a class="current" href="x44577.xml">Grading</a> <a href="x46098.xml">Alternate Ways to Earn Credit</a> <a href="x46097.xml">Exceptions to Grade Policies</a></div>
+<!--NAVIGATION-->
+<div class="box visible">
+<ul>
+<li><a href="x44578.xml">Grading System</a></li>
+<li><a href="x44579.xml">Credit Definitions</a></li>
+<li><a href="#grade1" rel="ibox" title="Auditing a Course">Auditing a Course</a></li>
+<li><a href="student-records-and-registration/grades-and-credit#grade4" rel="ibox" title="Retakes/Repeats">Retakes/Repeats</a></li>
+<li><a href="student-records-and-registration/grades-and-credit#grade5" rel="ibox" title="Pass/Fail">Pass/Fail</a></li>
+<li><a href="student-records-and-registration/grades-and-credit#grade6" rel="ibox" title="Progress vs. Non-Progress Grades">Progress vs. Non-Progress Grades</a></li>
+<li><a href="student-records-and-registration/grades-and-credit#grade7" rel="ibox" title="Satisfactory Academic Progress (SAP)">Satisfactory Academic Progress (SAP)</a></li>
+<li><a href="student-records-and-registration/grades-and-credit#grade8" rel="ibox" title="W's (withdrawal) and UW's (unofficial withdraw)">W's (withdrawal) and UW's (unofficial withdraw)</a></li>
+<li><a href="student-records-and-registration/grades-and-credit#grade9" rel="ibox" title="T's (temporary grade) and NR's (non-reported grade)">T's (temporary grade) and NR's (non-reported grade)</a></li>
+<li><a href="x47100.xml">How to calculate your GPA</a></li>
+</ul>
+</div>
+</div>
+<!--EVENTS-->
+<div class="span-18 last" id="events_bar_horizontal">
+<div class="span-18 last" id="window">
+<div id="events_bar_control"><span class="prev">&nbsp;</span><span class="next"></span></div>
+<div id="pane"><!--THE BEGING OF THE EVENTS-->
+<div class="single_event"><a class="event_link" href="http://ingeniux.byui.edu/admin/xml/"><span class="event_date"><span class="cal_day">25</span><br /><span class="cal_month">MAR</span></span></a>
+<p style="color: #303030;">Last day to withdraw from Second Block Classes and receive a "W" grade and not the grade earned.</p>
+</div>
+<div class="single_event"><a class="event_link" href="http://ingeniux.byui.edu/admin/xml/"><span class="event_date"><span class="cal_day">26</span><br /><span class="cal_month">MAR</span></span></a>
+<p style="color: #303030;">Last day to withdraw completely from school and receive a "W" grades and not the grades earned.</p>
+</div>
+<div class="single_event"><a class="event_link" href="http://ingeniux.byui.edu/admin/xml/"><span class="event_date"><span class="cal_day">2</span><br /><span class="cal_month">APR</span></span></a>
+<p style="color: #303030;">Last day to withdraw from all Second Block classes and receive a "W" grade and not the grade earned.</p>
+</div>
+<div class="single_event"><a class="event_link" href="http://ingeniux.byui.edu/admin/xml/"><span class="event_date"><span class="cal_day">10</span><br /><span class="cal_month">APR</span></span></a>
+<p style="color: #303030;">Last day of classes.</p>
+</div>
+<div class="single_event"><a class="event_link" href="http://ingeniux.byui.edu/admin/xml/"><span class="event_date"><span class="cal_day">12</span><br /><span class="cal_month">APR</span></span></a>
+<p style="color: #303030;">Graduation Commencement and Convocations.</p>
+</div>
+<div class="single_event"><a class="event_link" href="http://ingeniux.byui.edu/admin/xml/"><span class="event_date"><span class="cal_day">22</span><br /><span class="cal_month">APR</span></span></a>
+<p style="color: #303030;">Classes Begin.</p>
+</div>
+<div class="single_event"><a class="event_link" href="http://ingeniux.byui.edu/admin/xml/"><span class="event_date"><span class="cal_day">28</span><br /><span class="cal_month">APR</span></span></a>
+<p style="color: #303030;">Last day to Add to a Full Semester &amp; First Block Waiting List.</p>
+</div>
+<div class="single_event"><a class="event_link" href="http://ingeniux.byui.edu/admin/xml/"><span class="event_date"><span class="cal_day">28</span><br /><span class="cal_month">APR</span></span></a>
+<p style="color: #303030;">Last day to Add to a First Block Waiting List.</p>
+</div>
+<div class="single_event"><a class="event_link" href="http://ingeniux.byui.edu/admin/xml/"><span class="event_date"><span class="cal_day">29</span><br /><span class="cal_month">APR</span></span></a>
+<p style="color: #303030;">PAYMENT DEADLINES - Full Semester: Tuition, Fees, and Insurance - Late Charge of 5% on unpaid balance.</p>
+</div>
+<!--THE END OF THE EVENTS--></div>
+</div>
+</div>
+<!--FOOTER-->
+<div id="email" style="display: none;">
+<p>For any questions please email us at <a href="mailto:registration@byui.edu"><span style="text-decoration: underline;">registration@byui.edu</span></a></p>
+</div>
+<div id="phone" style="display: none;">
+<p>For any questions please call us at (208)-496-1025</p>
+</div>
+<p><img alt="Bar" height="2" src="Images/Admin_Offices/Student Record and Registration/HomePage/bottomBar.jpg" width="710" /></p>
+<div class="barb"><img alt="Bar" height="2" src="Images/Admin_Offices/Student Record and Registration/HomePage/bottomBar.jpg" width="710" /></div>
+<div id="bottomContact">
+<ul>
+<li><img alt="Email Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/envelope.png" width="23" /><a href="#email" rel="ibox" title="Email Information"> Email Us</a></li>
+<li><img alt="Phone Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/phone.png" width="23" /><a href="#phone" rel="ibox" title="Phone Information"> Call Us</a></li>
+<li><img alt="Visit Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/visit.png" width="23" /><a href="Images/Admin_Offices/Student Record and Registration/HomePage/byuidahoMap.jpg" rel="ibox"> Visit Us</a></li>
+<li><img alt="Facebook Link" height="16" src="Images/Admin_Offices/Student Record and Registration/HomePage/facebook.png" width="16" /><a href="http://www.facebook.com/pages/BYU-Idaho-Student-Records-and-Registration/276472292461946?fref=ts"> facebook</a></li>
+<li><img alt="Live Chat Link" height="16" src="Images/Admin_Offices/Student Record and Registration/HomePage/livechat.png" width="18" /><a href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=Admissions&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large" onclick="window.open('https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;SESSIONVAR!skill=Admissions&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large&amp;referrer='+escape(document.location),'chat1132447','width=472,height=320');return false;" target="chat1132447"> Live Chat</a></li>
+<li><img alt="Site Index Link" height="17" src="Images/Admin_Offices/Student Record and Registration/HomePage/index.png" width="18" /><a href="x43952.xml"> Index</a></li>
+</ul>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x17143" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

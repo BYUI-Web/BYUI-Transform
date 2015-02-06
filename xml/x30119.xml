@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.68 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x30119" Name="Schedule" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Best of EFY: Schedule 2012</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">The Best of EFY schedule shows the various locations of the event, the date and stakes invited that correspond to the host stake area.</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent" Expanded="false"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent" Expanded="false"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style><!--
+.fixtable p{
+margin: 0 !important;
+font-size: 10pt !important; 
+}
+--></style>
+<p><span style="font-family: arial,helvetica,sans-serif; font-size: small;">The agendas for a current Best of EFY session may be found on the&nbsp;<a href="x32570.xml">registration</a> page.</span></p>
+<p><span style="font-family: arial,helvetica,sans-serif; font-size: small;">The following is a list of this year's Best of EFY sessions:</span></p>
+<table class="fixtable">
+<tbody>
+<tr>
+<td>Host Stake</td>
+<td>Address<br /></td>
+<td>Date/Time</td>
+<td>Stakes Invited</td>
+</tr>
+<tr>
+<td>Boise East</td>
+<td>
+<p>&nbsp;</p>
+<p>2290 Warm Spring Ave</p>
+<p>Boise, Idaho 83712</p>
+</td>
+<td>
+<p>&nbsp;</p>
+<p>Sept 15, 2012</p>
+<p>10 a.m. - 12 noon</p>
+</td>
+<td>
+<p>&nbsp;Boise, Boise Central, Boise East, Boise North, Boise West, Meridian Amity and&nbsp;Mountain Home.</p>
+</td>
+</tr>
+<tr>
+<td>Meridian West</td>
+<td>
+<p>1985 N. Black Cat Rd</p>
+<p>Meridian, Idaho 83642</p>
+</td>
+<td>
+<p>Sept 15, 2012</p>
+<p>2 - 4&nbsp;p.m.</p>
+</td>
+<td>
+<p>Meridian, Meridian East, Meridian North, Meridian Paramount, Meridian South, Meridian West, Eagle and Star</p>
+</td>
+</tr>
+<tr>
+<td>Nyssa</td>
+<td>
+<p>1309 Park Ave</p>
+<p>Nyssa, Oregon 97913</p>
+</td>
+<td>
+<p>Oct 27, 2012</p>
+<p>10 a.m.-12 noon</p>
+</td>
+<td>Emmett, LaGrande, Ontario, Nyssa and Weiser</td>
+</tr>
+<tr>
+<td>Nampa East</td>
+<td>
+<p>3904 East Greenhust Rd</p>
+<p>Nampa, Idaho 83686</p>
+</td>
+<td>
+<p>Oct 27, 2012</p>
+<p>2-4 p.m.</p>
+</td>
+<td>Caldwell, Caldwell East, Kuna, Kuna East, Middleton, Nampa East, Nampa North, Nampa South and Nampa West</td>
+</tr>
+</tbody>
+</table>
+<br />]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x28802" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

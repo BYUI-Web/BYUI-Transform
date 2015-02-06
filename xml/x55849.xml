@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x55849" Name="Application Deadlines" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Application Deadlines</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Application Deadlines for the ASN program are as follows
+Spring Semester Admission - November 15th (selection results available Late March)
+Fall Semester Admission - March 15th (selection results available Late June)
+Winter Semester Admission - June 15th (selection results available Late November)</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<img alt="ASN Nursing Lab" height="250" src="Images/nursing/ASN.jpg" width="710" />
+<p><strong><strong>ASN Nursing Application Deadlines</strong></strong></p>
+<ul>
+</ul>
+<table border="0">
+<tbody>
+<tr>
+<td><strong>Applying to start:</strong></td>
+<td><strong>Application Due:</strong></td>
+<td><strong>Selections/Notifications</strong></td>
+<td><strong>Begin ASN Program</strong></td>
+</tr>
+<tr>
+<td>Fall Semester</td>
+<td>March 15th</td>
+<td>Late June</td>
+<td>September</td>
+</tr>
+<tr>
+<td>Winter Semester</td>
+<td>June 15th</td>
+<td>Late October</td>
+<td>January</td>
+</tr>
+<tr>
+<td>Spring Semester</td>
+<td>November 15th</td>
+<td>Late February</td>
+<td>April</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Reapplying for the Nursing Program</strong></p>
+<p>A <strong>new page 1</strong> application must be submitted by the deadline for <strong>each </strong><strong>successive</strong><strong> semester</strong> a student wishes to be considered for admission.</p>
+<ul>
+<li>Though not <em>required</em>, students may update any portion of the application prior to the deadline.</li>
+<li>Students may apply a maximum of three times to the ASN Program.</li>
+</ul>
+<ul>
+</ul>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="x27130" CompTypes="HighlightedLinksComponent"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x1839" CompTypes="SiteControl"/></Content>

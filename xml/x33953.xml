@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.82 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x33953" Name="Employee or Contractor" Layout="general_content.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Employee or Contractor</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Employee or Contractor</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p style="font-family: Verdana, Arial, sans-serif;">Federal labor laws consider many criteria in deciding whether a worker is an independent contractor or an employee.  The relevant criteria fall into three main categories:</p>
+<ol style="font-family: Verdana, Arial, sans-serif;">
+<li>Behavioral Control</li>
+<li>Financial Control</li>
+<li>Relationship of the Parties</li>
+</ol>
+<p style="font-family: Verdana, Arial, sans-serif;">In each case it is important to consider all the criteria and facts.  No single criterion provides the answer.  In making a decision, the following explanations and questions should be carefully considered.</p>
+<br />
+<h4 style="font-weight: bold;">Behavioral Control</h4>
+<p style="font-family: Verdana, Arial, sans-serif;">Behavioral criteria demonstrat whether there is a right to direct or control how the worker performs.  A worker is an employee when BYU-Idaho has the right to direct and control the worker.  BYU-Idaho may not have to actually direct or control the way the work is done, as long as BYU-Idaho has the right to direct and control the work.</p>
+<ul style="font-family: Verdana, Arial, sans-serif; list-style-type: circle;">
+<li><strong>Instructions:</strong> If the individual receives extensive instruction on how the work is to be done, this suggests that the individual is an employee.  Instructions can cover a wide range of topics, for example:  
+<ul style="font-family: Verdana, Arial, sans-serif; list-style-type: lower-alpha;">
+<li>How, when, or where the work is to be done</li>
+<li>What tools or equipment is to be used</li>
+<li>What assistants to hire</li>
+<li>Where to purchase supplies and services</li>
+<li>If the individual receives less extensive instructions about what should be done, but not how it should be done, they may be an independent contractor.</li>
+</ul>
+</li>
+<li><strong>Training:</strong> If BYU-Idaho provides the individual with training on required procedures and methods, this indicates that BYU-Idaho wants the work done in a certain way and suggests that the individual may be an employee.</li>
+</ul>
+<br />
+<h4 style="font-weight: bold;">Financial Control</h4>
+<p style="font-family: Verdana, Arial, sans-serif;">Financial criteria show whether there is a right to direct or control the business aspect of the work.</p>
+<ul style="font-family: Verdana, Arial, sans-serif; list-style-typ: circle;">
+<li><strong>Significant Investment:</strong> If the individual has a significant investment in the work, they may be an independent contractor.  While there is no designated dollar test, the investment must have substance.  However, a significant investment is not necessary to be an independent contractor.</li>
+<li><strong>Expenses:</strong> If the individual is not reimbursed for some or all of the business expenses incurred, they may be an independent contractor, especially if unreimbursed business expenses are significant in relation to the total cost.</li>
+<li><strong>Opportunity for Profit or Loss:</strong> The fact that an individual may have the potential to realize a profit or incur a loss suggests that they are in business for themselves and may be an independent contractor.</li>
+</ul>
+<br />
+<h4 style="font-weight: bold;">Relationship of the Parties</h4>
+<p style="font-family: Verdana, Arial, sans-serif;">These criteria illustrate how the University and the worker perceive their relationship.</p>
+<ul style="font-family: Verdana, Arial, sans-serif; list-style-type: circle;">
+<li><strong>Employee Benefits:</strong>The receipt of benefits by the individual, such as insurance, pension, or paid leave, indicates an employer/employee relationship.  If the individual does not receive benefits, they could be either an employee or an independent contractor.</li>
+</ul>
+<br />
+<h4 style="font-weight: bold;">Twenty Question Test</h4>
+<p style="font-family: Verdana, Arial, sans-serif;"><strong>For the following questions, a 'yes' answer (except #16 and #18) is indicative of an employer/employee relationship.</strong></p>
+<ol style="font-family: Verdana, Arial, sans-serif;">
+<li>Is the worker required to comply with instructions about when, where and how the work is done?</li>
+<li>Is the worker provided training that would enable him/her to perform a job in a particular method or manner?</li>
+<li>Are the services provided by the worker an integral part of the business' operations?</li>
+<li>Must the services be rendered personally?</li>
+<li>Does the business hire, supervise, or pay assistants to help the worker on the job?</li>
+<li>Is there a continuing relationship between the worker and the person for whom the services are performed?</li>
+<li>Does the recipient of the services set the work schedule?</li>
+<li>Is the worker required to devote his/her full time to the person he/she performs services for?</li>
+<li>Is the work performed at the place of business of the company or at specific places set by the company?</li>
+<li>Does the recipient of the services direct the sequence in which the work must be done?</li>
+<li>Are regular oral or written reports required to be submitted by the worker?</li>
+<li>Is the method of payment hourly, weekly, monthly (as opposed to commission or by the job)?</li>
+<li>Are business and/or traveling expenses reimbursed?</li>
+<li>Does the company furnish tools and materials used by the worker?</li>
+<li>Has the worker failed to invest in equipment or facilities used to provide the services?</li>
+<li>Does the arrangement put the person in a position of realizing either a profit or loss on the work?</li>
+<li>Does the worker perform services exclusively for the company rather than working for a number of companies at the same time?</li>
+<li>Does the worker in fact make his/her services regularly available to the general public?</li>
+<li>Is the worker subject to dismissal for reasons other than non-performance of the contract specifications?</li>
+<li>Can the worker terminate his/her relationship without incurring a liability for failure to complete the job?</li>
+</ol>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x18419" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

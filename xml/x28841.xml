@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.68 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x28841" Name="FAQ's" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Frequently Asked Questions</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Community Connections provides a large variety of programs, classes, and workshops. Questions about a particular program might be answered by the programs FAQ page linked below. Programs without a FAQ page are not linked.</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style><!--
+#Border {
+color: black;
+margin:12px;
+border-spacing:1px;
+border: 1px solid black;
+}
+#Border td{
+
+padding: 4px;
+}
+--></style>
+<div><strong></strong><span style="font-size: small; font-family: arial,helvetica,sans-serif;">Community Connections provides a large variety of  programs, classes, and workshops. Questions about a particular program  might be answered by the programs FAQ page linked below. Programs  without a FAQ page are not linked.</span>
+<p align="left"><span style="font-size: small; font-family: arial,helvetica,sans-serif;">If you have a question that is not listed, or the program does not have a FAQ page, please contact us for more information.</span></p>
+<table id="Border">
+<tbody>
+<tr style="background-color: #dcdcdc;">
+<td colspan="3"><span style="font-family: arial,helvetica,sans-serif; font-size: small;"><strong>Program FAQ's List</strong></span></td>
+</tr>
+<tr>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: small;"><strong>Program </strong></span></td>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: small;"><strong>E-mail</strong></span></td>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: small;"><strong>Phone #</strong></span></td>
+</tr>
+<tr style="background-color: #dcdcdc;">
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: small;"><a href="http://www.byui.edu/cc/youth/faqs.htm" target="_parent"></a><a href="x28834.xml">Adventure For Youth (AFY)</a></span></td>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: small;"><a href="mailto:youthprograms@byui.edu" target="_parent">youthprograms@byui.edu</a></span></td>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: small;">(208) 496-1222</span></td>
+</tr>
+<tr>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: small;"><a href="http://www.byui.edu/cc/befy/faqs.htm" target="_parent"></a><a href="x28831.xml">Best of EFY</a><br /></span></td>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: small;"><a href="mailto:religiousprograms@byui.edu" target="_parent">religiousprograms@byui.edu</a></span></td>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: small;">(208) 496-1201</span></td>
+</tr>
+<tr style="background-color: #dcdcdc;">
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: small;"><a href="x28830.xml">Education Week</a></span></td>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: small;"><a href="mailto:educationweek@byui.edu" target="_parent">educationweek@byui.edu</a></span></td>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: small;">(208) 496-1201</span></td>
+</tr>
+<tr>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: small;"><a href="x32581.xml">Especially For Youth</a></span></td>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: small;"><a href="mailto:youthprograms@byui.edu" target="_parent"> youthprograms@byui.edu</a></span></td>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: small;">(208) 496-1222</span></td>
+</tr>
+<tr style="background-color: #dcdcdc;">
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: small;"><a href="x28828.xml">Family History Conference</a></span></td>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: small;"><a href="mailto:conferences@byui.edu" target="_parent">fhconferences@byui.edu</a></span></td>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: small;">(208) 496-1221</span></td>
+</tr>
+<tr>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: small;"><a href="x28824.xml">Non-Credit Classes</a> </span></td>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: small;"><a href="mailto:noncredit@byui.edu" target="_parent">noncredit@byui.edu</a></span></td>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: small;">(208) 496-1221</span></td>
+</tr>
+<tr style="background-color: #dcdcdc;">
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: small;"><a href="x28835.xml">Outdoor Youth Adventure (OYA)</a></span></td>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: small;"><a href="mailto:youthprograms@byui.edu" target="_parent">youthprograms@byui.edu</a></span></td>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: small;">(208) 496-1222</span></td>
+</tr>
+<tr>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: small;"><a href="x28833.xml">Merit Badge PowWow</a></span></td>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: small;"><a href="mailto:cepowwow@byui.edu" target="_parent">cepowwow@byui.edu</a></span></td>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: small;">(208) 496-1221</span></td>
+</tr>
+<tr style="background-color: #dcdcdc;">
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: small;"><a href="x28836.xml">Youth For Excellence (YFE)</a></span></td>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: small;"><a href="mailto:youthprograms@byui.edu" target="_parent">youthprograms@byui.edu</a></span></td>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: small;">(208) 496-1222</span></td>
+</tr>
+</tbody>
+</table>
+</div>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x28802" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x68144" Name="Comment Menu" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;!-- BOTTOM RIGHT COMMENT MENU --&gt; &lt;link href="prebuilt/stylenew/css/ui-theme/jquery-ui-1.8.24.custom.css" media="screen, projection" rel="stylesheet" type="text/css" /&gt;
+&lt;style&gt;&lt;!--
+#comment-menu {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	background-color: rgba(240,240,240, 0.9);
+	z-index: 100;
+}
+#comment-menu&gt;ul {
+	margin: 0;
+	padding: 0;
+}
+#comment-menu&gt;ul&gt;li {
+            list-style-type: none;
+            margin: none;
+            padding: none;
+}
+#comment-menu&gt;ul&gt;li&gt;a {
+	color: #333;
+	text-decoration: none;
+	font-family: Helvetica, Arial, sans-serif;
+	display: inline-block;
+	padding: 8px 15px;
+	font-size: 12px;
+	width: 145px;
+}
+#comment-menu&gt;ul&gt;li:hover&gt;a {
+	background-color: #ccc;
+}
+.comment-logo {
+	width: 14px;
+	height: 14px;
+	background: url(images/magazine/gray-arrow.png);
+	position: absolute;
+	right: 15px;
+	margin-top: -25px;
+}
+#comment-menu&gt;ul&gt;li:hover&gt;.comment-logo {
+	background: url(images/magazine/hover-arrow.png);
+}
+--&gt;&lt;/style&gt;
+&lt;!-- COMMENT BOX --&gt;
+&lt;div id="comment-menu"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="x48086.xml" title="Archive"&gt;Archive&lt;/a&gt;
+&lt;div class="comment-logo"&gt;&lt;a href="x48086.xml" title="Archive"&gt;&lt;span class="make-link"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class="suggest-open"&gt;Suggest Future Topics&lt;/a&gt;
+&lt;div class="comment-logo"&gt;&lt;a class="suggest-open"&gt;&lt;span class="make-link"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class="feedback-open"&gt;Give Feedback&lt;/a&gt;
+&lt;div class="comment-logo"&gt;&lt;a class="feedback-open"&gt;&lt;span class="make-link"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;!-- HIDDEN SURVEYS --&gt;
+&lt;div class="suggest-survey hidden" title="Suggest Future Topics"&gt;&lt;!--BEGIN QUALTRICS SURVEY--&gt; &lt;iframe frameborder="0" height="420" scrolling="auto" src="https://byui.qualtrics.com/SE/?SID=SV_1B35uD5HEcPd2Op" width="410"&gt;&lt;/iframe&gt; &lt;!--END QUALTRICS SURVEY--&gt;&lt;/div&gt;
+&lt;div class="feedback-survey hidden" title="Give Feedback"&gt;&lt;!--BEGIN QUALTRICS SURVEY--&gt; &lt;iframe frameborder="0" height="560" scrolling="auto" src="https://byui.qualtrics.com/SE/?SID=SV_6yR6ZQtfDgTmhr6" width="410"&gt;&lt;/iframe&gt; &lt;!--END QUALTRICS SURVEY--&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;// &lt;![CDATA[
+//Ignore this function area
+	function loadScript(url, callback){
+		//load script tag at end of body
+		var body = document.getElementsByTagName('body')[0];
+		var script = document.createElement('script');
+		script.type = 'text/javascript';
+		script.src = url;
+
+		// then bind the event to the callback function 
+		// there are several events for cross browser compatibility
+		script.onreadystatechange = callback;
+		script.onload = callback;
+
+		// fire the loading
+		body.appendChild(script);
+	}
+
+	//define inline script to be called inside the callback function parameter
+	var scriptCallback = function(){
+		$(".suggest-survey").dialog({
+			autoOpen: false,
+			modal: true,
+			width: 450
+		});
+		$(".feedback-survey").dialog({
+			autoOpen: false,
+			modal: true,
+			width: 450
+		});
+
+		$(".suggest-open").click(function (){
+			$(".suggest-survey").removeClass("hidden").dialog("open");
+			return false;
+		});
+		$(".feedback-open").click(function (){
+			$(".feedback-survey").removeClass("hidden").dialog("open");
+			return false;
+		});
+	}
+
+	// Execute the entire function after page has finished 
+	// loading (script import and callback inline javascript)
+	window.onload = function(){ 
+		//put the path to your jquery-dependent script below here
+		loadScript("prebuilt/js/third_party/jquery-ui-1.8.6.custom.min.js", scriptCallback);
+	}
+// ]]&gt;&lt;/script&gt;
+&lt;!-- END OF COMMENT MENU --&gt;</ContentSnippet></ContentSnippet>

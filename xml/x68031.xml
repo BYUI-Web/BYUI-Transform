@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x68031" Name="search_results.css" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">search_results.css</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">search_results.css</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">body {
+	width: 950px;
+	margin: auto;
+}
+ul {
+	padding: 0;
+}
+
+#search_form {
+	background-image: url('../../images/search_results/search_header_gradient.jpg');
+	background-repeat: repeat-x;
+	height: 100px;
+	padding-left: 30px;
+	padding-top: 25px;
+	margin-bottom: -25px;
+	color: #FFF;
+	font-size: 90%;
+}
+
+#search_form &gt; form {
+	position: relative;
+	padding-top: 10px;
+}
+
+#search_form form input{
+	border-style: none;
+}
+
+#search_form form input.search_box{
+	height: 18px;
+}
+
+#search_form form input.search_img{
+	position: absolute;
+	top:10px;
+	left: 429px;
+}
+
+#go_search { width: 430px;}
+#do_search { margin-bottom: -6px; }
+
+.search_result {
+	margin-left: 10px;
+	padding-right: 30px;
+}
+
+.search_result a {
+	color: #666;
+	font-weight: bold;
+	font-size: .7em;
+}
+
+
+.search_result h3 a{
+	margin-top: 10px;
+	color: #1c74b5;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.search_result p {
+	color: #666;
+	font-size: .7em;
+}
+
+#pagination_link {
+	font-size: 1em;
+	margin: 10px 0px 10px 10px;
+}
+
+#pagination_link a {
+	color: #1c74b5;
+}
+
+#pagination_link ul {
+	list-style: none;
+}
+
+#pagination_link ul li a{
+	color: black;
+	height: 21px;
+	width: 21px;
+	padding: 3px 5px 0px 0px;
+	margin-bottom: 10px;
+	font-size: 12px;
+	text-align: center;
+	background-image: url(../../images/search_results/box.jpg);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#pagination_link ul li.active a{
+	background-image: url(../../images/search_results/box_active.jpg);
+}
+
+#pagination_link ul li.link a{
+	color:gray;
+	width: 50px;
+	background-image: none;
+}
+
+#pagination_link a:hover { text-decoration: underline }
+</ESContent></EmptyShell>

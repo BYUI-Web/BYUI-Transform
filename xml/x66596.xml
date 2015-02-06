@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content ID="x66596" Name="About Us" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">About Us</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">About Us</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<div>
+<title></title>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+<style type="text/css"><!--
+        #wrapper{
+
+            width:710px;
+            background-color:#F4F4F4;
+            margin-top:-10px;
+
+
+        }
+        #green{
+
+            background-color:#99CA42;
+            width:100%;
+            box-shadow:2px 2px 2px #969696;
+        }
+
+
+        #orange{
+            background-color:#FBAA09;
+            width:100%;
+            box-shadow:2px 2px 2px #969696;
+        }
+
+        #purple{
+            background-color:#8A6AA2;
+            width:100%;
+            box-shadow:2px 2px 2px #969696;
+
+        }
+
+        #red{
+            background-color:#DB6233;
+            width:100%;
+            box-shadow:2px 2px 2px #969696;
+
+        }
+
+        #blue{
+            background-color:#106CC1;
+            width:100%;
+            box-shadow:2px 2px 2px #969696;
+
+        }
+
+        #green p, #red p, #purple p, #blue p, #orange p{
+
+            font-family:Helvetica;
+            font-weight:700;
+            margin-left:10px;
+            margin-top:0px;
+            padding:10px;
+            color:#fff;
+        }
+        #header{
+
+            width:710px;
+            margin-top:20px;
+
+        }
+
+        #header p{
+            font-size:1.1em;
+
+            margin-left:10px;
+
+        }
+        #header span{
+            font-weight:600;
+
+        }
+        #assist{
+            color:#99CA42;
+
+        }
+        #prepare{
+            color:#8A6AA2;
+        }
+        #connect{
+            color:#DB6233;
+        }
+        #inspire{
+            color:#F9A509;
+        }
+        #getInvolved{
+            color:#106CB5;
+        }
+        #head{
+
+            background-color:#000;
+            width:710px;
+            height:70px;
+            box-shadow:.5px .5px 2px #555;
+        }
+        #head span{
+            color:#fff;
+            font-family:"MS Sans Serif", Geneva, sans-serif;
+            font-weight:200;
+            font-size:2.1em;
+            
+            
+        }
+        #head p{
+            margin-left:15px;
+        }
+--></style>
+<div id="head">
+<p><br /><span>Student Support Stewardship Statement</span></p>
+</div>
+<h2><strong>
+<div id="header">
+<p><span id="assist">Assist</span> and <span id="inspire">inspire</span> students to <span id="prepare">prepare</span> for, <span id="connect">connect</span> to, and <span id="getInvolved">get involved</span> in their BYU-Idaho learning experience.</p>
+</div>
+</strong></h2>
+<div id="wrapper">
+<div id="green">
+<p>Students will ASSIST new and current students, parents, and others by giving counsel, answering questions,  			resolving problems and directing them to the services and resources needed.</p>
+</div>
+<div id="orange">
+<p>Student leaders will INSPIRE one another and the volunteers they work with as they strive to "bring down the powers of heaven"                  and recognize the hand of the Lord throughout their service.</p>
+</div>
+<div id="purple">
+<p>Students will help new students PREPARE for their disciple preparation center experience at BYU-Idaho prior 			to their arrival.</p>
+</div>
+<div id="red">
+<p>Students will help new and current students form personal CONNECTIONS to their fellow students, faculty  			and administration, and to BYU-Idaho.</p>
+</div>
+<div id="blue">
+<p>Students will help new and current students GET INVOLVED to strengthen their disciple leadership                     for future service in the Church, family, workplace, and community.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-33977325-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x19075" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

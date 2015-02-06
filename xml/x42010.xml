@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?><Content ID="x42010" Name="Applications" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Applications</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Applications (Cloud Based) - These are cloud based tools that students can use for editing and storage.</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false" /><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false" /><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<img src="Images/academic-technology-services/STC/banners/banner.jpg" /> <br /> <br />
+<div>
+<div style="display: inline-block; width: 100px; padding: 0; margin: 0;"><img height="99px" src="Images/academic-technology-services/STC/iconsBig/Applications.jpg" style="margin: 0; padding: 0 0 20px;" width="102px" /></div>
+<h2 style="display: inline-block; vertical-align: text-top; max-width: 80%; margin-top: -65px; margin-left: 110px; font-size: 200%;"><strong>Tools and Resources</strong></h2>
+</div>
+<hr />
+<div>
+<div style="display: inline-block; vertical-align: text-bottom;">
+<h2>Vector editors</h2>
+<h3><small>(like Adobe Illustrator)</small></h3>
+</div>
+<div style="display: inline-block; vertical-align: text-middle; width: 55%; margin-left: 100px;">
+<ul>
+<li><strong>Aviary Raven</strong> is a vector editor (<a href="http://advanced.aviary.com/launch/raven" style="text-decoration: none;">http://advanced.aviary.com/launch/raven#</a>)</li>
+<li><strong>Inkscape</strong> (<a href="http://inkscape.org/" style="text-decoration: none;">http://inkscape.org/</a>)</li>
+</ul>
+</div>
+</div>
+<hr />
+<div>
+<div style="display: inline-block; vertical-align: text-bottom;">
+<h2>Photo Editing Tools</h2>
+</div>
+<div style="display: inline-block; vertical-align: text-top; width: 55%; margin-left: 74px;">
+<ul>
+<li><strong>Photoshop.com</strong><a href="http://www.photoshop.com/tools/overview" style="text-decoration: none;"> (http://www.photoshop.com/tools/overview)</a></li>
+<li><strong>Aviary Feather</strong> is a basic image-editing tool. You can crop, adjust the image, add some text and apply filters.<a href="http://advanced.aviary.com/" style="text-decoration: none;"> (http://advanced.aviary.com/)</a></li>
+<li><strong>Aviary Phoenix</strong> is a more robust application and close to something like Photoshop with the layering and more complex editing capabilities.<a href="http://advanced.aviary.com/" style="text-decoration: none;"> (http://advanced.aviary.com/)</a></li>
+<li><strong>Pixlr</strong> has many of the standard features that you may need.<a href="http://pixlr.com/" style="text-decoration: none;"> (http://pixlr.com/)</a></li>
+<li><strong>Splashup</strong> is an image editing tool and photo manager.<a href="http://www.splashup.com/" style="text-decoration: none;"> (http://www.splashup.com/)</a></li>
+<li><strong>Dr.Pic</strong> provides tools for basic image editing.<a href="http://www.drpic.com/" style="text-decoration: none;"> (http://www.drpic.com/)</a></li>
+</ul>
+</div>
+</div>
+<hr />
+<div>
+<div style="display: inline-block; vertical-align: text-bottom;">
+<h2>Paint Editing Tools</h2>
+</div>
+<div style="display: inline-block; vertical-align: text-top; width: 55%; margin-left: 80px;">
+<ul>
+<li><strong>Sumo Paint</strong> offers tools very similar to Adobe Illustrator and will help you to add the finishing touches to your project.<a href="http://www.sumopaint.com/home/" style="text-decoration: none;"> (http://www.sumopaint.com/home/)</a></li>
+</ul>
+</div>
+</div>
+<hr />
+<div>
+<div style="display: inline-block; vertical-align: text-bottom;">
+<h2>Storage</h2>
+</div>
+<div style="display: inline-block; vertical-align: text-top; width: 55%; margin-left: 179px;">
+<ul>
+<li><strong>Skydrive </strong>located in your BYU-Idaho account.&nbsp; You can find your Skydrive tab next to the I-Learn tab.&nbsp; It acts just like a flash drive that you can use every time you log in to your BYU-Idaho account.</li>
+<li><strong>Box.net</strong></li>
+<li><strong>Dropbox.com</strong></li>
+</ul>
+</div>
+</div>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="true" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="x40923" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false" /></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" /><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" /><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" /></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent" /><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet" /></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query="" /><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x15119" CompTypes="SiteControl" /></Content>

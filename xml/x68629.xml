@@ -1,0 +1,435 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x68629" Name="Typography 2" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Typography 2</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Typography 2</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+.grid_display div{
+	background-color: #eee; 
+	text-align: center;
+	margin-bottom: 10px}
+textarea{
+	width: 460px;
+	height: 100px;
+	border: 1px solid #eee;}
+.code_display{
+	margin-bottom: 15px;
+	background-color: #eee;
+	font-family: monospace;}
+--></style>
+<div class="span-24">
+<div class="span-12">
+<h1>H1 Heading</h1>
+<p>Lorem ipsum dolor sit am\net, <sub>sub text</sub> adipisicing elit, sed do <sup>sup text</sup> tempor incididunt ut <a href="#">labore et dolore magna</a> aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+</div>
+<div class="span-12 last code_display">
+<h2>Code</h2>
+&lt;h1&gt;H1 Heading&lt;/h1&gt;<br /> &lt;p&gt;Lorem ipsum dolor sit amet, &lt;sub&gt;sub text&lt;/sub&gt; adipisicing elit, sed do &lt;sup&gt;sup text&lt;/sup&gt; tempor incididunt ut &lt;a href="#"&gt;labore et dolore magna&lt;/a&gt; aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.&lt;/p&gt;</div>
+</div>
+<div class="span-24">
+<div class="span-12">
+<h2>H2 Heading</h2>
+<p>Lorem ipsum dolor sit amet, <sub>sub text</sub> adipisicing elit, sed do <sup>sup text</sup> tempor incididunt ut <a href="#">labore et dolore magna</a> aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+</div>
+<div class="span-12 last code_display">
+<h2>Code</h2>
+&lt;h2&gt;H2 Heading&lt;/h2&gt;<br /> &lt;p&gt;Lorem ipsum dolor sit amet, &lt;sub&gt;sub text&lt;/sub&gt; adipisicing elit, sed do &lt;sup&gt;sup text&lt;/sup&gt; tempor incididunt ut &lt;a href="#"&gt;labore et dolore magna&lt;/a&gt; aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.&lt;/p&gt;</div>
+</div>
+<div class="span-24">
+<div class="span-12">
+<h3>H3 Heading</h3>
+<p>Lorem ipsum dolor sit amet, <sub>sub text</sub> adipisicing elit, sed do <sup>sup text</sup> tempor incididunt ut <a href="#">labore et dolore magna</a> aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+</div>
+<div class="span-12 last code_display">
+<h2>Code</h2>
+&lt;h3&gt;H3 Heading&lt;/h3&gt;<br /> &lt;p&gt;Lorem ipsum dolor sit amet, &lt;sub&gt;sub text&lt;/sub&gt; adipisicing elit, sed do &lt;sup&gt;sup text&lt;/sup&gt; tempor incididunt ut &lt;a href="#"&gt;labore et dolore magna&lt;/a&gt; aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.&lt;/p&gt;</div>
+</div>
+<div class="span-24">
+<div class="span-12">
+<h4>H4 Heading</h4>
+<p>Lorem ipsum dolor sit amet, <sub>sub text</sub> adipisicing elit, sed do <sup>sup text</sup> tempor incididunt ut <a href="#">labore et dolore magna</a> aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+</div>
+<div class="span-12 last code_display">
+<h2>Code</h2>
+&lt;h4&gt;H4 Heading&lt;/h4&gt;<br /> &lt;p&gt;Lorem ipsum dolor sit amet, &lt;sub&gt;sub text&lt;/sub&gt; adipisicing elit, sed do &lt;sup&gt;sup text&lt;/sup&gt; tempor incididunt ut &lt;a href="#"&gt;labore et dolore magna&lt;/a&gt; aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.&lt;/p&gt;</div>
+</div>
+<div class="span-24">
+<div class="span-12">
+<h5>H5 Heading</h5>
+<p>Lorem ipsum dolor sit amet, <sub>sub text</sub> adipisicing elit, sed do <sup>sup text</sup> tempor incididunt ut <a href="#">labore et dolore magna</a> aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+</div>
+<div class="span-12 last code_display">
+<h2>Code</h2>
+&lt;h5&gt;H5 Heading&lt;/h5&gt;<br /> &lt;p&gt;Lorem ipsum dolor sit amet, &lt;sub&gt;sub text&lt;/sub&gt; adipisicing elit, sed do &lt;sup&gt;sup text&lt;/sup&gt; tempor incididunt ut &lt;a href="#"&gt;labore et dolore magna&lt;/a&gt; aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.&lt;/p&gt;</div>
+</div>
+<div class="span-24">
+<div class="span-12">
+<h6>H6 Heading</h6>
+<p>Lorem ipsum dolor sit amet, <sub>sub text</sub> adipisicing elit, sed do <sup>sup text</sup> tempor incididunt ut <a href="#">labore et dolore magna</a> aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+</div>
+<div class="span-12 last code_display">&lt;h6&gt;H6 Heading&lt;/h6&gt;<br /> &lt;p&gt;Lorem ipsum dolor sit amet, &lt;sub&gt;sub text&lt;/sub&gt; adipisicing elit, sed do &lt;sup&gt;sup text&lt;/sup&gt; tempor incididunt ut &lt;a href="#"&gt;labore et dolore magna&lt;/a&gt; aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.&lt;/p&gt;</div>
+</div>
+<div class="span-24">
+<div class="span-12">
+<p class="box">Box of text</p>
+</div>
+<div class="span-12 last code_display">
+<h2>Code</h2>
+&lt;p class="box"&gt;Box of text&lt;/p&gt;</div>
+</div>
+<div class="span-24">
+<div class="span-12">
+<p><em>Emphasized Text</em></p>
+</div>
+<div class="span-12 last code_display">
+<h2>Code</h2>
+&lt;p&gt;&lt;em&gt;Emphasized Text&lt;/em&gt;&lt;/p&gt;</div>
+</div>
+<div class="span-24">
+<div class="span-12">
+<p><strong>Strong Text</strong></p>
+</div>
+<div class="span-12 last code_display">
+<h2>Code</h2>
+&lt;p&gt;&lt;strong&gt;Strong Text&lt;/strong&gt;&lt;/p&gt;</div>
+<div class="span-24">
+<div class="span-12">
+<blockquote>Blockquotes</blockquote>
+</div>
+<div class="span-12 last code_display">
+<h2>Code</h2>
+&lt;blockquote&gt;Blockquotes&lt;/blockquote&gt;</div>
+</div>
+<div class="span-24">
+<div class="span-12">
+<h2>Ordered List</h2>
+<ol>
+<li>Item 1 	<ol>
+<li>Ordered Item 1</li>
+<li>Ordered Item 2 			
+<ul>
+<li>Nested Item 1</li>
+<li>Nested Item 2</li>
+</ul>
+</li>
+</ol> </li>
+<li>Item 2</li>
+<li>Item 3</li>
+</ol></div>
+<div class="span-12 last code_display">
+<h2>Code</h2>
+&lt;h2&gt;Ordered List&lt;/h2&gt;<br /> &lt;ol&gt;<br /> &lt;li&gt;Item 1<br /> &lt;ol&gt;<br /> &lt;li&gt;Ordered Item 1&lt;/li&gt;<br /> &lt;li&gt;Ordered Item 2<br /> &lt;ul&gt;<br /> &lt;li&gt;Nested Item 1&lt;/li&gt;<br /> &lt;li&gt;Nested Item 2&lt;/li&gt;<br /> &lt;/ul&gt;<br /> &lt;/li&gt;<br /> &lt;/ol&gt;<br /> &lt;li&gt;Item 2&lt;/li&gt;<br /> &lt;li&gt;Item 3&lt;/li&gt;<br /> &lt;/ol&gt;</div>
+</div>
+<div class="span-24">
+<div class="span-12">
+<h2>Unordered List</h2>
+<ul>
+<li>Item 1 	
+<ul>
+<li>Unordered Item 1</li>
+<li>Unordered Item 2 			<ol>
+<li>Nested Item 1</li>
+<li>Nested Item 2</li>
+</ol> </li>
+</ul>
+</li>
+<li>Item 2</li>
+<li>Item 3</li>
+</ul>
+</div>
+<div class="span-12 last code_display">
+<h2>Code</h2>
+&lt;h2&gt;Unordered List&lt;/h2&gt;<br /> &lt;ul&gt;<br /> &lt;li&gt;Item 1<br /> &lt;ul&gt;<br /> &lt;li&gt;Unordered Item 1&lt;/li&gt;<br /> &lt;li&gt;Unordered Item 2<br /> &lt;ol&gt;<br /> &lt;li&gt;Nested Item 1&lt;/li&gt;<br /> &lt;li&gt;Nested Item 2&lt;/li&gt;<br /> &lt;/ol&gt;<br /> &lt;/li&gt;<br /> &lt;/ul&gt;<br /> &lt;li&gt;Item 2&lt;/li&gt;<br /> &lt;li&gt;Item 3&lt;/li&gt;<br /> &lt;/ul&gt;</div>
+</div>
+<div class="span-24">
+<div class="span-12">
+<h2>Definition</h2>
+<dl> <dt>Term</dt> <dd>Definition of term</dd><dd> </dd></dl></div>
+<div class="span-12 last code_display">
+<h2>Code</h2>
+&lt;h2&gt;Definition&lt;/h2&gt;<br /> &lt;dl&gt;<br /> &lt;dt&gt;Term&lt;/dt&gt;<br /> &lt;dd&gt;Definition of term&lt;dd&gt;<br /> &lt;/dl&gt;</div>
+</div>
+<div class="span-24">
+<div class="span-12">
+<h2>Table</h2>
+<table>
+<tbody>
+<tr>
+<th>Table Header 1</th> <th>Table Header 2</th> <th>Table Header 3</th> <th>Table Header 4</th>
+</tr>
+<tr>
+<td>Table Element 1</td>
+<td>Table Element 2</td>
+<td>Table Element 3</td>
+<td>Table Element 4</td>
+</tr>
+<tr>
+<td>Table Element 5</td>
+<td>Table Element 6</td>
+<td>Table Element 7</td>
+<td>Table Element 8</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="span-12 last code_display">
+<h2>Code</h2>
+&lt;h2&gt;Table&lt;/h2&gt;<br /> &lt;table&gt;<br /> &lt;tr&gt;<br /> &lt;th&gt;Table Header 1&lt;/th&gt;<br /> &lt;th&gt;Table Header 2&lt;/th&gt;<br /> &lt;th&gt;Table Header 3&lt;/th&gt;<br /> &lt;th&gt;Table Header 4&lt;/th&gt;<br /> &lt;/tr&gt;<br /> &lt;tr&gt;<br /> &lt;td&gt;Table Element 1&lt;/td&gt;<br /> &lt;td&gt;Table Element 2&lt;/td&gt;<br /> &lt;td&gt;Table Element 3&lt;/td&gt;<br /> &lt;td&gt;Table Element 4&lt;/td&gt;<br /> &lt;/tr&gt;<br /> &lt;tr&gt;<br /> &lt;td&gt;Table Element 5&lt;/td&gt;<br /> &lt;td&gt;Table Element 6&lt;/td&gt;<br /> &lt;td&gt;Table Element 7&lt;/td&gt;<br /> &lt;td&gt;Table Element 8&lt;/td&gt;<br /> &lt;/tr&gt;<br /> &lt;/table&gt;</div>
+</div>
+<div class="span-24">
+<div class="span-12">
+<h2>Code</h2>
+<pre>function farToCel(fahren){
+	var celsius = 5 / 9 * (fahren - 32);
+return(celsius)
+}</pre>
+</div>
+<div class="span-12 last code_display">
+<h2>Code</h2>
+&lt;code&gt;function farToCel(fahren){<br /> var celsius = 5 / 9 * (fahren - 32);<br /> return(celsius)<br /> }&lt;/code&gt;</div>
+</div>
+<div class="span-24">
+<div class="span-12">
+<h2>Preformatted Text</h2>
+<pre>function celToFar(celsius){
+	var fahren = celsius * 9 / 5 + 32;
+return(fahren)
+}</pre>
+</div>
+<div class="span-12 last code_display">
+<h2>Code</h2>
+&lt;h2&gt;Preformatted Text&lt;/h2&gt;<br /> &lt;pre&gt;function celToFar(celsius){<br /> var fahren = celsius * 9 / 5 + 32;<br /> return(fahren)<br /> }&lt;/pre&gt;</div>
+</div>
+<div class="span-24">
+<div class="span-12">
+<h2>Input</h2>
+<form> Full Name <input size="10" type="text" /><br /> Donation to Menasco Fund  $<input size="10" type="text" /><br /> </form></div>
+<div class="span-12 last code_display">
+<h2>Code</h2>
+&lt;h2&gt;Input&lt;/h2&gt;<br /> &lt;form&gt;<br /> Full Name &lt;input type="text" size="10" /&gt;&lt;br /&gt;<br /> Donation to Menasco Fund  $&lt;input type="text" size="10" /&gt;&lt;br /&gt;<br /> &lt;/form&gt;</div>
+</div>
+<div class="span-24">
+<div class="span-12">
+<h2>Check Box</h2>
+<form> <input type="checkbox" />Check 1<br /> <input type="checkbox" />Check 2<br /> </form></div>
+<div class="span-12 last code_display">
+<h2>Code</h2>
+&lt;h2&gt;Check Box&lt;/h2&gt;<br /> &lt;form&gt;<br /> &lt;input type="checkbox" /&gt;Check 1&lt;br /&gt;<br /> &lt;input type="checkbox" /&gt;Check 2&lt;br /&gt;<br /> &lt;/form&gt;</div>
+</div>
+<div class="span-24">
+<div class="span-12">
+<h2>Radio Button</h2>
+<form> <input type="radio" />Radio 1<br /> <input type="radio" />Radio 1<br /> </form></div>
+<div class="span-12 last code_display">
+<h2>Code</h2>
+&lt;h2&gt;Radio Button&lt;/h2&gt;<br /> &lt;form&gt;<br /> &lt;input type="radio" /&gt;Radio 1&lt;br /&gt;<br /> &lt;input type="radio" /&gt;Radio 1&lt;br /&gt;<br /> &lt;/form&gt;</div>
+</div>
+<div class="span-24">
+<div class="span-12">
+<h2>Select Options</h2>
+<select> <option>Option 1</option> <option>Option 2</option> <option>Option 3</option> </select></div>
+<div class="span-12 last code_display">
+<h2>Code</h2>
+&lt;h2&gt;Select Options&lt;/h2&gt;<br /> &lt;select&gt;<br /> &lt;option&gt;Option 1&lt;/option&gt;<br /> &lt;option&gt;Option 2&lt;/option&gt;<br /> &lt;option&gt;Option 3&lt;/option&gt;<br /> &lt;/select&gt;</div>
+</div>
+<div class="span-24">
+<div class="span-12">
+<h2>Option Groups</h2>
+<select> <optgroup label="Choice 1"> <option>Option 1</option> <option>Option 2</option> </optgroup> <optgroup label="Choice 2"> <option>Option 3</option> <option>Option 4</option> </optgroup> </select></div>
+<div class="span-12 last code_display">
+<h2>Code</h2>
+&lt;h2&gt;Option Groups&lt;/h2&gt;<br /> &lt;select&gt;<br /> &lt;optgroup label="Choice 1"&gt;<br /> &lt;option&gt;Option 1&lt;/option&gt;<br /> &lt;option&gt;Option 2&lt;/option&gt;<br /> &lt;/optgroup&gt;<br /> &lt;optgroup label="Choice 2"&gt;<br /> &lt;option&gt;Option 3&lt;/option&gt;<br /> &lt;option&gt;Option 4&lt;/option&gt;<br /> &lt;/optgroup&gt;<br /> &lt;/select&gt;</div>
+</div>
+<div class="span-24">
+<div class="span-12">
+<h2>Multiple Select</h2>
+<form> <select multiple="multiple"> <option>Choice 1</option> <option>Choice 2</option> <option>Choice 3</option> </select> <input type="submit" /> </form></div>
+<div class="span-12 last code_display">
+<h2>Code</h2>
+&lt;h2&gt;Multiple Select&lt;/h2&gt;<br /> &lt;form&gt;<br /> &lt;select multiple="multiple"&gt;<br /> &lt;option&gt;Choice 1&lt;/option&gt;<br /> &lt;option&gt;Choice 2&lt;/option&gt;<br /> &lt;option&gt;Choice 3&lt;/option&gt;<br /> &lt;/select&gt;<br /> &lt;input type="submit" /&gt;<br /> &lt;/form&gt;</div>
+</div>
+<div class="span-24">
+<div class="span-12">
+<h2>File Input</h2>
+<form> <input type="file" /> </form></div>
+<div class="span-12 last code_display">
+<h2>Code</h2>
+&lt;h2&gt;File Input&lt;/h2&gt;<br /> &lt;form&gt;<br /> &lt;input type="file" /&gt;<br /> &lt;/form&gt;</div>
+</div>
+<div class="span-24">
+<div class="span-12">
+<h2>Address</h2>
+<address> Brigham Young University - Idaho<br /> 525 South Center St.<br /> Rexburg, Idaho 83440<br /> </address></div>
+<div class="span-12 last code_display">
+<h2>Code</h2>
+&lt;h2&gt;Address&lt;/h2&gt;<br /> &lt;address&gt;<br /> Brigham Young University - Idaho&lt;br&gt;<br /> 525 South Center St.&lt;br&gt;<br /> Rexburg, Idaho 83440&lt;br&gt;<br /> &lt;/address&gt;</div>
+</div>
+<div class="span-24">
+<div class="span-12">
+<h2>Abbreviation</h2>
+<abbr title="This text is only available when you hold your mouse over the text. Booyeah!">abbr Mouse over</abbr></div>
+<div class="span-12 last code_display">
+<h2>Code</h2>
+&lt;h2&gt;Abbreviation&lt;/h2&gt;<br /> &lt;abbr title="This text is only available when you hold your mouse over the text. Booyeah!"&gt;abbr Mouse over&lt;/abbr&gt;</div>
+</div>
+<div class="span-24">
+<div class="span-12">
+<h2>Textarea</h2>
+<textarea cols="40" rows="5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</textarea></div>
+<div class="span-12 last code_display">
+<h2>Code</h2>
+&lt;h2&gt;Textarea&lt;/h2&gt;<br /> &lt;textarea rows="5" cols="40"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.&lt;/textarea&gt;</div>
+</div>
+<div class="span-24">
+<div class="span-12">
+<h2>Alert</h2>
+<div class="error">This is a &lt;div&gt; with the class <strong>.error</strong>.</div>
+<div class="notice">This is a &lt;div&gt; with the class <strong>.notice</strong>.</div>
+<div class="info">This is a &lt;div&gt; with the class <strong>.info</strong>.</div>
+<div class="success">This is a &lt;div&gt; with the class <strong>.success</strong>.</div>
+</div>
+<div class="span-12 last code_display">
+<h2>Code</h2>
+&lt;h2&gt;Alert&lt;/h2&gt;<br /> &lt;div class="error"&gt;This is a &lt;div&gt; with the class &lt;strong&gt;.error&lt;/strong&gt;.&lt;/div&gt;<br /> &lt;div class="notice"&gt;This is a &lt;div&gt; with the class &lt;strong&gt;.notice&lt;/strong&gt;.&lt;/div&gt;<br /> &lt;div class="info"&gt;This is a &lt;div&gt; with the class &lt;strong&gt;.info&lt;/strong&gt;.&lt;/div&gt;<br /> &lt;div class="success"&gt;This is a &lt;div&gt; with the class &lt;strong&gt;.success&lt;/strong&gt;.&lt;/div&gt;</div>
+</div>
+<h2>Grid</h2>
+<p>Each Column is 30px wide with a 10px right margin, except the last column which has no margin.</p>
+<p>Example: .span-4 is equivlent to a 150px column. 6 can fit in the total 950px area.</p>
+<div class="span-24 grid_display">
+<div class="span-1">1</div>
+<div class="span-1">1</div>
+<div class="span-1">1</div>
+<div class="span-1">1</div>
+<div class="span-1">1</div>
+<div class="span-1">1</div>
+<div class="span-1">1</div>
+<div class="span-1">1</div>
+<div class="span-1">1</div>
+<div class="span-1">1</div>
+<div class="span-1">1</div>
+<div class="span-1">1</div>
+<div class="span-1">1</div>
+<div class="span-1">1</div>
+<div class="span-1">1</div>
+<div class="span-1">1</div>
+<div class="span-1">1</div>
+<div class="span-1">1</div>
+<div class="span-1">1</div>
+<div class="span-1">1</div>
+<div class="span-1">1</div>
+<div class="span-1">1</div>
+<div class="span-1">1</div>
+<div class="span-1 last">1</div>
+</div>
+<div class="span-24 grid_display">
+<div class="span-2">.span-2</div>
+<div class="span-2">.span-2</div>
+<div class="span-2">.span-2</div>
+<div class="span-2">.span-2</div>
+<div class="span-2">.span-2</div>
+<div class="span-2">.span-2</div>
+<div class="span-2">.span-2</div>
+<div class="span-2">.span-2</div>
+<div class="span-2">.span-2</div>
+<div class="span-2">.span-2</div>
+<div class="span-2">.span-2</div>
+<div class="span-2 last">.span-2</div>
+</div>
+<div class="span-24 grid_display">
+<div class="span-3">.span-3</div>
+<div class="span-3">.span-3</div>
+<div class="span-3">.span-3</div>
+<div class="span-3">.span-3</div>
+<div class="span-3">.span-3</div>
+<div class="span-3">.span-3</div>
+<div class="span-3">.span-3</div>
+<div class="span-3 last">.span-3</div>
+</div>
+<div class="span-24 grid_display">
+<div class="span-4">.span-4</div>
+<div class="span-4">.span-4</div>
+<div class="span-4">.span-4</div>
+<div class="span-4">.span-4</div>
+<div class="span-4">.span-4</div>
+<div class="span-4 last">.span-4</div>
+</div>
+<div class="span-24 grid_display">
+<div class="span-5">.span-5</div>
+<div class="span-19 last">.span-19</div>
+</div>
+<div class="span-24 grid_display">
+<div class="span-6">.span-6</div>
+<div class="span-6">.span-6</div>
+<div class="span-6">.span-6</div>
+<div class="span-6 last">.span-6</div>
+</div>
+<div class="span-24 grid_display">
+<div class="span-7">.span-7</div>
+<div class="span-17 last">.span-17</div>
+</div>
+<div class="span-24 grid_display">
+<div class="span-8">.span-8</div>
+<div class="span-8">.span-8</div>
+<div class="span-8 last">.span-8</div>
+</div>
+<div class="span-24 grid_display">
+<div class="span-9">.span-9</div>
+<div class="span-15 last">.span-15</div>
+</div>
+<div class="span-24 grid_display">
+<div class="span-10">.span-10</div>
+<div class="span-14 last">.span-14</div>
+</div>
+<div class="span-24 grid_display">
+<div class="span-11">.span-11</div>
+<div class="span-13 last">.span-13</div>
+</div>
+<div class="span-24 grid_display">
+<div class="span-12">.span-12</div>
+<div class="span-12 last">.span-12</div>
+</div>
+<div class="span-24 grid_display">
+<div class="span-13">.span-13</div>
+<div class="span-11 last">.span-11</div>
+</div>
+<div class="span-24 grid_display">
+<div class="span-14">.span-14</div>
+<div class="span-10 last">.span-10</div>
+</div>
+<div class="span-24 grid_display">
+<div class="span-15">.span-15</div>
+<div class="span-9 last">.span-9</div>
+</div>
+<div class="span-24 grid_display">
+<div class="span-16">.span-16</div>
+<div class="span-8 last">.span-8</div>
+</div>
+<div class="span-24 grid_display">
+<div class="span-17">.span-17</div>
+<div class="span-7 last">.span-7</div>
+</div>
+<div class="span-24 grid_display">
+<div class="span-18">.span-18</div>
+<div class="span-6 last">.span-6</div>
+</div>
+<div class="span-24 grid_display">
+<div class="span-19">.span-19</div>
+<div class="span-5 last">.span-5</div>
+</div>
+<div class="span-24 grid_display">
+<div class="span-20">.span-20</div>
+<div class="span-4 last">.span-4</div>
+</div>
+<div class="span-24 grid_display">
+<div class="span-21">.span-21</div>
+<div class="span-3 last">.span-3</div>
+</div>
+<div class="span-24 grid_display">
+<div class="span-22">.span-22</div>
+<div class="span-2 last">.span-2</div>
+</div>
+<div class="span-24 grid_display">
+<div class="span-23">.span-23</div>
+<div class="span-1 last">1</div>
+</div>
+<div class="span-24 grid_display">
+<div class="span-24 last">.span-24</div>
+</div>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

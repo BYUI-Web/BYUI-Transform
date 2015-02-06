@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.70 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x26536" Name="Jquery test" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Jquery test</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Jquery test</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+            $(document).ready(function(){
+                $(".tutorial").hide();
+                    $("#intro").show();
+                    $("#continueintro").click(function(){
+                        $("#intro").hide(500)
+                        $("#areyourn").show(400);		
+                    });                
+                $("#yesareyourn").click(function(){
+                    $(".tutorial").hide(500);
+                    $("#allasnwelcome").show(400);
+                });
+                $("#allasnwelcome").click(function(){
+                    $(".tutorial").hide(500);
+                    $("#alumniortransfer").show(400);
+                });
+                $("#transfer-studentalumniortransfer").click(function(){
+                    $(".tutorial").hide(500);
+                    $("#infotransfer").show(400);
+                });
+                $("#continueinfotransfer").click(function(){
+                    $(".tutorial").hide(500);
+                    $("#almateraccredited").show(400);
+                });
+                $("#noalmateraccredited").click(function(){
+                    $(".tutorial").hide(500);
+                    $("#infotransferablitycredits").show(400);
+                });
+                $("#yesalmateraccredited").click(function(){
+                    $(".tutorial").hide(500);
+                    $("#asnoraas").show(400);
+                });
+                $("#continueinfotransferablitycredits").click(function(){
+                    $(".tutorial").hide(500);
+                    $("#info120standard").show(400);
+                });
+                $("#asnasnoraas").click(function(){
+                    $(".tutorial").hide(500);
+                    $("#infogeneralrequirements120standard").show(400);
+                });
+                $("#aasasnoraas").click(function(){
+                    $(".tutorial").hide(500);
+                    $("#info120standard").show(400);
+                });
+                $("#continueinfogeneralrequirements120standard").click(function(){
+                    $(".tutorial").hide(500);
+                    $("#wouldyouliketoapply").show(400);
+                });
+                $("#continueinfo120standard").click(function(){
+                    $(".tutorial").hide(500);
+                    $("#wouldyouliketoapply").show(400);                    
+                });
+            });
+</script>
+<div class="tutorial" id="intro">
+<p>Intro:</p>
+<button id="continueintro">Continue</button></div>
+<div class="tutorial" id="areyourn">
+<p>Question 1: Are you a Registered Nurse(RN)?</p>
+<button id="yesareyourn">Yes</button> <a href="http://www.byui.edu/nursing/asn/"><button id="no2">No</button></a></div>
+<div class="tutorial" id="allasnwelcome">
+<p>Graduates from all ASN programs are welcome to apply</p>
+<button id="continueallasnwelcome">Continue</button></div>
+<div class="tutorial" id="alumniortransfer">
+<p>Question 2: Are you a...</p>
+<a href="http://www.byui.edu/alumni/contacts.htm"><button id="byui-nursing-alumni">BYUI Nursing Alumni</button></a>
+<p>Or a</p>
+<button id="transfer-studentalumniortransfer">Transfer Student</button></div>
+<div class="tutorial" id="infotransfer">
+<p>Info about transfer students</p>
+<button id="continueinfotransfer">Continue</button></div>
+<div class="tutorial" id="almateraccredited">
+<p>Question 3: Almater regionally accredited?</p>
+<button id="yesalmateraccredited">Yes</button> <button id="noalmateraccredited">No</button></div>
+<div class="tutorial" id="infotransferablitycredits">
+<p>Explain Transferability of credits</p>
+<button id="continueinfotransferablitycredits">Continue</button></div>
+<div class="tutorial" id="asnoraas">
+<p>Question 4: Do you have a</p>
+<button id="asnasnoraas">ASN</button>
+<p>or a</p>
+<button id="aasasnoraas">AAS</button></div>
+<div class="tutorial" id="infogeneralrequirements120standard">
+<p>Explain the general Requirements are the Foundations bridge + RN-BSN + 120 Standard</p>
+<button id="continueinfogeneralrequirements120standard">Continue</button></div>
+<div class="tutorial" id="info120standard">
+<p>Explain 120 standard and GE/Foundations requirements</p>
+<button id="continueinfo120standard">Continue</button></div>
+<div class="tutorial" id="wouldyouliketoapply">
+<p>Question 5: Would you like to apply?</p>
+<a href="http://www.byui.edu/nursing/rnbsn/process/"><button id="yes11">Yes</button></a> <a href="http://www.byui.edu/nursing/"><button id="no11">No</button></a></div>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x21577" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

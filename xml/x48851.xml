@@ -1,0 +1,204 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x48851" Name="print.htm" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">print.htm</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">print.htm</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"&gt;
+&lt;head&gt;
+    &lt;meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /&gt;
+    &lt;title&gt;BYU&amp;ndash;Idaho&amp;nbsp;|&amp;nbsp;Online&amp;nbsp;Magazine&amp;nbsp;&gt;&amp;nbsp;Faculty as Architects of Learning Environments&lt;/title&gt;
+    &lt;!-- Remove TemplateSource line to disable the Web Editor --&gt;
+    &lt;!--TemplateSource="2A.htm"--&gt;
+    &lt;!--***********************************************************************
+    *   Brigham Young University-Idaho Template
+    *   Version:        1.2
+    *   Type:           2A
+    *   Last Revised:   June, 2006
+    *   Copyright� 2007 Brigham Young University-Idaho
+    *   All Rights Reserved.
+    ************************************************************************--&gt;
+    &lt;!-- REFERENCED STYLESHEETS --&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/v1/topBar.css" /&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/V1/structure.css" /&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/V1/body_text.css" /&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/V1/table.css" /&gt;
+	&lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/driveorwalk/css/walkordrivestyle.css" /&gt;
+	&lt;link rel="stylesheet" type="text/css" href="../features/css/ol.css" /&gt;
+	&lt;link rel="stylesheet" type="text/css" href="../features/css/article_style.css" /&gt;
+	&lt;link rel="stylesheet" href="../features/css/print.css" type="text/css" media="print" /&gt;
+
+	
+    &lt;!-- EMBEDED JAVASCRIPT FUNCTIONS --&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/js/v2/changeSizeRevised.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/js/v2/leftLinks.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/driveorwalk/js/textswap.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/driveorwalk/js/active.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/driveorwalk/js/randomadimage.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="../features/js/js.js"&gt;&lt;/script&gt;
+
+
+    &lt;!-- EDITOR JAVASCRIPT FUNCTIONS --&gt;
+	&lt;!-- This is the new style used by analytics. Please keep it right above the closing header. thanks --&gt;
+	&lt;script type="text/javascript"&gt;
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-12079604-1']);
+  _gaq.push(['_trackPageview']);
+
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body id="type_A" onload="callFunctions(); randomImageDisplay(); activeNav(1); randomAdImage();" style="visibility:hidden;"&gt;
+    &lt;!-- The body type determines the number of columns in the CONTENT AREA. View structure.css to where these types are specified --&gt;
+    &lt;!-- ********************************************************************* --&gt;
+    &lt;!-- TOP BAR                                                               --&gt;
+    &lt;!-- ********************************************************************* --&gt;
+    &lt;div id="topBar"&gt;
+        &lt;div id="blueSpace"&gt;&lt;/div&gt;
+        &lt;div&gt;
+            &lt;table id="tableBlue" cellspacing="0" cellpadding="0"&gt;
+                &lt;!-- Title menu with the Blue Background --&gt;
+                &lt;tr&gt;&lt;td id="tdBlueSpace"&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr id="trBlueTop"&gt;&lt;td id="tdBlueTop"&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td id="tdBlueMenu" align="center"&gt;
+                        &lt;div id="javaMenu"&gt;
+                            &lt;script type="text/javascript" src="http://www.byui.edu/js/V1/HomepageNavBar.js"&gt;&lt;/script&gt;
+                        &lt;/div&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+        &lt;/div&gt;
+        &lt;!-- Gray Bar --&gt;
+        &lt;div id="divGrayBarContainer"&gt;
+            &lt;div id="divDarkGrayBar"&gt;
+                &lt;!--&lt;div id="divStudent"&gt;
+                    &lt;script type="text/javascript" src="http://www.byui.edu/js/V1/imageChange.js"&gt;&lt;/script&gt;
+                &lt;/div&gt; //--&gt;
+                &lt;div id="divBYUILogo"&gt;
+                    &lt;a id="logoLink" href="http://www.byui.edu/"&gt;&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div id="divVertLine"&gt;&lt;/div&gt;
+                &lt;div id="divDepartmentTitle"&gt;
+                    &lt;!-- Department Title --&gt;
+                    &lt;div id="divSectionTitle"&gt;
+                        &lt;a id="iframeText" target="_top" href="http://www.byui.edu/magazine/fall2009"&gt;Online Magazine&amp;nbsp;&amp;gt;&amp;nbsp;Faculty as Architects of Learning Environments&lt;/a&gt;
+
+                    &lt;/div&gt;  
+                    &lt;span id="divSemester"&gt;
+						Fall 2010 
+                    &lt;/span&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;!-- White Bar --&gt;
+        &lt;div id="divWhiteContainer"&gt;
+        &lt;div id="divWhiteBar"&gt;
+            &lt;img src="http://www.byui.edu/css/V1/images/whiteBar.gif" alt="White Bar" /&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!-- END ***************************************************************** --&gt;
+    &lt;!--EditorForm--&gt;
+    &lt;!--EditorToolbar--&gt;
+    &lt;div id="container"&gt;
+        &lt;div id="main_body"&gt;
+            &lt;!-- LEFT COLUMN --&gt;
+            &lt;!-- NAVIGATION FILE INCLUDE --&gt;
+            			&lt;div id="left_column" style="background-color:#FFF";&gt;
+                
+				&lt;div id="onlinemagazinenav"&gt;
+				&lt;!--#include file="../common/nav.inc"--&gt;
+			   &lt;/div&gt;
+			   
+            &lt;/div&gt;
+            
+            &lt;div id="right_section"&gt;
+						&lt;div id="page_layout2_content"&gt;&lt;br&gt;
+						
+					
+							
+								&lt;div class="noprint"&gt;							
+
+						&lt;!-- AddThis Button BEGIN --&gt;
+							&lt;script type="text/javascript"&gt;var addthis_config = {"data_track_clickback":true};&lt;/script&gt;
+								&lt;a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;amp;username=byuiadmin"&gt;&lt;img src="http://s7.addthis.com/static/btn/sm-share-en.gif" width="83" height="16" alt="Bookmark and Share" style="border:0"/&gt;&lt;/a&gt;&lt;script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=byuiadmin"&gt;&lt;/script&gt;
+							&lt;!-- AddThis Button END --&gt;
+							
+								&lt;/div&gt;
+
+							&lt;h1&gt;Print Magazine&lt;/h1&gt;
+	
+							&lt;div id="synopses"&gt;Miss the paper version of BYU-Idaho Magazine? Print this issue from your home printer, and enjoy the feature articles and news updates at your convenience. 
+							&lt;/div&gt;
+							
+							&lt;div id="imageWrap"&gt;
+								&lt;div class="imageText"&gt;
+									&lt;h1&gt;&lt;em&gt;BYU-Idaho&lt;/em&gt; Magazine: Fall 2010&lt;/h1&gt;
+							&lt;span id="title"&gt;"A New Approach in Education"&lt;br/&gt;
+							Presidents Welcome&lt;/span&gt;
+							
+									
+									&lt;p&gt;Dear Alumni and Friends,&lt;br/&gt;
+									&lt;br/&gt;
+									
+In June of this year, BYU-Idaho quietly passed a milestone-the 10-year anniversary of President Hinckley's announcement
+that Ricks College would become Brigham Young University-Idaho. Though we did not stop to formally celebrate, it
+is remarkable to see all that has been accomplished since that original announcement. I believe President Hinckley would
+be pleased by the rate at which innovation and individual sacrifice have allowed BYU-Idaho to grow. We are truly striving
+to achieve all the Lord would have us do to fulfill the university's special mission and bless the lives of students.
+									&lt;/p&gt;
+								
+								
+								&lt;/div&gt;
+							
+							
+							&lt;/div&gt;
+							&lt;div id="printButton"&gt;
+							&lt;a href="pdf_Magazine_full.pdf"&gt;&lt;img src="images/printButton.jpg" alt="Print" style="margin-top:20px"/&gt;&lt;/a&gt;
+							&lt;!--**the code below displays the size of the file to print. Please keep this name and the file the same for it to work**--&gt;
+							&lt;span class="fileSize"&gt;&lt;!--#fsize file="pdf_Magazine_full.pdf" --&gt;&lt;/span&gt;
+							&lt;/div&gt;
+							&lt;div class="adobe"&gt;
+								&lt;img src="images/adobeText.jpg" alt="Text Image"/&gt;&lt;a href="http://get.adobe.com/reader/"&gt;&lt;img src="images/adobe.jpg" alt="Print"/&gt;&lt;/a&gt;	
+							&lt;/div&gt;
+						
+							&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class="rightAREA"&gt;&lt;img alt="Place Holder" src="http://www.byui.edu/css/V1/images/placeholder80.gif" /&gt;&lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div id="footer"&gt;
+            &lt;div id="shadow"&gt;Copyright&amp;copy; &lt;script type="text/javascript"&gt;var d = new Date();document.write(d.getFullYear());&lt;/script&gt; BYU&amp;ndash;Idaho&lt;br /&gt;All Rights Reserved.&lt;/div&gt;
+        &lt;/div&gt;
+   
+    &lt;!--EndEditorForm--&gt;
+    &lt;!-- TABLE FORMATTING SECTION --&gt;
+    &lt;script type="text/javascript"&gt;
+        &lt;!--
+        var tableTags = document.getElementById('main_body').getElementsByTagName("table");
+        for (var i = 0; i &lt; tableTags.length; i++)
+        {
+            var trTags = tableTags[i].getElementsByTagName("tr");
+            for (var j = 0; j &lt; trTags.length; j++)
+            {
+                if(j%2 == 0)
+                {
+                    trTags.item(j).style.backgroundColor = "#efefec";
+                }
+                else
+                {
+                    trTags.item(j).style.backgroundColor = "#ffffff";
+                }
+            }
+        }
+        --&gt;
+    &lt;/script&gt;
+	&lt;/body&gt;
+&lt;/html&gt;
+</ESContent></EmptyShell>

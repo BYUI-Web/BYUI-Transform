@@ -1,0 +1,299 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x63669" Name="snipTest" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;html&gt;
+&lt;head&gt;
+	&lt;link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css" /&gt;
+    &lt;script src="Documents/housing/links/jquery-1.9.1.min.js"&gt;&lt;/script&gt;
+    &lt;script src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"&gt;&lt;/script&gt;
+    
+    &lt;link rel="stylesheet" type="text/css" href="Documents/housing/links/tooltipster.css" /&gt;
+
+    &lt;script type="text/javascript" src="Documents/housing/links/jquery.tooltipster.min.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="Documents/housing/links/cvi_tip_lib.js"&gt;&lt;/script&gt;
+	&lt;script type="text/javascript" src="Documents/housing/links/wz_jsgraphics.js"&gt;&lt;/script&gt;
+	&lt;script type="text/javascript" src="Documents/housing/links/maputil.js"&gt;&lt;/script&gt;
+	&lt;script type="text/javascript" src="Documents/housing/links/mapper.js"&gt;&lt;/script&gt;
+	&lt;link rel="stylesheet" type="text/css" href="Documents/housing/links/tooltip.css" /&gt;
+
+	&lt;script type="text/javascript" src="Documents/housing/slimbox2.js"&gt;&lt;/script&gt;
+	&lt;link rel="stylesheet" href="Documents/housing/slimbox2.css" type="text/css" media="screen" /&gt;
+	&lt;style type="text/css"&gt;
+	h1, p {
+		text-align: center;
+	}
+	p {
+		margin-top: 100px;
+	}
+	a {
+		font-weight: bold;
+		color: #f00;
+	}
+&lt;/style&gt;
+	
+&lt;!--    &lt;script&gt;
+        $(document).ready(function() {
+            $('.tooltip').tooltipster();
+        });
+    &lt;/script&gt;
+    --&gt;
+    &lt;style&gt;
+    .tooltip {
+    margin:auto;
+    background-color:white;
+    width:200px;
+    }
+    &lt;/style&gt;
+
+&lt;script&gt;
+
+$(document).ready(function(){
+
+	$('#videoTour').hide();
+	$('#videoComment').hide();
+	
+	$('#photoGallery').hide();
+	$('#photoComment').hide();
+
+	$('#contentBox').addClass('shadow');
+
+	var previous = "#interactiveFloorPlan";
+	var previousComment = "#IFPComment";
+
+	$("#interactiveFloorPlanButton").click(function () {
+		
+		if (previous == "#interactiveFloorPlan")
+		{
+			return;
+		}
+	
+		$(previous).hide("fade", {}, 1000);
+		$(previousComment).hide("fade", {}, 1000);
+		$(previous).promise().done(function(){
+			$('#interactiveFloorPlan').show("fade", {}, 1000);
+			$('#IFPComment').show("fade", {}, 1000);
+		});
+		previous = "#interactiveFloorPlan";
+		previousComment = "#IFPComment";
+	});
+
+	$("#videoTourButton").click(function () {
+	
+		if (previous == "#videoTour")
+		{
+			return;
+		}
+	
+		$(previous).hide("fade", {}, 1000);
+		$(previousComment).hide("fade", {}, 1000);
+		$(previous).promise().done(function(){
+			$('#videoTour').show("fade", {}, 1000);
+			$('#videoComment').show("fade", {}, 1000);
+		});
+		previous = "#videoTour";
+		previousComment = "#videoComment";
+	});
+	
+	$("#photoGalleryButton").click(function () {
+	
+		if (previous == "#photoGallery")
+		{
+			return;
+		}
+	
+		$(previous).hide("fade", {}, 1000);
+		$(previousComment).hide("fade", {}, 1000);
+		$(previous).promise().done(function(){
+			$('#photoGallery').show("fade", {}, 1000);
+			$('#photoComment').show("fade", {}, 1000);
+		});
+		previous = "#photoGallery";
+		previousComment = "#photoComment";
+	});
+
+});
+&lt;/script&gt;
+
+&lt;style&gt;
+div {
+
+}
+
+#top {
+width:950px;
+margin:auto;
+}
+
+#topLeft {
+width:650px;
+height:500px;
+float:left;
+background-color:#B8E2EF;
+}
+
+#contentBox {
+width:600px;
+height:450px;
+margin:25px 25px 25px 25px;
+background-color:white;
+border-radius:20px;
+}
+
+#contentTop {
+background-color:#F3F6FF;
+border-radius:20px 20px 0px 0px;
+width:600px;
+height:375px;
+padding-top:5px;
+}
+
+#contentBottom {
+height:75px;
+width:100%;
+margin:auto;
+}
+
+#topRight {
+width:300px;
+height:500px;
+float:right;
+background-color:#CEDEF4;
+}
+
+#bottom {
+clear:both;
+margin:auto;
+width:950px;
+}
+
+#bottomLeft {
+width:475px;
+height:500px;
+float:left;
+background-color:#D7D1F8;
+}
+
+#bottomRight {
+width:475px;
+height:500px;
+float:right;
+background-color:#E1CAF9;
+}
+
+.shadow{
+    -moz-box-shadow: 3px 3px 4px #555;
+    -webkit-box-shadow: 3px 3px 4px #555;
+    box-shadow: 3px 3px 4px #555; /* For IE 8 */    
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#555')"; /* For IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength = 4, Direction = 135, Color = '#cccccc');
+}
+
+area {border: 1px solid red;}
+
+td img {
+vertical-align: middle;
+}
+
+&lt;/style&gt;
+
+&lt;/head&gt;
+
+&lt;body&gt;
+
+&lt;div id="top"&gt;
+
+	&lt;div id="topLeft"&gt;
+	
+		&lt;div id="contentBox"&gt;
+		
+			&lt;div id="contentTop"&gt;
+			
+				&lt;div id="interactiveFloorPlan" style="margin:auto; width:464px;"&gt;
+					&lt;img id="layoutImage" src='Images/housing/On campus/Image Gallery/interactive/Chapman-Floorplan cam.png' class="mapper showcoords noborder iopacity50 icolorA9CF54" alt="floorplan" usemap="#floorPlan" width="464" height="370"/&gt;
+					
+					&lt;map name="floorPlan"&gt;
+						&lt;area shape="circle" coords="48,265,20" class="tooltip" title="&lt;img src='http://www.byui.edu/Images/housing/On%20campus/Image%20Gallery/Chapman%201.jpg' width='366' height='244' /&gt;"&gt;
+					&lt;/map&gt;
+				&lt;/div&gt;
+			
+				&lt;div id="videoTour" style="margin-top:20px; margin-left:10px;"&gt;
+				
+					&lt;object id="flashObj" width="580" height="326" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" bgcolor="#FFFFFF"&gt;&lt;param name="flashVars" value="videoId=1841075077001&amp;amp;playerID=1148472361001&amp;amp;playerKey=AQ~~,AAABCveqgBk~,pxVJqGv_EwpCq-GHOhCRyj2oObPCJDYG&amp;amp;domain=embed&amp;amp;dynamicStreaming=true" /&gt;&lt;param name="seamlesstabbing" value="false" /&gt;&lt;param name="allowFullScreen" value="true" /&gt;&lt;param name="swLiveConnect" value="true" /&gt;&lt;param name="allowScriptAccess" value="always" /&gt;&lt;param name="src" value="http://c.brightcove.com/services/viewer/federated_f9?isVid=1&amp;amp;isUI=1" /&gt;&lt;param name="allowfullscreen" value="true" /&gt;&lt;param name="allowscriptaccess" value="always" /&gt;&lt;param name="pluginspage" value="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" /&gt;&lt;param name="swliveconnect" value="true" /&gt;&lt;param name="base" value="http://admin.brightcove.com" /&gt;&lt;param name="flashvars" value="videoId=1841075077001&amp;amp;playerID=1148472361001&amp;amp;playerKey=AQ~~,AAABCveqgBk~,pxVJqGv_EwpCq-GHOhCRyj2oObPCJDYG&amp;amp;domain=embed&amp;amp;dynamicStreaming=true" /&gt;&lt;embed id="flashObj" width="580" height="326" type="application/x-shockwave-flash" src="http://c.brightcove.com/services/viewer/federated_f9?isVid=1&amp;amp;isUI=1" flashVars="videoId=1841075077001&amp;amp;playerID=1148472361001&amp;amp;playerKey=AQ~~,AAABCveqgBk~,pxVJqGv_EwpCq-GHOhCRyj2oObPCJDYG&amp;amp;domain=embed&amp;amp;dynamicStreaming=true" seamlesstabbing="false" allowFullScreen="true" swLiveConnect="true" allowScriptAccess="always" allowfullscreen="true" allowscriptaccess="always" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" swliveconnect="true" base="http://admin.brightcove.com" flashvars="videoId=1841075077001&amp;amp;playerID=1148472361001&amp;amp;playerKey=AQ~~,AAABCveqgBk~,pxVJqGv_EwpCq-GHOhCRyj2oObPCJDYG&amp;amp;domain=embed&amp;amp;dynamicStreaming=true" bgcolor="#FFFFFF" /&gt;&lt;/object&gt;
+				
+				&lt;/div&gt;
+				
+				&lt;div id="photoGallery" style="width:460px; margin:auto; margin-top:30px;"&gt;
+				&lt;a href="http://www.byui.edu/Images/housing/On%20campus/Image%20Gallery/Lamprecht%201.jpg" rel="lightbox-lamprecht"&gt;&lt;img src="http://www.byui.edu/Images/housing/On%20campus/Image%20Gallery/Lamprecht%201.jpg" height="94" width="150" /&gt;&lt;/a&gt;
+				&lt;a href="http://www.byui.edu/Images/housing/On%20campus/Image%20Gallery/Lamprecht%202.jpg" rel="lightbox-lamprecht"&gt;&lt;img src="http://www.byui.edu/Images/housing/On%20campus/Image%20Gallery/Lamprecht%202.jpg" height="94" width="150" /&gt;&lt;/a&gt;
+				&lt;a href="http://www.byui.edu/Images/housing/On%20campus/Image%20Gallery/Lamprecht%203.jpg" rel="lightbox-lamprecht"&gt;&lt;img src="http://www.byui.edu/Images/housing/On%20campus/Image%20Gallery/Lamprecht%203.jpg" height="94" width="150" /&gt;&lt;/a&gt;
+				&lt;a href="http://www.byui.edu/Images/housing/On%20campus/Image%20Gallery/Lamprecht%204.jpg" rel="lightbox-lamprecht"&gt;&lt;img src="http://www.byui.edu/Images/housing/On%20campus/Image%20Gallery/Lamprecht%204.jpg" height="94" width="150" /&gt;&lt;/a&gt;
+				&lt;a href="http://www.byui.edu/Images/housing/On%20campus/Image%20Gallery/Lamprecht%205.jpg" rel="lightbox-lamprecht"&gt;&lt;img src="http://www.byui.edu/Images/housing/On%20campus/Image%20Gallery/Lamprecht%205.jpg" height="94" width="150" /&gt;&lt;/a&gt;
+				&lt;a href="http://www.byui.edu/Images/housing/On%20campus/Image%20Gallery/Lamprecht%206.jpg" rel="lightbox-lamprecht"&gt;&lt;img src="http://www.byui.edu/Images/housing/On%20campus/Image%20Gallery/Lamprecht%206.jpg" height="94" width="150" /&gt;&lt;/a&gt;
+				&lt;a href="http://www.byui.edu/Images/housing/On%20campus/Image%20Gallery/Lamprecht%207.jpg" rel="lightbox-lamprecht"&gt;&lt;img src="http://www.byui.edu/Images/housing/On%20campus/Image%20Gallery/Lamprecht%207.jpg" height="94" width="150" /&gt;&lt;/a&gt;
+				&lt;a href="http://www.byui.edu/Images/housing/On%20campus/Image%20Gallery/Lamprecht%208.jpg" rel="lightbox-lamprecht"&gt;&lt;img src="http://www.byui.edu/Images/housing/On%20campus/Image%20Gallery/Lamprecht%208.jpg" height="94" width="150" /&gt;&lt;/a&gt;
+				&lt;a href="http://www.byui.edu/Images/housing/On%20campus/Image%20Gallery/Lamprecht%2010.jpg" rel="lightbox-lamprecht"&gt;&lt;img src="http://www.byui.edu/Images/housing/On%20campus/Image%20Gallery/Lamprecht%2010.jpg" height="94" width="150" /&gt;&lt;/a&gt;
+				&lt;/div&gt;
+				
+			&lt;/div&gt;
+			
+			&lt;div id="contentBottom"&gt;
+				&lt;div id="IFPComment" style="padding-top:20px;width:390px;margin:auto;"&gt;Hover over the &lt;img src="Images/housing/On campus/Image Gallery/interactive/cam.png" style="vertical-align: middle;"/&gt; to explore photos around the apartment&lt;/div&gt;
+				&lt;div id="videoComment" style="padding-top:20px;width:270px;margin:auto;"&gt;Play to view a video tour of the apartment&lt;/div&gt;
+				&lt;div id="photoComment" style="padding-top:20px;width:245px;margin:auto;"&gt;Click photo to enjoy a full-size picture&lt;/div&gt;
+			&lt;/div&gt;
+		
+		&lt;/div&gt;
+	
+	&lt;/div&gt;
+	
+	&lt;div id="topRight"&gt;
+		&lt;div id="price"&gt;
+			&lt;h2&gt;&lt;span style="color:#A9CF54"&gt;$1450.00&lt;/span&gt; Per Semester&lt;/h2&gt;
+		&lt;/div&gt;
+		&lt;br/&gt;
+		&lt;div id="displayOptions"&gt;
+		
+			&lt;table&gt;
+			
+			&lt;tr id="interactiveFloorPlanButton" style="cursor: pointer;"&gt;
+			&lt;td&gt;&lt;img src="Images/housing/On campus/Image Gallery/interactive/finger.png"&gt;&lt;/td&gt;
+			&lt;td&gt;Interactive Floor Plan Tool&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr id="videoTourButton" style="cursor: pointer;"&gt;
+			&lt;td&gt;&lt;img src="Images/housing/On campus/Image Gallery/interactive/videocam.png"&gt;&lt;/td&gt;
+			&lt;td&gt;Video Tour&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr  id="photoGalleryButton" style="cursor: pointer;"&gt;
+			&lt;td&gt;&lt;img src="Images/housing/On campus/Image Gallery/interactive/camera.png"&gt;&lt;/td&gt;
+			&lt;td&gt;Photo Gallery&lt;/td&gt;
+			&lt;/tr&gt;
+			
+			&lt;/table&gt;
+		
+		&lt;/div&gt;
+		&lt;br/&gt;
+		&lt;div style="width:220px; margin:auto;"&gt;
+			Look at other Apartments Options
+			&lt;br/&gt;
+			&lt;a href="www.byui.edu/housing"&gt;
+			&lt;img src="Images/housing/On campus/Image Gallery/interactive/arrow.png" style="margin-left:66px; margin-top:5px;" /&gt;
+			&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div id="bottom"&gt;
+
+	&lt;div id="bottomLeft"&gt;
+	
+	&lt;/div&gt;
+	
+	&lt;div id="bottomRight"&gt;
+	
+	&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;</ContentSnippet></ContentSnippet>

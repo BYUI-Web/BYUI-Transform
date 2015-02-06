@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x63674" Name="snipFHE" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"&gt;&lt;/script&gt;
+
+&lt;script&gt;
+
+$(document).ready(function(){
+
+	$('#qTD').hide();
+	$('#fMD').hide();
+	$('#sHD').hide();
+
+
+var par = $('');
+  $(par).hide();
+
+	// Quality Time
+  $("#qTB").click(function(){
+  	$("#fMD").slideUp();
+  	$("#sHD").slideUp();
+    $("#qTD").slideDown();
+  });
+  	// Fidelity in Marriage
+    $("#fMB").click(function(){
+  	$("#sHD").slideUp();
+  	$("#qTD").slideUp();
+    $("#fMD").slideDown();
+  });
+    // Spirit in the Home
+    $("#sHB").click(function(){
+    $("#qTD").slideUp();
+  	$("#fMD").slideUp();
+    $("#sHD").slideDown();
+  });
+});
+
+&lt;/script&gt;
+
+&lt;style&gt;
+#qTD {
+text-align:center;
+}
+#fMD {
+text-align:center;
+}
+#sHD {
+text-align:center;
+}
+
+&lt;/style&gt;
+
+&lt;!-- MARRIED STUDENTS NAV BAR --&gt;
+&lt;div&gt;&lt;img src="Images/housing/navbar/marriedstudents/blank.png" width="63" /&gt;&lt;a class="intLink" href="x8708.xml"&gt;&lt;img onmouseout="this.src='Images/housing/navbar/marriedstudents/H.png';" onmouseover="this.src='Images/housing/navbar/marriedstudents/H-hover.png';" src="Images/housing/navbar/marriedstudents/H.png" width="148" /&gt;&lt;/a&gt;&lt;a class="intLink" href="x44817.xml"&gt;&lt;img onmouseout="this.src='Images/housing/navbar/marriedstudents/S.png';" onmouseover="this.src='Images/housing/navbar/marriedstudents/S-hover.png';" src="Images/housing/navbar/marriedstudents/S.png" width="111" /&gt;&lt;/a&gt;&lt;a class="intLink" href="x44860.xml"&gt;&lt;img onmouseout="this.src='Images/housing/navbar/marriedstudents/W.png';" onmouseover="this.src='Images/housing/navbar/marriedstudents/W-hover.png';" src="Images/housing/navbar/marriedstudents/W.png" width="161" /&gt;&lt;/a&gt;&lt;a class="intLink" href="x44861.xml"&gt;&lt;img onmouseout="this.src='Images/housing/navbar/marriedstudents/A.png';" onmouseover="this.src='Images/housing/navbar/marriedstudents/A-hover.png';" src="Images/housing/navbar/marriedstudents/A.png" width="159" /&gt;&lt;/a&gt;&lt;a class="intLink" href="x44863.xml"&gt;&lt;img src="Images/housing/navbar/marriedstudents/M-active.png" width="246" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;!-- END NAV BAR --&gt;
+&lt;div&gt;&lt;img height="93" src="Images/housing/Student Living/Married Students/FHEtitle.png" style="display: block; margin-left: auto; margin-right: auto;" width="800" /&gt;&lt;/div&gt;
+
+&lt;div id="topthree"&gt;
+
+&lt;img height="56" src="Images/housing/blank.png" width="245" /&gt;
+
+&lt;a&gt;&lt;img id ="qTB" onmouseout="this.src='Images/housing/buttons/student living/married students/qt.png';" onmouseover="this.src='Images/housing/buttons/student living/married students/qt-hover.png';" src="Images/housing/buttons/student living/married students/qt.png"/&gt;&lt;/a&gt;
+
+&lt;a&gt;&lt;img id="fMB" onmouseout="this.src='Images/housing/buttons/student living/married students/fm.png';" onmouseover="this.src='Images/housing/buttons/student living/married students/fm-hover.png';" src="Images/housing/buttons/student living/married students/fm.png" /&gt;&lt;/a&gt;
+
+&lt;a&gt;&lt;img id="sHB" onmouseout="this.src='Images/housing/buttons/student living/married students/sh.png';" onmouseover="this.src='Images/housing/buttons/student living/married students/sh-hover.png';" src="Images/housing/buttons/student living/married students/sh.png"/&gt;&lt;/a&gt;
+&lt;br/&gt;&lt;hr/&gt;
+&lt;/div&gt;
+
+
+	&lt;div id="qTD"&gt;
+
+	&lt;a class="intLink" href="x50922.xml"&gt;&lt;strong&gt;One: Quality Time as a Couple&lt;/strong&gt;&lt;/a&gt;
+	&lt;br/&gt;&lt;br/&gt;
+	&lt;em&gt;Strengthen couples' relationships by spending quality time together&lt;/em&gt;	
+
+	&lt;/div&gt;
+
+	&lt;div id="fMD"&gt;
+
+	&lt;a class="intLink" href="x50927.xml"&gt;&lt;strong&gt;One: True at All Times&lt;/strong&gt;&lt;/a&gt;
+	&lt;br/&gt;&lt;br/&gt;
+	&lt;em&gt;Strengthen the bond between the Couple&lt;/em&gt;	
+	&lt;br/&gt;&lt;br/&gt;
+	&lt;a class="intLink" href="x50928.xml"&gt;&lt;strong&gt;Two: None Else and Nothing Else&lt;/strong&gt;&lt;/a&gt;
+	&lt;br/&gt;&lt;br/&gt;
+	&lt;em&gt;Putting each other before all&lt;/em&gt;	
+	&lt;br/&gt;&lt;br/&gt;
+	&lt;a class="intLink" href="x50929.xml"&gt;&lt;strong&gt;Three: Cleave unto your spouse&lt;/strong&gt;&lt;/a&gt;
+	&lt;br/&gt;&lt;br/&gt;
+	&lt;em&gt;Love each other and cleave unto them&lt;/em&gt;	
+
+	&lt;/div&gt;
+	
+	&lt;div id="sHD"&gt;
+
+	&lt;a class="intLink" href="x50930.xml"&gt;&lt;strong&gt;One: Heeding the Spirit&lt;/strong&gt;&lt;/a&gt;
+	&lt;br/&gt;&lt;br/&gt;
+	&lt;em&gt;By Heeding the Spirit we invite further direction&lt;/em&gt;	
+	&lt;br/&gt;&lt;br/&gt;
+	&lt;a class="intLink" href="x50931.xml"&gt;&lt;strong&gt;Two: Pleading for the Spirit&lt;/strong&gt;&lt;/a&gt;
+	&lt;br/&gt;&lt;br/&gt;
+	&lt;em&gt;Pleading for the Spirit to abide in our home&lt;/em&gt;	
+	&lt;br/&gt;&lt;br/&gt;
+	&lt;a class="intLink" href="x50932.xml"&gt;&lt;strong&gt;Three: Scripture Study&lt;/strong&gt;&lt;/a&gt;
+	&lt;br/&gt;&lt;br/&gt;
+	&lt;em&gt;Scripture Study invites the Spirit into our home&lt;/em&gt;	
+	&lt;br/&gt;&lt;br/&gt;
+	&lt;a class="intLink" href="x50933.xml"&gt;&lt;strong&gt;Four: Contention&lt;/strong&gt;&lt;/a&gt;
+	&lt;br/&gt;&lt;br/&gt;
+	&lt;em&gt;Contention drives away the Spirit&lt;/em&gt;	
+
+	&lt;/div&gt;</ContentSnippet></ContentSnippet>

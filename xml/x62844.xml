@@ -1,0 +1,340 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content ID="x62844" Name="Spring Schedule" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Spring Schedule</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Spring Schedule</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+#page{width: 710px; height: auto; min-height: 600px;}
+    #page #header{width: 710px; height: 265px;}
+    #page #content{width: 78%; height: auto; min-height: 300px; float: left; padding: 1%;}
+
+    #page #content table{
+        width: 553.8px;
+        font-size: 13px; border-color: #dcdcdc; 
+        border-width: .01px; border-style: solid;
+    }
+    #page #content table #top{
+        text-align: left; padding: 5px 10px 10px 10px; 
+        font-weight: bold; color: black;    
+        background-image: url('Images/student-support/Get Connected/spring.jpg'); background-size: 100% 100%;}
+    #page #content table span{float: right;}
+    #page #content table td{border-color: #dcdcdc; border-width: .01px; border-left-style: solid;  color: black;}
+    .color #time, .color #event, .color #place{background-color: #ced364;}
+    .color:hover #time, .color:hover #event, .color:hover #place{background-color: #c8cd50;}
+    #page #content table #cap{width: 100%;}
+    #page #content table #time{width: 100px; padding: 10px 5px 5px 5px; border-style: none;}
+    #page #content table #event{padding: 10px 5px 5px 5px;}
+    #page #content table #place{width: 150px; padding: 10px 5px 5px 5px; text-align: right;}
+
+    #page #buttons{width: 18%; height: auto; min-height: 300px; float: left; padding: 1%; text-align: center;}
+    #page #buttons div{width: 100px; height: 100px; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;}
+
+     #page #buttons .one{
+        background-image: url('Images/student-support/Get Connected/get-connected-sprite.gif');
+        background-color:#FFF;background-position:0 100px;
+        height:100px;
+                        width:100px;
+                        display:block;
+                        margin-left:13px;
+                        margin-top:10px;}
+    #page #buttons .two{
+        background-image: url('Images/student-support/Get Connected/get-connected-sprite.gif');
+        background-color:#FFF;background-position:0 304px;
+        height:100px;
+                        width:100px;
+                        display:block;
+                        margin-left:13px;
+                        margin-top:10px;}
+    #page #buttons .three{
+        background-image: url('Images/student-support/Get Connected/get-connected-sprite.gif');
+        background-position:0 512px;
+        height:100px;
+                        width:100px;
+                        display:block;
+                        margin-left:13px;
+                        margin-top:10px;
+    }
+    
+
+    #page #buttons .one:hover{background-image: url('Images/student-support/Get Connected/get-connected-sprite2.gif');
+    background-position:0 203px;}
+    #page #buttons .two:hover{background-image: url('Images/student-support/Get Connected/get-connected-sprite2.gif');
+    background-position:0 408px;}
+    #page #buttons .three:hover{background-image: url('Images/student-support/Get Connected/get-connected-sprite2.gif');
+    background-position:0 615px;}
+   
+
+    #page #buttons .live_chat{
+
+        padding:10px 15px;
+        /* IE10 Consumer Preview */ 
+                background-color:#383234;
+        
+        opacity:.9;
+
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top left, #231F20 0%, #383234 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top left, #231F20 0%, #383234 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top left, #231F20 0%, #383234 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #231F20), color-stop(1, #383234));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top left, #231F20 0%, #383234 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom right, #231F20 0%, #383234 100%);
+        text-decoration:none;
+        color:#fff;
+        border-radius:4px;
+        font-family:sans-serif;
+        font-weight:bold;
+
+    }
+     #page #buttons .live_chat:hover {
+        opacity:1;
+    }
+    p a:hover{
+        opacity:.8;
+    }
+--></style>
+<div id="page">
+<div id="header"><img src="Images/student-support/Get Connected/spring_schedule_header.jpg" /></div>
+<div id="content">
+<h1>Spring 2013 - Get Connected Schedule</h1>
+<p style="font-size: 12px;">The Get Connected Schedule is tentative and subject to change. Please check back regularly for updates.<br />This schedule was last updated on 02/25/13.</p>
+<p style="font-size: 12px;"><a href="http://www2.byui.edu/Maps/">Interactive Map</a> / <a href="http://www2.byui.edu/Maps/printableMap.pdf">Printable Map</a> / * <a href="http://www2.byui.edu/ParkingServices/images1/NewEventParkingMap.jpg">Parking Map</a><br />*You may park on campus during Get Connected without a permit. However, permits are required beginning April 22, 2013.</p>
+<hr /><small>PARENTS: We hope you enjoy your visit to BYU-Idaho on Move-in Day!<br />Please note that Saturday, April 20 is for new students only!<br />Please encourage your son/daughter to fully participate in Get Connected.</small>
+<p>&nbsp;</p>
+<table cellspacing="0"><caption id="top" style="color: white; font-variant: small-caps;">Move-In DAY<span>Friday, April 19, 2013</span></caption>
+<tbody>
+<tr id="title">
+<td style="border-left-style: none; border-bottom-style: solid;"><strong>Time</strong></td>
+<td style="border-bottom-style: solid;"><strong>Event</strong></td>
+<td style="border-bottom-style: solid; text-align: right;"><strong>Place</strong></td>
+</tr>
+<tr class="color" id="item">
+<td id="time">Starts at 8:00am</td>
+<td id="event"><strong>Housing Complex Check-Ins</strong><br />This is the day that new students can begin moving into your housing complex. Housing complexes should be open for you to move in by 8:00 a.m.</td>
+<td id="place"><strong>On-Campus:</strong> <br />At Housing Complexes<br /><strong>Off-Campus:</strong> <br />At Apartment Complexes</td>
+</tr>
+<tr id="item">
+<td id="time">8:00am-3:00pm</td>
+<td id="event"><strong>Get Connected Student Registration</strong> Register for Get Connected in order to be placed in an I-Team, get a wristband and recieve a free meal as part of Get Connected.</td>
+<td id="place"><strong>Manwaring Center:</strong> <br />Lobby</td>
+</tr>
+<tr class="color" id="item">
+<td id="time">8:00am-5:00pm</td>
+<td id="event"><a href="#studentservices"><strong>Student Services</strong></a><br />Use this time to take care of students services such as buying books, paying tuition, obtaining your I-Card, etc. Some services can be taken care of online before coming to BYU-Idaho. See student services at the bottom of this page.</td>
+<td id="place">Kimball Building<br />Manwaring Center</td>
+</tr>
+<tr id="item">
+<td id="time">9:00am-3:00pm</td>
+<td id="event"><strong><a href="x43467.xml">Talent Show Auditions</a></strong><br />Audition today to perform your talent at the New Student Talent Show held Saturday night in the Kirkham Auditorium.</td>
+<td id="place"><strong>Manwaring Center:</strong><br />Special Events Room 387</td>
+</tr>
+<tr class="color" id="item">
+<td id="time">11:00am-4:00pm</td>
+<td id="event"><strong>New Student/Parent Dining</strong><span style="font-size: 9px;"></span><br />The Crossroads will be open for breakfast, lunch or dinner.Options include: Tuscan Valley (pizza and pasta), Caliente (Mexican cuisine), Far East Fusion (Oriental cuisine), Stacks &amp; Wraps (sandwiches and wraps), Grand Teton Grill (grill items), Chef's Point (homestyle meals), Bakery, and Salad. For more information visit BYU-Idaho Food Services or call 208-496-2800.</td>
+<td id="place"><strong>Manwaring Center:</strong><br />The Crossroads</td>
+</tr>
+<tr id="item">
+<td id="time">3:30am-5:00pm</td>
+<td id="event"><strong>BYU-Idaho Welcome</strong><br />New students and parents will have the opportunity to hear from Elder Kim B. Clark, President of BYU-Idaho and his wife Sue. Parents unable to travel to Rexburg may view this event <a href="live/video">online</a>.</td>
+<td id="place">Taylor Chapel</td>
+</tr>
+<tr class="color" id="item">
+<td id="time">4:00pm-5:00pm</td>
+<td id="event"><strong>Meet Your I-Team</strong><br />New students will meet your I-Team group and become better acquainted during this session.</td>
+<td id="place">BYU-Idaho Courts</td>
+</tr>
+<tr id="item">
+<td id="time">8:30am-10:00pm</td>
+<td id="event"><strong><a href="x43467.xml"></a>I-Team Social</strong><br />Attend the New Student Social and get to know other new students.</td>
+<td id="place">BYU-Idaho Courts</td>
+</tr>
+</tbody>
+</table>
+<br />
+<table cellspacing="0"><caption id="top" style="color: white; font-variant: small-caps;">Get Connected<span>Saturday, Apr 20, 2013</span></caption>
+<tbody>
+<tr id="title">
+<td style="border-left-style: none; border-bottom-style: solid;"><strong>Time</strong></td>
+<td style="border-bottom-style: solid;"><strong>Event</strong></td>
+<td style="text-align: right; border-bottom-style: solid;"><strong>Place</strong></td>
+</tr>
+<tr class="color" id="item">
+<td id="time">8:00am-12:00pm</td>
+<td id="event"><strong>Get Connected Late Registration</strong> Register for Get Connected in order to be placed in an I-team, get your wristband and receive a free meal during Get Connected</td>
+<td id="place"><strong>Manwaring Center:</strong><br />Lobby</td>
+</tr>
+<tr id="item">
+<td id="time">9:00am-10:15am</td>
+<td id="event"><strong>Living and Learning at BYU-Idaho</strong> Participate in this interactive session taught by current students which focuses on becoming a disciple leader through the Learning Model, Student Honor and Student Living.</td>
+<td id="place">Taylor Chapel &amp; Cultural Hall</td>
+</tr>
+<tr class="color" id="item">
+<td id="time">10:30am-12:00pm</td>
+<td id="event"><strong>Academic Connections/ Meet The Faculty</strong><br />Meet your college academic advisor as well as faculty representatives from your college. See meeting locations below.</td>
+<td id="place">See below</td>
+</tr>
+<tr class="color" id="item">
+<td id="event" style="padding: 0px 5px;"></td>
+<td colspan="2" id="event" style="padding: 0px 5px;">College of Agriculture &amp; Life Sciences <span>Taylor&nbsp;120</span></td>
+</tr>
+<tr class="color" id="item">
+<td id="event" style="padding: 0px 5px;"></td>
+<td colspan="2" id="event" style="padding: 0px 5px;">College of Business &amp; Communication <span>Hinckley&nbsp;240</span></td>
+</tr>
+<tr class="color" id="item">
+<td id="event" style="padding: 0px 5px;"></td>
+<td colspan="2" id="event" style="padding: 0px 5px;">College of Education &amp; Human Develop <span>Hinckley 286</span></td>
+</tr>
+<tr class="color" id="item">
+<td id="event" style="padding: 0px 5px;"></td>
+<td colspan="2" id="event" style="padding: 0px 5px;">College of Language &amp; Letters <span>Ricks 174</span></td>
+</tr>
+<tr class="color" id="item">
+<td id="event" style="padding: 0px 5px;"></td>
+<td colspan="2" id="event" style="padding: 0px 5px;">College of Performing &amp; Visual Arts <span>Snow 115</span></td>
+</tr>
+<tr class="color" id="item">
+<td id="event" style="padding: 0px 5px;"></td>
+<td colspan="2" id="event" style="padding: 0px 5px;">College of Physical Sciences &amp; Engineer <span>Austin 105</span></td>
+</tr>
+<tr class="color" id="item">
+<td id="event" style="padding: 0px 5px;"></td>
+<td colspan="2" id="event" style="padding: 0px 5px;">General Studies/University Studies <span>Ricks 161</span></td>
+</tr>
+<tr id="item">
+<td id="time">12:15-1:15pm</td>
+<td id="event"><strong>New Student BBQ</strong><br />Participate in the BBQ activities and enjoy a free meal.</td>
+<td id="place">Spori South Quad</td>
+</tr>
+<tr class="color" id="item">
+<td id="time">1:30pm-2:30pm</td>
+<td id="event"><strong>Spirit of Ricks Showcase</strong><br />Connect to BYU-Idaho by learning about the Spirit of Ricks and how to get involved in various activities and programs available at BYU-Idaho.</td>
+<td id="place">Kirkham Auditorium</td>
+</tr>
+<tr id="item">
+<td id="time">2:30pm-3:30pm</td>
+<td id="event"><strong>Get Involved Fair</strong><br />Visit with representatives from the various campus organizations and sign-up to participate.</td>
+<td id="place">MC 220 Grand Ballroom</td>
+</tr>
+<tr class="color" id="item">
+<td id="time">2:15pm-5:00pm</td>
+<td id="event"><strong>Student Services/Free Time</strong><br />Use this time to take care of students services such as buying books, paying tuition, obtaining your I-Card, etc.</td>
+<td id="place">Campus Locations</td>
+</tr>
+<tr>
+<td id="time">8:30pm-10:00pm</td>
+<td id="event"><strong>Talent Show</strong><br />Watch students perform their talents in front of all of the Get Connected participants.</td>
+<td id="place">Kirkham Auditorium</td>
+</tr>
+</tbody>
+</table>
+<br />
+<table cellspacing="0"><caption id="top" style="color: white; font-variant: small-caps;">First Week of Class<span>April 22 thru april26 , 2013</span></caption>
+<tbody>
+<tr id="title">
+<td style="border-left-style: none; border-bottom-style: solid;"><strong>Time</strong></td>
+<td style="border-bottom-style: solid;"><strong>Event</strong></td>
+<td style="text-align: right; border-bottom-style: solid;"><strong>Place</strong></td>
+</tr>
+<tr id="item">
+<td id="time">Tuesday April 23, 2013<br />
+<p>2:10pm-3:00pm</p>
+</td>
+<td id="event"><strong>Devotional</strong><br />Attend the first Devotional of the semester as an I-Team or with roommates and friends.</td>
+<td id="place">BYU-Idaho Center Auditorium</td>
+</tr>
+<tr class="color" id="item">
+<td id="time">
+<p>Tuesday April 23, 2013</p>
+<p>7:00pm-11:00pm</p>
+</td>
+<td id="event"><strong><a href="x32415.xml">I-Night</a> (All Students)</strong><span style="font-size: 9px;">(Ticketed Event)</span><br />Tickets will go on sale February 20 and are $5.00 per person when purchased in advance or $5.00 at the door. One dollar worth of food coupons is included with your ticket. Call 1-800-717-4257 or purchase <a href="http://byui.universitytickets.com/user_pages/event_listings.aspx?id=110">online</a>.</td>
+<td id="place">Manwaring Center<br />BYU-Idaho Center</td>
+</tr>
+</tbody>
+</table>
+<br /><br /><br /><a name="studentservices"></a>
+<table cellspacing="0"><caption id="top" style="color: white; font-variant: small-caps;">Student Services<span>Sat Apr 20, 2013</span></caption>
+<tbody>
+<tr id="title">
+<td style="border-left-style: none; border-bottom-style: solid;"><strong>Time</strong></td>
+<td style="border-bottom-style: solid;"><strong>Event</strong></td>
+<td style="text-align: right; border-bottom-style: solid;"><strong>Place</strong></td>
+</tr>
+<tr class="color" id="item">
+<td id="time">8:00am-1:00pm</td>
+<td id="event"><a href="http://www.byui.edu/financial-services/my-account"><strong>I-Card Distribution</strong></a><br />Must have your I-Number and be dressed in standards (see <a href="http://www2.byui.edu/StudentHonor/">Student Honor</a>)</td>
+<td id="place">Kimball 130</td>
+</tr>
+<tr id="item">
+<td id="time">8:00am-1:00pm</td>
+<td id="event"><a href="http://www2.byui.edu/GetConnected/kimballservices.htm"><strong>Student Services in the Kimball</strong></a></td>
+<td id="place">Kimball Building</td>
+</tr>
+<tr class="color" id="item">
+<td id="time">8:00am-1:00pm</td>
+<td id="event"><a href="http://www2.byui.edu/ParkingServices/"><strong>On-Campus Parking Permits</strong></a></td>
+<td id="place">Kimball Building 150 H</td>
+</tr>
+<tr id="item">
+<td id="time">8:00am-1:00pm</td>
+<td id="event"><a href="http://www.byui.edu/food-services/prices-and-plans"><strong>Dining Dollars</strong></a></td>
+<td id="place">Manwaring Center 276 A</td>
+</tr>
+<tr class="color" id="item">
+<td id="time">9:00am-6:00pm</td>
+<td id="event"><a href="http://www.byui.edu/food-services/?cid=fli:123"><strong>The Crossroads Dining Facility</strong></a></td>
+<td id="place">Manwaring Center 2nd Floor</td>
+</tr>
+<tr id="item">
+<td id="time">8:00am-6:00pm</td>
+<td id="event"><a href="http://www.byuistore.com/"><strong>University Store</strong></a> Textbooks, Hart Building issue (PE Clothes), computers/software /techonology supplies, school supplies and BYU-Idaho paraphrenalia</td>
+<td id="place">Manwaring Center 1st Floor</td>
+</tr>
+<tr class="color" id="item">
+<td id="time">8:00am-7:00pm</td>
+<td id="event"><a href="http://www.byuistore.com/"><strong>University Store - Convenience Store</strong></a></td>
+<td id="place">Manwaring Center 1st Floor</td>
+</tr>
+</tbody>
+</table>
+<br />
+<table cellspacing="0"><caption id="top" style="color: white; font-variant: small-caps;">Get Connected Expeditions<span>April TBD, 2013</span></caption>
+<tbody>
+<tr id="title">
+<td style="border-left-style: none; border-bottom-style: solid;"><strong>Time</strong></td>
+<td style="border-bottom-style: solid;"><strong>Event</strong></td>
+<td style="text-align: right; border-bottom-style: solid;"><strong>Place</strong></td>
+</tr>
+<tr class="color" id="item">
+<td id="time">TBD</td>
+<td id="event"><strong>Outdoor Discovery</strong><span style="font-size: 9px;">(Ticketed Event)</span><br />Join us for an outdoor adventure at beautiful Badger Creek. You can participate in cross-country skiing, snowshoeing or sledding. Sign-ups are required to participate. Tickets cost $10.00. Tickets will soon be available at the ticket office.</td>
+<td id="place">TBD</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="buttons"><strong>Get Connected<br />Schedules: </strong><a class="one" href="x43189.xml"></a><a class="two" href="x43296.xml"></a><a class="three" href="x43295.xml"></a>
+<p style="margin-top: -2px;"></p>
+<a class="live_chat" href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=Student%20Support">Live Chat</a></div>
+</div>
+<p>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-33977325-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+</p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x19075" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

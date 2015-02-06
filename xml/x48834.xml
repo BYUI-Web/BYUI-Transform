@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x48834" Name="newsroom_index.js" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">newsroom_index.js</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">newsroom_index.js</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">$(document).ready(function() {
+  $('.news_event').bind('click', function() {window.location = $(this).children("a").attr("href");})
+});</ESContent></EmptyShell>

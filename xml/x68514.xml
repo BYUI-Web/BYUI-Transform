@@ -1,0 +1,223 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<TrainingDetailsVTwo ID="x68514" Name="HTML Copy" Layout="default-training_v2.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">HTML Copy Element</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">A text area that accepts HTML code, and provides a WYSIWYG editor by default.</Abstract><IsTrainingHomePage type="boolean" label="Is this the training homepage?" readonly="false" hidden="false" required="false">false</IsTrainingHomePage><TrainingImage type="imagefile" label="Page Type Image" hidden="false" readonly="false" required="false"></TrainingImage><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p>The HTML Copy area (aka. Intro, Body Copy, Main Message, Optional Content, Welcome Copy, Event Details, Policy; see also Form Elements) is the primary area for your content. This is the place for most images, text, embeded movies, and much more.</p>
+<h4>Proper Use</h4>
+<p>The HTML Copy area provides a HTML editor by default. If necessary, you  can switch to code view and edit HTML directly. The editor will validate  the HTML and scrub out any invalid HTML tags, so be sure to save and preview your changes regularly!</p>
+<h4>Minutia (minimized by default)</h4>
+<h4>Tag Name</h4>
+<h4>Notes</h4>
+<p>&nbsp;</p>
+<h4>HTML Examples</h4>
+<p>Example One: 2 Column Page</p>
+<style><!--
+.column {
+float: left;
+width: 45%;
+margin: 0 10px!important;
+}
+--></style>
+<div>
+<div class="column">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis justo sit amet sapien fermentum placerat quis et arcu. Curabitur ut auctor nulla. Etiam placerat sodales laoreet. Vivamus tincidunt risus nec ante hendrerit et porttitor ante laoreet. Sed lacinia, quam in lobortis congue, felis ligula pellentesque metus, eu pulvinar risus sapien sit amet odio. Sed enim erat, ultricies sodales luctus eu, adipiscing ut nisi. Mauris lacinia, mauris eget vestibulum semper, risus nulla faucibus nisi, a viverra quam ligula non metus. Fusce nec felis at purus feugiat lobortis quis at leo. Duis commodo dapibus tristique. Donec euismod congue nulla, sed rutrum mauris vehicula non. In hac habitasse platea dictumst.</p>
+</div>
+<div class="column">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis justo sit amet sapien fermentum placerat quis et arcu. Curabitur ut auctor nulla. Etiam placerat sodales laoreet. Vivamus tincidunt risus nec ante hendrerit et porttitor ante laoreet. Sed lacinia, quam in lobortis congue, felis ligula pellentesque metus, eu pulvinar risus sapien sit amet odio. Sed enim erat, ultricies sodales luctus eu, adipiscing ut nisi. Mauris lacinia, mauris eget vestibulum semper, risus nulla faucibus nisi, a viverra quam ligula non metus. Fusce nec felis at purus feugiat lobortis quis at leo. Duis commodo dapibus tristique. Donec euismod congue nulla, sed rutrum mauris vehicula non. In hac habitasse platea dictumst.</p>
+</div>
+</div>
+<p>Copy and paste the following code into the HTML view.</p>
+<p>Edit the dummy text in the nomal view and when you save you should have a 2 column page.</p>
+<code></code>
+<div><br />
+<div class="column"><br />
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis justo sit amet sapien fermentum placerat quis et arcu. Curabitur ut auctor nulla. Etiam placerat sodales laoreet. Vivamus tincidunt risus nec ante hendrerit et porttitor ante laoreet. Sed lacinia, quam in lobortis congue, felis ligula pellentesque metus, eu pulvinar risus sapien sit amet odio. Sed enim erat, ultricies sodales luctus eu, adipiscing ut nisi. Mauris lacinia, mauris eget vestibulum semper, risus nulla faucibus nisi, a viverra quam ligula non metus. Fusce nec felis at purus feugiat lobortis quis at leo. Duis commodo dapibus tristique. Donec euismod congue nulla, sed rutrum mauris vehicula non. In hac habitasse platea dictumst.</p>
+</div>
+<br />
+<div class="column"><br />
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis justo sit amet sapien fermentum placerat quis et arcu. Curabitur ut auctor nulla. Etiam placerat sodales laoreet. Vivamus tincidunt risus nec ante hendrerit et porttitor ante laoreet. Sed lacinia, quam in lobortis congue, felis ligula pellentesque metus, eu pulvinar risus sapien sit amet odio. Sed enim erat, ultricies sodales luctus eu, adipiscing ut nisi. Mauris lacinia, mauris eget vestibulum semper, risus nulla faucibus nisi, a viverra quam ligula non metus. Fusce nec felis at purus feugiat lobortis quis at leo. Duis commodo dapibus tristique. Donec euismod congue nulla, sed rutrum mauris vehicula non. In hac habitasse platea dictumst.</p>
+</div>
+</div>
+<br />
+<p>Example Two: Zebra Stripping Tables</p>
+<p>This is a basic example for stripping a table. There are 2 versions that will be posted. One will be marked CSS 2.0, this will is complaint with all current browsers. After that there will be one posted for CSS 3.0, this is the easiest to implement but it's not complaint with all browsers.</p>
+<p>&nbsp;</p>
+<p>CSS 2</p>
+<style><!--
+table#css2 {
+border: solid black 1px;
+}
+table#css2 td{
+border: solid black 1px;
+}
+table#css2 tr.odd{
+background-color: #999;
+}
+--></style>
+<table id="css2">
+<tbody>
+<tr class="odd">
+<td>Data</td>
+<td>More Data</td>
+<td>Even MoreData</td>
+</tr>
+<tr class="even">
+<td>Data</td>
+<td>More Data</td>
+<td>Even MoreData</td>
+</tr>
+<tr class="odd">
+<td>Data</td>
+<td>More Data</td>
+<td>Even MoreData</td>
+</tr>
+<tr class="even">
+<td>Data</td>
+<td>More Data</td>
+<td>Even MoreData</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>CSS 2</p>
+<code>
+<style><!--
+<br />table#css2 {<br />border: solid black 1px;<br />}<br />table#css2 td{<br />border: solid black 1px;<br />}<br />table#css2 tr.odd{<br />background-color: #999;<br />}<br />
+--></style>
+<br /></code> 
+<table id="css2">
+<br /> 
+<tbody>
+<br /> 
+<tr class="odd">
+<br />
+<td>Data</td>
+<br />
+<td>More Data</td>
+<br />
+<td>Even MoreData</td>
+<br />
+</tr>
+<br /> 
+<tr class="even">
+<br />
+<td>Data</td>
+<br />
+<td>More Data</td>
+<br />
+<td>Even MoreData</td>
+<br />
+</tr>
+<tr class="odd">
+<br />
+<td>Data</td>
+<br />
+<td>More Data</td>
+<br />
+<td>Even MoreData</td>
+<br />
+</tr>
+<tr class="even">
+<br />
+<td>Data</td>
+<br />
+<td>More Data</td>
+<br />
+<td>Even MoreData</td>
+<br />
+</tr>
+<br />
+</tbody>
+<br />
+</table>
+<br /><br />
+<p>&nbsp;</p>
+<p>CSS 3</p>
+<style><!--
+table#css3 {
+border: solid black 1px;
+}
+table#css3 td{
+border: solid black 1px;
+}
+table#css3 tr:nth-child(odd){
+background-color: #999;
+}
+--></style>
+<table id="css3">
+<tbody>
+<tr>
+<td>Data</td>
+<td>More Data</td>
+<td>Even MoreData</td>
+</tr>
+<tr>
+<td>Data</td>
+<td>More Data</td>
+<td>Even MoreData</td>
+</tr>
+<tr>
+<td>Data</td>
+<td>More Data</td>
+<td>Even MoreData</td>
+</tr>
+<tr>
+<td>Data</td>
+<td>More Data</td>
+<td>Even MoreData</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<code>
+<style><!--
+<br />table#css3 {<br />border: solid black 1px;<br />}<br />table#css3 td{<br />border: solid black 1px;<br />}<br />table#css3 tr:nth-child(odd){<br />background-color: #999;<br />}<br />
+--></style>
+<br /></code> 
+<table id="css3">
+<br /> 
+<tbody>
+<br /> 
+<tr>
+<br />
+<td>Data</td>
+<br />
+<td>More Data<br /></td>
+<br />
+<td>Even MoreData</td>
+<br />
+</tr>
+<br /> 
+<tr>
+<br />
+<td>Data</td>
+<br />
+<td>More Data</td>
+<br />
+<td>Even MoreData</td>
+<br />
+</tr>
+<br /> 
+<tr>
+<br />
+<td>Data</td>
+<br />
+<td>More Data</td>
+<br />
+<td>Even MoreData</td>
+<br />
+</tr>
+<br /> 
+<tr>
+<br />
+<td>Data</td>
+<br />
+<td>More Data</td>
+<br />
+<td>Even MoreData</td>
+<br />
+</tr>
+<br />
+</tbody>
+<br />
+</table>
+<br />
+<p class="seeAlso">See also (<a href="x20473.xml">Web Content Editor</a>)</p>]]></BodyCopy><xPower Type="References" References="" Name="PageUsage" label="Page, Component or Element Reference" readonly="false" hidden="false" required="false" QueryLocationRoots="" IncludeCrossReferences="false" Depth="0" QuerySchemas="TrainingDetailsVTwo" Expanded="false"><Exports></Exports></xPower><xPower Type="Navigation" StartPage="x5759" MaxDepth="4" MaxNodes="" GenerationOrder="down" Navigation="Children" Query="" Name="Page" label="Pagetype Navigation" readonly="true" hidden="true" required="false" Expanded="true"/><xPower Type="Navigation" StartPage="x5757" MaxDepth="4" MaxNodes="" GenerationOrder="down" Navigation="Children" Query="" Name="Components" label="Components Navigation" readonly="true" hidden="true" required="false" Expanded="true"/><xPower Type="Navigation" StartPage="x10609" MaxDepth="4" MaxNodes="" GenerationOrder="down" Navigation="Children" Query="" Name="Elements" label="Element Navigation" readonly="true" hidden="true" required="false" Expanded="true"/><xPower Type="Navigation" StartPage="x5" MaxDepth="4" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="true"/><xPower Type="Navigation" StartPage="x5758" MaxDepth="4" MaxNodes="" GenerationOrder="down" Navigation="Children" Query="" Name="FAQs" label="Tutorials Navigation" readonly="true" hidden="true" required="false" Expanded="true"/><xPower Type="Component" Component="x14850" Name="Component" label="pageTypelinks" hidden="true" required="false" readonly="true" CompTypes="LinkGroupComponent" name="pageTypelinks" Expanded="false"/><xPower Type="Component" Component="x14849" Name="Component" label="componentslinks" hidden="true" required="false" readonly="true" CompTypes="LinkGroupComponent" name="componentslinks" Expanded="false"/><xPower Type="Component" Component="x14848" Name="Component" label="elementslinks" hidden="true" required="false" readonly="true" CompTypes="LinkGroupComponent" name="elementslinks" Expanded="false"/><xPower Type="Component" Component="x14847" Name="Component" label="tutoriallinks" hidden="true" required="false" readonly="true" CompTypes="LinkGroupComponent" name="tutoriallinks" Expanded="false"/><xPower Type="Component" Component="x14845" Name="SiteControl" label="Site Control" hidden="false" required="false" readonly="true" CompTypes="SiteControl" Expanded="false"/></TrainingDetailsVTwo>

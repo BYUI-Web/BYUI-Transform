@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.82 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x65168" Name="SampleLesson1" Layout="general_content.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Pre-Matriculation Sample Lesson 1</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Test of Pre-Matriculation Course page</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<div>
+<p> </p>
+<h1 style="text-align: center;"><span style="font-size: xx-large;">Everything you Ever Wanted to Know about Coming to BYU-Idaho</span></h1>
+<p> </p>
+<p><span style="font-size: large;">W</span>elcome to BYU-Idaho! This is a "mini-site" within the BYUI website that will introduce you to "everything you need to know" regarding being a Student here.</p>
+<p>Do you have questions about how to apply? How to pick a major? What to do about Student Housing? Well, you have arrived at the perfect spot!</p>
+<p>In the menu at left, you will see tabs which will take you on a journey through all of the important information that you need to know.</p>
+<p>However, it's going to make a lot more sense if you view this info in a certain "path", so to speak, rather than jumping around for information.</p>
+<p>So allow us to guide you through a "tour" - and by the time your virtual journey is through, you'll be a Master at navigating BYUI - before you ever set foot on Campus!</p>
+<p>Please keep arms and legs inside the vehicle at all times!!!</p>
+<p> </p>
+<h3>Begin Here:</h3>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<h1 style="text-align: center;"></h1>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+</div>]]></BodyCopy><xPower Type="Component" Component="x18360" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x17147" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

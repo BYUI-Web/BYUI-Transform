@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.82 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x32151" Name="Career Navigator" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Career Navigator</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Career Navigator for studentst: Information about Career Navigator, a tool to help students search for internship and career opportunities.</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p>Career Navigator is a tool available to assist BYU-Idaho students in their search for internships and career opportunities. Create a profile, upload your job-searching documents, apply for positions online, hone your preparation skills by RSVP'ing for a Career Workshop - and more! Career Navigator will guide you through the process to help you launch your future!</p>
+<h2>How can Career Navigator assist you with your internship &amp; career needs?</h2>
+<ul>
+<li>Search for internships</li>
+<li>Search for career positions</li>
+<li>Apply for positions online</li>
+<li>Upload your resume &amp; cover letters</li>
+<li>Employers can review your documents online</li>
+<li>Schedule interviews with employers</li>
+<li>Register for workshops</li>
+<li>Learn about career-related events on campus</li>
+<li>Search employers</li>
+<li>Find out when employers will be on campus</li>
+<li>Search networks of students and alumni for mentors</li>
+<li>RSVP to workshops, fairs, information sessions and more</li>
+<li>Create a profile to highlight your skills</li>
+<li>Find announcements for career services events</li>
+</ul>
+<h2>Logging In</h2>
+<p></p>
+<p>Access Career Navigator at</p>
+<p><a class="extLink" href="https://byui-csm.symplicity.com/students/" onclick="
+	var s = s_gi(s_account);
+	s.linkTrackVars='events';
+	s.linkTrackEvents='event2';
+	s.events='event2';
+	s.tl(this,'e','Career Navigator');
+	" title="Career Navigator" target="_blank">https://byui-csm.symplicity.com/students</a> .&nbsp; Once there, you can bookmark the site or add it to your favorites if you'd like.</p>
+<p>Enter your BYU-Idaho Net ID and password - and you're in!</p>
+<h2>Create Your Profile</h2>
+<p>You will first be asked to complete your student profile. This information is necessary to allow you to access all the great features of the system. You will need to keep your information updated as you progress through your education. Simply click on the "Profile" tab in the navigation bar at the top of the page, and complete the required information.</p>
+<p>You may upload resumes, cover letters and other related documents at any time&nbsp; by clicking the "Documents" tab. Uploading and storing a resume allows you to apply for positions by submitting your resume directly to the employer through the system. If you give permission, the resume will appear in resume books for employers as well. If you decide to apply for jobs through the database or sign up for on-campus interviews with employers, you will be required to have a resume on file.</p>
+<h2>Register for a Career Workshop</h2>
+<p>To register for a Career Workshop, click on the "Events" link in the navigation bar, then on the "Workshops" tab. Available sessions will be listed - find the session you would like to attend, and click on the workshop link. You will see an RSVP button, just click and you're registered. If you need to cancel a reservation, please follow these instructions, and a "cancel RSVP" button will appear.&nbsp; If you must change your reservation to another date, you will need to cancel your original reservation and RSVP to another session.</p>
+<p></p>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x87843" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

@@ -1,0 +1,746 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<CommonPage ID="x67215" Name="Webisode 4" Layout="default.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Drive or Walk - Video</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Drive or Walk - Video</Abstract><xPower Type="GroupStart" GroupStart="" Name="ImageColumn" label="Image Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveRight type="boolean" hidden="true" label="Toggle column left or right (left is default)" readonly="false" required="false">false</MoveRight><xPower Type="List" List="xpowercomponent_ImageComponent" Name="ImageColumnComponentList" label="Images" readonly="false" hidden="false" required="false" Component="" CompTypes="LeftColumnImageComponent" Expanded="false"><xPower Type="Component" Component="" Name="ImageComponent" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent" Expanded="false"/></xPower><xPower Type="List" List="xpowercomponent_TextComponent" Name="TextColumnComponentList" label="Text Box" readonly="false" hidden="false" required="false" Component="" CompTypes="ColumnTextComponent" Expanded="false"><xPower Type="Component" Component="" Name="TextComponent" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent" Expanded="false"/></xPower></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<script type="text/javascript">
+//Begin 
+					   
+	rnd.today=new Date();
+	rnd.seed=rnd.today.getTime();
+
+	function rnd() {
+		rnd.seed = (rnd.seed*9301+49297) % 233280;
+		return rnd.seed/(233280.0);
+	}
+
+	function rand(number) {
+		var result = Math.ceil(rnd()*number);
+		if (!result)result++;
+		return result
+	}
+	
+function randomImageDisplay(){ 
+	var ad_cnta = 4;
+	var ada = rand(ad_cnta);
+	//var linka;
+	var adBannera;
+	//var widtha
+	//var heighta
+	var adAlt = "Drive or Walk Banner image";
+	if (ada==1) {
+		adBannera = "http://www.byui.edu/driveorwalk/images/hill.png";
+	}
+	if (ada==2) {
+		adBannera = "http://www.byui.edu/driveorwalk/images/snow.png";
+	}
+	if (ada==3) {
+		adBannera = "http://www.byui.edu/driveorwalk/images/spori.png";
+	}
+	if (ada==4) {
+		adBannera = "http://www.byui.edu/driveorwalk/images/tree.png";
+	}
+	  
+	document.getElementById('bannerImage').src = adBannera;
+	document.getElementById('bannerImage').alt = adAlt;
+}
+// End
+</script>
+<style><!--
+img {
+	border:0px;
+}
+#bannerImage {
+		width:650px;
+}
+#flashvideo {
+	float:left;
+	display:block;
+	width:445px;
+	height:400px;
+	padding:10px;
+	margin:5px;
+	background-color:#000000;
+
+}
+#randomfacts {
+	width:250px;
+	display:block;
+	float:left;
+	padding:10px;
+	margin:5px;
+	background-color: #EAEAE8;
+}
+.leftAREA h2 {
+	margin-left:5px;
+}
+
+/* walk or drive sideNAV layout CSS */
+#left_column {
+	background-color:#FFF;
+}
+
+#walkordrivenav {
+	width:200px;
+	padding:0px;
+	margin:0px;
+	border:0;
+}
+#walkordrivenav li	{
+	display:block;
+	margin:0px;
+	margin-left:-1px;
+}
+
+#walkordrivenav li a {
+	outline:none;
+	display:block;
+	padding-top:10px;
+	padding-left:19px;
+	background-color:#000;
+	color:#FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+	width:181px;
+	height:30px;
+	text-decoration:none;
+	border-bottom:1px solid #3c3533;
+}
+#walkordrivenav li a:hover {
+	outline:none;
+	display:block;
+	padding-top:10px;
+	padding-left:19px;
+	background-color:#000;
+	background-image:url('Images/new_image_structure/administrative_departments/university_communications/Campaigns/drive_or_walk/images/nav_roll.jpg');
+	background-repeat:no-repeat;
+	color:#FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+	width:181px;
+	height:30px;
+	text-decoration:none;
+	border-bottom:1px solid #3c3533;
+}
+
+#walkordrivenav img{
+	margin-left: -1px;
+}
+#content_main div p {
+	padding: 0px;
+}
+
+/*Random Image Header style*/
+#type_A .leftAREA {
+	padding:0px;
+	}
+#random_image {
+	display:block;
+	width:580px;
+	height:180px;
+	background-color:#000;
+}
+#random_image {
+	border:0px;
+	text-decoration:none;
+}
+#sub_head_grey_bar {
+	display:block;
+	width:590px;
+	
+	padding:30px;
+	background-color:#282727;
+		margin:22px 0 0 0;
+}
+#sub_head_grey_bar p {
+	font-family:Georgia, Times New Roman, Times, serif !important;
+	font-size:18px !important;
+	color:#cdcbcb !important;
+}
+#page_layout1_content {
+	display:block;
+	margin:30px;
+}
+#page_layout2_content {
+	position: relative;
+	margin:30px;
+}
+
+#page_layout1_content li  {
+	display:inline;
+	margin:0px;
+	margin-left:-1px;
+}
+#page_layout1_content li a {
+	outline:none;
+	float:left;
+	display:block;
+	padding-top:10px;
+	padding-left:19px;
+	background-color:#000;
+	color:#FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+	width:181px;
+	height:30px;
+	text-decoration:none;
+	border-bottom:1px solid #3c3533;
+}
+#page_layout1_content li a:hover {
+	outline:none;
+	display:block;
+	padding-top:10px;
+	padding-left:19px;
+	background-color:#000;
+	background-image:url('Images/new_image_structure/administrative_departments/university_communications/Campaigns/drive_or_walk/images/nav_roll.jpg');
+	background-repeat:no-repeat;
+	color:#FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+	width:181px;
+	height:30px;
+	text-decoration:none;
+	border-bottom:1px solid #3c3533;
+}
+#page_layout1_content div p {
+	padding-top:10px;
+}
+
+/* Video page buttons start*/
+#videonav {
+	position: relative;
+	margin:30px;
+}
+
+#videonav li  {
+	display:inline;
+	margin:0px;
+	margin-left:-1px;
+}
+#videonav li a {
+	outline:none;
+	float:left;
+	display:block;
+	padding-top:10px;
+	padding-left:19px;
+	background-color:#000;
+	color:#FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+	width:100px;
+	height:30px;
+	text-decoration:none;
+	border-right:1px solid #3c3533;
+	border-bottom:1px solid #3c3533;
+
+}
+#videonav li a:hover {
+	outline:none;
+	display:block;
+	padding-top:10px;
+	padding-left:19px;
+	background-color:#000;
+	background-image:url('Images/new_image_structure/administrative_departments/university_communications/Campaigns/drive_or_walk/images/nav_roll.jpg');
+	background-repeat:no-repeat;
+	color:#FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+	width:100px;
+	height:30px;
+	text-decoration:none;
+	border-bottom:1px solid #3c3533;
+}
+#videonav div p {
+	padding-top:10px;
+	margin-left: 10px;
+	border-right:1px solid #3c3533;
+
+}
+/* Video page buttons end*/
+
+/*all active buttons*/
+a.active {
+	outline:none !important;
+	display:block !important;
+	padding-top:10px !important;
+	padding-left:19px !important;
+	background-color:#000 !important;
+	background-image:url('Images/new_image_structure/administrative_departments/university_communications/Campaigns/drive_or_walk/images/nav_roll.jpg') !important;
+	background-repeat:no-repeat !important;
+	color:#FFF !important;
+	font-family: Arial, Helvetica, sans-serif !important;
+	font-size:18px !important;
+	width:181px !important;
+	height:30px !important;
+	text-decoration:none !important;
+	border-bottom:1px solid #3c3533 !important;
+}
+
+a #homelink1 {
+	height: 110px;
+}
+
+/*Header Box Title*/
+#titleBoxdrivewalk {
+	background-color: black;
+	color: white;
+	width: 260px;
+	height: 16px;
+	position: relative;
+	top: -45px;
+	left: 364px;
+	font-size: 20px;
+	padding: 13px;
+	padding-top: 16px;
+	font-style: italic;
+}
+#titleBoxvideos{
+	background-color: black;
+	color: white;
+	width: 160px;
+	height: 16px;
+	position: relative;
+	top: -45px;
+	left: 470px;
+	font-size: 27px;
+	padding: 13px;
+	padding-top: 16px;
+	font-style: italic;
+}
+
+#titleBoxparkingpermit {
+	background-color: black;
+	color: white;
+	width: 260px;
+	height: 16px;
+	position: relative;
+	top: -45px;
+	left: 340px;
+	font-size: 23px;
+	padding: 13px;
+	padding-top: 16px;
+	font-style: italic;
+
+}
+
+#titleBoxfaq {
+	background-color: black;
+	color: white;
+	width: 55px;
+	height: 16px;
+	position: relative;
+	top: -45px;
+	left: 505px;
+	font-size: 23px;
+	padding: 13px;
+	padding-top: 16px;
+	font-style: italic;
+
+}
+
+#titleBoxwhychanges {
+	background-color: black;
+	color: white;
+	width: 260px;
+	height: 16px;
+	position: relative;
+	top: -45px;
+	left: 340px;
+	font-size: 20px;
+	padding: 13px;
+	padding-top: 16px;
+	font-style: italic;
+
+}
+
+#parking_subheader{
+	color: #58595b;
+	font-size: 19px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#home_subheader{
+	color: #58595b;
+	font-size: 19px;
+	font-family: Helvetica, Arial, sans-serif;
+	padding-top: 30px;
+}
+
+p.parking_text{
+	color: #58595b !important;
+	padding-bottom: 20px !important;
+	padding-top: 4px !important;
+	font-size: 15px !important;
+	font-family: Times, Times New Roman, serif !important;
+}
+
+p.mainbody_text{
+	color: #58595b;
+	font-size: 15px;
+	padding-bottom: 16px;
+	font-family: Times, Times New Roman, serif;
+}
+
+/* Map and permit icons*/
+
+
+#mapicontext{
+	font-size: 24px !important;
+	color: #609d43 !important;
+	position: relative;
+	left: 35px;
+	top: -25px;
+}
+
+#parkingicontext{
+	font-size: 24px !important;
+	color: #609d43 !important;
+	position: relative;
+	left: 35px;
+	top: -55px;
+}
+
+#parkicon{
+	position: relative;
+	top: -30px;
+}
+
+
+
+#choosedrive {
+	position: relative;
+	top: -288px;
+		display:none;
+}
+
+#homeimages div{
+	border-width:thin;
+	border-color: black;
+	border-style: solid;
+	height: 110px;
+	margin-bottom: 30px;
+
+}
+
+#homeimages img{
+	position: relative;
+	top: 80px;
+	left: -145px;
+	height: 111px;
+}
+
+#homelink1{
+	position: absolute;
+	top: -80px;
+	left: 145px;
+
+	font-size: 30px;
+	font-weight: bold;
+	color:black;
+	text-decoration:none;
+}
+
+#homelink2{
+	position: absolute;
+	top: 63px;
+	left: 145px;
+	font-size: 30px;
+	font-weight: bold;
+	color:black;
+	text-decoration:none;
+}
+#homelink3{
+	position: absolute;
+	top: 205px;
+	left: 145px;
+	font-size: 30px;
+	font-weight: bold;
+	color:black;
+	text-decoration:none;
+}
+
+#homeimages div a{
+	width: 0;
+	height: 0;
+}
+
+#homeimages div a p{
+	width: 344px;
+	height: 81px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#homeimages div:hover a p{
+	color: white;
+	position: relative;
+	top: -31px;
+	left: -35px;
+	padding-left: 36px;
+	padding-top: 30px;
+	
+	background-image:url('Images/new_image_structure/administrative_departments/university_communications/Campaigns/drive_or_walk/images/roll_green_big.png');
+	background-repeat:no repeat;
+	width:338px;
+	height:81px;
+}
+
+
+#faq_subheader{
+	color: #58595b;
+	font-size: 19px;
+	font-family: Helvetica;
+}
+
+.faq_text {
+	color: #58595b;
+	padding-bottom: 20px;
+	font-size: 15px;
+	font-family: Times New Roman, serif;
+}
+.faq_header {
+	color: #000000;
+	font-size: 15px;
+	font-weight:bold;
+	font-family: Times New Roman, serif;
+}
+#mapandparking img {
+	border:0;
+}
+#mapandparking a {
+	text-decoration:none;
+}
+
+#mapandparking {
+	margin-top: 10px;
+}
+
+#soldout_header{
+	color: #ce2127;
+	font-size: 19px;
+	font-family: Helvetica;
+}
+/*JAKOB's VIDEO PAGE UPDATED STYLES (01.07.2010)*/
+.walkordrive_h1 {
+	font-size:20px;
+	color:black;
+	margin-top:0px;
+}
+#nav_column1 {
+	diplay:block;
+	width:250px;
+	float:left;
+	margin-left:30px;
+}
+#nav_column2 {
+	display:block;
+	margin-left:280px;
+}
+.column_heading_h3 {
+	text-transform: uppercase;
+	font-weight: 100;
+	font-size:18px;
+	font-family:Helvetica, Arial, sans-serif;
+	color:black;
+}
+#video_nav_area {
+
+}
+#video_nav_area li {
+	list-style-type: none;
+}
+
+#video_nav_area li a {
+	width: 150px;
+}
+
+#parkingguy
+{
+	background-image:url('Images/new_image_structure/administrative_departments/university_communications/Campaigns/drive_or_walk/images/parkingguy.jpg');
+	background-repeat:no repeat;
+	height: 234px;
+	width: 485px;
+	position: relative;
+	top: 15px;
+	left: 30px;
+}
+
+#parkingguy:hover
+{
+	background-image:url('Images/new_image_structure/administrative_departments/university_communications/Campaigns/drive_or_walk/images/parkingguy_rollover.jpg');
+	background-repeat:no repeat;
+	height: 234px;
+	width: 485px;
+	
+	position: relative;
+	top: 15px;
+	left: 30px;
+}
+#content_main div ul {
+		padding:0px;
+}
+/*Permit Page*/
+
+#permit_key {
+width:265px;
+}
+#permit_key_header h3 {
+color:#FFFFFF !important;
+font-family:Arial,Helvetica,sans-serif !important;
+font-size:20px !important;
+height:37px !important;
+margin-top:0 !important;
+padding-top:20px !important;
+text-align:center !important;
+font-style:normal !important;
+line-height:22px !important;
+padding:0px !important;
+}
+#content_main div h3 {
+color:#000000 !important;
+display:block;
+font-family:Arial,Helvetica,sans-serif !important;
+font-size:15px !important;
+font-style:normal !important;
+line-height:22px;
+padding:0px !important;
+}
+#permit_key_square1 {
+background-color:#CE2127;
+height:25px;
+margin-left:0;
+margin-top:0;
+position:relative;
+width:25px;
+}
+#permit_key_square2 {
+background-color:#0D72B9;
+height:25px;
+left:0;
+position:relative;
+top:0;
+width:25px;
+}
+#permit_key_square3 {
+background-color:#9F4177;
+height:25px;
+left:0;
+position:relative;
+top:0;
+width:25px;
+}
+#permit_key_square4 {
+background-color:#0DB04B;
+height:25px;
+left:0;
+position:relative;
+top:0;
+width:25px;
+}
+#permit_key_square5 {
+background-image:url(&quot;Images/new_image_structure/administrative_departments/university_communications/Campaigns/drive_or_walk/images/orange_square.png&quot;);
+height:25px;
+left:0;
+position:relative;
+top:0;
+width:25px;
+}
+#permit_key_a {
+margin-left:45px;
+margin-top:-28px;
+width:400px;
+}
+#permit_key_b {
+margin-left:45px;
+margin-top:-28px;
+width:400px;
+}
+#permit_key_f {
+margin-left:45px;
+margin-top:-28px;
+width:400px;
+}
+#permit_key_d {
+margin-left:45px;
+margin-top:-28px;
+width:400px;
+}
+#permit_key_u {
+margin-left:45px;
+margin-top:-28px;
+width:440px;
+}
+h3.permit_header {
+color:#000000;
+font-family:Arial,Helvetica,sans-serif;
+font-size:16px;
+font-weight:bold;
+}
+h4.permit_desc {
+color:#9A999A;
+font-family:Arial,Helvetica,sans-serif;
+font-size:13px;
+padding-bottom:3px;
+}
+li.permit_list {
+clear:both;
+color:#7F7D7D;
+display:list-item !important;
+font-family:Arial,Helvetica,sans-serif;
+font-size:11px;
+list-style-type:disc;
+}
+--></style>
+<div id="random_image">
+<script language="JavaScript" type="text/javascript">
+		 randomImageDisplay();chooseToWalkorDrive(1); activeNav(2);
+</script>
+<div><img alt="Drive or Walk" id="bannerImage" src="http://www.byui.edu/driveorwalk/images/hill.png" />
+<div id="titleBoxdrivewalk">VIDEOS</div>
+</div>
+</div>
+<div id="page_layout1_content">
+<h1 class="walkordrive_h1"></h1>
+<h1 class="walkordrive_h1">Walk or Drive Challenge 1: Webisode 4</h1>
+<div class="previewDiv" style="width: 320px; height: 260px;">
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="260" style="width: 320px; height: 260px;" width="320">
+<param name="flashvars" value="streamer=rtmp://stream.byui.edu/vod&amp;file=BYUIProduced/parkorwalkmovie/Webisode 4_Large.flv&amp;type=flv" />
+<param name="src" value="http://stream.byui.edu/fms/player.swf" /><embed src="http://stream.byui.edu/fms/player.swf" type="application/x-shockwave-flash" width="320" height="260" flashvars="streamer=rtmp://stream.byui.edu/vod&amp;file=BYUIProduced/parkorwalkmovie/Webisode 4_Large.flv&amp;type=flv"></embed>
+</object>
+<a class="eyhmcernmqxnrrrrgktc" href="http://stream.byui.edu/fms/player.swf"></a></div>
+</div>
+<div id="video_nav_area">
+<div id="nav_column1">
+<div class="column_heading">
+<h3 class="column_heading_h3">Walk or Drive Challenge</h3>
+</div>
+<h3 class="subheading_h3">Challenge 1: Jim vs. Steve</h3>
+<ul>
+<li><a href="x4400.xml">Full Challenge</a></li>
+<li><a href="x4401.xml">Webisode 1</a></li>
+<li><a href="x4402.xml">Webisode 2</a></li>
+<li><a href="x4403.xml">Webisode 3</a></li>
+<li><a href="x4404.xml">Webisode 4</a></li>
+<br />
+<li><a href="x4405.xml">Cutoff Short</a></li>
+<li><a href="x4406.xml">Keys Short</a></li>
+<li><a href="x4407.xml">Stuck Short</a></li>
+</ul>
+</div>
+<div id="nav_column2">
+<div class="column_heading">
+<h3 class="column_heading_h3">The Parking Guy</h3>
+</div>
+<h3 class="subheading_h3">Campus Parking Helps</h3>
+<ul>
+<li><a href="x4394.xml">Honest Parking - Know, Don't Get Towed</a></li>
+<li><a href="x4395.xml">Parking Distance - Faster To Park And Walk</a></li>
+<li><a href="x4396.xml">Walking-Take Long Strides</a></li>
+<li><a href="x4397.xml">Walk When Possible</a></li>
+<li><a href="x4398.xml">Reverse Angle Parking</a></li>
+<li><a href="x4399.xml">No Parking Zones</a></li>
+</ul>
+</div>
+</div>
+<br /><br /><br /><br /><br /> <br />
+<div id="mapandparking"><a href="x4277.xml"><img alt="Interactive Map" id="mapicon" src="Images/new_image_structure/administrative_departments/university_communications/Campaigns/drive_or_walk/images/mapicon.png" />
+<p id="mapicontext">Interactive Map</p>
+</a> <a href="http://www.byui.edu/parkingservices/default.htm"><img id="parkicon" src="Images/new_image_structure/administrative_departments/university_communications/Campaigns/drive_or_walk/images/parkingpermit.png" />
+<p id="parkingicontext">Apply For Permits</p>
+</a></div>]]></BodyCopy><xPower Type="Component" Component="x14" Name="RelatedLinks" label="Related Links" readonly="false" hidden="false" required="false" CompTypes="RelatedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="false" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x4280" Name="SiteControl" label="Site Control" readonly="true" hidden="true" required="false" CompTypes="SiteControl" Expanded="false"/></CommonPage>

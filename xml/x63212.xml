@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.68 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x63212" Name="Blocking Junk Mail (SPAM) at the Client Level" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Prevent Spam and Junk Emails on your own</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Prevent Spam and Junk Emails using Outlook at BYUI</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<h1>Junk Mail - Level 2</h1>
+<p>If ProofPoint doesn't automatically catch junk for you, the next easiest way to manage your Email Inbox from receiving messages you don't want and to get the messages you do want is to adjust your "Junk Email" settings in Outlook.</p>
+<table border="0">
+<tbody>
+<tr>
+<td>
+<h2 style="color: #60686e; text-align: -webkit-auto;">Outlook 2007</h2>
+<ol>
+<li><strong>Tools </strong>menu</li>
+<li><strong>Options...</strong> choice </li>
+</ol></td>
+<td>
+<h2>Outlook 2010</h2>
+<ol>
+<li><strong>Home </strong>tab</li>
+<li><strong>Delete </strong>group</li>
+<li><strong>Junk </strong>menu</li>
+<li><strong>Junk Email Options... </strong>choice</li>
+</ol></td>
+</tr>
+<tr>
+<td><img alt="Where to find the options choice for email" height="412" src="Images/helpdesk/email/JunkMailOutlook/step 1.JPG" style="border-image: initial; border: 1px solid black;" width="382" /></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>When the <strong>Options </strong>dialog opens you will want to select the <strong>Junk Email</strong> button to open the <strong>Junk Email Options</strong> dialog.</p>
+<p><img alt="Step 2 Selecting the Junk Email Filter Button" height="548" src="Images/helpdesk/email/JunkMailOutlook/step 2.JPG" style="border-image: initial; border: 2px solid black;" width="478" /></p>
+<p>In the <strong>Junk Email Options</strong> dialog you will see many options regarding how incoming emails will be handled. You will want to make sure that you have the "<strong>Low</strong>" setting selected, as well as the other <strong>Recommended </strong>options</p>
+<p><img alt="Ensure you have the Correct Settings" height="559" src="Images/helpdesk/email/JunkMailOutlook/step 2.1.JPG" style="margin-left: 21px; margin-right: 21px; border-image: initial; border: 0px initial initial;" width="511" /></p>
+<p>Next you will want to click on the "<strong>Safe Senders</strong>" tab. Here you will click on the "<strong>add</strong>" button.</p>
+<p><img alt="Step 3 in making email safe" height="537" src="Images/helpdesk/email/JunkMailOutlook/step 3.JPG" style="border-image: initial; border: 3px solid black;" width="466" /></p>
+<p>In this next Dialog box you are prompted for a domain name, which can be something like <strong>@byui.edu</strong>. Basically anyone you trust to receive email from you can add them into your safe list which means when they send you an email they will go to your inbox and not to your junk email folder if they have been in the past. You can add a whole group of people if you trust them by just adding the whole domain, such as @byui.edu, or you can make it a specific person such as bob@byui.edu. Be careful though when you add someone they will be trusted, but you can remove the name later if you need too.</p>
+<p><img alt="Adding names in" height="196" src="Images/helpdesk/email/JunkMailOutlook/step 4.JPG" style="border-image: initial; border: 4px solid black;" width="373" /></p>
+<p>Once you have finished adding all the people you trust you can add all the people you know are spammers. This is pretty much the same way as adding people you trust but you have to select the "<strong>Blocked Senders</strong>" tab at the top, from here you can add people the same way as before, but this time these are people you know are spammers.</p>
+<p><img alt="Blocking senders" height="539" src="Images/helpdesk/email/JunkMailOutlook/step 4.1.JPG" style="border-image: initial; border: 0px initial initial;" width="458" /><img alt="Step 4.2" height="201" src="Images/helpdesk/email/JunkMailOutlook/step 4.2.JPG" style="border-image: initial; border: 0px initial initial;" width="352" /></p>
+<p>Now the last step is to just apply the settings you have made and you're good to go. Happy emailing!</p>
+<p><img alt="Step 5" height="550" src="Images/helpdesk/email/JunkMailOutlook/step 5.JPG" style="border-image: initial; border: 0px initial initial;" width="486" /></p>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x35726" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

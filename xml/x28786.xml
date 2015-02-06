@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.68 - http://www.ingeniux.com ***-->
+<EventsDetail ID="x28786" Name="Quickwater Lodge" Layout="general_activities.xsl"><Title type="string" label="Event Title" readonly="false" hidden="false" required="true">Quickwater Lodge</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Quickwater Lodge</Abstract><BodyCopy type="dhtml" label="Event Details" readonly="false" hidden="false" required="false"><![CDATA[<meta content="text/html; charset=utf-8" />
+<style type="text/css"><!--
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background: #42413C;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 15px;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color: #42413C;
+	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+}
+
+/* ~~ this fixed width container surrounds all other divs ~~ */
+.container {
+	width: 960px;
+	background: #FFF;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+	overflow: hidden; /* this declaration makes the .container understand where the floated columns within ends and contain them */
+}
+
+/* ~~ These are the columns for the layout. ~~ 
+
+1) Padding is only placed on the top and/or bottom of the divs. The elements within these divs have padding on their sides. This saves you from any &quot;box model math&quot;. Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
+
+2) No margin has been given to the columns since they are all floated. If you must add margin, avoid placing it on the side you're floating toward (for example: a right margin on a div set to float right). Many times, padding can be used instead. For divs where this rule must be broken, you should add a &quot;display:inline&quot; declaration to the div's rule to tame a bug where some versions of Internet Explorer double the margin.
+
+3) Since classes can be used multiple times in a document (and an element can also have multiple classes applied), the columns have been assigned class names instead of IDs. For example, two sidebar divs could be stacked if necessary. These can very easily be changed to IDs if that's your preference, as long as you'll only be using them once per document.
+
+4) If you prefer your nav on the right instead of the left, simply float these columns the opposite direction (all right instead of all left) and they'll render in reverse order. There's no need to move the divs around in the HTML source.
+
+*/
+.sidebar1 {
+	float: left;
+	width: 180px;
+	background: #EADCAE;
+	padding-bottom: 10px;
+}
+.content {
+
+	padding: 10px 0;
+	width: 780px;
+	float: left;
+}
+
+/* ~~ This grouped selector gives the lists in the .content area space ~~ */
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px; /* this padding mirrors the right padding in the headings and paragraph rule above. Padding was placed on the bottom for space between other elements on the lists and on the left to create the indention. These may be adjusted as you wish. */
+}
+
+/* ~~ The navigation list styles (can be removed if you choose to use a premade flyout menu like Spry) ~~ */
+ul.nav {
+	list-style: none; /* this removes the list marker */
+	border-top: 1px solid #666; /* this creates the top border for the links - all others are placed using a bottom border on the LI */
+	margin-bottom: 15px; /* this creates the space between the navigation on the content below */
+}
+ul.nav li {
+	border-bottom: 1px solid #666; /* this creates the button separation */
+}
+ul.nav a, ul.nav a:visited { /* grouping these selectors makes sure that your links retain their button look even after being visited */
+	padding: 5px 5px 5px 15px;
+	display: block; /* this gives the link block properties causing it to fill the whole LI containing it. This causes the entire area to react to a mouse click. */
+	width: 160px;  /*this width makes the entire button clickable for IE6. If you don't need to support IE6, it can be removed. Calculate the proper width by subtracting the padding on this link from the width of your sidebar container. */
+	text-decoration: none;
+	background: #C6D580;
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background and text color for both mouse and keyboard navigators */
+	background: #ADB96E;
+	color: #FFF;
+}
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the overflow:hidden on the .container is removed */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+--></style>
+<div class="container">
+<div class="sidebar1">
+<ul class="nav">
+<li><a href="#">Map to Quickwater</a></li>
+<li><a href="#">Application for Student Groups</a></li>
+<li><a href="#">Application for Faculty/Staff Groups</a></li>
+<li></li>
+</ul>
+<!-- end .sidebar1 --></div>
+<div class="content">
+<h1>Quickwater Lodge</h1>
+<p><span style="font-family: arial black,avant garde;">The </span><span style="font-family: arial black,avant garde;">Quickwater Lodge can accommodate up to 30 people comfortably (35 if necessary) for training purposes.  It is equipped with an industrial-sized kitchen; refrigerator and freezer; cooking and serving utensils. This lodge does not have any media equipment</span><span style="font-family: arial black,avant garde;">.</span></p>
+<p><span style="font-family: arial black,avant garde;">The entrance to the Quickwater lodge is 1.7 miles from the blinking light in Victor, on the right side of highway 33.  Travel down this dirt road approximately ½ mile and you will see the Quickwater lodge on the left side. </span></p>
+<p><span style="font-family: arial black,avant garde;">Lodges can be reserved by calling Rebecca Johnston in Student Activities 60 days prior to the beginning of the semester the request falls in.</span></p>
+<p> </p>
+<h2>More Information</h2>
+<p><span style="font-family: arial black,avant garde;">Teton Lodge Facilities which includes, Sky Mountain lodge and Quickwater lodge, which are available for campus departments, BYU-Idaho wards and officially sponsored student organizations for training and development purposes where outcomes achieved will be used to serve the BYU-Idaho community.</span></p>
+<p><span style="font-family: arial black,avant garde;">The facilities located in the Teton basin near Victor, Idaho are privately owned and made available for use to BYU-Idaho because of the generosity of its owner and donors</span></p>
+<p><span style="font-family: arial black,avant garde;">Watch the below slideshow to familiarize yourself of Quickwater Lodge.</span></p>
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="192" width="288">
+<param name="flashvars" value="host=picasaweb.google.com&amp;hl=en_US&amp;feat=flashalbum&amp;RGB=0x000000&amp;feed=https%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2F101439294058970264768%2Falbumid%2F5665634047653886881%3Falt%3Drss%26kind%3Dphoto%26authkey%3DGv1sRgCLqH3bWZ3ZjkXg%26hl%3Den_US" />
+<param name="src" value="https://picasaweb.google.com/s/c/bin/slideshow.swf" /><embed src="https://picasaweb.google.com/s/c/bin/slideshow.swf" type="application/x-shockwave-flash" width="288" height="192" flashvars="host=picasaweb.google.com&amp;hl=en_US&amp;feat=flashalbum&amp;RGB=0x000000&amp;feed=https%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2F101439294058970264768%2Falbumid%2F5665634047653886881%3Falt%3Drss%26kind%3Dphoto%26authkey%3DGv1sRgCLqH3bWZ3ZjkXg%26hl%3Den_US"></embed>
+</object>
+<h3><br />Applications</h3>
+<p>Please select the application on the left for your group and submit to Rebecca Johnston in the Manwaring Center 101. Applications can be emailed to johnstonr@byui.edu. Reservations can be made 60 days prior to the beginning of the semester the request falls in. <!-- end .content --></p>
+</div>
+<!-- end .container --></div>]]></BodyCopy><Image type="imagefile" label="Right side image (300px wide variable height)" readonly="false" hidden="false" required="true" Width="790" Height="514" Alignment="" Border="" Expanded="true" AlternateText="" HSpace="" VSpace="">101116_BYU-IdahoCenter_09a.jpg</Image><xPower Type="GroupStart" GroupStart="" Name="Semesters" label="Available Semesters" readonly="false" hidden="false" required="false" Expanded="false"><Boolean type="boolean" label="Available Fall">true</Boolean><Boolean type="boolean" label="Available Winter">true</Boolean><Boolean type="boolean" label="Available Spring">true</Boolean></xPower><xPower Type="List" List="Date" Name="DateElements" label="Dates" readonly="false" hidden="false" required="false" display="localdateshort" Expanded="false"><Date type="date" readonly="false" hidden="false" required="false" display="localdateshort" Expanded="false" UTC="true">20110917T18:00:00</Date><Date type="date" readonly="false" hidden="false" required="false" display="localdateshort" Expanded="false" UTC="true">20120616T18:00:00</Date></xPower><BodyCopy type="dhtml" label="General Information" readonly="false" hidden="false" required="false"><![CDATA[]]></BodyCopy><xPower Type="List" List="Images" Name="Images" label="Gallery Images" readonly="false" hidden="false" required="false" Width="" Border="" Alignment="" Expanded="false" Height=""><Images type="imagefile" readonly="false" hidden="false" required="false" Width="28" Border="" Alignment="" Expanded="true" Height="30" AlternateText="" HSpace="" VSpace=""></Images></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x6784" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></EventsDetail>

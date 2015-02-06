@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.82 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x65681" Name="Bike Repair" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">ORC Bike Repair</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">The ORC doesn't just rent amazing outdoor equipment, we also offer high-quality bike repair services.  </Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<div>
+<p><img alt="Bicycles being fixed" height="216" src="Images/outdoor-resource-center/bike_repairs.jpg" title="ORC Bike Repairs" width="424" /></p>
+<p>Having bike problems? Bring your bike to the ORC and we can help repair  it.  Whether it's a regular tuneup or a major issue, our  super-experienced staff is ready to help get you back on the road or the  trail as soon as possible.</p>
+<p>For more information call (208) 496-7337, email orc@byui.edu or just stop by.  Need some other help check our price list below.</p>
+<p>Price Chart</p>
+<table border="0" height="492" width="552">
+<tbody>
+<tr>
+<td><strong>Service</strong></td>
+<td><strong>Price</strong></td>
+</tr>
+<tr>
+<td>Full Tune</td>
+<td>$ 28.00</td>
+</tr>
+<tr>
+<td>Wheel True</td>
+<td>12.00</td>
+</tr>
+<tr>
+<td>Spoke Replace</td>
+<td>2.40</td>
+</tr>
+<tr>
+<td>Cassett/ FW Install</td>
+<td>5.00</td>
+</tr>
+<tr>
+<td>Brake Adjust</td>
+<td>4.00</td>
+</tr>
+<tr>
+<td>Disk Rotor/ Pad Install</td>
+<td>5.00</td>
+</tr>
+<tr>
+<td>Derailleur Adjustment</td>
+<td>4.00</td>
+</tr>
+<tr>
+<td>Derailleur Hanger Alignment</td>
+<td>6.00</td>
+</tr>
+<tr>
+<td>Install Derailleur</td>
+<td>8.00</td>
+</tr>
+<tr>
+<td>Headset Adjustment</td>
+<td>5.00</td>
+</tr>
+<tr>
+<td>Hub Rebuild</td>
+<td>12.00</td>
+</tr>
+<tr>
+<td>Hub Adjustment</td>
+<td>4.00</td>
+</tr>
+<tr>
+<td>Chain Install</td>
+<td>4.00</td>
+</tr>
+<tr>
+<td>Change Tube</td>
+<td>5.00</td>
+</tr>
+<tr>
+<td>Cleaning Fee</td>
+<td>25.00</td>
+</tr>
+<tr>
+<td>Misc Labor Charge</td>
+<td>2.00</td>
+</tr>
+<tr>
+<td>Shop Rate per hour</td>
+<td>12.00</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p>For additional questions or pricing, call (208) 496-7337 or email orc@byui.edu</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+</div>]]></BodyCopy><xPower Type="Component" Component="x30165" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x28149" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

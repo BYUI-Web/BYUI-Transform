@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.82 - http://www.ingeniux.com ***-->
+<CellComponent ID="x67683" Name="Information"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Information</Title><PicPosition type="enumeration" values="Top Right Left" label="Place Picture on ___ of text." readonly="false" hidden="false" required="true">Top</PicPosition><Image type="imagefile" label="Image" readonly="false" hidden="false" required="false" Width="" Height="" Alignment="" Border="" Expanded="true" AlternateText="" HSpace="" VSpace=""></Image><xPower Type="Link" Link="" Name="Link" label="Link" readonly="false" hidden="false" required="false" LinkText="" Target="" Expanded="false"/><IntroCopy type="dhtml" label="Message" readonly="false" hidden="false" required="false"><![CDATA[<div style="line-height: 10px;">
+<h2><span style="text-decoration: underline;">Information</span></h2>
+<p>&nbsp;</p>
+<p><a href="Documents/Admin_Offices/Facilities Management/Phone_&amp;_AED_Map--2009.pdf">Emergancy Phone &amp; AED Map</a></p>
+<strong><span style="font-size: xx-small;">Map of Emergency Phones and AED Units.</span></strong>
+<p>&nbsp;</p>
+<p><a href="http://www.rexburg.org/index.aspx?nid=170">Rexburg Police Department</a><strong><span style="font-size: xx-small;"> </span></strong></p>
+<strong><span style="font-size: xx-small;">Rexburg's Police Department</span></strong>
+<p>&nbsp;</p>
+<p><a href="Documents/Admin_Offices/Facilities Management/Security and Safety/Campus Security Report.pdf">Annual Security Report</a></p>
+<strong><span style="font-size: xx-small;">Annual Security Report</span></strong>
+<p>&nbsp;</p>
+<p><a href="x34526.xml">Bicycle Regulations</a></p>
+<div style="line-height: 40%;"><strong><span style="font-size: xx-small;">Bicycle Regulations for On-Campus and <br /></span></strong></div>
+<br /><strong><span style="font-size: xx-small;">Rexburg</span></strong></div>]]></IntroCopy><showLink type="boolean" label="Enable to display this cell's &quot;Footer Link&quot;." readonly="false" required="false" hidden="false">true</showLink><xPower Type="GroupStart" GroupStart="" Name="LinkText" label="Footer Link" readonly="false" hidden="false" required="false" Expanded="true"><LinkText type="string" label="Text" readonly="false" hidden="false" required="false">learn more here</LinkText><LinkHex type="string" label="Background Color | Enter hex value | Example: #000000" readonly="false" hidden="false" required="false">#000000</LinkHex><TextColor type="enumeration" values="Black White" label="Text Color" readonly="false" hidden="false" required="true">White</TextColor></xPower></CellComponent>

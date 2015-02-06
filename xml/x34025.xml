@@ -1,0 +1,2262 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.82 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x34025" Name="Meal Per Diem Rates" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Meal Per Diem Rates</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Meal Per Diem Rates</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<h3 style="font-family: Verdana, Arial, sans-serif; text-align: center;">2014 Rates</h3>
+<p style="font-family: Verdana, Arial, sans-serif; text-align: center;">Standard Per Diem Rate: $41 (Breakfast: $9, Lunch: $11, Dinner: $21)<br /> High Per Diem Rage: $53 (Breakfast: $11, Lunch: $15, Dinner: $27)</p>
+<p style="font-family: Verdana, Arial, sans-serif; text-align: center;">High Rates Apply for International Travel<br /> <br /> <span style="font-size: smaller;">(Actual meal expenses for high cost international travel may be used, but receipts are required)</span></p>
+<p></p>
+<h4 style="font-weight: bold; text-align: center;">The Per Diem Table is based on the city and county you are eating in. If your city is not listed in this table you need to determine if the county is listed. You can use the <a href="http://www.naco.org/Counties/Pages/CitySearch.aspx">National Association of Counties Website</a> to find the county of the city you will be traveling to. If your county is not listed then use the standard per diem.</h4>
+<table border="1" frame="border" rules="all" style="border: 1px solid #000000; width: 90%; margin-left: auto; margin-right: auto;">
+<tbody>
+<tr align="center">
+<td><a href="#al">Alabama</a></td>
+<td><a href="#hi">Hawaii</a></td>
+<td><a href="#ma">Massachusetts</a></td>
+<td><a href="#nm">New Mexico</a></td>
+<td><a href="#sd">South Dakota</a></td>
+</tr>
+<tr align="center">
+<td><a href="#ak">Alaska</a></td>
+<td><a href="#id">Idaho</a></td>
+<td><a href="#mi">Michigan</a></td>
+<td><a href="#ny">New York</a></td>
+<td><a href="#tn">Tennessee</a></td>
+</tr>
+<tr align="center">
+<td><a href="#az">Arizona</a></td>
+<td><a href="#il">Illinois</a></td>
+<td><a href="#mn">Minnesota</a></td>
+<td><a href="#nc">North Carolina</a></td>
+<td><a href="#tx">Texas</a></td>
+</tr>
+<tr align="center">
+<td><a href="#ar">Arkansas</a></td>
+<td><a href="#in">Indiana</a></td>
+<td><a href="#ms">Mississippi</a></td>
+<td><a href="#nd">North Dakota</a></td>
+<td><a href="#ut">Utah</a></td>
+</tr>
+<tr align="center">
+<td><a href="#ca">California</a></td>
+<td><a href="#ia">Iowa</a></td>
+<td><a href="#mo">Missouri</a></td>
+<td><a href="#oh">Ohio</a></td>
+<td><a href="#vt">Vermont</a></td>
+</tr>
+<tr align="center">
+<td><a href="#co">Colorado</a></td>
+<td><a href="#ks">Kansas</a></td>
+<td><a href="#mt">Montana</a></td>
+<td><a href="#ok">Oklahoma</a></td>
+<td><a href="#va">Virginia</a></td>
+</tr>
+<tr align="center">
+<td><a href="#ct">Connecticut</a></td>
+<td><a href="#ky">Kentucky</a></td>
+<td><a href="#ne">Nebraska</a></td>
+<td><a href="#or">Oregon</a></td>
+<td><a href="#wa">Washington</a></td>
+</tr>
+<tr align="center">
+<td><a href="#de">Delaware</a></td>
+<td><a href="#la">Louisiana</a></td>
+<td><a href="#nv">Nevada</a></td>
+<td><a href="#pa">Pennsylvania</a></td>
+<td><a href="#wv">West Virginia</a></td>
+</tr>
+<tr align="center">
+<td><a href="#fl">Florida</a></td>
+<td><a href="#me">Maine</a></td>
+<td><a href="#nh">New Hampshire</a></td>
+<td><a href="#ri">Rhode Island</a></td>
+<td><a href="#wi">Wisconsin</a></td>
+</tr>
+<tr align="center">
+<td><a href="#ga">Georgia</a></td>
+<td><a href="#md">Maryland</a></td>
+<td><a href="#nj">New Jersey</a></td>
+<td><a href="#sc">South Carolina</a></td>
+<td><a href="#wy">Wyoming</a></td>
+</tr>
+<tr align="center">
+<td align="center" colspan="5"><a href="#dc">District of Columbia</a></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<table border="1" frame="border" rules="all" style="border: 1px solid #000000; width: 90%; margin-left: auto; margin-right: auto;">
+<tbody>
+<tr align="center" style="background-color: lavender;">
+<td align="center" colspan="3"><a id="al"></a>Alabama</td>
+</tr>
+<tr align="center">
+<td><strong>Cities</strong></td>
+<td><strong>Counties</strong></td>
+<td><strong>Standard/High</strong></td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Burmingham</td>
+<td>Jefferson and Shelby</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Gulf Shores</td>
+<td>Baldwin</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Huntsville</td>
+<td>Madison and Limestone</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Montgomery</td>
+<td>Montgomery</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td align="center" colspan="3"><a id="ak"></a>Alaska</td>
+</tr>
+<tr align="center">
+<td>All</td>
+<td>All</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td align="center" colspan="3"><a id="az"></a>Arizona</td>
+</tr>
+<tr align="center">
+<td>Grand Canyon/Flagstaff</td>
+<td>Coconino (Except the city limits of Sedona)</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Kayenta</td>
+<td>Navajo</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Phoenix/Scottsdale</td>
+<td>Maricopa</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Sedona</td>
+<td>City of Sedona which falls within Yavapai and Coconino Counties</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Sierra Vista</td>
+<td>Cochise</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Tucson</td>
+<td>Pima</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Yuma</td>
+<td>Yuma</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td align="center" colspan="3"><a id="ar"></a>Arkansas</td>
+</tr>
+<tr align="center">
+<td>Hot Springs</td>
+<td>Garland</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Little Rock</td>
+<td>Pulaski</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td align="center" colspan="3"><a id="ca"></a>California</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Antioch/Brentwood/Concord/Lafayette/Martinez/Pleasant Hill/Richmond/San Ramon/Walnut Creek</td>
+<td>Contra Costa</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Bakersfield/Delano (Naval Weapons Center and Ordinance Test Station/China Lake)</td>
+<td>Kern</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Barstow/Ontario/Victorville</td>
+<td>San Bernardino</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Benicia/Dixon/Fairfield/Vacaville/Vallejo</td>
+<td>Solano</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Brawley/Calexico/El Centro/Imperial</td>
+<td>Imperial</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Chico/Orville</td>
+<td>Butte</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Clearlake</td>
+<td>Lake</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Death Valley</td>
+<td>Inyo</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Fresno</td>
+<td>Fresno</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Los Angeles</td>
+<td>Los Angeles/Ornge and Ventura/Edwards AFB</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Mammoth Lakes</td>
+<td>Mono</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Mill Valley/ San Rafael/Novato/Corte Madera/Sausalito/Tiburon/Larkspur</td>
+<td>Marin</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Modesto</td>
+<td>Stanislaus</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Monterey</td>
+<td>Monterey</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Napa</td>
+<td>Napa</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Oakhurst</td>
+<td>Madera</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Oakland</td>
+<td>Alameda</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Palm Springs</td>
+<td>Riverside</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Point Arena/Gualala</td>
+<td>Mendocino</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Redding</td>
+<td>Shasta</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Sacramento</td>
+<td>Sacramento</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>San Diego</td>
+<td>San Diego</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>San Francisco</td>
+<td>San Francisco</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>San Luis Obispo</td>
+<td>San Luis Obispo</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>San Mateo/Foster City/Belmont</td>
+<td>San Mateo</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Santa Barbara</td>
+<td>Santa Barbara</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Santa Cruz</td>
+<td>Santa Cruz</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Santa Monica</td>
+<td>City limits of Santa Monica</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Santa Rosa</td>
+<td>Sonoma</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>South Lake Tahoe</td>
+<td>El Dorado</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Stockton</td>
+<td>San Joaquin</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Sunnybale/Paolo Alto/San Jose</td>
+<td>Santa Clara</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Tahoe City</td>
+<td>Placer</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Truckee</td>
+<td>Nevada</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Visalia/Lemoore</td>
+<td>Tulare and Kings</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>West Sacramento</td>
+<td>Yolo</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Yosimite National Park</td>
+<td>Mariposa</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td align="center" colspan="3"><a id="co"></a>Colorado</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Aspen</td>
+<td>Pitkin</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Boulder/Broomfield</td>
+<td>Boulder and Broomfield</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Colorado Springs</td>
+<td>El Paso</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Cortez</td>
+<td>Montezuma</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Crested Butte/Gunnison</td>
+<td>Gunnison</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Denver/Aurora</td>
+<td>Denver/Adams/Arapahoe/Jefferson</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Douglas County</td>
+<td>Douglas</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Durango</td>
+<td>La Plata</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Fort Collins/Loveland</td>
+<td>Larimer</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Glenwood Springs/Grand Junction</td>
+<td>Garfield/Mesa</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Montrose</td>
+<td>Montrose</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Silverthorne/Breckenridge</td>
+<td>Summit</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Steamboat Springs</td>
+<td>Routt</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Telluride</td>
+<td>San Miguel</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Vail</td>
+<td>Eagle</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td align="center" colspan="3"><a id="ct"></a>Connecticut</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Bridgeport/Danbury</td>
+<td>Fairfield</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Cromwell/Old Saybrook</td>
+<td>Middlesex</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Hartford</td>
+<td>Hartford</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Lakeville/Salisbury</td>
+<td>Litchfield</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>New Haven</td>
+<td>New Haven</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>New London/Groton</td>
+<td>New London</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Putnam/Danielson/Storrs/Mansfield</td>
+<td>Winham/Tolland</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td align="center" colspan="3"><a id="de"></a>Delaware</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Dover</td>
+<td>Kent</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Lewes</td>
+<td>Sussex</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Wilmington</td>
+<td>New Castle</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td align="center" colspan="3"><a id="fl"></a>Florida</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Altamonte Springs</td>
+<td>Seminole</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Bradenton</td>
+<td>Manatee</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Cocoa Beach</td>
+<td>Brevard</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Daytona Beach</td>
+<td>Volusia</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Fort Lauderdale</td>
+<td>Broward</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Fort Myers</td>
+<td>Lee</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Fort Pierce</td>
+<td>Saint Lucie</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Fort Walton Beach/De Funiak Springs</td>
+<td>Okaloosa and Walton</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Gainesville</td>
+<td>Alachua</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Gulf Breeze</td>
+<td>Santa Rosa</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Jacksonville/Jacksonville Beach/Mayport Naval Station/Fernandina Beach/Atlantic Beach</td>
+<td>Duval/City of Jakcsonville and Nassau</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Key West</td>
+<td>Monroe</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Kissimmee</td>
+<td>Osceola</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Lakeland</td>
+<td>Polk</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Leesburg</td>
+<td>Lake</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Miami</td>
+<td>Miami-Dade</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Naples</td>
+<td>Collier</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Ocala</td>
+<td>Marion</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Orlando</td>
+<td>Orange</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Palm Beach</td>
+<td>Boca Raton/Delray Beach/Jupiter/Palm Beach Gardens/Palm Beach/Palm Beach Shores/Singer Island and West Palm Beach</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Panama City</td>
+<td>Bay</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Pensacola/Pensacola Beach</td>
+<td>Escambia</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Punta Gorda</td>
+<td>Charlotte</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Sarasota</td>
+<td>Sarasota</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Sebring</td>
+<td>Highlands</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>St. Augustine</td>
+<td>St. Johns</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Stuart</td>
+<td>Martin</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Tallahassee</td>
+<td>Leon</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Tamba/St. Petersburg</td>
+<td>Pinellas and Hillsborough</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Vero Beach</td>
+<td>Indian River</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td align="center" colspan="3"><a id="ga"></a>Georgia</td>
+</tr>
+<tr align="center">
+<td>Athens</td>
+<td>Clarke</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Atlanta</td>
+<td>Fulton/Dekalb and Cobb</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Augusta</td>
+<td>Richmond</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Columbus</td>
+<td>Muscogee</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Conyers</td>
+<td>Rockdale</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Duluth/Norcross/Lawrenceville/Braselton</td>
+<td>Gwinnett</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Jekyll Island/Brunswick</td>
+<td>Glynn</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Savannah</td>
+<td>Chatham</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td align="center" colspan="3"><a id="hi"></a>Hawaii</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>All</td>
+<td>All</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td align="center" colspan="3"><a id="id"></a>Idaho</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Boise</td>
+<td>Ada</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Coeur d'Alene</td>
+<td>Kootenai</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Sun Valley/Ketchum</td>
+<td>Blaine</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Twin Falls</td>
+<td>Twin Falls</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td align="center" colspan="3"><a id="il"></a>Illinois</td>
+</tr>
+<tr align="center">
+<td>Bolingbrook/Romeoville/Lemont/Lockport/Homer Glen/Mokena/New Lenox</td>
+<td>Will</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Chicago</td>
+<td>Cook and Lane</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Elgin/Aurora</td>
+<td>City of Elgin/Kane</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Oak Brook Terrace</td>
+<td>Dupage</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Rockford</td>
+<td>Winnebago</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Springfield</td>
+<td>Sangamon</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td align="center" colspan="3"><a id="in"></a>Indiana</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Bloomington</td>
+<td>Monroe</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Brownsburg/Plainfield</td>
+<td>Monroe</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Fort Wayne</td>
+<td>Allen</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Hammond/Munster/Merrillville</td>
+<td>Lake</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Indianapolis/Carmel</td>
+<td>Marion/Hamilton/Fort Benjamin Harrison Military Base</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Lafayette</td>
+<td>Tippecanoe</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Michigan City</td>
+<td>La Porte</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Nashville</td>
+<td>Brown</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>South Bend</td>
+<td>St. Joseph</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Valparaiso/Burlington Beach</td>
+<td>Porter</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td align="center" colspan="3"><a id="ia"></a>Iowa</td>
+</tr>
+<tr align="center">
+<td>Cedar Rapids</td>
+<td>Linn</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Des Moines</td>
+<td>Polk</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td align="center" colspan="3"><a id="ks"></a>Kansas</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Fort Riley/Manhattan</td>
+<td>Geary/Riley and Pottawatomie</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Kansas City/Overland Park</td>
+<td>Wyandotte and Johnson</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Wichita</td>
+<td>Sedgwick</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td align="center" colspan="3"><a id="ky"></a>Kentucky</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Boone County</td>
+<td>Boone</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Kenton County</td>
+<td>Kenton</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Lexington</td>
+<td>Fayette</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Louisville</td>
+<td>Jefferson</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td align="center" colspan="3"><a id="la"></a>Louisiana</td>
+</tr>
+<tr align="center">
+<td>Baton Rouge</td>
+<td>East Baton Rouge Parish</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Covington/Slidell</td>
+<td>St. Tammany Parish</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Lake Charles</td>
+<td>Calcasieu Parish</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>New Orleans</td>
+<td>Orleans/St. Bernard/Jefferson and Plaquemine Parishes</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Shreveport</td>
+<td>Caddo and Bossier Parishes</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td align="center" colspan="3"><a id="me"></a>Maine</td>
+</tr>
+<tr align="center">
+<td>Bar Harbor</td>
+<td>Hancock</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Kennebunk/Kittery/Sanford</td>
+<td>York</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Portland</td>
+<td>Cumberland/Sagadahoc</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Rockport</td>
+<td>Knox</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td align="center" colspan="3"><a id="md"></a>Maryland</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Aberdeen/Bel Air/Belcamp/Edgewood</td>
+<td>Harford</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Annapolis</td>
+<td>Anne Arundel</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Baltimore City</td>
+<td>Baltimore City</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Baltimore County</td>
+<td>Baltimore</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Cambridge/St. Michaels</td>
+<td>Dorchester and Talbot</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Columbia</td>
+<td>Howard</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Frederick</td>
+<td>Frederick</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Hagerstown</td>
+<td>Washington</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>La Plata/Indian Head</td>
+<td>Charles</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Lexington Park/Leonardtown/Lusby</td>
+<td>St. Mary's and Calvert</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Ocean City</td>
+<td>Worcester</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Washington DC Metro Area</td>
+<td>Montgomery and Prince Georges</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td align="center" colspan="3"><a id="ma"></a>Massachussetts</td>
+</tr>
+<tr align="center">
+<td>Andover</td>
+<td>Essex</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Boston/Cambridge</td>
+<td>Suffolk/City of Cambridge</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Burlington/Woburn</td>
+<td>Middlesex</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Falmouth</td>
+<td>City limits of Falmouth</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Hyannis</td>
+<td>Barnstable</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Martha's Vineyard</td>
+<td>Dukes</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Nantucket</td>
+<td>Nantucket</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Northampton</td>
+<td>Hampshire</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Pittsfield</td>
+<td>Berkshire</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Plymouth/Taunton/New Bedford</td>
+<td>Plymouth/Bristol</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Quincy</td>
+<td>Norfolk</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Springfield</td>
+<td>Hampden</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Worcester</td>
+<td>Worcester</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td align="center" colspan="3"><a id="mi"></a>Michigan</td>
+</tr>
+<tr align="center">
+<td>Ann Arbor</td>
+<td>Washtenaw</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Benton Harbor/St. Joseph/Stevensville</td>
+<td>Berrien</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Charlevoix</td>
+<td>Charlevoix</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Detroit</td>
+<td>Wayne</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>East Lansing/Lansing</td>
+<td>Ingham and Eaton</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Flint</td>
+<td>Genessee</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Frankenmuth</td>
+<td>Saginaw</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Grand Rapids</td>
+<td>Kent</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Holland</td>
+<td>Ottawa</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Kalamazoo/Battle Creek</td>
+<td>Kalamazoo/Calhoun</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Mackinac Island</td>
+<td>Mackinac</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Midland</td>
+<td>Midland</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Mount Pleasant</td>
+<td>Isabella</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Muskegon</td>
+<td>Muskegon</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Ontonagon/Baraga/Houghton</td>
+<td>Ontonagon/Baraga/Houghton</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Petoskey</td>
+<td>Emmet</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Pontiac/Auburn Hills</td>
+<td>Oakland</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Sault Ste Marie</td>
+<td>Chippewa</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>South Haven</td>
+<td>Van Buren</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Traverse City and Leland</td>
+<td>Grand Traverse and Leelanau</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Warren</td>
+<td>Macomb</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td align="center" colspan="3"><a id="mn"></a>Minnesota</td>
+</tr>
+<tr align="center">
+<td>Coon Rapds/Ramsey</td>
+<td>Anoka</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Duluth</td>
+<td>St. Louis</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Eagan/Burnsville/Mendota Heights/Lakeville/Inver Grove Heights</td>
+<td>Dakota</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Minneapolis/St. Paul</td>
+<td>Hennepin and Ramsey</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Rochester</td>
+<td>Olmstead</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td align="center" colspan="3"><a id="ms"></a>Mississippi</td>
+</tr>
+<tr align="center">
+<td>Gulfport/Biloxi</td>
+<td>Harrison</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Robinsonville</td>
+<td>Tunica</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Starkville</td>
+<td>Oktibbeha</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td align="center" colspan="3"><a id="mo"></a>Missouri</td>
+</tr>
+<tr align="center">
+<td>Kansas City</td>
+<td>Jackson/Clay/Cass and Platte</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Osage Beach/St. Robert/Fort Leonardwood</td>
+<td>Camden/Miller/Pulaski</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Springfield</td>
+<td>Greene</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>St. Louis</td>
+<td>St. Louis/St. Louis City and St. Charles</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td align="center" colspan="3"><a id="mt"></a>Montana</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Blue Sky/West Yellowstone</td>
+<td>Gallatin</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Butte</td>
+<td>Silver Bow</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Helena</td>
+<td>Lewis and Clark</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Missoula/Polson/Kalispell</td>
+<td>Missoula/Flathead</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td align="center" colspan="3"><a id="ne"></a>Nebraska</td>
+</tr>
+<tr align="center">
+<td>Omaha</td>
+<td>Douglas</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td align="center" colspan="3"><a id="nv"></a>Nevada</td>
+</tr>
+<tr align="center">
+<td>Incline Village/Crystal Bay/Reno/Sparks</td>
+<td>Washoe</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Las Vegas</td>
+<td>Clark</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Stateline/Carson City</td>
+<td>Douglas/Carson City</td>
+<td>Hight</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td align="center" colspan="3"><a id="nh"></a>New Hampshire</td>
+</tr>
+<tr align="center">
+<td>Concord</td>
+<td>Merrimack</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Conway</td>
+<td>Carroll</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Durham</td>
+<td>Strafford</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Laconia</td>
+<td>Belknap</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Lebanon/Lincoln/West Lebanon/Franconia/Hanover/Holderness/Sunapee/Waterville Valley/North Woodstock/Plymouth</td>
+<td>Grafton and Sullivan</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Manchester</td>
+<td>Hillsborough</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Portsmouth</td>
+<td>Rockingham</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td align="center" colspan="3"><a id="nj"></a>New Jersey</td>
+</tr>
+<tr align="center">
+<td>Atlantic City/Ocean City/Cape May</td>
+<td>Atlantic and Cape May</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Belle Mead</td>
+<td>Somerset</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Cherry Hill/Moorestown</td>
+<td>Camden and Burlington</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Eatontown/Freehold</td>
+<td>Monmouth</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Edison/Piscataway</td>
+<td>Midlesex</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Flemington</td>
+<td>Hunterdon</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Newark</td>
+<td>Essex/Bergen/Hudson and Passaic</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Parsippany</td>
+<td>Morris</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Princeton/Trenton</td>
+<td>Mercer</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Springfield/Cranford/New Providence/Westfield/Clark/Summit/Linden</td>
+<td>Union</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Tom's River</td>
+<td>Ocean</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td align="center" colspan="3"><a id="nm"></a>New Mexico</td>
+</tr>
+<tr align="center">
+<td>Albuquerque</td>
+<td>Bernalillo</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Los Alamos</td>
+<td>Los Alamos</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Santa Fe</td>
+<td>Santa Fe</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Taos</td>
+<td>Taos</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td align="center" colspan="3"><a id="ny"></a>New York</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Albany</td>
+<td>Albany</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Binghamton/Owego</td>
+<td>Broome and Tioga</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Buffalo</td>
+<td>Erie</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Floral Park/Garden City/Glen Cove/Great Neck/Roslyn</td>
+<td>Nassau</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Glens Falls</td>
+<td>Warren</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Ithaca/Waterloo/Romulus</td>
+<td>Tompkins and Seneca</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Kingston</td>
+<td>Ulster</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Lake Placid</td>
+<td>Essex</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Manhattan (Includes the Boroughs of Manhattan/Brooklyn/The Bronx and Staten Island)</td>
+<td>The Boroughs of Manhattan/Brooklyn/The Bronx/Richmond</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Niagara Falls</td>
+<td>Niagara</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Nyack Palisades</td>
+<td>Rockland</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Poughkeepsie</td>
+<td>Dutchess</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Queens</td>
+<td>Queens</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Riverhead/Ronkonkoma/Melville/Smithtown/Huntington Station/Amagansett/East Hampton/Montauk/Southhampton/Islandia/Commack/Medford/Stony Brook/Hauppauge/Centereach</td>
+<td>Suffolk</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Rochester</td>
+<td>Monroe</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Saratoga Springs/Schenactady</td>
+<td>Saratoga and Schenactady</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Syracuse</td>
+<td>Onondaga</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Tarrytown/White Plains/New Rochelle/Yonkers</td>
+<td>Westchester</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Troy</td>
+<td>Rensselaer</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>West Point</td>
+<td>Orange</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td align="center" colspan="3"><a id="nc"></a>North Carolina</td>
+</tr>
+<tr align="center">
+<td>Asheville</td>
+<td>Buncombe</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Atlantic Beach/Morehead City</td>
+<td>Carteret</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Chapel Hill</td>
+<td>Orange</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Charlotte</td>
+<td>Mecklenburg</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Durham</td>
+<td>Durham</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Greensboro</td>
+<td>Guilford</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Greenville</td>
+<td>Pitt</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Kill Devil</td>
+<td>Dare</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>New Bern/Havelock</td>
+<td>Craven</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Raleigh</td>
+<td>Wake</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Shalotte/Southport/Whiteville</td>
+<td>Brunswick and Columbus</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Wilmington</td>
+<td>New Hanover</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Winston-Salem</td>
+<td>Forsyth</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td align="center" colspan="3"><a id="nd"></a>North Dakota</td>
+</tr>
+<tr align="center">
+<td>All</td>
+<td>All</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td align="center" colspan="3"><a id="oh"></a>Ohio</td>
+</tr>
+<tr align="center">
+<td>Akron</td>
+<td>Summit</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Canton</td>
+<td>Stark</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Cincinnati</td>
+<td>Hamilton and Clermont</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Cleveland</td>
+<td>Cuyahoga</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Columbus</td>
+<td>Franklin</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Dayton/Fairborn</td>
+<td>Greene/Darke and Montgomery</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Hamilton</td>
+<td>Butler and Warren</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Mentor</td>
+<td>Lake</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Port Clinton</td>
+<td>Ottawa</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Rittman</td>
+<td>Wayne and Medina</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Sandusky/Bellevue</td>
+<td>Erie and Huron</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Toledo</td>
+<td>Lucas</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Youngstown</td>
+<td>Mahoning and Trumbull</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td align="center" colspan="3"><a id="ok"></a>Oklahoma</td>
+</tr>
+<tr align="center">
+<td>Oklahoma City</td>
+<td>Oklahoma</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>tulsa</td>
+<td>Tulsa/Creek/Osaga and Rogers</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td align="center" colspan="3"><a id="or"></a>Oregon</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Ashland/Crater Lake</td>
+<td>Jackson/Klamath</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Beaverton</td>
+<td>Washington</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Bend</td>
+<td>Deschutes</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Clackamas</td>
+<td>Clackamas</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Eugene/Florence</td>
+<td>Lane</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Lincoln City</td>
+<td>Lincoln</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Portland</td>
+<td>Multnomah</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Seaside</td>
+<td>Clatsop</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td align="center" colspan="3"><a id="pa"></a>Pennsylvania</td>
+</tr>
+<tr align="center">
+<td>Allentown/Easton/Bethlehem</td>
+<td>Lehigh and Northampton</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Bucks County</td>
+<td>Bucks</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Chambersburg</td>
+<td>Franklin</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Chester/Radnor/Essington</td>
+<td>Delaware</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Erie</td>
+<td>Erie</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Gettysburg</td>
+<td>Adams</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Harrisburg</td>
+<td>Daupin</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Lancaster</td>
+<td>Lancaster</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Malvem/Frazer/Berwyn/Phoenixville</td>
+<td>Chester</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Mechanicsburg</td>
+<td>Cumberland</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Montgomery County</td>
+<td>Montgomery</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Philadelphia</td>
+<td>Philadelphia</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Pittsburgh</td>
+<td>Allegheny</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Reading</td>
+<td>Burks</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Scranton</td>
+<td>Lackawanna</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>State College</td>
+<td>Centre</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td align="center" colspan="3"><a id="ri"></a>Rhode Island</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>East Greenwich/Warwick/North Kingstown</td>
+<td>Kent and Washington</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Jamestown/Middletown/Newport</td>
+<td>Newport</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Providence</td>
+<td>Providence</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td align="center" colspan="3"><a id="sc"></a>South Carolina</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Aiken</td>
+<td>Aiken</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Charleston</td>
+<td>Charleston/Berkeley and Dorchester</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Columbia</td>
+<td>Richland</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Greenville</td>
+<td>Greenville</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Hilton Head</td>
+<td>Beaufort</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Myrtle Beach</td>
+<td>Horry</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td align="center" colspan="3"><a id="sd"></a>South Dakota</td>
+</tr>
+<tr align="center">
+<td>Hot Springs</td>
+<td>Fall River and Custer</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Rapid City</td>
+<td>Pennington</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Sturgis/Spearfish</td>
+<td>Meade/Butte and Lawrence</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td align="center" colspan="3"><a id="tn"></a>Tennessee</td>
+</tr>
+<tr align="center">
+<td>Brentwood/Franklin</td>
+<td>Williamson</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Chattanooga</td>
+<td>Hamilton</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Gatlinburg/Townsend</td>
+<td>Sevier and Blount</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Knoxville</td>
+<td>Knox</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Memphis</td>
+<td>Shelby</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Nashville</td>
+<td>Davidson</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Oak Ridge</td>
+<td>Anderson</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td align="center" colspan="3"><a id="tx"></a>Texas</td>
+</tr>
+<tr align="center">
+<td>Arlington/Fort Worth/Grapevine</td>
+<td>Tarrant and City limits of Grapevine</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Austin</td>
+<td>Travis</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>College Station</td>
+<td>Brazos</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Corpus Christi</td>
+<td>Nueces</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Dallas</td>
+<td>Dalls and City of Dallas</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>El Paso</td>
+<td>El Paso</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Galveston</td>
+<td>Galveston</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Houston (L.B. Johnson Space Center)</td>
+<td>Montgomery/Fort Bend and Harris</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Hunt County</td>
+<td>Hunt</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Killeen</td>
+<td>Bell</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Laredo</td>
+<td>Webb</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>McAllen</td>
+<td>Hidalgo</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Plano</td>
+<td>Collin</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Round Rock</td>
+<td>Williamson</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>San Antonio</td>
+<td>Bexar</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>South Padre Island</td>
+<td>Cameron</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Waco</td>
+<td>Mclennan</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td align="center" colspan="3"><a id="ut"></a>Utah</td>
+</tr>
+<tr align="center">
+<td>Ogden</td>
+<td>Weber</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Park City</td>
+<td>Summit</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Provo</td>
+<td>Utah</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Salt Lake City</td>
+<td>Salt Lake and Tooele</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td align="center" colspan="3"><a id="vt"></a>Vermont</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Burlington/St. Albans</td>
+<td>Chittenden and Franklin</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Manchester</td>
+<td>Bennington</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Montpelier</td>
+<td>Washington</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Stowe</td>
+<td>Lamoille</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>White River Junction</td>
+<td>Windsor</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td align="center" colspan="3"><a id="va"></a>Virginia</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Charlottesville</td>
+<td>City of Charlottesville/Albemarle</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Chesapeake/Suffolk</td>
+<td>Cities of Chespeake and Suffolk</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Chesterfield/Henrico Counties</td>
+<td>Chesterfield/Henrico</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Hampton City/Newport News</td>
+<td>Cities of Hampton City and Newport News</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>James City and York Counties/Williamsburg</td>
+<td>James City/York/City of Williamsburg</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Loudoun County</td>
+<td>Loudoun</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Lynchburg</td>
+<td>Campbell/Lynchburg City</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Manassas</td>
+<td>City of Manassas</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Norfold/Portsmouth</td>
+<td>Cities of Norfolk and Portsmouth</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Richmond City</td>
+<td>City of Richmond</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Roanoke</td>
+<td>City limits of Roanoke</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Spotsylvania County/City of Fredericksburg</td>
+<td>Spotsylvania</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Stafford/Prince William Counties</td>
+<td>Stafford/Prince William</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Virginia Beach County</td>
+<td>Virginia Beach</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Wallops Island</td>
+<td>Accomack</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Warrenton</td>
+<td>Fauquier</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Washington DC Metro Area</td>
+<td>Cities of Alexandria, Fairfax and Falls Church/Arlington/Fairfax</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td align="center" colspan="3"><a id="wa"></a>Washington</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Anacortes/Camano Island/Coupeville/Mount Vernon/La Conner/Burlington/Friday Harbor</td>
+<td>Skagit/Island/San Juan</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Bremerton</td>
+<td>Kitsap</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Everett/Lynnwood</td>
+<td>Snohomish</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Ocean Shores</td>
+<td>Grays Harbor</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Olympia/Tumwater</td>
+<td>Thurston</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Port Angeles/Port Townsend</td>
+<td>Clallam and Jefferson</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Seattle</td>
+<td>King</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Spokane</td>
+<td>Spokane</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Tacoma</td>
+<td>Pierce</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Vancouver</td>
+<td>Clark/Cowlitz/Skamania</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td align="center" colspan="3"><a id="dc"></a>Washington DC</td>
+</tr>
+<tr align="center">
+<td>District of Columbia</td>
+<td>Washington DC (Also the cities of Alexandria, Falls Church and Fairfax; Counties of Arlington and Fairfax in Virginia; Counties of Montgomery and Prince Georges in Maryland)(See also Maryland and Virginia)</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td align="center" colspan="3"><a id="wv"></a>West Virginia</td>
+</tr>
+<tr align="center">
+<td>Charleston</td>
+<td>Kanawha</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Huntington/Barboursville</td>
+<td>Cabell/Wayne</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Morgantown</td>
+<td>Monongalia</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Shepherdstown</td>
+<td>Jefferson</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Wheeling</td>
+<td>Ohio</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td align="center" colspan="3"><a id="wi"></a>Wisconsin</td>
+</tr>
+<tr align="center">
+<td>Appleton</td>
+<td>City of Appleton</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Brookfield/Racine</td>
+<td>Waukesha/Racine</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Green Bay</td>
+<td>Brown</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Lake Geneva</td>
+<td>Walworth</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Madison</td>
+<td>Dane</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Milwaukee</td>
+<td>Milwaukee</td>
+<td>Standard</td>
+</tr>
+<tr align="center">
+<td>Sheboygan</td>
+<td>Sheboygan</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Sturgeon Bay</td>
+<td>Door</td>
+<td>High</td>
+</tr>
+<tr align="center">
+<td>Wisonsin Dells</td>
+<td>Columbia</td>
+<td>High</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td align="center" colspan="3"><a id="wy"></a>Wyoming</td>
+</tr>
+<tr align="center">
+<td>Cody</td>
+<td>Park</td>
+<td>Standard</td>
+</tr>
+<tr align="center" style="background-color: lavender;">
+<td>Jackson/Pinedale</td>
+<td>Teton and Sublette</td>
+<td>High</td>
+</tr>
+</tbody>
+</table>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="true"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">true</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x18419" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

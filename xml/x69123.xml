@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.101 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x69123" Name="video" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;style type="text/css"&gt;
+@font-face {
+font-family: Asap;
+src: url("https://byui.box.com/shared/static/z3jkvkc4lrq9zigojb95.otf") format("opentype");
+}
+@font-face {
+font-family: Goudy;
+src: url("https://byui.box.com/shared/static/tfhihow6sspbm3tur81h.otf") format("opentype");
+}
+
+ul.nav {
+   margin: 0; padding: 0; position: relative; display: table; border: 0; width: 100%; overflow: visible; zoom: 1;
+}
+ul.nav li {
+   list-style: none; margin: 0px; width: 20%; float: left;
+}
+ul.nav li a.nav_btn {
+   display: block;               text-align: center; text-decoration: none;
+	border: 1px solid 		#ccc /*{c-bup-border}*/;
+	background: 			#eee /*{c-bup-background-color}*/;
+	font-weight: bold;
+	color: 					#222 /*{c-bup-color}*/;
+	text-shadow: 0 /*{c-bup-shadow-x}*/ 1px /*{c-bup-shadow-y}*/ 0 /*{c-bup-shadow-radius}*/ #fff /*{c-bup-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #fff /*{c-bup-background-start}*/), to( #f1f1f1 /*{c-bup-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #fff /*{c-bup-background-start}*/, #f1f1f1 /*{c-bup-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #fff /*{c-bup-background-start}*/, #f1f1f1 /*{c-bup-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #fff /*{c-bup-background-start}*/, #f1f1f1 /*{c-bup-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #fff /*{c-bup-background-start}*/, #f1f1f1 /*{c-bup-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #fff /*{c-bup-background-start}*/, #f1f1f1 /*{c-bup-background-end}*/);
+   font-family: Helvetica,Arial,sans-serif; cursor: pointer;
+}
+ul.nav li a.nav_btn:hover {
+	border: 1px solid 		#bbb /*{c-bhover-border}*/;
+	background: 			#dfdfdf /*{c-bhover-background-color}*/;
+	font-weight: bold;
+	color: 					#222 /*{c-bhover-color}*/;
+	text-shadow: 0 /*{c-bhover-shadow-x}*/ 1px /*{c-bhover-shadow-y}*/ 0 /*{c-bhover-shadow-radius}*/ #fff /*{c-bhover-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #f6f6f6 /*{c-bhover-background-start}*/), to( #e0e0e0 /*{c-bhover-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #f6f6f6 /*{c-bhover-background-start}*/, #e0e0e0 /*{c-bhover-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #f6f6f6 /*{c-bhover-background-start}*/, #e0e0e0 /*{c-bhover-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #f6f6f6 /*{c-bhover-background-start}*/, #e0e0e0 /*{c-bhover-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #f6f6f6 /*{c-bhover-background-start}*/, #e0e0e0 /*{c-bhover-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #f6f6f6 /*{c-bhover-background-start}*/, #e0e0e0 /*{c-bhover-background-end}*/);
+   font-family: Helvetica,Arial,sans-serif; cursor: pointer;
+}
+ul.nav li a.nav_btn_visited {
+   display: block; text-align: center; text-decoration: none;
+   border: 1px solid #2373a5;
+   background: #5393c5;
+   font-weight: bold;
+   color: #fff;
+   cursor: pointer;
+   text-shadow: 0 1px 0 #3373a5;
+   text-decoration: none;
+   background-image: -webkit-gradient(linear,left top,left bottom,from( #5393c5 ),to( #6facd5 ));
+   background-image: -webkit-linear-gradient( #5393c5,#6facd5 );
+   background-image: -moz-linear-gradient( #5393c5,#6facd5 );
+   background-image: -ms-linear-gradient( #5393c5,#6facd5 );
+   background-image: -o-linear-gradient( #5393c5,#6facd5 );
+   background-image: linear-gradient( #5393c5,#6facd5 );
+   font-family: Helvetica,Arial,sans-serif;
+}
+ul.nav li a span.nav_txt {
+   display: block; padding-top: 6%; padding-bottom: 6%;
+}
+.banner{
+   WIDTH:100%;
+}
+.dept {
+   display:table; width:100%; margin-left: 5%;
+}
+.dept img {
+   width: 250px; float: left;
+}
+.dept a {
+  text-decoration: none;
+}
+.dept p {
+   float: left; color: grey; font-family:Asap,Trebuchet MS,Tahoma;
+}
+p.welcome {
+   font-family: Goudy; margin:0px; margin-left: 23px; 
+}
+img.icon {
+   width: 100%;
+}
+p.content {
+   margin-left:30px; margin-right:30px;font-family: Goudy,Georgia,Garamond; 
+}
+div.main .video {
+   margin-left:60px; margin-right:60px;
+}
+.view_1 {
+   display:none;
+}
+.view_2 {
+   display:none;
+}
+.view_3 {
+   display:none;
+}
+.main h3 {
+   color: orange;
+}
+&lt;/style&gt;
+&lt;script type="text/javascript"&gt;
+window.onload = function() { 
+$(".slide_1").click(function(){ 
+    $(".view_1").slideToggle("slow"); 
+  }); 
+$(".slide_2").click(function(){ 
+    $(".view_2").slideToggle("slow"); 
+  }); 
+$(".slide_3").click(function(){ 
+    $(".view_3").slideToggle("slow"); 
+  });
+};  
+
+function btnClick(obj)
+{
+   obj.className = "nav_btn_visited";
+};
+&lt;/script&gt;
+&lt;div class="main"&gt;
+&lt;ul id="nav" class="nav"&gt;
+&lt;li&gt;&lt;a href="http://www.byui.edu/academic-support-centers/advertising-council" class="nav_btn" onClick="btnClick(this)"&gt;&lt;span class="nav_txt"&gt;Home&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.byui.edu/academic-support-centers/advertising-council/portfolio" class="nav_btn" onClick="btnClick(this)"&gt;&lt;span class="nav_txt"&gt;Portfolio&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.byui.edu/academic-support-centers/advertising-council/practicum-info" class="nav_btn" onClick="btnClick(this)"&gt;&lt;span class="nav_txt"&gt;Practicum info&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.byui.edu/academic-support-centers/advertising-council/requirements" class="nav_btn" onClick="btnClick(this)"&gt;&lt;span class="nav_txt"&gt;Requirements&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.byui.edu/academic-support-centers/advertising-council/about-us" class="nav_btn" onClick="btnClick(this)"&gt;&lt;span class="nav_txt"&gt;About us&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br /&gt;
+&lt;div class="banner"&gt;
+&lt;img src="http://courses.byui.edu/AcademicSupport/ad-council/banner/video_banner.png" width="100%" /&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;p class="content"&gt;
+Mission: (Video)&lt;br /&gt;
+Our mission is to produce interesting, quality video products that meet the needs of each client.&lt;br /&gt;&lt;br /&gt;
+Description:&lt;br /&gt;
+As the video section of the Advertising Council, we follow the entire production process to create interesting, quality video products for each client. We brainstorm, storyboard, script-write, coordinate, film, edit, and produce each project. Each team member rotates through each role (lighting, audio, video, editing, etc.) to help each individual in the program to contribute and to broaden his or her talents in the industry.
+&lt;/p&gt;
+&lt;div class="video"&gt;
+&lt;h3 class="slide_1" style="cursor:pointer;"&gt;It's about Mindset&lt;/h3&gt;
+&lt;div class="view_1"&gt;
+&lt;iframe width="560" height="315" src="http://www.youtube.com/embed/aG1GQwPfpZo" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;p class="content" style="margin:0px"&gt;
+Elephants, when they are young, can be tied with a strong cord to keep them from escaping. As they grow older, they believe that they cannot break the cords, even though the strength of the cord is the same. The failures of the past create false boundaries for the future. 
+&lt;br /&gt;As students, we can create false boundaries for ourselves. However, we can overcome those boundaries to become stronger and more successful, despite our past failures.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="video"&gt;
+&lt;h3 class="slide_2" style="cursor:pointer;"&gt;BYUI Tutoring Videos&lt;/h3&gt;
+&lt;div class="view_2"&gt;
+&lt;iframe width="560" height="315" src="http://www.youtube.com/embed/t4fy-1VTLuw" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;p class="content" style="margin:0px"&gt;
+Check out the BYU-Idaho Tutoring Study Videos. They are quick and easy to access and provide much information on your class courses. These videos are designed to tutor you when you have no time for a tutor or when there is not one available.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="video"&gt;
+&lt;h3 class="slide_3" style="cursor:pointer;"&gt;The Writing Center&lt;/h3&gt;
+&lt;div class="view_3"&gt;
+&lt;iframe width="560" height="315" src="http://www.youtube.com/embed/deH8cail9nY" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;p class="content" style="margin:0px"&gt;
+When your paper is on the line and you need some help, the writing center is here for you. This video is meant to show students that the writing center is a free academic tool to aid students in the writing process, and show them where it is located. Currently it is located on the second floor of the library, right next to the family history center. 
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="dept"&gt;
+&lt;a href="mailto:byuiadcncl@gmail.com" target="_parent"&gt;
+&lt;img src="http://courses.byui.edu/AcademicSupport/ad-council/icons/mail.png" /&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Join: Video Production!&lt;br /&gt; Please put 'Video Production' in the subject of email&lt;/p&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- END html area --&gt;</ContentSnippet></ContentSnippet>

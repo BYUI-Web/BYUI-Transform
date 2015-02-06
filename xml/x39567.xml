@@ -1,0 +1,369 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<PolicyPage ID="x39567" Name="Loan Policies" Layout="general_Policy.xsl"><Title type="string" label="Policy Title" readonly="false" hidden="false" required="true">Loan Policies</Title><Abstract type="string" label="Policy Abstract" readonly="false" hidden="false" required="true">Responsibilities, rules, and policies regarding student direct loans. Instructions on how to contact loan servicers and make arrangements to repay loans.</Abstract><Date type="date" label="Revision Date" readonly="false" hidden="false" required="true" display="localdateshort" UTC="true">20140616T18:00:00</Date><BodyCopy type="dhtml" label="Policy" readonly="false" hidden="false" required="false"><![CDATA[<p>
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40754833-1', 'byui.edu');
+  ga('send', 'pageview');
+</script>
+</p>
+<p>
+<script language="javascript" type="text/javascript">
+var fa_slideSpeed = 15;	// Higher value = faster
+var fa_timer = 2;	// Lower value = faster
+
+var objectIdToSlideDown = false;
+var fa_activeId = false;
+var fa_slideInProgress = false;
+var fa_slideInProgress = false;
+var fa_expandMultiple = false; // true if you want to be able to have multiple items expanded at the same time.
+
+function showHideContent(e,inputId)
+{
+	if(fa_slideInProgress)return;
+	fa_slideInProgress = true;
+	if(!inputId)inputId = this.id;
+	inputId = inputId + '';
+	var numericId = inputId.replace(/[^0-9]/g,'');
+	var answerDiv = document.getElementById('fa_a' + numericId);
+
+	objectIdToSlideDown = false;
+
+	if(!answerDiv.style.display || answerDiv.style.display=='none'){
+		if(fa_activeId &&  fa_activeId!=numericId && !fa_expandMultiple){
+			objectIdToSlideDown = numericId;
+			slideContent(fa_activeId,(fa_slideSpeed*-1));
+		}else{
+
+			answerDiv.style.display='block';
+			answerDiv.style.visibility = 'visible';
+
+			slideContent(numericId,fa_slideSpeed);
+		}
+	}else{
+		slideContent(numericId,(fa_slideSpeed*-1));
+		fa_activeId = false;
+	}
+}
+
+function slideContent(inputId,direction)
+{
+
+	var obj =document.getElementById('fa_a' + inputId);
+	var contentObj = document.getElementById('fa_ac' + inputId);
+	height = obj.clientHeight;
+	if(height==0)height = obj.offsetHeight;
+	height = height + direction;
+	rerunFunction = true;
+	if(height>contentObj.offsetHeight){
+		height = contentObj.offsetHeight;
+		rerunFunction = false;
+	}
+	if(height<=1){
+		height = 1;
+		rerunFunction = false;
+	}
+
+	obj.style.height = height + 'px';
+	var topPos = height - contentObj.offsetHeight;
+	if(topPos>0)topPos=0;
+	contentObj.style.top = topPos + 'px';
+	if(rerunFunction){
+		setTimeout('slideContent(' + inputId + ',' + direction + ')',fa_timer);
+	}else{
+		if(height<=1){
+			obj.style.display='none';
+			if(objectIdToSlideDown && objectIdToSlideDown!=inputId){
+				document.getElementById('fa_a' + objectIdToSlideDown).style.display='block';
+				document.getElementById('fa_a' + objectIdToSlideDown).style.visibility='visible';
+				slideContent(objectIdToSlideDown,fa_slideSpeed);
+			}else{
+				fa_slideInProgress = false;
+			}
+		}else{
+			fa_activeId = inputId;
+			fa_slideInProgress = false;
+		}
+	}
+}
+
+
+
+function initShowHideDivs()
+{
+	var divs = document.getElementsByTagName('DIV');
+	var divCounter = 1;
+	for(var no=0;no<divs.length;no++){
+		if(divs[no].className=='fa_question'){
+			divs[no].onclick = showHideContent;
+			divs[no].id = 'fa_q'+divCounter;
+			var answer = divs[no].nextSibling;
+			while(answer && answer.tagName!='DIV'){
+				answer = answer.nextSibling;
+			}
+			answer.id = 'fa_a'+divCounter;
+			contentDiv = answer.getElementsByTagName('DIV')[0];
+			contentDiv.style.top = 0 - contentDiv.offsetHeight + 'px';
+			contentDiv.className='fa_answer_content';
+			contentDiv.id = 'fa_ac' + divCounter;
+			answer.style.display='none';
+			answer.style.height='1px';
+			divCounter++;
+		}
+	}
+}
+window.onload = initShowHideDivs;
+</script>
+</p>
+<style type="text/css"><!--
+/* CSS styles for the Show/Hide functionality. */
+
+.fa_question{
+        overflow:hidden;
+	cursor:pointer;
+        background-color: #f0f0f0;
+        color: #666;
+        padding: 10px;
+        border: 1px solid #000;
+        -webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+}
+.fa_question:hover{
+        background-color: #fcc35a;
+}
+.fa_answer{
+        visibility:hidden;
+	height:0px;
+	overflow:hidden;
+	position:relative;
+}
+.fa_answer_content{	/* Content that is slided down */
+        margin-top: 10px;
+	padding:1px;
+	font-size:1em;
+	position:relative;
+}
+
+.h1 {font-family: futura, arial, sans-serif; font-size: 2em; color: #000}
+.h2 {font-family: futura, arial, sans-serif; font-size: 1.75em; color: #000;}
+.h3 {font-family: futura, arial, sans-serif; font-size: 1.5em; color: #000;}
+.h4 {font-family: futura, arial, sans-serif; font-size: 1.3em; margin-left: 15px;}
+.h5 {font-family: futura, arial, sans-serif; font-size: 1em; margin-left: 12px;}
+
+#table_futura th{
+     color:#F8F8F8;
+     background-color: #333;   
+     font-family: futura, arial, sans-serif;
+     font-size: medium;
+     font-weight: normal;
+}
+#table_futura ul{
+     margin-left: 5px;
+}
+#table_futura td{
+     color:#000;
+}
+ul {margin-left:30px;}
+
+
+
+
+
+table {
+	width: 100%;
+	border: 1px solid #cef;
+	text-align: left; }
+th {
+	font-weight: bold;
+	background-color: #acf;
+	border-bottom: 1px solid #cef; }
+td,th {
+	padding: 4px 5px; }
+        
+.odd {
+	background-color: #def; }
+.odd td {
+	border-bottom: 1px solid #cef; }
+--></style>
+<p>Accepting Federal Loans for financial assistance through schooling can be like walking into unfamiliar territory for a lot of students. There is a lot of information to cover to ensure that students are aware of their responsibilities with the loan, especially when it comes to repayment. The following tabs below contain pertinent information you may want to review and understand before accepting a loan offer.</p>
+<div class="fa_question"><span class="h4">Borrower responsibilities</span></div>
+<div class="fa_answer">
+<div>
+<p>Borrowers have agreed to many responsibilities and obligations. Borrowers (students and or parents) need to understand the following responsibilities concerning their loan. For more information visit <a href="http://www.studentloans.gov">loan servicers</a></p>
+<ul>
+<li><strong>Maintain contact and communication with loan servicers</strong> &ndash; Borrowers can identify their <a href="http://studentaid.ed.gov/PORTALSWebApp/students/english/FSALoanServicers.jsp" style="font-family: Arial, sans-serif; font-weight: 500; color: #2864c8;" title="Studentaid.ed.gov Loan Servicer list">loan servicers</a> by visiting <a href="http://www.nslds.ed.gov" style="font-family: Arial, sans-serif; font-weight: 500; color: #2864c8;" title="NSLDS.ed.gov">NSLDS.ed.gov</a>. Servicers regularly send messages and communicate; to borrowers. Loan servicers routinely send messages regarding: disbursement notifications, interest bills, enrollment changes, grace period notifications, interest notices, and repayment notifications/obligations (view a typical loan servicers <a href="http://www.myfedloan.org/schools/our-services/services-borrowers/timeline.shtml" style="font-family: Arial, sans-serif; font-weight: 500; color: #2864c8;" title="FedLoan Borrower Communication Timeline"> communication timeline</a>).
+<p class="min_space">The student is responsible to inform the servicer of the following:</p>
+<ul class="inner_list">
+<li>If there is a name change</li>
+<li>If the permanent address changes</li>
+<li>If the Social Security number changes</li>
+<li>If the projected graduation date changes</li>
+<li>If the student withdraws from school</li>
+<li>If the student transfers to another school</li>
+<li>If the student drops below half-time status (below 6 credits)</li>
+<li>If the student desires to apply for a deferment or a forbearance</li>
+<li>If the student is having any difficulty repaying the loan</li>
+</ul>
+<p><small>The student should retain copies of all letters sent to the servicer. The student is also encouraged to log all telephone calls to the servicer, noting dates, the name of the person contacted, and what he/she was told.</small></p>
+</li>
+<li><strong>Confirm Enrollment Verification with loan servicer</strong> &ndash; Loan servicers check a student&rsquo;s enrollment status on the National Student Clearinghouse (to see if students are enrolled at least half-time or six credits). The National Student Clearinghouse is not updated until approximately a month into the semester. If a student is not listed as currently enrolled, they will most likely receive notification from their servicer that they are entering repayment. Students can print and send to the servicer their <a href="http://www.byui.edu/registrarsoffice/studentverification.htm" style="font-family: Arial, sans-serif; font-weight: 500; color: #2864c8;" title="BYU-Idaho Enrollment Verification - Student Records Office">Enrollment Verification</a> (accessible from the <a href="http://www.byui.edu/registrarsoffice/" style="font-family: Arial, sans-serif; font-weight: 500; color: #2864c8;" title="Student Records and Registrars Office link">Student Records and Registrars Office</a>). Enrollment Verification is a document that confirms periods (semesters) of school attendance and credit levels. Ultimately, the student is responsible to inform or correct the loan servicer of any errors or inaccuracies regarding a student&rsquo;s enrollment status,<em> not the Financial Aid Office</em>.</li>
+</ul>
+<ul>
+<li><strong>Repay loans after grace period expires</strong>- When a student leaves school, he/she will not be required to begin repaying the loan immediately. Stafford Direct Loans allow a six-month &ldquo;grace period&rdquo; that starts when a student leaves school or drops below half-time (six credits) enrollment. A student may request a shorter grace period if he/she wishes. If a student has unsubsidized loans, he/she can reduce the amount of interest that accrues on the loan by requesting a shorter grace period and beginning repayment earlier.<br />
+<ul>
+<li><strong>Grace periods</strong> are day-specific; that is, an initial grace period begins on the day immediately following the day that a student stops attending school at least half time (six credits) and ends on the day before the repayment period begins. The initial grace period isn&rsquo;t &ldquo;used up&rdquo; during shorter periods of non-enrollment. For instance, if a student misses a semester (4 months), but resumes his/her studies at least half-time (six credits), he/she will still be eligible for the full 6-month grace period when he/she graduates.</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="fa_question"><span class="h4">Repaying student loans</span></div>
+<div class="fa_answer">
+<div>
+<p>Borrowers can visit <a href="http://www.nslds.ed.gov" title="NSLDS.ed.gov link">NSLDS.ed.gov</a> to identify their <a href="http://studentaid.ed.gov/PORTALSWebApp/students/english/FSALoanServicers.jsp" title="Studentaid.ed.gov Loan Servicer list">loan servicers</a> in order to make arrangements for loan repayment. BYU-Idaho is not a party in the loan contract and therefore is not involved in mediating loan arrangements, accepting loan or interest payments, or contacting the loan servicer.</p>
+<p>Students should receive their <a href="http://studentaid.ed.gov/PORTALSWebApp/students/english/OtherFormsOfRepay.jsp" title="Link to the
+                    Studentaid.gov Repayment Plan and Calculator page">Repayment Schedule</a> during the grace period. If students did not receive this, it is their responsibility to contact their servicer. The payments must begin after the 6-month grace period has elapsed.</p>
+<h2>Exit counseling</h2>
+<p>Students who have received student loans and are nearing graduation are required to complete &ldquo;Exit Counseling&rdquo; at <a href="http://www.nslds.ed.gov" style="font-family: Arial, sans-serif; font-weight: 500; color: #2864c8;" title="NSLDS.ed.gov link">NSLDS.ed.gov</a>. This counseling will remind students of what their responsibilities concerning repaying student loans, the loan servicer&rsquo;s responsibilities to the borrower, and which repayment options are available.</p>
+</div>
+</div>
+<div class="fa_question"><span class="h4">Early repayments</span></div>
+<div class="fa_answer">
+<div>
+<p>Borrowers will not be penalized by making early repayment on their loans. Making early payments on a student loan before a grace period is expired does not obligate the borrower to continue making payments.</p>
+</div>
+</div>
+<div class="fa_question"><span class="h4">Deferments &amp; Forbearance</span></div>
+<div class="fa_answer">
+<div>
+<p>Deferments are provided in the law. They are the temporary postponement of payment under special circumstances. During deferment, the student's monthly principal payments are postponed, and the federal government pays the interest on subsidized Federal Direct Loans. For an Unsubsidized Federal Direct borrower, monthly payments are postponed, but the student is responsible for all the interest that accrues. Depending on which deferment the student qualifies for, the length of the deferment varies. Students must apply for the deferment in writing, using a form provided by the servicer.</p>
+<h3>Deferment types</h3>
+<hr />
+<p>Borrowers with outstanding Federal Education Loans disbursed before July 1, 1993. Check with the loan servicer.</p>
+<p>New borrowers with Direct or SLS Loans first disbursed on or after July 1, 1993, and at that time did not have an outstanding balance on any Federal Education Loans taken out before July 1, 1993.</p>
+<ul>
+<li>Unemployment -- up to three years.</li>
+<li>At least half-time enrollment at an eligible school.</li>
+<li>Participation in an approved rehabilitation program.</li>
+<li>Study under an approved graduate fellowship program.</li>
+<li>Experiencing economic hardship as defined by the Department of Education.</li>
+</ul>
+<div class="right_container">
+<h4 style="text-indent: 0;">LDS Missions</h4>
+<hr />
+<p>The U.S. Department of Education has indicated that a borrower who is serving in a religious proselytizing capacity (missionary service) and is not employed during that period may qualify for a forebearance or reduced payment.</p>
+</div>
+<!-- End of .right_container -->
+<p>Borrowers with an outstanding balance on a Stafford Loan prior to July 1, 1993, do not qualify for the hardship deferment and must apply for a forbearance.</p>
+<h4 style="text-indent: 0;">Forbearance</h4>
+<hr />
+<p>If students are not eligible for deferment, but are experiencing some financial difficulty, they may apply for a forbearance. A forbearance is a servicer option. Forbearance is the temporary cessation of payments or acceptance of smaller payments than were previously scheduled. The servicer may grant forbearance for principal, interest, or both. Forbearance requires a written agreement between the borrower and servicer. Unlike periods of deferment, the borrower is responsible for repayment of interest which accrues during forbearance.</p>
+</div>
+</div>
+<div class="fa_question"><span class="h4">Consolidation</span></div>
+<div class="fa_answer">
+<div>
+<p>Consolidation is the combining of existing student loans into one new loan. Generally, this results in lower monthly payments, but higher interest costs.</p>
+<p>Married couples are now allowed to consolidate their individual loans if they agree to be held jointly and separately liable for repayment without regard to the amount of the individual indebtedness and any future changes in their marital status.</p>
+<p>The interest rate on the unpaid principal balance for Consolidation Loans is the lesser of the weighted average of the interest rates on loans being consolidated, rounded up to the nearest higher one-eighth of 1 percent or 8.25%.</p>
+<p>If a student took out their first loan before July 1, 1993, and consolidate it after July 1, 1993, they will be eligible for fewer deferments. For more information about consolidation, students can contact their servicer (Visit <a href="http://www.nslds.ed.gov" title="Link to NSLDS.ed.gov">NSLDS.ed.gov</a> to identify loan servicers).</p>
+</div>
+</div>
+<div class="fa_question"><span class="h4">Default</span></div>
+<div class="fa_answer">
+<div>
+<p>If a student fails to make payments for six months or more, their loan will go into default. Defaulting on a loan is a serious matter. When the student enters default, the student will immediately become ineligible for any Title IV funding at any school. In the event of default, the student's guarantee agency purchases the loan from his/her servicer and begins collection activity against him/her until the loan has been repaid. This activity may include, but is not limited to:</p>
+<ul>
+<li>Reporting the student's default to a credit bureau.</li>
+<li>Reporting the student's default to the Internal Revenue Service, causing their federal tax refunds to be withheld and applied toward their loan balance. Many states also withhold state income tax refunds.</li>
+<li>Garnishing the student's wages</li>
+</ul>
+<p>If a student is having difficulty making their payments, they need to contact their servicer or guarantee agency immediately. Many problems can be resolved, and there may be deferment or forbearance options available them.</p>
+</div>
+</div>
+<div class="fa_question"><span class="h4">Cancellation</span></div>
+<div class="fa_answer">
+<div>
+<p>There are three provisions for cancellation of Federal Direct Loans:</p>
+<ul>
+<li>The death of the student</li>
+<li>The student becomes totally and permanently disabled</li>
+<li>The school closes and the student is not able to finish their program</li>
+</ul>
+</div>
+</div>
+<div class="fa_question"><span class="h4">Loan Caps</span></div>
+<div class="fa_answer">
+<div>
+<p>Students must be making Satisfactory Academic Progress (SAP) in order to be eligible for loans. Students also must be maintaining a 6 credit minimum to be considered eligible.</p>
+<table cellpadding="0" cellspacing="0" style="margin-bottom: -5px;">
+<tbody>
+<tr><th>Maximum Amounts of Borrow</th></tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr><th>Year</th><th>Dependent*</th><th>Independent*</th></tr>
+<tr>
+<td>1st Year</td>
+<td>$5,500</td>
+<td>$9,500</td>
+</tr>
+<tr>
+<td>2nd Year</td>
+<td>$6,500</td>
+<td>$10,500</td>
+</tr>
+<tr>
+<td>3rd &amp; 4th Year</td>
+<td>$7,500</td>
+<td>$12,500</td>
+</tr>
+<tr>
+<td>Aggregate</td>
+<td>$31,000</td>
+<td>$57,500</td>
+</tr>
+</tbody>
+</table>
+<p><em>*The total amount includes subsidized and/or unsubsidized loan amounts</em></p>
+<p>Beginning July 1, 2013, first time borrowers may not receive Direct Subsidized Loans for more than 150% of the published length of the academic program in which they are currently enrolled. For example, a first time borrower in a 4-year degree program would have 6 years of Direct Subsidized Loan eligibility, and a borrower in a 2-year certificate program would have 3 years of Direct Subsidized Loan eligibility. Borrowers that have taken out loans before July 1, 2013 will still be eligible to receive loans under the previously established maximums, or until they reach SAP.</p>
+<h5>Current interest rates for all Direct Loans are as follows:</h5>
+<table style="margin-bottom: -5px;">
+<tbody>
+<tr><th>Current Interest Rates*</th></tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr>
+<td>Direct Subsidized</td>
+<td>3.86%</td>
+</tr>
+<tr>
+<td>Direct Unsubsidized</td>
+<td>3.86%</td>
+</tr>
+<tr>
+<td>Direct Parent PLUS</td>
+<td>6.41%</td>
+</tr>
+<tr>
+<td>*Effective 07/01/13 to 06/30/14</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+For more information on Loans and other financial aid, visit <a href="http://studentaid.ed.gov">www.studentaid.ed.gov</a>.<hr /></div>
+</div>
+<div class="fa_question"><span class="h4">What is the cost of taking out a student loan?</span></div>
+<div class="fa_answer">
+<div>
+<p>All student loans have an origination fee. This is explained in your MPN and Entrance Counseling. This fee is simply taken out of the loan funds that you accept, so the money that you receive will be less than the funds that you accept.</p>
+</div>
+</div>
+<p><br /> <strong><a href="Documents/Admin_Offices/Financial Aid/2014_2015_Documents/Spring_14_Loan_Deadline.pdf">Click here for information on our accepting loan deadline.</a></strong></p>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="Policy" label="Policy" readonly="false" hidden="false" required="false" CompTypes="PolicyNavigationComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="true"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">true</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x18206" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></PolicyPage>

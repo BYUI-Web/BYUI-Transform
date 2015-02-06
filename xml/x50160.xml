@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x50160" Name="helpslide" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;style type="text/css"&gt;
+            #helptab{
+                position: fixed;
+                top:350px;
+                background-color: rgb(50,107,169);
+                color: white;
+                width: 23em;
+                height: 5em;
+                z-index:50;
+                box-shadow: 10px 5px 10px #888888; 
+                border: 1px solid black;
+                right: -287px;
+                transition: right 0.5s linear;
+                -moz-transition: right 0.5s linear; /* Firefox 4 */
+                -webkit-transition: right 0.5s linear; /* Safari and Chrome */
+                -o-transition: right 0.5s linear; /* Opera */
+            }
+
+            #helptab a{
+                color: black;
+                cursor: pointer;
+                text-decoration: underline;
+            }
+
+            #helptab&gt;#first{
+                line-height: -1;
+                font-size: 3.0em;
+                float: left;
+                padding: 0.3em 0.3em 0 0.3em;
+            }
+
+            #helptab&gt;p{
+                display: inline;
+                line-height: 1;
+                color: white;
+                font-size: 1.1em;
+            }
+
+             #helptab:hover{
+                right: 20px;
+            }
+
+            #frameDisplay{
+                position: fixed;
+                margin-left: auto;
+                margin-right: auto;
+                width: 46em;
+                vertical-align: middle;
+            }
+
+            #theFrame{
+                box-shadow: 10px 10px 10px #888888; 
+                border: 1px solid black;
+            }
+
+            #closeFrameButton{
+                left:91.9%; 
+                border: 1px solid black; 
+                color:white; 
+                text-decoration:none; 
+                background-color: rgb(50,107,169); 
+                border-radius:6px; 
+                display: block;
+                width: 2.6em;
+                margin-left: 42.5em;
+            }
+        &lt;/style&gt;
+        &lt;div id="frameDisplay"&gt;&lt;/div&gt;
+        &lt;div id="helptab"&gt;
+           &lt;p id="first"&gt;?&lt;/p&gt;&lt;p&gt;  If you have any questions, comments, concerns, or complaints please feel free to submit a &lt;a id="requestlink" onclick='displayIframe();' title="Click here to submit a request form"&gt;Helpdesk Ticket&lt;/a&gt;.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;script type="text/javascript"&gt;
+            var displayCount = 0;
+            function displayIframe() {
+                frameDisplay.innerHTML = "&lt;a id='closeFrameButton' href='javascript: closeIframe()'&gt;Close&lt;/a&gt;&lt;iframe id='theFrame' src='http://www2.byui.edu/helprequest/newhelprequest.html' frameborder='0'&gt;&lt;/iframe&gt;";
+                if(displayCount == 0) {
+                    document.getElementById('frameDisplay').style.zIndex="100";
+                    displayCount++;
+                }
+                document.getElementById('frameDisplay').style.top="10%";
+                document.getElementById('theFrame').style.height="37em";
+                document.getElementById('theFrame').style.width="45.09em";
+                document.getElementById('theFrame').style.backgroundColor="white";
+                document.getElementById('university_message').style.opacity="0.4";
+                document.getElementById('local_nav').style.opacity="0.4";
+                document.getElementById('breadcrumbs').style.opacity="0.4";
+                document.getElementById('main_header').style.opacity="0.4";
+                document.getElementById('top_header').style.opacity="0.4";
+                document.getElementById('footer_nav').style.opacity="0.4";
+                document.getElementById('footer_links_container').style.opacity="0.4";
+                document.getElementById('footer_brand').style.opacity="0.4";
+                document.getElementById('page_title').style.opacity="0.4";
+            }
+
+            //code to close the box and return the page to normal.
+            function closeIframe() {
+                frameDisplay.innerHTML = "";
+                document.getElementById('university_message').style.opacity="1.0";
+                document.getElementById('local_nav').style.opacity="1.0";
+                document.getElementById('breadcrumbs').style.opacity="1.0";
+                document.getElementById('main_header').style.opacity="1.0"; 
+                document.getElementById('top_header').style.opacity="1.0";
+                document.getElementById('footer_nav').style.opacity="1.0";
+                document.getElementById('footer_links_container').style.opacity="1.0";
+                document.getElementById('footer_brand').style.opacity="1.0";
+                document.getElementById('page_title').style.opacity="1.0";
+            }
+        &lt;/script&gt;</ContentSnippet></ContentSnippet>

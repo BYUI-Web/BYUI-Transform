@@ -1,0 +1,488 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<Content ID="x66671" Name="Campus Student Checklist After Arriving" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Campus Student Checklist After Arriving</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Campus Student Checklist After Arriving</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<p><img height="266" src="Images/student-support/checklist-banner2.gif" title="New Student Checklist" width="710" /></p>
+<p><meta /></p>
+<style><!--
+#page h1{
+            color:#000;
+            margin-top:18px;
+        }
+        .checklist_item{
+            position:relative;
+            clear:both;
+            float:left;
+            width:700px;
+            
+        }
+        .checklist_item:not(:first-child){
+            margin-top:25px;
+        }
+        a:hover{
+            opacity:.8;
+        }
+        .top{
+            cursor:pointer;
+            margin-bottom:50px;
+        }
+        .circle{
+            background-color:#fff;
+            border:1px #D4D4D4 solid;
+            height:60px;
+            width:60px;
+            border-radius:30px;
+            position:absolute;
+            z-index:1;
+            margin-top:7px;
+        }
+        .accept_decline .circle{
+             background-image:url('Images/student-support/checklist/accept_decline.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .accessyourst .circle{
+            background-image:url('Images/student-support/checklist/accessyourst.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .applyfor .circle{
+            background-image:url('Images/student-support/checklist/applyfor.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .plannow .circle{
+            background-image:url('Images/student-support/checklist/plannow.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .findstudent .circle{
+            background-image:url('Images/student-support/checklist/findstudent.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .preparetoreg .circle{
+            background-image:url('Images/student-support/checklist/preparetoreg.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .sendtransfer .circle{
+            background-image:url('Images/student-support/checklist/sendtransfer.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .insuranceand .circle{
+            background-image:url('Images/student-support/checklist/insuranceand.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .reviewacademic .circle{
+            background-image:url('Images/student-support/checklist/reviewacademic.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .registerforclass .circle{
+            background-image:url('Images/student-support/checklist/registerforclass.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .reservetextb .circle{
+            background-image:url('Images/student-support/checklist/reservetextb.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .obtaincampus .circle{
+            background-image:url('Images/student-support/checklist/obtaincampus.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .exploredining .circle{
+            background-image:url('Images/student-support/checklist/exlporedining.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .learnhow .circle{
+            background-image:url('Images/student-support/checklist/learnhow.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .moveintoyour .circle{
+            background-image:url('Images/student-support/checklist/moveintoyour.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .obtain-youri .circle{
+            background-image:url('Images/student-support/checklist/obtain-youri.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .registerfor .circle{
+            background-image:url('Images/student-support/checklist/registerfor.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .paytuition .circle{
+            background-image:url('Images/student-support/checklist/paytuition.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .havelunchat .circle{
+            background-image:url('Images/student-support/checklist/havelunchat.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .purchaseorpi .circle{
+            background-image:url('Images/student-support/checklist/purchaseorpi.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .meetyouri .circle{
+            background-image:url('Images/student-support/checklist/meetyouri.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .participateing .circle{
+            background-image:url('Images/student-support/checklist/participateing.png');
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+        }
+        .head{
+            width:661px;
+            height:35px;
+            background-color:#404041;
+            position:absolute;
+            z-index:0;
+            left:40px;
+            top:21px;
+
+        }
+        .head:hover{
+            opacity:.9;
+        }
+        .head h1{
+            font-size:1em;
+            margin-top:-10px;
+            font-family:helvetica, sans-serif;
+            font-weight:600;
+            position:absolute;
+            left:40px;
+            bottom:3px;
+        }
+        #page h1{
+            color:#fff;
+        }
+        ul.content{
+            background-color:#FeFeFe;
+            box-shadow:1px 1px 1px #ddd;
+            font-size:1.3em;
+            margin:55px 0 0 50px;
+            padding:20px 20px;
+            width:610px;
+        }
+        ul.content p{
+            color:#434343;
+            font-size:.7em;
+            line-height:120%;
+        }
+        ul.content li ul li{
+            color:#434343;
+            font-size:.7em;
+            margin-top:-10px;
+            margin-bottom:20px;
+        }
+        #page ul.content li{
+            list-style-type:square;
+            color:#535354;
+            margin-left:35px;
+
+        }
+        .down_arrow{
+            border-color:white transparent transparent transparent;
+            border-width:9px;
+            border-style:solid;
+            width:0;
+            height:0;
+            float:right;
+            margin:12px 25px 0 0;
+        }
+        .up_arrow{
+            border-color:transparent transparent white transparent;
+            border-width:9px;
+            border-style:solid;
+            width:0;
+            height:0;
+            float:right;
+            margin:4px 25px 0 0;
+        }
+        .read_more{
+            float:left;
+            margin:-15px 0 0 120px;
+        }
+        .footer{
+        width:225px;
+        height:220px;
+        background-color:#E7E7E7;
+        float:left;
+        margin:110px 0 0 10px;
+        border-radius:20px;
+    }
+    .footer li{
+        list-style-type:none;
+        margin:30px 0 0 0;
+    }
+    .footer li{
+
+        margin:0 0 0 -10px;
+        float:left;
+
+    }
+    .footer li img, .footer li p, .footer li a{
+        float:left;
+        margin-left:10px;
+    }
+
+    .footer li img{
+        margin:15px 0 0 0;
+    }
+    .footer h5{
+        margin:10px 0 -20px 13px;
+        color:#2B5E95;
+        font-size:1em;
+    }
+    .footer li p, .footer li a{
+        width:150px;
+        word-wrap:break-word;
+    }
+    .footer li p:hover ~ img{
+        background-image:url('Images/student-support/checklist/ArrowRoundDark.png');
+    }
+    .footer .long{
+        margin-top:8px;
+    }
+--></style>
+<div id="page">
+<section class="checklist_item moveintoyour">
+<div class="top">
+<div class="circle"></div>
+<div class="head">
+<h1>Move Into Your Housing Complex</h1>
+<div class="up_arrow arrow"></div>
+</div>
+</div>
+<ul class="content second">
+<li>
+<p>Move into your housing complex. All university approved housing complexes should be open by 8:00 a.m. MST (Mountain Standard Time). See the <a href="http://www.byui.edu/get-connected">Get Connected schedule</a> for your Move-in date.</p>
+</li>
+<li>
+<p>Purchase groceries and other items you may need.</p>
+</li>
+<li>
+<p>If you experience travel difficulties that will not allow you to check in during regular times, please contact your housing manager to make other arrangements.</p>
+</li>
+</ul>
+</section>
+<section class="checklist_item obtain-youri">
+<div class="top">
+<div class="circle"></div>
+<div class="head">
+<h1>Obtain Your I-Card</h1>
+<div class="up_arrow arrow"></div>
+</div>
+</div>
+<ul class="content second">
+<li>
+<p>You have five days from the start of classes to obtain your I-Card during which time your I-Number and photo ID can be used for any campus services that normally require your I-card. See <a href="http://byui.edu/Bursar/I-CardPolicies.htm">byui.edu/Bursar/I-CardPolicies.htm</a></p>
+</li>
+<li>
+<p>I-Card office is located on teh first floor of the Kimball Building, room 130 and other locations during Get Connected.&nbsp; See the <a href="http://www.byui.edu/get-connected">Get Connected schedule</a> for locations.</p>
+</li>
+<li>
+<p>To obtain your I-Card, you will need your I-number and must be in compliance with the <a href="http://www.byui.edu/student-honor-office/ces-honor-code/dress-and-grooming">Dress and Grooming standards</a>.</p>
+</li>
+<li>
+<p>Your I-Card can act as a debit card for campus purchases at the University Store, campus vending machines, print and photocopiers and Food Services dining areas.</p>
+</li>
+</ul>
+</section>
+<section class="checklist_item registerfor">
+<div class="top">
+<div class="circle"></div>
+<div class="head">
+<h1>Register for Get Connected</h1>
+<div class="up_arrow arrow"></div>
+</div>
+</div>
+<ul class="content second">
+<li>
+<p>Arrive to campus and register for Get Connected. Upon registration you will receive a copy of the Get Connected schedule, obtain your I-Team group number and meeting location, and your wristband. For registration locations and events, see the <a href="http://www.byui.edu/get-connected">Get Connected schedule</a>.</p>
+</li>
+</ul>
+</section>
+<section class="checklist_item paytuition">
+<div class="top">
+<div class="circle"></div>
+<div class="head">
+<h1>Pay Tuition</h1>
+<div class="up_arrow arrow"></div>
+</div>
+</div>
+<ul class="content second">
+<li>
+<p>You can pay your tuition online before you even arrive on campus. For payment methods, see <a href="http://www.byui.edu/financial-services/my-account/payment-methods">Payment Methods</a></p>
+</li>
+<li>
+<p>Should you wish to pay in person you may do so at the Cashiers Office located on the first floor of the Kimball Building room 130. You have 7 days after the start of school to make this payment so you do not need to stand in any lines on Move-in Day.</p>
+</li>
+<li>
+<p>Visa isn't accepted by BYU-Idaho for payment of tuition, reserved textbooks, or student charges. American Express, Discover, and MasterCard are accepted with a 2.75% service charge (subject to change). Credit Card payments can only be paid online through <a href="http://my.byui.edu">my.byui.edu</a> (Finance Tab).</p>
+</li>
+</ul>
+</section>
+<section class="checklist_item havelunchat">
+<div class="top">
+<div class="circle"></div>
+<div class="head">
+<h1>Have Lunch at The Crossroads - Optional</h1>
+<div class="up_arrow arrow"></div>
+</div>
+</div>
+<ul class="content second">
+<li>
+<p>The Crossroads, located on the 2nd floor of the Manwaring Center, features pizza and pasta at Tuscan Valley, Mexican cuisine at Caliente, oriental cuisine at Far East Fusion, sandwhiches and wraps at Stacks &amp; Wraps, grilled items at the Grand Teton Grill, home-styled cooking at Chef's Point, and gourmet and customizable salads at the Salad Bar.</p>
+</li>
+</ul>
+</section>
+<section class="checklist_item purchaseorpi">
+<div class="top">
+<div class="circle"></div>
+<div class="head">
+<h1>Purchase or Pick-up Textbooks/BYUI Issue/Laptop at University Store</h1>
+<div class="up_arrow arrow"></div>
+</div>
+</div>
+<ul class="content second">
+<li>
+<p>Previously reserved textbooks can be picked up from the University Store.</p>
+</li>
+<li>
+<p>If you need to purchase textbooks, you can do so at the University Store.&nbsp; You will need a copy of your class schedule to select the books you need. You can print it out at the University store if you forget to bring it with you. For more information, visit the <a href="http://www.byuistore.com">University Store</a> website.</p>
+</li>
+<li>
+<p>You can purchase BYU-Idaho approved exercise clothing from the University Store. These clothing items are required to use the facilities. You can purchase your own set or pay a fee to rent them each time you use the facilities.</p>
+</li>
+<li>
+<p>You can purchase a laptop from the University Store. For more information about the laptop initiative, click <a href="http://www.byui.edu/laptop">here</a>.&nbsp;</p>
+</li>
+</ul>
+</section>
+<section class="checklist_item meetyouri">
+<div class="top">
+<div class="circle"></div>
+<div class="head">
+<h1>Meet Your I-Team and Attend the BYU-Idaho Welcome</h1>
+<div class="up_arrow arrow"></div>
+</div>
+</div>
+<ul class="content second">
+<li>
+<p>Meet Your I-Team at your designated meeting location and attend the BYU-Idaho Welcome.&nbsp; See the <a href="http://www.byui.edu/get-connected">Get Connected Schedule</a> for the time and location.</p>
+</li>
+<li>
+<p>Parents are invited to attend the BYU-Idaho Welcome with their student. Parents unable to travel to Rexburg may view the BYU-Idaho welcome streamed online at <a href="http://www.byui.edu/live/video">byui.edu/live/video.</a></p>
+</li>
+</ul>
+</section>
+<section class="checklist_item participateing">
+<div class="top">
+<div class="circle"></div>
+<div class="head">
+<h1>Participate in Get Connected With Your I-Team</h1>
+<div class="up_arrow arrow"></div>
+</div>
+</div>
+<ul class="content second">
+<li>
+<p>Refer to your printed schedule or view the online schedule at <a href="http://www.byui.edu/Get-Connected">byui.edu/Get-Connected</a>.</p>
+</li>
+<li>
+<p>Audition for the New Student Talent Show</p>
+</li>
+<li>
+<p>Purchase ticket to I-Night Extravaganza online at <a href="http://www.byui.edu/TicketOffice">byui.edu/TicketOffice</a> or at the Cashier's Office on the first floor of the Kimball Building. For more information regarding I-Night, see <a href="http://www.byui.edu/inight">www.byui.edu/inight</a>.</p>
+</li>
+</ul>
+</section>
+<div class="footer">
+<h5 style="margin-left: -19px; margin-bottom: -10px;">Student Ambassadors</h5>
+<ul style="margin-top: -12px;">
+<li style="list-style-type: none; margin-left: -10px;"><img height="25" src="Images/student-support/checklist/ArrowRoundDark.png" />
+<p style="font-size: 14px; margin-top: 15px;">(208) 496-1420</p>
+</li>
+<li style="list-style-type: none; margin-top: -16px; margin-left: -10px;"><img height="25" src="Images/student-support/checklist/ArrowRoundDark.png" /> <a class="long" href="http://www.byui.edu/studentsupport" style="font-size: .8em; margin-top: 19px;">byui.edu/studentsupport</a></li>
+<li style="list-style-type: none; margin-top: -3px; margin-left: -10px;"><img height="25" src="Images/student-support/checklist/ArrowRoundDark.png" /> <a class="long" href="mailto:studentambassadors@byui.edu" style="font-size: .72em; margin-top: 10px;">studentambassadors<br />@byui.edu</a></li>
+<li style="list-style-type: none; margin-top: 17px; margin-left: -10px;"><img height="25" src="Images/student-support/checklist/ArrowRoundDark.png" style="margin-top: -5px;" />
+<p style="margin-top: -4px;">272 Rigby Hall</p>
+</li>
+</ul>
+</div>
+<div class="footer">
+<h5 style="margin-left: -20px; margin-bottom: -10px;">General Questions</h5>
+<ul style="margin-top: -12px;">
+<li style="list-style-type: none;"><img height="25" src="Images/student-support/checklist/ArrowRoundDark.png" />
+<p style="margin-top: 14px;">(208) 496-1411</p>
+</li>
+<li style="list-style-type: none; margin-top: -17px;"><img height="25" src="Images/student-support/checklist/ArrowRoundDark.png" /> <a class="long" href="http://www.byui.edu" style="font-size: 14px; margin-top: 15px;">byui.edu/ask-byui</a></li>
+<li style="list-style-type: none; margin-top: -3px;"><img height="25" src="Images/student-support/checklist/ArrowRoundDark.png" /> <a href="mailto:ask@byui.edu" style="margin-top: 15px;">ask@byui.edu</a></li>
+<li style="list-style-type: none; margin-top: -3px;"><img height="25" src="Images/student-support/checklist/ArrowRoundDark.png" />
+<p style="margin-top: 12px;">Manwaring Center Information Desk</p>
+</li>
+</ul>
+</div>
+<div class="footer" style="background-color: #fff;"><img src="Images/student-support/checklist/footer.gif" /></div>
+</div>
+<p>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+window.onload = function(){
+    (function(){
+        var content = $('.content'),
+            top = $('.top'),
+            checklist = {
+            init: function(){
+                content.hide();
+                top.on('click', checklist.show);
+                
+            },
+            show: function(){
+                var arrow = $(this).find('.head').find('div.arrow');
+                    
+
+                $(this).next('.content').slideToggle();
+                arrow.toggleClass('up_arrow');
+                arrow.toggleClass('down_arrow');
+
+
+            },
+            read: function(){
+                var arrow = $(this).find('.head').find('div.arrow');
+
+                $('<p class="read_more">Read More</p>')
+                    .appendTo('.top .head');
+
+            }
+        };
+        checklist.init();
+
+    })();
+}
+</script>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-33977325-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+</p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x19075" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

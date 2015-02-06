@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<CommonPage ID="x67137" Name="Create a PDF" Layout="default.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Create a PDF</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Create a PDF</Abstract><xPower Type="GroupStart" GroupStart="" Name="ImageColumn" label="Image Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveRight type="boolean" hidden="true" label="Toggle column left or right (left is default)" readonly="false" required="false">false</MoveRight><xPower Type="List" List="xpowercomponent_ImageComponent" Name="ImageColumnComponentList" label="Images" readonly="false" hidden="false" required="false" Component="" CompTypes="LeftColumnImageComponent" Expanded="false"><xPower Type="Component" Component="" Name="ImageComponent" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent" Expanded="false"/></xPower><xPower Type="List" List="xpowercomponent_TextComponent" Name="TextColumnComponentList" label="Text Box" readonly="false" hidden="false" required="false" Component="" CompTypes="ColumnTextComponent" Expanded="false"><xPower Type="Component" Component="" Name="TextComponent" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent" Expanded="false"/></xPower></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p><strong>Creating a<a href="http://www.byui.edu/identity/glossary.htm#PDF" title="See glossary definition"> PDF </a>using <a href="http://www.byui.edu/identity/glossary.htm" title="See glossary definition">Adobe</a> InDesign</strong></p>
+<br />
+<p><strong>There are two occasions when you should use a PDF:</strong></p>
+<ol>
+<li><strong>For Approval - Use SMALLEST FILE SIZE</strong></li>
+<li><strong>For Printing - Use HIGH QUALITY PRINT</strong></li>
+</ol> <br /> <ol>
+<li>Open your<a href="http://www.byui.edu/identity/glossary.htm#Identity" title="See glossary definition"> InDesign </a>document.</li>
+<li>Select EXPORT from the File menu to open the Export window.</li>
+<img alt="InDesign File menu Example" src="http://www.byui.edu/identity/imagehelp/images/indesign.jpg" />
+<li>Rename the file in the Save As field, if necessary.</li>
+<li>Click the drop-down arrow in the Format field. Select <a href="http://www.byui.edu/identity/glossary.htm" title="See glossary definition">ADOBE</a> <a href="http://www.byui.edu/identity/glossary.htm#PDF" title="See glossary definition"> PDF </a>if not already selected</li>
+<img alt="ADOBE&lt;a href=" src="http://www.byui.edu/identity/imagehelp/images/indesign1.jpg" title="See glossary definition" /> PDF example" /&gt;
+<li>Click SAVE to open the Export <a href="http://www.byui.edu/identity/glossary.htm" title="See glossary definition">Adobe</a> <a href="http://www.byui.edu/identity/glossary.htm#PDF" title="See glossary definition"> PDF </a>window</li>
+<img alt="Export Adobe&lt;a href=" src="http://www.byui.edu/identity/imagehelp/images/indesign2.jpg" title="See glossary definition" /> PDF window" /&gt;
+<li>Select HIGH QUALITY PRINT when printing, or SMALLEST FILE SIZE when emailing for approval, from the <a href="http://www.byui.edu/identity/glossary.htm" title="See glossary definition">Adobe</a> <a href="http://www.byui.edu/identity/glossary.htm#PDF" title="See glossary definition"> PDF </a>Present field. Check OPTIMIZE FOR FAST WEB VIEW if unchecked.</li>
+<li>Click EXPORT. The Generating<a href="http://www.byui.edu/identity/glossary.htm#PDF" title="See glossary definition"> PDF </a>window will close automatically upon completion.</li>
+</ol> <br /><br />
+<p><strong>Creating a<a href="http://www.byui.edu/identity/glossary.htm#PDF" title="See glossary definition"> PDF </a>using Microsoft Publisher</strong></p>
+<br />
+<p><strong>There are two occasions when you should use a PDF:</strong></p>
+<ol>
+<li><strong>For Approval - Use MINIMUM SIZE</strong></li>
+<li><strong>For Printing - Use HIGH QUALITY PRINTING</strong></li>
+</ol> <br /> <ol>
+<li>Open your<a href="http://www.byui.edu/identity/glossary.htm#Publisher" title="See glossary definition"> Publisher </a>document.</li>
+<li>Select PUBLISH AS<a href="http://www.byui.edu/identity/glossary.htm#PDF" title="See glossary definition"> PDF </a>OR XPS from the File menu to open the publish window</li>
+<img alt="Publisher File Menu example" src="http://www.byui.edu/identity/imagehelp/images/publisher.jpg" />
+<li>Rename the file in the Save As field, if necessary.</li>
+<li>Click the drop-down arrow in the SAVE AS TYPE field. Select<a href="http://www.byui.edu/identity/glossary.htm#PDF" title="See glossary definition"> PDF </a>(*.pdf) if not already selected.</li>
+<img alt="Publisher publish window example" src="http://www.byui.edu/identity/imagehelp/images/publisher1.jpg" />
+<li>Select HIGH QUALITY PRINTING when printing, or MINIMUM SIZE when emailing for approval, form the Optimize For menu.</li>
+<img alt="Publisher Optimize for menu example" src="http://www.byui.edu/identity/imagehelp/images/publisher2.jpg" />
+<li>Click PUBLISH</li>
+</ol> <br /><br /> Questions? Send us an e-mail: <a href="mailto:ucidentity@byui.edu">ucidentity@byui.edu</a>]]></BodyCopy><xPower Type="Component" Component="x14" Name="RelatedLinks" label="Related Links" readonly="false" hidden="false" required="false" CompTypes="RelatedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="false" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x4147" Name="SiteControl" label="Site Control" readonly="true" hidden="true" required="false" CompTypes="SiteControl" Expanded="false"/></CommonPage>

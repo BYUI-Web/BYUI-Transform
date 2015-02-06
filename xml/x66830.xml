@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content ID="x66830" Name="Line Condition" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Line Condition</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Line Condition</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<img alt="View from the Testing Center Web Cam" height="360" id="video" name="video" src="http://www2.byui.edu/images/testingcenter.asp" width="480" /><br /> Image updates automatically every 30 seconds.    <a name="list"></a>
+<p><strong>Tests for Monday, June 4</strong></p>
+<br /> <form action="conditions.php#list" method="post" name="dateform"> View tests for </form>
+<p><strong>Please read our <a href="http://testing.byui.edu/info/conditions.php#disclaimer">disclaimer</a> about this information.</strong></p>
+<table cellspacing="0">
+<tbody>
+<tr>
+<th>Class</th> <th>Section(s)</th> <th>Students</th> <th>Test Ends</th> <th>Late Fee Begins</th>
+</tr>
+<tr>
+<td>BIO 264</td>
+<td>014-023, 025</td>
+<td>250</td>
+<td>Tomorrow at closing</td>
+<td><br /></td>
+</tr>
+<tr>
+<td>BIO 265</td>
+<td>001-006</td>
+<td>200</td>
+<td>Wed. Jun. 6 at closing</td>
+<td><br /></td>
+</tr>
+<tr>
+<td>BIO 265</td>
+<td>007-011</td>
+<td>125</td>
+<td>Tomorrow at closing</td>
+<td><br /></td>
+</tr>
+<tr>
+<td>FDINT 203</td>
+<td>001-002, 006-007</td>
+<td>125</td>
+<td>Thu. Jun. 7 at closing</td>
+<td><br /></td>
+</tr>
+<tr>
+<td>FDMAT 108</td>
+<td>012, 014-015</td>
+<td>150</td>
+<td>Wed. Jun. 6 at closing</td>
+<td><br /></td>
+</tr>
+<tr>
+<td>FDSCI 204</td>
+<td>001, 005</td>
+<td>125</td>
+<td><strong>Today</strong> at closing</td>
+<td><br /></td>
+</tr>
+<tr>
+<td>FDSCI 204</td>
+<td>002-003</td>
+<td>125</td>
+<td>Tomorrow at 6:00pm</td>
+<td><br /></td>
+</tr>
+<tr>
+<td>GEOG 110</td>
+<td>001-002</td>
+<td>100</td>
+<td>Sat. Jun. 9 at closing</td>
+<td><br /></td>
+</tr>
+<tr>
+<td>HFED 100</td>
+<td>001, 003, 009</td>
+<td>125</td>
+<td>Wed. Jun. 6 at closing</td>
+<td><br /></td>
+</tr>
+<tr>
+<td>HFED 100</td>
+<td>002, 004, 007</td>
+<td>125</td>
+<td><strong>Today</strong> at closing</td>
+<td><br /></td>
+</tr>
+<tr>
+<td>HS 320</td>
+<td>001-002</td>
+<td>100</td>
+<td><strong>Today</strong> at closing</td>
+<td><br /></td>
+</tr>
+<tr>
+<td>PHIL 110</td>
+<td>001, 001-002, 002</td>
+<td>150</td>
+<td><strong>Today</strong> at closing</td>
+<td><br /></td>
+</tr>
+<tr>
+<td>SOC 112</td>
+<td>001</td>
+<td>150</td>
+<td><strong>Today</strong> at closing</td>
+<td><br /></td>
+</tr>
+</tbody>
+</table>
+<a name="disclaimer"></a>
+<p><strong>Disclaimer</strong></p>
+<ul>
+<li>This is not a complete list of tests given at the Testing Center. 		Usually only tests that have more than 100 students will be 		listed.</li>
+<li>If you have any questions about tests you need to take, please contact 		your instructor or view your <a href="http://testing.byui.edu/courses/deadlines.php">test 		deadlines</a>.</li>
+<li>We try to keep this information as up-to-date as possible.  However, 		last-minute changes may not be reflected on this list.</li>
+<li>We provide this information to let you know what other tests are given 		in the Testing Center during the upcoming week.  If you use this 		information to plan your next visit, please remember we cannot always 		guarantee short lines or small crowds.</li>
+</ul>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x41457" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

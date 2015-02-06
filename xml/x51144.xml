@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x51144" Name="Top Nav" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;!-- Nav bar style --&gt;
+
+&lt;style&gt;
+#top-nav {
+	width: 100%;
+	float: left;
+	margin: 0 0 1em 0;
+	padding: 0;
+}
+
+#top-nav &gt; li,
+#hidden-nav-menu
+{
+	list-style-type: none;
+	background-color: #0f6cb6;
+	margin: 0;
+	padding: 0;
+}
+
+#top-nav &gt; li {
+	float: left;
+}
+
+#top-nav &gt; li,
+#hidden-nav-menu
+{
+	width: 20%;  /* change this value if number of list items changes, so that (percentage * number of items == 100) */
+}
+
+#top-nav &gt; li a,
+.non-link
+{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#top-nav &gt; li a,
+.hidden-nav-item &gt; a,
+.non-link
+{
+	color: #fff;
+	padding: 5px 0;
+	text-decoration: none;
+	font-size: 0.8em;
+	font-weight: bold;
+	font-family: "Century Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	letter-spacing: 1.2pt;
+	display: block;
+}
+
+#top-nav &gt; li &gt; a:hover,
+#hidden-nav-menu &gt; li &gt; a:hover,
+.non-link:hover
+{
+	background-color: #000;
+}
+
+.non-link:hover {
+	cursor: default;
+}
+
+#hidden-nav-menu {
+	margin-left: 0 !important;
+	display: none;
+	width: 100%
+}
+
+li:hover &gt; #hidden-nav-menu {
+	display: block;
+	position: absolute;
+	z-index: 1;
+}
+
+.visible-menu {
+	display: block;
+	position: absolute;
+}
+
+#top-nav &gt; li:nth-child(1n+2) &gt; a,
+.non-link,
+#hidden-nav-menu
+{
+	border-left: 1px solid #fff;
+}
+
+.bottom-item {
+	border-bottom: 1px solid #fff;
+}
+
+#hidden-nav-menu .hidden-nav-item {
+	border-top: 1px solid #fff;
+	border-right: 1px solid #fff;
+	list-style-type: none;
+}
+
+#drop-down-top {
+	position: relative;
+}
+
+#drop-down-arrow {
+	position: absolute;
+	top: 13px;
+	right: 30px;
+	width: 17px;
+	height: 17px;
+	background: url("Images/university-relations/education-week/drop-down-arrow.png") no-repeat 0 0;
+}
+
+#lodging:hover &gt; #drop-down-arrow {
+	background: url("Images/university-relations/education-week/drop-down-arrow.png") no-repeat 0 -28px;
+}
+
+.print-button {
+	float: right;
+	margin-top: -13px;
+}
+&lt;/style&gt;
+
+&lt;!-- Fixes wrapping of nav to a second line in IE 9 and lower --&gt;
+&lt;!--[if IE]&gt;
+&lt;style&gt;
+#top-nav &gt; linth-child(3) {
+	width: 189px; 
+}
+&lt;/style&gt;
+&lt;![endif]--&gt;
+
+&lt;!-- NAV BAR --&gt;
+
+&lt;nav&gt;
+	&lt;ul id="top-nav"&gt;
+		&lt;li&gt;&lt;a id="home" href="x50518.xml"&gt;Education Week Home&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a id="schedule" href="x50522.xml"&gt;Schedule&lt;/a&gt;
+		&lt;li id="drop-down-top"&gt;&lt;div id="lodging" class="non-link"&gt;Lodging&lt;/div&gt;
+
+			&lt;div id="drop-down-arrow"&gt;&lt;/div&gt;&lt;/a&gt;
+			&lt;ul id="hidden-nav-menu"&gt;
+				&lt;li class="hidden-nav-item"&gt;&lt;a href="x50738.xml"&gt;Hotels&lt;/a&gt;&lt;/li&gt;
+				&lt;li class="hidden-nav-item"&gt;&lt;a href="x51173.xml"&gt;Rexburg Housing&lt;/a&gt;&lt;/li&gt;
+				&lt;li class="hidden-nav-item bottom-item"&gt;&lt;a href="x69696.xml"&gt;Wakeside Lake RV Park&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+
+		&lt;/li&gt;
+		&lt;li&gt;&lt;a id="campus-map" href="x97852.xml" target="_blank"&gt;Campus Map&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a id="register" href="http://ems.byui.edu/EmsRegics/EdWeek2014" target="_blank"&gt;Register&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/nav&gt;</ContentSnippet></ContentSnippet>

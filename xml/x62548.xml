@@ -1,0 +1,510 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x62548" Name="Academic Society Financial Help" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Academic Society Financial Help</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Academic Society Financial Help</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<h1 style="text-align: center;"><strong>Financial Information Help for Societies</strong></h1>
+<p align="center"><strong>Welcome to the Financial help page for Academic Societies.</strong></p>
+<p align="center"><strong><a href="http://www.byui.edu/societies" target="_self">To form a new academic society go to the Academic Society web page.</a></strong></p>
+<h2>&nbsp;</h2>
+<h2 style="text-align: center;">The advisor is responsible for the financial well being of the organization.</h2>
+<p style="text-align: center;"><strong>Only individuals authorized (not students) to the account can sign petty cash vouchers and&nbsp;check requests. (See authorize officers below) </strong></p>
+<p style="text-align: center;"><strong>&nbsp;</strong>&nbsp;</p>
+<h2 style="text-align: center;">Ways to Spend Money</h2>
+<p style="text-align: left;">1. Petty Cash Reimbursement -&nbsp;Fill out a petty cash reimbursement form and take to the Cashiers Office.</p>
+<p style="text-align: left;">2. Check Request - Bring check request and receipts to the Accounting Office.</p>
+<p style="text-align: left;">3. Purchase cards can be obtained when needed.&nbsp; <a href="http://www.byui.edu/financial-services/purchasing-and-disbursements/purchase-card" target="_self">How to obtain a purchase card.</a></p>
+<p style="text-align: center;">&nbsp;</p>
+<h2 style="text-align: center;">Collecting Dues</h2>
+<p align="left">If you collect dues from members please use the&nbsp;form provided by the Bursars Office. Call extension 1924.</p>
+<p align="left">&nbsp;</p>
+<h2 style="text-align: center;">Online Statement</h2>
+<p align="left">Your organization has been assigned a 10 digit account number. You will not receive a monthly statement through the mail. Access is available anytime on the web. To access go to <a href="https://web.byui.edu/glereports/glerptsmain.asp" target="_self">https://web.byui.edu/glereports/glerptsmain.asp</a> . Or you can go through the BYU-I home page by going to Employees - Financial Services - Account Stewardship - General Ledger Financial Report. You will see:</p>
+<form enctype="application/x-www-form-urlencoded" id="GLERptsSel" method="post">
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<table border="1" id="table2" style="width: 100%;">
+<tbody>
+<tr>
+<td align="center" height="22" width="4%"><strong>Print</strong></td>
+<td height="22" width="43%"><strong>Account</strong> pink = Stewardship Account</td>
+<td height="22" width="53%"><strong>Report Name</strong></td>
+</tr>
+<tr>
+<td align="center" height="22" width="4%">&nbsp;</td>
+<td height="22" width="43%">3820-XX SOCIETY ACCOUNT NAME</td>
+<td height="22" width="53%">RESTRICTED FINANCIAL REPORT</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+</form>
+<p>Choose the appropriate account by clicking on the number. You will then see the financial report for that account. It will show revenue items, expense items and the Net Income/Loss. Also it will show any balance from prior years and an ending balance.</p>
+<p>You can add other expense category codes if you would like to segregate the expenses more. Contact the Accounting Office to add these.</p>
+<p>To view a specific month change month and click Go.</p>
+<p>To add authorized individuals click on the Authorization button and see Authorize Officers below.</p>
+<form enctype="application/x-www-form-urlencoded" id="GLERptsGlnnobud" method="post">&nbsp;</form>
+<p>&nbsp;</p>
+<form enctype="application/x-www-form-urlencoded" id="GLERptsGlnopusdp" method="post">
+<table border="0" style="width: 100%;">
+<tbody>
+<tr>
+<td align="center" width="12%"><input id="Submit3" name="B1" type="button" value="Previous Month" /></td>
+<td align="center" width="9%"><input id="Next" name="Next" type="button" value="Next Month" /></td>
+<td align="left" width="17%">OR Period:<select name="FORMPERIODMO" size="1">
+<option selected="selected"></option>
+<option value="01">01</option>
+<option value="02">02</option>
+<option value="03">03</option>
+<option value="04">04</option>
+<option value="05">05</option>
+<option value="06">06</option>
+<option value="07">07</option>
+<option value="08">08</option>
+<option value="09">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+</select><select name="FORMPERIODYR" size="1">
+<option selected="selected"></option>
+<option value="1997">1997</option>
+<option value="1998">1998</option>
+<option value="1999">1999</option>
+<option value="2000">2000</option>
+<option value="2001">2001</option>
+<option value="2002">2002</option>
+<option value="2003">2003</option>
+<option value="2004">2004</option>
+<option value="2005">2005</option>
+<option value="2006">2006</option>
+<option value="2007">2007</option>
+<option value="2008">2008</option>
+<option value="2009">2009</option>
+<option value="2010">2010</option>
+<option value="2011">2011</option>
+<option value="2012">2012</option>
+</select><input id="Go" name="Go" type="button" value="Go" /></td>
+<td align="center" width="15%">&nbsp;</td>
+<td align="center" width="15%"><input id="Sel" name="Sel" type="button" value="Return to Selection" /></td>
+<td align="center" width="5%"><input id="Print" name="Print" type="button" value="Print" /></td>
+<td align="right" width="4%"><button id="Help">Help</button></td>
+</tr>
+</tbody>
+</table>
+</form><form enctype="application/x-www-form-urlencoded" id="GLERptsGlnopusdp" method="post">
+<table bgcolor="#c6e2ff" border="0" style="width: 100%;">
+<tbody>
+<tr>
+<td align="center" height="5" width="90%">Brigham Young University - Idaho</td>
+<td align="right" height="5" width="10%">Page - 1</td>
+</tr>
+</tbody>
+</table>
+<table bgcolor="#c6e2ff" border="0" style="width: 100%;">
+<tbody>
+<tr>
+<td align="left" height="22" width="20%">Date - 9/27/2012 11:01:50</td>
+<td align="left" height="22" width="80%"><strong>MONTHLY FINANCIAL REPORT </strong></td>
+</tr>
+</tbody>
+</table>
+<table bgcolor="#c6e2ff" border="0" style="width: 100%;">
+<tbody>
+<tr>
+<td align="left" height="22" width="20%">&nbsp;</td>
+<td align="left" height="22" width="80%">August 31, 2012</td>
+</tr>
+</tbody>
+</table>
+<table bgcolor="#c6e2ff" border="0" style="width: 100%;">
+<tbody>
+<tr>
+<td align="left" height="22" width="80%">3820-XX XXXXXXX SOCIETY</td>
+</tr>
+<tr>
+<td align="left" height="22" width="80%">&nbsp;</td>
+<td align="right" height="22" width="20%">Percent of Year 67 %</td>
+</tr>
+</tbody>
+</table>
+<table bgcolor="#c6e2ff" border="0" style="width: 100%;">
+<tbody></tbody>
+</table>
+<table border="0" style="width: 100%;">
+<tbody>
+<tr bgcolor="#c6e2ff">
+<td align="center" height="22" width="10%">Prior</td>
+<td align="center" height="22" width="10%">Month</td>
+<td align="center" height="22" width="10%">Current</td>
+<td align="center" height="22" width="10%">Category</td>
+<td align="center" height="22" width="25%">Category</td>
+<td align="center" height="22" width="10%">Total</td>
+<td align="center" height="22" width="10%">Current</td>
+<td align="center" height="22" width="10%">Budget</td>
+<td align="center" height="22" width="5%">%</td>
+</tr>
+<tr bgcolor="#c6e2ff">
+<td align="center" height="22" width="10%">Y-T-D</td>
+<td align="center" height="22" width="10%">Prior Yr</td>
+<td align="center" height="22" width="10%">Month</td>
+<td align="center" height="22" width="10%">Number</td>
+<td align="center" height="22" width="25%">Description</td>
+<td align="center" height="22" width="10%">Budget</td>
+<td align="center" height="22" width="10%">Y-T-D</td>
+<td align="center" height="22" width="10%">Balance</td>
+<td align="center" height="22" width="5%">Used</td>
+</tr>
+<tr>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="center" width="10%">&nbsp;</td>
+<td align="left" width="25%">&nbsp;</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="5%">&nbsp;</td>
+</tr>
+<tr>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="center" width="10%">&nbsp;</td>
+<td align="left" width="25%">REVENUE:</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="5%">&nbsp;</td>
+</tr>
+<tr bgcolor="#f0f8ff">
+<td align="right" width="10%">0</td>
+<td align="right" width="10%">0</td>
+<td align="right" width="10%">0</td>
+<td align="center" width="10%">1600</td>
+<td align="left" width="25%">OTHER REVENUE</td>
+<td align="right" width="10%">0</td>
+<td align="right" width="10%">0</td>
+<td align="right" width="10%">0</td>
+<td align="right" width="5%">0</td>
+</tr>
+<tr>
+<td align="right" width="10%">0</td>
+<td align="right" width="10%">0</td>
+<td align="right" width="10%">0</td>
+<td align="center" width="10%">2103</td>
+<td align="left" width="25%">TRANSFERS FROM STUDENT 3XXX-XX</td>
+<td align="right" width="10%">0</td>
+<td align="right" width="10%">100</td>
+<td align="right" width="10%">100-</td>
+<td align="right" width="5%">0</td>
+</tr>
+<tr>
+<td align="center" width="10%">---------------</td>
+<td align="center" width="10%">---------------</td>
+<td align="center" width="10%">---------------</td>
+<td align="center" width="10%">&nbsp;</td>
+<td align="center" width="25%">&nbsp;</td>
+<td align="center" width="10%">---------------</td>
+<td align="center" width="10%">---------------</td>
+<td align="center" width="10%">---------------</td>
+<td align="center" width="5%">-------</td>
+</tr>
+<tr bgcolor="#f0f8ff">
+<td align="right" width="10%">0</td>
+<td align="right" width="10%">0</td>
+<td align="right" width="10%">0</td>
+<td align="center" width="10%">&nbsp;</td>
+<td align="left" width="25%">TOTAL REVENUE</td>
+<td align="right" width="10%">0</td>
+<td align="right" width="10%">100</td>
+<td align="right" width="10%">100-</td>
+<td align="right" width="5%">0</td>
+</tr>
+<tr>
+<td align="center" width="10%">---------------</td>
+<td align="center" width="10%">---------------</td>
+<td align="center" width="10%">---------------</td>
+<td align="center" width="10%">&nbsp;</td>
+<td align="center" width="25%">&nbsp;</td>
+<td align="center" width="10%">---------------</td>
+<td align="center" width="10%">---------------</td>
+<td align="center" width="10%">---------------</td>
+<td align="center" width="5%">-------</td>
+</tr>
+<tr>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="center" width="10%">&nbsp;</td>
+<td align="left" width="25%">EXPENSES:</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="5%">&nbsp;</td>
+</tr>
+<tr>
+<td align="right" width="10%">0</td>
+<td align="right" width="10%">0</td>
+<td align="right" width="10%">0</td>
+<td align="center" width="10%">7000</td>
+<td align="left" width="25%">OTHER EXPENSES</td>
+<td align="right" width="10%">0</td>
+<td align="right" width="10%">0</td>
+<td align="right" width="10%">0</td>
+<td align="right" width="5%">0</td>
+</tr>
+<tr>
+<td align="center" width="10%">---------------</td>
+<td align="center" width="10%">---------------</td>
+<td align="center" width="10%">---------------</td>
+<td align="center" width="10%">&nbsp;</td>
+<td align="center" width="25%">&nbsp;</td>
+<td align="center" width="10%">---------------</td>
+<td align="center" width="10%">---------------</td>
+<td align="center" width="10%">---------------</td>
+<td align="center" width="5%">-------</td>
+</tr>
+<tr bgcolor="#f0f8ff">
+<td align="right" width="10%">0</td>
+<td align="right" width="10%">0</td>
+<td align="right" width="10%">0</td>
+<td align="center" width="10%">&nbsp;</td>
+<td align="left" width="25%">NET INCOME/LOSS(-)</td>
+<td align="right" width="10%">0</td>
+<td align="right" width="10%">100</td>
+<td align="right" width="10%">100-</td>
+<td align="right" width="5%">0</td>
+</tr>
+<tr>
+<td align="center" width="10%">==========</td>
+<td align="center" width="10%">==========</td>
+<td align="center" width="10%">==========</td>
+<td align="center" width="10%">&nbsp;</td>
+<td align="center" width="25%">&nbsp;</td>
+<td align="center" width="10%">==========</td>
+<td align="center" width="10%">==========</td>
+<td align="center" width="10%">==========</td>
+<td align="center" width="5%">=====</td>
+</tr>
+<tr>
+<td align="right" width="10%">0</td>
+<td align="right" width="10%">0</td>
+<td align="right" width="10%">0</td>
+<td align="center" width="10%">&nbsp;</td>
+<td align="left" width="25%">CHECK FIGURES</td>
+<td align="right" width="10%">0</td>
+<td align="right" width="10%">100</td>
+<td align="right" width="10%">100-</td>
+<td align="right" width="5%">0</td>
+</tr>
+<tr>
+<td align="center" width="10%">---------------</td>
+<td align="center" width="10%">---------------</td>
+<td align="center" width="10%">---------------</td>
+<td align="center" width="10%">&nbsp;</td>
+<td align="center" width="25%">&nbsp;</td>
+<td align="center" width="10%">---------------</td>
+<td align="center" width="10%">---------------</td>
+<td align="center" width="10%">---------------</td>
+<td align="center" width="5%">-------</td>
+</tr>
+<tr>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="center" width="10%">&nbsp;</td>
+<td align="left" width="25%">&nbsp;</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="5%">&nbsp;</td>
+</tr>
+<tr bgcolor="#f0f8ff">
+<td align="right" width="10%">0</td>
+<td align="right" width="10%">0</td>
+<td align="right" width="10%">0</td>
+<td align="center" width="10%">&nbsp;</td>
+<td align="left" width="25%">ENDING BALANCE AVAILABLE</td>
+<td align="right" width="10%">0</td>
+<td align="right" width="10%">100</td>
+<td align="right" width="10%">100-</td>
+<td align="right" width="5%">0</td>
+</tr>
+<tr>
+<td align="center" width="10%">==========</td>
+<td align="center" width="10%">==========</td>
+<td align="center" width="10%">==========</td>
+<td align="center" width="10%">&nbsp;</td>
+<td align="center" width="25%">&nbsp;</td>
+<td align="center" width="10%">==========</td>
+<td align="center" width="10%">==========</td>
+<td align="center" width="10%">==========</td>
+<td align="center" width="5%">=====</td>
+</tr>
+<tr>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="center" width="10%">&nbsp;</td>
+<td align="left" width="25%">&nbsp;</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="5%">&nbsp;</td>
+</tr>
+<tr>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="center" width="10%">&nbsp;</td>
+<td align="left" width="25%">##############################</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="5%">&nbsp;</td>
+</tr>
+<tr>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="center" width="10%">&nbsp;</td>
+<td align="left" width="25%">&nbsp;</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="5%">&nbsp;</td>
+</tr>
+<tr>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="center" width="10%">&nbsp;</td>
+<td align="left" width="25%">CLEARING ACCOUNTS:</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="10%">&nbsp;</td>
+<td align="right" width="5%">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</form>
+<table bgcolor="#c6e2ff" border="0" style="width: 100%;">
+<tbody></tbody>
+</table>
+<p>&nbsp;</p>
+<h2 style="text-align: center;">Authorize officers to the account to spend or view the account statement.</h2>
+<p align="left">To add an individual type I-number in employee field.&nbsp;Select student or authorized user in position. Students can't authorize the expenditure of funds but they can veiw the account. The On and Off campus fields will fill in automatically.&nbsp;In the Rpt Authorization&nbsp; "Can look" should appear. Then click update button. To remove individual delete I-number and click Update button.</p>
+<form enctype="application/x-www-form-urlencoded" id="GLAcctAuthSelMaint" method="post">
+<div>
+<table border="0" id="table13" style="width: 100%;">
+<tbody></tbody>
+</table>
+<hr />
+<div>
+<div>G/L ACCOUNT AUTHORIZATION</div>
+<p>&nbsp;</p>
+MAINTENANCE<hr />
+<div>
+<table border="0" style="width: 100%;">
+<tbody>
+<tr>
+<td height="22" width="60%">Dept: 3820-XX&nbsp;XXXXXXXX SOCIETY</td>
+<td height="22" width="10%"><input id="Update" name="Update" tabindex="1" type="button" value="Update" /></td>
+<td height="22" width="10%"><input id="Search" name="Search" tabindex="1" type="button" value="Name Search" /></td>
+<td height="22" width="10%"><input id="Return" name="Return" tabindex="1" type="button" value="Return to Report" /></td>
+<td align="right" width="10%">Help</td>
+</tr>
+</tbody>
+</table>
+<table border="0" style="width: 100%;">
+<tbody></tbody>
+</table>
+<hr />
+<div>
+<table border="0" style="width: 100%;">
+<tbody>
+<tr>
+<td align="center" height="22" width="40%">&nbsp;</td>
+<td align="center" height="22" width="15%">&nbsp;</td>
+<td align="center" height="22" width="28%">
+<table border="1">
+<tbody>
+<tr>
+<td align="center" width="28%">Spending Limits</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td align="center" height="22" width="17%">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<table border="1" style="width: 100%;">
+<tbody>
+<tr>
+<td align="center" height="22" width="40%">Employee I-Number/Name</td>
+<td align="center" height="22" width="15%">Position</td>
+<td align="center" height="22" width="14%">On Campus</td>
+<td align="center" height="22" width="14%">Off Campus</td>
+<td align="center" height="22" width="17%">Rpt Authorization</td>
+</tr>
+</tbody>
+</table>
+<table border="1" style="width: 100%;">
+<tbody>
+<tr>
+<td height="22" width="40%"><input maxlength="9" name="FORMAUSSN01" size="9" tabindex="1" type="text" value="XXXXXXXXX" /> HOLLINGSWORTH GUY M</td>
+<td align="center" height="22" width="15%"><select name="FORMAUSTS01" size="1">
+<option selected="selected" value="1"></option>
+<option value=" ">AUTHUSR - Max: 30,000</option>
+<option value="B">SUPRVSR - Max: 99,999</option>
+<option value="O">STUDENT - Max: 0</option>
+<option value="S">SECRTRY - Max: 10,000</option>
+</select></td>
+<td align="center" height="22" width="14%"><input maxlength="7" name="FORMAUONLM01" size="7" style="text-align: right;" tabindex="1" type="text" value="99999" /></td>
+<td align="center" height="22" width="14%"><input maxlength="7" name="FORMAUOFLM01" size="7" style="text-align: right;" tabindex="1" type="text" value="99999" /></td>
+<td align="center" height="22" width="17%"><select name="FORMAURPT01" size="1">
+<option selected="selected"></option>
+<option value="N">Can't look</option>
+<option value="R">Req to look</option>
+<option value="Y">Can look</option>
+</select></td>
+</tr>
+<tr>
+<td bgcolor="#f0f0e2" height="22" width="40%"><input maxlength="9" name="FORMAUSSN02" size="9" tabindex="1" type="hidden" value="XXXXXXXXX" />&nbsp;DOE JOHN C</td>
+<td align="center" height="22" width="15%"><input name="FORMAUSTS02" size="1" tabindex="1" type="hidden" value="C" /> CSTDIAN - Max: 99,999</td>
+<td align="center" height="22" width="14%"><input maxlength="7" name="FORMAUONLM02" size="7" tabindex="1" type="hidden" value="  99999" /> 99999</td>
+<td align="center" height="22" width="14%"><input maxlength="7" name="FORMAUOFLM02" size="7" tabindex="1" type="hidden" value="  99999" /> 99999</td>
+<td align="center" height="22" width="17%"><input name="FORMAURPT02" size="1" tabindex="1" type="hidden" value="R" /> Req to look</td>
+</tr>
+<tr>
+<td height="22" width="40%"><input maxlength="9" name="FORMAUSSN03" size="9" tabindex="1" type="text" value="XXXXXXXXX" /> KUNZ KAREN R</td>
+<td align="center" height="22" width="15%"><select name="FORMAUSTS03" size="1">
+<option selected="selected" value="1"></option>
+<option value=" ">AUTHUSR - Max: 30,000</option>
+<option value="B">SUPRVSR - Max: 99,999</option>
+<option value="O">STUDENT - Max: 0</option>
+<option value="S">SECRTRY - Max: 10,000</option>
+</select></td>
+<td align="center" height="22" width="14%"><input maxlength="7" name="FORMAUONLM03" size="7" style="text-align: right;" tabindex="1" type="text" value="2000" /></td>
+<td align="center" height="22" width="14%"><input maxlength="7" name="FORMAUOFLM03" size="7" style="text-align: right;" tabindex="1" type="text" value="2000" /></td>
+<td align="center" height="22" width="17%"><select name="FORMAURPT03" size="1">
+<option selected="selected"></option>
+<option value="N">Can't look</option>
+<option value="R">Req to look</option>
+<option value="Y">Can look</option>
+</select></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>&nbsp;</p>
+</div>
+</div>
+</form><!--EndEditor-->
+<div id="footer">
+<div id="shadow">Copyright&copy;
+<script type="text/javascript">
+var d = new Date();document.write(d.getFullYear());
+</script>
+BYU&ndash;Idaho<br />All Rights Reserved.</div>
+</div>
+<!--EndEditorForm-->]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x18419" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

@@ -1,0 +1,307 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x48412" Name="StyleSub" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;style&gt;&lt;!--
+#principle {
+		background: url(../images/principles.png);
+		height:171px; 
+		width:343px; 
+	}
+
+	#principle:hover { 
+		background-position: -345px 0px;
+		width: 342px;
+	}
+
+	#honor_code {
+		background: url(../images/honor_code.png);
+		height:171px; 
+		width:345px; 
+	}
+
+	#honor_code:hover { 
+		background-position: -345px 0px;
+		width: 345px;
+	}
+
+	.link_span{ 
+		display: block;
+		width: 100%;
+		height: 100%;
+	}  
+
+	#honor_content {
+		float: left;
+		border: 1px solid #999;
+	}
+
+	#honor_nav {
+		font-size: 9px;
+	}
+
+	#honor_nav ul {
+		list-style-type:none;
+		padding-top: 10px;
+		font-family:Helvetica, Arial, sans-serif;
+	}
+
+	#honor_nav li {
+		display: inline;
+		font-weight: bold;
+		text-transform: uppercase;
+		padding-left: 0px;
+		padding-right: 1px;
+	}
+
+	#honor_nav a{
+		color: #000;
+		text-decoration:none;
+	}
+
+	#honor_nav a:hover{
+		color: #FFA800;
+	}
+
+	.orange {
+		color: #FFA800;
+	}
+
+	#honor_topic {
+		margin-left: 5px;
+		background-color: #FFF8EB;
+		width: 700px;
+	}
+
+	#topic_head {
+		background-color: #FFA800;
+		color: #FFF;
+		padding-top: 7px;
+		padding-bottom: 7px;
+		padding-left: 15px;
+		border-top-left-radius: 5px;
+		-moz-border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		-moz-border-top-right-radius: 5px;
+	}
+
+	.current_page{
+		color:#FFA800;
+	}
+
+
+	.honor_topic_content {
+		width: 	330px;
+		float: left;
+		padding-left: 10px;	
+		padding-right: 10px;
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 16px;
+		padding-top:22px;
+	}
+
+	.honor_topic_content h3 {
+		font-size: 18px;
+		font-family: Helvetica, Arial;
+	}
+
+	#honor_policy{
+		padding-bottom:10px;
+	}
+
+	#honor_policies {
+		margin-top: 32px;
+		margin-left: 5px;
+		width: 700px;
+		float: left;
+		padding-left: 10px;
+	}
+
+	#honor_policies h3 {
+		font-size: 17px;
+		font-family: Helvetica, Arial;	
+		color: #FFA800;
+		text-transform: uppercase;
+	}
+
+	.span-5 p {
+		font-style: italic;	
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 14px;
+		margin-bottom: 10px;
+		margin-top:20px;
+	}
+
+	.span-12 ul{
+		font-family: Helvetica, Arial;
+		font-size: 14px; 
+		list-style-type:none;
+		margin-left: -20px;
+		border-left: 1px solid #999;
+	}
+
+	.span-12 li {
+		padding: 2px;
+	}
+
+	.span-12 ul li{
+		padding: 2px;
+		list-style-type:none;
+	}
+
+	.span-12 a{
+		color:#737373;
+		text-decoration:none;
+	}
+
+	.span-12 a:hover{
+		color: #FFA800;
+	}
+
+	#honor_quote{
+		float:left;
+		margin-top:30px;
+		width:710px;
+		/*border-bottom:2px dotted #737373;*/	
+	}
+
+
+	#honor_quote h3, #honor_vid h3{
+		text-transform:uppercase;
+		font-family:Georgia, "Times New Roman", Times, serif;
+		font-style:italic;
+		font-size:17px;
+		color:#737373;
+		letter-spacing:1px;
+	}
+
+	#honor_quote p{
+		float:left;
+		color:#37758f;
+		font-style:italic;
+		font-size:13px;
+		font-family:Georgia, "Times New Roman", Times, serif;
+		width:600px;	
+	}
+
+	#honor_quote img{
+		float:left;
+		padding-right:10px;
+		width:72px;	
+	}
+
+	#honor_quote a{
+		text-transform:uppercase;
+		font-family:Georgia, "Times New Roman", Times, serif;
+		font-size:13px;
+		font-style:italic;
+		color:#737373;
+	}
+	#honor_vid{
+		float:left;
+		margin-top:20px;
+		width:710px;
+	}
+
+	#honor_policies .span-5 ul li{
+		font-family: Helvetica, Arial;
+		font-size: 14px; 
+		list-style-type:none;
+		margin-left: -20px;
+		color:#000;
+		padding-top:10px;
+	}
+
+	#honor_policies .span-5 li{
+		padding-bottom:10px;	
+	}
+
+	#honor_policies .span-5 a{
+		color:#000;
+		text-decoration:none;	
+	}
+
+	#honor_policies .span-5 a:hover{
+		color:#FDAA00;	
+	}
+
+	#honor_policies .span-5, #honor_policies .span-11{
+		margin-top:-20px;	
+	}
+
+	#honor_policies .span-11 h3{
+		padding-top:10px;	
+	}
+
+	#honor_policies .span-11 h6{
+		font-size:12px;
+	}
+
+	#honor_policies .span-11 p{
+		font-family:Georgia, "Times New Roman", Times, serif;
+		font-size:14px;
+		color:#000;	
+	}
+
+	#honor_policies .span-11{
+		border-left:1px solid black;
+		padding:0px 20px 20px 20px;	
+	}
+
+	#honor_policies .span-11 ul{
+		color:#000;
+		font-family:Georgia, "Times New Roman", Times, serif;
+		font-size:14px;	
+	}
+
+	#honor_policies_lower{display: none;
+		font-style:italic;
+		margin-top:25px;
+		float:left;
+		font-family:Georgia, "Times New Roman", Times, serif;	
+	}
+
+	#honor_policies_lower h4{
+		color:#989898;
+	}
+
+	#honor_question{
+		color:#000;
+	}
+
+	#honor_question{
+		margin:none;
+	}
+
+	#question_even{
+		background-color:#FFF7E5;
+		padding:15px 10px 1px 10px;
+	}
+
+	#question_odd{
+		padding-top:30px;
+		padding-left:10px;
+		padding-right:10px;
+		
+	}
+
+	#question_text{
+		font-size:13px;	
+	}
+
+	#additional{display:none;
+		background-color:#FDAA00;
+		color:#FFF;
+		float:right;
+		text-align:right;
+		font-family:Helvetica, Arial, sans-serif;
+		font-size:17px;
+		padding-right:300px;
+		padding-left:4px;
+		margin-right:-2px;
+		padding-bottom:2px;
+	}
+
+	#additional img{
+		padding-right:5px;
+		padding-top:2px;	
+	}
+--&gt;&lt;/style&gt;</ContentSnippet></ContentSnippet>

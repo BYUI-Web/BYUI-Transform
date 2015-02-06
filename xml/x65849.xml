@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x65849" Name="jquery" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"&gt;&lt;script type="text/javascript"&gt;
+$(document).ready(function() {
+$(".answer").hide();
+$("#click1").click(function(){
+    $(".answer").hide();
+    $("#hidden1").show();
+    });  
+$("#click2").click(function(){
+    $(".answer").hide();
+    $("#hidden2").show();
+    });  
+$("#click3").click(function(){
+    $(".answer").hide();
+    $("#hidden3").show();
+    });  
+$("#click4").click(function(){
+    $(".answer").hide();
+    $("#hidden4").show();
+    });  
+});&lt;/script&gt;</ContentSnippet></ContentSnippet>

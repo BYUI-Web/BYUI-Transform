@@ -1,0 +1,310 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x48766" Name="default.htm" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">default.htm</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">default.htm</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"&gt;
+&lt;head&gt;
+    &lt;meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /&gt;
+    &lt;title&gt;BYU&amp;ndash;Idaho&amp;nbsp;|&amp;nbsp;Online&amp;nbsp;Magazine&amp;nbsp;&gt;&amp;nbsp;Making&amp;nbsp;Your&amp;nbsp;Influence&amp;nbsp;Felt&lt;/title&gt;
+    &lt;!-- Remove TemplateSource line to disable the Web Editor --&gt;
+    &lt;!--TemplateSource="2A.htm"--&gt;
+    &lt;!--***********************************************************************
+    *   Brigham Young University-Idaho Template
+    *   Version:        1.2
+    *   Type:           2A
+    *   Last Revised:   June, 2006
+    *   Copyrightï¿½ 2007 Brigham Young University-Idaho
+    *   All Rights Reserved.
+    ************************************************************************--&gt;
+    &lt;!-- REFERENCED STYLESHEETS --&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/v1/topBar.css" /&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/V1/structure.css" /&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/V1/body_text.css" /&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/V1/table.css" /&gt;
+	&lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/driveorwalk/css/walkordrivestyle.css" /&gt;
+	&lt;link rel="stylesheet" type="text/css" href="../css/ol.css" /&gt;
+	&lt;link rel="stylesheet" type="text/css" href="../css/article_style.css" /&gt;
+	&lt;link rel="stylesheet" href="../css/print.css" type="text/css" media="print" /&gt;
+
+	
+    &lt;!-- EMBEDED JAVASCRIPT FUNCTIONS --&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/js/v2/changeSizeRevised.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/js/v2/leftLinks.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/driveorwalk/js/textswap.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/driveorwalk/js/active.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/driveorwalk/js/randomadimage.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="../js/js.js"&gt;&lt;/script&gt;
+
+
+
+    &lt;!-- EDITOR JAVASCRIPT FUNCTIONS --&gt;
+&lt;/head&gt;
+&lt;body id="type_A" onload="callFunctions(); randomImageDisplay(); activeNav(1); randomAdImage();" style="visibility:hidden;"&gt;
+    &lt;!-- The body type determines the number of columns in the CONTENT AREA. View structure.css to where these types are specified --&gt;
+    &lt;!-- ********************************************************************* --&gt;
+    &lt;!-- TOP BAR                                                               --&gt;
+    &lt;!-- ********************************************************************* --&gt;
+    &lt;div id="topBar"&gt;
+        &lt;div id="blueSpace"&gt;&lt;/div&gt;
+        &lt;div&gt;
+            &lt;table id="tableBlue" cellspacing="0" cellpadding="0"&gt;
+                &lt;!-- Title menu with the Blue Background --&gt;
+                &lt;tr&gt;&lt;td id="tdBlueSpace"&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr id="trBlueTop"&gt;&lt;td id="tdBlueTop"&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td id="tdBlueMenu" align="center"&gt;
+                        &lt;div id="javaMenu"&gt;
+                            &lt;script type="text/javascript" src="http://www.byui.edu/js/V1/HomepageNavBar.js"&gt;&lt;/script&gt;
+                        &lt;/div&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+        &lt;/div&gt;
+        &lt;!-- Gray Bar --&gt;
+        &lt;div id="divGrayBarContainer"&gt;
+            &lt;div id="divDarkGrayBar"&gt;
+                &lt;!--&lt;div id="divStudent"&gt;
+                    &lt;script type="text/javascript" src="http://www.byui.edu/js/V1/imageChange.js"&gt;&lt;/script&gt;
+                &lt;/div&gt; //--&gt;
+                &lt;div id="divBYUILogo"&gt;
+                    &lt;a id="logoLink" href="http://www.byui.edu/"&gt;&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div id="divVertLine"&gt;&lt;/div&gt;
+                &lt;div id="divDepartmentTitle"&gt;
+                    &lt;!-- Department Title --&gt;
+                    &lt;div id="divSectionTitle"&gt;
+                        &lt;a id="iframeText" target="_top" href="http://www.byui.edu/magazine/fall2009"&gt;Online Magazine &amp;gt; Making Your Influence Felt&lt;/a&gt;
+
+                    &lt;/div&gt;  
+                    &lt;span id="divSemester"&gt;
+						Fall 2009 
+                    &lt;/span&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;!-- White Bar --&gt;
+        &lt;div id="divWhiteContainer"&gt;
+        &lt;div id="divWhiteBar"&gt;
+            &lt;img src="http://www.byui.edu/css/V1/images/whiteBar.gif" alt="White Bar" /&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!-- END ***************************************************************** --&gt;
+    &lt;!--EditorForm--&gt;
+    &lt;!--EditorToolbar--&gt;
+    &lt;div id="container"&gt;
+        &lt;div id="main_body"&gt;
+            &lt;!-- LEFT COLUMN --&gt;
+            &lt;!-- NAVIGATION FILE INCLUDE --&gt;
+            			&lt;div id="left_column" style="background-color:#FFF";&gt;
+                
+				&lt;div id="onlinemagazinenav"&gt;
+					&lt;!--#include file="../../common/nav.inc"--&gt;
+					&lt;div id="sub_nav_watch"&gt;
+						&lt;!--#include file="../../common/navVideo.inc"--&gt;
+						
+						
+						&lt;a href="#featureVideo"&gt;&lt;img id="video" src="watchvideo_ballard.jpg" /&gt;&lt;/a&gt;
+						&lt;p&gt;Elder Ballard's Commencement Address.&lt;/p&gt;
+					&lt;/div&gt;
+					&lt;!--#include file="../../common/navAudio.inc"--&gt;
+					&lt;!--#include file="../../common/navPDF.inc"--&gt;
+			   &lt;/div&gt;
+			   
+            &lt;/div&gt;
+            
+            &lt;div id="right_section"&gt;
+                &lt;div class="right_bottom_section"&gt;
+                    &lt;div class="leftAREA"&gt;
+                        &lt;div id="random_image"&gt;
+							&lt;div&gt;
+                        		&lt;img id="bannerImage" alt="Feature Template" src="making_infuence_felt-screen-1.jpg" width="580px" height="230px"/&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+						
+
+						&lt;div id="page_layout2_content"&gt;&lt;br&gt;
+						
+						&lt;div class="printit"&gt;&lt;a href="javascript:window.print()"&gt;&lt;img src="../../images/common/print_issue.jpg" alt="Print Article" /&gt;&lt;/a&gt;&lt;/div&gt;
+							
+							&lt;div class="noprint"&gt;							
+
+							
+							&lt;!-- AddThis Button BEGIN --&gt;
+							&lt;script type="text/javascript"&gt;var addthis_config = {"data_track_clickback":true};&lt;/script&gt;
+								&lt;a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;amp;username=byuiadmin"&gt;&lt;img src="http://s7.addthis.com/static/btn/sm-share-en.gif" width="83" height="16" alt="Bookmark and Share" style="border:0"/&gt;&lt;/a&gt;&lt;script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=byuiadmin"&gt;&lt;/script&gt;
+							&lt;!-- AddThis Button END --&gt;
+
+							&lt;/div&gt;
+
+							&lt;h1&gt;Making Your Influence Felt&lt;/h1&gt;
+							&lt;h3&gt;Elder M. Russell Ballard&lt;/h3&gt;
+							&lt;span id="title"&gt;Quorum of the Twelve Apostles&lt;/span&gt;
+							
+							&lt;p&gt;Taken from a BYU-Idaho Commencement address
+							&lt;br /&gt;April 11, 2008&lt;/p&gt;
+							
+							&lt;div id="synopses"&gt;In today&amp;#8217;s tech-savvy information age, Elder M. Russell Ballard encourages members of the Church to use the Internet to help spread the gospel of Jesus Christ. &amp;#8220;You can join in conversations on the Internet to share the gospel and to explain in simple and clear terms the message of the Restoration&amp;#8230;. Many who are investigating the Church, or who have become less active, have been strengthened by Church members they&amp;#8217;ve communicated with on the Internet,&amp;#8221; said Elder Ballard.
+							&lt;/div&gt;
+
+							&lt;div id="synopses"&gt;Through inspiring stories, Elder Ballard illustrates how gospel-based conversations online have strengthened testimonies and changed lives. He then encourages each of us to determine how we can individually participate, whether by sharing stories, blog comments, videos, or through other means.
+							&lt;/div&gt; 
+
+							&lt;div id="synopses" class="bottom_padding"&gt;Read, listen to, or watch Elder Ballard&amp;#8217;s address, &amp;#8220;Making Your Influence Felt.&amp;#8221;
+							&lt;/div&gt;
+							
+							&lt;div id="read_complete_article"&gt;READ COMPLETE ARTICLE BELOW&lt;/div&gt;
+
+							&lt;p&gt;We are blessed as Latter-day Saints to view the acquisition of knowledge from an eternal perspective, knowing that "whatever principle of intelligence we attain unto in this life, it will rise with us in the resurrection" (D&amp;C 130:18). Of all the things you have learned during your life so far, the most important is that you know the gospel of Jesus Christ has been restored to the earth through the Prophet Joseph Smith and you know that the Church is true. Your knowledge and testimony of this will always be your foundation and your polar star throughout your life. &lt;/p&gt;
+							&lt;p&gt;I am sure you all realize how torn our world is today between good and evil. The world needs your strength and knowledge. Perhaps never before has there been so much evil. Revelation 12:7 reminds us that in the pre-mortal world there was a war in heaven&amp;#151;a great battle of words in a war between good and evil. And today that war continues here on earth. The battle for the souls of men and women is intensifying. It is raging in the media and especially on the Internet where the adversary is using every tactic to tempt and weaken Heavenly Father's children and lead them down roads that end in heartache and unmet potential. While there is so very much good, informative information on the Internet, one of Satan's most seductive efforts is the increasingly present pornography appearing in all kinds of media. A 2004 study found that the revenues for pornography exceed the combined revenues of ABC, CBS, and NBC. They even surpass the combined revenues of all professional basketball, football, and baseball franchises. The result is&amp;#151;and this is hard to believe&amp;#151;that every second 28,258 people look for pornography on the Internet. Millions of our Father's children, our brothers and sisters, are being snared by this filth and sleaze. The destructive results of pornography are incalculable. &lt;/p&gt;
+							&lt;p&gt;The adversary is also using the media, and especially the Internet, to spread falsehoods. Every month there are 60 billion searches for information on the Internet. Many are seeking information about the Church; and while some are finding the truth, others find anti-Mormon sites that mislead them and defame the Church.&lt;/p&gt;
+							&lt;p&gt;Today I want to encourage you, you who know the truths of the gospel, to reach out to others in the world to help change the perception and even the hearts of millions of our Heavenly Father's children by correcting misunderstandings by sharing with them the message of the restored gospel of Jesus Christ.&lt;/p&gt;
+							&lt;p&gt;I think most of you know that I have a great concern and love for our full-time missionaries. The leaders of the Church constantly pray for every missionary to be spiritually strong and powerful teachers. The 53,000 missionaries currently serving face the same challenge I believe most of you had on your missions&amp;#151;that of finding people to teach. You can help them! You can help remove the barriers that stop individuals from learning about and eventually accepting the gospel. Some barriers are geographical and some doctrinal, but many are due to misconceptions or misunderstandings. The Internet enables you to bypass some of these barriers. You can use your testimonies, education, skills, and associations to be a great support to the missionaries who are now serving.&lt;/p&gt;
+							&lt;p&gt;Now, how many of you know a language other than English? Each of you who know another language can continue through the Internet to prepare people to receive the missionaries. As you visit with them in their own language and share with them your experiences and love of the gospel, you can find more people for the missionaries to teach. This will have the added benefit of keeping your language skills fluent.&lt;/p&gt;
+							&lt;p&gt;This is another way for you to be a member missionary. With more and more people living in apartments and gated communities, we need to use every wise way to make contact with the honest in heart who are seeking the truth and to kindle an interest to know more about the Church. &lt;/p&gt;
+							&lt;p&gt;Similar to John the Baptist preparing the way for the Savior's mission, you can help prepare the people to receive the Savior's full-time missionaries. Your gospel study and your service on your missions make you uniquely qualified to assist in this effort. You can join in conversations on the Internet to share the gospel and to explain in simple and clear terms the message of the Restoration. Most of you already know that if you have access to the Internet you can start a blog in minutes and begin sharing what you know to be true. As one blogger notes, "We're basically sharing some of our personal insights as we study the Book of Mormon, and are more than open to any comments or suggestions." 
+							&lt;p&gt;You can download videos from Church and other appropriate sites, including &lt;i&gt;&lt;a href="mailto:newsroom@lds.org"&gt;newsroom@lds.org&lt;/a&gt;&lt;/i&gt;, and send them to your friends&amp;#151;always making sure you honor all copyright restrictions.&lt;/p&gt;
+							&lt;p&gt;You can write to media sites on the Internet that report on the Church, and voice your views as to the accuracy of the reports.  
+							&lt;p&gt;Recently, a columnist, writing in a major U.S. newspaper, was irresponsibly inaccurate in his description of the Church and our beliefs and practices. Dozens, perhaps even hundreds of Church members and others who understand our beliefs commented on the newspaper's Web site correcting the misconceptions he was spreading and called for accuracy. &lt;/p&gt;
+							&lt;p&gt;In 1996, President Gordon B. Hinckley said, "I constantly ask myself, 'What can I do to help 50,000 missionaries who are laboring so diligently in the mission field?' If we could find a way for people to constantly bump into the gospel in the normal course of their lives, rather than waiting for the missionaries to knock on their doors, it would be one of the greatest things we could do."&lt;/p&gt;
+							&lt;p&gt;My brothers and sisters, is there any easier way for people to "bump into the gospel" than on the Internet? Remember, every month there are 60 billion Internet searches!&lt;/p&gt;
+							&lt;p&gt;A member of our faith Clayton Christensen is a prominent professor at Harvard Business School. He's an accomplished author and speaker, well-known in the business world for his study of innovation in commercial enterprises. In his biography on his personal Web site, Brother Christensen includes a link to a page he wrote called "Why I Belong, and Why I Believe." In it he speaks to his colleagues in the business world about what his faith and membership in the Church mean to him&amp;#151;a good example of how we can explain our faith in terms that others will understand. Since the Church is an integral part of his life, Brother Christensen naturally raises it in conversations. He once said, "I have learned to use terms that associate me with Mormonism in my conversations&amp;#151;comments about my mission to Korea, my children's missions, my assignments in the Church, my having attended Brigham Young University, and so on. These comments open the door for a conversation about the Church. Most who notice that I have opened this door choose not to walk through it. A few do, however, usually saying, 'So you're a Mormon?' I then ask if they'd like to learn more about us." &lt;/p&gt;
+							&lt;p&gt;Like Brother Christensen, all of you could share examples of how the gospel has impacted your life. There are Web sites and blogs on the Internet covering every topic, profession, hobby, skill, and condition. You can have great influence on people who share commonalities with you because there is already a level of shared trust between you. Those relationships can lead to gospel conversations and eventually an introduction to the full-time missionaries.&lt;/p&gt;
+							&lt;p&gt;All of you have gospel-related stories to tell that would be of interest to certain segments in society who will relate to you. There is no need to argue or contend with others regarding our beliefs. There is no need to become defensive or belligerent. Our position is solid; the Church is true. We simply need to have a conversation, as friends in the same room would have, always guided by the prompting of the Spirit and constantly remembering the Atonement of the Lord Jesus Christ, which reminds us of how precious are the children of our Father in Heaven.&lt;/p&gt;
+							&lt;p&gt;Following the passing of President Gordon B. Hinckley, there was an outpouring of tributes and condolences on the Internet. Thousands of Church members wrote about President Hinckley on blogs and other Internet sites. Because of the sheer volume of blog posts about President Hinckley, he was the third most mentioned individual in Internet blogs the day after his death. That is the impact of thousands of Latter-day Saints participating in the online conversation. &lt;/p&gt;
+							&lt;p&gt;These blog posts about President Hinckley reached a variety of audiences I've spoken of. One blogger, who usually focuses on technology, diverted from his regular subject to pay tribute to President Hinckley. Readers who look to and trust this blogger for his expertise in technology no doubt gained additional knowledge and perhaps appreciation for the Church because of this short blog entry about our prophet. There were many, many other bloggers who had a similar impact. One blogger challenged others to read The Book of Mormon in ninety-seven days, one day for every year of President Hinckley's life, and over 35,000 responded to his challenge. Other Church members recorded their thoughts about President Hinckley in the comment sections of online newspapers that covered his passing. Those thousands of comments added something to the conversation and had an influence on the individuals who read them. Those people will be more open to a contact from missionaries in the future or at least understand the Church a little better. &lt;/p&gt;
+							&lt;p&gt;Many who are investigating the Church, or who have become less active, have been strengthened by Church members they've communicated with on the Internet. One woman joined the Church many years ago, but left it because her mother did not approve of it. Although she was no longer active in the Church, she retained her testimony and began communicating with Church members on the Internet. They helped renew her faith and strengthen her testimony. Now she is active again and her husband is also investigating the Church.&lt;/p&gt;
+							&lt;p&gt;Recently, a young missionary in Australia was wonderfully surprised when a woman came to the church to attend a baptism. When he shook her hand following the baptism, she asked to be baptized. She had been researching religions on the internet; &lt;i&gt;&lt;a href="http://mormon.org/"&gt;mormon.org&lt;/a&gt;&lt;/i&gt; popped up on her screen. She saw the picture of the Salt Lake Temple; she saw the picture of the famous Christus; she felt the message was true. She read the Book of Mormon online and felt she needed to go to church and experience these wonderful principles for herself. Through the chapel locator tool she found there was a chapel just a mile from her home. In spite of opposition from her family, she was baptized and enjoys full fellowship with the Saints. &lt;/p&gt;
+							&lt;p&gt;Individual Church members are reaching across borders and into homes throughout the world. A Church member who posts instructive and uplifting videos about the Church on YouTube received this response to his videos: "I live in Qatar, Persian Gulf. I am a Frenchman and am very interested in speaking with Mormons, but do not know of any here.... Is there a way to have e-mail discussions with a missionary? Please let me know."&lt;/p&gt;
+							&lt;p&gt;So how can you participate? For some of you, participation might involve creating, writing, and sharing your stories, faith, and viewpoints in a blog, in a video, or on a social networking site. Or you might simply share what others have written by e-mail or in other venues. Others of you might just comment on blogs or news Web sites. I'm not necessarily suggesting that you start a blog or Web site just about the Church. As you reach out to others online, gospel related topics will naturally arise as an integral part of your life. The greatest impact you have will likely not be among Latter-day Saints but rather will be with Internet users made up of people who share common interests with you. As another member wrote, "I sometimes post on religious topics, but also about many other things. I've been posting regularly for over three years."&lt;/p&gt;
+							&lt;p&gt;We know you are anchored to the teachings of the Church. We know you will never drift over the line to anything on the Internet that is evil or degrading because you love the Lord and you are dedicated to His service. So, as you participate in this new media, remember first and foremost that you are a follower of the Savior Jesus Christ. Do not do or say anything that is not in harmony with the teachings of the Lord. In the Book of Proverbs, there is a wise statement that says, "A soft answer turneth away wrath."&lt;sup&gt;1&lt;/sup&gt; Do not expect everyone to agree with what you say. In fact, I can tell you they won't. It's all right for others to have a different opinion. Just explain your beliefs and share your stories in gentle and loving terms, and you will be a peacemaker in the discussions that are taking place. Never be rude or intolerant of others, even anonymously. Be wise, thoughtful, considerate, and friendly.&lt;/p&gt;
+							&lt;p&gt;Remember that while you as an individual Latter-day Saint in some ways represent the Church, be careful not to represent yourself as speaking officially for the Church. &lt;/p&gt;
+							&lt;p&gt;I hope you are as excited as I am for the many opportunities that lie before you. You can make a difference in the world, and as you leverage new communication technologies, you will be better equipped to have a lasting influence in the lives of others and in correcting any misunderstandings about the Church they might have. The Church has just passed through a period of incredible scrutiny by the news media when many more people were curious about the Church. It's become a common topic of conversation. I hope you will enter these conversations, sharing your faith and personal experiences. You will leave here today and begin a lifetime of service to the Lord and His Church. May the Lord bless you with mature, powerful testimonies that you may bless many lives as you have influence on the individuals you come in contact with in helping them receive all the light and truth the gospel offers them. &lt;/p&gt;
+							 
+							&lt;p&gt;&amp;copy; 2008 Intellectual Reserve, Inc. All rights reserved. &lt;/p&gt;
+							
+							&lt;span class="section_heading"&gt;Notes&lt;/span&gt;
+							&lt;span class="notes"&gt;&lt;sup&gt;1.&lt;/sup&gt; Proverbs 15:1&lt;/span&gt;
+							
+							
+							
+							
+&lt;!--
+&lt;p&gt;Even in Tokyo, President Clark's inaugural address grabbed my attention.  In October 2005, I was in the final year of a mission.  Rexburg's open fields seemed more than a world away from Japan's concrete canyons.  But our daughter Emily was a freshman at BYU-Idaho.  She called to say, &amp;quot;You've got to read Presdient Clark's talk.&amp;quot;&lt;/p&gt;
+							&lt;blockquote&gt;&amp;quot;I believe that at BYU-Idaho we must learn to use new technologies and develop methods, materials, programs, and concepts that not only can be applied to our students on and off our campus, but also can be effectively and efficiently applied by others across the Church and, indeed, across the world.  I am convinced that this unversity is in this valley where our pioneer heritage is deeply ingrained, where the people are humble and faithful, so that we can be a proving ground of great fidelity for education that will bless the young people of the Church worldwide.&amp;quot;&lt;/blockquote&gt;							
+							&lt;p&gt;That image of Primary children all over the world especially the third world especially the third world transported me.  My thoughts shifted from the RExburg of my boyhood to a time and place equally far from Japan.&lt;/p&gt;
+							
+--&gt;
+							&lt;!--
+&lt;span class="section_heading"&gt;Seen from the Mountain Top: Satellite Dishes in the Slum &lt;/span/&gt;
+							
+							&lt;p&gt;In the fall of 1998, I visited South American in search of prospective Master's of Business Administration (MBA) students.  Generous donors to BYU's Marriott School of Management had created a special scholarship for applicants who would pledge to return to their home countries after graduating.  The program had already produced many such graduates; they, were building up the Church through service not only in wards and stakes but also in prominent positions in business, education, and government.&lt;/p&gt;
+							&lt;p class="pull_quote"&gt;&amp;quot;The people can lay bricks by themselves, but they have to pay a technician to realign the dish.&amp;quot;&lt;/p&gt;
+
+							
+--&gt;
+
+&lt;div class="noprint"&gt;							
+
+&lt;a name="featureVideo"&gt;&amp;nbsp;&lt;/a&gt;
+&lt;div class="dashing_divider"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;h1&gt;Watch&lt;/h1&gt;
+
+&lt;ul class="videoList"&gt;
+	&lt;li&gt;&lt;a href="javascript:selectVid('lowVid')"&gt;&lt;img src="../images/low-button.png" alt="Low Stream" /&gt;&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="javascript:selectVid('mediumVid')"&gt;&lt;img src="../images/medium-button.png" alt="Medium Stream" /&gt;&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="javascript:selectVid('highVid')"&gt;&lt;img src="../images/high-button.png" alt="High Stream" /&gt;&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="http://www.byuimagazine.net/video/Elder_Ballard_at_Commencement_Large.mp4"&gt;&lt;img src="../images/download-button.png" alt="Download Stream" /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div id="lowVid" class="previewDiv" style="width: 320px; height: 260px; display:none"&gt;
+&lt;p&gt;Low Stream&lt;/p&gt;
+		&lt;embed width="320" height="260" src="http://stream.byui.edu/fms/player.swf" type="swf" flashvars="streamer=rtmp://stream.byui.edu/vod&amp;file=BYUIProduced/alumniMagazine/Elder Ballard at Commencement_Sm.flv&amp;type=flv" allowfullscreen="true" allowscriptaccess="always" /&gt;
+
+		&lt;a href="http://stream.byui.edu/fms/player.swf" class="eyhmcernmqxnrrrrgktc"&gt;&lt;/a&gt; 
+
+&lt;/div&gt;
+
+&lt;div id="mediumVid" class="previewDiv" style="width: 400px; height: 325px; display:block"&gt;
+&lt;p&gt;Medium Stream&lt;/p&gt;
+		&lt;embed width="400" height="325" src="http://stream.byui.edu/fms/player.swf" type="swf" flashvars="streamer=rtmp://stream.byui.edu/vod&amp;file=BYUIProduced/alumniMagazine/Elder Ballard at Commencement_Med.flv&amp;type=flv" allowfullscreen="true" allowscriptaccess="always" /&gt;
+
+		&lt;a href="http://stream.byui.edu/fms/player.swf" class="eyhmcernmqxnrrrrgktc"&gt;&lt;/a&gt; 
+
+&lt;/div&gt;
+
+&lt;div id="highVid" class="previewDiv" style="width: 480px; height: 390px; display:none"&gt;
+&lt;p&gt;High Stream&lt;/p&gt;
+		&lt;embed width="480" height="390" src="http://stream.byui.edu/fms/player.swf" type="swf" flashvars="streamer=rtmp://stream.byui.edu/vod&amp;file=BYUIProduced/alumniMagazine/Elder Ballard at Commencement_Large.flv&amp;type=flv" allowfullscreen="true" allowscriptaccess="always" /&gt;
+
+		&lt;a href="http://stream.byui.edu/fms/player.swf" class="eyhmcernmqxnrrrrgktc"&gt;&lt;/a&gt; 
+
+&lt;/div&gt;
+
+&lt;a name="featureAudio"&gt;&amp;nbsp;&lt;/a&gt;
+&lt;div class="dashing_divider"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;h1 name="featureAudio"&gt;Listen&lt;/h1&gt;
+&lt;ul class="videoList"&gt;
+	&lt;li&gt;&lt;a href="http://stream.byui.edu/Videos/BYUIMagazine/2008_04_11_APR_Ballard_GradCommencement.mp3"&gt;&lt;img src="../images/download-button.png" alt="Low Stream" /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class="previewDiv" style="width: 320px; height: 20px;"&gt;
+
+		&lt;embed width="320" height="20" src="http://stream.byui.edu/fms/player.swf" type="swf" flashvars="streamer=rtmp://stream.byui.edu/vod&amp;file=BYUIProduced/alumniMagazine/2008_04_11_APR_Ballard_GradCommencement.mp3&amp;type=mp3" allowfullscreen="false" allowscriptaccess="always" /&gt;
+
+		&lt;a href="http://stream.byui.edu/fms/player.swf" class="eyhmcernmqxnrrrrgktc"&gt;&lt;/a&gt; 
+
+&lt;/div&gt;
+
+&lt;a name="featureDownloadPDF"&gt;&amp;nbsp;&lt;/a&gt;
+&lt;div class="dashing_divider"&gt;&amp;nbsp;&lt;/div&gt;
+							&lt;h1 name="featureAudio"&gt;Download PDF&lt;/h1&gt;
+								&lt;ul class="videoList"&gt;
+									&lt;li&gt;&lt;a href="Making Your Influence Felt.pdf"&gt;&lt;img src="../images/download-button.png" alt="Low Stream" /&gt;&lt;/a&gt;&lt;/li&gt;
+								&lt;/ul&gt;
+							&lt;/div&gt;
+                    &lt;/div&gt;
+					&lt;/div&gt;
+                    &lt;div class="rightAREA"&gt;&lt;img alt="Place Holder" src="http://www.byui.edu/css/V1/images/placeholder80.gif" /&gt;&lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div id="footer"&gt;
+            &lt;div id="shadow"&gt;Copyright&amp;copy; &lt;script type="text/javascript"&gt;var d = new Date();document.write(d.getFullYear());&lt;/script&gt; BYU&amp;ndash;Idaho&lt;br /&gt;All Rights Reserved.&lt;/div&gt;
+        &lt;/div&gt;
+ 
+    &lt;!--EndEditorForm--&gt;
+    &lt;!-- TABLE FORMATTING SECTION --&gt;
+    &lt;script type="text/javascript"&gt;
+        &lt;!--
+        var tableTags = document.getElementById('main_body').getElementsByTagName("table");
+        for (var i = 0; i &lt; tableTags.length; i++)
+        {
+            var trTags = tableTags[i].getElementsByTagName("tr");
+            for (var j = 0; j &lt; trTags.length; j++)
+            {
+                if(j%2 == 0)
+                {
+                    trTags.item(j).style.backgroundColor = "#efefec";
+                }
+                else
+                {
+                    trTags.item(j).style.backgroundColor = "#ffffff";
+                }
+            }
+        }
+        --&gt;
+    &lt;/script&gt;
+&lt;!-- This script enables Google Analytics --&gt;
+		&lt;script type="text/javascript"&gt;
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		&lt;/script&gt;
+		&lt;script type="text/javascript"&gt;
+			try {
+			var pageTracker = _gat._getTracker("UA-12079604-1");
+			pageTracker._trackPageview();
+			} catch(err) {}
+		&lt;/script&gt;
+	&lt;/body&gt;
+&lt;/html&gt;
+</ESContent></EmptyShell>

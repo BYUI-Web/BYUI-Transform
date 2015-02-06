@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x48759" Name="main_revision.js" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">main_revision.js</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">main_revision.js</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">&lt;!--
+var BROWSER_HEIGHT;
+var BODY_HEIGHT;
+var CURRENT_PAGE;
+
+/******************************************************************
+* Call Functions (author James Ricks) 
+* This function calls the other function which place the footer
+* and control the expandable links.
+*****************************************************************/
+function callFunctions()
+{
+    var menuDiv = findDOM("expandableNavigation", 0);
+    /******************************************************************
+    *  If the links are to be expanded, call the parseExpand function 
+    *  to expand the menus, else display the hidden body.
+    *  --The body is hidden so that the links do not flitter when the 
+    *  --javascript function renders them properly.   
+    *****************************************************************/
+    //if the expanded menus exist, than call parse expanded
+    if (menuDiv != null)
+    {
+      parseExpanded('expandedLinks');  
+      changeSizeRevised();    
+    }
+    else
+    {
+     document.body.style.visibility = "visible";
+     changeSizeRevised();
+    }
+}
+</ESContent></EmptyShell>

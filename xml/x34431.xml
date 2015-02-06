@@ -1,0 +1,407 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.82 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x34431" Name="Defining Aspects" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Defining Aspects of BYU-Idaho</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">BYU-Idaho provides education in two major ways: through innovative teaching &amp; learning, and lifelong spirituality &amp; leadership.</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="true"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent" Expanded="false"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent" Expanded="false"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style><!--
+/* TWO PILLARS - 2ND TIER BEGIN*/
+    #content_region {
+      width: 950px;
+      margin-top: -10px;
+    }
+    .ie7 #content_region {
+      margin-top: 0px;
+    }
+    #left_aside, #top_content, #right_aside {
+        display:none;
+    }
+    #main_content {
+      width: 1556px;
+      /*background-color: gray;*/
+      margin-left: -303px;
+      clear: both;
+    }
+    #pillar_content_area, #top_img_left, #top_img_right {
+      float: left;
+      border: 0;
+      width: 303px;
+      background-color: #fff;
+    }
+    #pillar_content_area {
+      padding: 20px 75px;
+      width: 800px;
+      min-height: 900px;
+      background: #666666;
+      /* for non-css3 browsers */
+
+      filter: progid:dximagetransform.microsoft.gradient(startColorstr='#dadada', endColorstr='#ffffff');
+      /* for IE */
+
+      background: -webkit-gradient(linear, left top, left bottom, from(#dadada), to(#ffffff));
+      /* for webkit browsers */
+
+      background: -moz-linear-gradient(top, #dadada, #ffffff);
+      /* for firefox 3.6+ */
+    }
+    #top_inner_box {
+      background-color: #fff;
+      padding: 30px 25px;
+      margin-bottom: -2px;
+      -moz-box-shadow: 0px 0px 45px #999;
+      -webkit-box-shadow: 0px 0px 45px #999;
+      box-shadow: 0px 0px 45px #999;
+      height: 235px;
+    }
+    #top_inner_box #image_and_blurb {
+      border-bottom: 1px solid #bdbdbd;
+      display: block;
+      height: 131px;
+    }
+    #top_inner_box #image_and_blurb img {
+      border: 1px solid #bdbdbd;
+      float: left;
+      margin-right: 0px;
+      margin-bottom: -1px;
+    }
+    #top_inner_box #image_and_blurb p {
+      font-family: "Georgia", Times New Roman, Times, serif;
+      font-style: italic;
+      font-size: 26px;
+      color: #252525;
+      margin: 0;
+      display: block;
+      width: 593px;
+      float: right;
+      line-height: 37px;
+    }
+    #top_inner_box #lower_paras {
+      width: 775px;
+    }
+    #top_inner_box #lower_paras .para_blocks {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      display: block;
+      width: 354px;
+      float: left;
+      color: #252525;
+      font-size: 13px;
+      line-height: 19px;
+      padding: 15px 20px 0px 0px;
+      margin: 0;
+    }
+    #top_inner_box #lower_paras #left_para {
+      border-right: 1px solid #bdbdbd;
+      padding-bottom: 10px;
+      margin-bottom: -10px;
+    }
+    #top_inner_box #lower_paras #right_para {
+      padding: 15px 0px 0px 35px;
+      width: 45%;
+    }
+    #white_directional_arrow {
+      clear: both;
+      margin-left: 179px;
+      margin-top: -1px;
+      -webkit-transition: margin-left 0.5s ease-out;
+      -moz-transition: margin-left 0.5s ease-out;
+      -ms-transition: margin-left 0.5s ease-out;
+      -o-transition: margin-left 0.5s ease-out;
+      transition: margin-left 0.5s ease-out;
+    }
+    #white_directional_arrow img {
+      border: 0;
+    }
+    #lower_two_pillar_content .pillars {
+      display: block;
+      float: left;
+      width: 390px;
+      background-color: #ffffff;
+    }
+    #lower_two_pillar_content .pillars#left_pillar {
+      margin-right: 20px;
+    }
+    #lower_two_pillar_content .pillars .pillar_heading {
+      background-image: url('Images/Twin Pillars/gray_stripe_bg.png');
+      color: #ffffff;
+      font-family: "Georgia", Times New Roman, Times, serif;
+      font-style: italic;
+      padding: 12px 10px;
+      text-align: center;
+    }
+    #lower_two_pillar_content .pillars .pillar_item {
+      display: block;
+      width: 390px;
+      height: 120px;
+      filter: alpha(opacity=50);
+      -khtml-opacity: 0.5;
+      -moz-opacity: 0.5;
+      opacity: 0.5;
+      position: relative;
+      margin-top: 1px;
+    }
+    #lower_two_pillar_content .pillars .pillar_item a {
+      position: absolute;
+      width: 390px;
+      height: 120px;
+      left: 0;
+      display: block;
+      cursor: pointer;
+      z-index:1;
+    }
+    #lower_two_pillar_content .pillars .pillar_item:hover {
+      background-color: #f7edd4;
+      filter: alpha(opacity=100);
+      -khtml-opacity: 1;
+      -moz-opacity: 1;
+      opacity: 1;
+    }
+    #lower_two_pillar_content .pillars .pillar_item .pillar_item_inner {
+      display: block;
+      height: 82px;
+      width: 325px;
+      margin-left: 30px;
+      padding: 18px 0px;
+      border-bottom: 1px solid #bdbdbd;
+      top: 2px;
+      position: relative;
+      cursor: pointer;
+    }
+    #lower_two_pillar_content .pillars .pillar_item .pillar_item_inner.last_item {
+      border-bottom: none;
+    }
+    #lower_two_pillar_content .pillars .pillar_item .pillar_item_inner img {
+      float: left;
+      cursor: pointer;
+    }
+    #lower_two_pillar_content .pillars .pillar_item .pillar_item_inner .pillar_item_right {
+      float: left;
+      width: 225px;
+      padding-left: 20px;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+    #lower_two_pillar_content .pillars .pillar_item .pillar_item_inner .pillar_item_right h3 {
+      font-size: 21px;
+      line-height: 1em;
+      /*margin: 0px 0 6px 0;*/
+      margin: 0;
+      cursor: pointer;
+    }
+    #lower_two_pillar_content .pillars .pillar_item .pillar_item_inner .pillar_item_right p {
+      font-size: 12px;
+      color: #000000;
+      cursor: pointer;
+    }
+    #lower_two_pillar_content .pillars.active_pillar {
+      -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+      -moz-box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+      box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+    }
+    #lower_two_pillar_content .pillars.active_pillar .pillar_heading {
+      background-image: url('Images/Twin Pillars/blue_stripe_bg.png');
+    }
+    #lower_two_pillar_content .pillars.active_pillar .pillar_item {
+      filter: alpha(opacity=100);
+      -khtml-opacity: 1;
+      -moz-opacity: 1;
+      opacity: 1;
+    }
+    /* BROWSER COMPATABILITY PATCH AREA BEGIN*/
+    .ie7 .pillars, .ie8 .pillars {
+      border: 1px solid #bdbdbd;
+      width: 388px !important;
+    }
+    .ie7 .pillars .pillar_item, .ie8 .pillars .pillar_item {
+      width: 388px;
+    }
+    /* BROWSER COMPATABILITY PATCH AREA END */
+    /* TWO PILLARS - 2ND TIER END*/
+--></style>
+<p><img height="281" id="top_img_left" src="Images/Twin Pillars/top_ribbon_left.jpg" width="303" /></p>
+<div id="pillar_content_area">
+<div id="inner_content">
+<div id="top_inner_box">
+<div id="image_and_blurb"><img height="130" src="Images/Twin Pillars/taylor.jpg" width="128" />
+<p>BYU-Idaho seeks to develop students who are spiritually focused and ready for leadership in their families, the workplace, and the community.</p>
+<span class="clearfix"></span></div>
+<div id="lower_paras">
+<p class="para_blocks" id="left_para">Every course, program, and initiative at BYU-Idaho is designed to fulfill that mission. Our commitment to innovative teaching and learning is coupled with a desire for lifelong spirituality and leadership. The result is a top-quality education offered in a caring and nurturing environment.</p>
+<p class="para_blocks" id="right_para">Rigorous academic offerings and a wide variety of opportunities for personal growth combine to create a powerful educational experience that prepares BYU-Idaho graduates to build successful careers, create strong families, and contribute to the world around them.</p>
+<span class="clearfix"></span></div>
+</div>
+<img height="19" id="white_directional_arrow" src="Images/Twin Pillars/white_arrow.png" width="40" /></div>
+<div id="lower_two_pillar_content">
+<div class="pillars active_pillar" id="left_pillar">
+<div class="pillar_heading">Innovative Teaching &amp; Learning</div>
+<div class="pillar_item"><a href="x34885.xml"></a>
+<div class="pillar_item_inner"><img alt="#" height="81" src="Images/Twin Pillars/icons/icon1.png" width="80" />
+<div class="pillar_item_right">
+<h3>Learning Model</h3>
+<p>The guiding framework for teaching and learning.</p>
+</div>
+<span class="clearfix"></span></div>
+</div>
+<div class="pillar_item"><a href="x34884.xml"></a>
+<div class="pillar_item_inner"><img alt="#" height="81" src="Images/Twin Pillars/icons/icon2.png" width="80" />
+<div class="pillar_item_right">
+<h3>Year-round Calendar</h3>
+<p>Maximizing campus resources to serve more students.</p>
+</div>
+<span class="clearfix"></span></div>
+</div>
+<div class="pillar_item"><a href="x34883.xml"></a>
+<div class="pillar_item_inner"><img alt="#" height="81" src="Images/Twin Pillars/icons/icon3.png" width="80" />
+<div class="pillar_item_right">
+<h3>Foundations</h3>
+<p>A groundbreaking approach to general education classes.</p>
+</div>
+<span class="clearfix"></span></div>
+</div>
+<div class="pillar_item"><a href="x34882.xml"></a>
+<div class="pillar_item_inner"><img alt="#" height="81" src="Images/Twin Pillars/icons/icon4.png" width="80" />
+<div class="pillar_item_right">
+<h3>Internships</h3>
+<p>Classroom learning meets real-world application.</p>
+</div>
+<span class="clearfix"></span></div>
+</div>
+<div class="pillar_item"><a href="x34881.xml"></a>
+<div class="pillar_item_inner"><img alt="#" height="81" src="Images/Twin Pillars/icons/icon5.png" width="80" />
+<div class="pillar_item_right">
+<h3>Online Learning</h3>
+<p>Redefining learning through powerful technology.</p>
+</div>
+<span class="clearfix"></span></div>
+</div>
+<div class="pillar_item"><a href="x34880.xml"></a>
+<div class="pillar_item_inner last_item"><img alt="#" height="81" src="Images/Twin Pillars/icons/icon6.png" width="80" />
+<div class="pillar_item_right">
+<h3>Pathway</h3>
+<p>Extending access to education around the world.</p>
+</div>
+<span class="clearfix"></span></div>
+</div>
+</div>
+<!-- end left pillar -->
+<div class="pillars" id="right_pillar"><!-- begin right pillar -->
+<div class="pillar_heading">Lifelong Spirituality &amp; Leadership</div>
+<div class="pillar_item"><a href="x34879.xml"></a>
+<div class="pillar_item_inner"><img alt="#" height="81" src="Images/Twin Pillars/icons/icon7.png" width="80" />
+<div class="pillar_item_right">
+<h3>Personal Honor</h3>
+<p>A commitment to living with integrity.</p>
+</div>
+<span class="clearfix"></span></div>
+</div>
+<div class="pillar_item"><a href="x34878.xml"></a>
+<div class="pillar_item_inner"><img alt="#" height="81" src="Images/Twin Pillars/icons/icon8.png" width="80" />
+<div class="pillar_item_right">
+<h3>Student Leadership Model</h3>
+<p>Instilling the qualities of true leaders.</p>
+</div>
+<span class="clearfix"></span></div>
+</div>
+<div class="pillar_item"><a href="x34877.xml"></a>
+<div class="pillar_item_inner"><img alt="#" height="81" src="Images/Twin Pillars/icons/icon9.png" width="80" />
+<div class="pillar_item_right">
+<h3>Church Service</h3>
+<p>Student congregations foster spiritual growth.</p>
+</div>
+<span class="clearfix"></span></div>
+</div>
+<div class="pillar_item"><a href="x34876.xml"></a>
+<div class="pillar_item_inner"><img alt="#" height="81" src="Images/Twin Pillars/icons/icon10.png" width="80" />
+<div class="pillar_item_right">
+<h3>Student Activities Program</h3>
+<p>Opportunities to be participants, not spectators.</p>
+</div>
+<span class="clearfix"></span></div>
+</div>
+<div class="pillar_item"><a href="x34875.xml"></a>
+<div class="pillar_item_inner"><img alt="#" height="81" src="Images/Twin Pillars/icons/icon11.png" width="80" />
+<div class="pillar_item_right">
+<h3>Devotionals</h3>
+<p>A weekly worship service for the campus community.</p>
+</div>
+<span class="clearfix"></span></div>
+</div>
+<div class="pillar_item"><a href="x34868.xml"></a>
+<div class="pillar_item_inner last_item"><img alt="#" height="81" src="Images/Twin Pillars/icons/icon12.png" width="80" />
+<div class="pillar_item_right">
+<h3>Our Heritage</h3>
+<p>The institutional legacy that guides BYU-Idaho today.</p>
+</div>
+<span class="clearfix"></span></div>
+</div>
+</div>
+<!-- end right pillar --></div>
+<!-- end lower_two_pillar_content --></div>
+<p><img height="281" id="top_img_right" src="Images/Twin Pillars/top_ribbon_right.jpg" width="303" /></p>
+<p>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+
+	//left and right positions for white arrow pointer
+	var leftPosition = "179px";
+	var centerPosition = "380px";
+	var rightPosition = "575px";
+
+
+	//Functions for activating and deactivating columns
+	function leftActive() {
+		//$("#right_pillar").hover();
+		$("#right_pillar").removeClass("active_pillar");                   /* remove right pillar's active class */
+		$('#left_pillar').addClass("active_pillar");                       /* add left pillar's active class */
+	    $('#white_directional_arrow').css({'marginLeft': leftPosition});   /* move white arrow to left position */
+	}
+	function rightActive() {
+		//$("#left_pillar").hover();
+		$("#left_pillar").removeClass("active_pillar");                    /* remove left pillar's active class */
+		$('#right_pillar').addClass("active_pillar");                      /* add right column's active class */
+	    $('#white_directional_arrow').css({'marginLeft': rightPosition});  /* move white arrow to right position */
+	}
+	function deactivatePillars() {
+		$('.pillars').removeClass("active_pillar");                        /* remove all pillar's active classes */
+		$('#white_directional_arrow').css({'marginLeft': centerPosition}); /* move white arrow to center (idle) position */
+	}
+
+
+	//Detect left or right pillar incoming #link from URL
+	if(/#LeftDisplay/.test(self.location.href)){
+            //console.log("your url contains the name #LeftDisplay");
+            leftActive();
+        }
+    if(/#RightDisplay/.test(self.location.href)){
+            //console.log("your url contains the name #RightDisplay");
+            rightActive();
+        }
+
+
+    //Add active class to pillar on hover, deactivate when exiting pillar hover
+	$(".pillars").hover(
+	  function () {
+	    $(this).addClass("active_pillar");
+	  },
+	  function () {
+	  	deactivatePillars();
+	  }
+	);
+
+	$("#left_pillar").hover(
+	  function () {
+	  	leftActive();
+	  },
+	  function () {
+	  	deactivatePillars();
+	  }
+	);
+
+	$("#right_pillar").hover(
+	  function () {
+	  	rightActive();
+	  },
+	  function () {
+	  	deactivatePillars();
+	  }
+	);
+
+});
+</script>
+</p>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="true"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x135" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

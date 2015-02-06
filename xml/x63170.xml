@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content ID="x63170" Name="Employee Home Email Setup Windows" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Employee Home Email Setup for Windows</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Employee Home Email Setup for Windows</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<!-- ****  apply only once  ************************* -->
+<link href="prebuilt/stylenew/css/OpenClose.css" media="screen, projection" rel="stylesheet" type="text/css" />
+<!-- ****  apply only once  ************************* -->
+<div class="open_text">
+<div class="posMark"></div>
+<div>
+<p><strong>Outlook 2010 Instructions</strong></p>
+</div>
+</div>
+<div class="close_text hide">
+<p>Email setup for home use Outlook 2010 If Outlook has not been setup then click outlook and then next, next, then follow below. If Outlook has already been setup then do the following.  Click Start, Control Panel, Mail, Email Accounts, Add Account, then Email      Account. then follow below.  If you have had problems with email setup an easy fix would be to delete the profile and create a new one. Be advised that it will delete your settings. An alternative would be to create another profile and try to follow these instructions. If the 2010 setup doesn&rsquo;t work then try the 2007 at home setup</p>
+<br /><img src="Images/helpdesk/FAQ/employeehomeoutlook20120/image00.png" /><br />
+<p>The next step take a couple of minutes. Please be patient.</p>
+<br /><img src="Images/helpdesk/FAQ/employeehomeoutlook20120/image01.png" /><br />
+<p>You will then see this screen.</p>
+<br /><img src="Images/helpdesk/FAQ/employeehomeoutlook20120/image02.png" /><br />
+<p>Change email to byui\your username and password to your password.</p>
+<br /><img src="Images/helpdesk/FAQ/employeehomeoutlook20120/image03.png" /><br />
+<p>When the setup is complete the the next screen will look like this. Way to go. Success.</p>
+<br /><img src="Images/helpdesk/FAQ/employeehomeoutlook20120/image04.png" /><br />
+<p>Then finish and open Outlook. If no success call the Helpdesk at 496-9000.</p>
+</div>
+<div class="open_text">
+<div class="posMark"></div>
+<div>
+<p><strong>Outlook 2007 and Older Instructions</strong></p>
+</div>
+</div>
+<div class="close_text hide">
+<p>Email setup for home use Exchange &amp; Outlook 2007 and older. If Outlook has not been setup then click outlook and then next, next, then follow below. If Outlook has already been setup then do the following.  Click Start, Control Panel, Mail, Email Accounts, Add Account, then Email Account. then follow below. If you have had problems with email setup an easy fix would be to delete the profile and create a new one. Be advised that it will delete your settings. An alternative would be to create another profile and try to follow these instructions.</p>
+<br />
+<p>Then Manually Configure Server</p>
+<br /><img src="Images/helpdesk/FAQ/employeehomeoutlook2007/image00.png" /><br />
+<p>Then Microsoft Exchange</p>
+<br /><img src="Images/helpdesk/FAQ/employeehomeoutlook2007/image01.png" /><br />
+<p>Then Server: gold.byui.edu or silver.byui.edu if email starts with m to z. User Name: email address. Then More Settings</p>
+<img src="Images/helpdesk/FAQ/employeehomeoutlook2007/image02.JPG" /><br />
+<p>Then Connection Tab, Outlook Anywhere, and Exchange Proxy Settings.</p>
+<img src="Images/helpdesk/FAQ/employeehomeoutlook2007/image03.png" /><br />
+<p>Then Connection Settings server is: owa.byui.edu Check Connect using SSL and Only connect to proxy servers that have this principal name in their certificate: msstd:owa.byui.edu Than Proxy authentication settings is Basic Authentication.</p>
+<br /><img src="Images/helpdesk/FAQ/employeehomeoutlook2007/image04.JPG" /><br />
+<p>Then Ok, Ok and Check Name</p>
+<br /><img src="Images/helpdesk/FAQ/employeehomeoutlook2007/image05.png" /><br />
+<p>Then make sure you add byui\ before your usename.</p>
+<br /><img src="Images/helpdesk/FAQ/employeehomeoutlook2007/image06.png" /><br />
+<p>Then you should see your email address change to the following with the underlying</p>
+<img src="Images/helpdesk/FAQ/employeehomeoutlook2007/image07.JPG" /><br />
+<p>If no success call the Helpdesk at 496-9000.</p>
+</div>
+<p>If you have further questions requiring technical support, return to the <a href="http://www.byui.edu/x42008.xml">BYU-Idaho FAQ Page</a>.</p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x35726" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

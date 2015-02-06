@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x62957" Name="Ear Care" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Ear Care</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Ear Care</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<link href="Documents/health-center/topper.css" rel="stylesheet" /> <link href="Documents/health-center/css/layout.css" rel="stylesheet" />
+<style type="text/css"><!--
+body #content_zone .icons{
+       background-image:url('Images/health-center/pharm_symbols_600x450.png');
+   }
+
+   body #content_zone .titlehead {    
+      border-bottom: solid thin #753B95;
+   }
+    body #content_zone .comment {
+      padding-left: 20px;
+   }
+   
+   body #content_zone .comment div{
+      color: #753B95;
+      font-weight: bold;
+   }
+   body #content_zone ul li{
+      list-style-type: none;
+      margin: 0 0 20px 0;
+   }
+   .ear{background-position:         0px   -150px;}
+--></style>
+<div id="content_zone">
+<div id="topper">
+<div class="titlehead">Ear Care</div>
+<div id="frame">
+<div class="icons ear"></div>
+<div class="shadow"></div>
+</div>
+</div>
+<div class="clear" id="setwidth">
+<ul>
+<li>Swim-EAR<span class="r_sym">&reg;</span>:
+<div class="comment">Dries water in the ears and relieves water-clogged ears, thereby relieving discomfort, <br />the sensation of fullness or hearing impairment</div>
+</li>
+<li>Ear Drops:
+<div class="comment">For occasional use as an aid to soften, loosen and remove excessive ear wax
+<div>comparable to Debrox<span class="r_sym">&reg;</span></div>
+</div>
+</li>
+</ul>
+</div>
+<a href="x37092.xml">Back to Pharmacy Home Page</a> <iframe frameborder="0" height="240" id="footer" scrolling="no" src="http://www.byui.edu/Documents/health-center/footer.html" width="320"></iframe></div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x28441" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

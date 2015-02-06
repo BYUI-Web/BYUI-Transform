@@ -1,0 +1,867 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content ID="x62425" Name="Transfer Students" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Transfer Students</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Transfer Students</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<script type="text/javascript">
+//prefixFree.js no vendor prefixes needed
+/**
+ * StyleFix 1.0.3 & PrefixFree 1.0.7
+ * @author Lea Verou
+ * MIT license
+ */(function(){function t(e,t){return[].slice.call((t||document).querySelectorAll(e))}if(!window.addEventListener)return;var e=window.StyleFix={link:function(t){try{if(t.rel!=="stylesheet"||t.hasAttribute("data-noprefix"))return}catch(n){return}var r=t.href||t.getAttribute("data-href"),i=r.replace(/[^\/]+$/,""),s=t.parentNode,o=new XMLHttpRequest,u;o.onreadystatechange=function(){o.readyState===4&&u()};u=function(){var n=o.responseText;if(n&&t.parentNode&&(!o.status||o.status<400||o.status>600)){n=e.fix(n,!0,t);if(i){n=n.replace(/url\(\s*?((?:"|')?)(.+?)\1\s*?\)/gi,function(e,t,n){return/^([a-z]{3,10}:|\/|#)/i.test(n)?e:'url("'+i+n+'")'});var r=i.replace(/([\\\^\$*+[\]?{}.=!:(|)])/g,"\\$1");n=n.replace(RegExp("\\b(behavior:\\s*?url\\('?\"?)"+r,"gi"),"$1")}var u=document.createElement("style");u.textContent=n;u.media=t.media;u.disabled=t.disabled;u.setAttribute("data-href",t.getAttribute("href"));s.insertBefore(u,t);s.removeChild(t);u.media=t.media}};try{o.open("GET",r);o.send(null)}catch(n){if(typeof XDomainRequest!="undefined"){o=new XDomainRequest;o.onerror=o.onprogress=function(){};o.onload=u;o.open("GET",r);o.send(null)}}t.setAttribute("data-inprogress","")},styleElement:function(t){if(t.hasAttribute("data-noprefix"))return;var n=t.disabled;t.textContent=e.fix(t.textContent,!0,t);t.disabled=n},styleAttribute:function(t){var n=t.getAttribute("style");n=e.fix(n,!1,t);t.setAttribute("style",n)},process:function(){t('link[rel="stylesheet"]:not([data-inprogress])').forEach(StyleFix.link);t("style").forEach(StyleFix.styleElement);t("[style]").forEach(StyleFix.styleAttribute)},register:function(t,n){(e.fixers=e.fixers||[]).splice(n===undefined?e.fixers.length:n,0,t)},fix:function(t,n,r){for(var i=0;i<e.fixers.length;i++)t=e.fixers[i](t,n,r)||t;return t},camelCase:function(e){return e.replace(/-([a-z])/g,function(e,t){return t.toUpperCase()}).replace("-","")},deCamelCase:function(e){return e.replace(/[A-Z]/g,function(e){return"-"+e.toLowerCase()})}};(function(){setTimeout(function(){t('link[rel="stylesheet"]').forEach(StyleFix.link)},10);document.addEventListener("DOMContentLoaded",StyleFix.process,!1)})()})();(function(e){function t(e,t,r,i,s){e=n[e];if(e.length){var o=RegExp(t+"("+e.join("|")+")"+r,"gi");s=s.replace(o,i)}return s}if(!window.StyleFix||!window.getComputedStyle)return;var n=window.PrefixFree={prefixCSS:function(e,r,i){var s=n.prefix;n.functions.indexOf("linear-gradient")>-1&&(e=e.replace(/(\s|:|,)(repeating-)?linear-gradient\(\s*(-?\d*\.?\d*)deg/ig,function(e,t,n,r){return t+(n||"")+"linear-gradient("+(90-r)+"deg"}));e=t("functions","(\\s|:|,)","\\s*\\(","$1"+s+"$2(",e);e=t("keywords","(\\s|:)","(\\s|;|\\}|$)","$1"+s+"$2$3",e);e=t("properties","(^|\\{|\\s|;)","\\s*:","$1"+s+"$2:",e);if(n.properties.length){var o=RegExp("\\b("+n.properties.join("|")+")(?!:)","gi");e=t("valueProperties","\\b",":(.+?);",function(e){return e.replace(o,s+"$1")},e)}if(r){e=t("selectors","","\\b",n.prefixSelector,e);e=t("atrules","@","\\b","@"+s+"$1",e)}e=e.replace(RegExp("-"+s,"g"),"-");e=e.replace(/-\*-(?=[a-z]+)/gi,n.prefix);return e},property:function(e){return(n.properties.indexOf(e)?n.prefix:"")+e},value:function(e,r){e=t("functions","(^|\\s|,)","\\s*\\(","$1"+n.prefix+"$2(",e);e=t("keywords","(^|\\s)","(\\s|$)","$1"+n.prefix+"$2$3",e);return e},prefixSelector:function(e){return e.replace(/^:{1,2}/,function(e){return e+n.prefix})},prefixProperty:function(e,t){var r=n.prefix+e;return t?StyleFix.camelCase(r):r}};(function(){var e={},t=[],r={},i=getComputedStyle(document.documentElement,null),s=document.createElement("div").style,o=function(n){if(n.charAt(0)==="-"){t.push(n);var r=n.split("-"),i=r[1];e[i]=++e[i]||1;while(r.length>3){r.pop();var s=r.join("-");u(s)&&t.indexOf(s)===-1&&t.push(s)}}},u=function(e){return StyleFix.camelCase(e)in s};if(i.length>0)for(var a=0;a<i.length;a++)o(i[a]);else for(var f in i)o(StyleFix.deCamelCase(f));var l={uses:0};for(var c in e){var h=e[c];l.uses<h&&(l={prefix:c,uses:h})}n.prefix="-"+l.prefix+"-";n.Prefix=StyleFix.camelCase(n.prefix);n.properties=[];for(var a=0;a<t.length;a++){var f=t[a];if(f.indexOf(n.prefix)===0){var p=f.slice(n.prefix.length);u(p)||n.properties.push(p)}}n.Prefix=="Ms"&&!("transform"in s)&&!("MsTransform"in s)&&"msTransform"in s&&n.properties.push("transform","transform-origin");n.properties.sort()})();(function(){function i(e,t){r[t]="";r[t]=e;return!!r[t]}var e={"linear-gradient":{property:"backgroundImage",params:"red, teal"},calc:{property:"width",params:"1px + 5%"},element:{property:"backgroundImage",params:"#foo"},"cross-fade":{property:"backgroundImage",params:"url(a.png), url(b.png), 50%"}};e["repeating-linear-gradient"]=e["repeating-radial-gradient"]=e["radial-gradient"]=e["linear-gradient"];var t={initial:"color","zoom-in":"cursor","zoom-out":"cursor",box:"display",flexbox:"display","inline-flexbox":"display",flex:"display","inline-flex":"display"};n.functions=[];n.keywords=[];var r=document.createElement("div").style;for(var s in e){var o=e[s],u=o.property,a=s+"("+o.params+")";!i(a,u)&&i(n.prefix+a,u)&&n.functions.push(s)}for(var f in t){var u=t[f];!i(f,u)&&i(n.prefix+f,u)&&n.keywords.push(f)}})();(function(){function s(e){i.textContent=e+"{}";return!!i.sheet.cssRules.length}var t={":read-only":null,":read-write":null,":any-link":null,"::selection":null},r={keyframes:"name",viewport:null,document:'regexp(".")'};n.selectors=[];n.atrules=[];var i=e.appendChild(document.createElement("style"));for(var o in t){var u=o+(t[o]?"("+t[o]+")":"");!s(u)&&s(n.prefixSelector(u))&&n.selectors.push(o)}for(var a in r){var u=a+" "+(r[a]||"");!s("@"+u)&&s("@"+n.prefix+u)&&n.atrules.push(a)}e.removeChild(i)})();n.valueProperties=["transition","transition-property"];e.className+=" "+n.prefix;StyleFix.register(n.prefixCSS)})(document.documentElement);
+</script>
+<style><!--
+#top_content,
+#main_content,
+#bottom_content{
+	margin-bottom: none !important;
+}
+/****Cycling images beneath the main content area****/
+#cycle_gallery{
+	margin-top: -130px;
+}
+/*****end of cycling images*****/
+a{
+	outline: 0 !important;
+	text-decoration: none !important;
+}
+@font-face{
+	font-family: futuraMC;
+	src: 	url('Documents/Admin_Offices/Financial Aid/fonts/FUTURAMC.ttf'),
+			url('Documents/Admin_Offices/Financial Aid/fonts/FUTURAMC.otf'),
+			url('Documents/Admin_Offices/Financial Aid/fonts/FUTURAMC.eot'); 
+}
+@font-face{
+	font-family: knockout;
+	src:	url('Documents/Admin_Offices/Financial Aid/fonts/knockout-htf68-fullfeatherwt.otf'),
+			url('Documents/Admin_Offices/Financial Aid/fonts/knockout-htf68-fullfeatherwt.ttf'),
+			url('Documents/Admin_Offices/Financial Aid/fonts/knockout-htf68-fullfeatherwt.eot');
+}
+.futuraMC{
+	font-family: futuraMC, knockout, arial, san-serif !important;
+}	
+.my_container{
+	width: 710px;
+	display: block;
+	position: absolute;
+	margin-left: 10px;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.move_up{
+	margin-top: -40px;
+}
+ul{
+	margin: 0;
+	position: relative;
+}
+
+/********animation keyframes*******/
+@keyframes spin{
+	from{
+		transform: rotatey(0deg);
+	}
+	to{
+		transform: rotatey(360deg);
+	}
+}
+@keyframes scale_and_wiggle{
+	0% {
+		transform:rotate(4deg);}
+	50% {
+		transform:rotate(-4deg) ;}
+	100% {
+		transform:rotate(4deg) ;}	
+}
+/***************end of animation******/
+.my_nav{
+	height: 100px;
+	width: 693px;
+	margin-left: 10px;
+}
+.my_nav h1{
+	font-size: 45px;
+	text-transform: uppercase;
+	display: inline-block;
+	margin: 0;
+}
+.my_nav:hover .freshman_icon,
+.my_nav:hover .transfer_icon,
+.my_nav:hover .cont_ed_icon {
+	animation: spin 2s infinite linear;
+}
+.facebook{
+	background: url('Images/Admin_Offices/Financial Aid/facebook.png') no-repeat;
+	height: 30px;
+	width: 100px;
+	text-indent: -9999px;
+	background-size: 100px;
+}
+.chat{
+	background:url('Images/Admin_Offices/Financial Aid/chat.png') no-repeat;
+	width: 100px;
+	height: 30px;
+	text-indent: -9999px;
+	background-size: 100px;
+}
+.my_nav a[id~='facebook']{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 10px;
+	float: right;
+}
+.my_nav a[id~='chat']{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 10px;
+	float: right;
+}
+.nav_top_section{
+	display: inline-block;
+	width: 693px;
+	height: 110px;
+}
+.nav_bar{
+	margin-bottom: 10px;
+	color: black;
+	margin-top: -50px;
+}
+.nav_bar >li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 2px;
+	width: 133px;
+	text-align: center;
+	font-size: 18px;
+	transition: all .2s linear;
+	border-right: solid 1px black; 
+	margin-left: -4px;
+}
+.nav_bar>li:last-child,
+.nav_bar[id="with_logo"]>li:last-child{
+	border: none;
+}
+.nav_bar>li:first-child{
+	margin-left: 2px;
+}
+.nav_bar>li:hover{
+	box-shadow: 0 0 2px 2px #888;
+}
+.nav_bar[id="with_logo"]{
+	margin-top: -50px;
+	margin-left: 75px;
+}
+.nav_bar[id="with_logo"]> li{
+	width: 115px !important;
+	list-style-type: none;
+	display: inline-block;
+	padding: 2px;
+	text-align: center;
+	font-size: 18px;
+	transition: all .2s linear;
+	border-right: solid 1px black; 
+	margin-left: -4px;
+}
+.nav_bar[id="with_logo"] .bubble li:nth-child(2n+1){
+	margin-left: -15px !important; 
+}
+.nav_bar[id="with_logo"] .bubble li{
+	list-style: none;
+	margin-left: -10px; 
+	width: 115px;
+}
+li.pop-up{
+	cursor: pointer;
+	position: relative;
+	z-index: 24;
+}
+li.pop-up section{
+	display: none;
+}
+li.pop-up:hover section.bubble{
+	display: block;
+	position: absolute;
+	width: 137px;
+	background-color: white;
+	opacity: .7;
+	border-radius: 0 0 5px 5px;
+	transition: none;
+	transform: none;
+	text-align: center;
+	margin-left: -2px;
+	font-size: 16px;
+	padding: 10px 0 10px 0;
+}
+li.pop-up:hover section.bubble li:nth-child(2n+1){
+	text-align: left;
+	margin-left: 15px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding-top: 3px;
+}
+ul.nav_bar[id="with_logo"] li.pop-up:hover section.bubble{
+	margin-left: -10px;
+	border-radius: 5px;
+}
+li.pop-up:nth-child(4):hover section.bubble{
+	letter-spacing: 1px;
+}
+.my_nav ul[id~="with_background"]{
+	margin-top: -10px;
+	margin-left: 30px;
+}
+.main_content{
+	width: 710px;
+}
+.display{
+	display: inline-block;
+}
+/**********images************/
+.freshman_icon{
+	background: url('Images/Admin_Offices/Financial Aid/sprites/sprites_icons.png') no-repeat -10px 0px;
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+	transition: all 2s ease-in-out;
+}
+.transfer_icon{
+	background: url('Images/Admin_Offices/Financial Aid/sprites/sprites_icons.png') no-repeat -105px 0px;
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+	transition: all 2s ease-in-out;
+}
+.cont_ed_icon{
+	background: url('Images/Admin_Offices/Financial Aid/sprites/sprites_icons.png') no-repeat -200px 0px;
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+	transition: all 2s ease-in-out;
+}
+.nav_top_section h4{
+	opacity: 0;
+}
+
+.home_page_logos{
+	height: 205px;
+    width: 220px;
+	background: url('Images/Admin_Offices/Financial Aid/sprites/sprite_home_buttons.png') no-repeat;
+	background-size: 750px auto;
+	display: inline-block;
+	float: left;
+}
+.freshman_logo{
+    background-position: -22px -19px;
+	margin-right: 6px;
+	margin-left: 7px;
+}
+.freshman_logo:hover{
+    background-position: -23px -261px;
+    margin-right: 6px;
+	margin-left: 7px;
+}
+.transfer_student_logo{
+    background-position: -265px -19px;
+	margin-right: 6px;
+}
+.transfer_student_logo:hover{
+    background-position: -265px -261px;
+    margin-right: 6px;
+}
+.cont_ed_student_logo{
+    background-position: -515px -19px;
+}
+.cont_ed_student_logo:hover{
+    background-position: -515px -261px;
+    background-size: 750px auto;
+}
+.questions_logo{
+	width: 220px;
+	height: 79px;
+	background-position: -18px -502px;
+	background-size: 735px auto;
+	margin-top: 10px;
+	margin-left: 6px;
+}
+.questions_logo:hover{
+	width: 220px;
+	height: 79px;
+	background-position: -18px -627px;
+	background-size: 735px auto;
+	margin-top: 10px;
+	margin-left: 6px;
+}
+.doc_tracker_logo{
+	width: 220px;
+	height: 79px;
+	background-position:  -257px -502px;
+	background-size: 735px auto;
+	margin-top: 10px;
+	margin-left: 7px;
+}
+.doc_tracker_logo:hover{
+	width: 220px;
+	height: 79px;
+	background-position: -256px -628px;
+	background-size: 735px auto;
+	margin-top: 10px;
+	margin-left: 7px;
+}
+.deadlines_logo{
+	width: 220px;
+	height: 79px;
+	background-position:  -500px -502px;
+	background-size: 735px auto;
+	margin-top: 10px;
+	margin-left: 6px;
+}
+.deadlines_logo:hover{
+	width: 220px;
+	height: 79px;
+	background-position:  -500px -628px;
+	background-size: 735px auto;
+	margin-top: 10px;
+	margin-left: 6px;
+}
+/*******arrow sprites******/
+.arrow{
+	text-decoration: none;
+	text-indent: -9999px;
+}
+.main_content .arrow{
+	margin-top: 20px;
+}
+
+.my_nav .arrow a{
+	transform: scale(.6);
+	margin-right: -70px !important;
+	margin-top: -10px;
+}
+.arrow a{
+	float: left;
+	width: 210px;
+	height: 126px;
+	transform: scale(.8);
+	-webkit-transform: scale(.8);
+	margin-right: -47px;
+	background: url('Images/Admin_Offices/Financial Aid/sprites/sprite_arrows.png') no-repeat;
+}
+
+/******yellow*******************************************/
+
+.arrow a[id~='planning_yellow']{
+	background-position: -47px -44px;
+}
+.arrow a[id~='planning_yellow']:hover{
+	background-position: -47px -212px;
+}
+.arrow a[id~='planning_yellow_breadcrumb']{
+	background-position: -36px -1047px;
+} 
+.arrow a[id~='scholarships_yellow']{
+	background-position: -255px -44px;
+}
+.arrow a[id~='scholarships_yellow']:hover{
+	background-position: -255px -212px;
+}
+.arrow a[id~='scholarships_yellow_breadcrumb']{
+	background-position: -258px -1047px;
+}
+.arrow a[id~='federal_aid_yellow']{
+	background-position: -465px -44px;
+}
+.arrow a[id~='federal_aid_yellow']:hover{
+	background-position: -465px -212px;
+}
+.arrow a[id~='federal_aid_yellow_breadcrumb']{
+	background-position: -472px -1047px;
+}
+.arrow a[id~='follow_up_yellow']{
+	background-position: -675px -44px;
+}
+.arrow a[id~='follow_up_yellow']:hover{
+	background-position: -675px -212px;
+}
+.arrow a[id~='follow_up_yellow_breadcrumb']{
+	background-position: -690px -1047px;
+}
+
+/*******orange**************************************************/
+.arrow a[id~='planning_orange']{
+	background-position: -47px -380px;
+}
+.arrow a[id~='planning_orange']:hover{
+	background-position: -47px -548px;
+}
+.arrow a[id~='planning_orange_breadcrumb']{
+	background-position: -32px -1215px;
+}
+.arrow a[id~='scholarships_orange']{
+	background-position: -256px -380px;
+}
+.arrow a[id~='scholarships_orange']:hover{
+	background-position: -255px -548px;
+}
+.arrow a[id~='scholarships_orange_breadcrumb']{
+	background-position: -252px -1215px;
+}
+.arrow a[id~='federal_aid_orange']{
+	background-position: -465px -380px;
+}
+.arrow a[id~='federal_aid_orange']:hover{
+	background-position: -465px -548px;
+}
+.arrow a[id~='federal_aid_orange_breadcrumb']{
+	background-position: -470px -1215px;
+}
+.arrow a[id~='follow_up_orange']{
+	background-position: -675px -380px;
+}
+.arrow a[id~='follow_up_orange']:hover{
+	background-position: -675px -548px;
+}
+.arrow a[id~='follow_up_orange_breadcrumb']{
+	background-position: -690px -1215px;
+}
+
+/**********red*****************************************/
+.arrow a[id~='planning_red']{
+	background-position: -45px -717px;
+}
+.arrow a[id~='planning_red']:hover{
+	background-position: -46px -884px;
+}
+.arrow a[id~='planning_red_breadcrumb']{
+	background-position: -32px -1379px;
+}
+.arrow a[id~='scholarships_red']{
+	background-position: -255px -717px;
+}
+.arrow a[id~='scholarships_red']:hover{
+	background-position: -255px -884px;
+}
+.arrow a[id~='scholarships_red_breadcrumb']{
+	background-position: -252px -1379px;
+}
+.arrow a[id~='federal_aid_red']{
+	background-position: -465px -716px;
+}
+.arrow a[id~='federal_aid_red']:hover{
+	background-position: -465px -884px;
+}
+.arrow a[id~='federal_aid_red_breadcrumb']{
+	background-position: -470px -1379px;
+}
+.arrow a[id~='follow_up_red']{
+	background-position: -675px -716px;
+}
+.arrow a[id~='follow_up_red']:hover{
+	background-position: -675px -883px;
+}
+.arrow a[id~='follow_up_red_breadcrumb']{
+	background-position: -690px -1379px;
+}
+
+/******end of arrows******/
+.lined_background{
+	background: url('Images/Admin_Offices/Financial Aid/Home Page Cells/lined_background-06.png') no-repeat;
+	height: 500px;
+	text-indent: -9999px;
+	background-size: 693px;
+	margin-left: 10px;
+	width: 700px;
+}
+.lined_background_inverted{
+	background: url('Images/Admin_Offices/Financial Aid/Home Page Cells/lined_background_inverted.png') 0px -100px no-repeat;
+	background-size: 100% auto;
+	height: 160px !important;
+}
+.wraparound{
+	background: url('Images/Admin_Offices/Financial Aid/Home Page Cells/wraparound-07.png') no-repeat;
+	height: 60px;
+	width: 710px;
+	text-indent: -9999px;
+	background-size: 710px;
+	margin-left: -10px;
+}
+.policies_bell{
+	background: url('Images/Admin_Offices/Financial Aid/sprites/sprites_policies_bell.png') 0px 0px no-repeat;
+	height: 60px;
+	width: 60px;
+	text-indent: -9999px;
+	position: absolute;
+    margin-top: -62px;
+	margin-right: 11px;
+	margin-left: 627px;
+	background-size: 115px;
+	display: block;
+}
+.policies_bell[id~='home']:hover{
+	background: url('Images/Admin_Offices/Financial Aid/sprites/sprites_policies_bell.png') -59px 0px no-repeat;
+	z-index: 50;
+	background-size: 115px;
+	animation: scale_and_wiggle 1s infinite;
+}
+.main_content object[id~='home']{
+	float: left; 
+	width: 670px; 
+	height: 240px;
+	margin-left: 10px;
+	border: solid 1px black;
+}
+.main_content>p{
+	padding-left: 15px;
+}
+
+
+/* CSS styles for the Show/Hide functionality. */
+.fa_question{
+	overflow:hidden;
+	cursor:pointer;
+	background-color: #f0f0f0;
+	color: #666;
+	border: 1px solid #000;
+	transition: all ease;
+}
+.fa_question:hover{
+	background-color: #fcc35a;
+}
+.fa_answer{
+	visibility:hidden;
+	overflow:hidden;
+	position:relative;
+	transition: all ease;
+}
+.fa_answer_content{	/* Content that is slided down */
+	padding:1px;
+	font-size:1em;
+	position:relative;
+	transition: all 1s ease;
+}
+
+.fa_answer ul {margin-left:25px;}
+
+#page_title{
+	display: none;
+}
+#table_futura th{
+	color:#F8F8F8;
+	background-color: #333;   
+	font-family: futura, arial, sans-serif;
+	font-size: medium;
+	font-weight: normal;
+}
+#table_futura ul{
+	margin-left: 5px; color: #000;
+}
+.tableTitle{
+	font-size: 1.2em;
+	margin-bottom:10px;
+	color: #000;
+}
+
+/*************modal*************/
+/* Container */
+.modal {
+
+/* Overlay page content */
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background: rgba(0,0,0,0.5);
+z-index: 10000;
+
+/* Transition opacity on open */
+transition: opacity 500ms ease-in;
+
+
+/* Hide for now */
+opacity: 0;
+pointer-events: none;
+}
+
+/* Show modal */
+.modal:target {
+opacity: 1;
+pointer-events: auto;
+/* at time of writing (Feb 2012), pointer-events not supported by Opera or IE */
+}
+
+/* Content */
+.modal > div {
+width: 720px;
+background: #fff;
+position: relative;
+margin: 10% auto;
+
+/* Default minimize animation */
+animation: minimize 500ms linear;
+
+/* Prettify */
+padding: 30px;
+border-radius: 7px;
+box-shadow: 0 3px 20px rgba(0,0,0,0.9);
+background: #fff;
+background: linear-gradient(#fff, #ccc);
+text-shadow: 0 1px 0 #fff;
+display: none;
+}
+
+/* Override animation on modal open */
+.modal:target > div {
+animation-name: bounce;
+display: block;
+}
+.modal h2 {
+	font-size: 36px;
+}
+.modal h2,
+.modal h3{
+	
+}
+@keyframes bounce {
+  0% {
+  	transform: scale3d(0.1,0.1,1);
+  	box-shadow: 0 3px 20px rgba(0,0,0,0.9);
+  }
+  100% {
+  	transform: scale3d(1,1,1);
+  	box-shadow: 0 3px 20px rgba(0,0,0,0.9);
+  }
+}
+@keyframes minimize {
+  0% {
+  	transform: scale3d(1,1,1);
+  }
+  100% {
+  	transform: scale3d(0.1,0.1,1);
+  }
+}
+
+/* Modal close link */
+.modal a[href="#close"] {
+position: absolute;
+right: 0;
+top: 0;
+color: transparent;
+}
+
+/* Reset native styles */
+.modal a[href="#close"]:focus {
+outline: none;
+}
+
+/* Create close button */
+.modal a[href="#close"]:after {
+content: 'X';
+display: block;
+
+/* Position */
+position: absolute;
+right: -10px;
+top: -10px;
+width: 1.5em;
+padding: 1px 1px 1px 2px;
+
+/* Style */
+text-decoration: none;
+text-shadow: none;
+text-align: center;
+font-weight: bold;
+background: #000;
+color: #fff;
+border: 3px solid #fff;
+border-radius: 20px;
+box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+
+.modal a[href="#close"]:focus:after,
+.modal a[href="#close"]:hover:after {
+ transform: scale(1.1,1.1);
+}
+
+.modal a[href="#close"]:focus:after {
+outline: 1px solid #000;
+}
+
+.step_box{
+	height: 50px;
+	width: 50px;
+	border-radius: 10px;
+	border: solid 1px black;
+	display: inline-block;
+}
+.main_content ul {
+	display: inline-block;
+}
+.main_content ul li h3{
+	display: inline-block;
+}
+/**************videos version 1******************/
+.videos a.list_box{
+	width: 100%;
+	height: 50px;
+	border: solid 1px black;
+	background: linear-gradient(#fff, #ddd);
+	margin-top: 10px;
+	display: block;
+}
+.text_vid{
+	display: inline-block;
+	width: 160px !important;
+	height: 20px !important;
+	border: solid 1px black;
+	background: linear-gradient(#fff, #ddd);
+	margin-top: 10px;
+}
+.videos aside li{
+	display: inline-block;
+}
+
+.videos aside ul{
+	
+}
+.hidden{
+	pointer-events: none;
+	transition: opacity 500ms ease-in;
+	opacity: 0;
+}
+.hidden:target{
+	pointer-events: auto;
+	transition: opacity 500ms ease-in;
+	opacity: 1;
+}
+
+/**************videos version 2******************/
+.youtube_thumb{
+	background-size: 120px auto;
+}
+.youtube_thumb[id~="submit_docs"]{
+	background: url(http://img.youtube.com/vi/3byYwMoTxjM/1.jpg) no-repeat;
+}
+.youtube_thumb[id~="accept_loans"]{
+	background: url(http://img.youtube.com/vi/LOcGP7au6wQ/1.jpg) no-repeat;
+}
+.youtube_thumb[id~="dependent_ver"]{
+	background: url(http://img.youtube.com/vi/fCE4sDiPInU/1.jpg) no-repeat;
+}
+.youtube_thumb[id~="independent_ver"]{
+	background: url(http://img.youtube.com/vi/Y_tPwKcqvVU/1.jpg) no-repeat;
+}
+.youtube_thumb[id~="selected_ver"]{
+	background: url(http://img.youtube.com/vi/3tRD8ZUj7D4/1.jpg) no-repeat;
+}
+.youtube_thumb[id~="disbursed"]{
+	background: url(http://img.youtube.com/vi/V-oCDtPpQTU/1.jpg) no-repeat;
+}
+.youtube_thumb[id~="fasfa"]{
+	background: url(http://img.youtube.com/vi/8B7Uc41UN2E/1.jpg) no-repeat;
+}	
+.youtube_thumb[id~="data_retrieval"]{
+	background: url(http://img.youtube.com/vi/jtNqVLd6oD4/1.jpg) no-repeat;
+}
+.youtube_thumb[id~="return_trans"]{
+	background: url(http://img.youtube.com/vi/9VnMECE1EQ8/1.jpg) no-repeat;
+}
+.youtube_thumb[id~="rejected_sig"]{
+	background: url(http://img.youtube.com/vi/bB-gG-0wYq0/1.jpg) no-repeat;
+}
+.youtube_thumb[id~="locate_docs"]{
+	background: url(http://img.youtube.com/vi/OxACXADss2A/1.jpg) no-repeat;
+}	
+.youtube_thumb[id~="fix_taxes"]{
+	background: url(http://img.youtube.com/vi/16Jt4fMogtE/1.jpg) no-repeat;
+}	
+.videos2 a{
+	text-decoration: none !important;
+}	
+.videos2>ul{
+	margin-left: 60px;
+}
+.videos2 li{
+	float: left;
+	width: 180px;
+	height: 200px;
+	margin-left: 5px;
+	margin-top: 5px;
+	background: linear-gradient(#f0f0f0, #fff);
+}
+.videos2 li>a:first-child{
+	display: block;
+	width: 120px;
+	height: 90px;
+	text-align: center;
+	margin: 10px auto;
+}
+.videos2 li>a:nth-child(3){
+	display: block;
+	width: 160px !important;
+	height: 20px !important;
+	background: linear-gradient(#fff, #ddd);
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.videos2 li>h4{
+	text-align: center;
+	display: block;
+}
+.videos2>a{
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+}
+
+iframe.iframe{
+	width: 1080px;
+	height: 520px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+--></style>
+<div class="my_container">
+<div class="my_nav">
+<section class="nav_top_section">
+<div class="transfer_icon spin left">
+<h4>Transfer Logo</h4>
+</div>
+<h1 class="futuraMC">Transfer Students</h1>
+<a class="chat" href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=Financial%20Aid" id="chat">Chat</a> <a class="facebook" href="http://www.facebook.com/BYUIFinancialAid" id="facebook">Facebook</a></section>
+<ul class="futuraMC nav_bar" id="with_logo">
+<li class="pop-up">OFFICE HOURS
+<section class="bubble">
+<ul>
+<li>Regular Hours</li>
+<li>Mon - Fri, 8am - 5pm</li>
+<li>Advisor Hours</li>
+<li>Mon - Fri, 8am - 4pm</li>
+</ul>
+</section>
+</li>
+<li class="pop-up">ADDRESS
+<section class="bubble">100 Kimball Building 1610 Rexburg, ID 83460</section>
+</li>
+<li class="pop-up">PHONE
+<section class="bubble">208.496.1600</section>
+</li>
+<li class="pop-up">EMAIL
+<section class="bubble">financialaid@byui.edu</section>
+</li>
+<li class="pop-up">FAX
+<section class="bubble">208.496.6711</section>
+</li>
+</ul>
+</div>
+<div class="main_content">
+<div class="lined_background">Lined Background
+<div class="wraparound">Wrap Around</div>
+<a class="policies_bell" href="x32760.xml" id="home"></a> <object style="margin-left: 5px;" width="670" height="240" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="Media/Admin_Offices/Financial Aid/TransferStudent.swf" /><embed style="margin-left: 5px;" width="670" height="240" type="application/x-shockwave-flash" src="Media/Admin_Offices/Financial Aid/TransferStudent.swf" /> </object>
+<section class="arrow"><a href="http://www.byui.edu/financial-aid/planning-x43998" id="planning_orange"> </a> <a href="http://www.byui.edu/financial-aid/scholarships-x44001" id="scholarships_orange"> </a> <a href="http://www.byui.edu/financial-aid/federal-aid-x44002" id="federal_aid_orange"> </a> <a href="http://www.byui.edu/financial-aid/follow-up-x44003" id="follow_up_orange"> </a></section>
+</div>
+</div>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="x18466" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x18206" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

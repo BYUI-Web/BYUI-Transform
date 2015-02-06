@@ -1,0 +1,349 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x48734" Name="sharetest.htm" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">sharetest.htm</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">sharetest.htm</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"&gt;
+&lt;head&gt;
+    &lt;meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /&gt;
+    &lt;title&gt;BYU&amp;ndash;Idaho&amp;nbsp;|&amp;nbsp;Online&amp;nbsp;Magazine&amp;nbsp;&amp;gt;&amp;nbsp;Strengthening&amp;nbsp;Education&amp;nbsp;Through&amp;nbsp;Technology&lt;/title&gt;
+    &lt;!-- Remove TemplateSource line to disable the Web Editor --&gt;
+    &lt;!--TemplateSource="2A.htm"--&gt;
+    &lt;!--***********************************************************************
+    *   Brigham Young University-Idaho Template
+    *   Version:        1.2
+    *   Type:           2A
+    *   Last Revised:   June, 2006
+    *   Copyrightï¿½ 2007 Brigham Young University-Idaho
+    *   All Rights Reserved.
+    ************************************************************************--&gt;
+    &lt;!-- REFERENCED STYLESHEETS --&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/v1/topBar.css" /&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/V1/structure.css" /&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/V1/body_text.css" /&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/V1/table.css" /&gt;
+	&lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/driveorwalk/css/walkordrivestyle.css" /&gt;
+	&lt;link rel="stylesheet" type="text/css" href="../css/ol.css" /&gt;
+	&lt;link rel="stylesheet" type="text/css" href="../css/article_style.css" /&gt;
+	&lt;link rel="stylesheet" href="../css/print.css" type="text/css" media="print" /&gt;
+
+
+	
+    &lt;!-- EMBEDED JAVASCRIPT FUNCTIONS --&gt;
+     &lt;script type="text/javascript" src="http://www.byui.edu/js/v2/changeSizeRevised.js"&gt;&lt;/script&gt;
+	&lt;!--&lt;script type="text/javascript" src="../js/main_revision.js"&gt;&lt;/script&gt;--&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/js/v2/leftLinks.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/driveorwalk/js/textswap.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/driveorwalk/js/active.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/driveorwalk/js/randomadimage.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="../js/js.js"&gt;&lt;/script&gt;
+	&lt;script type='text/javascript' src='../../js/custom/jquery1159.js'&gt;&lt;/script&gt;
+
+
+
+
+    &lt;!-- EDITOR JAVASCRIPT FUNCTIONS --&gt;
+&lt;/head&gt;
+&lt;body id="type_A" onload="callFunctions(); randomImageDisplay(); activeNav(1); randomAdImage();" style="visibility:hidden;"&gt;
+    &lt;!-- The body type determines the number of columns in the CONTENT AREA. View structure.css to where these types are specified --&gt;
+    &lt;!-- ********************************************************************* --&gt;
+    &lt;!-- TOP BAR                                                               --&gt;
+    &lt;!-- ********************************************************************* --&gt;
+    &lt;div id="topBar"&gt;
+        &lt;div id="blueSpace"&gt;&lt;/div&gt;
+        &lt;div&gt;
+            &lt;table id="tableBlue" cellspacing="0" cellpadding="0"&gt;
+                &lt;!-- Title menu with the Blue Background --&gt;
+                &lt;tr&gt;&lt;td id="tdBlueSpace"&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr id="trBlueTop"&gt;&lt;td id="tdBlueTop"&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td id="tdBlueMenu" align="center"&gt;
+                        &lt;div id="javaMenu"&gt;
+                            &lt;script type="text/javascript" src="http://www.byui.edu/js/V1/HomepageNavBar.js"&gt;&lt;/script&gt;
+                        &lt;/div&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+        &lt;/div&gt;
+        &lt;!-- Gray Bar --&gt;
+        &lt;div id="divGrayBarContainer"&gt;
+            &lt;div id="divDarkGrayBar"&gt;
+                &lt;!--&lt;div id="divStudent"&gt;
+                    &lt;script type="text/javascript" src="http://www.byui.edu/js/V1/imageChange.js"&gt;&lt;/script&gt;
+                &lt;/div&gt; //--&gt;
+                &lt;div id="divBYUILogo"&gt;
+                    &lt;a id="logoLink" href="http://www.byui.edu/"&gt;&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div id="divVertLine"&gt;&lt;/div&gt;
+                &lt;div id="divDepartmentTitle"&gt;
+                    &lt;!-- Department Title --&gt;
+                    &lt;div id="divSectionTitle"&gt;
+                        &lt;a id="iframeText" target="_top" href="http://www.byui.edu/magazine/fall2009"&gt;Online Magazine &amp;gt; Strengthening&amp;nbsp;Education&amp;nbsp;Through&amp;nbsp;Technology&lt;/a&gt;
+
+                    &lt;/div&gt;  
+                    &lt;span id="divSemester"&gt;
+						Fall 2009 
+                    &lt;/span&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;!-- White Bar --&gt;
+        &lt;div id="divWhiteContainer"&gt;
+        &lt;div id="divWhiteBar"&gt;
+            &lt;img src="http://www.byui.edu/css/V1/images/whiteBar.gif" alt="White Bar" /&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!-- END ***************************************************************** --&gt;
+    &lt;!--EditorForm--&gt;
+    &lt;!--EditorToolbar--&gt;
+    &lt;div id="container"&gt;
+        &lt;div id="main_body"&gt;
+            &lt;!-- LEFT COLUMN --&gt;
+            &lt;!-- NAVIGATION FILE INCLUDE --&gt;
+            			&lt;div id="left_column" style="background-color:#FFF";&gt;
+                
+				&lt;div id="onlinemagazinenav"&gt;
+					&lt;!--#include file="../../common/nav.inc"--&gt;
+					&lt;div id="sub_nav"&gt;
+					&lt;!--#include file="../../common/navAudio.inc"--&gt;
+					&lt;!--#include file="../../common/navPDF.inc"--&gt;
+					&lt;!--#include file="../../common/navPhoto.inc"--&gt;
+					&lt;/div&gt;
+					
+					
+			   &lt;/div&gt;
+			   
+            &lt;/div&gt;
+            
+            &lt;div id="right_section"&gt;
+                &lt;div class="right_bottom_section"&gt;
+                    &lt;div class="leftAREA"&gt;
+                        &lt;div id="random_image"&gt;
+							&lt;div&gt;
+                        		&lt;img id="bannerImage" alt="Feature Template" src="strengthening.jpg" width="580px" height="230px"/&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+						&lt;div id="page_layout2_content"&gt;&lt;br&gt;
+							&lt;div class="printit"&gt;&lt;a href="javascript:window.print()"&gt;&lt;img src="../../images/common/print_issue.jpg" alt="Print Article" /&gt;&lt;/a&gt;&lt;/div&gt;
+							
+							&lt;!-- AddThis Button BEGIN --&gt;
+&lt;a class="addthis_button" href="http://addthis.com/bookmark.php?v=250&amp;amp;username=xa-4c36454a07966e45"&gt;&lt;img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"/&gt;&lt;/a&gt;&lt;script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4c36454a07966e45"&gt;&lt;/script&gt;
+&lt;!-- AddThis Button END --&gt;
+
+	
+
+							&lt;h1 style="margin-top:10px;"&gt;Strengthening Education through Technology&lt;br&gt;at BYU-Idaho&lt;/h1&gt;
+							&lt;span id="title"&gt;Technological advancements are enriching students' educational experiences&amp;#151;&lt;br&gt;inside the classroom and out.&lt;/span&gt;
+							&lt;h3&gt;Andy Cargal&lt;/h3&gt;
+							&lt;span id="title"&gt;University Communications&lt;/span&gt;
+							
+							&lt;div id="synopses"&gt;In today&amp;#8217;s ever-advancing technological world, educational opportunities are no longer limited to what can happen within the four walls of a classroom. Today, BYU-Idaho students both on and off campus are taking advantage of technology and enriching their educational experiences. Students on campus come to class better prepared by participating in online learning environments, and off-campus students are able to complete a degree without ever setting foot in Rexburg.
+							&lt;/div&gt; 
+
+							&lt;div id="synopses" class="bottom_padding"&gt;Learn how BYU-Idaho is strengthening education through technology in a variety of ways, and discover how you can be part of the innovation.
+							&lt;/div&gt;
+							
+							&lt;div id="read_complete_article"&gt;READ COMPLETE ARTICLE BELOW&lt;/div&gt;
+							
+							&lt;span class="section_heading"&gt;Morse code: &lt;/span/&gt;
+							&lt;p&gt;- . -.-. .... -. --- .-.. --- --. -.-- / .. ... / . ...- --- .-.. ...- .. -. --. / . ...- . .-. -.-- / -.. .- -.-- --..-- / .. -- .--. .-. --- ...- .. -. --. / - .... . / .-- .- -.-- / .-- . / -.-. --- -- -- ..- -. .. -.-. .- - . --..-- / -.-. --- .-. .-. . ... .--. --- -. -.. --..-- / .- -. -.. / -.-. --- -. -.. ..- -.-. - / --- ..- .-. / -.. .- .. .-.. -.-- / .-.. .. ...- . ... .-.-.-&lt;/p&gt;
+							
+							&lt;span class="section_heading" style="padding-top:10px;"&gt;Text message lingo:&lt;/span/&gt;
+							&lt;p&gt;teknolG S evolvin evry dy, impruvN d wA we comnC8, corspond, n cndukt r dAly lyvs.&lt;/p&gt;
+							
+							&lt;span class="section_heading" style="padding-top:10px;"&gt;Plain English:&lt;/span/&gt;
+							&lt;p&gt;Technology is evolving every day, improving the way we communicate, correspond, and conduct our daily lives.&lt;/p&gt;
+							&lt;p&gt;From Morse code to text messaging, from room-sized computers to three-pound laptops, from the Pony Express to e-mail&amp;#151;technological innovation is accelerating. And with each new advancement, we wonder how anything could ever be better, faster, or more effective.&lt;/p&gt;
+							&lt;p&gt;In the not-too-distant past, personal desktop computers and e-mail were at the pinnacle of technological development. But today, many people instead opt for PDAs, tweets, texts, blogs and wikis. While each day brings yet a new vision, one thing is for sure&amp;#151;technology will evolve. And as it does, Brigham Young University-Idaho will continue to embrace a variety of mediums in an effort to enhance each student&amp;#039;s overall learning experience.&lt;/p&gt;
+							&lt;p&gt;&amp;#147;Embracing technology at BYU-Idaho is not about technology itself. Our mission is about loving, serving, and teaching one another, and technology is just one vehicle helping us to achieve our desired results,&amp;#148; said Matt Sanders, Online Learning instruction director.&lt;/p&gt;
+
+							&lt;span class="section_heading"&gt;Extending the BYU-Idaho Experience&lt;/span/&gt;
+							&lt;p&gt;Perhaps the most significant way BYU-Idaho is blessing students through technology is through its Online Learning initiative. Unlike many online courses, which are self-paced and completed independently, BYU-Idaho&amp;#039;s online courses are delivered to groups of students who learn together. These courses are facilitated by a trained online instructor, include peer-to-peer interaction, and start and end on the regular semester schedule.&lt;/p&gt;
+							&lt;p&gt;&amp;#147;Our goal in Online Learning is to provide quality online educational experiences with equivalent learning outcomes, and provide an avenue that will allow more students to receive a BYU-Idaho education,&amp;#148; said Alan Young, Online Learning curriculum development director. &lt;/p&gt;
+							&lt;p&gt;Having the ability to conduct these classes without physical classroom space is perhaps one of the greatest blessings because of the larger number of individuals the university can serve. If every current student took just one online class per semester, 2,400 additional students would be able to attend. With fifty current online courses, that isn't a reality just yet. But the university is gearing up to have one hundred fifty online courses operational by 2012, with a goal to eventually have twenty percent of student credit hours completed online.&lt;/p&gt;
+							&lt;p&gt;While this initiative certainly blesses the lives of students in Rexburg, its effects extend throughout the world. One of the ways this is occurring is through the university&amp;#039;s online degree programs. Individuals who have completed at least thirty credit hours on campus at BYU-Idaho, BYU-Hawaii, or LDS Business College may apply for the Bachelor of University Studies degree. And those who have completed at least fifteen on-campus credits may opt for the Associate of General Studies degree. Both of these can be finished completely online from anywhere in the world. Currently, approximately five hundred students are enrolled in BYU-Idaho&amp;#039;s online degree programs.&lt;/p&gt;
+							&lt;p&gt;&amp;#147;It is wonderful to have the opportunity to complete my degree online,&amp;#148; said Kristy Anderson, a mother of six residing in Carrolton, Ga. Kristy received her associate degree from Ricks College, transferred to Utah State, but was unable to complete her bachelor's degree when she began having children. Last Fall Semester she began the Bachelor of University Studies online degree program. &amp;#147;I am very grateful for the opportunity. My husband has a PhD, and I wanted to be able to complete my degree as well. It&amp;#039;s also fun to talk to my kids about what I am learning.&amp;#148;&lt;/p&gt;
+							&lt;p&gt;Summer Dornon is a senior in the Bachelor of University Studies program and resides in Boise, Idaho. Having to work while attending school, she decided to complete her degree online. Aside from the academic benefits, Summer also appreciates the spiritual advantages that come from studying at BYU-Idaho. &amp;#147;Just because you are not on campus does not mean you have to miss out on the campus spirit. If you live the Honor Code and are active in your local institute, you will achieve the same spiritual blessings.&amp;#148;&lt;/p&gt;
+							&lt;p&gt;In addition to the online bachelor's and associate degrees, the university&amp;#039;s Department of Nursing offers the RN to BSN program, which can be completed online, on campus, or a combination of both. Currently, 134 students residing in 11 states are enrolled in the online-only option, and 247 students have graduated having completed their BSN degree completely online. &lt;/p&gt;
+							&lt;p&gt;The Department of Nursing is also experimenting with Web conferencing, which allows a group of students in Burley, Idaho, to take classes remotely. These students meet in a conference room at Cassia Regional Medical Center and are able to see, hear, and interact with the students and instructor in Rexburg. &amp;#147;It is exciting for us to be able to provide an education to more nursing students because of this technology,&amp;#148; said Brent Williams, Nursing Outreach manager.&lt;/p&gt;
+							&lt;p&gt;The university is also currently piloting other innovative ways to extend educational opportunities to many more individuals.&lt;/p&gt;
+							&lt;p&gt;&amp;#147;We now have the tools we need to educate so many more in Zion. From Rexburg to Rome, we are working to make a BYU-Idaho education more accessible and meaningful for Latter-day Saints all over the world,&amp;#148; Sanders said.&lt;/p&gt;
+														
+							&lt;span class="section_heading"&gt;Online Instructors&lt;/span/&gt;
+							&lt;p&gt;Online learning doesn&amp;#039;t just bless the lives of students, it also benefits those instructing them. Because of the need to hire qualified teachers for the many online courses starting up in the next couple of years, the university has begun to hire online-only instructors. And thanks to the lack of physical space limitations of an online classroom, these individuals can reside anywhere in the country, thus opening up opportunities for many more people. While more than 750 instructors currently teach classes at BYU-Idaho, approximately 100 of those don't live in the Rexburg area.&lt;/p&gt;
+							&lt;p&gt;Although hiring online-only instructors is still fairly new to BYU-Idaho, there has been unprecedented interest from those desiring to teach. Fifty-four instructors currently teach online-only classes, and for the forty new positions beginning in January, the university received seven hundred sixty-five applications. Online instructors currently reside and work from seventeen states.&lt;/p&gt;
+							&lt;p&gt;Brett Miller is an online instructor residing in South Jordan, Utah, and is in his third semester teaching an American Foundations course. Though hesitant at first about the effectiveness of online learning, he is now sold on the concept. &amp;#147;The quality is at least as good as a conventional class, if not better,&amp;#148; he said. &amp;#147;Students are much more willing to contribute and be free with their thoughts because they aren&amp;#039;t nervous about asking the wrong things and getting embarrassed in front of their peers. They also have more time to research issues, formulate thoughts and ideas, and bring something substantive to the table.&amp;#148;&lt;/p&gt;
+							&lt;p&gt;While teaching in an online setting certainly differs from a conventional classroom, quality is not left behind. Instructors are required to complete an initial forty-hour course prior to facilitating classes. They also must contribute to their courses daily, provide weekly reflections about their courses and performance, participate in teaching groups, and offer suggestions for course improvements. Throughout the semester, teaching group leaders visit each course regularly and provide instructors with feedback. And at the mid-point and end of each semester, students also provide evaluations regarding instructor quality.&lt;/p&gt;
+							&lt;p&gt;&amp;#147;Each of my teachers has taken a great amount of time to ensure our online classes are effective. They are always available to answer questions and discuss assignments when needed. I love the support system the program provides,&amp;#148; Dornon said.&lt;/p&gt;
+							
+							&lt;span class="section_heading"&gt;In-Class Technology&lt;/span/&gt;
+							&lt;p&gt;Besides Web technology, which blesses the lives of students both on and off campus, instructors in Rexburg have access to an array of options that can enhance their classroom lessons.&lt;/p&gt;
+							&lt;p&gt;Approximately 240 classrooms are equipped with Technology Enhanced Classroom (TEC) systems. These are built inside podiums and provide complete computer and software access, Internet, a projector, audio equipment, a laptop port, and a document camera (that works similarly to an overhead projector).&lt;/p&gt;
+							&lt;p&gt;To make this technology seamless to instructors and students, the university is implementing RoomView&lt;sup&gt;TM&lt;/sup&gt;, which allows the Computer Help Desk to monitor each TEC system from a central location and fix problems before instructors even know they exist.&lt;/p&gt;
+							&lt;p&gt;&amp;#147;The primary goal of the monitoring system is to be able to rapidly solve technology problems in the classroom. Our goal is to make problem resolution as invisible as possible so we are not interrupting the teaching process,&amp;#148; said Kent Barrus, Academic Technology Services director.&lt;/p&gt;
+							&lt;p&gt;In addition to the TEC systems, the university is also looking at implementing technology that would capture every occurrence during a given class: lectures, discussions, Web sites shown, student presentations, and more. The recording will then be automatically uploaded to a server and indexed based on key words. Students and instructors can then access the files for a variety of needs.&lt;/p&gt;
+							
+							&lt;span class="section_heading"&gt;Enhanced Student Interaction&lt;/span/&gt;
+							&lt;p&gt;In today&amp;#039;s ever-changing technological world, it&amp;#039;s hard to imagine what tomorrow will offer for student-to-student interaction. A few years ago, e-mail was at the cutting edge of technology. Now, chatter among students is about texts, blogs, wikis, and tweets. But whatever a person&amp;#039;s preferred mode of communication, barriers between students are coming down allowing them to interact more freely with each other.&lt;/p&gt;
+							&lt;p&gt;&amp;#147;In the classroom, I love drawing all my students into the conversation, but it&amp;#039;s a great challenge with some. In the online world, it&amp;#039;s easier to involve every student in the discussion. This improves the quality of the overall discussion as well as the learning experience for individuals who otherwise would not participate,&amp;#148; said Rob Eaton, associate vice president over Academics.&lt;/p&gt;
+							&lt;p&gt;BYU-Idaho uses a suite of online delivery and collaboration tools called I-Learn, which includes class and group e-mail, discussion boards, blogs, wikis, and feedback tools. Beyond online-only courses, many instructors use I-Learn to help students prepare for coming lessons.&lt;/p&gt;
+							&lt;p&gt;&amp;#147;One of the biggest struggles I have is getting my students to read assigned chapters before class,&amp;#148; said Don Campbell, a faculty member in the Department of Accounting. To help combat this problem, Brother Campbell posts a twenty-question pre-test on I-Learn that students must take prior to the next class, thus helping them thoroughly study the assigned material. He also has students complete a pondering activity at the end of each unit where they record their thoughts and feelings about the content on a blog on I-Learn. &amp;#147;Through the blog, students reflect on what they have learned, which helps reinforce the material. In addition, I am able to gather valuable feedback about the course and how I can improve,&amp;#148; Campbell said.&lt;/p&gt;
+							&lt;p&gt;Other instructors use I-Learn to enhance student learning by extending conversations beyond the classroom through discussion boards, blogs, and other collaboration tools. Zan Cammack, an instructor in the Department of English, is one of many faculty who uses discussion boards to help students prepare for classes. &amp;#147;Discussion boards place more responsibility on students and strengthen their interactions with each other. Some days I walk into class and hear students talking about each other&amp;#039;s posts, and I love that.&amp;#148; Cammack also said her students&amp;#039; online comments help frame her lessons.  &amp;#147;Sometimes I&amp;#039;ll see a theme or question in their posts that I hadn&amp;#039;t thought about, so I&amp;#039;m better able to prepare for class. I can see what they're struggling with and can determine how to address it. This significantly furthers the learning process because class time is used for discovery rather than preparation,&amp;#148; Cammack said.&lt;/p&gt;
+							
+							&lt;span class="section_heading"&gt;The Future of Learning and Technology&lt;/span/&gt;
+							&lt;p&gt;BYU-Idaho is making significant strides to provide a quality education to many more students. And thanks to continual advancements in technology, we are moving faster than ever before. &lt;/p&gt;
+							&lt;p&gt;In 1997, President Henry B. Eyring visited BYU-Idaho to assist with the dedication of the John Taylor Building. Walking through the Taylor Chapel with then-president David A. Bednar, President Eyring &amp;#147;stood near the pulpit on the stand and gazed into the audience area for quite a long time. After a few minutes, [Elder Bednar] asked him: &amp;#039;Elder Eyring, what are you thinking about?&amp;#039; He answered with this profound and penetrating observation: &amp;#039;I am thinking about how much we do for so few and how little we do for so many.&amp;#039; He then continued, &amp;#039;The tithing ... from good people all over the world paid for this facility. And most of the people who have made this beautiful facility possible will never see or step foot in a building like this. That is what I am thinking about.&amp;#039;&amp;#148; &lt;/p&gt;
+							&lt;p&gt;Today at Brigham Young University-Idaho, physical walls no longer restrict the number of educational opportunities available to Latter-day Saints. Through the blessings of technology, the university is able to offer a Church-based education to many more individuals&amp;#151;even to people who will never set foot on campus in Rexburg.&lt;/p&gt;
+							&lt;p&gt;President Kim B. Clark said, &amp;#147;There are important and innovative changes taking place at Brigham Young University-Idaho. The Lord is moving this work forward in a remarkable way. I am grateful for the wonderful blessings He gives to each of us as we help make educational opportunities available to many more members of the Church. &amp;#148;&lt;/p&gt;
+							 
+&lt;div class="noprint"&gt;							
+&lt;a name="featureAudio"&gt;&amp;nbsp;&lt;/a&gt;
+&lt;div class="dashing_divider"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;h1 name="featureAudio"&gt;Listen&lt;/h1&gt;
+&lt;ul class="videoList"&gt;
+	&lt;li&gt;&lt;a href="http://stream.byui.edu/Videos/BYUIMagazine/Andy_Cargal_Blessing_Learning_Technology.mp3"&gt;&lt;img src="../images/download-button.png" alt="Low Stream" /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class="previewDiv" style="width: 320px; height: 20px;"&gt;
+
+		&lt;embed width="320" height="20" src="http://stream.byui.edu/fms/player.swf" type="swf" flashvars="streamer=rtmp://stream.byui.edu/vod&amp;file=BYUIProduced/alumniMagazine/Andy_Cargal_Blessing_Learning_Technology.mp3&amp;type=mp3" allowfullscreen="false" allowscriptaccess="always" /&gt;
+
+		&lt;a href="http://stream.byui.edu/fms/player.swf" class="eyhmcernmqxnrrrrgktc"&gt;&lt;/a&gt; 
+
+&lt;/div&gt;
+							
+						&lt;a name="featurePhotoGallery"&gt;&amp;nbsp;&lt;/a&gt;
+						&lt;div class="dashing_divider"&gt;&amp;nbsp;&lt;/div&gt;
+						&lt;h1 name"featurePhotoGallery"&gt;Photo Gallery&lt;/h1&gt;
+							&lt;!--Begin Photo Gallery--&gt;
+							&lt;iframe style="width:540px; height:440px; margin-left:0px; margin-top:10px;" src="slideshow_strengthening/index.html" scrolling="no" frameborder="0" width="540px" height="440px"&gt;
+							&lt;/iframe&gt;
+							&lt;!--End Photo Gallery--&gt;
+							&lt;a name="featureDownloadPDF"&gt;&amp;nbsp;&lt;/a&gt;
+							&lt;div class="dashing_divider"&gt;&amp;nbsp;&lt;/div&gt;
+							&lt;h1 name="featureAudio"&gt;Download PDF&lt;/h1&gt;
+								&lt;ul class="videoList"&gt;
+									&lt;li&gt;&lt;a href="Strengthening Education through Technology at BYU-Idaho.pdf"&gt;&lt;img src="../images/download-button.png" alt="Low Stream" /&gt;&lt;/a&gt;&lt;/li&gt;
+								&lt;/ul&gt;
+							
+						&lt;/div&gt;
+						
+					&lt;/div&gt;
+                    &lt;/div&gt; &lt;!-- Close of leftAREA --&gt;
+                    &lt;div class="rightAREA"&gt;&lt;img alt="Place Holder" src="http://www.byui.edu/css/V1/images/placeholder80.gif" /&gt;&lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div id="footer"&gt;
+            &lt;div id="shadow"&gt;Copyright&amp;copy; &lt;script type="text/javascript"&gt;var d = new Date();document.write(d.getFullYear());&lt;/script&gt; BYU&amp;ndash;Idaho&lt;br /&gt;All Rights Reserved.&lt;/div&gt;
+        &lt;/div&gt;
+    
+    &lt;!--EndEditorForm--&gt;
+&lt;script type="text/javascript" src="../../js/custom/superfish.js"&gt;&lt;/script&gt;	
+&lt;script type="text/javascript"&gt;
+//&lt;![CDATA[
+	jQuery.noConflict();
+
+	jQuery('ul.superfish').superfish({ 
+		delay:       200,                            // one second delay on mouseout 
+		animation:   {'marginLeft':'0px',opacity:'show'},  // fade-in and slide-down animation 
+		speed:       'fast',                          // faster animation speed
+		onBeforeShow: function(){ this.css('marginLeft','20px'); }, 			
+		autoArrows:  true,                           // disable generation of arrow mark-up 
+		dropShadows: false                            // disable drop shadows 
+	}).find('&gt; li &gt; ul').prepend('&lt;span class="top-arrow"&gt;&lt;/span&gt;');
+	
+	var pagemenuwidth = jQuery("ul.nav").width();
+	var pagemleft = Math.round((804 - pagemenuwidth) / 2) + 55;
+	if (pagemenuwidth &lt; 804) jQuery("ul.nav").css('padding-left',pagemleft);
+	
+	jQuery('ul.superfish ul a').hover(function(){
+		jQuery(this).parent('li').stop().animate({paddingLeft:'27px'},300);
+	},function(){
+		jQuery(this).parent('li').stop().animate({paddingLeft:'17px'},300);
+	});
+	
+	et_search_bar();
+	
+	jQuery('#sidebar ul li a').hover(function(){
+		jQuery(this).stop().animate({paddingLeft:'38px',backgroundPosition:'21px 14px'},300);
+	},function(){
+		jQuery(this).stop().animate({paddingLeft:'26px',backgroundPosition:'11px 14px'},300);
+	});
+	
+	jQuery('.share a.arrow').click(function(){
+		if (jQuery.browser.msie) 
+			jQuery(this).siblings('.buttons').animate({	opacity: 'toggle' }, 0, function() {
+				var sharebox = jQuery(this).parent('.share-box');
+				if (sharebox.hasClass('open')) sharebox.removeClass('open')
+				else sharebox.addClass('open');
+			});
+		else 
+			jQuery(this).siblings('.buttons').animate({	height: 'toggle' }, 700, function() {
+				var sharebox = jQuery(this).parent('.share-box');
+				if (sharebox.hasClass('open')) sharebox.removeClass('open')
+				else sharebox.addClass('open');
+			});
+
+		return false;
+	});
+	
+	jQuery('.share .buttons a').hover(function(){
+		jQuery(this).find('.tooltip').animate({	opacity: 'show', left: '39px' }, 300);
+	},function(){
+		jQuery(this).find('.tooltip').animate({	opacity: 'hide', left: '49px' }, 300);
+	});
+	
+	
+	&lt;!---- Search Bar Improvements ----&gt;
+	function et_search_bar(){
+		var $searchform = jQuery('#searchform1'),
+			$searchinput = $searchform.find("input#searchinput"),
+			searchvalue = $searchinput.val();
+			
+		$searchinput.focus(function(){
+			if (jQuery(this).val() === searchvalue) jQuery(this).val("");
+		}).blur(function(){
+			if (jQuery(this).val() === "") jQuery(this).val(searchvalue);
+		});
+	};
+
+		
+	Cufon.now();
+	
+//]]&gt;	
+&lt;/script&gt;	        &lt;script type="text/javascript"&gt; 
+    &lt;!-- TABLE FORMATTING SECTION --&gt;
+    &lt;script type="text/javascript"&gt;
+        &lt;!--
+        var tableTags = document.getElementById('main_body').getElementsByTagName("table");
+        for (var i = 0; i &lt; tableTags.length; i++)
+        {
+            var trTags = tableTags[i].getElementsByTagName("tr");
+            for (var j = 0; j &lt; trTags.length; j++)
+            {
+                if(j%2 == 0)
+                {
+                    trTags.item(j).style.backgroundColor = "#efefec";
+                }
+                else
+                {
+                    trTags.item(j).style.backgroundColor = "#ffffff";
+                }
+            }
+        }
+        --&gt;
+    &lt;/script&gt;
+&lt;!-- This script enables Google Analytics --&gt;
+		&lt;script type="text/javascript"&gt;
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		&lt;/script&gt;
+		&lt;script type="text/javascript"&gt;
+			try {
+			var pageTracker = _gat._getTracker("UA-12079604-1");
+			pageTracker._trackPageview();
+			} catch(err) {}
+		&lt;/script&gt;
+	&lt;/body&gt;
+&lt;/html&gt;
+</ESContent></EmptyShell>

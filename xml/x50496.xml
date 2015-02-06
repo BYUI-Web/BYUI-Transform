@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x50496" Name="CS1" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;script src=”http://isaac.byui.edu/WidgetManager/Scripts/js/jquery.BYUIWidgets.js" type="text/javascript"&gt;&lt;/script&gt;
+&lt;script src=”http://isaac.byui.edu/WidgetManager/Scripts/js/jquery.postmessage.js")" type="text/javascript"&gt;&lt;/script&gt;
+
+   &lt;script type="text/javascript"&gt;
+        $(document).ready(function () {
+ 
+            $("#general").BYUIWidget({ type: "GeneralLinks", role: "Student" });
+            $("#bob").BYUIWidget({ type: "AdRotator", role: "Student" });
+            $("#acalendar").BYUIWidget({ type: "CalendarHighlights", role: "Student" });
+            $("#message").BYUIWidget({ type: "UniversityMessage", role: "Student,FaultyEmployee,Everyone" });
+            $("#news").BYUIWidget({ type: "NewsAndEvents", role: "Student" });
+            $("#bob2").BYUIWidget({ type: "AdRotator", role: "Student", AdFormat: "VerticalAd" });
+            $('#FacultyNews').BYUIWidget({ type: "FacultyNews", role: "Faculty" });
+
+        });
+   &lt;/script&gt;
+
+
+ &lt;div id="general"&gt;
+    &lt;/div&gt;
+    &lt;div id="message" style="float: left"&gt;
+    &lt;/div&gt;
+    &lt;div id="acalendar"&gt;
+    &lt;/div&gt;
+    &lt;div id="news"&gt;
+    &lt;/div&gt;
+    &lt;div id="bob"&gt;
+    &lt;/div&gt;
+    &lt;div id="bob2"&gt;&lt;/div&gt;
+    &lt;div id="FacultyNews" style="float: left; margin-top: 0px;"&gt;&lt;/div&gt;
+</ContentSnippet></ContentSnippet>

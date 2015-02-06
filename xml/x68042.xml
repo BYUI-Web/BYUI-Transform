@@ -1,0 +1,719 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x68042" Name="imodules_style.css" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">imodules_style.css</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">imodules_style.css</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">/* Stylesheet for new BYU-Idaho Pages */
+
+/*BYU - Idaho Main Style Page 
+
+Dimensions: 950px Wide Centered
+Colors:
+	- Blue: #1c74b5
+	- Gray: #d4d4d4
+	- Black: #000000
+	
+Fonts:
+	- Title Text: 
+	
+
+*/
+
+/*********** Resets *************/
+	html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dd,dl,dt,ol,ul,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{
+		display:block;
+		margin:0;
+		border:0;
+		font-weight:normal;
+		font-style:normal;
+		text-align:left;
+		font-family:inherit;
+		padding:0px;
+	}
+	
+	table{border-collapse:collapse;border-spacing:0;}
+	
+	/*
+ol,ul{
+		list-style:none;
+		vertical-align: text-top;
+	}
+*/
+	
+	q:before,q:after,blockquote:before,blockquote:after{content:"";}
+	
+	div	{
+	 display: block;
+		
+	}
+	
+/*Global Settings*/
+
+	body {
+	width: 950px;
+	margin: auto;
+	font-family: "Arial", "Helvetica", "MS Trebuchet", sans-serif;
+	background-color: #fff;
+	color: #666;
+	}
+	
+	a { text-decoration: none; }
+	a:hover { text-decoration: underline; cursor: pointer; }
+	
+
+
+	/* Global Navigation*/
+
+		#GlobalNavigation {
+			height: 90px;
+			width: 950px;
+			display: block;
+			padding-bottom: 10px;
+			z-index: 9999;
+			position: relative;
+		}
+		
+		#GlobalNavigation li a{
+			text-decoration: none;
+		}
+		#GlobalNavigation li a:hover{
+			text-decoration: none;
+			cursor: pointer;
+		}
+		
+		/*
+		Image was set up on list items rather than a tags, because not all buttons will be a
+		tags... Some will be controlled by the Javascript for drop-down menus
+		*/
+		
+			#GlobalNavigation li {
+				/*background: url(../images/common/global_nav.jpg);*/
+				background: url(../images/common/top_nav1.png);
+				display: inline;
+				text-indent: -9999px;
+				display: block;
+				float: left;
+			}
+		
+		/*
+		Image that will display with the black bar at the top of the pages as part of
+		the global navigation
+		*/
+		
+			#GlobalNavigation li.blackBar{
+			height: 50px;
+			width: 950px;
+			display: block;
+			}
+			
+		/* Blue part of the Global Navigation */
+			
+			#GlobalNavigation li.directories{
+			height: 20px;
+			width: 190px;
+			display: block;
+			background-position: 0px -70px;
+			}
+			#GlobalNavigation li.directories:hover{
+			background-position: 0px -110px;
+			}
+			
+			#GlobalNavigation li.calendar{
+			height: 20px;
+			width: 190px;
+			display: block;
+			background-position: -190px -70px;
+			}
+			#GlobalNavigation li.calendar:hover{
+			background-position: -190px -110px;
+			}
+			
+			#GlobalNavigation li.aboutbyui{
+			height: 20px;
+			width: 190px;
+			display: block;
+			background-position: -380px -70px;
+			}
+			#GlobalNavigation li.aboutbyui:hover{
+			background-position: -380px -110px;
+			}
+			
+			#GlobalNavigation li.library {
+			height: 20px;
+			width: 190px;
+			display: block;
+			background-position: -570px -70px;
+			}
+			#GlobalNavigation li.library:hover{
+			background-position: -570px -110px;
+			}
+			
+			#GlobalNavigation li.siteindex{
+			height: 20px;
+			width: 190px;
+			display: block;
+			background-position: -760px -70px;
+			}
+			#GlobalNavigation li.siteindex:hover{
+			background-position: -760px -110px;
+			}
+		
+		/* Gray part of the Global Navigation */
+		
+			#GlobalNavigation li.currentStu{
+			height: 20px;
+			width: 237px;
+			display: block;
+			background-position: 0px -50px;
+			}
+			#GlobalNavigation li.currentStu:hover{
+			background-position: 0px -90px;
+			}
+			
+			#GlobalNavigation li.employees{
+			height: 20px;
+			width: 238px;
+			display: block;
+			background-position: -237px -50px;
+			}
+			#GlobalNavigation li.employees:hover{
+			background-position: -237px -90px;
+			}
+			
+			#GlobalNavigation li.alumni{
+			height: 20px;
+			width: 237px;
+			display: block;
+			background-position: -475px -50px;
+			}
+			#GlobalNavigation li.alumni:hover{
+			background-position: -475px -90px;
+			}
+			
+			#GlobalNavigation li.prospective{
+			height: 20px;
+			width: 238px;
+			display: block;
+			background-position: -712px -50px;
+			}
+			#GlobalNavigation li.prospective:hover{
+			background-position: -712px -90px;
+			}
+			
+		/* Search box */
+		
+		#GlobalNavigation form{
+			position: absolute;
+			top:20px;
+			left: 730px;
+		}
+		
+		.searchButton{
+			position: absolute;
+			top: 2px;
+			left: 151px;
+		}
+		
+		#GlobalNavigation p{
+			position: absolute;
+			top: 8px;
+			left: 730px;
+			color: #999999;
+			font-size: 9px;
+			width: 200px;
+		}
+		
+		#GlobalNavigation p a{
+			float: left;
+			display: inline;
+			color: #999;
+			font-size: 8px;
+			margin-top: 0px;
+		}
+				
+		#GlobalNavigation p span{
+			display: inline;
+			float: left;
+			font-size: 8px;
+			margin-top: 0px;
+			padding-left:5px;
+			padding-right:5px;
+		}
+		
+		/* BYU-Idaho Logo -- On the top left of every page! */
+		
+		#GlobalNavigation img {
+			border-style: none;
+			position: absolute;
+			top: 10px;
+			left: 10px;
+		}
+		
+		#GlobalNavigation form input{
+			border-style: none;
+		}
+		
+		#GlobalNavigation form input.header_search_box{
+			height: 16px;
+			width: 148px;
+		}
+		
+		#GlobalNavigation p.header_title{
+			position: absolute;
+			top: 17px;
+			left: 70px;
+			font-size: 14px;
+			color: white;
+		}
+		
+	/* Footer settings */
+	
+	#footer{
+		border-top: 1px solid gray;
+		width: 950px;
+		position: relative;
+		clear: both;
+		margin-top: 10px;
+	}
+	
+	#footer p{
+		text-align: center;
+		font-size: 10px;
+		color: gray;
+		padding-top: 10px;
+	}
+	
+	#footer ul {
+		list-style: none;
+		width: 540px;
+		margin: 0px auto;
+	}
+	
+	#footer li {
+		display: inline;
+		text-align: center;
+		padding-right: 40px;
+		padding-top: 10px;
+		color: gray;
+		font-size: 10px;
+		float: left;
+	}
+	
+	#footer li a {
+		color: gray;
+	}
+	
+	#footer li.lastListItem {
+		padding-right: 0px;
+	}
+	
+	#footer img{
+		position: absolute;
+		border-style: none;
+		top: 10px;
+		left: 10px;
+	}
+			
+	/* Bottom 3 boxes that are floated left to display in line */
+	
+	#leftBox{
+	width: 290px;
+	height: 181px;
+	display:block;
+	float:left;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	}
+	
+	#middleBox{
+	width: 320px;
+	height: 181px;
+	display:block;
+	float:left;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	}
+	
+	#rightBox{
+	width: 320px;
+	height: 181px;
+	display:block;
+	float:left;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	overflow: hidden;
+	}
+	
+	#rightBox h6 {
+	color:#666666;
+	font-size:11px;
+	left:10px;
+	letter-spacing:1px;
+	position:absolute;
+	text-transform:uppercase;
+	top:10px;
+	}
+
+	/* common used elements */
+	h2.box_header {
+		font-size: 10px;
+		height: 30px;
+		background-image: url('../images/common/section_header_blue.jpg');
+		background-repeat: repeat-x;
+		line-height: 30px;
+		text-transform: uppercase;
+		color: white;
+		margin-bottom: 0px;
+		padding-left: 10px;
+		clear: both;
+		margin-top: 0px;
+		letter-spacing: 1px;
+	}
+	
+	#breadcrumbs {
+		margin: 0px;
+		padding: 0px;
+		color: #666;
+		font-size: 10px;
+		margin-top: -10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	
+	
+	/* layout for most page types */
+	#main_region {
+		float: left;
+		width: 650px;
+	}
+	
+	#control_region {
+		width: 290px;
+		min-height: 470px;
+		padding-right: 10px;
+		display: block;
+		float: left;
+	}
+	
+	#content_wrapper {
+    width: 1050px;
+	}
+
+/* #content_wrapper div {
+      float: left;
+   }*/
+	
+	#related_links {
+		background-color: #C8C8C8;
+		padding-bottom: 10px;
+		margin-top: 10px;
+	}
+	
+	/* common ul / li styling */
+/* #related_links &gt; .box_header &gt; ul &gt; li, #control_region &gt; li {
+      font-size: 11px;
+      line-height: 20px;
+      text-transform: capitalize;
+   }
+
+   #related_links &gt; ul &gt; li, #control_region &gt; ul{
+      color: #666;
+      list-style-image: url('../images/common/arrow_bullet.jpg');
+  padding-left: 25px;
+      margin-top: 11px;
+      margin-left: 25px;
+      font-size: 11px;
+   }*/
+	
+	/* common title with styling:blue, border-bottom */
+	h1.section_title{
+		font-size: 20px;
+		color: #1c74b5;
+		clear: both;
+		font-weight: bold;
+		padding-top: 10px;
+		padding-bottom:10px;
+		border-bottom: 1px solid gray;
+		width: 950px;
+		
+	}
+	
+	/* common title with styling:white, gray gradiend background */
+	.SectionTitle{
+		background-image: url(../images/search_results/search_header_gradient.jpg);
+		background-repeat: repeat-x;
+		height: 60px;
+		width: 650px;
+		display: block;
+		color: white;
+		font-size: 16px;
+		border-bottom: thin solid white;
+	}
+	
+	#interactive_area{
+		padding-bottom: 10px;
+	}
+	
+	/*Drop down Menu*/
+	
+	#GlobalNavigation ul li div span{
+		background: url(../images/photo_gallery/right_arrow.png) no-repeat scroll 0 50%;
+		margin-left: 13px;
+		margin-top: 0px;
+		height: 15px;
+		padding-top: 7px;
+	}
+	
+	#GlobalNavigation ul li div span a{
+		color: #666;
+		font-size: 11px;
+		margin-left: 18px;
+		line-height: 8px;
+	}
+	
+	#directories, #library, #aboutbyui, #calendar{
+		text-indent: 0px; 
+		z-index: 9999; 
+		background: url(../images/common/drop_down.png) 0 100%;
+		padding-bottom: 10px;
+	}
+	
+	#middleBox{
+	position: relative;
+	width: 320px;
+	height: 181px;
+	display:block;
+	float:left;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	background-image: url(../images/image_rotater/rotater_background.png);
+	background-repeat: no-repeat;
+	}
+	
+	#middleBox h6 {
+	color:#999999;
+	font-size:11px;
+	left:10px;
+	letter-spacing:1px;
+	position:absolute;
+	text-transform:uppercase;
+	top:10px;
+	}
+	
+	#middleBox .devo_description{
+	position: absolute;
+	top: 40px;
+	left: 25px;
+	width: 150px;
+	color: white;
+	font-size: 19px;
+	}
+	
+	#middleBox .devo_speaker{
+	position: absolute;
+	top: 110px;
+	left: 25px;
+	width: 150px;
+	color: white;
+	font-size: 12px;
+	}
+	
+	#middleBox img{
+	position: absolute;
+	top:0px;
+	left: 145px;
+	height: 181px;
+	width: 176px;
+	/*width: 145px;*/
+	}
+	
+	#middleBox img.devo_button {
+	height:11px;
+	left:15px;
+	position:absolute;
+	top:156px;
+	width:11px;
+	}
+	
+	#middleBox .devo_link {
+	color:#666666;
+	font-size:10px;
+	left:35px;
+	position:absolute;
+	text-decoration:none;
+	top:155px;
+	}
+	
+	#middleBox .devo_link:hover{
+	text-decoration: underline;
+	}
+	
+	#login_box{
+	position: relative;
+	width: 290px;
+	height: 60px;
+	display:block;
+	float: left;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	background-image: url(../images/login/login_background.png);
+	background-repeat: no-repeat;
+	}
+	
+	#login_box p{
+	color: white;
+	padding-left: 10px;
+	padding-top: 15px;
+	float: left;
+	}
+	
+	#login_box img {
+	padding-top: 8px;
+	float: left;
+	}
+	
+	#first_time_btn {
+	padding-left: 10px;
+	}
+	
+	#login_box img.devo_button {
+	clear: both;
+	height:11px;
+	width:11px;
+	padding-left: 225px;
+	padding-right: 5px;
+	}
+	
+	#login_box .devo_link {
+	color:#666666;
+	font-size:10px;
+	text-decoration:none;
+	padding-top: 45px;
+	}
+	
+	#login_box .devo_link:hover{
+	text-decoration: underline;
+	}
+	
+	.image_overlay {
+	background-image: url(../images/get_connected/image_sublayer.png);
+	position:relative;
+	top:-40px;
+	width:631px;
+	color: white;
+	padding-top: 13px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	font-family: arial;
+}
+
+/*ALumni News*/
+#alumni_box{
+	position: relative;
+	width: 320px;
+	height: 181px;
+	display:block;
+	float:left;
+	color:#666666;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	background-image: url(../images/section_background.png);
+	background-repeat: no-repeat;
+	}
+	
+	#alumni_box h6 {
+	color:#666666;
+	font-size:11px;
+	left:10px;
+	letter-spacing:1px;
+	position:absolute;
+	text-transform:uppercase;
+	top:10px;
+	}
+	
+	#alumni_box .devo_description{
+	position: absolute;
+	top: 40px;
+	left: 120px;
+	width: 165px;
+	color:#666666;
+	font-size: 12px;
+	font-weight: bold;
+	font-weight: lighter 100;
+	}
+	
+	#alumni_box .devo_speaker{
+	position: absolute;
+	top: 110px;
+	left: 25px;
+	width: 150px;
+	color: white;
+	font-size: 12px;
+	}
+	
+	#alumni_box .alumni_main_message {
+	padding-top: 65px;
+	padding-left: 125px;
+	width: 150px;
+	color:#666666;
+	font-size: 10px;
+	font-weight: lighter 800;
+	list-style: none;
+	}
+	
+	
+	#alumni_box img{
+	position: absolute;
+	top:32px;
+	left: 10px;
+	height: 121px;
+	width: 95px;
+	}
+	
+	#alumni_box img.devo_button {
+	height:11px;
+	left:15px;
+	position:absolute;
+	top:164px;
+	width:11px;
+	}
+	
+	#alumni_box .devo_link {
+	color:#666666;
+	font-size:10px;
+	left:35px;
+	position:absolute;
+	text-decoration:none;
+	top:164px;
+	}
+	
+	#alumni_box .devo_link:hover{
+	text-decoration: underline;
+	}
+	
+	#newsEventsList h6 {
+	font-size: 14px;
+	}
+	
+	#newsEventsList p {
+	padding-top: 30px;
+	padding-left: 10px;
+	width: 280px;
+	color:#666666;
+	font-size: 11px;
+	font-weight: lighter 100;
+	list-style: none;
+	}
+	
+	/* common ul / li styling */
+	#related_links &gt; .box_header &gt; ul &gt; li, #control_region &gt; li {
+		font-size: 11px;
+		line-height: 20px;
+		text-transform: capitalize;
+	}
+
+	#related_links &gt; ul &gt; li, #control_region &gt; ul {
+		color: #666;
+		list-style-image: url('../images/common/arrow_bullet.jpg');
+/*		padding-left: 25px;*/
+		margin-top: 11px;
+		margin-left: 25px;
+		font-size: 11px;
+	}</ESContent></EmptyShell>

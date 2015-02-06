@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 6.0.82 - http://www.ingeniux.com ***-->
+<DetailPage ID="x67447" Name="Web Development" Layout="default.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Web Development</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Building a form</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="true"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false">Web Development</BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false">Web Development</MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="false" required="false">0.5</Priority></xPower><xPower Type="Component" Component="x14" Name="RelatedLinks" label="Related Links" readonly="false" hidden="false" required="false" CompTypes="RelatedLinksComponent" Expanded="false"/><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<div id="master">
+<div id="body">
+<div id="content"><span class="title">Toolbar</span>
+<p>&nbsp;</p>
+<p>The toolbar provides the following buttons to initiate various CMS actions. Toolbar buttons become active or inactive depending upon the current context. This toolbar resides along the top margin and appears as follows:</p>
+<p>&nbsp;</p>
+<p><span style="font-size: x-small;"><img alt="Toolbar" height="22" src="Images/Web Development/Clienttoolbar.png" style="width: 450px; height: 22px; margin-left: 0px; margin-right: 0px;" width="450" /></span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: x-small;"> </span> 
+<table border="1">
+<tbody>
+<tr>
+<td><span style="font-size: x-small;"> </span><img alt="Dashboard" src="Images/Web Development/dashboard32.png" style="width: 32px; height: 32px; margin-left: 0px; margin-right: 0px;" /></td>
+<td>Dashboard</td>
+<td>loads the Dashboard Tab.</td>
+</tr>
+<tr>
+<td><span style="font-size: x-small;"> </span><img alt="New Node" height="32" src="Images/Web Development/new32.png" style="width: 32px; height: 32px; margin-left: 0px; margin-right: 0px;" width="32" /></td>
+<td>New</td>
+<td>initiates the new node option (see below) allowing the user to create a new folder, a new page, or new component depending on the user&rsquo;s permissions and access to the selected location in the site tree.</td>
+</tr>
+<tr>
+<td><img alt="Save Icon" height="32" src="Images/Web Development/save32.png" style="width: 32px; height: 32px; margin-left: 0px; margin-right: 0px;" width="32" /></td>
+<td>Save</td>
+<td>commits changes to the current page made in the Edit Pane.</td>
+</tr>
+<tr>
+<td><img alt="Check Out Icon" height="32" src="Images/Web Development/checkout32.png" style="width: 32px; height: 32px; margin-left: 0px; margin-right: 0px;" width="32" /></td>
+<td>Check Out</td>
+<td>moves the selected page or component into a state where the page can be edited.  Availability of this button is based on the status of the selected page.  <br /></td>
+</tr>
+<tr>
+<td><img alt="Check In Icon" height="32" src="Images/Web Development/checkin32.png" style="width: 32px; height: 32px; margin-left: 0px; margin-right: 0px;" width="32" /></td>
+<td>Check In</td>
+<td>saves a version of the selected page and prepares the page for review and its eventual publish.  Availability of this button is based on the status of the selected page.  <br /></td>
+</tr>
+<tr>
+<td><img alt="Rename Icon" height="32" src="Images/Web Development/edit32.png" style="width: 32px; height: 32px; margin-left: 0px; margin-right: 0px;" width="32" /></td>
+<td>Rename</td>
+<td>launches the Rename dialog to rename the selected node.</td>
+</tr>
+<tr>
+<td><img alt="Manage Assets Icon" height="32" src="Images/Web Development/upload32.png" style="width: 32px; height: 32px; margin-left: 0px; margin-right: 0px;" width="32" /></td>
+<td>Manage Assets</td>
+<td>launches the Manages Assets dialog for uploading, managing, and referencing Images, Documents, Media files, and other static files.</td>
+</tr>
+<tr>
+<td><img alt="Assign To Icon" height="32" src="Images/Web Development/assignto32.png" style="width: 32px; height: 32px; margin-left: 0px; margin-right: 0px;" width="32" /></td>
+<td>Assign To</td>
+<td>launches the Page Assignment dialog providing the option to change the selected node&rsquo;s user assignment, provided the user has sufficient permissions.</td>
+</tr>
+<tr>
+<td><img alt="Advance Icon" height="32" src="Images/Web Development/advance32.png" style="width: 32px; height: 32px; margin-left: 0px; margin-right: 0px;" width="32" /></td>
+<td>Advance</td>
+<td>launches the Workflow Advance dialog for moving a page or component to the next step of a workflow. This button is only enabled if the selected page or component is currently within a workflow.</td>
+</tr>
+<tr>
+<td><img alt="Refresh icon" height="32" src="Images/Web Development/refresh32.png" style="width: 32px; height: 32px; margin-left: 0px; margin-right: 0px;" width="32" /></td>
+<td>Refresh</td>
+<td>reloads the client Navigation and Edit Panes.</td>
+</tr>
+<tr>
+<td><img alt="Help Icon" height="32" src="Images/Web Development/help32.png" style="width: 32px; height: 32px; margin-left: 0px; margin-right: 0px;" width="32" /></td>
+<td>Help</td>
+<td>launches the client Help window.</td>
+</tr>
+<tr>
+<td><img alt="Go To Dropdown Icon" height="26" src="Images/Web Development/Gotodropdown1.png" style="width: 173px; height: 26px; margin-left: 0px; margin-right: 0px;" width="173" /></td>
+<td>Go to Page Drop Down</td>
+<td>provides an input field for locating pages in the site by entering a page xID, a page name, or using the dropdown to select from a list of prior entered pages.</td>
+</tr>
+<tr>
+<td><img alt="Go To Icon" height="32" src="Images/Web Development/goto32.png" style="width: 32px; height: 32px; margin-left: 0px; margin-right: 0px;" width="32" /></td>
+<td>Go To</td>
+<td>loads the edit pane for entered page and selects the page node in the Site Tree if the Site Tab is currently loaded in the Navigation Pane.</td>
+</tr>
+<tr>
+<td><img alt="Back Icon" height="32" src="Images/Web Development/back32.png" style="width: 32px; height: 32px; margin-left: 0px; margin-right: 0px;" width="32" /></td>
+<td>Back</td>
+<td>provides the option to load a prior page based on past selected pages.</td>
+</tr>
+<tr>
+<td><img alt="Forward Icon" height="32" src="Images/Web Development/forward32.png" style="width: 32px; height: 32px; margin-left: 0px; margin-right: 0px;" width="32" /></td>
+<td>Forward</td>
+<td>provides the option to load a page loaded after the current page based on past selected pages.</td>
+</tr>
+</tbody>
+</table>
+</p>
+</div>
+<div class="clearBoth"></div>
+</div>
+</div>]]></BodyCopy><xPower Type="List" List="xpowercomponent_ImageComponent" Name="LeftColumnImageComponentList" label="Left Column Image Component List" readonly="false" hidden="false" required="false" Component="" CompTypes="LeftColumnImageComponent" Expanded="false"><xPower Type="Component" Component="" Name="ImageComponent" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent" Expanded="false"/><ImageComponent Expanded="false" Component=""></ImageComponent></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x921" Name="SiteControl" label="Site Control" readonly="true" hidden="true" required="false" CompTypes="SiteControl" Expanded="false"/></DetailPage>

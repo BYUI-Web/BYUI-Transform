@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.68 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x30308" Name="Payment Methods" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Payment Methods</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Payment Methods</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p style="font-family: Verdana, Arial, sans-serif;">Paying your account at BYU-Idaho is easy!</p>
+<p style="font-family: Verdana, Arial, sans-serif;"><img alt="The payment methods accepted are cash, checks, money orders, electronic checks, and MasterCard credit cards." height="204" src="Images/financial-services/111101_purchasecard_17.jpg" style="float: right;" title="Payment Methods" width="350" />The Bursar&rsquo;s Office accepts cash, checks, money orders, electronic checks (E-Checks), as well as VISA, Mastercard, and Discover credit cards.</p>
+<p></p>
+<p style="font-family: Verdana, Arial, sans-serif;"><br /><strong></strong></p>
+<h4 style="font-weight: bold;">Web Payments</h4>
+<ul>
+<li>Preferred payment method is e-check (no service charge, secure, safe) Click <a href="x91556.xml" title="eCheck Instructions">here</a> for instructions on paying by e-check.</li>
+</ul>
+<hr style="color: #fff; background-color: #fff; border: 1px dotted gray; border-style: none none dotted;" />
+<p style="font-family: Verdana, Arial, sans-serif;">E-Check &ndash; <strong>No Service Charge</strong><br />VISA, Mastercard, and Discover &ndash; <strong>2.75% Service Charge</strong></p>
+<ul style="list-style-type: circle; font-family: Verdana, Arial, sans-serif;">
+<li>Online at <a href="http://my.byui.edu">my.byui.edu</a> <span style="font-size: smaller;">(For more information about updated Personal Account information click <a href="x42140.xml" title="CASHNet">here</a>)</span>.</li>
+</ul>
+<h4 style="font-weight: bold;">Cash Payments</h4>
+<hr style="color: #fff; background-color: #fff; border: 1px dotted gray; border-style: none none dotted;" />
+<ul style="list-style-type: circle; font-family: Verdana, Arial, sans-serif;">
+<li>In person at the Cashier&rsquo;s Office in 130 Kimball Building, Rexburg, Idaho.</li>
+</ul>
+<h4 style="font-weight: bold;">Check Payments</h4>
+<hr style="color: #fff; background-color: #fff; border: 1px dotted gray; border-style: none none dotted;" />
+<ul style="list-style-type: circle; font-family: Verdana, Arial, sans-serif;">
+<li>By Mail:
+<ul style="list-style-type: none;">
+<li>Bursar&rsquo;s Office</li>
+<li>Brigham Young University &ndash; Idaho</li>
+<li>130 Kimball</li>
+<li>525 S Center ST 1625</li>
+<li>Rexburg, Idaho 83460-1625</li>
+</ul>
+</li>
+<li>In person at the Cashier&rsquo;s Office in 130 Kimball Building, Rexburg, Idaho.</li>
+<li>Make checks payable to: Brigham Young University - Idaho</li>
+</ul>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x18419" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

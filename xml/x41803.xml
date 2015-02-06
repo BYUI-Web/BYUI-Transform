@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<CMenuNav ID="x41803" Name="LeftNav1"><Title type="string" label="Title" readonly="false" hidden="false" required="false">New Student Checklists</Title><Description type="string" label="Description" readonly="false" hidden="false" required="false">A simple list to follow to get ready for BYU-Idaho</Description><BodyCopy type="dhtml" label="BodyCopy" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+/*Flyout box is to hold the different flyouts margins begin at 0*/
+    #flyout_box{width:630px;height:615px; overflow:hidden;}
+    /*Fonts and text areas*/
+    #flyout_box div, #flyout_box #bolder, #flyout_box #sub, #flyout_box ul{
+        font-family: Century Gothic,sans-serif; margin: 0px;}
+    #flyout_box #bolder{font-weight: bold; color: #326BA9;}
+    #flyout_box #comment_box #bolder{font-size: 14px; color: #326BA9;}
+    #flyout_box #comment_box #sub{padding: 0px 0px 0px 10px; font-size: 13px;}
+    #flyout_box #text_box #bolder{color: #326BA9; font-size: 13.5px;}
+    #flyout_box #text_box #sub{margin: 0px 0px 10px 10px; font-size: 12px;}
+    #flyout_box #text_box #small{font-size: 11px; color: #326BA9;}
+    /*Shows the content on the right 65% of 630px = 409.5px*/
+    #flyout_box #content_box{
+        width: 100%; max-width: 630px; height: 615px;
+        margin: 0px; padding: 0px; display: inline-block;}
+    /*The blue comment box*/
+    #flyout_box #comment_box{
+        position: relative; left: -40px;
+        width: 400px; height: 80px;overflow: hidden;
+        padding: 20px 5px 5px 55px;
+        background-image: url('http://www.byui.edu/Images/student-support/newly_admitted_students/speech_bubble.png');
+        background-size: 100% 100%; background-repeat: no-repeat;}
+    /*The text_box contains all the info*/
+    #flyout_box #text_box{width: 630px; padding: 5px 0px 0px 10px;}
+    /*Unordered List with contact information*/
+    #flyout_box #text_box #contact {margin: 0px; padding: 0px 0px 10px 45px; font-size: 11px;}
+    #flyout_box #text_box #contact #email{list-style: url('http://www.byui.edu/Images/student-support/newly_admitted_students/email_icon.png');}
+    #flyout_box #text_box #contact #call{list-style: url('http://www.byui.edu/Images/student-support/newly_admitted_students/call_icon.png');}
+    #flyout_box #text_box #contact #facebook{list-style: url('http://www.byui.edu/Images/student-support/newly_admitted_students/facebook_icon.png');}
+    /*Buttons on the bottom of the page*/
+    #flyout_box #text_box div{float: left;}
+    #flyout_box #text_box div{width: 199px;}
+
+#text_box #checklist_images li{
+        margin-left:5px;
+        list-style: none;
+        display: inline;
+        list-style-type: none;
+	}
+#text_box #getconn_semesters li{
+		float:left;
+        margin-left:20px;
+        list-style: none;
+        list-style-type: none;
+	}
+#content_box #checklist_bot{
+    width:100%;
+    height:229px;
+    background-image: url('http://www.byui.edu/Images/student-support/newly_admitted_students/checklist_bot.png');
+}
+#top_black_bar{
+    background:#252525;
+    height:25px;
+    width:100%;
+    padding:10px;
+    color:white;
+}
+--></style>
+<div class="step1" id="flyout_box">
+<div id="top_black_bar">New Student Checklists</div>
+<div id="content_box">
+<div id="comment_box"><span id="bolder">New Student Checklists</span>
+<p id="sub">We have a specialized checklist for every starting semester and student admissions type. Select the link below to see your checklist.</p>
+</div>
+<div id="text_box">
+<ul id="checklist_images">
+<li><a class="main_image campus" href="http://www.byui.edu/student-support/student-checklists/campus-student-checklist-before-arriving"><img height="120px" src="http://www.byui.edu/Images/student-support/checklist/Campus-Students1.gif" /></a></li>
+<li><a class="main_image online" href="http://www.byui.edu/student-support/student-checklists/online-student-checklist"><img height="120px" src="http://www.byui.edu/Images/student-support/checklist/online1.gif" /></a></li>
+<li><a class="main_image pathway" href="http://www.byui.edu/student-support/student-checklists/pathway-students-checklist"><img height="120px" src="http://www.byui.edu/Images/student-support/checklist/pathway1.gif" /></a></li>
+</ul>
+</div>
+<div id="checklist_bot"></div>
+</div>
+</div>]]></BodyCopy></CMenuNav>

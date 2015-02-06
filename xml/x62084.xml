@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x62084" Name="Counseling Services" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Counseling Services</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Counseling Services</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style type="text/css"><!--
+.box1 {     
+-moz-box-shadow: 0 0 5px 1px #333;     
+-webkit-box-shadow: 0 0 5px 1px #333;     
+box-shadow: 0 0 5px 1px #333;              
+}
+#page_title{
+     display:none
+}
+#specialbox{
+     background-color: #fafafa;
+     border: 1px solid #ddd; 
+     padding: 10px 20px 5px 20px; 
+     font-weight: normal; 
+     margin: 10px 0px 0px 0px; 
+     clear:both;
+     box-shadow: 0 0 5px #f0f0f0;
+}
+--></style>
+<span style="line-height: 40px; margin-top: 10px; font-size: 250%; font-family: Georgia; color: black;">Counseling Services</span> <span style="font-family: arial; font-size: 80%; text-align: left; padding-left: 20px;">Hours: 8 am - 5pm Mon - Fri | Phone: 208.496.9370</span> 
+<hr />
+<div id="specialbox">
+<p>The following services are provided free of charge to matriculated BYU-Idaho students.  Click on the links to find the services you are looking for.</p>
+</div>
+<p><a href="x41566.xml"><img alt="Individual Counseling" height="300" src="Images/counseling-center/graphics/individualCounseling1(1).jpg" style="float: left; padding: 0px;" title="Individual Counseling" width="300" /></a><a href="x41567.xml"><img alt="Couples Counseling" height="300" src="Images/counseling-center/graphics/couplesCounseling1(0).jpg" style="float: left; padding: 0px;" title="Couples Counseling" width="300" /></a></p>
+<p><a href="x41568.xml"><img alt="Group Counseling" height="300" src="Images/counseling-center/graphics/groupCounseling1(0).jpg" style="float: left; padding: 0px;" title="Group Counseling" width="300" /></a> <a href="x41538.xml"><img alt="Other Services" height="300" src="Images/counseling-center/graphics/otherServices1(0).jpg" style="float: left; padding-top: 1px; padding-left: 2px;" title="Other Services" width="300" /></a></p>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="x24495" CompTypes="HighlightedLinksComponent"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x17637" CompTypes="SiteControl"/></Content>

@@ -1,0 +1,373 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.68 - http://www.ingeniux.com ***-->
+<AdminPage ID="x30412" Name="Associations" Layout="admin_office_home.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">BYU-I Student Associations</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Student associations at BYU-I</Abstract><MainMesgTop type="boolean" label="Enable to move &quot;Main Message&quot; to top of page" readonly="false" required="false" hidden="false">true</MainMesgTop><IntroCopy type="dhtml" label="Main Message" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background: #ccc;
+    text-indent: -9999px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 0 2px;
+    outline: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+    background: #444;
+}
+
+#floater a {
+    text-decoration: none !important;
+color: inherit;
+}
+.bx-pager-item{
+    display:-moz-inline-stack;
+    display:inline-block;
+    zoom:1;
+    *display:inline;
+}
+.bx-pager.bx-default-pager{
+    text-align: center;
+    margin-top: 10px;
+}
+#banner {
+    position: relative;
+    z-index: 100;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+#botbar{
+    position: absolute;
+    width: 710px;
+}
+
+#banner img{
+    border-bottom:6px solid #fed5a9;
+}
+
+#botbar ul#menu{
+ /*   text-align: center; */
+     margin-left: 180px;
+     padding-left: 0;
+}
+
+.gallery ul{
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.gallery ul li{
+    height: 450px;
+    width: 710px !important;
+    list-style: none outside none;
+}
+
+#botbar ul#menu li{
+    display: inline;
+    width: 100px;
+}
+
+#botbar ul#menu li a{
+    /*color: #38060D;*/
+    color: #673830;
+    font-family: sans-serif;
+    font-size: 27px;
+    font-stretch: extra-condensed;
+    font-weight: bold;
+    letter-spacing: 0;
+    margin: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#botbar ul#menu li a.selected{
+    border-bottom: 5px solid;
+}
+
+#botbar ul#menu li a:hover{
+    border-bottom: 5px solid;
+}
+
+#botbar .bxslider img {
+    width: 710px;
+    height: 450px;
+}
+
+#navbar ul li {
+    display: inline;
+    float: left;
+    width: 210px;
+    height: 185px;
+}
+
+#navbar ul#floater{
+    position: absolute;
+    top: 0px
+}
+
+#floater li{
+    position: relative;
+}
+
+#floater li div{
+    position: absolute;
+    /*bottom: 15px;*/
+    /*top: 55px;*/
+    top: -110px;
+    left: 8px;
+    text-align: center;
+    width: 185px;
+ /*   display: none;*/
+}
+#floater li h4, #floater li div p{
+    font-family: sans-serif;
+    font-style: normal;
+    color: #fed5a9;
+    height: 40px;
+}
+
+#floater li h4{
+ font-weight: bold;
+}
+
+#navbar ul#slide li{
+    background-image: url(Images/student-support/associations/web/tab.jpg);
+    background-repeat: no-repeat;
+}
+
+#navbar {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#navbar ul{
+    text-align: center;
+    height: 185px;
+}
+#navbar ul#slide{
+    top: -15px;
+    z-index: 1;
+}
+
+#navbar ul#slide li{
+    position: relative;
+    top: -66px;
+    /*top: -10px;*/
+}
+
+#add,#join,#events{
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+#add { 
+    border-radius: 50px 50px;
+}
+#join { 
+}
+#events { 
+}
+
+#agcontainer{
+    background: url(Images/student-support/associations/web/backcontainer.jpg);
+    border:5px solid #673830;
+    /*border-radius: 100px 100px;*/
+    height: 450px;
+    text-align: center;
+}
+
+#agcontainer .contentbox{ 
+    width: 560px;
+    text-align: center;
+    display: none;
+}
+
+#agcontainer .contentbox.gallery{
+    width: 100%;
+    height: 100%;
+}
+
+#agcontainer .contentbox p{
+    padding-top: 30px;
+}
+
+#agcontainer .contentbox.active{
+    display: inline-block;
+}
+
+#agcontainer .contentbox p { 
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 560px;
+}
+
+.contentbox.gallery {
+  /*  margin-top: 22%;*/
+}
+
+.contentbox.gallery h3{
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+--></style>
+<div>
+<div id="banner"><img src="Images/student-support/associations/web/banner.jpg" /></div>
+<div id="navbar">
+<ul id="slide">
+<li></li>
+<li></li>
+<li></li>
+</ul>
+<ul id="floater">
+<li><img id="add" src="Images/student-support/associations/web/add.png" />
+<h4><a href="Documents/student-support/associations/NewAssociationsCharterRegistration.doc">Create New<br /> Association</a></h4>
+<div>
+<p>Download application to create an association!</p>
+</div>
+</li>
+<li><img id="join" src="Images/student-support/associations/web/join.png" />
+<h4><a href="associations/join-us">Join Us</a></h4>
+<div>
+<p>Learn about certain associations then join one</p>
+</div>
+</li>
+<li><img id="events" src="Images/student-support/associations/web/events.png" />
+<h4><a href="associations/association-events/cultural-night">Association <br />Events</a></h4>
+<div>
+<p>Check out our events and activities</p>
+</div>
+</li>
+</ul>
+</div>
+<div id="botbar">
+<div>
+<ul id="menu">
+<li><a class="selected" href="http://byui.edu/" id="aboutclick">About</a></li>
+<li><img src="Images/student-support/associations/web/connector.png" /></li>
+<li><a href="http://byui.edu/" id="galleryclick">Gallery</a></li>
+</ul>
+</div>
+<div id="agcontainer">
+<div class="contentbox active">
+<p>Student Associations provide opportunities for students with similar interests to strengthen and build disciple leadership skills through meaningful friendships, activities and service opportunities. All students are welcome to join any association that they are interested in regardless of cultural background or ethnicity. Each Semester there are many options to join a Student Association. For an association to be active, there must be an Association President and at least 6 members regularly attending the association meetings. Feel free to contact us if you are interested in starting a new association. <br /><br /><strong>Get involved!</strong></p>
+<p></p>
+<a href="Documents/student-support/associations/Policies and Procedures 03-30-2011.doc" style="font-family: sans-serif; color: #673830;">Polices and Procedures</a></div>
+<div class="contentbox gallery">
+<ul class="bxslider">
+<li><img src="Images/student-support/associations/web/pics/Untitled-1.jpg" /></li>
+<li><img src="Images/student-support/associations/web/pics/Untitled-2.jpg" /></li>
+<li><img src="Images/student-support/associations/web/pics/Untitled-3.jpg" /></li>
+<li><img src="Images/student-support/associations/web/pics/Untitled-4.jpg" /></li>
+<li><img src="Images/student-support/associations/web/pics/Untitled-5.jpg" /></li>
+<li><img src="Images/student-support/associations/web/pics/Untitled-6.jpg" /></li>
+<li><img src="Images/student-support/associations/web/pics/Untitled-7.jpg" /></li>
+<li><img src="Images/student-support/associations/web/pics/Untitled-8.jpg" /></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<p>
+<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+<script src="Documents/student-support/Get%20Involved/jquery.bxslider.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+m$ = $;
+    m$("document").ready(function(){
+        m$("#aboutclick, #galleryclick").click(function(evt){
+            evt.preventDefault();
+            target = evt.target;
+            m$(target).toggleClass("selected", true);
+
+            var contentbox = m$("#agcontainer .contentbox");
+            var other;
+            var elemsel;
+
+            if(target.id === "galleryclick"){
+                other = "#aboutclick";
+                elemsel = contentbox.get(1);
+                elemoth = contentbox.get(0);
+            }
+            else{
+                other = "#galleryclick";
+                elemsel = contentbox.get(0);
+                elemoth = contentbox.get(1);
+            }
+        
+            m$(other).toggleClass("selected",false);
+            m$(elemsel).toggleClass("active", true);
+            m$(elemoth).toggleClass("active", false);
+        });
+
+        m$(".bxslider").bxSlider({ 
+            useCSS: false,
+            responsive: false,
+            controls: false,
+            pager: true,
+        });
+
+
+        m$("#floater li").hover(function(){
+            var element = m$(this);
+            var target = m$("#slide li").get(element.index()); 
+            m$(target).stop().animate({
+                top: -6
+            }, {
+                duration: 500
+            });
+            element.find("div").stop().animate({top: "100px"}, 500);
+        }, function(){
+            var element = m$(this);
+            var target = m$("#slide li").get(element.index()); 
+            m$(target).stop().animate({
+                top: -66
+            }, {
+                duration: 500
+            });
+            element.find("div").stop().animate({top: "-110px"}, 500);
+        });
+        m$("#add, #join, #events").click(function(evt){
+            evt.preventDefault();
+            var prevH4 = m$(evt.target).siblings("h4");
+
+            //make the picture point to the link
+            window.location.href = $(prevH4).find("a").attr("href");
+        });
+        /*
+        m$("#add, #join, #events").click(function(evt){
+            var tID = evt.target.id;
+            var elmNo = tID == "add" ? 0 : tID == "join" ? 1 : 2;
+            var target = m$(m$("#slide li").get(elmNo));
+
+            if(target.is(".active")){
+                target.animate({
+                    top: -66
+                },500);
+                target.toggleClass("active", false);
+                m$(evt.target).siblings("div").animate({top:"-110px"},500);
+            }
+            else{
+                target.animate({
+                    top: -6
+                }, { 
+                    complete: function(){
+                              },
+                    duration: 500
+                });
+                m$(evt.target).siblings("div").animate({top:"100px"},500);
+                target.toggleClass("active", true);
+            }
+        });
+         */
+    });
+</script>
+</p>]]></IntroCopy><xPower Type="GroupStart" GroupStart="" Name="CellGroup" label="Cells" readonly="false" hidden="false" required="false" Expanded="true"><numColumns type="enumeration" values="1 2 3 4 5" label="Select number of cell columns." readonly="false" hidden="false" required="true">3</numColumns><xPower Type="List" List="xpowercomponent_Cell" Name="CellList" label="Cell List" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="true"><xPower Type="Component" Component="" Name="Cell" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"/></xPower></xPower><xPower Type="List" List="xpowercomponent_BannerAd" Name="BannerAds" label="Rotating Ads (650x216px required)" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="true"><xPower Type="Component" Component="" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/></xPower><xPower Type="Navigation" StartPage="" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="" Query="" Name="DeptEvents" label="Define Your Events Folder" readonly="false" hidden="false" required="false" Expanded="false"/><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="QuickLinksGroup" label="Quick Links Group" readonly="false" hidden="false" required="false" Expanded="true"><xPower Type="Component" Component="" Name="QuickLinks" label="Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x35763" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></AdminPage>

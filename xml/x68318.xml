@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x68318" Name="Getting Started Tutorial" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Getting Started Tutorial</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">A walkthrough of the basic BYU-I CMS functions and website development.</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style type="text/css"><!--
+#additionInfo {border-bottom: 1px dotted; height: 62px;}
+.instrctBody {margin-left: 10px !important;}
+.instrctBody p {font-size: 14px; line-height: 1.45; margin-bottom: 10px;}
+.instrctBody ul {margin: 0 0 10px 10px !important;}
+.instrctBody li {padding-bottom: 0 !important;} 
+
+.subLvl1, .subLvl2, .subLvl3, .subLvl4 {margin: 0 0 10px 25px !important; padding-top: 10px !important;}
+.subLvl1 {margin-bottom: 75px !important;}
+.subLvl2 {margin-bottom: 50px !important;}
+.subLvl3 {margin-bottom: 35px !important;}
+
+.intro {float: left; width: 700px; padding-right: 5px !important;}
+.comment {border: 3px inset #338099 !important; padding: 10px !important; margin-bottom: 20px !important;}
+
+.instructions {float: left; width: 950px;}
+
+strong.mainTitle {line-height: 35px; font-size: 30px; color: #338099;}
+.subTitle {margin-bottom: 10px;}
+.subTitle strong {font-size: 20px;}
+#Components .subLvl2 strong {font-size: 15px;}
+
+.this, .legendBox {left: 12px; padding: 0 6px !important; position: relative; top: -12px; font-size: 13px; background-color: #FFFFFF !important;}
+.legendBox {display: inline-block; border: 1px solid #000000;}
+.this {border: 1px dotted #000000; width: 48px;}
+
+.do {border: 1px dotted #000000 !important; padding: 0 5px 10px 10px !important; margin: 20px 0 10px !important; background-color: #FFFFEE !important; float: left;}
+.subLvl1 .do {width: 900px;}
+.subLvl2 .do {width: 880px;}
+.subLvl3 .do {width: 855px;}
+
+.CMSTreePic1, .CMSTreePic2 {float: left; border-bottom: 1px solid !important; border-right: 1px solid !important;}
+.CMSTreePic1 {width: 215px; height: 152px; margin-right: 20px !important; background-image: url('Images/Internal_Use/Ingeniux_Training/GettingStarted/CMS_Tree_1.png') !important;}
+.CMSTreePic2 {width: 215px; height: 88px; margin-right: 30px !important; background-image: url('Images/Internal_Use/Ingeniux_Training/GettingStarted/CMS_Tree_2.png') !important; position: relative; top: 18px;}
+.CMSToolBar {height: 25px; position: relative; float: right; background-image: url('Images/Internal_Use/Ingeniux_Training/GettingStarted/CMS_Tool_Bar.png') !important;}
+
+.Checkin {width: 98px; height: 25px; background-position: 8px 0pt !important; background-image: url('Images/Internal_Use/Ingeniux_Training/GettingStarted/Checkin.png') !important;}
+
+#ToolBarNav {background-image: url('Images/Internal_Use/Ingeniux_Training/GettingStarted/CMS_Tool_Bar.png') !important; width: 814px; height: 27px; margin: 25px 0 25px 40px;}
+#CMSTabsNav {background-image: url('Images/Internal_Use/Ingeniux_Training/GettingStarted/RightViewTabs.png') !important; width: 606px; height: 24px; margin:25px 146px;}
+.ToolBarInstrct > em, .TabInstrct > em {color: #444; font-size: 16px;}
+.menuInfo {float: left; width: 590px;}
+a.toolBarButton {float: left; height: 27px; min-width: 10px; text-decoration: none !important;}
+a.toolBarButton:hover {background-color: #FFFF00 !important; opacity: 0.6;}
+
+.note {color: #0055CC; height: 100% !important; width: 100% !important; text-indent: 15px !important; cursor: default !important; font-size: 13px;}
+
+.back_to {float: right; position: relative; left: 100px; font-size: 14px;}
+.back_to > a {float: left; margin-right: 15px; font-size: 14px;}
+--></style>
+<div class="instrctBody">
+<div class="intro">
+<p>This tutorial is designed to walk you through the BYU-I Content Management System (CMS) or Web Builder, and to better give you an understanding of the basic tools and methods used to operate in the Web Builder environment.</p>
+<strong class="mainTitle" style="font-size: 20px;">Logging into Web Builder</strong>
+<div class="do" style="padding-bottom: 5px !important;">
+<div class="this">Do This</div>
+<p style="margin-bottom: 5px;">1. Use your BYU-I netID and password to login at one of the following web addresses:<br /> <a href="../">http://ingeniux.byui.edu/beta/</a> or <a href="../">www.byui.edu/admin</a> (Redirect)</p>
+<p style="margin-bottom: 0;">2. Click on the plus sign (+) located left of the "Content Store" icon, displayed in the left window view. This will expand the CMS tree.</p>
+</div>
+<p style="margin: 0; width: 295px;"><strong class="mainTitle" id="setup">Finding Web Pages</strong></p>
+<div class="CMSTreePic1" style="margin-top: 10px;"></div>
+<div style="width: 464px; height: 220px; float: left; margin-top: 10px;">
+<p style="margin-bottom: 5px;"><span style="text-decoration: line-through;">If this is the first time you have logged in you should see the following folders in the left window view.</span></p>
+<ul>
+<li><span style="text-decoration: line-through;">Sand Box -- The &ldquo;Sand Box&rdquo; folder is a testing ground area consisting of exploratory items. All items are subject to change or deletion.</span></li>
+<li><span style="text-decoration: line-through;">Page Type Demos -- The &ldquo;Page Type Demos&rdquo; folder is a read only folder that consists of pre-constructed web pages.</span></li>
+</ul>
+<p><span style="text-decoration: line-through;">These folders are for your use and can be helpful.</span><br /> We call these folders and other items we may find in this left window view, CMS Pages.</p>
+</div>
+</div>
+<div class="instructions">
+<div class="subLvl1">
+<div class="do">
+<div class="this">Do This</div>
+<p style="width: 590px; float: left; margin-right: 10px;">1. We should search for your department&rsquo;s home page. To do this type in your departments name in the &ldquo;go to&rdquo; search box located in the top right corner of the web builder.<br /> 2. As you start to enter the department name the menu should begin to populate itself. Select within the menu the name of your department.</p>
+<img src="Images/Internal_Use/Ingeniux_Training/GettingStarted/GoToSeach.png" /></div>
+<p>If you selected the correct item it will display in the left window view. This will also remove the &ldquo;Page Type Demos&rdquo; and &ldquo;Sand Box&rdquo; folders from the view.<br /> If this did not happen try selecting a different item from the &ldquo;go to&rdquo; search box.</p>
+<p>To go back to seeing the &ldquo;Page Type Demos&rdquo; and &ldquo;Sand Box&rdquo; folders we can enter their names into the &ldquo;go to&rdquo; search box. We can also search for folders and other CMS Pages using an ID number.</p>
+<div class="do">
+<div class="this">Do This</div>
+<p style="width: 620px; float: left; margin-right: 10px;"><span style="text-decoration: line-through;">1. In the &ldquo;go to&rdquo; search box type in x9170 and select &ldquo;Page Type Demos&rdquo;.</span><br /> <span style="text-decoration: line-through;">2. In the &ldquo;go to&rdquo; search box type in x189 and select &ldquo;Sand Box&rdquo;.</span></p>
+<div style="float: left; border: 1px solid; padding: 5px 10px 0pt; position: relative; top: -10px; background-color: #ccffcc;"><strong>ID Numbers</strong>
+<ul>
+<li><span style="text-decoration: line-through;">Page Type Demos = x9170</span></li>
+<li><span style="text-decoration: line-through;">Sand Box = x189</span></li>
+</ul>
+</div>
+</div>
+<p>ID numbers are used often to refer to pages because they are unique among all CMS Pages. No two CMS Pages will share the same ID number, even when one CMS Page has been deleted.</p>
+<p>---</p>
+<p>If you click on the down arrow next to the &ldquo;go to&rdquo; search box, you will notice that the pages we have searched for in the past list them selves. This can be helpful when you are moving between pages.</p>
+<p>What if you want to come back to these pages after logging in to Web Builder at a later time? These page entries will be gone after a new log in.<br /> What we can do is set up a list of CMS Pages within the favorites section of your dashboard.</p>
+</div>
+<strong class="mainTitle" id="Dashboard">Dashboard</strong> <a class="back_to" href="#">Back to Top</a>
+<div class="subLvl1">
+<div class="comment">
+<p style="margin-bottom: 0px;">The dashboard is the place you go to get you started where you left off in Web builder, or it could be a place that can help you find pages you have forgotten about and want to come back to. Ether way the dashboard should help you organize your work within Web Builder.</p>
+</div>
+<div class="subTitle" id="Favorites"><strong>Favorites</strong></div>
+<div class="subLvl2">
+<p>The Favorites area is where you can store CMS pages that you want constant access to.</p>
+<div class="do" style="height: 310px;">
+<div class="this">Do This</div>
+<div class="CMSTreePic1" style="height: 111px;"></div>
+<p style="margin-bottom: 25px;">1. Make sure your home page is in the left window by selecting your home page from the &ldquo;go to&rdquo; search box.<br /> 2. Click on the &ldquo;Dashboard&rdquo; button located above the left window view.<br /> 3. Click on the &ldquo;site&rdquo; bar located below the &ldquo;Dashboard&rdquo; button.<br /> 4. Without selecting your home page, drag and drop the home page from the left window view in to the &ldquo;Favorites&rdquo; area under in the &ldquo;Quick Links&rdquo; column.</p>
+<p style="margin-bottom: 5px;"><em>Next we can place the &ldquo;Sand Box&rdquo; and &ldquo;Page Type Demos&rdquo; folders into the favorites area.</em></p>
+<p style="width: 560px;"><span style="text-decoration: line-through;">1. Select from the &ldquo;go to&rdquo; search box the &ldquo;Sand Box&rdquo; folder.</span><br /><span style="text-decoration: line-through;"> 2. Select in the left window view the &ldquo;Content Store&rdquo; Icon.</span><br /><span style="text-decoration: line-through;"> 3. Without selecting the &ldquo;Sand Box&rdquo; folder, drag and drop the "Sand Box" folder from the left window view in to the &ldquo;Favorites&rdquo; area.</span><br /><span style="text-decoration: line-through;"> 4. Now do the same process for the &ldquo;Page Type Demos&rdquo; folder.</span></p>
+<div style="border: 1px solid; background-color: #ffffff; position: relative; float: right; width: 197px; padding: 5px 10px; top: -135px; left: -40px;">
+<div style="background-color: #ffffff ! important; border: 1px solid #000000 ! important; padding-left: 6px ! important; position: relative; width: 33px; top: -17px; left: 5px; font-size: 14px;">Note</div>
+<span class="note" style="text-indent: 0pt ! important; position: relative; top: -12px;">Drop CMS Pages on the words "Drag and drop pages here"<br />when populating the favorites list.</span> <span style="clear: both;"> </span></div>
+</div>
+<p>You can also remove items from your favorites list by clicking on the X icon located to the right of the listed item.</p>
+<p>You should now have your home page, <span style="text-decoration: line-through;">&ldquo;Sand Box&rdquo; and &ldquo;Page Type Demos&rdquo; folders </span>in the favorites area of your &ldquo;Dashboard&rdquo; work area. You can now go to your favorites and navigate to pages within the list.</p>
+</div>
+<div class="subTitle" id="In_Progress"><strong>In Progress Items</strong></div>
+<div class="subLvl2">
+<div class="do" style="height: 120px;">
+<div class="this">Do This</div>
+<div class="CMSToolBar" style="width: 99px; background-position: -219px 0pt; top: 30px; left: -85px;"></div>
+<p style="height: 15px;">1. Click your &ldquo;home page&rdquo; in your favorites list.<br /> 2. Click on the &ldquo;Check Out&rdquo; button located in the &ldquo;CMS Tool Bar&rdquo;. This will activate the folder for editing.<br /> <span style="text-decoration: line-through;"><span class="note">Note: If the &ldquo;Check Out&rdquo; button is not available, find a different page within the &ldquo;Sand Box&rdquo; folder.</span></span><br /> 3. Click on &ldquo;Content Store&rdquo;.</p>
+<span style="clear: both;"> </span></div>
+<p>Notice the CMS Page you checked out, your &ldquo;home page&rdquo;, is now located in the &ldquo;In Progress Items&rdquo; area. This is because when you checked out the your "home page", you placed the page under your control. All pages you have checked out will be listed under the &ldquo;In Progress Items&rdquo; list.</p>
+</div>
+<div class="subTitle" id="Recently_Visited"><strong>Recently Visited</strong></div>
+<div class="subLvl2">
+<div class="do">
+<div class="this">Do This</div>
+<div class="Checkin" style="position: relative; top: 25px; left: -85px; float: right;"></div>
+<p>1. Click on your "home page" in the "In Progress" list.<br /> 2. Click on the &ldquo;Check in&rdquo; button located in the &ldquo;CMS Tool Bar&rdquo;.<br /> This will remove the page from editing status.<br /> 3. Click on &ldquo;Content Store&rdquo;.</p>
+</div>
+<p>Notice the CMS Page you checked in, your "home page", is now removed from the &ldquo;In Progress Items&rdquo; area, yet it remains listed in the &ldquo;Recently Visited" list. All pages you have checked out in previous sessions will be listed under the &ldquo;Recently Visited&rdquo; list.</p>
+</div>
+<div class="subTitle" id="Active_Users"><strong>Active Users</strong></div>
+<div class="subLvl2">
+<p>Observe the &ldquo;Active Users&rdquo; list located within the &ldquo;Site Status&rdquo; column. You should be able to find yourself and possible others in this list. Those listed under &ldquo;Active Users&rdquo; are currently logged into Web Builder.<br /> Be mindful that a large volume of user activity will slow down the performance of the CMS environment.</p>
+<p>If you wish to contact any of these individuals you can click on their name and your computer&rsquo;s e-mail client software will be activated allowing you to e-mail the selected individual.</p>
+</div>
+</div>
+<strong class="mainTitle" id="Igx_CMS_Interface_One">Web Builder Interface One</strong> <a class="back_to" href="#">Back to Top</a>
+<div class="subLvl1">
+<div class="comment">
+<p style="margin-bottom: 0;">There are many features available in the Web Builder&rsquo;s interface designed to assist you in creating and modifying the web pages. Understanding how things work will be covered in this section.</p>
+</div>
+<div class="subTitle" id="CMS_tool_bar"><strong>CMS Tool Bar</strong></div>
+<div class="subLvl2">
+<p>The image below is a view of the &ldquo;CMS Tool Bar&rdquo;. Notice that some items may be missing from your tool bar or you may have additional items. The items listed here are the most commonly used items among BYU-I users.</p>
+<div id="ToolBarNav"></div>
+<div class="ToolBarInstrct"><em id="toolDashBd">Dashboard</em>
+<div class="subLvl3">
+<p>The "Dashboard" button loads the dashboard work area. <em>(Refer to the <a href="#Dashboard">Dashboard Section</a> for further information)</em></p>
+</div>
+<em id="toolNew">New</em>
+<div class="subLvl3">
+<p style="margin-bottom: 0;">Selecting &ldquo;New&rdquo; displays a drop down menu consisting of the following:</p>
+<ul>
+<li>Folder - Used to group related Pages and/or Components</li>
+<li>Page - Web pages that can be viewed on the web</li>
+<li>Component - A collection of content used within web pages, but holds an identity separate from web pages.</li>
+</ul>
+<p>By selecting one of these items we can create a new CMS Page.</p>
+<p style="margin-bottom: 25px;">Lets create a new web page to accompany your home page.</p>
+<div class="do">
+<div class="this">Do This</div>
+<div class="CMSTreePic2"></div>
+<p style="float: left;">1. Select your home page from the favorites list in your dashboard work area.<br /> 2. Make sure your home page is selected by confirming that your home page is highlighted in blue.<br /> 3. Select from the &ldquo;New&rdquo; drop down menu &ldquo;page&rdquo;.<br /> The &ldquo;Create New Page&rdquo; window will display.<br /> 4. Enter <em>My New Web Page</em> in the &ldquo;Name&rdquo; text field.<br /> 5. Select from the &ldquo;Select Type&rdquo; drop down menu &ldquo;Content&rdquo;.<br /> 6. Click on &ldquo;Create&rdquo; button.</p>
+</div>
+<p>You should now have a new web page called &ldquo;My New Web Page&rdquo; located underneath your home page. Notice the right-angled line that connects your home page to the new web page. This signifies that the new web page is one sub-level underneath your home page.<br /> <span class="note">Note: All CMS Pages you create need to be located at less one sub-level beneath your home page.</span></p>
+<p>Pages you create will appear under the page you have previously selected. In this case we had the home page selected, so the new web page was placed beneath the home page.</p>
+</div>
+<em id="toolSave">Save</em>
+<div class="subLvl3">
+<p>Now that we have a new web page, we can make changes to the page.</p>
+<div class="do">
+<div class="this">Do This</div>
+<img src="Images/Internal_Use/Ingeniux_Training/Element Views/Editor.png" style="width: 450px; float: left; margin-right: 20px; position: relative; top: 5px;" />
+<div class="CMSToolBar" style="float: left; top: 125px; background-position: -155px 0pt; width: 60px; left: -150px;"></div>
+<p style="float: left; width: 385px; position: relative; top: -20px;">1. Make sure your &ldquo;My New Web Page&rdquo; is selected by confirming that the page is highlighted in blue.<br /> 2. You should see the contents of the &ldquo;Edit Form&rdquo; tab. If not click on the &ldquo;Edit Form&rdquo; tab.<br /> 3. Scroll down to the &ldquo;Body Copy&rdquo; area within the window.<br /> 4. In the text content area enter a message you can easily recognize. Big letters is a good idea. <br /> 5. Click &ldquo;Save&rdquo;, to save the changes you have made.</p>
+</div>
+<p>Clicking on &ldquo;Save&rdquo; will save the changes made in CMS Pages.<br /> CMS Pages will automatically save if you select a different CMS Page or &ldquo;check in&rdquo; the CMS page.</p>
+</div>
+<div class="back_to"><a href="#CMS_tool_bar">Back to CMS Tool Bar</a> <a href="#">Back to Top</a></div>
+<em id="toolPreview">Preview</em>
+<div class="subLvl3">
+<p>We can preview our changes by clicking on &ldquo;Preview&rdquo; in the &ldquo;CMS Tool Bar&rdquo; or the &ldquo;Page View&rdquo; tab of the right window view.</p>
+<div class="do">
+<div class="this">Do This</div>
+<img src="Images/Internal_Use/Ingeniux_Training/GettingStarted/PreviewTab.png" style="float: right; position: relative; left: -150px;" />
+<div class="CMSToolBar" style="top: 90px; background-position: -558px 0pt; width: 80px; left: -70px;"></div>
+<p>1. Click on the &ldquo;Page View&rdquo; tab in the right window view.<br /> 2. Examine what you see.</p>
+<p>1. Click on the &ldquo;Edit Form&rdquo; tab.<br /> 2. Click on the &ldquo;Preview&rdquo; button located in the &ldquo;CMS Tool Bar&rdquo;.<br /> 3. Examine the web page.<br />4. Toggle off and on the "Show all pages" check mark above the<br /> "Update" button.</p>
+</div>
+<p>When you preview the web page can you see the changes you have made to the web page?</p>
+<p>What is seen in the &ldquo;Preview&rdquo; page or the &ldquo;Page View&rdquo; tab displays how the web page would be seen if viewed on the web.<br /> To make sure you see the most resent changes made to the web page, you need to save the page after each page modification.</p>
+<p>When you turn on the "Show all pages" checkbox, you should see all content in you website including pages not <a href="#MFPublish">marked for publish</a>. Turning off the "Show all pages" checkbox will only display pages <a href="#MFPublish">marked for publish</a>.</p>
+</div>
+<em id="toolChk">Check Out / Check In</em>
+<div class="subLvl3" style="padding-top: 25px !important;">
+<div style="border: 1px solid; width: 800px; margin: 0 0 30px 30px; height: 180px; padding-right: 20px;">
+<div class="legendBox" style="font-weight: bold; font-size: 12px;">Why Check in and Check out CMS Pages?</div>
+<div class="subLvl4" style="top: -10px; position: relative;">
+<p>The answer is version control.<br /> Web builder can only allow one user to edit a CMS Page at one time. To prevent two users from editing the same CMS Page at the same time, a check in / check out method is used.</p>
+<p>When a CMS Page is check in the page is in a pool of CMS Pages available to all users that have permissions to access those CMS Pages.<br /> When a user checks out a CMS Page, Web Builder takes the CMS Page out of the pool and places the page under control of the user. Now only the user can edit the CMS Page, until the CMS Page is checked back in.</p>
+</div>
+</div>
+<div class="do">
+<div class="this">Do This</div>
+<div class="Checkin" style="position: relative; top: -3px; left: -122px; float: right;"></div>
+<p>1. Click on the &ldquo;Check in&rdquo; button located on the CMS Tool Bar.</p>
+</div>
+<p>You should have seen an error message. By reading the message we come to understand that some required input fields where not filled in. For our case the fields &ldquo;Title&rdquo; and &ldquo;Abstract&rdquo; are not filled in.<br /> A page cannot be checked in if there are unfilled &ldquo;required&rdquo; input fields for the web page.</p>
+<div class="do">
+<div class="this">Do This</div>
+<p>1. Give this web page a title be entering a title in the &ldquo;Title&rdquo; text field.<br /> 2. Enter a brief description of the web page in the &ldquo;Abstract&rdquo; text field.<br /> The abstract is used to help search engines determine the content of the web page, and is commonly displayed within search results.<br /> 3. Click on the &ldquo;Check in&rdquo; button.</p>
+<p>A dialog box asking where to publish to, will display if the CMS Page is <a href="#MFPublish">marked for publish.</a><br /> If so select the source to publish to (Beta Live, Beta Stage) and click &ldquo;OK&rdquo;.<br /> Hold down shift to select multiple locations.</p>
+</div>
+<p>It is good practice to check in a CMS Page when your not working on them.</p>
+</div>
+<em id="toolAssign">Assign To</em>
+<div class="subLvl3">
+<p>The &ldquo;Assign To&rdquo; button will not be available to most users reading this tutorial, but reading about &ldquo;Assign To&rdquo; couldn&rsquo;t hurt.</p>
+<p>Previously I mentioned that a user could check out a CMS Page, thus placing the page under their control for editing.<br /> The &ldquo;Assign To&rdquo; button allows administrators to reassign control of a CMS Page from one user to another user.<br /> This is done by selecting the CMS Page, clicking &ldquo;Assign To&rdquo; and selecting a new user from the available list.</p>
+</div>
+<div class="back_to"><a href="#CMS_tool_bar">Back to CMS Tool Bar</a> <a href="#">Back to Top</a></div>
+<em id="toolRename">Rename</em>
+<div class="subLvl3">
+<p>There are two simple ways to change the name of a CMS Page. Lets change the name of the web page &ldquo;My New Web Page&rdquo;.</p>
+<div class="do">
+<div class="this">Do This</div>
+<div style="float: left; margin: 40px 30px 0pt 0pt;"><img src="Images/Internal_Use/Ingeniux_Training/GettingStarted/NameEntry.png" />
+<div class="CMSToolBar" style="float: none; top: 35px; left: 40px; background-position: -310px 0pt; width: 80px;"></div>
+</div>
+<div style="float: left; width: 475px;">
+<p>1. Select &ldquo;My New Web Page&rdquo; in the left window view. Make sure it is highlighted blue.<br /> 2. Click on the &ldquo;Check Out&rdquo; button.</p>
+<strong>A</strong><br />
+<p>3. Click on the &ldquo;Rename&rdquo; button located in the &ldquo;CMS Tool Bar&rdquo;.<br /> 4. Replace <em>My New Web Page</em> by entering <em>My Contact Page</em>.<br /> <strong style="margin-left: 40px;">OR</strong><br /> <strong>B</strong><br /> 3. Click on the &ldquo;Edit Form&rdquo; tag in the right window view.<br /> 4. Located the &ldquo;Page Properties&rdquo; area.<br /> 5. Replace <em>My New Web Page</em> by entering <em>My Contact Page</em> in the &ldquo;Page Name:&rdquo; field.</p>
+</div>
+</div>
+<p class="note">Note: More than one CMS Page can share the same name, so make sure not to duplicate names in your web site or you may cause confusion in your web site&rsquo;s navigation.</p>
+</div>
+<em id="toolRefrsh">Refresh</em>
+<div class="subLvl3">
+<p>There can be times when you may need to refresh your page.<br /> You may want to click on the &ldquo;Refresh&rdquo; button instead of the browsers refresh button. This refreshes the page at a faster rate.</p>
+<div class="do">
+<div class="this">Do This</div>
+<div class="CMSToolBar" style="top: -3px; background-position: -483px 0pt; width: 77px; left: -140px;"></div>
+<p>If you would like to refresh Web Builder right now, click on the &ldquo;Refresh&rdquo; button.</p>
+</div>
+</div>
+<em id="toolPublish">Publish Site</em>
+<div class="subLvl3" style="height: 260px;">
+<div style="float: left; width: 600px;">
+<p>The &ldquo;Publish Site&rdquo; button will not be available/functional to most users reading this tutorial, but I strongly recommend reading this section.</p>
+<p>When a user creates a web page in Web Builder, the page is not visible to the general public. When a web page is ready to be viewed by the public, the web page can be published.</p>
+<p style="margin-bottom: 3px;">The following are two locations you can publish to:</p>
+<ul>
+<li>Beta Live</li>
+<li>Beta Staging</li>
+</ul>
+<p>"Beta Live" will make the web page visible on the live BYU&ndash;I web sit. Yes the site that everyone uses on campus.<br /> "Beta Staging" is a test site that can be viewed on the web, but is not advertised for general public viewing.</p>
+</div>
+<div style="border: 1px solid; padding: 5px 10px; font-size: 14px; float: right; background-color: #ccffcc;">Beta Staging URL:<br /> <a href="http://ingeniuxstaging.byui.edu/beta/" target="blank">http://ingeniuxstaging.byui.edu/beta/</a></div>
+<div style="border: 1px solid; background-color: #ffffff; position: relative; width: 200px; padding: 5px 10px; float: right; top: 30px; left: -13px;">
+<div style="background-color: #ffffff ! important; border: 1px solid #000000 ! important; padding-left: 6px ! important; position: relative; width: 33px; top: -17px; left: 5px; font-size: 14px;">Note</div>
+<span class="note" style="text-indent: 0pt ! important; position: relative; top: -12px; font-size: 12px;">If you want to have your CMS Page available on the Internet for public view, you will need to publish to Beta Live. (Also see <a href="#MFPublish">Mark for Publish</a>.)</span></div>
+</div>
+<em id="toolAssets">Assets</em>
+<div class="subLvl3">
+<p>The &ldquo;Assets&rdquo; button gives you access to your assets folder. The assets folder is a file on the server where you upload files for use within Web Builder.</p>
+<p>There are three types folders you can upload files to.<br /> Bellow are the folders and a few file types you can upload:</p>
+<div style="height: 95px; width: 875px;">
+<div style="float: left; width: 116px; margin: 0 14px;"><strong style="float: left; margin-left: 19px;">Image Folder</strong>
+<ul style="float: left;">
+<li>gif</li>
+<li>jpeg</li>
+</ul>
+<ul style="float: left;">
+<li>png</li>
+</ul>
+</div>
+<div style="float: left; width: 235px; margin: 0 14px;"><strong style="float: left; margin: 0pt 30px 0pt 60px;">Document Folder</strong>
+<ul style="float: left;">
+<li>pdf</li>
+<li>zip</li>
+<li>txt</li>
+</ul>
+<ul style="float: left;">
+<li>docx</li>
+<li>doc</li>
+</ul>
+<ul style="float: left;">
+<li>xslx</li>
+<li>xsl</li>
+</ul>
+<ul style="float: left;">
+<li>pptx</li>
+<li>ppt</li>
+</ul>
+</div>
+<div style="float: left; width: 150px; margin: 0 14px;"><strong style="float: left; margin: 0pt 30px 0pt 20px;">Media Folder</strong>
+<ul style="float: left;">
+<li>flv</li>
+<li>mov</li>
+<li>swf</li>
+</ul>
+<ul style="float: left;">
+<li>rm</li>
+<li>mpg</li>
+<li>mp4</li>
+</ul>
+</div>
+</div>
+<div class="do">
+<div class="this">Do This</div>
+<p>1. Click on the &ldquo;Assets&rdquo; button located on the CMS Tool Bar.<br /> 2. Have a team leader show you what folders within &ldquo;Assets&rdquo; you will be uploading items to.</p>
+<p>We will be using an image in this tutorial. If you do not have an image to use, or wish to upload an image, follow steps 3 - 5.</p>
+<p>3. Select the folder you wish to upload an image to. Make sure it is highlighted blue.<br /> 4. Load a file browser window and locate your image file by click on &ldquo;Select File to Upload&rdquo; button.<br /> 5. Click the &ldquo;Upload&rdquo; button.</p>
+</div>
+<p>If you want to learn more about using the <a href="x16545.xml" title="Assets Folder Tutorial">Assets folder</a> click here.</p>
+</div>
+</div>
+</div>
+<div class="back_to"><a href="#CMS_tool_bar">Back to CMS Tool Bar</a> <a href="#">Back to Top</a></div>
+<div class="subTitle" id="CMS_tree"><strong>CMS Tree</strong></div>
+<div class="subLvl2" style="width: 900px; height: 1780px;">
+<div style="width: 700px;">
+<p>The &ldquo;CMS Tree&rdquo; is the tree-structure that is viewed within the left window view. The CMS site is based on this tree structure, and defines a position for each CMS Page relative to other CMS Pages in the site.</p>
+<p style="margin-bottom: 0;">The naming and order of web pages determines two things:</p>
+<ul>
+<li>The web address (URL) of any given web page within your web site</li>
+<li>How the navigation is viewed within your web page</li>
+</ul>
+<p style="margin-top: 15px;">Below are a few examples of how URL&rsquo;s and site navigation&rsquo;s are effected by the &ldquo;CMS Tree&rdquo;.</p>
+</div>
+<div style="border: 1px dotted #000000; padding: 10px; height: 452px; margin: 20px 0 20px 0;"><strong>http://beta.byui.edu/business-management/resources/registration-for-business-classes/emphasis-courses</strong> <img src="Images/Internal_Use/Ingeniux_Training/GettingStarted/CMSTreeExample1.png" style="float: left; margin: 20px 0 20px 0;" /></div>
+<div style="border: 1px dotted #000000; padding: 10px; height: 495px;"><strong style="font-size: 14px;">http://beta.byui.edu/housing/view-all-housing-options/student-family-and-community-housing/community-housing-list</strong> <img src="Images/Internal_Use/Ingeniux_Training/GettingStarted/CMSTreeExample.png" style="float: left; margin: 20px;" /></div>
+<p style="margin-top: 20px;">Notice how folder names are not displayed in the web address (URL), and that folders and content within folders are hidden from the web site&rsquo;s navigation.<br /> This is a very important feature that folders have within Web Builder. I will explain why later in this tutorial.</p>
+<div style="border: 1px dotted #000000; padding: 10px; height: 381px; margin: 20px 0;"><strong>http://beta.byui.edu/activities/outdoor/fishing</strong> <img src="Images/Internal_Use/Ingeniux_Training/GettingStarted/CMSTreeExample2.png" style="float: left; margin: 20px;" /></div>
+<strong>Some Helpful Guildlines</strong><br />
+<ul style="height: 38px; margin-bottom: 35px !important; float: left;">
+<li>It would be good practice to list web pages first and folders last within the CMS Tree.</li>
+<li>If you place web pages inside folders (they will be hidden), you need to have unhidden web pages link to these hidden pages if you want them to be viewed on the web.</li>
+</ul>
+</div>
+</div>
+<strong class="mainTitle" id="Web_Design">Creation &amp; Organization</strong> <a class="back_to" href="#">Back to Top</a>
+<div class="subLvl1">
+<div class="comment">
+<p>Creating and organizing your web site will take a little ingenuity and some understanding of web design. This tutorial was not designed how to teach you how to design you web site, but there are plenty of tutorials for web design on the web for you to learn from. <a href="http://www.garysimon.net/webdesign_tutorial/1" target="_blank">Try this one for example</a>.</p>
+<p>Don&rsquo;t worry. We don&rsquo;t expect you to become web design experts, so there should be workshops, a web team and other programs designed to help you in designing your web site.</p>
+<p style="margin-bottom: 0px;">Before you can put your web design skills to work you need to understand how to get Web Builder to assist you in designing your web site.</p>
+</div>
+<p style="margin-bottom: 0;">In Web Builder we need to understand the three types of CMS Pages:</p>
+<ul>
+<li>Pages -- visible web pages</li>
+<li>Components -- reusable, multi-reference, components of Pages</li>
+<li>Folders -- help organize Pages and Components and hide items from the web</li>
+</ul>
+<div class="subTitle" id="Pages"><strong>Pages</strong>
+<div class="subLvl2" style="height: 365px;">
+<div class="do">
+<div class="this">Do This</div>
+<p>1. Select your home page.<br /> 2. Make another content page and name it &ldquo;My New Web Page&rdquo;. If you forgot how to do this, <a href="#toolNew">click here</a>.</p>
+</div>
+<p>Pages are what Web Builder uses to create the web pages we see on the web.</p>
+<p>We have already created a contact page called &ldquo;My Contact Page&rdquo; in this tutorial. The contact page type should be the most used page type within your web site. It contains a general layout and gives you the most freedom with your web page.</p>
+<p>The following are the recommended <a href="x36119.xml">web page types </a>to use:</p>
+<br />
+<div style="border: 1px solid; background-color: #ffffff; position: relative; float: right; width: 280px; padding: 5px 10px; top: -80px;">
+<div style="background-color: #ffffff ! important; border: 1px solid #000000 ! important; padding-left: 6px ! important; position: relative; width: 33px; top: -17px; left: 5px; font-size: 14px;">Note</div>
+<p>This list may change, so check if this list is complete by calling the web servies department. (last updated by Dec 21, 2011)</p>
+</div>
+</div>
+</div>
+<div class="subTitle" id="Components"><strong>Components</strong>
+<div class="subLvl2" style="float: left;">
+<p>Pages use components to fill in content within the web page. In many cases components are used because we want content within a web page to be interchangeable or to be shared with other web pages.<br /> <span class="note">Note: some pages themselves are sometimes used like components.</span><br /> Components exist to be versatile; if you are not using a component in one of the following ways you are not using the component to its full potential.</p>
+<p><strong>Synchronize Web Page Content</strong><br /> Components can share its content with multiple web pages. If you change content in one component you change the content in all web pages that share that component.</p>
+<p><strong>Quickly Exchange Components Among Web Pages</strong><br /> Components can be exchanged in and out of web pages very quickly. Having a variety of components can help you rotate content throughout your web site. You can exchange seasonal themes within your web site, for example Thanks Giving, Christmas, Back to School, Midterms, Finals Week.</p>
+<p>Ok lets create and use some components!</p>
+<div class="back_to"><a href="#">Back to Top</a></div>
+<div style="float: left; margin-right: 10px; height: 900px; width: 350px;"><img src="Images/Internal_Use/Ingeniux_Training/GettingStarted/Page_Comp_Collaps.png" style="width: 350px; margin-bottom: 10px;" /> <img src="Images/Internal_Use/Ingeniux_Training/GettingStarted/Page_Comp_Window.png" style="width: 350px; margin-bottom: 10px;" /> <img src="Images/Internal_Use/Ingeniux_Training/GettingStarted/SelectComp.png" style="width: 350px; position: relative; top: 55px;" />
+<div style="border: 1px solid; position: relative; padding: 5px 10px; width: 267px; background-color: #ccffcc; top: 135px; left: 25px;">
+<div style="background-color: #ffffff ! important; border: 1px solid #000000 ! important; padding-left: 6px ! important; position: relative; width: 33px; top: -17px; left: 5px; font-size: 14px;">Note</div>
+<p>You can all ways refer to the &ldquo;Component Type&rdquo; drop down menu located in the &ldquo;Select a Component&rdquo; Dialog box, to determine what component to use for any given component input field.</p>
+</div>
+<div style="border: 1px solid red; position: relative; top: 260px; left: 25px; padding: 0pt 10px 15px; width: 277px;">
+<div style="color: red; border: 1px solid red; display: inline-block; padding: 0pt 5px; background-color: white; position: relative; top: -12px; left: 5px;"><strong style="color: red; letter-spacing: 0.8px;">WARNING</strong></div>
+<p style="margin-bottom: 0;">Be careful when you drag items from the CMS Tree to the editing field. You can accidently drag and drop an item or groups of items in a different location within the CMS Tree.</p>
+</div>
+</div>
+<div style="float: left; width: 540px; position: relative; top: -40px;">
+<div class="do" style="width: 520px;">
+<div class="this">Do This</div>
+<p>1. Select &ldquo;My New Web Page&rdquo;.<br /> 2. If you have not filled in all required fields for this page do so. If you forgot how to do this, <a href="#toolChk">click here</a>.<br /> 3. Locate and expand the &ldquo;Page Components&rdquo; window followed by the &ldquo;Optional Column Component&rdquo; window by clicking on the down pointing arrow for each window.<br /> 4. In the &ldquo;Optional&rdquo; component area, click on &ldquo;Pick&rdquo;. The &ldquo;Select a Component&rdquo; Dialog box should appear.</p>
+</div>
+<p>If there are any components available for use they should show up listed in the &ldquo;Select a Component&rdquo; Dialog box. Selecting one and clicking &ldquo;ok&rdquo; should insert the component.</p>
+<p>Some times list can get vary large.<br /> To filter out components you can enter part of the name of your component in the &ldquo;Name&rdquo; field.</p>
+<p>The &ldquo;Component Type&rdquo; drop down menu list all of the available types of components that can be used in the selected component input field. Selecting one of these will eliminate all other available components from the component list.</p>
+<p>Right now we need to pay attention to the &ldquo;Component Type&rdquo; drop down menu.</p>
+<div class="do" style="width: 520px;">
+<div class="this">Do This</div>
+<p>5. Select &ldquo;Image File&rdquo; from the &ldquo;Component Type&rdquo; drop down menu.<br /> 6. Take note of the name &ldquo;Image File&rdquo;, we are going to use this Component.<br /> 7. Exit the dialog box by clicking &ldquo;cancel&rdquo;.<br /> 8. Select your home page in the CMS Tree.<br /> 9. Click on &ldquo;New&rdquo; in the &ldquo;CMS Tool Bar&rdquo;.<br /> 10. Select &ldquo;Component&rdquo;.<br /> 11. Enter in the component name &ldquo;My Image Component&rdquo;.<br /> 12. Select from the drop down menu &ldquo;Image File&rdquo;, and click &ldquo;Create&rdquo;.</p>
+<p>13. Repeats steps 8 through 12, but this time create a &ldquo;Column Component&rdquo; and name it &ldquo;My Text Component&rdquo;.</p>
+<p>We should now have two components, we can use for our content pages.</p>
+<p>16. Fill in content for the image and text components we just made and save the changes.<br /> The following links can be helpful if you need help. <a href="x20478.xml">Image Input</a></p>
+</div>
+<p>To use the two components we created, we can select them through the &ldquo;Select a Component&rdquo; dialog box.<br /> We can also drag and drop a component from the CMS Tree directly into a component input field located under the "Edit Form" tab.</p>
+</div>
+<div class="back_to"><a href="#">Back to Top</a></div>
+<div class="do" style="clear: both;">
+<div class="this">Do This</div>
+<p>1. Expand the CMS tree so that you can see the four CMS Pages created in this tutorial: &ldquo;My Contact Page, My New Web Page, My Image Component, My Text Component&rdquo;.<br /> 2. Select &ldquo;My Contact Page&rdquo; and open the &ldquo;Edit Form&rdquo; tab.<br /> 3. Locate and expand the &ldquo;Optional Column Component&rdquo; window.<br /> 4. Drag the &ldquo;My Image Component&rdquo; into the available "Optional" component field.<br />You can add additional &ldquo;Optional&rdquo; components by clicking on the plus (+) sign to the right of the existing &ldquo;Optional&rdquo; component.<br />5. click on the plus (+) sign.<br /> 6. Drag the &ldquo;My Text Component&rdquo; into the new "Optional" component field.</p>
+<p>7. For &ldquo;My New Web Page&rdquo; repeat steps 1 through 4, but instead insert &ldquo;My Text Component&rdquo;.<br /> 8. Preview and compare the CMS Pages &ldquo;My Contact Page&rdquo; and &ldquo;My New Web Page&rdquo;.</p>
+</div>
+<p style="width: 100%; position: relative; float: left;">You should see in the My Contact Page and My New Web Page the components that where inserted into each page. To see how components can synchronize web page content lets change the content in My Text Component.</p>
+<div class="do">
+<div class="this">Do This</div>
+<p>1. Open and edit the content in &ldquo;My Text Component&rdquo;.<br /> 2. Preview and compare the CMS Pages &ldquo;My Contact Page&rdquo; and &ldquo;My New Web Page&rdquo;.</p>
+</div>
+<p style="width: 100%; position: relative; float: left;">You should see the changes you have made in My Text Component appear in both My Contact Page and My New Web Page.</p>
+</div>
+</div>
+<div class="subTitle"><strong id="fldr">Folders</strong>
+<div class="subLvl2" style="height: 600px;">
+<p>As I mentioned before, components should not be viewed on the web. To show this lets demonstrate what could happen when viewing a component on the web.</p>
+<div class="do" style="clear: both;">
+<div class="this">Do This</div>
+<p>1. Select and preview your home page.<br /> 2. Find the left accordion navigation in the preview and locate the link &ldquo;My Image Component&rdquo;.<br /> 3. Click on &ldquo;My Image Component&rdquo;, and view the content of this page.</p>
+</div>
+<p>Because "My Image Component" is a component, the web browser displays a tree layout of information that will not make sense to web users.<br /> To avoid displaying components on the web we should place them within folders.</p>
+<div class="do" style="width: 540px; height: 303px; float: left; margin-right: 20px !important;">
+<div class="this">Do This</div>
+<p>1. Select your home page in the CMS Tree.<br /> 2. Click on &ldquo;New&rdquo; in the &ldquo;CMS Tool Bar&rdquo;.<br /> 3. Select &ldquo;Folder&rdquo;.<br /> 4. Enter the name &ldquo;Components&rdquo;.<br /> 5. Click &ldquo;Create Folder&rdquo;.</p>
+<p>6. Drag &ldquo;My Image Component&rdquo; and &ldquo;My Text Component&rdquo; into the folder called &ldquo;Components&rdquo;.</p>
+<p>To do this hover the component above the folder until the folder has a box encompassed around it. Then release the component.</p>
+<p>If you want to reorder items within the folder, drag an item below the folder area, a line will display telling you where the CMS page will go if dropped.</p>
+<p>7. Try to mimic the CMS tree to look like the image to the right.</p>
+</div>
+<img src="Images/Internal_Use/Ingeniux_Training/GettingStarted/final_CMS_tree.png" style="float: left; width: 280px; position: relative; top: 100px; left: 25px;" /></div>
+</div>
+<div class="subTitle" id="External_Link"><strong>External Link Component</strong>
+<div class="subLvl2">
+<p>The &ldquo;External Link Component&rdquo; is a special case component. It is designed to display links in the left accordion navigation (and other navigation) throughout the web site.</p>
+<div class="do">
+<div class="this">Do This</div>
+<p>1. Select your home page in the CMS Tree.<br /> 2. Click on &ldquo;New&rdquo; in the &ldquo;CMS Tool Bar&rdquo;.<br /> 3. Select &ldquo;Component&rdquo;.<br /> 4. Enter the name &ldquo;YouTube.com&rdquo;.<br /> 5. Select from the drop down menu &ldquo;External Link Component&rdquo;, and click &ldquo;Create&rdquo;.</p>
+<p>1. Select &ldquo;YouTube.com&rdquo; in the CMS Tree.<br /> 2. Enter in &ldquo;Link Text&rdquo; the name &ldquo;YouTube External Link&rdquo;.<br /> 3. Enter in &ldquo;Link&rdquo; the URL &ldquo; http://www.youtube.com &rdquo;.<br /> 4. Save your changes.<br /> 5. Preview your home page.<br /> 6. In the preview right click on &ldquo;YouTube&rdquo; in the left accordion navigation, and choose to open the link in a new window.</p>
+</div>
+<p>When a your web site is published any user can click on an external link in the accordion and they will be sent to the web page you designate them to go.</p>
+<p>Remember to enter the complete URL address. Most URL addresses have the "http://" text in front of the commonly known address.</p>
+</div>
+</div>
+</div>
+<strong class="mainTitle" id="Igx_CMS_Interface_Two">Web Builder Interface Two</strong>
+<div class="subLvl1">
+<div class="back_to"><a href="#">Back to Top</a></div>
+<div class="subTitle" id="R_Click"><strong>Right Click Menu</strong></div>
+<div class="subLvl2">
+<p>The image below is a view of the CMS Tree&rsquo;s &ldquo;Right Click Menu&rdquo;. Notice that some items may be missing from your menu selection or you may have additional items. The items listed here are the most commonly used among users.</p>
+<p>Most of the available options within the menu are covered in past material. Links to the covered material are provided.</p>
+<img src="Images/Internal_Use/Ingeniux_Training/GettingStarted/ClickMenu.png" style="float: left; width: 280px; margin-right: 20px;" />
+<div class="menuInfo"><a href="#toolNew" style="text-decoration: none !important;"><em style="color: black;">New</em> click here</a><br /> <a href="#toolRename" style="text-decoration: none !important;"><em style="color: black;">Rename</em> click here</a><br /> <a href="#toolRefrsh" style="text-decoration: none !important;"><em style="color: black;">Refresh</em> click here</a><br /> <br /> <em>Cut, Copy, Paste</em>
+<div class="subLvl3">
+<p>Cut is used to move CMS Pages to new locations within the CMS Tree.<br /> Copy makes duplicate CMS Pages from existing CMS Pages.<br /> Paste inserts CMS Pages into the CMS Tree after the Cut or Copy actions are used.</p>
+</div>
+<em>Delete</em>
+<div class="subLvl3">
+<p>Delete is used to move CMS Pages to a recycle bin folder for holding until complete removal<br /> of the CMS Page is performed.</p>
+</div>
+<a href="#toolChk" style="text-decoration: none !important;"><em style="color: black;">Check Out, Check In</em> click here for more</a>
+<div class="subLvl3">
+<p>This lets you &ldquo;Check out / Check in&rdquo; a CMS Page<br /> You can check out / check in all children pages as well.<br /> Click above for more information.</p>
+</div>
+<a name="MFPublish"></a> <em>Undo Check Out</em>
+<div class="subLvl3">
+<p>Clicking &ldquo;Undo Check Out&rdquo; on a selected CMS Page will &ldquo;Check in&rdquo; a CMS Page and ignore any changes that were made during the time the page was checked out.<br /> This can be done for children pages as well.</p>
+</div>
+<em>Rollback</em>
+<div class="subLvl3">
+<p>&ldquo;Rollback&rdquo; performs the same task as &ldquo;Undo Check Out&rdquo; except it is buggy so we advise not using &ldquo;Rollback&rdquo;.</p>
+</div>
+<em>Mark and Unmark for Publish</em>
+<div class="subLvl3">
+<p>Most authors do not have the right to "Mark for Publish". This right is granted when your web site nears completion and you are actually ready to publish.<br /> The ability to "Mark for Publish" and "<a href="#toolPublish">Publish</a>" are different.<br /> Once you mark pages for publish, the actual publishing is automated (every 2 hours).</p>
+<p>When CMS Pages are marked for publish they will be marked in <strong>bold text</strong> within the CMS Tree.</p>
+</div>
+<a href="#toolPreview" style="text-decoration: none !important;"><em style="color: black;">Preview</em> click here</a><br /> <br /> <a href="#toolPublish" style="text-decoration: none !important;"><em style="color: black;">Publish</em> click here for more</a>
+<div class="subLvl3">
+<p>This lets you &ldquo;Publish&rdquo; a CMS Page<br /> You can publish all children pages as well.<br /> Click above for more information.</p>
+</div>
+<em>Page Properties</em>
+<div class="subLvl3">
+<p style="margin-bottom: 5px;">The &ldquo;Page Properties&rdquo; can configure the following on a page-by-page basis.</p>
+<ul>
+<li>Page lifetime</li>
+<li>Language</li>
+<li>Security</li>
+<li>Other settings</li>
+</ul>
+This feature is an administrative user&rsquo;s tool, and most users will have little access to this feature.<br />
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+<a class="back_to" href="#">Back to Top</a>
+<div class="subTitle"><strong id="CMS_tabs">CMS Work Space</strong></div>
+<div class="subLvl2">
+<p>The image below is a view of the available tabs within the &ldquo;CMS Work Space&rdquo;. Notice that some items may be missing from your tab selection or you may have additional items. The items listed here are the most commonly used among users.</p>
+<div id="CMSTabsNav"></div>
+<div class="TabInstrct"><em id="tabEditForm">Edit Form</em>
+<div class="subLvl3">
+<p>The &ldquo;Edit Form&rdquo; tab selects the editing environment for the web page selected in the CMS Tree. Listed within the "Edit Form" view are input elements that are used to populate content within the web page.<br /> We have already changed content using the &ldquo;Edit Form&rdquo; tab in previous tasks of this tutorial so this should be familiar.</p>
+<p>If you want to learn more about each of the individual input elements <a href="x15116.xml" title="Element Types Overview">click here</a>.</p>
+<p>Different page types use different input elements. You will need to refer to a page type&rsquo;s reference page for further help.<br /> <a href="x16548.xml" title="Page Types Overview">Click here</a> for a review of available page types.</p>
+</div>
+<em id="tabPageVeiw">Page View</em>
+<div class="subLvl3">
+<div class="do">
+<div class="this">Do This</div>
+<div class="CMSTreePic2" style="top: 5px;"></div>
+<p style="float: left; width: 600px;">1. Make sure your home page is selected in the CMS Tree.<br /> 2. Select the &ldquo;Page View&rdquo; tab.<br /> 3. In the preview click on &ldquo;My Contact Page&rdquo; located in the left navigation of the web page.<br /> 4. Observe that &ldquo;My Contact Page&rdquo; is now blue in the CMS Tree.</p>
+</div>
+<p>The &ldquo;Page View&rdquo; tab provides a preview of what the web page will look like live on the web. Clicking on links within the preview will select new CMS Pages within the CMS Tree, or provide a view of an external web site.</p>
+</div>
+<em id="tabCategorize">Categorize</em>
+<div class="subLvl3">
+<p>The &ldquo;Categorize&rdquo; tab is closely used with the &ldquo;Taxonomy Navigation&rdquo; element, which is a form of navigation used in Web Builder. The &ldquo;Categorize&rdquo; tab allows users to organize web pages into a taxonomy tree.</p>
+<p>The &ldquo;Categorize&rdquo; tab is commonly used among administrative users only, so most users will not use the &ldquo;Categorize&rdquo; tab.<br /> If you want to learn more about the &ldquo;Categorize&rdquo; tab you can read more from the <a href="x24333.xml" title="Taxonomy Navigation">Taxonomy Navigation</a> reference page.</p>
+</div>
+<em id="tabHistory">History</em>
+<div class="subLvl3">
+<p>Web Builder will keep a history of changes made to CMS pages. A version of the CMS Page is saved each time it is checked in.<br /> The &ldquo;History&rdquo; tab displays a list of each version of the selected CMS Page.</p>
+<div style="margin-left: 110px; width: 660px;"><img src="Images/Internal_Use/Ingeniux_Training/GettingStarted/HistoryView.png" /></div>
+<div class="do">
+<div class="this">Do This</div>
+<p style="margin-bottom: 10px;">1. Select &ldquo;My Contact Page&rdquo; in the CMS Tree.<br /> 2. If &ldquo;My Contact Page&rdquo; is not check out, check out &ldquo;My Contact Page&rdquo;.<br /> 3. Click on the &ldquo;History&rdquo; tab.<br /> 4. Select version one (1) from the list.</p>
+<p style="margin-bottom: 10px;">Selecting one of the given versions in the list provides a preview of that version&rsquo;s input.</p>
+<p>5. Click the words &ldquo;Diff Against Version&rdquo;.<br /> 6. Review the difference in content between the selected version and the active (current) version.<br /> 7. Click the words &ldquo;Revert to selected version&rdquo;, to revert back to the select version.<br /> 8. Check in &ldquo;My Contact Page&rdquo;.</p>
+</div>
+<p>By reverting back to version one (1), &ldquo;My Contact Page&rdquo; should be back to the state when it was first created.</p>
+</div>
+<div class="back_to"><a href="#CMS_tabs">Back to CMS Work Space</a> <a href="#">Back to Top</a></div>
+<em id="tabAnalytics">Analytics</em>
+<div class="subLvl3">
+<div class="do">
+<div class="this">Do This</div>
+<img src="Images/Internal_Use/Ingeniux_Training/GettingStarted/AnalyticsSelect.png" style="position: relative; top: 5px; left: 10px;" />
+<p style="float: right; width: 580px; position: relative; top: -30px; margin-bottom: 0pt;">1. Make sure your home page is selected in the CMS Tree.<br /> 2. Select the &ldquo;Analytics&rdquo; tab.<br /> 3. In the left window view, located left of the &ldquo;Edit Form&rdquo; tab is the drop down menu<br /> &ldquo; -- All Publishing Targets -- ", select &ldquo;Beta Live&rdquo;.<br /> If analytics has been collected for the selected CMS Page you should see some graphs.<br /> <span class="note">Note: if you don&rsquo;t see any thing try finding a page in the sand box folder.</span></p>
+</div>
+<p style="clear: both;">The &ldquo;Analytics&rdquo; tab provides statistics on the use of the selected CMS Page.</p>
+<strong>What does this mean to you?</strong><br />
+<p style="margin: 10px 0 0 0;">The statistics provided should help you understand how often your web page is viewed and how often your web site is used.</p>
+<p>During the development of your web site the statistics given will not be helpful, but after the site is published for a time, the statistics can be helpful and some time surprising.</p>
+<strong>Understanding the Analytics</strong><br />
+<p style="margin: 10px 0 0 0;">The Analytics is divided into two categories of information.</p>
+<ul style="margin-bottom: 20px ! important;">
+<li>Pageviews and Internal Sources</li>
+<li>Visits and External Sources</li>
+</ul>
+<p style="margin-bottom: 0;">Statistics about <em style="text-decoration: underline;">Pageviews and Internal Sources</em> pertain to the users navigation within your web site or the selected page and its sub children.</p>
+<div class="subLvl4">
+<p><strong>Preview</strong> <em>example:</em> What if a user viewed your home page then navigated to another page within your web site and returns back to viewing your home page. This would add to the number of <em style="text-decoration: underline;">previews</em> of your home page.</p>
+<p><strong>Internal Sources</strong> records the last web page within your web site the user viewed before the home page was viewed. (As pertain to the example given above)</p>
+</div>
+<p style="margin-bottom: 0;">Statistics about <em style="text-decoration: underline;">Visits and External Sources</em> pertain to the users navigation outside of your web site or the selected page and its sub children.</p>
+<div class="subLvl4">
+<p><strong>Visit</strong> <em>example:</em> What if a user viewed your home page then navigated to facebook.com and returns back to viewing your home page. This would add to the number of <em style="text-decoration: underline;">visits</em> to your home page.</p>
+<p><strong>External Sources</strong> works in a similar way as Internal Sources in collecting statistics.</p>
+</div>
+</div>
+<em id="tabReference">Reference</em>
+<div class="subLvl3">
+<p>The &ldquo;Reference&rdquo; tab gives access to reference and help pages (like this one) designed to help you use Web Builder.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Component" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="x35740" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x14845" CompTypes="SiteControl" Expanded="false"/></Content>

@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x46984" Name="Food Selection" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Food Selection</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Select options for Food Selection</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<!-- Documents/food-services/Catering/page_layout/food_services_live.css --> <link href="Documents/food-services/Catering/page_layout/food_services_live.css" rel="stylesheet" type="text/css" /> <!-- Documents/food-services/Catering/page_layout/AllItems.js -->
+<script src="Documents/food-services/Catering/page_layout/AllItems.js" type="text/javascript"></script>
+<!-- Documents/food-services/Catering/page_layout/main.js -->
+<script src="Documents/food-services/Catering/page_layout/main.js" type="text/javascript"></script>
+<div id="foodServicesWrapper"><!-- Images/food-services/Catering/page_layout/topImages-FoodSelection.png -->
+<div id="topImages"><img src="Images/food-services/Catering/page_layout/topImages-FoodSelection_vert.png" /></div>
+<!-- Images/food-services/Catering/page_layout/button.png -->
+<div id="welcome">
+<div class="pageTitleWrapper">
+<p>Welcome!</p>
+<img src="Images/food-services/Catering/page_layout/button.png" /></div>
+<h2>Ordering is as simple as...</h2>
+<ol>
+<li><span>1.</span>
+<h3>Browsing the Food Selection of our customer favorites.<em><span style="display: block; font-size: 12px;">(selecting the items that interest you)</span></em></h3>
+</li>
+<li><span>2.</span>
+<h3>Reviewing Your Menu</h3>
+</li>
+<li><span>3.</span>
+<h3>Submitting your request!</h3>
+</li>
+</ol>
+<p class="description welcoming">We are here to fulfill what you envision for your event. Please ask us about possibilities that may not be listed below.</p>
+</div>
+<div class="clearBoth"></div>
+<div id="foodServicesInnerWrapper">
+<div class="pageTitleWrapper">
+<p>Food<br />Selection</p>
+<img src="Images/food-services/Catering/page_layout/button.png" /></div>
+<div class="bgLeft"></div>
+<div class="bgTop"></div>
+<div class="bgRight"></div>
+<div class="bgBottom"></div>
+<div class="bgTopLeft"></div>
+<div class="bgTopRight"></div>
+<div class="bgBottomLeft"></div>
+<div class="bgBottomRight"></div>
+<div class="currentMenuTotalBox" id="checkbox_action_box">
+<div class="bgLeft"></div>
+<div class="bgTop"></div>
+<div class="bgRight"></div>
+<div class="bgBottom"></div>
+<div class="bgTopLeft"></div>
+<div class="bgTopRight"></div>
+<div class="bgBottomLeft"></div>
+<div class="bgBottomRight"></div>
+<h6>Your Menu Has:</h6>
+<p><span class="currentMenuTotal">0</span> Item<span class="pluralItems">s</span></p>
+</div>
+<div class="content" id="allFood">
+<div class="bgWrapper">
+<div class="bgLeft"></div>
+<div class="bgTop"></div>
+<div class="bgRight"></div>
+<div class="bgBottom"></div>
+<div class="bgTopLeft"></div>
+<div class="bgTopRight"></div>
+<div class="bgBottomLeft"></div>
+<div class="bgBottomRight"></div>
+</div>
+<div id="replaceMe"></div>
+</div>
+<div id="menuContent"><!-- Images/food-services/Catering/page_layout/button.png  -->
+<div class="pageTitleWrapper">
+<p>Your<br />Menu</p>
+<img src="Images/food-services/Catering/page_layout/button.png" /></div>
+<div class="content main" style="padding-left: 25px;">
+<div class="bgWrapper">
+<div class="bgLeft"></div>
+<div class="bgTop"></div>
+<div class="bgRight"></div>
+<div class="bgBottom"></div>
+<div class="bgTopLeft"></div>
+<div class="bgTopRight"></div>
+<div class="bgBottomLeft"></div>
+<div class="bgBottomRight"></div>
+</div>
+<h6>Review your selection.</h6>
+<div id="itemList"></div>
+</div>
+<div class="side">
+<p>&nbsp;</p>
+<div class="currentMenuTotalBox staticBox">
+<div class="bgLeft"></div>
+<div class="bgTop"></div>
+<div class="bgRight"></div>
+<div class="bgBottom"></div>
+<div class="bgTopLeft"></div>
+<div class="bgTopRight"></div>
+<div class="bgBottomLeft"></div>
+<div class="bgBottomRight"></div>
+<h6>Your Menu Has:</h6>
+<p><span class="currentMenuTotal">0</span> Item<span class="pluralItems">s</span></p>
+</div>
+<div><!-- insert mini_photo here --></div>
+</div>
+</div>
+<div class="content" id="contactForm"><!-- Images/food-services/Catering/page_layout/button.png  -->
+<div class="pageTitleWrapper">
+<p>Submit<br />Request</p>
+<img src="Images/food-services/Catering/page_layout/button.png" /></div>
+<div class="main">
+<div class="bgLeft"></div>
+<div class="bgTop"></div>
+<div class="bgRight"></div>
+<div class="bgBottom"></div>
+<div class="bgTopLeft"></div>
+<div class="bgTopRight"></div>
+<div class="bgBottomLeft"></div>
+<div class="bgBottomRight"></div>
+<form action="http://web.byui.edu/mvcutilities/Home/EmailAForm" method="post" onsubmit="return finishOrder()">
+<div class="decalGreen"></div>
+<h6 style="text-indent: 14px;">After we recieve your form<br /> with the items you have selected<br /> above, we will call to consult with you<br /> and make plans for a wonderful event.</h6>
+<div class="tilde">~</div>
+<p>Department <input name="Department" type="text" /></p>
+<p>Contact Name<input class="inline" id="FirstName" name="FirstName" type="text" /><input class="inline" id="LastName" name="LastName" type="text" /></p>
+<p>Phone Number&nbsp;&nbsp;&nbsp;<input class="inline" id="PhoneNumber" name="PhoneNumber" type="text" /></p>
+<p>Email&nbsp;&nbsp;&nbsp;<input class="inline" id="CustomerEmail" name="CustomerEmail" type="text" /></p>
+<p>Scheduled Date&nbsp;&nbsp;&nbsp;<input class="inline" name="Date" type="text" /></p>
+<p>Time&nbsp;&nbsp;&nbsp;<input class="inline" name="Time" type="text" /></p>
+<p>Number of Guests&nbsp;&nbsp;&nbsp;<input class="inline" name="NumberOfGuests" type="text" /></p>
+<p>Select One&nbsp;&nbsp;&nbsp;<select>
+<option value="Takeout">Takeout</option>
+<option value="CateredServed">Catered - Served</option>
+<option value="CateredBuffet">Catered Buffet</option>
+<option value="Delivery">Delivery</option>
+</select></p>
+<p>Any other details?<br /><textarea name="OtherDetails"></textarea></p>
+<p>Select an event type?</p>
+<ul>
+<li><input class="eventTypeRadio" name="FormEventType" type="radio" value="Retirement" /> Retirement</li>
+<li><input class="eventTypeRadio" name="FormEventType" type="radio" value="Wedding" /> Wedding</li>
+<li><input class="eventTypeRadio" name="FormEventType" type="radio" value="Church Gathering" /> Church Gathering</li>
+<li><input class="eventTypeRadio" name="FormEventType" type="radio" value="Reunion" /> Reunion</li>
+<li><input class="eventTypeRadio" name="FormEventType" type="radio" value="Other" /> Other</li>
+</ul>
+<span id="orderlist"></span> <input name="txtEmailFrom" type="hidden" value="catering@byui.edu" /> <input id="txtEmailTo" name="txtEmailTo" type="hidden" value="" /> <input name="txtEmailSubject" type="hidden" value="Customer Menu Request" /> <input name="txtRedirect" type="hidden" value="http://ingeniuxstaging.byui.edu/beta/catering/confirmorder" />
+<h6 class="msgError" id="msgNoSelection">&nbsp;</h6>
+<input type="submit" value="Submit Menu" /></form>
+<div class="side"></div>
+</div>
+</div>
+<div class="side">
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div><img alt="image" src="Images/food-services/Catering/page_layout/mini_photos/mini_tablepink.png" /></div>
+<p>&nbsp;</p>
+<a href="http://byui.edu/Documents/food-services/Catering/Catering%20PoliciesV2.pdf"><strong>Read Our Policies</strong></a></div>
+<!-- end contactForm --> </div>
+<!-- end foodServicesInnerWrapper --></div>
+<!-- end foodServicesWrapper -->]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x16909" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<Content ID="x63015" Name="Immunizations" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Immunizations</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Immunizations</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<p><link href="Documents/health-center/wellness/womens_health/wm_main.css" rel="stylesheet" type="text/css" /> <link href="https://fonts.googleapis.com/css?family=Dancing+Script: 400, 700" rel="stylesheet" type="text/css" /></p>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+<script src="Documents/health-center/faqs1.js" type="text/javascript"></script>
+<div id="wellness">
+<div id="header">
+<div class="icon"></div>
+Womens Health &amp; Wellness</div>
+<div id="wholebody"><iframe frameborder="0" height="240" id="mynav" scrolling="no" src="Documents/health-center/wellness/womens_health/wm_nav.html" width="350"></iframe>
+<div id="maincontent">
+<div id="subheader">Pre-Pregnancy Health <span class="description">also known as pre-conception health </span></div>
+<div id="subtitle">Immunizations : <br /><span class="description">What shots should I have?</span></div>
+<br />
+<p>Vaccines are safe, and protect you and your baby from getting serious illnesses. Some vaccines are important to have during pregnancy. Talk to your doctor to see if you need any of these vaccines BEFORE you get pregnant. (Be sure to bring your immunization record with you):</p>
+<br />
+<ul style="margin-left: 30px;">
+<li>Hepatitis A</li>
+<li>Hepatitis B</li>
+<li>Human Papillomavirus (HPV)</li>
+<li>Influenza</li>
+<li>Measles, Mumps, Rubella (MMR)</li>
+<li>Meningococcal (MCV 4)</li>
+<li>Pneumococcal (PCV)</li>
+<li>Polio</li>
+<li>Tdap Tetanus, Diphtheria and Pertussis</li>
+<li>Varicella (Chicken Pox)</li>
+</ul>
+<br />
+<p>There is a lot of untrue information about vaccine safety that can be very confusing. If you have concerns, get accurate, scientific information about vaccine <a href="http://www.cdc.gov/vaccinesafety/Concerns/Index.html">here</a> .</p>
+<br />
+<p>Some vaccines are harmful to your baby during pregnancy, and could harm your baby before you know you are pregnant. If you might be pregnant, talk to your doctor before you get more immunizations.</p>
+<div class="refs"></div>
+<br /><hr />
+<div class="quote"><iframe frameborder="0" height="500" id="Iframe" scrolling="auto" src="http://www.cdc.gov/vaccines/schedules/hcp/imz/catchup-shell.html" title="Catch-up Immunization Schedule" width="100%"></iframe></div>
+<br /><hr />
+<div class="quote"><iframe frameborder="0" height="500" id="Iframe" scrolling="auto" src="http://www.cdc.gov/vaccines/schedules/hcp/imz/adult-shell.html" title="Adult Schedule" width="100%"></iframe></div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<script src="Documents/health-center/faqs2.js" type="text/javascript"></script>
+<p><iframe frameborder="0" height="240" id="footer" scrolling="no" src="http://www.byui.edu/Documents/health-center/footer.html" width="320"></iframe></p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x28441" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

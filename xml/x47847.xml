@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x47847" Name="Graduate Faster" IsComponent="false" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Graduate Faster</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Graduate Faster</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style><!--
+#main_p{
+	color:#afafaf;
+	font-size:20px;
+	font-style: italic;
+}
+
+#firstWord{
+	font-weight: bold;
+}
+
+#ulSecond{
+	padding-top:10px;
+}
+
+#ulSecond li{
+	list-style: none;
+	padding:10px;
+}
+
+img#contact_us{
+	margin-top:30px;
+}
+
+ol {
+    counter-reset:li; /* Initiate a counter */
+    margin-left: 40px; /* Remove the default left margin */
+    padding-left:0; /* Remove the default left padding */
+}
+ol > li {
+    padding: 10px;
+    position:relative; /* Create a positioning context */
+    margin:20px 10px 6px 2em; /* Give each list item a left margin to make room for the numbers */
+    padding:4px 8px; /* Add some spacing around the content */
+    list-style:none; /* Disable the normal item numbering */
+}
+ol > li:before {
+    content:counter(li); /* Use the counter as content */
+    counter-increment:li; /* Increment the counter by 1 */
+
+    /* Position and style the number */
+    position:absolute;
+    font-weight: bold;
+    top: 3px;
+    left:-2em;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    line-height: 13px;
+    width: 1.41em;
+    margin-right:8px;
+    padding:4px;
+    color:#fff;
+    background:#cad71e;
+    text-align:center;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+--></style>
+<p><img alt="Graduate Faster" src="Images/Admin_Offices/Admissions/Home%20Page%20Redesign/GraduateFaster_Banner_710x216.jpg" title="Graduate Faster" /></p>
+<p id="main_p">We want to help you keep taking classes and earning credits toward graduation&mdash;even when you're off track. Check out the options below or <a class="intLink" href="x41409.xml" title="Connect with Us">contact</a> the Admissions Office to learn more.</p>
+<div><ol>
+<li>Take an online class</li>
+<li>Enroll in an <a href="http://www.byui.edu/continuing-education/credit-classes/evening-school/admission" title="Evening Classes">evening class</a></li>
+<li>Find out about the <a href="http://www.byui.edu/continuing-education/prospective-missionary-program" title="Prospective Missionary Program (PMP)">Prospective Missionary Program</a>&nbsp;(PMP)</li>
+<li>Learn more about registration overrides, including <a href="http://www.byui.edu/admissions/current-students/fast-grad" title="Fast Grad">Fast Grad</a></li>
+<li><span><span><strong><em>NEW</em></strong>&nbsp;<span>&ndash; Expanding Off-Track Enrollment Option</span></span></span>
+<ul id="ulSecond">
+<li>- Available to students off-track with 60 credits or more</li>
+<li>- Enroll in 300- and 400-level courses with open seats</li>
+<li>- Apply one business day before the semester begins</li>
+</ul>
+</li>
+</ol></div>
+<div></div>
+<!-- BEGIN LivePerson Monitor. -->
+<p>
+<script language="javascript" type="text/javascript">
+var lpMTagConfig = {'lpServer' : "server.iad.liveperson.net",'lpNumber' : "1132447",'lpProtocol' : "https"}; function lpAddMonitorTag(src){if(typeof(src)=='undefined'||typeof(src)=='object'){src=lpMTagConfig.lpMTagSrc?lpMTagConfig.lpMTagSrc:'/hcp/html/mTag.js';}if(src.indexOf('http')!=0){src=lpMTagConfig.lpProtocol+"://"+lpMTagConfig.lpServer+src+'?site='+lpMTagConfig.lpNumber;}else{if(src.indexOf('site=')<0){if(src.indexOf('?')<0)src=src+'?';else src=src+'&';src=src+'site='+lpMTagConfig.lpNumber;}};var s=document.createElement('script');s.setAttribute('type','text/javascript');s.setAttribute('charset','iso-8859-1');s.setAttribute('src',src);document.getElementsByTagName('head').item(0).appendChild(s);} if (window.attachEvent) window.attachEvent('onload',lpAddMonitorTag); else window.addEventListener("load",lpAddMonitorTag,false);
+</script>
+</p>
+<!-- END LivePerson Monitor. -->]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"></xPower></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x17636" CompTypes="SiteControl" Expanded="false"/></Content>

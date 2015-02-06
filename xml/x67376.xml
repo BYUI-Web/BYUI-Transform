@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<CommonPage ID="x67376" Name="Message" Layout="default.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Message</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Message</Abstract><xPower Type="GroupStart" GroupStart="" Name="ImageColumn" label="Image Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveRight type="boolean" hidden="true" label="Toggle column left or right (left is default)" readonly="false" required="false">false</MoveRight><xPower Type="List" List="xpowercomponent_ImageComponent" Name="ImageColumnComponentList" label="Images" readonly="false" hidden="false" required="false" Component="" CompTypes="LeftColumnImageComponent" Expanded="false"><xPower Type="Component" Component="" Name="ImageComponent" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent" Expanded="false"/></xPower><xPower Type="List" List="xpowercomponent_TextComponent" Name="TextColumnComponentList" label="Text Box" readonly="false" hidden="false" required="false" Component="" CompTypes="ColumnTextComponent" Expanded="false"><xPower Type="Component" Component="" Name="TextComponent" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent" Expanded="false"/></xPower></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p><strong>Message</strong></p>
+<br /> <br />
+<p><strong>Before you print: all messages must be approved by your <a href="http://www.byui.edu/identity/glossary.htm#communicationCouncil">Communication Council</a> representative prior to printing and/or distribution.</strong></p>
+<br />
+<p>Consider the following when preparing your piece:</p>
+<br />
+<p><strong>What is the purpose for the piece?</strong></p>
+<p>Remember not everyone is familiar with what you do.  						Just giving them the name of a program or event may not be enough. 						A brief description is often helpful.</p>
+<br />
+<p><strong>Required details</strong></p>
+<p>Include important details like date, time, location, cost, contact info, links to info on the Web, etc.</p>
+<br />
+<p><strong>The broader university mission</strong></p>
+<p>When possible, find ways to relate your message to the mission of the university. 						This helps your audience better understand the university and further clarifies the purpose of your communication.</p>
+<br />
+<p><strong>Writing resources</strong></p>
+<p>We recommend using these resources to maintain consistency in editorial and publication writing campus-wide:</p>
+<ul>
+<li>LDS Terminology Guide (supersedes the University Terminology Guide, Chicago, and Merriam-Webster)</li>
+<li>University Terminology Guide (supersedes Chicago and Merriam-Webster)</li>
+<li>Chicago Manual of Style, 15th edition</li>
+<li>Merriam-Webster Collegiate Dictionary, 11th edition</li>
+</ul>
+<br />
+<p><strong>Creative latitude</strong></p>
+<p>The level of creativity required for your <a href="http://www.byui.edu/identity/glossary.htm" title="See glossary definition">communication piece</a> is determined by what it needs to communicate,  						who it needs to communicate to, and where it will be presented. A  message written for an on-campus audience or to represent the 						university in an official capacity should be written in a more  formal tone than messages to promote an off-campus  						informal event aimed at students.</p>
+<br />
+<p><strong>Choose appropriate language</strong></p>
+<p>The words we use to describe an event or program are as important as the images, logos, and colors we use.  						Choose language that supports the mission of BYU-Idaho and the mission of your area.</p>
+<br />
+<p>Ask yourself questions about the language in the piece. For example:</p>
+<ul>
+<li>What connotations do the chosen language and phrases have in popular culture?</li>
+<li>Do any of the phrases or language paint a mental image that may be inconsistent with the mission of BYU-Idaho?</li>
+<li>Does the piece exclude or include my audience?</li>
+</ul>
+<br /> <br /> Questions? Send us an e-mail: <a href="mailto:ucidentity@byui.edu">ucidentity@byui.edu</a>]]></BodyCopy><xPower Type="Component" Component="x14" Name="RelatedLinks" label="Related Links" readonly="false" hidden="false" required="false" CompTypes="RelatedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="false" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x4147" Name="SiteControl" label="Site Control" readonly="true" hidden="true" required="false" CompTypes="SiteControl" Expanded="false"/></CommonPage>

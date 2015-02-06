@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content ID="x61426" Name="Veterans Fun facts" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Veterans Association Fun Facts</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Brigham Young University Idaho - Veterans Association Fun Facts</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><xPower Type="List" List="Image" Name="RelatedImage" label="Related Image(s)" readonly="false" hidden="true" required="false" Border="" Alignment="" Expanded="false" Height="" Width=""><Image type="imagefile" readonly="false" hidden="true" required="false" Border="" Alignment="" Expanded="false" Height="" Width=""></Image></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+#page{width: 710px; height: auto; min-height: 600px;}
+    #page #header{width: 710px; height: 265px;}
+    #page #content{width: 78%; height: auto; min-height: 300px; float: left; padding: 1%;}
+    #page #content p{padding-left: 5px;}
+
+    #page #buttons{width: 18%; height: auto; min-height: 300px; float: left; padding: 1%; text-align: center;}
+    #page #buttons a{display:block; width: 100px; height: 100px; margin-left: auto; margin-top: 10px; margin-bottom: 20px;
+        }
+    #page #buttons .useful{background-image: url('Images/student-support/Associations/Association_icons/latinW.png'); background-size: 100%; background-repeat: no-repeat;}
+    #page #buttons .fun{background-image: url('Images/student-support/Associations/Association_icons/latinF.png'); background-size: 100%; background-repeat: no-repeat;}
+    #page #buttons .join{background-image: url('Images/student-support/Associations/Association_icons/join(1).png'); background-size: 100%; background-repeat: no-repeat;margin-left:30px;}
+
+    #page #buttons .useful:hover{background-image: url('Images/student-support/Associations/Association_icons/blackandwhite.png');}
+    #page #buttons .fun:hover{background-image: url('Images/student-support/Associations/Association_icons/blackandwhiteF.png');}
+    #page #buttons .join:hover{background-image: url('Images/student-support/Associations/Association_icons/join(0)blackandwhite.png');}
+--></style>
+<div id="page">
+<div id="header"><img src="Images/student-support/Associations/Association_headers/Veterans_710px.jpg" /></div>
+<div id="content">
+<h1>Fun Facts</h1>
+<h3>Did you know that...</h3>
+<ul>
+<li>
+<p>21.8 Million Vets Live in the U.S.</p>
+</li>
+<li>
+<p>There Are 1.6 Million Female Vets</p>
+</li>
+<li>
+<p>71 percent of veterans cast a ballot in the 2008 presidential election. Compare that to the regular national turnout of 61 percent that year.</p>
+</li>
+<li>
+<p>7.6 million Vietnam-era vets are living in the U.S. right now. Another 4.8 million served during the Gulf War, 2.6 million in Korea, and 2.1 million during World War II. There are no living American veterans of World War I.</p>
+</li>
+<li>
+<p>Not all veterans fought in a war: 5.5 living veterans served in peacetime only.</p>
+</li>
+</ul>
+</div>
+<div id="buttons"><a class="useful" href="x35980.xml">&nbsp;</a> <a class="fun" href="x35981.xml"></a> <a class="join" href="x35979.xml"></a></div>
+</div>
+<p>
+<script type="text/javascript">
+window.onload=function(){
+    
+        $('.join').hover(function(){
+         $(this).attr('src','Images/student-support/Associations/Association_icons/joingray.png');
+},
+function(){
+   $(this).attr('src','Images/student-support/Associations/Association_icons/join.png');
+}
+);
+
+    }//end window load
+</script>
+</p>]]></BodyCopy><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Component" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false" Component=""><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowerinsert_InsertItems" Name="Insert" label="Insert" readonly="false" hidden="true" required="false" WellFormed="false" Expanded="false" ExtractHTMLBody="false" Insert=""><xPower Type="Insert" Insert="" WellFormed="false" ExtractHTMLBody="false" Name="InsertItems" readonly="false" hidden="true" required="false" Expanded="false"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x35763" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

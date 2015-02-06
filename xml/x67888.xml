@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x67888" Name="randomImage.js" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">randomImage.js</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">randomImage.js</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">//Begin 
+                       
+	rnd.today=new Date();
+	rnd.seed=rnd.today.getTime();
+
+	function rnd() {
+		rnd.seed = (rnd.seed*9301+49297) % 233280;
+		return rnd.seed/(233280.0);
+	}
+
+	function rand(number) {
+		var result = Math.ceil(rnd()*number);
+		if (!result)result++;
+    	return result
+	}
+	
+function randomImage(){ 
+	var ad_cnta =5;
+	var imageNumber = rand(ad_cnta);
+
+	var titleHeader = new Array();
+	titleHeader[1] = "Foundations Program";
+	titleHeader[2] = "Heber J. Grant&lt;br/&gt;Program";
+	titleHeader[3] = "Learning Through &lt;br/&gt; Internships";
+	titleHeader[4] = "A BYU-I Education &lt;br/&gt;Outside Rexburg";
+	titleHeader[5] = "Leadership Through&lt;br/&gt; Activities";
+	
+	var subTitle = new Array();
+	subTitle[1] = "BYU-I&amp;#39;s general ed program delves deeper into subject matter";
+	subTitle[2] = "Students get help and give back to others";
+	subTitle[3] = "One student&amp;#39;s faith opens doors and opportunities";
+	subTitle[4] = "Students get degrees from their own homes";
+	subTitle[5] = "Students focus on building others&lt;br/&gt;through activities";
+	
+	var link = new Array();
+	link[1] = "departments/on_campus/foundations.htm";
+	link[2] = "departments/on_campus/heberjgrant.htm";
+	link[3] = "departments/on_campus/internship.htm";
+	link[4] = "departments/on_campus/outside_education.htm";
+	link[5] = "departments/on_campus/leadership_activities.htm";
+							
+				
+	document.getElementById('rotating_image').src = "images/image_rotater/rotating_images/image" + imageNumber + ".jpg";
+	document.getElementById('rotating_image').alt = "On campus images";
+	document.getElementById('devo_description').innerHTML = titleHeader[imageNumber];
+	document.getElementById('devo_speaker').innerHTML = subTitle[imageNumber];
+	document.getElementById('onCampusLink').href = link[imageNumber];
+	
+	//setTimeout("doItAgain()", 10000);
+	//console.log("changed it");
+}
+// End
+
+/*function doItAgain(){
+	randomImage();
+}*/</ESContent></EmptyShell>

@@ -1,0 +1,312 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content ID="x66679" Name="Presenters Info" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Contact</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Contact</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+#page{width: 710px; height: auto; min-height: 600px;}
+    #page #header{width: 710px; height: 265px;}
+    #page #content{width: 78%; height: auto; min-height: 300px; float: left; padding: 1%;}
+    #page #content p{padding-left: 5px;}
+
+    #page #content table{width: 550px;}
+    #page #content table h3{padding: 0px; margin: 0px; letter-spacing: 1.5px; font-weight: bold; color: #E45B3E;} 
+    #page #content table p{padding: 0px; margin: 0px; font-size: 12.5px; padding-left: 3px; color: black;}
+    #page #content table span{font-size: 15px; font-weight: bold; color: #E45B3E;}
+    #page #content table caption{text-align: left; padding: 10px;}
+    #page #content table td{color: black;}
+
+    .dark #label, .dark #info, .dark{background-color: #b3cebc;}
+    .dark:hover #label, .dark:hover #info{background-color: #94baa1;}
+    .light #label, .light #info, .light{background-color: #f3f8f7;}
+    .light:hover #label, .light:hover #info{background-color: #e3efec;}
+
+    #page #content table #label{}
+    #page #content table #info{}
+    #page #content table #name{padding-top: 10px}
+
+    #page #buttons{width: 18%; height: auto; min-height: 300px; float: left; padding: 1%; text-align: center;}
+    #page #buttons div{width: 100px; height: 100px; margin-left: auto; margin-right: auto; margin-top: 10px; margin-bottom: 20px;}
+
+    #page #buttons .one{
+        background-image: url('Images/student-support/Get Connected/Talent Show/student-success-sprite.gif');
+        background-position:0 100px;
+          height:100px;
+                          width:100px;
+                          display:block;
+                          margin-left:13px;
+                          margin-top:10px;
+    }
+    #page #buttons .two{
+        background-image: url('Images/student-support/Get Connected/Talent Show/student-success-sprite.gif');
+        background-position:0 306px;
+          height:100px;
+                          width:100px;
+                          display:block;
+                          margin-left:13px;
+                          margin-top:10px;
+    }
+    #page #buttons .three{
+        background-image: url('Images/student-support/Get Connected/Talent Show/student-success-sprite.gif');
+        background-position:0 510px;
+          height:100px;
+                          width:100px;
+                          display:block;
+                          margin-left:13px;
+                          margin-top:10px;
+    }
+
+
+    #page #buttons .one:hover{background-image: url('Images/student-support/Get Connected/Talent Show/student-success-sprite.gif');background-position:0 203px;}
+    #page #buttons .two:hover{background-image: url('Images/student-support/Get Connected/Talent Show/student-success-sprite.gif');background-position:0 409px;}
+    #page #buttons .three:hover{background-image: url('Images/student-support/Get Connected/Talent Show/student-success-sprite.gif');background-position:0 613px;}
+    
+    #page #buttons .live_chat{
+         display:inline;
+        margin-left:0px;
+        padding-top:8px;
+        padding-bottom:8px;
+        padding-right:15px;
+        padding-left:15px;
+     background-color:#E2593E;
+        /* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top left, #E2593E 0%, #C44D36 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top left, #E2593E 0%, #C44D36 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top left, #E2593E 0%, #C44D36 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #E2593E), color-stop(1, #C44D36));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top left, #E2593E 0%, #C44D36 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom right, #E2593E 0%, #C44D36 100%);
+        text-decoration:none;
+        color:#fff;
+        border-radius:4px;
+        font-family:sans-serif;
+        font-weight:bold;
+    }
+    #page #buttons .live_chat:hover{
+        background-color:#AD4936;
+        
+        background-image: -ms-linear-gradient(top left, #AD4936 0%, #9C4231 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top left, #AD4936 0%, #9C4231 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top left, #AD4936 0%, #9C4231 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #AD4936), color-stop(1, #9C4231));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top left, #AD4936 0%, #9C4231 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom right, #AD4936 0%, #9C4231 100%);
+    }
+--></style>
+<div id="page">
+<div id="header"><img src="Images/student-support/Get Connected/Talent Show/header.gif" /></div>
+<div id="content">
+<h1>Student Success Conference Contacts</h1>
+<br />
+<table cellspacing="0"><!--Academic Discovery Center-->
+<tbody>
+<tr class="dark">
+<td colspan="2" id="name">
+<h3>Academic Discovery Center</h3>
+</td>
+</tr>
+<tr class="dark">
+<td id="label">Location:</td>
+<td id="info">129 Manwaring Center</td>
+</tr>
+<tr class="dark">
+<td id="label">Phone:</td>
+<td id="info">(208) 496-9800</td>
+</tr>
+<tr class="dark">
+<td id="label">Email:</td>
+<td id="info"><a href="mailto:academicdiscoverycenter@byui.edu">academicdiscoverycenter@byui.edu</a></td>
+</tr>
+<tr class="dark">
+<td id="label">Web Site:</td>
+<td id="info"><a href="http://www.byui.edu/academic-discovery-center">www.byui.edu/academic-discovery-center</a></td>
+</tr>
+<!--Academic Support Centers-->
+<tr class="light">
+<td colspan="2" id="name">
+<h3>Academic Support Centers</h3>
+</td>
+</tr>
+<tr class="light">
+<td id="label">Location:</td>
+<td id="info">2nd Floor, East Wing McKay Library</td>
+</tr>
+<tr class="light">
+<td id="label">Phone:</td>
+<td id="info">(208) 496-4270</td>
+</tr>
+<tr class="light">
+<td id="label">Email:</td>
+<td id="info"></td>
+</tr>
+<tr class="light">
+<td id="label">Web Site:</td>
+<td id="info"><a href="http://www.byui.edu/academic-support-centers">www.byui.edu/academic-support-centers</a></td>
+</tr>
+<!--Counseling Center-->
+<tr class="dark">
+<td colspan="2" id="name">
+<h3>Counseling Center</h3>
+</td>
+</tr>
+<tr class="dark">
+<td id="label">Location:</td>
+<td id="info">2nd Floor, Student Health and Counseling Center</td>
+</tr>
+<tr class="dark">
+<td id="label">Phone:</td>
+<td id="info">(208) 496-9370</td>
+</tr>
+<tr class="dark">
+<td id="label">Email:</td>
+<td id="info"><a href="mailto:counselingsec@byui.edu">counselingsec@byui.edu</a></td>
+</tr>
+<tr class="dark">
+<td id="label">Web Site:</td>
+<td id="info"><a href="http://www.byui.edu/counseling-center">www.byui.edu/CounselingCenter</a></td>
+</tr>
+<!--Financial Aid-->
+<tr class="light">
+<td colspan="2" id="name">
+<h3>Financial Aid</h3>
+</td>
+</tr>
+<tr class="light">
+<td id="label">Location:</td>
+<td id="info">100 Kimball Building</td>
+</tr>
+<tr class="light">
+<td id="label">Phone:</td>
+<td id="info">(208) 496-1600</td>
+</tr>
+<tr class="light">
+<td id="label">Email:</td>
+<td id="info"><a href="mailto:financialaid@byui.edu">financialaid@byui.edu</a></td>
+</tr>
+<tr class="light">
+<td id="label">Web Site:</td>
+<td id="info"><a href="http://www.byui.edu/financial-aid">www.byui.edu/financial-aid</a></td>
+</tr>
+<!--Housing and Student Living-->
+<tr class="dark">
+<td colspan="2" id="name">
+<h3>Housing and Student Living</h3>
+</td>
+</tr>
+<tr class="dark">
+<td id="label">Location:</td>
+<td id="info">196 Kimball Building</td>
+</tr>
+<tr class="dark">
+<td id="label">Phone:</td>
+<td id="info">(208) 496-9220</td>
+</tr>
+<tr class="dark">
+<td id="label">Email:</td>
+<td id="info"><a href="mailto:housing@byui.edu">housing@byui.edu</a></td>
+</tr>
+<tr class="dark">
+<td id="label">Web Site:</td>
+<td id="info"><a href="http://www.byui.edu/housing">www.byui.edu/housing</a></td>
+</tr>
+<!--Student Activities-->
+<tr class="light">
+<td colspan="2" id="name">
+<h3>Student Activities</h3>
+</td>
+</tr>
+<tr class="light">
+<td id="label">Location:</td>
+<td id="info">190 Kimball Building</td>
+</tr>
+<tr class="light">
+<td id="label">Phone:</td>
+<td id="info">(208) 496-4270</td>
+</tr>
+<tr class="light">
+<td id="label">Email:</td>
+<td id="info"><a href="mailto:registrar@byui.edu">activities@byui.edu</a></td>
+</tr>
+<tr class="light">
+<td id="label">Web Site:</td>
+<td id="info"><a href="http://www.byui.edu/activities">www.byui.edu/activities</a></td>
+</tr>
+<!-- Student Records and Registration -->
+<tr class="dark">
+<td colspan="2" id="name">
+<h3>Student Records and Registration</h3>
+</td>
+</tr>
+<tr class="dark">
+<td id="label">Location:</td>
+<td id="info">190 Kimball Building</td>
+</tr>
+<tr class="dark">
+<td id="label">Phone:</td>
+<td id="info">(208) 496-1000</td>
+</tr>
+<tr class="dark">
+<td id="label">Email:</td>
+<td id="info"><a href="mailto:registrar@byui.edu">registrar@byui.edu</a></td>
+</tr>
+<tr class="dark">
+<td id="label">Web Site:</td>
+<td id="info"><a href="http://www.byui.edu/student-records">www.byui.edu/student-records</a></td>
+</tr>
+<!--Student Support-->
+<tr class="light">
+<td colspan="2" id="name">
+<h3>Student Support</h3>
+</td>
+</tr>
+<tr class="light">
+<td id="label">Location:</td>
+<td id="info">272 Rigby Hall</td>
+</tr>
+<tr class="light">
+<td id="label">Phone:</td>
+<td id="info">(208) 496-1420</td>
+</tr>
+<tr class="light">
+<td id="label">Email:</td>
+<td id="info"><a href="mailto:studentsupport@byui.edu">studentsupport@byui.edu</a></td>
+</tr>
+<tr class="light">
+<td id="label">Web Site:</td>
+<td id="info"><a href="http://www.byui.edu/student-support">www.byui.edu/student-support</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="buttons"><a class="one" href="x43897.xml"></a> <a class="two" href="x43898.xml" title="Contact"></a> <a class="three" href="https://cms.byui.edu/home/StudentSupport/Lists/Student%20Success%20Conference%20RSVP/Item/newifs.aspx?List=6f0a7da4%2D89f6%2D4baf%2Daeaa%2D03bb48c4116d&amp;Source=https%3A%2F%2Fcms%2Ebyui%2Eedu%2Fhome%2FStudentSupport%2FLists%2FStudent%2520Success%2520Conference%2520RSVP%2FMy%2520Referrals%2Easpx%3FIsDlg%3D1&amp;RootFolder=&amp;IsDlg=1&amp;Web=9d8e59ae%2Dcaad%2D4c52%2Da0d7%2D706060345244" title="RSVP"></a>
+<p style="margin-top: -6px;"></p>
+<a class="live_chat" href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=Student%20Support">Live Chat</a></div>
+</div>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-33977325-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x19075" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

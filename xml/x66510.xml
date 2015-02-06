@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<AdminPage ID="x66510" Name="Student Representative Council" Layout="admin_office_home.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Student Representative Council</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">The Student Representative Counil</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="true"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><MainMesgTop type="boolean" label="Enable to move &quot;Main Message&quot; to top of page" readonly="false" hidden="false" required="false">true</MainMesgTop><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style><!--
+#page{width:710px;}
+    #page #content{width:78%;float:left;}
+#page #buttons{width: 18%; height: auto; min-height: 300px; float: left; padding: 1%; text-align: center;}
+    
+    #page #buttons .one,#page #buttons .two,
+    #page #buttons .three{
+        width: 100px; 
+        height: 100px; 
+        margin-left: auto; 
+        margin-top: 10px; 
+        margin-bottom: 10px;
+        display:block;
+    }
+    #page #buttons .one{background-image: url('Images/student-support/SRC/Graphics/src-sprite.gif');background-position:0 100px;}
+    #page #buttons .two{background-image: url('Images/student-support/SRC/Graphics/src-sprite.gif');background-position:0 304px;}
+    #page #buttons .three{background-image: url('Images/student-support/SRC/Graphics/src-sprite.gif');background-position:0 510px;}
+
+
+   #page #buttons .one:hover{background-image: url('Images/student-support/SRC/Graphics/src-sprite.gif'); background-position:0 202px;}
+    #page #buttons .two:hover{background-image: url('Images/student-support/SRC/Graphics/src-sprite.gif');background-position:0 407px;}
+    #page #buttons .three:hover{background-image: url('Images/student-support/SRC/Graphics/src-sprite.gif');background-position:0 612px;}
+
+    #page #buttons .live_chat{
+        margin-left:27px;
+        padding:10px 15px;
+        
+        background-color:#D21F22;
+        text-decoration:none;
+        color:#fff;
+        border-radius:4px;
+        font-family:sans-serif;
+        font-weight:bold;
+    }
+    #page #buttons .live_chat:hover{
+        background-color:#842325;
+    }
+--></style>
+<div id="page">
+<h1><img alt="Student Representative Council" src="Images/student-support/SRC/Ambassadors_header.png" /></h1>
+<div id="electionsMenu" style="padding-bottom: 15px;">
+<h1 style="padding: 10px; margin-bottom: 8px; background-color: #a60000; color: white; border-radius: 10px;">Student Body Officer Elections | March 25-29, 2013</h1>
+<ul style="display: inline; padding-left: 0px;">
+<li style="display: inline; list-style: none; font-weight: bold; font-family: Helvetica; font-size: 19px; padding-bottom: 8 px;"><a href="http://web.byui.edu/VotingService" style="color: #a60000;"><img alt="Candidate Icon" height="32" src="Images/student-support/SRC/Graphics/vote_red_32.png" style="margin-bottom: -8px; margin-right: 5px;" width="32" />Vote</a></li>
+<li style="display: inline; list-style: none; font-weight: bold; font-family: Helvetica; font-size: 19px; padding-bottom: 8 px;"><a href="x43356.xml"><img alt="Candidate Icon" height="32" src="Images/student-support/SRC/Graphics/delete_user.png" style="margin-bottom: -8px; margin-right: 5px;" width="32" />Candidates</a></li>
+<li style="display: inline; list-style: none; font-weight: bold; font-family: Helvetica; font-size: 19px; padding-bottom: 8 px;">&nbsp; <a href="x43357.xml"><img alt="Events Icon" height="32" src="Images/student-support/SRC/Graphics/calendar.png" style="margin-bottom: -8px; margin-right: 5px;" width="32" />Events</a></li>
+</ul>
+</div>
+<div id="content"><br />
+<h1>A Different&nbsp;Approach to Student Government...</h1>
+<p>While many universities have a student government that passes legislation and works separately from the administration of the university, BYU-Idaho has taken a more focused approach.</p>
+<p><strong>Members of the Student Representative Council&nbsp;work <em>together</em> with the administration in&nbsp; over 20 administrative councils to ensure that the voice of&nbsp;the students is being heard, and that issues and concerns are resolved in a way that benefits the entire BYU-Idaho&nbsp;community. </strong><strong></strong></p>
+<br />
+<p>SRC volunteers carry out this work with the following objectives:</p>
+<ul>
+<li>Seek to implement students' ideas and solutions</li>
+<li>Represent students by actively participating in university administrative councils</li>
+<li>Research global student concerns and propose viable solutions</li>
+<li>Educate students on current policies</li>
+</ul>
+<p>The council is led by the Student Body President and the Student Body Vice President who are elected by BYU-Idaho students to serve a single two-semester term.</p>
+</div>
+<br />
+<div id="buttons"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Quick Links: </strong><a class="one" href="x36938.xml"></a><a class="two" href="x36275.xml"></a><a class="three" href="x37055.xml"></a>
+<p style="margin-top: -34px;">&nbsp;</p>
+<a class="live_chat" href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=Student%20Support">Live Chat</a></div>
+</div>
+<p>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-33977325-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+</p>]]></BodyCopy><xPower Type="Component" Component="x36320" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="CellGroup" label="Cells" readonly="false" hidden="false" required="false" Expanded="true"><numColumns type="enumeration" values="1 2 3 4 5" label="Select number of cell columns." readonly="false" hidden="false" required="true">1</numColumns><xPower Type="List" List="xpowercomponent_Cell" Name="CellList" label="Cell List" readonly="false" hidden="false" required="false" Component="" CompTypes="CellComponent" Expanded="true"><xPower Type="Component" Component="x43353" Name="Cell" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"/></xPower></xPower><xPower Type="List" List="xpowercomponent_BannerAd" Name="BannerAds" label="Rotating Ads" readonly="false" hidden="false" required="false" Component="" CompTypes="BannerAdComponent" Expanded="true"><xPower Type="Component" Component="" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/></xPower><xPower Type="Navigation" StartPage="x36318" MaxDepth="3" MaxNodes="" GenerationOrder="down" Navigation="Children" Query="" Name="DeptEvents" label="Define Your Events Folder" readonly="false" hidden="false" required="false" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="QuickLinks" label="Quick Links" readonly="false" hidden="false" required="false" Expanded="true"><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="Quick Links Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="Quick Links Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="Quick Links Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="Insert" Insert="" WellFormed="false" ExtractHTMLBody="false" Name="HTMLInsert" label="Insert" readonly="false" hidden="true" required="false" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x36315" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></AdminPage>

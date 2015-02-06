@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<IdentityTemplate ID="x67120" Name="template1" Layout="defaultshawntest.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Get A Template</Title><PosterName type="string" label="Template Type" readonly="false" hidden="false" required="true">Vertical Posters</PosterName><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="false" required="false">0.5</Priority></xPower><BodyCopy type="dhtml" label="Body Copy"><![CDATA[<ul>
+<li><strong>Suggested Uses</strong> 
+<ul>
+<li>Used to advertise off  campus institutional messages, department sponsored events, and on  campus student-to-student events. Displayed on tack strips or bulletin  boards </li>
+</ul>
+</li>
+<li><strong>Cost</strong> 
+<ul>
+<li>Inexpensive to print at about $1.50 depending upon amount printed</li>
+</ul>
+</li>
+<li><strong>Categories Offered</strong> 
+<ul>
+<li>2 sizes-regular 17' X 11' and large 20' X 13' </li>
+</ul>
+</li>
+</ul>
+<br />]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="Poster" label="Template Information" readonly="false" hidden="false" required="false" Expanded="true"><Imagefile type="imagefile" label="Profile Image" hidden="false" readonly="true">New image stucture/Identity/PostersV/posters.jpg</Imagefile><PosterSize type="string" label="Template Size" hidden="false" readonly="true">11 x 12</PosterSize><PosterDesc type="string" label="Template Description" hidden="false" readonly="true">test</PosterDesc></xPower><xPower Type="GroupStart" GroupStart="" Name="Poster" label="Template Information" readonly="false" hidden="false" required="false" Expanded="true"><Imagefile type="imagefile" label="Profile Image" hidden="false" readonly="false" required="false">New image stucture/Identity/PostersV/posters.jpg</Imagefile><PosterSize2 type="string" label="Template Size" hidden="false" readonly="false" required="false">16 x 36</PosterSize2><PosterDesc2 type="string" label="Template Description" hidden="false" readonly="false" required="false">Another test</PosterDesc2></xPower><xPower Type="Navigation" StartPage="" MaxDepth="" MaxNodes="" GenerationOrder="" Navigation="Children" Query="" Name="identityNav" label="Child Navigation"/><xPower Type="Component" Component="x14" Name="RelatedLinks" label="Related Links" readonly="false" hidden="false" required="false" CompTypes="RelatedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x4147" Name="SiteControl" label="Site Control" readonly="true" hidden="true" required="false" CompTypes="SiteControl" Expanded="false"/></IdentityTemplate>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.68 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x61090" Name="Skating Rink" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Skating Rink</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Location, hours of operation, cost and policies.</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<div style="text-align: center;">
+<h1 style="text-align: left;"><span style="text-decoration: underline;"><strong><span style="font-size: x-large;">BYU- Idaho Skating Rink</span></strong></span></h1>
+<table align="right" border="6" style="height: 300px; border-color: #000000; border-width: 6px; width: 320px;">
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 style="text-align: left;"><span style="font-size: large;"><strong>Hours</strong>:Monday, Wednesday, and Friday 6:00-10:30p.m. Saturday noon-10:30p.m.</span></h3>
+<p><span style="font-size: large;"><br /></span></p>
+<h2 style="text-align: left;"><span style="font-size: large;"><strong>Location</strong>: Base of sledding hill on South 1st West</span></h2>
+<p style="text-align: left;"><span style="font-size: large;"><strong>&nbsp;</strong><span style="font-family: Georgia; color: #555753;">&nbsp;</span></span></p>
+<p style="text-align: center;"><span style="font-size: large;"><span style="font-family: Georgia; color: #555753;"> </span></span></p>
+<p style="text-align: left;"><span style="font-size: large;"><strong>Cost</strong>: $3.00*</span></p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;"><a href="http://www2.byui.edu/Maps/new/" target="_blank"><span style="font-size: large;"><strong>Campus Map</strong></span></a></p>
+<hr />
+<div style="text-align: left;">*-Payments of cash, I-card, or credit is accepted.</div>
+<div style="text-align: left;"></div>
+<div style="text-align: left;"></div>
+<div style="text-align: center;"><span style="font-size: large;">The Skating Rink may be used by <span style="text-decoration: underline;"><em><strong>BYU-Idaho students</strong></em></span>, <span style="text-decoration: underline;"><em><strong>employees</strong></em></span>, and <strong><span style="text-decoration: underline;"><em>their dependents</em></span></strong>.&nbsp; You must show your BYU-Idaho I-Card for admittance into the rink.<br /></span></div>
+<p style="text-align: center;">&nbsp;</p>
+<div style="text-align: center;"><span style="background-color: #ffff00; font-size: x-large;">Due to the warm weather the Skating Rink is closed until further notice.</span></div>
+<div style="text-align: center;"><span style="background-color: #ffff00;">&nbsp;</span></div>
+<div style="text-align: center;">Please watch the website for updates.</div>
+<p style="text-align: center;"><span style="font-size: large;">&nbsp;</span></p>
+<p style="text-align: left;"><span style="font-size: small;">Return to <a href="x31024.xml">Exercise Facilities and Play Fields</a>. </span></p>
+</div>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x6784" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

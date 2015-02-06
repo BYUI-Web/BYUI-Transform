@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x45928" Name="Add Classes" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Add Classes</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Add Classes</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<!--SCRIPTS AND STYLESHEETS-->
+<div><link href="http://fonts.googleapis.com/css?family=Cambo" rel="stylesheet" type="text/css" /></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+window.jQuery || document.write('<script src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" _mce_src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" _mce_src="prebuilt/stylenew/js/libs/jquery-1.7.min.js"><\/script>')
+</script>
+<script src="prebuilt/stylenew/js/mylibs/scrolling_events_bar.js" type="text/javascript"></script>
+<script src="Documents/student-records-and-registration/ibox2.js" type="text/javascript"></script>
+<div><link href="Documents/student-records-and-registration/srrcss3.css" rel="stylesheet" type="text/css" /></div>
+<!--IBOXS-->
+<div id="add1" style="display: none;"><ol start="1">
+<li>Log in to your my.byui.edu(Access the log-in page on the BYU&mdash;Idaho Hompage: (<a href="http://www.byui.edu"><span style="text-decoration: underline;">www.byui.edu</span></a>)</li>
+<li>Select the blue "Student" tab</li>
+</ol></div>
+<div id="add2" style="display: none;">
+<p>If a class is full that a student wishes to register for, they will need to complete one or more of the following options to register for the desired class.</p>
+<ul>
+<li>Join the waitlist for the desired course and section.</li>
+<li>Contact the instructor of the section to see if they are willing to overfill their class.(Note: Online Sections typically cannot be over filled. Contact Online learning (208) 496-1800 for assistance.)</li>
+<li>Attend the first day of class and ask the instructor if there is room to be added to the section.</li>
+</ul>
+</div>
+<div id="add3" style="display: none;">
+<p><span style="text-decoration: underline;">I think I may want to audit one of my classes. What does auditing a class mean?</span></p>
+<p>Students who audit a class are not responsible for attendance, daily preparations, or examinations, and no grade is reported or recorded on the permanent record. An audited class cannot be a retake. Tuition and fees for audited classes&nbsp;are assessed on the same basis as for credited classes. An &ldquo;I&rdquo; grade may not be made up by repeating the class as an audit.</p>
+<p>Departments have the right to refuse to allow students to audit individual courses. Registered students who drop all credit classes and only have audit classes remaining are considered withdrawn from the University effective the latest drop date of the non-audit classes. Students will need to re-apply through the Admissions Office for the next semester. Compliance with deadlines is required, unless a deferment is obtained.</p>
+<p><span style="text-decoration: underline;">How do I change my enrollment in a class to audit?</span></p>
+<p>Students must first register for the class for credit and then contact the Student Records and Registration Office to change the course to audit. Students may not change class status from credit to audit or from audit to credit after the deadline to withdraw from a class without earning a &ldquo;W&rdquo;.</p>
+</div>
+<div id="add4" style="display: none;">
+<p style="text-decoration: underline;">I'm enrolled in one religion class, but I'd like to add a second one. When can I do so?</p>
+<p>Students who wish to take two religion classes in a given&nbsp;semester may attempt to do so on the first day of the class (or block) if there is available seating. Students can then add the course to their schedules or, if necessary, meet with the instructor of that class to receive any needed authorization(s). Students who wish to take more than two religion classes in a given&nbsp;semester must obtain clearance from the Religion Department Chairman. The Chairman then contacts the Student Records and Registration Office to register the student for the class.</p>
+</div>
+<div id="add5" style="display: none;">
+<p>Twenty-one credit hours is the recommended maximum. Students must obtain permission from the Student Records and Registration Office to take more than 21 credits per semester or 10 credits per block/term. Students must demonstrate a successful academic history to qualify (e.g., a cumulative 3.0 GPA or higher, a history of high course loads in 2+ consecutive semesters, etc.).</p>
+</div>
+<div id="add6" style="display: none;">
+<p><strong>Repeat Classes</strong></p>
+<p>Repeat classes allow a class to be taken two or more times for additional credit. Most classes at BYU&mdash;Idaho are not repeatable for credit. Departments establish the maximum number of times a class can be repeated. A repeated class does not replace the former grade or credit of a previously repeated class. Approval to enroll in a repeatable course for the purpose of replacing a previous credit grade must be obtained from the Academic Exceptions Committee prior to registering for the course.</p>
+<p><strong>Retake Classes</strong></p>
+<p>Retake classes replace the credit and grade of a previously completed equivalent course even if the previous grade was higher. The most recently completed course is calculated into the GPA, earned credits, and degree requirements. Previous courses remain on the transcript and are designated as retake courses and will not fulfill degree requirements.</p>
+<p>Students are allowed a maximum of four retakes during their BYU&mdash;Idaho experience. Retakes occur when retaking BYU&mdash;Idaho classes previously completed at this University.</p>
+<p>After your forth retake instead of your grade being replaced they will be averaged together.</p>
+<p>BYU&mdash;Idaho courses cannot be replaced by equivalent courses from other institutions. Exceptions must be approved by the Academic Exceptions Committee.</p>
+<p>Students who transfer must recognize that a transfer institution may not accept the retake class per this definition.</p>
+</div>
+<div id="add7" style="display: none;">
+<p>Students have the option of taking &ldquo;Block Classes&rdquo; which are classes taught in half the time as a regular semester class. A regular semester class is taught for 14 weeks, and block classes are taught for 7 weeks.</p>
+<p>Students starting during Second Block may register at the same time as all other students. Students may register for full semester, First Block, and Second Block classes at the same time. However, students who wish to take a second religion course during Second Block must wait until the first day of Second Block to add it.</p>
+</div>
+<div id="add8" style="display: none;">
+<p>Students must be registered for 12 credit hours per semester to be eligible for certain full-time status beneﬁts. However, some beneﬁts may require more than 12 credits. The full-time equivalency for Block registration is 6 credit hours.</p>
+</div>
+<div id="add9" style="display: none;">
+<p>If you are a campus employee or spouse of an employee, you will need to be an "admitted student", which would be done through the Admissions office. You will be able to register for classes on the day which you are assigned according to the amount of credits you have. You will be able to register for any class in which you meet the required prerequisites and course requirements.</p>
+</div>
+<!--IMAGES-->
+<div><img alt="Header Banner" height="140" src="Images/Admin_Offices/Student Record and Registration/SecondLevelPage/RegistrationBanner.jpg" width="510" /> <img alt="Registration Banner" height="140" src="Images/Admin_Offices/Student Record and Registration/SecondLevelPage/registartion.png" width="168" /></div>
+<div id="bar"><img alt="bar" height="4" src="Images/Admin_Offices/Student Record and Registration/SecondLevelPage/bar1.png" width="710" /></div>
+<!--TABZ-->
+<div class="sectionstwo">
+<div class="tabz"><a href="x44606.xml">Top Links</a> <a href="x45926.xml">Registration Checklist</a> <a class="current" href="x45928.xml">Add Classes</a> <a href="x45929.xml">Drop Classes</a> <a href="x45930.xml">After Registration</a> <a href="x45931.xml">FAQ</a></div>
+<!--NAVIGATION-->
+<div class="box visible">
+<ul>
+<li><a href="#add1" rel="ibox" title="Adding Classes">Adding Classes</a></li>
+<li><a href="#add2" rel="ibox" title="Options for Full Classes">Options for Full Classes</a></li>
+<li><a href="#add3" rel="ibox" title="Auditing a Class">Auditing a Class</a></li>
+<li><a href="#add4" rel="ibox" title="More than one Religion Class">More than one Religion Class</a></li>
+<li><a href="#add5" rel="ibox" title="Maximum Credit Limit">Maximum Credit Limit</a></li>
+<li><a href="#add6" rel="ibox" title="Retake vs. Repeat Courses">Retake vs. Repeat Courses</a></li>
+<li><a href="http://www.byui.edu/foundations-interdisciplinary-studies">Foundation Courses</a></li>
+<li><a href="#add7" rel="ibox" title="Block Classes">Block Classes</a></li>
+<li><a href="#add8" rel="ibox" title="Full-time Status">Full-time Status</a></li>
+<li><a href="#add9" rel="ibox" title="Employee/Spouse Registration">Employee/Spouse Registration</a></li>
+</ul>
+</div>
+</div>
+<!--EVENTS-->
+<div class="span-18 last" id="events_bar_horizontal">
+<div class="span-18 last" id="window">
+<div id="events_bar_control"><span class="prev">&nbsp;</span><span class="next">&nbsp;</span></div>
+<div id="pane"><!--THE BEGING OF THE EVENTS-->
+<script src="Documents/Admin_Offices/Student Records and Registration/Events Script.js" type="text/javascript"></script>
+<!--THE END OF THE EVENTS--></div>
+</div>
+</div>
+<!--FOOTER-->
+<div id="email" style="display: none;">
+<p>For any questions please email us at <a href="mailto:registration@byui.edu"><span style="text-decoration: underline;">registration@byui.edu</span></a></p>
+</div>
+<div id="phone" style="display: none;">
+<p>For any questions please call us at (208)-496-1025</p>
+</div>
+<div><img alt="Bar" height="2" src="Images/Admin_Offices/Student Record and Registration/HomePage/bottomBar.jpg" width="710" /></div>
+<div class="barb"><img alt="Bar" height="2" src="Images/Admin_Offices/Student Record and Registration/HomePage/bottomBar.jpg" width="710" /></div>
+<div id="bottomContact">
+<ul>
+<li><img alt="Email Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/envelope.png" width="23" /><a href="#email" rel="ibox" title="Email Information"> Email Us</a></li>
+<li><img alt="Phone Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/phone.png" width="23" /><a href="#phone" rel="ibox" title="Phone Information"> Call Us</a></li>
+<li><img alt="Visit Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/visit.png" width="23" /><a href="Images/Admin_Offices/Student Record and Registration/HomePage/byuidahoMap.jpg" rel="ibox"> Visit Us</a></li>
+<li><img alt="Facebook Link" height="16" src="Images/Admin_Offices/Student Record and Registration/HomePage/facebook.png" width="16" /><a href="http://www.facebook.com/pages/BYU-Idaho-Student-Records-and-Registration/276472292461946?fref=ts"> facebook</a></li>
+<li><img alt="Live Chat Link" height="16" src="Images/Admin_Offices/Student Record and Registration/HomePage/livechat.png" width="18" /><a href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=SRR&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large" onclick="window.open('https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=SRR&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large&amp;referrer='+escape(document.location),'chat1132447','width=472,height=320');return false;" target="chat1132447"> Live Chat</a></li>
+<li><img alt="Site Index Link" height="17" src="Images/Admin_Offices/Student Record and Registration/HomePage/index.png" width="18" /><a href="x43952.xml"> Index</a></li>
+</ul>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x44655" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

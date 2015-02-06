@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<SectionFront ID="x67105" Name="Identity" Layout="default.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Identity</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Identity</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="false" required="false">0.5</Priority></xPower><xPower Type="Component" Component="" Name="RelatedLinks" label="Related Links" readonly="false" hidden="false" required="false" CompTypes="RelatedLinksComponent" Expanded="false"/><xPower Type="Link" Link="external" Name="TabLink1" label="Tab Link 1" readonly="false" hidden="false" required="false" LinkText="Get a template" Target="" Expanded="true" URL="http://www.byui.edu"/><xPower Type="Link" Link="external" Name="TabLink2" label="Tab Link 2" readonly="false" hidden="false" required="false" LinkText="Get a logo" Target="" Expanded="true" URL="http://www.byui.edu"/><xPower Type="Link" Link="x4542" Name="TabLink3" label="Tab Link 3" readonly="false" hidden="false" required="false" LinkText="Get approval" Target="" Expanded="true" URL=""/><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<table align="left" border="0" height="204" style="width: 100%;" width="780">
+</table>
+<table align="left" border="0" height="204" style="width: 100%;" width="780">
+</table>
+<table align="left" border="0" height="204" style="width: 100%;" width="797">
+<tbody>
+<tr>
+<td style="width: 65%;"><img alt="Visual Identity Home Page" src="http://www.byui.edu/identity/images/homebanner2.png" /></td>
+<td style="width: 35%; text-align: center; background-color: #c9cbce;"><a href="http://www.byui.edu/identity/brand/branding.htm"></a><a href="http://www.byui.edu/identity/brand/branding.htm" style="text-decoration: none;">
+<div id="rightofbanner" style="position: relative;"><span style="color: white; font-size: 35px; text-align: center; line-height: 40px; padding-left: 20px;">What is a</span> <br /><span style="color: white; font-size: 45px; text-align: center; line-height: 40px; padding-left: 5px;">BRAND?</span><br /><br />
+<p style="color: black; padding-left: 10px; font-style: italic; font-size: 12px;">What does it have to do with me?</p>
+<br /> <span style="color: white; background-color: black; width: 100%; line-height: 30px; font-size: 11px; display: block; text-align: center; position: absolute; top: 127px;">CLICK HERE TO LEARN MORE</span></div>
+</a></td>
+</tr>
+</tbody>
+</table>
+<p><br /><br />&nbsp;                                                                                                                            <br /> <br /></p>
+<hr />
+<p style="text-align: center;">Questions? Send us an e-mail: <a href="mailto:ucidentity@byui.edu">ucidentity@byui.edu</a></p>
+<hr />]]></BodyCopy><xPower Type="List" List="xpowercomponent_ImageComponent" Name="LeftColumnImageComponentList" label="Left Column Image Component List" readonly="false" hidden="false" required="false" Component="" CompTypes="LeftColumnImageComponent" Expanded="false"><xPower Type="Component" Component="" Name="ImageComponent" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent" Expanded="false"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x4147" Name="SiteControl" label="Site Control" readonly="true" hidden="true" required="false" CompTypes="SiteControl" Expanded="false"/></SectionFront>

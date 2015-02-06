@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x66899" Name="Campus Email" Layout="general_content.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Campus Email</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Campus Email</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<div>
+<p>E-mail is an official method of communication on campus. An employee update and a student update are sent on Tuesdays and Thursdays.               Items for inclusion in the updates can be submitted to <a href="mailto:newsdesk@byui.edu">newsdesk@byui.edu</a>. All requests must be received by 5 p.m. the day prior to being included.</p>
+<p><span style="display: inline;"><strong>Frequency</strong></span></p>
+<p><span style="display: inline;">Messages referencing a <em>one-time,      date-specific</em> item may appear once per week (on either Tuesday or      Thursday), up to a maximum of three times in advance of an event/deadline      (Example: Guitars Unplugged, musical events, academic deadlines)</span></p>
+<p><span style="display: inline;">Messages referencing <em>ongoing</em> items, events, or regular meetings may appear once per month (Examples:      student associations and society messages, student service announcements)</span></p>
+<p><span style="display: inline;">&nbsp;</span><span style="display: inline;"><strong>Message Guidelines</strong></span></p>
+<p><span style="display: inline;">Messages contained in the e-mail updates are permitted a headline (up to 60 characters, including spaces) and two lines of text (up to 200 characters, including spaces). Anything beyond the character count will not be included. Messages may also be linked to a university Web page, where additional information may be housed. Messages may not link to Web pages outside of the university, unless otherwise approved.</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1 style="text-align: center;"></h1>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</div>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x10072" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

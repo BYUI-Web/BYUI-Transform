@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<Content ID="x63010" Name="Nutrition and Folic Acid" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Nutrition and Folic Acid</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Nutrition and Folic Acid</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<p><link href="Documents/health-center/wellness/womens_health/wm_main.css" rel="stylesheet" type="text/css" /> <link href="https://fonts.googleapis.com/css?family=Dancing+Script: 400, 700" rel="stylesheet" type="text/css" /></p>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+<script src="Documents/health-center/faqs1.js" type="text/javascript"></script>
+<div id="wellness">
+<div id="header">
+<div class="icon"></div>
+Womens Health &amp; Wellness</div>
+<div id="wholebody"><iframe frameborder="0" height="240" id="mynav" scrolling="no" src="Documents/health-center/wellness/womens_health/wm_nav.html" width="350"></iframe>
+<div id="maincontent">
+<div id="subheader">Pre-Pregnancy Health <br /><span class="description">also known as pre-conception health </span></div>
+<div id="subtitle">Nutrition &amp; Folic Acid :<br /> <span class="description">What are the best things to eat, and do I need to take vitamins?</span></div>
+<br />
+<ul id="faqs">
+<li>
+<div class="arrow"></div>
+<div class="faq">
+<div class="faqTitle">Healthy Diet</div>
+<div class="faqBody">You should eat healthy foods throughout your life. Healthy eating can help prevent diabetes and high blood pressure before, during, and after your pregnancy. <br /><br /><strong>Other things you can do to help your pre-pregnancy health are:</strong>
+<ul>
+<li>&bull; Cook all meat fully, including raw meat, lunch meat and hotdogs (beef, pork, poultry, seafood and shellfish)</li>
+<li>&bull; Eat only pasteurized dairy products and pasteurized eggs</li>
+<li>&bull; Wash raw fruits and vegetables before eating</li>
+<li>&bull; Do not eat game fish, which are high in mercury, such as shark, swordfish, King mackerel, and tile fish. Limit tuna to 2 (3 oz.) servings per week</li>
+</ul>
+<br /> A healthy diet is low in processed and high-fat foods. It is high in fruits, vegetables, and whole grains. Visit <a href="http://www.ChooseMyPlate.gov">ChooseMyPlate.gov</a> to learn how to have a healthy diet. You will also learn how to eat healthy on a budget. <br /><br />The BYU-I Wellness center has great information to get started on a more healthy diet : <a href="http://www.byui.edu/health-center/wellness/nutrition"> Click Here </a>
+<div class="refs">
+<div class="ref"><a href="https://adam.byui.edu/cgi-bin/remoteauth-byui.pl?url=http://www.ncbi.nlm.nih.gov/pubmed/20100361">Berghella, et al., 2010</a></div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div class="arrow"></div>
+<div class="faq">
+<div class="faqTitle">Vitamins</div>
+<div class="faqBody">You can lower the risk of having a baby with brain and spine problems by adding folic acid to your diet. All women who have started their periods should take a multi vitamin that has 400 micrograms of folic acid every day.<br /><br /> <strong>You may need a higher dose of folic acid if:</strong>
+<ul>
+<li>&bull; You have had a baby with brain or spine problems</li>
+<li>&bull; You or your husband have a family member with brain or spine problems</li>
+<li>&bull; You have other health problems</li>
+</ul>
+<br />New research has shown that if you take folic acid before and during your pregnancy, you may be able to lower the risk of your baby having autism. We are looking forward to more research in this area.
+<div class="refs">
+<div class="ref"><a href="https://adam.byui.edu/cgi-bin/remoteauth-byui.pl?url=http://dx.doi.org/10.1001/jama.2012.155925">Suren, et al., 2013</a></div>
+</div>
+<br /> Talk to your doctor about the right dose of folic acid for you and your future baby<br />
+<div class="refs">
+<div class="ref"><a href="https://adam.byui.edu/cgi-bin/remoteauth-byui.pl?url=http://www.ncbi.nlm.nih.gov/pubmed/10429019">American Academy of Pediatrics, 1999</a></div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<script src="Documents/health-center/faqs2.js" type="text/javascript"></script>
+<p><iframe frameborder="0" height="240" id="footer" scrolling="no" src="http://www.byui.edu/Documents/health-center/footer.html" width="320"></iframe></p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x28441" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

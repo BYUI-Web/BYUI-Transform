@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><Content ID="x41015" Name="Youth Conference" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Youth Conference</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">The Youth of the Aston, Driggs, St. Anthony, and Sugar City Stakes will come together to celebrate the 2012 mutual theme of “Arise and Shine Forth.” The youth council from these stakes and their leaders will conduct this conference in a way that encourages all youth participants to seek to discover their unique talents and abilities so that they can use them to glorify God and his works.</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false" /><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false" /><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style><!--
+@import "documents/community-connections/js_css/cycle.css";
+
+#youth_conf_table{
+width: 950px !important;
+margin: 0 auto !important;
+border: 0 !important;
+}
+#youth_conf_table:hover tr td{
+background-color: #ffffff !important;
+}
+#youth_conf_table tr td:hover{
+opacity: .6;
+}
+#youth_conf_table td {
+text-align: center;
+}
+#font{
+font-size: 40px !important;
+font-family: arial;
+color: black;
+text-align: center;
+width: 100%;
+}
+--></style>
+<h1 id="font" style="text-align: center;">MULTI-STAKE YOUTH CONFERENCE 2012!</h1>
+<img alt="Devotionals" class="slides" src="Images/community-connections/youthconf/column 1.jpg" />
+<p>&nbsp;</p>
+<table id="youth_conf_table">
+<tbody>
+<tr>
+<td><img alt="Arise and Shine" id="column1" src="Images/community-connections/youthconf/youth_logo.png" style="display: block; margin-left: auto; margin-right: auto;" /><br /><br /></td>
+</tr>
+<tr>
+<td>
+<p style="text-align: center;"><iframe frameborder="0" height="315" src="http://www.youtube.com/embed/MaNdcTod-YY" width="560"></iframe></p>
+<p style="text-align: left;">The Youth of the Ashton, Driggs, St. Anthony, and Sugar City Stakes came together to celebrate the 2012 mutual theme of "Arise and Shine Forth." The youth council from these stakes and their leaders conducted this conference in a way that encouraged all youth participants to discover their unique talents and abilities so that they can use them to glorify God and his works.</p>
+<br /><br /></td>
+</tr>
+</tbody>
+</table>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="true" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false" /></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" /><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" /><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" /></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="x28840" CompTypes="HighlightedLinksComponent" /><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet" /></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query="" /><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x28802" CompTypes="SiteControl" /></Content>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x68142" Name="Get Involved Button" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;style&gt;
+div.get-involved-sprite {
+	width: 192px;
+	height: 43px;
+	background: url("Images/magazine/issue-2013-winter/get-involved-sprite.png") 0 0;
+	position: relative;
+}
+div.get-involved-sprite:hover {
+	background: url("Images/magazine/issue-2013-winter/get-involved-sprite.png") 0 43px;
+}
+&lt;/style&gt;
+&lt;div style="float: right;"&gt;
+&lt;div class="get-involved-sprite"&gt;
+&lt;a href="x46435.xml"&gt;
+&lt;!-- The span expands to 100% of the div,
+	making the link take up the whole button --&gt;
+&lt;span class="make-link"&gt;&lt;/span&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;</ContentSnippet></ContentSnippet>

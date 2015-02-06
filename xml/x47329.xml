@@ -1,0 +1,490 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<Content ID="x47329" Name="Major Facts" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Major Facts</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Major Facts</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+            .step_box {
+                background: #E0E0E0;
+                text-align: center;
+                font-family: Helvetica;
+                font-size: 16px;
+                font-weight: bold;
+                clear: both;
+                background-color: #f2f2f2;
+                border:3px solid #d8d8d8;
+                -webkit-border-radius: 38px;
+                -moz-border-radius: 38px;
+                border-radius:38px;
+                padding: 10px;
+            }
+            .step_description {
+                font-family: Helvetica;
+                font-size: 16px;
+                background-color: #fff;
+                margin-top: 13px;
+            }
+            .major_select {
+                margin-top: 20px;
+                margin-bottom: 20px;
+                width: 950px;
+                background: #fff;
+                border-radius: 5px;
+                display: table;
+            }
+            .graphs {
+
+            }
+            .graphs img {
+                border-radius: 5px;
+                margin-left: 265px;
+            }
+            .more_help {
+                position: relative;
+                float: left;
+                width: 164px;
+                margin-top: 20px;
+                margin-right: 4px;
+                height: 300px;
+                font-family: Helvetica;
+                font-size: 14px;
+                background-color:#f2f2f2;
+                border:1px solid #d8d8d8;
+                -webkit-border-radius:5px;
+                -moz-border-radius:5px;
+                border-radius:5px;
+                padding: 10px;
+            }
+
+            #back_button {
+                position: absolute;
+                background: #3ff;
+                height: 43px;
+                width: 22px;
+                z-index: 11;
+                cursor: pointer;
+                border-radius: 5px;
+                text-align: center;
+                float: left;
+                cursor: pointer;
+                margin: 140px 0 0 0;
+                display: block;
+                background: url('http://www.byui.edu/prebuilt/stylenew/images/byui_home/left_rotator_arrow.png');
+                -moz-box-shadow: 0 0 5px 1px #888;
+                -webkit-box-shadow: 0 0 5px 1px #888;
+                box-shadow: 0 0 5px 1px #888;
+            }
+            #back_button:hover {
+                -moz-box-shadow: inset 0 0 10px #FFF6DC,0px 0 4px 0 #666;
+                -webkit-box-shadow: inset 0 0 10px #FFF6DC,0px 0 4px 0 #666;
+                box-shadow: inset 0 0 10px #FFF6DC,0px 0 4px 0 #666;
+            }
+            #next_button {
+                position: absolute;
+                background: #3ff;
+                height: 43px;
+                width: 22px;
+                right: 0px;
+                z-index: 11;
+                top: 25;
+                right: 0;
+                cursor: pointer;
+                border-radius: 5px;
+                text-align: center;
+                float: right;
+                cursor: pointer;
+                margin: 140px 0 0 0;
+                display: block;
+                background: url('http://www.byui.edu/prebuilt/stylenew/images/byui_home/right_rotator_arrow.png');
+                -moz-box-shadow: 0 0 5px 1px #888;
+                -webkit-box-shadow: 0 0 5px 1px #888;
+                box-shadow: 0 0 5px 1px #888;
+            }
+            #next_button:hover {
+                -moz-box-shadow: inset 0 0 10px #FFF6DC,0px 0 4px 0 #666;
+                -webkit-box-shadow: inset 0 0 10px #FFF6DC,0px 0 4px 0 #666;
+                box-shadow: inset 0 0 10px #FFF6DC,0px 0 4px 0 #666;
+            }
+            #step_2_container {
+                position: relative;
+                clear: both;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            #graph_pager {
+                position: relative;
+                text-align: center;
+                letter-spacing: 5px;
+            }
+            #graph_pager a {
+                text-indent: -999px;
+                overflow: hidden;
+                background: url("http://www.byui.edu/prebuilt/stylenew/images/interface/cycle/page_bullets_32x16.png") no-repeat;
+                background-position: -16px 0;
+                height: 14px;
+                width: 14px;
+                display: inline-block;
+                margin: 5px auto;
+                padding: 0;
+                text-indent: -9999px;
+            }
+            .ie7 #graph_pager a{
+                display: block;
+                float: left;
+            }
+            #graph_pager a.activeSlide {
+                background: url("http://www.byui.edu/prebuilt/stylenew/images/interface/cycle/page_bullets_32x16.png") no-repeat;
+                background-position: 0 0;
+            }
+            .major {
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                display: table;
+                padding: 5px 5px;
+                font-size: 13px;
+                color: #333;
+                text-align: center;
+                text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+                vertical-align: middle;
+                cursor: pointer;
+                background-color: whiteSmoke;
+                background-image: -moz-linear-gradient(top, white, #E6E6E6);
+                background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#E6E6E6));
+                background-image: -webkit-linear-gradient(top, white, #E6E6E6);
+                background-image: -o-linear-gradient(top, white, #E6E6E6);
+                background-image: linear-gradient(to bottom, white, #E6E6E6);
+                background-repeat: repeat-x;
+                border: 1px solid #BBB;
+                border-color: #E6E6E6 #E6E6E6 #BFBFBF;
+                border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+                border-bottom-color: #A2A2A2;
+                -webkit-border-radius: 4px;
+                -moz-border-radius: 4px;
+                border-radius: 4px;
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='whiteff', endColorstr='#FFE6E6e6', GradientType=0);
+                filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+                -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+                -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+                box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+                line-height: 1em;
+                width: 16%;
+                height: 51px;
+                margin-bottom: 3px;
+                margin-right: 3px;
+                float: left;
+            }
+            .major:hover {
+                color: #333;
+                background-color: #E6E6E6;
+                background-position: 0 -15px;
+            }
+            .major:active {
+                background-color: #E6E6E6;
+                background-color: #D9D9D9 9;
+                background-image: none;
+                outline: 0;
+                -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+                -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+                box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+            }
+            .major span {
+                display: table-cell;
+                vertical-align: middle;
+            }
+            .active_major {
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 13px;
+                color: white;
+                text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+                background-color: #006DCC;
+                background-image: -moz-linear-gradient(top, #08C, #04C);
+                background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#08C), to(#04C));
+                background-image: -webkit-linear-gradient(top, #08C, #04C);
+                background-image: -o-linear-gradient(top, #08C, #04C);
+                background-image: linear-gradient(to bottom, #08C, #04C);
+                background-repeat: repeat-x;
+                border-color: #04C #04C #002A80;
+                border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F08cc', endColorstr='#F04cc', GradientType=0);
+                filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+            }
+            .active_major:hover {
+                color: white;
+                background-position: 0 -15px;
+                background-color: #04C;
+            }
+            .reset_major {
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                display: table;
+                padding: 5px 5px;
+                font-size: 13px;
+                color: white;
+                text-align: center;
+                text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+                vertical-align: middle;
+                cursor: pointer;
+                background-color: #C60119;
+                background-image: -moz-linear-gradient(top, #CC223F, #9D192E);
+                background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#CC223F), to(#9D192E));
+                background-image: -webkit-linear-gradient(top, #CC223F, #9D192E);
+                background-image: -o-linear-gradient(top, #CC223F, #9D192E);
+                background-image: linear-gradient(to bottom, #CC223F, #9D192E);
+                background-repeat: repeat-x;
+                border: 1px solid #BBB;
+                border-color: #9D192E #9D192E #BFBFBF;
+                border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+                border-bottom-color: #A2A2A2;
+                -webkit-border-radius: 4px;
+                -moz-border-radius: 4px;
+                border-radius: 4px;
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='whiteff', endColorstr='#FFE6E6e6', GradientType=0);
+                filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+                -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+                -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+                box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+                line-height: 1em;
+                width: 16%;
+                height: 51px;
+                margin-bottom: 3px;
+                margin-right: 3px;
+                float: left;
+            }
+            .reset_major:hover {
+                color: #eee;
+                text-decoration: none;
+                background-color: #C60119;
+
+            }
+            .reset_major:active {
+                background-color: #A11E2C;
+                background-image: none;
+                outline: 0;
+                -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+                -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+                box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+            }
+            .reset_major span {
+                display: table-cell;
+                vertical-align: middle;
+            }
+            
+--></style>
+<div class="span-24 last">
+<div class="span-6 step_box">Step 1: Compare</div>
+<div class="span-17 last step_description">Choose up to 5 majors</div>
+</div>
+<div class="span-24 major_select">
+<div class="major" id="1"><span>Accounting</span></div>
+<div class="major" id="2"><span>Agribusiness</span></div>
+<div class="major" id="3"><span>Agricultural Technology</span></div>
+<div class="major" id="4"><span>Agriculture Education Composite</span></div>
+<div class="major" id="5"><span>Agronomy, Crop and Soil Sciences</span></div>
+<div class="major" id="6"><span>Animal Health and Veterinary Science</span></div>
+<div class="major" id="7"><span>Animal Science</span></div>
+<div class="major" id="8"><span>Applied Management</span></div>
+<div class="major" id="9"><span>Applied Mathematics</span></div>
+<div class="major" id="10"><span>Art</span></div>
+<div class="major" id="11"><span>Art Education</span></div>
+<div class="major" id="12"><span>Art Education Composite</span></div>
+<div class="major" id="13"><span>Automotive Technology</span></div>
+<div class="major" id="14"><span>Biology</span></div>
+<div class="major" id="15"><span>Biology Education</span></div>
+<div class="major" id="16"><span>Biology Education Composite</span></div>
+<div class="major" id="17"><span>Business Management</span></div>
+<div class="major" id="18"><span>Chemistry</span></div>
+<div class="major" id="19"><span>Chemistry Education</span></div>
+<div class="major" id="20"><span>Child Development</span></div>
+<div class="major" id="21"><span>Civil Engineering</span></div>
+<div class="major" id="22"><span>Communication</span></div>
+<div class="major" id="23"><span>Computer Engineering</span></div>
+<div class="major" id="24"><span>Computer Information Technology</span></div>
+<div class="major" id="25"><span>Computer Science</span></div>
+<div class="major" id="26"><span>Construction Management</span></div>
+<div class="major" id="27"><span>Dance</span></div>
+<div class="major" id="28"><span>Early Childhood/Special Education</span></div>
+<div class="major" id="29"><span>Earth Science Education</span></div>
+<div class="major" id="30"><span>Ecology, Range, Wildlife and Fisheries</span></div>
+<div class="major" id="31"><span>Economics</span></div>
+<div class="major" id="32"><span>Electrical Engineering</span></div>
+<div class="major" id="33"><span>Elementary Education</span></div>
+<div class="major" id="34"><span>English</span></div>
+<div class="major" id="35"><span>English Education First Field</span></div>
+<div class="major" id="36"><span>English Education Only Field</span></div>
+<div class="major" id="37"><span>Exercise Physiology</span></div>
+<div class="major" id="38"><span>Family &amp; Consumer Science Education Comp</span></div>
+<div class="major" id="39"><span>Financial Economics</span></div>
+<div class="major" id="40"><span>Fine Arts</span></div>
+<div class="major" id="41"><span>Geology</span></div>
+<div class="major" id="42"><span>Health Science</span></div>
+<div class="major" id="43"><span>Healthcare Administration</span></div>
+<div class="major" id="44"><span>History</span></div>
+<div class="major" id="45"><span>History Education</span></div>
+<div class="major" id="46"><span>Horticulture</span></div>
+<div class="major" id="47"><span>Humanities</span></div>
+<div class="major" id="48"><span>Informatics</span></div>
+<div class="major" id="49"><span>Interdisciplinary Studies</span></div>
+<div class="major" id="50"><span>International Studies</span></div>
+<div class="major" id="51"><span>Marriage and Family Studies</span></div>
+<div class="major" id="52"><span>Math Education</span></div>
+<div class="major" id="53"><span>Mechanical Engineering</span></div>
+<div class="major" id="54"><span>Music</span></div>
+<div class="major" id="55"><span>Music (Performance)</span></div>
+<div class="major" id="56"><span>Music Education Composite</span></div>
+<div class="major" id="57"><span>Musical Arts</span></div>
+<div class="major" id="58"><span>Nursing</span></div>
+<div class="major" id="59"><span>Paramedicine</span></div>
+<div class="major" id="60"><span>Physics</span></div>
+<div class="major" id="61"><span>Physics Education</span></div>
+<div class="major" id="62"><span>Political Science</span></div>
+<div class="major" id="63"><span>Post Bach Secondary Ed</span></div>
+<div class="major" id="64"><span>Psychology</span></div>
+<div class="major" id="65"><span>Recreation Management</span></div>
+<div class="major" id="66"><span>Social Studies Education Composite</span></div>
+<div class="major" id="67"><span>Social Work</span></div>
+<div class="major" id="68"><span>Sociology</span></div>
+<div class="major" id="69"><span>Spanish Education</span></div>
+<div class="major" id="70"><span>Special Education K-12</span></div>
+<div class="major" id="71"><span>Theatre and Speech Education</span></div>
+<div class="major" id="72"><span>University Studies</span></div>
+<div class="major" id="73"><span>Web Design and Development</span></div>
+<div class="major" id="74"><span>Welding and Fabrication Technology Management</span></div>
+<div class="reset_major"><span>Reset</span></div>
+</div>
+<div class="span-24 last">
+<div class="span-8 step_box">Step 2: Get the Information you need</div>
+<div class="span-15 last step_description">Click next for more graphs or skip to desired graph</div>
+</div>
+<div class="span-24 last" id="step_2_container">
+<div class="span-24 last" id="graph_container">
+<div class="span-24 graphs last"><img src="http://infocenter.sybase.com/archive/topic/com.sybase.help.im_10.5.imug/html/imug/graph22.gif" /></div>
+<div class="span-24 graphs last"><img src="http://infocenter.sybase.com/archive/topic/com.sybase.help.im_10.5.imug/html/imug/graph18.gif" /></div>
+</div>
+<div id="back_button"></div>
+<div id="next_button"></div>
+<div id="graph_pager"></div>
+</div>
+<div class="span-24 last">
+<div class="span-6 step_box">Step 3: More Help</div>
+</div>
+<div>
+<div class="more_help 1"><span>Accounting</span></div>
+<div class="more_help 2"><span>Agribusiness</span></div>
+<div class="more_help 3"><span>Agricultural Technology</span></div>
+<div class="more_help 4"><span>Agriculture Education Composite</span></div>
+<div class="more_help 5"><span>Agronomy, Crop and Soil Sciences</span></div>
+<div class="more_help 6"><span>Animal Health and Veterinary Science</span></div>
+<div class="more_help 7"><span>Animal Science</span></div>
+<div class="more_help 8"><span>Applied Management</span></div>
+<div class="more_help 9"><span>Applied Mathematics</span></div>
+<div class="more_help 10"><span>Art</span></div>
+<div class="more_help 11"><span>Art Education</span></div>
+<div class="more_help 12"><span>Art Education Composite</span></div>
+<div class="more_help 13"><span>Automotive Technology</span></div>
+<div class="more_help 14"><span>Biology</span></div>
+<div class="more_help 15"><span>Biology Education</span></div>
+<div class="more_help 16"><span>Biology Education Composite</span></div>
+<div class="more_help 17"><span>Business Management</span></div>
+<div class="more_help 18"><span>Chemistry</span></div>
+<div class="more_help 19"><span>Chemistry Education</span></div>
+<div class="more_help 20"><span>Child Development</span></div>
+<div class="more_help 21"><span>Civil Engineering</span></div>
+<div class="more_help 22"><span>Communication</span></div>
+<div class="more_help 23"><span>Computer Engineering</span></div>
+<div class="more_help 24"><span>Computer Information Technology</span></div>
+<div class="more_help 25"><span>Computer Science</span></div>
+<div class="more_help 26"><span>Construction Management</span></div>
+<div class="more_help 27"><span>Dance</span></div>
+<div class="more_help 28"><span>Early Childhood/Special Education</span></div>
+<div class="more_help 29"><span>Earth Science Education</span></div>
+<div class="more_help 30"><span>Ecology, Range, Wildlife and Fisheries</span></div>
+<div class="more_help 31"><span>Economics</span></div>
+<div class="more_help 32"><span>Electrical Engineering</span></div>
+<div class="more_help 33"><span>Elementary Education</span></div>
+<div class="more_help 34"><span>English</span></div>
+<div class="more_help 35"><span>English Education First Field</span></div>
+<div class="more_help 36"><span>English Education Only Field</span></div>
+<div class="more_help 37"><span>Exercise Physiology</span></div>
+<div class="more_help 38"><span>Family &amp; Consumer Science Education Comp</span></div>
+<div class="more_help 39"><span>Financial Economics</span></div>
+<div class="more_help 40"><span>Fine Arts</span></div>
+<div class="more_help 41"><span>Geology</span></div>
+<div class="more_help 42"><span>Health Science</span></div>
+<div class="more_help 43"><span>Healthcare Administration</span></div>
+<div class="more_help 44"><span>History</span></div>
+<div class="more_help 45"><span>History Education</span></div>
+<div class="more_help 46"><span>Horticulture</span></div>
+<div class="more_help 47"><span>Humanities</span></div>
+<div class="more_help 48"><span>Informatics</span></div>
+<div class="more_help 49"><span>Interdisciplinary Studies</span></div>
+<div class="more_help 50"><span>International Studies</span></div>
+<div class="more_help 51"><span>Marriage and Family Studies</span></div>
+<div class="more_help 52"><span>Math Education</span></div>
+<div class="more_help 53"><span>Mechanical Engineering</span></div>
+<div class="more_help 54"><span>Music</span></div>
+<div class="more_help 55"><span>Music (Performance)</span></div>
+<div class="more_help 56"><span>Music Education Composite</span></div>
+<div class="more_help 57"><span>Musical Arts</span></div>
+<div class="more_help 58"><span>Nursing</span></div>
+<div class="more_help 59"><span>Paramedicine</span></div>
+<div class="more_help 60"><span>Physics</span></div>
+<div class="more_help 61"><span>Physics Education</span></div>
+<div class="more_help 62"><span>Political Science</span></div>
+<div class="more_help 63"><span>Post Bach Secondary Ed</span></div>
+<div class="more_help 64"><span>Psychology</span></div>
+<div class="more_help 65"><span>Recreation Management</span></div>
+<div class="more_help 66"><span>Social Studies Education Composite</span></div>
+<div class="more_help 67"><span>Social Work</span></div>
+<div class="more_help 68"><span>Sociology</span></div>
+<div class="more_help 69"><span>Spanish Education</span></div>
+<div class="more_help 70"><span>Special Education K-12</span></div>
+<div class="more_help 71"><span>Theatre and Speech Education</span></div>
+<div class="more_help 72"><span>University Studies</span></div>
+<div class="more_help 73"><span>Web Design and Development</span></div>
+<div class="more_help 74"><span>Welding and Fabrication Technology Management</span></div>
+</div>
+<!-- END TOP_CONTENT  -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+window.jQuery || document.write('<script id="jQueryLoad" src="http://www.byui.edu/prebuilt/stylenew/js/libs/jquery-1.7.min.js"><\/script>')
+</script>
+<script src="http://www.byui.edu/prebuilt/stylenew/js/libs/jquery.cycle.all.js" type="text/javascript"></script>
+<script type="text/javascript">
+        $(window).load(function() {
+
+            $('#graph_container').cycle({
+                fx:         'fade',
+                pause:      1,
+                next:       '#next_button',
+                prev:       '#back_button',
+                pager:      '#graph_pager',
+                speed:      1500,
+                timeout:    6000
+                    //  cleartypeNoBg:   true
+                });
+        });
+        $(document).ready(function() {
+            $('.more_help').hide();
+        });
+        $(document).ready(function() {
+            var i = 1;
+            $('.reset_major').click(function() {
+                i = 1;
+                $('.major').removeClass('active_major');
+                $('.more_help').fadeOut(100);
+            });
+            $('.major').click(function() {
+                var selected = $(this).attr('id');
+                if ($(this).attr('class') == 'major active_major') {
+                    $(this).removeClass('active_major');
+                    i--;
+                    console.log('i <= 5 && has .active_major');
+                    console.log('-' + selected);
+                    $('.more_help' + '.' + selected).fadeOut(100);
+                } else {
+                    if (i <= 5) {
+                        $(this).addClass('active_major');
+                        i++;
+                        console.log('i <= 5 != .active_major');
+                        console.log(selected);
+                        $('.more_help' + '.' + selected).fadeIn(500);
+                    }
+                }
+            });
+        });
+</script>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

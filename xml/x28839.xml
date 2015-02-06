@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CollegeDeptHome ID="x28839" Name="Outdoor Learning Center " Layout="college-dept_home.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">The BYU-Idaho Outdoor Learning Center at Badger Creek</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Badger Creek is an Outdoor Learning Center owned by Brigham Young University-Idaho. Badger Creek lies in the beautiful Teton Valley.</Abstract><xPower Type="List" Name="MainImages" label="Top Image(s) (950px width, 335px height required)" readonly="false" hidden="false" required="false" Expanded="false" List=""><MainImage type="imagefile" readonly="false" hidden="false" required="false" Width="" Border="" Alignment="middle" Expanded="true" Height="" AlternateText="" HSpace="" VSpace=""></MainImage></xPower><xPower Type="GroupStart" Name="Main" label="Main Content" readonly="false" hidden="false" required="false" Expanded="true" GroupStart=""><xPower Type="LinkSet" Name="CourseHighlights" label="Course Highlights" readonly="false" hidden="false" required="false" QuerySchemas="" QueryLocationRoots="" Title="" Values="" Expanded="false"><Exports></Exports></xPower><xPower Type="LinkSet" Name="FeaturedStudent" label="Featured Student" readonly="false" hidden="false" required="false" QuerySchemas="" QueryLocationRoots="" Title="College News" Values="" Expanded="false"><Exports></Exports></xPower><FullText type="boolean" label="Check for text body to use the full width of the page." readonly="false" hidden="false" required="false">true</FullText><TopText type="boolean" label="Check to put text body above Highlighted News" readonly="false" hidden="false" required="false">true</TopText><BodyCopy type="dhtml" label="Optional Content" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style><!--
+div#page_title{
+display: none;
+}
+
+#university_message {
+display: none;
+}
+
+div#events_bar_horizontal{
+display: none;
+}
+
+nav#local_nav{
+display:none;
+}
+
+.headerContainer {
+width:850px;
+margin-left: 82px;
+}
+
+.imageContainer {
+    width: 850px;
+    margin-left: 96px;
+}
+
+.imgPadding{
+    padding: 9px;
+}
+
+.stitles {
+width:850px;
+margin-left: 100px;
+z-index: 3;
+}
+
+.about{
+     width: 850px;
+     padding-top: 200px;
+     padding-left: 557px
+}
+.type a:hover {
+color: white;
+}
+
+.imageWrapper {
+    float: left;
+    position: relative;
+    width: 170px;
+    height: 155px;
+}
+.imageWrapper img {
+    display: block;
+}
+.imageWrapper .Itext {
+    opacity: 0;
+    position: absolute;
+    bottom: 15px;
+    left: 9px;
+    right: 29px;
+    padding: 59px 10px;
+    color: #ffffff;
+    background: #6E6F71;
+    text-decoration: none;
+    text-align: center;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+    border: solid 1px #;
+    border-radius: 10px;
+    z-index: 2;
+}
+.imageWrapper:hover .Itext {
+    opacity: .8;
+}
+
+.grit{
+    color: #545454;
+    font-size: xx-large;
+}
+
+}
+--></style>
+<div class="headerContainer"><img src="Images/badger-creek/website/welcome.png" /> <img src="Images/badger-creek/website/bottomdivide.png" /></div>
+<div class="imageContainer">
+<div class="imgPadding imageWrapper "><img src="Images/badger-creek/website/olcevents.png" /> <a class="Itext" href="http://www.byui.edu/outdoor-learning-center/outdoor-learning-center-events">Buy tickets to our latest events</a></div>
+<div class="imageWrapper imgPadding"><img src="Images/badger-creek/website/olcreservations.png" /> <a class="Itext" href="http://www.byui.edu/outdoor-learning-center/plan-your-own#.U4ybThY7SbQ">Make reservations for your group</a></div>
+<div class="imageWrapper imgPadding"><img alt="AFY" src="Images/badger-creek/website/olcafy2.png" title="Adventure for Youth" /> <a class="Itext" href="http://www.byui.edu/outdoor-learning-center/adventure-for-youth-afy">Week-long summer youth program</a></div>
+<div class="imageWrapper imgPadding"><img alt="The Nature Academy" src="Images/badger-creek/website/nature-06.png" title="The Nature Academy" /> <a class="Itext" href="http://www.byui.edu/outdoor-learning-center/nature-academy">Spend a Day Learning in Nature</a></div>
+</div>
+<div class="about"><a href="http://www.byui.edu/outdoor-learning-center/about-us"> <img alt="About Us" src="Images/badger-creek/aboutus.png" title="About Us" /> </a></div>
+<div class="grit"><a href="Documents/activities/Badger Creek/2014 Ed Week Grit and Resilience.pdf" target="_blank">Grit and Resilience Presentation</a></div>
+<div class="gritandresilience"></div>
+<p><iframe frameborder="0" height="480" src="http://www.youtube.com/embed/TduP7INMHbU" width="853"></iframe></p>]]></BodyCopy></xPower><xPower Type="GroupStart" Name="FaceBook" label="Facebook Integration" readonly="false" hidden="false" required="false" Expanded="true" GroupStart=""><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false"></fbookDisplayed></xPower><BannerAd type="multiselect" label="Rotating Ads" readonly="false" hidden="false" required="false" MaxChoices="" PageSize="10" Query_PageType="BannerAdComponent" Query_LocationRoot="x32" Query_SelectedFields="@Name|@ID" AdditionalFilter_XPathQuery=""/><xPower Type="GroupStart" Name="QuickLinksGroup" label="Quick Links Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><xPower Type="Component" Name="QuickLinks1" label="Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Name="QuickLinks2" label="Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Name="QuickLinks3" label="Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" Name="DeptEvents" label="Define Your Events Folder" readonly="false" hidden="false" required="false" Expanded="false" Navigation="Children" GenerationOrder="down" StartPage="" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Navigation" Name="DeptAds" label="Define Your Ads Folder" readonly="false" hidden="false" required="false" Expanded="false" Navigation="Children" GenerationOrder="down" StartPage="" MaxNodes="" MaxDepth="" Query=""><Exports>&lt;Export&gt;&lt;Name&gt;Caption&lt;/Name&gt;&lt;Value&gt;/*/Caption&lt;/Value&gt;&lt;/Export&gt;</Exports></xPower><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="true" List=""><xPower Type="Component" Component="x96556" Name="xPower" readonly="false" hidden="false" required="false" CompTypes="" Expanded="false"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x44785" CompTypes="SiteControl" Expanded="false"/></CollegeDeptHome>

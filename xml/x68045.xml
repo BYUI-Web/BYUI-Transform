@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x68045" Name="rss_events_box.css" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">rss_events_box.css</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">rss_events_box.css</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">/*The News and Events box*/
+#rightBox{
+	position: relative;
+}
+#news.selected
+{
+  position: absolute;
+	background-image: url('../../images/home_page/news_events_box/news_tab_front.png');
+	width: 90px; 
+	height: 20px;
+	float: left;
+	clear: right;
+	z-index:  800;
+}
+
+#news
+{
+  position: absolute;
+	background-image: url('../../images/home_page/news_events_box/news_tab_back.png');
+	width: 90px; 
+	height: 20px;
+	float: left;
+	clear: right;
+	z-index: 0;
+}
+
+#events.selected
+{
+  position: absolute;
+	background-image: url('../../images/home_page/news_events_box/events_tab_front.png');
+	width: 90px; 
+	height: 20px;
+	float: left;
+	margin-left: 80px;
+	z-index:  800;
+}
+
+#events{
+  position: absolute;
+	background-image: url('../../images/home_page/news_events_box/events_tab_back.png');
+	width: 90px; 
+	height: 20px;
+	float: left;
+	margin-left: 80px;
+	z-index: 0;
+}
+
+#displayBox
+{
+	background-image: url('../../images/home_page/news_events_box/background.png');
+	width: 320px;
+   height: 161px;
+	position: absolute;
+	margin-top: 20px;
+}
+
+#newsEventsList
+{
+  position: relative;
+  top: 0px;
+	width: 308px;
+	height: 120px;
+	overflow:auto;
+}
+
+#newsEventsList ul
+{
+	list-style:none;
+}
+
+#newsEventsList ul li
+{
+	font-size: 11px;
+	height: 20px;
+}
+
+#newsEventsList ul li.even
+{
+	background-image: url(../../images/home_page/news_events_box/light_background_unclick_arrow.png);
+	background-repeat: no-repeat;
+}
+
+#newsEventsList ul li.odd
+{
+	background-image: url(../../images/home_page/news_events_box/dark_background_unclick_arrow.png);
+	background-repeat: no-repeat;
+}
+
+#newsEventsList ul li.even:hover
+{
+	background-image: url(../../images/home_page/news_events_box/light_background_click_arrow.png);
+	background-repeat: no-repeat;
+}
+
+#newsEventsList ul li.odd:hover
+{
+	background-image: url(../../images/home_page/news_events_box/dark_background_click_arrow.png);
+	background-repeat: no-repeat;
+}
+
+
+#newsEventsList ul li a
+{
+	color: #999999;
+	margin-left: 20px;
+	vertical-align: middle;
+	padding: 4px;
+}
+
+#newsEventsList ul li a:hover
+{
+	color: white;
+}
+
+#newsEventsLinks a{
+	color: #666666;
+	font-size: 10px;
+	text-decoration: none;
+	margin-left: 8px;
+	margin-top: 5px;
+	float: left;
+	clear: right;
+  position: relative;
+  top: 10px;
+}
+
+#newsEventsLinks a:hover{
+	text-decoration: none;
+}
+
+#newsEventsLinks img{
+	height: 11px;
+	width: 11px;
+	margin-left: 8px;
+	margin-top: 6px;
+	float: left;
+	position: relative;
+	top: 10px;
+}
+
+#newsEventsListScroll
+{
+	position: relative;
+	top: 11px;
+	width: 310px;
+}</ESContent></EmptyShell>

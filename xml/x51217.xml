@@ -1,0 +1,249 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<Content ID="x51217" Name="SRC" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">SRC</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">SRC</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style type="text/css"><!--
+#page{
+		position:relative;
+		width:675;
+	}
+	#nav{
+
+		background-color:#333333;
+		height:55px;
+		width:640px;
+		margin-left:17px;
+		position:relative;
+		z-index:1;
+	}
+	nav ul{
+		margin-left:20px;
+	}
+	#page nav ul li{
+		float:left;
+		list-style-type:none;
+		color:#fff;
+
+	}
+	nav ul li p{
+		margin:6px 0px 0px 20px;
+		padding-right:10px;
+		border-right:1px solid #fff;
+
+	}
+	#nav ul li p a{
+		color:#fff;
+		text-decoration:none;
+		font-family:sans-serif;
+	}
+	#nav ul li p a span.top{
+		border-bottom:none;
+	}
+	#nav ul li p a:hover{
+		color:#fff;
+		text-decoration:underline;
+		
+	}
+	#main_image{
+		background-image:url('Images/student-support/volunteers/src-volunteers.jpg');
+		background-size:99%;
+		background-repeat:no-repeat;
+		height:700px;
+		width:680px;
+		float:left;
+		margin-top:-20px;
+		position:absolute;
+		
+	}
+	#bottom_nav{
+		margin-top:365px;
+		margin-left:-20px;
+	}
+	#bottom_nav ul li{
+		height:85px;
+		width:200px;
+		background-color:#333333;
+		list-style-type:none;
+		float:left;
+		margin-left:15px;
+		position:relative;
+	}
+	#bottom_nav ul li:hover{
+		background-color:#666666;
+		cursor:pointer;
+	}
+	#bottom_nav ul li img{
+		float:right;
+		position:absolute;
+		right:10px;
+		top:10px;
+	}
+	#bottom_nav ul li p{
+		float:left;
+		font-size:1em;
+		color:#fff;
+		font-family:sans-serif;
+		margin:0;
+		display:block;
+		position:absolute;
+		left:15px;
+		top:20px;
+	}
+	#bottom_nav ul li span{
+		float:left;
+	}
+	#page h1.image_text{
+		font-size:2.3em;
+		color:#fff;
+		float:right;
+		margin:20% 20% 0 0;
+		border-bottom:1px solid #fff;
+		font-family:sans-serif;
+		font-weight:normal;
+	}
+	#page h2.image_text{
+		font-size:1em;
+		color:#fff;
+		clear:both;
+		float:right;
+		margin:1% 19% 0 0;
+		
+		font-family:sans-serif;
+		font-weight:normal;
+	}
+	h2.image_text span{
+		margin-left:42px;
+	}
+	.involvement span{
+		margin-left:17px;
+	}
+	.inight span{
+		margin-left:10px;
+	}
+	.src span{
+		margin-left:12px;
+	}
+	.ambassadors span{
+		margin-left:15px;
+	}
+	#directors_message{
+		clear:both;
+		height:210px;
+		width:415px;
+		border-bottom:1px dotted #000;
+		position:relative;
+		margin-top:30px;
+	}
+	#directors_message img{
+		float:left;
+		position:absolute;
+		top:10%;
+	}
+	#directors_message h1{
+		position:absolute;
+		left:35%;
+		top:20px;
+	}
+	#directors_message p{
+		position:absolute;
+		left:35%;
+		top:22%;
+
+	}
+	.side{
+		float:right;
+		width:250px;
+		height:290px;
+		margin-top:-200px;
+		border-left:1px dotted #000;
+		padding-left:10px;
+	}
+	.watch_video{
+		
+		float:right;
+		width:250px;
+		height:290px;
+		margin-top:-200px;
+		padding-left:10px;
+	}
+	.watch_video p{
+		display:block;
+		margin-left:3px;
+	}
+	.watch_video h1{
+		display:block;
+		margin-top:5px;
+		margin-left:3px;
+	}
+--></style>
+<div id="page"><nav id="nav">
+<ul>
+<li>
+<p><a href="#">I-Team<br />Leaders </a></p>
+</li>
+<li>
+<p class="involvement"><a href="#">Involvement <br /><span>Reps</span></a></p>
+</li>
+<li>
+<p class="inight"><a href="#"><span>I-Night</span> <br />Volunteers</a></p>
+</li>
+<li>
+<p class="src"><a href="#"><span>SRC</span> <br />Volunteers</a></p>
+</li>
+<li>
+<p class="ambassadors" style="border-right: none;"><a href="#"><span>Student</span> <br />Ambassadors</a></p>
+</li>
+</ul>
+</nav>
+<section id="test"></section>
+<section id="main_image"></section>
+<div id="bottom_nav">
+<ul>
+<li id="meetthecouncil">
+<p>Meet the <span>Council</span></p>
+<img height="65px" src="Images/student-support/volunteers/newvolunteer1.png" /></li>
+<li id="volunteerdirectory">
+<p>Volunteer <span>Directory</span></p>
+<img height="65px" src="Images/student-support/volunteers/newvolunteer2.png" /></li>
+<li id="training">
+<p>Trainings</p>
+<img height="65px" src="Images/student-support/volunteers/newvolunteer3.png" /></li>
+</ul>
+</div>
+<section id="directors_message"><br />
+<h1>Director's Message</h1>
+<p>No Message Yet.</p>
+</section>
+<section class="side">
+<h1>Announcements</h1>
+<p>Description.</p>
+</section>
+</div>
+<p>
+<script type="text/javascript">
+window.onload = function(){
+
+	$('#meetthecouncil').click(function(){
+		window.location = '';
+	});
+	$('#volunteerdirectory').click(function(){
+		window.location = '';
+	});
+	$('#training').click(function(){
+		window.location = '';
+	});
+	
+}
+</script>
+</p>
+<p>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33977325-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x19075" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

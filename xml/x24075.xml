@@ -1,0 +1,254 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<Content_FullWidth ID="x24075" Name="FAQ" Layout="general_content.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">FAQ</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">FAQ</Abstract><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p>
+<script language="javascript" type="text/javascript">
+var fa_slideSpeed = 15;	// Higher value = faster
+var fa_timer = 2;	// Lower value = faster
+
+var objectIdToSlideDown = false;
+var fa_activeId = false;
+var fa_slideInProgress = false;
+var fa_slideInProgress = false;
+var fa_expandMultiple = false; // true if you want to be able to have multiple items expanded at the same time.
+
+function showHideContent(e,inputId)
+{
+	if(fa_slideInProgress)return;
+	fa_slideInProgress = true;
+	if(!inputId)inputId = this.id;
+	inputId = inputId + '';
+	var numericId = inputId.replace(/[^0-9]/g,'');
+	var answerDiv = document.getElementById('fa_a' + numericId);
+
+	objectIdToSlideDown = false;
+
+	if(!answerDiv.style.display || answerDiv.style.display=='none'){
+		if(fa_activeId &&  fa_activeId!=numericId && !fa_expandMultiple){
+			objectIdToSlideDown = numericId;
+			slideContent(fa_activeId,(fa_slideSpeed*-1));
+		}else{
+
+			answerDiv.style.display='block';
+			answerDiv.style.visibility = 'visible';
+
+			slideContent(numericId,fa_slideSpeed);
+		}
+	}else{
+		slideContent(numericId,(fa_slideSpeed*-1));
+		fa_activeId = false;
+	}
+}
+
+function slideContent(inputId,direction)
+{
+
+	var obj =document.getElementById('fa_a' + inputId);
+	var contentObj = document.getElementById('fa_ac' + inputId);
+	height = obj.clientHeight;
+	if(height==0)height = obj.offsetHeight;
+	height = height + direction;
+	rerunFunction = true;
+	if(height>contentObj.offsetHeight){
+		height = contentObj.offsetHeight;
+		rerunFunction = false;
+	}
+	if(height<=1){
+		height = 1;
+		rerunFunction = false;
+	}
+
+	obj.style.height = height + 'px';
+	var topPos = height - contentObj.offsetHeight;
+	if(topPos>0)topPos=0;
+	contentObj.style.top = topPos + 'px';
+	if(rerunFunction){
+		setTimeout('slideContent(' + inputId + ',' + direction + ')',fa_timer);
+	}else{
+		if(height<=1){
+			obj.style.display='none';
+			if(objectIdToSlideDown && objectIdToSlideDown!=inputId){
+				document.getElementById('fa_a' + objectIdToSlideDown).style.display='block';
+				document.getElementById('fa_a' + objectIdToSlideDown).style.visibility='visible';
+				slideContent(objectIdToSlideDown,fa_slideSpeed);
+			}else{
+				fa_slideInProgress = false;
+			}
+		}else{
+			fa_activeId = inputId;
+			fa_slideInProgress = false;
+		}
+	}
+}
+
+
+
+function initShowHideDivs()
+{
+	var divs = document.getElementsByTagName('DIV');
+	var divCounter = 1;
+	for(var no=0;no<divs.length;no++){
+		if(divs[no].className=='fa_question'){
+			divs[no].onclick = showHideContent;
+			divs[no].id = 'fa_q'+divCounter;
+			var answer = divs[no].nextSibling;
+			while(answer && answer.tagName!='DIV'){
+				answer = answer.nextSibling;
+			}
+			answer.id = 'fa_a'+divCounter;
+			contentDiv = answer.getElementsByTagName('DIV')[0];
+			contentDiv.style.top = 0 - contentDiv.offsetHeight + 'px';
+			contentDiv.className='fa_answer_content';
+			contentDiv.id = 'fa_ac' + divCounter;
+			answer.style.display='none';
+			answer.style.height='1px';
+			divCounter++;
+		}
+	}
+}
+window.onload = initShowHideDivs;
+</script>
+</p>
+<style type="text/css"><!--
+/* CSS styles for the Show/Hide functionality. */
+
+.fa_question{
+        overflow:hidden;
+	cursor:pointer;
+        background-color: #f0f0f0;
+        color: #666;
+        padding: 10px;
+        border: 1px solid #000;
+        -webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+}
+.fa_question:hover{
+        background-color: #fcc35a;
+}
+.fa_answer{
+        visibility:hidden;
+	height:0px;
+	overflow:hidden;
+	position:relative;
+}
+.fa_answer_content{	/* Content that is slided down */
+        margin-top: 10px;
+	padding:1px;
+	font-size:1em;
+	position:relative;
+}
+
+.h1 {font-family: futura, arial, sans-serif; font-size: 2em; color: #000}
+.h2 {font-family: futura, arial, sans-serif; font-size: 1.75em; color: #000;}
+.h3 {font-family: futura, arial, sans-serif; font-size: 1.5em; color: #000;}
+.h4 {font-family: futura, arial, sans-serif; font-size: 1.3em; margin-left: 15px;}
+.h5 {font-family: futura, arial, sans-serif; font-size: 1em; margin-left: 12px;}
+
+#table_futura th{
+     color:#F8F8F8;
+     background-color: #333;   
+     font-family: futura, arial, sans-serif;
+     font-size: medium;
+     font-weight: normal;
+}
+#table_futura ul{
+     margin-left: 5px;
+}
+#table_futura td{
+     color:#000;
+}
+ul {margin-left:30px;}
+--></style>
+<p style="margin-left: -10px; font-size: 12px; font-style: italic; font-weight: bold; padding: 7px;">General Questions</p>
+<div class="fa_question"><span class="h4">I'm a former student. How do I make a payment on my account?</span></div>
+<div class="fa_answer">
+<div>
+<p>Former students can make payments the same way current students do. Click <a href="https://web.byui.edu/PersonalAccounts/AccountInfo/personalAccounts.aspx" title="Personal Account"> here</a> to go to your personal account. Use your credentials to log in. Click the button on the right hand side of the page titled "Make Online Payment". In the Your Account section of the page click the link "click here to pre-pay balances or pay for additional items." Follow the instructions to make a payment.</p>
+</div>
+</div>
+<div class="fa_question"><span class="h4">Contact information for NCM</span></div>
+<div class="fa_answer">
+<div>
+<p>National Collection Management or NCM phone is 1-800-333-6787.</p>
+</div>
+</div>
+<div class="fa_question"><span class="h4">Instruction on setting up Title IV Authorization</span></div>
+<div class="fa_answer">
+<div>
+<p>Click <a href="https://web.byui.edu/PersonalAccounts/AccountInfo/personalAccounts.aspx" title="Personal Account"> here</a> to go to your personal account. Click on the link near the top of the page titled "Title IV Authorization". Read and answer the questions and click submit.</p>
+</div>
+</div>
+<div class="fa_question"><span class="h4">Instructions on setting up eRefund</span></div>
+<div class="fa_answer">
+<div>
+<p>Click <a href="https://web.byui.edu/PersonalAccounts/AccountInfo/personalAccounts.aspx" title="Personal Account"> here</a> to go to your personal account. Click on the link near the top of the page titled "eRefund enrollment". In the section titled eRefund click the link "click here to enroll in eRefund". Click the button "Yes, I want refunds deposited directly into my bank account". Enter your bank account information, including account and routing number and then click "Continue" at the bottom of the page.</p>
+</div>
+</div>
+<div class="fa_question"><span class="h4">When is the payment deadline (tuition and healthcare)</span></div>
+<div class="fa_answer">
+<div>
+<p>The payment deadline is the first day of classes.</p>
+</div>
+</div>
+<div class="fa_question"><span class="h4">If I get a late fee, can I have it removed?</span></div>
+<div class="fa_answer">
+<div>
+<p>The late fee can only be removed if there is a special circumstance.</p>
+<p>If you had your FAFSA paperwork done before the deadline there is a possibility the late fee would be waived.</p>
+</div>
+</div>
+<div class="fa_question"><span class="h4">How do I use my I-card?</span></div>
+<div class="fa_answer">
+<div>
+<p>You can put Dining Dollars on as a decling balance by clicking <a href="https://web.byui.edu/DiningDollars" title="Add Dining Dollars"> here</a>.</p>
+<p>You can put money on your card as a decling balance for copies, printing, and vending machines by clicking <a href="https://web.byui.edu/ICard" title="Add I-Card Dollars"> here</a>.</p>
+<p>To get your payroll from the cashiers office you will also need your card.</p>
+<p>For more information about the I-card click <a href="https://www.byui.edu/financial-services/my-personal-account/i-card" title="I-Card"> here</a>.</p>
+</div>
+</div>
+<div class="fa_question"><span class="h4">Do you have a payment plan?</span></div>
+<div class="fa_answer">
+<div>
+<p>As of right now we do not have a payment plan. However, we do require that students pay 10% of their owed balances every 30 days.</p>
+</div>
+</div>
+<div class="fa_question"><span class="h4">How do I transfer my FA money to my bank account?</span></div>
+<div class="fa_answer">
+<div>
+<p>Click <a href="https://web.byui.edu/PersonalAccounts/AccountInfo/personalAccounts.aspx" title="Personal Account"> here</a> to go to your personal account. Click on the link near the top of the page titled "eRefund enrollment". In the section titled eRefund click the link "click here to enroll in eRefund". Click the button "Yes, I want refunds deposited directly into my bank account". Enter your bank account information, including account and routing number and then click "Continue" at the bottom of the page.</p>
+</div>
+</div>
+<div class="fa_question"><span class="h4">How do I make a payment?</span></div>
+<div class="fa_answer">
+<div>
+<p>Click <a href="https://web.byui.edu/PersonalAccounts/AccountInfo/personalAccounts.aspx" title="Personal Account"> here</a> to go to your personal account. Use your credentials to log in. Click the button on the right hand side of the page titled "Make Online Payment". In the Your Account section of the page click the "Pay" link next to the amount owed. Follow the instructions to make a payment.</p>
+<p>Following the instructions above you can pay with e-check or a credit card (2.75% service charge).</p>
+<p>For e-check instructions click <a href="https://www.byui.edu/financial-services/my-personal-account/echeck" title="echeck"> here</a>.</p>
+<p>Or send a check to: Bursar's Office, 525 S Center ST, Rexburg, ID 83460-1625</p>
+</div>
+</div>
+<div class="fa_question"><span class="h4">Do I have to have BYU-Idaho Health Insurance?</span></div>
+<div class="fa_answer">
+<div>
+<p>If you are covered in the Rexburg area with another Health insurance plan you may waive the University's coverage (we do not accept medicaid).</p>
+</div>
+</div>
+<div class="fa_question"><span class="h4">Why am I charged for health insurance on my off track?</span></div>
+<div class="fa_answer">
+<div>
+<p>It is the policy of the University to have you covered all year. As long as you are a student you must be covered with either the University's coverage or other qualifying coverage. To find out which coverage qualifies, contact the Health Center at 208-496-9330.</p>
+</div>
+</div>
+<div class="fa_question"><span class="h4">Where can I find deadline dates?</span></div>
+<div class="fa_answer">
+<div>
+<p>On the University homepage search for academic deadlines in the search box.</p>
+<p>Or click <a href="https://www.byui.edu/student-records/academic-deadlines" title="Academic Deadlines"> here</a>.</p>
+</div>
+</div>
+<div class="fa_question"><span class="h4">Why do I not receive information by mail?</span></div>
+<div class="fa_answer">
+<div>
+<p>The main form of communication with the University is by email.</p>
+</div>
+</div>
+<p>For any other questions, email <a href="mailto:bursar@byui.edu">bursar@byui.edu</a></p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_FullWidth>

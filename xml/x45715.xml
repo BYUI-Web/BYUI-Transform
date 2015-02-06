@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x45715" Name="About Our Office" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">About Our Office</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">About Our Office</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p><link href="http://fonts.googleapis.com/css?family=Libre+Baskerville:400italic" rel="stylesheet" type="text/css" /></p>
+<style><!--
+#HSLheader {
+width:710px;
+height:59px;
+position:relative;
+}
+
+@font-face
+{
+font-family: MotorOil;
+src: url("Documents/housing/fonts/MotorOil.ttf");
+}
+@font-face
+{
+font-family: MarketingScript;
+src: url("Documents/housing/fonts/MarketingScript.ttf");
+}
+
+#welcome {
+font-size:20px;
+margin:auto;
+width:100%;
+text-align:center;
+}
+
+.redFont {
+color:#EC4345;
+font-family:"MarketingScript";
+}
+
+#HSL {
+color:#58585B;
+font-family:"MotorOil";
+font-size:30px;
+margin:auto;
+margin-top:10px;
+width:100%;
+text-align:center;
+}
+
+#amp {
+color:#EC4345;
+font-family: 'Libre Baskerville', serif;
+font-style:italic;
+}
+--></style>
+<div id="HSLheader">
+<div class="redFont" id="welcome">About the</div>
+<div id="HSL">Housing <span id="amp">&amp;</span> Student Living Office</div>
+</div>
+<hr />
+<p>The Housing &amp; Student Living Office works with students to help them make the most of their living situations while attending school here. To do so, we provide both on-campus housing and off-campus support and regulation.</p>
+<p><a href="x44817.xml">Student Living</a>&nbsp;provides teaching and support opporunities to help roommates, friends and families strengthen communication and encourage integrity.</p>
+<p><a href="x45370.xml">On-Campus Housing</a>&nbsp;is available for both single students and student families. It provides an inexpensive, close-to-campus option for matriculating students.</p>
+<p>Single student approved housing&nbsp;provides a unique opportunity for our office to help ensure students have housing that is physically and spiritually conducive to fulfilling the mission of BYU-Idaho. We provide education to help resolve issues in approved housing.</p>
+<p>If you have any questions or concerns about your housing or living situation, please&nbsp;<a class="intLink" href="x45668.xml">contact us</a>&nbsp;and we'd be more than happy to do what we can to help you.</p>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+<script src="Documents/housing/links/columns.min.js" type="text/javascript"></script>
+<p><link href="Documents/housing/links/columns.css" rel="stylesheet" type="text/css" /></p>
+<div id="qLinks">
+<div id="qHeader">Quick Links</div>
+<div id="qLinksCont"></div>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x9287" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

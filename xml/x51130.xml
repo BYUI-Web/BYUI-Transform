@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<Content ID="x51130" Name="Current Students" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Current Students</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Current Students</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style><!--
+td {
+vertical-align:top;
+}
+--></style>
+<table border="0" style="height: 402px; width: 710px;">
+<tbody>
+<tr>
+<td>
+<h2>Academic Start</h2>
+</td>
+<td>
+<h2>Student Resources</h2>
+</td>
+<td>
+<h2>Registration</h2>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td>
+<p><a href="x40464.xml">First Semester</a></p>
+<p><a href="x40463.xml">Second Semester</a></p>
+<p><a href="x40465.xml">Third Semester</a></p>
+<p><a href="x40452.xml">Matriculate</a></p>
+<p></p>
+</td>
+<td>
+<p><a href="https://my.byui.edu/">my.byui.edu</a></p>
+<p><a href="http://www2.byui.edu/StudentHonor/">Honor Code</a></p>
+<p><a href="http://www.lib.byui.edu/">Library</a></p>
+<p><a href="http://calendar.byui.edu/">BYU-Idaho Calendar</a></p>
+<p><a href="http://stream.byui.edu/live/">Live Devotional</a></p>
+<p><a href="x46402.xml">Pathway Locations</a></p>
+</td>
+<td>
+<p><a href="x46010.xml">What Classes to Register For</a></p>
+<p><a href="http://www.byui.edu/registration/registration-schedule">When to Register</a></p>
+<p><a href="x30317.xml">How to Register</a></p>
+<p></p>
+<p></p>
+</td>
+</tr>
+<tr>
+<td>
+<h2>Finances</h2>
+</td>
+<td>
+<h2>Academic Help</h2>
+</td>
+<td>
+<h2>Support Services</h2>
+</td>
+</tr>
+<tr align="left" class="table" valign="top">
+<td align="left" class="tableCell" valign="top">
+<p><a href="http://www.byui.edu/financial-services/my-account">Bursar's Office</a></p>
+<p><a href="http://www2.byui.edu/Bursar/PaymentMethods.htm">Pay Tuition</a></p>
+<p></p>
+<p></p>
+<p></p>
+</td>
+<td>
+<p><a href="http://www.byui.edu/student-records/academic-deadlines">Academic Deadlines</a></p>
+<p><a href="x40466.xml">Pathway Advising</a></p>
+<p><a href="http://www.byui.edu/academic-support-centers/tutoring-center/online-tutoring">Online Tutoring</a></p>
+<p><a href="http://www.byui.edu/studyskillscenter/">Study Skills</a></p>
+<p><a href="http://www.byui.edu/WritingCenter/">Online Writing Center</a></p>
+<p></p>
+</td>
+<td align="left" class="tableCell" valign="top">
+<p><a href="x28630.xml">Online Support Center</a></p>
+<p><a href="http://www.byui.edu/help-desk/?cid=fli:141">IT Help Desk</a></p>
+<p><a href="x50301.xml">Disability Services</a></p>
+<p></p>
+<p></p>
+<p></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p></p>
+<p style="font-size: 15px; line-height: 20px;"><span style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;"><span style="line-height: normal;">&nbsp;</span></span></p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="true"><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="Component" Component="x18360" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x17147" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

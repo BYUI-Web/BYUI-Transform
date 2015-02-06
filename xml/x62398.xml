@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x62398" Name="About Financial Aid" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">About Financial Aid</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">About page offers introduction to financial aid. Explanation to new students who know nothing about financial aid processes and options. Offers insights on how to contact and visit the Financial Aid Office and informs students who their financial aid advisors are and how to reach them.</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false">About Financial Aid</BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false">About page offers introduction to financial aid. Explanation to new students who know nothing about financial aid processes and options. Offers insights on how to contact and visit the Financial Aid Office and informs students who their financial aid advisors are and how to reach them.</MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style><!--
+#page_title{display:none}
+#cycle_gallery{clear:both}
+--></style>
+<script language="javascript" type="text/javascript">
+var TimeOut         = 300;
+var currentLayer    = null;
+var currentitem     = null;
+var currentLayerNum = 0;
+var noClose         = 0;
+var closeTimer      = null;
+
+function mopen(n) {
+  var l  = document.getElementById("menu"+n);
+  var mm = document.getElementById("mmenu"+n);
+	
+  if(l) {
+    mcancelclosetime();
+    l.style.visibility='visible';
+    if(currentLayer && (currentLayerNum != n))
+      currentLayer.style.visibility='hidden';
+    currentLayer = l;
+    currentitem = mm;
+    currentLayerNum = n;			
+  } else if(currentLayer) {
+    currentLayer.style.visibility='hidden';
+    currentLayerNum = 0;
+    currentitem = null;
+    currentLayer = null;
+ 	}
+}
+
+function mclosetime() {
+  closeTimer = window.setTimeout(mclose, TimeOut);
+}
+
+function mcancelclosetime() {
+  if(closeTimer) {
+    window.clearTimeout(closeTimer);
+    closeTimer = null;
+  }
+}
+
+function mclose() {
+  if(currentLayer && noClose!=1)   {
+    currentLayer.style.visibility='hidden';
+    currentLayerNum = 0;
+    currentLayer = null;
+    currentitem = null;
+  } else {
+    noClose = 0;
+  }
+  currentLayer = null;
+  currentitem = null;
+}
+</script>
+<style type="text/css"><!--
+.left {
+     float:left;
+     margin:0 5px 0 0;
+}
+
+.facebook {
+     position: absolute;
+     left: 800px;
+     margin-top: 10;
+}
+#arrows {
+     position: absolute;
+     top: 220px;
+     left: 266px;
+}
+.arrow {
+     margin-left:-10px;
+}
+/* CSS for DROPDOWN MENU */
+
+#dd {
+  padding: 0 0 30px 0;
+}
+
+#dd li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+  font: 12px futura;
+  border: 1px dotted #000;
+
+}
+#contact h1{ 
+font-family:futura; 
+font-size:12px; 
+font-weight:bold; 
+margin:0 0 4px 0; 
+padding:0; 
+color:rgb(70,70,70);
+
+}
+#dd li a.menu {
+  display: block;
+  text-align: center;
+  background: #fff;
+  padding: 2px 5px;
+  margin: 0 1px 0 0;
+  color: #000;
+  width: 104px;
+  text-decoration: none;
+}
+
+.submenu {
+  background: #FFF;
+  border: 1px solid #000;
+  visibility: hidden;
+  position: absolute;
+  z-index: 3;
+  width: 114px;
+}
+
+.submenu a {
+  display: block;
+  font: 8px futura;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px;
+  background-color: #fff;
+  color: #000;
+  list-style-type: none;
+}
+.submenu a:hover{
+  color: #000;
+  text-decoration: none;
+}
+--></style>
+<br />
+<h4><span style="font-size: 2.5em; font-family: futura,arial,sans-serif; margin-top: 20px;">What is Financial Aid?</span></h4>
+<!-- Begin dropdown boxes -->
+<ul id="dd" style="float: left;">
+<li><a class="menu" href="#" id="mmenu1" onmouseout="mclosetime();" onmouseover="mopen(1);">OFFICE HOURS</a>
+<div class="submenu" id="menu1" onmouseout="mclosetime();" onmouseover="mcancelclosetime()">
+<ul>
+<li>Regular Hours</li>
+<li>Mon - Fri, 8am - 5pm</li>
+<li>Advisor Hours</li>
+<li>Mon - Fri, 8am - 4pm</li>
+</ul>
+</div>
+</li>
+<li><a class="menu" href="#" id="mmenu2" onmouseout="mclosetime();" onmouseover="mopen(2);">ADDRESS</a>
+<div class="submenu" id="menu2" onmouseout="mclosetime();" onmouseover="mcancelclosetime()"><a href="#">100 Kimball Building 1610 Rexburg, ID 83460</a></div>
+</li>
+<li><a class="menu" href="#" id="mmenu3" onmouseout="mclosetime();" onmouseover="mopen(3);">PHONE</a>
+<div class="submenu" id="menu3" onmouseout="mclosetime();" onmouseover="mcancelclosetime()"><a href="#">208.496.1600</a></div>
+</li>
+<li><a class="menu" href="#" id="mmenu4" onmouseout="mclosetime();" onmouseover="mopen(4);">EMAIL</a>
+<div class="submenu" id="menu4" onmouseout="mclosetime();" onmouseover="mcancelclosetime()"><a href="#">financialaid@byui.edu</a></div>
+</li>
+<li><a class="menu" href="#" id="mmenu5" onmouseout="mclosetime();" onmouseover="mopen(5);">FAX</a>
+<div class="submenu" id="menu5" onmouseout="mclosetime();" onmouseover="mcancelclosetime()"><a href="#">208.496.6711</a></div>
+</li>
+</ul>
+<div id="arrows"><a href="x42841.xml"><img class="arrow" height="104" onmouseout="this.src='Images/Admin_Offices/Financial Aid/buttons/arrows/Yellow/PlanningYellow.png';" onmouseover="this.src='Images/Admin_Offices/Financial Aid/buttons/arrows/Yellow/PlanningYellow-Rollover.png';" src="Images/Admin_Offices/Financial Aid/buttons/arrows/Yellow/PlanningYellow.png" width="175" /></a><a href="x42761.xml"><img class="arrow" height="104" onmouseout="this.src='Images/Admin_Offices/Financial Aid/buttons/arrows/Yellow/ScholarshipsYellow.png';" onmouseover="this.src='Images/Admin_Offices/Financial Aid/buttons/arrows/Yellow/ScholarshipsYellow-Rollover.png';" src="Images/Admin_Offices/Financial Aid/buttons/arrows/Yellow/ScholarshipsYellow.png" width="175" /></a><a href="x42762.xml"><img class="arrow" height="104" onmouseout="this.src='Images/Admin_Offices/Financial Aid/buttons/arrows/Yellow/FederalAidYellow.png';" onmouseover="this.src='Images/Admin_Offices/Financial Aid/buttons/arrows/Yellow/FederalAidYellow-Rollover.png';" src="Images/Admin_Offices/Financial Aid/buttons/arrows/Yellow/FederalAidYellow.png" width="175" /></a><a href="x42763.xml"><img class="arrow" height="104" onmouseout="this.src='Images/Admin_Offices/Financial Aid/buttons/arrows/Yellow/Follow-upYellow.png';" onmouseover="this.src='Images/Admin_Offices/Financial Aid/buttons/arrows/Yellow/Follow-upYellow-Rollover.png';" src="Images/Admin_Offices/Financial Aid/buttons/arrows/Yellow/Follow-upYellow.png" width="175" /></a></div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Welcome to BYU-Idaho's Financial Aid Office. Financial aid encompasses any financial resources from the following four sources: <br /><br /><br /><br /><br /><br /><br /></p>
+<p>The Financial Aid Guide (see sub-navigation to the left) will help guide and orient students through completing the financial aid process. Here is an overview of the financial aid process:</p>
+<div>
+<ul style="font-size: 14px;">
+<li><strong>Planning</strong> - Plan and anticipate the costs of attending BYU-Idaho</li>
+<li><strong>Scholarships</strong> - Discover and apply for awards from organizations, programs, charities and BYU-Idaho's Heber J. Grant Program</li>
+<li><strong>Federal Aid</strong> - Submit any applications for awards from the Federal Government</li>
+<li><strong>Follow-up</strong> - Submit any documents required for the awards you applied for and wait for the disbursement of the awarded funds</li>
+</ul>
+</div>
+<h4><span class="h2">Who is my financial aid advisor?</span></h4>
+<br />
+<p>Every student is assigned a financial aid advisor according to their last name. A student's financial aid advisor is responsible for awarding financial aid. They are available to answer questions, educate students about financial aid opportunities, and help students through the financial aid process.</p>
+<p style="font-weight: bold;"><em>Advisors are only available Monday - Friday 8am - 4pm<em></em></em></p>
+<table cellpadding="1" cellspacing="5" id="table_futura" style="width: 650px; font-family: Arial;">
+<tbody>
+<tr><th>Advisor</th><th>Last name assignment</th><th>Direct line</th><th>Email</th></tr>
+<tr>
+<td>Suzanne Williams</td>
+<td>A - C</td>
+<td>(208) 496-1622</td>
+<td>williamss@byui.edu</td>
+</tr>
+<tr>
+<td>Holly Johnson</td>
+<td>D - G</td>
+<td>(208) 496-1615</td>
+<td>johnsonh@byui.edu</td>
+</tr>
+<tr>
+<td>Diane Ochs</td>
+<td>H - K</td>
+<td>(208) 496-1624</td>
+<td>ochsd@byui.edu</td>
+</tr>
+<tr>
+<td>Robin Dunlop</td>
+<td>L - 0</td>
+<td>(208) 496-1625</td>
+<td>dunlopr@byui.edu</td>
+</tr>
+<tr>
+<td>Sylvia Turley</td>
+<td>P - S</td>
+<td>(208) 496-1621</td>
+<td>turleys@byui.edu</td>
+</tr>
+<tr>
+<td>Jen Parkinson</td>
+<td>T - Z</td>
+<td>(208) 496-1626</td>
+<td>parkinsonj@byui.edu</td>
+</tr>
+</tbody>
+</table>
+<p>Students may contact their Financial Aid Advisor over the phone, by email, or in person at the Financial Aid Office on the 1st floor of the Kimball Building (RM 100). Visit the <a href="x19311.xml" title="Link to Financial Aid Staff directory">Financial Aid Staff</a> directory to contact other Financial Aid Officers.</p>
+<h4><span class="h2">How can I use financial aid money?</span></h4>
+<br />
+<p>Financial aid funds are intended to be used for education costs and expenses students incur while completing their education.</p>
+<h5><span class="h3">Intended uses: <small>(not a complete list)</small></span></h5>
+<br /><em><small>Certain financial aid awards, such as some private scholarships, have requirements limiting their use only for tuition based costs.</small></em>
+<ul style="margin: 0px 0px 0px 20px; padding: 0px;">
+<li>Tuition and class based fees</li>
+<li>Books and school supplies</li>
+<li>Outstanding school balances</li>
+<li>Living expenses
+<ul style="margin: 0px 0px 0px 20px; padding: 0px;">
+<li>Housing</li>
+<li>Food</li>
+<li>Travel</li>
+<li>Insurance</li>
+</ul>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h4><span class="h1">Financial Aid Office</span><img alt="Financial Aid Office entrance" height="200" src="Images/Admin_Offices/Financial%20Aid/DSCI0056(0).JPG" style="margin: 0px 0px 5px 15px; float: right; border: #c8c8c8 1px solid; padding: 5px;" title="Entrance to the Financial Aid Office" /><br /><br /></h4>
+<p>The BYU-Idaho Financial Aid Office is tasked with the responsibility for helping students secure financial aid, verify financial aid documents, and releasing funds to the Accounting and Bursars Office. The <a href="http://www2.byui.edu/AccountingOffice/" title="Link to the Accounting Office page">Accounting and Bursars Office</a> is responsible for all disbursement and charges made to the students' accounts.</p>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="true" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="x40184" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="x40325" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="x40329" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="x18466" CompTypes="HighlightedLinksComponent"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x18206" CompTypes="SiteControl"/></Content>

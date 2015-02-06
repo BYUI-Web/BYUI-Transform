@@ -1,0 +1,272 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x63434" Name="Payment Process" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Payment Process</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Payment Process</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<!-- ON CAMPUS NAV BAR -->
+<div><img height="56" src="Images/housing/navbar/oncampus/blank.png" width="65" /><!-- Home Button --><a class="intLink" href="x8708.xml"><img height="76" onmouseout="this.src='Images/housing/navbar/oncampus/H.png';" onmouseover="this.src='Images/housing/navbar/oncampus/H-hover.png';" src="Images/housing/navbar/oncampus/H.png" width="134" /></a><!-- On Campus-Housing Active --><a class="intLink" href="x45370.xml"><img height="76" src="Images/housing/navbar/oncampus/O-active.png" width="162" /></a><!-- Men's Housing --><a class="intLink" href="x45443.xml"><img height="76" onmouseout="this.src='Images/housing/navbar/oncampus/M.png';" onmouseover="this.src='Images/housing/navbar/oncampus/M-hover.png';" src="Images/housing/navbar/oncampus/M.png" width="128" /></a><!-- Women's Housing --><a class="intLink" href="x45444.xml"><img height="76" onmouseout="this.src='Images/housing/navbar/oncampus/W.png';" onmouseover="this.src='Images/housing/navbar/oncampus/W-hover.png';" src="Images/housing/navbar/oncampus/W.png" width="155" /></a><!-- Volunteer --><a class="intLink" href="x45445.xml"><img height="76" onmouseout="this.src='Images/housing/navbar/oncampus/V.png';" onmouseover="this.src='Images/housing/navbar/oncampus/V-hover.png';" src="Images/housing/navbar/oncampus/V.png" width="111" /></a><!-- Buy/Sell --><a class="intLink" href="x46042.xml"><img height="76" onmouseout="this.src='Images/housing/navbar/oncampus/B.png';" onmouseover="this.src='Images/housing/navbar/oncampus/B-hover.png';" src="Images/housing/navbar/oncampus/B.png" style="margin: 1px -1px;" width="135" /></a></div>
+<!-- END NAV BAR -->
+<div>
+<div></div>
+<img height="88" src="Images/housing/On campus/on-campus-title.png" style="display: block; margin-left: auto; margin-right: auto;" width="950" />
+<h2 style="text-align: center;">BYU-Idaho On-Campus Housing Payment Process</h2>
+<p>&nbsp;</p>
+<p><strong>What are some important things to consider when purchasing a contract?</strong></p>
+<p>Students should carefully read the BYU-Idaho Student Landlord contract and be very familiar with the terms and conditions.&nbsp;</p>
+<p><strong>When is my rent due?</strong></p>
+<p>Rent is charged in three equal amounts.&nbsp; Rent posts to the student's account at the beginning of the month and is due by the last day of the month.</p>
+<p style="text-align: center;">&nbsp;</p>
+<table border="1" cellpadding="0" cellspacing="0" style="width: 464px; margin-left: auto; margin-right: auto;">
+<tbody>
+<tr>
+<td valign="top" width="110">
+<p>&nbsp;</p>
+</td>
+<td colspan="2" valign="top" width="118">
+<p align="center">First Payment</p>
+</td>
+<td colspan="2" valign="top" width="118">
+<p align="center">Second Payment</p>
+</td>
+<td colspan="2" valign="top" width="118">
+<p align="center" style="text-align: center;">Third Payment</p>
+</td>
+</tr>
+<tr>
+<td valign="bottom" width="110">
+<p>&nbsp;</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Posts to Account</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Payment Due</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Posts to Account</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Payment Due</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Posts to Account</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Payment Due</p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="110">
+<p>Winter Semester</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Dec 1</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Dec 31</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Jan 1</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Jan 31</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Feb 1</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Feb 28</p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="110">
+<p>Winter First Block</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Dec 1</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Dec 31</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Jan 1</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Jan 31</p>
+</td>
+<td valign="top" width="59">
+<p align="center">N/A</p>
+</td>
+<td valign="top" width="59">
+<p align="center">N/A</p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="110">
+<p>Winter Second Block</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Feb 1</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Feb 28</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Mar 1</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Mar 31</p>
+</td>
+<td valign="top" width="59">
+<p align="center">N/A</p>
+</td>
+<td valign="top" width="59">
+<p align="center">N/A</p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="110">
+<p>Spring Semester</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Mar 1</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Mar 31</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Apr 1</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Apr 31</p>
+</td>
+<td valign="top" width="59">
+<p align="center">May 1</p>
+</td>
+<td valign="top" width="59">
+<p align="center">May 31</p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="110">
+<p>Spring First Block</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Mar 1</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Mar 31</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Apr 1</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Apr 31</p>
+</td>
+<td valign="top" width="59">
+<p align="center">N/A</p>
+</td>
+<td valign="top" width="59">
+<p align="center">N/A</p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="110">
+<p>Spring Second Block</p>
+</td>
+<td valign="top" width="59">
+<p align="center">May 1</p>
+</td>
+<td valign="top" width="59">
+<p align="center">May 30</p>
+</td>
+<td valign="top" width="59">
+<p align="center">June 1</p>
+</td>
+<td valign="top" width="59">
+<p align="center">June 30</p>
+</td>
+<td valign="top" width="59">
+<p align="center">N/A</p>
+</td>
+<td valign="top" width="59">
+<p align="center">N/A</p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="110">
+<p>Fall Semester</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Aug 1</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Aug 31</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Sept 1</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Sept 30</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Oct 1</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Oct 31</p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="110">
+<p>Fall First Block</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Aug 1</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Aug 31</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Sept 1</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Sept 31</p>
+</td>
+<td valign="top" width="59">
+<p align="center">N/A</p>
+</td>
+<td valign="top" width="59">
+<p align="center">N/A</p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="110">
+<p>Fall Second Block</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Oct 1</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Oct 31</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Nov 1</p>
+</td>
+<td valign="top" width="59">
+<p align="center">Nov 30</p>
+</td>
+<td valign="top" width="59">
+<p align="center">N/A</p>
+</td>
+<td valign="top" width="59">
+<p align="center">N/A</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p><strong>How do I pay my rent?</strong></p>
+<p>Rent is charged to your student account under Campus Housing.&nbsp; To make a payment please log into my.byui.edu and click on the finance tab.&nbsp;&nbsp; BYU-Idaho has multiple payment methods available to students.</p>
+<p><a class="extLink" href="http://www.byui.edu/financial-services/my-account/payment-methods">http://www.byui.edu/financial-services/my-account/payment-methods</a></p>
+<p><strong>Is a deposit required to purchase a contract?</strong></p>
+<p>Yes, students will pay $100 when they purchase their contract.&nbsp; $75 will be used as a refundable deposit, and $25 will be used for a one time application fee.&nbsp; Students who purchase additional contracts are not required to pay multiple deposits or application fees.</p>
+<p>&nbsp;</p>
+<div></div>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="x9764" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x9287" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<EventsDetail ID="x60230" Name="Backpacking" Layout="general_activities.xsl"><Title type="string" label="Event Title" readonly="false" hidden="false" required="true">Backpacking</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Come along for a backpacking adventure.</Abstract><BodyCopy type="dhtml" label="Event Details" readonly="false" hidden="false" required="false"><![CDATA[<p>Take a break from your studies and enjoy the fall colors.</p>
+<p><strong>Backpacking To Lake Marie</strong></p>
+<p>Dates: October 12-13</p>
+<p>Departure Time: 1P.M. (Friday, October 12)</p>
+<p>Return Time: 4P.M. (Saturday, October 13)</p>
+<p>Cost: $15</p>
+<p>Meet at: ORC (under the North end of the stadium)</p>
+<p>**There will be a mandatory pre-trip meeting October 11 that all participants must attend. &nbsp;Details on location and time will be emailed to participants as they register.</p>
+<p>Sign up at the Kimball Ticket Office or online <a href="http://www.byui.edu/tickets">www.byui.edu/tickets</a></p>]]></BodyCopy><Image type="imagefile" label="Right side image" readonly="false" hidden="false" required="true" Width="720" Height="540" Alignment="" Border="" Expanded="true" AlternateText="" HSpace="" VSpace="">activities/outdoors/backpacking_pic.jpg</Image><xPower Type="GroupStart" GroupStart="" Name="Semesters" label="Available Semesters" readonly="false" hidden="false" required="false" Expanded="true"><Boolean type="boolean" label="Available Fall">true</Boolean><Boolean type="boolean" label="Available Winter">false</Boolean><Boolean type="boolean" label="Available Spring">true</Boolean><Boolean type="boolean" label="Gallery Available">false</Boolean></xPower><xPower Type="List" List="Date" Name="DateElements" label="Dates" readonly="false" hidden="false" required="false" display="localdateshort" Expanded="true"><Date type="date" readonly="false" hidden="false" required="false" display="localdateshort" Expanded="false" UTC="true">20121012T18:00:00</Date></xPower><BodyCopy type="dhtml" label="General Information" readonly="false" hidden="false" required="false"><![CDATA[<p>We will provide the following items.</p>
+<ul>
+<li>Backpack</li>
+<li>Sleeping bag</li>
+<li>Sleeping pad</li>
+<li>Headlamp</li>
+<li>Shared tent</li>
+<li>Cooking stove and pot</li>
+<li>Water Filter</li>
+<li>Food to include Dinner, Breakfast and Lunch</li>
+</ul>
+<p>You will need to provide:</p>
+<ul>
+<li>Hand sanatizer and any necessary toiletries</li>
+<li>Water bottle</li>
+<li>Matches</li>
+<li>Eating utensils, cup and bowl</li>
+<li>Sunscreen</li>
+<li>Hat</li>
+<li>Sunglasses</li>
+<li>Mosquito spray</li>
+<li>Jacket</li>
+<li>Hiking boots</li>
+<li>Extra change of clothes</li>
+</ul>
+<p>&nbsp;</p>
+<p>Advisor: Morris Christensen</p>
+<p>christensenmo@byui.edu</p>
+<ul></ul>]]></BodyCopy><xPower Type="List" List="Images" Name="Images" label="Gallery Images" readonly="false" hidden="false" required="false" Width="" Border="" Alignment="" Expanded="true" Height=""><Images type="imagefile" readonly="false" hidden="false" required="false" Width="" Border="" Alignment="" Expanded="true" Height="" AlternateText="" HSpace="" VSpace=""></Images></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x6784" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></EventsDetail>

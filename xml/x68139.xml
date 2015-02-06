@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x68139" Name="CSS - Global" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;style&gt;
+.update-frame img {
+	border: 1px solid rgba(0, 0, 0, .5);
+}
+.page_header{
+	height: 80px;
+	position: relative;
+	margin-bottom: 10px;
+}
+h2.page_title{
+	color: #5f5f5f;
+	font-size: 1.2em;
+	font-style: italic;
+	font-weight: normal;
+	font-family: Georgia, Times, serif;
+	line-height: 16px;
+	padding-top: 14px;
+	padding-bottom: 10px;
+}
+p.page_tagline {
+	font-family: Georgia, Times, serif;
+	font-size: 14px;
+	margin-top: -8px;
+}
+.update-frame{
+	width: 202px;
+	height: 150px;
+	position: relative;
+	overflow: hidden;
+	margin-right: 38px;
+	margin-bottom: 40px;
+	float: left;
+}
+.update-meta{
+	background-color: rgb(56, 56, 56);
+	background-color: rgba(0, 0, 0, .8);
+	padding: 12px;
+	position: absolute;
+	bottom: -80px;
+	transition: all .4s;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-ms-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	z-index: 1;
+}
+.update-frame:hover .update-meta{
+	bottom: -3px;
+}
+h3.update-title{
+	color: white;
+	margin: 0;	padding: 0;
+	margin-top: -2px;
+	margin-bottom: 6px;
+	font-size: 13px;
+	height: 16px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+h3.update-title a{
+	color: #fff;
+	text-decoration: none;
+}
+h3.update-title a:hover{
+	color: #fff;
+	text-decoration: underline;
+}
+p.update-caption {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
+    height: 48px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+a.update-href {
+    color: #ccc;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 11px;
+    line-height: 18px;
+}
+a.update-href:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+.archive {
+    width: 720px;
+    float: left;
+}
+ul.related-links {
+	padding: 0
+}
+ul.related-links&gt;li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+ul.related-links a {
+    font-size: 12px;
+    color: #111;
+    text-decoration: none;
+    font-style: italic;
+}
+ul.related-links a:hover {
+	text-decoration: underline
+}
+span.make-link {
+	position:absolute; 
+	width:100%;
+	height:100%;
+	top:0;
+	left: 0;
+	z-index: 2;
+}
+&lt;/style&gt;</ContentSnippet></ContentSnippet>

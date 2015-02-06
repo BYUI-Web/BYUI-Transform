@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<Content ID="x51179" Name="Concert" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Concert - Education Week 2014</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Concert</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style><!--
+.info-box {
+	width: 33%;
+	padding: 1em;
+	background-color: #eee;
+}
+
+.info-box > p {
+	line-height: 1em;
+	margin-bottom: 1em;
+}
+
+.image-container { height: 550px; }
+
+.top-space { margin: 1.5em 0; }
+--></style>
+<div class="style-container">[x50728][x51144]</div>
+<div class="main-title-container">
+<h1>Ryan Shupe and the RubberBand</h1>
+</div>
+<div class="text-box">
+<p>Our Center Stage concert on Friday night, August 1, will feature <a href="http://www.shupe.net" target="_blank">Ryan Shupe and the RubberBand</a>.</p>
+</div>
+<div class="image-container"><img alt="Ryan Shupe &amp; the RubberBand" height="550" src="Images/university-relations/education-week/2014/rubberband.jpg" width="950" /></div>
+<div class="copy left top-space">
+<p>Ryan Shupe &amp; the RubberBand's lively style of bluegrass infused with flavors of rap, rock and contemporary country has universal appeal. This charismatic quintet takes the audience on an entertainment rollercoaster with stellar musicianship, witty lyrics, funny antics and audience sing-alongs. Hard-driving arrangements, hot instrumental solos and tight vocal harmonies make the live show a favorite at BYU-Idaho. As Ryan describes his music, "It's good old American country bluegrass music with blues and rock." Popular songs in recent years have included "Dream Big," "Banjo Boy," and "Even Superman."</p>
+<p>Tickets go on sale March 4. $10 for general public, $5 for BYU-Idaho students and Education Week participants. Classroom dress.</p>
+</div>
+<div class="info-box right top-space">
+<h3 style="margin-bottom: 1em; font-size: 1.5em;">Event Information</h3>
+<p><strong>Date:</strong> Friday, 1 August 2014.</p>
+<p><strong>Time:</strong> 7:30 p.m.</p>
+<p><strong>Location:</strong> Hart Auditorium.</p>
+<p><strong>Price:</strong> $10 for the general public, $5 for BYU-Idaho students and Education Week participants.</p>
+<p><strong>Attire:</strong> Classroom dress.</p>
+<p><strong><a href="http://byui.universitytickets.com/user_pages/event.aspx?id=2723&amp;cid=110" target="_blank">Purchase tickets</a>.</strong></p>
+</div>
+<hr class="separator" />]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="x28840" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="true" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="x50728" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x51144" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x47794" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

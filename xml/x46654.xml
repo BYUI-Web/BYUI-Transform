@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x46654" Name="Safety Notification Report Form" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Safety Notification Report Form</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Safety Notification Report Form</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<div id="container">
+<div id="main_body">
+<div id="content_section">
+<div class="content_bottom_section">
+<div class="leftAREA">
+<p align="center"><span style="color: #000080;"><strong>&nbsp;&nbsp;<span style="font-size: x-large;">&nbsp;&nbsp;&nbsp; Fire/Safety Information </span></strong></span> <span style="color: #000000;"><strong> </strong></span></p>
+<p align="left"><strong>The Safety Office is charged with the responsibility of conducting periodic inspections of the BYU-Idaho campus and conveying safety information to respective faculty members or staff employees.&nbsp; This report is intended to help enhance safety awareness and is used at the discretion of the recipient.</strong></p>
+<form action="http://www2.byui.edu/AspUtilities/emailAForm.asp" enctype="application/x-www-form-urlencoded" method="post" name="FrontPage_Form1"><input name="txtEmailTo" type="hidden" value="harmstone@byui.edu;cziepl@byui.edu" /> <input name="txtSubject" type="hidden" value="Safety Issue Notification" /> Person Notified:<input name="Person Notified" size="20" type="text" /> Telephone:<input name="Telephone" size="20" type="text" /><br /> Department Name:<input name="Department Name" size="52" type="text" /><br /> Email Address:&nbsp; <input name="txtEmailFrom" size="56" type="text" /><br /> Safety Issue::&nbsp; <input name="Safety_Issue" size="59" type="text" /><br /> Date of Observation: <input name="Date of Observation" size="20" type="text" /> Time of Observation: <input name="Time of Observation" size="20" type="text" /><br /><br /> Location of Safety Issue:&nbsp; <br /> Room:&nbsp; <input name="Room Number" size="11" type="text" /> Building Name:&nbsp; <input name="Building Name" size="33" type="text" /><br />Location/area outside of a building: <br /> <input name="Other Location" size="72" type="text" /><br /> Description of Safety Issue:<br /> <textarea cols="54" name="Description of Safety Issue" rows="2" style="width: 744px; height: 44px;">&lt;/textarea&gt;</textarea>
+<p>Applicable Regulation/s:<br /> <textarea cols="54" name="Applicable Regulation/s" rows="2" style="width: 742px; height: 52px;">&lt;/textarea&gt;</textarea></p>
+<p>Suggested Corrective Measures:<br /> <textarea cols="54" name="Recommended Corrective Measures" rows="2" style="width: 740px; height: 57px;">&lt;/textarea&gt;</textarea></p>
+<p>Additional information, if any:<br /> <textarea cols="54" name="Additional Information" rows="2" style="width: 738px; height: 55px;">&lt;/textarea&gt;</textarea></p>
+<p>Safety Officer:&nbsp; <input name="Safety Officer" size="20" type="text" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Phone:&nbsp; <input name="Phone" size="15" type="text" /></p>
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="harmstone@byui.edu;cziepl@byui.edu"><input name="Submit" type="submit" value="Submit" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="Reset" type="reset" value="Reset" /></p>
+</form><strong> </strong> &nbsp;</div>
+<span style="color: #000000;"> <!--EndEditor--> </span></div>
+<span style="color: #000000;"> </span></div>
+<span style="color: #000000;"> </span></div>
+<span style="color: #000000;"> </span></div>
+<div id="footer">
+<div id="shadow">Copyright
+<script type="text/javascript">
+var d = new Date();document.write(d.getFullYear());
+</script>
+BYU&ndash;Idaho<br />All Rights Reserved.</div>
+</div>
+<p><span style="color: #000000;"><!--EndEditorForm--> <!-- TABLE FORMATTING SECTION -->
+<script type="text/javascript">
+var tableTags = document.getElementById('main_body').getElementsByTagName("table");
+        for (var i = 0; i < tableTags.length; i++)
+        {
+            var trTags = tableTags[i].getElementsByTagName("tr");
+            for (var j = 0; j < trTags.length; j++)
+            {
+                if(j%2 == 0)
+                {
+                    trTags.item(j).style.backgroundColor = "#efefec";
+                }
+                else
+                {
+                    trTags.item(j).style.backgroundColor = "#ffffff";
+                }
+            }
+        }
+</script>
+</span></p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="x35774" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x17998" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

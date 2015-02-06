@@ -1,0 +1,598 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content ID="x66681" Name="Volunteer" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Volunteer</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Volunteer</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+.wrapper div, .wrapper section, .wrapper ul, .wrapper p{
+	margin:0;
+	padding:0;
+}
+	.wrapper{
+		position:relative;
+		width:710px;
+		
+	}
+	.default_picture{
+		background-image:url('');
+		
+	}
+	.main_picture{
+		background-repeat:no-repeat;
+		background-position:15px 0px;
+		height:392px;
+		width:585px;
+		float:left;
+	}
+	.wrapper .menu{
+		float:right;
+		list-style-type:none;
+		margin-top:11px;
+	}
+	.wrapper li{
+		width:125px;
+		height:51px;
+		cursor:pointer;
+		background-color:#F0F0F0;
+		border-bottom:3px #fff solid;
+		
+	}
+	.wrapper li.inight{
+		height:49px;
+		border-bottom:none;
+	}
+	.menu p{
+		padding:10px 0 10px 5px;
+		text-align:center;
+		font-family:'Times New Roman', sans-serif;
+		line-height:90%;
+	}
+
+	.ambassador{
+		border-top:none;
+	}
+	.menu .ambassador p{
+		padding-top:11px;
+	}
+	.ambassador_hover{
+		background-color:#939598;
+		color:#fff;
+		
+	}
+	.menu .ambassador{
+		
+	}
+	.involvement_hover{
+		background-color:#FFDF58;
+		color:#fff;
+	}
+	.menu li.involvement{
+		padding-bottom:0;
+	}
+	.menu .involvement p{
+		padding-top:17px;
+	}
+	.involvement_hgroup{
+		display:none;
+	}
+	.associations_hover{
+		background-color:#684684;
+		color:#fff;
+	}
+	.menu .associations p{
+		padding-top:11px;
+	}
+	.wrapper .h1_desc{
+		color:#fff;
+		margin:319px 0 0 50px;
+		font-size:1.3em;
+		width:460px;
+		height:14px;
+		border-bottom:1px solid #fff;
+		font-weight:normal;
+		font-family:'Times New Roman', serif;
+		
+	}
+	.wrapper .p_desc{
+		color:#fff;
+		font-size:.9em;
+		width:460px;
+		font-weight:normal;
+		margin:4px 0 0 50px;
+		line-height:115%;
+		
+	}
+	.iteam_hover{
+		background-color:#F6881F;
+		color:#fff;
+	}
+
+	.menu li.i-team{
+		padding-bottom:0;
+	}
+	.menu .i-team p{
+		padding-top:15px;
+	}
+	.src_hover{
+		background-color:#B04534;
+		color:#fff;
+	}
+	.src p{
+		margin-left:-7px;
+		padding-top:16px;
+	}
+	.menu li.src{
+		height:47px;
+	}
+	.irep_hover{
+		background-color:#5E84C3;
+		color:#fff;
+	}
+	.menu li.irep{
+		padding-bottom:0;
+	}
+	.menu .irep p{
+		padding-top:17px;
+	}
+	.inight_hover{
+		background-color:#ddd;
+		
+	}
+	.menu li.inight{
+		padding-bottom:0px;
+		
+	}
+	.menu .inight p{
+		padding-top:16px;
+	}
+	.default_button{
+		background-color:#fff;
+		color:#000;
+	}
+	.main_picture .description{
+		display:none;
+	}
+	.wrapper .menu li p{
+		color:#000;
+	}
+	.description .learn_more{
+		color:#000;
+		text-decoration:none;
+		display:inline-block;
+		
+		padding:0 2px 0 2px;
+		border-radius:2px;
+		margin-top:3px;
+		font-weight:500;
+
+		background-color:#939598;
+		background-image: linear-gradient(bottom, rgb(147,149,152) 46%, rgb(131,132,135) 67%);
+background-image: -o-linear-gradient(bottom, rgb(147,149,152) 46%, rgb(131,132,135) 67%);
+background-image: -moz-linear-gradient(bottom, rgb(147,149,152) 46%, rgb(131,132,135) 67%);
+background-image: -webkit-linear-gradient(bottom, rgb(147,149,152) 46%, rgb(131,132,135) 67%);
+background-image: -ms-linear-gradient(bottom, rgb(147,149,152) 46%, rgb(131,132,135) 67%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.46, rgb(147,149,152)),
+	color-stop(0.67, rgb(131,132,135))
+);
+	}
+	.description .learn_more:hover{
+		opacity:.9;
+		color:#000;
+	}
+	.description .ambassador{
+		
+	}
+	.description .h1_desc a{
+		text-decoration:none;
+		color:#fff;
+	}
+	.description .h1_desc a:hover{
+		opacity:0.9;
+	}
+	a.banner{
+		float:left;
+		margin:25px 0 30px 35px;
+		height:210px;
+		width:675px;
+		background-image:url('Images/student-support/volunteers/SS-Kickoff-Web-Banner-long.gif');
+	}
+	.kickoff_party{
+		width:675px;
+		opacity:0.8;
+		clear:both;
+		float:right;
+		display:block;
+	background-color:#000;
+	margin-right:-30px;
+	border-radius:1px;
+	
+	}
+	.kickoff_party h2{
+		
+		padding:20px;
+		padding-top:17px;
+		opacity:1;
+		color:#fff;
+	}
+	.kickoff_party p{
+		padding:20px;
+		padding-top:0;
+		color:#fff;
+	}
+--></style>
+<p>
+<script type="text/javascript">
+window.onload=function(){
+$(document).ready(function() {
+var ambassador = $('.wrapper .menu .ambassador'),
+ ambassador_text = $('.wrapper .menu .ambassador p'),
+ involvement = $('.wrapper .menu .involvement'),
+ involvement_text = $('.wrapper .menu .involvement p'),
+ associations = $('.wrapper .menu .associations'),
+ associations_text = $('.wrapper .menu .associations p'),
+ iteam = $('.wrapper .menu .i-team'),
+ iteam_text = $('.wrapper .menu .i-team p'),
+ src = $('.wrapper .menu .src'),
+ src_text = $('.wrapper .menu .src p'),
+ irep = $('.wrapper .menu .irep'),
+ irep_text = $('.wrapper .menu .irep p'),
+ inight = $('.wrapper .menu .inight'),
+ inight_text = $('.wrapper .menu .inight p');
+
+	$('.main_picture').css('background-image','url("Images/student-support/volunteers/beautiful_people.jpg")').css('background-position','35px 12px');
+ 
+	$('.ambassador').mouseenter(function(){
+		
+		if(!$(this).hasClass('clicked')){
+		$(this).css("background-color","#ddd");
+		}
+	}).mouseleave(function(){
+		if($(this).hasClass('clicked')){
+			$(this).css("background-color","#939598");
+		}else{
+			$(this).css("background-color","");
+			
+		}
+	});
+	$('.ambassador').bind('click', function(){
+	
+		ambassador.css("background-color","#939598");
+		ambassador_text.css("color","#fff");
+		
+		associations.css("background-color","");
+		associations_text.css("color", "#000");
+		iteam.css("background-color","");
+		iteam_text.css("color", "#000");
+		irep.css("background-color","");
+		irep_text.css("color", "#000");
+		src.css("background-color","");
+		src_text.css("color", "#000");
+		inight.css("background-color","");
+		inight_text.css("color", "#000");
+		involvement.css("background-color","");
+		involvement_text.css("color", "#000");
+	
+	$(this).addClass('clicked');
+		$('.main_picture').css("background-image","url('Images/student-support/volunteers/student-ambassadors101.gif')").css('background-position','15px 0px');
+		$(this).siblings('li').css("background-color","").css("color","").removeClass('clicked');
+		$('.main_picture .description').eq(0).show().siblings().hide().removeClass('default_picture');
+		
+		
+	}); 
+	
+
+	$('.involvement').mouseenter(function(){
+		if(!$(this).hasClass('clicked')){
+		$(this).css("background-color","#ddd");
+		}
+	}).mouseleave(function(){
+		if($(this).hasClass('clicked')){
+			involvement.css("background-color","#FFDF58");
+		}else{
+			involvement.css("background-color","");
+			
+		}
+	});
+	$('.involvement').bind('click', function(){
+	
+		involvement.css("background-color","#FFDF58");
+		involvement_text.css("color","#fff");
+	
+		iteam.css("background-color","");
+		iteam_text.css("color", "#000");
+		irep.css("background-color","");
+		irep_text.css("color", "#000");
+		src.css("background-color","");
+		src_text.css("color", "#000");
+		inight.css("background-color","");
+		inight_text.css("color", "#000");
+		associations.css("background-color","");
+		associations_text.css("color", "#000");
+		ambassador.css("background-color","");
+		ambassador_text.css("color", "#000");
+	
+		$(this).addClass('clicked');
+		$('.main_picture').css("background-image","url('Images/student-support/volunteers/involvement-rep101.gif')").css('background-position','15px 0px');
+		$(this).siblings('li').css("background-color","").css("color","").removeClass('clicked');
+		$('.main_picture .description').eq(1).show();
+		$('.main_picture .description').eq(1).siblings().hide();
+	});
+	
+	
+	$('.associations').mouseenter(function(){
+		if(!$(this).hasClass('clicked')){
+		$(this).css("background-color","#ddd");
+		}
+	}).mouseleave(function(){
+		
+		if($(this).hasClass('clicked')){
+			$(this).css("background-color","#684684");
+		}else{
+			$(this).css("background-color","");
+		}
+	});
+	$('.associations').bind('click',function(){
+	
+		associations.css("background-color","#684684");
+		associations_text.css("color","#fff");
+		
+		ambassador.css("background-color","");
+		ambassador_text.css("color", "#000");
+		iteam.css("background-color","");
+		iteam_text.css("color", "#000");
+		irep.css("background-color","");
+		irep_text.css("color", "#000");
+		src.css("background-color","");
+		src_text.css("color", "#000");
+		inight.css("background-color","");
+		inight_text.css("color", "#000");
+		involvement.css("background-color","");
+		involvement_text.css("color", "#000");
+		
+		$(this).addClass('clicked');
+		$('.main_picture').css("background-image","url('Images/student-support/volunteers/student-associations101.gif')").css('background-position','15px 0px');
+		$(this).siblings('li').css("background-color","").css("color","").removeClass('clicked');
+		$('.main_picture .description').eq(2).show();
+		$('.main_picture .description').eq(2).siblings().hide();
+	});
+	
+	
+	
+	$('.i-team').mouseenter(function(){
+		if(!$(this).hasClass('clicked')){
+		$(this).css("background-color","#ddd");
+		}
+	}).mouseleave(function(){
+		
+		if($(this).hasClass('clicked')){
+			$(this).css("background-color","#F6881F");
+		}else{
+			$(this).css("background-color","");
+		}
+	});
+	$('.i-team').bind('click',function(){
+	
+		iteam.css("background-color","#F6881F");
+		iteam_text.css("color","#fff");
+		
+		ambassador.css("background-color","");
+		ambassador_text.css("color", "#000");
+		associations.css("background-color","");
+		associations_text.css("color", "#000");
+		irep.css("background-color","");
+		irep_text.css("color", "#000");
+		src.css("background-color","");
+		src_text.css("color", "#000");
+		inight.css("background-color","");
+		inight_text.css("color", "#000");
+		involvement.css("background-color","");
+		involvement_text.css("color", "#000");
+		
+		$(this).addClass('clicked');
+		$('.main_picture').css("background-image","url('Images/student-support/volunteers/i-team101.gif')").css('background-position','15px 0px');
+		$(this).siblings('li').css("background-color","").css("color","").removeClass('clicked');
+		$('.main_picture .description').eq(3).show();
+		$('.main_picture .description').eq(3).siblings().hide();
+	});
+	
+	
+	$('.src').mouseenter(function(){
+		if(!$(this).hasClass('clicked')){
+		$(this).css("background-color","#ddd");
+		}
+	}).mouseleave(function(){
+		
+		
+		if($(this).hasClass('clicked')){
+			$(this).css("background-color","#AB3E32");
+		}else{
+			$(this).css("background-color","");
+		}
+	});
+	$('.src').bind('click',function(){
+		
+		src.css("background-color","#AB3E32");
+		src_text.css("color","#fff");
+		
+		ambassador.css("background-color","");
+		ambassador_text.css("color", "#000");
+		irep.css("background-color","");
+		irep_text.css("color", "#000");
+		iteam.css("background-color","");
+		iteam_text.css("color", "#000");
+		inight.css("background-color","");
+		inight_text.css("color", "#000");
+		associations.css("background-color","");
+		associations_text.css("color", "#000");
+		involvement.css("background-color","");
+		involvement_text.css("color", "#000");
+		
+		
+		$(this).addClass('clicked');
+		$('.main_picture').css("background-image","url('Images/student-support/volunteers/src101.gif')").css('background-position','15px 0px');
+		$(this).siblings('li').css("background-color","").css("color","").removeClass('clicked');
+		$('.main_picture .description').eq(4).show();
+		$('.main_picture .description').eq(4).siblings().hide();
+	});
+	
+	
+	$('.irep').mouseenter(function(){
+		if(!$(this).hasClass('clicked')){
+		$(this).css("background-color","#ddd");
+		}
+	}).mouseleave(function(){
+		
+		
+		if($(this).hasClass('clicked')){
+			$(this).css("background-color","#5E84C3");
+		}else{
+			$(this).css("background-color","");
+		}
+	});
+	$('.irep').bind('click',function(){
+		
+		irep.css("background-color","#5E84C3");
+		irep_text.css("color","#fff");
+		
+		$(this).addClass('clicked');
+		$('.main_picture').css("background-image","url('Images/student-support/volunteers/i-rep101.gif')").css('background-position','15px 0px');
+		$(this).siblings('li').css("background-color","").css("color","").removeClass('clicked');
+		
+		ambassador.css("background-color","");
+		ambassador_text.css("color", "#000");
+		src.css("background-color","");
+		src_text.css("color", "#000");
+		iteam.css("background-color","");
+		iteam_text.css("color", "#000");
+		inight.css("background-color","");
+		inight_text.css("color", "#000");
+		associations.css("background-color","");
+		associations_text.css("color", "#000");
+		involvement.css("background-color","");
+		involvement_text.css("color", "#000");
+		
+		$('.main_picture .description').eq(5).show();
+		$('.main_picture .description').eq(5).siblings().hide();
+	});
+	
+	
+		$('.inight').mouseenter(function(){
+		if(!$(this).hasClass('clicked')){
+		$(this).css("background-color","#ddd");
+		}
+	}).mouseleave(function(){
+		
+		if($(this).hasClass('clicked')){
+			$(this).css("background-color","#000");
+		}else{
+			$(this).css("background-color","");
+		}
+	});
+	$('.inight').bind('click',function(){
+		
+		inight.css("background-color","#000");
+		inight_text.css("color","#fff");
+		
+		$(this).addClass('clicked');
+		$('.main_picture').css("background-image","url('Images/student-support/volunteers/i-night101.gif')").css('background-position','15px 0px');
+		$(this).siblings('li').css("background-color","").css("color","").removeClass('clicked');
+		
+		ambassador.css("background-color","");
+		ambassador_text.css("color", "#000");
+		src.css("background-color","");
+		src_text.css("color", "#000");
+		iteam.css("background-color","");
+		iteam_text.css("color", "#000");
+		irep.css("background-color","");
+		irep_text.css("color", "#000");
+		associations.css("background-color","");
+		associations_text.css("color", "#000");
+		involvement.css("background-color","");
+		involvement_text.css("color", "#000");
+		
+		$('.main_picture .description').eq(6).show();
+		$('.main_picture .description').eq(6).siblings().hide();
+	});
+	
+	
+
+}); // end ready
+}
+</script>
+</p>
+<div class="wrapper">
+<ul class="menu">
+<li class="first ambassador" style="list-style-type: none;">
+<p>Student Ambassador</p>
+</li>
+<li class="involvement" style="list-style-type: none;">
+<p>Involvement</p>
+</li>
+<li class="associations" style="list-style-type: none;">
+<p>Student Associations</p>
+</li>
+<li class="i-team" style="list-style-type: none;">
+<p>I-Team Leaders</p>
+</li>
+<li class="src" style="list-style-type: none;">
+<p>SRC</p>
+</li>
+<li class="irep" style="list-style-type: none;">
+<p>I-Rep Leaders</p>
+</li>
+<li class="inight" style="list-style-type: none;">
+<p>I-Night Staff</p>
+</li>
+</ul>
+<section class="main_picture default_picture">
+<div class="description">
+<h1 class="h1_desc"><a href="../../student-support/volunteer/volunteer-opportunities/student-ambassador">Ambassador</a></h1>
+<p class="p_desc">A Student Ambassador contacts incoming students by phone and email to answer their questions and help with the transition. <a class="learn_more" href="../../student-support/volunteer/volunteer-opportunities/student-ambassador">Learn more</a></p>
+</div>
+<div class="description">
+<h1 class="h1_desc"><a href="../../student-support/volunteer/volunteer-opportunities/involvement-rep">Involvement</a></h1>
+<p class="p_desc">An Involvement Rep promotes other programs of Student Support, and they interview new volunteers. <a class="learn_more" href="../../student-support/volunteer/volunteer-opportunities/involvement-rep">Learn more</a></p>
+</div>
+<div class="description">
+<h1 class="h1_desc"><a href="../../student-support/volunteer/volunteer-opportunities/student-associations">Student Associations</a></h1>
+<p class="p_desc">A Student Associations rep works with each cultural association to help them make the most out of their experience each semester. <a class="learn_more" href="../../student-support/volunteer/volunteer-opportunities/student-associations">Learn more</a></p>
+</div>
+<div class="description">
+<h1 class="h1_desc"><a href="../../student-support/volunteer/volunteer-opportunities/i-team-leader">I-Team Leaders</a></h1>
+<p class="p_desc">I-Team Leaders oversee an I-Team group of new students. They teach and share personal experiences about BYUI. <a class="learn_more" href="../../student-support/volunteer/volunteer-opportunities/i-team-leader">Learn more</a></p>
+</div>
+<div class="description">
+<h1 class="h1_desc"><a href="../../student-support/volunteer/volunteer-opportunities/src">SRC Volunteer</a></h1>
+<p class="p_desc">A SRC member works with university leaders to identify issues facing students and implements solutions to such problems. <a class="learn_more" href="../../student-support/volunteer/volunteer-opportunities/src">Learn more</a></p>
+</div>
+<div class="description">
+<h1 class="h1_desc"><a href="../../student-support/volunteer/volunteer-opportunities/i-rep-leader">I-Rep Leaders</a></h1>
+<p class="p_desc">An I-Rep helps usher and register new students for Get connected. They also answer questions from the new students and parents. <a class="learn_more" href="../../student-support/volunteer/volunteer-opportunities/i-rep-leader">Learn more</a></p>
+</div>
+<div class="description">
+<h1 class="h1_desc"><a href="../../student-support/volunteer/volunteer-opportunities/i-night-staff">I-Night staff</a></h1>
+<p class="p_desc">An I-Night Volunteer works two shifts setting up and running the events and activities during I-Night. <a class="learn_more" href="../../student-support/volunteer/volunteer-opportunities/i-night-staff">Learn more</a></p>
+</div>
+</section>
+<a class="banner"></a>
+<section class="kickoff_party">
+<h2>Student Support Kick Off Party</h2>
+<p style="color: #fff;">Come to the Student Support Kick off party and learn how to serve as an I-Team Leader, I-Rep, Involvement Rep, Student Voice representative or a member of the i-Night Staff. Wednesday January 16, 6:30 to 8 p.m. Come and make friends, get involved and have some food!</p>
+<p style="color: #fff;">If you cant Make it to the party please e-mail us at <a href="mailto:involvement @byui.edu" style="color: #fff;">involvement @byui.edu</a> and we will e-mail you information on how you can get involved!</p>
+</section>
+</div>
+<p>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33977325-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x19075" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

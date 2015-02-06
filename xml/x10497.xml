@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<AdminPage ID="x10497" Name="Print Ad Templates" Layout="admin_office_home.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Print Ad Templates</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Print Ad Templates</Abstract><MainMesgTop type="boolean" label="Enable to move &quot;Main Message&quot; to top of page" readonly="false" required="false" hidden="false">true</MainMesgTop><IntroCopy type="dhtml" label="Main Message" readonly="false" hidden="false" required="false"><![CDATA[<p>There are a variety of printed communication options.&nbsp;For step-by-step instructions on how to create each advertising option and then get it approved, please refer to the page <a href="x15480.xml">Marketing Tip: Produce Materials</a> and select the option that matches the media you would like to produce. You may also view the <a href="x33721.xml" title="Link to the InDesign Logo Tutorial">InDesign Template Tutorial</a> for help on how to correctly place a logo in the black bar on the bottom of these templates.</p>
+<p>When submitting your print ads for approval at branding@byui.edu, please include the number of ads you will be printing.</p>
+<style><!--
+.cell_box { margin-bottom: 10px; }
+            .cell_border { border: 2px solid #ccc; border-radius: 5px; }
+            .cell_header { border-bottom: 2px solid #ccc; padding: .5em; background-color: #eee; }
+            .cell_header h3 { padding-bottom: 0;}
+            .cell_body { text-align: center; }
+--></style>
+<div class="cell_box span-6">
+<div class="cell_border">
+<div class="cell_body">
+<div class="cell_header">
+<h3>Posters</h3>
+</div>
+<a href="x10775.xml"><img alt="posters" height="240" src="Images/university-communications/posters.jpg" width="210" /></a></div>
+</div>
+</div>
+<p></p>
+<div class="cell_box span-6">
+<div class="cell_border">
+<div class="cell_body">
+<div class="cell_header">
+<h3>Oversized Posters</h3>
+</div>
+<a href="x10520.xml"><img alt="oversized-poster" height="240" src="Images/university-communications/oversized-poster.jpg" width="210" /></a></div>
+</div>
+</div>
+<p></p>
+<div class="cell_box span-6 last">
+<div class="cell_border">
+<div class="cell_body">
+<div class="cell_header">
+<h3>Fliers</h3>
+</div>
+<a href="x10519.xml"><img alt="fliers" height="240" src="Images/university-communications/fliers.jpg" width="210" /></a></div>
+</div>
+</div>
+<p></p>
+<div class="cell_box span-6">
+<div class="cell_border">
+<div class="cell_body">
+<div class="cell_header">
+<h3>Kiosks</h3>
+</div>
+<a href="x10518.xml"><img alt="kiosks" height="240" src="Images/university-communications/kiosks.jpg" width="210" /></a></div>
+</div>
+</div>
+<p></p>
+<div class="cell_box span-6">
+<div class="cell_border">
+<div class="cell_body">
+<div class="cell_header">
+<h3>Banners</h3>
+</div>
+<a href="x10517.xml"><img alt="banners" height="240" src="Images/university-communications/banners.jpg" width="210" /></a></div>
+</div>
+</div>
+<p></p>
+<div class="cell_box span-6 last">
+<div class="cell_border">
+<div class="cell_body">
+<div class="cell_header">
+<h3>Table Tents</h3>
+</div>
+<a href="x10516.xml"><img alt="table-tents" height="240" src="Images/university-communications/table-tents.jpg" width="210" /></a></div>
+</div>
+</div>
+<p></p>
+<div class="cell_box span-6">
+<div class="cell_border">
+<div class="cell_body">
+<div class="cell_header">
+<h3>Newsletters</h3>
+</div>
+<a href="x10515.xml"><img alt="newsletters" height="240" src="Images/university-communications/newsletters.jpg" width="210" /></a></div>
+</div>
+</div>
+<p></p>
+<div class="cell_box span-6">
+<div class="cell_border">
+<div class="cell_body">
+<div class="cell_header">
+<h3>Postcards</h3>
+</div>
+<a href="x10514.xml"><img alt="postcards" height="240" src="Images/university-communications/postcards.jpg" width="210" /></a></div>
+</div>
+</div>
+<p></p>
+<div class="cell_box span-6 last">
+<div class="cell_border">
+<div class="cell_body">
+<div class="cell_header">
+<h3>Brochures</h3>
+</div>
+<a href="x10513.xml"><img alt="brochures" height="240" src="Images/university-communications/brochures.jpg" width="210" /></a></div>
+</div>
+</div>
+<p></p>
+<div class="cell_box span-6 last">
+<div class="cell_border">
+<div class="cell_body">
+<div class="cell_header">
+<h3>Handbooks</h3>
+</div>
+<a href="x15378.xml"><img alt="handbooks" height="240" src="Images/university-communications/handbooks.jpg" width="210" /></a></div>
+</div>
+</div>
+<p></p>]]></IntroCopy><xPower Type="GroupStart" GroupStart="" Name="CellGroup" label="Cells" readonly="false" hidden="false" required="false" Expanded="true"><numColumns type="enumeration" values="1 2 3 4 5" label="Select number of cell columns." readonly="false" hidden="false" required="true">3</numColumns><xPower Type="List" List="xpowercomponent_Cell" Name="CellList" label="Cell List" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="true"><xPower Type="Component" Component="" Name="Cell" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"/></xPower></xPower><xPower Type="List" List="xpowercomponent_BannerAd" Name="BannerAds" label="Rotating Ads (650x216px required)" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"><xPower Type="Component" Component="" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/></xPower><xPower Type="Navigation" StartPage="" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="" Query="" Name="DeptEvents" label="Define Your Events Folder" readonly="false" hidden="false" required="false" Expanded="false"/><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="QuickLinksGroup" label="Quick Links Group" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Component="" Name="QuickLinks" label="Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x10072" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></AdminPage>

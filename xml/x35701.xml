@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x35701" Name="Script Library" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Script Library</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Script Library</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<p>The Theatre Script Library is an extension of the David O. McKay library. Scripts are available to students and faculty for study, classroom assignments and extracurricular activities. Scripts may be checked out with your I-card for a two-week period. The Script Library is located next door to the Theatre Office, in Snow 130.</p>
+<p>&nbsp;</p>
+<p>Script Library Hours:&nbsp; Spring 2014</p>
+<table border="0">
+<tbody>
+<tr>
+<td>Monday</td>
+<td>10 AM - 1:30 PM</td>
+</tr>
+<tr>
+<td>Tuesday</td>
+<td>3 - 4 PM</td>
+</tr>
+<tr>
+<td>Wednesday</td>
+<td>10 AM - 1:30 PM</td>
+</tr>
+<tr>
+<td>Thursday</td>
+<td>1:30 - 4 PM</td>
+</tr>
+<tr>
+<td>Friday</td>
+<td><span style="white-space: pre;">10 AM - 1:30 PM<span style="white-space: pre;"> </span> </span></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>If the Script Library is closed, someone in the Theatre Office can check scripts in and out for you. (These hours simply reflect when the script librarian is working.)</p>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Component" readonly="false" hidden="false" required="false" Expanded="" List=""><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/><!--071613 xpowercomponent_Optional to xPower--></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x1854" CompTypes="SiteControl" Expanded="false"/></Content>

@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x67623" Name="Hot Work Permit" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Hot Work Permit</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Hot Work Permit</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<form accept-charset="UNKNOWN" action="http://www2.byui.edu/AspUtilities/emailAForm.asp" enctype="application/x-www-form-urlencoded" method="post" name="FrontPage_Form1">
+<h1 style="text-align: center;"><input name="txtEmailTo" type="hidden" value="mailto:harmstone@byui.edu;rasmussenr@byui.edu;wellsm@byui.edu;sauerc@byui.edu;mooret@byui.edu" /><input name="Subject" type="hidden" value="Hot Work Permit Request" /> Hot Work Permit Request Form <br /><span style="text-align: center; color: #ff0000; font-size: medium;">*Valid for one day only<br /></span><span style="text-align: center; color: #ff0000; font-size: small;">All fields must be filled in before submission</span></h1>
+<table border="0" width="760">
+<tbody>
+<tr>
+<td height="37" width="218"><strong><span style="font-size: small; color: #424242;">Permit Requested By:</span></strong></td>
+<td height="37" width="532">&nbsp;<!--webbot bot="Validation" s-data-type="String" b-allow-letters="TRUE" b-allow-whitespace="TRUE" --><input name="Requested_By:" size="55" type="text" /><span style="font-size: x-small;"> </span></td>
+</tr>
+<tr>
+<td height="37" width="218"><strong><span style="font-size: small; color: #424242;">Contact Email Address:</span></strong></td>
+<td height="37" width="532"><input name="txtEmailFrom" size="55" type="text" /><span style="font-size: x-small;"> </span></td>
+</tr>
+<tr>
+<td width="218"><strong><span style="font-size: small; color: #424242;">Work Order number:</span></strong></td>
+<td width="532"><input maxlength="100" name="Work Order Number:" size="55" type="text" /><span style="font-size: x-small;"> </span></td>
+</tr>
+<tr>
+<td height="32" width="218"><strong><span style="font-size: small; color: #424242;">Date work to be performed:</span></strong></td>
+<td height="32" width="532"><input maxlength="100" name="Date of Work:" size="55" type="text" /><span style="font-size: x-small;"> </span></td>
+</tr>
+<tr>
+<td width="218"><strong><span style="font-size: small; color: #424242;">Time work to be performed:</span></strong></td>
+<td width="532"><input maxlength="100" name="Time_to_be_performed:" size="55" type="text" /><span style="font-size: x-small;"> </span></td>
+</tr>
+<tr>
+<td width="218"><strong><span style="font-size: small; color: #424242;">Location of the work:</span></strong></td>
+<td width="532"><input maxlength="100" name="Location of Work:" size="55" type="text" /><span style="font-size: x-small;"> </span></td>
+</tr>
+<tr>
+<td height="37" width="218"><strong><span style="font-size: small; color: #424242;">Who is doing the work</span></strong><span style="font-size: x-small;"><strong>:</strong> </span></td>
+<td height="37" width="532"><input name="Name of Worker:" size="55" type="text" /><span style="font-size: x-small;"> </span></td>
+</tr>
+<tr>
+<td width="218"><strong><span style="font-size: small; color: #424242;">Who will be on Fire Watch:</span></strong></td>
+<td width="532"><input maxlength="100" name="Fire Watch:0" size="55" type="text" /><span style="font-size: x-small;"> </span></td>
+</tr>
+<tr>
+<td height="37" width="218"><strong><span style="font-size: small; color: #424242;">Contact phone number for person doing the work</span></strong><span style="font-size: x-small;"><strong>:</strong> </span></td>
+<td height="37" width="532"><input name="Contact_Information:" size="55" type="text" /><span style="font-size: x-small;"> </span></td>
+</tr>
+<tr>
+<td width="218"><span style="font-size: small; color: #424242;"><strong>Supervisor:</strong> </span></td>
+<td width="532"><input maxlength="100" name="Supervisor:" size="55" type="text" /><span style="font-size: x-small;"> </span></td>
+</tr>
+<tr>
+<td width="218"><strong><span style="font-size: small; color: #424242;">Supervisor's Phone Number:</span></strong></td>
+<td width="532"><input maxlength="100" name="Supervisors_Phone_Number:" size="55" type="text" /><span style="font-size: x-small;"> </span></td>
+</tr>
+<tr>
+<td width="218"><strong><span style="font-size: small; color: #424242;">Describe the work being done:</span></strong><span style="font-size: x-small;"> </span></td>
+<td width="532"><input maxlength="100" name="Work_being_done:" size="55" type="text" /><span style="font-size: x-small;"> </span></td>
+</tr>
+<tr>
+<td width="218"><strong><span style="font-size: small; color: #424242;">Comments:</span></strong></td>
+<td width="532"><input name="Comments:" size="55" type="text" /><span style="font-size: x-small;"> </span></td>
+</tr>
+</tbody>
+</table>
+<table border="0" width="760">
+<tbody>
+<tr>
+<td>
+<p style="margin-top: 0px; margin-bottom: 6px;"><strong><span style="text-decoration: underline;"><span style="font-size: x-small;">Print </span></span><span style="font-size: x-small;">a copy of this request.&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></strong></p>
+<p style="margin-top: 0px; margin-bottom: 6px;"><strong><span style="font-size: x-small;">After printing a copy of the request, click on the "<span style="text-decoration: underline;">Submit Request for Approval</span>" button.</span></strong></p>
+<p style="margin-top: 0px; margin-bottom: 6px;"><span style="font-size: x-small;"><strong>The permit request needs to be submitted no sooner than 24 hours before the work is to be performed.&nbsp; </strong></span></p>
+<p style="margin-top: 0px; margin-bottom: 6px;"><span style="font-size: x-small;"><strong>The permit will be issued by someone from the Safety Office prior to the work.&nbsp; </strong></span></p>
+<p style="margin-top: 0px; margin-bottom: 6px;"><span style="font-size: x-small;"><strong>If the form is submitted less than 24 hours before work begins, you will need to call 496-2481 and explain the emergency requiring this work.</strong></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" height="7" width="760">
+<tbody>
+<tr>
+<td>
+<p align="center"><a href="mailto:harmstone@byui.edu;rasmussenr@byui.edu;wellsm@byui.edu;sauerc@byui.edu;mooret@byui.edu"><input name="Submit" style="font-weight: bold;" type="submit" value="Submit Request for Approval" /> </a></p>
+</td>
+<td>
+<p align="center"><input name="Reset" style="font-weight: bold;" type="reset" value="Reset Request" /></p>
+</td>
+<td>
+<p align="right"><input name="Print" onclick="window.print()" style="font-weight: bold;" type="button" value="  Print  " /></p>
+</td>
+<td><strong>(Save a copy for your records)</strong></td>
+</tr>
+</tbody>
+</table>
+</form>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="x35774" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x17998" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

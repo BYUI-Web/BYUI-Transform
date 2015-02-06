@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.82 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x32202" Name="How Friends Can Help" Layout="general_content.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Anorexia and Bulimia: How Friends Can Help</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">How Friends Can Help with Eating Disorders from the BYU-Idaho Counseling Center</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<script type="text/Javascript">
+   function expand(num) {
+      var hidden = document.getElementById("hidden" + num);
+      var expand = document.getElementById("plus" + num);
+
+      if (expand.innerHTML == "+") {
+         expand.innerHTML = "-";
+         hidden.style.display = "block";
+      } else {
+         expand.innerHTML = "+";
+         hidden.style.display = "none";
+      }
+   }
+
+   function hover(type, num) {
+      var hover = document.getElementById("plus" + num);
+
+      if (type == 1) {
+         hover.style.backgroundColor = "#999999";
+      } else {
+         hover.style.backgroundColor = "#007ebd";
+      }
+   }
+</script>
+<h4 align="left">An Eating Disorder- What happens now?</h4>
+<p align="left">When you realize that someone you love may be struggling with anorexia  nervosa or bulimia nervosa, naturally you want to know more about it.  And because you care, you also want to understand what they are  experiencing so that you can be as supportive as you can throughout  their recovery.</p>
+<p align="left">You may already know that anorexia and bulimia are complex and confusing  illnesses. Now that you are past the initial shock of discovery, you  may be experiencing feelings of anxiety, guilt, anger, and  frustration-all understandable reactions. Seeing a loved one suffer from  an eating disorder is very frightening and difficult. We know it's not  easy.</p>
+<p align="left">What happens now? First, understand that the illness did not develop  overnight, and that recovery will not happen overnight. Second, know  that there is reason to have hope. With dedication to treatment,  recovery is attainable.</p>
+<h4 align="left">Today We Know Much More</h4>
+<p align="left">When singer Karen Carpenter died of anorexia, it was at a time when many  doctors lacked the awareness and education needed to diagnose and treat  victims of eating disorders. Today we know much more about these  illnesses-what causes them, how to recognize the symptoms earlier, and  the steps required for recovery.</p>
+<p align="left">Even though you may find it difficult to understand, your loved one  finds security in their eating disorder. To its victims, the illness is a  powerful and misguided coping mechanism. But with treatment, enough  time, and lots of love, you can look forward with hope to a day when  your loved one will likely be able to break the stranglehold of this  illness.</p>
+<p align="left">You can play a critically important role in the recovery process. Your  knowledge-based appropriate actions and support can be a tremendous  source of strength and comfort to your loved one.</p>
+<h4 align="left">Ten Ways You Can Help</h4>
+<p align="left">Click the (+) next to each topic to learn more.</p>
+<table border="0">
+<tbody>
+<tr>
+<td id="plus1" onclick="expand(1)" onmouseout="hover(2, 1)" onmouseover="hover(1, 1)" style="font-weight: bold; padding: 0 5px 5px; cursor: pointer; background-color: #007ebd; color: #ffffff; border: 1px solid #ffffff;">+</td>
+<td style="padding: 0pt 5px 5px;"><strong><strong>1) </strong>Learn about eating disorders</strong></td>
+</tr>
+<tr>
+<td></td>
+<td id="hidden1" style="display: none;">
+<p>To begin, you can help your loved one by getting your  own emotions under  better control. Educate yourself about anorexia and  bulimia and you  will almost certainly feel less anxiety and fear.  Sometimes the unknown  frightens us the most.</p>
+<p>Your local hospital, library, mental health  organization, and eating  disorder specialists are good sources of  information. See also,  Recommended Reading, at the end of this article.</p>
+</td>
+</tr>
+<tr>
+<td id="plus2" onclick="expand(2)" onmouseout="hover(2, 2)" onmouseover="hover(1, 2)" style="font-weight: bold; padding: 0 5px 5px; cursor: pointer; background-color: #007ebd; color: #ffffff; border: 1px solid #ffffff;">+</td>
+<td style="padding: 0pt 5px 5px;"><strong>2) <strong>Learn about treatment for eating disorders</strong> </strong></td>
+</tr>
+<tr>
+<td></td>
+<td id="hidden2" style="display: none;">
+<p align="left">Learn about different modalities of treatment: medical  care, medication,  therapy and counseling, and dietary counseling. Learn  about levels of  care and different programs: inpatient care,  residential care, partial  hospitalization, and outpatient care.  Sometimes intensive or inpatient  care becomes necessary.</p>
+<p>Be a smart consumer. Identify those professionals who  work with eating  disorders. Ask pointed questions such as what are the  credentials of  those who will be working with your loved one? Whenever  possible, visit  facilities and treatment programs which are under  consideration.<em> <br /></em></p>
+</td>
+</tr>
+<tr>
+<td id="plus3" onclick="expand(3)" onmouseout="hover(2, 3)" onmouseover="hover(1, 3)" style="font-weight: bold; padding: 0 5px 5px; cursor: pointer; background-color: #007ebd; color: #ffffff; border: 1px solid #ffffff;">+</td>
+<td style="padding: 0pt 5px 5px;"><strong><strong>3) <strong>Seek professional help</strong> </strong> </strong></td>
+</tr>
+<tr>
+<td></td>
+<td id="hidden3" style="display: none;">
+<p>Don't try to deal with this problem alone. Consider  this: Of all  psychiatric disorders, anorexia and bulimia have the  highest mortality  rate. On the other hand, early intervention improves  the chances of  recovery.</p>
+<p>When dealing with an adolescent or with someone who is  in acute medical  danger, be prepared to exercise responsibility and  authority. Their life  may depend on it. In such circumstances, you may  not be able to  convince them they need treatment, and therefore you may  need to act for  their safety and well being.</p>
+<p>Find out what needs to be done, and discuss options with  eating disorder  specialists and family members. Do all you can to  stabilize your loved  one's medical condition and prepare them for  appropriate treatment  options.</p>
+<p>Even with full recovery, the longer the illness runs, the more serious its permanent effects are. Conditions caused by the eating disorder (such as osteoporosis, ovarian failure, brain damage,  endocrine abnormalities, and a weakened heart) can diminish quality of life long after the eating disorder is under control. Seek help as quickly as possible.</p>
+<p>Good therapeutic intervention will help them in understanding the  problem and dealing with the reasons their eating disorder exists.</p>
+</td>
+</tr>
+<tr>
+<td id="plus4" onclick="expand(4)" onmouseout="hover(2, 4)" onmouseover="hover(1, 4)" style="font-weight: bold; padding: 0 5px 5px; cursor: pointer; background-color: #007ebd; color: #ffffff; border: 1px solid #ffffff;">+</td>
+<td style="padding: 0pt 5px 5px;"><strong>4) <strong>Help your loved one recognize the problem</strong> </strong></td>
+</tr>
+<tr>
+<td></td>
+<td id="hidden4" style="display: none;">
+<p align="left">Those suffering from an eating disorder cannot begin  changing their  beliefs and behaviors until they admit they are  struggling. When you  gently confront your loved one about your  observations and concerns, be  prepared for strong reactions. They will  be embarrassed, will likely  deny anything is wrong, and will be  terrified of losing the perceived  sense of control they believe the  illness gives them. They may withdraw  out of fear or lash out in anger.</p>
+<p align="left">Be compassionate yet firm in your resolve. Be prepared  for resistance.  Your loved one may question the need for treatment,  claim they can do it  on their own or try to instill guilt by claiming  you don't care about  them. You will probably be rebuffed many times as  you encourage your  loved one admit to and to take responsibility for  their eating disorder  and related difficulties.</p>
+<p>The knowledge you have gained from reading and  discussing the problem  with professionals will help you persist in  loving and appropriate ways.<em> <br /></em></p>
+</td>
+</tr>
+<tr>
+<td id="plus5" onclick="expand(5)" onmouseout="hover(2, 5)" onmouseover="hover(1, 5)" style="font-weight: bold; padding: 0 5px 5px; cursor: pointer; background-color: #007ebd; color: #ffffff; border: 1px solid #ffffff;">+</td>
+<td style="padding: 0pt 5px 5px;"><strong>5) <strong>Have meaningful communication</strong> </strong></td>
+</tr>
+<tr>
+<td></td>
+<td id="hidden5" style="display: none;">
+<p align="left">Since eating disorders are rooted in emotional struggles, solutions are found in emotional healing.</p>
+<p align="left">In your attempts to help, do not oversimplify by saying  "just eat". This  will only alienate the person you are trying to help.  Instead, try to  see the world through their eyes. Listen to your heart  and follow those  impressions. Inmoments of frustration and anger, don't  let your emotion  control what you say and do. Express your own  thoughts and feelings--  especially your loving concern, your desire to  help, and your good  intentions. Feel free to admit to some of your own  frailties,  weaknesses, and short-comings. This gives your loved one  permission to  do likewise.</p>
+<p align="left">Try your best not to shame your loved one into eating.  One of the  hardest things to do is not personalize your loved one's  eating disorder  (i.e., "if she loved me she would eat"). If it were  that simple most  sufferers would eat on their own again. They are out  of control and  don't understand what's happening to them. Nor do they  know how to help  themselves out of the self-defeating behaviors.</p>
+<p align="left">Try to be objective, calm, and caring. Avoid fixing  blame or guilt. Be  sensitive, but be firm. Share your observations and  concerns in a direct  manner with kindness and respect. And when you are  at a loss for words,  a hug can express many loving thoughts and  feelings.</p>
+<p align="left">Those with eating disorders often feel ashamed,  discouraged, fearful and  hopeless. These feelings don't need fuel, but  correction through  unconditional love and encouragement.</p>
+<p align="left">The reality of an eating disorder is that the underlying  issues are  about pain, emotional suffering, and self-conflict -- not  food. Helping  your loved one to discover these emotions or to begin to  talk honestly  about their pain is a very important step toward help and  recovery.</p>
+<p align="left">There is hope for recovery -- something worth  encouraging. Find it and  do some coaching. After listening,  acknowledging, empathizing, and  validating feelings, move on to  encouragement, hope and positive  possibilities.</p>
+<p>Always remember to respect the privacy of those you are  trying to help.  Do not discuss their issues with others unless they  have given you  permission to do so or unless sharing is necessary in  keeping a loved  one safe from harm.<em> <br /></em></p>
+</td>
+</tr>
+<tr>
+<td id="plus6" onclick="expand(6)" onmouseout="hover(2, 6)" onmouseover="hover(1, 6)" style="font-weight: bold; padding: 0 5px 5px; cursor: pointer; background-color: #007ebd; color: #ffffff; border: 1px solid #ffffff;">+</td>
+<td style="padding: 0pt 5px 5px;"><strong><strong>6) <strong>Interact in ways that do not center on the eating disorder</strong> </strong> </strong></td>
+</tr>
+<tr>
+<td></td>
+<td id="hidden6" style="display: none;">
+<p align="left">Express your love consistently, not just when they are  doing well with  food or with gaining weight. Identify other ways of  expressing your  approval and affection that have nothing to do with  weight or with the  foods being eaten or rejected.</p>
+<p align="left">Even if they act as if 90% of their life is the eating disorder, treat them as a person -- not as a behavior or an illness.</p>
+<p align="left">Never refer to your loved one as "the anorexic" or "the bulimic".</p>
+<p align="left">Try not to be drawn into arguments, threats, bribes,  guilt, or blame  concerning weight, eating, and food. Just give a  consistent "broken  record" response affirming your love, concern, and  hope.</p>
+<p>Unless there is endangerment to live, do not shield them  from the  natural consequences of their eating disorder. For example,  don't  finance the binge episodes of a loved one. Sometimes the pain  from the  consequences of engaging in the eating disorder can become a  cornerstone  of the motivation to let go of it.<em> <br /></em></p>
+</td>
+</tr>
+<tr>
+<td id="plus7" onclick="expand(7)" onmouseout="hover(2, 7)" onmouseover="hover(1, 7)" style="font-weight: bold; padding: 0 5px 5px; cursor: pointer; background-color: #007ebd; color: #ffffff; border: 1px solid #ffffff;">+</td>
+<td style="padding: 0pt 5px 5px;"><strong><strong>7) <strong>Develop a support network</strong> </strong> </strong></td>
+</tr>
+<tr>
+<td></td>
+<td id="hidden7" style="display: none;">
+<p>Find people you can talk with openly about your feelings and   experiences, your fears and frustrations, and your plan of action.   Contact local mental health professionals to learn if there are support   groups in your area for friends and family of people with eating   disorders. Participation in such a group may be very helpful. Talking   with people whose family members have recovered from an eating disorder   can bring hope and encouragement to you during difficult or  discouraging  times.</p>
+</td>
+</tr>
+<tr>
+<td id="plus8" onclick="expand(8)" onmouseout="hover(2, 8)" onmouseover="hover(1, 8)" style="font-weight: bold; padding: 0 5px 5px; cursor: pointer; background-color: #007ebd; color: #ffffff; border: 1px solid #ffffff;">+</td>
+<td style="padding: 0pt 5px 5px;"><strong><strong>8) <strong>Be a good role model</strong> </strong> </strong></td>
+</tr>
+<tr>
+<td></td>
+<td id="hidden8" style="display: none;">
+<p align="left">Be a good example with food and when discussing food or  weight-related  issues. This may call for changes in your attitudes,  eating habits, and  activities. Consulting with a dietitian and a  therapist may help you  determine necessary changes in your own  attitudes and behaviors around  food and weight.</p>
+<p>First, remember you can set an example without lecturing  or making a  production of it. Start by eating a well-balanced diet  with a variety of  foods. Exercise moderately. Accept your own weight,  shape, and your  right to participate in activities such as swimming and  dancing or any  activity you might enjoy but have not allowed yourself  to participate in  due to body dissatisfaction. Do not make negative  comments about your  own or others' bodies.<em> <br /></em></p>
+</td>
+</tr>
+<tr>
+<td id="plus9" onclick="expand(9)" onmouseout="hover(2, 9)" onmouseover="hover(1, 9)" style="font-weight: bold; padding: 0 5px 5px; cursor: pointer; background-color: #007ebd; color: #ffffff; border: 1px solid #ffffff;">+</td>
+<td style="padding: 0pt 5px 5px;"><strong><strong>9) <strong>Don't blame yourself</strong> </strong> </strong></td>
+</tr>
+<tr>
+<td></td>
+<td id="hidden9" style="display: none;">
+<p>There is no single cause for an individual's eating  disorder. Eating  disorders are complex illnesses. The eating disorder  is not your fault.  Whatever your mistakes or weaknesses as a parent,  spouse, or friend, you  did not create this eating disorder.</p>
+<p align="left">We all have weaknesses. We all have been less than  perfect or ideal in  our roles and relationships. Yet, most of us have  made good efforts to  do our best based on our abilities and knowledge.</p>
+<p align="left">Take ownership for your weaknesses and frailties and  make genuine  efforts to change and improve. More importantly, take  stock of your  talents, gifts, and resources, and get to work providing  love, support,  and open invitations for your loved one to come into a  safe relationship  with you as they are ready.</p>
+<p>Don't let your guilt, insecurity, or fear get in the way of being actively involved in your loved one's life.<em> <br /></em></p>
+</td>
+</tr>
+<tr>
+<td id="plus10" onclick="expand(10)" onmouseout="hover(2, 10)" onmouseover="hover(1, 10)" style="font-weight: bold; padding: 0 5px 5px; cursor: pointer; background-color: #007ebd; color: #ffffff; border: 1px solid #ffffff;">+</td>
+<td style="padding: 0pt 5px 5px;"><strong><strong>10) <strong>Take care of yourself and be patient</strong> </strong> </strong></td>
+</tr>
+<tr>
+<td></td>
+<td id="hidden10" style="display: none;">
+<p align="left">If you are exhausted emotionally or physically, you will  not be able to  provide the emotional support your loved one needs the  way you would  like to. Those with eating disorders often do not know  how to get their  needs met and often do not know how to take good care  of themselves. If  you take good care of yourself, you will have more  energy in your  efforts to help them, and you will be teaching by  example something your  loved one needs to learn. Set aside time to care  for your own social  and emotional needs.</p>
+<p>There are no quick or easy cures for eating disorders,  so pace yourself.  Be patient with yourself and with your loved one as  he or she recovers.  Often it will seem they are taking five steps  forward, then three  backward. But there is hope and recovery is  attainable. Don't ever give  up!<em> <br /></em></p>
+</td>
+</tr>
+</tbody>
+</table>
+<em><strong> </strong></em>
+<h5 align="left">RECOMMENDED READING</h5>
+<p align="left"><em>Surviving An Eating Disorder: Strategies for Families and Friends</em>, Michelle Seigel Ph.D., Judith Brisman Ph.D., and Margot Weinshel Ph.D., Harper Row, New York, 1997.</p>
+<p align="left"><em>The Secret Language of Eating Disorders</em>, Peggy Claude-Pierre, Times Books/Random House, New York, 1997.</p>
+<p align="left"><em>The Monster Within: Overcoming Bulimia, </em>Cynthia Joye Rowland, Baker Books, Grand Rapids, Michigan, 1984.</p>
+<p align="left"><em>Hunger Pains, </em> Mary Pipher Ph.D., Random House, Ballantine Books, New York, 1997.</p>
+<p align="left"><em>Reviving Ophelia: Saving the Selves of Adolescent Girls</em>, Mary Pipher Ph.D., Random House, Ballantine Books, New York, 1994.</p>
+<p align="left"><em>Breaking the Cycle of Compulsive Behavior</em>, Marth Nibley Beck and John C. Beck, Deseret Book Co., Salt Lake City, 1990.</p>
+<p align="left"><em>Shame and Grace: Healing the Shame We Don't Deserve, </em>Lewis B. Smedes, Harper/Collins, New York, 1993.</p>
+<p align="left"><em>The Shelter of Each Other: Rebuilding Our Families,</em> Mary Pipher, Ph.D., Ballantine Books, New York, 1996.</p>
+<p align="left"><em>Raising Self-Reliant Children in a Self-Indulgent World, </em>H. Stephen Glenn and Jane Nelsen, Ed.D., Prima Publishing and Communications, Rocklin, California, 1989.</p>
+<p align="left"><em>Changing for Good</em>, James O. Prochaka Ph.D., John C. Norcross Ph.D., Carlo C. Dielemente Ph.D., Avon Books, New York, 1994.</p>
+<p align="left"><em>Feel the Fear and Do It Anyway</em>, Susan Jeffers Ph.D., Faucett Columbia Books/Ballantine Books, New York, 1987.</p>
+<h5 align="left">RECOMMENDED WEB SITES</h5>
+<p align="left">Center for Change<a href="http://www.centerforchange.com/" target="_parent"> http://www.centerforchange.com/</a></p>
+<p align="left">Eating Disorder Awareness Week<a href="http://www.edaw.org/" target="_parent"> http://www.edaw.org/</a></p>
+<p align="left">Foundation for Change<a href="http://www.foundationforchange.org/" target="_parent"> http://www.foundationforchange.org/</a></p>
+<p align="left">Gurze Books<a href="http://www.gurze.com/" target="_parent"> http://www.gurze.com/</a></p>
+<p align="left">National Eating Disorder Association (NEDA)<a href="http://www.nationaleatingdisorders.org/" target="_parent"> http://www.nationaleatingdisorders.org/</a></p>
+<p align="left">National Institute of Mental Health<a href="http://www.nimh.nih.gov/" target="_parent"> http://www.nimh.nih.gov/</a></p>
+<p>Courtesy of Center for Change, Orem, Utah</p>
+<br />]]></BodyCopy><xPower Type="Component" Component="x24495" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x17637" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

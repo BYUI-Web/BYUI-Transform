@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<TrainingDetails ID="x16531" Name="Content" Layout="default-training.xsl"><IfComponent type="boolean" label="Check if this is a component tutorial" ID="1">false</IfComponent><Title type="string" label="Title" readonly="false" hidden="false" required="true" ID="2">Content</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true" ID="3">This is a general page type. This is used to display images and information. The optional side column can be either on the left or right side of the body area, or you can leave the column off.</Abstract><TrainingImage type="imagefile" label="Page Type Image" hidden="false" readonly="false" required="false" ID="4" Width="300" Height="458">Internal_Use/Ingeniux_Training/Template Thumbnails/generalContentOptSideColumn.jpg</TrainingImage><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" ID="5"><![CDATA[<p>Required Information:</p>
+<p style="padding-left: 30px;">You need to know how to upload photos into the Ingeniux CMS</p>
+<p>Required Elements on this page(These elements are needed to save the page):</p>
+<ul>
+<li>Title</li>
+<li>Abstract</li>
+</ul>
+<p><img alt="Title and abstract" height="82" src="Images/Ingeniux_Training/titleAbstract.jpg" width="580" /></p>
+<p><span style="text-decoration: underline;"><strong>Title</strong></span></p>
+<p>Here you need to enter the title of the site. It will be placed in the header of the page.</p>
+<p><strong><span style="text-decoration: underline;">Abstract</span></strong></p>
+<p>A summary of the site</p>
+<p><strong><span style="text-decoration: underline;">Image Column</span></strong></p>
+<p><strong><span style="text-decoration: underline;"><img alt="Image Column" height="314" src="Images/Ingeniux_Training/Image Column.png" width="259" /><br /></span></strong></p>
+<p style="padding-left: 30px;"><strong>Toggle Left or Right</strong></p>
+<p style="padding-left: 30px;">If this is uncheck if will put the image on the left side. If it is check it will be on the right side.</p>
+<p style="padding-left: 30px;"><strong>Images</strong></p>
+<p style="padding-left: 30px;">You need to upload an image prior to this step. <br />You will be replacing the image that was placed in as a default.<br />Maximum image size is: <br />Width: 159px<br />Height: 188px<br />1. Click on browse on the right of the box.<br />2. Find your image within the structure<br />3. Click ok<br />4. Add alt text in the box provided. This text should be descriptive of the image you are adding to the page.</p>
+<p><span style="text-decoration: underline;"><strong>Body Copy</strong></span></p>
+<p>&nbsp;</p>
+<p><img alt="body copy" height="111" src="Images/Ingeniux_Training/Body Copy.png" width="543" /></p>
+<p>This is where your site will go.</p>
+<p><span style="text-decoration: underline;"><strong>Related Links</strong></span></p>
+<p><span style="text-decoration: underline;"><strong><img alt="RElated Links" height="81" src="Images/Ingeniux_Training/Related Links.png" width="145" /><br /></strong></span></p>
+<p>The organization you work for should also have its won related links section. You will need to choose that one.</p>
+<p><strong><span style="text-decoration: underline;">SEO Group</span></strong></p>
+<p style="padding-left: 30px;"><strong>Browser Bar<span style="text-decoration: underline;"><br /></span></strong></p>
+<p style="padding-left: 30px;">Title of the page that will go in the browser bar<br /><strong>No Follow</strong><br />Search engines will not index the links on this page.<br /><strong>No Index</strong><br />Search engines will not index the links on this page AND this page will not be either.<br /><strong>NO ODP</strong><br />This page will not be indexed by the ODP search engine. Please see this link for more information about ODP.<br /><strong>Priority</strong><br />Please do not adjust this setting</p>
+<p><strong><span style="text-decoration: underline;">Site Control</span></strong></p>
+<p><strong><span style="text-decoration: underline;"><img alt="Site Control" height="77" src="Images/Ingeniux_Training/Site Control.png" width="214" /><br /></span></strong></p>
+<p>You will need to choose the site control that is related to your department. This will also allow your page to display correctly. This element creates the navigation menu on the left.</p>]]></BodyCopy><xPower Type="References" References="" Name="PageUsage" label="Page or Component Reference" readonly="false" hidden="false" required="true" QueryLocationRoots="" IncludeCrossReferences="false" Depth="0" QuerySchemas="TrainingDetails" Expanded="false" ID="6"><Exports ID="7"></Exports></xPower><xPower Type="Navigation" StartPage="x5758" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Children" Query="" Name="FAQs" label="FAQs Navigation" readonly="true" hidden="true" required="false" Expanded="false" ID="8"/><xPower Type="Navigation" StartPage="x10283" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Children" Query="" Name="Icons" label="Element Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" ID="9"/></TrainingDetails>

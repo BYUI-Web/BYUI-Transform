@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<CustomPageWithReturn ID="x19510" Name="Lodging" Layout="general_content.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Lodging Information</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Information on lodging around Rexburg</Abstract><xPower Type="GroupStart" GroupStart="" Name="LeftNavGroup" label="Left Nav Return" readonly="false" hidden="false" required="false" Expanded="false"><ParentName type="string" label="Parent Name" readonly="false" hidden="false" required="false"></ParentName><xPower Type="Link" Link="x19105" Name="Link" label="Link" readonly="false" hidden="false" required="true" LinkText="" Target="" Expanded="false" URL=""/></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+#imglist1 li {
+display: inline;
+list-style-type: none;
+margin-left: 115px; 
+}
+#imglist2 li {
+display: inline;
+list-style-type: none;
+margin-left: 275px; 
+}
+--></style>
+<p style="text-align: center; font-family: times new roman,times; font-size: small;">The following links have been provided as a resource for lodging accommodations. Parents are not allowed to stay with their son or daughter in University Housing.</p>
+<div id="imglist1">
+<ul>
+<li><a href="http://rexcc.com/"><img alt="Rexburg Lodging link" height="89" onmouseout="this.src='Images/Admin_Offices/Student Record and Registration/GradPhoto/roadsignRex.png';" onmouseover="this.src='Images/Admin_Offices/Student Record and Registration/GradPhoto/roadsignRexAlt.png';" src="Images/Admin_Offices/Student Record and Registration/GradPhoto/roadsignRex.png" width="160" /></a> <a href="http://www.idahofallschamber.com/"><img alt="Idaho Falls Lodging information" height="89" onmouseout="this.src='Images/Admin_Offices/Student Record and Registration/GradPhoto/roadsignIF.png';" onmouseover="this.src='Images/Admin_Offices/Student Record and Registration/GradPhoto/roadsignIFAlt.png';" src="Images/Admin_Offices/Student Record and Registration/GradPhoto/roadsignIF.png" width="160" /></a> <a href="http://www.rigbychamber.com/"><img alt="Rigby Lodging information" height="89" onmouseout="this.src='Images/Admin_Offices/Student Record and Registration/GradPhoto/roadsignRig.png';" onmouseover="this.src='Images/Admin_Offices/Student Record and Registration/GradPhoto/roadsignRigAlt.png';" src="Images/Admin_Offices/Student Record and Registration/GradPhoto/roadsignRig.png" width="160" /></a> <a href="http://www.stanthonychamber.com/"><img alt="St. anthony lodging information" height="89" onmouseout="this.src='Images/Admin_Offices/Student Record and Registration/GradPhoto/roadsignStA.png';" onmouseover="this.src='Images/Admin_Offices/Student Record and Registration/GradPhoto/roadsignStAAlt.png';" src="Images/Admin_Offices/Student Record and Registration/GradPhoto/roadsignStA.png" width="160" /></a></li>
+</ul>
+</div>
+<div id="imglist2">
+<ul>
+<li><a href="http://www.islandparkchamber.org/"><img alt="Ashton link" height="93" onmouseout="this.src='Images/Admin_Offices/Student Record and Registration/GradPhoto/roadsignAsh.png';" onmouseover="this.src='Images/Admin_Offices/Student Record and Registration/GradPhoto/roadsignAshAlt.png';" src="Images/Admin_Offices/Student Record and Registration/GradPhoto/roadsignAsh.png" width="167" /><img alt="Island Park Link" height="93" onmouseout="this.src='Images/Admin_Offices/Student Record and Registration/GradPhoto/roadsignIsland.png';" onmouseover="this.src='Images/Admin_Offices/Student Record and Registration/GradPhoto/roadsignIslandAlt.png';" src="Images/Admin_Offices/Student Record and Registration/GradPhoto/roadsignIsland.png" width="167" /></a></li>
+</ul>
+</div>
+<p style="text-align: center;">Some discounts are available for BYU-Idaho alumni at area hotels. Remember to ask when making your reservation.</p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x44654" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></CustomPageWithReturn>

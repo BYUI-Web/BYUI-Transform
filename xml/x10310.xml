@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<TrainingElement ID="x10310" Name="Page Properties" Layout="default-training.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Page Properties</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Header</Abstract><LinkText type="string" label="Icon Address" readonly="false" hidden="false" required="true">Internal_Use/Ingeniux_Training/Icons/header.png</LinkText><TrainingIcon type="imagefile" label="Icon Image" hidden="false" readonly="false" required="false">Internal_Use/Ingeniux_Training/Icons/header.png</TrainingIcon><TrainingImage type="imagefile" label="Element Image" hidden="false" readonly="false" required="false">Internal_Use/Ingeniux_Training/Element Views/Header.png</TrainingImage><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<div class="intro">
+<p>All CMS Pages (the items shown in the <a href="x6409.xml" style="color: #3366ff;">CMS tree</a>) have a Page Properties area. The Page Properties area contains status information about the selected CMS Page.</p>
+</div>
+<h4 class="sub_title">Page Name</h4>
+<p>&nbsp;&nbsp; Every CMS Page should have a <em>Page Name</em>. This name should be thought of as the title of the CMS Page.</p>
+<div style="background-color: #ccffcc; width: 400px; padding: 10px; border: 1px solid #000;">
+<p><strong>Please take note:</strong></p>
+<p>&nbsp;&nbsp; The Page Name will be referred to by web pages within the BYU-I web site, and will need to be given a name that can be commonly recognized by the general public.</p>
+<p>&nbsp;&nbsp; Multiple Pages can also share the same Page Name.</p>
+</div>
+<p>&nbsp;</p>
+<h4 class="sub_title">ID&nbsp; <br /></h4>
+<p>&nbsp;&nbsp; The <em>ID number</em> is unique to its CMS Page and is assigned on creation. No two CMS Pages have the same ID number. If the CMS Page is deleted, the ID number is not reused.</p>
+<p>&nbsp;&nbsp; The <em>ID number </em>is commonly used throughout the Content Management System, and is used to search for, identify and refer to CMS Pages within the Content Management System.</p>
+<h4 class="sub_title">Schema</h4>
+<p>&nbsp;&nbsp; The <em>Schema</em> is the CMS Page's page/component type. This status information is not always correct.</p>
+<h4 class="sub_title">Assigned To</h4>
+<p>&nbsp;&nbsp; The <em>Assigned To</em> secton contains the name of the user who has the CMS Page checked out. This user has control over editing the CMS Page's content.</p>]]></BodyCopy><xPower Type="Navigation" StartPage="x10283" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Children" Query="" Name="Icons" label="Element Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/></TrainingElement>

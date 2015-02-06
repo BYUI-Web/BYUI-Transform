@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x53277" Name="Courses" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Experience Europe Courses</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Experience Europe Courses</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<div><br />Please click on a course below to see description: <br /><br /><a onclick="switchMenu('B 380');" style="text-decoration: none;" target="_self">B 380 - Intro to International Business</a><br />3 credits<br />Course Fees: $17</div>
+<div id="B 380"><br />An overview of international business designed to provide a global perspective on international trade and direct investment. Reviews international cultural, political, legal, and economic environments and their effect on marketing, production, and human resource management strategy.</div>
+<div><br /><br /><a onclick="switchMenu('COMM 350');" style="text-decoration: none;" target="_self">COMM&nbsp;350 - Group Dynamics</a><br />3 credits<br />
+<div id="COMM 350"><br />Analysis of theory and practice of human communication in a small group setting, focusing on leadership, participation and evaluation, with emphasis in group norms, roles, cohesion, and conflict.</div>
+<br /><br /><a onclick="switchMenu('COMM 397');" style="text-decoration: none;" target="_self">COMM&nbsp;397 - Teamwork and Travel</a><br />1 credit<br />
+<div id="COMM 397"><br />Specialized, department-sponsored practicum gives students experience in communication by applying lessons/knowledge learned in class to real-life projects.</div>
+<br /><br /><a onclick="switchMenu('COMM 490');" style="text-decoration: none;" target="_self">COMM 490 - Directed Studies/Projects</a><br />1-2 credits<br />
+<div id="COMM 490"><br />Individual major projects or research.</div>
+<br /><br /><a onclick="switchMenu('ECON 358');" style="text-decoration: none;" target="_self">ECON 358 - International Economics</a><br />3 credits<br />Prerequisites: ECON 150, 151</div>
+<div id="ECON 358"><br />An introduction to international trade and finance. It examines international institutions, policies, and issues.</div>
+<p><br /><br /><a onclick="switchMenu('ECON 390R');" style="text-decoration: none;" target="_self">ECON 390R - Special Topics</a><br />1-3 credits<br />Prerequisites: ECON 150, 151</p>
+<div id="ECON 390R"><br />This arranged course allows students to undertake a special project or further research in the field of economics. Economic Education students study teaching methodologies and prepare course material for teaching economics.div&gt;
+<div><br /><br /><a onclick="switchMenu('FDREL 190');" style="text-decoration: none;" target="_self">FDREL 190 - Special Topics in Scripture (Required)</a><br />2 credits<br />
+<div id="FDREL 190"><br />For BYU-Idaho students facing special credit situations and for BYU-Idaho travel study students, taught in the term of the travel study, with topics selected which will focus on history, scripture, and culture of the lands visited.</div>
+<div><br /><br />
+<script type="text/JavaScript">
+// Hide all expandable elements
+var load1 = document.getElementById('B 380');
+var load2 = document.getElementById('COMM 350');
+var load3 = document.getElementById('COMM 397');
+var load4 = document.getElementById('COMM 490');
+var load5 = document.getElementById('ECON 358');
+var load6 = document.getElementById('ECON 390R');
+var load7 = document.getElementById('FDREL 190');
+
+
+load1.style.display = 'none';
+load2.style.display = 'none';
+load3.style.display = 'none';
+load4.style.display = 'none';
+load5.style.display = 'none';
+load6.style.display = 'none';
+load7.style.display = 'none';
+
+
+
+// Function that toggles expandable elements
+
+function switchMenu(obj) {
+	var el = document.getElementById(obj);
+
+	if ( el.style.display != "none" ) {
+		el.style.display = 'none';
+	}
+	else {
+load1.style.display = 'none';
+load2.style.display = 'none';
+load3.style.display = 'none';
+load4.style.display = 'none';
+load5.style.display = 'none';
+load6.style.display = 'none';
+load7.style.display = 'none';
+
+
+		el.style.display = '';
+	}
+}
+</script>
+<p>&nbsp;</p>
+</div>
+</div>
+</div>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="x8228" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x8138" CompTypes="SiteControl" Expanded="false"/></Content>

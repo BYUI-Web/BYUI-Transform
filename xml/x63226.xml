@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.68 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x63226" Name="Calendar: Sharing" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">How to Share Your Calendar with Others</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">How BYUI Employees can Share Their Calendar with Others</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<h1>Outlook 2010 Calendar Sharing</h1>
+<h2>Grant:</h2>
+<p>If you want to grant calendar permissions without giving send-on-behalf-of permissions:</p>
+<ol></ol>
+<h3>Employee --&gt; Employee:</h3>
+<ol>
+<li>Right-click the calendar</li>
+<li>Change Sharing Permissions</li>
+<li>Permissions tab</li>
+</ol>
+<h3>Employee --&gt; Student Employee:</h3>
+<p>(<em>To grant calendar permissions to student employees please contact <a href="mailto:HelpDesk@byui.edu">HelpDesk@byui.edu</a> with the name of the <strong>Employee(s)&nbsp;</strong>and the <strong>Student Role</strong></em>)</p>
+<h2>Access:</h2>
+<p>To access a calendar that you've been granted permission to:</p>
+<h3>Employee --&gt; Employee:</h3>
+<ol>
+<li>Right-click "<strong>My Calendars</strong>"</li>
+<li>Add Calendar</li>
+<li>Open Shared Calendar...</li>
+</ol>
+<h3>Student Employee --&gt; Employee:</h3>
+<ol>
+<li>Ensure that you're logged in to Outlook using the department email address</li>
+<li>Right-click</li>
+<li>Add Calendar</li>
+<li>Open Shared Calendar...</li>
+</ol><ol></ol><ol></ol>
+<h1>Outlook 2011 (Mac) Calendar Sharing</h1>
+<h2>Grant:</h2>
+<ol>
+<li>Click Outlook &gt; Preferences &gt; Accounts &gt; Select your account &gt; Advanced &gt; Delegates tab.</li>
+<li>Under "People I am a delegate for:", click the +</li>
+<li>Type respective name in the search box and click Find.</li>
+<li>Select the account and click OK &gt; OK.</li>
+<li>Close the Accounts window.</li>
+</ol>
+<p>If you want to grant calendar permissions without giving send-on-behalf-of permissions:</p>
+<ol>
+<li>Organize tab</li>
+<li>Permissions</li>
+</ol>
+<h1>iCal (Mac) Calendar Sharing</h1>
+<ol>
+<li>iCal</li>
+<li>Preferences</li>
+<li>Delegation</li>
+</ol><ol></ol>
+<h1 style="text-align: -webkit-auto;">Outlook 2007 Calendar Sharing</h1>
+<div style="text-align: -webkit-auto;"><span style="font-family: arial, helvetica, sans-serif; font-size: small;">This Page details how to share your calendar with others in Outlook 2007. These instructions show how to change permissions for each person you share your calendar with.</span></div>
+<div style="text-align: -webkit-auto;"><span style="font-family: arial, helvetica, sans-serif; font-size: small;"> </span><span style="color: #000000; font-family: arial, helvetica, sans-serif; font-weight: normal; font-size: small;">Begin by Opening Outlook 2007</span></div>
+<div style="text-align: -webkit-auto;"><span style="color: #000000; font-family: arial, helvetica, sans-serif; font-weight: normal; font-size: small;"> </span><img alt="Calendar Selecting" height="236" src="Images/helpdesk/email/CalendarSharing/calendarselect.jpg" title="Calendar Selecting" width="253" /></div>
+<div><ol>
+<li><span style="color: #000000; font-family: arial, helvetica, sans-serif; font-size: small;">Once you have opened Outlook 2007 click &ldquo;Calendar&rdquo; on the left. </span></li>
+<li><span style="color: #000000; font-family: arial, helvetica, sans-serif; font-size: small;">Click the down arrow to show the calendars you have. &nbsp;&nbsp;(The option shown &ldquo;How to Share Calendars&rdquo; is not the best choice to use.)</span></li>
+</ol></div>
+<p><img border="0" src="http://www.byui.edu/HelpDesk/Email/images/sharing/calendarproperties.JPG" /></p>
+<ol>
+<li><span style="color: #000000; font-family: arial, helvetica, sans-serif; font-size: small;">Now right click the calendar you wish to share.</span></li>
+<li><span style="color: #000000; font-family: arial, helvetica, sans-serif; font-size: small;">Click &ldquo;Properties&rdquo;</span></li>
+</ol>
+<p><img border="0" src="http://www.byui.edu/HelpDesk/Email/images/sharing/calendarpermissions.JPG" /></p>
+<ol>
+<li><span style="color: #000000; font-family: arial, helvetica, sans-serif; font-size: small;">Once the Calendar&rsquo;s properties page click the &ldquo;Permissions&rdquo; tab </span></li>
+<li><span style="color: #000000; font-family: arial, helvetica, sans-serif; font-size: small;">Then click &ldquo;Add&rdquo;.</span></li>
+</ol>
+<p><img alt="Share Calendar" border="0" src="http://www.byui.edu/HelpDesk/Email/images/sharing/calendarshare.JPG" title="Share Calendar" /></p>
+<ol>
+<li><span style="color: #000000; font-family: arial, helvetica, sans-serif; font-size: small;">Search for the name of the person you want to share your calendar. </span></li>
+<li><span style="color: #000000; font-family: arial, helvetica, sans-serif; font-size: small;">Select them in the list</span></li>
+<li><span style="color: #000000; font-family: arial, helvetica, sans-serif; font-size: small;">Click &ldquo;Add&rdquo;</span></li>
+<li><span style="color: #000000; font-family: arial, helvetica, sans-serif; font-size: small;">Then Click &ldquo;OK&rdquo;</span></li>
+</ol>
+<p><img alt="Access Permissions" border="0" src="http://www.byui.edu/HelpDesk/Email/images/sharing/calendaraccess.JPG" title="Permission Changes" /></p>
+<ol>
+<li><span style="color: #000000; font-family: arial, helvetica, sans-serif; font-size: small;">Now from the Calendar&rsquo;s properties click the user you added.</span></li>
+<li><span style="color: #000000; font-family: arial, helvetica, sans-serif; font-size: small;">You can now adjust the access you wish to grant them.</span></li>
+<li><span style="color: #000000; font-family: arial, helvetica, sans-serif; font-size: small;">The suggested default levels are "Editor" or "Reviewer". </span></li>
+</ol>
+<p><span style="color: #000000; font-family: arial, helvetica, sans-serif; font-size: small;">Editor - Allows for complete view of calendar and can add and delete entries.</span></p>
+<p><span style="color: #000000; font-family: arial, helvetica, sans-serif; font-size: small;">Reviewer- Allows complete view of calendar but cannot change any entries.</span></p>
+<p><span style="color: #000000; font-family: arial, helvetica, sans-serif; font-size: small;"> 4. Once your finished Click &ldquo;OK&rdquo;</span></p>
+<p><span style="color: #000000; font-family: arial, helvetica, sans-serif; font-size: x-small;">Please send questions/comments to <a href="mailto:HelpDesk@byui.edu" title="Calendar: Sharing Question/Comment">HelpDesk@byui.edu</a>.</span></p>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x35726" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

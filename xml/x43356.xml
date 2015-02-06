@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content ID="x43356" Name="Candidates" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Candidate Info</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Candidate Info</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+.twocan{
+    margin:0;
+  }
+  .candidate_td p{
+    font-size:1em;
+  }
+--></style>
+<p>
+<script language="javascript" type="text/javascript">
+function showHide(shID) {
+   if (document.getElementById(shID)) {
+      if (document.getElementById(shID+'-show').style.display != 'none') {
+         document.getElementById(shID+'-show').style.display = 'none';
+         document.getElementById(shID).style.display = 'block';
+      }
+      else {
+         document.getElementById(shID+'-show').style.display = 'inline';
+         document.getElementById(shID).style.display = 'none';
+      }
+   }
+}
+</script>
+</p>
+<style type="text/css"><!--
+/* This CSS is used for the Show/Hide functionality. */
+   .more {
+     display: none;
+   a.showLink, a.hideLink {}
+   a.hideLink {}
+   a.showLink:hover, a.hideLink:hover {
+      border-bottom: 1px dotted #36f; }
+  /*This CSS was just stuck in here so that the text in the tables align to the top and has nothing to do with the show hide functionality*/
+   td {
+     vertical-align: top;
+}
+--></style>
+<p>
+<script type="text/javascript">
+function swapRows(){
+  var row = document.getElementById("myTab").rows;
+  var rC = row.length;
+  var tBody = row[0].parentNode;
+  for(i=0;i<rC;i++){
+    tBody.insertBefore(row[Math.ceil(Math.random()*(rC-1))],row[i]);
+  }
+}
+window.onload=swapRows;
+</script>
+</p>
+<div id="electionsMenu" style="padding-bottom: 15px;">
+<h1 style="padding: 10px; margin-bottom: 8px; background-color: #a60000; color: white; border-radius: 10px;">Student Body Officer Elections | November 18-22, 2013</h1>
+<ul style="display: inline; padding-left: 0px;">
+<li style="display: inline; list-style: none; font-weight: bold; font-family: Helvetica; font-size: 19px; padding-bottom: 8 px;"><a href="http://web.byui.edu/VotingService" style="color: #a60000;"><img alt="Candidate Icon" height="32" src="Images/student-support/SRC/Graphics/vote_red_32.png" style="margin-bottom: -8px; margin-right: 5px;" width="32" />Vote</a></li>
+<li style="display: inline; list-style: none; font-weight: bold; font-family: Helvetica; font-size: 19px; padding-bottom: 8 px;"><a href="x43356.xml"><img alt="Candidate Icon" height="32" src="Images/student-support/SRC/Graphics/delete_user.png" style="margin-bottom: -8px; margin-right: 5px;" width="32" />Candidates</a></li>
+<li style="display: inline; list-style: none; font-weight: bold; font-family: Helvetica; font-size: 19px; padding-bottom: 8 px;"><a href="x43357.xml"><img alt="Events Icon" height="32" src="Images/student-support/SRC/Graphics/calendar.png" style="margin-bottom: -8px; margin-right: 5px;" width="32" />Events</a></li>
+</ul>
+</div>
+<h1>Student Body Officer Candidate Info</h1>
+<p>The student body officers are elected by a plurality vote open to the entire BYU-Idaho student body every two semesters. Elections for the Winter 2014 - Spring 2014 term will be held November 18-22, 2013. Each team includes a candidate for President and Vice President, and both have met specific leadership and academic requirements to qualify to run. Once elections begin, a link will appear on this page to vote for your Student Body Officers.</p>
+<table border="0" id="myTab">
+<tbody>
+<tr>
+<td style="width: 120px;"></td>
+<td style="width: 300px;">
+<p style="margin-top: 30px;"></p>
+<h3>Running For: President</h3>
+<p>Hometown: </p>
+<p>Major: </p>
+</td>
+<td style="width: 120px;"></td>
+<td style="width: 300px;">
+<p style="margin-top: 30px;"></p>
+<h3><strong><br /> </strong></h3>
+<p>Running For:<br />Vice President</p>
+<p>Hometown: </p>
+<p>Major: </p>
+</td>
+<td style="width: 300px;"><a href="https://www.facebook.com/pages/Will-Ayer-Cody-Cutler-SRC/462855377119517?ref=ts&amp;fref=ts" target="_blank"><img height="32" src="Images/student-support/SRC/Graphics/facebook-32x32.png" width="32" /></a></td>
+</tr>
+<tr>
+<td style="width: 120px;"></td>
+<td style="width: 120px;">
+<p style="margin-top: 30px;"></p>
+<h3></h3>
+<p>Running For: President</p>
+<p>Hometown: </p>
+<p>Major:</p>
+</td>
+<td style="width: 120px;"></td>
+<td style="width: 300px;"><strong> </strong><strong> </strong>
+<p style="margin-top: 30px;"></p>
+<h3></h3>
+<h3></h3>
+<strong> </strong>
+<p>Running For:<br />Vice President</p>
+<p>Hometown:</p>
+<p>Major: </p>
+<strong> </strong></td>
+<td style="width: 300px;"><a href="https://www.facebook.com/SpencerandAli" target="_blank"><img height="32" src="Images/student-support/SRC/Graphics/facebook-32x32.png" width="32" /></a></td>
+</tr>
+</tbody>
+</table>
+<!---BEGIN PAGE CONTENT--->
+<h1>In Their Own Words: Candidate Q&amp;A</h1>
+<p>Below, the candidates explain why they want to be Student Body President and Vice President, and how they plan to serve students in that position. Click "Show Responses" to see what they said.</p>
+<!-- QUESTION -->
+<h2>Q: Why would you like to serve as the SRC Presidency?</h2>
+<p><a class="showLink readMore_link" href="#" id="Q1-show" onclick="showHide('Q1');return false;">SHOW RESPONSES</a></p>
+<div class="more" id="Q1"><!-- -HIDDEN CONTENT -->
+<table border="0" class="responses"><colgroup> <col style="width: 50%;" /> <col style="width: 50%;" /> </colgroup>
+<tbody>
+<tr>
+<td align="left" style="background-color: #ffffff;" valign="top">
+<h3>Spencer Galbraith &amp; Ali Sharp</h3>
+</td>
+<td align="left" style="background-color: #ffffff;" valign="top">
+<h3>Will Ayer &amp; Cody Cutler</h3>
+</td>
+</tr>
+<tr>
+<td align="left" style="background-color: #ffffff;" valign="top"><img class="twocand" src="Images/student-support/SRC/Elections/Specer Ali.jpg" width="150px" /></td>
+<td align="left" style="background-color: #ffffff;" valign="top"><img class="twocand" src="Images/student-support/SRC/Elections/Will Cody.jpg" width="150px" /></td>
+</tr>
+<tr>
+<td align="left" class="candidate_td" style="background-color: #ffffff;" valign="top">
+<p>We want the students to gain the BYU-I experience and to realize that attending this school is a great blessing. Our aim is to listen to individual students and build this school through their insights. We see this as a great opportunity to serve.</p>
+</td>
+<td align="left" class="candidate_td" style="background-color: #ffffff;" valign="top">
+<p>We want to keep YOU, the student, in the loop with the SRC and the administration. There are three things that keep YOU in the loop. Being informed (about what SRC and the administration is doing), participation (making your concerns know), and campus unity. By including you in these three loops you&rsquo;ll better understand the how much the administration respects your opinion, and improve your campus experience.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -END CONTENT--->
+<p><a class="hideLink readMore_link" href="#" id="Q1-hide" onclick="showHide('Q1');return false;">HIDE RESPONSES</a></p>
+</div>
+<!-- END QUESTION -->
+<p></p>
+<!-- QUESTION -->
+<h2>Q: What are some unique contributions you have made to the university?</h2>
+<p><a class="showLink readMore_link" href="#" id="Q2-show" onclick="showHide('Q2');return false;">SHOW RESPONSES</a></p>
+<div class="more" id="Q2"><!-- -HIDDEN CONTENT -->
+<table border="0" class="responses">
+<tbody>
+<tr>
+<td style="background-color: #ffffff;" valign="top">
+<h3>Spencer Galbraith &amp; Ali Sharp</h3>
+</td>
+<td style="background-color: #ffffff;" valign="top">
+<h3>Will Ayer &amp; Cody Cutler</h3>
+</td>
+</tr>
+<tr>
+<td align="left" style="background-color: #ffffff;" valign="top"><img class="twocand" src="Images/student-support/SRC/Elections/Specer Ali.jpg" width="150px" /></td>
+<td align="left" style="background-color: #ffffff;" valign="top"><img class="twocand" src="Images/student-support/SRC/Elections/Will Cody.jpg" width="150px" /></td>
+</tr>
+<tr>
+<td class="candidate_td" style="background-color: #ffffff;" valign="top">
+<p><strong>Spencer (President):</strong><br /> Brought concerns of the students to the administration by working with student voice and SRC. Experience in Student Activities has allowed me to reach out to online students and facilitate Recreational Sports. In working with students, I have also encouraged good standards through the Honor Council and I Honor It campaign. Still my most meaningful experiences have been with individual students.<strong>Ali (Vice President):<br /></strong>Brought concerns of the students to the administration by working with student voice and SRC. Helped students to grow as leaders, individuals and team members and meet their diverse needs in Recreational Sports. Served incoming students and helped them to understand the blessings of this school.</p>
+</td>
+<td class="candidate_td" style="background-color: #ffffff;" valign="top">
+<p><strong>Will (President): </strong><br />- SRC Coordinator, Spring 2011, Winter 2012: Thanks to his leadership skills, Will&rsquo;s council had an impressive 99% attendance at the administrative councils. Was part of the council that brought live music and activities to the Crossroads stage. - Involvement Director, Spring 2012: Will organized a team that broke all previous records at a volunteer recruitment party for Student Support (500+).<br /><strong><br />Cody (Vice President):</strong><br />Research Coordinator (SRC)&mdash;Cody and his council began the research to put a pool and foosball table in the MC where they now stand. Vineyard Coordinator (Service Activities)&mdash;Helped to establish a program at BYU-I where students can contribute service to the church via translation, photography, and sharing the gospel.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -END CONTENT--->
+<p><a class="hideLink readMore_link" href="#" id="Q2-hide" onclick="showHide('Q2');return false;">HIDE RESPONSES</a></p>
+</div>
+<!-- END QUESTION -->
+<p></p>
+<!-- QUESTION -->
+<h2>Q: The SRC has worked hard to implement new structures and systems, how do you plan to use them to effectively facilitate communication between students and administration?</h2>
+<p><a class="showLink readMore_link" href="#" id="Q3-show" onclick="showHide('Q3');return false;">SHOW RESPONSES</a></p>
+<div class="more" id="Q3"><!-- -HIDDEN CONTENT -->
+<table border="0" class="responses">
+<tbody>
+<tr>
+<td valign="top">
+<h3>Spencer Galbraith &amp; Ali Sharp</h3>
+</td>
+<td valign="top">
+<h3>Will Ayer &amp; Cody Cutler</h3>
+</td>
+</tr>
+<tr>
+<td align="left" style="background-color: #ffffff;" valign="top"><img class="twocand" src="Images/student-support/SRC/Elections/Specer Ali.jpg" width="150px" /></td>
+<td align="left" style="background-color: #ffffff;" valign="top"><img class="twocand" src="Images/student-support/SRC/Elections/Will Cody.jpg" width="150px" /></td>
+</tr>
+<tr>
+<td class="candidate_td" valign="top">
+<p>First we plan to understand the concerns of campus using student voice, we will send out survey, conduct focus groups, and talk to individuals. Second, we will bring this information to representative council where we will decide the best method of how to approach administration. Lastly, we will approach administration with a thought out solution in hopes to implement ideas.</p>
+</td>
+<td class="candidate_td" valign="top">
+<p>Past presidents have built a solid trust with the administration, and students have stepped up and let us know their concerns. Now it&rsquo;s time for the SRC to start letting the students know what effect that voice is having. We want to make that information more accessible to YOU, the student. There&rsquo;s an SRC website, do you know where it is? They have a Facebook page, have you liked it? We want to take what the SRC is doing now and step it up and make this information easier to access.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -END CONTENT--->
+<p><a class="hideLink readMore_link" href="#" id="Q3-hide" onclick="showHide('Q3');return false;">HIDE RESPONSES</a></p>
+</div>
+<!-- END QUESTION -->
+<p></p>
+<!-- QUESTION -->
+<h2>Q: How did your team come together?</h2>
+<p><a class="showLink readMore_link" href="#" id="Q4-show" onclick="showHide('Q4');return false;">SHOW RESPONSES</a></p>
+<div class="more" id="Q4"><!-- -HIDDEN CONTENT -->
+<table border="0" class="responses">
+<tbody>
+<tr>
+<td valign="top">
+<h3>Spencer Galbraith &amp; Ali Sharp</h3>
+</td>
+<td valign="top">
+<h3>Will Ayer &amp; Cody Cutler</h3>
+</td>
+</tr>
+<tr>
+<td align="left" style="background-color: #ffffff;" valign="top"><img class="twocand" src="Images/student-support/SRC/Elections/Specer Ali.jpg" width="150px" /></td>
+<td align="left" style="background-color: #ffffff;" valign="top"><img class="twocand" src="Images/student-support/SRC/Elections/Will Cody.jpg" width="150px" /></td>
+</tr>
+<tr>
+<td class="candidate_td" valign="top">
+<p>Having served the students on campus we have received individual impressions that we could best be the Lord&rsquo;s hands through this service. Through our experience working together in Recreational Sports and SRC, we recognize that we have complementary vision and leadership styles.</p>
+</td>
+<td class="candidate_td" valign="top">
+<p>We met in SRC. Since that time our friendship has only grown. Will is genuine and kind. He truly has everyone else&rsquo;s best interest in mind. Cody is loyal. He is the go getter in the team. Together, we don&rsquo;t just get the job done. We get it done right Serving as SRC president and vice president will bring our friendship full circle and allow us to serve you.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- -END CONTENT--->
+<p><a class="hideLink readMore_link" href="#" id="Q4-hide" onclick="showHide('Q4');return false;">HIDE RESPONSES</a></p>
+</div>
+<!-- END QUESTION -->
+<h2>Q: Why should the students vote for you?</h2>
+<p><a class="showLink readMore_link" href="#" id="Q5-show" onclick="showHide('Q5');return false;">SHOW RESPONSES</a></p>
+<div class="more" id="Q5">
+<table border="0" class="responses">
+<tbody>
+<tr>
+<td valign="top">
+<h3>Spencer Galbraith &amp; Ali Sharp</h3>
+</td>
+<td valign="top">
+<h3>Will Ayer &amp; Cody Cutler</h3>
+</td>
+</tr>
+<tr>
+<td align="left" style="background-color: #ffffff;" valign="top"><img class="twocand" src="Images/student-support/SRC/Elections/Specer Ali.jpg" width="150px" /></td>
+<td align="left" style="background-color: #ffffff;" valign="top"><img class="twocand" src="Images/student-support/SRC/Elections/Will Cody.jpg" width="150px" /></td>
+</tr>
+<tr>
+<td class="candidate_td" valign="top">
+<p>Our experience in SRC and Recreational Sports has taught us how to represent the students to administration in a professional manner. We have also developed leadership skills and the ability to communicate in a way that will help us lead students effectively. Our passion for BYU-Idaho and students allows us to be personable with people we come in contact with.</p>
+</td>
+<td class="candidate_td" valign="top">
+<p>Honestly, this campaign is not about us. It is about YOU. Our participation in many student organizations on campus has given us the skills to serve you&mdash;To improve YOUR campus experience. You are what has made this campus the place it is. By keeping YOU in the loop, you can help us make this campus what it can become.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><a class="hideLink readMore_link" href="#" id="Q5-hide" onclick="showHide('Q5');return false;">HIDE RESPONSES</a></p>
+</div>
+<p></p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="x36320" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x36315" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

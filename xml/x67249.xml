@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<CommonPage ID="x67249" Name="Other Programs" Layout="default.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Other Programs</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Other Programs</Abstract><xPower Type="GroupStart" GroupStart="" Name="ImageColumn" label="Image Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveRight type="boolean" hidden="true" label="Toggle column left or right (left is default)" readonly="false" required="false">false</MoveRight><xPower Type="List" List="xpowercomponent_ImageComponent" Name="ImageColumnComponentList" label="Images" readonly="false" hidden="false" required="false" Component="" CompTypes="LeftColumnImageComponent" Expanded="false"><xPower Type="Component" Component="" Name="ImageComponent" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent" Expanded="false"/></xPower><xPower Type="List" List="xpowercomponent_TextComponent" Name="TextColumnComponentList" label="Text Box" readonly="false" hidden="false" required="false" Component="" CompTypes="ColumnTextComponent" Expanded="false"><xPower Type="Component" Component="" Name="TextComponent" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent" Expanded="false"/></xPower></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<h4><strong>Morning Show</strong></h4>
+<p>&nbsp;</p>
+<p><strong>Monday - Friday: 8-9 a.m.</strong><br /> Presented with an array of light  and upbeat music, join host Mark Bailey as he plays everything from  energetic classical music to famous jazz music.</p>
+<hr />
+<br />
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h4><strong>Perfect Score</strong></h4>
+<p><strong><br /></strong></p>
+<p><strong>Friday: 1-2 p.m.</strong><br />A musical venture produced by KBYI  through some of the most exciting, dramatic, inspiring, and romantic  'perfect scores' to grace the silver screen.</p>
+<p>&nbsp;</p>
+<p>Coming Up...</p>
+<ul>
+<li>4-2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time</li>
+<li>4-9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Westerns</li>
+<li>4-16&nbsp;&nbsp;&nbsp;&nbsp; Space</li>
+<li>4-23&nbsp;&nbsp;&nbsp;&nbsp; Disney</li>
+<li>4-30&nbsp;&nbsp;&nbsp;&nbsp; Airplanes</li>
+</ul>
+<hr />
+<p>&nbsp;</p>
+<br />
+<p>&nbsp;</p>
+<h4><strong>Showstoppers</strong></h4>
+<p>&nbsp;</p>
+<p><strong>Monday - Friday: 12-1 p.m.</strong><br />Re-live the great music of the  Broadway stage and movie theater and get the chance to receive tickets  given away for area productions throughout the month.</p>
+<p>For a list of showstopper tracks click <a href="x4303.xml" title="showstopper tracks">here</a>.</p>
+<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h4><strong>Sundays from BYU-Idaho</strong></h4>
+<p>&nbsp;</p>
+<p><strong>Sundays: 8am-8pm </strong><br />Tune in to a full day of  inspirational programming for your Sabbath day. You'll hear popular LDS  artists, as well as Teachings for our Time, Music and the Spoken Word,  and BYU-Idaho Devotionals. The music is hosted by students from  BYU-Idaho, and it's all simulcast on KBYR 91.5 FM.</p>]]></BodyCopy><xPower Type="Component" Component="x4297" Name="RelatedLinks" label="Related Links" readonly="false" hidden="false" required="false" CompTypes="RelatedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="false" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x4147" Name="SiteControl" label="Site Control" readonly="true" hidden="true" required="false" CompTypes="SiteControl" Expanded="false"/></CommonPage>

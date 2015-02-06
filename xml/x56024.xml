@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CollegeDeptHome ID="x56024" Name="Physics" Layout="college-dept_home.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Welcome to the Physics Department</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Our website describes the purpose, courses, and upcoming activities in the Physics Department at BYU-Idaho in Rexburg, Idaho.</Abstract><xPower Type="List" Name="MainImages" label="Top Image(s)" readonly="false" hidden="false" required="false" Expanded="" List=""><MainImage type="imagefile" readonly="false" hidden="false" required="false" Width="950" Border="" Alignment="" Expanded="true" Height="335" AlternateText="Photo courtesy of NASA" HSpace="" VSpace="">physics/Astronaut.png</MainImage><MainImage type="imagefile" readonly="false" hidden="false" required="false" Width="950" Border="" Alignment="" Expanded="true" Height="335" AlternateText="Meissner Effect, Photo courtesy of Bro Jon Johnson" HSpace="" VSpace="">physics/Cube.png</MainImage><MainImage type="imagefile" readonly="false" hidden="false" required="false" Width="950" Border="" Alignment="" Expanded="true" Height="335" AlternateText="Photo courtesy of NASA" HSpace="" VSpace="">physics/Liftoff.png</MainImage><MainImage type="imagefile" readonly="false" hidden="false" required="false" Width="950" Border="" Alignment="" Expanded="true" Height="335" AlternateText="Photo courtesy of NASA" HSpace="" VSpace="">physics/Sunrise.png</MainImage><MainImage type="imagefile" readonly="false" hidden="false" required="false" Width="950" Border="" Alignment="" Expanded="true" Height="335" AlternateText="Teslacoil, Photo courtesy of Bro Jon Johnson" HSpace="" VSpace="">physics/Tesla_Coil.png</MainImage></xPower><xPower Type="GroupStart" Name="Main" label="Main Content" readonly="false" hidden="false" required="false" Expanded="true" GroupStart=""><xPower Type="LinkSet" Name="CourseHighlights" label="Course Highlights" readonly="false" hidden="false" required="false" QuerySchemas="" QueryLocationRoots="" Title="" Values="" LinkSet="" Expanded="false"><Exports></Exports></xPower><xPower Type="LinkSet" Name="FeaturedStudent" label="Featured Student" readonly="false" hidden="false" required="false" QuerySchemas="" QueryLocationRoots="" Title="College News" Values="x35743|x35737" LinkSet=""/><FullText type="boolean" label="Check for text body to use the full width of the page." readonly="false" hidden="false" required="false">true</FullText><TopText type="boolean" label="Check to put text body above Highlighted News" readonly="false" hidden="false" required="false">true</TopText><BodyCopy type="dhtml" label="Optional Content" readonly="false" hidden="false" required="false" Height=""><![CDATA[
+			<p>Romney 118 ~ Rexburg, ID 83460-0520 ~ 208.496.7730</p>
+<p>The BYU-Idaho Physics Department strives to develop reasoning, mathematical, and communication skills within a rigorous academic program while maintaining the same student-oriented environment to prepare students for their chosen profession.&nbsp; Every class is specifically designed to develop those skills while teaching students the principles of physics.</p>
+<style><!--
+#bodycontainer {
+                padding-top:140px;
+                width:100%;
+            }
+            #innercontainer{
+                width:1000px;
+                margin:auto;
+            }
+            #container710{
+                /*                background-color: lightgray;*/
+                height:600px;
+            }
+            #left230{
+                background-color:#326BA9;
+                height:500px;
+            }
+            .gallerybox{
+                -moz-box-shadow: 0px 0px 5px #000000;
+                -webkit-box-shadow: 0px 0px 5px #000000;
+                box-shadow: 0px 0px 5px #000000;
+                border:1px solid #777777;
+                overflow:auto;
+                padding:10px;
+                margin:4px;
+            }
+            .picbox{
+                background-color:lightblue;
+                margin:0px 5px;
+                float:left;
+                width:218px;
+                height:200px;
+                border: 1px solid #787878;
+            }
+            img{
+                padding:0px;
+                margin:0px;
+                border:none;
+            }
+            .picboxfirst{
+                margin-left:0px;
+                padding-left:0px;
+            }
+            .picboxlast{
+                margin-right:0px;
+                padding-right:0px;
+            }
+--></style>
+<div class="span-18">
+<div class="span-18">
+<div class="gallerybox">
+<div class="picbox picboxfirst"><a href="x34791.xml"><img alt="BYUI" height="200" src="Images/physics/Pressure(0).png" title="BYUI" width="218" /></a></div>
+<div class="picbox"><a href="x7166.xml"><img alt="BYUI" height="200" src="Images/physics/Current.png" title="BYUI" width="218" /></a></div>
+<div class="picbox picboxlast"><a href="http://www.byui.edu/physical-sciences-engineering/faculty-resources"><img alt="BYUI" height="200" src="Images/physics/Faculty.png" title="BYUI" width="218" /></a></div>
+</div>
+</div>
+</div>
+<style><!--
+#container710{
+                float:left;
+                overflow:hidden;           
+            }
+            .bottomboxes{
+                border-radius: 4px;
+                width: 218px;
+                height: 200px;
+                box-sizing: border-box;
+                background-color: #f2f2f2;
+                border: thin solid #e0e0e0;
+                float: left;
+                margin:5px;
+            }
+            .middle{
+                margin:5px 12px;
+            }
+            .bottomboxheader{
+                width: 100%; 
+                background-color: #eaeaea;
+                margin-right: 20px; 
+                padding-top: 5px; 
+                border-bottom: solid 1px #e0e0e0;
+            }
+            .bottomboxheadertext{
+                margin: 0px 0px 5px 15px;
+                font-size: large;
+            }
+            .bottomboxbullettext{
+                font-size: .9em;
+                margin-left: 10px; 
+                margin-top: 20px; 
+                padding-left: 5px;
+                margin-bottom: 10px;
+                color: #60686e;
+            }
+            .bottomboxbullettext a{
+                text-decoration: none;
+                color: #60686e;
+            }
+            .bottomboxbullettext a:hover{
+                color:#056CB6;
+            }
+--></style>
+<div class="span-18" id="container710">
+<div class="clear clearfix" style="display: block; position: relative; clear: both; margin-top: 8px;">
+<div class="bottomboxes">
+<div class="bottomboxheader">
+<p class="bottomboxheadertext" style="text-align: left;">&nbsp; Quick Links for Visitors</p>
+</div>
+<p class="bottomboxbullettext"><a href="web-training/tutorials-and-refs/web-editor-html-snippets/multiple-image-layout" title="Expeditions"><img alt="arrow" height="9" src="http://www.byui.edu/Images/advising/blue-arrow.png" width="5" /></a> <a href="x44404.xml">Degrees Offered</a></p>
+<p class="bottomboxbullettext"><img alt="arrow" height="9" src="http://www.byui.edu/Images/advising/blue-arrow.png" width="5" /> <a href="http://www.aps.org/programs/education/images/whyphysics.jpg">Top 10 Reasons to take Physics</a></p>
+<p class="bottomboxbullettext"><img alt="arrow" height="9" src="http://www.byui.edu/Images/advising/blue-arrow.png" width="5" /> <a href="http://www.aps.org/programs/education/loader.cfm?csModule=security/getfile&amp;PageID=235197">Seven Myths about High School Physics</a></p>
+</div>
+<div class="bottomboxes middle">
+<div class="bottomboxheader">
+<p class="bottomboxheadertext">&nbsp;&nbsp; Quick Links for Students</p>
+</div>
+<p class="bottomboxbullettext"><a href="web-training/tutorials-and-refs/web-editor-html-snippets/multiple-image-layout" title="Change Major"><img alt="arrow" height="9" src="http://www.byui.edu/Images/advising/blue-arrow.png" width="5" /></a> <a href="x33503.xml"></a><a href="x24041.xml">Senior Thesis Center</a></p>
+<p class="bottomboxbullettext"><a href="web-training/tutorials-and-refs/web-editor-html-snippets/multiple-image-layout" title="Internship Info"><img alt="arrow" height="9" src="http://www.byui.edu/Images/advising/blue-arrow.png" width="5" /></a> <a href="http://www.byui.edu/academic-support-centers/tutoring-center/physics-drop-in-lab">Physics Tutoring</a></p>
+<p class="bottomboxbullettext"><a href="web-training/tutorials-and-refs/web-editor-html-snippets/multiple-image-layout" title="Class Planning"><img alt="arrow" height="9" src="http://www.byui.edu/Images/advising/blue-arrow.png" width="5" /> </a><a href="x24043.xml">PH 105 Pretest</a></p>
+<p class="bottomboxbullettext"><a href="web-training/tutorials-and-refs/web-editor-html-snippets/multiple-image-layout" title="Find a Job"><img alt="arrow" height="9" src="http://www.byui.edu/Images/advising/blue-arrow.png" width="5" /></a> <a href="x41005.xml">Observatory</a></p>
+<p>&nbsp;</p>
+</div>
+<div class="bottomboxes last">
+<div class="bottomboxheader">
+<p class="bottomboxheadertext">&nbsp;&nbsp; Quick Links for Faculty</p>
+</div>
+<p class="bottomboxbullettext"><strong><a href="web-training/tutorials-and-refs/web-editor-html-snippets/multiple-image-layout" title="Change Major"><img alt="arrow" height="9" src="http://www.byui.edu/Images/advising/blue-arrow.png" width="5" /></a> </strong> <a href="http://www.byui.edu/physical-sciences-engineering/faculty-resources">College Resources </a></p>
+<p class="bottomboxbullettext"><strong><img alt="arrow" height="9" src="http://www.byui.edu/Images/advising/blue-arrow.png" width="5" /></strong> <a href="http://www.byui.edu/student-records/academic-deadlines">Academic Calendar</a></p>
+<p class="bottomboxbullettext"><strong><a href="web-training/tutorials-and-refs/web-editor-html-snippets/multiple-image-layout" title="Change Major"><img alt="arrow" height="9" src="http://www.byui.edu/Images/advising/blue-arrow.png" width="5" /></a> </strong><a href="http://www.byui.edu/Documents/student-records-and-registration/Department%20Info/Winter2013ExamSchedule.pdf">Finals Schedule</a></p>
+</div>
+</div>
+<div style="margin: 10px 0 0 3px; clear: both;"><a href="x31711.xml"><img alt="a" height="125" src="Images/physics/Planetarium(0).png" style="display: block; box-shadow: 0px 0px 5px #000000;" title="Planetarium" width="700" /></a></div>
+</div>]]></BodyCopy></xPower><xPower Type="GroupStart" Name="FaceBook" label="Facebook Integration" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"/><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BannerAd type="multiselect" label="Rotating Ads" readonly="false" hidden="false" required="false" MaxChoices="" PageSize="" Query_PageType="BannerAdComponent" Query_LocationRoot="x6922" Query_SelectedFields="@Name|@ID" AdditionalFilter_XPathQuery=""/><xPower Type="GroupStart" Name="QuickLinksGroup" label="Quick Links Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><xPower Type="Component" Name="QuickLinks1" label="Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinks2" label="Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinks3" label="Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="x21260" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" Name="DeptEvents" label="Define Your Events Folder" readonly="false" hidden="false" required="false" Expanded="false" Navigation="Children" GenerationOrder="down" StartPage="x7181" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Navigation" Name="DeptAds" label="Define Your Ads Folder" readonly="false" hidden="false" required="false" Expanded="false" Navigation="Children" GenerationOrder="down" StartPage="x7169" MaxNodes="" MaxDepth="" Query=""><Exports>&lt;Export&gt;&lt;Name&gt;Caption&lt;/Name&gt;&lt;Value&gt;/*/Caption&lt;/Value&gt;&lt;/Export&gt;</Exports></xPower><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.0</Priority></xPower><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="" List=""><xPower Type="Component" Name="xPower" readonly="false" hidden="false" required="false" Component="" CompTypes=""/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x1855" CompTypes="SiteControl" Expanded="false"/></CollegeDeptHome>

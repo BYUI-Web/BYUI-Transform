@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.70 - http://www.ingeniux.com ***-->
+<AdminPage ID="x57165" Name="Study Tips" Layout="admin_office_home.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Valuable Study Tips</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Valuable Study Tips</Abstract><MainMesgTop type="boolean" label="Enable to move &quot;Main Message&quot; to top of page" readonly="false" required="false" hidden="false">false</MainMesgTop><IntroCopy type="dhtml" label="Main Message" readonly="false" hidden="false" required="false"><![CDATA[<div style="display: inline-block; vertical-align: top; float: left; width: 380px; height: 180px;"><img alt="tutoring" height="180" id="HomePageImage" src="http://www.byui.edu/imageLibrary/HomePage/LAL-KurzweilReadingProgram.jpg" width="380" /></div>
+<div style="display: inline-block; vertical-align: top; width: 250px; height: 180px;">
+<h4 style="text-align: center;"><strong style="text-align: center;">Study Tips</strong><br />Click on links below for handouts and study tips.</h4>
+</div>
+<br /><br /> 
+<table border="10" cellpadding="10" cellspacing="10" style="text-align: center; margin: auto;">
+<tbody>
+<tr style="background-color: #efefec;">
+<td>
+<h3 style="text-align: center;"><a href="http://www.byui.edu/StudySkills/skills/preparation.htm#spiritual_preparation" target="_self">&nbsp;Spiritual Preparation</a></h3>
+</td>
+<td>
+<h3 style="text-align: center;"><a href="http://www.byui.edu/StudySkills/skills/INPUT.htm#note_taking_&amp;_listening" target="_self">Note Taking &amp; Listening</a></h3>
+</td>
+</tr>
+<tr style="background-color: #ffffff;">
+<td>
+<h3 style="text-align: center;"><a href="http://www.byui.edu/StudySkills/skills/preparation.htm#purpose/attitude" target="_self">&nbsp;&nbsp;Purpose/Attitude</a></h3>
+</td>
+<td>
+<h3 style="text-align: center;"><a href="http://www.byui.edu/StudySkills/skills/processing.htm#reading_skills" target="_self">Reading Skills</a></h3>
+</td>
+</tr>
+<tr style="background-color: #efefec;">
+<td>
+<h3 style="text-align: center;">&nbsp;&nbsp;<a href="http://www.byui.edu/StudySkills/skills/preparation.htm#self_management" target="_self">Self Management</a></h3>
+</td>
+<td>
+<h3 style="text-align: center;"><a href="http://www.byui.edu/StudySkills/skills/processing.htm#thinking_critically" target="_self">Thinking Critically</a></h3>
+</td>
+</tr>
+<tr style="background-color: #ffffff;">
+<td>
+<h3 style="text-align: center;">&nbsp;<a href="http://www.byui.edu/StudySkills/skills/preparation.htm#physical_preparedness" target="_self">Physical Preparedness</a></h3>
+</td>
+<td>
+<h3 style="text-align: center;"><a href="http://www.byui.edu/StudySkills/skills/processing.htm#collaborative_learning" target="_self">Collaborative Learning</a></h3>
+</td>
+</tr>
+<tr style="background-color: #efefec;">
+<td>
+<h3 style="text-align: center;">&nbsp;<a href="http://www.byui.edu/StudySkills/skills/preparation.htm#social_skills" target="_self">Social Skills</a></h3>
+</td>
+<td>
+<h3 style="text-align: center;">&nbsp;<a href="http://www.byui.edu/StudySkills/skills/STORAGE.htm#immediate_&amp;_spaced_review" target="_self">Immediate&amp; Spaced Review</a></h3>
+</td>
+</tr>
+<tr style="background-color: #ffffff;">
+<td>
+<h3 style="text-align: center;"><a href="http://www.byui.edu/StudySkills/skills/INPUT.htm#background_knowledge/skill_set" target="_self">Background Knowledge/ Skill Set</a></h3>
+</td>
+<td>
+<h3 style="text-align: center;"><a href="http://www.byui.edu/StudySkills/skills/OUTPUT.htm#test_taking_skills" target="_self">Test Taking Skills</a></h3>
+</td>
+</tr>
+<tr style="background-color: #efefec;">
+<td>
+<h3 style="text-align: center;"><a href="http://www.byui.edu/StudySkills/skills/INPUT.htm#classroom_readiness" target="_self">Classroom Readiness</a></h3>
+</td>
+<td>
+<h3 style="text-align: center;"><a href="http://www.byui.edu/StudySkills/skills/OUTPUT.htm#written_and_oral_language_skills" target="_self">Written and Oral Language Skills</a></h3>
+</td>
+</tr>
+</tbody>
+</table>]]></IntroCopy><xPower Type="GroupStart" GroupStart="" Name="CellGroup" label="Cells" readonly="false" hidden="false" required="false" Expanded="false"><numColumns type="enumeration" values="1 2 3 4 5" label="Select number of cell columns." readonly="false" hidden="false" required="true">3</numColumns><xPower Type="List" List="xpowercomponent_Cell" Name="CellList" label="Cell List" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"><xPower Type="Component" Component="" Name="Cell" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"/></xPower></xPower><xPower Type="List" List="xpowercomponent_BannerAd" Name="BannerAds" label="Rotating Ads (650x216px required)" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"><xPower Type="Component" Component="" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/></xPower><xPower Type="Navigation" StartPage="" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="" Query="" Name="DeptEvents" label="Define Your Events Folder" readonly="false" hidden="false" required="false" Expanded="false"/><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="QuickLinksGroup" label="Quick Links Group" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Component="" Name="QuickLinks" label="Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x25860" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></AdminPage>

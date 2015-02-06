@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x58483" Name="my.byui.edu" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">my.byui.edu</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">my.byui.edu</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<div>
+<table style="width: 300px; margin: 0px;">
+<tbody>
+<tr>
+<td style="color: #0791cf;" width="50%"><strong>Faculty</strong></td>
+<td style="color: #878f06;" width="50%"><strong>Students</strong></td>
+</tr>
+</tbody>
+</table>
+<table border="0" style="width: 300px;">
+<tbody>
+<tr>
+<td style="width: 10%;"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/blue_video_icon.jpg" title="Video" width="18" /></td>
+<td style="width: 41%;">Video</td>
+<td style="width: 9%;"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/green_video_icon.jpg" title="Video for students" width="18" /></td>
+<td style="width: 40%;">Video</td>
+</tr>
+<tr>
+<td><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/blue_picture_icon.jpg" title="Text with images" width="18" /></td>
+<td>Text and Images</td>
+<td><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/green_picture_icon.jpg" title="Text with images for students" width="18" /></td>
+<td>Text and Images</td>
+</tr>
+<tr>
+<td><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/blue_text_icon.jpg" title="Text only" width="18" /></td>
+<td>Text Only</td>
+<td><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/green_text_icon.jpg" title="Text only for students" width="18" /></td>
+<td>Text Only</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div style="color: #f00;">VIDEO TUTORIALS will load faster using the Firefox web browser.<br /> If you are using Internet Explorer, load times may be up to a minute or more.</div>
+<br />
+<div style="float: left; width: 340px;">
+<h1 style="color: #0791cf;">Faculty Tutorials</h1>
+<div>
+<table>
+<tbody>
+<tr>
+<td width="75%">January 8th Training</td>
+<td>&nbsp;<a href="https://web.byui.edu/Services/Login/?RedirectURL=http://www.byui.edu/videoplayer/BYUIplayer.html?StartCue=0%26EndCue=2743%26VideoName=faculty_Training_01_08 %26VideoType=lectures" target="blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/blue_video_icon.jpg" title="Video" width="18" /></a></td>
+</tr>
+<tr>
+<td width="75%">Authorization Add</td>
+<td><a href="http://stream.byui.edu/tutorials/mybyui/addauthorization.swf" onclick="return openWin(this.href,400,300)" target="_blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/blue_video_icon.jpg" title="Video" width="18" /></a> <a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Faculty/Authorization_AddSS.pdf" target="_blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/blue_picture_icon.jpg" title="Text with images" width="18" /></a> <a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Faculty/authorization_add.pdf" target="_blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/blue_text_icon.jpg" title="Text only" width="18" /></a></td>
+</tr>
+<tr>
+<td width="75%">Authorization Advanced Search</td>
+<td><a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Faculty/Authorization_AdvancedSearchSS.pdf" target="blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/blue_picture_icon.jpg" title="Text with images" width="18" /></a> <a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Faculty/Authorization_AdvancedSearch.pdf" target="blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/blue_text_icon.jpg" title="Text only" width="18" /></a></td>
+</tr>
+<tr>
+<td width="75%">Authorization Delete</td>
+<td><a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Faculty/Authorization_DeleteSS.pdf" target="blank"> <img height="18" src="http://www.byui.edu/ats/tutorials/Icons/blue_picture_icon.jpg" title="Text with images" width="18" /></a> <a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Faculty/Authorization_Delete.pdf" target="blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/blue_text_icon.jpg" title="Text only" width="18" /></a></td>
+</tr>
+<tr>
+<td width="75%">Authorization Gotcha's</td>
+<td><!-- <a href="http://www.byui.edu/ats/tutorials/mybyui/faculty/authorization_deletess.pdf" _mce_href="http://www.byui.edu/ats/tutorials/mybyui/faculty/authorization_deletess.pdf" target="blank"><img src="http://www.byui.edu/ats/tutorials/Icons/blue_picture_icon.jpg" _mce_src="http://www.byui.edu/ats/tutorials/Icons/blue_picture_icon.jpg" title="Text with images" width="18" height="18" /></a> --> 												&nbsp;<a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Faculty/Authorization_Gotchas.pdf" target="blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/blue_text_icon.jpg" title="Text only" width="18" /></a></td>
+</tr>
+<tr>
+<td width="75%">Course List</td>
+<td><a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Faculty/CourseListSS.pdf" target="blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/blue_picture_icon.jpg" title="Text with images" width="18" /></a> <a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Faculty/CourseList.pdf" target="blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/blue_text_icon.jpg" title="Text only" width="18" /></a></td>
+</tr>
+<tr>
+<td width="75%">Email Students</td>
+<td><a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Faculty/EmailStudentsSS.pdf" target="blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/blue_picture_icon.jpg" title="Text with images" width="18" /></a> <a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Faculty/EmailStudents.pdf" target="blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/blue_text_icon.jpg" title="Text only" width="18" /></a></td>
+</tr>
+<tr>
+<td width="75%">Faculty Reserve</td>
+<td><a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Faculty/FacultyReserveSS.pdf" target="blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/blue_picture_icon.jpg" title="Text with images" width="18" /></a> <a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Faculty/FacultyReserve.pdf" target="blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/blue_text_icon.jpg" title="Text only" width="18" /></a></td>
+</tr>
+<tr>
+<td width="75%">Grade Entry</td>
+<td><a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Faculty/GradeEntrySS.pdf" target="blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/blue_picture_icon.jpg" title="Text with images" width="18" /></a> <a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Faculty/GradeEntry.pdf" target="blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/blue_text_icon.jpg" title="Text only" width="18" /></a></td>
+</tr>
+<tr>
+<td width="75%">Profile</td>
+<td><a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Faculty/ProfileSS.pdf" target="blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/blue_picture_icon.jpg" title="Text with images" width="18" /></a> <a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Faculty/Profile.pdf" target="blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/blue_text_icon.jpg" title="Text only" width="18" /></a></td>
+</tr>
+<tr>
+<td width="75%">Print Pictorial List</td>
+<td><a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Faculty/PrintPictorialList_ss.pdf" target="blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/blue_picture_icon.jpg" title="Text with images" width="18" /></a> <a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Faculty/PrintPictorialList.pdf" target="blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/blue_text_icon.jpg" title="Text only" width="18" /></a></td>
+</tr>
+<tr>
+<td width="75%">Print Class Roll</td>
+<td><a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Faculty/PrintPictorialList_ss.pdf" target="blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/blue_picture_icon.jpg" title="Text with images" width="18" /></a> <a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Faculty/PrintClassRoll.pdf" target="blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/blue_text_icon.jpg" title="Text only" width="18" /></a></td>
+</tr>
+<tr>
+<td width="75%">Seating Charts</td>
+<td><a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Faculty/SeatingChartSS.pdf" target="blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/blue_picture_icon.jpg" title="Text with images" width="18" /></a> <a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Faculty/SeatingChart.pdf"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/blue_text_icon.jpg" title="Text only" width="18" /></a></td>
+</tr>
+<tr>
+<td width="75%">Student Records</td>
+<td><a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Faculty/StudentRecordsSS.pdf" target="blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/blue_picture_icon.jpg" title="Text with images" width="18" /></a> <a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Faculty/StudentRecords.pdf" target="blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/blue_text_icon.jpg" title="Text only" width="18" /></a></td>
+</tr>
+<tr>
+<td width="75%">View Requisites</td>
+<td><a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Faculty/ViewRequisitesSS.pdf" target="blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/blue_picture_icon.jpg" title="Text with images" width="18" /></a> <a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Faculty/ViewRequisites.pdf" target="blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/blue_text_icon.jpg" title="Text only" width="18" /></a></td>
+</tr>
+<tr>
+<td width="75%">Increase Class Size</td>
+<td>&nbsp;<a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Faculty/IncreaseClassSize.pdf" target="blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/blue_text_icon.jpg" title="Text only" width="18" /></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div style="float: left; width: 20px;">&nbsp;</div>
+<div style="float: left; width: 340px;">
+<h1 style="color: #878f06;">Student Tutorials</h1>
+<div>
+<table>
+<tbody>
+<tr>
+<td width="75%">Why the Change?</td>
+<td>&nbsp;<a href="https://web.byui.edu/Services/Login/?RedirectURL=http://www.byui.edu/videoplayer/BYUIplayer.html?StartCue=2%26EndCue=161%26VideoName=New_MY_BYUI%26VideoType=lectures" target="blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/green_video_icon.jpg" title="Video for students" width="18" /></a></td>
+</tr>
+<tr>
+<td width="75%">Add Courses</td>
+<td><a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Student/AddCoursesSS.pdf" target="blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/green_picture_icon.jpg" title="Text with images for students" width="18" /></a> <a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Student/AddCourses.pdf" target="blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/green_text_icon.jpg" title="Text only for students" width="18" /></a></td>
+</tr>
+<tr>
+<td width="75%">Course Details</td>
+<td><a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Student/CourseDetailsSS.pdf" target="blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/green_picture_icon.jpg" title="Text with images for students" width="18" /></a> <a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Student/CourseDetails.pdf" target="blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/green_text_icon.jpg" title="Text only for students" width="18" /></a></td>
+</tr>
+<tr>
+<td width="75%">Course Schedule</td>
+<td>&nbsp;<a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Student/CourseScheduleSS.pdf" target="blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/green_picture_icon.jpg" title="Text with images for students" width="18" /></a></td>
+</tr>
+<tr>
+<td width="75%">Degree Audit</td>
+<td><a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Student/Degree_AuditSS.pdf" target="blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/green_picture_icon.jpg" title="Text with images for students" width="18" /></a> <a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Student/Degree_Audit.pdf" target="blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/green_text_icon.jpg" title="Text only for students" width="18" /></a></td>
+</tr>
+<tr>
+<td width="75%">Drop Courses</td>
+<td><a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Student/DropCoursesSS.pdf" target="blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/green_picture_icon.jpg" title="Text with images for students" width="18" /></a> <a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Student/DropCourses.pdf" target="blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/green_text_icon.jpg" title="Text only for students" width="18" /></a></td>
+</tr>
+<tr>
+<td width="75%">Registration Overview</td>
+<td>&nbsp;<a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Student/RegistrationOverviewSS.pdf" target="blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/green_picture_icon.jpg" title="Text with images for students" width="18" /></a></td>
+</tr>
+<tr>
+<td width="75%">Transfer Students</td>
+<td><a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Student/TransferSS.pdf" target="blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/green_picture_icon.jpg" title="Text with images for students" width="18" /></a> <a href="Documents/academic-technology-support/Tutorials/my.byui.edu/Student/Transfer.pdf" target="blank"><img height="18" src="http://www.byui.edu/ats/tutorials/Icons/green_text_icon.jpg" title="Text only for students" width="18" /></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x15119" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

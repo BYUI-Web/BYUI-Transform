@@ -1,0 +1,457 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<Content ID="x51164" Name="Online Training Options" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Online Training Options</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Online Training Options</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<meta content="IE=EmulateIE7" http-equiv="X-UA-Compatible" />
+<title>I-Learn Player</title>
+<p><link href="../../favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" /><link href="../../Scripts/ext-3.0.0-2/resources/css/ext-all.css" rel="stylesheet" type="text/css" /><link href="../../Styles_vv1CE0608945A7D12.css" rel="stylesheet" type="text/css" /></p>
+<!--[if IE 6]><link rel="stylesheet" type="text/css" href="/IE6Styles.css" /><![endif]-->
+<p><link href="../../resource/14853/Web/Style/styles.css" rel="stylesheet" type="text/css" /></p>
+<script src="../../Scripts/ext-3.0.0-2/ext-comb8.js" type="text/javascript"></script>
+<script src="../../Scripts/ext-3.0.0-2/locale/ext-lang-en.js" type="text/javascript"></script>
+<script type="text/javascript">
+Ext.BLANK_IMAGE_URL = '/p';Ext.chart.Chart.CHART_URL='/Scripts/ext-3.0.0-2/resources/charts.swf';
+</script>
+<script type="text/javascript">
+function convertLocalTimeToUtcDateTime(date){return new Date(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate(), date.getUTCHours(), date.getUTCMinutes(), date.getUTCSeconds(), date.getUTCMilliseconds());}
+</script>
+<script language="javascript" src="../../Scripts/easyXDM-2.4.12.108/easyXDM.min.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+easyXDM.DomHelper.requiresJSON("/Scripts/easyXDM-2.4.12.108/json2.js");
+</script>
+<script language="javascript" type="text/javascript">
+var Privileges={None:0,Participate:1,CreateDomain:16,ReadDomain:32,UpdateDomain:64,DeleteDomain:128,CreateUser:256,ReadUser:512,UpdateUser:1024,DeleteUser:2048,CreateRole:4096,ReadRole:8192,UpdateRole:16384,DeleteRole:32768,CreateCourse:65536,ReadCourse:131072,UpdateCourse:262144,DeleteCourse:524288,CreateSection:1048576,ReadSection:2097152,UpdateSection:4194304,DeleteSection:8388608,GradeAssignment:16777216,GradeForum:33554432,GradeExam:67108864,SetupGradebook:134217728,ControlDomain:268435456,ControlCourse:536870912,ControlSection:1073741824,ReadGradebook:2147483648,ReportDomain:4294967296,ReportCourse:8589934592,ReportSection:17179869184,PostDomainAnnouncements:34359738368,Proxy:68719476736,UpdateCatalog:137438953472,ReportUser:274877906944,SubmitFinalGrade:549755813888,ControlEnrollment:1099511627776,ReadEnrollment:2199023255552,ReadCourseFull:4398046511104,ControlUser:8796093022208,ReadObjective:17592186044416,UpdateObjective:35184372088832,ReadCredits:70368744177664,UpdateCredits:140737488355328,All:-1};
+FrameApi=Ext.extend(Ext.util.Observable,{constructor:function(A){Ext.apply(this,A);this.addEvents("componentstatechanged","contentstatechanged","currentenrollmentchanged","helprequested","actionregistered","vieweropening","viewerclosed","editoropening","editorclosed","groupsetupopening","groupsetupclosed","jswindowopening","jswindowclosed","componentsaverequested","componentsaved","componentcancelled");this.listeners=A.listeners;this.componentStates=new Ext.util.MixedCollection();this.componentMethods=new Ext.util.MixedCollection();this.contentState={};this.actionListeners=new Ext.util.MixedCollection();this.enrollmentCache=new Ext.util.MixedCollection();FrameApi.superclass.constructor.call(this,A);this.on("closegroupsetupwindow",function(B){this.groupEditorClosed(B)},this);if(typeof (navToItem)=="undefined"){navToItem=function(D){var C=FRAME_API.contentState.courseId;if(!Ext.isEmpty(C)){var B="%24APPROOT%24/Component/ActivityPlayer?courseid="+FRAME_API.contentState.courseId+"&itemid="+encodeURIComponent(D);window.open(String.escape(B),"","scrollbars, resizable, menubar, width=860, height=600")}}}},findParentApi:function(B){if(B.parent!=B){try{if(B.parent.FRAME_API!=null){return B.parent.FRAME_API}}catch(A){}return this.findParentApi(B.parent)}return null},init:function(A){setInterval(this.pingServer.createDelegate(this),(A*1000*28));if(this.viewAda){Ext.getBody().addClass("ada-color")}try{this.easyXDM=easyXDM;this.rpc=new this.easyXDM.Rpc({},{local:{addListeners:function(E,C,F){if(!Ext.isEmpty(E)){if(typeof (E)=="string"){E=E.split("|")}for(var D=0;D<E.length;D++){FRAME_API.addListener(E[D],FRAME_API.rpc.onEvent.createDelegate(FRAME_API,[E[D]],0))}}},setShowBeforeUnloadPrompts:function(C){FRAME_API.setShowBeforeUnloadPrompts(C)},fireEvent:function(C,D){return FRAME_API.fireEvent(C,D)},saveComponent:function(C,D){return FRAME_API.saveComponent(C,D)},navigate:function(C){FRAME_API.navigate(C)},getComponentState:function(C,D){return FRAME_API.getComponentState(C,D)},callComponentMethod:function(E,F,D,C){return FRAME_API.callComponentMethod(E,F,D,C)},getProperties:function(){return{adminUrl:FRAME_API.adminUrl,appVersion:FRAME_API.appVersion,appRoot:FRAME_API.appRoot,authenticated:FRAME_API.authenticated,canProxy:FRAME_API.canProxy,canTeachACourse:FRAME_API.canTeachACourse,catalogEntries:FRAME_API.catalogEntries,contentState:FRAME_API.contentState,currentEnrollment:FRAME_API.currentEnrollment,enrollments:FRAME_API.enrollments,domainId:FRAME_API.domainId,domainName:FRAME_API.domainName,frameResourceRoot:FRAME_API.frameResourceRoot,frameRoot:FRAME_API.frameRoot,isAdmin:FRAME_API.isAdmin,isProxy:FRAME_API.isProxy,menuEntries:FRAME_API.menuEntries,proxyUserId:FRAME_API.proxyUserId,resourceRoot:FRAME_API.resourceRoot,rights:FRAME_API.rights,userId:FRAME_API.userId,userDisplay:FRAME_API.userDisplay,username:FRAME_API.username}},hasRight:function(C,D){return FRAME_API.hasRight(C,D)}},remote:{init:{},onEvent:{}}});this.rpc.init()}catch(B){}},pingServer:function(){Ext.Ajax.request({url:this.appRoot+"/ping",scope:this,success:function(response){var result=eval("("+response.responseText+")");if(!result.authenticated){this.statusDisplay.updateStatus(this.getPingText(this.I18N.notLoggedIn))}else{this.statusDisplay.hide()}},failure:function(response){this.statusDisplay.updateStatus(this.getPingText(this.I18N.notConnected))}})},getPingText:function(A){return String.format(A,['<a href="#" onclick="FRAME_API.statusDisplay.hide(); window.open(\'',this.appRoot,"/Login.vp/page.htm?ReturnUrl=",this.appRoot,"/Close','LoginWindow','width=800, height=600, scrollbars=yes'); return false;\">",this.I18N.login,"</a>"].join(""))},statusDisplay:function(){var B;var C;var D="";function A(E){return['<div class="gradebook_statusdisplay highlight_color" >',E,"</div>"].join("")}return{updateStatus:function(F){D=F;if(!B){B=Ext.DomHelper.append(document.body,{id:"msg-div",style:"position:absolute;z-index:20001"},true)}var E=false;if(!C){C=Ext.DomHelper.append(B,{html:A(F)},true);E=true;B.alignTo(document,"t-t")}else{C.update(A(F));B.alignTo(document,"t-t");C.frame()}if(E){C.slideIn("t")}},hide:function(){D="";if(C){C.ghost("t",{remove:true});C=null}},getText:function(){return D}}}(),checkViewClose:function(B,A){B.un("load",this.checkViewClose);if(B.dom.contentWindow.location.href=="about:blank"){A.hide()}},resizeViewWindow:function(){if(this.viewWindow==null){return }if(this.viewWindow.hidden){return }var A=Ext.get(document.body).getSize();this.viewWindow.setSize(A.width-64,A.height-64)},resizeEditWindow:function(){if(this.editWindow==null){return }if(this.editWindow.hidden){return }var A=Ext.get(document.body).getSize();this.editWindow.setSize(A.width-32,A.height-24)},resizeGroupEditWindow:function(){if(this.groupEditorWindow==null){return }if(this.groupEditorWindow.hidden){return }var A=Ext.get(document.body).getSize();this.groupEditorWindow.setSize(A.width-32,A.height-24)},editorClosed:function(A){if(typeof A=="boolean"){A={refreshAll:A}}if(this.editWindow&&this.editWindow.isVisible()){this.editWindow.hide()}this.fireEvent("editorclosed",A);this.fireEvent("jswindowclosed")},groupEditorClosed:function(A){if(this.groupEditorWindow&&this.groupEditorWindow.isVisible()){this.groupEditorWindow.hide()}this.fireEvent("groupsetupclosed",A);this.fireEvent("jswindowclosed")},hasRight:function(B,A){A=A||this.rights;A=A*1;if(A==-1||A==-2){A=1099511566320}if(B>=4294967296){var C=Math.floor(A/4294967296);var D=Math.floor(B/4294967296);return(D&C)?true:false}else{return(B&A)?true:false}},executeCommand:function(B,C,A){Ext.Ajax.request(Ext.apply(A,{url:this.adminUrl,params:Ext.apply(C||{},{cmd:B}),userCallback:A.callback,userScope:A.scope,scope:this,callback:null,success:function(D,E){if(!E){E=D.request.options}if(E.userCallback){var J=true;var G=[];var I=D.responseXML.getElementsByTagName("response");if(Ext.isEmpty(I)){J=false}else{for(var F=0;F<I.length;F++){var H={code:I[F].getAttribute("code"),message:I[F].getAttribute("message"),detailedMessage:I[F].textContent};G.push(H);if(H.code!="OK"){J=false}}}D.details=G;E.userCallback.call(E.userScope||this,E,J,D)}},failure:function(D,E){if(!E){E=D.request.options}if(E.userCallback){E.userCallback.call(E.userScope||this,E,false,D)}}}))},findEnrollment:function(C){for(var A=0;A<this.enrollments.length;A++){var B=this.enrollments[A];if(!Ext.isEmpty(B.id)&&B.id==C){return B}}if(this.enrollmentCache.containsKey(C)){return this.enrollmentCache.get(C)}return null},setComponentMethod:function(B,F,A,E,D){if(Ext.isEmpty(A)||Ext.isEmpty(B)||Ext.isEmpty(F)||typeof (E)!="function"){return }B=B.toLowerCase();F=F.toLowerCase();A=A.toLowerCase();var C=B+"|"+F+"|"+A;this.componentMethods.replace(C,{fn:E,scope:D})},callComponentMethod:function(C,F,B,A){if(Ext.isEmpty(B)||Ext.isEmpty(C)||Ext.isEmpty(F)){return }C=C.toLowerCase();F=F.toLowerCase();B=B.toLowerCase();var D=C+"|"+F+"|"+B;if(!this.componentMethods.containsKey(C)){var E=this.componentMethods.get(D);return E.fn.apply(E.scope||this,A)}},setComponentState:function(B,D,C){B=B||"";D=D||"";C=C||{};B=B.toLowerCase();D=D.toLowerCase();if(!this.componentStates.containsKey(B)){this.componentStates.add(B,new Ext.util.MixedCollection())}var A=this.componentStates.get(B);if(A.containsKey(D)){C=Ext.apply(A.get(D),C)}A.replace(D,C);if(D=="framecontent"){this.contentState=C;this.contentState.type=B;if(!Ext.isEmpty(C.enrollmentId)&&(this.currentEnrollment==null||this.currentEnrollment.id!=C.enrollmentId)){if(this.enrollmentCache.containsKey(C.enrollmentId)){this.currentEnrollment=this.enrollmentCache.get(C.enrollmentId);this.fireEvent("currentenrollmentchanged",this.currentEnrollment)}else{Ext.Ajax.request({url:this.appRoot+"/FrameHelper.ashx",params:{cmd:"getenrollment",enrollmentid:C.enrollmentId},scope:this,callback:function(F,G,E){if(G&&!Ext.isEmpty(E.responseText)){this.currentEnrollment=Ext.util.JSON.decode(E.responseText);this.enrollmentCache.replace(C.enrollmentId,this.currentEnrollment);if(this.currentEnrollment.id!=C.enrollmentId){this.enrollmentCache.replace(this.currentEnrollment.id,this.currentEnrollment)}this.fireEvent("currentenrollmentchanged",this.currentEnrollment)}}})}}this.fireEvent("contentstatechanged",this.contentState)}this.fireEvent("componentstatechanged",B,D,C)},getComponentState:function(B,D){B=B.toLowerCase();D=D.toLowerCase();var C=null;if(this.componentStates.containsKey(B)){var A=this.componentStates.get(B);if(A.containsKey(D)){C=A.get(D)}}return C},registerAction:function(A,E,D,C,B){A=A.toLowerCase();E=E.toLowerCase();D=D.toLowerCase();if(E=="framecontent"){this.actionListeners.replace(D,{handler:C,scope:B});this.fireEvent("actionregistered",D,C,B)}},getRegisteredActions:function(){var A=[];this.actionListeners.eachKey(function(B,C){A.push(Ext.apply(C,{action:B}))},this);return A},setShowBeforeUnloadPrompts:function(A){this.showBeforeUnloadPrompts=A},addEvent:function(A){this.addEvents(A)},logout:function(B){this.fireEvent("beforelogout");var A=this.appRoot+"/SignOff.ashx";if(B){A+="?ReturnUrl="+encodeURIComponent(B)}window.location=A},proxy:function(A){this.navigate("/Component/Proxy?proxy="+encodeURIComponent(A))},unproxy:function(){this.navigate("/Component/Proxy")},navigate:function(A){window.location=this.frameRoot+A},saveComponent:function(A,B){A=A.toLowerCase();B=B.toLowerCase();return this.fireEvent("componentsaverequested",A,B)},launchHelp:function(A){if(this.hasListener("helprequested")){this.fireEvent("helprequested",A)}else{if(Ext.isEmpty(A)){A="root";var B=this.contentState;if(B!=null&&!Ext.isEmpty(B.helpToken)){A=B.helpToken}}window.open(this.helpRoot+A,"bhHelp","scrollbars, resizable, toolbar, width=950, height=600")}},viewItem:function(F,E,D,C){if(this.viewWindow==null){var B=Ext.get(document.body).getSize();this.viewWindow=new Ext.Window({width:B.width-64,height:B.height-64,layout:"fit",plain:false,buttonAlign:"center",shim:true,x:32,y:32,modal:true,frame:true,closable:true,closeAction:"hide",resizable:true,draggable:true,listeners:{beforehide:function(){var G=this.viewFrame.el.child("iframe",false);if(G.dom.contentWindow.location.href!="about:blank"){G.on("load",this.checkViewClose.createDelegate(this,[G,this.viewWindow],false));G.dom.contentWindow.location.replace("about:blank");return false}return true},hide:function(){this.fireEvent("viewerclosed");this.fireEvent("jswindowclosed")},scope:this}})}else{this.viewWindow.remove(this.viewFrame,true)}var A=this.appRoot+"/Component/ActivityPlayer?id=frameviewitem&showheader=false&enrollmentid="+F+"&itemid="+E;if(C!=null){for(prop in C){A+="&"+prop+"="+C[prop]}}this.viewFrame=new Ext.Panel({layout:"fit",monitorResize:true,html:'<iframe class="x-panel-body page_color default_font" style="width:100%;height:100%;" frameborder="0" src="'+A+'" title="'+this.I18N.ItemViewerFrame+'"></iframe>'});this.viewWindow.add(this.viewFrame);this.fireEvent("jswindowopening");this.fireEvent("vieweropening");this.viewWindow.show();this.viewWindow.setTitle(Ext.util.Format.htmlEncode(D));this.resizeViewWindow();Ext.EventManager.onWindowResize(this.resizeViewWindow,this);return false},editItem:function(F,E,D,C){var B=Ext.get(document.body).getSize();if(this.editWindow==null){this.editWindow=new Ext.Window({width:B.width-32,height:B.height-24,layout:"fit",plain:false,buttonAlign:"center",shim:true,x:16,y:4,modal:true,frame:true,closable:false,closeAction:"hide",resizable:true,constrain:true,draggable:true})}else{this.editWindow.remove(this.editFrame,true);this.editFrame=null}var A=this.appRoot+"/Component/ItemEditor?id=FrameItemEditor&closable=true&enrollmentid="+F+"&itemid="+E;if(C!=null){for(prop in C){A+="&"+prop+"="+C[prop]}}this.editFrame=new Ext.Panel({xtype:"panel",layout:"fit",monitorResize:true,id:"hdEditFrame",html:'<iframe class="x-panel-body page_color default_font" style="width:100%;height:100%;" frameborder="0" src="'+A+'" title="'+this.I18N.ItemEditorFrame+'"></iframe>'});this.editWindow.add(this.editFrame);this.fireEvent("jswindowopening");this.fireEvent("editoropening");this.editWindow.show();this.editWindow.setTitle(Ext.util.Format.htmlEncode(D));this.resizeEditWindow();Ext.EventManager.onWindowResize(this.resizeEditWindow,this)},editGroupSet:function(F,A,E,D){var C=Ext.get(document.body).getSize();if(this.groupEditorWindow==null){this.groupEditorWindow=new Ext.Window({width:C.width-32,height:C.height-24,layout:"fit",plain:false,buttonAlign:"center",shim:true,x:16,y:4,modal:true,frame:true,closable:false,closeAction:"hide",resizable:true,constrain:true,draggable:true})}else{this.groupEditorWindow.remove(this.groupEditorFrame,true);this.groupEditorFrame=null}var B=this.appRoot+"/Component/GroupSetup?enrollmentId="+F+"&setid="+A;if(D!=null){for(prop in D){B+="&"+prop+"="+D[prop]}}this.groupEditorFrame=new Ext.Panel({xtype:"panel",layout:"fit",monitorResize:true,id:"hdGroupEditFrame",html:'<iframe class="x-panel-body page_color default_font" style="width:100%;height:100%;" frameborder="0" src="'+B+'" title="'+this.I18N.GroupSetupFrame+'"></iframe>'});this.groupEditorWindow.add(this.groupEditorFrame);this.fireEvent("jswindowopening");this.fireEvent("groupsetupopening");this.groupEditorWindow.show();this.groupEditorWindow.setTitle(E);this.resizeGroupEditWindow();Ext.EventManager.onWindowResize(this.resizeGroupEditWindow,this)},sendEmail:function(F){var A=Math.min(400,screen.height);var C=Math.min(600,screen.width);var B="toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,height="+A+",width="+C;var E="";var D=window.open(this.appRoot+"/Learn/Email.aspx?appendcontext=1&enrollmentid="+F+E,"",B);D.focus();return false},launchConferencing:function(){var A=Math.min(600,screen.height);var C=Math.min(800,screen.width);var B="toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,height="+A+",width="+C;var D=window.open(this.appRoot+"/CommCenter","communications_center",B);D.focus();return false}});
+FRAME_API = new FrameApi({
+    appVersion: '2012.3.14370',
+    authenticated: true,
+    appRoot: '',
+    frameRoot: '/Frame',
+    resourceRoot: '/Resource/14853',
+    frameResourceRoot: '/Frame/Resource/14853',
+    adminUrl: '/Admin/Admin.ashx',
+    domainId: '14853',
+    domainName: 'BYU-Idaho',
+    userId: '462960',
+    proxyUserId: '462960',
+    isProxy: false,
+    username: 'haydenvc',
+    userDisplay: 'Hayden Coombs',
+    rights: 0,
+    isAdmin: false,
+    canConference: false,
+    canProxy: false,
+    canTeachACourse: false,
+    currentEnrollment: null,
+    helpRoot: '/Docs/',
+    homeLabel: 'Dashboard',
+    hideObjectives: false,
+    menuEntries: [{ type: 'Communicate', text: 'my.byui', url: 'http://my.byui.edu', target: '_blank', features: '' }],
+    catalogEntries: [],
+    enrollments: [{id: '11594630',courseEnrollment: false,domainId: '14853',enrollmentStatus: 1,enrollmentStart: '2013-01-07 00:00:00',enrollmentEnd: '2013-04-20 00:00:00',rights: 2228225,sectionRights: 0,courseRights: 2228225,currentUser: true,userId: '462960',userFirstName: '',userLastName: '',courseId: '11450546',courseTitle: 'CIT  140 01',courseDisplay: 'Winter 2013 - CIT  140 01',courseReference: '',courseType: 'Range',courseDays: 365,isTeacher: false,isStudent: true,isTestStudent: false,canEdit: false,canConference: false,canReportGrades: false},{id: '11646369',courseEnrollment: false,domainId: '14853',enrollmentStatus: 1,enrollmentStart: '2013-01-07 00:00:00',enrollmentEnd: '2013-04-20 00:00:00',rights: 2228225,sectionRights: 0,courseRights: 2228225,currentUser: true,userId: '462960',userFirstName: '',userLastName: '',courseId: '11535258',courseTitle: 'COMM 250 01',courseDisplay: 'Winter 2013 - COMM 250 01',courseReference: '',courseType: 'Range',courseDays: 365,isTeacher: false,isStudent: true,isTestStudent: false,canEdit: false,canConference: false,canReportGrades: false},{id: '11709805',courseEnrollment: false,domainId: '14853',enrollmentStatus: 1,enrollmentStart: '2013-01-07 00:00:00',enrollmentEnd: '2013-04-20 00:00:00',rights: 2228225,sectionRights: 0,courseRights: 2228225,currentUser: true,userId: '462960',userFirstName: '',userLastName: '',courseId: '11535176',courseTitle: 'COMM 297R 02',courseDisplay: 'Winter 2013 - COMM 297R 02',courseReference: '',courseType: 'Range',courseDays: 365,isTeacher: false,isStudent: true,isTestStudent: false,canEdit: false,canConference: false,canReportGrades: false},{id: '10946616',courseEnrollment: false,domainId: '2522027',enrollmentStatus: 1,enrollmentStart: '2013-01-05 00:00:00',enrollmentEnd: '2013-04-24 00:00:00',rights: 2228225,sectionRights: 0,courseRights: 2228225,currentUser: true,userId: '462960',userFirstName: '',userLastName: '',courseId: '10934378',courseTitle: 'GS 105 ~ 08 (ONLINE)',courseDisplay: 'Winter 2013 - GS 105 ~ 08 (ONLINE)',courseReference: '',courseType: 'Range',courseDays: 365,isTeacher: false,isStudent: true,isTestStudent: false,canEdit: false,canConference: false,canReportGrades: false},{id: '11463685',courseEnrollment: false,domainId: '14853',enrollmentStatus: 3,enrollmentStart: '2013-01-01 00:00:00',enrollmentEnd: '2013-03-01 00:00:00',rights: 2228225,sectionRights: 0,courseRights: 2228225,currentUser: true,userId: '462960',userFirstName: '',userLastName: '',courseId: '11376721',courseTitle: 'NURSF110 01',courseDisplay: 'Winter 2013 - NURSF110 01',courseReference: '',courseType: 'Range',courseDays: 365,isTeacher: false,isStudent: true,isTestStudent: false,canEdit: false,canConference: false,canReportGrades: false},{id: '11507856',courseEnrollment: false,domainId: '14853',enrollmentStatus: 1,enrollmentStart: '2011-06-07 00:00:00',enrollmentEnd: '9999-06-07 23:59:00',rights: 131073,sectionRights: 0,courseRights: 131073,currentUser: true,userId: '462960',userFirstName: '',userLastName: '',courseId: '2898503',courseTitle: 'Master AASW Achieving Academic Success Workshop',courseDisplay: 'Master AASW Achieving Academic Success Workshop',courseReference: '',courseType: 'Range',courseDays: 365,isTeacher: false,isStudent: true,isTestStudent: false,canEdit: false,canConference: false,canReportGrades: false}],
+    showBeforeUnloadPrompts: true,
+
+    viewAda: false,
+
+    // Strings
+    I18N : {
+        ItemViewerFrame: 'Item Viewer Frame',
+        ItemEditorFrame: 'Item Editor Frame',
+        GroupSetupFrame: 'Group Setup Frame',
+        notLoggedIn: 'Your computer lost its internet connection\u003cbr /\u003eand you are no longer logged into I-Learn.\u003cbr /\u003eClick {0} to open a new window to login.\u003cbr /\u003e\u003cbr /\u003eAfter you login, close the new window and\u003cbr /\u003econtinue your I-Learn session on the\u003cbr /\u003eprevious window.\u003cbr /\u003e\u003cbr /\u003eFor more information, please visit this \u003ca href=\"https://byui.box.com/s/pb8eulgpuq58f7zar2ct/\" target=\"_blank\"\u003earticle\u003c/a\u003e.',
+        notConnected: 'Your computer lost its internet connection\u003cbr /\u003eand you are no longer logged into I-Learn.\u003cbr /\u003eClick {0} to open a new window to login.\u003cbr /\u003e\u003cbr /\u003eAfter you login, close the new window and\u003cbr /\u003econtinue your I-Learn session on the\u003cbr /\u003eprevious window.\u003cbr /\u003e\u003cbr /\u003eFor more information, please visit this \u003ca href=\"https://byui.box.com/s/pb8eulgpuq58f7zar2ct/\" target=\"_blank\"\u003earticle\u003c/a\u003e.',
+        login: 'Login'
+    }
+});
+Ext.onReady(function() {
+    if (typeof (Ext.QuickTips) != 'undefined') {
+        Ext.QuickTips.init();
+    }
+    var parentApi = FRAME_API.findParentApi(window);
+    if(parentApi != null) {
+        FRAME_API = parentApi;
+    }
+    else {
+        FRAME_API.init(15);
+    }
+});
+</script>
+<script src="../../Resource/14853/Web/JS/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="../../Resource/14853/Web/JS/xml2json.js" type="text/javascript"></script>
+<script src="../../Resource/14853/Web/GeneralResource/CollapseExpand/CollapseExpand.js" type="text/javascript"></script>
+<style type="text/css"><!--
+      html, body{overflow: hidden;}
+      #frame-prev-link{
+	      float: left;
+	      margin-left: 8px;
+	      margin-right: 2px;
+	      background: url(/Images/nav_back_normal.gif) no-repeat;
+	      height: 30px;
+	      width: 24px;
+	      cursor:pointer;
+	      background-position: 4px 2px;
+      }
+      #frame-next-link{
+	      float: left;
+	      margin-right: 4px;
+	      background: url(/Images/nav_next_normal.gif) no-repeat;
+	      height: 30px;
+	      width: 24px;
+	      cursor:pointer;
+	      background-position: 4px 2px;
+      }
+      #frame-header-border{
+         position: absolute;
+         top: 97px;
+         height: 2px;
+         left: 0px;
+         right: 0px;
+      }
+   
+--></style>
+<div class="global_header">
+<div class="top_header">
+<div class="top_left_header no-print"></div>
+<div class="top_right_header no-print" id="frame-top-right-header"></div>
+<div class="top_header_buttons no-print">
+<div class="top_header_button" id="h-home-btn" style="display: none;">
+<div class="top_header_button_img top_header_home_button"></div>
+</div>
+<div class="top_header_button" id="h-course-btn" style="display: none; position: relative;">
+<div class="top_header_button_img top_header_courses_button"></div>
+<div class="sub_header_dropdown" id="h-course-btn-dropdown" style="position: absolute; right: 2px; bottom: 2px;"></div>
+</div>
+<div class="top_header_button" id="h-catalog-btn" style="display: none;">
+<div class="top_header_button_img top_header_catalog_button"></div>
+</div>
+<div class="top_header_button" id="h-admin-btn" style="display: none;">
+<div class="top_header_button_img top_header_admin_button"></div>
+</div>
+</div>
+</div>
+<div class="sub_header">
+<div id="sh-home" style="display: none;">
+<div class="sub_header_list" style="display: none;"></div>
+<div class="sub_header_list" id="frame-view-home"><a class="no_underline_link" href="javascript:void(0)" onclick="return false;">
+<div class="no_underline_link" id="h-home-link">Dashboard</div>
+<div class="sub_header_dropdown"></div>
+</a></div>
+<div class="sub_header_list" id="frame-calendar"><a class="no_underline_link" href="javascript:void(0)" onclick="return false;">
+<div class="no_underline_link">Calendar</div>
+</a></div>
+<div class="sub_header_list" id="frame-teachacourse" style="display: none;"><a class="no_underline_link" href="javascript:void(0)" onclick="return false;">
+<div class="no_underline_link">Teach a Course</div>
+</a></div>
+</div>
+<div id="sh-courses" style="display: none;">
+<div class="sub_header_list" id="frame-view-course" style="display: none;"><a class="no_underline_link" href="javascript:void(0)" onclick="return false;">
+<div class="no_underline_link">View</div>
+</a></div>
+<div class="sub_header_list" id="frame-view-syllabus" style="display: none;"><a class="no_underline_link" href="javascript:void(0)" onclick="return false;">
+<div class="no_underline_link">Course Plan</div>
+</a></div>
+<div class="sub_header_list" id="frame-view-calendar" style="display: none;"><a class="no_underline_link" href="javascript:void(0)" onclick="return false;">
+<div class="no_underline_link">Calendar</div>
+</a></div>
+<div class="sub_header_list" id="frame-view-gradebook" style="display: none;"><a class="no_underline_link" href="javascript:void(0)" onclick="return false;">
+<div class="no_underline_link">Gradebook</div>
+</a></div>
+<div class="sub_header_list" id="frame-view-grades" style="display: none;"><a class="no_underline_link" href="javascript:void(0)" onclick="return false;">
+<div class="no_underline_link">Grades</div>
+</a></div>
+<div class="sub_header_list" id="frame-view-objectives" style="display: none;"><a class="no_underline_link" href="javascript:void(0)" onclick="return false;">
+<div class="no_underline_link">Outcomes</div>
+</a></div>
+<div class="sub_header_list" id="frame-view-activity" style="display: none;"><a class="no_underline_link" href="javascript:void(0)" onclick="return false;">
+<div class="no_underline_link">Activity</div>
+</a></div>
+<div class="sub_header_list" id="frame-view-finalgrades" style="display: none;"><a class="no_underline_link" href="javascript:void(0)" onclick="return false;">
+<div class="no_underline_link">Total Column for Gradebook Export</div>
+</a></div>
+<div class="sub_header_list" id="frame-view-gradesubmit" style="display: none;"><a class="no_underline_link" href="javascript:void(0)" onclick="return false;">
+<div class="no_underline_link">Grade Submit</div>
+</a></div>
+</div>
+<div id="sh-common" style="display: none;">
+<div class="sub_header_list" id="frame-communicate" style="display: none;"><a class="no_underline_link" href="javascript:void(0)" onclick="return false;">
+<div class="no_underline_link">Communicate</div>
+<div class="sub_header_dropdown"></div>
+</a></div>
+</div>
+<div id="sh-catalog" style="display: none;"></div>
+<div id="sh-admin" style="display: none;">
+<div class="sub_header_list" id="frame-admin-dashboard"><a class="no_underline_link" href="javascript:void(0)" onclick="return false;"> Dashboard </a></div>
+<div class="sub_header_list" id="frame-admin-domaindetail"><a class="no_underline_link" href="javascript:void(0)" onclick="return false;"> Administration </a></div>
+<div class="sub_header_list" id="frame-admin-users"><a class="no_underline_link" href="javascript:void(0)" onclick="return false;"> Users </a></div>
+<div class="sub_header_list" id="frame-admin-courses"><a class="no_underline_link" href="javascript:void(0)" onclick="return false;"> Courses </a></div>
+<div class="sub_header_list" id="frame-admin-sections"><a class="no_underline_link" href="javascript:void(0)" onclick="return false;"> Sections </a></div>
+</div>
+<div class="sub_header_user"><a class="no_underline_link" href="javascript:void(0)" id="frame-account" onclick="return false;">
+<div class="no_underline_link" id="userDropdown"></div>
+<div class="sub_header_dropdown"></div>
+</a> <a class="no_underline_link" href="javascript:void(0);" id="frame-logout" onclick="return false;" style="margin-left: 4px;"> Log Out </a></div>
+</div>
+<div id="hdPageHeader">
+<div class="page_header"><span class="page_title" id="hdPageTitle"></span><span class="page_title_separator" id="hdPageTitleSeparator" style="display: none;">:&nbsp;</span><span class="course_title" id="hdCourseTitle"></span><span class="course_separator" id="hdCourseSeparator" style="display: none;">&nbsp;-&nbsp;</span><span class="section_title" id="hdSectionTitle"></span></div>
+<div class="header_top_right">
+<div class="hover_link" id="frame-edit-link" style="display: none; float: left; margin-top: 4px;"><a class="hover_link" href="javascript:void(0)" onclick="return false;">Edit</a></div>
+<div id="hdHelp" style="float: left;">
+<div class="help_button"></div>
+</div>
+</div>
+</div>
+<div class="default_border no-print" id="frame-header-border" style="border-top-width: 0px; border-left-width: 0px; border-right-width: 0px;"></div>
+</div>
+<div class="main_content">
+<title></title>
+<link href="style.css" rel="stylesheet" /> <link href="../../Resource/14853/Web/style/ilearn.css" rel="stylesheet" />
+<div id="catalogCont" style="width: auto; border: 1px solid #999; margin: 5px;">
+<div class="blueHead">
+<h2><span class="caps leftHead">Self-Enrollment</span> <a href="#" id="outcomeHelp"><span class="rightHead byuiButtons helpTag" style="display: none;" title="Help"></span></a> <span class="clear"></span></h2>
+</div>
+<div id="catalogContainer"></div>
+</div>
+<script src="FacultyDevelopment.js" type="text/javascript"></script>
+</div>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-27551527-1']);
+  _gaq.push(['_trackPageview']);
+</script>
+<script src="https://ssl.google-analytics.com/ga.js" type="text/javascript"></script>
+<script src="../../Resource/14853/Web/JS/Frame.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+Ext.onReady(function() {
+    FrameMethods.init({
+        _ChooseACourse: 'Choose a course',
+        _TitleBase: 'I-Learn Player',
+        _UserProfile: 'Personal Information',
+        _TranscriptTitle: 'Transcript',
+        _Proxy: 'Proxy',
+        _ProxyPrompt: 'Enter username or ID to proxy as:',
+        _Unproxy: 'Unproxy',
+        _SendMail: 'Send Mail',
+        _AnnouncementsTitle: 'Announcements',
+        _Conferencing: 'Conferencing',
+        _Details: 'Details',
+        _Version: 'Version',
+        _AsTestStudent: '(as Test Student)',
+        _ViewAsTeacher: 'View as Teacher',
+        _ViewAsStudent: 'View as Test Student',
+        _AddStudentEnrollment: 'Add Test Student',
+        _RemoveStudentEnrollment: 'Remove Test Student',
+        _ResetStudentEnrollment: 'Reset Test Student',
+        _AddStudentEnrollmentPrompt: 'This operation will add a test student enrollment to this course. To remove it in the future, choose &quot;Remove Test Student&quot; from this menu.&lt;br/&gt;&lt;br/&gt;Do you want to create a test student enrollment now?',
+        _RemoveStudentEnrollmentPrompt: 'Are you sure you want to delete this test student enrollment along with all associated grades and data?',
+        _ResetStudentEnrollmentPrompt: 'Are you sure you want to remove all grades and data associated with this test student enrollment?',
+        _AreYouSure: 'Are You Sure?',
+        _ErrorTitle: 'Error',
+        _UnknownError: 'Unknown error.',
+        _Page: 'Page',
+        _ProxyUserId: 'Proxy User ID',
+        _UserId: 'User ID',
+        _DomainId: 'Domain ID',
+        _EnrollmentId: 'Enrollment ID',
+        _StudentEnrollmentId: 'Student Enrollment ID',
+        _CourseId: 'Course ID',
+        _SectionId: 'Section ID',
+        _GroupId: 'Group ID',
+        _ItemId: 'Item ID',
+		_NewPosts: 'Unread Posts'
+    });
+});
+
+var ilearn = {};
+ilearn.betaTags = [];
+ilearn.calPrefs = [];
+ilearn.keys = [];
+ilearn.publicKeys = [];
+ilearn.gradKeys = [{name:"beta_component_calendar_1",location:"calendar",title:"Calendar - Lab"},{name:"beta_component_outcomesummary_1",location:"outcomesummary",title:"Outcome Summary"},{name:"beta_component_quicklist_1",location:"quicklist",title:"Quick List"}]
+$.ajax({
+   url: '/Admin/Admin.ashx?cmd=getuser&userid=' + FRAME_API.proxyUserId,
+   async: false,
+   success: function(data) {
+      var json = $.xml2json(data).user.data;
+      ilearn.prefs = json;
+      ilearn.email = $.xml2json(data).user.email;
+      $.each(json, function(k,v){
+         if(k.search(new RegExp(/beta_/i))===0){
+            if(!(k.split('_')[2] in ilearn.betaTags)){
+               ilearn.betaTags[k.split('_')[2]] = {};
+            }
+            if(k.indexOf('_invite')!=-1){
+               ilearn.betaTags[k.split('_')[2]].invite = v;
+            }
+            else if(k.indexOf('_reminder')!=-1){
+               ilearn.betaTags[k.split('_')[2]].reminder = v;
+            }
+            else if(k.indexOf('_name')!=-1){
+               ilearn.betaTags[k.split('_')[2]].title = v;
+            }
+            else{
+               ilearn.betaTags[k.split('_')[2]].name = k;
+               ilearn.betaTags[k.split('_')[2]].active = v;
+               ilearn.betaTags[k.split('_')[2]].location = k.split('_')[2];
+               ilearn.betaTags[k.split('_')[2]].public = false;
+               for (pub in ilearn.publicKeys){
+                  if (ilearn.publicKeys[pub].location == k.split('_')[2]){
+                     ilearn.betaTags[k.split('_')[2]].public = true;
+                  }
+               }
+            }
+         }
+         if(k.search(new RegExp(/calColor_/i))===0){
+            if(!(k.split('_')[1] in ilearn.calPrefs)){
+               ilearn.calPrefs[k.split('_')[1]] = {};
+            }
+            if(k.indexOf('_color')!=-1){
+               ilearn.calPrefs[k.split('_')[1]].color = v;
+            }
+            else if(k.indexOf('_border')!=-1){
+               ilearn.calPrefs[k.split('_')[1]].border = v;
+            }
+         }
+         if(k.search(new RegExp(/lastCalView/i))===0){
+            if(!('lastView' in ilearn.calPrefs)){
+               ilearn.calLastView = v;
+            }
+         }
+      });
+   }
+});
+for(var key in ilearn.betaTags) {
+   if(ilearn.betaTags.hasOwnProperty(key)) {
+      ilearn.keys.push(key);
+   }
+}
+for(var key in ilearn.gradKeys) {
+   if(ilearn.gradKeys.hasOwnProperty(key)) {
+      var name = ilearn.gradKeys[key].location;
+      for(var innerkey in ilearn.keys){
+         if(ilearn.keys.hasOwnProperty(innerkey)) {
+            if(name == ilearn.keys[innerkey]){
+              ilearn.keys.splice(innerkey,1);
+            }
+         }
+      }
+   }
+}
+$.each(ilearn.keys,function(k,v){
+   //Ability to turn on Calendar - BETA
+   // if(v === "calendar" && ilearn.betaTags[v].active === "true"){
+   //    var courseLink = '/Frame/Resource/14853/Web/Component/Calendar/Calendar.vhtml?enrollmentid=' + FrameMethods.currentEnrollmentId;
+   //    $('#frame-calendar').children().attr('href','/Frame/Resource/14853/Web/Component/Calendar/Calendar.vhtml').attr('onclick','').children().text(ilearn.betaTags[v].title);
+
+   //    $('#dueSoons .fix').attr('href','/Frame/Resource/14853/Web/Component/Calendar/Calendar.vhtml');
+   //    $(document).ready().delay(1000).queue(function(){
+   //       $('#dueSoons .fix').attr('href','/Frame/Resource/14853/Web/Component/Calendar/Calendar.vhtml');
+   //       if ($('#frame-view-grades').attr('style') != "display: none; "){
+   //          $('#frame-view-grades').before('<div id="frame-view-calendar" class="sub_header_list"><a class="no_underline_link" href="'+courseLink+'"><div class="no_underline_link">'+ilearn.betaTags[v].title+'</div></a></div>')
+   //       }
+   //       var courseLink = '/Frame/Resource/14853/Web/Component/Calendar/Calendar.vhtml?enrollmentid=' + FrameMethods.currentEnrollmentId;
+   //       $('#frame-view-calendar').children().attr('href',courseLink).children().text(ilearn.betaTags[v].title);
+   //    });
+   // }
+   // if(v === "quicklist" && ilearn.betaTags[v].active === "true" && $('#firstColumn #courseList').length >= 1){
+   //    if (typeof window.fixTheDate == "undefined"){
+   //      var fileref=document.createElement('script');
+   //      fileref.setAttribute("type","text/javascript");
+   //      fileref.setAttribute("src", '/Resource/14853/Web/js/helper.js');
+   //      document.getElementsByTagName("head")[0].appendChild(fileref);
+   //    }
+   //    if (typeof $.fancybox == "undefined"){
+   //      var fancyboxStyle=document.createElement('link');
+   //      fancyboxStyle.setAttribute("rel","stylesheet");
+   //      fancyboxStyle.setAttribute("type","text/css");
+   //      fancyboxStyle.setAttribute("href", '/Resource/14853/Web/js/fancybox/jquery.fancybox.css');
+   //      document.getElementsByTagName("head")[0].appendChild(fancyboxStyle);
+   //      var fancybox=document.createElement('script');
+   //      fancybox.setAttribute("type","text/javascript");
+   //      fancybox.setAttribute("src", '/Resource/14853/Web/js/fancybox/jquery.fancybox.pack.js');
+   //      document.getElementsByTagName("head")[0].appendChild(fancybox);
+   //    }
+   //   var fileref=document.createElement('script');
+   //   fileref.setAttribute("type","text/javascript");
+   //   fileref.setAttribute("src", '/Resource/14853/Web/Component/CourseListTeacher/teacherCourses1.js');
+   //   document.getElementsByTagName("head")[0].appendChild(fileref);
+   // }
+   // if(v === "outcomesummary" && ilearn.betaTags[v].active === "true"){
+   //   window.setTimeout(function(){
+   //    Ext.onReady(function() {
+   //     if(!Ext.isEmpty(FRAME_API.currentEnrollment) && FRAME_API.currentEnrollment.isTeacher){
+   //       Ext.fly('frame-view-objectives').removeAllListeners();
+   //       Ext.fly('frame-view-objectives').on('click',function(){window.location=FRAME_API.frameRoot+'/Resource/14853/Web/Component/OutcomeSummary/index.vhtml?courseid='+FRAME_API.currentEnrollment.courseId});
+   //     }
+   //   });
+   //  },1000);
+   // }
+   if(v === "courseplanexpress" && ilearn.betaTags[v].active === "true") {
+    window.setTimeout(function(){
+    if ($('#frame-view-syllabus').length > 0 && $('#frame-view-syllabus').is(':visible')){
+      var eid = window.location.href.split('').reverse().join('').match(/[0-9]*(?=\=ditnemllorne)/).toString().split('').reverse().join('');
+      var cpe = $('#frame-view-syllabus').clone().attr('id','frame-view-courseplanexpress').removeAttr('style');
+      cpe.children().children().text('Course Plan Express');
+      $('#frame-view-syllabus').after(cpe);
+      $('#frame-view-courseplanexpress').bind('click',function(e){
+        window.location = '/Frame/Resource/14853/Web/Component/CoursePlanExpress/index.vhtml?enrollmentid='+eid;
+      });
+    }
+    },1000);
+   }
+   if(v === "downloadsubmissions" && ilearn.betaTags[v].active === "true"){
+     window.setTimeout(function(){
+      Ext.onReady(function() {
+       if(FRAME_API.contentState.pageTitle=='Gradebook'){
+        $('body').on('click','.gbh-leaf-gradable',function(e){
+          window.setTimeout(function(){
+            loadButton();
+          },1000);
+        });
+      }
+     });
+    },1000);
+   }
+   if(v === "equella" && ilearn.betaTags[v].active === "true" && $('#firstColumn #courseList').length >= 1){
+      $('[href="https://byui.box.net/sso/cas"]').attr('href','https://ilearncontent.byui.edu');
+      $('[href="https://ilearncontent.byui.edu"]').html('Content <span class="vendor">(Equella)</span>');
+   }
+});
+function loadButton(){
+  var iframe = $('#itemGradingArea_FrameContent iframe').contents();
+  if ($('.x-panel-btns-right>.x-panel-fbar',iframe).length>0&&FRAME_API.contentState.hasOwnProperty('itemId')){
+    if ($('#downSub',iframe).length==0){
+      if ($('.x-toolbar-right-row',iframe).children().length != 0){
+        $('.x-panel-btns-right>.x-panel-fbar',iframe).width($('.x-panel-btns-right>.x-panel-fbar',iframe).width()+150);
+        var button = $('.x-toolbar-cell:first',iframe).clone();
+        button.attr('id','downSub');
+        button.children().attr('id','downSub1').hover(function(e){$(this).addClass("x-btn-over");},function(e){$(this).removeClass("x-btn-over");}).mouseup(function(e){$(this).removeClass("x-btn-click");}).mousedown(function(e){$(this).addClass("x-btn-click");});
+        button.on('click',function(){
+          var link = "/Resource/14853/Web/Component/AttachmentDownloader/AttachmentDownloader.vhtml?enrollmentid=";
+          link += FRAME_API.currentEnrollment.id;
+          link +="&courseid=" + FRAME_API.currentEnrollment.courseId;
+          link += "&itemid=" + FRAME_API.contentState.itemId;
+          Ext.IframeWindow = Ext.extend(Ext.Window, {
+            onRender: function() {
+              this.bodyCfg = {tag:'iframe',src:this.src,cls:this.bodyCls,style:{border:'0px none'}};
+              Ext.IframeWindow.superclass.onRender.apply(this, arguments);
+            }
+          });
+          var w = new Ext.IframeWindow({id:id,width:675,height:600,title:"Submission Downloader",src: link});
+          w.show();
+        });
+        $('em button',button).text('Download Submissions');
+        window.setTimeout(function(){
+          $('#downSub',iframe).remove();
+          $('.x-toolbar-right-row',iframe).prepend(button);
+        },1000);
+      } else {
+        window.setTimeout(function(){
+          loadButton(iframe);
+        },2000);
+      }
+    }
+  } else {
+    window.setTimeout(function(){
+      loadButton(iframe);
+    },2000);
+  }
+}
+</script>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x35239" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

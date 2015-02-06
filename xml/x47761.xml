@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<Content ID="x47761" Name="Pathway Application" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Application of Pathway Completion</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Pathway Application</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style><!--
+-webkit-input-placeholder  { 
+color:#999; 
+}
+input:-moz-placeholder { 
+color:#999; 
+}
+td input[type="radio"]{
+margin-right: 5px;
+}
+--></style>
+<p>INSTRUCTIONS: BYU&ndash;Idaho Pathway students should complete this Application of Pathway Completion in their third and final semester of the Pathway Academic Start Program. Please complete all sections and submit. Your application will be evaluated after final grades post for the semester in which you have applied.</p>
+<form action="http://www2.byui.edu/AspUtilities/emailAForm.asp" method="post"><fieldset><legend>Identification Information</legend>
+<table border="0" style="margin: 0; border: 0px none; width: 710px; padding-left: 5px;">
+<tbody>
+<tr style="border: 0px;">
+<td style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: left; border: 0px none; width: 260px;">First Name:</td>
+<td style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: center; border: 0px;"><input name="First Name" size="45" type="text" /></td>
+</tr>
+<tr style="border: 0px;">
+<td style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: left; border: 0px none; width: 260px;">Middle Name:</td>
+<td style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: center; border: 0px;"><input name="Middle Name" size="45" type="text" /></td>
+</tr>
+<tr style="border: 0px;">
+<td style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: left; border: 0px none; width: 260px;">Last Name:</td>
+<td style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: center; border: 0px;"><input name="Last Name" size="45" type="text" /></td>
+</tr>
+<tr style="border: 0px;">
+<td style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: left; border: 0px;">I-Number:</td>
+<td style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: center; border: 0px;"><input name="I-Number" size="45" type="text" /></td>
+</tr>
+<tr style="border: 0px;">
+<td style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: left; border: 0px;">Telephone Number:</td>
+<td style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: center; border: 0px;"><input name="Telephone Number" size="45" type="text" /></td>
+</tr>
+<tr style="border: 0px;">
+<td style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: left; border: 0px;">BYU-I E-mail:</td>
+<td style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: center; border: 0px;"><input name="txtEmailFrom" size="45" type="text" /></td>
+</tr>
+</tbody>
+</table>
+</fieldset><fieldset><legend>Semester of Completion</legend>
+<p style="margin: 0; margin-bottom: 10px;">When will you (or when did you) complete Pathway Academic Start?</p>
+<table border="0" style="margin: 0; border: 0px none; width: 710px; padding-left: 5px;">
+<tbody>
+<tr style="border: 0px;">
+<td style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: left; border: 0px;"><input name="Semester" type="radio" value="Winter Semester (April)" />Winter Semester (April)</td>
+<td style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: left; border: 0px;"><input name="Semester" type="radio" value="Spring Semester (July)" />Spring Semester (July)</td>
+<td style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: left; border: 0px;"><input name="Semester" type="radio" value="Fall Semester (December)" />Fall Semester (December)</td>
+<td style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: left; border: 0px;">Year:<select name="Year">
+<option value="2010">2010</option>
+<option value="2011">2011</option>
+<option selected="selected" value="2012">2012</option>
+<option value="2013">2013</option>
+<option value="2014">2014</option>
+<option value="2015">2015</option>
+</select></td>
+</tr>
+</tbody>
+</table>
+</fieldset><fieldset><legend>Certificate Name</legend>
+<p style="margin: 0; margin-bottom: 8px;">How should your name be printed on your certificate?</p>
+<table border="0" style="margin: 0; border: 0px none; width: 710px; padding-left: 5px;">
+<tbody>
+<tr style="border: 0px;">
+<td style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: left; border: 0px none; width: 260px;">First Name:</td>
+<td style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: center; border: 0px;"><input name="Certificate First Name" size="45" type="text" /></td>
+</tr>
+<tr style="border: 0px;">
+<td style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: left; border: 0px none; width: 260px;">Middle Name:</td>
+<td style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: center; border: 0px;"><input name="Certificate Middle Name" size="45" type="text" /></td>
+</tr>
+<tr style="border: 0px;">
+<td style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: left; border: 0px none; width: 260px;">Last Name:</td>
+<td style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: center; border: 0px;"><input name="Certificate Last Name" size="45" type="text" /></td>
+</tr>
+</tbody>
+</table>
+</fieldset><fieldset><legend>Mailing Address</legend>
+<p style="margin: 0; margin-bottom: 8px;">Where should we send your certificate?</p>
+<table border="0" style="margin: 0; border: 0px none; width: 710px; padding-left: 5px;">
+<tbody>
+<tr style="border: 0px;">
+<td style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: left; border: 0px; width: 260px;">Address Line 1:</td>
+<td style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: center; border: 0px;"><input name="Address Line 1" placeholder="Street address, P.O. box, company name, c/o." size="45" type="text" /></td>
+</tr>
+<tr style="border: 0px;">
+<td style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: left; border: 0px; width: 260px;">Address Line 2:</td>
+<td style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: center; border: 0px;"><input name="Address Line 2" placeholder="Apartment, suite, unit, building, floor, etc." size="45" type="text" /></td>
+</tr>
+<tr style="border: 0px;">
+<td style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: left; border: 0px;">City:</td>
+<td style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: center; border: 0px;"><input name="City" size="45" type="text" /></td>
+</tr>
+<tr style="border: 0px;">
+<td style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: left; border: 0px;">State/Province/Country:</td>
+<td style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: center; border: 0px;"><input name="State/Province/Country" size="45" type="text" /></td>
+</tr>
+<tr style="border: 0px;">
+<td style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: left; border: 0px;">Zip/Postal Code:</td>
+<td style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: center; border: 0px;"><input name="Zip/Postal Code" size="45" type="text" /></td>
+</tr>
+<tr style="border: 0px;">
+<td style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: left; border: 0px;">Country:</td>
+<td style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: center; border: 0px;"><input name="Country" size="45" type="text" /></td>
+</tr>
+</tbody>
+</table>
+</fieldset><fieldset><legend>What is your next plan academically?</legend>
+<table border="0" style="margin: 0; border: 0px none; width: 710px; padding-left: 5px;">
+<tbody id="grad-radio">
+<tr style="border: 0px;">
+<td colspan="2" style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: left; border: 0px;"><input name="plans" type="radio" value="I am enrolling as an online or campus BYU-Idaho student next semester." />I am enrolling as an online or campus BYU-Idaho student next semester.</td>
+</tr>
+<tr style="border: 0px;">
+<td colspan="2" style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: left; border: 0px;"><input name="plans" type="radio" value="I plan on enrolling as an online or campus BYU-Idaho student sometime after next semester." />I plan on enrolling as an online or campus BYU-Idaho student sometime after next semester.</td>
+</tr>
+<tr style="border: 0px;">
+<td colspan="2" style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: left; border: 0px;"><input name="plans" type="radio" value="I am enrolling in a community college or other university." />I am enrolling in a community college or other university.</td>
+</tr>
+<tr style="border: 0px;">
+<td colspan="2" style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: left; border: 0px;"><input name="plans" type="radio" value="I have no further academic plans at this time." />I have no further academic plans at this time.</td>
+</tr>
+<tr style="border: 0px;">
+<td style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: left; border: 0px;"><input name="plans" type="radio" value="Other" />Other:</td>
+<td style="line-height: 15px; padding: 0; height: 15; color: #303538; text-align: left; border: 0px;"><input name="other" size="45" type="text" /></td>
+</tr>
+</tbody>
+</table>
+</fieldset><input name=" " style="display: none;" type="text" /> <input name="Entered into CX by" style="display: none;" type="text" /> <input name="Date Entered" style="display: none;" type="text" /> <input name="  " style="display: none;" type="text" /> <input name="Audit Evaluated by" style="display: none;" type="text" /> <input name="Date Evaluated" style="display: none;" type="text" /> <input name="   " style="display: none;" type="text" /> <input name="Academic Start Certificate" style="display: none;" type="text" /> <input name="Academic Start Recognition of Participation" style="display: none;" type="text" /> <!-- Insert Your fields above --> <!-- Required by form handler --> <input name="txtEmailTo" type="hidden" value="graduation@byui.edu" /> <!-- REQUIRED FIELD NAME --> <input name="txtEmailSubject" type="hidden" value="Pathway Application" /> <!-- REQUIRED FIELD NAME --> <!-- Buttons of course --> <input name="submit" type="submit" value="Submit" /> <!-- REQUIRED FIELD NAME --> <input name="Reset" type="reset" value="Reset" /> <input name="txtRedirect" type="hidden" value="http://www.byui.edu/student-records/pathway-application/pathway-application-confirmation" /></form>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x17143" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.101 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x69118" Name="Policy Header" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;style&gt;
+	.welcome-button{
+		position:relative;
+		float:left;
+		z-index:1;
+		left:175px;
+		top:0px;
+                height: 300px;
+	}
+	
+	.welcome-button p{
+		color:#000;		
+                font-family:Georgia, "Times New Roman", Times, serif;
+		font-size:42px;
+		font-variant:small-caps;
+		letter-spacing:1px;
+                line-height:41px;
+                text-align:center;
+		position:relative;
+                bottom:250px;
+	}
+
+
+
+	&lt;/style&gt;
+
+
+		&lt;div class="welcome-button"&gt;
+
+			&lt;img src="Images/food-services/Catering/page_layout/welcome-button.png" alt="Catering Policies"/&gt;  
+
+			
+				&lt;p&gt;Catering&lt;br /&gt;Policies&lt;/p&gt;
+		&lt;/div&gt;</ContentSnippet></ContentSnippet>

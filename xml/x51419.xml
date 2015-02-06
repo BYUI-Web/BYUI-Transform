@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<AZIndex ID="x51419" Name="Administrative Offices" Layout="general_A-ZIndex.xsl">
+	<Title type="string" label="Title" readonly="false" hidden="false" required="true" ID="1">Administrative Offices</Title>
+	<Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true" ID="2">Administrative Offices</Abstract>
+	<xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" ID="3">
+		<BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false" ID="4">Administrative Departments</BrowserBarTitle>
+		<MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false" ID="5">Administrative Departments</MetaDescription>
+		<NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false" ID="6">false</NoFollow>
+		<NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false" ID="7">false</NoIndex>
+		<NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false" ID="8">false</NoODP>
+		<Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="false" required="false" ID="9">0.5</Priority>
+	</xPower>
+	<xPower Type="TaxonomyNavigation" TaxonomyNavigation="" Name="ExcludedCategory" label="Excluded Category" readonly="true" hidden="true" required="false" FilterSchemas="" Depth="" FilterParentPages="" IncludePages="" StartNodes="130" ID="10"/>
+	<xPower Type="Navigation" StartPage="x15513" MaxDepth="1" MaxNodes="" GenerationOrder="down" Navigation="Children" Query="" Name="Index" label="Index" readonly="true" hidden="true" required="false" Expanded="true" ID="11"/>
+	<xPower Type="Navigation" StartPage="x45342" MaxDepth="1" MaxNodes="" GenerationOrder="down" Navigation="Children" Query="" Name="Index" label="Index" readonly="true" hidden="true" required="false" Expanded="true" ID="14"/>
+	<xPower Type="Navigation" StartPage="x45346" MaxDepth="1" MaxNodes="" GenerationOrder="down" Navigation="Children" Query="" Name="Index" label="Index" readonly="true" hidden="true" required="false" Expanded="true" ID="15"/>
+	<xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" ID="12"/>
+	<xPower Type="Component" Component="x135" Name="SiteControl" label="Site Control" readonly="true" hidden="true" required="false" CompTypes="SiteControl" ID="13" Expanded="false"/>
+</AZIndex>

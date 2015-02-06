@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.70 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x58071" Name="Off Campus Employment Services" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Off Campus Employment Services</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Resources for posting off-campus employment opportunities for BYU-Idaho students. </Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<div>
+<p>There are many resources available to employers seeking to post job openings. <a href="https://byui-csm.symplicity.com/" title="Career Navigator - Student Login" target="_blank"><strong>Career Navigator</strong></a> is a database that lists jobs, internships, and career positions posted by businesses, companies, and organizations. University policy restricts some positions from being posted in this database or on campus bulletin boards.</p>
+<p style="margin-bottom: 20px;"><strong>The following are examples of positions that are <span style="text-decoration: underline;">NOT</span> approved to be posted on Career Navigator:</strong></p>
+<table>
+<tbody>
+<tr>
+<td>
+<p><strong>Type</strong></p>
+</td>
+<td>
+<p><strong>Category</strong></p>
+</td>
+<td>
+<p><strong>Description</strong></p>
+</td>
+<td>
+<p><strong>Examples</strong></p>
+</td>
+</tr>
+<tr>
+<td style="font-size: 90%;">
+<p>Temporary Employment</p>
+</td>
+<td style="font-size: 90%;">
+<p>Personal Service</p>
+</td>
+<td style="font-size: 90%;">
+<p>Task-based, remedial positions. Typically one-time needs.</p>
+</td>
+<td style="font-size: 90%;">
+<p>Nannies, housekeepers, lawn care, painting, deliveries, temp labor.</p>
+</td>
+</tr>
+<tr>
+<td style="font-size: 90%;">
+<p>Direct Sales</p>
+</td>
+<td style="font-size: 90%;">
+<p>Direct Sales Industry</p>
+</td>
+<td style="font-size: 90%;">
+<p>Direct Sales/Door-to-Door industry regardless of location, responsibility, or position.</p>
+</td>
+<td style="font-size: 90%;">
+<p>Alarm systems, pest control, satellite, kiosk/mall sales.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Community members:</strong> if you would like to post a local, temporary or personal service position, please contact the Academic Discovery Center to see about adding your position to our <strong><a class="intLink" href="x32480.xml" title="Help Wanted">Help-Wanted page</a></strong>.  Positions accepted include personal service (painting, childcare, yard work, etc) and other part-time or temporary positions that can be filled by a student.</p>
+<h3>Off-campus Job Posting Resources</h3>
+<p> </p>
+<p>If you need alternative methods to advertise your position to students, there are several resources available to you for job postings.</p>
+<p> </p>
+<table border="1" width="100%">
+<tbody>
+<tr>
+<td>
+<p>LDS Employment</p>
+</td>
+<td>
+<p>208-523-4880 or 208-359-1446</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Idaho Department of Labor (Job Service)</p>
+</td>
+<td>
+<p>208-557-2501 or <a href="http://labor.idaho.gov/" title="Idaho Department of Labor" target="_blank">labor.idaho.gov</a></p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Express Personnel</p>
+</td>
+<td>
+<p>208-529-2661 or <a href="http://expresspersonnel.com/" title="Express Personnel Staffing Services" target="_blank">expresspersonnel.com</a></p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Gem State Staffing</p>
+</td>
+<td>
+<p>208-528-8900</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>BYU-I Scroll</p>
+</td>
+<td>
+<p>208-496-2900</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+</div>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x17690" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

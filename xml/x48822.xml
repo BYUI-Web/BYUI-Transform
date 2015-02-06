@@ -1,0 +1,323 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x48822" Name="snipHousing" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"&gt;&lt;/script&gt;
+&lt;script src="Documents/housing/links/http.js"&gt;&lt;/script&gt;
+
+&lt;script&gt;
+
+	var container = document.getElementById ("university_message");
+	var oldHeader = document.getElementsByClassName("message_block_top_nav");
+	var header = document.createElement("div");
+	header.classList.add("message_block_top_nav");
+	var span = document.createElement("div");
+	var spanCont = document.createTextNode("Housing Message");
+	span.classList.add("message_title_block");
+	span.appendChild(spanCont);
+	header.appendChild(span);
+	var oldBody = document.getElementsByClassName("message_block_content");
+	var body = document.createElement("div");
+	body.style.marginTop = "-1px";
+	body.style.height = "190px";
+	body.classList.add("message_block_content");
+	var anchor = document.createElement("a");
+	anchor.href = "x9578.xml";
+anchor.target = "_blank";
+	var image = document.createElement("img");
+	image.src = "Images/housing/banners/PriceBen.png";
+	anchor.appendChild(image);
+	body.appendChild(anchor);
+	container.insertBefore(body, oldHeader[0]);
+	container.insertBefore(header, body);
+	
+&lt;/script&gt;
+
+&lt;script&gt;
+$(document).ready(function(){
+		
+$('#share').mouseover(
+    function () {
+        $('#shareIcons').animate({height: 35}, 175);
+        $('#share').attr("src", "Images/housing/Homepage/newShareH.png");
+    }
+);                 
+
+$('.toggleWrapper').mouseleave(
+    function(){
+        $('#shareIcons').stop().animate({height: 0}, 175);
+        $('#share').attr("src", "Images/housing/Homepage/newShare.png");
+    }
+);
+
+});
+&lt;/script&gt;
+
+&lt;link rel="stylesheet" type="text/css" href="Documents/housing/links/columns.css"&gt;
+&lt;link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400italic' rel='stylesheet' type='text/css'&gt;
+
+&lt;style&gt;
+hr.space, #page_title{
+display:none;
+}
+
+#banners {
+width:703px;
+height:183px;
+margin:auto;
+}
+
+#cycle_gallery {
+	background-color:white;
+	margin-bottom:0px;
+}
+
+.myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f9f9f9), color-stop(1, #e9e9e9));
+	background:-moz-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-webkit-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-o-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-ms-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#e9e9e9',GradientType=0);
+	background-color:#f9f9f9;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#326ba9;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:5px 0px;
+	width:134px;
+	text-align:center;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e9e9e9), color-stop(1, #f9f9f9));
+	background:-moz-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:-webkit-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:-o-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:-ms-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9e9e9', endColorstr='#f9f9f9',GradientType=0);
+	background-color:#e9e9e9;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+#lButtons {
+	width:700px;
+	margin:auto;
+	margin-bottom:-6px;
+}
+&lt;/style&gt;
+&lt;style&gt;
+#HSLheader {
+width:710px;
+height:59px;
+position:relative;
+}
+
+@font-face
+{
+font-family: MotorOil;
+src: url("Documents/housing/fonts/MotorOil.ttf");
+}
+@font-face
+{
+font-family: MarketingScript;
+src: url("Documents/housing/fonts/MarketingScript.ttf");
+}
+
+#welcome {
+font-size:20px;
+margin:auto;
+width:100%;
+text-align:center;
+}
+
+.redFont {
+color:#EC4345;
+font-family:"MarketingScript";
+}
+
+#HSL {
+color:#58585B;
+font-family:"MotorOil";
+font-size:30px;
+margin:auto;
+margin-top:10px;
+width:100%;
+text-align:center;
+}
+
+#amp {
+color:#EC4345;
+font-family: 'Libre Baskerville', serif;
+font-style:italic;
+}
+
+#likeUs {
+width:82px;
+transform: rotate(-17deg);
+-ms-transform: rotate(-17deg); /* IE 9 */
+-webkit-transform: rotate(-17deg); /* Safari and Chrome */
+position:absolute;
+right:65px;
+top:-3px;
+}
+
+#liveChat {
+width:61px;
+transform: rotate(30deg);
+-ms-transform: rotate(30deg); /* IE 9 */
+-webkit-transform: rotate(30deg); /* Safari and Chrome */
+position:absolute;
+right:2px;
+top:6px;
+}
+
+#fbook {
+position:absolute;
+right:75px;
+top:10px;
+z-index:100;
+}
+
+#question {
+position:absolute;
+right:30px;
+top:10px;
+z-index:101;
+}
+
+#shareIcons {
+    height:0;
+    background: rgba(0, 0, 0, 0.75); 
+    overflow: hidden;
+    width:175px;
+    position:absolute;
+    right:-65px;
+    border-radius:2px;
+top:50px;
+}
+
+#shareIcons img {
+width:25px;
+height:25px;
+margin:5px;
+}
+
+#mainButtons {
+width:711px;
+margin: 0px auto 5px;
+}
+
+&lt;/style&gt;
+
+&lt;script&gt;
+$(document).ready(function(){
+
+var bannerOne = "Images/housing/Homepage/banner1.png";
+var bannerTwo = "Images/housing/Homepage/banner2.png";
+var bannerThree = "Images/housing/Homepage/StudentLivingApartmentBanner.png";
+
+banner(bannerOne,bannerTwo,bannerThree,"banners", "x44817.xml");
+
+	function banner(imageOne, imageTwo, imageThree, divID, link) {
+		var container = document.getElementById (divID);
+		
+		var imageOneElement = document.createElement("img");
+		imageOneElement.src = imageOne;
+		imageOneElement.classList.add("imageOne");
+		
+		var imageTwoElement = document.createElement("img");
+		imageTwoElement.src = imageTwo;	
+		imageTwoElement.classList.add("imageTwo");
+		
+		var imageThreeElement = document.createElement("img");
+		imageThreeElement.src = imageThree;
+		imageThreeElement.classList.add("imageThree");
+		
+		imageOneElement.style.position = "absolute";
+		imageTwoElement.style.position = "absolute";
+		imageThreeElement.style.position = "absolute";
+		imageThreeElement.style.display = "none";
+		
+		var imageOneLink = document.createElement("a");
+		imageOneLink.href = link;
+		imageOneLink.appendChild(imageOneElement);		
+		var imageTwoLink = document.createElement("a");
+		imageTwoLink.href = link;
+		imageTwoLink.appendChild(imageTwoElement);		
+		var imageThreeLink = document.createElement("a");
+		imageThreeLink.href = link;
+		imageThreeLink.appendChild(imageThreeElement);
+		
+		container.appendChild(imageTwoLink);
+		container.appendChild(imageOneLink);
+		container.appendChild(imageThreeLink);
+	
+		$( imageOneElement &amp;&amp; imageTwoElement &amp;&amp; imageThreeElement ).load(function() {
+			setTimeout(
+  				function(){
+  					$(".imageOne").fadeOut(2000);
+  					$(".imageTwo").fadeOut(6000);
+  					setTimeout(function(){$(".imageThree").fadeIn(4000)},3000);
+  				}, 2000);
+		});
+	}
+
+});
+&lt;/script&gt;
+
+
+&lt;div id="HSLheader"&gt;
+	&lt;div id="welcome" class="redFont"&gt;Welcome to the&lt;/div&gt;
+	&lt;div id="HSL"&gt;Housing &lt;span id="amp"&gt;&amp;&lt;/span&gt; Student Living Office&lt;/div&gt;
+	&lt;div id="likeUs" class="redFont"&gt;Follow Us!&lt;/div&gt;
+	&lt;div id="liveChat" class="redFont"&gt;Live Chat&lt;/div&gt;
+	&lt;div id="fbook" class='toggleWrapper'&gt;
+		&lt;img id="share" src="Images/housing/Homepage/newShare.png" /&gt;
+		&lt;div id="shareIcons"&gt;
+			&lt;a href="https://www.facebook.com/BYUIHousing" target="_blank"&gt;&lt;img src="Images/housing/Homepage/facebook.png" /&gt;&lt;/a&gt;&lt;a href="https://twitter.com/BYUIHSL" target="_blank"&gt;&lt;img src="Images/housing/Homepage/twitter.png" /&gt;&lt;/a&gt;&lt;a href="http://www.instagram.com/byuistudentliving" target="_blank"&gt;&lt;img src="Images/housing/Homepage/instagram.png" /&gt;&lt;/a&gt;&lt;a href="https://www.youtube.com/channel/UC6Li-TlfoHVymIMN7Eiw-4A"&gt;&lt;img src="Images/housing/Homepage/youtube.png"&gt;&lt;/a&gt;&lt;a href="http://www.pinterest.com/byuisl/" target="_blank"&gt;&lt;img src="Images/housing/Homepage/pintrest.png" /&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;a target="_blank" href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR%21skill=Housing&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large"&gt;&lt;img id="question" onmouseout="this.src='Images/housing/Homepage/newChat.png';" onmouseover="this.src='Images/housing/Homepage/newChatH.png';" src="Images/housing/Homepage/newChat.png" /&gt;&lt;/a&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- Main Banner --&gt;
+
+&lt;div id="banners"&gt;&lt;/div&gt;
+
+&lt;!-- Buttons--&gt;
+&lt;div id="mainButtons"&gt;
+&lt;a class="intLink" href="x44817.xml"&gt;&lt;img height="156" onmouseout="this.src='Images/housing/Homepage/dockSL.png';" onmouseover="this.src='Images/housing/Homepage/dockSLH.png';" src="Images/housing/Homepage/dockSL.png" width="188" /&gt;&lt;/a&gt;&lt;a class="intLink" href="x45370.xml"&gt;&lt;img height="156" onmouseout="this.src='Images/housing/Homepage/dockOCA.png';" onmouseover="this.src='Images/housing/Homepage/dockOCAH.png';" src="Images/housing/Homepage/dockOCA.png" width="165" /&gt;&lt;/a&gt;&lt;a class="intLink" href="x94462.xml"&gt;&lt;img height="156" onmouseout="this.src='Images/housing/Homepage/dockMSH.png';" onmouseover="this.src='Images/housing/Homepage/dockMSHH.png';" src="Images/housing/Homepage/dockMSH.png" width="160" /&gt;&lt;/a&gt;&lt;a href="http://web.byui.edu/tis/search"&gt;&lt;img height="156" onmouseout="this.src='Images/housing/Homepage/dockAHS.png';" onmouseover="this.src='Images/housing/Homepage/dockAHSH.png';" src="Images/housing/Homepage/dockAHS.png" width="196" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;!-- Light Buttons --&gt;
+&lt;div id="lButtons"&gt;
+&lt;a class="intLink" href="x43533.xml"&gt;&lt;div class="myButton"&gt;Owners&lt;/div&gt;&lt;/a&gt;
+&lt;a class="intLink" href="x44861.xml"&gt;&lt;div class="myButton"&gt;Managers&lt;/div&gt;&lt;/a&gt;
+&lt;a class="intLink" href="x93263.xml"&gt;&lt;div class="myButton"&gt;New Students&lt;/div&gt;&lt;/a&gt;
+&lt;a class="intLink" href="x93359.xml"&gt;&lt;div class="myButton"&gt;Resources&lt;/div&gt;&lt;/a&gt;
+&lt;a class="intLink" href="x93223.xml"&gt;&lt;div class="myButton"&gt;Policies&lt;/div&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;
+
+&lt;script src="Documents/housing/links/columns.min.js"&gt;&lt;/script&gt;
+&lt;div id="qLinks"&gt;
+	&lt;div id="qHeader"&gt;Quick Links&lt;/div&gt;
+	&lt;div id="qLinksCont"&gt;&lt;/div&gt;
+&lt;/div&gt;</ContentSnippet></ContentSnippet>

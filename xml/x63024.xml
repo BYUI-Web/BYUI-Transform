@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x63024" Name="Feedback" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Feedback</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Provide Feedback to the BYU-Idaho Student Health Center</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<link href="Documents/health-center/topper.css" rel="stylesheet" /> <link href="Documents/health-center/css/layout.css" rel="stylesheet" />
+<style><!--
+body #content_zone .titlehead {  
+      border-bottom: solid thin #0070C0;
+   }
+
+   body #content_zone .comment {    
+      color: #0070C0;
+   }
+
+   body #content_zone #topper .icons {
+      background-position: -300px -450px;
+   }
+--></style>
+<div id="content_zone">
+<div id="topper">
+<div class="titlehead">Feedback</div>
+<div id="frame">
+<div class="icons"></div>
+<div class="shadow"></div>
+</div>
+</div>
+<div id="topsec">
+<h4 style="margin-bottom: 30px;"><strong>Tell us how we're doing:</strong> <a href="https://byui.qualtrics.com/SE/?SID=SV_er1KOSg3xflWYQc">Take a brief survey here</a>.</h4>
+<p style="margin-bottom: 5px;"><strong>Your Rights and Responsibilities as a Patient</strong></p>
+<p>As a patient at the Brigham Young University - Idaho Student Health Center</p>
+<p style="margin-bottom: 5px;"><strong><strong>Your Rights Include:</strong></strong></p>
+<ul style="font-family: Times New Roman; font-size: 12pt;">
+<li>The right to receive compassionate care and treatment.</li>
+<li>The right to receive accurate information (to the extent known) concerning diagnosis, treatment, and prognosis of your medical condition.</li>
+<li>The opportunity to obtain a second opinion, if you wish.</li>
+<li>The right to participate in decisions regarding your health care and treatment.</li>
+</ul>
+<p style="margin-bottom: 5px;"><strong><strong>Your responsibilities include:</strong></strong></p>
+<ul style="font-family: Times New Roman; font-size: 12pt;">
+<li>Providing honest and direct information relating to your symptoms and health needs.</li>
+<li>The responsibility to follow the treatment plan that is established between you and your health care provider.</li>
+<li>You have the responsibility to ask questions if you don't understand what is being explained to you, or if you are confused or concerned about any information you are receiving.</li>
+<li>The responsibility to show courtesy and respect to health care personnel and other patients.</li>
+</ul>
+<p style="margin-bottom: 5px;"><strong><strong>Concerns</strong></strong></p>
+<p>If you have any concerns regarding the services you have received at the Health Center contact the Health Center Area Director at <strong>208-496-9334</strong> or by email at <a href="mailto:healthcentercoordinator@byui.edu">healthcentercoordinator@byui.edu</a>.</p>
+<p>If you have a serious concern, you may also contact Shaun Orr, the Student Health Center Director, at <strong>208-496-9340</strong> or by e-mail at <a href="mailto:orrs@byui.edu">orrs@byui.edu</a>.</p>
+</div>
+<iframe frameborder="0" height="240" id="footer" scrolling="no" src="http://www.byui.edu/Documents/health-center/footer.html" width="320"></iframe></div>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x28441" CompTypes="SiteControl"/></Content>

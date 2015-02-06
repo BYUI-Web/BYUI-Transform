@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<TrainingDetails ID="x16515" Name="Section Index" Layout="default-training.xsl"><IfComponent type="boolean" label="Check if this is a component tutorial" ID="1">false</IfComponent><Title type="string" label="Title" readonly="false" hidden="false" required="true" ID="2">Section Index</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true" ID="3">This pages shows an index of all pages underneath it.</Abstract><TrainingImage type="imagefile" label="Page Type Image" hidden="false" readonly="false" required="false" ID="4" Width="1" Height="1">Internal_Use/Ingeniux_Training/Template Thumbnails/SectionIndex.jpg</TrainingImage><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" ID="5"><![CDATA[<p>This page will create an index from the pages underneath it.</p>
+<p>Required Elements on this page(These elements are needed to save the page):&nbsp;</p>
+<ul>
+<li>Title</li>
+<li>Abstract</li>
+</ul>
+<p><strong><span style="text-decoration: underline;">Title</span></strong><br />The title of the page</p>
+<p><br /><span style="text-decoration: underline;"><strong>Abstract</strong></span><br />A summary of the index</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;"><strong>Site Control </strong></span></p>
+<p>You will need to choose the site control that is related to your department.</p>
+<p>&nbsp;</p>
+<p><strong><span style="text-decoration: underline;">Body Copy</span></strong></p>
+<p>This will put text on top of the page. It is best to keep it short, and concise to the meaning of the pages under the index.</p>]]></BodyCopy><xPower Type="References" References="" Name="PageUsage" label="Page or Component Reference" readonly="false" hidden="false" required="true" QueryLocationRoots="" IncludeCrossReferences="false" Depth="0" QuerySchemas="TrainingDetails" ID="6" Expanded="false"><Exports></Exports></xPower><xPower Type="Navigation" StartPage="x5758" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Children" Query="" Name="FAQs" label="FAQs Navigation" readonly="true" hidden="true" required="false" Expanded="false" ID="7"/><xPower Type="Navigation" StartPage="x10283" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Children" Query="" Name="Icons" label="Element Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" ID="8"/></TrainingDetails>

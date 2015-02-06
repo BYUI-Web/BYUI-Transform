@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x58724" Name="activitiesOriginal" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;h2&gt;&lt;img alt="Title" height="68" src="Images/activities/title2.jpg" width="528" /&gt;&lt;a class="extLink" href="http://www.facebook.com/byuiactivities" title="FB Site"&gt;&lt;img alt="FB" height="68" onmouseout="this.src='Images/activities/likeus.png';" onmouseover="this.src='Images/activities/likeus3.png';" src="Images/activities/likeus.png" width="59" /&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;style&gt;&lt;!--
+#page_title{
+opacity:0.0;
+}
+
+
+#firstBanner {
+	opacity: 1.0;
+	position:absolute;
+	transition: opacity 4s ease-in-out; 
+	-moz-transition: opacity 4s ease-in-out; 
+	-webkit-transition: opacity 4s ease-in-out; 
+	-o-transition: opacity 4s ease-in-out;
+}
+
+
+#secondBanner {
+	position:absolute;
+	opacity: 1.0;
+	transition: opacity 2s ease-in-out; 
+	-moz-transition: opacity 2s ease-in-out; 
+	-webkit-transition: opacity 2s ease-in-out; 
+	-o-transition: opacity 2s ease-in-out;
+}
+
+
+#thirdBanner {
+	position:absolute;
+	opacity: 0.0;
+	transition: opacity 4s ease-in-out; 
+	-moz-transition: opacity 4s ease-in-out; 
+	-webkit-transition: opacity 4s ease-in-out; 
+	-o-transition: opacity 4s ease-in-out;
+}
+
+
+#firstCascade {
+	opacity: 0.0;
+	position:absolute;
+	transition: opacity 1s ease-in-out; 
+	-moz-transition: opacity 1s ease-in-out; 
+	-webkit-transition: opacity 1s ease-in-out; 
+	-o-transition: opacity 1s ease-in-out;
+}
+
+
+#secondCascade {
+	position:absolute;
+	opacity: 0.0;
+	transition: opacity 1.5s ease-in-out; 
+	-moz-transition: opacity 1.5s ease-in-out; 
+	-webkit-transition: opacity 1.5s ease-in-out; 
+	-o-transition: opacity 1.5s ease-in-out;
+}
+
+
+#thirdCascade {
+	position:absolute;
+	opacity: 0.0;
+	transition: opacity 2s ease-in-out; 
+	-moz-transition: opacity 2s ease-in-out; 
+	-webkit-transition: opacity 2s ease-in-out; 
+	-o-transition: opacity 2s ease-in-out;
+}
+
+
+#fourthCascade {
+	opacity: 0.0;
+	position:absolute;
+	transition: opacity 2.5s ease-in-out; 
+	-moz-transition: opacity 2.5s ease-in-out; 
+	-webkit-transition: opacity 2.5s ease-in-out; 
+	-o-transition: opacity 2.5s ease-in-out;
+}
+
+
+#fifthCascade {
+	position:absolute;
+	opacity: 0.0;
+	transition: opacity 3s ease-in-out; 
+	-moz-transition: opacity 3s ease-in-out; 
+	-webkit-transition: opacity 3s ease-in-out; 
+	-o-transition: opacity 3s ease-in-out;
+}
+
+
+#sixthCascade {
+	position:absolute;
+	opacity: 0.0;
+	transition: opacity 3.5s ease-in-out; 
+	-moz-transition: opacity 3.5s ease-in-out; 
+	-webkit-transition: opacity 3.5s ease-in-out; 
+	-o-transition: opacity 3.5s ease-in-out;
+}
+
+
+#seventhCascade {
+	opacity: 0.0;
+	position:absolute;
+	transition: opacity 4s ease-in-out; 
+	-moz-transition: opacity 4s ease-in-out; 
+	-webkit-transition: opacity 4s ease-in-out; 
+	-o-transition: opacity 4s ease-in-out;
+}
+
+
+#eighthCascade {
+	position:absolute;
+	opacity: 0.0;
+	transition: opacity 4.5s ease-in-out; 
+	-moz-transition: opacity 4.5s ease-in-out; 
+	-webkit-transition: opacity 4.5s ease-in-out; 
+	-o-transition: opacity 4.5s ease-in-out;
+}
+
+
+#tenthCascade {
+	position:absolute;
+	opacity: 0.0;
+	transition: opacity 6s ease-in-out; 
+	-moz-transition: opacity 14s ease-in-out; 
+	-webkit-transition: opacity 14s ease-in-out; 
+	-o-transition: opacity 14s ease-in-out;
+}
+--&gt;&lt;/style&gt;
+&lt;p&gt;
+&lt;script type="text/javascript"&gt;// &lt;![CDATA[
+window.onload=function(){
+
+var el = document.getElementById( 'page_title' );
+el.parentNode.removeChild( el );
+
+firstBanner.style.opacity = '0.0';
+secondBanner.style.opacity = '1.0';
+setTimeout(function(){secondBanner.style.opacity = '1.0'},3000);
+
+firstCascade.style.opacity = '1.0';
+secondCascade.style.opacity = '1.0';
+thirdCascade.style.opacity = '1.0';
+fourthCascade.style.opacity = '1.0';
+fifthCascade.style.opacity = '1.0';
+sixthCascade.style.opacity = '1.0';
+seventhCascade.style.opacity = '1.0';
+eighthCascade.style.opacity = '1.0';
+tenthCascade.style.opacity = '1.0';
+setTimeout(function(){tenthCascade.style.opacity = '1.0'},3000);
+
+};
+// ]]&gt;&lt;/script&gt;
+&lt;img height="183" id="secondBanner" src="Images/activities/Banner2.jpg" width="703" /&gt; &lt;img height="183" id="firstBanner" src="Images/activities/Banner1.jpg" width="703" /&gt; &lt;img height="183" src="Images/housing/blank.png" width="703" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Create Button" height="156" onmouseout="this.src='Images/activities/buttons_01.png';" onmouseover="this.src='Images/activities/buttons_lift_01.png';" src="Images/activities/buttons_01.png" width="183" /&gt;&lt;img alt="Leadership Button" height="156" onmouseout="this.src='Images/activities/buttons_02.png';" onmouseover="this.src='Images/activities/buttons_lift_02.png';" src="Images/activities/buttons_02.png" width="167" /&gt;&lt;img alt="Calendar Button" height="156" onmouseout="this.src='Images/activities/buttons_03.png';" onmouseover="this.src='Images/activities/buttons_lift_03.png';" src="Images/activities/buttons_03.png" width="172" /&gt;&lt;img alt="Contact Button" height="156" onmouseout="this.src='Images/activities/buttons_04.png';" onmouseover="this.src='Images/activities/buttons_lift_04.png';" src="Images/activities/buttons_04.png" width="181" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img height="432" id="firstCascade" src="Images/activities/cascade_compet.png" width="703" /&gt; &lt;img height="432" id="secondCascade" src="Images/activities/cascade_LS2.png" width="703" /&gt; &lt;img height="432" id="thirdCascade" src="Images/activities/cascade_outdoor3.png" width="703" /&gt; &lt;img height="432" id="fourthCascade" src="Images/activities/cascade_rec4.png" width="703" /&gt; &lt;img height="432" id="fifthCascade" src="Images/activities/cascade_service5.png" width="703" /&gt; &lt;img height="432" id="sixthCascade" src="Images/activities/cascade_social6.png" width="703" /&gt; &lt;img height="432" id="seventhCascade" src="Images/activities/cascade_talent7.png" width="703" /&gt; &lt;img height="432" id="eighthCascade" src="Images/activities/cascade_wellness8.png" width="703" /&gt; &lt;a href="x34915.xml" title="8 Areas"&gt;&lt;img height="432" id="tenthCascade" src="Images/activities/getinvolved.png" width="703" /&gt;&lt;/a&gt; &lt;img height="183" src="Images/housing/blank.png" width="703" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</ContentSnippet></ContentSnippet>

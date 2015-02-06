@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x50963" Name="snippetNew" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;h2&gt;&lt;img alt="Title" height="68" src="Images/activities/title2.jpg" width="528" /&gt;&lt;a class="extLink" href="http://www.facebook.com/byuiactivities" title="FB Site"&gt;&lt;img alt="FB" height="68" onmouseout="this.src='Images/activities/likeus.png';" onmouseover="this.src='Images/activities/likeus3.png';" src="Images/activities/likeus.png" width="59" /&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;style&gt;&lt;!--
+#page_title{
+opacity:0.0;
+}
+
+
+#firstBanner {
+	opacity: 1.0;
+	position:absolute;
+	transition: opacity 4s ease-in-out; 
+	-moz-transition: opacity 4s ease-in-out; 
+	-webkit-transition: opacity 4s ease-in-out; 
+	-o-transition: opacity 4s ease-in-out;
+}
+
+
+#secondBanner {
+	position:absolute;
+	opacity: 1.0;
+	transition: opacity 2s ease-in-out; 
+	-moz-transition: opacity 2s ease-in-out; 
+	-webkit-transition: opacity 2s ease-in-out; 
+	-o-transition: opacity 2s ease-in-out;
+}
+
+
+#thirdBanner {
+	position:absolute;
+	opacity: 0.0;
+	transition: opacity 4s ease-in-out; 
+	-moz-transition: opacity 4s ease-in-out; 
+	-webkit-transition: opacity 4s ease-in-out; 
+	-o-transition: opacity 4s ease-in-out;
+}
+
+--&gt;&lt;/style&gt;
+&lt;p&gt;
+&lt;script type="text/javascript"&gt;// &lt;![CDATA[
+window.onload=function(){
+
+var el = document.getElementById( 'page_title' );
+el.parentNode.removeChild( el );
+
+firstBanner.style.opacity = '0.0';
+secondBanner.style.opacity = '1.0';
+setTimeout(function(){secondBanner.style.opacity = '1.0'},3000);
+
+};
+// ]]&gt;&lt;/script&gt;
+&lt;img height="183" id="secondBanner" src="Images/activities/Banner2.jpg" width="703" /&gt; &lt;img height="183" id="firstBanner" src="Images/activities/Banner1.jpg" width="703" /&gt; &lt;img height="183" src="Images/housing/blank.png" width="703" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe height="527" src="http://www.youtube.com/embed/fyXZuS-lCH8" style="display: block; margin-left: auto; margin-right: auto;" width="703"&gt;&lt;/iframe&gt;&lt;/p&gt;</ContentSnippet></ContentSnippet>

@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.101 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x69169" Name="pr" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;style type="text/css"&gt;
+@font-face {
+font-family: Asap;
+src: url("https://byui.box.com/shared/static/z3jkvkc4lrq9zigojb95.otf") format("opentype");
+}
+@font-face {
+font-family: Goudy;
+src: url("https://byui.box.com/shared/static/tfhihow6sspbm3tur81h.otf") format("opentype");
+}
+
+ul.nav {
+   margin: 0; padding: 0; position: relative; display: table; border: 0; width: 100%; overflow: visible; zoom: 1;
+}
+ul.nav li {
+   list-style: none; margin: 0px; width: 20%; float: left;
+}
+ul.nav li a.nav_btn {
+   display: block;               text-align: center; text-decoration: none;
+	border: 1px solid 		#ccc /*{c-bup-border}*/;
+	background: 			#eee /*{c-bup-background-color}*/;
+	font-weight: bold;
+	color: 					#222 /*{c-bup-color}*/;
+	text-shadow: 0 /*{c-bup-shadow-x}*/ 1px /*{c-bup-shadow-y}*/ 0 /*{c-bup-shadow-radius}*/ #fff /*{c-bup-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #fff /*{c-bup-background-start}*/), to( #f1f1f1 /*{c-bup-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #fff /*{c-bup-background-start}*/, #f1f1f1 /*{c-bup-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #fff /*{c-bup-background-start}*/, #f1f1f1 /*{c-bup-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #fff /*{c-bup-background-start}*/, #f1f1f1 /*{c-bup-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #fff /*{c-bup-background-start}*/, #f1f1f1 /*{c-bup-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #fff /*{c-bup-background-start}*/, #f1f1f1 /*{c-bup-background-end}*/);
+   font-family: Helvetica,Arial,sans-serif; cursor: pointer;
+}
+ul.nav li a.nav_btn:hover {
+	border: 1px solid 		#bbb /*{c-bhover-border}*/;
+	background: 			#dfdfdf /*{c-bhover-background-color}*/;
+	font-weight: bold;
+	color: 					#222 /*{c-bhover-color}*/;
+	text-shadow: 0 /*{c-bhover-shadow-x}*/ 1px /*{c-bhover-shadow-y}*/ 0 /*{c-bhover-shadow-radius}*/ #fff /*{c-bhover-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #f6f6f6 /*{c-bhover-background-start}*/), to( #e0e0e0 /*{c-bhover-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #f6f6f6 /*{c-bhover-background-start}*/, #e0e0e0 /*{c-bhover-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #f6f6f6 /*{c-bhover-background-start}*/, #e0e0e0 /*{c-bhover-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #f6f6f6 /*{c-bhover-background-start}*/, #e0e0e0 /*{c-bhover-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #f6f6f6 /*{c-bhover-background-start}*/, #e0e0e0 /*{c-bhover-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #f6f6f6 /*{c-bhover-background-start}*/, #e0e0e0 /*{c-bhover-background-end}*/);
+   font-family: Helvetica,Arial,sans-serif; cursor: pointer;
+}
+ul.nav li a.nav_btn_visited {
+   display: block; text-align: center; text-decoration: none;
+   border: 1px solid #2373a5;
+   background: #5393c5;
+   font-weight: bold;
+   color: #fff;
+   cursor: pointer;
+   text-shadow: 0 1px 0 #3373a5;
+   text-decoration: none;
+   background-image: -webkit-gradient(linear,left top,left bottom,from( #5393c5 ),to( #6facd5 ));
+   background-image: -webkit-linear-gradient( #5393c5,#6facd5 );
+   background-image: -moz-linear-gradient( #5393c5,#6facd5 );
+   background-image: -ms-linear-gradient( #5393c5,#6facd5 );
+   background-image: -o-linear-gradient( #5393c5,#6facd5 );
+   background-image: linear-gradient( #5393c5,#6facd5 );
+   font-family: Helvetica,Arial,sans-serif;
+}
+ul.nav li a span.nav_txt {
+   display: block; padding-top: 6%; padding-bottom: 6%;
+}
+.banner{
+   WIDTH:100%;
+}
+.dept{
+   display:table; width:100%; margin-left: 5%;
+}
+.dept a {
+  text-decoration: none;
+}
+.dept img {
+   width: 250px; float: left;
+}
+.dept p {
+   float: left; color: grey; font-family:Asap,Trebuchet MS,Tahoma;
+}
+p.welcome {
+   font-family: Goudy; margin:0px; margin-left: 23px; 
+}
+img.icon {
+   width: 100%;
+}
+p.content {
+   margin-left:40px; margin-right:30px; font-family: Goudy, Georgia, Garamond; 
+}
+&lt;/style&gt;
+&lt;script type="text/javascript"&gt;
+function btnClick(obj)
+{
+   obj.className = "nav_btn_visited";
+}
+&lt;/script&gt;
+&lt;div&gt;
+&lt;ul id="nav" class="nav"&gt;
+&lt;li&gt;&lt;a href="http://www.byui.edu/academic-support-centers/advertising-council" class="nav_btn" onClick="btnClick(this)"&gt;&lt;span class="nav_txt"&gt;Home&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.byui.edu/academic-support-centers/advertising-council/portfolio" class="nav_btn" onClick="btnClick(this)"&gt;&lt;span class="nav_txt"&gt;Portfolio&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.byui.edu/academic-support-centers/advertising-council/practicum-info" class="nav_btn" onClick="btnClick(this)"&gt;&lt;span class="nav_txt"&gt;Practicum info&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.byui.edu/academic-support-centers/advertising-council/requirements" class="nav_btn" onClick="btnClick(this)"&gt;&lt;span class="nav_txt"&gt;Requirements&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.byui.edu/academic-support-centers/advertising-council/about-us" class="nav_btn" onClick="btnClick(this)"&gt;&lt;span class="nav_txt"&gt;About us&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="banner"&gt;
+&lt;img src="http://courses.byui.edu/AcademicSupport/ad-council/banner/pr_banner.png" width="100%" /&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;p class="content"&gt;
+As a core part of the Advertising Council, the Public Relations department is a team of communication professionals that strive to connect the academic expectations from the faculty and the academic needs of the students through promoting and advertising the services provided by our client, the Academic Support Center.&lt;br /&gt;
+&lt;br /&gt;We demonstrate our professions through many creative tasks to better further the efficiency of Advertising Council in order to increase and maintain the awareness of what our client have to offer on campus.   Activities such as market research, brainstorming, and copywriting are some of the main focuses of the Public Relations Department.&lt;br /&gt;
+&lt;br /&gt;We also cooperate closely with the Video Production team and the Print Production team for the requirement of each project or campaign. It is necessary that we assure each product or message from Ad Council is well presented to our audiences through different media properly.&lt;br /&gt;
+&lt;br /&gt;Public Relations department is also a place where you can learn hands-on experience and practice your communication skills for your future career in the real world.
+&lt;/p&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="dept"&gt;
+&lt;a href="mailto:byuiadcncl@gmail.com" target="_parent"&gt;
+&lt;img src="http://courses.byui.edu/AcademicSupport/ad-council/icons/mail.png" /&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Join: Public Relation!&lt;br /&gt; Please put 'Public Relation' in the subject of email&lt;/p&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- END html area --&gt;</ContentSnippet></ContentSnippet>

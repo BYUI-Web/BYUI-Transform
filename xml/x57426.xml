@@ -1,0 +1,334 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content ID="x57426" Name="Flexible Degree Structures" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Flexible Degree Structures</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Overview of the degree structures that BYU-Idaho offers to provide flexibility and cost savings for students</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<!-- END Enhanced Body Copy Area Template 2012, by Jakob Anderson [ and08073@byui.edu ] -->
+<style type="text/css"><!--
+html, body {
+                padding: 0;
+                margin: 0;
+                /* height: 100%; */
+            }
+            body, div, p {
+                font-family: Georgia;
+                color: #333;
+            }
+            body {
+                background-color: white;
+            }
+            #container{
+                margin: 10px auto;
+                width: 712px;
+                overflow:auto;
+/*                border: 1px solid lightgrey;*/
+                padding:0px;
+            }
+            #container a{
+                text-decoration:none;
+                color:white;
+            }
+            #container a:hover{
+                text-decoration:underline;
+            }
+            #top{
+            }
+            .separator{
+                padding-top:10px;
+                border-bottom: 1px dotted #666666;
+            }
+            #topleft{
+                float:left;
+                width:420px;
+                font-size: 110%;
+            }
+            #topleft ul{
+                padding-left:20px;
+            }
+            #topright{
+                float:right;
+                width:260px;
+            }
+            .lightgrey{
+                color:#898989;
+            }
+            .italics{
+                width:90%;
+                font-style: italic;
+            }
+            .clear{
+                clear:both;
+            }
+            #degreebuttontable td{
+                height:55px;
+                width:200px;
+                padding:5px;
+                padding-top:10px;
+            }
+            #rightdegreebuttontable td{
+                height:127px;
+                width:280px;
+                padding:5px;
+                padding-top:10px;
+                text-align:center;
+            }
+            #rightdegreebuttontable a{
+                text-decoration: none;
+            }
+            td{
+                border-radius: 10px;
+            }
+            .pinkcolor{
+                background-color: #9c4375;
+            }
+            .orangecolor{
+                background-color: #d0532c;
+            }
+            .greencolor{
+                background-color: #aca228;
+            }
+            .bluecolor{
+                background-color: #2e69ab;
+            }
+            .yellowcolor{
+                background-color: #f69710;
+                /*                background-color: #fdd95b;*/
+                background: -webkit-gradient( linear, 0 0, 100% 100%, from(#f69710), to(#fdd95b) );
+                background: -moz-linear-gradient( top, #f69710, #fdd95b );
+            }
+            .pinkcolortitle{
+                color: #9c4375;
+                font-size:130%;
+            }
+            .orangecolortitle{
+                color: #d0532c;
+                font-size:130%;
+            }
+            .greencolortitle{
+                color: #aca228;
+                font-size:130%;
+            }
+            .bluecolortitle{
+                color: #2e69ab;
+                font-size:130%;
+            }
+            .learnmore{
+                font-size: 80%;
+                text-align: right;
+            }
+            .buttontitle{
+                color:#fff;
+                font-family: Helvetica;
+                font-size: 80%;
+                letter-spacing: 2px;
+                padding:5px;
+            }
+            .buttonsmall{
+                position:absolute;
+                color:#fff;
+                font-family: Helvetica;
+                font-style: italic;
+                font-size: 65%;
+                top:33px;
+                right:10px;
+                padding-right:5px;
+            }
+            .degreebox{
+                color:#fff;
+                font-family: Helvetica;
+                font-size: 90%;
+                padding:15px 0px;
+                width:100%;
+                min-height:200px;
+                border-top: 1px dotted #666666;
+            }
+            .descriptionbox{
+                font-family: Helvetica;
+                font-size: 90%;
+                padding:35px 5px;
+            }
+            table, th, td {
+                vertical-align: top;
+            }
+            .totop{
+                position:relative;
+                top:20px;
+                color:white;
+                font-size:10px;
+            }
+            #degreebuttontable a{
+                text-decoration:none;
+                color:white;
+            }
+            #degreebuttontable a:hover{
+                text-decoration:underline;
+                color:white;
+            }
+            #bottom{
+                margin-top:30px;
+            }
+            #bottom a{
+                text-decoration:none;
+                color:white;
+            }
+            #bottom a:hover{
+                text-decoration:underline;
+                color:white;
+            }
+            .yellowmedium{
+                font-size:90%;
+                font-family: Helvetica;
+                color:white;
+                padding:5px;
+            }
+
+            .yellowlarge{
+                font-size:170%;
+                font-family: Helvetica;
+                color:white;
+            }
+            .yellowsmall{
+                font-family: Helvetica;
+                line-spacing:15px;
+                font-size:65%;
+                color:black;
+                padding-top:5px;
+            }
+            .threecolumns{
+                width:33%;
+                float:left;
+            }
+            .abutton{
+                position:relative;
+                margin:5px;
+                padding:5px;
+                height:45px;
+                border-radius:8px;
+            }
+            .bigbutton{
+                margin:5px;
+                padding:5px;
+                height:105px;
+                border-radius:8px;
+                text-align:center;
+            }
+            .leftdegreebox{
+                font-family: Helvetica;
+                font-size: 14px;
+                width:200px;
+                height:100%;
+                margin-left:5px;
+                padding:30px 20px;
+                float:left;
+                border-radius: 8px;
+                min-height:200px;
+                color:white;
+            }
+            .rightdegreebox{
+                padding:30px 20px;
+                width:420px;
+                float:right;
+                min-height:200px;
+            }
+--></style>
+<div id="container">
+<div id="top">
+<div id="topleft"><br />Because BYU-Idaho is committed to providing you with an innovative educational experience, the university has built greater flexibility and versatility into your degree options.<br /><br /><span class="italics"><span class="italics"> BYU-Idaho has four bachelor's degree structures designed to help you:<br /><br /></span></span>
+<ul>
+<li>Have flexibility</li>
+<li>Graduate faster</li>
+<li>Save money</li>
+<li>Prepare for a career and life options</li>
+</ul>
+</div>
+<div id="topright"><img alt="Flexible Degrees Image" src="http://www.byui.edu/Images/Academic-Advising/flexible-degrees-text.gif" /></div>
+<div class="clear" id="degreebuttons">
+<div class="threecolumns">
+<div class="pinkcolor abutton">
+<div class="buttontitle"><a href="#standard">STANDARD DEGREE</a></div>
+<div class="buttonsmall"><a href="#standard">learn more</a></div>
+</div>
+<div class="greencolor abutton">
+<div class="buttontitle"><a href="#specialized">SPECIALIZED DEGREE</a></div>
+<div class="buttonsmall"><a href="#specialized">learn more</a></div>
+</div>
+</div>
+<div class="threecolumns">
+<div class="orangecolor abutton">
+<div class="buttontitle"><a href="#integrated">INTEGRATED STANDARD DEGREE</a></div>
+<div class="buttonsmall"><a href="#integrated">learn more</a></div>
+</div>
+<div class="bluecolor abutton">
+<div class="buttontitle"><a href="#interdisciplinary">INTERDISCIPLINARY STUDIES DEGREE</a></div>
+<div class="buttonsmall"><a href="#interdisciplinary">learn more</a></div>
+</div>
+</div>
+<div class="threecolumns">
+<div class="yellowcolor bigbutton">
+<div class="yellowmedium">Find out what works for you</div>
+<div class="yellowlarge"><a href="x24269.xml" title="ADC Locations">VISIT US TODAY!</a></div>
+<div class="yellowsmall">Manwaring Center 129 &bull; (208) 496-9800<br /> academicdiscoverycenter@byui.edu</div>
+</div>
+</div>
+</div>
+</div>
+<div class="separator clear"></div>
+<div class="clear" id="bottom">
+<div class="degreebox clear" id="standard">
+<div class="pinkcolor leftdegreebox"><a name="standard"></a>Standard Degree:<br />
+<ul>
+<li>40-55 major credits</li>
+<li>No minor or clusters</li>
+<li>40 Foundations credits</li>
+<li>Elective credits to reach 120 total credits</li>
+</ul>
+<h5><br /><a href="x45191.xml" style="color: yellow; text-decoration: underline;" title="Standard Degrees">List of Standard Degrees</a><br /> <a href="#"><span class="totop">&gt;BACK TO TOP</span></a></h5>
+</div>
+<div class="rightdegreebox"><span class="pinkcolortitle">STANDARD DEGREE<br /><br />[SCENARIO]</span><br /> Sean has had a difficult time deciding what he wants to do for his career. Before his mission he was thinking of going to law school, declared himself a Humanities major and completed 12 of the major's core credits.<br /><br /> After his mission, Sean changed his major three times: first to Biology then Sociology, and finally felt settled with International Studies.<br /><br /> The only problem is that the 26 credits accumulated from his previous majors won't satisfy any of the requirements for the International Studies degree.<br /><br /> However, with the new flexible degree structures, International Studies falls under the new standard degree requirements. Sean can now use those 26 credits as part of his elective credits and still graduate on time, thus saving him time and money.</div>
+</div>
+<br /><br /><br />
+<div class="degreebox clear" id="integrated">
+<div class="orangecolor leftdegreebox"><a name="integrated"></a>Integrated Standard Degree:
+<ul>
+<li>Up to 67 credits in major</li>
+<li>Minor or clusters req'd</li>
+<li>40 Foundations credits</li>
+<li>Elective credits to reach 120 total credits</li>
+</ul>
+<h5><br /><a href="x45194.xml" style="color: yellow; text-decoration: underline;" title="Integrated Standard Degrees">List of Integrated Standard Degrees</a><br /> <a href="#"><span class="totop">&gt;BACK TO TOP</span></a></h5>
+</div>
+<div class="rightdegreebox"><span class="orangecolortitle">INTEGRATED STANDARD DEGREE<br /><br /></span><br /><br /><br /> <br /><br /><br /><br /><br /><br /><br /><br /></div>
+</div>
+<br /><br /><br />
+<div class="degreebox clear" id="specialized">
+<div class="greencolor leftdegreebox"><a name="specialized"></a>Specialized Degree:
+<ul>
+<li>Up to 80 credits in major</li>
+<li>40 Foundations credits</li>
+<li>Elective credits limited to reach 120 total credits</li>
+</ul>
+<h5><br /><a href="x45196.xml" style="color: yellow; text-decoration: underline;" title="Specialized Degrees">List of Specialized Degrees</a><br /> <a href="#"><span class="totop">&gt;BACK TO TOP</span></a></h5>
+</div>
+<div class="rightdegreebox"><span class="greencolortitle">SPECIALIZED DEGREE<br /><br />[SCENARIO]</span><br />Mandy has always wanted to be a nurse and is currently taking Foundations classes and the prerequisites required to apply for the nursing program. After two successful semesters and a total of 30 college credits, she applied to the Associate of Science degree in Nursing and was accepted. <br /><br /> Once she is finished completing the associate's degree, Mandy wants to enroll in the Bachelor of Science in Nursing online degree program. <br /><br /> Because Mandy knew early on that she wanted to major in a specialized degree, she was able to map the appropriate plan to reach her destination in a timely and cost effective way. Mandy's associate's degree and the online bachelor's degree combine for a total of 79 major credits. Adding in her required Foundations classes, Mandy will graduate within her 120 credit hours required for a bachelor's degree. <br /> <br />Students wanting to major in a specialized degree at BYU-Idaho will need to plan early and sequence their classes effectively in order to graduate on time. Specialized degrees include education, engineering, computer science, social work, music performance and more.</div>
+</div>
+<br /><br /><br />
+<div class="degreebox clear" id="interdisciplinary">
+<div class="bluecolor leftdegreebox"><a name="interdisciplinary"></a>Interdisciplinary Studies Degree:<br /><br />
+<ul>
+<li>Select a <span style="text-decoration: underline;"><a href="http://www.byui.edu/Documents/Catalog/2012-2013/Concentrations.pdf" title="Possible Concentrations">Concentration</a></span><br /><em><small>(30-36 credits)</small></em></li>
+<li>Add one of the following:
+<ul>
+<li>One minor, <em>or</em></li>
+<li>Two clusters, <em>or</em></li>
+<li>2nd concentration</li>
+</ul>
+</li>
+</ul>
+<em>This degree is for students who want to combine two or more disciplines for their major.</em><br /> <br />
+<h5><br /><a href="http://www.byui.edu/Documents/catalog/2012-2013/Interdisciplinary%20Studies.pdf" style="color: yellow; text-decoration: underline;" title="BYU-I Catalog Interdisciplinary Studies">List of Interdisciplinary Studies Degrees</a><br /> <a href="#"><span class="totop">&gt;BACK TO TOP</span></a></h5>
+<h5></h5>
+</div>
+<div class="rightdegreebox"><span class="bluecolortitle">INTERDISCIPLINARY STUDIES DEGREE<br /><br />[SCENARIO]</span><br /> Eric attended a community college for two years before transferring to BYU-Idaho. He declared himself as an Accounting major at BYU-Idaho. After completing 20 credits in the Accounting major, Eric just wasn&rsquo;t sure this is what he wanted to do the rest of his life. <br /><br /> As he was thinking about his situation, Eric realized that he has always loved computers, especially knowing how they worked and their capabilities. He wondered what it would take to still get a Computer Engineering degree at BYU-Idaho. Unfortunately, with 45 transfer credits (only 20 counting towards Foundations classes), 20 Accounting credits and needing 77 credits for a bachelor&rsquo;s degree in Computer Engineering; it would take over 162 credits for Eric to graduate. <br /><br /> However, Eric is not completely stuck. Now with the interdisciplinary studies degree, he can get a concentration in Computer Science Hardware (36 credits) and use his accounting classes for a minor in Accounting (24 credits). It will now take Eric only 125 credits to graduate from BYU-Idaho. This moves Eric further along his career desires and better prepares him for the Computer Engineering Master&rsquo;s program he desires to enter.</div>
+</div>
+</div>
+</div>
+<!-- thumbnail scroller markup end -->
+<p></p>
+<!-- END Enhanced Body Copy Area Template 2012, by Jakob Anderson [ and08073@byui.edu ] -->]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x17690" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

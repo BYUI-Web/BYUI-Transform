@@ -1,0 +1,256 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<Content ID="x50271" Name="Communication Tools" Layout="byuidefault.xsl" IsComponent="false">
+	<Title type="string" label="Title" readonly="false" hidden="false" required="true">Communication Tools</Title>
+	<Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Join the Conversation and BYU-Idaho by using these communication tools</Abstract>
+	<xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false">
+		<BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/>
+		<MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/>
+		<NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow>
+		<NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex>
+		<NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP>
+		<Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority>
+	</xPower>
+	<xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true">
+		<HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle>
+		<Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation>
+	</xPower>
+	<BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height="">
+		<![CDATA[<style><!--
+#intro{
+    font-family: helvetica; 
+    font-size: 24px;
+    padding: 0;
+    margin: 0 30px 40px 30px;
+    color: #fff;
+}
+
+#content{
+    float: left;
+    padding: 10px;
+    border-bottom: #000 dotted 1px;
+    padding-top: 30px;
+}
+
+.container .span-11{
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.span-11 {float: left;}
+
+.icon{
+    float:left; 
+    height: 100%;
+    margin-right: 0;
+    width: 106px;
+    height: 106px;
+}
+
+.text {
+    margin-left: 115px;
+}
+.intro{
+    display: block;
+    float: left;
+    background-color:#89679E;
+    z-index:0;
+    position:relative;
+    border-top: 1.75px dotted #A9A9A9;
+    margin-top: 5px;
+}
+
+.intro h4{
+    font-family: helvetica; 
+    letter-spacing: 2px; 
+    font-size: 23px;
+    padding:8px 13px;
+    margin-top: 22px;
+    margin-left: 1px;
+    color: #fff;
+}
+
+.line{
+    border-top: 2px solid #FFFFFF;  
+    position:absolute;
+    left:30px;
+    width:890px;
+}
+
+a.additional-link {
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+#president-fb-page .icon {
+    background: url("Images/campaigns/join-the-conversation/Icons/JTC-icons-01-01.png") no-repeat;
+    margin-top:-10px;
+}
+
+#president-fb-page:hover .icon {
+    background: url("Images/campaigns/join-the-conversation/Icons/JTC-icons-01-02.png") no-repeat;
+    
+}
+
+#cvn .icon {
+    background: url("Images/campaigns/join-the-conversation/Icons/JTC-icons-01-13.png") no-repeat;
+    margin-top:-10px;
+}
+
+/***Uncomment when the div has a link***
+#cvn:hover .icon {
+    background: url("Images/campaigns/join-the-conversation/Icons/JTC-icons-01_105.png") no-repeat;
+}
+*/
+
+#byui-fb-page .icon {
+    background: url("Images/campaigns/join-the-conversation/Icons/JTC-icons-01-01.png") no-repeat;
+    margin-top: 10px;
+}
+
+#byui-fb-page:hover .icon {
+    background: url("Images/campaigns/join-the-conversation/Icons/JTC-icons-01-02.png") no-repeat;
+  
+}
+
+#q-and-a .icon{
+    background: url("Images/campaigns/join-the-conversation/Icons/JTC-icons-01-09.png") no-repeat;
+    margin-top:-10px;
+}
+
+#q-and-a:hover .icon{
+    background: url("Images/campaigns/join-the-conversation/Icons/JTC-icons-01-10.png") no-repeat;
+    
+}
+
+#public-blog .icon {
+    background: url("Images/campaigns/join-the-conversation/Icons/JTC-icons-01-05.png") no-repeat;
+    margin-top:-10px;
+}
+
+#public-blog:hover .icon {
+    background: url("Images/campaigns/join-the-conversation/Icons/JTC-icons-01-06.png") no-repeat;
+   
+}
+
+#weekly-email .icon {
+    background: url("Images/campaigns/join-the-conversation/Icons/JTC-icons-01-11.png") no-repeat;
+    margin-top:-10px;
+}
+
+/***Uncomment when the div has a link***
+#weekly-email:hover .icon {
+    background: url("Images/campaigns/join-the-conversation/Icons/JTC-icons-01-12.png") no-repeat;
+}
+*/
+
+#internal-blog .icon {
+    background: url("Images/campaigns/join-the-conversation/Icons/JTC-icons-01-05.png") no-repeat;
+    margin-top:-10px;
+}
+
+#internal-blog:hover .icon {
+    background: url("Images/campaigns/join-the-conversation/Icons/JTC-icons-01-06.png") no-repeat;
+   
+}
+
+#other-resources .icon {
+    background: url("Images/campaigns/join-the-conversation/Icons/JTC-icons-01-15.png") no-repeat;
+    margin-top:-10px;
+}
+--></style>
+<!-- Content -->
+<div>[x50915]</div>
+<div style="border-top: 1px  #000 dotted; margin-top: 5px;">
+<div class="intro span-24">
+<h4><strong>COMMUNICATION TOOLS</strong></h4>
+<div class="line span-23"></div>
+&nbsp;
+<p id="intro">Everyone wants to be informed and be heard. We hope these new tools will provide you with high-level information and allow you to contribute your thoughts:</p>
+</div>
+<div id="content">
+<div class="container span-11" id="president-fb-page" style="height: 120px;"><a href="https://www.facebook.com/pages/President-of-BYU-Idaho/263195743806502?ref=ts&amp;fref=ts"><span class="make-link"></span></a><!--Icon-->
+<div class="icon span-3"></div>
+<!-- End of Icon -->
+<div class="text">
+<h2>President of BYU-Idaho<br />Facebook page</h2>
+<p>Join the President through <a href="https://www.facebook.com/pages/President-of-BYU-Idaho/263195743806502?ref=ts&amp;fref=ts">regular posts</a> as he shares his personal thoughts and welcomes comments from employees and students.</p>
+</div>
+</div>
+<div class="container span-11" id="cvn" style="height: 120px;"><!--Icon-->
+<div class="icon span-3"></div>
+<!-- End of Icon -->
+<div class="text">
+<h2>Campus Video Network (CVN)</h2>
+<p>Using the latest video technology, view timely university messages on monitors located in nearly every building on campus.</p>
+</div>
+</div>
+<div class="container span-11" id="byui-fb-page" style="height: 120px;"><a href="https://www.facebook.com/BYUID?ref=ts&amp;fref=ts"><span class="make-link"></span></a><!--Icon-->
+<div class="icon span-3"></div>
+<!-- End of Icon -->
+<div class="text" style="padding-top: 20px;">
+<h2>BYU-Idaho Facebook page</h2>
+<p>Get <a href="https://www.facebook.com/BYUID?ref=ts&amp;fref=ts">official announcements</a> and other important information from the university through this interactive social media tool.</p>
+</div>
+</div>
+<div class="container span-11" id="q-and-a" style="height: 170px; margin-top: 15px;"><a href="http://www.byui.edu/presidents-qa"><span class="make-link"></span></a> <!--Icon-->
+<div class="icon span-3"></div>
+<!-- End of Icon -->
+<div class="text">
+<h2>New format for President's Q&amp;A</h2>
+<p>Meet face-to-face with the President and vice presidents to get your questions answered immediately. This <a href="http://www.byui.edu/presidents-qa">meeting</a> is held regularly and changes days so every employee has the opportunity to attend. In addition, off-campus employees will now be able to pose questions and participate via live webcast.</p>
+</div>
+</div>
+<div class="container span-11" id="public-blog" style="height: 120px; margin-top: -20px;"><!--Icon--> <a href="https://www.byui.edu/newsroom/university-blog"><span class="make-link"></span></a>
+<div class="icon span-3"></div>
+<!-- End of Icon -->
+<div class="text">
+<h2>University Blog</h2>
+<p>Learn about <a href="https://www.byui.edu/newsroom/university-blog">BYU-Idaho updates</a>, event information, and answers to questions that affect the community.</p>
+</div>
+</div>
+<div class="container span-11" id="weekly-email" style="height: 120px; margin-top: 40px;"><!--Icon-->
+<div class="icon span-3"></div>
+<!-- End of Icon -->
+<div class="text">
+<h2>Improved email updates</h2>
+<p>Read university emails geared more toward you and your interests. Whether employees work on campus or not, university emails will keep them informed with relevant information.</p>
+</div>
+</div>
+<div class="container span-11" id="internal-blog" style="margin-bottom: 10px; margin-top: -50px;"><a href="https://inet.byui.edu/sites/news/blog"><span class="make-link"></span></a> <!--Icon-->
+<div class="icon span-3"></div>
+<!-- End of Icon -->
+<div class="text">
+<h2>Employee Blog</h2>
+<p>Get the latest decisions and information from President&rsquo;s Council and President&rsquo;s Executive Group (PEG). BYU-Idaho employees will have access to the <a href="https://cms.byui.edu/home/news/blog/default.aspx">highest-level of information</a> and the opportunity to provide their thoughts.</p>
+</div>
+</div>
+<div class="container span-11" id="other-resources" style="margin-bottom: 10px; margin-top: 30px;"><!--Icon-->
+<div class="icon span-3"></div>
+<!-- End of Icon -->
+<div class="text">
+<h2>Additional Communication Resources</h2>
+<p><a class="additional-link" href="http://www.byui.edu/upward" style="text-decoration: none;" title="Upward Online Magazine">Upward: BYU-Idaho's Official Online<br />Update &raquo; </a> See beautiful photo galleries, powerful videos, and informative infographics in the latest issue of <em>Upward.</em></p>
+<p><a class="additional-link" href="http://www.byui.edu/learning-teaching/faculty-committees/publication/perspective-magazine" title="Perspective Magazine">Perspective Magazine &raquo;</a> Learn how to enhance the quality of learning and teaching at BYU-Idaho through faculty articles and insights.</p>
+<p><a class="additional-link" href="http://www.byui.edu/human-resources/for-employees/training-and-development" title="Additional communication tools and resources">Training &raquo;</a> Find training, read management articles, and access communication tips to help you in your stewardship.</p>
+</div>
+</div>
+</div>
+</div>]]></BodyCopy>
+	<xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="true">
+		<xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote">
+			<xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/>
+		</xPower>
+		<xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/>
+		<xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/>
+		<xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/>
+	</xPower>
+	<xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/>
+	<xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="true" Component="" CompTypes="ContentSnippet">
+		<xPower Type="Component" Component="x50915" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower>
+	<xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/>
+	<xPower Type="Component" Component="x50691" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/>
+</Content>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.82 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x63196" Name="Archiving - Outlook 2010" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">How to archive folders from Outlook 2010</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">How to archive email at BYUI using Outlook 2010</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<h1>Archiving in Outlook 2010</h1>
+<ul>
+<li>BYU-Idaho mailbox quotas are 500MB.</li>
+<li>Archiving relieves your server quota by moving items to your PC storage.</li>
+<li><strong>Procedure (Manual):</strong>
+<ul>
+<li>File --&gt; Cleanup Tools --&gt; Archive...</li>
+<li>Archive this folder and all subfolders</li>
+<li>Select folder</li>
+<li>Select "Archive all items older than" date</li>
+<li>Click "OK"</li>
+</ul>
+</li>
+<li><strong>Procedure (AutoArchive):</strong>
+<ul>
+<li>Auto Archive is not enabled by default. To turn it on:
+<ul>
+<li>click on the File tab to access Backstage View</li>
+<li>then click on Options.<img alt="1autoarchive" border="0" height="353" src="http://www.howtogeek.com/wp-content/uploads/2010/05/1autoarchive.png" title="1autoarchive" width="432" /></li>
+</ul>
+</li>
+<li>The Outlook Options window opens then click on Advanced then the AutoArchive Settings button.</li>
+</ul>
+</li>
+</ul>
+<ul></ul>
+<h2>Accessing Archives</h2>
+<p>Generally when you archive you'll see that archive in the left navigation area in Outlook. &nbsp;If, for whatever reason it's not there, here's how to access it:</p>
+<h3>Outlook 2010</h3>
+<ol>
+<li>File</li>
+<li>Open</li>
+<li>Open Outlook Data File</li>
+<li>Browse to the location of your "archive.pst" file (usually&nbsp;c:\Users\<strong><em>netID</em></strong>\Documents\Outlook Files\archive.pst)</li>
+</ol>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x35726" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

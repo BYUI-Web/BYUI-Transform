@@ -1,0 +1,252 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.101 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x69064" Name="snipRemote" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400italic' rel='stylesheet' type='text/css'&gt;
+&lt;script src="http://code.jquery.com/jquery-1.10.2.min.js"&gt;&lt;/script&gt;
+&lt;script src="Documents/housing/links/http.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+$(document).ready(function(){
+var a1 = "aboutArrow";
+var a2 = "eligibilityArrow";
+var a3 = "compareArrow";
+var a4 = "contractArrow";
+var a5 = "contactArrow";
+  $("#aboutHeader").click(function(){
+    $("#about").slideToggle("slow");
+    $rotatePicture(a1);
+  });
+  $("#eligibilityHeader").click(function(){
+    $("#eligibility").slideToggle("slow");
+    $rotatePicture(a2);
+  });
+  $("#compareHeader").click(function(){
+    $("#compare").slideToggle("slow");
+    $rotatePicture(a3);
+  });
+  $("#contractHeader").click(function(){
+    $("#contract").slideToggle("slow");
+    $rotatePicture(a4);
+  });
+  $("#contactHeader").click(function(){
+    $("#contact").slideToggle("slow");
+    $rotatePicture(a5);
+  });
+  $rotatePicture = function(data){
+  	$( '#' + data ).toggleClass( "rotated" );
+  }
+});
+&lt;/script&gt;
+
+&lt;Style&gt;
+/* Header */
+#HSLheader {
+width:950px;
+height:59px;
+position:relative;
+}
+
+@font-face
+{
+font-family: MotorOil;
+src: url("Documents/housing/fonts/MotorOil.ttf");
+}
+@font-face
+{
+font-family: MarketingScript;
+src: url("Documents/housing/fonts/MarketingScript.ttf");
+}
+
+#welcome {
+font-size:20px;
+margin:auto;
+width:100%;
+text-align:center;
+}
+
+.redFont {
+color:#EC4345;
+font-family:"MarketingScript";
+}
+
+#HSL {
+color:#58585B;
+font-family:"MotorOil";
+font-size:30px;
+margin:auto;
+margin-top:10px;
+width:100%;
+text-align:center;
+}
+
+#amp {
+color:#EC4345;
+font-family: 'Libre Baskerville', serif;
+font-style:italic;
+}
+
+/* Body */
+
+.left {
+float:left;
+}
+
+.right {
+float:right;
+}
+
+.half {
+width:455px;
+margin:5px;
+padding:5px;
+}
+
+.clear {
+clear:both;
+}
+
+/* Left Side */
+
+#toolClicker {
+background-image:url("Images/housing/remote/NEWmap.png");
+width:455px;
+height:478px;
+position:relative;
+}
+ 
+.dot {
+position:absolute;
+    -webkit-transition: all .125s ease-in-out;
+    -moz-transition: all .125s ease-in-out;
+    -o-transition: all .125s ease-in-out;
+    -ms-transition: all .125s ease-in-out;
+    transition: all .125s ease-in-out;
+    -webkit-transform: scale( 1 );
+    -moz-transform: scale( 1 );
+    -o-transform: scale( 1 );
+    -ms-transform: scale( 1 );
+    transform: scale( 1 );    
+    width: 10px;
+    height: 10px; 
+    background: red;
+    border-radius: 50%;
+    border:white 1px solid;
+    box-shadow: 1px 0px 3px #888888;
+}
+.dot:hover {
+    -webkit-transform: scale( 1.5  );
+    -moz-transform: scale( 1.5  );
+    -o-transform: scale( 1.5  );
+    -ms-transform: scale( 1.5  );
+    transform: scale( 1.5 );
+}
+#vegas {
+top:248px;
+left:123px;
+}
+#mesa {
+top:305px;
+left:160px;
+}
+#nampa {
+top:120px;
+left:137px;
+}
+#slc {
+top:185px;
+left:180px;
+}
+#ogden {
+top:170px;
+left:182px;
+}
+#davis {
+top:185px;
+left:45px;
+}
+#oc {
+top:290px;
+left:373px;
+}
+
+.gray {
+color:gray;
+}
+
+/* Right Side */
+
+.right h2 {
+font-family:helvetica, arial;
+font-weight:bold;
+font-style:normal;
+color:#326ba9;
+padding: 0px 0px 8px 0px;
+cursor:pointer;
+}
+
+.arrow {
+	transition:transform .75s;
+	-webkit-transition:-webkit-transform .75s; /* Safari */
+	margin:0px 5px 3px 0px;
+}
+
+.rotated {
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -moz-transform: rotate(90deg); /* Firefox */
+  -webkit-transform: rotate(90deg); /* Safari and Chrome */
+  -o-transform: rotate(90deg); /* Opera */
+}
+.disappear {
+display:none;
+}
+.remoteContent {
+margin-bottom:10px;
+}
+&lt;/style&gt;
+&lt;div id="HSLheader"&gt;
+	&lt;div id="welcome" class="redFont"&gt;Welcome to&lt;/div&gt;
+	&lt;div id="HSL"&gt;Remote Student Housing&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr/&gt;
+&lt;div class="left half"&gt;
+&lt;div id="toolClicker"&gt;
+&lt;a href="x95455.xml" target="_blank"&gt;&lt;div id="vegas" title="Las Vegas, Nevada" class="dot"&gt;&lt;/div&gt;&lt;/a&gt;
+&lt;a href="x95456.xml" target="_blank"&gt; &lt;div id="mesa" title="Mesa, Arizona" class="dot"&gt;&lt;/div&gt;&lt;/a&gt;
+&lt;a href="x95458.xml" target="_blank"&gt; &lt;div id="slc" title="Salt Lake City, Utah" class="dot"&gt;&lt;/div&gt;&lt;/a&gt;
+&lt;a href="x95067.xml" target="_blank"&gt; &lt;div id="ogden" title="Ogden, Utah" class="dot"&gt;&lt;/div&gt;&lt;/a&gt;
+&lt;!-- &lt;a href="x95457.xml" target="_blank"&gt; &lt;div id="nampa" title="Nampa, Idaho" class="dot"&gt;&lt;/div&gt;&lt;/a&gt; --&gt;
+&lt;a href="x95069.xml" target="_blank"&gt; &lt;div id="davis" title="Davis, California" class="dot"&gt;&lt;/div&gt;&lt;/a&gt;
+&lt;a href="x95070.xml" target="_blank"&gt; &lt;div id="oc" title="Oklahoma City, Oklahoma" class="dot"&gt;&lt;/div&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="right half"&gt;&lt;br/&gt;&lt;br/&gt;
+	&lt;h2 id="aboutHeader"&gt;&lt;img id="aboutArrow" class="arrow" src="Images/housing/remote/icons/Arrow.png" /&gt;About Remote Housing&lt;/h2&gt;
+	&lt;div id="about" class="disappear remoteContent"&gt;Remote Housing is comprised of housing options that are owned or operated by BYU-Idaho to help students living in various cities around the Western U.S. Currently, these housing options cater to single students (with the exception of Las Vegas, where we have married housing also) by providing furnished apartments that offer short term contracts. For complete details about what is available select the city from the map. Not all cities have the same amenities.&lt;/div&gt;
+	&lt;hr/&gt;
+	&lt;h2 id="eligibilityHeader"&gt;&lt;img id="eligibilityArrow" class="arrow" src="Images/housing/remote/icons/Arrow.png" /&gt;Eligibility&lt;/h2&gt;
+	&lt;div id="eligibility" class="disappear remoteContent"&gt;Only matriculated BYU-Idaho students, in good standing with the university, are eligible to live in Remote Housing. This means you must be accepted to a track and have already started attending classes. You cannot have any holds or debts owing to the university.&lt;/div&gt;
+	&lt;hr/&gt;
+&lt;!--	&lt;h2 id="compareHeader"&gt;&lt;img id="compareArrow" class="arrow" src="Images/housing/remote/icons/Arrow.png" /&gt;Housing Options&lt;/h2&gt;
+	&lt;div id="compare" class="disappear remoteContent"&gt;Cities where we have Remote Housing:
+		&lt;ul&gt;
+			&lt;li&gt;Nampa, Idaho&lt;/li&gt;
+			&lt;li&gt;Ogden, Utah&lt;/li&gt;
+			&lt;li&gt;Salt Lake City, Utah&lt;/li&gt;
+			&lt;li&gt;Las Vegas, Nevada&lt;/li&gt;
+			&lt;li&gt;Mesa, Arizona&lt;/li&gt;
+			&lt;li&gt;Davis, California&lt;/li&gt;
+			&lt;li&gt;Oklahoma City, Oklahoma (only available Fall semester)&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;a href="x95459.xml"&gt;Click Here&lt;/a&gt; to view details of different housing options
+	&lt;/div&gt;
+	&lt;hr/&gt; --&gt;
+	&lt;h2 id="contractHeader"&gt;&lt;img id="contractArrow" class="arrow" src="Images/housing/remote/icons/Arrow.png" /&gt;Purchase Contract&lt;/h2&gt;
+	&lt;div id="contract" class="disappear remoteContent"&gt;To purchase a contract, email Marc Sunderland at SunderlandMa@byui.edu&lt;/div&gt;
+	&lt;hr/&gt;
+	&lt;h2 id="contactHeader"&gt;&lt;img id="contactArrow" class="arrow" src="Images/housing/remote/icons/Arrow.png" /&gt;Contact Us&lt;/h2&gt;
+	&lt;div id="contact" class="disappear remoteContent"&gt;If you have any further questions or comments, please contact us at 208-496-9220 or housing@byui.edu&lt;/div&gt;
+	&lt;hr/&gt;
+&lt;/div&gt;
+&lt;br class="clear" /&gt;&lt;/div&gt;&lt;/section&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;/div&gt;</ContentSnippet></ContentSnippet>

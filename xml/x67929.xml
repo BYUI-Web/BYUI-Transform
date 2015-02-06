@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x67929" Name="readme.html" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">readme.html</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">readme.html</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;head&gt;
+
+	&lt;title&gt;About the JW Player 5&lt;/title&gt;
+
+	&lt;style type="text/css"&gt;
+		body { background-color: #fff; padding: 0 20px; color:#000; font: 13px/18px Arial, sans-serif; }
+		a { color: #360; }
+		h3 { padding-top: 20px; }
+		ol { margin:5px 0 15px 16px; padding:0; list-style-type:square; }
+	&lt;/style&gt;
+
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;a href="http://www.byuimagazine.net/video/fall2010/eyring/Eyring11MinuteLarge.mp4"&gt;eyring11large&lt;/a&gt;
+	&lt;a href="http://www.byuimagazine.net/video/fall2010/eyring/Eyring11MinuteMedium.mp4"&gt;eyring11large&lt;/a&gt;
+	&lt;a href="http://www.byuimagazine.net/video/fall2010/eyring/Eyring11MinuteSmall.mp4"&gt;eyring11large&lt;/a&gt;
+	
+	&lt;a href="http://www.byuimagazine.net/video/fall2010/eyring/EyringFullInterviewLarge.mp4"&gt;eyring11large&lt;/a&gt;
+	&lt;a href="http://www.byuimagazine.net/video/fall2010/eyring/EyringFullInterviewMedium.mp4"&gt;eyring11large&lt;/a&gt;
+	&lt;a href="http://www.byuimagazine.net/video/fall2010/eyring/EyringFullInterviewSmall.mp4"&gt;eyring11large&lt;/a&gt;
+	
+	&lt;h1&gt;About the JW Player 5&lt;/h1&gt;
+	&lt;p&gt;Thank you for downloading the JW Player, the leading open source video player for Flash and HTML5 on the Web.  Not only is the JW Player the easiest way to put video on your website, but we offer a host of other products and services to assist in providing the best possible video experience for your users.&lt;/p&gt;
+
+	&lt;h3&gt;Quickstart&lt;/h3&gt;
+	&lt;p&gt;The quickest way to get started is to unzip the file you downloaded (you must have done that if you're reading this!) and copy the contents into a folder called 'jwplayer' at the root of your website.  The end result should be:&lt;/p&gt;
+	&lt;ol&gt;
+	  &lt;li&gt;{webroot}/jwplayer/player.swf&lt;/li&gt;
+	  &lt;li&gt;{webroot}/jwplayer/jwplayer.js&lt;/li&gt;
+	  &lt;li&gt;etc...&lt;/li&gt;
+	&lt;/ol&gt;
+    &lt;p&gt;You can then view the source of this page and copy the code from the example below onto your webpage.  That's it!  You should see a player on your site.&lt;/p&gt;
+
+	&lt;h3&gt;An Example of the JW Player&lt;/h3&gt;
+	&lt;p&gt;Below you see a simple embedded example of the JW Player.&lt;/p&gt;
+
+	&lt;!-- START OF THE PLAYER EMBEDDING TO COPY-PASTE --&gt;
+	&lt;object id="player" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" name="player" width="328" height="200"&gt; 
+		&lt;param name="movie" value="player.swf" /&gt; 
+		&lt;param name="allowfullscreen" value="true" /&gt; 
+		&lt;param name="allowscriptaccess" value="always" /&gt; 
+		&lt;param name="flashvars" value="file=video.mp4&amp;image=preview.jpg" /&gt; 
+		&lt;embed 
+			type="application/x-shockwave-flash"
+			id="player2"
+			name="player2"
+			src="player.swf" 
+			width="328" 
+			height="200"
+			allowscriptaccess="always" 
+			allowfullscreen="true"
+			flashvars="file=video.mp4&amp;image=preview.jpg" 
+		/&gt; 
+	&lt;/object&gt; 
+	&lt;!-- END OF THE PLAYER EMBEDDING --&gt;
+
+	&lt;h3&gt;Support, Documentation and Source Code&lt;/h3&gt;
+
+	&lt;p&gt;If you need help, the LongTail Support Community contains a wealth of information, include a large &lt;a href="http://www.longtailvideo.com/support/jw-player/"&gt;library of documentation&lt;/a&gt;, a very active &lt;a href="http://www.longtailvideo.com/support/forums/jw-player/"&gt;support forum&lt;/a&gt;, and a &lt;a href="http://www.longtailvideo.com/support/blog"&gt;blog&lt;/a&gt; on the latest releases and tips on publishing video.&lt;/p&gt;
+
+	&lt;p&gt;Some documents you might find useful are:&lt;/p&gt;
+	&lt;ol&gt;
+		&lt;li&gt;&lt;a href="http://www.longtailvideo.com/support/jw-player/jw-player-for-flash-v5/12539/supported-video-and-audio-formats"&gt;Supported file formats&lt;/a&gt;.&lt;/li&gt;
+		&lt;li&gt;&lt;a href="http://www.longtailvideo.com/support/jw-player/jw-player-for-flash-v5/12537/xml-playlist-support"&gt;Supported XML playlist formats&lt;/a&gt;.&lt;/li&gt;
+		&lt;li&gt;&lt;a href="http://www.longtailvideo.com/support/jw-player/jw-player-for-flash-v5/12536/configuration-options"&gt;Complete list of configuration options&lt;/a&gt; (for customizing the player).&lt;/li&gt;
+		&lt;li&gt;&lt;a href="http://www.longtailvideo.com/support/jw-player/jw-player-for-flash-v5/12540/javascript-api-reference"&gt;Supported JavaScript API calls&lt;/a&gt; (for JavaScript interaction).&lt;/li&gt;
+		&lt;li&gt;&lt;a href="http://www.longtailvideo.com/support/jw-player/jw-player-for-flash-v5/14/skinning-the-jw-player-5"&gt;Supported skinning elements&lt;/a&gt; (for creating your own graphics).&lt;/li&gt;
+		&lt;li&gt;&lt;a href="http://developer.longtailvideo.com/trac/roadmap/"&gt;Roadmap with full changelogs&lt;/a&gt; for each version.&lt;/li&gt;
+	&lt;/ol&gt;
+	&lt;p&gt;Last, the source code of all different versions of the player can &lt;a href="http://developer.longtailvideo.com/trac/browser/tags"&gt;be found here&lt;/a&gt;. You can click a version and download the ZIP files (the links are at the bottom).&lt;/p&gt;
+
+	&lt;h3&gt;Licensing&lt;/h3&gt;
+	&lt;p&gt;The player is licensed under a &lt;a href="http://creativecommons.org/licenses/by-nc-sa/2.0/"&gt;Creative Commons License&lt;/a&gt;. It allows you to use, modify and redistribute the script, but only for &lt;b&gt;non-commercial&lt;/b&gt; purposes.&lt;/p&gt;
+	&lt;p&gt;Examples of &lt;b&gt;commercial use&lt;/b&gt; include: 
+	
+	&lt;ul&gt;
+	&lt;li&gt;websites with any advertisements; &lt;/li&gt;
+	&lt;li&gt;websites owned or operated by corporations; &lt;/li&gt;
+	&lt;li&gt;websites designed to promote other products, such as a band or artist;&lt;/li&gt;
+	&lt;li&gt;products (e.g. a CMS) that bundle LongTail products into its offering. &lt;/li&gt;
+	&lt;/ul&gt;
+	
+	If any of the above conditions apply to you, then &lt;a href="http://www.longtailvideo.com/order/" title="Order commercial licenses"&gt;please purchase a license for the player&lt;/a&gt;.  If you are still unsure whether you need to purchase a license, please &lt;a href="http://www.longtailvideo.com/support/contact-us"&gt;contact us&lt;/a&gt;.&lt;/p&gt;
+
+	&lt;h3&gt;Related Products&lt;/h3&gt;
+    &lt;p&gt;In addition to the JW Player, &lt;a href="http://www.longtailvideo.com"&gt;LongTail Video&lt;/a&gt; has a suite of products to help you publish video.&lt;/p&gt;
+	&lt;p&gt;Learn more about them here:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href="http://www.longtailvideo.com/addons/skins"&gt;Skins&lt;/a&gt; - Change the look of your player to match your site.  &lt;a href="http://www.longtailvideo.com/addons/skins"&gt;View our library&lt;/a&gt;.&lt;/li&gt;
+	  &lt;li&gt;&lt;a href="http://www.longtailvideo.com/addons/plugins"&gt;Plugins&lt;/a&gt; - Add functionality to your player, like sharing, social networking, analytics, advertising and more.  &lt;a href="http://www.longtailvideo.com/addons/plugins"&gt;Find one for you&lt;/a&gt;.&lt;/li&gt;
+      &lt;li&gt;&lt;a href="http://www.longtailvideo.com/referral.aspx?page=pubreferral&amp;ref=xvwjuhgktajeelu"&gt;AdSolution&lt;/a&gt; - Monetize your videos with LongTail's AdSolution.  Integrate pre-roll, overlay and post-roll ads into your site and starting making money today.  &lt;a href="http://www.longtailvideo.com/referral.aspx?page=pubreferral&amp;ref=xvwjuhgktajeelu"&gt;Sign up now&lt;/a&gt;.&lt;/li&gt;
+      &lt;li&gt;&lt;a href="http://www.bitsontherun.com/via/longtailvideo"&gt;Bits on the Run&lt;/a&gt; - Upload, encode, store, manage and stream your videos with Bits on the Run, LongTail's end-to-end online video platform.  &lt;a href="http://www.bitsontherun.com/via/longtailvideo"&gt;Sign up now&lt;/a&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+
+
+
+&lt;/body&gt;
+&lt;/html&gt;</ESContent></EmptyShell>

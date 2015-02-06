@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x68386" Name="HTML Templates" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">HTML Templates</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">HTML Templates for designing and styling within a BYU-Idaho content pages.</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p>HTML Templates are .html files prepared to be used as a development environment. If you already know HTML/CSS, you can quickly begin designing and developing in your favorite code editor, with an accurate depiction of what it will look like once your work is pasted in our Web Builder. Requires internet access to preview correctly in the browser.</p>
+<div class="notice">
+<p>Note: The Web Builder's editor box will automatically strip out many HTML5 block elements, such as nav, header, aside, etc. Use div tags to prevent errors.</p>
+</div>
+<hr />
+<h3>Content Page</h3>
+<p><img alt="screenshot of the content boilerplate" height="206" src="Images/web/templates/content-boilerplate.jpg" style="border: 1px solid black; float: right; margin-left: 20px; margin-bottom: 20px;" title="Content Boilerplate Screenshot" width="400" /></p>
+<p>The content page is the most common and versatile page type in our current web builder. This template includes the left navigation with a 710-pixel content area to the right.</p>
+<p>Instructions:</p>
+<ul>
+<li>Download</li>
+<li>Open in Text Editor</li>
+<li>Scan past minified code to "Begin Copy/Paste" comment</li>
+<li>Begin styling!</li>
+</ul>
+<style><!--
+.success_button{ display: inline-block; background-color: #129f47; padding: 10px; color: #fff !important; text-decoration: none !important; border-radius: 4px;}
+.success_button img{ margin-left: 4px; margin-bottom: -1px;}
+.success_button:hover {background-color: #17CD5B;}
+.success_button:active {background-color: #0D7133;}
+.alert_button{ display: inline-block; background-color: #FFC222; padding: 10px; color: #000 !important; text-decoration: none !important; border-radius: 4px;}
+.alert_button img{ margin-left: 4px; margin-bottom: -1px;}
+.alert_button:hover {background-color: #FFD055;}
+.alert_button:active {background-color: #EEAC00;}
+--></style>
+<p><a class="success_button" href="Documents/webtraining/byui-boilerplate.html.zip" title="Download the Content Page Boilerplate">Download&nbsp;<img height="16" src="Images/ui/icons/download.png" width="16" /></a></p>
+<ul>
+</ul>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x14845" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

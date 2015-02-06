@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?><CollegeDeptHome ID="x22064" Name="Accreditation 2011" Layout="college-dept_home.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Accreditation 2011</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Accreditation 2011</Abstract><xPower Type="List" Name="MainImages" label="Top Image(s) (950px width, 335px height required)" readonly="false" hidden="false" required="false" Expanded="" List=""><MainImage type="imagefile" readonly="false" hidden="false" required="false" Width="950" Border="" Alignment="" Expanded="true" Height="335" AlternateText="" HSpace="" VSpace="">education-human-dev/Accreditation/treebanner(2).jpg</MainImage></xPower><xPower Type="GroupStart" Name="Main" label="Main Content" readonly="false" hidden="false" required="false" Expanded="true" GroupStart=""><xPower Type="LinkSet" Name="CourseHighlights" label="Course Highlights" readonly="false" hidden="false" required="false" QuerySchemas="" QueryLocationRoots="" Title="" Values="" /><xPower Type="LinkSet" Name="FeaturedStudent" label="Featured Student" readonly="false" hidden="false" required="false" QuerySchemas="" QueryLocationRoots="" Title="" Values="" /><FullText type="boolean" label="Check for text body to use the full width of the page." readonly="false" hidden="false" required="false">false</FullText><TopText type="boolean" label="Check to put text body above Highlighted News" readonly="false" hidden="false" required="false">false</TopText><BodyCopy type="dhtml" label="Optional Content" readonly="false" hidden="false" required="false" Height=""><![CDATA[<p><!--  - START THICKBOX CSS   -->
+<style type="text/css"><!--
+/* global settings needed for thickbox*/
+*{padding: 0; margin: 0;}
+
+
+/* thickbox specific link and font settings */
+#TB_window {
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #333333;
+}
+
+#TB_secondLine {
+	font: 10px Arial, Helvetica, sans-serif;
+	color:#666666;
+}
+#TB_window a:link {color: #666666;}
+#TB_window a:visited {color: #666666;}
+#TB_window a:hover {color: #000;}
+#TB_window a:active {color: #666666;}
+#TB_window a:focus{color: #666666;}
+
+
+/* thickbox settings */
+#TB_overlay {
+	position: fixed;
+	z-index:100;
+	top: 0px;
+	left: 0px;
+	height:100%;
+	width:100%;
+}
+
+.TB_overlayMacFFBGHack {background: url(macFFBgHack.png) repeat;}
+.TB_overlayBG {
+	background-color:#000;
+	filter:alpha(opacity=75);
+	-moz-opacity: 0.75;
+	opacity: 0.75;
+}
+
+* html #TB_overlay { /* ie6 hack */
+     position: absolute;
+     height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');
+}
+
+#TB_window {
+	position: fixed;
+	background: #ffffff;
+	z-index: 102;
+	color:#000000;
+	display:none;
+	border: 4px solid #525252;
+	text-align:left;
+	top:50%;
+	left:50%;
+}
+
+* html #TB_window { /* ie6 hack */
+position: absolute;
+margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px');
+}
+
+#TB_window img#TB_Image {
+	display:block;
+	margin: 15px 0 0 15px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #666;
+	border-left: 1px solid #666;
+}
+
+#TB_caption{
+	height:25px;
+	padding:7px 30px 10px 25px;
+	float:left;
+}
+
+#TB_closeWindow{
+	height:25px;
+	padding:11px 25px 10px 0;
+	float:right;
+}
+
+#TB_closeAjaxWindow{
+	padding:7px 10px 5px 0;
+	margin-bottom:1px;
+	text-align:right;
+	float:right;
+}
+
+#TB_ajaxWindowTitle{
+	float:left;
+	padding:7px 0 5px 10px;
+	margin-bottom:1px;
+}
+
+#TB_title{
+	background-color:#e8e8e8;
+	height:27px;
+}
+
+#TB_ajaxContent{
+	clear:both;
+	padding:2px 15px 15px 15px;
+	overflow:auto;
+	text-align:left;
+	line-height:1.4em;
+}
+
+#TB_ajaxContent.TB_modal{
+	padding:15px;
+}
+
+#TB_ajaxContent p{
+	padding:5px 0px 5px 0px;
+}
+
+#TB_load{
+	position: fixed;
+	display:none;
+	height:13px;
+	width:208px;
+	z-index:103;
+	top: 50%;
+	left: 50%;
+	margin: -6px 0 0 -104px; /* -height/2 0 0 -width/2 */
+}
+
+* html #TB_load { /* ie6 hack */
+position: absolute;
+margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px');
+}
+
+#TB_HideSelect{
+	z-index:99;
+	position:fixed;
+	top: 0;
+	left: 0;
+	background-color:#fff;
+	border:none;
+	filter:alpha(opacity=0);
+	-moz-opacity: 0;
+	opacity: 0;
+	height:100%;
+	width:100%;
+}
+
+* html #TB_HideSelect { /* ie6 hack */
+     position: absolute;
+     height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');
+}
+
+#TB_iframeContent{
+	clear:both;
+	border:none;
+	margin-bottom:-1px;
+	margin-top:1px;
+	_margin-bottom:1px;
+}
+--></style>
+<!--  END THICKBOX CSS  --> <!--  START THICKBOX JAVASCRIPT CODE -->
+<script type="text/javascript">
+var tb_pathToImage = "Images/education-human-dev/Accreditation/loadingAnimation.gif";
+
+/*!!!!!!!!!!!!!!!!! edit below this line at your own risk !!!!!!!!!!!!!!!!!!!!!!!*/
+
+//on page load call tb_init
+$(document).ready(function(){   
+	tb_init('a.thickbox, area.thickbox, input.thickbox');//pass where to apply thickbox
+	imgLoader = new Image();// preload image
+	imgLoader.src = tb_pathToImage;
+});
+
+//add thickbox to href & area elements that have a class of .thickbox
+function tb_init(domChunk){
+	$(domChunk).click(function(){
+	var t = this.title || this.name || null;
+	var a = this.href || this.alt;
+	var g = this.rel || false;
+	tb_show(t,a,g);
+	this.blur();
+	return false;
+	});
+}
+
+function tb_show(caption, url, imageGroup) {//function called when the user clicks on a thickbox link
+
+	try {
+		if (typeof document.body.style.maxHeight === "undefined") {//if IE 6
+			$("body","html").css({height: "100%", width: "100%"});
+			$("html").css("overflow","hidden");
+			if (document.getElementById("TB_HideSelect") === null) {//iframe to hide select elements in ie6
+				$("body").append("<iframe id='TB_HideSelect'></iframe><div id='TB_overlay'></div><div id='TB_window'></div>");
+				$("#TB_overlay").click(tb_remove);
+			}
+		}else{//all others
+			if(document.getElementById("TB_overlay") === null){
+				$("body").append("<div id='TB_overlay'></div><div id='TB_window'></div>");
+				$("#TB_overlay").click(tb_remove);
+			}
+		}
+		
+		if(tb_detectMacXFF()){
+			$("#TB_overlay").addClass("TB_overlayMacFFBGHack");//use png overlay so hide flash
+		}else{
+			$("#TB_overlay").addClass("TB_overlayBG");//use background and opacity
+		}
+		
+		if(caption===null){caption="";}
+		$("body").append("<div id='TB_load'><img src='"+imgLoader.src+"' /></div>");//add loader to the page
+		$('#TB_load').show();//show loader
+		
+		var baseURL;
+	   if(url.indexOf("?")!==-1){ //ff there is a query string involved
+			baseURL = url.substr(0, url.indexOf("?"));
+	   }else{ 
+	   		baseURL = url;
+	   }
+	   
+	   var urlString = /\.jpg$|\.jpeg$|\.png$|\.gif$|\.bmp$/;
+	   var urlType = baseURL.toLowerCase().match(urlString);
+
+		if(urlType == '.jpg' || urlType == '.jpeg' || urlType == '.png' || urlType == '.gif' || urlType == '.bmp'){//code to show images
+				
+			TB_PrevCaption = "";
+			TB_PrevURL = "";
+			TB_PrevHTML = "";
+			TB_NextCaption = "";
+			TB_NextURL = "";
+			TB_NextHTML = "";
+			TB_imageCount = "";
+			TB_FoundURL = false;
+			if(imageGroup){
+				TB_TempArray = $("a[@rel="+imageGroup+"]").get();
+				for (TB_Counter = 0; ((TB_Counter < TB_TempArray.length) && (TB_NextHTML === "")); TB_Counter++) {
+					var urlTypeTemp = TB_TempArray[TB_Counter].href.toLowerCase().match(urlString);
+						if (!(TB_TempArray[TB_Counter].href == url)) {						
+							if (TB_FoundURL) {
+								TB_NextCaption = TB_TempArray[TB_Counter].title;
+								TB_NextURL = TB_TempArray[TB_Counter].href;
+								TB_NextHTML = "<span id='TB_next'>  <a href='#'>Next ></a></span>";
+							} else {
+								TB_PrevCaption = TB_TempArray[TB_Counter].title;
+								TB_PrevURL = TB_TempArray[TB_Counter].href;
+								TB_PrevHTML = "<span id='TB_prev'>  <a href='#'>< Prev</a></span>";
+							}
+						} else {
+							TB_FoundURL = true;
+							TB_imageCount = "Image " + (TB_Counter + 1) +" of "+ (TB_TempArray.length);											
+						}
+				}
+			}
+
+			imgPreloader = new Image();
+			imgPreloader.onload = function(){		
+			imgPreloader.onload = null;
+				
+			// Resizing large images - orginal by Christian Montoya edited by me.
+			var pagesize = tb_getPageSize();
+			var x = pagesize[0] - 150;
+			var y = pagesize[1] - 150;
+			var imageWidth = imgPreloader.width;
+			var imageHeight = imgPreloader.height;
+			if (imageWidth > x) {
+				imageHeight = imageHeight * (x / imageWidth); 
+				imageWidth = x; 
+				if (imageHeight > y) { 
+					imageWidth = imageWidth * (y / imageHeight); 
+					imageHeight = y; 
+				}
+			} else if (imageHeight > y) { 
+				imageWidth = imageWidth * (y / imageHeight); 
+				imageHeight = y; 
+				if (imageWidth > x) { 
+					imageHeight = imageHeight * (x / imageWidth); 
+					imageWidth = x;
+				}
+			}
+			// End Resizing
+			
+			TB_WIDTH = imageWidth + 30;
+			TB_HEIGHT = imageHeight + 60;
+			$("#TB_window").append("<a href='' id='TB_ImageOff' title='Close'><img id='TB_Image' src='"+url+"' width='"+imageWidth+"' height='"+imageHeight+"' alt='"+caption+"' /></a>" + "<div id='TB_caption'>"+caption+"<div id='TB_secondLine'>" + TB_imageCount + TB_PrevHTML + TB_NextHTML + "</div></div><div id='TB_closeWindow'><a href='#' id='TB_closeWindowButton' title='Close'>close</a> or Esc Key</div>"); 		
+			
+			$("#TB_closeWindowButton").click(tb_remove);
+			
+			if (!(TB_PrevHTML === "")) {
+				function goPrev(){
+					if($(document).unbind("click",goPrev)){$(document).unbind("click",goPrev);}
+					$("#TB_window").remove();
+					$("body").append("<div id='TB_window'></div>");
+					tb_show(TB_PrevCaption, TB_PrevURL, imageGroup);
+					return false;	
+				}
+				$("#TB_prev").click(goPrev);
+			}
+			
+			if (!(TB_NextHTML === "")) {		
+				function goNext(){
+					$("#TB_window").remove();
+					$("body").append("<div id='TB_window'></div>");
+					tb_show(TB_NextCaption, TB_NextURL, imageGroup);				
+					return false;	
+				}
+				$("#TB_next").click(goNext);
+				
+			}
+
+			document.onkeydown = function(e){ 	
+				if (e == null) { // ie
+					keycode = event.keyCode;
+				} else { // mozilla
+					keycode = e.which;
+				}
+				if(keycode == 27){ // close
+					tb_remove();
+				} else if(keycode == 190){ // display previous image
+					if(!(TB_NextHTML == "")){
+						document.onkeydown = "";
+						goNext();
+					}
+				} else if(keycode == 188){ // display next image
+					if(!(TB_PrevHTML == "")){
+						document.onkeydown = "";
+						goPrev();
+					}
+				}	
+			};
+			
+			tb_position();
+			$("#TB_load").remove();
+			$("#TB_ImageOff").click(tb_remove);
+			$("#TB_window").css({display:"block"}); //for safari using css instead of show
+			};
+			
+			imgPreloader.src = url;
+		}else{//code to show html
+			
+			var queryString = url.replace(/^[^\?]+\??/,'');
+			var params = tb_parseQuery( queryString );
+
+			TB_WIDTH = (params['width']*1) + 30 || 630; //defaults to 630 if no paramaters were added to URL
+			TB_HEIGHT = (params['height']*1) + 40 || 440; //defaults to 440 if no paramaters were added to URL
+			ajaxContentW = TB_WIDTH - 30;
+			ajaxContentH = TB_HEIGHT - 45;
+			
+			if(url.indexOf('TB_iframe') != -1){// either iframe or ajax window		
+					urlNoQuery = url.split('TB_');
+					$("#TB_iframeContent").remove();
+					if(params['modal'] != "true"){//iframe no modal
+						$("#TB_window").append("<div id='TB_title'><div id='TB_ajaxWindowTitle'>"+caption+"</div><div id='TB_closeAjaxWindow'><a href='#' id='TB_closeWindowButton' title='Close'>close</a> or Esc Key</div></div><iframe frameborder='0' hspace='0' src='"+urlNoQuery[0]+"' id='TB_iframeContent' name='TB_iframeContent"+Math.round(Math.random()*1000)+"' onload='tb_showIframe()' style='width:"+(ajaxContentW + 29)+"px;height:"+(ajaxContentH + 17)+"px;' > </iframe>");
+					}else{//iframe modal
+					$("#TB_overlay").unbind();
+						$("#TB_window").append("<iframe frameborder='0' hspace='0' src='"+urlNoQuery[0]+"' id='TB_iframeContent' name='TB_iframeContent"+Math.round(Math.random()*1000)+"' onload='tb_showIframe()' style='width:"+(ajaxContentW + 29)+"px;height:"+(ajaxContentH + 17)+"px;'> </iframe>");
+					}
+			}else{// not an iframe, ajax
+					if($("#TB_window").css("display") != "block"){
+						if(params['modal'] != "true"){//ajax no modal
+						$("#TB_window").append("<div id='TB_title'><div id='TB_ajaxWindowTitle'>"+caption+"</div><div id='TB_closeAjaxWindow'><a href='#' id='TB_closeWindowButton'>close</a> or Esc Key</div></div><div id='TB_ajaxContent' style='width:"+ajaxContentW+"px;height:"+ajaxContentH+"px'></div>");
+						}else{//ajax modal
+						$("#TB_overlay").unbind();
+						$("#TB_window").append("<div id='TB_ajaxContent' class='TB_modal' style='width:"+ajaxContentW+"px;height:"+ajaxContentH+"px;'></div>");	
+						}
+					}else{//this means the window is already up, we are just loading new content via ajax
+						$("#TB_ajaxContent")[0].style.width = ajaxContentW +"px";
+						$("#TB_ajaxContent")[0].style.height = ajaxContentH +"px";
+						$("#TB_ajaxContent")[0].scrollTop = 0;
+						$("#TB_ajaxWindowTitle").html(caption);
+					}
+			}
+					
+			$("#TB_closeWindowButton").click(tb_remove);
+			
+				if(url.indexOf('TB_inline') != -1){	
+					$("#TB_ajaxContent").append($('#' + params['inlineId']).children());
+					$("#TB_window").unload(function () {
+						$('#' + params['inlineId']).append( $("#TB_ajaxContent").children() ); // move elements back when you're finished
+					});
+					tb_position();
+					$("#TB_load").remove();
+					$("#TB_window").css({display:"block"}); 
+				}else if(url.indexOf('TB_iframe') != -1){
+					tb_position();
+					if($.browser.safari){//safari needs help because it will not fire iframe onload
+						$("#TB_load").remove();
+						$("#TB_window").css({display:"block"});
+					}
+				}else{
+					$("#TB_ajaxContent").load(url += "&random=" + (new Date().getTime()),function(){//to do a post change this load method
+						tb_position();
+						$("#TB_load").remove();
+						tb_init("#TB_ajaxContent a.thickbox");
+						$("#TB_window").css({display:"block"});
+					});
+				}
+			
+		}
+
+		if(!params['modal']){
+			document.onkeyup = function(e){ 	
+				if (e == null) { // ie
+					keycode = event.keyCode;
+				} else { // mozilla
+					keycode = e.which;
+				}
+				if(keycode == 27){ // close
+					tb_remove();
+				}	
+			};
+		}
+		
+	} catch(e) {
+		//nothing here
+	}
+}
+
+//helper functions below
+function tb_showIframe(){
+	$("#TB_load").remove();
+	$("#TB_window").css({display:"block"});
+}
+
+function tb_remove() {
+ 	$("#TB_imageOff").unbind("click");
+	$("#TB_closeWindowButton").unbind("click");
+	$("#TB_window").fadeOut("fast",function(){$('#TB_window,#TB_overlay,#TB_HideSelect').trigger("unload").unbind().remove();});
+	$("#TB_load").remove();
+	if (typeof document.body.style.maxHeight == "undefined") {//if IE 6
+		$("body","html").css({height: "auto", width: "auto"});
+		$("html").css("overflow","");
+	}
+	document.onkeydown = "";
+	document.onkeyup = "";
+	return false;
+}
+
+function tb_position() {
+$("#TB_window").css({marginLeft: '-' + parseInt((TB_WIDTH / 2),10) + 'px', width: TB_WIDTH + 'px'});
+	if ( !(jQuery.browser.msie && jQuery.browser.version < 7)) { // take away IE6
+		$("#TB_window").css({marginTop: '-' + parseInt((TB_HEIGHT / 2),10) + 'px'});
+	}
+}
+
+function tb_parseQuery ( query ) {
+   var Params = {};
+   if ( ! query ) {return Params;}// return empty object
+   var Pairs = query.split(/[;&]/);
+   for ( var i = 0; i < Pairs.length; i++ ) {
+      var KeyVal = Pairs[i].split('=');
+      if ( ! KeyVal || KeyVal.length != 2 ) {continue;}
+      var key = unescape( KeyVal[0] );
+      var val = unescape( KeyVal[1] );
+      val = val.replace(/\+/g, ' ');
+      Params[key] = val;
+   }
+   return Params;
+}
+
+function tb_getPageSize(){
+	var de = document.documentElement;
+	var w = window.innerWidth || self.innerWidth || (de&&de.clientWidth) || document.body.clientWidth;
+	var h = window.innerHeight || self.innerHeight || (de&&de.clientHeight) || document.body.clientHeight;
+	arrayPageSize = [w,h];
+	return arrayPageSize;
+}
+
+function tb_detectMacXFF() {
+  var userAgent = navigator.userAgent.toLowerCase();
+  if (userAgent.indexOf('mac') != -1 && userAgent.indexOf('firefox')!=-1) {
+    return true;
+  }
+}
+</script>
+<!--  END THICKBOX CODE  --> <span style="font-size: x-large;"> </span></p>
+<h4 style="text-align: center;">"Teaching is the noblest profession in the world." -- David O. McKay</h4>
+<p> </p>
+<p><span style="font-size: x-large;">Self-Study Report and Evidence</span></p>
+<h2><span style="font-size: medium;">October 2011</span></h2>
+<p>The website contains the results of a self study led by the Teacher Education Department in cooperation with <strong> </strong>21 other programs/departments that administer <a href="x27153.xml"><strong>47 majors and minors</strong></a> .  Each progam prepared with their own evidence and were responsible to tie that evidence to the standards.  The Teacher Education Department was also responsible for collecting and reporting data the overarches all programs, including surveys, Praxis II data, and demographics.  The Teacher Education Department also produced the NCATE report.</p>
+<p>Responsibility for this undertaking switched from the Associate Dean to the Field Services Office in July 2011. With that change came a refocusing of our department on assessment.  The details of that change are detailed below.</p>
+<p> </p>
+<p><span style="text-decoration: underline;"><strong>Summary of what has changed in the last 18 months.</strong></span></p>
+<!--  START HIDDEN DIVS FOR THICKBOX  -->
+<div id="creationOfOffice" style="display: none;">
+<p>For years, student teaching at BYU-I was administered by two separate entities.  Continuing Education administered the placement of students in distant sites and the placement office in Teacher Education administered local sites.  This arrangement worked for the time it was created, but over the years the two entities practices did not align with each other, nor did they conform to the new directions the Teacher Education Department was headed.  Thus, eighteen months ago the two entities were merged to become the Field Services Office with a single administrator who was a faculty member from Teacher Education.  Since that time, the office has made other significant changes which are described in the links below.</p>
+<p style="text-align: center;"><input id="Login" onclick="tb_remove()" type="submit" value="Close" /></p>
+</div>
+<div id="partnerships" style="display: none;">
+<p>“It’s my professional obligation” is the reason most principals place student teachers, not because they see them as a resource to their school.  Thus, they take very little responsibility to assure the quality of the experience for each student teacher.  The districts, because they don’t see student teachers as a resource but as a risk to student progress instead, are hesitant to place too many students and do not want to displace their best teachers with student teachers.  The university, on the other hand, places student teachers through the district offices of those districts and have very little control over the schools or cooperating teachers that are chosen for the student.  Thus, the disconnect between the two has resulted in traditional student teaching models that are sub-par and lack quality control. <br /><br /> As with most universities, there has not been a collaborative effort between school districts and BYU-Idaho to increase the quality of student teaching in a deliberate and calculated way, until August of 2010.  Beginning with a school is Mesa, Arizona and extending to 6 school districts, BYU-Idaho has established partnerships with districts and is now placing more than 60% of its students in partner schools.  Based on current efforts, the university will place more than 90% of its students in partner schools by the end of 2012.  So what is different about partner schools? <br /><br /></p>
+<ol>
+<li>The partner schools were selected based on their innovative practices and desires to have BYU-Idaho students.</li>
+<li>Rather than assignments being made through the district offices, principals are taking an active role to place students in ideal settings and as resources to the school.  Principals come to campus to interview and select the students that will be placed in their schools.  Students are then matched to the cooperating teacher and class based on knowledge gained face-to-face by the principal.</li>
+<li>Cooperating teachers selected based using standards set by BYU-Idaho, based on current guidelines derived from current research, NCATE, and Idaho State (draft guidelines).</li>
+<li>Supervisors are selected based on their experience with the school and are expected to become part of the school’s community to work with our students, the cooperating teacher, other teachers, and the administration.</li>
+<li>Rather than one or two students being placed in a school, students are placed in larger numbers from 3 to 15 per school and in cohorts of 3 to 5 students where regular interaction and dialogue are planned and expected.</li>
+<li>Students are provided in-district and state training to make them a better resources to the schools and to assist them later in their careers (i.e., SIOP training, REACH training).</li>
+<li>Partner schools are provided training for their cooperating teachers to improve quality outcomes for the student teachers and to make them a better resource to their schools.</li>
+<li>There is an open and regular dialogue between BYU-I and the partner school districts that leads to improvements in the process and outcomes.</li>
+<li>The partner schools are moving away from the traditional student teaching day/cycle and to a cooperative teaching model.  Rather than the student teacher beginning with observing only and then eventually displacing the cooperating teacher, the student teacher begins teaching on the very first day following a collaborative planning process.  Then the cooperating teacher and student teacher co-teach using a variety of best practice models, including part group/whole group splits, center-based, etc.  Over the course of their time together, the student teacher assumes greater responsibility for planning and outcomes until they ultimately are in charge, but the co-teaching continues consistent throughout their time together, with the cooperating teacher regularly modeling new strategies and methods for the student teacher to try.</li>
+</ol> <br /><br /> A note from a student about partner schools: <br /><br /> “I am LOVING my student teaching, I'm so happy that they do partner schools because it really does guarantee a great teacher to learn from. Both my general education teacher and special education teacher are top notch. I am in the ghetto of Utah, so I hear, but that says NOTHING about the staff I work with, I'm really loving them. (In case you forgot, I am at West Kearns Elem. 1st Grade).”
+<p style="text-align: center;"><input id="Login" onclick="tb_remove()" type="submit" value="Close" /></p>
+</div>
+<div id="catalog" style="display: none;">
+<p>About two to three percent of our students struggle during student teaching and some of them fail.  Many of these students struggle despite having done well in classes while on campus.  They simply have difficulty applying what they learned in their classes.  To improve these outcomes, provide remediation earlier, and assure higher quality outcomes for our program, policies listed in the catalog were changed.  The most significant changes are summarized below:<br /><br /></p>
+<ol>
+<li>Raising the GPA to 3.0 for all majors in major classes to continue in the program and requiring a C+ grade in all major classes. When students do not meet this standard they will be required to meet with a faculty member or the advising center.</li>
+<li>Requiring students to apply to be in the Education Department beginning in their second year.  The application process includes an evaluation of their performance in two classes, a writing sample, a field experience where we can see student dispositions and interpersonal relations, and performance on diagnostic exams.</li>
+</ol> <br /><br />
+<li></li>
+<p> </p>
+<p style="text-align: center;"><input id="Login" onclick="tb_remove()" type="submit" value="Close" /></p>
+</div>
+<div id="facultyImprove" style="display: none;">
+<p>Our ELED and ECSE faculty are intimately involved in preparatory field experiences, but less so in student teaching.  Secondary Education faculty have only been involved where interest existed.  That has changed in the last 18 months.  Currently, departments and programs are assigning faculty in a systematic way to student teachers and other field experiences.  That involvement is accomplished in three ways:<br /><br /></p>
+<ol>
+<li><span style="text-decoration: underline;">Student teaching</span>:  In student teaching, our faculty, especially our Secondary Education faculty, are assigned to supervise students or shadow and train supervisor who are supervising students.  These students are assigned </li>
+<li><span style="text-decoration: underline;">Work sample portfolio reviews</span>: At the end of student teaching, student teachers present a work sample portfolio to a panel made up of a supervisor and a faculty member.  Faculty involvement was voluntary until April 2010, but since then faculty have been assigned on a rotating basis to these committees.   This has significantly increased the number of secondary faculty that are involved.  These reviews are held in each major area:  Locally, Boise, Salt Lake, Mesa, and Las Vegas. </li>
+<li><span style="text-decoration: underline;">Practicums</span>:  Full-time faculty have always been involved in practicums, but the change has been in the increasing number of field experiences associated with what used to be lecture classes.</li>
+</ol>
+<p> </p>
+<p style="text-align: center;"><input id="Login" onclick="tb_remove()" type="submit" value="Close" /></p>
+</div>
+<div id="hiring" style="display: none;">
+<p>Hiring procedures for supervisors included a referral, gathering a resume, and a simple interview, often over the phone.  Today, supervisors are asked to have a background check, submit a resume and letters of recommendation, submit a response to a video case study of a student teacher (requiring mentoring), and submit a lesson plan and a video sample of themselves teaching.  Then, candidate’s references are checked, an ecclesiastical endorsement is sought, and a substantial panel interview is completed. <br /> This document contains more information those that may be interested: <a href="x28446.xml">Hiring Process and Procedures</a></p>
+<p style="text-align: center;"><input id="Login" onclick="tb_remove()" type="submit" value="Close" /></p>
+</div>
+<div id="selectionCoop" style="display: none;">
+<p>As a result of the partnerships that have and are being formed with school districts, the university is in a position for the first time to request that cooperating teachers are selected using specific standards established by the university based on research, NCATE, and Idaho State guidelines (newly drafted).<br /><br /> This document contains more detail for those that may be interested:<a href="x28613.xml">Selection Process for Cooperating Teachers</a></p>
+<p style="text-align: center;"><input id="Login" onclick="tb_remove()" type="submit" value="Close" /></p>
+</div>
+<div id="committee" style="display: none;">
+<p>ELED and ECSE are under the control of the Teacher Education program, but all secondary education programs are under the control of their content area departments.  Beginning Fall 2011, the university will create a standing council with decision-making authority that will over-see the education of all secondary education majors to increase consistency and quality outcomes.  This council will be chaired by the Teacher Education department chair and will have a representative from each college on it.</p>
+<p style="text-align: center;"><input id="Login" onclick="tb_remove()" type="submit" value="Close" /></p>
+</div>
+<div id="assessmentProgram" style="display: none;">
+<p>The university has contracted with an e-portfolio and assessment system vendor (Chalk and Wire) to better assess student competencies via an e-portfolio, track assessment data and map it back to courses and the department for course/program improvement, and document progress of each program.  It has required and will yet require that programs know and have mapped to standards key assessment(s) from all courses and from the program overall.  Our current LMS will communicate with Chalk and Wire to facilitate accurate and rapid gathering and assessment of data.</p>
+<p style="text-align: center;"><input id="Login" onclick="tb_remove()" type="submit" value="Close" /></p>
+</div>
+<div id="tracking" style="display: none;">
+<p>As part of the same plan to begin using an e-portfolio, the university is beginning to develop a tracking system that will help faculty/departments to filter out students for specific remediation and assure that students who have yet to develop required competencies do not progress through field experiences and on to the profession, but instead engage in remedial courses or change their majors.</p>
+<p style="text-align: center;"><input id="Login" onclick="tb_remove()" type="submit" value="Close" /></p>
+</div>
+<!--  END HIDDEN DIVS FOR THICKBOX  -->
+<p><a class="thickbox" href="#TB_inline?height=250&amp;width=400&amp;inlineId=creationOfOffice&amp;modal=true">Creation of the Field Services Office</a></p>
+<p><a class="thickbox" href="#TB_inline?height=816&amp;width=700&amp;inlineId=partnerships&amp;modal=true">Partnerships</a></p>
+<p><a class="thickbox" href="#TB_inline?height=357&amp;width=609&amp;inlineId=catalog&amp;modal=true">Catalog changes</a></p>
+<p><a class="thickbox" href="#TB_inline?height=480&amp;width=500&amp;inlineId=facultyImprove&amp;modal=true">Increased faculty involvement in the field (esp. SECED)</a></p>
+<p><a class="thickbox" href="#TB_inline?height=250&amp;width=400&amp;inlineId=hiring&amp;modal=true">Hiring criteria and process for field supervisors (higher standards)</a></p>
+<p> </p>
+<p><span style="text-decoration: underline;"><strong><strong>Planned Changes:  Current and Ongoing</strong> </strong></span></p>
+<p><a class="thickbox" href="#TB_inline?height=179&amp;width=390&amp;inlineId=committee&amp;modal=true">Secondary Education Committee</a></p>
+<p><a class="thickbox" href="#TB_inline?height=196&amp;width=414&amp;inlineId=assessmentProgram&amp;modal=true">Assessment system for students and the department(s) – An e-portfolio system</a></p>
+<p><a class="thickbox" href="#TB_inline?height=163&amp;width=389&amp;inlineId=tracking&amp;modal=true">Student tracking, remediation, and quality control</a></p>
+<p><a href="x28615.xml">Changes to current evaluation system:  New categories, based on developmental psychology</a></p>
+<p><span style="text-decoration: underline;"><strong><br /></strong></span></p>]]></BodyCopy></xPower><xPower Type="GroupStart" Name="FaceBook" label="Facebook Integration" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false" /><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BannerAd type="multiselect" label="Rotating Ads" readonly="false" hidden="false" required="false" MaxChoices="" PageSize="" Query_PageType="BannerAdComponent" Query_LocationRoot="x6922" Query_SelectedFields="@Name|@ID" AdditionalFilter_XPathQuery="" /><xPower Type="GroupStart" Name="QuickLinksGroup" label="Quick Links Group" readonly="false" hidden="false" required="false" Expanded="true" GroupStart=""><xPower Type="Component" Name="QuickLinks1" label="Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" /><xPower Type="Component" Name="QuickLinks2" label="Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" /><xPower Type="Component" Name="QuickLinks3" label="Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" /></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent" /><xPower Type="Navigation" Name="DeptEvents" label="Define Your Events Folder" readonly="false" hidden="false" required="false" Expanded="true" Navigation="Ancestors" GenerationOrder="down" StartPage="x22064" MaxNodes="" MaxDepth="" Query="" /><xPower Type="Navigation" Name="DeptAds" label="Define Your Ads Folder" readonly="false" hidden="false" required="false" Expanded="true" Navigation="Children" GenerationOrder="up" StartPage="x19228" MaxNodes="" MaxDepth="" Query=""><Exports>&lt;Export&gt;&lt;Name&gt;Caption&lt;/Name&gt;&lt;Value&gt;/*/Caption&lt;/Value&gt;&lt;/Export&gt;</Exports></xPower><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false" /><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false" /><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="" List=""><xPower Type="Component" Name="xPower" readonly="false" hidden="false" required="false" Component="" CompTypes="" /></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query="" /><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x19232" CompTypes="SiteControl" /></CollegeDeptHome>

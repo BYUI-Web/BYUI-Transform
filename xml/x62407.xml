@@ -1,0 +1,376 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.82 - http://www.ingeniux.com ***-->
+<PolicyPage ID="x62407" Name="Deferring Financial Aid" Layout="general_Policy.xsl"><Title type="string" label="Policy Title" readonly="false" hidden="false" required="true">Deferring Financial Aid</Title><Abstract type="string" label="Policy Abstract" readonly="false" hidden="false" required="true">Students who intend on deferring a semester(s) for LDS Mission, Medical/Health, or Continuing Education Student reasons, need to consider the following regarding financial aid awards:</Abstract><Date type="date" label="Revision Date" readonly="false" hidden="false" required="true" display="localdateshort" UTC="true">20121023T18:00:00</Date><BodyCopy type="dhtml" label="Policy" readonly="false" hidden="false" required="false"><![CDATA[<script language="javascript" type="text/javascript">
+var fa_slideSpeed = 15;	// Higher value = faster
+var fa_timer = 2;	// Lower value = faster
+
+var objectIdToSlideDown = false;
+var fa_activeId = false;
+var fa_slideInProgress = false;
+var fa_slideInProgress = false;
+var fa_expandMultiple = true; // true if you want to be able to have multiple items expanded at the same time.
+
+function showHideContent(e,inputId)
+{
+	if(fa_slideInProgress)return;
+	fa_slideInProgress = true;
+	if(!inputId)inputId = this.id;
+	inputId = inputId + '';
+	var numericId = inputId.replace(/[^0-9]/g,'');
+	var answerDiv = document.getElementById('fa_a' + numericId);
+
+	objectIdToSlideDown = false;
+
+	if(!answerDiv.style.display || answerDiv.style.display=='none'){
+		if(fa_activeId &&  fa_activeId!=numericId && !fa_expandMultiple){
+			objectIdToSlideDown = numericId;
+			slideContent(fa_activeId,(fa_slideSpeed*-1));
+		}else{
+
+			answerDiv.style.display='block';
+			answerDiv.style.visibility = 'visible';
+
+			slideContent(numericId,fa_slideSpeed);
+		}
+	}else{
+		slideContent(numericId,(fa_slideSpeed*-1));
+		fa_activeId = false;
+	}
+}
+
+function slideContent(inputId,direction)
+{
+
+	var obj =document.getElementById('fa_a' + inputId);
+	var contentObj = document.getElementById('fa_ac' + inputId);
+	height = obj.clientHeight;
+	if(height==0)height = obj.offsetHeight;
+	height = height + direction;
+	rerunFunction = true;
+	if(height>contentObj.offsetHeight){
+		height = contentObj.offsetHeight;
+		rerunFunction = false;
+	}
+	if(height<=1){
+		height = 1;
+		rerunFunction = false;
+	}
+
+	obj.style.height = height + 'px';
+	var topPos = height - contentObj.offsetHeight;
+	if(topPos>0)topPos=0;
+	contentObj.style.top = topPos + 'px';
+	if(rerunFunction){
+		setTimeout('slideContent(' + inputId + ',' + direction + ')',fa_timer);
+	}else{
+		if(height<=1){
+			obj.style.display='none';
+			if(objectIdToSlideDown && objectIdToSlideDown!=inputId){
+				document.getElementById('fa_a' + objectIdToSlideDown).style.display='block';
+				document.getElementById('fa_a' + objectIdToSlideDown).style.visibility='visible';
+				slideContent(objectIdToSlideDown,fa_slideSpeed);
+			}else{
+				fa_slideInProgress = false;
+			}
+		}else{
+			fa_activeId = inputId;
+			fa_slideInProgress = false;
+		}
+	}
+}
+
+
+
+function initShowHideDivs()
+{
+	var divs = document.getElementsByTagName('DIV');
+	var divCounter = 1;
+	for(var no=0;no<divs.length;no++){
+		if(divs[no].className=='fa_question'){
+			divs[no].onclick = showHideContent;
+			divs[no].id = 'fa_q'+divCounter;
+			var answer = divs[no].nextSibling;
+			while(answer && answer.tagName!='DIV'){
+				answer = answer.nextSibling;
+			}
+			answer.id = 'fa_a'+divCounter;
+			contentDiv = answer.getElementsByTagName('DIV')[0];
+			contentDiv.style.top = 0 - contentDiv.offsetHeight + 'px';
+			contentDiv.className='fa_answer_content';
+			contentDiv.id = 'fa_ac' + divCounter;
+			answer.style.display='none';
+			answer.style.height='1px';
+			divCounter++;
+		}
+	}
+}
+window.onload = initShowHideDivs;
+</script>
+<style type="text/css"><!--
+/* CSS styles for the Show/Hide functionality. */
+
+.fa_question{
+        overflow:hidden;
+	cursor:pointer;
+        background-color: #f0f0f0;
+        color: #666;
+        padding: 10px;
+        border: 1px solid #000;
+        -webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+}
+.fa_question:hover{
+        background-color: #fcc35a;
+}
+.fa_answer{
+        visibility:hidden;
+	height:0px;
+	overflow:hidden;
+	position:relative;
+}
+.fa_answer_content{	/* Content that is slided down */
+        margin-top: 10px;
+	padding:1px;
+	font-size:1em;
+	position:relative;
+}
+
+.h1 {font-family: futura, arial, sans-serif; font-size: 2em; color: #000}
+.h2 {font-family: futura, arial, sans-serif; font-size: 1.75em; color: #000;}
+.h3 {font-family: futura, arial, sans-serif; font-size: 1.5em; color: #000;}
+.h4 {font-family: futura, arial, sans-serif; font-size: 1.3em; margin-left: 15px;}
+
+ul {margin-left:15px;}
+
+
+#page_title{
+     display: none;
+}
+#table_futura th{
+     color:#F8F8F8;
+     background-color: #333;   
+     font-family: futura, arial, sans-serif;
+     font-size: medium;
+     font-weight: normal;
+}
+#table_futura ul{
+     margin-left: 5px; color: #000;
+}
+
+.tableTitle{
+     font-size: 1.2em;
+     margin-bottom:10px;
+     color: #000;
+}
+.caption{
+     font-size: .8em;
+}
+--></style>
+<style type="text/css"><!--
+/* General Styles for Body Elements */
+a {
+font-family: Arial; 
+}
+
+/* CSS styles for the FOOTER Contact information */
+#contact{
+display:inline-block;
+padding: 0 5px;
+margin: 0 0 10px 0;
+width: 100%; 
+height: 100px;
+}
+#contact h1{
+font-family:Arial;
+font-size:12px;
+font-weight:bold;
+margin:0 0 4px 0;
+padding:0;
+color:rgb(70,70,70);
+}
+#contact p {
+font-family:Arial;
+font-size:10px;
+margin:0;
+padding:0;
+}
+#contact_hr {
+margin-bottom:10px;
+}
+.left {
+float:left;
+margin:0 5px 0 0;
+padding:0;
+}
+.office_hours {
+margin: 0; 
+padding: 0; 
+width: 140px; 
+height: 100px; 
+float: left;
+}
+.middle {
+margin: 0; 
+padding: 0 5px 5px 5px; 
+width: 200px; 
+height: 50px; 
+float: left;
+}
+.phone {
+margin: 0; 
+padding: 0 5px 5px 5px; 
+width: 150px; 
+height: 50px; 
+float: left;
+}
+--></style>
+<br /><span style="font-size: 2.5em; font-family: futura, arial, sans-serif;">Deferring Financial Aid</span><br /><br />
+<p>Students who intend on deferring a semester(s) for LDS Mission, Medical/Health, or Continuing Education Student reasons, need to consider the conditions for each of their awards as listed below.</p>
+<p>**All students who plan to go on a mission in the near future <strong>must contact Admissions to get a Missionary Deferment Application</strong>**</p>
+<div class="fa_question"><span class="h2"><strong>IF</strong> you are a continuing student but planning to serve a mission...</span><br /><small>Click here to learn how to properly defer financial aid you have already been awarded.</small></div>
+<div class="fa_answer">
+<div>
+<ul>
+<ul>
+<li>...and you have previously taken out loans, you will need to contact your lender to discuss payment options while you are on your mission. To contact them, go to <a href="http://www.nslds.ed.gov/nslds_SA/" title="Link to National Student Loan Database Services">nslds.ed.gov</a>.</li>
+</ul>
+</ul>
+<br />
+<ul>
+<ul>
+<li>...and you have loans and/or Pell grant during a semester you will be deferring, that aid will not be deferrable. When you return from your mission, you must fill out a new FAFSA for that academic school year.</li>
+</ul>
+</ul>
+<br />
+<ul>
+<ul>
+<li>...and you have a scholarship and will be deferring before using the second semester of it, you will receive that portion of the award when you return from your mission. To receive this deferred portion you must complete the BYU-Idaho Scholarship Application when you return.</li>
+</ul>
+</ul>
+<br />
+<ul>
+<li>...when you return from your mission, you will need to fill out the Scholarship Application for that academic school year to be considered for any university scholarships offered that year.</li>
+</ul>
+</div>
+</div>
+<br />
+<div class="fa_question"><span class="h2"><strong>IF</strong> you have recently been admitted but are planning to serve a mission before you attend</span><br /><small>Click here to learn how to properly defer financial aid you were awarded.</small></div>
+<div class="fa_answer">
+<div>
+<ul>
+<ul>
+<li>...and you have received government aid from filling out the FAFSA, these awards will no longer be available when you return. You will need to fill out a current FAFSA for the correct academic school year when you return from your mission.</li>
+</ul>
+</ul>
+<br />
+<ul>
+<ul>
+<li>...and you have been awarded a scholarship, you will be able to receive both semesters of that award when you return from your mission. In order to receive this deferred portion you must complete the BYU-Idaho Scholarship Application when you return.</li>
+</ul>
+</ul>
+<br />
+<ul>
+<li>...when you return from your mission, you will need to fill out the Scholarship Application for that academic school year to be considered for any university scholarships offered that year.</li>
+</ul>
+</div>
+</div>
+<br />
+<div class="fa_question"><span class="h2">All Other Deferrments</span><br /><small>Click here to learn more about the conditions with each type of financial aid and how to defer properly.</small></div>
+<div class="fa_answer">
+<div>
+<h3>Federal Aid</h3>
+<ul>
+<ul>
+<li><strong>Pell Grant</strong> &ndash; Pell Grant is a federal aid award disbursed on a semester basis. Students can only receive a Pell Grant if they are enrolled. Students who were awarded a Pell Grant and are deferring during a semester before the <a href="x32759.xml" title="Link to the Financial Aid Determination Date policy"> Financial Aid Determination Date</a> will have to return the grant funds. Since Federal Aid is awarded by academic year, returning students within the academic year can have their Pell Grant awards reinstated. Students returning after a period of deferment need to make arrangements with the Financial Aid Office to reinstate Pell Grants if still possible. If a student does not return to school until a subsequent academic year he/she will be required to re-apply for federal aid (FAFSA) for that year to qualify.</li>
+</ul>
+</ul>
+<br />
+<ul>
+<ul>
+<li><strong>Stafford Direct Loan</strong> - Stafford Direct Loans (Subsidized, Unsubsidized, or Alternative) allow a six-month &ldquo;grace period&rdquo; that starts when a student leaves school or drops below half-time (six credits) enrollment. Student&rsquo;s with loans who are deferring may expire this grace period and enter into repayment. Loan funds assigned to disburse for deferred semesters will be canceled. Deferring students are also required to complete &ldquo;Exit Counseling&rdquo; on <a href="http://www.nslds.ed.gov" title="Link to NSLDS.ed.gov - National Student Loan Database System">NSLDS.ed.gov</a>. There are additional considerations contained on the <a href="x39567.xml" title="Link to Loan Policies page">Loan Policies</a>page that are relevant to student who are deferring and have outstanding direct loans.<br />
+<ul>
+<li><strong>LDS Mission Deferrments</strong> - Students deferring to serve an LDS Mission should review the&nbsp;<a href="http://studentaid.ed.gov/PORTALSWebApp/students/english/OtherFormsOfRepay.jsp" title="Link to Studentloans.gov - Repayment Plans and Calculators">Repayment Plans and Calculators</a> on studentloans.gov. There are additional considerations contained on the <a href="x39567.xml" title="Link to Loan Policies page">Loan Policies</a> page that are relevant to students who are deferring to serve a mission and have outstanding direct loans.</li>
+<li><strong>Volunteer Service Deferrments</strong> - Students receiving Federal Direct Loan assistance may obtain deferral of the repayment of the principal and interest of the loan for:
+<ul>
+<li>Service under the Peace Corps Act (22 U.S.C. 2501)</li>
+<li>Service under the Domestic Volunteer Service Act of 1973 (42 U.S.C. 4951). or...</li>
+<li>Comparable service as a volunteer for a tax-exempt organization of demonstrated effectiveness in the field of community service.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</ul>
+<br />
+<ul>
+<li><strong>PLUS Loan</strong> - PLUS Loan funds assigned to disburse during a student&rsquo;s deferred semester(s) will be canceled. Loan Repayment may begin when students have not been enrolled in school for 60 days in a row.</li>
+</ul>
+<h3>University Aid</h3>
+<ul>
+<ul>
+<li><strong>BYU-Idaho Scholarship</strong> - BYU-Idaho Scholarships (Academic Scholarship, Award of Excellence, Heber J Grant awards, Needs/merit scholarships, etc.) assigned to disburse during the semester(s) a student is deferring can be deferred until the semester he/she returns. Students returning following a deferment period need to make arrangements with the Financial Aid Office to reinstate BYU-Idaho Scholarships.</li>
+</ul>
+</ul>
+<br />
+<ul>
+<li><strong>BYU-Idaho Grant</strong> - BYU-Idaho Grants assigned to disburse during the semester(s) a student is deferring will be canceled. Students may reapply for grants upon returning after the period of deferment.</li>
+</ul>
+<h3>Outside Aid</h3>
+<ul>
+<ul>
+<li><strong>Outside Scholarships</strong> - Outside scholarships or awards assigned to disburse during the semester(s) a student is deferring will be cancelled and returned to the agency that awarded the funds. It is the student&rsquo;s responsibility to make arrangements with the agency to defer scholarships.</li>
+</ul>
+</ul>
+<br />
+<ul>
+<li><strong>Robert R Lee Promise Scholarship</strong> (formerly the Idaho Promise Scholarship) - Robert R Lee Promise Scholarship has a time limit of four academic years to disburse the four semester installments. If a student has exceeded the four academic years before receiving the four installments, he/she will no longer be eligible for the award program.</li>
+</ul>
+</div>
+</div>
+<div id="contact"><hr id="contact_hr" />
+<div class="office_hours"><img alt="Office Hours" class="left" src="Images/Admin_Offices/Financial Aid/1312918545_Clock-Time.png" title="Office hours" width="30" />
+<div class="left">
+<h1>Office Hours</h1>
+<p>Monday - Friday</p>
+<p>8am - 5pm</p>
+</div>
+<div style="margin: 8px 13px 0 0; float: right;"></div>
+</div>
+<div class="middle"><img alt="Office Mailing Address" class="left" src="Images/Admin_Offices/Financial Aid/1312918507_Mail -2.png" title="Address" width="30" />
+<div class="left">
+<h1>Address</h1>
+<p>100 Kimball Building 1610</p>
+<p>Rexburg, ID 83460</p>
+</div>
+</div>
+<div class="phone"><img alt="Phone" class="left" src="Images/Admin_Offices/Financial Aid/1312918476_Telephone.png" title="Phone" width="30" />
+<div class="left">
+<h1>Phone</h1>
+<p>(208) 496-1600</p>
+</div>
+</div>
+<div class="chat"><img alt="Live Chat" class="left" src="Images/Admin_Offices/Financial Aid/chat_icon.png" title="Live Chat" width="30" />
+<div class="left">
+<h1><a href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=Financial%20Aid">Live Chat</a></h1>
+<p>with Financial Aid</p>
+</div>
+</div>
+<div class="middle"><img alt="Laptop" class="left" src="Images/Admin_Offices/Financial Aid/1312918536_Computer.png" title="Email" width="30" />
+<div class="left">
+<h1>Email</h1>
+<p>financialaid@byui.edu</p>
+</div>
+</div>
+<div class="phone"><img alt="Fax" class="left" src="Images/Admin_Offices/Financial Aid/1312918465_Printer and Fax.png" title="Fax" width="30" />
+<div class="left">
+<h1>Fax</h1>
+<p>(208) 496-6711</p>
+</div>
+</div>
+<div class="facebook"><img alt="Facebook" class="left" src="Images/Admin_Offices/Financial Aid/facebook_icon.png" title="Facebook" width="30" />
+<div class="left">
+<h1><a href="http://www.facebook.com/BYUIFinancialAid">Facebook</a></h1>
+<p>page of the Financial Aid Office</p>
+</div>
+</div>
+</div>]]></BodyCopy><xPower Type="Component" Component="x18466" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="Policy" label="Policy" readonly="false" hidden="false" required="false" CompTypes="PolicyNavigationComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x18206" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></PolicyPage>

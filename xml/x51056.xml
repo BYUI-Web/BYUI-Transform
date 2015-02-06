@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<Content ID="x51056" Name="Catering Services - NEW" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Catering Services</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Select options for Food Selection</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<p></p>
+<!-- copy from this point -->
+<script src="Documents/food-services/Catering/page_layout/AllItems.js" type="text/javascript"></script>
+<script src="Documents/food-services/Catering/page_layout/main.js" type="text/javascript"></script>
+<script src="Documents/food-services/Catering/page_layout/new.js" type="text/javascript"></script>
+<p><link href="Documents/food-services/Catering/page_layout/typography.css" rel="stylesheet" type="text/css" /> <link href="Documents/food-services/Catering/page_layout/borders.css" rel="stylesheet" type="text/css" /> <link href="Documents/food-services/Catering/page_layout/currentMenuTotalBox.css" rel="stylesheet" type="text/css" /> <link href="Documents/food-services/Catering/page_layout/contactForm.css" rel="stylesheet" type="text/css" /></p>
+<!--[if IE]>
+    <link rel="stylesheet" type="text/css" href="all-ie-only.css" />
+<![endif]-->
+<p></p>
+<!--[if lt IE 8]>
+<link rel="stylesheet" type="text/css" media="all" href="Documents/food-services/Catering/page_layout/food_services_lt_ie8.css" />
+<![endif]-->
+<p></p>
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" media="all" href="Documents/food-services/Catering/page_layout/food_services_ie7.css" />
+<![endif]-->
+<p></p>
+<!--[if IE 8]>
+<link rel="stylesheet" type="text/css" media="all" href="Documents/food-services/Catering/page_layout/food_services_ie8.css" />
+<![endif]-->
+<p></p>
+<!--[if IE 8]>
+<link rel="stylesheet" type="text/css" media="all" href="Documents/food-services/Catering/page_layout/food_services_ie9.css" />
+<![endif]-->
+<div id="foodServicesWrapper">
+<div class="span-18" id="topImages">
+<div>[x51041]</div>
+</div>
+<!--  <div id="container" style="height:450px;"> -->
+<div id="information">
+<h2>BYU-Idaho Catering Services <br />208-496-2840</h2>
+<br /> <br /> <!--  <div class="line"></div>
+        <br> -->
+<p style="color: black;">Our office is located at the southeast entrance of the Manwaring Center, Room 293. Orders must be picked up between 8:00 a.m. and 6:00 p.m., Monday through Saturday. Custom menus available upon request.</p>
+</div>
+<div id="welcome"><!--  <div class='pageTitleWrapper'><p>Welcome!</p><img src='Images/food-services/Catering/page_layout/button-1.png'></div> -->
+<h2>Ordering is as simple as...</h2>
+<ol>
+<li><span>1.</span>
+<h3>Making your food selections.<em></em></h3>
+</li>
+<li><span>2.</span>
+<h3>Reviewing your menu.</h3>
+</li>
+<li><span>3.</span>
+<h3>Submitting your request!</h3>
+</li>
+</ol></div>
+<div class="policies span-24"><a href="x51338.xml">Read Our Policies</a></div>
+<!--  </div> -->
+<div class="clearBoth"></div>
+<div id="foodServicesInnerWrapper">
+<div class="pageTitleWrapper">
+<p>Food<br />Selection</p>
+<img src="Images/food-services/Catering/page_layout/button-1.png" /></div>
+<div class="bgLeft"></div>
+<div class="bgTop"></div>
+<div class="bgRight"></div>
+<div class="bgBottom"></div>
+<div class="bgTopLeft"></div>
+<div class="bgTopRight"></div>
+<div class="bgBottomLeft"></div>
+<div class="bgBottomRight"></div>
+<div class="currentMenuTotalBox" id="checkbox_action_box">
+<div class="bgLeft"></div>
+<div class="bgTop"></div>
+<div class="bgRight"></div>
+<div class="bgBottom"></div>
+<div class="bgTopLeft"></div>
+<div class="bgTopRight"></div>
+<div class="bgBottomLeft"></div>
+<div class="bgBottomRight"></div>
+<h6>Your Menu Has:</h6>
+<p><span class="currentMenuTotal">0</span> Item<span class="pluralItems">s</span></p>
+</div>
+<div class="content" id="allFood">
+<div class="bgWrapper">
+<div class="bgLeft"></div>
+<div class="bgTop"></div>
+<div class="bgRight"></div>
+<div class="bgBottom"></div>
+<div class="bgTopLeft"></div>
+<div class="bgTopRight"></div>
+<div class="bgBottomLeft"></div>
+<div class="bgBottomRight"></div>
+</div>
+<div id="replaceMe"></div>
+</div>
+<div id="menuContent">
+<div class="pageTitleWrapper">
+<p>Your<br />Menu</p>
+<img src="Images/food-services/Catering/page_layout/button-1.png" /></div>
+<div class="content main" style="padding-left: 40px; margin-left: 16px;">
+<div class="bgWrapper">
+<div class="bgLeft"></div>
+<div class="bgTop"></div>
+<div class="bgRight"></div>
+<div class="bgBottom"></div>
+<div class="bgTopLeft"></div>
+<div class="bgTopRight"></div>
+<div class="bgBottomLeft"></div>
+<div class="bgBottomRight"></div>
+</div>
+<h6>Review your selection.</h6>
+<div id="itemList"></div>
+</div>
+<div class="side">
+<p>&nbsp;</p>
+<div class="currentMenuTotalBox staticBox">
+<div class="bgLeft"></div>
+<div class="bgTop"></div>
+<div class="bgRight"></div>
+<div class="bgBottom"></div>
+<div class="bgTopLeft"></div>
+<div class="bgTopRight"></div>
+<div class="bgBottomLeft"></div>
+<div class="bgBottomRight"></div>
+<h6>Your Menu Has:</h6>
+<p><span class="currentMenuTotal">0</span> Item<span class="pluralItems">s</span></p>
+</div>
+<div><!-- insert mini_photo here --></div>
+</div>
+</div>
+<div class="content" id="contactForm">
+<div class="pageTitleWrapper" style="margin-left: 180px;">
+<p>Submit<br />Request</p>
+<img src="Images/food-services/Catering/page_layout/button-1.png" /></div>
+<div class="main">
+<div class="bgLeft"></div>
+<div class="bgTop"></div>
+<div class="bgRight"></div>
+<div class="bgBottom"></div>
+<div class="bgTopLeft"></div>
+<div class="bgTopRight"></div>
+<div class="bgBottomLeft"></div>
+<div class="bgBottomRight"></div>
+<form action="http://web.byui.edu/mvcutilities/Home/EmailAForm" method="post" name="orderForm" onsubmit="return verifyOrder()">
+<div class="decalGreen"></div>
+<h6 style="text-indent: 14px; margin-top: 30px;">After we recieve your form with the items you have selected above, we will call to consult with you and make plans for a wonderful event.</h6>
+<div class="tilde">~</div>
+<p>Department <input name="Department" type="text" /></p>
+<p>Contact Name <input class="inline" id="FirstName" name="First Name" type="text" /> <input class="inline" id="LastName" name="Last Name" type="text" /></p>
+<script type="text/javascript">
+                    /*
+                    Auto tabbing script- By JavaScriptKit.com
+                    http://www.javascriptkit.com
+                    This credit MUST stay intact for use
+                    */
+
+                    function autotab(original,destination){
+                        if (original.getAttribute&&original.value.length==original.getAttribute("maxlength"))
+                            destination.focus()
+                    }
+
+                    
+</script>
+<p>Phone Number&nbsp;&nbsp;&nbsp; <input id="areaCode" maxlength="3" name="Area Code" onkeyup="autotab(this, document.orderForm.Prefix)" size="3" type="text" /> - <input id="prefix" maxlength="3" name="Prefix" onkeyup="autotab(this, document.orderForm.Number)" size="3" type="text" /> - <input id="phoneNumber" maxlength="4" name="Number" size="4" type="text" /></p>
+<p>Email&nbsp;&nbsp;&nbsp;<input class="inline" id="CustomerEmail" name="Customer Email" type="text" /></p>
+<p>Scheduled Date&nbsp;&nbsp;&nbsp;<input class="inline" id="datepicker" name="Date" type="text" /></p>
+<p>Time&nbsp;&nbsp;&nbsp;<input class="inline" name="Time" type="text" /></p>
+<p>Number of Guests&nbsp;&nbsp;&nbsp;<input class="inline" name="Number Of Guests" type="text" /></p>
+<p>Select One&nbsp;&nbsp;&nbsp;<select>
+<option value="Takeout">Takeout</option>
+<option value="CateredServed">Catered - Served</option>
+<option value="CateredBuffet">Catered Buffet</option>
+<option value="Delivery">Delivery</option>
+</select></p>
+<p>Any other details?<br /><textarea name="Other Details"></textarea></p>
+<p>Select an event type?</p>
+<ul>
+<li><input class="eventTypeRadio" name="Event Type" type="radio" value="Retirement" /> Retirement</li>
+<li><input class="eventTypeRadio" name="Event Type" type="radio" value="Wedding" /> Wedding</li>
+<li><input class="eventTypeRadio" name="Event Type" type="radio" value="Church Gathering" /> Church Gathering</li>
+<li><input class="eventTypeRadio" name="Event Type" type="radio" value="Reunion" /> Reunion</li>
+<li><input class="eventTypeRadio" name="Event Type" type="radio" value="Other" /> Other</li>
+</ul>
+<span id="orderlist"></span> <input name="adresses" type="hidden" value="1" /> <input id="Order" name="Order" type="hidden" value="" /> <input name="txtEmailFrom" type="hidden" value="catering@byui.edu" /> <input id="txtEmailTo" name="txtEmailTo" type="hidden" value="" /> <input name="txtEmailSubject" type="hidden" value="Customer Menu Request" /> <input name="Disclaimer" type="hidden" value="This email is NOT a receipt. Your order is NOT final. You will receive a call from the catering office to finalize your selections and payment." /> <input name="txtRedirect" type="hidden" value="http://www.byui.edu/x47401.xml" />
+<h6 class="msgError" id="msgNoSelection">&nbsp;</h6>
+<input name="submit" type="submit" value="Submit Menu" /></form>
+<div class="side"></div>
+</div>
+</div>
+<!--  info moved to the top, may need to be moved back here later.  
+            <div class="side">
+            <p>&nbsp;</p><p>&nbsp;</p>
+            <div><img src="Images/food-services/Catering/page_layout/mini_photos/mini_tablepink.png" alt="image"/></div>
+            <p>&nbsp;</p>
+            <a href="x51338.xml"><b>Read Our Policies</b></a><br />
+            
+        </div> --> <!-- end contactForm --> </div>
+<!-- end foodServicesInnerWrapper --></div>
+<!-- end foodServicesWrapper -->
+<p></p>
+<!-- copy until this point -->]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="true" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="x51041" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x16909" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<Content ID="x50580" Name="Free tutoring" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Free tutoring</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Free tutoring</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<!-- insert inline CSS styles here -->
+<style type="text/css"><!--
+IMG.top_img {
+      width: 440px; height: 190px; float: left;
+   }
+
+   DIV.tutoring {
+      width:240px; height: 190px; text-align:center; float: right;
+   }
+
+   DIV.content {
+      float: left;
+   }  
+   
+   DIV.tutoring H1 {
+      color: black;
+   }
+   
+   DIV.content TABLE {
+      border: 1px solid #ddd; border-top: 0px;
+   }
+   
+   DIV.content TABLE TD {
+      border-top: 1px solid #ddd; padding: 0px;
+   }
+   
+   DIV.content TABLE P {
+      font-size: 12px; text-align: center;
+   }
+--></style>
+<!--contents-->
+<div><img class="top_img" src="http://www.byui.edu/imageLibrary/homePage/LAL-ReadingCenter080214.jpg" />
+<div class="tutoring"><br /><br /><br />
+<h1>Free</h1>
+<h1>Tutoring</h1>
+</div>
+<div class="content">
+<h2 class="h2_1">English Transitional Center FreeTutoring</h2>
+<hr />
+<p>Tutoring in the ETC is free to students. The tutors are trained and paid by BYU-Idaho, so they are professional and dependable. Because of this, students can be confident that they will receive professional, quality help with their language needs. <br /><br />In an effort to focus instruction and practice, six different learning modules are available. <br /><br />These modules may be taken for credit (English 101) or non-credit (English 99). If you take them for credit, they will count as elective credits toward graduation. The modules are taught by an individual tutor in the ETC. <br /><br />The modules include the following:</p>
+<ul>
+<li>Pronunciation</li>
+<li>Grammar</li>
+<li>Writing</li>
+<li>Vocabulary</li>
+<li>Conversation</li>
+<li>Reading Comprehension</li>
+</ul>
+<br />
+<p>Students may register for these modules any time during a semester by going to the ETC on the second floor of the McKay Library 290 (near the Reading Center).</p>
+</div>
+<!--contents end--></div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x25860" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

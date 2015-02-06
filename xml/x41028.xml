@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?><Content ID="x41028" Name="FAQs" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Frequently Asked Questions</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Frequently Asked Questions</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false" /><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false" /><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<script language="javascript" type="text/javascript">
+function showHide(shID) {
+   if (document.getElementById(shID)) {
+      if (document.getElementById(shID+'-show').style.display != 'none') {
+         document.getElementById(shID+'-show').style.display = 'none';
+         document.getElementById(shID).style.display = 'block';
+      }
+      else {
+         document.getElementById(shID+'-show').style.display = 'inline';
+         document.getElementById(shID).style.display = 'none';
+      }
+   }
+}
+</script>
+<style type="text/css"><!--
+#page_title{
+     display:none;
+}
+#specialbox{
+     background-color: #fafafa;
+border: 1px solid #ccc; padding: 25px 20px 20px 20px; font-weight: normal; margin: 20px 0px 30px 0px; text-align: left; clear:both;
+box-shadow: 3px 3px 3px #ddd;
+}
+#specialbox2{
+     background-color: #f3f3f3;
+border: 1px solid #ccc; padding: 25px 20px 20px 20px; font-weight: normal; margin: 20px 0px 30px 0px; text-align: left; clear:both;
+box-shadow: 3px 3px 3px #ddd;
+}
+.brownbox {
+background: #C3b59d;
+border: 1px solid #C6aa8d;
+}
+.yellowbox {
+background: #f0e0b2;
+border: 1px solid #ebd699;
+}
+.more_container {
+display:none;
+margin:0;
+padding:0;
+}
+.more_content {
+margin: 0 0 0 30px; 
+padding: 8px; 
+box-shadow: 0 0 2px #bbb;  
+color: #444;
+background-color: #fff;
+}
+.more_content p, .more_content li {
+font-family:Arial;
+font-size:12px;
+}
+.more_content h4, .more_content h5 {
+margin:0 0 4px 0;
+padding:0;
+text-indent: 0;
+font-family:Arial;
+}
+
+.more_content h4 {
+font-size:14px;
+font-weight:bold;
+}
+
+.more_content h5 {
+font-size:12px;
+font-weight:bold;
+}
+
+.more_content ul {
+margin-left:20px;
+padding:;
+}
+--></style>
+<span style="line-height: 40px; margin-top: 10px; font-size: 250%; font-family: Georgia; color: black;">Frequently Asked Questions</span> 
+<hr />
+Below are some of the most frequently asked questions at the BYU-I Counseling Center.  For any other questions you have, please feel free to email Marci Nite at <a href="mailto:nitem@byui.edu" target="_blank">nitem@byui.edu</a> or call 208.496.9370.<br />
+<div id="specialbox2">
+<h3>Who is eligible for counseling?</h3>
+<a class="showlink" href="#" id="faq1-show" onclick="showHide('faq1');return false;">Answer</a>
+<div class="more_container" id="faq1"><br />
+<div class="more_content">All BYU-I students assigned to a track are eligible for counseling. Spouses of students are only eligible for marital counseling.</div>
+<br /><a class="hideLink" href="#" id="faq1-hide" onclick="showHide('faq1');return false;">Hide</a></div>
+</div>
+<div id="specialbox">
+<h3>How much does it cost?</h3>
+<a class="showlink" href="#" id="faq2-show" onclick="showHide('faq2');return false;">Answer</a>
+<div class="more_container" id="faq2"><br />
+<div class="more_content">If you are eligible, Counseling Center services are available at no charge to you unless you either need to take some psychological tests or would like to meet with our psychiatrist, Dr. Zohner. There is a $10 fee to meet with him which will be charged to your student account. The Counseling Center does not cover costs associated with outside resources or treatments.</div>
+<br /><a class="hideLink" href="#" id="faq2-hide" onclick="showHide('faq2');return false;">Hide</a></div>
+</div>
+<div id="specialbox2">
+<h3>How do I schedule an appointment?</h3>
+<a class="showlink" href="#" id="faq3-show" onclick="showHide('faq3');return false;">Answer</a>
+<div class="more_container" id="faq3"><br />
+<div class="more_content">You can either call our office at 208.496.9370 or stop by in person on the second floor of the Student Health Center to schedule an appointment.</div>
+<br /><a class="hideLink" href="#" id="faq3-hide" onclick="showHide('faq3');return false;">Hide</a></div>
+</div>
+<div id="specialbox">
+<h3>Is it confidential?</h3>
+<a class="showlink" href="#" id="faq4-show" onclick="showHide('faq4');return false;">Answer</a>
+<div class="more_container" id="faq4"><br />
+<div class="more_content">Anything that you and your counselor discuss will be held in strict confidence. Your counselor may occasionally consult with another Counseling Center counselor or with the consulting psychiatrist. Your counselor will release no information concerning you or your treatment to persons outside the Counseling Center except under special conditions.</div>
+<br /><a class="hideLink" href="#" id="faq4-hide" onclick="showHide('faq4');return false;">Hide</a></div>
+</div>
+<div id="specialbox2">
+<h3>What happens if I miss my appointment?</h3>
+<a class="showlink" href="#" id="faq5-show" onclick="showHide('faq5');return false;">Answer</a>
+<div class="more_container" id="faq5"><br />
+<div class="more_content">If you missed an appointment with a counselor and did not call our office to cancel or reschedule, you may lose your appointment spot. If you miss an appointment with the psychiatrist, Dr. Zohner, then there will be a $20 dollar fee that will be added to your student account.</div>
+<br /><a class="hideLink" href="#" id="faq5-hide" onclick="showHide('faq5');return false;">Hide</a></div>
+</div>
+<div id="specialbox">
+<h3>What can I do to refer a friend or loved one?</h3>
+<a class="showlink" href="#" id="faq6-show" onclick="showHide('faq6');return false;">Answer</a>
+<div class="more_container" id="faq6"><br />
+<div class="more_content">There are many things you can do to help a friend or loved one. Our <a href="x41574.xml">How to Help a Friend or Loved One</a> page offers guidelines on when and how to refer a friend or loved one.</div>
+<br /><a class="hideLink" href="#" id="faq6-hide" onclick="showHide('faq6');return false;">Hide</a></div>
+</div>
+<div id="specialbox2">
+<h3>How long will I have to wait to meet with a counselor or therapist?</h3>
+<a class="showlink" href="#" id="faq8-show" onclick="showHide('faq8');return false;">Answer</a>
+<div class="more_container" id="faq8"><br />
+<div class="more_content">Once you have been added to the wait list it typically takes about two weeks to meet with your counselor or therapist, but this number largely depends on your availability, how quickly appointment times become available, and if you have requested a specific counselor.</div>
+<br /><a class="hideLink" href="#" id="faq8-hide" onclick="showHide('faq8');return false;">Hide</a></div>
+</div>
+<div id="specialbox">
+<h3>What kinds of group therapy are available?</h3>
+<a class="showlink" href="#" id="faq9-show" onclick="showHide('faq9');return false;">Answer</a>
+<div class="more_container" id="faq9"><br />
+<div class="more_content">To learn more about the different types of group therapy available, check out our <a href="x41568.xml">Group Counseling</a> page.</div>
+<br /><a class="hideLink" href="#" id="faq9-hide" onclick="showHide('faq9');return false;">Hide</a></div>
+</div>
+<!--________________________________________________________________________--> <!-- MARCI   BELOW IS ONE BOX.  COPY THE CONTENTS BELOW AND ADJUST INFORMATION AS NEEDED.  REMEMBER: THERE ARE 5 PLACES YOU NEED TO CHANGE THE FAQ NUMBER.  "SPECIALBOX" IS LIGHTER COLORED AND "SPECIALBOX2" IS DARKER --> <!--________________________________________________________________________-->
+<div id="specialbox2">
+<h3>Where can I park?</h3>
+<a class="showlink" href="#" id="faq10-show" onclick="showHide('faq10');return false;">Answer</a>
+<div class="more_container" id="faq10"><br />
+<div class="more_content">To avoid being ticketed, try to park in the temporary parking spaces in front of the Student Health Center reserved for SHC patients. If you are unable to park in one of these spots, temporary passes are available at our repception desk.</div>
+<br /><a class="hideLink" href="#" id="faq10-hide" onclick="showHide('faq10');return false;">Hide</a></div>
+</div>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false" /></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" /><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" /><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" /></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="x24495" CompTypes="HighlightedLinksComponent" /><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet" /></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query="" /><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x17637" CompTypes="SiteControl" /></Content>

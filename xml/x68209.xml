@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<CampaignInfo ID="x68209" Name="Explore" Layout="general_campaign.xsl"><Campchild type="boolean" label="Check if this page is a child of a campaign home page." readonly="false" required="false" hidden="false">true</Campchild><Title type="string" label="Title" readonly="false" hidden="false" required="true">Explore</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Use the new navigation to quickly find what you're looking for. </Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="List" List="MainImage" Name="MainImages" label="Images" readonly="false" hidden="false" required="true" Width="" Border="" Alignment="" Expanded="true" Height=""><MainImage type="imagefile" readonly="false" hidden="false" required="true" Width="" Border="" Alignment="" Expanded="false" Height="">Admin_Offices/university_communications/campaigns/beta_campaign/explore/betaExplore.jpg</MainImage></xPower><ThumbnailImage type="imagefile" label="Navigation Thumbnail (31 x 20) required for child pages only" readonly="false" hidden="false" required="false" Width="" Height="" Alignment="" Border="" Expanded="false">Admin_Offices/university_communications/campaigns/beta_campaign/icons/icon_01.png</ThumbnailImage><xPower Type="GroupStart" GroupStart="" Name="IntroText" label="Intro Text" readonly="false" hidden="false" required="false" Expanded="true"><IntroCopy type="dhtml" label="Intro Text" readonly="false" hidden="false" required="false"><![CDATA[<p>With literally thousands of pages of information on BYU-Idaho's website, how do you find what you're looking for quickly and easily? The new byui.edu has several navigation areas, menus, lists of links, and search functions to guide you. These tools will continually evolve to direct you to the information you need and improve how you use the site.</p>
+<p><a href="x15018.xml" title="Tell Us What You Think" target="_blank">Give your feedback<span style="font-size: x-small;"></span></a></p>
+<p><a href="x77.xml">Visit BETA site</a></p>]]></IntroCopy></xPower><BodyCopy type="dhtml" label="Optional Content" readonly="false" hidden="false" required="false"><![CDATA[<div class="cwrap">
+<div class="ccl">
+<p><strong>Left navigation </strong></p>
+<ul>
+<li>Unified navigation terms help you find and compare information across colleges and departments.&nbsp;</li>
+<li>Drop-down menus allow you to see more links without leaving the page.</li>
+</ul>
+<p><span style="color: #c22f11;"><br /></span></p>
+</div>
+<img alt="Left navigation image" height="272" src="Images/Admin_Offices/university_communications/campaigns/beta_campaign/explore/betaLinks.jpg" title="Understanding Navigation" width="435" /></div>
+<div class="cwrap">
+<div class="ccl">
+<ul>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Highlighted Links </strong></p>
+<ul>
+<li>"Highlighted Links" pull important links to the surface that would otherwise be located deep in the site.</li>
+<li>These links can change as important information is updated from semester to semester.</li>
+</ul>
+</div>
+<img alt="Highlighted Links " height="219" src="Images/Admin_Offices/university_communications/campaigns/beta_campaign/explore/hlinks.jpg" title="Highlighted Links" width="435" /></div>
+<div class="cwrap">
+<div class="ccl">
+<p><strong>Quick Links </strong></p>
+<ul>
+<li>"Quick Links" offer the most popular pages and resources to improve navigation time and ease.</li>
+<li>Websites can group and categorize links with column titles.</li>
+</ul>
+</div>
+<img alt="Quick Links" height="208" src="Images/Admin_Offices/university_communications/campaigns/beta_campaign/explore/events.jpg" title="Quick Links" width="435" /></div>
+<div class="cwrap">
+<div class="ccl">
+<p><strong>Audience Pages</strong></p>
+<ul>
+<li>Audience pages present relevant information for specific audiences.</li>
+<li>Pages will contain different links, messages, and information depending on which audience you belong to.</li>
+<li>This approach is also being applied to individual department and office Web sites.</li>
+</ul>
+</div>
+<img alt="Audience Pages " height="203" src="Images/Admin_Offices/university_communications/campaigns/beta_campaign/explore/resources.jpg" title="Audience Pages" width="435" /></div>
+<div class="cwrap">
+<div class="ccl">
+<p><strong>&nbsp;&nbsp;</strong></p>
+<p><strong>Header Navigation</strong></p>
+<ul>
+<li>Drop-down menus and links for general campus resources and information are housed in the header of every page on the new site.</li>
+<li> An A-Z Index can be accessed from the header for easy navigation. </li>
+</ul>
+</div>
+<img alt="Header Navigation" height="187" src="Images/Admin_Offices/university_communications/campaigns/beta_campaign/explore/vcenter.jpg" title="Header Navigation" width="435" /></div>]]></BodyCopy><xPower Type="Component" Component="x14686" Name="CampaignNav" label="Campaign Navigation" readonly="false" hidden="false" required="true" CompTypes="CampaignNavigationComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x15497" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></CampaignInfo>

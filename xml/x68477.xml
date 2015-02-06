@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<TrainingDetails ID="x68477" Name="Content with Return" Layout="default-training.xsl"><IfComponent type="boolean" label="Check if this is a component tutorial">false</IfComponent><Title type="string" label="Title" readonly="false" hidden="false" required="true">Content with Return Link</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">This page type is an empty page, with the exception of the header and footer and a link to the previous page.</Abstract><TrainingImage type="imagefile" label="Page Type Image" hidden="false" readonly="false" required="false">Internal_Use/Ingeniux_Training/Template Thumbnails/generalCustomWithReturn.jpg</TrainingImage><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p>This page type is an empty page, with the exception of theheader and footer and a link to the previous page.</p>
+<p>&nbsp;</p>
+<h4>All code goes into the body copy.</h4>
+<p>&nbsp;</p>
+<p>Required elements on this page (before you can save the page):&nbsp;</p>
+<ul>
+<li>Title</li>
+<li>Abstract</li>
+</ul>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;"><strong>Title</strong></span><br />The title of the page</p>
+<p><span style="text-decoration: underline;"><strong>Abstract</strong></span><br />A summary of the index</p>
+<p><img alt="Title and abstract" height="82" src="Images/Ingeniux_Training/titleAbstract.jpg" width="580" /></p>
+<p><span style="text-decoration: underline;"><strong>Site Control</strong></span><br /> <img alt="Site Control" height="77" src="Images/Ingeniux_Training/Site Control.png" width="214" /></p>
+<p>You will need to choose the site control that is related to your department. This is a required element for your page. Without it, the page will not render correctly and will be without a left navigation.</p>]]></BodyCopy><xPower Type="References" References="" Name="PageUsage" label="Page or Component Reference" readonly="false" hidden="false" required="true" QueryLocationRoots="" IncludeCrossReferences="false" Depth="" QuerySchemas="TrainingDetails"/><xPower Type="Navigation" StartPage="x5758" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Children" Query="" Name="FAQs" label="FAQs Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Navigation" StartPage="x10283" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Children" Query="" Name="Icons" label="Element Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/></TrainingDetails>

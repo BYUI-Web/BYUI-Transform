@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x46677" Name="Worker's Compensation Form" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Worker's Compensation Form</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Worker's Compensation Form</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+textarea
+{
+width: 800px;
+height: 100px;
+}
+--></style>
+<h1 style="text-align: center;"><span style="font-size: small;">BYU-Idaho Worker's Compensation Claim Form</span></h1>
+<h2 style="text-align: center;">For Full and Part Time Employees</h2>
+<h4 style="text-align: center;"><span style="font-size: x-small;">Please fill in all fields as much as possible.</span></h4>
+<p style="text-align: center;"><span style="text-align: center; color: #ff0000;">(All yellow fields are required.)</span></p>
+<hr />
+<p class="center">NOTICE:</p>
+<ul>
+<li><span style="color: #000000; font-size: small;">IMMEDIATELY REPORT ALL FATALITIES, SERIOUS INJURIES AND OCCUPATIONAL ILLNESSES TO THE UNIVERSITY SAFETY OFFICE. </span></li>
+<li><span style="color: #000000; font-size: small;">REPORT MINOR INJURIES WITHIN 24 HOURS. </span></li>
+<li><span style="color: #000000; font-size: small;">FAILURE TO COMPLETE ALL SECTIONS OF THIS FORM MAY DELAY CLAIM AND/OR PAYMENT OF BENEFITS. </span></li>
+</ul>
+<hr />
+<p></p>
+<!-- Form Begins -->
+<p></p>
+<!-- KDP the required() function below is called here to keep the form from submitting if the required fields are not filled --><form action="http://www2.byui.edu/AspUtilities/emailAForm.asp" method="post" name="form1" onsubmit="return required()"><!-- required field
+<p><input type="text" name="" class="req" size="12" /></p>
+--> <!-- regular field
+<p><input type="text" name="" size="12" /></p>
+--> <!-- KDP The blank lines below are above non-required fields --> <span style="font-size: small;"><span style="color: #000000;">Date of accident </span> <input class="req" name="AccidentDate" size="12" style="font-weight: bold; background-color: #ffff99;" type="text" /></span><br /><span style="font-size: small;"><span style="color: #000000;">Full name of individual </span> <input class="req" name="Name" size="42" style="font-weight: bold; background-color: #ffff99;" type="text" /></span><br /> <span style="font-size: small;"><span style="color: #000000;">E-mail address </span> <input class="req" name="txtEmailFrom" size="46" style="font-weight: bold; background-color: #ffff99;" type="text" /></span><br /> <span style="font-size: small;"><span style="color: #000000;">Local address:<br />Street </span> <input class="req" name="Street" size="25" style="font-weight: bold; background-color: #ffff99;" type="text" /><span style="color: #000000;"> City, State </span> <input class="req" name="CityState" size="25" style="font-weight: bold; background-color: #ffff99;" type="text" /><span style="color: #000000;"> Zip code </span> <input class="req" name="ZipCode" size="12" style="font-weight: bold; background-color: #ffff99;" type="text" /></span><br /> <span style="font-size: small;"><span style="color: #000000;">Home phone </span> <input class="req" name="HomePhone" size="15" style="font-weight: bold; background-color: #ffff99;" type="text" /><span style="color: #000000;"> Work phone </span> <input name="WorkPhone" size="15" style="font-weight: bold;" type="text" /><span style="color: #000000;"> Cell Phone </span> <input name="Cell_Phone: " size="16" style="font-weight: bold;" type="text" /></span><br /> <span style="font-size: small;"><span style="color: #000000;">Date of birth </span> <input class="req" name="DateOfBirth" size="12" style="font-weight: bold; background-color: #ffff99;" type="text" /></span><br /> <span style="font-size: small;"><span style="color: #000000;">Age </span> <input name="Age" size="5" style="font-weight: bold;" type="text" /><span style="color: #000000;"> Sex </span> <input class="req" name="Sex" size="12" style="font-weight: bold; background-color: #ffff99;" type="text" /><span style="color: #000000;"> I-Number </span> <input class="req" name="Inumber" size="12" style="font-weight: bold; background-color: #ffff99;" type="text" /></span><br /> <span style="font-size: small;"><span style="color: #000000;">Marital status </span> <input class="req" name="MaritalStatus" size="12" style="font-weight: bold; background-color: #ffff99;" type="text" /><span style="color: #000000;"> Number of dependants under 18 </span> <input name="NumberDependants" size="12" style="font-weight: bold;" type="text" /></span><br /> <span style="font-size: small;"><span style="color: #000000;">Relation to BYU-Idaho </span><select name="RelationToBYUI" style="font-weight: bold;">
+<option value="Staff">Staff</option>
+<option value="Admin">Administrative</option>
+<option value="Faculty">Faculty</option>
+<option value="Student">Student</option>
+</select></span><br /> <span style="font-size: small;"><span style="color: #000000;">Department </span> <input class="req" name="Department" size="20" style="font-weight: bold; background-color: #ffff99;" type="text" /><span style="color: #000000;"> Job title </span> <input class="req" name="JobTitle" size="20" style="font-weight: bold; background-color: #ffff99;" type="text" /></span><br /> <span style="font-size: small;"><span style="color: #000000;">Hours worked per day </span> <input class="req" name="HrsPerDay" size="12" style="font-weight: bold; background-color: #ffff99;" type="text" /><span style="color: #000000;"> Hours worked per week </span> <input class="req" name="HrsPerWeek" size="12" style="font-weight: bold; background-color: #ffff99;" type="text" /></span><br /> <span style="font-size: small;"><span style="color: #000000;">Did the individual return to work the following day/shift? Yes </span> <input name="ReturnFollowingShift" style="font-weight: bold;" type="radio" value="Yes" /><span style="color: #000000;"> No </span> <input name="ReturnFollowingShift" style="font-weight: bold;" type="radio" value="No" /></span><br /> <span style="font-size: small;"><span style="color: #000000;">Time of Accident </span> <input class="req" name="AccidentTime" size="12" style="font-weight: bold; background-color: #ffff99;" type="text" /><span style="color: #000000;"> AM </span> <input name="time1" style="font-weight: bold;" type="radio" value="AM" /><span style="color: #000000;"> PM </span> <input name="time1" style="font-weight: bold;" type="radio" value="PM" /></span><br /> <span style="font-size: small;"><span style="color: #000000;">Hour shift began </span> <input class="req" name="HrShiftBegan" size="12" style="font-weight: bold; background-color: #ffff99;" type="text" /><span style="color: #000000;"> AM </span> <input name="time2" style="font-weight: bold;" type="radio" value="AM" /><span style="color: #000000;"> PM </span> <input name="time2" style="font-weight: bold;" type="radio" value="PM" /></span><br /> <span style="font-size: small;"><span style="color: #000000;">Date accident was reported to Supervisor </span> <input class="req" name="DateReportSupervisor" size="12" style="font-weight: bold; background-color: #ffff99;" type="text" /></span><br /> <span style="font-size: small;"><span style="color: #000000;">Time supervisor was notified </span> <input class="req" name="TimeReportSupervisor" size="12" style="font-weight: bold; background-color: #ffff99;" type="text" /><span style="color: #000000;"> AM </span> <input name="time3" style="font-weight: bold;" type="radio" value="AM" /><span style="color: #000000;"> PM </span> <input name="time3" style="font-weight: bold;" type="radio" value="PM" /></span><br /> <span style="font-size: small;"><span style="color: #000000;">Location: Where did the accident or exposure happen?&nbsp; </span> <input class="req" name="AccidentLocation" size="37" style="font-weight: bold; background-color: #ffff99;" type="text" /><span style="color: #000000;"><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Building, room, parking lot, off-campus address, etc.)</span></span><br /> <span style="color: #000000; font-size: small;">How did the accident occur? <br />(Give as much detail as possible. Name tool, object, chemical, behavior etc. that caused injury)<br /> <textarea class="req" cols="100" name="HowOccured" rows="2" style="font-weight: bold; background-color: #ffff99;"></textarea></span><br /> <span style="color: #000000; font-size: small;">Description of injury:<br />(Please describe the body part(s) affected and injury in detail.) <br /> <textarea class="req" cols="67" name="InjuryDescription" rows="5" style="font-weight: bold; background-color: #ffff99;"></textarea></span><br /> <span style="color: #000000; font-size: small;">What personal protective equipment were you wearing/using at the time, if any?<br /> <textarea class="req" cols="67" name="ProtectiveEquipment" rows="5" style="font-weight: bold; background-color: #ffff99;"></textarea></span><br /> <span style="font-size: small;"><span style="color: #000000;">Did the individual receive medical attention? Yes </span> <input name="RecieveMedicalAttention" style="font-weight: bold;" type="radio" value="Yes" /><span style="color: #000000;"> No </span> <input name="RecieveMedicalAttention" style="font-weight: bold;" type="radio" value="No" /><span style="color: #000000;"> Only First Aid </span> <input name="RecieveMedicalAttention" style="font-weight: bold;" type="radio" value="OnlyFirstAid" /></span><br /> <span style="font-size: small;"><span style="color: #000000;">Where was the medical attention received? </span><select name="WhereRecieved" size="1" style="font-weight: bold;">
+<option value="None">None</option>
+<option value="First Aid Only">First Aid Only</option>
+<option value="Student-Health-Center">Student Health Center</option>
+<option value="Hospital">Hospital</option>
+<option value="Community Care">Community Care</option>
+<option value="PersonalPhysician">Personal Physician</option>
+</select></span><br /> <span style="color: #000000; font-size: small;"> <!-- KDP  The bulk of the non required fields are in the following section --> </span> <span style="font-size: small;"><span style="color: #000000;">Attending physician or hospital </span> <input name="AttendingPhysOrHospital" size="25" style="font-weight: bold;" type="text" /><span style="color: #000000;"> Referred to: (Specialist name) </span> <input name="NameOfSpecial" size="20" style="font-weight: bold;" type="text" /></span><br /> <span style="color: #000000; font-size: small;"><!-- This is the troublemaker!!! --> </span> <span style="font-size: small;"><span style="color: #000000;">Name of witness </span> <input name="WitnessName:" size="20" style="font-weight: bold;" type="text" /><span style="color: #000000;">&nbsp; Cell Phone </span> <input name="Witness_Cell_Phone: " size="16" style="font-weight: bold;" type="text" /></span><br /><hr />
+<h1 style="text-align: center;"><span style="color: #0000ff; font-size: medium;">Supervisor Section</span></h1>
+<hr /><span style="font-size: small;"><span style="color: #000000;">Supervisor </span> <input name="Supervisor" size="23" style="font-weight: bold;" type="text" /><span style="color: #000000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Date supervisor submitted report </span> <input name="DateSuperSubmitReport" size="16" style="font-weight: bold;" type="text" /><span style="color: #000000;"> </span> </span><br /> <span style="font-size: small;"><span style="color: #000000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; artment phone </span> <input name="DepartmentPhone" size="14" style="font-weight: bold;" type="text" /><span style="color: #000000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Supervisor's Cell Phone </span> <input name="Supervisors_Cell_Phone:  " size="19" style="font-weight: bold;" type="text" /></span><br /> <span style="color: #000000; font-size: small;"><br />Corrective actions (what will be done to help prevent it from reoccurring):<br /> <textarea class="req" cols="69" name="CorrectiveActions" rows="5" style="font-weight: bold; background-color: #ffff99;"></textarea></span><br /> <span style="font-size: small;"><span style="color: #000000;">Responsible party </span> <input class="req" name="ResponsibleParty" size="24" style="font-weight: bold; background-color: #ffff99;" type="text" /><span style="color: #000000;">&nbsp;&nbsp;&nbsp;&nbsp; Target date </span> <input class="req" name="TargetDate" size="12" style="font-weight: bold; background-color: #ffff99;" type="text" /></span><br /> <span style="font-size: small;"> <span style="color: #000000;"> <!-- Required by form handler --> </span> <input name="txtEmailTo" style="font-weight: bold;" type="hidden" value="harmstone@byui.edu;clarkr@byui.edu" /> <span style="color: #000000;"> <!--<input type = "hidden" name ="txtEmailTo" value = "pur02001@byui.edu" />--> <!-- <input type = "hidden" name ="txtEmailFrom" value = "senderEmailAddress" /> --> </span> <input name="txtEmailSubject" style="font-weight: bold;" type="hidden" value="Workers Compensation Report Form" /> </span>
+<p style="text-align: center;"><span style="color: #000000; font-size: small;">(Please print a copy for your records.)</span></p>
+<!-- Buttons of course --> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="submit" style="font-weight: bold;" type="submit" value="Submit" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="Reset" style="font-weight: bold;" type="reset" value="Reset" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color: #002a54;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="Print" onclick="javascript:window.print()" style="font-weight: bold;" type="button" value="  Print  " /></span>
+<p>&nbsp;</p>
+</form>
+<p>
+<script type="text/javascript">
+function required(){
+if(document.form1.AccidentDate.value ==""||
+document.form1.Name.value ==""||
+document.form1.txtEmailFrom.value ==""||
+document.form1.Street.value ==""||
+document.form1.CityState.value ==""||
+document.form1.ZipCode.value ==""||
+document.form1.HomePhone.value ==""||
+document.form1.DateOfBirth.value ==""||
+document.form1.Sex.value ==""||
+document.form1.Inumber.value ==""||
+document.form1.MaritalStatus.value ==""||
+document.form1.Department.value ==""||
+document.form1.JobTitle.value ==""||
+document.form1.HrsPerDay.value ==""||
+document.form1.HrsPerWeek.value ==""||
+document.form1.AccidentTime.value ==""||
+document.form1.HrShiftBegan.value ==""||
+document.form1.DateReportSupervisor.value ==""||
+document.form1.TimeReportSupervisor.value ==""||
+document.form1.AccidentLocation.value ==""||
+document.form1.HowOccured.value ==""||
+document.form1.InjuryDescription.value ==""||
+document.form1.ProtectiveEquipment.value ==""||
+document.form1.CorrectiveActions.value ==""||
+document.form1.ResponsibleParty.value ==""||
+document.form1.TargetDate.value ==""){
+window.alert ("Please fill in all the required fields"); return false;
+}else {
+return true}
+}
+</script>
+</p>
+<!-- Form Ends -->
+<p></p>
+<!--EndEditor-->
+<div id="footer">
+<div id="shadow">Copyright
+<script type="text/javascript">
+var d = new Date();document.write(d.getFullYear());
+</script>
+BYU&ndash;Idaho<br />All Rights Reserved.</div>
+</div>
+<!--EndEditorForm-->
+<p></p>
+<!-- TABLE FORMATTING SECTION -->
+<p>
+<script type="text/javascript">
+var tableTags = document.getElementById('main_body').getElementsByTagName("table");
+        for (var i = 0; i < tableTags.length; i++)
+        {
+            var trTags = tableTags[i].getElementsByTagName("tr");
+            for (var j = 0; j < trTags.length; j++)
+            {
+                if(j%2 == 0)
+                {
+                    trTags.item(j).style.backgroundColor = "#efefec";
+                }
+                else
+                {
+                    trTags.item(j).style.backgroundColor = "#ffffff";
+                }
+            }
+        }
+</script>
+</p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="x35774" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x17998" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

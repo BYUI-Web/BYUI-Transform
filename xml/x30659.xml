@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.68 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x30659" Name="Latin Dance Cardio Workout" Layout="general_content.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Latin Dance Cardio Workout</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">A Latin cardiovascular fitness and endurance workout, alternating high and low energy intensive moves.</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style><!--
+#Border {
+border-spacing:2px;
+width: 400px;
+border: 1px solid black;
+}
+#Border td p{
+display: inline;
+
+}
+#Border td {
+
+vertical-align: middle;
+height: 30px;
+padding-left: 5px;
+padding-right: 5px;
+}
+--></style>
+<h3><strong>Instructor: Rosa Lavelle</strong></h3>
+<p><strong>Course Objective</strong>: To teach basic Latin dance moves in a cardio format.</p>
+<p><strong>Course Description</strong>: A Latin cardiovascular fitness and endurance workout, alternating high and low energy intensive moves.</p>
+<p><strong>Required Test or Other Supplies</strong>: None</p>
+<p><strong>Cost</strong>: $30</p>
+<p><strong>Class Schedule</strong>: Tuesdays; 9/27-12/13, Excl. 10/18, 10/25, 11/22; 8-9:15 p.m.; Hinckley Gym</p>
+<table id="Border">
+<tbody>
+<tr style="background-color: #dcdcdc;">
+<td>
+<p>9/27</p>
+</td>
+<td>
+<p>Salsa International Rhythms</p>
+</td>
+</tr>
+<tr style="background-color: #ffffff;">
+<td>
+<p>10/4</p>
+</td>
+<td>
+<p>Salsa International Rhythms</p>
+</td>
+</tr>
+<tr style="background-color: #dcdcdc;">
+<td>
+<p>10/11</p>
+</td>
+<td>
+<p>Salsa--Merengue Mix</p>
+</td>
+</tr>
+<tr style="background-color: #ffffff;">
+<td>
+<p>10/18</p>
+</td>
+<td>
+<p>no class</p>
+</td>
+</tr>
+<tr style="background-color: #dcdcdc;">
+<td>
+<p>10/25</p>
+</td>
+<td>
+<p>no class</p>
+</td>
+</tr>
+<tr style="background-color: #ffffff;">
+<td>
+<p>11/1</p>
+</td>
+<td>
+<p>Salsa--Cha-cha-cha Mix</p>
+</td>
+</tr>
+<tr style="background-color: #dcdcdc;">
+<td>
+<p>11/8</p>
+</td>
+<td>
+<p>Salsa Mambo Mix</p>
+</td>
+</tr>
+<tr style="background-color: #ffffff;">
+<td>
+<p>11/15</p>
+</td>
+<td>
+<p>Salsa Mambo Mix</p>
+</td>
+</tr>
+<tr style="background-color: #dcdcdc;">
+<td>
+<p>11/22</p>
+</td>
+<td>
+<p>no class</p>
+</td>
+</tr>
+<tr style="background-color: #ffffff;">
+<td>
+<p>11/29</p>
+</td>
+<td>
+<p>Salsa--African Cuban Mix</p>
+</td>
+</tr>
+<tr style="background-color: #dcdcdc;">
+<td>
+<p>12/6</p>
+</td>
+<td>
+<p>Salsa International Rhythms</p>
+</td>
+</tr>
+<tr style="background-color: #ffffff;">
+<td>
+<p>12/13</p>
+</td>
+<td>
+<p>Salsa International Rhythms</p>
+</td>
+</tr>
+</tbody>
+</table>]]></BodyCopy><xPower Type="Component" Component="x30679" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="true"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x28802" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

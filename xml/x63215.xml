@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.68 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x63215" Name="Mass Email" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Dealing with mass emails</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Dealing with mass emails</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<h1>Mass Email Policy</h1>
+<p>Composing an email intended for a mass audience (more than 5-10 users) is prohibited whether from a BYU-I email account or to BYU-I recipients.</p>
+<h2>Exceptions</h2>
+<p>Exceptions to this policy, intended only for explicitly authorized senders include the following:</p>
+<ul>
+<li>Daily Update to employees containing general news and information.</li>
+<li>Important emails from the President, Presidents Council, Death, and Time-sensitive schedule changes.</li>
+<li>Emergency emails about weather warning, catastrophes, evacuation notices, and the president.</li>
+<li>Student updates which include, activities, societies, associations, updates and important information. </li>
+</ul>
+<h2>Procedure</h2>
+<p>When sending approved mass emails from your BYU-Idaho account, or to BYU-Idaho recipients (including students, faculty, staff, and alumni), campus procedure strongly encourages that you use the Bcc option.</p>
+<h3>What is Bcc?</h3>
+It stands for Blind Carbon Copy, it is the practice of sending an e-mail  to multiple recipients without disclosing the complete list of  recipients.
+<h3>Why use Bcc?</h3>
+<ul>
+<li>To send a copy of your correspondence to a third party (for 	example, a colleague) when you do not want to let the recipient know the third party's e-mail address.</li>
+<li>When sending an e-mail to multiple recipients, you can hide their  e-mail addresses from each other. This is a sensible anti-spam  precaution 	because it avoids making a long list of e-mail addresses available to 	all the recipients (which is what happens if you put everyone's address 	in the To: or CC: fields). For this reason, it often makes sense to use  the Bcc: field for mailing lists. 	Some viruses also harvest e-mail addresses from users' cache folder or 	address book, and large CC lists may further the propagation of  unwanted 	viruses, giving another reason to use Bcc.</li>
+</ul>
+<h3>How do I send an email with Bcc?</h3>
+<ol>
+<li>When emailing a new email message click on the "Cc..." button</li>
+<li>A new window pops up, at the bottom there is a section to enter the email addresses in the Bcc. (as shown in the image below)</li>
+<li>Enter the email addresses of those whom you wish to show the email without revealing their email address.</li>
+<li>Once you have entered the desired email addresses click "OK"</li>
+<li>write the email and send it.</li>
+</ol>
+<h2 align="center"><img alt="bcc in outlook" border="0" src="http://www.byui.edu/HelpDesk/images/bcc.png" title="bcc in outlook" /></h2>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x30123" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

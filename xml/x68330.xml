@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x68330" Name="Admin Event Area" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Admin Event Area</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Admin Event Area</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style type="text/css"><!--
+.comp, .grpList, .lnk, .pgProp, .navIndex, .text {display: block !important;}
+
+.bannerad, .contact, .eventcomp, .quicklinks {display: block !important;}
+
+.acdmevent, .eventdetail {display: block !important;}
+--></style>
+<link href="prebuilt/stylenew/css/training.css" media="screen, projection" rel="stylesheet" type="text/css" />
+<div id="training">
+<p class="cutMargin">Left Nav Return is displayed in the left column.</p>
+<hr />
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/list.png" width="20" />
+<h3><strong>Left Nav Return<br /></strong></h3>
+<span></span>
+<div class="level1"><img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/text.png" width="20" />
+<p><strong>Parent Name: </strong><br /> This is the name to the link that returns the user to a main home page.</p>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/link.png" width="20" />
+<p><strong>Link: </strong>This is a link address to the main home page named above.</p>
+</div>
+<p class="cutMargin">The following items are displayed in the left column.</p>
+<hr />
+<div class="level1"><img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/text.png" width="20" />
+<p><strong>Location Title: </strong>Enter the name of your organization.</p>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/text.png" width="20" />
+<p><strong>Building Room #: </strong>Enter the building code and number for your main office location.</p>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/text.png" width="20" />
+<p><strong>Office Phone: </strong>Enter main office number.</p>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/component.png" width="20" />
+<p><strong>Coordinator Contact:</strong> This input field will use a <a href="x36441.xml">Contact Information Component</a> to insert contact information for an Event   Coordinator.</p>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/component.png" width="20" />
+<p><strong>Student Contact: </strong>This input field will use a <a href="x36441.xml">Contact Information  Component</a> to insert contact information for an second Event Coordinator.</p>
+</div>
+<hr />
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/list.png" width="20" />
+<h3><strong>Highlighted Events </strong></h3>
+<div class="level1"><img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/navigation.png" width="20" />
+<div class="0" style="width: 415px;">
+<p><strong>Events: </strong>All CMS Pages listed in this input field should display as highlighted events located at the top of the Admin Event page.</p>
+<p>What is displayed is the name of the CMS Page, the given date, and text within the abstract field.</p>
+<p class="cutMargin">The following list contains compatible pages.</p>
+<div class="compatible">
+<p>Compatible CMS Pages</p>
+<ul>
+<li><a href="x36450.xml">Academic Event</a></li>
+<li><a href="x36420.xml">Event Detail</a></li>
+</ul>
+<ul>
+<li><a href="x36439.xml">Event Component</a></li>
+</ul>
+</div>
+</div>
+<span class="clear"> </span></div>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/list.png" width="20" />
+<h3><strong>Rotating Ads</strong></h3>
+<div class="level1"><img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/component.png" width="20" />
+<p><strong>BannerAd: </strong> Insert <a href="x36444.xml">Banner Ad  Components</a> in the order you wish them to rotate. Banner Ads are images that can link to other web pages. These ads will display in the left column.</p>
+</div>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/list.png" width="20" />
+<h3><strong>Lower Ad Row</strong></h3>
+<div class="level1"><img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/list.png" width="20" />
+<p class="cutMargin"><strong>Column 1, 2, 3 &amp; 4</strong></p>
+<div class="level2"><img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/component.png" width="20" />
+<p><strong>Column: </strong> Insert <a href="x36444.xml">Banner Ad  Components</a> in the order you wish  them to rotate. Banner Ads are images that can link to other web pages. This information will display in a row at the bottom of the main body content.</p>
+</div>
+<span class="clear"> </span></div>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/component.png" width="20" />
+<p><strong>QuickLinks Column 1, 2, 3 &amp; 4: </strong>Insert up to four <a href="x36436.xml">Quick Links Components</a> used to display up to four columns of links at the foot of the Admin Event  page.</p>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/navigation.png" width="20" />
+<div class="level0">
+<p><strong>Define Your Events Folder: </strong> All <a href="x36420.xml">Event Detail CMS Pages</a> that are children of the assigned Folder/CMS Page of this input field should be listed within the table of the main content area.</p>
+<p>What is displayed is the name given in the "Event Title" text field, gallery icon if a gallery is present, and available semester icons.</p>
+<span class="clear"> </span></div>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/navigation.png" width="20" />
+<p><strong>Define Your Ads Folder  : (deprecated)</strong> Replaced by the "Highlighted Events" section.</p>
+</div>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Component" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="x36276" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/><xpowercomponent_Optional Type="Component" Component="x36121" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/><xpowercomponent_Optional Type="Component" Component="x35847" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/><xpowercomponent_Optional Type="Component" Component="x36611" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x14845" CompTypes="SiteControl"/></Content>

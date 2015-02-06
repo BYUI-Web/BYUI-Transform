@@ -1,0 +1,392 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x62864" Name="Get Involved" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Get Involved</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Get Involved</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p><meta />
+<title>A One Page Faq</title>
+</p>
+<p><link href="../../beta/xml/" rel="stylesheet" /></p>
+<p></p>
+<style type="text/css"><!--
+#page .dropdown_one ul, #page .dropdown_one li, #page .dropdown_two ul,
+    #page .dropdown_two li, #page .dropdown_three ul, #page .dropdown_three li{
+        margin:0;
+        padding:0;
+    }
+    #page .dropdown_one ul, #page .dropdown_one li, #page .dropdown_two ul,
+    #page .dropdown_two li, #page .dropdown_three ul, #page .dropdown_three li{
+        list-style-type:none;
+        float:left;
+    }
+    li{
+        display:none;
+    }
+    #page{
+        height:770px;
+    }
+    #get_involved{
+        float:left;
+        background-image:url('Images/student-support/Get Involved/get-involved-side-sprite.jpg');
+        width:195px;
+        height:300px;
+        background-color:black;
+        
+    }
+    #center_stage{
+        width:510px;
+        height:300px;
+        margin-left:195px;
+        border-top:1px solid #ddd;
+    }
+    #bar{
+        width:705px;
+        height:30px;
+        background-image:url('Images/student-support/Get Involved/bar.png');
+        
+    }
+    .dropdown_one{
+        margin-top:30px;
+        width:230px;
+        height:75px;
+        background-image:url('Images/student-support/Get Involved/get-involved-button-sprite.jpg');
+        background-position:0 1218px;
+        float:left;
+        cursor:pointer;
+        position:relative;
+    }
+    .dropdown_two{
+        margin-left:10px;
+        margin-top:30px;
+        width:230px;
+        height:75px;
+        background-image:url('Images/student-support/Get Involved/get-involved-button-sprite.jpg');
+        background-position:0 1294px;
+        float:left;
+        cursor:pointer;
+        position:relative;
+    }
+    .dropdown_three{
+        margin-left:10px;
+        margin-top:30px;
+        width:230px;
+        height:75px;
+        background-image:url('Images/student-support/Get Involved/get-involved-button-sprite.jpg');
+        background-position:0 1370px;
+        float:left;
+        cursor:pointer;
+        position:relative;
+    }
+    #page .dropdown_one ul, #page .dropdown_two ul, #page .dropdown_three ul,{
+        margin-top:75px;
+        
+        position:absolute;
+    }
+    .li_one{
+        
+        background-image:url('Images/student-support/Get Involved/get-involved-button-sprite.jpg');
+        background-position:0 43px;
+        
+        list-style-type:none;
+        height:40px;
+        width:229px;
+        border-top:3px #fff solid;
+        display:none;
+        
+    }
+    .li_one:hover{
+        background-image:url('Images/student-support/Get Involved/get-involved-button-sprite.jpg');
+        background-position:0 87px;
+        
+    }
+        .li_two{
+        
+        background-image:url('Images/student-support/Get Involved/get-involved-button-sprite.jpg');
+        background-position:0 131px;
+        list-style-type:none;
+        height:40px;
+        width:230px;
+        border-top:3px #fff solid;
+        display:none;
+        
+    }
+    .li_two:hover{
+        background-image:url('Images/student-support/Get Involved/get-involved-button-sprite.jpg');
+        background-position:0 175px;
+        
+    }
+        .li_three{
+        
+        background-image:url('Images/student-support/Get Involved/get-involved-button-sprite.jpg');
+        background-position:0 219px;
+        list-style-type:none;
+        height:40px;
+        width:230px;
+        border-top:3px #fff solid;
+        display:none;
+        
+    }
+    .li_three:hover{
+        background-image:url('Images/student-support/Get Involved/get-involved-button-sprite.jpg');
+        background-position:0 263px;
+        
+    }
+    .li_two_one{
+        background-image:url('Images/student-support/Get Involved/get-involved-button-sprite.jpg');
+        background-position:0 307px;
+        list-style-type:none;
+        height:40px;
+        width:230px;
+        border-top:3px #fff solid;
+        display:none;
+    }
+    .li_two_one:hover{
+        background-image:url('Images/student-support/Get Involved/get-involved-button-sprite.jpg');
+        background-position:0 351px;
+    }
+        .li_two_three{
+        background-image:url('Images/student-support/Get Involved/get-involved-button-sprite.jpg');
+        background-position:0 483px;
+        list-style-type:none;
+        height:40px;
+        width:230px;
+        border-top:3px #fff solid;
+        display:none;
+    }
+    .li_two_three:hover{
+        background-image:url('Images/student-support/Get Involved/get-involved-button-sprite.jpg');
+        background-position:0 527px;
+    }
+    .li_two_four{
+        background-image:url('Images/student-support/Get Involved/get-involved-button-sprite.jpg');
+        background-position:0 571px;
+        list-style-type:none;
+        height:40px;
+        width:230px;
+        border-top:3px #fff solid;
+        display:none;
+    }
+    .li_two_four:hover{
+        background-image:url('Images/student-support/Get Involved/get-involved-button-sprite.jpg');
+        background-position:0 615px;
+    }
+    .li_two_five{
+        background-image:url('Images/student-support/Get Involved/get-involved-button-sprite.jpg');
+        background-position:0 659px;
+        list-style-type:none;
+        height:40px;
+        width:230px;
+        border-top:3px #fff solid;
+        display:none;
+    }
+    .li_two_five:hover{
+        background-image:url('Images/student-support/Get Involved/get-involved-button-sprite.jpg');
+        background-position:0 703px;
+    }
+    .li_two_six{
+        background-image:url('Images/student-support/Get Involved/get-involved-button-sprite.jpg');
+        background-position:0 747px;
+        list-style-type:none;
+        height:40px;
+        width:230px;
+        border-top:3px #fff solid;
+        display:none;
+    }
+    .li_two_six:hover{
+        background-image:url('Images/student-support/Get Involved/get-involved-button-sprite.jpg');
+        background-position:0 791px;
+    }
+    .li_two_seven{
+        background-image:url('Images/student-support/Get Involved/get-involved-button-sprite.jpg');
+        background-position:0 835px;
+        list-style-type:none;
+        height:40px;
+        width:230px;
+        border-top:3px #fff solid;
+        display:none;
+    }
+    .li_two_seven:hover{
+        background-image:url('Images/student-support/Get Involved/get-involved-button-sprite.jpg');
+        background-position:0 879px;
+    }
+    .li_three_one{
+        
+        background-image:url('Images/student-support/Get Involved/get-involved-button-sprite.jpg');
+        background-position:0 923px;
+        list-style-type:none;
+        height:40px;
+        width:230px;
+        border-top:3px #fff solid;
+        display:none;
+        
+    }
+    .li_three_one:hover{
+        background-image:url('Images/student-support/Get Involved/get-involved-button-sprite.jpg');
+        background-position:0 967px;
+        
+    }
+        .li_three_two{
+        
+        background-image:url('Images/student-support/Get Involved/get-involved-button-sprite.jpg');
+        background-position:0 1011px;
+        list-style-type:none;
+        height:40px;
+        width:230px;
+        border-top:3px #fff solid;
+        display:none;
+        
+    }
+    .li_three_two:hover{
+        background-image:url('Images/student-support/Get Involved/get-involved-button-sprite.jpg');
+        background-position:0 1055px;
+        
+    }
+    .li_three_three{
+        
+        background-image:url('Images/student-support/Get Involved/get-involved-button-sprite.jpg');
+        background-position:0 1099px;
+        list-style-type:none;
+        height:40px;
+        width:230px;
+        border-top:3px #fff solid;
+        display:none;
+        
+    }
+    .li_three_three:hover{
+        background-image:url('Images/student-support/Get Involved/get-involved-button-sprite.jpg');
+        background-position:0 1143px;
+        
+    }
+--></style>
+<p>
+<script type="text/javascript">
+window.onload=function(){
+$(document).ready(function() {
+     var cssObj = {
+        'background-image' : "url('Images/student-support/Get Involved/get-involved-sprite.jpg')",
+        'background-position' : '0 4321px'
+    };
+    $('#center_stage').css(cssObj);
+    
+    
+    function slide(nav, backgroundPosition, li, side_position){
+        $(nav).on('mouseenter mouseleave', function(){
+        $(li).stop(false,true).slideToggle();
+        var center_stageObj = {
+            'background-image' : "url('Images/student-support/Get Involved/get-involved-sprite.jpg')",
+            'background-position' : '0 '+backgroundPosition
+        },
+            side_Obj = {
+                'background-image' : "url('Images/student-support/Get Involved/get-involved-side-sprite.jpg')",
+                'background-position' : side_position+' 0'
+            };
+        $('#center_stage').css(center_stageObj);
+        
+        $('#get_involved').css(side_Obj);
+        
+    });
+    }//end slide function
+    
+    function main_picture_slide(backgroundPosition){
+        var center_stageObj = {
+            'background-image' : "url('Images/student-support/Get Involved/get-involved-sprite.jpg')",
+            'background-position' : '0 '+backgroundPosition
+        };
+        
+        $('#center_stage').css(center_stageObj);
+        
+    }
+
+    slide('.dropdown_one', '3081px', '.dropdown_one li','194px');
+    slide('.dropdown_two',  '3700px','.dropdown_two li','389px');
+    slide('.dropdown_three',  '2462px','.dropdown_three li','584px');
+    
+    $('nav li').hover(function(){
+        var backgroundPosition = $(this).data('picture');
+        main_picture_slide(backgroundPosition);
+        
+    });
+    
+    $('nav li').on('click', function(){
+        var class_name = $(this).attr('class');
+        switch(class_name){
+            case "li_one":
+                window.location='http://www.byui.edu/activities';
+                break;
+            case "li_two":
+                window.location='http://www.byuiconnect.com/s/1085/07-idaho/idaho-start.aspx?gid=4&pgid=61';
+                break;
+            case "li_three":
+                window.location='http://www.byui.edu/student-support';
+                break;
+            case "li_two_one":
+                window.location='http://www.byui.edu/center-stage';
+                break;
+            case "li_two_three":
+                window.location='http://www.byui.edu/online/pathway';
+                break;
+            case "li_two_four":
+                window.location='http://www.byui.edu/online';
+                break;
+            case "li_two_five":
+                window.location='http://www2.byui.edu/StudentHonor/Student%20Honor%20Class%20Talks.htm';
+                break;
+            case "li_two_six":
+                window.location='http://www.byui.edu/university-operations/security-and-safety/student-safety-council';
+                break;
+            case "li_two_seven":
+                window.location='http://byui.universitytickets.com/user_pages/event_listings.aspx?id=110';
+                break;
+            case "li_three_one":
+                window.location='http://www.byui.edu/societies';
+                break;
+            case "li_three_two":
+                window.location='http://www.byui.edu/teacher-education/accreditation-2011/professional-certification-programs/secondary-education/performing-arts-grouping';
+                break;
+            case "li_three_three":
+                window.location='http://www.byuicomm.net/tag/rotc/';
+                break;
+        }
+    });
+    
+
+}); // end ready
+}
+</script>
+</p>
+<div id="page">
+<div id="get_involved"></div>
+<div id="center_stage"></div>
+<div id="bar"></div>
+<nav class="dropdown_one">
+<ul style="margin-top: 75px;">
+<li class="li_one" data-picture="3081px"></li>
+<li class="li_two" data-picture="3388px"></li>
+<li class="li_three" data-picture="4010px"></li>
+</ul>
+</nav><nav class="dropdown_two">
+<ul style="margin-top: 75px;">
+<li class="li_two_one" data-picture="613px"></li>
+<li class="li_two_three" data-picture="1844px"></li>
+<li class="li_two_four" data-picture="1535px"></li>
+<li class="li_two_five" data-picture="3700px"></li>
+<li class="li_two_six" data-picture="2770px"></li>
+<li class="li_two_seven" data-picture="4632px"></li>
+</ul>
+</nav><nav class="dropdown_three">
+<ul style="margin-top: 75px;">
+<li class="li_three_one" data-picture="300px"></li>
+<li class="li_three_two" data-picture="2155px"></li>
+<li class="li_three_three" data-picture=""></li>
+</ul>
+</nav></div>
+<p>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33977325-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x46900" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

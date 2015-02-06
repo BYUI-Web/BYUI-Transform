@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x67619" Name="Confined Space Entry Permit" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Confined Space Entry Permit</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Confined Space Entry Permit</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<form action="http://www2.byui.edu/AspUtilities/emailAForm.asp" method="post" name="Form1"><input name="txtEmailTo" type="hidden" value="harmstone@byui.edu;gilbertb@byui.edu;sauerc@byui.edu;williamsk@byui.edu" /><input name="txtEmailFrom" type="hidden" value="safety@byui.edu" /><input name="txtSubject" type="hidden" value="Confined Space Permit" />
+<p align="center">&nbsp;<span style="color: #0000ff; font-size: x-large;"><strong>BYU-Idaho Confined Space Work Permit</strong></span></p>
+<table border="0" width="760">
+<tbody>
+<tr>
+<td colspan="2" height="37" width="750">
+<h4><span style="color: #000000;">The following&nbsp;confined spaces&nbsp;no longer  		require a Confined Space Work Permit; however&nbsp; entrance is to be treated  		the same, (i.e. Safety Attendant, Atmospheric Testing, etc.) :  &nbsp; <span style="text-decoration: underline;">Steam Vaults S1 through S10. </span></span></h4>
+<h4><span style="color: #000000;">All other designated confined spaces still  		require&nbsp;the completed permit to be posted at the work site.</span></h4>
+</td>
+</tr>
+<tr>
+<td height="37" width="218"><strong><span style="font-size: x-small;">Permit submitted by</span></strong><span style="font-size: x-small;"> </span></td>
+<td height="37" width="532"><input name="Name of person who issued permit" size="55" type="text" /></td>
+</tr>
+<tr>
+<td height="37" width="218"><strong><span style="font-size: x-small;">Email Address:</span></strong></td>
+<td height="37" width="532"><input name="txtEmailFrom" size="55" type="text" /></td>
+</tr>
+<tr>
+<td width="218"><strong><span style="font-size: x-small;">Date work to be done</span></strong></td>
+<td width="532"><input maxlength="100" name="Date being done" size="55" type="text" />
+<p><span style="color: #ff0000; font-size: x-small;"><strong>Permit good for 24 hours only!</strong></span></p>
+</td>
+</tr>
+<tr>
+<td width="218"><strong><span style="font-size: x-small;">Time work to be started</span></strong></td>
+<td width="532"><input maxlength="100" name="Time started" size="55" type="text" /></td>
+</tr>
+<tr>
+<td width="218"><strong><span style="font-size: x-small;">Time work completed</span></strong></td>
+<td width="532"><input maxlength="100" name="Time completed" size="55" type="text" /></td>
+</tr>
+<tr>
+<td width="218"><strong><span style="font-size: x-small;">Work Order Number</span></strong></td>
+<td width="532"><input maxlength="100" name="Work Order Number" size="55" type="text" /></td>
+</tr>
+<tr>
+<td width="218"><strong><span style="font-size: x-small;">Location of work</span></strong></td>
+<td width="532"><input maxlength="100" name="Location of Work" size="55" type="text" /></td>
+</tr>
+<tr>
+<td width="218"><strong><span style="font-size: x-small;">Nature of work</span></strong><span style="font-size: x-small;"> </span></td>
+<td width="532"><input maxlength="100" name="Nature of Work" size="55" type="text" /></td>
+</tr>
+<tr>
+<td width="218"><strong><span style="font-size: x-small;">Other Hazardous Work</span></strong></td>
+<td width="532"><span style="color: #000000; font-size: x-small;"> <select name="Other Hazardous Work" size="1" style="width: 275; height: 21; font-size: 10px; font-weight: bold;"> <option selected="selected" value="None">None</option> <option value="Hot Work">Hot Work</option> <option value="Lockout/Tagout">Lockout/Tagout</option> <option value="Hazardous Materials">Hazardous Materials</option> </select></span></td>
+</tr>
+<tr>
+<td width="218"><strong><span style="font-size: x-small;">Entrant/s</span></strong></td>
+<td width="532"><input name="Entrant/s" size="55" type="text" /></td>
+</tr>
+<tr>
+<td width="218"><strong><span style="font-size: x-small;">Attendant/s</span></strong></td>
+<td width="532"><input name="Attendant/s" size="55" type="text" /></td>
+</tr>
+<tr>
+<td width="218"><strong><span style="font-size: x-small;">Department or Shop</span></strong></td>
+<td width="532"><input name="Department/Shop" size="55" type="text" /></td>
+</tr>
+<tr>
+<td width="218"><strong><span style="color: #0000ff; font-size: x-small;">Oxygen Reading</span></strong></td>
+<td width="532"><input name="Oxygen Reading" size="55" type="text" /></td>
+</tr>
+<tr>
+<td width="218"><strong><span style="color: #0000ff; font-size: x-small;">LEL Flammability Reading</span></strong></td>
+<td width="532"><input name="LEL Flammability Reading" size="55" type="text" /></td>
+</tr>
+<tr>
+<td width="218"><strong><span style="color: #0000ff; font-size: x-small;">Hydrogen Sulfide Reading</span></strong></td>
+<td width="532"><input name="Hydrogen Sulfide Reading" size="55" type="text" /></td>
+</tr>
+<tr>
+<td width="218"><strong><span style="color: #0000ff; font-size: x-small;">Carbon Monoxide Reading</span></strong></td>
+<td width="532"><input name="Carbon Monoxide Reading" size="55" type="text" /></td>
+</tr>
+<tr>
+<td width="218"><span style="color: #0000ff; font-size: x-small;"><strong>Chlorine</strong></span><strong><span style="color: #0000ff; font-size: x-small;"> Reading</span></strong></td>
+<td width="532"><input name="Chlorine Reading" size="55" type="text" /></td>
+</tr>
+</tbody>
+</table>
+<table border="0" width="760">
+<tbody>
+<tr>
+<td height="2"><strong><span style="color: #000000; font-size: x-small;">Required Check List</span></strong></td>
+</tr>
+</tbody>
+</table>
+<table border="0" width="760">
+<tbody>
+<tr>
+<td width="119"><strong> <span style="font-family: Arial;"> <input name="Hazard Assessment" type="radio" value="yes" /><span style="font-size: x-small;"> Yes </span> <input name="Hazard Assessment" type="radio" value="no" /><span style="font-size: x-small;"> No</span></span></strong></td>
+<td width="631"><strong><span style="font-size: x-small;">1. Was a pre-entry hazard assessment conducted?</span></strong></td>
+</tr>
+<tr>
+<td width="119"><strong> <span style="font-family: Arial;"> <input name="Lockout/Tagout Required" type="radio" value="yes" /><span style="font-size: x-small;"> Yes </span> <input name="Lockout/Tagout Required" type="radio" value="no" /><span style="font-size: x-small;"> No</span></span></strong></td>
+<td width="631"><strong><span style="font-size: x-small;">2. Is Lockout/Tagout required?</span></strong></td>
+</tr>
+<tr>
+<td width="119"><strong> <span style="font-family: Arial;"> <input name="Ventilation" type="radio" value="yes" /><span style="font-size: x-small;"> Yes </span> <input name="Ventilation" type="radio" value="no" /><span style="font-size: x-small;"> No</span></span></strong></td>
+<td width="631"><strong><span style="font-size: x-small;">3. Is mechanical ventilation required?</span></strong></td>
+</tr>
+<tr>
+<td width="119"><strong> <span style="font-family: Arial;"> <input name="Respiratory Protection" type="radio" value="yes" /><span style="font-size: x-small;"> Yes </span> <input name="Respiratory Protection" type="radio" value="no" /><span style="font-size: x-small;"> No</span></span></strong></td>
+<td width="631"><strong><span style="font-size: x-small;">4. Is Respiratory protection required?</span></strong></td>
+</tr>
+<tr>
+<td width="119"><strong> <span style="font-family: Arial;"> <input name="Communications Equipment" type="radio" value="yes" /><span style="font-size: x-small;"> Yes </span> <input name="Communications Equipment" type="radio" value="no" /><span style="font-size: x-small;"> No</span></span></strong></td>
+<td width="631"><strong><span style="font-size: x-small;">5. Do you have communications on site?</span></strong></td>
+</tr>
+<tr>
+<td width="119"><strong> <span style="font-family: Arial;"> <input name="Barriers" type="radio" value="yes" /><span style="font-size: x-small;"> Yes </span> <input name="Barriers" type="radio" value="no" /><span style="font-size: x-small;"> No</span></span></strong></td>
+<td width="631"><strong><span style="font-size: x-small;">6. Are barriers erected at vault entrance?</span></strong></td>
+</tr>
+<tr>
+<td width="119"><strong> <span style="font-family: Arial;"> <input name="PPE" type="radio" value="yes" /><span style="font-size: x-small;"> Yes </span> <input name="PPE" type="radio" value="no" /><span style="font-size: x-small;"> No</span></span></strong></td>
+<td width="631"><strong><span style="font-size: x-small;">7. Is adequate personal protective equipment being used?</span></strong></td>
+</tr>
+<tr>
+<td width="119"><strong> <span style="font-family: Arial;"> <input name="Copy of Permit at work site" type="radio" value="yes" /><span style="font-size: x-small;"> Yes </span> <input name="Copy of Permit at work site" type="radio" value="no" /><span style="font-size: x-small;"> No</span></span></strong></td>
+<td width="631"><strong><span style="font-size: x-small;">8. Will a copy of the permit be posted at the work site?</span></strong></td>
+</tr>
+<tr>
+<td width="119"><strong> <span style="font-family: Arial;"> <input name="Work site secure" type="radio" value="yes" /><span style="font-size: x-small;"> Yes </span> <input name="Work site secure" type="radio" value="no" /><span style="font-size: x-small;"> No</span></span></strong></td>
+<td width="631">
+<p><strong><span style="font-size: x-small;">9. Will vault be secured after completion of work?</span></strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" width="760">
+<tbody>
+<tr>
+<td>
+<p><span style="color: #000000;"><strong><span style="text-decoration: underline;"><span style="font-size: x-small;">Print</span></span></strong><span style="font-size: x-small;"> a copy of this permit using your tool bar print         function and keep the copy at the work site.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span></p>
+<p><span style="color: #000000; font-size: x-small;">Then click on the "<strong><span style="text-decoration: underline;">Submit Request</span></strong>" button below         after printing a copy of the permit.</span></p>
+<p><span style="color: #000000; font-size: x-small;">Upon completion, e-mail the safety office noting of completion and any problems that         may have been encountered. &nbsp;&nbsp; </span></p>
+<p><strong><span style="color: #ff0000; font-size: x-small;">IN CASE OF AN EMERGENCY CALL 911 .&nbsp;&nbsp; DO NOT ENTER THE CONFINED SPACE.&nbsp;&nbsp; WAIT         FOR RESCUE PERSONNEL.</span></strong><span style="font-size: x-small;"> </span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<a href="mailto:harmstone@byui.edu;gilbertb@byui.edu;sauerc@byui.edu;williamsk@byui.edu"><input name="Submit" type="submit" value="Submit Request" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input name="Reset" type="reset" value="Reset Permit" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input name="Print" onclick="javascript:window.print()" type="button" value="  Print  " /> (Save a copy for your records)   <!--EndEditor--> </form>
+<div id="footer">
+<div id="shadow">Copyright
+<script type="text/javascript">
+var d = new Date();document.write(d.getFullYear());
+</script>
+BYU&ndash;Idaho<br />All Rights Reserved.</div>
+</div>
+<!--EndEditorForm--> <!-- TABLE FORMATTING SECTION -->
+<script type="text/javascript">
+        var tableTags = document.getElementById('main_body').getElementsByTagName("table");
+        for (var i = 0; i < tableTags.length; i++)
+        {
+            var trTags = tableTags[i].getElementsByTagName("tr");
+            for (var j = 0; j < trTags.length; j++)
+            {
+                if(j%2 == 0)
+                {
+                    trTags.item(j).style.backgroundColor = "#efefec";
+                }
+                else
+                {
+                    trTags.item(j).style.backgroundColor = "#ffffff";
+                }
+            }
+        }
+</script>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="x35774" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x17998" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

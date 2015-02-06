@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?><Content ID="x37072" Name="Classes" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Classes</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">The Classes page lists all available classes at BYU-Idaho. Click on a link and it will take you to te page for classs listings, schedules and registration if open.</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false" /><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false" /><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style type="text/css"><!--
+#main_content {
+   width: 710px !important;
+   margin-left: 0;
+   margin-right: 0;
+}
+.list-content h3, .list-content h3 a {
+   font-size: large !important;
+   text-decoration: none !important;
+}
+.list-content
+{
+   
+   padding: 6px !important;
+}
+.table-listing {
+   width: 100%;
+}
+.table-listing tr {
+   padding: 15px !important;
+   height: 164px;
+}
+.image-column {
+   width: 170px;
+}
+.image-column img {
+   box-shadow: 0 1px 5px 0 #4a4a4a;
+}
+.image-column img:hover {
+   box-shadow: 0 1px 2px 0 #4a4a4a;
+}
+.content-column {
+   vertical-align: middle !important;
+}
+--></style>
+<table class="table-listing">
+<tbody>
+<tr>
+<td class="image-column"><a href="x37075.xml"><img src="images/community-connections/adultrel.jpg" /></a></td>
+<td class="content-column">
+<div class="list-content">
+<h3><a href="x37075.xml">Adult Religion</a></h3>
+<p class="list-desc">The Adult Religion Class allows participants to strengthen their testimony and knowledge of the Church of Jesus Christ of Latter-day Saints.</p>
+</div>
+</td>
+</tr>
+<tr>
+<td class="image-column"><a href="x37078.xml"><img src="images/community-connections/noncredit.jpg" /></a></td>
+<td class="content-column">
+<div class="list-content">
+<h3><a href="x37078.xml">Non-Credit</a></h3>
+<p class="list-desc">Non-Credit classes are a great resource for those seeking to develop their interests in a variety of areas including computer training, physical fitness, dancing, gardening, pottery, and more.</p>
+</div>
+</td>
+</tr>
+<tr>
+<td class="image-column"><a href="x37077.xml"><img src="images/community-connections/swim.jpg" /></a></td>
+<td class="content-column">
+<div class="list-content">
+<h3><a href="x37077.xml">Swimming Lessons</a></h3>
+<p class="list-desc">Swimming classes are offered by Community Connections as a way to help local young people learn important and possibly life-saving skills.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false" /></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" /><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" /><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" /></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent" /><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet" /></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query="" /><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x28802" CompTypes="SiteControl" /></Content>

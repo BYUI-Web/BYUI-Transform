@@ -1,0 +1,272 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x18462" Name="Outside Aid OLD" Layout="general_content.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">(Remove TITLE line soon)</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Outside Aid, Financial Aid, Financial Aid Office, scholarships, grants, scholarship, grant, private aid, private scholarship, private grants, off-campus aid,</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<script language="javascript" type="text/javascript">
+function showHide(shID) {
+   if (document.getElementById(shID)) {
+      if (document.getElementById(shID+'-show').style.display != 'none') {
+         document.getElementById(shID+'-show').style.display = 'none';
+         document.getElementById(shID).style.display = 'block';
+      }
+      else {
+         document.getElementById(shID+'-show').style.display = 'inline';
+         document.getElementById(shID).style.display = 'none';
+      }
+   }
+}
+</script>
+<style type="text/css"><!--
+/* This CSS is used for the Show/Hide functionality. */
+.more {
+      display: none;
+      border-top: 1px solid #666;
+      border-bottom: 1px solid #666; }
+margin:0;
+padding:0;
+   a.showLink, a.hideLink {
+      text-decoration: none;
+      color: rgb(40,20,200);
+      padding-left: 18px;
+      margin:2px;
+      background: transparent url(Images/Admin_Offices/Financial Aid/down.png) no-repeat left; }
+   a.hideLink {
+      background: transparent url(Images/Admin_Offices/Financial Aid/up.png) no-repeat left; }
+   a.showLink:hover, a.hideLink:hover {
+      border-bottom: 1px dotted #36f; }
+--></style>
+<style><!--
+.guide ul {
+display:inline-block;
+padding: 0;     
+margin: 0;
+text-align: center; 
+position: relative;
+list-style-type:none;
+height:120px;
+width:880px;
+float:left;
+indent:0;
+list-style-position:outside;
+}
+.guide li {
+padding: 0 5px;  
+margin: 0 10px;  
+text-align: center; 
+display:inline-block;
+list-style-type:none;
+white-space: nowrap;
+float:left;
+}
+.guide img {
+padding: 0;    
+margin: 0;     
+text-align: center;
+vertical-align:top;
+list-style-type:none;
+}
+.guide a {
+padding: 0;
+margin:25px 0 0 0;         
+text-align: center; 
+display:block;
+list-style-type:none;
+text-alignment:bottom;
+}
+--></style>
+<div class="guide" style="margin: 0; padding: 0;">
+<li class="guide"><a class="guide" href="x20215.xml"><img alt="step 1- planning" class="guide" height="70" src="Images/Admin_Offices/Financial Aid/planning_icon.png" title="Step 1 - Planning" />Planning</a></li>
+<li class="guide"><a class="guide" href="x20240.xml"><img alt="step 2- financial aid options" class="guide" height="70" src="Images/Admin_Offices/Financial Aid/1305127434_network - lan.png" style="margin: 0 auto;" title="Step 2 - Financial Aid Options" />Financial Aid Options</a></li>
+<li class="guide"><a href="x18461.xml"><img alt="step 3 - university aid" height="65" src="Images/Admin_Offices/Financial Aid/1305129068_307.png" style="margin: 0 auto 5px auto;" title="Step 3 - University Aid" />University Aid</a></li>
+<li class="guide"><a class="guide" href="x18463.xml"><img alt="step 4 - federal aid" class="guide" height="65" src="Images/Admin_Offices/Financial Aid/government-building-icon-md.png" style="margin: 0 auto 5px auto;" title="Step 4 - Federal Aid" />Federal Aid</a></li>
+<li class="guide"><a class="guide" href="x18464.xml"><img alt="step 5 - document verification" class="guide" height="70" src="Images/Admin_Offices/Financial Aid/1305127557_NOTEPAD.png" style="margin: 0 auto;" title="Step 5 - Document Verification" />Document Verification</a></li>
+<li class="guide"><a class="guide" href="x18465.xml"><img alt="step 6 - disbursement" height="65" src="Images/Admin_Offices/Financial Aid/1305128759_137.png" style="margin: 0 auto 5px auto;" title="Step 6 - Disbursement" />Disbursement</a></li>
+</div>
+<div style="height: 40px; padding: 0 0 8px 0; width: 100%; margin: 0;"><img alt="Check mark" class="guide" src="Images/Admin_Offices/Financial Aid/tick_check1.png" style="float: left; margin: 0 0 0 125px;" title="Financial Aid Guide progress mark" width="45" /></div>
+<div style="border-top: 1px dotted gray; border-bottom: 1px dotted gray; padding: 8px 8px; margin: 125px 0 0 0;">
+<h3 style="font-family: sans-serif; font-size: 20px; font-weight: 500;">Outside Aid</h3>
+</div>
+<br />
+<h6>Financial aid from outside sources</h6>
+<br />
+<p>Any Financial aid not from BYU-Idaho or the Federal Government is considered Outside Aid. This includes financial aid awards from businesses, charities, state or local governments, and other organizations or institutions.</p>
+<p>Students are responsible for finding and applying for these awards. The Financial Aid Office will endeavor to inform students of opportunities to apply for private financial aid awards regularly. A selection of the common private financial aid awarded to BYU-Idaho students are listed below.</p>
+<p>Please note: not all BYU-Idaho students are eligible for many of these private awards listed (For example: the <em>Robert R. Lee Scholarship</em> is awarded only to Idaho resident students). We encourage students to search and apply for as many private awards as possible.</p>
+<br />
+<h3>Robert R. Lee Promise Scholarship</h3>
+<p>Formerly known as the Idaho Promise Scholarship. This award is available to Idaho residents who have completed their high school education in Idaho and are applying to an approved/accredited Idaho college or university.</p>
+<a class="showLink" href="#" id="idaho-show" onclick="showHide('idaho');return false;">READ MORE <img alt="down arrow" height="16" src="Images/Admin_Offices/Financial Aid/down.png" style="display: inline-block;" title="Down arrow" width="16" /></a>
+<div class="more" id="idaho" style="margin: 0; padding: 0;">
+<div style="margin: 0 0 0 30px; padding: 8px; border: 1px solid #e6e6e6; box-shadow: 0 0 3px #f0f0f0; background: #fafafa;">
+<h4>Source of award</h4>
+<p>Idaho Board of Education, State of Idaho</p>
+<h4>Application</h4>
+<p>N/A No application necessary.</p>
+<h4>Deadlines</h4>
+<p>N/A Idaho students graduating from high school are automatically considered</p>
+<h4>Requirements</h4>
+<p>This scholarship is divided into two categories with different requirements (see category requirements below). However this scholarship award is available for Idaho residents only.</p>
+<h4>Award Levels</h4>
+<p>The Robert R. Lee Promise Scholarship is divided into two categories A and B:</p>
+<ul>
+<li><strong>Robert R. Lee Promise Category A Scholarship</strong>
+<p>The Robert R. Lee Promise Category A Scholarship, formerly known as the State of Idaho Scholarship, provides approximately 25 new scholarships each year to academic scholars and professional-technical students. The award is $3,000 per year, renewable up to four years for academic programs and for the term of the professional-technical program, up to three years.</p>
+<h5>Requirements</h5>
+<ul>
+<li>Be an Idaho resident</li>
+<li>Effective for the current academic year, be a graduating senior of an Idaho high school or its equivalent</li>
+<li>Enroll as a full-time student in an academic or professional-technical program at an eligible Idaho college or university</li>
+<li>Effective for the current academic year, have a cumulative GPA of 3.5 or above and an ACT score of 28 or above</li>
+<li>Enroll as a full-time student in an academic program at an eligible Idaho college or university. </li>
+</ul>
+<h5>Duration</h5>
+<p>Renewable up to four years for academic programs and up to three years with professional-technical programs.</p>
+</li>
+<li><strong>Robert R. Lee Promise Category B Scholarship</strong>
+<p>This scholarship is provided by the Idaho State Board of Education. No specific application from the student is required. BYU-Idaho will award the Robert R. Lee Promise Scholarship based upon the student's data supplied on the University's admissions application. This will normally be done approximately 30 days before the semester begins and after the student has registered for a minimum of 12 credits.</p>
+<h5>Requirements</h5>
+<ul>
+<li>Be an Idaho resident</li>
+<li>Be under the age of 22 prior to July 1 of the year of the award</li>
+<li>Enroll as a full-time student in an academic or professional-technical program at an eligible Idaho college or university</li>
+<li>Effective for the current academic year, have a cumulative GPA of 3.5 or above and an ACT score of 28 or above</li>
+<li>Enroll as a full-time student in an academic program at an eligible Idaho college or university. </li>
+<li>Earned at least a 3.0 High School GPA or an ACT score of 20 or above.</li>
+</ul>
+<h5>Duration</h5>
+<p>Varies from 1-4 semesters</p>
+</li>
+</ul>
+</div>
+<br /> <a class="hideLink" href="#" id="idaho-hide" onclick="showHide('idaho');return false;">HIDE THIS CONTENT <img alt="uparrow" height="16" src="Images/Admin_Offices/Financial Aid/up.png" style="display: inline-block;" title="Up arrow" width="16" /></a></div>
+<br /> <br />
+<h3>Bureau of Indian Affairs Benefits</h3>
+<p>BIA Benefits are financial aid from federally recognized Indian tribe. It is the students’ responsibility to apply and meet all requirements for BIA awards. Requirements and award levels vary from tribe to tribe.</p>
+<a class="showLink" href="#" id="bia-show" onclick="showHide('bia');return false;">READ MORE <img alt="down arrow" height="16" src="Images/Admin_Offices/Financial Aid/down.png" style="display: inline-block;" title="Down arrow" width="16" /></a>
+<div class="more" id="bia" style="margin: 0; padding: 0;">
+<div style="margin: 0 0 0 30px; padding: 8px; border: 1px solid #e6e6e6; box-shadow: 0 0 3px #f0f0f0; background: #fafafa;">
+<h4>Source of award</h4>
+<p>Federally recognized Indian tribe</p>
+<h4>Application</h4>
+<p><strong>It is the responsibility of the student to:</strong></p>
+<ul>
+<li>Notify BYU-Idaho of eligibility for Bureau of Indian Affairs Funding</li>
+<li>Submit a current FAFSA form (available at www.fafsa.ed.gov)</li>
+<li>Contact the proper tribal or agency office and request:                                                                                                         
+<ul>
+<li>An application</li>
+<li>Privacy release form</li>
+<li>Other required forms and documents (based on tribal requirements)</li>
+</ul>
+</li>
+<li>Submit the privacy release form to the BYU-Idaho Student Financial Aid</li>
+<li>Submit the application and other required forms to the proper tribal or agency office</li>
+<li>At the end of each semester you must send a copy of your grades to the tribe</li>
+</ul>
+<h4>Deadlines</h4>
+<p>Deadlines are determined by the Indian tribal office or agency</p>
+<h4>Requirements</h4>
+<p>To be eligible for BIA funding, a student in “most cases” must:</p>
+<ul>
+<li>Be at least ¼ Indian blood</li>
+<li>Be registered with a tribe that has a treaty with the U.S. Government and assigned a census number</li>
+</ul>
+<h4>Award Levels</h4>
+<p>Varies according to the tribe and award</p>
+<h4>Duration</h4>
+<p>Varies according to the tribe and award</p>
+</div>
+<br /> <a class="hideLink" href="#" id="bia-hide" onclick="showHide('bia');return false;">HIDE THIS CONTENT <img alt="uparrow" height="16" src="Images/Admin_Offices/Financial Aid/up.png" style="display: inline-block;" title="Up arrow" width="16" /></a></div>
+<br /> <br />
+<h3>Mission President Scholarship</h3>
+<p>This scholarship is awarded by a mission president’s discretion to eligible missionaries. This award is not affiliated nor controlled by BYU-Idaho. Any information, inquiries, or concerns regarding this award should be directed to the mission president.</p>
+<a class="showLink" href="#" id="mission-show" onclick="showHide('mission');return false;">READ MORE <img alt="down arrow" height="16" src="Images/Admin_Offices/Financial Aid/down.png" style="display: inline-block;" title="Down arrow" width="16" /></a>
+<div class="more" id="mission" style="margin: 0; padding: 0;">
+<p style="font-family: Arial Black; font-size: 14px; font-weight: bold; padding-left: 30px;">Note: <span style="color: #c81419; font-weight: bold;">Students are discouraged and forbidden from soliciting or requesting mission presidents to consider them for the scholarship.</span></p>
+<h4>Mission Presidents</h4>
+<p>Mission presidents should contact our specialist <a href="x20506.xml">Seth Deming</a> for information or assistance about how to award students this scholarship.</p>
+<a class="hideLink" href="#" id="mission-hide" onclick="showHide('mission');return false;">HIDE THIS CONTENT <img alt="uparrow" height="16" src="Images/Admin_Offices/Financial Aid/up.png" style="display: inline-block;" title="Up arrow" width="16" /></a></div>
+<br /> <br />
+<h3>Outside scholarship opportunities</h3>
+<p>Financial Aid Office will endeavor to inform students of outside scholarship opprotunities when possible. Displayed below are a few scholarships commonly awarded to students (This is not an exhaustive list).</p>
+<a class="showLink" href="#" id="private-show" onclick="showHide('private');return false;">READ MORE <img alt="down arrow" height="16" src="Images/Admin_Offices/Financial Aid/down.png" style="display: inline-block;" title="Down arrow" width="16" /></a>
+<div class="more" id="private" style="margin: 0; padding: 0;">
+<div style="margin: 0 0 0 30px; padding: 8px; border: 1px solid #e6e6e6; box-shadow: 0 0 3px #f0f0f0; background: #fafafa;">
+<ul>
+<li>American Public Health Association (APHA)                                                                             
+<ul>
+<li><strong>Deadline - </strong>March 28, 2011</li>
+</ul>
+</li>
+<li>Jacobsen Scholarship Fund                                                                           
+<ul>
+<li><strong>Deadline - </strong>June 1, 2011</li>
+</ul>
+</li>
+<li>Abbott &amp; Fenner Scholarship Program                                                                           
+<ul>
+<li><strong>Deadline - </strong>April 1, 2011</li>
+</ul>
+</li>
+<li>Far West Agribusiness Association                                                                          
+<ul>
+<li><strong>Deadline - </strong>June 18, 2011</li>
+</ul>
+</li>
+<li>Automotive Scholarship - SEMA                                                                          
+<ul>
+<li><strong>Deadline - </strong>March 15, 2011</li>
+</ul>
+</li>
+<li> ISM Idaho, Inc.                                                                          
+<ul>
+<li><strong>Deadline - </strong>April 15, 2011</li>
+</ul>
+</li>
+<li>Computer Science &amp; Computer Engineering Scholarship                                                                          
+<ul>
+<li><strong>Deadline - </strong>April 1, 2011</li>
+</ul>
+</li>
+<li>Idaho Associated Contractor Ed. Foundation                                                                          
+<ul>
+<li><strong>Deadline - </strong>Dec. 10, 2011</li>
+</ul>
+</li>
+<li>NAWIC</li>
+<li>General Studies/Humanities Scholarship</li>
+<li>Sallie Mae</li>
+<li>Scholarship America</li>
+</ul>
+</div>
+<br /> <a class="hideLink" href="#" id="private-hide" onclick="showHide('private');return false;">HIDE THIS CONTENT <img alt="uparrow" height="16" src="Images/Admin_Offices/Financial Aid/up.png" style="display: inline-block;" title="Up arrow" width="16" /></a></div>
+<br /> <br />
+<div style="display: inline-block; padding: 10px; margin: 0; width: 100%; height: 140px; border-top: 1px dotted black; border-bottom: 1px dotted black;">
+<h4 style="font-family: Arial;">CONTACT</h4>
+<div style="margin: 0; padding: 0 8px 8px 8px; width: 190px; height: 145px; float: left;"><img alt="Office Hours" src="Images/Admin_Offices/Financial Aid/1312918545_Clock-Time.png" style="margin: 0 5px 0 0; float: left;" title="Office hours" width="50" />
+<div style="float: left; margin: 0;"><span style="font-size: 14px; font-weight: bold;">Office Hours</span>
+<p style="font-family: Arial; margin: 0;">Monday - Friday</p>
+<p style="font-family: Arial; margin: 0;">8am - 5pm</p>
+</div>
+<div style="margin: 8px 12px 0 0; float: right;"></div>
+</div>
+<div style="margin: 0; padding: 0 8px 8px 8px; width: 235px; height: 60px; float: left;"><img alt="Office Mailing Address" src="Images/Admin_Offices/Financial Aid/1312918507_Mail -2.png" style="margin: 0 5px 0 0; float: left;" title="Address" width="50" />
+<div style="float: left;"><span style="font-size: 14px; font-weight: bold;">Address</span>
+<p style="font-family: Arial; margin: 0;">100 Kimball Building 1610</p>
+<p style="font-family: Arial; margin: 0;">Rexburg, ID 83460</p>
+</div>
+</div>
+<div style="margin: 0; padding: 0 8px 8px 8px; width: 170px; height: 60px; float: left;"><img alt="Phone" src="Images/Admin_Offices/Financial Aid/1312918476_Telephone.png" style="margin: 0 5px 0 0; float: left;" title="Phone" width="50" />
+<div style="float: left;"><span style="font-size: 14px; font-weight: bold;">Phone</span>
+<p style="font-family: Arial; margin: 0;">(208) 496-1600</p>
+</div>
+</div>
+<div style="margin: 0; padding: 0 8px 8px 8px; width: 235px; height: 55px; float: left;"><img alt="Laptop" src="Images/Admin_Offices/Financial Aid/1312918536_Computer.png" style="margin: 0 5px 0 0; float: left;" title="Email" width="50" />
+<div style="float: left;"><span style="font-size: 14px; font-weight: bold;">Email</span>
+<p style="font-family: Arial; margin: 0;">financialaid@byui.edu</p>
+</div>
+</div>
+<div style="margin: 0; padding: 0 8px 8px 8px; width: 170px; height: 55px; float: left;"><img alt="Fax" src="Images/Admin_Offices/Financial Aid/1312918465_Printer and Fax.png" style="margin: 0 5px 0 0; float: left;" title="Fax" width="50" />
+<div style="float: left;"><span style="font-size: 14px; font-weight: bold;">Fax</span>
+<p style="font-family: Arial; margin: 0;">(208) 496-6711</p>
+</div>
+</div>
+</div>]]></BodyCopy><xPower Type="Component" Component="x18466" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x18206" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

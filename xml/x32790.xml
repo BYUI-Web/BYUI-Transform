@@ -1,0 +1,205 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.82 - http://www.ingeniux.com ***-->
+<PolicyPage ID="x32790" Name="Petitions" Layout="general_Policy.xsl"><Title type="string" label="Policy Title" readonly="false" hidden="false" required="true">Petitions</Title><Abstract type="string" label="Policy Abstract" readonly="false" hidden="false" required="true">Petitions and requests for the adjustment of financial aid awards need to be conducted under the recommendation and consultation of a student's Financial Aid Counselor. Students may contact their Financial Aid Counselor with any questions or concerns regarding the procedures of these requests.</Abstract><Date type="date" label="Revision Date" readonly="false" hidden="false" required="true" display="localdateshort" UTC="true">20130823T18:00:00</Date><BodyCopy type="dhtml" label="Policy" readonly="false" hidden="false" required="false"><![CDATA[<p>
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40754833-1', 'byui.edu');
+  ga('send', 'pageview');
+</script>
+</p>
+<p>
+<script language="javascript" type="text/javascript">
+var fa_slideSpeed = 15;	// Higher value = faster
+var fa_timer = 2;	// Lower value = faster
+
+var objectIdToSlideDown = false;
+var fa_activeId = false;
+var fa_slideInProgress = false;
+var fa_slideInProgress = false;
+var fa_expandMultiple = false; // true if you want to be able to have multiple items expanded at the same time.
+
+function showHideContent(e,inputId)
+{
+	if(fa_slideInProgress)return;
+	fa_slideInProgress = true;
+	if(!inputId)inputId = this.id;
+	inputId = inputId + '';
+	var numericId = inputId.replace(/[^0-9]/g,'');
+	var answerDiv = document.getElementById('fa_a' + numericId);
+
+	objectIdToSlideDown = false;
+
+	if(!answerDiv.style.display || answerDiv.style.display=='none'){
+		if(fa_activeId &&  fa_activeId!=numericId && !fa_expandMultiple){
+			objectIdToSlideDown = numericId;
+			slideContent(fa_activeId,(fa_slideSpeed*-1));
+		}else{
+
+			answerDiv.style.display='block';
+			answerDiv.style.visibility = 'visible';
+
+			slideContent(numericId,fa_slideSpeed);
+		}
+	}else{
+		slideContent(numericId,(fa_slideSpeed*-1));
+		fa_activeId = false;
+	}
+}
+
+function slideContent(inputId,direction)
+{
+
+	var obj =document.getElementById('fa_a' + inputId);
+	var contentObj = document.getElementById('fa_ac' + inputId);
+	height = obj.clientHeight;
+	if(height==0)height = obj.offsetHeight;
+	height = height + direction;
+	rerunFunction = true;
+	if(height>contentObj.offsetHeight){
+		height = contentObj.offsetHeight;
+		rerunFunction = false;
+	}
+	if(height<=1){
+		height = 1;
+		rerunFunction = false;
+	}
+
+	obj.style.height = height + 'px';
+	var topPos = height - contentObj.offsetHeight;
+	if(topPos>0)topPos=0;
+	contentObj.style.top = topPos + 'px';
+	if(rerunFunction){
+		setTimeout('slideContent(' + inputId + ',' + direction + ')',fa_timer);
+	}else{
+		if(height<=1){
+			obj.style.display='none';
+			if(objectIdToSlideDown && objectIdToSlideDown!=inputId){
+				document.getElementById('fa_a' + objectIdToSlideDown).style.display='block';
+				document.getElementById('fa_a' + objectIdToSlideDown).style.visibility='visible';
+				slideContent(objectIdToSlideDown,fa_slideSpeed);
+			}else{
+				fa_slideInProgress = false;
+			}
+		}else{
+			fa_activeId = inputId;
+			fa_slideInProgress = false;
+		}
+	}
+}
+
+
+
+function initShowHideDivs()
+{
+	var divs = document.getElementsByTagName('DIV');
+	var divCounter = 1;
+	for(var no=0;no<divs.length;no++){
+		if(divs[no].className=='fa_question'){
+			divs[no].onclick = showHideContent;
+			divs[no].id = 'fa_q'+divCounter;
+			var answer = divs[no].nextSibling;
+			while(answer && answer.tagName!='DIV'){
+				answer = answer.nextSibling;
+			}
+			answer.id = 'fa_a'+divCounter;
+			contentDiv = answer.getElementsByTagName('DIV')[0];
+			contentDiv.style.top = 0 - contentDiv.offsetHeight + 'px';
+			contentDiv.className='fa_answer_content';
+			contentDiv.id = 'fa_ac' + divCounter;
+			answer.style.display='none';
+			answer.style.height='1px';
+			divCounter++;
+		}
+	}
+}
+window.onload = initShowHideDivs;
+</script>
+</p>
+<style type="text/css"><!--
+/* CSS styles for the Show/Hide functionality. */
+
+.fa_question{
+        overflow:hidden;
+	cursor:pointer;
+        background-color: #f0f0f0;
+        color: #666;
+        padding: 10px;
+        border: 1px solid #000;
+        -webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+}
+.fa_question:hover{
+        background-color: #fcc35a;
+}
+.fa_answer{
+        visibility:hidden;
+	height:0px;
+	overflow:hidden;
+	position:relative;
+}
+.fa_answer_content{	/* Content that is slided down */
+        margin-top: 10px;
+	padding:1px;
+	font-size:1em;
+	position:relative;
+}
+
+.h1 {font-family: futura, arial, sans-serif; font-size: 2em; color: #000}
+.h2 {font-family: futura, arial, sans-serif; font-size: 1.75em; color: #000;}
+.h3 {font-family: futura, arial, sans-serif; font-size: 1.5em; color: #000;}
+.h4 {font-family: futura, arial, sans-serif; font-size: 1.3em; margin-left: 15px;}
+.h5 {font-family: futura, arial, sans-serif; font-size: 1em; margin-left: 12px;}
+
+#table_futura th{
+     color:#F8F8F8;
+     background-color: #333;   
+     font-family: futura, arial, sans-serif;
+     font-size: medium;
+     font-weight: normal;
+}
+#table_futura ul{
+     margin-left: 5px;
+}
+#table_futura td{
+     color:#000;
+}
+ul {margin-left:30px;}
+--></style>
+<p>Petitions and requests for the adjustment of financial aid awards need to be conducted under the recommendation and consultation of a student's <a href="x93320.xml" title="Link to Contact Information">Financial Aid Counselor</a>. Students may contact their Financial Aid Counselor with any questions or concerns regarding the procedures of these requests.</p>
+<p>These forms are only to be completed and submitted with consultation and recommendation from a student's <a href="x93320.xml" title="Link to Contact Information">Financial Aid Counselor</a>:</p>
+<div class="fa_question"><span class="h4">Petition for Satisfactory Academic Progress</span></div>
+<div class="fa_answer">
+<div>
+<p>Petition requesting an exception to the BYU-Idaho <a href="x40183.xml" title="Link to the Satisfactory Academic Progress policy page"> Satisfactory Academic Progress</a> Standards. Students failing to meet GPA requirements, earning 67% of cumulative attempted credits, or exceeding the allowable credit limit may complete this petition under the guidance of a Financial Aid Counselor.</p>
+</div>
+</div>
+<div class="fa_question"><span class="h4">Petition for Special Circumstances</span></div>
+<div class="fa_answer">
+<div>
+<p>Petition requesting an adjustment to a student's FAFSA Estimated Family Contribution (EFC determines a student's financial need score). If a student's household income has decreased or certain special circumstances/incidents were not taken into account on the FAFSA, this petition may be submitted to request a re-evaluation. Other criteria may apply.</p>
+</div>
+</div>
+<div class="fa_question"><span class="h4">Petition for Independent Status</span></div>
+<div class="fa_answer">
+<div>
+<p>Petition requesting to be considered and evaluated as an independent student on a FAFSA. Students are considered a dependent until the year they turn 24, are serving actively in the military, married or separated (at the time of filing the FAFSA), have dependents of their own (i.e. children), or emancipated as a minor. This petition requests an exception to be considered an independent student due to unusual circumstances, such as:</p>
+<p>- Total estrangement from parents</p>
+<p>- Abuse in the home</p>
+<p>- Other special circumstances as determined by the committee</p>
+<p>- Each of these cases requires documentation and evidence. The unwillingness of a parent to provide support or the choice of a student not to accept support are unacceptable reasons to make this request.</p>
+</div>
+</div>
+<div class="fa_question"><span class="h4">Petition for Financial Aid Determination Date</span></div>
+<div class="fa_answer">
+<div>
+<p>Petition requesting for an exception to the semester's <a href="http://www.byui.edu/financial-aid/policies/financial-aid-determination-date" title="Link to the Financial Aid Determination Date policy page"> Financial Aid Determination Date</a>(FADD). Students who were unable to register, enroll, or add a class(s) before the FADD due to circumstances beyond his/her control. Typically, students who were attending a class(s) but due to the class's capacity were unable to officially add the class until after the FADD would submit this petition.</p>
+<p>- Student must be attending requested classes on or before census date as documented by the teacher(s).</p>
+<p>- Student must prove and document that enrollment was beyond his/her control. Unaware or ignorance of FADD is not a reason for consideration.</p>
+<p>- Internships are not eligible for review or consideration for this petition.</p>
+<p>- Visit the <a href="x40664.xml" title="Link to the Financial Aid Forms index">Financial Aid Forms</a> page to access these petitions and forms.</p>
+<hr /></div>
+</div>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="Policy" label="Policy" readonly="false" hidden="false" required="false" CompTypes="PolicyNavigationComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="true"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">true</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x18206" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></PolicyPage>

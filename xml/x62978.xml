@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<Content ID="x62978" Name="TB FAQs" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">TB FAQs</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">TB FAQs</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<p><link href="Documents/health-center/topper.css" rel="stylesheet" /> <link href="Documents/health-center/css/layout.css" rel="stylesheet" /></p>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+<script src="Documents/health-center/faqs1.js" type="text/javascript"></script>
+<style><!--
+body #content_zone #faqs .faq
+{
+border-color: #FF9900;
+}
+body #content_zone #faqs .faq .faqTitle 
+{
+border-color: #FF9900;
+}
+body #content_zone #faqs .faq .faqBody 
+{
+border-color: #FF9900;
+}
+#content_zone #faqs .faq .clickTitle {
+	background-color: #FF9900;
+	color: #ffffff;
+}
+
+body #videoWindow h4 {
+        border-bottom: 1px solid #FF9900;
+      }
+
+   body #content_zone .titlehead {    
+      border-bottom: solid thin #FF9900;
+   }
+
+   body #content_zone .comment {    
+      color: #FF9900;
+      font-weight: bold;
+   }
+
+   body #content_zone #frame .icons {
+      background-position: -300px  -150px;
+   }
+#content_zone #faqs .arrow
+ {
+background-image: url("http://www.byui.edu/Images/health-center/icons/arrow_TB.png");
+}
+--></style>
+<div id="content_zone">
+<div id="topper">
+<div class="titlehead">TB FAQs</div>
+<div id="frame">
+<div class="icons"></div>
+<div class="shadow"></div>
+</div>
+</div>
+<div id="topsec">
+<ul id="faqs">
+<li>
+<div class="arrow"></div>
+<div class="faq">
+<div class="faqTitle">Where do I send my TB results?</div>
+<div class="faqBody">There are a number of ways you can submit your TB test results. <br /> Bring them in physically and hand them to the Public Health Coordinator at the Student Health Center <br /> Fax them to (208) 496-9343<br />  Email them to <a href="mailto:healthcenterpublichealth@byui.edu">healthcenterpublichealth@byui.edu</a> <br />  Mail them to:<br /> BYU-Idaho Student Health Center/ TB screening<br /> 100 Student Health Center <br />Rexburg, ID 83460-2010<br /><br /> We cannot completely remove the hold until we get a copy of these results, so plan accordingly.</div>
+</div>
+</li>
+<li>
+<div class="arrow"></div>
+<div class="faq">
+<div class="faqTitle">What happens if I have a positive TB skin test?</div>
+<div class="faqBody">If you have tested positive, it does not mean you have TB. This just means we will need to do further testing. The first step is to have you take a T-Spot blood test, which determines if there is Latent TB in your body. If this comes out positive, we will have you meet with a provider who can work with you on what to do next.</div>
+</div>
+</li>
+<li>
+<div class="arrow"></div>
+<div class="faq">
+<div class="faqTitle">My roommate had a positive TB skin test, am I OK or do I need to get tested too?</div>
+<div class="faqBody">If someone tested positive on the TB skin test, their roommates don&rsquo;t need to come in and get a skin test performed. However, if your roommate is determined to have Tuberculosis after further testing, the patients roommates should come in to have a symptoms review with a provider.</div>
+</div>
+</li>
+<li>
+<div class="arrow"></div>
+<div class="faq">
+<div class="faqTitle">Why do I need a TB test if I served a mission in the States?</div>
+<div class="faqBody">The Church has now specified every mission, stateside and foreign, to be high risk for TB because of the high volume of international missionaries and the diversity of people they encounter. All missionaries upon returning from the mission need to have a TB test. We cannot accept TB tests from before your mission.</div>
+</div>
+</li>
+<li>
+<div class="arrow"></div>
+<div class="faq">
+<div class="faqTitle">What are my treatment options for TB?</div>
+<div class="faqBody">If you have Latent TB, you need to take medicine to prevent TB developing into active TB. Both the provider and the patient will decide which treatment is best. One treatment for Latent TB is Isoniazid. This medicine is taken for 6 to 9 months and must be completed or else the patient will need to start whole process over again. If you have Active TB, there are several medicines that patients can take. The most common medicines used to treat are Isoniazid, Rifampin, Ethambutol, or Pyrazinamide.</div>
+</div>
+</li>
+<li>
+<div class="arrow"></div>
+<div class="faq">
+<div class="faqTitle">I am only taking on-line classes so why do I need to get a TB test done now?</div>
+<div class="faqBody">If students are taking online classes away from campus, they do not need to have a TB skin test done immediately. If, for any reason, they decide to come back to campus and continue classes, they must get a TB test administered upon their return.</div>
+</div>
+</li>
+<li>
+<div class="arrow"></div>
+<div class="faq">
+<div class="faqTitle">I accidentally hit yes on one of the questions on the TB questionnaire and now have a hold on my account. Can it be removed?</div>
+<div class="faqBody">Yes, we can remove the hold after we have re-asked the survey questions to you to be sure the flag was an accident, but you need to read the questionnaire carefully so you aren&rsquo;t answering questions incorrectly.</div>
+</div>
+</li>
+<li>
+<div class="arrow"></div>
+<div class="faq">
+<div class="faqTitle">Do I need to have a skin test yearly if I have tested positive before?</div>
+<div class="faqBody">No, you don&rsquo;t. If you have tested positive previously for TB skin test then you need to schedule a time to go the lab and have a T-Spot blood test performed to determine if you are infected with the TB bacteria..</div>
+</div>
+</li>
+<li>
+<div class="arrow"></div>
+<div class="faq">
+<div class="faqTitle">I&rsquo;m pregnant - can I still have a TB test?</div>
+<div class="faqBody">If you are pregnant, we cannot administer the TB skin test, but we can still do a T-spot blood test. Be sure to ask specifically for a T-spot.</div>
+</div>
+</li>
+<li>
+<div class="arrow"></div>
+<div class="faq">
+<div class="faqTitle">I had the skin test done at another clinic and it came out positive, so they made me do a chest x-ray. Can I just send those results?</div>
+<div class="faqBody">Unfortunately, we cannot accept the chest x-ray as a truly negative result. Chest x-rays can only detect active TB, they cannot show latent TB. If you have a positive skin test, we will need you to get a T-spot test done so we can test for latent TB. In our practice, the x-ray comes only after having a positive T-spot test.</div>
+</div>
+</li>
+<li>
+<div class="arrow"></div>
+<div class="faq">
+<div class="faqTitle">My child is currently serving a mission but needs to register for classes. Can you remove the hold until they get home and start attending school?</div>
+<div class="faqBody">Yes, we will modify holds for individuals who are currently serving a mission so that they can be registered for classes. The hold will be modified to the date they will be resuming classes.</div>
+</div>
+</li>
+<li>
+<div class="arrow"></div>
+<div class="faq">
+<div class="faqTitle">I had a TB test done in my home country (not U.S. or Canada). Can I send you a copy of the results and get the hold removed from my account?</div>
+<div class="faqBody">We are able to remove holds as long as we receive documentation that students have tested negative on the TB test once they have arrived in the U.S.</div>
+</div>
+</li>
+<li>
+<div class="arrow"></div>
+<div class="faq">
+<div class="faqTitle">What if I have had the BCG vaccine?</div>
+<div class="faqBody">Just because you have received a TB vaccine called BCG it doesn't mean you are automatically immune. There is still a chance you can get TB. If you have been given the BCG vaccine, you should still receive a TB skin test like everyone else.</div>
+</div>
+</li>
+<li>
+<div class="arrow"></div>
+<div class="faq">
+<div class="faqTitle">Why do I have to have this done? I&rsquo;ve been on campus for 3 years. Why all of the sudden do I have to get this done?</div>
+<div class="faqBody">This policy regarding TB is fairly new and the computer system has changed over the last few years. You could have been missed previously because the TB testing programs a few years ago were only targeted at incoming freshman but now the TB program is targeting every student on campus. It could also have been a glitch in the system that caused it to not catch you previously and that could be why you need it done now.</div>
+</div>
+</li>
+</ul>
+<script src="Documents/health-center/faqs2.js" type="text/javascript"></script>
+<p><iframe frameborder="0" height="240" id="footer" scrolling="no" src="Documents/health-center/footer.html" width="320"></iframe></p>
+</div>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x28441" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

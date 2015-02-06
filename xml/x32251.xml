@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.82 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x32251" Name="Scheduling" Layout="general_content.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Scheduling Your Time</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Scheduling Your Time from the BYU-Idaho Counseling Center</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<h4 style="margin-bottom: 20px;">HOW TO USE A WEEKLY TIME SCHEDULE</h4>
+<h5><strong><span style="text-decoration: underline;">Schedule your fixed time commitments first.</span> </strong></h5>
+<p>This should  be done at the beginning of each week.  Fixed time commitments include  such things as church, classes, employment, scheduled meetings and  appointments, etc.</p>
+<h5><strong><span style="text-decoration: underline;">Make a "To-Do" list</span>. </strong></h5>
+<p>This is also done at the beginning of the week but will change as the week progresses.</p>
+<ul>
+<li>First, list your priorities, including any exams, projects, or  assignments that are either due or need your attention during the week.</li>
+<li>Then, number each priority according to its importance.</li>
+<li>Finally, handle priority changes by crossing off completed activities and re-ranking new priorities each day.</li>
+</ul>
+<h5><strong><span style="text-decoration: underline;">Schedule your flexible time commitments</span>. </strong></h5>
+<p>These include studying, eating, grooming, recreation and hobbies, sleeping, etc.</p>
+<ul>
+<li>Allow enough study time for each class.  A good rule of thumb is to  begin by planning two hours of study for each hour of class; later,  adjust this according to your experience with the class.</li>
+<li>Set a fixed time and place to study for each class.  Your study  hours should be regular.  Schedule these regular study hours at the  beginning of the week.  Develop habits of regularity in following your  schedule.</li>
+<li>Schedule the other flexible time commitments daily.  As you do  this, consider priorities for the week.  Adjust your next day's schedule  where needed.  However, since a regular study schedule is more  efficient than a hit-and-miss study strategy, you should not shift study  time except to meet serious emergencies.</li>
+<li>A few hours each week should be set aside as miscellaneous time to  trade for time "borrowed" for handling emergencies or the unexpected.   When it is time for a new activity, move to it.  Save what you are doing  until the next scheduled time or, if necessary, complete it during your  miscellaneous time.  Plan to make up any study time you may have  "borrowed" to meet emergencies.  Don't let it be permanently lost.</li>
+</ul>
+<h5><strong><span style="text-decoration: underline;">Spend time each night to review and plan for the next day</span>. </strong></h5>
+<p>The schedule is designed to serve you; make it flexible!</p>
+<h4 style="margin-bottom: 20px;">HINTS FOR BUDGETING STUDY TIME</h4>
+<h5>Based on It's About Time for Students, by Anthony G. Hall and Wayne R. Herli</h5>
+<ul>
+<li>Study is more efficient just before or just after class. One hour  of study immediately after class is worth two hours a few days later.</li>
+<li>Vary the topics you study. Switch to another subject after two hours on one subject.</li>
+<li>Utilize odd hours for study. Those scattered one- or two-hour free  periods between classes are easily wasted. Use them for reading and  study.</li>
+<li>Plan unscheduled time to allow for unexpected assignments, tests, or other changes in your weekly plan.</li>
+<li>Plan to take a 5-10 minute break for each hour of study. Get up, stretch, get a drink of water, etc.</li>
+</ul>
+<p><strong>Remember, if you can't follow your own schedule, you only rob  yourself of that which you claim you want.  You are not a slave to your  schedule; rather, it is your slave to help you obtain what you want.  We  are the products of the way we have spent our time.</strong></p>
+<br />]]></BodyCopy><xPower Type="Component" Component="x24495" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x17637" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

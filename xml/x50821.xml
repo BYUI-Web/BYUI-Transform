@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<Content ID="x50821" Name="Eligibility" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Eligibility</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Eligibility</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<!-- insert inline CSS styles here -->
+<style type="text/css"><!--
+DIV.content li {
+			 margin-left: 10px;
+	}
+   
+   DIV.content p {
+          font-size: 13px;
+   }
+
+	DIV.content h2 {
+			color: #3E77B5; font-size: 16px;
+	}
+   
+   DIV.content A.links {
+          color: black; font-size: 20px; font-weight: bold; font-family: Arial;
+   }
+   
+   DIV.content span {
+          font-weight: bold;
+   }
+--></style>
+<!--contents-->
+<div class="content">
+<h2>Establishing Eligibility for Services</h2>
+<p>BYU-Idaho is committed to ensuring access to educational opportunities to students with disabilities. The first step in the eligibility process is to submit documentation of disability to the Disability Service Center. BYU-I must assure that the documentation provided establishes both the individual as a person with a disability and provides a rationale for reasonable accommodations. The responsibility and cost of obtaining documentation is borne by the student with a disability. If the initial documentation is incomplete or inadequate to determine the extent of the disability and reasonable accommodations, BYU-I will require the student to provide additional documentation at the student's expense. Professional staff at the Disability Service Center determines whether an individual has provided sufficient documentation of disability to be eligible for services. Pending receipt of documentation, the BYU-I reserves the right to provide interim services or to deny services. Listed below are generic guidelines on what constitutes adequate documentation.<br /><br /> The IEP, 504 Plan, or Summary of Performance (SOP) received from the student's high school is not sufficient to establish disability. The <span>Psychological Report</span> is the document that is required. The testing and report should be current within the last 2 years.<br /><br /> Typical <span>Psychological Report</span> documentation requirements:</p>
+<ul>
+<ul>
+<li><span>Must come from a licensed professional</span> (unrelated to the individual being evaluated) who is trained in the appropriate specialty area. There must be a good match between the credentials of the individual making the diagnosis and the condition being reported (e.g., an orthopedic limitation might be documented by a physician, but not a licensed psychologist). Documentation that presents any questions as to authenticity will be followed up with a consultation to verify information (e.g., hand-written letters.) Documentation must be dated, on letterhead, and signed by the evaluator. Diagnosis from physician assistants and nurse practitioners must be approved and countersigned by their supervising physician. Documentation on prescription pads will not be accepted.</li>
+</ul>
+</ul>
+<br />
+<ul>
+<ul>
+<li><span>Must include a description of the diagnostic criteria</span> or the diagnostic tests used. This description should include the specific results of the diagnostic procedures. Diagnostic methods used should be congruent with current professional diagnostic practices within the field. Informal, or non-standardized evaluations should be described in enough detail that professional colleagues could understand their role and significance in the diagnostic process.</li>
+</ul>
+</ul>
+<br />
+<ul>
+<ul>
+<li><span>Must include both a clear diagnostic statement and an explanation of the current manifestations</span> or functional limitations of the condition. It should be thorough enough to demonstrate whether or not a major life activity is substantially limited. It should also provide a description of the expected progression or stability of the disability. Please describe the impact of this student's disability on his/her ability to perform in-class or lab work, the impact on tasks including but not limited to: paying attention to lecture, taking notes, responding to oral or written questions, participating in group work, and following instructions.</li>
+</ul>
+</ul>
+<br />
+<ul>
+<ul>
+<li><span>OLess than three years old in most cases.</span> However, discretion may be used in accepting documentation of conditions that are permanent or non-varying (e.g., a sensory disability). Likewise, some chronic and/or changing conditions will warrant more current documentation and/or more frequent updates in order to provide an accurate picture of functioning.</li>
+</ul>
+</ul>
+<ul>
+<ul>
+<li>Should include information regarding <span>the impact of the disability condition on major life activities</span> (i.e., walking, talking, learning, working, seeing, hearing) including the impact of medications, other treatments and the concomitant side effects.</li>
+</ul>
+</ul>
+</div>
+<!--contents end-->]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x25860" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

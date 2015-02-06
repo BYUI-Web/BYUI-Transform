@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x62413" Name="Veteran Benefits" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Veteran Benefits</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">VA benefits for servicemen, dependents, survivors, and family members</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="true" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false">Veteran Benefit | Financial Aid</BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false">Veteran benefit services, veteran affairs, tuition assistance, and other military related benefits landing page</MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<script language="javascript" type="text/javascript">
+function showHide(shID) {
+   if (document.getElementById(shID)) {
+      if (document.getElementById(shID+'-show').style.display != 'none') {
+         document.getElementById(shID+'-show').style.display = 'none';
+         document.getElementById(shID).style.display = 'block';
+      }
+      else {
+         document.getElementById(shID+'-show').style.display = 'inline';
+         document.getElementById(shID).style.display = 'none';
+      }
+   }
+}
+</script>
+<style type="text/css"><!--
+/* CSS styles for the Show/Hide functionality. */
+
+.more_container {
+display:none;
+margin:0;
+padding:0;
+}
+.more_content {
+margin: 0 0 0 30px; 
+padding: 8px; 
+border: 1px solid #e6e6e6; 
+box-shadow: 0 0 3px #f0f0f0; 
+background: #fafafa;
+}
+.more_content p, .more_content li {
+font-family:Arial;
+font-size:12px;
+}
+.more_content h4, .more_content h5 {
+margin:0 0 4px 0;
+padding:0;
+text-indent: 0;
+font-family:Arial;
+}
+
+.more_content h4 {
+font-size:14px;
+font-weight:bold;
+}
+
+.more_content h5 {
+font-size:12px;
+font-weight:bold;
+}
+
+.more_content ul {
+margin-left:20px;
+padding:;
+}
+
+.award_level {
+font-size:14px;
+font-weight:bold;
+color:rgb(230,90,30);
+}
+
+/* Containers and Form List UL styles */
+.form_container {
+margin: 0 0 0 30px; 
+padding: 8px; 
+border: 1px solid #e6e6e6; 
+box-shadow: 0 0 3px #f0f0f0;
+background: #fafafa;
+}
+.left {
+float:left;
+width:200px;
+margin-bottom: 5px;
+margin-right: 500px;
+}
+
+.right {
+width:200px;
+margin-bottom: 5px;
+margin-right: 500px;
+}
+
+/* General Styles for Body Elements */
+a {
+font-family: Arial; 
+}
+
+/* Styles for VA CONTACT */
+#vacontact{
+display:inline-block;
+padding: 0 5px;
+margin: 0 0 10px 0;
+width: 100%; 
+height: 60px;
+}
+#vacontact h1{
+font-family:Arial;
+font-size:12px;
+font-weight:bold;
+margin:0 0 4px 0;
+padding:0;
+color:rgb(70,70,70);
+}
+#vacontact p {
+font-family:Arial;
+font-size:10px;
+margin:0;
+padding:0;
+}
+
+/* CSS Style for GUIDE */ 
+.guide ul {
+display:inline-block; 
+padding: 0; 
+margin: 0 0 5px 0; 
+text-align: center;
+width:100%;
+} 
+.guide li { 
+padding: 0; 
+margin: 0; 
+text-align: center; 
+display:inline-block;
+float:left; 
+list-style-type:none; 
+white-space: nowrap; 
+}
+.guide_container {
+margin:0 200px 15px 0;
+padding:0;
+width:100%;
+display:inline-block;
+}
+
+/* CSS styles for the FOOTER Contact information */
+#contact{
+display:inline-block;
+padding: 0 5px;
+margin: 0 0 10px 0;
+width: 100%; 
+height: 100px;
+}
+#contact h1{
+font-family:Arial;
+font-size:12px;
+font-weight:bold;
+margin:0 0 4px 0;
+padding:0;
+color:rgb(70,70,70);
+}
+#contact p {
+font-family:Arial;
+font-size:10px;
+margin:0;
+padding:0;
+}
+#contact_hr {
+margin-bottom:10px;
+}
+.left1 {
+float:left;
+margin:0 5px 0 0;
+padding:0;
+}
+.office_hours {
+margin: 0; 
+padding: 0; 
+width: 140px; 
+height: 100px; 
+float: left;
+}
+.middle {
+margin: 0; 
+padding: 0 5px 5px 5px; 
+width: 200px; 
+height: 50px; 
+float: left;
+}
+.phone {
+margin: 0; 
+padding: 0 5px 5px 5px; 
+width: 150px; 
+height: 50px; 
+float: left;
+}
+--></style>
+<div id="vacontact">
+<div class="middle left office_hours">
+<h1>Contacting VA Benefit Services</h1>
+<p>Contact a VA Coordinator by phone or email. Visits are handled by an appointment basis.</p>
+</div>
+<div class="phone"><img alt="Phone" class="left1" src="Images/Admin_Offices/Financial Aid/1312918476_Telephone.png" title="Phone" width="30" />
+<div class="left1">
+<h1>Phone</h1>
+<p>(208) 496-1609</p>
+</div>
+</div>
+<div class="middle"><img alt="Laptop" class="left1" src="Images/Admin_Offices/Financial Aid/1312918536_Computer.png" title="Email" width="30" />
+<div class="left1">
+<h1>Email</h1>
+<p>vabenefits@byui.edu</p>
+</div>
+</div>
+</div>
+<!-- End of #vacontact --> 
+<hr id="contact_hr" />
+<img alt="Seal of the US Department of Veteran Affairs and US Department of Defense" src="Images/Admin_Offices/Financial Aid/va_dod_logo.png" style="margin: 0 0 5px 5px; float: right;" title="Seal of the US Department of Veteran Affairs and US Department of Defense" width="250" />
+<h1>Welcome to Veteran Benefits</h1>
+<p>Veteran benefits are financial aid funds available to students who are actively serving in the military, students who are serving in the Reserves or National Guard, and dependents or survivors of disabled or deceased veterans. These benefits commonly come from the US Department of Veteran Affairs and the US Department of Defense. There are many types of benefits and awards available to veterans. Each type of benefit may have different requirements and criteria.</p>
+<div class="guide_container">
+<ul class="guide">
+<li class="guide" style="margin: 0px 4px 0px 0px;"><a href="x39856.xml" title="Link to GI Bills"><img alt="GI Bills" src="Images/Admin_Offices/Financial Aid/Box Links/gibill_navbox.jpg" /></a></li>
+<li class="guide" style="margin: 0px 4px;"><a href="x40812.xml" title="Link to VA FAQ"><img alt="GI Bills" src="Images/Admin_Offices/Financial Aid/Box Links/va_faq_navbox.jpg" /></a></li>
+<li class="guide" style="margin: 0px 4px;"><a href="x39860.xml" title="Link to Other VA Resources"><img alt="GI Bills" src="Images/Admin_Offices/Financial Aid/Box Links/va_other_navbox.jpg" /></a></li>
+</ul>
+</div>
+<!-- End of #guide_container -->
+<h1>Disbursement of VA Benefits</h1>
+<p>Disbursement of veteran benefit awards usually will not occur until at least a month after the start of a semester. Many VA awards take up to two months after the start of the semester to disburse. This estimate is regardless of how early the student completed the requirements for the award.</p>
+<h2>VA Forms</h2>
+<p>These forms are only to be completed and submitted with consultation and recommendation from the VA Benefits Coordinator. Contact the VA Benefits Coordinator with any questions or concerns regarding these forms.</p>
+<div class="form_container left">
+<h3>2012-2013 Forms</h3>
+<ul style="font-size: 12px;">
+<li><a href="Documents/Admin_Offices/Financial Aid/va/Revised Class Certification Form 2012.pdf">VA Class Certification</a></li>
+</ul>
+</div>
+<h2>Late fees</h2>
+<p>BYU-Idaho is flexible with waiving late fees for students who are eligible for the Post 9/11 - Chapter 33 GI Bill. The <a href="http://www.byui.edu/financial-services" title="Link to the Financial Services page">Bursars Office</a> maintains a list (supplied by VA Coordinators at the Financial Aid Office) of eligible students awaiting Chapter 33 GI Bill benefits. Despite if a student has waived late fees, the late fee charge will still display on a student's <a href="https://dep.byui.edu/PersonalAccounts/AccountInfo/personalAccounts.aspx" title="Link to Personal Account Summary">Personal Account Summary</a> until the VA Benefit is released and covers the charges.</p>
+<div id="contact">
+<hr id="contact_hr" />
+<div class="office_hours"><img alt="Office Hours" class="left1" src="Images/Admin_Offices/Financial Aid/1312918545_Clock-Time.png" title="Office hours" width="30" />
+<div class="left1">
+<h1>Office Hours</h1>
+<p>Monday - Friday</p>
+<p>8am - 5pm</p>
+</div>
+<div style="margin: 8px 13px 0 0; float: right;"></div>
+</div>
+<div class="middle"><img alt="Office Mailing Address" class="left1" src="Images/Admin_Offices/Financial Aid/1312918507_Mail -2.png" title="Address" width="30" />
+<div class="left1">
+<h1>Address</h1>
+<p>100 Kimball Building 1610</p>
+<p>Rexburg, ID 83460</p>
+</div>
+</div>
+<div class="phone"><img alt="Phone" class="left1" src="Images/Admin_Offices/Financial Aid/1312918476_Telephone.png" title="Phone" width="30" />
+<div class="left1">
+<h1>Phone</h1>
+<p>(208) 496-1600</p>
+</div>
+</div>
+<div class="chat"><img alt="Live Chat" class="left1" src="Images/Admin_Offices/Financial Aid/chat_icon.png" title="Live Chat" width="30" />
+<div class="left1">
+<h1><a href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=Financial%20Aid">Live Chat</a></h1>
+<p>with Financial Aid</p>
+</div>
+</div>
+<div class="middle"><img alt="Laptop" class="left1" src="Images/Admin_Offices/Financial Aid/1312918536_Computer.png" title="Email" width="30" />
+<div class="left1">
+<h1>Email</h1>
+<p>financialaid@byui.edu</p>
+</div>
+</div>
+<div class="phone"><img alt="Fax" class="left1" src="Images/Admin_Offices/Financial Aid/1312918465_Printer and Fax.png" title="Fax" width="30" />
+<div class="left1">
+<h1>Fax</h1>
+<p>(208) 496-6711</p>
+</div>
+</div>
+<div class="facebook"><img alt="Facebook" class="left1" src="Images/Admin_Offices/Financial Aid/facebook_icon.png" title="Facebook" width="30" />
+<div class="left1">
+<h1><a href="http://www.facebook.com/BYUIFinancialAid">Facebook</a></h1>
+<p>page of the Financial Aid Office</p>
+</div>
+</div>
+</div>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/><!--071613 xpowercomponent_Optional to xPower--></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="x40184" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="x40325" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="x40329" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="x18466" CompTypes="HighlightedLinksComponent"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x18206" CompTypes="SiteControl"/></Content>

@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<Content ID="x51248" Name="TB FAQs" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">TB FAQs</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">TB FAQs</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<div id="headblock">
+<div id="content_header">
+<div class="icons"></div>
+<div class="titlehead">TB FAQs</div>
+<div class="subhead"></div>
+</div>
+</div>
+<style><!--
+#content_header .icons{background-position: 600px -100px !important;}.accordioncontainer{height: 700px;}
+--></style>
+<script type="text/javascript">
+var ContentHeight = 300;var TimeToSlide = 300.0;var openAccordion = '';function runAccordion(index){  var nID = "Accordion" + index + "Content";  if(openAccordion == nID)    nID = '';  setTimeout("animate(" + new Date().getTime() + "," + TimeToSlide + ",'"       + openAccordion + "','" + nID + "')", 33);  openAccordion = nID;}function animate(lastTick, timeLeft, closingId, openingId){    var curTick = new Date().getTime();  var elapsedTicks = curTick - lastTick;  var opening = (openingId == '') ? null : document.getElementById(openingId);  var closing = (closingId == '') ? null : document.getElementById(closingId);  if(timeLeft <= elapsedTicks)  {    if(opening != null)      opening.style.height = 'auto';    if(closing != null)    {      closing.style.display = 'none';      closing.style.height = '0px';    }    return;  }  timeLeft -= elapsedTicks;  var newClosedHeight = Math.round((timeLeft/TimeToSlide) * ContentHeight);  if(opening != null)  {    if(opening.style.display != 'block')      opening.style.display = 'block';    opening.style.height = (ContentHeight - newClosedHeight) + 'px';  }  if(closing != null)    closing.style.height = newClosedHeight + 'px';  setTimeout("animate(" + curTick + "," + timeLeft + ",'"       + closingId + "','" + openingId + "')", 33);}
+</script>
+<p><link href="documents/health-center/Jquery/simpletb.css" rel="stylesheet" type="text/css" /></p>
+<div class="AccordionContainer" id="AccordionContainer">
+<div onclick="runAccordion(1);">
+<div class="AccordionTitle">&nbsp;where do i send my TB results?</div>
+</div>
+<div class="AccordionContent" id="Accordion1Content"><br />
+<p>There are a number of ways you can submit your TB test results.</p>
+<ul>
+<li>Bring them in physically and hand them to the Public Health Coordinator at the Student Health Center</li>
+<li>Fax them to (208) 496-9343</li>
+<li>Email them to: <a href="mailto:healthcenterpublichealth@byui.edu"> healthcenterpublichealth@byui.edu</a></li>
+<li>Mail them to: BYU-Idaho Student Health Center/ TB screening 100 Student Health Center Rexburg, ID 83460-2010</li>
+</ul>
+<p>We cannot completely remove the hold until we get a copy of these results, so<br />plan accordingly.</p>
+</div>
+<div onclick="runAccordion(2);">
+<div class="AccordionTitle">&nbsp;what happens if i have a positive TB skin test?</div>
+</div>
+<div class="AccordionContent" id="Accordion2Content"><br />
+<p>If you have tested positive, it does not mean you have TB. This just means we will need to <br />do further testing. The first step is to have you take a T-Spot blood test, which determines <br />if there is Latent TB in your body. If this comes out positive, we will have you meet with<br /> a provider who can work with you on what to do next.</p>
+<br /><br /></div>
+<div onclick="runAccordion(3);">
+<div class="AccordionTitle">&nbsp;my roommate had a positive TB skin test, am i ok or do i need to &nbsp;get tested too?</div>
+</div>
+<div class="AccordionContent" id="Accordion3Content"><br /> <br /> If someone tested positive on the TB skin test, their roommates don&rsquo;t need to come in <br />and get a skin test performed. However, if your roommate is determined to have<br /> Tuberculosis after further testing, the patients roommates should come in to have<br /> a symptoms review&nbsp;with a provider. <br /><br /></div>
+<div onclick="runAccordion(4);">
+<div class="AccordionTitle">&nbsp;why do i need a TB test if i served a mission in the states?</div>
+</div>
+<div class="AccordionContent" id="Accordion4Content"><br />
+<p>The Church has now specified every mission, stateside and foreign, to be high risk for<br /> TB because of the high volume of international missionaries and the diversity of people<br /> they encounter. All missionaries upon returning from the mission need to have a TB test.<br /> We cannot accept TB tests from before your mission.</p>
+<br /><br /></div>
+<div onclick="runAccordion(5);">
+<div class="AccordionTitle">&nbsp;what are my treatment options for TB?</div>
+</div>
+<div class="AccordionContent" id="Accordion5Content"><br />If you have Latent TB, you need to take medicine to prevent TB developing into active TB.<br /> Both the provider and the patient will decide which treatment is best. One treatment <br />for Latent TB is Isoniazid. This medicine is taken for 6 to 9 months and must be completed<br /> or else the patient will need to start whole process over again. If you have Active TB, there <br />are several medicines that patients can take. The most common medicines used to treat <br />are Isoniazid, Rifampin, Ethambutol, or Pyrazinamide.<br /><br /></div>
+<div onclick="runAccordion(6);">
+<div class="AccordionTitle">&nbsp;i am only taking on-line classes so why do i need to get a TB &nbsp;test done now?</div>
+</div>
+<div class="AccordionContent" id="Accordion6Content"><br />If students are taking online classes away from campus, they do not need to have a TB<br /> skin test done immediately. If, for any reason, they decide to come back to campus and<br /> continue classes, they must get a TB test administered upon their return.&nbsp;<br /><br /></div>
+<div onclick="runAccordion(7);">
+<div class="AccordionTitle">&nbsp;i accidentally hit yes on one of the questions on the TB &nbsp;questionnaire and now have a hold on my account. can it be &nbsp;removed?</div>
+</div>
+<div class="AccordionContent" id="Accordion7Content"><br /> Yes, we can remove the hold after we have re-asked the survey questions to you to be<br /> sure the flag was an accident, but you need to read the questionnaire carefully so <br />you aren&rsquo;t answering questions incorrectly. <br /><br /></div>
+<div onclick="runAccordion(8);">
+<div class="AccordionTitle">&nbsp;do i need to have a skin test yearly if i have tested positive &nbsp;before?</div>
+</div>
+<div class="AccordionContent" id="Accordion8Content"><br />No, you don&rsquo;t. If you have tested positive previously for TB skin test then you need <br />to schedule a time to go the lab and have a T-Spot blood test performed to determine if you<br /> are infected with the TB bacteria. <br /><br /></div>
+<div onclick="runAccordion(9);">
+<div class="AccordionTitle">&nbsp;i&rsquo;m pregnant - can i still have a TB test?</div>
+</div>
+<div class="AccordionContent" id="Accordion9Content"><br />
+<p>If you are pregnant, we cannot administer the TB skin test, but we can still do a T-spot <br />blood test. Be sure to ask specifically for a T-spot.</p>
+</div>
+<div onclick="runAccordion(10);">
+<div class="AccordionTitle">&nbsp;i had the skin test done at another clinic and it came out positive, &nbsp;so they made me do a chest x-ray. can i just send those &nbsp;results?</div>
+</div>
+<div class="AccordionContent" id="Accordion10Content"><br />
+<p>Unfortunately, we cannot accept the chest x-ray as a truly negative result. Chest x-rays <br />can only detect active TB, they cannot show latent TB. If you have a positive skin test, we<br /> will need you to get a T-spot test done so we can test for latent TB. In our practice, the <br />x-ray comes only after having a positive T-spot test.</p>
+</div>
+<div onclick="runAccordion(11);">
+<div class="AccordionTitle">&nbsp; my child is currently serving a mission but needs to register for &nbsp;classes. can you remove the hold until they get home and start &nbsp;attending school?</div>
+</div>
+<div class="AccordionContent" id="Accordion11Content"><br />
+<ul>
+<li>Yes, we will modify holds for individuals who are currently serving a mission so that they can be registered for classes. The hold will be modified to the date they will be resuming classes.</li>
+</ul>
+</div>
+<div onclick="runAccordion(12);">
+<div class="AccordionTitle">&nbsp;i had a TB test done in my home country (not u.s. or canada). can &nbsp;i send you a copy of the results and get the hold removed from &nbsp;my account?</div>
+</div>
+<div class="AccordionContent" id="Accordion12Content"><br />
+<p>We are able to remove holds as long as we receive documentation that students have<br /> tested negative on the TB test once they have arrived in the U.S.</p>
+</div>
+<div onclick="runAccordion(13);">
+<div class="AccordionTitle">&nbsp;what if i have had the BCG vaccine?</div>
+</div>
+<div class="AccordionContent" id="Accordion13Content"><br />
+<p>Just because you have received a TB vaccine called BCG it doesn't mean you <br />are automatically immune. There is still a chance you can get TB. If you have been given <br />the BCG vaccine, you should still receive a TB skin test like everyone else.</p>
+</div>
+<div onclick="runAccordion(14);">
+<div class="AccordionTitle">&nbsp;why do i have to have this done? i&rsquo;ve been on campus for 3 &nbsp;years. why all of the sudden do i have to get this done?</div>
+<div class="AccordionContent" id="Accordion14Content"><br />
+<p>This policy regarding TB is fairly new and the computer system has changed over the <br />last few years. You could have been missed previously because the TB testing programs a<br /> few years ago were only targeted at incoming freshman but now the TB program is <br />targeting every student on campus. It could also have been a glitch in the system<br /> that caused it to&nbsp;not catch you previously and that could be why you need it done now.</p>
+</div>
+</div>
+</div>
+<p><iframe frameborder="0" height="240" id="footer" scrolling="no" src="Documents/health-center/footer.html" width="100%"></iframe> <link href="Documents/health-center/css/header.css" rel="stylesheet" /> <link href="Documents/health-center/css/body.css" rel="stylesheet" /> <link href="Documents/health-center/css/tb.css" rel="stylesheet" /></p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x28441" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

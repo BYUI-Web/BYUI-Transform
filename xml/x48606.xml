@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x48606" Name="general_audience_static.css" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">general_audience_static.css</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">general_audience_static.css</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">#ie6wrapper 
+body {
+	width: 950px;
+	margin: auto;
+}
+
+ul {
+	padding: 0;
+}
+
+#navigation {
+	padding-bottom: 10px;
+}
+#content_wrapper {
+	width: 1050px;
+	height: 580px;
+}
+
+/*#content_wrapper div {
+   float: left;
+}*/
+
+#control_region h3, #student_life_links h2, #student_resources_links h2 {
+	font-size: 10px;
+	height: 30px;
+	background-image: url('../../images/general_audience/carbon_fiber_blue.jpg');
+	background-repeat: repeat-x;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: white;
+	margin-bottom: 0px;
+	padding-left: 10px;
+	clear: both;
+	margin-top: 0px;
+	letter-spacing: 1px;
+}
+
+#control_region {
+	width: 290px;
+	height:  470px;
+	padding-right: 10px;
+	position: absolute;
+}
+
+#control_region li, #student_life_links li, #student_resources_links li {
+	font-size: 11px;
+	line-height: 20px;
+	text-transform: capitalize;
+}
+
+#control_region ul{
+	list-style-image: url('../../images/common/arrow_bullet.jpg');
+	padding-left: 25px;
+	margin-top: 11px;
+	float: left
+}
+
+#login h3{
+	background-image: url('../../images/general_audience/login.jpg');
+}
+
+#login, .super_link {
+	margin-bottom: 10px;
+	cursor: pointer; /* hand-shaped cursor */
+	width: 320px;
+
+}
+
+.link_expansion_arrow {
+	width: 40px;
+	height: 30px;
+	background-color: #C8C8C8;
+	float: left;
+	background-image: url('../../images/general_audience/down_arrow.png');
+	background-repeat: no-repeat;
+}
+
+.control_box {
+	margin-bottom: 10px;
+	height: 110px;
+	background-color: #C8C8C8;
+	width: 320px;
+}
+
+.super_link {
+	width: 290px;
+	height: 30px;	
+}
+
+
+.super_link h3 {
+	width: 280px;
+	float: left;
+}
+
+#devotional {
+	float: left;
+	padding-right: 10px;
+	height: 180px;
+	width: 320px;
+}
+#upper_content_section {
+	clear: both;
+	float: left;
+	width: 650px;
+	padding-bottom: 10px;
+}
+#lower_content_section {
+	clear: both;
+	float: left;
+	width: 650px;
+}
+#link_overlay{
+   position: relative;
+   left: 330px;
+   width: 100px;
+}
+#link_overlay h2, #close_links {
+    float: left;
+}
+#link_overlay h2 {
+/*    width: 640px*/
+}
+.close_links {
+    background-image: url('../../images/general_audience/close_link_overlay.png');
+	background-repeat: no-repeat;
+    float: right;
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    left: 610px;
+    top: 0px;
+}
+#student_life_links, #student_resources_links {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: none;
+	background-color: #C8C8C8;
+	width: 650px;
+	height: 470px;
+}
+
+.upper div, .lower div {
+	float: left;
+	width: 200px;
+	padding-top: 10px;
+}
+.upper, .lower {
+	float: left;
+}
+
+#student_life_links ul, #student_resources_links ul{
+	list-style-image: url('../../images/common/arrow_bullet.jpg');
+	padding-left: 55px;
+	padding-bottom: 20px;
+	padding-top: 2px;
+}
+#student_life_links h3, #student_resources_links h3 {
+	font-size: 12px;
+	text-transform: uppercase;
+	padding-left: 30px;
+	color: #396B8F;
+}
+
+/* Calendar Highlights box */
+#calendar_highlights {
+	float: left;
+	padding-right: 10px;
+   width: 390px;
+}
+#calendar_highlights img{
+	height: 120px;
+	width: 180px;
+}
+
+#calendar_highlights h2{
+  color: #AB3C79;
+	font-size: 14px;
+	padding: 5px;
+	width: auto;
+}
+
+
+#calendar_highlights p{
+	font-size: 11px;
+}
+
+#list_view
+{
+  background: url(../../images/calendar_highlights/background.png) no-repeat;
+	height: 270px;
+	width: 195px;
+	float: right;
+	clear: left;
+	overflow: hidden;
+}
+
+#list_view h3
+{
+  font-size: 17px;
+  padding: 15px 0 0 25px;
+  position: relative;
+}
+
+#event_list
+{
+	list-style: none;
+	height:  195px;
+}
+
+#event_list li
+{
+	padding: 4px;
+	font-size: 10px;
+	text-indent: 15px;
+	width: 180px;
+}
+
+#event_list li.even
+{
+  background: url(../../images/calendar_highlights/even_bg.png) no-repeat 0 0;
+}
+
+#event_list li.even:hover
+{
+  background: url(../../images/calendar_highlights/even_hover_bg.png) no-repeat 0 0;
+}
+
+#event_list li.odd
+{
+	background: url(../../images/calendar_highlights/odd_bg.png) no-repeat 0 0;
+}
+
+#event_list li.odd:hover
+{
+	background: url(../../images/calendar_highlights/odd_hover_bg.png) no-repeat 0 0;
+}
+
+#event_list li.header
+{
+	background: url(../../images/calendar_highlights/day_background.png) no-repeat 0 0;
+	color: #EFEFEF;
+}
+
+#event_list_scrolling
+{
+	margin-top: 45px;
+	height: 100px;
+}
+
+
+#event_calendar
+{
+	margin-left: 9px;
+}
+
+#event_calendar li
+{
+  margin-left: 10px;
+	display: inline;
+}
+
+#event_calendar li.active
+{
+  color: #AB3C79;
+}
+
+#detail_view
+{
+	height: 270px;
+	width: 195px;
+	float: right;
+}
+
+#location, #date
+{
+	padding: 3px;
+}
+
+/* Rotating Ads box */
+#rotating_ads {
+	height: 270px;
+	width: 250px;
+	float: left;
+}
+#rotating_ads img {
+	height: 270px;
+	width: 250px;
+	position: relative;
+}
+</ESContent></EmptyShell>

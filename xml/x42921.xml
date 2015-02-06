@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<EventsDetail ID="x42921" Name="Lost Found Sale" Layout="byuidefault.xsl"><Title type="string" label="Event Title" readonly="false" hidden="false" required="true">Lost and Found Sale</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Lost and Found Sale - You'll be surprise at what you can find.</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><BodyCopy type="dhtml" label="Event Details" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+    #page{width: 710px; height: auto; min-height: 600px;}
+    #page #header{width: 710px; height: 265px;}
+    #page #content{width: 78%; height: auto; min-height: 300px; float: left; padding: 1%;}
+    #page #content p{padding-left: 5px;}
+    #page #buttons{width: 18%; height: auto; min-height: 300px; float: left; padding: 1%; text-align: center;}
+    #page #buttons div{width: 100px; height: 100px; margin-left: auto; margin-top: 10px; margin-bottom: 20px; background-color: grey;}
+
+    #page #buttons .one{background-image: url('Images/student-support/Ask/live-chat.jpg');}
+    #page #buttons .two{background-image: url('Images/student-support/Ask/bulletin-board.jpg');}
+    #page #buttons .three{background-image: url('Images/student-support/Lost_and_found/lost-and-found-sale.gif');}
+    #page #buttons .four{background-image: url('Images/student-support/Lost_and_found/photos.gif');}
+
+    #page #buttons .one:hover{background-image: url('Images/student-support/Ask/live-chat-dark.jpg');}
+    #page #buttons .two:hover{background-image: url('Images/student-support/Ask/bulletin-board-dark.jpg');}
+    #page #buttons .three:hover{background-image: url('Images/student-support/Lost_and_found/lost-and-found-sale-dark.gif');}
+    #page #buttons .four:hover{background-image: url('Images/student-support/Lost_and_found/photos-dark.gif');}
+--></style>
+<div id="page">
+<div id="content">
+<h1>Lost and Found Sale</h1>
+<p><strong>June 29th </strong><br /><strong>12:00 - 2:00 pm</strong><br /><strong>MC Special Events</strong><br /><strong>Room 387</strong></p>
+<p>You'll be surprised of what you can find!</p>
+<p>The lost and found sale will not accept credit or debit cards, please bring cash or pay with check.</p>
+<p>The lost and found is located in the MC Information Desk, you can   find lost items from last semester, whatever is not claimed two   semesters it was lost it will be put in the lost and found sale.</p>
+</div>
+<div id="buttons"><strong> Quick Links: </strong> <a href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=Ask%20BYUI&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large" title="Live Chat">
+<div class="one"></div>
+</a> <a href="http://web.byui.edu/BulletinBoard2/" title="Bulletin Board">
+<div class="two"></div>
+</a> <a href="x42921.xml" title="Lost and Found Sale">
+<div class="three"></div>
+</a> <a href="x43259.xml" title="photos">
+<div class="four"></div>
+</a></div>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="Semesters" label="Available Semesters" readonly="false" hidden="false" required="false" Expanded="false"><AvailableFall type="boolean" label="Available Fall" readonly="false" hidden="false" required="false">false</AvailableFall><AvailableWinter type="boolean" label="Available Winter" readonly="false" hidden="false" required="false">false</AvailableWinter><AvailableSpring type="boolean" label="Available Spring" readonly="false" hidden="false" required="false">false</AvailableSpring><AvailableSummer type="boolean" label="Available Summer" readonly="false" hidden="false" required="false">false</AvailableSummer><xPower Type="List" List="Date" Name="DateElements" label="Dates" readonly="false" hidden="false" required="false" display="localdateshort" Expanded="false"><Date type="date" readonly="false" hidden="false" required="false" display="localdateshort" Expanded="false"></Date></xPower><AdditionalInformation type="dhtml" label="Additional Information" readonly="false" hidden="false" required="false"><![CDATA[]]></AdditionalInformation></xPower><EventImage type="imagefile" label="Event Image" readonly="false" hidden="false" required="true" Width="1275" Height="1650" Alignment="" Border="" Expanded="true" AlternateText="" HSpace="" VSpace="">student-support/Lost_and_found/lost_found_Spring_poster.jpg</EventImage><xPower Type="List" List="Images" Name="Images" label="Gallery Images" readonly="false" hidden="false" required="false" Width="" Border="" Alignment="" Expanded="false" Height=""><Images type="imagefile" readonly="false" hidden="false" required="false" Width="" Border="" Alignment="" Expanded="false" Height=""></Images></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x19075" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></EventsDetail>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x50756" Name="Join the Conversation - Show/Hide" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;script id="jQueryLoad" src="prebuilt/stylenew/js/libs/jquery-1.7.min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript"&gt;// &lt;![CDATA[
+$(document).ready(function(){
+  $("#our-responsibility-button").click(function(){
+    $("#our-responsibility").show();
+    $("#be-heard").hide();
+    $("#be-informed").hide();
+  });
+  $("#be-heard-button").click(function(){
+    $("#our-responsibility").hide();
+    $("#be-heard").show();
+    $("#be-informed").hide();
+  });
+  $("#be-informed-button").click(function(){
+    $("#our-responsibility").hide();
+    $("#be-heard").hide();
+    $("#be-informed").show();
+  });
+
+    $("#be-heard").hide();
+    $("#be-informed").hide();
+});
+// ]]&gt;&lt;/script&gt;</ContentSnippet></ContentSnippet>

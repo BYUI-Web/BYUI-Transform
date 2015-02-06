@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.70 - http://www.ingeniux.com ***-->
+<PolicyPage ID="x62693" Name="General Ledger" Layout="general_Policy.xsl"><Title type="string" label="Policy Title" readonly="false" hidden="false" required="true">General Ledger</Title><Abstract type="string" label="Policy Abstract" readonly="false" hidden="false" required="true">Explanation of the responsibilities of Account Custodians and other authorized employees concerning the General Ledger, the official financial record of the University</Abstract><Date type="date" label="Revision Date" readonly="false" hidden="false" required="true" display="localdateshort" UTC="true">20130206T19:00:00</Date><BodyCopy type="dhtml" label="Policy" readonly="false" hidden="false" required="false"><![CDATA[<h4 style="font-weight: bold;">Policy</h4>
+<p style="font-family: Verdana, Arial, sans-serif;">The General Ledger is the Official Financial Record of the University. Keeping separate financial records in the departments is discouraged; however, if such records are kept, they should be reconciled monthly to the General Ledger. The Account Custodian has stewardship responsibilities for the charges and credits which appear in his account on the General Ledger.</p>
+<p style="font-family: Verdana, Arial, sans-serif;">Account Custodians and other authorized employees have access to the General Ledger through the Monthly Financial Reports at any time on the web at www.byui.edu/financial-services/account-stewardship then select the general ledger financial report link. Details of all entries made into the General Ledger should be reviewed at least monthly by the Account Custodian. If any errors are discovered, the Accounting Office should be notified immediately so that appropriate corrections can be made.</p>
+<h4 style="font-weight: bold;">Procedures</h4>
+<ol style="font-family: Verdana, Arial, sans-serif; padding-left: 15px;">
+<li>After gaining access to the Monthly Financial Report, click on the desired category in the current month column. This will bring up the General Ledger detail of each transaction in the selected category. Previous and next month entries can then be accessed as well. Each entry should be reviewed and compared to supporting documents on file in the department or to the account custodian's open-close file.</li>
+<li>Each transaction is recorded as a 10 digit General Ledger Account Number. For ease of use, this number configuration is xxxx-xx-xxxx. If a ten digit account number does not appear on the custodian's monthly Financial Report, the number does not exist. The Accounting Office should be contacted if the custodian sees a need for an additional number or category
+<ul style="font-family: Verdana, Arial, sans-serif; padding-left: 30px; list-style-type: lower-alpha;">
+<li>The first digit (1xxx-xx-xxxx) identifies the fund:
+<ul style="font-family: Verdana, Arial, sans-serif; padding-left: 45px; list-style-type: none;">
+<li>1 = Appropriated Fund (budgeted funds)</li>
+<li>2 = Auxiliary Fund (self-sustaining activities)</li>
+<li>3 = Student Services Fund (directly related to student activities)</li>
+<li>4 = Designated Restricted Fund</li>
+<li>5 = Restricted Fund</li>
+<li>6 = Endowment Restricted Fund</li>
+<li>7 = Plant Fund (physical facilities)</li>
+<li>8 = Agency Fund (funds not belonging to the University)</li>
+<li>9 = Annuity Fund</li>
+</ul>
+</li>
+<li>The second through fourth digits (x234-xx-xxxx) identify the college or general operational area</li>
+<li>The middle two digits (xxxx-56-xxxx) identify the department or account within the college or operational area</li>
+<li>The last four digits (xxxx-xx-7890) are called Categories. It identifies the cost classification within the account.</li>
+</ul>
+</li>
+<li>The most commonly used campus wide Categories are listed below. There are other standard categories used in specific accounts which are not listed. Also, additional categories can be set up to fit the particular needs of each account. The expenditures are controlled by the custodian of each account. The only restriction is that each expenditure or revenue should be charged to the category which best reflects the nature of the transaction. <strong style="display: inline;">Care should be taken to charge all expenses and revenues to the appropriate category which identifies the transaction rather than to an unrelated category where it appears that budget money is available.</strong>One category can be overspent while another is underspent. It is the bottom line that counts.
+<ul style="font-family: Verdana, Arial, sans-serif; padding-left: 30px; list-style-type: none;">
+<li><strong style="display: inline;">0900</strong> FUND BALANCE - used by funds other than the Appropriated (budgeted) Fund to record net income or loss from previous years.</li>
+<li><strong style="display: inline;">0920</strong> YEAR END-RESULTS of OPERATIONS - used by funds other than the Appropriated (budgeted) Fund to record the net income or loss at the end of the current year.</li>
+<li><strong style="display: inline;">1100</strong> SALES OF GOOD &amp; SUPPLIES - used only for revenues as described.</li>
+<li><strong>103x</strong> REGISTRATION FEES COLLECTED - used only for class fees, lab fees, travel fees, etc., which are collected along with tuition at tiem of registration.&nbsp; Any refunds should be charged back against this revenue category.</li>
+<li><strong style="display: inline;">1200 </strong>SALES OF SERVICES - used only for revenues as described.</li>
+<li><strong style="display: inline;">1500</strong> EVENT REVENUES - used only for revenues as described.</li>
+<li><strong style="display: inline;">1600</strong> OTHER REVENUE - used only for revenues as described.</li>
+<li><strong style="display: inline;">2000</strong> FUND SUPPORT - used only in Auxiliary and Student Services Funds.</li>
+<li><strong style="display: inline;">210x</strong> TRANSFERRED FROM ANOTHER ACCOUNT - used when money is transferred from another account. Either the account number or the fund will be identified; e.g., Transferred from Fund 4 (Restricted Fund).</li>
+<li><strong style="display: inline;">41xx</strong> FACULTY SALARIES &amp; WAGES - used by the Payroll Office and should not be used for any other expenditure or revenue.</li>
+<li><strong style="display: inline;">42xx</strong> ADMINISTRATIVE SALARIES &amp; WAGES - used by the Payroll Office and should not be used for any other expenditure or revenue.</li>
+<li><strong style="display: inline;">43xx</strong> STAFF SALARIES &amp; WAGES - used by the Payroll Office and should not be used for any other expenditure or revenue.</li>
+<li><strong style="display: inline;">5000</strong> OFFICE SUPPLIES &amp; EXPENSES - used for expenses which relate directly to the functioning of the office, such as paper, pens, calendars, note pads, computer supplies, and related expenses.</li>
+<li><strong style="display: inline;">5020</strong> TEACHING SUPPLIES &amp; EXPENSES - used for supplies and items related directly to classroom instruction and preparation.</li>
+<li><strong style="display: inline;">5040</strong> OPERATING SUPPLIES &amp; EXPENSES - used for supplies and items used in the production of a product or a program which would not fit as an Office Expense or a Teaching Expense.</li>
+<li><strong style="display: inline;">5100</strong> PRINTING &amp; COPIES - used for charges from the Press, the Copy Centers, or other sources. These costs may also be charged against other categories such as Teaching Supplies.</li>
+<li><strong style="display: inline;">530x</strong> REGISTRATION FEES EXPENDED - used only for expenses relating directly to the class fees, lab fees, travel fees, etc. which have been collected in category 53x1. No other expenses should be charged here.</li>
+<li><strong style="display: inline;">5500</strong> EMPLOYEE TRAVEL - used to record costs of transportation, lodging, food, and other related costs, for employee business travel.</li>
+<li><strong>5550 </strong>PROFESSIONAL DEVELOPMENT - used to record costs for employee professional development, such as registration fees for conferences.</li>
+<li><strong style="display: inline;">5600</strong> STUDENT TRAVEL - used to record the travel cost of students, except for travel cost covered by class fees which should be charged to category 530x.</li>
+<li><strong style="display: inline;">6030</strong> TELEPHONE LONG DISTANCE - used for long distance charges made through the campus telephone system. A long distance number is obtained from the Accounting Office.</li>
+<li><strong style="display: inline;">6040</strong> CELLULAR PHONE CHARGES - used for calls and charges made by cell phones for school business.</li>
+<li><strong style="display: inline;">6050</strong> POSTAGE - used for actual mailing costs, usually from the campus post office. It can include costs for UPS, etc.</li>
+<li><strong style="display: inline;">7000</strong> OTHER EXPENSES - used for miscellaneous costs which do not fit in the regular expense categories. If costs in this category become too large to manage, another category may be set up to identify specific costs.</li>
+<li><strong style="display: inline;">8030</strong> PHONE EQUIPMENT RENTAL - used for the monthly charge for phone useage and is charged automatically by the Telephone Office.</li>
+<li><strong style="display: inline;">8200</strong> EQUIPMENT REPAIRS AND MAINTENANCE - used for the maintenance, repairs, or updating of equipment.</li>
+<li><strong style="display: inline;">8300</strong> OPERATING EQUIPMENT/INVENTORY - used for equipment costing between $500 and $2,500 which has been designated as readily susceptible to theft, therefore requiring it to be tagged and kept on inventory records. Call the Accounting Office for any clarification.</li>
+<li><strong style="display: inline;">8350</strong> OPERATING EQUIP/NON-INVENTORY - used for equipment costing under $2,500 which has not been designated as susceptible to theft, which includes tools and other small items used repeatedly in the performance of work. This equipment can be tagged with just the name of the University, but it is not kept on inventory records.</li>
+<li><strong style="display: inline;">8400</strong> CAPITAL EQUIPMENT - used to record equipment costing over $2,500 and therefore must be depreciated over several years which requires it to be tagged and placed on inventory. Each purchase must be approved by the Budget Office.</li>
+<li><strong style="display: inline;">910x</strong> TRANSFERRED TO ANOTHER ACCOUNT - used to show money transferred to another account. Either the account number or the fund will be identified; e.g., Transferred to Fund One.</li>
+</ul>
+</li>
+<li>The columns which appear on General Ledger Reports are:
+<ul style="font-family: Verdana, Arial, sans-serif; padding-left: 30px; list-style-type: none;">
+<li>1 = Date of the Transaction, not necessarily the date posted.</li>
+<li>2 = Source, which shows the point of origin for the transaction.</li>
+<li>3 = Reference, which shows the document number or reference to the initiator of the transaction.</li>
+<li>4 = Description, which shows the description of the document, vendor, name, transaction, etc.</li>
+<li>5 = Amount, which shows the amount of the transaction which will be either a debit or credit (-).</li>
+</ul>
+</li>
+</ol>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="Policy" label="Policy" readonly="false" hidden="false" required="false" CompTypes="PolicyNavigationComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x18419" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></PolicyPage>

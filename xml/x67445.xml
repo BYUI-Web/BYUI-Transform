@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 6.0.82 - http://www.ingeniux.com ***-->
+<BlankDetailPage ID="x67445" Name="ADA Web" Layout="default.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Design for ADA Compliance</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Tips on creating ADA compliant web pages.</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="true"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="false" required="false">0.5</Priority></xPower><xPower Type="Component" Component="x14" Name="RelatedLinks" label="Related Links" readonly="false" hidden="false" required="false" CompTypes="RelatedLinksComponent"/><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<br />
+<h3 align="left"><strong>What is ADA?</strong></h3>
+<div align="left"></div>
+<p align="left">&nbsp;</p>
+<div align="left"></div>
+<p align="left">Accessibility is making a Web site is usable by people with  disabilities. Web pages often have         access issues for the  following groups of people:</p>
+<div align="left">
+<ul>
+<li>Visually impaired people using screen readers</li>
+<li>Hearing impaired people using browsers with no sound</li>
+<li>Physically impaired people</li>
+<li>Color blind people</li>
+</ul>
+<br /></div>
+<h3 align="left">What can I do to make my site ADA compliant?<br /></h3>
+<div align="left"></div>
+<h3 align="left"><br /></h3>
+<p align="left">1) <strong>Add alternate text to Images</strong>........wait.....you  already do that. The image description you enter when you insert an  image is used as alternate text, by screen readers for the visually  impared. The editor is designed so that you cannot insert an image  without the alternate text. <br /> <br /> 2)<strong> Design your site so that it can be easily navigated without style sheets</strong>. Because the web editor uses templates built with style sheets, this is already taken care of. <br /> <br /> 3) <strong>Use the clearest and simplest language appropriate for a site's content. </strong>In other words write as if you were talking to a  12 year old. (The average person has a 6th grade reading level)<br /> <br /> 4) <strong>When using tables always include a summary in the advanced tab. </strong>The summary should be a brief description of the table's purpose or content. <br /> <br /> 5) <strong>Keep it simple. </strong>As a rule of thumb you should always keep the site simple, easy to read, and easy to navigate.</p>
+<p align="left">&nbsp;</p>
+<p align="left">&nbsp;</p>
+<p align="left">&nbsp;</p>
+<h3 align="left"><strong>Web Development Maintenance Standards and Procedures</strong><br /></h3>
+<p><strong>A.    <span style="text-decoration: underline;">ADA Compliance</span></strong></p>
+<h4><strong> 1.    Purpose</strong></h4>
+<p>Disabled users of the web site must be able to reasonably access the  information on each web page. Disabilities that must be accommodated  include visual impairment, color blindness, hearing impairments, motor  skills disabilities, and epilepsy induced by flash frequency.</p>
+<h4>2.    Standard</h4>
+<p>Web Representatives (Web Reps) must ensure web pages are compliant with  the Americans with Disabilities Act (ADA) to ensure that information is  accessible to disabled persons and the University has complied with  Section 508 of the United States Rehabilitation Act.</p>
+<h4>3.    Implementation and Procedure</h4>
+<p>Web Reps are responsible to ensure that web pages include alphabetized  text information, alternative text tags for images, alternative text for  audio files, colors that contrast appropriately, and do not include  flashing features.</p>
+<h4>4.    Background Information</h4>
+<p>Users with visual impairments use screen readers when accessing Web  pages. Screen readers verbalize the text on the Web pages for them to  hear. This requires that lists and other text information be in  alphabetical order so the user knows where they are at on the page. It  also requires the use of alternative text tags on images so the user  knows what is on the image. Alternative text for audio files must be  provided for the hearing impaired so the user can visually read the  information. Contrasting colors are required because users with color  blindness can not distinguish between some colors. Flashing features may  induce seizures in users with some forms of epilepsy. The University is  required by law to comply with the ADA and Section 508.</p>
+<h4>5.    References</h4>
+<p>a.    <a href="http://www.byui.edu/helpcenter/ada.htm" target="_parent">BYU&ndash;Idaho Web Site ADA Compliance Statement</a> <a href="http://www.byui.edu/helpcenter/ada.htm" target="_parent"> </a> <br /> b.    <a href="http://www.byui.edu/disabilities" target="_parent">Disability Services Center Web site Section</a> <br /> c.    <a href="http://www.section508.gov/" target="_parent">Section 508</a> of the United States Rehabilitation Act<br /> d.    <a href="http://www.webaim.com/" target="_parent">www.Webaim.org</a></p>
+<h4>6.    Exceptions<br /></h4>
+All exceptions must be approved by University Communications and the director of the Disability Services Center.<br />]]></BodyCopy><xPower Type="List" List="xpowercomponent_ImageComponent" Name="LeftColumnImageComponentList" label="Left Column Image Component List" readonly="false" hidden="false" required="false" Component="" CompTypes="LeftColumnImageComponent" Expanded="false"><xPower Type="Component" Component="" Name="ImageComponent" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent" Expanded="false"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x921" Name="SiteControl" label="Site Control" readonly="true" hidden="true" required="false" CompTypes="SiteControl"/></BlankDetailPage>

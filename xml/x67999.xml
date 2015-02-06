@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x67999" Name="ol.css" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">ol.css</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">ol.css</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">#home_button
+{
+	display:block;
+	background-image:url('/magazine/fall2010/features/images/sideNave_sprite.jpg');
+	background-position:0px 0px;
+	position:absolute;
+	width:200px;
+	height:46px;
+	margin-top:0px;
+}
+
+#home_button:hover
+{
+	display:block;
+	background-image:url('/magazine/fall2010/features/images/sideNave_sprite.jpg');
+	background-position:-200px 0px;
+	position:absolute;
+	width:200px;
+	height:46px;
+	margin-top:0px;
+}
+
+#all_articles_button
+{
+	display:block;
+	background-image:url('/magazine/fall2010/features/images/sideNave_sprite.jpg');
+	background-position:0px -47px;
+	position:absolute;
+	width:200px;
+	height:46px;
+	margin-top:46px;
+}
+
+#all_articles_button:hover
+{
+	display:block;
+	background-image:url('/magazine/fall2010/features/images/sideNave_sprite.jpg');
+	background-position:-200px -47px;
+	position:absolute;
+	width:200px;
+	height:46px;
+	margin-top:46px;
+}
+
+#presidents_message
+{
+	display:block;
+	background-image:url('/magazine/fall2010/features/images/sideNave_sprite.jpg');
+	background-position:0px -93px;
+	position:absolute;
+	width:200px;
+	height:46px;
+	margin-top:92px;
+}
+
+#presidents_message:hover
+{
+	display:block;
+	background-image:url('/magazine/fall2010/features/images/sideNave_sprite.jpg');
+	background-position:-200px -93px;
+	position:absolute;
+	width:200px;
+	height:46px;
+	margin-top:92px;
+}
+
+#alumni_news
+{
+	display:block;
+	background-image:url('/magazine/fall2010/features/images/sideNave_sprite.jpg');
+	background-position:0px -139px;
+	position:absolute;
+	width:200px;
+	height:46px;
+	margin-top:138px;
+}
+
+#alumni_news:hover
+{
+	display:block;
+	background-image:url('/magazine/fall2010/features/images/sideNave_sprite.jpg');
+	background-position:-200px -139px;
+	position:absolute;
+	width:200px;
+	height:46px;
+	margin-top:138px;
+}
+
+#news_of_note
+{
+	display:block;
+	background-image:url('/magazine/fall2010/features/images/sideNave_sprite.jpg');
+	background-position:0px -186px;
+	position:absolute;
+	width:200px;
+	height:46px;
+	margin-top:184px;
+	border-bottom:1px solid #A9A9A9;
+}
+
+#news_of_note:hover
+{
+	display:block;
+	background-image:url('/magazine/fall2010/features/images/sideNave_sprite.jpg');
+	background-position:-200px -186px;
+	position:absolute;
+	width:200px;
+	height:46px;
+	margin-top:184px;
+	border-bottom:1px solid #ABABAB;
+}
+
+#on_campus
+{
+	display:block;
+	background-image:url('/magazine/fall2010/features/images/sideNave_sprite.jpg');
+	background-position:0px -233px;
+	position:absolute;
+	width:200px;
+	height:44px;
+	margin-top:230px;
+	/*border-bottom:1px solid #A9A9A9;*/
+}
+
+#on_campus:hover
+{
+	display:block;
+	background-image:url('/magazine/fall2010/features/images/sideNave_sprite.jpg');
+	background-position:-200px -233px;
+	position:absolute;
+	width:200px;
+	height:44px;
+	margin-top:230px;
+	/*border-bottom:1px solid #ABABAB;*/
+}
+
+#sub_nav_watch{
+	display:block;
+	background-image: url(http://www.byui.edu/Magazine/fall2010/images/dark_box_pixel.jpg);
+	background-repeat: repeat-y;
+	height: 200px;
+	padding-top:230px;
+	margin-bottom: 1px;
+}
+
+#sub_nav_watch img{
+	padding-left: 25px;
+	padding-top: 35px;
+}
+
+#sub_nav_watch #video{
+	padding-left: 25px;
+	padding-top: 10px;
+}
+
+#sub_nav_item{
+	background-image: url(http://www.byui.edu/Magazine/fall2010/images/dark_box_pixel.jpg);
+	background-repeat: repeat-y;
+	height: 50px;
+	margin-bottom: 1px;
+}
+
+#sub_nav_item img{
+	margin-left: 25px;
+	padding-top: 15px;
+	width: 135px;
+	height: 210px;
+}
+
+#sub_nav_item img:hover{
+	border-bottom: thin solid white;
+}
+#divSemester{
+	float:right;
+	margin-right:-40px;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+#type_A #main_body {
+	background-image: url(../images/1pixwhite3.gif);
+	background-repeat: repeat-y;
+}
+.nav {
+	display:block;
+	width:200px;
+	height:46px;
+	text-decoration:none !important;
+}
+#type_A #main_body {
+	background-image: url(/magazine/fall2010/features/images/1pixwhite3.gif);
+	background-repeat: repeat-y;
+}
+#left_column a:hover {
+color:#00254A;
+text-decoration:none !important;
+}
+.correction_img{
+	float: left!important;
+}
+.correction_text{
+	padding-left: 165px;
+	padding-top: 20px;
+}
+.correction_text #correctinos_subhead{
+	font-family: Georgia,Times New Roman,serif, !important;
+	font-style: italic;
+	color: #666;
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
+#correction_divcollection{
+	border-top: dotted;
+	border-top-width: thin;
+	border-bottom-style: dotted;
+	border-bottom-width: thin;
+	height: 250px;
+	color: #666;
+	width: 520;
+	margin-top: 20px;
+}
+#correctinos_main_message a{
+	text-decoration: none!important;
+}</ESContent></EmptyShell>

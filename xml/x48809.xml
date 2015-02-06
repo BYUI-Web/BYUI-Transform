@@ -1,0 +1,265 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x48809" Name="snipLove" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"&gt;&lt;/script&gt;
+
+&lt;style&gt;
+#div1 {
+	padding: 0px 50px; 
+	display:none;
+	position: absolute; 
+	transition: opacity .5s ease-in-out; 
+	-moz-transition: opacity .5s ease-in-out; 
+	-webkit-transition: opacity .5s ease-in-out; 
+	-o-transition: opacity .5s ease-in-out;
+}
+#div2 {
+	padding: 0px 50px; 
+	display:none;
+	position: absolute; 
+	transition: opacity .5s ease-in-out; 
+	-moz-transition: opacity .5s ease-in-out; 
+	-webkit-transition: opacity .5s ease-in-out; 
+	-o-transition: opacity .5s ease-in-out;
+}
+#div3 {
+	padding: 0px 50px; 
+	display:none;
+	position: absolute; 
+	transition: opacity .5s ease-in-out; 
+	-moz-transition: opacity .5s ease-in-out; 
+	-webkit-transition: opacity .5s ease-in-out; 
+	-o-transition: opacity .5s ease-in-out;
+}
+#div4 {
+	padding: 0px 50px; 
+	opacity: 1.0;
+	position: absolute; 
+	transition: opacity .5s ease-in-out; 
+	-moz-transition: opacity .5s ease-in-out; 
+	-webkit-transition: opacity .5s ease-in-out; 
+	-o-transition: opacity .5s ease-in-out;
+}
+#div5 {
+	padding: 0px 50px; 
+	display:none;
+	position: absolute; 
+	transition: opacity .5s ease-in-out; 
+	-moz-transition: opacity .5s ease-in-out; 
+	-webkit-transition: opacity .5s ease-in-out; 
+	-o-transition: opacity .5s ease-in-out;
+}
+
+#img1, #img2, #img3, #img4, #img5 {
+	-webkit-box-reflect: below 0px
+	-webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent) , to(rgba(250, 250, 250, 0.3)));
+}
+
+&lt;/style&gt;
+
+&lt;script&gt;
+$(document).ready(function(){
+
+$('#img1').click(function(){
+    $('#backgroundImage').animate({height:'260px'}, 500);
+});
+
+$('#img2').click(function(){
+    $('#backgroundImage').animate({height:'130px'}, 500);
+});
+
+$('#img3').click(function(){
+    $('#backgroundImage').animate({height:'130px'}, 500);
+});
+
+$('#img4').click(function(){
+    $('#backgroundImage').animate({height:'185px'}, 500);
+});
+
+$('#img5').click(function(){
+    $('#backgroundImage').animate({height:'185px'}, 500);
+});
+
+});
+
+function video1(){
+
+	$('.divs').hide(0);
+	$('#div1').show(0);
+
+	document._video = document.getElementById('love');
+	document._video.setAttribute('poster', 'Images/housing/Student Living/poster/7.png');
+	if(navigator.userAgent.indexOf('Firefox') != -1 || window.opera){
+	document._video.setAttribute('src', 'Documents/housing/principles/LOVE love thy neighbor.ogg');
+	document._video.setAttribute('type', 'video/ogg');
+	}
+	else {
+	document._video.setAttribute('src', 'Media/housing/principles/LOVE love thy neighbor.mp4');
+	document._video.setAttribute('type', 'video/mp4');
+	}
+	document._video.load();
+	document._video.play(); 
+
+}
+
+function video2(){
+
+	$('.divs').hide(0);
+	$('#div2').show(0);
+	
+	document._video = document.getElementById('love');
+	document._video.setAttribute('poster', 'Images/housing/Student Living/poster/4.png');
+	if(navigator.userAgent.indexOf('Firefox') != -1 || window.opera){
+	document._video.setAttribute('src', 'Documents/housing/principles/LOVE beginning.ogg');
+	document._video.setAttribute('type', 'video/ogg');
+	}
+	else {
+	document._video.setAttribute('src', 'Media/housing/principles/LOVE beginning.mp4');
+	document._video.setAttribute('type', 'video/mp4');
+	}
+	document._video.load();
+	document._video.play(); 
+}
+
+function video3(){
+
+
+	$('.divs').hide(0);
+	$('#div3').show(0);
+
+	document._video = document.getElementById('love');
+	document._video.setAttribute('poster', 'Images/housing/Student Living/poster/17.png');
+	if(navigator.userAgent.indexOf('Firefox') != -1 || window.opera){
+	document._video.setAttribute('src', 'Documents/housing/principles/LOVE love strengthens.ogg');
+	document._video.setAttribute('type', 'video/ogg');
+	}
+	else {
+	document._video.setAttribute('src', 'Media/housing/principles/LOVE love strengthens.mp4');
+	document._video.setAttribute('type', 'video/mp4');
+	}
+	document._video.load();
+	document._video.play(); 
+}
+
+function video4(){
+
+
+	$('.divs').hide(0);
+	$('#div4').show(0);
+
+	document._video = document.getElementById('love');
+	document._video.setAttribute('poster', 'Images/housing/Student Living/poster/1.png');
+	if(navigator.userAgent.indexOf('Firefox') != -1 || window.opera){
+	document._video.setAttribute('src', 'Documents/housing/principles/LOVE serving others.ogg');
+	document._video.setAttribute('type', 'video/ogg');
+	}
+	else {
+	document._video.setAttribute('src', 'Media/housing/principles/LOVE serving others.mp4');
+	document._video.setAttribute('type', 'video/mp4');
+	}
+	document._video.load();
+	document._video.play(); 
+
+}
+
+function video5(){
+
+	$('.divs').hide(0);
+	$('#div5').show(0);
+
+	document._video = document.getElementById('love');
+	document._video.setAttribute('poster', 'Images/housing/Student Living/poster/5.png');
+	if(navigator.userAgent.indexOf('Firefox') != -1 || window.opera){
+	document._video.setAttribute('src', 'Documents/housing/principles/LOVE requires action.ogg');
+	document._video.setAttribute('type', 'video/ogg');
+	}
+	else {
+	document._video.setAttribute('src', 'Media/housing/principles/LOVE requires action.mp4');
+	document._video.setAttribute('type', 'video/mp4');
+	}
+	document._video.load();
+	document._video.play(); 
+}
+
+
+&lt;/script&gt;
+
+&lt;!-- STUDENT LIVING NAV BAR --&gt;
+&lt;div&gt;&lt;img src="Images/housing/navbar/studentliving/blank.png" width="63" /&gt;&lt;a class="intLink" href="x8708.xml"&gt;&lt;img onmouseout="this.src='Images/housing/navbar/studentliving/H.png';" onmouseover="this.src='Images/housing/navbar/studentliving/H-hover.png';" src="Images/housing/navbar/studentliving/H.png" width="148" /&gt;&lt;/a&gt;&lt;a class="intLink" href="x44817.xml"&gt;&lt;img src="Images/housing/navbar/studentliving/S-active.png" width="111" /&gt;&lt;/a&gt;&lt;a class="intLink" href="x44860.xml"&gt;&lt;img onmouseout="this.src='Images/housing/navbar/studentliving/W.png';" onmouseover="this.src='Images/housing/navbar/studentliving/W-hover.png';" src="Images/housing/navbar/studentliving/W.png" width="161" /&gt;&lt;/a&gt;&lt;a class="intLink" href="x44861.xml"&gt;&lt;img onmouseout="this.src='Images/housing/navbar/studentliving/A.png';" onmouseover="this.src='Images/housing/navbar/studentliving/A-hover.png';" src="Images/housing/navbar/studentliving/A.png" width="159" /&gt;&lt;/a&gt;&lt;a class="intLink" href="x44863.xml"&gt;&lt;img onmouseout="this.src='Images/housing/navbar/studentliving/M.png';" onmouseover="this.src='Images/housing/navbar/studentliving/M-hover.png';" src="Images/housing/navbar/studentliving/M.png" width="246" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;!-- END NAV BAR --&gt;
+
+&lt;div style="text-align: center;"&gt;
+
+&lt;a href="http://www.byui.edu/housing/student-living/shared-responsibility"&gt;&lt;img onmouseout="this.src='Images/housing/Student Living/Three Principles/love - sr-side.png';" 
+	onmouseover="this.src='Images/housing/Student Living/Three Principles/love - sr-side2.png';" 
+	src="Images/housing/Student Living/Three Principles/love - sr-side.png" /&gt;&lt;/a&gt; 
+
+&lt;img src="Images/housing/Student Living/Three Principles/l title.jpg" /&gt; 
+
+&lt;a href="http://www.byui.edu/housing/student-living/mutual-respect"&gt;&lt;img id="loveSide" onmouseout="this.src='Images/housing/Student Living/Three Principles/love - mr-side.png';" 
+	onmouseover="this.src='Images/housing/Student Living/Three Principles/love - mr-side2.png';" 
+	src="Images/housing/Student Living/Three Principles/love - mr-side.png" /&gt;&lt;/a&gt; 
+
+&lt;br /&gt; 
+&lt;img height="272" src="Images/housing/side1.png" style="margin-left: -5px; margin-right: -5px;" width="225" /&gt; 
+
+&lt;video id="love" width="482" height="272" class="love" oncontextmenu="return false;" controls="controls" preload="auto" data-setup="{}" poster="Images/housing/Student Living/poster/1.gif"&gt;
+	&lt;source src="Media/housing/principles/LOVE serving others.mp4" type="video/mp4" /&gt;
+	&lt;source src="Documents/housing/principles/LOVE serving others.ogg" type="video/ogg" /&gt;
+	&lt;object id="love" width="500" height="270" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"&gt;
+	&lt;param name="src" value="../client/editor/tinymce/jscripts/tiny_mce/plugins/media/moxieplayer.swf" /&gt;
+	&lt;param name="flashvars" value="url=/beta/xml/Media/housing/principles/LOVE-serving%20others.mp4&amp;amp;poster=/beta/xml/Images/housing/Student%20Living/poster/1.gif" /&gt;
+	&lt;param name="allowfullscreen" value="true" /&gt;
+	&lt;param name="allowscriptaccess" value="true" /&gt;
+	&lt;embed id="love" width="500" height="270" type="application/x-shockwave-flash" src="../client/editor/tinymce/jscripts/tiny_mce/plugins/media/moxieplayer.swf" flashvars="url=/beta/xml/Media/housing/principles/LOVE-serving%20others.mp4&amp;amp;poster=/beta/xml/Images/housing/Student%20Living/poster/1.png" allowfullscreen="true" allowscriptaccess="true" /&gt;
+	&lt;/object&gt;   
+&lt;/video&gt;
+
+&lt;img height="272" src="Images/housing/side2.png" style="margin-left: -5px; margin-right: -5px;" width="225" /&gt; 
+&lt;br /&gt; 
+&lt;a&gt;&lt;img id="img4" onmouseout="this.src='Images/housing/Student Living/Three Principles/LOVE - 4 serving others.jpg';" 
+onmouseover="this.src='Images/housing/Student Living/Three Principles/LOVE - 4 serving others(HOVER).jpg';" 
+src="Images/housing/Student Living/Three Principles/LOVE - 4 serving others.jpg"
+onclick="video4()"/&gt;&lt;/a&gt;
+&lt;a&gt;&lt;img id="img1" onmouseout="this.src='Images/housing/Student Living/Three Principles/LOVE - 1 love thy neighbor.png';" 
+onmouseover="this.src='Images/housing/Student Living/Three Principles/LOVE - 1 love thy neighbor(HOVER).jpg';" 
+src="Images/housing/Student Living/Three Principles/LOVE - 1 love thy neighbor.png"
+onclick="video1()"/&gt;&lt;/a&gt;
+&lt;a&gt;&lt;img id="img2" onmouseout="this.src='Images/housing/Student Living/Three Principles/LOVE - 2 love is the beggining.jpg';" 
+onmouseover="this.src='Images/housing/Student Living/Three Principles/LOVE - 2 love is the beggining(HOVER).jpg';" 
+src="Images/housing/Student Living/Three Principles/LOVE - 2 love is the beggining.jpg"
+onclick="video2()"/&gt;&lt;/a&gt; 
+&lt;a&gt;&lt;img  id="img3" onmouseout="this.src='Images/housing/Student Living/Three Principles/LOVE - 3 love strengthens.jpg';" 
+onmouseover="this.src='Images/housing/Student Living/Three Principles/LOVE - 3 love strengthens(HOVER).jpg';" 
+src="Images/housing/Student Living/Three Principles/LOVE - 3 love strengthens.jpg"
+onclick="video3()"/&gt;&lt;/a&gt;
+&lt;a&gt;&lt;img id="img5" onmouseout="this.src='Images/housing/Student Living/Three Principles/LOVE - 5 requires action.jpg';" 
+onmouseover="this.src='Images/housing/Student Living/Three Principles/LOVE - 5 requires action(HOVER).jpg';" 
+src="Images/housing/Student Living/Three Principles/LOVE - 5 requires action.jpg"
+onclick="video5()"/&gt;&lt;/a&gt;
+
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;div height="250"&gt;
+&lt;img id="backgroundImage" src="Images/housing/Student Living/Three Principles/new-blank-slate(1).png" width="100%" height="185px" style="position: absolute;" /&gt; &lt;br /&gt;
+&lt;div class="divs" id="div4"&gt;&lt;em&gt;&lt;strong&gt;"Serving others is a reflection of love"&lt;/strong&gt;&lt;/em&gt;
+&lt;p&gt;"When Jesus gave His disciples a new commandment to&amp;nbsp;'love one another; as I have loved you,' He gave to them the&amp;nbsp;grand key to happiness in this life and glory in the next.&amp;nbsp;Love is the greatest of all the commandments-all others&amp;nbsp;hang upon it. It is our focus as followers of the living Christ.&amp;nbsp;It is the one trait that, if developed, will most improve our&amp;nbsp;lives" (Joseph B. Wirthlin, "&lt;a class="extLink" href="http://www.lds.org/general-conference/2007/10/the-great-commandment?lang=eng" target="_blank"&gt;The Great Commandment&lt;/a&gt;,"&amp;nbsp;Ensign, Nov. 2007, 28).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="divs" id="div1"&gt;&lt;em&gt;&lt;strong&gt;"Love thy neighbor as thyself"&lt;/strong&gt;&lt;/em&gt;
+&lt;p&gt;"On one occasion the Pharisees tried to trap Jesus by asking&amp;nbsp;Him a seemingly impossible question: 'Master,' they asked,&amp;nbsp;'which is the great commandment in the law?' . . . He replied:&amp;nbsp;'Thou shalt love the Lord thy God with all thy heart, and with&amp;nbsp;all thy soul, and with all thy mind. This is the first and great&amp;nbsp;commandment. And the second is like unto it, Thou shalt&amp;nbsp;love thy neighbour as thyself. On these two commandments&amp;nbsp;hang all the law and the prophets' (Matthew 22:36-40). Since&amp;nbsp;that day, this inspired pronouncement has been repeated&amp;nbsp;through many generations. Now, for us, the measure of our&amp;nbsp;love is the measure of the greatness of our souls . . . Love is&amp;nbsp;the beginning, the middle, and the end of the pathway of&amp;nbsp;discipleship. It comforts, counsels, cures, and consoles" (Joseph B. Wirthlin, "&lt;a class="extLink" href="http://www.lds.org/general-conference/2007/10/the-great-commandment?lang=eng" target="_blank"&gt;The Great Commandment&lt;/a&gt;,"&amp;nbsp;Ensign, Nov. 2007, 28).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="divs" id="div2"&gt;&lt;em&gt;&lt;strong&gt;"Love is the beginning, the middle and the end of the pathway of discipleship"&lt;/strong&gt;&lt;/em&gt;
+&lt;p&gt;"For me, the Prophet Joseph Smith has always exemplified&amp;nbsp;the pure love of Christ. Many asked why he gained so many&amp;nbsp;followers and retained them. His answer: 'It is because I&amp;nbsp;possess the principle of love' . . .&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="divs" id="div3"&gt;&lt;em&gt;&lt;strong&gt;"Love strengthens obedience"&lt;/strong&gt;&lt;/em&gt;
+&lt;p&gt;"When we love the Lord, obedience ceases to be a burden.&amp;nbsp;Obedience becomes a delight. When we love the Lord, we&amp;nbsp;seek less for things that benefit us and turn our hearts toward&amp;nbsp;things that will bless and uplift others . . .&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="divs" id="div5"&gt;&lt;em&gt;&lt;strong&gt;"Love requires action"&lt;/strong&gt;&lt;/em&gt;
+&lt;p&gt;"True love requires action. We can speak of love all day long-&amp;nbsp;we can write notes or poems that proclaim it, sing songs that&amp;nbsp;praise it, and preach sermons that encourage it-but until&amp;nbsp;we manifest that love in action, our words are nothing but&amp;nbsp;'sounding brass, or a tinkling cymbal'" (1 Corinthians 13:1).&lt;br /&gt;Dieter F. Uchtdorf, "&lt;a class="extLink" href="https://www.lds.org/general-conference/2010/04/you-are-my-hands?lang=eng" target="_blank"&gt;You are My Hands&lt;/a&gt;" Ensign, May 2010, 68.&lt;/p&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;/div&gt;</ContentSnippet></ContentSnippet>

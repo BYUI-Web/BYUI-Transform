@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<CommonPage ID="x67094" Name="Broadway / Film" Layout="default.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Broadway / Film</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Broadway / Film</Abstract><xPower Type="GroupStart" GroupStart="" Name="ImageColumn" label="Image Column" readonly="false" hidden="false" required="false" Expanded="true"><MoveRight type="boolean" hidden="true" label="Toggle column left or right (left is default)" readonly="false" required="false">true</MoveRight><xPower Type="List" List="xpowercomponent_ImageComponent" Name="ImageColumnComponentList" label="Images" readonly="false" hidden="false" required="false" Component="" CompTypes="LeftColumnImageComponent" Expanded="true"><xPower Type="Component" Component="x4345" Name="ImageComponent" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent" Expanded="false"/></xPower><xPower Type="List" List="xpowercomponent_TextComponent" Name="TextColumnComponentList" label="Text Box" readonly="false" hidden="false" required="false" Component="" CompTypes="ColumnTextComponent" Expanded="false"><xPower Type="Component" Component="" Name="TextComponent" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent" Expanded="false"/></xPower></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<h4><strong>Broadway Revisited</strong></h4>
+<p>1p.m. Monday</p>
+<p><em>&nbsp;</em>&nbsp;</p>
+<p>8-2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Peggy Lee and Bing Crosby on the Radio</strong></p>
+<p style="padding-left: 30px;">Show tunes recorded just for radio play.&nbsp;</p>
+<p style="padding-left: 30px;">&nbsp;</p>
+<p>8-9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Artie Shaw and Benny Goodman play Broadway</strong></p>
+<p style="padding-left: 30px;">&nbsp;With excellent vocalists.</p>
+<p style="padding-left: 30px;">&nbsp;</p>
+<p>8-16&nbsp;&nbsp;&nbsp;&nbsp; <strong>Frank Sinatra &amp; Ella Fitzgerald Live - mostly not together</strong></p>
+<p style="padding-left: 30px;">Concerts in Australia and Hollywood.</p>
+<p style="padding-left: 30px;">&nbsp;</p>
+<p>8-23&nbsp;&nbsp;&nbsp;&nbsp; <strong>The Musicals of Mel Brooks</strong></p>
+<p style="padding-left: 30px;">A real producer, who also writes the words and music.</p>
+<p style="padding-left: 30px;">&nbsp;</p>
+<p>8-30&nbsp;&nbsp;&nbsp;&nbsp; <strong>The Frank Loesser Centennial</strong></p>
+<p style="padding-left: 30px;">A celebration of the songwriter born a hundred years ago this year.&nbsp;</p>
+<p><em>&nbsp;</em>&nbsp;</p>
+<p>&nbsp;</p>
+<h4><strong>Footlight Parade</strong></h4>
+<p>1 p.m. Tuesday</p>
+<p>&nbsp;</p>
+<p>8-3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Celebrating Johnny Mercer (Part 1)</strong></p>
+<blockquote dir="ltr" style="margin-right: 0px;">
+<p style="padding-left: 30px;">A salute to the Mercer centenary, with this part focusing mostly on the lyricist&rsquo;s work for Hollywood.</p>
+<p style="padding-left: 30px;">&nbsp;</p>
+</blockquote>
+<p>8-10&nbsp;&nbsp;&nbsp;&nbsp; <strong>Celebrating Johnny Mercer (Part 2)</strong></p>
+<blockquote dir="ltr" style="margin-right: 0px;">
+<p style="padding-left: 30px;">A salute to the Mercer centenary, with this part focusing mostly on the lyricist&rsquo;s work for Broadway.</p>
+<p style="padding-left: 30px;">&nbsp;</p>
+</blockquote>
+<p>8-17&nbsp;&nbsp;&nbsp;&nbsp; <strong>We&rsquo;ll have Manhattan</strong></p>
+<blockquote dir="ltr" style="margin-right: 0px;">
+<p style="padding-left: 30px;">Manhattan is the star &ndash; and we&rsquo;ll toss in the rest of the boroughs for good measure in this hour of songs about New York.</p>
+<p style="padding-left: 30px;">&nbsp;</p>
+</blockquote>
+<p>8-24&nbsp;&nbsp;&nbsp;&nbsp; <strong>Powerful Places</strong></p>
+<blockquote dir="ltr" style="margin-right: 0px;">
+<p style="padding-left: 30px;">The famous musical theater locales include Brigadoon, Avenue Q, Camelot and even Dogpatch.</p>
+<p>&nbsp;</p>
+</blockquote>
+<p>8-31&nbsp;&nbsp;&nbsp;&nbsp;<strong> Weather Report</strong></p>
+<blockquote dir="ltr" style="margin-right: 0px;">
+<p style="padding-left: 30px;">The forecast for the hour is rain, blue skies, draught, snow and  ice, and even a tornado or two &ndash; all in songs, from musicals, of  course!</p>
+</blockquote>
+<p>&nbsp;</p>
+<h4><strong>Perfect Score</strong></h4>
+<p>1 p.m. Friday</p>
+<p>&nbsp;</p>
+<p>7-2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>4<sup>th</sup> of July</strong></p>
+<p>&nbsp;</p>
+<p>7-9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Westerns I</strong></p>
+<p>&nbsp;</p>
+<p>7-16&nbsp;&nbsp;&nbsp;&nbsp; <strong>Westerns II</strong></p>
+<p>&nbsp;</p>
+<p>7-23&nbsp;&nbsp;&nbsp;&nbsp; <strong>Pioneer Day</strong></p>
+<p>&nbsp;</p>
+<p>7-30&nbsp;&nbsp;&nbsp;&nbsp; <strong>Down South </strong></p>]]></BodyCopy><xPower Type="Component" Component="x4297" Name="RelatedLinks" label="Related Links" readonly="false" hidden="false" required="false" CompTypes="RelatedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="false" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x4147" Name="SiteControl" label="Site Control" readonly="true" hidden="true" required="false" CompTypes="SiteControl" Expanded="false"/></CommonPage>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x34873" Name="Our Mission" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Our Mission</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">BYU-Idaho's mission statement and related quotes.</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style><!--
+/*BEGIN about_quotes.less*/
+#left_aside {
+  height: 100%;
+}
+#main_content {
+  width: 710px;
+  margin-right: 0;
+}
+#right_aside {
+  display: none;
+}
+.ie7 .article .right_side {
+  float: none;
+}
+.article {
+  border-bottom: 1px solid #898989;
+  padding: 20px 50px;
+}
+.article .left_side {
+  float: left;
+  margin-right: 35px;
+}
+.article .right_side {
+  display: block;
+  width: 495px;
+  float: right;
+}
+.article .right_side .quote {
+  font-family: "Georgia", Times New Roman, Times, serif;
+  font-size: 18px;
+  color: #464646;
+  font-style: italic;
+  margin: 0 0 12px;
+  text-indent: -7px;
+  padding: 0;
+border: none;
+}
+.article .right_side .cite {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  color: #464646;
+  text-indent: -6px;
+}
+
+                    .top_message {
+                      font-family: Georgia;
+                      font-style: italic;
+                      color: #60686E;
+                      padding-bottom: 15px;
+                      padding-top: 15px;
+                      border-bottom: 1px solid #b7b7b7;
+                      margin-bottom: 15px;
+                      font-size: 14px;
+                    }
+.mission_statement {
+font-family: Georgia;
+font-style: italic;
+color: #60686E;
+font-size: 14px;
+}
+
+.mission_bullets {
+font-family: Georgia;
+font-style: italic;
+color: #60686E;
+margin-left: 15px;
+padding-bottom: 1px solid #b7b7b7;
+line-height: 30px;
+font-size: 14px;
+}
+
+
+/*END about_quotes.less*/
+--></style>
+<p class="mission_statement">BYU-Idaho is affiliated with The Church of Jesus Christ of Latter-day Saints. Its mission is to:</p>
+<p class="mission_bullets">&middot; Build testimonies of the restored gospel of Jesus Christ and encourage living its principles. <br /> &middot; Provide a quality education for students of diverse interests and abilities. <br />&middot; Prepare students for lifelong learning, for employment, and for their roles as citizens and parents. <br />&middot; Maintain a wholesome academic, cultural, social and spiritual environment.</p>
+<p class="top_message">BYU-Idaho's strong sense of purpose is shaped by the insight and direction of visionary leaders. Through the inspiration that comes to BYU-Idaho presidents and leaders of our sponsoring institution, The Church of Jesus Christ of Latter-day Saints, we receive the guidance that helps us understand our mission and what we must do to make it a reality.</p>
+<div class="article">
+<div class="left_side"><img alt="Portrait" height="77" src="images/university-communications/about_pages/quotes/portrait1.jpg" width="77" /></div>
+<div class="right_side">
+<blockquote class="quote">&ldquo;The seeds we are planting today will grow and become mighty oaks, and their branches will run all over the earth.&rdquo;</blockquote>
+<cite class="cite">&mdash; Principal Jacob Spori</cite></div>
+<span class="clearfix"></span></div>
+<div class="article">
+<div class="left_side"><img alt="Portrait" height="77" src="images/university-communications/about_pages/quotes/portrait2.jpg" width="77" /></div>
+<div class="right_side">
+<blockquote class="quote">&ldquo;[BYU-Idaho] was founded upon the firm belief there are extraordinary possibilities in ordinary people.&rdquo;</blockquote>
+<cite class="cite">&mdash; President John L. Clarke</cite></div>
+<span class="clearfix"></span></div>
+<div class="article">
+<div class="left_side"><img alt="Portrait" height="77" src="Images/university-communications/about_pages/quotes/HenryBEyring_BW.jpg" width="77" /></div>
+<div class="right_side">
+<blockquote class="quote">&ldquo;They will be natural leaders who know how to teach and how to learn. They will have the power to innovate and improve without requiring more of what money can buy. Those graduates of BYU-Idaho will become &hellip; legendary for their capacity to build the people around them and to add value wherever they serve.&rdquo;</blockquote>
+<cite class="cite">&mdash; President Henry B. Eyring</cite></div>
+<span class="clearfix"></span></div>
+<div class="article">
+<div class="left_side"><img alt="Portrait" height="77" src="images/university-communications/about_pages/quotes/portrait4.jpg" width="77" /></div>
+<div class="right_side">
+<blockquote class="quote">&ldquo;I am convinced that this university is in this valley where our pioneer heritage is deeply ingrained, where the people are humble and faithful, so that we can be a proving ground of great fidelity for education that will bless the young people of the Church worldwide.&rdquo;</blockquote>
+<cite class="cite">&mdash; President Kim B. Clark</cite></div>
+<span class="clearfix"></span></div>
+<div class="article">
+<div class="left_side"><img alt="Portrait" height="77" src="Images/university-communications/about_pages/quotes/DavidABednar_BW.jpg" width="77" /></div>
+<div class="right_side">
+<blockquote class="quote">&ldquo;As long as intellectual modesty, humility, gratitude, obedience, and frugality continue to characterize those who learn and serve at Brigham Young University-Idaho, then this university will shine forth ever brighter as a beacon of righteousness and of inspired educational innovation.&rdquo;</blockquote>
+<cite class="cite">&mdash; Elder David A. Bednar</cite></div>
+<span class="clearfix"></span></div>
+<div class="article">
+<div class="left_side"><img alt="Portrait" height="77" src="images/university-communications/about_pages/quotes/portrait6.jpg" width="77" /></div>
+<div class="right_side">
+<blockquote class="quote">&ldquo;I submit that this campus, with its adjoining buildings, may literally offer a foretaste of heaven with the imparting of knowledge, both secular and spiritual, with the encouragement of unselfish service, with the teaching of values that are everlasting in their consequence, and with faith in the Living God. I pray that it may be so.&rdquo;</blockquote>
+<cite class="cite">&mdash; President Gordon B. Hinckley</cite></div>
+<span class="clearfix"></span></div>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Component" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x33098" CompTypes="SiteControl" Expanded="false"/></Content>

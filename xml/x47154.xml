@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x47154" Name="Newsletter" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Newsletter</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Newsletter</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<div id="snow_bar">
+<div class="conditionsInches"><img height="64" src="http://www.grandtarghee.com/themes/GTR_11P/css/images/weather-icons/snowing.png" width="64" /> <span class="snowfall"> </span></div>
+<div id="weatherRow1">24 HR / 3 Day Snowfall:&nbsp;&nbsp;<span class="orange">0&rdquo;</span> / <span class="orange">9&rdquo;</span></div>
+<div id="weatherRow2">Snow Depth / Total:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="orange">42 &rdquo;</span> / <span class="orange">96&rdquo;</span></div>
+<div id="weatherRow3">Currently: <span class="orange">Chance Snow</span> / <span class="full-report">Full Report<br /><br /><br /></span></div>
+<form accept-charset="utf-8" action="http://byuiactivities.net/12all/box.php" method="post">
+<table border="0" cellpadding="0" cellspacing="0" style="width: 180px;">
+<tbody>
+<tr>
+<td bgcolor="#FFFFFF" style="border-style: none;" width="130">
+<div align="right">E-mail: &nbsp;</div>
+</td>
+<td bgcolor="#FFFFFF" style="border-style: none;">
+<div align="left"><input id="email" name="email" size="24" type="text" /></div>
+</td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF" style="border-style: none;" width="130">
+<div align="right">Name: &nbsp;</div>
+</td>
+<td bgcolor="#FFFFFF" style="border-style: none;">
+<div align="left"><input id="name" name="name" size="24" type="text" /></div>
+</td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF" style="border-style: none;" width="130">Enter the text in image:<br /> <span class="style1">Text is case sensitive</span>&nbsp;</td>
+<td bgcolor="#FFFFFF" style="border-style: none;"><input name="captcha" type="text" />&nbsp;<img border="0" src="http://byuiactivities.net/12all/randomimage.php" /></td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF" style="border-style: none;" width="130">
+<div align="right"></div>
+</td>
+<td bgcolor="#FFFFFF" style="border-style: none;">
+<div align="left"><input checked="checked" name="funcml" type="radio" value="add" />Subscribe</div>
+</td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF" style="border-style: none;" width="130">
+<div align="right"></div>
+</td>
+<td bgcolor="#FFFFFF" style="border-style: none;">
+<div align="left"><input name="funcml" type="radio" value="unsub2" />Unsubscribe</div>
+</td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF" style="border-style: none;" width="130">
+<div align="right"><input id="p" name="p" type="hidden" value="24" /> <input name="nlbox[1]" type="hidden" value="8" /></div>
+</td>
+<td>
+<div align="left"><br /> <input name="Submit" type="submit" value="Submit" /></div>
+</td>
+</tr>
+</tbody>
+</table>
+</form></div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="x6793" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x6784" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

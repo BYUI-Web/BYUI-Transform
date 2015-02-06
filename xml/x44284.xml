@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content ID="x44284" Name="Native American Heritage Useful Words" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Native American Heritage Association Useful Words</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Native American Association Heritage Useful Words</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+#page{width: 710px; height: auto; min-height: 600px;}
+    #page #header{width: 710px; height: 265px;}
+    #page #content{width: 78%; height: auto; min-height: 300px; float: left; padding: 1%;}
+    #page #content p{padding-left: 5px;}
+
+    #page #buttons{width: 18%; height: auto; min-height: 300px; float: left; padding: 1%; text-align: center;}
+    #page #buttons a{display:block; width: 100px; height: 100px; margin-left: auto; margin-top: 10px; margin-bottom: 20px;
+        }
+    #page #buttons .useful{background-image: url('Images/student-support/Associations/Association_icons/latinW.png'); background-size: 100%; background-repeat: no-repeat;}
+    #page #buttons .fun{background-image: url('Images/student-support/Associations/Association_icons/latinF.png'); background-size: 100%; background-repeat: no-repeat;}
+    #page #buttons .join{background-image: url('Images/student-support/Associations/Association_icons/join(1).png'); background-size: 100%; background-repeat: no-repeat;margin-left:30px;}
+
+    #page #buttons .useful:hover{background-image: url('Images/student-support/Associations/Association_icons/blackandwhite.png');}
+    #page #buttons .fun:hover{background-image: url('Images/student-support/Associations/Association_icons/blackandwhiteF.png');}
+    #page #buttons .join:hover{background-image: url('Images/student-support/Associations/Association_icons/join(0)blackandwhite.png');}
+--></style>
+<div id="page">
+<div id="header"><img height="250" src="Images/student-support/Associations/Association_headers/Native American.jpg" width="710" /></div>
+<div id="content">
+<table border="0">
+<tbody>
+<tr>
+<td colspan="2">
+<h1 style="text-align: center;">Native American names and their meanings</h1>
+</td>
+</tr>
+<tr>
+<td>Spokane</td>
+<td>Children of the Sun</td>
+</tr>
+<tr>
+<td>Winnipeg</td>
+<td>Muddy Waters</td>
+</tr>
+<tr>
+<td>Alaska</td>
+<td>Great Country</td>
+</tr>
+<tr>
+<td>Milwaukee</td>
+<td>Rich Land</td>
+</tr>
+<tr>
+<td>Niagra</td>
+<td>Thundering Water</td>
+</tr>
+<tr>
+<td>Yosemite</td>
+<td>Grizzly Bear</td>
+</tr>
+<tr>
+<td>Tuscon</td>
+<td>Black Base</td>
+</tr>
+<tr>
+<td>Tallahassee</td>
+<td>Old Town</td>
+</tr>
+<tr>
+<td>Arizona</td>
+<td>Silver Slabs</td>
+</tr>
+<tr>
+<td>Arkansas</td>
+<td>Down Stream People</td>
+</tr>
+<tr>
+<td>Idaho</td>
+<td>Sunrise</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="buttons"><a class="useful" href="x44284.xml">&nbsp;</a> <a class="fun" href="x44285.xml"></a> <a class="join" href="x44286.xml"></a></div>
+<p>
+<script type="text/javascript">
+window.onload=function(){
+    
+        $('.join').hover(function(){
+         $(this).attr('src','Images/student-support/Associations/Association_icons/joingray.png');
+},
+function(){
+   $(this).attr('src','Images/student-support/Associations/Association_icons/join.png');
+}
+);
+
+    }//end window load
+</script>
+</p>
+</div>]]></BodyCopy><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Component" readonly="false" hidden="false" required="false" Component="" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowerinsert_InsertItems" Name="Insert" label="Insert" readonly="false" hidden="true" required="false" WellFormed="false" Insert="" ExtractHTMLBody="false" Expanded="false"><xPower Type="Insert" Insert="" WellFormed="false" ExtractHTMLBody="false" Name="InsertItems" readonly="false" hidden="true" required="false" Expanded="false"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x35763" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

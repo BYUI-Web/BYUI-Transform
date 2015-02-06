@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.82 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x62117" Name="Negative Body Image" Layout="general_content.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Ways to Overcome a Negative Body Image</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Overcoming a Negative Body Image from the BYU-Idaho Counseling Center</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<script type="text/Javascript">
+   function expand(num) {
+      var hidden = document.getElementById("hidden" + num);
+      var expand = document.getElementById("plus" + num);
+
+      if (expand.innerHTML == "+") {
+         expand.innerHTML = "-";
+         hidden.style.display = "block";
+      } else {
+         expand.innerHTML = "+";
+         hidden.style.display = "none";
+      }
+   }
+
+   function hover(type, num) {
+      var hover = document.getElementById("plus" + num);
+
+      if (type == 1) {
+         hover.style.backgroundColor = "#999999";
+      } else {
+         hover.style.backgroundColor = "#007ebd";
+      }
+   }
+</script>
+<h4 align="center" style="text-align: left;">by Nicole Hawkins, PhD</h4>
+<p align="left">How often do you look in the mirror and say "If I could just lose ten  pounds, then I would be happy"? Unfortunately, the majority of American  women and girls are dissatisfied with their bodies, and many take  extreme measures in an attempt to change their bodies. For example, one  study found that 63% of female participants identified weight as the key  factor in determining how they felt about themselves - more important  than family, school, or career. Other research suggests that 86% of all  women are dissatisfied with their bodies and want to lose weight. Women  and adolescent girls regard size, much like weight, as a definitive  element of their identity. Some girls assume there is something wrong  with their bodies when they cannot fit consistently into some "standard"  size; others will reject a pair of jeans simply because they won't wear  a particular size. The majority of girls step on the scale to determine  their self-worth; if they have lost weight, then it is a good day and  they can briefly feel "okay" about themselves. If the number on the  scale has increased ever so slightly, then the day is ruined and they  feel worthless. Body image has now become intertwined with one's weight,  and therefore, if women are not happy with their weight, they cannot  possibly be satisfied with their bodies. Unfortunately, girls and women  take this a step farther and rationalize that negative body image is  directly equated to self-image. We are now living in a society where  young girls believe the one way to definitely improve their self-image  and to feel more confident is to lose weight and become thinner.</p>
+<p align="left">Women and young girls are now living in a society where their bodies  define who they are. Girls are terrified to gain weight and are  continually reminded by the media about various new diet products on the  market, and the value in weight loss. They are also bombarded by  countless television shows on plastic surgery, and the number of  cosmetic surgeries in this country is increasing every year. Women today  face impossible images of beauty on a daily basis when they watch  television, see a movie, or view a magazine. It is estimated that young  girls are exposed to 400 to 600 media images per day. Young girls and  women inescapably feel insecure about their bodies and physical  appearance and often believe they must change their bodies to gain  self-esteem. A recent survey found that only 2% of women in the world  would describe themselves as "beautiful." The vast majority of girls  want to change various aspects of their appearance. In today's society,  self-esteem and body-esteem have become one and the same. Unfortunately  this is having an emotional toll on young girls, and they are feeling  inadequate and often turn to severe behaviors in an attempt to  manipulate their bodies to "fit into" an unrealistic standard of beauty.  Eating disorders have flourished in this beauty-driven society. Young  girls and women are trapped in a negative cycle of body hatred. Women  with eating disorders are particularly vulnerable to this negative body  image cycle.</p>
+<p align="left">Although a large majority of women are displeased with their bodies,  many women and girls experience extreme body image difficulties that can  be part of more complicated problems. These extreme body image  disturbances include body dysmorphic disorder, eating disorders and  severe depression.</p>
+<p align="left"><strong>Body Dysmorphic Disorder</strong>:  This is a disorder of  "imagined ugliness."  What individuals with this disorder see in the  mirror is a grossly distorted view of what they actually look like.   Often, these individuals will spend hours examining, attempting to  conceal, or obsessing over their perceived flaws.  Some people actually  spend thousands of dollars on plastic surgery in an attempt to improve  their bodies.</p>
+<p align="left"><strong>Anorexia Nervosa</strong>: This disorder is characterized by an  extreme fear of gaining weight and these individuals actually perceive  their bodies as larger or "fat" even though they are grossly  underweight.</p>
+<p align="left"><strong>Bulimia Nervosa</strong>: Individuals with this disorder are  also very dissatisfied with their bodies and have extreme concern with  body weight and shape.</p>
+<p align="left"><strong>Depression</strong>: In many instances, individuals with  depression often have a distorted view of themselves and believe they  are less attractive than they really are.</p>
+<p align="left">Since negative body image is a prevalent problem for many women and  girls and can also be a component of many serious disorders, it is  critical that women learn to change their body image towards a healthy  and positive view of self.</p>
+<h4 align="left">Seven Ways to Overcome Negative Body Image</h4>
+<p align="left">Click the (+) next to each topic to learn more.</p>
+<table border="0">
+<tbody>
+<tr>
+<td id="plus1" onclick="expand(1)" onmouseout="hover(2, 1)" onmouseover="hover(1, 1)" style="font-weight: bold; padding: 0 5px 5px; cursor: pointer; background-color: #007ebd; color: #ffffff; border: 1px solid #ffffff;">+</td>
+<td style="padding: 0pt 5px 5px;"><strong><strong>1) </strong>Fight "Fatism"</strong></td>
+</tr>
+<tr>
+<td></td>
+<td id="hidden1" style="display: none;">
+<p>Work on accepting people of all sizes and shapes. This will help you   appreciate your own body. It may be useful to create a list of people   you admire that do not have "perfect" bodies. Does their appearance   affect how you feel about them? It is also important to remember that   society's standards have changed significantly over the last 50 years.   The women that were considered the "ideal beauties" in the 1940's and   1950's, like Marilyn Monroe (size 14) and Mae West, were full-bodied and   truly beautiful women, but they would be considered "overweight" by   today's standards.</p>
+</td>
+</tr>
+<tr>
+<td id="plus2" onclick="expand(2)" onmouseout="hover(2, 2)" onmouseover="hover(1, 2)" style="font-weight: bold; padding: 0 5px 5px; cursor: pointer; background-color: #007ebd; color: #ffffff; border: 1px solid #ffffff;">+</td>
+<td style="padding: 0pt 5px 5px;"><strong>2) Fight the Diet Downfall </strong></td>
+</tr>
+<tr>
+<td></td>
+<td id="hidden2" style="display: none;">
+<p>Ninety percent of all women have dieted at some point in their life, and   at any one point in time, 50% of women are dieting. A recent survey   found that 14% of five-year-old girls report that they "go on diets" in   an attempt to lose weight. By the time girls are ten years old, 80%   report going on a diet. Women are two times more likely to diet than   men. To dieters' dismay, 98% of all dieters gain the weight back in five   years. Studies also show that 20-25% of dieters progress to a partial   or full-blown eating disorder. Research has found that when restrained   eaters are exposed to commercials related to diet, weight loss, or   fitness, they experience negative emotions and are more likely to then   overeat. Women are foolish if they believe that dieting will make them   feel better about themselves. Dieting only helps you lose your   self-esteem and energy. Dieting also creates mood swings and feelings of   hopelessness. To fight the diet downfall, an intuitive eating approach   can be extremely helpful. This approach focuses on moderation of all   types of foods and not counting calories or label reading. Food is "just   food" and not labeled as "good" or "bad." Clients learn to monitor   their hunger/fullness and enjoy a healthy relationship with food. If you   feel pressure to lose weight, talk to a friend or loved one, or seek   professional help. There are many helpful books that focus on intuitive   eating that may be a good resource.</p>
+</td>
+</tr>
+<tr>
+<td id="plus3" onclick="expand(3)" onmouseout="hover(2, 3)" onmouseover="hover(1, 3)" style="font-weight: bold; padding: 0 5px 5px; cursor: pointer; background-color: #007ebd; color: #ffffff; border: 1px solid #ffffff;">+</td>
+<td style="padding: 0pt 5px 5px;"><strong><strong>3) Accept Genetics </strong></strong></td>
+</tr>
+<tr>
+<td></td>
+<td id="hidden3" style="display: none;">
+<p>It is critical to remember that many aspects of your body cannot be   changed. Genetics play a role in your body and at least 25% to 70% of   your body is determined by your genes. While there are many aspects of   your body we cannot change, you can change or modify your beliefs and   attitudes which influence the way you feel about yourself. Change starts   with you - it is internal, and it starts with self-respect and a   positive attitude. It is important to focus on health and not size. It   is important to not compare your body with your friends, family members,   or media images. We are all unique, and no two bodies are the same. We   can't be truly happy or healthy if we "diet into" a new body.</p>
+</td>
+</tr>
+<tr>
+<td id="plus4" onclick="expand(4)" onmouseout="hover(2, 4)" onmouseover="hover(1, 4)" style="font-weight: bold; padding: 0 5px 5px; cursor: pointer; background-color: #007ebd; color: #ffffff; border: 1px solid #ffffff;">+</td>
+<td style="padding: 0pt 5px 5px;"><strong>4) Understand that Emotions are Skin Deep </strong></td>
+</tr>
+<tr>
+<td></td>
+<td id="hidden4" style="display: none;">
+<p>It is important to discover the emotions and feelings that underlie your   negative body image. The statement "I feel fat" is never really about   fat, even if you are overweight. Each time a women looks at herself in   the mirror and says "Gross, I'm fat and disgusting," she is really   saying "There is something wrong with me or with what I'm feeling." When   we do not know how to deal with our feelings we turn to our bodies and   blame our bodies for our feelings. Every time you say "I'm fat" you  are  betraying your body, and you are betraying and ignoring your  underlying  feelings. Remember that "fat" is never a feeling; it's  avoidance of  feelings. Learn to discover your emotions and feelings,  and realize that  focusing on your body is only distracting you from  what is "really"  bothering you.</p>
+</td>
+</tr>
+<tr>
+<td id="plus5" onclick="expand(5)" onmouseout="hover(2, 5)" onmouseover="hover(1, 5)" style="font-weight: bold; padding: 0 5px 5px; cursor: pointer; background-color: #007ebd; color: #ffffff; border: 1px solid #ffffff;">+</td>
+<td style="padding: 0pt 5px 5px;"><strong>5) Question Messages Portrayed in the Media</strong></td>
+</tr>
+<tr>
+<td></td>
+<td id="hidden5" style="display: none;">
+<p>The media sends powerful messages to girls and women about the   acceptability (or unacceptability) of their bodies. Young girls are   taught to compare themselves to women portrayed as successful in the   media, assessing how closely they match up to the "ideal" body form.   Unfortunately, the majority of girls and women (96%) do not match up to   the models and actresses presented in the media. The average model is   5'10" and weighs 110 pounds, whereas the average women is 5'4" and   weighs 144 pounds. This is the largest discrepancy that has ever existed   between women and the cultural ideal. This discrepancy leads many  women  and girls to feel inadequate and negative about their bodies. It  is  important to realize that only 4% of women genetically have the  "ideal"  body currently presented in the media. The other 96% of women  feel they  must go to extreme measures to attempt to reach this  unobtainable image.  Many of the images presented in the media have been  computer enhanced  and airbrushed. The models' hips and waists have  often been slimmed and  their breasts enlarged through computer photo  manipulation. Many of the  women presented in the media suffer from an  eating disorder or have  adopted disordered eating behaviors to maintain  such low body weights.  It is important to start to question images in  the media and question  why women should feel compelled to "live up" to  these unrealistic  standards of beauty and thinness. One interesting  side note: Glamour  magazine tried to use more "average size" models in  their magazine and  found that sales went down. It is interesting that  research demonstrates  that women report feeling positive about their  bodies after seeing  normal images of women in the media, but this did  not improve readership  for Glamour magazine.</p>
+</td>
+</tr>
+<tr>
+<td id="plus6" onclick="expand(6)" onmouseout="hover(2, 6)" onmouseover="hover(1, 6)" style="font-weight: bold; padding: 0 5px 5px; cursor: pointer; background-color: #007ebd; color: #ffffff; border: 1px solid #ffffff;">+</td>
+<td style="padding: 0pt 5px 5px;"><strong><strong>6) Recognize the Influence of Body Misperception </strong> </strong></td>
+</tr>
+<tr>
+<td></td>
+<td id="hidden6" style="display: none;">
+<p>Women are prone to more negative feelings about their bodies than men.   In general, women are more psychologically invested in their physical   appearance. Your body image is central to how you feel about yourself.   Research reveals that as much as 1/4 of your self-esteem is the result   of how positive or negative your body image is. Unfortunately, many   women with eating disorders have a larger percentage of their esteem   invested in their bodies. Women with eating disorders often exhibit   unequivocal body image misperception, in which they misperceive the size   of part, or the entire body. Hence they are "blind" to their own   figures. This distortion is real and it is not due to "fat," but to the   eating disorder illness. It is important to recognize this  misperception  and attribute it to the eating disorder. When you feel  fat, remind  yourself that you misperceive your shape. Judge your size  according the  opinions of trusted others until you can trust your new  and more  accurate self-perceptions.</p>
+</td>
+</tr>
+<tr>
+<td id="plus7" onclick="expand(7)" onmouseout="hover(2, 7)" onmouseover="hover(1, 7)" style="font-weight: bold; padding: 0 5px 5px; cursor: pointer; background-color: #007ebd; color: #ffffff; border: 1px solid #ffffff;">+</td>
+<td style="padding: 0pt 5px 5px;"><strong><strong>7) Befriend Your Body </strong></strong></td>
+</tr>
+<tr>
+<td></td>
+<td id="hidden7" style="display: none;">
+<p align="left">It is important to combat negative body image because it  can lead to  depression, shyness, social anxiety and self-consciousness  in intimate  relationships. Negative body image may also lead to an  eating disorder.  It is time that women stop judging their bodies  harshly and learn to  appreciate their inner being, soul, and spirit. A  women's body is a  biological masterpiece; women can menstruate, ovulate  and create life.  Start to recognize you do not have to compare  yourself to other women or  women in the media. Begin to challenge  images presented in the media,  and realize that your worth does not  depend on how closely you fit these  unrealistic images.</p>
+<p align="left">In Margo Maine's book "Body Wars," she teaches women to  reclaim their  bodies and offers ways to help women love their bodies.  Here are  examples of 10 ways you can love your body:</p>
+<ol>
+<li>Affirm that your body is perfect just the way it is.</li>
+<li> Think of your body as a tool. Create an inventory of all the things you can do with it. </li>
+<li> Walk with your head high with pride and confidence in yourself as a person, not a size. </li>
+<li> Create a list of people you admire who have contributed to your  life,  your community, or the world. Was their appearance important to  their  success and accomplishments? </li>
+<li> Don't let your size keep you from doing things you enjoy. </li>
+<li> Replace the time you spend criticizing your appearance with more positive, satisfying pursuits. </li>
+<li> Let your inner beauty and individuality shine. </li>
+<li> Think back to a time in your life when you liked and enjoyed your body. Get in touch with those feelings now. </li>
+<li> Be your body's ally and advocate, not its enemy. </li>
+<li> Beauty is not just skin-deep. It is a reflection of your whole self. Love and enjoy the person inside. </li>
+</ol></td>
+</tr>
+</tbody>
+</table>
+<em> </em>
+<p align="left">In conclusion, negative body image is a serious problem and has damaging  affects on women's self-esteem. It can lead to depression, as well as  an eating disorder. Changing our world starts with you. Self-love and  respect, and the end of prejudice start with one person at a time. The  external pursuit of changing your body can often damage spirituality by  taking you away from the internal-self - the spirit, the soul, and the  whole genuine self. If you or someone you care about suffers with  negative body image, please seek professional help and stop the cycle of  body hatred.</p>
+<h5 align="left">REFERENCES AND SUGGESTED READINGS</h5>
+<p align="left"><em>What Do You See When You Look in the Mirror</em>?, Thomas F. Cash, Ph.D., Bantam Books, New York, 1995.</p>
+<p align="left"><em>When Women Stop Hating Their Bodies, </em>Jane R. Hirschmann &amp; Carol H. Munter, Fawcett Columbine, New York, 1995.</p>
+<p align="left"><em>Body Wars: Making Peace with Women's Bodies, </em>Margo Main, Ph.D., Gurze Books, Calsbad, 2000</p>
+<p align="left"><em>Reviving Ophelia: Saving the Selves of Adolescent Girls, </em>Mary Pipher, Ph.D., Random House, Ballantine Books, New York, 1994.</p>
+<p align="left"><em>Intuitive Eating: A Recovery Book for the Chronic Dieter,</em> Evelyn Tribole, M.S., R.D. &amp; Elyse Resch, M.S., R.D., New York, 1995.</p>
+<p>Courtesy of Center For Change</p>]]></BodyCopy><xPower Type="Component" Component="x24495" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x17637" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

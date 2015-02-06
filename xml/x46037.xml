@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content_FullWidth ID="x46037" Name="Photo Galleries" Layout="general_content.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Photo Galleries</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Photo Galleries</Abstract><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+#breadcrumbs{
+	display: none;
+}
+#top_content {
+	display: none;
+}
+.welcome {
+	text-align: center;
+	margin-bottom: 10px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 28px;
+	color: #056CB6;
+	line-height: 1em;
+}
+.ie7 .welcome {
+	margin-top: 10px;
+}
+.ie8 #audience_nav_box {
+	top: 10px;
+}
+.gallery_title {
+	font-weight: normal;
+}
+.embeded_show {
+	text-align: center;
+}
+.thumbnail_div {
+	text-align: center;
+	margin-top: 15px;
+	font-family: Arial;
+	text-decoration: none;
+	opacity: .7;
+	transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+	-webkit-transition: opacity .25s ease-in-out;
+}
+.thumbnail_div div {
+	clear: left;
+}
+.thumbnail_div:hover {
+	opacity: 1.0;
+	transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+	-webkit-transition: opacity .25s ease-in-out;
+}
+.thumbnail_div a:hover img {
+	text-decoration: none;
+}
+.thumbnail_photo {
+	border-radius: 5px;
+}
+.thumbnail_photo:hover {
+	border-radius: 5px;
+}
+.web_cams {
+	margin-top: 30px;
+}
+.web_cams:hover {
+	text-decoration: underline;
+}
+.feature {
+	text-decoration: none;
+	text-align: left;
+	font-family: Arial;
+	color: #535353;
+	margin-top: 10px;
+	height: 375px;
+	width: 270px;
+	margin-bottom: 20px;
+	padding: 20px;
+	transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+	-webkit-transition: all .25s ease-in-out;
+
+}
+.feature:hover {
+	background-color: #DBDBDB;
+	border-radius: 5px;
+	transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+	-webkit-transition: all .25s ease-in-out;
+}
+.type a:hover, #tinymce a:hover {
+	cursor: pointer;
+}
+.type a, #tinymce a {
+	text-decoration: none;
+}
+.shadow {
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	box-shadow: 0 8px 6px -6px black;
+	border-radius: 5px;
+}
+.feature h3 {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+--></style>
+<!-- For a simple version to read (Since the Web Builder takes out all the spaces and line breaks) you can locate the template with the comments in the Unicom Dropbox. -->
+<p></p>
+<!-- Last Update: Friday April 18th 2014 by Jeff Dunster -->
+<p></p>
+<!-- Start Page Title -->
+<div class="welcome">Welcome to the BYU-Idaho Photo Gallery</div>
+<!-- End Page Title -->
+<p></p>
+<!-- Start Featured Galleries -->
+<h2 class="gallery_title">Featured Galleries</h2>
+<div class="span-24 last"><!-- Start First Featured Gallery -->
+<div class="span-8 feature"><!-- Link to Gallery on Zenfolio --> <a href="http://photo.byui.edu/april2014graduation/" title="Graduation"> <!-- Direct link to image. Find this by locating the image on Zenfolio, click 'Share', and 'Small' under 'Direct link to image'. Or make your own and host it in the Assets folder with 270px width and 170px height. --> <img alt="April 2014 Graduation" class="shadow" height="170" src="Images/university-communications/gallery-images/Graduation%20Gallery/p730068181-4.jpg" width="260" /> <!-- Title and Descriptive Text --></a>
+<h3>Graduation</h3>
+<a href="http://photo.byui.edu/april2014graduation/slideshow" title="Graduation">The end of a semester marks a new beginning for thousands of BYU-Idaho graduates. Friends and family come from near and far to take part in this culminating educational experience. Take a look at some of the newest university alumni. </a></div>
+<!-- End First Featured Gallery --> <!-- Start Second Featured Gallery -->
+<div class="span-8 feature"><!-- Link to Gallery on Zenfolio --> <a href="http://photo.byui.edu/p598227379" title="BYU-Idaho Campus"> <!-- Direct link to image. Find this by locating the image on Zenfolio, click 'Share', and 'Small' under 'Direct link to image'. Or make your own and host it in the Assets folder with 270px width and 170px height. --> <img alt="BYU-Idaho Campus" class="shadow" height="174" src="Images/university-communications/graduation/Campus.gif" width="260" /> <!-- Title and Descriptive Text --></a>
+<h3>BYU-Idaho Campus</h3>
+<a href="http://photo.byui.edu/p598227379" title="BYU-Idaho Campus">BYU-Idaho's beautiful campus covers over 400 acres of land. Many of the buildings provide various resources for students, such as the library, Student Activities, and food services. From the unique Skywalk to the peaceful gardens, there is something for everyone to enjoy. </a></div>
+<!-- End Second Featured Gallery --> <!-- Start Last Featured Gallery -->
+<div class="span-8 last feature"><!-- Link to Gallery on Zenfolio --> <a href="http://photo.byui.edu/backtoschoolapril2014"> <!-- Direct link to image. Find this by locating the image on Zenfolio, click 'Share', and 'Small' under 'Direct link to image'. Or make your own and host it in the Assets folder with 270px width and 170px height. --> <img alt="First Day of School" class="shadow" height="169" src="Images/university-communications/graduation/Back-To-School.gif" width="260" /> <!-- Title and Descriptive Text --></a>
+<h3>Back to School</h3>
+<a href="http://photo.byui.edu/backtoschoolapril2014" title="First Day of School">BYU-Idaho's unique academic calendar is comprised of three semesters, providing flexibility that allows the university to serve a greater number of students over the course of a year. See students back at school Winter Semester 2014. </a></div>
+<!-- End Last Featured Gallery --></div>
+<!-- End Featured Galleries --><hr /><!-- Start Categories -->
+<h2 class="gallery_title">Categories</h2>
+<!-- Start First Row of Categories -->
+<div class="span-24 last"><!-- Start Category 1 -->
+<div class="span-6 thumbnail_div"><!-- Link to Gallery on Zenfolio --> <a href="http://photo.byui.edu/f119576092" title="Semester/Yearly Reviews"> <!-- Direct link to image. Find this by locating the image on Zenfolio, click 'Share', and 'Small' under 'Direct link to image'. Or make your own and host it in the Assets folder with 225px width and 150px height. --> <img alt="Semester/Yearly Reviews" class="thumbnail_photo" height="150" src="http://photo.byui.edu/img/s9/v93/p1611973318-3.jpg" width="225" /> <!-- Title --></a>
+<div>Semester/Yearly Reviews</div>
+</div>
+<!-- End Category 1 --> <!-- Start Category 2 -->
+<div class="span-6 thumbnail_div"><!-- Link to Gallery on Zenfolio --> <a href="http://photo.byui.edu/f313905708" title="Academics"> <!-- Direct link to image. Find this by locating the image on Zenfolio, click 'Share', and 'Small' under 'Direct link to image'. Or make your own and host it in the Assets folder with 225px width and 150px height. --> <img alt="Academics" class="thumbnail_photo" height="150" src="http://photo.byui.edu/img/s9/v95/p1710794516-2.jpg" width="225" /> <!-- Title --></a>
+<div>Academics</div>
+</div>
+<!-- End Category 2 --> <!-- Start Category 3 -->
+<div class="span-6 thumbnail_div"><!-- Link to Gallery on Zenfolio --> <a href="http://photo.byui.edu/f156118549" title="Buildings"> <!-- Direct link to image. Find this by locating the image on Zenfolio, click 'Share', and 'Small' under 'Direct link to image'. Or make your own and host it in the Assets folder with 225px width and 150px height. --> <img alt="Buildings" class="thumbnail_photo" height="150" src="http://photo.byui.edu/img/s1/v56/p1155527954-2.jpg" width="229" /> <!-- Title --></a>
+<div>Buildings</div>
+</div>
+<!-- End Category 3 --> <!-- Start Category 4 -->
+<div class="span-6 thumbnail_div last"><!-- Link to Gallery on Zenfolio --> <a href="http://photo.byui.edu/f278781666" title="Campus Events"> <!-- Direct link to image. Find this by locating the image on Zenfolio, click 'Share', and 'Small' under 'Direct link to image'. Or make your own and host it in the Assets folder with 225px width and 150px height. --> <img alt="Campus Events" class="thumbnail_photo" height="150" src="http://photo.byui.edu/img/s1/v57/p1146720662-2.jpg" width="225" /> <!-- Title --></a>
+<div>Campus Events</div>
+</div>
+<!-- End Category 4 --></div>
+<!-- End First Row of Categories -->
+<p></p>
+<!-- Start Second Row of Categories -->
+<div class="span-24 last"><!-- Start Category 5 -->
+<div class="span-6 thumbnail_div"><!-- Link to Gallery on Zenfolio --> <a href="http://photo.byui.edu/f201721183" title="Campus Scenery"> <!-- Direct link to image. Find this by locating the image on Zenfolio, click 'Share', and 'Small' under 'Direct link to image'. Or make your own and host it in the Assets folder with 225px width and 150px height. --> <img alt="Campus Scenery" class="thumbnail_photo" height="150" src="http://photo.byui.edu/img/s1/v46/p487577682-2.jpg" width="225" /> <!-- Title --></a>
+<div>Campus Scenery</div>
+</div>
+<!-- End Category 5 --> <!-- Start Category 6 -->
+<div class="span-6 thumbnail_div"><!-- Link to Gallery on Zenfolio --> <a href="http://photo.byui.edu/f424109096" title="Gardens"> <!-- Direct link to image. Find this by locating the image on Zenfolio, click 'Share', and 'Small' under 'Direct link to image'. Or make your own and host it in the Assets folder with 225px width and 150px height. --> <img alt="Gardens" class="thumbnail_photo" src="http://photo.byui.edu/img/s8/v81/p1456154876-2.jpg" width="226" /> <!-- Title --></a>
+<div>Gardens</div>
+</div>
+<!-- End Category 6 --> <!-- Start Category 7 -->
+<div class="span-6 thumbnail_div"><!-- Link to Gallery on Zenfolio --> <a href="http://photo.byui.edu/f14598160" title="Local Area"> <!-- Direct link to image. Find this by locating the image on Zenfolio, click 'Share', and 'Small' under 'Direct link to image'. Or make your own and host it in the Assets folder with 225px width and 150px height. --> <img alt="Local Area" class="thumbnail_photo" height="150" src="http://photo.byui.edu/img/s8/v80/p1408706928-3.jpg" width="226" /> <!-- Title --></a>
+<div>Local Area</div>
+</div>
+<!-- End Category 7 --> <!-- Start Category 8 -->
+<div class="span-6 thumbnail_div last"><!-- Link to Gallery on Zenfolio --> <a href="http://photo.byui.edu/f409128779" title="Student Activities"> <!-- Direct link to image. Find this by locating the image on Zenfolio, click 'Share', and 'Small' under 'Direct link to image'. Or make your own and host it in the Assets folder with 225px width and 150px height. --> <img alt="Student Activities" class="thumbnail_photo" height="150" src="Images/PRPhotos/111022GuitarsUnplugged285-1.jpg" width="225" /> <!-- Title --></a>
+<div>Student Activities</div>
+</div>
+<!-- End Category 8 --></div>
+<!-- End Second Row of Categories -->
+<p></p>
+<!-- Start Last Row of Categories -->
+<div class="span-24 last"><!-- Start Category 9 -->
+<div class="span-6 thumbnail_div"><!-- Link to Gallery on Zenfolio --> <a href="http://photo.byui.edu/f523040905" title="Rexburg Temple"> <!-- Direct link to image. Find this by locating the image on Zenfolio, click 'Share', and 'Small' under 'Direct link to image'. Or make your own and host it in the Assets folder with 225px width and 150px height. --> <img alt="Rexburg LDS Temple" class="thumbnail_photo" height="150" src="http://photo.byui.edu/img/s10/v114/p1879046435-2.jpg" width="225" /> <!-- Title --></a>
+<div>Temple</div>
+</div>
+<!-- End Category 9 -->
+<div class="span-6 thumbnail_div"><!-- Link to Gallery on Zenfolio --> <a href="http://photo.byui.edu/f1071831041" title="VIP's"> <!-- Direct link to image. Find this by locating the image on Zenfolio, click 'Share', and 'Small' under 'Direct link to image'. Or make your own and host it in the Assets folder with 225px width and 150px height. --> <img alt="VIP's" class="thumbnail_photo" height="150" src="http://photo.byui.edu/img/s5/v118/p279095669-2.jpg" width="225" /> <!-- Title --></a>
+<div>VIP's</div>
+</div>
+<div class="span-6 thumbnail_div"><!-- Link to Gallery on Zenfolio --> <a href="http://photo.byui.edu/p57466358" title="Pathway"> <!-- Direct link to image. Find this by locating the image on Zenfolio, click 'Share', and 'Small' under 'Direct link to image'. Or make your own and host it in the Assets folder with 225px width and 150px height. --> <img alt="Pathway" class="thumbnail_photo" height="150" src="http://photo.byui.edu/img/s4/v65/p1135746860-3.jpg" width="225" /> <!-- Title --></a>
+<div>Pathway</div>
+</div>
+<div class="span-6 thumbnail_div last"><!-- Link to Gallery on Zenfolio --> <a href="http://photo.byui.edu/f702195647" title="Pathway"> <!-- Direct link to image. Find this by locating the image on Zenfolio, click 'Share', and 'Small' under 'Direct link to image'. Or make your own and host it in the Assets folder with 225px width and 150px height. --> <img alt="Upward" class="thumbnail_photo" height="150" src="http://photo.byui.edu/img/s2/v53/p2072594693-3.jpg" width="225" /> <!-- Title --></a>
+<div>Upward</div>
+</div>
+</div>
+<!-- End Last Row of Categories -->
+<p></p>
+<!-- End Categories -->
+<p></p>
+<!-- Start Web Camera Link -->
+<div class="span-24 web_cams last">
+<h4><a href="http://www.byui.edu/Webcameras/">View campus web cameras &gt;&gt;</a></h4>
+</div>
+<!-- End Web Camera Link -->]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_FullWidth>

@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x46085" Name="Grades and Credits" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Grades and Credits</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Grades and Credits</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<!--SCRIPTS AND STYLESHEETS-->
+<div><link href="http://fonts.googleapis.com/css?family=Cambo" rel="stylesheet" type="text/css" /></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+window.jQuery || document.write('<script src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" _mce_src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" _mce_src="prebuilt/stylenew/js/libs/jquery-1.7.min.js"><\/script>')
+</script>
+<script src="prebuilt/stylenew/js/mylibs/scrolling_events_bar.js" type="text/javascript"></script>
+<script src="Documents/student-records-and-registration/ibox2.js" type="text/javascript"></script>
+<div><link href="Documents/student-records-and-registration/srrcss3.css" rel="stylesheet" type="text/css" /></div>
+<!--IBOXS-->
+<div id="grade1" style="display: none;">
+<p><strong>Submitting Final Grades</strong></p>
+<p>The Grade Submission Portal allows instructors to import your grades from iLearn. <em>However, faculty who do not use I-Learn will now also easily enter their grades through this new portal.</em> The portal will import grades as they have been calculated in I-Learn. Therefore, keeping grades up-to-date in I-Learn is key to the portal&rsquo;s convenience. Once imported, instructors can modify any grade before they are submitted to Student Records and Registration.</p>
+<p>Access the Grade Submission Portal by one of the following methods:</p>
+<ul>
+<li>Using I-Learn: <a href="http://www2.byui.edu/ATS/tutorials/brainhoney/gradebook/Submit_Final_ss.pdf"><span style="text-decoration: underline;">tutorial</span></a></li>
+<li>NOT using I-Learn: <a href="http://www2.byui.edu/ATS/tutorials/brainhoney/gradebook/Submit_Final_NoILearn.pdf"><span style="text-decoration: underline;">tutorial</span></a></li>
+<li>Direct Link: <a href="https://web.byui.edu/ilearn/gradesubmit/submitStatus.aspx"><span style="text-decoration: underline;">http://web.byui.edu/ilearn/gradesubmit</span></a></li>
+</ul>
+<p>NOTE: Non-reported grades negatively impact students in many ways including academic standing, awarding of degrees, employment and graduate school opportunities, and completion of final transcripts. Therefore, the timely submission of grades is very important.</p>
+</div>
+<div id="grade2" style="display: none;">
+<p><strong>W Grades (Withdrawal)</strong></p>
+<ul>
+<li>W grades are placed on your academic record (transcript) if you drop a class anytime after the 22nd day in a semester (or after the 15th day in a block) up until the final drop deadline, for any reason.</li>
+<li>W grades are NOT calculated into your grade point average (GPA).</li>
+<li>W grades remain on your transcript even if you re-take the class at a later date.</li>
+<li>W grades are considered non-progress grades and are calculated into the 75% progress requirement.</li>
+<li>If you are receiving Federal Financial Aid, you must check with that office to determine how W grades affect your eligibility.</li>
+</ul>
+<p><strong>UW Grades (Unofficial Withdrawal</strong></p>
+<p>A UW grade represents an unofficial withdrawal which is given to a student who meets all of the following criteria:</p>
+<ol>
+<li>The student did not complete proper withdrawal procedures from the course (i.e., did not drop the class within the established academic deadlines).</li>
+<li>The student has a record of non-attendance</li>
+<li>The student did not complete any work, tests, or class-related assignments after attendance ceased.</li>
+<li>The student&rsquo;s record of non-attendance began <span style="text-decoration: underline;">before</span> the last date to drop classes without receiving the grade earned (June 15 for full-semester Summer 2008 classes or June 30 for second block Summer 2008 classes).</li>
+</ol>
+<p>Based on this information, an F grade is appropriate if:</p>
+<ol>
+<li>the student <span style="text-decoration: underline;">does not</span> have a record of non-attendance and the student&rsquo;s academic performance warrants a failing grade</li>
+<li>the student&rsquo;s record of non-attendance began <span style="text-decoration: underline;">after</span> the last date to drop a class without receiving the grade earned (June 15 for full-semester Summer 2008 classes or June 30 for second block Summer 2008 classes).</li>
+</ol>
+<p>Both an F and a UW are calculated into the GPA as a failing grade value (0.0).</p>
+</div>
+<div id="grade3" style="display: none;">
+<p><strong>T Grades (temporary)</strong></p>
+<p>"T" grades represent a temporary grade that was assigned for courses that do not fall within the normal academic deadlines of any given semester (e.g., internships, student teaching, tours). T grades can only be assigned by the Student Records and Registration Office for courses that meet these conditions.</p>
+<p>T grades do not impact a student&rsquo;s GPA, but may impact Satisfactory Academic Standing in that the credits for the course are counted as attempted, but not yet earned. Therefore, instructors over courses for which T grades are assigned are encouraged to submit their final grades as soon as the coursework is completed.</p>
+<p><strong>NR Grades (non-reported)</strong></p>
+<p>"NR" represents that the grade was not reported by the instructor. A student receiving an "NR" grade should contact the instructor to request that a valid grade be submitted to the Student Records and Registration Office.</p>
+<p>As with T Grades, NR grades do not impact a student&rsquo;s GPA, but may impact Satisfactory Academic Standing in that the credits for the course are counted as attempted, but not yet earned. Therefore, instructors over courses for which NR grades were assigned are encouraged to submit their final grades as soon as possible</p>
+</div>
+<div id="grade4" style="display: none;">
+<p><strong>Incomplete Contracts</strong></p>
+<p>An incomplete grade (I) is a conditional grade only granted under the following circumstances:</p>
+<ul>
+<li>Extenuating circumstances occurred (serious illness, personal injury, death in immediate family, etc.) that hindered class work and occurred after the tenth week of a semester or the fourth week of a block.</li>
+<li>The student must have a passing grade at the time of petitioning for the incomplete grade. It is not a substitute for a failing grade. Therefore, an incomplete grade should not be granted if the student is failing a class and wants additional time to submit make-up work in order to improve a grade.</li>
+<li>The student must be able to complete the remaining work on an individual basis with the instructor. Re-enrollment in all or part of the same course during a subsequent semester may not be required as part of the contract. The general length of time to fulfill the requirements of an incomplete contract is one additional semester; however, if circumstances warrant, the instructor may contact Student Records and Registration to extend the length of the contract.</li>
+<li>Instructor approval is mandatory, and the instructor may choose not to allow an incomplete contract since it requires the instructor to individually work with the student in addition to his or her normal workload.</li>
+</ul>
+<p>Incomplete Contract forms are available from most department or college offices or from Student Records and Registration (KIM 190). Once an agreement has been made and the form has been completed by the faculty member and the student:</p>
+<ul>
+<li>The student keeps the yellow copy.</li>
+<li>The student submits the pink copy to the Student Records and Registration Office (KIM 190) for processing.</li>
+<li>The faculty member retains the white copy until all conditions have been met at which time it is submitted with a final grade to Student Records and Registration.</li>
+</ul>
+</div>
+<!--IMAGES-->
+<div><img height="140" src="Images/Admin_Offices/Student Record and Registration/SecondLevelPage/travis.png" width="510" /> <img alt="Header Banner" height="140" src="Images/Admin_Offices/Student Record and Registration/SecondLevelPage/DepartmentInfo.png" width="168" /></div>
+<div id="bar"><img alt="bar" height="4" src="Images/Admin_Offices/Student Record and Registration/SecondLevelPage/bar1.png" width="710" /></div>
+<!--TABZ-->
+<div class="sectionstwo">
+<div class="tabz"><a href="x44390.xml">Academic Resources&nbsp;and Policies</a> <a class="current" href="x46085.xml">Grades&nbsp;and Credits</a> <a href="x46086.xml">Course Scheduling</a> <a href="x46087.xml">Tutorials&nbsp;and FAQ's</a><a href="x97337.xml">Curriculum Forms</a></div>
+<!--NAVIGATION-->
+<div class="box visible">
+<ul>
+<li><a href="student-records-and-registration/department-information#grade1" rel="ibox">Submitting Final Grades</a></li>
+<li><a href="x69178.xml">Faculty Declaration of Participation</a></li>
+<li><a href="student-records-and-registration/department-information#grade2" rel="ibox">W's (withdrawal) and UW's (unofficial withdrawal)</a></li>
+<li><a href="student-records-and-registration/department-information#grade3" rel="ibox">T's (temporary grade) and NR's (non-reported grade)</a></li>
+<li><a href="student-records-and-registration/department-information#grade4" rel="ibox">Incomplete Contracts</a></li>
+<li><a href="Documents/student-records-and-registration/Department Info/Submitting a Grade Change Request.pdf">Submit a Grade Change Request (FAQ's)</a></li>
+<li><a href="Documents/student-records-and-registration/Department Info/Approving Grade Change Request FAQ's.pdf">Approve a Grade Change Request (FAQ's)</a></li>
+</ul>
+</div>
+</div>
+<!--EVENTS-->
+<div class="span-18 last" id="events_bar_horizontal">
+<div class="span-18 last" id="window">
+<div id="events_bar_control"><span class="prev">&nbsp;</span><span class="next"></span></div>
+<div id="pane"><!--THE BEGING OF THE EVENTS-->
+<script src="Documents/Admin_Offices/Student Records and Registration/Events Script.js" type="text/javascript"></script>
+<!--THE END OF THE EVENTS--></div>
+</div>
+</div>
+<!--FOOTER-->
+<div id="email" style="display: none;">
+<p><strong>Email Information</strong></p>
+<p>For any questions please email us at <a href="mailto:registrar@byui.edu"><span style="text-decoration: underline;">registrar@byui.edu</span></a></p>
+</div>
+<div id="phone" style="display: none;">
+<p><strong>Phone Information</strong></p>
+<p>For any questions please call us at (208) 496-1000</p>
+</div>
+<div><img alt="Bar" height="2" src="Images/Admin_Offices/Student Record and Registration/HomePage/bottomBar.jpg" width="710" /></div>
+<div class="barb"><img alt="Bar" height="2" src="Images/Admin_Offices/Student Record and Registration/HomePage/bottomBar.jpg" width="710" /></div>
+<div id="bottomContact">
+<ul>
+<li><img alt="Email Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/envelope.png" width="23" /><a href="#email" rel="ibox"> Email Us</a></li>
+<li><img alt="Phone Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/phone.png" width="23" /><a href="#phone" rel="ibox"> Call Us</a></li>
+<li><img alt="Visit Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/visit.png" width="23" /><a href="Images/Admin_Offices/Student Record and Registration/HomePage/byuidahoMap.jpg" rel="ibox"> Visit Us</a></li>
+<li><img alt="Facebook Link" height="16" src="Images/Admin_Offices/Student Record and Registration/HomePage/facebook.png" width="16" /><a href="http://www.facebook.com/pages/BYU-Idaho-Student-Records-and-Registration/276472292461946?fref=ts"> facebook</a></li>
+<li><img alt="Live Chat Link" height="16" src="Images/Admin_Offices/Student Record and Registration/HomePage/livechat.png" width="18" /><a href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=SRR&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large" onclick="window.open('https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=SRR&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large&amp;referrer='+escape(document.location),'chat1132447','width=472,height=320');return false;" target="chat1132447"> Live Chat</a></li>
+<li><img alt="Site Index Link" height="17" src="Images/Admin_Offices/Student Record and Registration/HomePage/index.png" width="18" /><a href="x43952.xml"> Index</a></li>
+</ul>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x17143" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.68 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x57354" Name="math_old" Layout="general_content.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Math help</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Math help</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+  DIV.subcenter {
+        PADDING: 0px; MARGIN: 0px auto; DISPLAY: block; MARGIN-LEFT: 5px; FONT-FAMILY: Arial, Verdana, Sans-serif; 
+        WIDTH: 630px;
+  }
+
+  DIV.subcenter DIV {
+        PADDING: 0px; MARGIN: 0px auto; DISPLAY: block
+  }
+  DIV.subcenter P {
+	PADDING: 0px; MARGIN: 0px auto; FONT-FAMILY: Arial, Verdana, Sans-serif; DISPLAY: block; LINE-HEIGHT: 100%;
+  }
+  DIV.subcenter A {
+        PADDING: 0px; MARGIN: 0px auto; TEXT-DECORATION: none; COLOR: black;
+  }
+  DIV.subcenter A:hover {
+        TEXT-DECORATION: underline; COLOR: black;
+  }
+  DIV.subcenter A:visited {
+        TEXT-DECORATION: none;
+  }
+  DIV.subcenter SPAN {
+        PADDING: 0px; MARGIN: 0px auto;
+  }
+  DIV.subcenter IMG {
+        PADDING: 0px; MARGIN: 0px auto; BORDER: none;
+  }
+  DIV.subcenter H1 {
+        FONT-SIZE: 22pt; COLOR: #8d939a; FONT-WEIGHT: normal; MARGIN-BOTTOM: 10px;
+  }
+
+  DIV.subcenter A.welcome {
+        TEXT-DECORATION: none;
+  }
+
+  DIV.subcenter DIV.msc A {
+        BACKGROUND: url(http://courses.byui.edu/AcademicSupport/math-study-center/web-pics/msc-bknd.jpg) no-repeat; no-repeat;
+        WIDTH: 396px; HEIGHT: 481px; FLOAT: left; DISPLAY: block; TEXT-ALIGN: center; MARGIN-BOTTOM: 10px;
+  }
+  DIV.subcenter DIV.msc A P.style1 {
+        MARGIN-RIGHT: 10px; FONT-SIZE: 65px; COLOR: #4d5154; POSITION: relative; TOP: -5px; TEXT-ALIGN: center;
+  }
+  DIV.subcenter DIV.msc A P.style2 {
+        MARGIN-RIGHT: 10px; FONT-SIZE: 117px; COLOR: #1b1b1b; POSITION: relative; TOP: -20px; TEXT-ALIGN: center;
+  }
+  DIV.subcenter DIV.msc A P.style3 {
+        MARGIN-RIGHT: 10px; FONT-SIZE: 40px; COLOR: #4d5055; POSITION: relative; TOP: -32px; TEXT-ALIGN: center;
+  }
+  DIV.subcenter DIV.msc A:hover {
+        TEXT-DECORATION: none;
+  }
+  DIV.subcenter DIV.msc A:hover P.style3 {
+        TEXT-DECORATION: underline;
+  }
+
+  DIV.subcenter DIV.tutor_request {
+        WIDTH: 232px; HEIGHT: 299px; FLOAT: left;
+  }
+  DIV.subcenter DIV.tutor_request A {
+        BACKGROUND: url(http://courses.byui.edu/AcademicSupport/math-study-center/web-pics/tutor-request-bknd.jpg) no-repeat; yellow no-repeat;
+        WIDTH: 232px; HEIGHT: 299px; DISPLAY: block; TEXT-ALIGN: left;
+  }
+  DIV.subcenter DIV.tutor_request A P.style1 {
+        MARGIN-LEFT: 17px; FONT-SIZE: 20px; COLOR: #4c5053; POSITION: relative; TOP: 15px; TEXT-ALIGN: left;
+  }
+  DIV.subcenter DIV.tutor_request A P.style2 {
+        MARGIN-LEFT: 5px; FONT-SIZE: 50px; COLOR: #36373b; POSITION: relative; TOP: 10px; TEXT-ALIGN: left;
+  }
+  DIV.subcenter DIV.tutor_request A:hover {
+        TEXT-DECORATION: none;
+  }
+  DIV.subcenter DIV.tutor_request A:hover P.style2 {
+        TEXT-DECORATION: underline;
+  }
+
+
+  DIV.subcenter DIV.math_classes {
+        BACKGROUND: url(http://courses.byui.edu/AcademicSupport/math-study-center/web-pics/math-classes-bknd.jpg) no-repeat;
+        WIDTH: 232px; HEIGHT: 182px; FLOAT: left; TEXT-ALIGN: right; MARGIN-BOTTOM: 10px;
+  }
+  DIV.subcenter DIV.math_classes A.title P.style1 {
+        MARGIN-RIGHT: 15px; FONT-SIZE: 22px; COLOR: #4d5154; POSITION: relative; TOP: 10px; TEXT-ALIGN: right;
+  }
+  DIV.subcenter DIV.math_classes A.title P.style2 {
+        MARGIN-RIGHT: 15px; FONT-SIZE: 35px; COLOR: #36373b; POSITION: relative; TOP: 5px; TEXT-ALIGN: right;
+  }
+  DIV.subcenter DIV.math_classes A.title:hover {
+        TEXT-DECORATION: none;
+  }
+  DIV.subcenter DIV.math_classes A.title:hover P.style2 {
+        TEXT-DECORATION: underline;
+  }
+  DIV.subcenter DIV.math_classes P.class_codes {
+        TEXT-ALIGN: left; MARGIN-TOP: 26px; MARGIN-LEFT: 133px;
+  }
+  DIV.subcenter DIV.math_classes P.class_codes A {
+        COLOR:#a24174; FONT-SIZE: 16px; LINE-HEIGHT: 22px;
+  }
+  DIV.subcenter DIV.math_classes P.class_codes A:hover {
+        COLOR:#a24174;
+  }
+
+  DIV.subcenter DIV.chat_box {
+        FLOAT: left; MARGIN-RIGHT: 15px;
+  }
+
+  DIV.subcenter DIV.small_box {
+        MARGIN-BOTTOM: 15px;
+  }
+  DIV.subcenter DIV.small_box DIV.title {
+        FLOAT: left; PADDING-LEFT: 35px; PADDING-TOP: 3px; FONT-WEIGHT: bold; MARGIN-BOTTOM: 2px; WIDTH: 150px; HEIGHT: 25px; COLOR: #363739;
+  }
+  DIV.subcenter DIV.small_box DIV#info {
+        BACKGROUND: url(http://courses.byui.edu/AcademicSupport/math-study-center/web-pics/info-link.jpg) no-repeat;
+  }
+  DIV.subcenter DIV.small_box DIV#contact {
+        BACKGROUND: url(http://courses.byui.edu/AcademicSupport/math-study-center/web-pics/contact-link.jpg) no-repeat;
+  }
+  DIV.subcenter DIV.small_box DIV.subtext {
+        FLOAT: left; WIDTH: 175px; MARGIN-LEFT: 20px; MARGIN-BOTTOM: 20px; FONT-SIZE: 15px;
+  }
+  DIV.subcenter DIV.small_box DIV.subtext A {
+        FLOAT: RIGHT; FONT-WEIGHT: bold;
+  }
+  DIV.subcenter DIV.small_box DIV.subtext A#info {
+        COLOR: #d9511d;
+  }
+  DIV.subcenter DIV.small_box DIV.subtext A#contact {
+        COLOR: #a24176;
+  }
+--></style>
+<div class="subcenter" id="subcenter"><a class="welcome" href="x18026.xml">
+<h1>Welcome to the Academic Support Centers</h1>
+</a>
+<div class="msc" id="msc"><a>
+<p class="style1">VISIT THE</p>
+<p class="style2">MATH</p>
+<p class="style3">STUDY CENTER</p>
+</a></div>
+<div class="tutor_request" id="tutor_request"><a href="https://tutortrack.byui.edu/TracWeb40/default.html">
+<p class="style1">REQUEST A</p>
+<p class="style2">TUTOR</p>
+</a></div>
+<div class="math_classes" id="math_classes"><a class="title">
+<p class="style1">college-prep.</p>
+<p class="style2">math classes</p>
+</a>
+<p class="class_codes"><a>MATH 100A</a><br /> <a>MATH 100B</a><br /> <a>MATH 101</a></p>
+</div>
+<!--CHAT BOX GOES HERE-->
+<div class="chat_box"><img src="http://courses.byui.edu/AcademicSupport/math-study-center/web-pics/temp-chat.jpg" /></div>
+<!--CHAT BOX GOES HERE-->
+<div class="small_box" id="test_reviews">
+<div class="title" id="info"><a>test reviews</a></div>
+<div class="subtext">
+<p>Students may also review their          Math 100 and 101 tests at the          Math Study Center.<br /> <a id="info">[learn more]</a></p>
+</div>
+</div>
+<div class="small_box" id="contact_us">
+<div class="title" id="contact"><a>contact us</a></div>
+<div class="subtext">
+<p>McKay Library 266 &amp; 270<br /> 2nd Floor, East Wing<br /> <br /> Phone:<br /> 208.496.4289<br /> 208.496.4270<br /> <a id="contact">[more contacts]</a></p>
+</div>
+</div>
+</div>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x25860" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

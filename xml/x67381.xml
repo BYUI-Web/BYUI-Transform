@@ -1,0 +1,375 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<CommonPage ID="x67381" Name="Print Pricing" Layout="default.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Print Pricing</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Print Pricing</Abstract><xPower Type="GroupStart" GroupStart="" Name="ImageColumn" label="Image Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveRight type="boolean" hidden="true" label="Toggle column left or right (left is default)" readonly="false" required="false">false</MoveRight><xPower Type="List" List="xpowercomponent_ImageComponent" Name="ImageColumnComponentList" label="Images" readonly="false" hidden="false" required="false" Component="" CompTypes="LeftColumnImageComponent" Expanded="false"><xPower Type="Component" Component="" Name="ImageComponent" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent" Expanded="false"/></xPower><xPower Type="List" List="xpowercomponent_TextComponent" Name="TextColumnComponentList" label="Text Box" readonly="false" hidden="false" required="false" Component="" CompTypes="ColumnTextComponent" Expanded="false"><xPower Type="Component" Component="" Name="TextComponent" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent" Expanded="false"/></xPower></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p><strong>Pricing</strong></p>
+<p>This pricing list was determined by the University Press. Price  ranges vary depending on quantities and options selected. Please call  the <a href="http://www.byui.edu/press/" target="_blank">University Press</a> at Ext. 2300 for a price quote. Pricing list as of July, 2009. Prices are subject to change.</p>
+<br /> 
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+<tbody>
+<tr>
+<td nowrap="nowrap" valign="bottom" width="163">
+<p><strong>Kiosks</strong></p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="283">
+<p><strong>Description</strong></p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="107">
+<p align="center"><strong>Price</strong></p>
+</td>
+</tr>
+<tr>
+<td nowrap="nowrap" valign="bottom" width="163">
+<p>22x45 inches</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="283">
+<p>Half size</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="107">
+<p align="right">$30.00</p>
+</td>
+</tr>
+<tr>
+<td nowrap="nowrap" valign="bottom" width="163">
+<p>43.75x45 inches</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="283">
+<p>full size</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="107">
+<p align="right">$52.00</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" nowrap="nowrap" valign="bottom">
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td nowrap="nowrap" valign="bottom" width="163">
+<p><strong>Banners</strong></p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="283">
+<p><strong>Description</strong></p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="107">
+<p align="center"><strong>Price</strong></p>
+</td>
+</tr>
+<tr>
+<td nowrap="nowrap" valign="bottom" width="163">
+<p>30x60 inches</p>
+</td>
+<td valign="bottom" width="283">
+<p>May be printed up   to 35.5 inches wide for this price. Includes 6 grommets</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="107">
+<p align="right">$63.00</p>
+</td>
+</tr>
+<tr>
+<td nowrap="nowrap" valign="bottom" width="163">
+<p>30x72 inches</p>
+</td>
+<td valign="bottom" width="283">
+<p>May be printed up   to 35.5 inches wide for this price. Includes 10 grommets</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="107">
+<p align="right">$75.00</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" nowrap="nowrap" valign="bottom">
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td nowrap="nowrap" valign="bottom" width="163">
+<p><strong>Posters</strong></p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="283">
+<p><strong>Description</strong></p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="107">
+<p align="center"><strong>Price range </strong></p>
+</td>
+</tr>
+<tr>
+<td nowrap="nowrap" valign="bottom" width="163">
+<p>11x17 inches</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="283">
+<p>1-sided printed in   color</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="107">
+<p align="right">$0.95   - $2.76</p>
+</td>
+</tr>
+<tr>
+<td nowrap="nowrap" valign="bottom" width="163">
+<p>13x20&nbsp;</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="283">
+<p>1-sided printed in   color</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="107">
+<p align="right">$1.00 - $2.79</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" nowrap="nowrap" valign="bottom">
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td nowrap="nowrap" valign="bottom" width="163">
+<p><strong>Brochures</strong></p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="283">
+<p><strong>Description</strong></p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="107">
+<p align="center"><strong>Price range</strong></p>
+</td>
+</tr>
+<tr>
+<td nowrap="nowrap" valign="bottom" width="163">
+<p>8.5x11 inches   (tri-fold)</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="283">
+<p>2-sided printed in   color</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="107">
+<p align="right">$0.75   - $2.08</p>
+</td>
+</tr>
+<tr>
+<td nowrap="nowrap" valign="bottom" width="163">
+<p>8.5x11 inches   (half-fold)</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="283">
+<p>2-sided printed in   color</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="107">
+<p align="right">$0.73   - $1.89</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" nowrap="nowrap" valign="bottom">
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td nowrap="nowrap" valign="bottom" width="163">
+<p><strong>Flyers</strong></p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="283">
+<p><strong>Description</strong></p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="107">
+<p align="center"><strong>Price range</strong></p>
+</td>
+</tr>
+<tr>
+<td nowrap="nowrap" valign="bottom" width="163">
+<p>4.25x5.5 inches</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="283">
+<p>Quarter   Page/1-sided printed in color</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="107">
+<p align="right">$0.11   - $1.00</p>
+</td>
+</tr>
+<tr>
+<td nowrap="nowrap" valign="bottom" width="163">
+<p>8.5x5.5 inches</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="283">
+<p>Half page/1-sided   printed in color</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="107">
+<p align="right">$0.20   - $0.96</p>
+</td>
+</tr>
+<tr>
+<td nowrap="nowrap" valign="bottom" width="163">
+<p>8.5x11 inches</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="283">
+<p>Full page/ 1-sided   printed in color</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="107">
+<p align="right">$0.39   - $1.19</p>
+</td>
+</tr>
+<tr>
+<td nowrap="nowrap" valign="bottom" width="163">
+<p>4.25x5.5 inches</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="283">
+<p>Quarter   Page/1-sided printed in B&amp;W</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="107">
+<p align="right">$0.02   - $0.80</p>
+</td>
+</tr>
+<tr>
+<td nowrap="nowrap" valign="bottom" width="163">
+<p>8.5x5.5 inches</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="283">
+<p>Half page/1-sided   printed in B&amp;W</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="107">
+<p align="right">$0.04   - $0.82</p>
+</td>
+</tr>
+<tr>
+<td nowrap="nowrap" valign="bottom" width="163">
+<p>8.5x11 inches</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="283">
+<p>Full page/1-sided   printed in B&amp;W</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="107">
+<p align="right">$0.08   - $0.84</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" nowrap="nowrap" valign="bottom">
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td nowrap="nowrap" valign="bottom" width="163">
+<p><strong>Newsletters</strong></p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="283">
+<p><strong>Description</strong></p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="107">
+<p align="center"><strong>Price Range</strong></p>
+</td>
+</tr>
+<tr>
+<td nowrap="nowrap" valign="bottom" width="163">
+<p>11x17 inches</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="283">
+<p>flat/2-sided   printed in B&amp;W</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="107">
+<p align="right">$0.18&nbsp; - 0.95</p>
+</td>
+</tr>
+<tr>
+<td nowrap="nowrap" valign="bottom" width="163">
+<p>11x17 inches</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="283">
+<p>fold in   half/2-sided printed in B&amp;W</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="107">
+<p align="right">$0.19   - $1.28</p>
+</td>
+</tr>
+<tr>
+<td nowrap="nowrap" valign="bottom" width="163">
+<p>8.5x11 inches   (Letter)</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="283">
+<p>flat/2-sided   printed in B&amp;W</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="107">
+<p align="right">$0.10   - $0.86</p>
+</td>
+</tr>
+<tr>
+<td nowrap="nowrap" valign="bottom" width="163">
+<p>8.5x11 inches (Half   mailer)</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="283">
+<p>fold in   half/2-sided printed in B&amp;W</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="107">
+<p align="right">$0.10   - $1.19</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" nowrap="nowrap" valign="bottom">
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td nowrap="nowrap" valign="bottom" width="163">
+<p><strong>Table tents</strong></p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="283">
+<p><strong>Description</strong></p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="107">
+<p align="center"><strong>Price range</strong></p>
+</td>
+</tr>
+<tr>
+<td nowrap="nowrap" valign="bottom" width="163">
+<p>8.5x11 inches   (tall)</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="283">
+<p>Flat/2-sided   printed in color</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="107">
+<p align="right">$0.51   - $9.35</p>
+</td>
+</tr>
+<tr>
+<td nowrap="nowrap" valign="bottom" width="163">
+<p>6.38x13.68 inches   (wide)&nbsp;</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="283">
+<p>Flat/2-sided   printed in color</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="107">
+<p align="right">$1.59   - $10.00</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" nowrap="nowrap" valign="bottom">
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td nowrap="nowrap" valign="bottom" width="163">
+<p><strong>Certificates</strong></p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="283">
+<p><strong>Description</strong></p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="107">
+<p align="center"><strong>Price range</strong></p>
+</td>
+</tr>
+<tr>
+<td nowrap="nowrap" valign="bottom" width="163">
+<p>8.5x11 inches</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="283">
+<p>1-sided printed in   color, on Strathmore paper</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="107">
+<p align="right">$0.44   - $1.25</p>
+</td>
+</tr>
+<tr>
+<td nowrap="nowrap" valign="bottom" width="163">
+<p>8.5x11 inches</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="283">
+<p>1-sided printed in   B&amp;W, on parchment paper</p>
+</td>
+<td nowrap="nowrap" valign="bottom" width="107">
+<p align="right">$0.05   - $0.82</p>
+</td>
+</tr>
+</tbody>
+</table>
+<br /> Questions? Send us an e-mail: <a href="mailto:ucidentity@byui.edu">ucidentity@byui.edu</a>]]></BodyCopy><xPower Type="Component" Component="x14" Name="RelatedLinks" label="Related Links" readonly="false" hidden="false" required="false" CompTypes="RelatedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="false" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x4147" Name="SiteControl" label="Site Control" readonly="true" hidden="true" required="false" CompTypes="SiteControl" Expanded="false"/></CommonPage>

@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x41090" Name="Courses" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">CIT Courses</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Computer Information Technology Courses with Descriptions and Objectives</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<p>A minimum GPA of 1.7 (C-) is required in major courses to graduate.</p>
+<p><a href="Documents/business-communication/2013_2014 course number changes.pdf">New Course Numbers - 2013-2014 catalog</a></p>
+<p style="font-weight: 600;">Please click on a title below to learn more about CIT Courses:</p>
+<h4>Business Courses (2013-2014 catalog)</h4>
+<ul>
+<li><a onclick="switchMenu('cit140');" style="text-decoration: none;" target="_self">CIT 110 -&nbsp;Introduction to Excel</a>&nbsp;
+<div id="cit140">
+<p>Introduction to the use of spreadsheets in business. Emphasis is on learning spreadsheet literacy concepts and a popular spreadsheet application to solve business problems.</p>
+<p>Objectives:</p>
+<ol start="1">
+<li>Use spreadsheets to solve a variety of problems</li>
+<li>Use built-in functions as well as formulas to manipulate data</li>
+<li>Create and modify charts and pivot tables to display data graphically</li>
+<li>Apply spreadsheet features with other applications to accomplish business needs</li>
+</ol></div>
+</li>
+<li><a onclick="switchMenu('cit355');" style="text-decoration: none;" target="_self">CIT 381 - Decision Support Systems</a>
+<div id="cit355">
+<p>This course introduces business decision making software and applications. It introduces students to the architecture, design, development, and deployment of frameworks for decision making. It discusses principles of Decision Support Systems (DSS), Executive Information Systems (EIS), Expert Systems (ES), and Management Information Systems (MIS). This course teaches the student how to build analytical models using non-procedural development environments, like Microsoft Excel. Topics include learning how to build what-if, sensitivity, single and multiple goal seeking analysis models, like min-max inventory models.</p>
+<p>Objectives:</p>
+<ol start="1">
+<li>Understanding of Excel 2007 technology stack</li>
+<li>Develop mastery of Excel 2007 functions for analytics</li>
+<li>Develop understanding of what-if analysis, scenario modeling, and goal seeking in a non-procedural framework of a spreadsheet</li>
+<li>Ability to design, create, and model problems in Excel 2007</li>
+<li>Ability to work effectively in a team</li>
+<li>Ability to research independently SQL syntax differences</li>
+</ol></div>
+</li>
+<li><a onclick="switchMenu('cit380');" style="text-decoration: none;" target="_self">CIT 380 - Project Management</a>
+<div id="cit380">
+<p>This course introduces concepts, issues, approaches, tools, and techniques applicable to the management of projects. Projects can be defined as any temporary endeavor undertaken to create unique product, service, or result. The course explores how a manager can plan, organize, implement and control non-routine activities to achieve cost, schedule and performance objectives.</p>
+<p>Objectives:</p>
+<ol start="1">
+<li>Demonstrate an understanding of concepts defining non-routine work tasks</li>
+<li>Demonstrate an understanding of concepts of project organization and control</li>
+<li>Demonstrate the ability to organize, lead, and manage a project team</li>
+<li>Explore various approaches and implementations of project life cycles</li>
+<li>Develop and present the business case for a project proposal</li>
+<li>Develop project scope, requirements, and procurement documentation</li>
+<li>Demonstrate a working knowledge of project time management techniques</li>
+<li>Use earned value management techniques to monitor and control project progress</li>
+<li>Identify and document lessons learned from a project implementation</li>
+</ol></div>
+</li>
+<li><a onclick="switchMenu('cit485');" style="text-decoration: none;" target="_self">CIT 485 - Enterprise Applications</a>
+<div id="cit485">
+<p>This course is a capstone class that integrates design, analysis, database concepts and programming. The course will present product integration, configuration management and implementation concepts. Students will learn how to install, maintain and integrate a suite of products to deliver complex Enterprise Resource Planning (ERP) and Customer Resource Management(CRM) solution.</p>
+<p>Objectives:&nbsp;</p>
+<ol start="1" type="1">
+<li>Architecture of Distributed Computing Solutions
+<ul type="circle">
+<li>Obtain an overview of computer communication paradigms, including forking processes and sockets.</li>
+<li>Understand the basics of system configuration, using Linux kernel tuning as a platform.</li>
+<li>Review and qualify the basics of Linux commands and vi editor use.</li>
+</ul>
+</li>
+<li>Software Configuration
+<ul type="circle">
+<li>Learn mechanisms for staging and configuring software.</li>
+<li>Learn how to install and maintain large systems.</li>
+<li>Examine comparative large-scale system organization, compare and contrast SNA to modern application architectures.</li>
+</ul>
+</li>
+<li>Software Deployment
+<ul type="circle">
+<li>Learn mechanisms for organizing systems like Accounts Payable in an ERP or CRM system.</li>
+<li>Learn how to extend ERP or CRM systems by adding a new application to an existing suite of applications.</li>
+</ul>
+</li>
+</ol></div>
+</li>
+</ul>
+<h4>Database Courses</h4>
+<ul>
+<li><a onclick="switchMenu('cit220');" style="text-decoration: none;" target="_self">CIT 111 - Introduction to Databases</a>
+<div id="cit220">
+<p>This course covers the basic elements of database management systems.&nbsp; It introduces students to the concepts of logical and physical relationships in a data model and the concepts of inner and outer joins.&nbsp; Students will use a computer aided software ingineering tool (CASE) to design, create, and query a database.</p>
+<p>Objectives:</p>
+<ol start="1">
+<li>Learn and apply the data modeling terms table, row, column, constraint, inner join</li>
+<li>Understand how databases are used in dynamic web pages</li>
+<li>Install a database management system (DBMS)</li>
+<li>Use a computer aided software engineering (CASE) tool to create a database</li>
+<li>Use a CASE tool to create and drop tables</li>
+<li>Use a CASE tool to insert, update, and delete rows</li>
+<li>Use a CASE tool to query a database</li>
+</ol></div>
+</li>
+<li><a onclick="switchMenu('cit320');" style="text-decoration: none;" target="_self">CIT 225 - Database Design and Development</a>
+<div id="cit320">
+<p>This course covers the physical and logical design elements of relational and object-relational databases, including the definition of and organization of structures into a database catalog. It explores symbolic drawing methodologies, like Information Engineering and UML. It teaches SQL language semantics, including DDL, DML and DQL structures. It exposes students to database configuration and tuning. It demonstrates and explores using external programming languages as access points to the database server, using the Java and PHP programming languages.</p>
+<p>Objectives:</p>
+<ol start="1">
+<li>Ability to use basic SQL commands</li>
+<li>Ability to compare, contrast, and convert SQL dialects</li>
+<li>Ability to design and model a database</li>
+<li>Ability to research independently SQL syntax differences</li>
+</ol></div>
+</li>
+<li><a onclick="switchMenu('cit420');" style="text-decoration: none;" target="_self">CIT 325 - Database Administration</a>
+<div id="cit420">
+<p>This course is a continuation if CIT 320 and focuses on the development of stored functions, libraries, objects, procedures and packages. Students will design and write stored database program units in PL/SQL. Students will use an Integrated Development Environment (IDE) to write and test programs against database.</p>
+<p>Objectives:</p>
+<ol start="1">
+<li>Ability to determine when to use SQL or a stored program</li>
+<li>Ability to understand transactional processing model</li>
+<li>Ability to conceptualize, design, and implement database applications</li>
+<li>Ability to compare, contrast, and select a solution architecture for a database centric application</li>
+</ol></div>
+</li>
+<li><a onclick="switchMenu('cit425');" style="text-decoration: none;" target="_self">CIT 425 - Data Warehousing</a>
+<div id="cit425">
+<p>This course defines the theory and practice of data analysis. The course will compare and contrast the operational and analytical database models. Students will learn how to define, implement and query a database warehouse by leveraging sample data warehouses built from Enterprise Resource Planning (ERP) and Customer Resource Management (CRM) solutions.</p>
+<p>Objectives:</p>
+<ol start="1">
+<li>Ability to understand large production OLTP systems</li>
+<li>Ability to understand data warehouse modeling</li>
+<li>Ability to understand how to perform Extract, Transform, and Load (ETL)</li>
+<li>Ability to understand XML data repositories and XQuery technology</li>
+<li>Ability to work effectively in a team</li>
+<li>Ability to research independently SQL syntax differences</li>
+</ol></div>
+</li>
+</ul>
+<h4>Networking Courses</h4>
+<ul>
+<li><a onclick="switchMenu('cit240');" style="text-decoration: none;" target="_self">CIT 240 - Networking</a>
+<div id="cit240">
+<p>This course teaches general networking principles to provide an understanding of data communication protocols, transmission systems, media, and software.</p>
+<p>Objectives:</p>
+<ol start="1">
+<li>Identify and describe the functions of each layer of the OSI model</li>
+<li>Recognize networking topologies and technologies</li>
+<li>Know types and benefits of network cabling and wireless technologies</li>
+<li>Understand the TCP/IP networking standards</li>
+<li>Understand and recognize various network equipment and their functions</li>
+<li>Be able to monitor and document occurrences on the network</li>
+<li>Learn basic configuration of network equipment</li>
+</ol></div>
+</li>
+<li><a onclick="switchMenu('cit340');" style="text-decoration: none;" target="_self">CIT 241 - Network Design</a>
+<div id="cit340">
+<p>Principles of network design standards and architectures. Configuration and use of networking devices including repeaters, hubs, bridges, switches and routers to crete enterprise networks.</p>
+<p>Objectives:</p>
+<ol start="1">
+<li>Install and configure switches and routers in multiprotocol internetworks using LAN and WAN interfaces</li>
+<li>Identify the different components of LAN &amp; WAN networking equipment</li>
+<li>Configure routers to secure network traffic</li>
+<li>Perform entry-level tasks in the planning, design, installation, operation and troubleshooting of Ethernet, TCP/IP Networks</li>
+</ol></div>
+</li>
+<li><a onclick="switchMenu('cit345');" style="text-decoration: none;" target="_self">CIT 345 - Wireless Networking</a>
+<div id="cit345">
+<p>This is an introductory course in Wireless Networking. The course encompasses the design, planning implementation, operation and troubleshooting of wireless communication. The material covers a comprehensive overview of technologies, security, and design practices.</p>
+<p>Objectives:</p>
+<ol start="1">
+<li>Understand the similarities and differences between wireless networks</li>
+<li>Implementation and configuration of 802.11 wireless devices</li>
+<li>Understand the importance of wireless security policies and procedures</li>
+<li>Become familiar with different software and hardware used for designing and trouble-shooting wireless networks</li>
+</ol></div>
+</li>
+<li><a onclick="switchMenu('cit440');" style="text-decoration: none;" target="_self">CIT 341 - Network Design II</a>
+<div id="cit440">
+<p>This course teaches general networking principles to provide an understanding of the basic switching, WAN technologies, and intermediate routing skills. Students will learn how to install and configure switches and routers in multiprotocol internetworks using LAN and WAN interfaces, improve network performance and security, perform entry-level tasks in the planning, design, installation, operation, and troubleshooting of Ethernet and TCP/IP networks.</p>
+<p>Objectives:</p>
+<ol start="1">
+<li>Understand the elements of a multilayered switched network.</li>
+<li>Understand the role of VLANs on a network and how to configure them.</li>
+<li>Troubleshoot and configure Spanning Tree Protocol.</li>
+<li>Undertand QoS concerns and solutions.</li>
+<li>Understand the issues dealing with Switching Optimization and Security.</li>
+<li>Design a campus network with availability and redundancy.</li>
+</ol></div>
+</li>
+</ul>
+<h4>Operating Systems Courses</h4>
+<ul>
+<li><a onclick="switchMenu('cit330');" style="text-decoration: none;" target="_self">CIT 352 - Operating Systems I</a>
+<div id="cit330">
+<p>The purpose of this course is to provide a fundamental understanding of computer operating systems.</p>
+<p>Objectives:</p>
+<ol start="1">
+<li>Understand how a computer works</li>
+<li>Understand operating system concepts</li>
+<li>Know how to install and configure the Linux operating system</li>
+<li>Know how to manage the Linux operating system and its services</li>
+</ol></div>
+</li>
+<li><a onclick="switchMenu('cit430');" style="text-decoration: none;" target="_self">CIT 353 - Operating Systems II</a>
+<div id="cit430">
+<p>The purpose of this course is to provide students with the administration skills to plan, install/configure, and manage Windows 2008 servers in a corporate environment.</p>
+<p>Objectives:</p>
+<ol start="1">
+<li>Installing, Upgrading, and Deploying Windows Server 2008</li>
+<li>Configuring Network Connectivity</li>
+<li>Active Directory and Group Policy</li>
+<li>Application Servers and Services</li>
+<li>Terminal Services and Virtualization</li>
+<li>File and Print Services</li>
+<li>2008 Management, Delegation and Monitoring</li>
+<li>Patch Management and Security</li>
+<li>Remote Access and Network Access Protection</li>
+<li>Certificate Services and Storage Area Networks</li>
+<li>Clustering and Hight Availability</li>
+<li>Backup and Recovery</li>
+<li>Name Resolution / DNS, DHCP, IPSec</li>
+</ol></div>
+</li>
+</ul>
+<h4>Programming Courses</h4>
+<ul>
+<li><a onclick="switchMenu('cit203');" style="text-decoration: none;" target="_self">CIT 160 - CIT Fundamentals</a>
+<div id="cit203">
+<p>An introduction to the basic concepts of computers and information technology. Students will learn the basics of computer hardware and the binary and hexadecimal number systems. Students will design algorithms to solve simple computing problems and will write computer programs using Boolean logic, control structures, and functions. Students will read and draw UML use case and class diagrams and will learn basic set and join theory.</p>
+<p>Objectives:</p>
+<ol start="1">
+<li>Understand basic computer and network architecture, including the function of each component and how the components interact</li>
+<li>Convert between number systems and do basic mathematical calculations in binary</li>
+<li>Create a simple web page using HTML that includes hyperlinks and validates using the w3c validator</li>
+<li>Evaluate compound boolean expressions, write advanced internet search queries that use boolean logic, and write truth tables for boolean expressions that include: NOT, AND, OR, XOR</li>
+<li>Define set, domain, range, union, intersection, difference, product, join, and outer join; draw Venn diagrams to illustrate each; and compute each as applicable</li>
+<li>Define the object oriented concepts: object, class, interface, attribute, method, inheritance and polymorphism</li>
+<li>Given a set of use cases, model the design of a software system using use case diagrams and class diagrams</li>
+<li>Use segmentation (divide &amp; conquer) to design a solution for a simple programming problem</li>
+<li>Develop and debug a computer program using the three basic programming control structures</li>
+</ol></div>
+</li>
+<li><a onclick="switchMenu('cit210');" style="text-decoration: none;" target="_self">CIT 260 - Object Oriented Programming I</a>
+<div id="cit210">
+<p>An introduction to object oriented programming using the Java programming language. Students will write computer programs using primitive data types, control structures, classes, and objects. Students will read and draw UML class diagrams and will use Java swing to write programs with a graphical user interface.</p>
+<p>Objectives:</p>
+<ol start="1">
+<li>Write computer programs that utilize introductory programming concepts, including control structures, modularity, and arrays</li>
+<li>Develop algorithms to solve problems, then code, test, and debug the algorithms in Java using an integrated development environment (IDE)</li>
+<li>Develop classes, methods, and objects in Java that use aggregation, inheritance, and polymorphism</li>
+<li>Define variable and method scope; recognize local, instance, and class variables and instance and class methods; write Java programs that appropriately use each of the variable and method scopes</li>
+<li>Distinguish among private, default, protected, and public visibilities and write Java programs that appropriately use each</li>
+<li>Read and draw UML class and interaction diagrams and write Java programs that satisfy those diagrams</li>
+<li>Write Java programs with a graphical user interface (GUI)</li>
+</ol></div>
+</li>
+<li><a onclick="switchMenu('cit312');" style="text-decoration: none;" target="_self">CIT 360 - Object Oriented Programming II</a>
+<div id="cit312">
+<p>This course is designed to allow you to experience a work-like environment. &nbsp;It pulls together Software Engineering and Object Oriented Programming techniques learned in previous courses. &nbsp;&nbsp;Based on customer requirements you will learn to find, evaluate, and select solutions to problems that have many 'right' solutions. &nbsp;You will also learn new Object Oriented and software production techniques.</p>
+<p>Objectives:</p>
+<ol start="1">
+<li>Use a high productivity design-development paradigm for creation of all code</li>
+<li>Understand the importance of design and testing</li>
+<li>Be able to describe, implement, and appropriately use several design patterns such as Facade, Model-View-Control, and Application Control</li>
+<li>Create UML diagrams and understand their importance and use</li>
+<li>Understand and implement server and client side sockets</li>
+<li>Design and create classes that implement encapsulation, inheritance, and polymorphism for use in applications</li>
+</ol></div>
+</li>
+<li><a onclick="switchMenu('cit356');" style="text-decoration: none;" target="_self">CIT 261 - Mobile Application Development</a>
+<div id="cit356">
+<p>This course is designed to begin to give you the skills required to create mobile device applications for modern mobile devices. Because of this the course focuses on how to solve larger, ill-structured business problems by designing and creating applications using a framework that lets you install cross platform JavaScript applications on the devices.</p>
+<p>Objectives:</p>
+<ol start="1">
+<li>You will learn how to create good solutions for IT business problems. Good solutions are always a balance. The solution must always solve the problem but be balanced in how small and clean the solution is, how easy it is to understand and support, and how easily it can be re-used or modified to fit other situations.</li>
+<li>Programming generally consists of being given very specific, smaller, well defined problems as well as limited options for how to create solutions.</li>
+<li>CIT 455 is designed to assist you in learning JavaScript and beginning to make the transition to being a software engineer. Engineering problems are by definition ill-structured. In other words, there are many potential right solutions to any problem. The assignments in the course help you learn to use feedback from others in brainstorming, evaluating, and creating good solutions.</li>
+<li>The instructor will facilitate your learning of these people skills as well as additional programming principles, techniques, and structures that will help you to increase your ability to solve these types of business problems.</li>
+<li>Through this course you will have the foundation required to begin to create good mobile solutions for IT business problems.</li>
+</ol></div>
+</li>
+<li><a onclick="switchMenu('cit311');" style="text-decoration: none;" target="_self">CIT 262 - Systems Analysis and Design</a>
+<div id="cit311">
+<p>This course teaches the concepts of systems analysis and design for those desiring to work in the field of information technology. Initially, an overview of an information system and the software development life cycle (SDLC) processes are covered. Each phase of the SDLC process is then examined in depth and real experience gained through an actual project. Computer aided Software (CASE) tools will be used to design, and document an information system/project.</p>
+<p>Objectives:</p>
+<ol start="1">
+<li>Demonstrate understanding of OOAD/SDLC</li>
+<li>Demonstrate understanding of inception phase funding practices</li>
+<li>Demonstrate understanding of reverse engineering systems</li>
+<li>Demonstrate understanding of applying OOAD patterns to engineering</li>
+<li>Ability to work effectively in a team</li>
+<li>Ability to research independently SQL syntax differences</li>
+</ol></div>
+</li>
+<li><a onclick="switchMenu('cit460');" style="text-decoration: none;" target="_self">CIT 460 - Enterprise Development</a>
+<div id="cit460">
+<p>An overview of the architecture for N-tier applications is covered with a focus on the use of effective design patterns. Different technologies to implement the MVC control pattern will be explored. The J2EE architecture will be covered in depth including Servlets, Java Server Pages, and Enterprise Java Beans. Applications that implement all parts of the MVC pattern will be designed, implemented and deployed.</p>
+<p>Objectives:</p>
+<ol start="1">
+<li>Identify and describe the function of each tier of the N-Tier model</li>
+<li>Understand the Model View Control design pattern and apply it to the design of a web based interactive transaction based system</li>
+<li>Understand apply at least three other design patterns to the N-Tier model</li>
+<li>Describe the role of each container in the J2EE model and the objects managed by the container</li>
+<li>Describe the functionality and interaction of Servlets, Java Server Pages, Session Beans, Entity Beans and Message Beans</li>
+<li>Draw at UML State Chart Diagram to illustrate the lifecycle of a servlet, JSP, filter, session EJB and entity EJB</li>
+<li>Use UML to draw a model a J2EE enterprise application</li>
+<li>Understand the purpose of Web Services Description Language (WSDL), and be able to describe the purpose of each statement in the deployment descriptors for typcial Web and EJB projects</li>
+<li>Given high level requirements document, design, develop, test and deploy an enterprise application that uses the J2EE servlents, JSP AJAX, session and entity Enterprise Java Beans</li>
+</ol></div>
+</li>
+<li><a onclick="switchMenu('cit499');" style="text-decoration: none;" target="_self">CIT 499 - Special Topics</a>
+<div id="cit499">
+<p>This is a special topics course to address the latest advancements in information technology.</p>
+</div>
+</li>
+</ul>
+<h4>Security Courses</h4>
+<ul>
+<li><a onclick="switchMenu('cit370');" style="text-decoration: none;" target="_self">CIT 370 - Systems Security I</a>
+<div id="cit370">
+<p>The purpose of the course is to provide the student with an overview of the field of Information Security and Assurance. Students will be exposed to the spectrum of security activities, methods, methodologies, and procedures. This course offers a comprehensive guide for anyone wishing to take the CompTIA Security SY0-301 Certification Exam. It provides an introduction to the fundamentals of network security, including compliance and operational security; threats and vulnerabilities; application, data, and host security; access control and identity management; and cryptography. The course covers new topics in network security as well, including psychological approaches to social engineering attacks, web application attacks, penetration testing, data loss prevention, cloud computing security, and application programming development security.</p>
+<p>Objectives:</p>
+<ol start="1">
+<li>Describe the importance of securing information and the consequences for the lack thereof.</li>
+<li>Describe and identify concepts of confidentiality, integrity, availability, authentication and non repudiation.</li>
+<li>Identify cryptographic protocols and their uses.</li>
+<li>Identify, analyze, and evaluate infrastructure and network vulnerabilities.</li>
+<li>Recognize external and internal threats and attacks.</li>
+<li>Demonstrate the ability to use cryptographic protocols, secure email, remote access, VPN, NAT, and O/S services.</li>
+<li>Describe how a layered approach to network security is important and list appropriate security devices at each layer.</li>
+<li>Discuss the role of people in security.</li>
+</ol></div>
+</li>
+<li><a onclick="switchMenu('cit470');" style="text-decoration: none;" target="_self">CIT 470 - Systems Security II</a>
+<div id="cit470">
+<p>The purpose of this lab based course is to teach students techniques for securing the entire network architecture both internal and external. Students will learn how to configure and use firewalls and intrusion detection/prevention systems. In addition students will learn how to harden operating systems and secure remote access.</p>
+<p>Objectives:</p>
+<ol start="1">
+<li>Upon successful completion of this course, students will be able to implement a variety of security techniques throughout the enterprise.</li>
+</ol></div>
+</li>
+</ul>
+<h4>Web Design and Development Courses</h4>
+<ul>
+<li><a onclick="switchMenu('cit230');" style="text-decoration: none;" target="_self">CIT 230 - Web Design</a>
+<div id="cit230">
+<p>This course prepares students to develop web sites through a study of Hypertext Markup Language (HTML5), Cascading Style Sheets (CSS), Usability principles and User Interface (UI) principles.</p>
+<p>Objectives:</p>
+<ol start="1">
+<li>Develop web pages using the HTML5 markup language that are semantically accurate.</li>
+<li>Style web pages using CSS levels 2.1 or 3 and avoid all HTML presntational markup.</li>
+<li>Provide content that is visually appropriate, usable and findable to humans and machines.</li>
+<li>Plan, design and develop web pages and sties according to best practices of organization, maintainability and usability.</li>
+<li>Solve problems through independent study and application - learn how to learn.</li>
+</ol></div>
+</li>
+<li><a onclick="switchMenu('cit336');" style="text-decoration: none;" target="_self">CIT 336 - Web Page Development</a>
+<div id="cit336">
+<p>This course prepares students to develop web sites by continuing the implementation of concepts from the Web Frontend development course and adding backend components (MySQL databases, PHP, SQL, and the MVC design pattern) to create dynamic web sites.</p>
+<p>Objectives:&nbsp;</p>
+<ol start="1">
+<li>Continue use of principles introduced in CIT 230.</li>
+<li>PHP - variables, arrays, functions and control structures.</li>
+<li>The Model-View-Control (MVC) design pattern in site applications.</li>
+<li>MySQL database(s) for storing data.</li>
+<li>SQL queries to carry out data interactions.</li>
+<li>Use data validation (client-side and server-side) appropriate to the task.</li>
+<li>Identify and use resources while becoming a life-long learner.</li>
+</ol></div>
+</li>
+</ul>
+<h4>Senior Level</h4>
+<ul>
+<li><a onclick="switchMenu('cit490');" style="text-decoration: none;" target="_self">CIT 490 - Senior Project</a>
+<div id="cit490">
+<p>The course is designed to allow each student to design, build, and implement a project of their own choosing to further individual learning and career goals. Students will identify an area of interest and propose a project plan to pursue and achieve those goals primarily through the analysis, design, development, and implementation of a fully functional information system or completion of a professional-level certification. Students will work with faculty mentors on an individual basis for project approval and achieving the project objectives.</p>
+<p>Objectives:</p>
+<div><ol start="1">
+<li>Identify learning and career goals and pursue them through development and implementation of an information system or certification.</li>
+<li>Analyze, design, document, and implement&nbsp;a fully functional system.</li>
+<li>Demonstrate proficiency in an area of Computer Information Technology specialization.</li>
+</ol></div>
+</div>
+</li>
+<li><a onclick="switchMenu('cit495');" style="text-decoration: none;" target="_self">CIT 495 - Senior Practicum</a>
+<div id="cit495">
+<p>This is a capstone experience for the Computer Information Technology major. There are two options available:</p>
+<p>1.&nbsp; A research paper on a relevant Information Technology topic</p>
+<p>2.&nbsp; Participate in service learning</p>
+<p>The purpose of this course is to build on the knowledge you have learned in the Computer Information Technology major.</p>
+<p>Objectives:</p>
+<div><ol start="1">
+<li>Demonstrate communication skills</li>
+<li>Demonstrate writing skills</li>
+<li>Gain greater in-depth in the field of Information Technology</li>
+</ol></div>
+</div>
+</li>
+<li><a onclick="switchMenu('cit498');" style="text-decoration: none;" target="_self">CIT 498 - Internship</a>
+<div id="cit498">
+<p>This is designed to be a capstone experience where a student applies the skills they have learned in information system in a real world environment.</p>
+<p>Objectives:</p>
+<ol start="1">
+<li>Develop a resume, conduct a job search, and practice interviewing skills.</li>
+<li>Gain real world experience in two or more of the following areas: programming, web development, database, systems management, networking, or testing.</li>
+<li>Experience corporate culture.</li>
+<li>Develop team working skills.</li>
+</ol></div>
+</li>
+</ul>
+<p>
+<script type="text/JavaScript">
+// Read More Script written by Chris Staber on 12/2010
+
+// Hide all expandable elements
+var load1 = document.getElementById('cit140');
+var load2 = document.getElementById('cit203');
+var load3 = document.getElementById('cit210');
+var load4 = document.getElementById('cit220');
+var load5 = document.getElementById('cit230');
+var load6 = document.getElementById('cit240');
+var load7 = document.getElementById('cit312');
+var load8 = document.getElementById('cit320');
+var load9 = document.getElementById('cit330');
+var load10 = document.getElementById('cit336');
+var load11 = document.getElementById('cit340');
+var load12 = document.getElementById('cit345');
+var load13 = document.getElementById('cit355');
+var load14 = document.getElementById('cit356');
+var load15 = document.getElementById('cit370');
+var load16 = document.getElementById('cit380');
+var load17 = document.getElementById('cit311');
+var load18 = document.getElementById('cit420');
+var load19 = document.getElementById('cit425');
+var load20 = document.getElementById('cit430');
+var load21 = document.getElementById('cit440');
+var load22 = document.getElementById('cit460');
+var load23 = document.getElementById('cit470');
+var load24 = document.getElementById('cit485');
+var load25 = document.getElementById('cit490');
+var load26 = document.getElementById('cit495');
+var load27 = document.getElementById('cit498');
+var load28 = document.getElementById('cit499');
+
+load1.style.display = 'none';
+load2.style.display = 'none';
+load3.style.display = 'none';
+load4.style.display = 'none';
+load5.style.display = 'none';
+load6.style.display = 'none';
+load7.style.display = 'none';
+load8.style.display = 'none';
+load9.style.display = 'none';
+load10.style.display = 'none';
+load11.style.display = 'none';
+load12.style.display = 'none';
+load13.style.display = 'none';
+load14.style.display = 'none';
+load15.style.display = 'none';
+load16.style.display = 'none';
+load17.style.display = 'none';
+load18.style.display = 'none';
+load19.style.display = 'none';
+load20.style.display = 'none';
+load21.style.display = 'none';
+load22.style.display = 'none';
+load23.style.display = 'none';
+load24.style.display = 'none';
+load25.style.display = 'none';
+load26.style.display = 'none';
+load27.style.display = 'none';
+load28.style.display = 'none';
+
+// Function that toggles expandable elements
+
+function switchMenu(obj) {
+	var el = document.getElementById(obj);
+
+	if ( el.style.display != "none" ) {
+		el.style.display = 'none';
+	}
+	else {
+load1.style.display = 'none';
+load2.style.display = 'none';
+load3.style.display = 'none';
+load4.style.display = 'none';
+load5.style.display = 'none';
+load6.style.display = 'none';
+load7.style.display = 'none';
+load8.style.display = 'none';
+load9.style.display = 'none';
+load10.style.display = 'none';
+load11.style.display = 'none';
+load12.style.display = 'none';
+load13.style.display = 'none';
+load14.style.display = 'none';
+load15.style.display = 'none';
+load16.style.display = 'none';
+load17.style.display = 'none';
+load18.style.display = 'none';
+load19.style.display = 'none';
+load20.style.display = 'none';
+load21.style.display = 'none';
+load22.style.display = 'none';
+load23.style.display = 'none';
+load24.style.display = 'none';
+load25.style.display = 'none';
+load26.style.display = 'none';
+load27.style.display = 'none';
+load28.style.display = 'none';
+		el.style.display = '';
+	}
+}
+</script>
+</p>
+<ul></ul>
+<ul></ul>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x1844" CompTypes="SiteControl" Expanded="false"/></Content>

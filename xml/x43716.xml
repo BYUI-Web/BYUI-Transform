@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content ID="x43716" Name="Council Member" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Council Member</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Council Member</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+#page{width: 710px; height: auto; min-height: 600px;}
+    #page #header{width: 710px; height: 265px;}
+    #page #content{width: 78%; height: auto; min-height: 300px; float: left; padding: 1%;}
+    #page #content p{padding-left: 5px;}
+
+    #page #buttons{width: 18%; height: auto; min-height: 300px; float: left; padding: 1%; text-align: center;}
+    #page #buttons .one, #page #buttons .two,
+    #page #buttons .three, #page #buttons .four{
+        width: 100px; 
+        height: 100px; 
+        margin-left: auto; 
+        margin-right: auto; 
+        margin-top: 5px; 
+        margin-bottom: 5px;
+        display:block;
+    }
+    #page #buttons .one{background-image: url('Images/student-support/Involvement/greenbutton2.gif');}
+    #page #buttons .two{background-image: url('Images/student-support/Involvement/greenbutton1.gif');}
+    #page #buttons .three{background-image: url('Images/student-support/Involvement/greenbutton3.gif');}
+    #page #buttons .four{background-image: url('Images/student-support/Involvement/green.png');}
+    #page #buttons .one:hover{background-image: url('Images/student-support/Involvement/Involvement-Button-DARK-GREENs.gif');}
+    #page #buttons .two:hover{background-image: url('Images/student-support/Involvement/REFER-GREEN.gif');}
+    #page #buttons .three:hover{background-image: url('Images/student-support/Involvement/CONTACT-GREEN.gif');}
+    #page #buttons .four:hover{background-image: url('Images/student-support/Involvement/green2.png');}
+    
+    #page #buttons .live_chat{
+         margin-left:0px;
+       padding:10px 15px;
+        background-color:#96CA51;
+        text-decoration:none;
+        color:#fff;
+        border-radius:4px;
+        font-family:sans-serif;
+        font-weight:bold;
+    }
+    #page #buttons .live_chat:hover{
+        background-color:#5EAC5C;
+    }
+--></style>
+<div id="page">
+<div id="header"><img height="266" src="Images/student-support/Involvement/green-people.gif" width="710" /></div>
+<div id="content"><br />
+<h1>Council Members</h1>
+<p>Council Members help the directors plan and organize the events that student support has.</p>
+<h2>&nbsp;Requirements:</h2>
+<ul>
+<li><span style="font-size: 11pt; line-height: 1.4em;">Willing to spend a certain amount of hours per week according to your responsibilities.</span></li>
+</ul>
+<hr /></div>
+<br />
+<div id="buttons"><strong>Quick Links:</strong> <a class="one" href="x43408.xml"></a> <a class="two" href="https://cms.byui.edu/home/StudentSupport/Lists/Referrals/Item/newifs.aspx?IsDlg=0"></a> <a class="three" href="http://www.byui.edu/student-support/contact-student-support"></a>
+<p style="margin-top: -35px;">&nbsp;</p>
+<a class="live_chat" href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=Student%20Support">Live Chat</a></div>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-33977325-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+</script>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x19075" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

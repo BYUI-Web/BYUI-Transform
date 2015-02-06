@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x58124" Name="Step 3 - Post Application" Layout="general_content.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Step 3 - Post Application</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Provides information about what a pre-dental applicant should do after their application has been submitted.  Covers topics about interviewing, paying for dental school, and reapplying.</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="true"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="x21294" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent" Expanded="false"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent" Expanded="false"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false"></fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<div>
+<h4><strong>The Interview</strong></h4>
+<p>Sign up for a mock interview to improve your interviewing skills.&nbsp; <a href="x21592.xml">Learn more...</a></p>
+<table border="0" style="width: 450px;">
+<caption><em>The Interview Tools</em></caption> 
+<tbody>
+<tr>
+<td><a href="Documents/advising/health-prof/Forms/Fifteen%20Common%20Interview%20Questions.pdf">Fifteen Common Interview Questions (PDF)</a><br /></td>
+</tr>
+<tr>
+<td><a href="http://www.byui.edu/careerservices/Student_Resources.htm" title="BYU-Idaho Mock Interview">BYU-Idaho Mock Interviews</a></td>
+</tr>
+<tr>
+<td><a href="http://www.byui.edu/careerservices/Student_Resources.htm" title="BYU-Idaho Mock Interview"></a><a href="http://www.studentdoctor.net/schools/" title="Student Doctor Interview Questions">"Student Doctor" Questions</a></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h4><strong>Paying for Professional School</strong></h4>
+<p>The cost of health profession school can exceed $250,000.&nbsp; <a href="x21591.xml">Learn more...</a></p>
+<table border="0" style="width: 450px;">
+<caption><em>Paying for Professional School Tools</em></caption> 
+<tbody>
+<tr>
+<td><a href="http://www.fafsa.ed.gov/" title="FAFSA">FAFSA Website</a></td>
+</tr>
+<tr>
+<td><a href="http://www.wiche.edu/" title="WICHE">WICHE - 15 Western States Agreement</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br /></td>
+</tr>
+<tr>
+<td><a href="http://www.wiche.edu/" title="WICHE"></a><a href="http://www.goarmy.com/amedd/army-health-care-corps.html" title="Army Health Professions Scholarship Program">Army Scholarship Program</a></td>
+</tr>
+<tr>
+<td><a href="http://www.wiche.edu/" title="WICHE"></a><a href="http://www.airforce.com/benefits/commissioned-officer-education/" title="Air Force Health Professions Scholarship Program">Air Force Scholarship Program</a></td>
+</tr>
+<tr>
+<td><a href="http://www.wiche.edu/" title="WICHE"></a><a href="http://www.med.navy.mil/sites/navmedmpte/accessions/Pages/HealthProfessionsScholarshipProgram_Prospective.aspx" title="Navy Health Professions Scholarship Program">Navy Scholarship Program</a></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h4><strong>Re-Applicants<br /></strong></h4>
+<p>Make yourself a stronger applicant between application cycles.&nbsp; <a href="x21590.xml">Learn more...</a></p>
+<table border="0" style="width: 450px;">
+<caption><em>Re-Applicant Tools</em></caption> 
+<tbody>
+<tr>
+<td><a href="http://www.naahp.org/Default.aspx?tabid=3201" title="Official Information for Re-Applicants">Re-applicants Information</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+</tr>
+<tr>
+<td><a href="http://www.naahp.org/Default.aspx?tabid=3201" title="Official Information for Re-Applicants"></a><a href="http://medicine.osu.edu/students/admissions/reapplicantAdvice/Pages/index.aspx" title="Other Re-Applicant Information">Re-Applicant Advice</a></td>
+</tr>
+</tbody>
+</table>
+</div>]]></BodyCopy><xPower Type="Component" Component="x19078" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x20965" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

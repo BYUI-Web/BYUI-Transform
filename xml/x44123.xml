@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<AdminPage ID="x44123" Name="History" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">BYU-Idaho Center History</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">BYU-Idaho Center</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="Cells" label="Cells" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="GroupStart" GroupStart="" Name="Cell1" label="Cell 1" readonly="false" hidden="false" required="false" Expanded=""><Cell1Title type="string" label="Cell 1 Title" readonly="false" hidden="false" required="false"></Cell1Title><Cell1Image type="imagefile" label="Cell 1 Image" readonly="false" hidden="false" required="false" Width="" Height="" Alignment="" Border="" Expanded=""></Cell1Image><Cell1Text type="string" label="Cell 1 Text" readonly="false" hidden="false" required="false"></Cell1Text><xPower Type="Link" Link="" Name="Cell1Link" label="Cell 1 Link" readonly="false" hidden="false" required="false" LinkText="" Target="" Expanded=""/></xPower><xPower Type="GroupStart" GroupStart="" Name="Cell2" label="Cell 2" readonly="false" hidden="false" required="false" Expanded=""><Cell2Title type="string" label="Cell 2 Title" readonly="false" hidden="false" required="false"></Cell2Title><Cell2Image type="imagefile" label="Cell 2 Image" readonly="false" hidden="false" required="false" Width="" Height="" Alignment="" Border="" Expanded=""></Cell2Image><Cell2Text type="string" label="Cell 2 Text" readonly="false" hidden="false" required="false"></Cell2Text><xPower Type="Link" Link="" Name="Cell2Link" label="Cell 2 Link" readonly="false" hidden="false" required="false" LinkText="" Target="" Expanded=""/></xPower><xPower Type="GroupStart" GroupStart="" Name="Cell3" label="Cell 3" readonly="false" hidden="false" required="false" Expanded=""><Cell3Title type="string" label="Cell 3 Title" readonly="false" hidden="false" required="false"></Cell3Title><Cell3Image type="imagefile" label="Cell 3 Image" readonly="false" hidden="false" required="false" Width="" Height="" Alignment="" Border="" Expanded=""></Cell3Image><Cell3Text type="string" label="Cell 3 Text" readonly="false" hidden="false" required="false"></Cell3Text><xPower Type="Link" Link="" Name="Cell3Link" label="Cell 3 Link" readonly="false" hidden="false" required="false" LinkText="" Target="" Expanded=""/></xPower><xPower Type="List" List="xpowercomponent_CellComponent" Name="AdditionalCellComponents" label="Additional Cells" readonly="false" hidden="false" required="false" Component="" CompTypes="CellComponent" Expanded="false"><xPower Type="Component" Component="" Name="CellComponent" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"/></xPower></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style><!--
+p {
+width: 470px;
+}
+
+.highlight_item{
+padding:8px 10px;
+overflow:auto
+}
+
+.highlight_item img{
+width:80px;
+float:left;
+margin:0 10px 0 0;
+}
+
+.article_date{
+color:#636363;
+font-size:11px;
+font-family:Helvetica,Arial,"MS Trebuchet",sans-serif;
+padding:0 0 10px;
+margin:0;
+}
+
+.page_highlight{
+background-color:#f2f2f2;
+border:1px solid #d8d8d8;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+border-radius:5px;
+width:230px;
+margin-left: 10px;
+font-size:11px;
+float:left;
+
+}
+.page_highlight h4{
+color:#363636;
+border-bottom:1px solid #d8d8d8;
+padding:5px 10px;
+margin:0;
+text-transform:uppercase;
+font-size:10px;
+}
+
+.page_highlight p{
+padding:10px;
+margin:0;
+line-height:13px;
+color:#607890;
+}
+--></style>
+<div style="width: 465px; height: 280px; float: left;"><img alt="BYU-Idaho Center" height="280" src="Images/buildings-grounds/icenter/I-center_home.jpg" title="BYU-Idaho Center" width="465" /></div>
+<div class="page_highlight">
+<h4 class="title">Features</h4>
+<div class="highlight_item"><a href="x44176.xml"> <img alt="BYU-Idaho Center News Coverage" height="64" src="Images/buildings-grounds/icenter/news_coverage_icon.PNG" title="BYU-Idaho Center News Coverage" width="83" /> </a> <a class="item_title" href="x44176.xml" target="_blank"><br />News Coverage</a></div>
+<div class="highlight_item"><a href="x44124.xml"> <img alt="BYU-Idaho Center Gallery Tour" height="64" src="Images/buildings-grounds/icenter/gallery_tour_icon.PNG" title="BYU-Idaho Center Gallery Tour" width="83" /> </a> <a class="item_title" href="x44124.xml" target="_blank"><br />Gallery Tour</a></div>
+<div class="highlight_item"><a href="x44177.xml"> <img alt="BYU-Idaho Center videos" height="64" src="Images/buildings-grounds/icenter/videos_icon.PNG" title="BYU-Idaho Center videos" width="83" /> </a> <a class="item_title" href="x44177.xml" target="_blank"><br />Videos</a></div>
+</div>
+<div style="margin: 10px; float: left;">
+<p class="homeSummary" style="font-size: 12pt; font-style: italic; color: #999;">On the western edge of Brigham Young University-Idaho's campus stands a remarkable structure. It is large and impressive, yet modest and practical. It brings a modern touch to the skyline of a rural community, yet remains faithful to the heritage and mission of the institution it serves. Its conception and construction were guided by revelation from a living prophet. It embodies an unwavering commitment to providing a quality education in a wholesome environment.</p>
+<p>This unique facility is the BYU-Idaho Center. Dedicated in December 2010 after approximately three years of construction, the BYU-Idaho Center has become the university's central gathering place. With nearly 435,000 square feet of space, this multi-purpose building is essentially two facilities in one, containing a 15,000-seat auditorium and a large, multi-use activities center.</p>
+<p>This ingenious design, blending space for worship and other events into one cohesive structure, evokes the chapel and adjoining cultural hall arrangement common to Latter-day Saint meetinghouses.</p>
+</div>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_BannerAd" Name="BannerAds" label="Rotating Ads" readonly="false" hidden="false" required="false" Component="" CompTypes="BannerAdComponent" Expanded="false"><xPower Type="Component" Component="" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/></xPower><xPower Type="GroupStart" GroupStart="" Name="QuickLinks" label="Quick Links" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="Quick Links Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="Quick Links Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="Quick Links Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Insert" Insert="" WellFormed="false" ExtractHTMLBody="false" Name="HTMLInsert" label="Insert" readonly="false" hidden="true" required="false" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x44207" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></AdminPage>

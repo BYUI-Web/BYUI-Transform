@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x64428" Name="Winter (Blended)" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Registration Schedule (Age 18+ Program; started Pathway in January)</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Registration information for Pathway students who started Winter sememester and are in a blended (mixed ages) cohort</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<p>Find which courses to register for using the chart below. You may only register for one semester at a time.</p>
+<p></p>
+<table border="0" dir="ltr" frame="border" rules="all">
+<tbody>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle">
+<h2><strong>1st Semester</strong></h2>
+</td>
+<td align="center" valign="middle">
+<h2><strong>2nd Semester</strong></h2>
+</td>
+<td align="center" valign="middle">
+<h2><strong>3rd Semester</strong></h2>
+</td>
+<td align="center" scope="colgroup" valign="middle">
+<h2><strong>Matriculate</strong></h2>
+</td>
+</tr>
+<tr>
+<td align="center" scope="colgroup" valign="middle">
+<h2><strong>Pathway Course<br /><strong> </strong></strong></h2>
+</td>
+<td align="center" scope="colgroup" valign="middle"><strong>GS 120</strong> &mdash; Life Skills (BYU-Idaho)</td>
+<td align="center" scope="colgroup" valign="middle"><strong>MATH 100G</strong> &mdash; Personal Finance (BYU-Idaho)</td>
+<td align="center" scope="colgroup" valign="middle"><strong>ENG 106</strong> &mdash; Basic Writing (BYU-Idaho)<strong> <br /></strong></td>
+<td align="center" scope="colgroup" valign="middle"><a href="x40452.xml">Click here</a></td>
+</tr>
+<tr>
+<td align="center" scope="colgroup" valign="middle">
+<h2><strong>Religion Course<strong> </strong></strong></h2>
+</td>
+<td align="center" scope="colgroup" valign="middle">Book of Mormon (institute)<strong></strong></td>
+<td align="center" scope="colgroup" valign="middle"><strong>FDREL 333</strong> &mdash; Teachings of the Living Prophets (BYU-Idaho)</td>
+<td align="center" scope="colgroup" valign="middle">Book of Mormon (institute)</td>
+<td align="center" scope="colgroup" valign="middle"></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><a href="x30317.xml">Register for BYU-Idaho courses</a>. To register for an institute class, visit with your local institute.<br /><br />(Students may repeat a course during Academic Start to improve their grade. Keep in mind that students can only repeat four courses while attending BYU-Idaho. If you would like to repeat a course during Academic Start, talk to the <a href="x28630.xml">Online Support Center</a>)</p>
+<p></p>
+<p>&nbsp;</p>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="x18360" CompTypes="HighlightedLinksComponent"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x17147" CompTypes="SiteControl"/></Content>

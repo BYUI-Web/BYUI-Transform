@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x40531" Name="College of Business and Communication" Layout="byuidefault.xsl">
+	<Title type="string" label="Title" readonly="false" hidden="false" required="true">College of Business and Communication</Title>
+	<Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">College of Business and Communication</Abstract>
+	<xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart="">
+		<BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/>
+		<MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/>
+		<NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow>
+		<NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex>
+		<NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP>
+		<Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority>
+	</xPower>
+	<xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart="">
+		<HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle>
+		<Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation>
+	</xPower>
+	<BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height="">
+		<![CDATA[<h1>Accounting</h1>
+<ul>
+<li><a href="Documents/instructional_development/outcomes-assessment/Business and Communication/BS in Accounting.pdf">BS in Accounting</a></li>
+</ul>
+<h1>Business Management</h1>
+<ul>
+<li><a href="Documents/instructional_development/outcomes-assessment/Business and Communication/Administrative Assistant Office Manager AAS.pdf">Administrative Assistant/Office Manager AAS</a></li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Business and Communication/BS in Applied Management.pdf">BS in Applied Management</a></li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Business and Communication/BS in Business Management.pdf">BS in Business Management</a></li>
+</ul>
+<h1>Communication</h1>
+<ul>
+<li><a href="Documents/instructional_development/outcomes-assessment/Business and Communication/BS in Communication.pdf">BS in Communication</a></li>
+</ul>
+<h1>Computer Information Technology</h1>
+<ul>
+<li><a href="Documents/instructional_development/outcomes-assessment/Business and Communication/BS in Computer Information Technology.pdf">BS in Computer Information Technology</a></li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Business and Communication/BS in Information Systems.pdf">BS in Information Systems</a></li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Business and Communication/BS in Web Design and Development.pdf">BS in Web Design and Development</a></li>
+</ul>
+<h1>Economics</h1>
+<ul>
+<li><a href="Documents/instructional_development/outcomes-assessment/Business and Communication/BS in  Agricultural Economics.pdf">BS in Agricultural Economics</a></li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Business and Communication/BS in Agribusiness.pdf">BS in Agribusiness</a></li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Business and Communication/OA BS Economics 2013.pdf">BS in Economics&nbsp;</a></li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Business and Communication/OA BS Financial Economics 2013.pdf">BS in Financial Economics</a></li>
+</ul>]]></BodyCopy>
+	<xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart="">
+		<xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List="">
+			<xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/>
+		</xPower>
+		<xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/>
+		<xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/>
+		<xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/>
+	</xPower>
+	<xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="x35591" CompTypes="HighlightedLinksComponent" Expanded="false"/>
+	<xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_ContentSnippet">
+		<xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/>
+	</xPower>
+	<xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/>
+	<xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x34679" CompTypes="SiteControl" Expanded="false"/>
+</Content>

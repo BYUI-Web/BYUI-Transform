@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x68404" Name="Typography" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Typography</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">BYU-Idaho web typography and style guide.</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<!-- IF NO CONTENT IN RIGHT ASIDE, SPAN-18 LAST -->
+<p>The Web Builder platform includes a comprehensive style guide in it's CSS files. For the most part, authors do not need to consider typography in their page designs. Clean HTML markup will be style appropriately.</p>
+<p>For those few exceptions that need to define style, we provide the following.</p>
+<h2>Backgrounds</h2>
+<h3>[Identity Main Colors]</h3>
+<div class="box purple_bg">Purple</div>
+<div class="box rust_bg">Rust</div>
+<div class="box orange_bg">Orange</div>
+<div class="box yellow_bg">Yellow</div>
+<div class="box green_bg">Green</div>
+<div class="box blue_bg">Blue</div>
+<div class="box tan_bg">Tan</div>
+<span class="clearfix"></span>
+<h3>[Monochromatic Set]</h3>
+<div class="box black_bg">Black</div>
+<div class="box darkest_gray_bg">Darkest Gray</div>
+<div class="box darker_gray_bg">Darker Gray</div>
+<div class="box dark_gray_bg">Dark Gray</div>
+<div class="box gray_bg">Gray</div>
+<div class="box light_gray_bg">Light Gray</div>
+<span class="clearfix"></span>
+<h3>[Identity Color Shade Variations]</h3>
+<div class="box light_purple_bg">Light Purple</div>
+<div class="box dark_purple_bg">Dark Purple</div>
+<span class="clearfix"></span>
+<div class="box light_rust_bg">Light Rust</div>
+<div class="box dark_rust_bg">Dark Rust</div>
+<span class="clearfix"></span>
+<div class="box light_orange_bg">Light Orange</div>
+<div class="box dark_orange_bg">Dark Orange</div>
+<span class="clearfix"></span>
+<div class="box light_yellow_bg">Light Yellow</div>
+<div class="box dark_yellow_bg">Dark Yellow</div>
+<span class="clearfix"></span>
+<div class="box light_green_bg">Light Green</div>
+<div class="box dark_green_bg">Dark Green</div>
+<span class="clearfix"></span>
+<div class="box light_blue_bg">Light Blue</div>
+<div class="box dark_blue_bg">Dark Blue</div>
+<span class="clearfix"></span> <!--
+<div class="box light_tan_bg">Light Tan</div>
+-->
+<div class="box dark_tan_bg">Dark Tan</div>
+<span class="clearfix"></span>
+<h2>Identity Text Color 2011</h2>
+<h3>[Identity Main Colors 2011]</h3>
+<span class="purple_txt">Purple</span> |              	<span class="rust_txt">Rust</span> |              	<span class="orange_txt">Orange</span> |              	<span class="yellow_txt">Yellow</span> |              	<span class="green_txt">Green</span> |              	<span class="blue_txt">Blue</span> |              	<span class="tan_txt">Tan</span> <span class="clearfix"></span>
+<h3>[Monochromatic Set]</h3>
+<span class="darkest_gray_txt">Darkest Gray</span> |              	<span class="darker_gray_txt">Darker Gray</span> |              	<span class="dark_gray_txt">Darker Gray</span> |              	<span class="gray_txt">Gray</span> |              	<span class="light_gray_txt">Light Gray</span> |              	<span class="black_txt">Black</span> <span class="clearfix"></span>
+<h3>[Shade Variations Set]</h3>
+<span class="light_purple_txt">Light Purple</span> |              	<span class="dark_purple_txt">Dark Purple</span> |              	             	<span class="light_rust_txt">Light Rust</span> |              	<span class="dark_rust_txt">Dark Rust</span> |              	             	<span class="light_orange_txt">Light Orange</span> |              	<span class="dark_orange_txt">Dark Orange</span> |              	             	<span class="light_yellow_txt">Light Yellow</span> |              	<span class="dark_yellow_txt">Dark Yellow</span> |              	             	<span class="light_green_txt">Light Green</span> |              	<span class="dark_green_txt">Dark Green</span> |              	             	<span class="light_blue_txt">Light Blue</span> |              	<span class="dark_blue_txt">Dark Blue</span> |              	             	<span class="dark_tan_txt">Dark Tan</span> |              	<span class="clearfix"></span>
+<h1>H1 Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean commodo ligula eget dolor</h1>
+<p>P Paragraph that goes below the heading items. Paragraph that goes below the heading items. Paragraph that goes below the heading items. Paragraph that goes below the heading items</p>
+<h2>H2 Aenean massa cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</h2>
+<p>Paragraph that goes below the heading items. Paragraph that goes below the heading items. Paragraph that goes below the heading items. Paragraph that goes below the heading items</p>
+<h3>H3 Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem</h3>
+<p>P Paragraph that goes below the heading items. Paragraph that goes below the heading items. Paragraph that goes below the heading items. Paragraph that goes below the heading items</p>
+<h4>H4 The Quick Brown Fox The Quick Brown Fox The Quick Brown Fox The Quick Brown Fox</h4>
+<p>P Paragraph that goes below the heading items. Paragraph that goes below the heading items. Paragraph that goes below the heading items. Paragraph that goes below the heading items</p>
+<h5>H5 The Quick Brown Fox The Quick Brown Fox The Quick Brown Fox The Quick Brown Fox</h5>
+<p>P Paragraph that goes below the heading items. Paragraph that goes below the heading items. Paragraph that goes below the heading items. Paragraph that goes below the heading items</p>
+<h6>H6 The Quick Brown Fox The Quick Brown Fox The Quick Brown Fox The Quick Brown Fox</h6>
+<p>P Paragraph that goes below the heading items. Paragraph that goes below the heading items. Paragraph that goes below the heading items. Paragraph that goes below the heading items</p>
+<h3>Blockquote</h3>
+<blockquote class="blockquote">Autas aut labore sectia sum ipsandit am non porenis aut utem ut verchic. 					<span class="attribution">Pello Omnim, Sum Ipsandit Am Non Porenis</span></blockquote>
+<h3>Bullet List</h3>
+<ul>
+<li>Department of Physics Chair</li>
+<li>Stephen Turcotte said this event 						
+<ul>
+<li>Is just one example of how physics 								
+<ul>
+<li>Under the law</li>
+<li>For all the people in the system 										
+<ul>
+<li>Companion Study</li>
+<li>Single Study</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Students are going above and beyond</li>
+</ul>
+</li>
+<li>Their scholastic obligations</li>
+<li>In past demonstrations</li>
+</ul>
+<h3>Number List</h3>
+<ol>
+<li>Department of Physics Chair</li>
+<li>Stephen Turcotte said this event 						<ol>
+<li>Is just one example of how physics</li>
+<li>Students are going above and beyond 								<ol>
+<li>Under the Law 										<ol>
+<li>Guiding Light</li>
+<li>By the understanding of Him</li>
+</ol> </li>
+<li>For all people in the system</li>
+</ol> </li>
+<li>Follow His commandments</li>
+</ol> </li>
+<li>Is just one example of how physics</li>
+<li>Students are going above and beyond</li>
+<li>Their scholastic obligations in past demonstrations</li>
+</ol>
+<h3>Default TABLE style</h3>
+<table>
+<thead> 
+<tr>
+<th>#</th> <th>First Name</th> <th>Last Name</th> <th>Language</th>
+</tr>
+</thead> 
+<tbody>
+<tr>
+<td>1</td>
+<td>Some</td>
+<td>One</td>
+<td>English</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Joe</td>
+<td>Sixpack</td>
+<td>English</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Stu</td>
+<td>Dent</td>
+<td>Code</td>
+</tr>
+<tr>
+<td colspan="4">span 4 columns</td>
+</tr>
+<tr>
+<td colspan="2">span 2 columns</td>
+<td colspan="2">span 2 columns</td>
+</tr>
+</tbody>
+</table>
+<h3>SAMPLE TABLE FROM THE NEWSROOM</h3>
+<table>
+<thead> 
+<tr>
+<th>Date</th> <th>News Entity</th> <th>Headline</th>
+</tr>
+</thead> 
+<tbody>
+<tr>
+<td>Nov. 21</td>
+<td>Daily Universe</td>
+<td><a>BYU-Idaho offers eight online degrees in 2012 </a></td>
+</tr>
+<tr>
+<td>Nov. 18</td>
+<td>Church News</td>
+<td><a></a><a>Enrollment nearly doubles in 10 years at BYU-Idaho </a></td>
+</tr>
+<tr>
+<td>Nov. 2</td>
+<td>Channel 6 (KPVI)</td>
+<td><a>Rexburg: Recipe for Success – Part 1</a></td>
+</tr>
+<tr>
+<td>Oct. 28</td>
+<td>Channel 8 (KIFI)</td>
+<td><a>BYU-Idaho Gets New Major</a></td>
+</tr>
+<tr>
+<td>Oct. 19</td>
+<td>Channel 8 (KIFI)</td>
+<td><a>Car Rental Caters to Students</a></td>
+</tr>
+<tr>
+<td>Nov. 18</td>
+<td>Church News</td>
+<td><a></a><a>Enrollment nearly doubles in 10 years at BYU-Idaho </a></td>
+</tr>
+<tr>
+<td>Nov. 2</td>
+<td>Channel 6 (KPVI)</td>
+<td><a>Rexburg: Recipe for Success – Part 1</a></td>
+</tr>
+<tr>
+<td>Oct. 28</td>
+<td>Channel 8 (KIFI)</td>
+<td><a>BYU-Idaho Gets New Major</a></td>
+</tr>
+<tr>
+<td>Oct. 19</td>
+<td>Channel 8 (KIFI)</td>
+<td><a>Car Rental Caters to Students</a></td>
+</tr>
+<tr>
+<td>Nov. 18</td>
+<td>Church News</td>
+<td><a></a><a>Enrollment nearly doubles in 10 years at BYU-Idaho </a></td>
+</tr>
+<tr>
+<td>Nov. 2</td>
+<td>Channel 6 (KPVI)</td>
+<td><a>Rexburg: Recipe for Success – Part 1</a></td>
+</tr>
+<tr>
+<td>Oct. 28</td>
+<td>Channel 8 (KIFI)</td>
+<td><a>BYU-Idaho Gets New Major</a></td>
+</tr>
+<tr>
+<td>Oct. 19</td>
+<td>Channel 8 (KIFI)</td>
+<td><a>Car Rental Caters to Students</a></td>
+</tr>
+<tr>
+<td>Nov. 18</td>
+<td>Church News</td>
+<td><a></a><a>Enrollment nearly doubles in 10 years at BYU-Idaho </a></td>
+</tr>
+<tr>
+<td>Nov. 2</td>
+<td>Channel 6 (KPVI)</td>
+<td><a>Rexburg: Recipe for Success – Part 1</a></td>
+</tr>
+<tr>
+<td>Oct. 28</td>
+<td>Channel 8 (KIFI)</td>
+<td><a>BYU-Idaho Gets New Major</a></td>
+</tr>
+<tr>
+<td>Oct. 19</td>
+<td>Channel 8 (KIFI)</td>
+<td><a>Car Rental Caters to Students</a></td>
+</tr>
+<tr>
+<td>Nov. 18</td>
+<td>Church News</td>
+<td><a></a><a>Enrollment nearly doubles in 10 years at BYU-Idaho </a></td>
+</tr>
+<tr>
+<td>Nov. 2</td>
+<td>Channel 6 (KPVI)</td>
+<td><a>Rexburg: Recipe for Success – Part 1</a></td>
+</tr>
+<tr>
+<td>Oct. 28</td>
+<td>Channel 8 (KIFI)</td>
+<td><a>BYU-Idaho Gets New Major</a></td>
+</tr>
+<tr>
+<td>Oct. 19</td>
+<td>Channel 8 (KIFI)</td>
+<td><a>Car Rental Caters to Students</a></td>
+</tr>
+<tr>
+<td>Nov. 18</td>
+<td>Church News</td>
+<td><a></a><a>Enrollment nearly doubles in 10 years at BYU-Idaho </a></td>
+</tr>
+<tr>
+<td>Nov. 2</td>
+<td>Channel 6 (KPVI)</td>
+<td><a>Rexburg: Recipe for Success – Part 1</a></td>
+</tr>
+<tr>
+<td>Oct. 28</td>
+<td>Channel 8 (KIFI)</td>
+<td><a>BYU-Idaho Gets New Major</a></td>
+</tr>
+<tr>
+<td>Oct. 19</td>
+<td>Channel 8 (KIFI)</td>
+<td><a>Car Rental Caters to Students</a></td>
+</tr>
+</tbody>
+</table>
+<h3>SAMPLE TABLE WITH H3 HEADINGS</h3>
+<table>
+<thead> 
+<tr>
+<th>
+<h3>Date</h3>
+</th> <th>
+<h3>News Entity</h3>
+</th> <th>
+<h3>Headline</h3>
+</th>
+</tr>
+</thead> 
+<tbody>
+<tr>
+<td>Nov. 21</td>
+<td>Daily Universe</td>
+<td><a>BYU-Idaho offers eight online degrees in 2012 </a></td>
+</tr>
+<tr>
+<td>Nov. 18</td>
+<td>Church News</td>
+<td><a></a><a>Enrollment nearly doubles in 10 years at BYU-Idaho </a></td>
+</tr>
+<tr>
+<td>Nov. 2</td>
+<td>Channel 6 (KPVI)</td>
+<td><a>Rexburg: Recipe for Success – Part 1</a></td>
+</tr>
+<tr>
+<td>Oct. 28</td>
+<td>Channel 8 (KIFI)</td>
+<td><a>BYU-Idaho Gets New Major</a></td>
+</tr>
+<tr>
+<td>Oct. 19</td>
+<td>Channel 8 (KIFI)</td>
+<td><a>Car Rental Caters to Students</a></td>
+</tr>
+<tr>
+<td>Nov. 18</td>
+<td>Church News</td>
+<td><a></a><a>Enrollment nearly doubles in 10 years at BYU-Idaho </a></td>
+</tr>
+</tbody>
+</table>
+<h3>Shawn's HTML Type example</h3>
+<h1>Header One</h1>
+<p>Lorem ipsum <em>emphasised text</em> dolor sit amet, <strong>strong text</strong> consectetur adipisicing elit, <abbr>abbreviated text</abbr> sed do eiusmod tempor  <acronym>acronym text</acronym> incididunt ut labore et dolore magna aliqua. Ut  <q>quoted text</q> enim ad minim veniam, quis nostrud exercitation <a href="../../">link text</a> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute <del>deleted text</del> <ins>inserted text</ins> irure dolor in reprehenderit in voluptate velit esse cillum  dolore eu fugiat nulla pariatur. Excepteur sint occaecat <code>code text</code> cupidatat  non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<blockquote>
+<p>Blockquote. Velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat  cupidatat non proident, sunt in culpa qui officia</p>
+</blockquote>
+<p><cite><a href="../../">Cite author with link text</a></cite>, 2008</p>
+<h2>Header 2</h2>
+<p>Extended paragraph. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in  reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint  occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<ol>
+<li>Ordered list</li>
+<li>Item 2 Consectetur adipisicing elit</li>
+<li>Item 3 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor  incididunt ut labore et dolore magna aliqua</li>
+<li>Item 4</li>
+<li>Item 5</li>
+</ol>
+<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit  anim id est laborum.</p>
+<h3>Header 3</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt  ut labore et dolore magna aliqua.</p>
+<ul>
+<li>Unordered list</li>
+<li>Consectetur adipisicing elit</li>
+<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt  ut labore et dolore magna aliqua</li>
+<li>Item</li>
+<li>Item</li>
+<li>Item</li>
+</ul>
+<p>Lorem ipsum dolor sit amet,consectetur adipisicing elit, sed do eiusmod tempor incididunt  ut labore et dolore magna aliqua.</p>
+<pre><code>pre and code pair{
+					display:block;
+					line-height:1.833em;
+					border-top:0.083em solid #200;
+					}</code></pre>
+<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit  anim id est laborum.</p>
+<h4>Header 4</h4>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt  ut labore et dolore magna aliqua.</p>
+<dl> <dt>Definition list</dt> <dd>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna  aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat.</dd> <dt>Lorem ipsum dolor sit amet</dt> <dd>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna  aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat.</dd> <dt>Lorem ipsum dolor sit amet</dt> <dd>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna  aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat.</dd> <dt>Lorem ipsum dolor sit amet</dt> <dd>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna  aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat.</dd> </dl>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt  ut labore et dolore magna aliqua.</p>
+<table summary="Table summary">
+<caption>Table Caption</caption> <thead> 
+<tr>
+<th>Header</th><th>Header</th><th>Header</th>
+</tr>
+</thead> 
+<tbody>
+<tr>
+<td>Content</td>
+<td>1</td>
+<td>a</td>
+</tr>
+<tr>
+<td>Content</td>
+<td>2</td>
+<td>b</td>
+</tr>
+<tr>
+<td>Content</td>
+<td>3</td>
+<td>c</td>
+</tr>
+<tr>
+<td>Content</td>
+<td>4</td>
+<td>d</td>
+</tr>
+<tr>
+<td>Content</td>
+<td>5</td>
+<td>e</td>
+</tr>
+<tr>
+<td>Content</td>
+<td>6</td>
+<td>f</td>
+</tr>
+</tbody>
+</table>
+<address>Author text</address>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x14845" CompTypes="SiteControl"/></Content>

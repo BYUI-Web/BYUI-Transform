@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.101 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x69165" Name="practicum" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;style type="text/css"&gt;
+@font-face {
+font-family: Asap;
+src: url("https://byui.box.com/shared/static/z3jkvkc4lrq9zigojb95.otf") format("opentype");
+}
+@font-face {
+font-family: Goudy;
+src: url("https://byui.box.com/shared/static/tfhihow6sspbm3tur81h.otf") format("opentype");
+}
+
+ul.nav {
+   margin: 0; padding: 0; position: relative; display: table; border: 0; width: 100%; overflow: visible; zoom: 1;
+}
+ul.nav li {
+   list-style: none; margin: 0px; width: 20%; float: left;
+}
+ul.nav li a.nav_btn {
+   display: block;               text-align: center; text-decoration: none;
+	border: 1px solid 		#ccc /*{c-bup-border}*/;
+	background: 			#eee /*{c-bup-background-color}*/;
+	font-weight: bold;
+	color: 					#222 /*{c-bup-color}*/;
+	text-shadow: 0 /*{c-bup-shadow-x}*/ 1px /*{c-bup-shadow-y}*/ 0 /*{c-bup-shadow-radius}*/ #fff /*{c-bup-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #fff /*{c-bup-background-start}*/), to( #f1f1f1 /*{c-bup-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #fff /*{c-bup-background-start}*/, #f1f1f1 /*{c-bup-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #fff /*{c-bup-background-start}*/, #f1f1f1 /*{c-bup-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #fff /*{c-bup-background-start}*/, #f1f1f1 /*{c-bup-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #fff /*{c-bup-background-start}*/, #f1f1f1 /*{c-bup-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #fff /*{c-bup-background-start}*/, #f1f1f1 /*{c-bup-background-end}*/);
+   font-family: Helvetica,Arial,sans-serif; cursor: pointer;
+}
+ul.nav li a.nav_btn:hover {
+	border: 1px solid 		#bbb /*{c-bhover-border}*/;
+	background: 			#dfdfdf /*{c-bhover-background-color}*/;
+	font-weight: bold;
+	color: 					#222 /*{c-bhover-color}*/;
+	text-shadow: 0 /*{c-bhover-shadow-x}*/ 1px /*{c-bhover-shadow-y}*/ 0 /*{c-bhover-shadow-radius}*/ #fff /*{c-bhover-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #f6f6f6 /*{c-bhover-background-start}*/), to( #e0e0e0 /*{c-bhover-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #f6f6f6 /*{c-bhover-background-start}*/, #e0e0e0 /*{c-bhover-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #f6f6f6 /*{c-bhover-background-start}*/, #e0e0e0 /*{c-bhover-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #f6f6f6 /*{c-bhover-background-start}*/, #e0e0e0 /*{c-bhover-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #f6f6f6 /*{c-bhover-background-start}*/, #e0e0e0 /*{c-bhover-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #f6f6f6 /*{c-bhover-background-start}*/, #e0e0e0 /*{c-bhover-background-end}*/);
+   font-family: Helvetica,Arial,sans-serif; cursor: pointer;
+}
+ul.nav li a.nav_btn_visited {
+   display: block; text-align: center; text-decoration: none;
+   border: 1px solid #2373a5;
+   background: #5393c5;
+   font-weight: bold;
+   color: #fff;
+   cursor: pointer;
+   text-shadow: 0 1px 0 #3373a5;
+   text-decoration: none;
+   background-image: -webkit-gradient(linear,left top,left bottom,from( #5393c5 ),to( #6facd5 ));
+   background-image: -webkit-linear-gradient( #5393c5,#6facd5 );
+   background-image: -moz-linear-gradient( #5393c5,#6facd5 );
+   background-image: -ms-linear-gradient( #5393c5,#6facd5 );
+   background-image: -o-linear-gradient( #5393c5,#6facd5 );
+   background-image: linear-gradient( #5393c5,#6facd5 );
+   font-family: Helvetica,Arial,sans-serif;
+}
+ul.nav li a span.nav_txt {
+   display: block; padding-top: 6%; padding-bottom: 6%;
+}
+.banner {
+   WIDTH:100%;
+}
+p.content {
+   width:100%; font-family: Goudy, Georgia, Garamond; 
+}
+&lt;/style&gt;
+&lt;script type="text/javascript"&gt;
+function btnClick(obj)
+{
+   obj.className = "nav_btn_visited";
+}
+&lt;/script&gt;
+&lt;div calss="main_content"&gt;
+&lt;ul id="nav" class="nav"&gt;
+&lt;li&gt;&lt;a href="http://www.byui.edu/academic-support-centers/advertising-council" class="nav_btn" onClick="btnClick(this)"&gt;&lt;span class="nav_txt"&gt;Home&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.byui.edu/academic-support-centers/advertising-council/portfolio" class="nav_btn" onClick="btnClick(this)"&gt;&lt;span class="nav_txt"&gt;Portfolio&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.byui.edu/academic-support-centers/advertising-council/practicum-info" class="nav_btn_visited" onClick="btnClick(this)"&gt;&lt;span class="nav_txt"&gt;Practicum info&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.byui.edu/academic-support-centers/advertising-council/requirements" class="nav_btn" onClick="btnClick(this)"&gt;&lt;span class="nav_txt"&gt;Requirements&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.byui.edu/academic-support-centers/advertising-council/about-us" class="nav_btn" onClick="btnClick(this)"&gt;&lt;span class="nav_txt"&gt;About us&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br /&gt;
+&lt;p class="content" style="text-align:right;font-size:20px;"&gt;
+Communication 297R&lt;br /&gt;
+&lt;span style="text-decoration:underline"&gt;Communication Practicum&lt;/span&gt;
+&lt;/p&gt;
+&lt;div style="width:100%;margin:0px;"&gt;
+&lt;p class="content" style="text-align:left;float:left;width:50%;"&gt;
+Instructor: Eric Embree&lt;br /&gt;
+Office: Spori 233&lt;br /&gt;
+Phone: 496-3701
+&lt;/p&gt;
+&lt;p class="content" style="text-align:right;float:left;width:50%;"&gt;
+Email: EmbreeE@byui.edu&lt;br /&gt;
+Twitter: @ericembree&lt;br /&gt;
+Facebook: I'm on, friend me :)
+&lt;/p&gt;
+&lt;p class="content"&gt;
+Friends! Welcome to Comm297R - Communication Practicum! 
+The purpose of this class is to get you out of the classroom
+, working on real-world, professional projects. A practicum
+, as the name implies, is an opportunity to &lt;span style="font-weight:bold;"&gt;practice&lt;/span&gt; what 
+you have been learning in the classroom. In this class, each of 
+you will be asked to come up with a personal project that 
+you will do over the course of the semester.  You will give me 
+regular progress reports, and report to me at the end of your 
+project, but other than that you will be working pretty much on 
+your own. Be sure to choose a project that will &lt;span style="font-weight:bold;"&gt;advance you&lt;/span&gt; personally 
+or professionally. The project should be tied to your career goals. 
+Imagine yourself sitting in a job interview and your prospective 
+employer says, "Ok, I see which classes you have taken, but what 
+have you DONE?" Your project should be something you would be excited 
+to point to and explain.&lt;br /&gt;&lt;br /&gt;
+So follow these steps:
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Choose a project. &lt;span style="font-weight:bold;"&gt;Dream BIG! The sky is the limit!&lt;/span&gt; You should be thinking career and resume material.&lt;/li&gt;
+&lt;li&gt;Write up a contract. Be sure to include:&lt;/li&gt;
+&lt;ol type="a" style="margin-top: 3px; margin-bottom: 3px;"&gt;
+&lt;li&gt;What you will do.&lt;/li&gt;
+&lt;li&gt;How much time you will spend. Include a timeline. You should plan to spend at LEAST &lt;span style="font-weight:bold;"&gt;32&lt;/span&gt; hours on this project.&lt;/li&gt;
+&lt;li&gt;What you hope to accomplish. Be specific. Include both your educational objectives and your physical "deliverables."&lt;/li&gt;
+&lt;li&gt;Who you will be working with. If your practicum includes working for or with a professional partner, give me their contact information.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;li&gt;Send your contract to me sometime before Friday of next week so that I can approve it.&lt;/li&gt;
+&lt;li&gt;Check in with me sometime before the 30th of each month, just to tell me how you are doing. &lt;span style="font-weight:bold;"&gt;Please stay in touch with me. I will expect regular updates. These updates will be part of your grade.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Keep a journal of what you do and more importantly what you learn. This is important! Much of what we learn comes in retrospect, as we reflect on what we have just done. The journal will not only aid you in that reflection, but will be an invaluable tool when you begin writing your final report.&lt;/li&gt;
+&lt;li&gt;Write up a report at the end. Tell me what you did and what you learned. You need not include your journal, but you may quote from it if you desire. Again, be VERY specific. 7-10 pages for the report is normal. &lt;/li&gt;
+&lt;li&gt;Turn everything in on or before &lt;span style="font-weight:bold;"&gt;April 8.&lt;/span&gt;&lt;/li&gt; 
+&lt;li&gt;Have fun! &lt;span style="font-weight:bold;"&gt;Make it real and make it count!&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p class="content"&gt;
+Please contact me if you have any questions. Even though we will not be meeting face to face, &lt;span style="font-weight:bold;"&gt;I am available and willing to help you in any way possible.&lt;/span&gt; I may or may not bother creating this class on Ilearn, since I think we can communicate just fine via email, phone, etc. Make this a worthwhile experience!
+&lt;br /&gt;Best wishes,
+&lt;br /&gt;Brother Embree
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- END html area --&gt;</ContentSnippet></ContentSnippet>

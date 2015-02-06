@@ -1,0 +1,402 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content ID="x62428" Name="Federal Aid" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Federal Aid</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Federal Aid</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<script language="javascript" type="text/javascript">
+var fa_slideSpeed = 15;	// Higher value = faster
+var fa_timer = 2;	// Lower value = faster
+
+var objectIdToSlideDown = false;
+var fa_activeId = false;
+var fa_slideInProgress = false;
+var fa_slideInProgress = false;
+var fa_expandMultiple = false; // true if you want to be able to have multiple items expanded at the same time.
+
+function showHideContent(e,inputId)
+{
+	if(fa_slideInProgress)return;
+	fa_slideInProgress = true;
+	if(!inputId)inputId = this.id;
+	inputId = inputId + '';
+	var numericId = inputId.replace(/[^0-9]/g,'');
+	var answerDiv = document.getElementById('fa_a' + numericId);
+
+	objectIdToSlideDown = false;
+
+	if(!answerDiv.style.display || answerDiv.style.display=='none'){
+		if(fa_activeId &&  fa_activeId!=numericId && !fa_expandMultiple){
+			objectIdToSlideDown = numericId;
+			slideContent(fa_activeId,(fa_slideSpeed*-1));
+		}else{
+
+			answerDiv.style.display='block';
+			answerDiv.style.visibility = 'visible';
+
+			slideContent(numericId,fa_slideSpeed);
+		}
+	}else{
+		slideContent(numericId,(fa_slideSpeed*-1));
+		fa_activeId = false;
+	}
+}
+
+function slideContent(inputId,direction)
+{
+
+	var obj =document.getElementById('fa_a' + inputId);
+	var contentObj = document.getElementById('fa_ac' + inputId);
+	height = obj.clientHeight;
+	if(height==0)height = obj.offsetHeight;
+	height = height + direction;
+	rerunFunction = true;
+	if(height>contentObj.offsetHeight){
+		height = contentObj.offsetHeight;
+		rerunFunction = false;
+	}
+	if(height<=1){
+		height = 1;
+		rerunFunction = false;
+	}
+
+	obj.style.height = height + 'px';
+	var topPos = height - contentObj.offsetHeight;
+	if(topPos>0)topPos=0;
+	contentObj.style.top = topPos + 'px';
+	if(rerunFunction){
+		setTimeout('slideContent(' + inputId + ',' + direction + ')',fa_timer);
+	}else{
+		if(height<=1){
+			obj.style.display='none';
+			if(objectIdToSlideDown && objectIdToSlideDown!=inputId){
+				document.getElementById('fa_a' + objectIdToSlideDown).style.display='block';
+				document.getElementById('fa_a' + objectIdToSlideDown).style.visibility='visible';
+				slideContent(objectIdToSlideDown,fa_slideSpeed);
+			}else{
+				fa_slideInProgress = false;
+			}
+		}else{
+			fa_activeId = inputId;
+			fa_slideInProgress = false;
+		}
+	}
+}
+
+
+
+function initShowHideDivs()
+{
+	var divs = document.getElementsByTagName('DIV');
+	var divCounter = 1;
+	for(var no=0;no<divs.length;no++){
+		if(divs[no].className=='fa_question'){
+			divs[no].onclick = showHideContent;
+			divs[no].id = 'fa_q'+divCounter;
+			var answer = divs[no].nextSibling;
+			while(answer && answer.tagName!='DIV'){
+				answer = answer.nextSibling;
+			}
+			answer.id = 'fa_a'+divCounter;
+			contentDiv = answer.getElementsByTagName('DIV')[0];
+			contentDiv.style.top = 0 - contentDiv.offsetHeight + 'px';
+			contentDiv.className='fa_answer_content';
+			contentDiv.id = 'fa_ac' + divCounter;
+			answer.style.display='none';
+			answer.style.height='1px';
+			divCounter++;
+		}
+	}
+}
+window.onload = initShowHideDivs;
+</script>
+<style type="text/css"><!--
+/* CSS styles for the Show/Hide functionality. */
+
+.fa_question{
+        overflow:hidden;
+	cursor:pointer;
+        background-color: #f0f0f0;
+        color: #666;
+        padding: 10px;
+        border: 1px solid #000;
+        -webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+}
+.fa_question:hover{
+        background-color: #fcc35a;
+}
+.fa_answer{
+        visibility:hidden;
+	height:0px;
+	overflow:hidden;
+	position:relative;
+}
+.fa_answer_content{	/* Content that is slided down */
+        margin-top: 10px;
+	padding:1px;
+	font-size:1em;
+	position:relative;
+}
+
+.h1 {font-family: futura, arial, sans-serif; font-size: 2em; color: #000}
+.h2 {font-family: futura, arial, sans-serif; font-size: 1.75em; color: #000;}
+.h3 {font-family: futura, arial, sans-serif; font-size: 1.5em; color: #000;}
+.h4 {font-family: futura, arial, sans-serif; font-size: 1.3em; margin-left: 15px;}
+
+#table_futura th{
+     color:#F8F8F8;
+     background-color: #333;   
+     font-family: futura, arial, sans-serif;
+     font-size: medium;
+     font-weight: normal;
+}
+#table_futura ul{
+     margin-left: 5px;
+}
+#table_futura td{
+     color:#000;
+}
+ul {margin-left:30px;}
+
+
+#page_title{
+     display: none;
+}
+--></style>
+<a href="x43998.xml"><img height="89" onmouseout="this.src='Images/Admin_Offices/Financial Aid/buttons/arrows/PlanningOrange.png';" onmouseover="this.src='Images/Admin_Offices/Financial Aid/buttons/arrows/PlanningOrange-Rollover.png';" src="Images/Admin_Offices/Financial Aid/buttons/arrows/PlanningOrange.png" style="margin-bottom: 20px;" width="150" /></a><a href="x44001.xml"><img height="89" onmouseout="this.src='Images/Admin_Offices/Financial Aid/buttons/arrows/ScholarshipsOrange.png';" onmouseover="this.src='Images/Admin_Offices/Financial Aid/buttons/arrows/ScholarshipsOrange-Rollover.png';" src="Images/Admin_Offices/Financial Aid/buttons/arrows/ScholarshipsOrange.png" style="margin-bottom: 20px;" width="150" /></a> <a href="x44002.xml"><img height="89" src="Images/Admin_Offices/Financial Aid/buttons/arrows/FederalAidOrangeBlack.png" style="margin-bottom: 20px;" width="150" /></a><a href="x44003.xml"><img height="89" onmouseout="this.src='Images/Admin_Offices/Financial Aid/buttons/arrows/Follow-upOrange.png';" onmouseover="this.src='Images/Admin_Offices/Financial Aid/buttons/arrows/Follow-upOrange-Rollover.png';" src="Images/Admin_Offices/Financial Aid/buttons/arrows/Follow-upOrange.png" style="margin-bottom: 20px;" width="150" /></a><br /> <span style="font-size: 2.5em; font-family: futura, arial, sans-serif;">3. Apply for Federal Aid</span><br /><br /> <!--
+<p><span class="h2">Are you getting married?</span></p>
+<p>If you are, STOP and contact your financial aid advisor BEFORE starting the FAFSA.</p>
+<ul>
+<li><a href="http://www.byui.edu/financial-aid/about-financial-aid/financial-aid-staff" _mce_href="http://www.byui.edu/financial-aid/about-financial-aid/financial-aid-staff">Advisor Information</a></li>
+</ul>
+-->
+<div class="fa_question"><span class="h1">1. Fill out a FAFSA</span><br /> <small>A FAFSA is a Free Application for Federal Student Aid. FAFSA determines a student's eligibility for the awards listed below. In order to be considered for any Federal Aid, a student must fill out the FAFSA application correctly and follow up with the Financial Aid Office.</small></div>
+<div class="fa_answer">
+<div><span class="h3">Application</span>
+<ul>
+<li>Go to <a href="http://www.fafsa.ed.gov" title="apply for fafsa" target="_blank">FAFSA.ed.gov</a> to apply.</li>
+</ul>
+<!--
+<p><span class="h3">Video: Filling out the FAFSA</span></p>
+<p> </p>
+--> <span class="h3">Deadline:</span>
+<ul>
+<li>The FAFSA needs to be submitted roughly 3 months before the student starts school each academic year in order to receive their aid by the tuition payment deadline.</li>
+</ul>
+<span class="h3">Frequently Asked Questions:</span> <br />
+<ul>
+<li>What is our school code?
+<ul>
+<li>001625</li>
+</ul>
+</li>
+<li>What information do I need to fill out the FAFSA?
+<ul>
+<li>If married: Your Personal and Spouse's tax information</li>
+<li>If single (dependent): Parent's tax information.</li>
+</ul>
+</li>
+<li>I'm having problems with the FAFSA application/website, what can I do?
+<ul>
+<li>Call FAFSA suppport at 1-(800)-433-3243</li>
+</ul>
+</li>
+<li>What if I'm getting married?
+<ul>
+<li>Speak with your financial aid advisor BEFORE filling out the FAFSA</li>
+</ul>
+</li>
+<li>When do I complete the FAFSA?
+<ul>
+<li>The FAFSA needs to be submitted roughly 3 months before starting school each academic year in order to receive aid by the tuition payment deadline.</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<br />
+<div class="fa_question"><span class="h1">2. Verification</span><br /> <small>BYU-Idaho is required by the Department of Education to verify that FAFSA forms are filled out correctly. To complete this process, one out of every three students will be required to submit certain documents to the BYU-Idaho Student Financial Aid Office. If a discrepancy is found, the FAFSA will be corrected by our office based on the information found on the documents submitted to us. <strong>Verification must be completed (i.e. all documents submitted, including corrections) before students will be notified of which FAFSA awards they will receive.</strong></small></div>
+<div class="fa_answer">
+<div><span class="h3">Submitting Documents</span>
+<ul>
+<li><a href="https://my.byui.edu/ICS/Finances/Financial_Aid.jnz?portlet=Financial_Aid_Document_Tracking">The Financial Aid Document Tracking Tool</a> - Displays documentation received and awaiting by the Student Financial Aid Office.</li>
+<li><a href="http://www.byui.edu/financial-aid/about-financial-aid/financial-aid-forms">Financial Aid Forms</a></li>
+<li>Commonly Required Documents
+<ul>
+<li><a class="intLink" href="Documents/Admin_Offices/Financial Aid/2012_2013_Documents/How to order a tax return transcript.pdf" title="IRS Tax Return Transcript Instructions" target="_blank">IRS Tax Return Transcript </a> (obtained the from IRS)</li>
+<li>Dependent or Independent Verification worksheets
+<ul>
+<li>When you see that worksheets are awaiting on your document tracking, the link for the worksheet will pull up a PDF file of that worksheet.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<!-- <span class="h2">Video: Using the Financial Aid Document Tracking tool</span> --> <span class="h3">Submission Guidelines</span>
+<ul>
+<li>Include student's full name and I-number (Student ID number) on all documents</li>
+<li>Submit only legible and readable documents (text and info needs to be clear and not blurred)</li>
+<li>If a document is being submitted for multiple students, please include all students' names and I-numbers</li>
+<li>Worksheets need to be filled out <strong>completely</strong> and <strong>correctly</strong>. An incomplete document will cause a longer processing time as the document will need to be completed and re-submitted.
+<ul>
+<li>Please read <strong>all</strong> instructions on every worksheet.</li>
+</ul>
+</li>
+</ul>
+<span class="h3">Ways to Submit Documents</span>
+<ul>
+<li>Email - Documents can be emailed as attachments (preferably PDF files) to financialaid@byui.edu</li>
+<li>Fax - Documents can be faxed to: (208)-496-6711</li>
+<li>Mail - Documents can be mailed to:
+<ul>
+<li>BYU-I Student Financial Aid Office</li>
+<li>100 Kimball Building, 1610</li>
+<li>Rexburg, ID 83460</li>
+</ul>
+</li>
+<li>Personal Delivery - Documents can be dropped off at the front dest of the Student Financial Aid Office, located at 100 Kimball Building</li>
+</ul>
+<span class="h3">Timelines</span>
+<ul>
+<li>After submitting a document, it will be between 2-4 weeks before it shows as received in the Financial Aid Document Tracking link.</li>
+<li>Once the Student Financial Aid Office has received every document (including corrections) that is necessary, it can take anywhere from 6-8 weeks before awards will be posted.</li>
+</ul>
+</div>
+</div>
+<br />
+<p><span class="h1">3. Receive Awards:</span></p>
+<div class="fa_question"><span class="h2">Federal Pell Grant</span><br /> <small>Federal Pell Grants are awarded to undergraduate students pursuing a degree on the basis of financial need. Students are considered for these awards based off of a FAFSA.</small></div>
+<div class="fa_answer">
+<div><span class="h3">Deadlines</span>
+<ul>
+<li>See FAFSA deadlines above.</li>
+<li><a href="http://www.byui.edu/financial-aid/policies/deadlines">Financial Aid Deadlines Page</a></li>
+</ul>
+<span class="h3">Requirements</span>
+<ul>
+<li>Be a U.S. citizen or an eligible non-citizen
+<ul>
+<li><a href="http://www.byui.edu/Documents/Admin_Offices/Financial%20Aid/2012_2013_Documents/Citizen%20Eligible%20Non-citizen%20Certification.pdf">CITSTAT form</a></li>
+</ul>
+</li>
+<li>Be a degree seeking undergraduate student
+<ul>
+<li>Students who already have a bachelor's degree are not eligible.</li>
+<li>Continuing Education Students, Pathway Students, and other Non-Matriculating Students are not eligible.</li>
+</ul>
+</li>
+<li>Meet the financial need requirements determined by the FAFSA application</li>
+<li>Meet the <a href="http://www.byui.edu/financial-aid/policies/satisfactory-academic-progress">Satisfactory Academic Progress Requirements</a></li>
+<li>Award amounts are based on need and on enrollment status (credit level). The award amount will vary depending on enrollment status.</li>
+<li>Submit verification documents(if required)
+<ul>
+<li>(See Step 2: Verification above)</li>
+</ul>
+</li>
+</ul>
+<span class="h3">Duration</span>
+<ul>
+<li>Federal Aid awards are valid for one academic year</li>
+<li>Pell Grants are limited to the equivalent of two full time awards (on or off track). There will not be a third semester Pell Grant award unless the student has not exceeded the two full-time award equivalent limit.</li>
+</ul>
+</div>
+</div>
+<br />
+<div class="fa_question"><span class="h2">Direct Stafford Loans</span><br /> <small>Stafford loans are a series of fixed-rate student loans for undergraduate and graduate students attending college at least half-time (6-credits or more). Students are considered for these loan offers based on the FAFSA.</small></div>
+<div class="fa_answer">
+<div><span class="h3">Deadlines</span>
+<ul>
+<li>See FAFSA deadlines above.</li>
+<li><a>Financial Aid Deadlines Page</a></li>
+</ul>
+<span class="h3">Requirements</span>
+<ul>
+<li>Submit a FAFSA and complete document verification.</li>
+<li>Meet the financial need requirements determined by the FAFSA application</li>
+<li>Must be enrolled at least half time (6 credits)</li>
+<li>Must meet the <a href="http://www.byui.edu/financial-aid/policies/satisfactory-academic-progress">Satisfactory Academic Progress Requirements</a></li>
+<li>Must be within the annual and aggregate <a href="http://www.direct.ed.gov/applying.html">Federal Aid Loan Limits</a></li>
+<li>Complete the <a href="https://studentloans.gov/myDirectLoan/index.action">Entrance Counseling and Master Promissory Note (MPN)</a></li>
+</ul>
+<span class="h3">Loan Levels</span>
+<table id="table_futura">
+<tbody>
+<tr><th>Direct Subsidized Loan</th><th>Direct Unsubsidized Loan</th></tr>
+<tr>
+<td>3.4% APR interest rate</td>
+<td>6.8% APR Interest rate</td>
+</tr>
+<tr>
+<td>The federal government pays the interest for the loan while the student is in school.</td>
+<td>The student pays for the interest that the loan accrues while they are in school.</td>
+</tr>
+<tr>
+<td>Principal and Interest payments are postponed while students are enrolled in at least 6 credits and durning their grace period.</td>
+<td>Principal payments are postponed while students are enrolled in at least 6 credits and during their grace period.</td>
+</tr>
+<tr>
+<td>Grace Period - students aren't required to start repayment until 6 months after dropping below 6 credits
+<ul>
+<li>If a student defers a semester and is below 6 credits for more than 6 months, repayment will start and their grace period will have been used up.</li>
+</ul>
+</td>
+<td>Grace Period - students aren't required to start repayment until 6 months after dropping below 6 credits
+<ul>
+<li>If a student defers a semester and is below 6 credits for more than 6 months, repayment will start and their grace period will have been used up.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<span class="h3">Duration</span>
+<ul>
+<li>Direct Stafford Loans are valid for one school year. The accepted loan amount is disbursed in two installments (divided between two semesters).</li>
+<li>Students need to re-apply every academic year.</li>
+</ul>
+<span class="h3">Important Information</span>
+<ul>
+<li>BYU-Idaho is not the lender or loan servicer. Questions about repayment, consolidation, etc. all need to be directed to the student's lender, and not BYU-Idaho.</li>
+<li><a href="http://www.byui.edu/financial-aid/policies/loan-policies">Loan Policies Page</a></li>
+<li><a href="https://Studentloans.gov/myDirectLoan/index.action">Studentloans.gov</a></li>
+<li><a href="http://www.nslds.ed.gov/nslds_SA/">NSLDS.ed.gov</a> - To find out who a student's loan servicer is as well as total loan balances</li>
+<li>Contact your financial aid advisor if you will be attending school on your off-track OR if you will be attending only one semester during the school year.</li>
+</ul>
+</div>
+</div>
+<br />
+<div class="fa_question"><span class="h2">Plus Loan</span><br /> <small>A Parent Loan for Undergraduate Students (PLUS) is a federally guaranteed loan and is available for a parent of dependent undergraduate students. The parent may borrow up to the student's annual cost of attendance minus any financial assistance the student has been or will be awarded during the period of enrollment.</small></div>
+<div class="fa_answer">
+<div><span class="h3">Deadlines</span>
+<ul>
+<li>See FAFSA deadlines above</li>
+<li><a href="http://www.byui.edu/financial-aid/policies/deadlines">Financial Aid Deadlines Page</a></li>
+</ul>
+<span class="h3">Requirements</span>
+<ul>
+<li>Submit a FAFSA and complete document verification.</li>
+<li>Be considered a Dependent Student</li>
+<li>Be enrolled at least half time (6 credits)</li>
+<li>Meet the <a href="http://www.byui.edu/financial-aid/policies/satisfactory-academic-progress">Satisfactory Academic Progress Requirements</a></li>
+<li>Submit a <a href="http://www.byui.edu/Documents/Admin_Offices/Financial%20Aid/2012_2013_Documents/Plus%20Response.pdf">PLUS Acceptance Form</a> to the Financial Aid Office</li>
+<li>Parent must complete <a href="https://studentloans.gov/myDirectLoan/index.action"><strong>PLUS Master Promissory Note (MPN)</strong></a></li>
+<li>Parent must pass a credit check. If parent does not pass the credit check, the student should contact advisor for additional options.</li>
+</ul>
+<span class="h3">Interest Rate and Repayment</span>
+<ul>
+<li>7.9% APR Interest Rate</li>
+<li>Repayment begins within 60 days after the loan has been <strong>fully</strong> disbursed.</li>
+<li>Interest begins to accumulate at the time the first disbursement is made (on the first semester amount only until the second half is disbursed).</li>
+</ul>
+<span class="h3">Duration</span>
+<ul>
+<li>PLUS Loans are valid for one school year. The accepted loan amount is disbursed in two installments (divided between two semesters).</li>
+<li>Students and Parents will need to re-apply every academic year.</li>
+</ul>
+<span class="h3">Important Information</span>
+<ul>
+<li>BYU-Idaho is not the lender or loan servicer. Questions about repayment, consolidation, etc. all need to be directed to the lender, and not BYU-Idaho.</li>
+<li><a href="http://www.byui.edu/financial-aid/policies/loan-policies">Loan Policies Page</a></li>
+<li><a href="https://studentloans.gov/myDirectLoan/index.action">Studentloans.gov</a></li>
+<li><a href="http://www.nslds.ed.gov/nslds_SA/">NSLDS.ed.gov</a> - go to find out who the loan servicer is.</li>
+</ul>
+</div>
+</div>
+<br />
+<p>Federal Disclosure: Students enrolled in study abroad programs approved for credit by BYU-Idaho may be considered enrollment at BYU-Idaho for the purpose of applying for assistance from federal financial aid as contained under title IV, HEA programs. The program must meet the Department of Education&rsquo;s definition of a study abroad program.</p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="x18466" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x18206" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

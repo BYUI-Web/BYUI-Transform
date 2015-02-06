@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x40528" Name="General Information" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">General Information</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">General Information- Frequently Asked Questions about financial aid topics. Such as scholarships, federal aid (FAFSA), pell grants, loans, and loan repayment.</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="true" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false">General Info</BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false">General Information- about financial aid topics. Such as scholarships, federal aid (FAFSA), pell grants, loans, and loan repayment.</MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<p>
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40754833-1', 'byui.edu');
+  ga('send', 'pageview');
+</script>
+</p>
+<p>
+<script language="javascript" type="text/javascript">
+var fa_slideSpeed = 15;	// Higher value = faster
+var fa_timer = 2;	// Lower value = faster
+
+var objectIdToSlideDown = false;
+var fa_activeId = false;
+var fa_slideInProgress = false;
+var fa_slideInProgress = false;
+var fa_expandMultiple = true; // true if you want to be able to have multiple items expanded at the same time.
+
+function showHideContent(e,inputId)
+{
+	if(fa_slideInProgress)return;
+	fa_slideInProgress = true;
+	if(!inputId)inputId = this.id;
+	inputId = inputId + '';
+	var numericId = inputId.replace(/[^0-9]/g,'');
+	var answerDiv = document.getElementById('fa_a' + numericId);
+
+	objectIdToSlideDown = false;
+
+	if(!answerDiv.style.display || answerDiv.style.display=='none'){
+		if(fa_activeId &&  fa_activeId!=numericId && !fa_expandMultiple){
+			objectIdToSlideDown = numericId;
+			slideContent(fa_activeId,(fa_slideSpeed*-1));
+		}else{
+
+			answerDiv.style.display='block';
+			answerDiv.style.visibility = 'visible';
+
+			slideContent(numericId,fa_slideSpeed);
+		}
+	}else{
+		slideContent(numericId,(fa_slideSpeed*-1));
+		fa_activeId = false;
+	}
+}
+
+function slideContent(inputId,direction)
+{
+
+	var obj =document.getElementById('fa_a' + inputId);
+	var contentObj = document.getElementById('fa_ac' + inputId);
+	height = obj.clientHeight;
+	if(height==0)height = obj.offsetHeight;
+	height = height + direction;
+	rerunFunction = true;
+	if(height>contentObj.offsetHeight){
+		height = contentObj.offsetHeight;
+		rerunFunction = false;
+	}
+	if(height<=1){
+		height = 1;
+		rerunFunction = false;
+	}
+
+	obj.style.height = height + 'px';
+	var topPos = height - contentObj.offsetHeight;
+	if(topPos>0)topPos=0;
+	contentObj.style.top = topPos + 'px';
+	if(rerunFunction){
+		setTimeout('slideContent(' + inputId + ',' + direction + ')',fa_timer);
+	}else{
+		if(height<=1){
+			obj.style.display='none';
+			if(objectIdToSlideDown && objectIdToSlideDown!=inputId){
+				document.getElementById('fa_a' + objectIdToSlideDown).style.display='block';
+				document.getElementById('fa_a' + objectIdToSlideDown).style.visibility='visible';
+				slideContent(objectIdToSlideDown,fa_slideSpeed);
+			}else{
+				fa_slideInProgress = false;
+			}
+		}else{
+			fa_activeId = inputId;
+			fa_slideInProgress = false;
+		}
+	}
+}
+
+
+function initShowHideDivs()
+{
+	var divs = document.getElementsByTagName('DIV');
+	var divCounter = 1;
+	for(var no=0;no<divs.length;no++){
+		if(divs[no].className=='fa_question'){
+			divs[no].onclick = showHideContent;
+			divs[no].id = 'fa_q'+divCounter;
+			var answer = divs[no].nextSibling;
+			while(answer && answer.tagName!='DIV'){
+				answer = answer.nextSibling;
+			}
+			answer.id = 'fa_a'+divCounter;
+			contentDiv = answer.getElementsByTagName('DIV')[0];
+			contentDiv.style.top = 0 - contentDiv.offsetHeight + 'px';
+			contentDiv.className='fa_answer_content';
+			contentDiv.id = 'fa_ac' + divCounter;
+			answer.style.display='none';
+			answer.style.height='1px';
+			divCounter++;
+		}
+	}
+}
+window.onload = initShowHideDivs;
+</script>
+</p>
+<style type="text/css"><!--
+/* CSS styles for the Show/Hide functionality. */
+.fa_question{
+        overflow:hidden;
+	cursor:pointer;
+        background-color: #f0f0f0;
+        color: #666;
+        padding: 10px;
+        border: 1px solid #000;
+        -webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+}
+.fa_question:hover{
+        background-color: #fcc35a;
+}
+.fa_answer{
+        visibility:hidden;
+	height:0px;
+	overflow:hidden;
+	position:relative;
+}
+.fa_answer_content{	/* Content that is slided down */
+        margin-top: 10px;
+	padding:1px;
+	font-size:1em;
+	position:relative;
+}
+
+.h1 {font-family: arial, sans-serif; font-size: 2em; color: #000;}
+.h2 {font-family: arial, sans-serif; font-size: 1.5em; color: #000;}
+.h3 {font-family: arial, sans-serif; font-size: 1.2em; color: #000;}
+a { font-family: arial; }
+
+p.question {
+	margin:0;
+	padding:0;
+	color: #666;
+	font-weight:bold;
+	font-family: arial;
+}
+.move{margin-top: -25px;}
+--></style>
+<div class="move">
+<p>Here are some answers to frequently asked questions. If your question has not been answered, feel free to contact our office</p>
+<div class="fa_question"><span class="h2">New to Financial Aid</span></div>
+<!--Number 1-->
+<div class="fa_answer">
+<div><strong>What Financial Aid is available to me?</strong>
+<ul>
+<li>You can fill out the FAFSA to be considered for government aid which includes Pell Grant, Subsidized Stafford Loan, Unsubsidized Stafford Loan, and Parent Plus Loans.</li>
+<li>There are also scholarships offered through the university which include Academic Scholarships, University Scholarships, and Talent Awards. <a href="http://www.byui.edu/financial-aid/about-financial-aid">Visit this page for more information</a></li>
+</ul>
+<strong>What is the FAFSA form and where do I find it?</strong>
+<ul>
+<li>FAFSA is a Free Application for Federal Student Aid. You can find this by going to <a href="http://www.fafsa.ed.gov">www.fafsa.ed.gov</a>.</li>
+</ul>
+<strong> What do I find under the Finances tab on my.byui? </strong>
+<ul>
+<li>Several links found under the Finances tab are important regarding Financial Aid: -View Financial Aid Document Tracking: You will be able to use this page to see what documents we have received from you and what documents we are still requesting for you to turn in. -View Financial Aid Awards: You will be able to see the awards you qualify for on this page once you have been awarded. You will need to go here to accept or decline your loan offers. You can also see how many credit hours are required to receive each award you have qualified for.</li>
+</ul>
+<strong>What deadlines do I need to be aware of?</strong>
+<ul>
+<li>Priority deadlines guarantee that your aid will be in before the tuition late charge date for the semester. They are as follows: <br /><br /><span style="text-decoration: underline;"><strong>Fall Semester (September-December)</strong></span>
+<ul>
+<ul>
+<li>FAFSA: June 1st</li>
+<li>Documents: July 1st</li>
+</ul>
+</ul>
+<br /><span style="text-decoration: underline;"><strong>Winter Semester (January-April)</strong></span>
+<ul>
+<ul>
+<li>FAFSA: October 1st</li>
+<li>Documents: November 1st</li>
+</ul>
+</ul>
+<br /><span style="text-decoration: underline;"><strong>Spring Semester (April-July)</strong></span>
+<ul>
+<li>FAFSA: January 1st</li>
+<li>Documents: February 1st</li>
+</ul>
+</li>
+</ul>
+<hr /><a href="http://www.byui.edu/financial-aid/policies/deadlines">Click here for more information <br /> </a> <br />
+<p></p>
+</div>
+</div>
+<div class="fa_question"><span class="h2">Federal Aid Questions</span></div>
+<!--Number 2-->
+<div class="fa_answer">
+<div><strong>What are the steps to receiving Federal Aid?</strong>
+<ul>
+<li><a href="http://www.fafsa.ed.gov">www.fafsa.ed.gov</a></li>
+<li>Check your document tracking within 4-5 business days to see if we have received it</li>
+<li>Continue checking your document tracking to see if you are required to submit documents to our office</li>
+<li>Your award will be processed 6-8 weeks from the time you submitted your last complete document.</li>
+</ul>
+<strong>What is the FAFSA form?</strong>
+<ul>
+<li>FAFSA is a Free Application for Federal Student Aid which can be found at <a href="http://www.fafsa.ed.gov">www.fafsa.ed.gov</a>. The FAFSA determines financial need for the Federal student aid programs.</li>
+</ul>
+<strong>What is the Verification process?</strong>
+<ul>
+<li>At BYU-Idaho, the Financial Aid Office is required by federal regulations to verify student's files. This means those who are randomly selected will be required to submit further documents to our office before we can process an award. <a href="http://www.byui.edu/financial-aid/federal-aid">Click here for more information</a></li>
+</ul>
+<strong>How do I know if I am selected for Verification?</strong>
+<ul>
+<li>After you submit your FAFSA, you will need to check your document tracking page (under the Finance tab on your my.byui account). This will show you what we have received from you and if you are required to submit any documents to our office to verify.</li>
+</ul>
+<strong>What do I need to do if I am selected for Verification?</strong>
+<ul>
+<li>If you are selected for Verification, you will need to submit the documents that are listed as missing on your Document Tracking page. These will need to be submitted before we can continue processing your financial aid award. <a href="http://www.byui.edu/financial-aid/federal-aid"> Click here for more information</a></li>
+</ul>
+<strong>What is the difference between the different loans?</strong>
+<ul>
+<li>Stafford Loans are a series of fixed-rate student loans for undergraduate and graduate students attending college at least half-time (six credits or more). Students are considered for these loan offers based on the FAFSA.</li>
+</ul>
+<ul>
+<li>Direct Subsidized Loan: The Direct Subsidized Loan has a 3.86% APR interest rate and the federal government pays the interest on the loan while the student is in school. Principle and Interest payments are postponed while students are enrolled in at least six credits and during their grace period.</li>
+</ul>
+<ul>
+<li>Direct Unsubsidized Loan: The Direct Unsubsidized Loan has a 3.86% APR interest rate and the student responsible for the accrued interest while they are in school. Principle payments are postponed while students are enrolled in at least six credits and during their grace period.</li>
+</ul>
+<ul>
+<li>Plus Loan: A Parent Loan for Undergraduate Students (PLUS) is a federal guaranteed loan and is available for a parent of dependent undergraduate students. The parent may borrow up to the student's annual cost of attendance minus any financial assistance the student has been or will be awarded during the period of enrollment. The Parent Loan has a 6.41% APR interest rate and repayment begins within 60 days after the loan has been fully disbursed. Interest begins to accumulate at the time the first disbursement is made (on the first semester amount only until the second half is disbursed). Students and Parents will need to re-apply every academic year for the loan.</li>
+</ul>
+<ul>
+<li><a href="http://www.byui.edu/financial-aid/federal-aid"> Click here for more information</a></li>
+</ul>
+<strong>What is the Grace Period?</strong>
+<ul>
+<li>The Grace period is where students are not required to start repayment until six months after dropping below six credits. If a student defers a semester and is below six credits for more than six months, repayment will start and their grace period will have been used up.</li>
+</ul>
+<strong>When will I see my Federal Aid Award online?</strong>
+<ul>
+<li>If you submitted a FAFSA and were not selected for verification, you will usually be awarded within 8 weeks.</li>
+<li>If you submitted a FAFSA and were selected for verification, you will usually be awarded 8 weeks from the time you submitted your last complete document.</li>
+</ul>
+<strong>When will my financial aid be available to me?</strong>
+<ul>
+<li>Financial aid awards (scholarships, grants and/or loans) are disbursed within the first week of the semester if the student has completed all of the requirements by the priority deadline. Occasionally, some financial aid awards will be disbursed earlier or later than others. However, there is no guarantee date for disbursement.</li>
+</ul>
+<strong>How do I know if my financial aid is available to me?</strong>
+<ul>
+<li>Financial aid award funds are released into a student's Personal Account. You can find your personal account summary by logging into my.byui.edu; click on the finance tab; click on Personal Account Summary. Any funds released to your account will show under the heading 'Available and Disbursed Financial Aid/Scholarships.' If funds have been released, there will be account names and balances under this heading on the page. Ammounts listed in red are owed. Amounts listed in red are owed. Amounts listed in green are available to the student.</li>
+</ul>
+<strong>How can I use financial aid funds?</strong>
+<ul>
+<ul>
+<li>Financial aid funds are intended to be used for education costs. Initially, your financial aid should be used first to cover your tuition costs and any tuition (class) based fees. Remaining financial aid funds can then be used to pay off any outstanding school balances, books, school supplies, and any living expense you incur while completing your education, such as: housing, travel expenses, insurance, and food expenses.</li>
+<li>Please note, certain financial aid awards, such as some private scholarships, have requirements limiting their use only for tuition based costs.</li>
+</ul>
+</ul>
+</div>
+</div>
+<!--Number 3-->
+<div class="fa_question"><span class="h2">Scholarships</span></div>
+<div class="fa_answer">
+<div><strong>What are the different scholarships I can receive?</strong> <br /> General BYU-Idaho Scholarships, Academic Scholarships for incoming Freshmen, Academic Scholarships for Continuing Students, and Talent Awards There are also outside aid opportunities. To get more information, <a href="http://www.byui.edu/financial-aid/scholarships">visit our website.</a> <br /><br /> <strong>What do I need to do in order to get scholarships?</strong> <br /> Fill out the BYU-Idaho Scholarship Application which is located under the finances tab on your my.byui account. For the 2013-2014 Academic year, this application is closed. For the 2014-2015 Academic year, the application opens November 2013 and closes April 15th 2014. All University Scholarships (with the exceptions of talent and leadership scholarships) are now evaluated through the BYU-Idaho Scholarship Application. To learn more about scholarships, <a href="http://www.byui.edu/financial-aid/scholarships">visit our website</a> <br /><br /> <strong>When will I find out if I get any scholarships?</strong> <br /> If you complete the BYU-Idaho Scholarship Application for the 2013-2014 academic year, you will be notified by the end of May 2013 of any possible awards you qualify for. <br /><br /> <strong>It is past the deadline for the scholarship application, but I just got accepted to BYU-Idaho. What do I do?</strong> <br /> If you recently got admitted to BYU-Idaho and accepted your track assignment after the Scholarship Application deadline, you will need to email <a href="mailto:scholarships@byui.edu?subject=faq help">scholarships@byui.edu</a> and request to have the application made available to you. <br /><br /><br /></div>
+</div>
+<div class="fa_question"><span class="h2">School Payments</span></div>
+<div class="fa_answer">
+<div>All questions should be referred to the Bursar's office; the Financial Aid Office does not deal with making school payments. <br /><br /> <strong>How do I pay my tuition?</strong> <br /> Students can access and transfer funds through their online Personal Account summary (under the Finances tab). Students can use this Account Summary to pay off outstanding balances with the school such as tuition or books using this page. Students can authorize BYU-Idaho to automatically use financial aid funds to cover tuition costs by signing the Title IV Authorization, found on their Personal Account Summary. <br /><br /> <strong>How can I pick up the rest of my Financial Aid?</strong> <br /> The Bursar's Office is responsible for disbursing funds <strong>(not the Financial Aid Office).</strong> Students can pick up their funds at the Cashier windows (Kimball Bldg. next to the Bursar's Office). Students can also access and transfer funds through their online Personal Account Summary (under Finances tab). <br /><br /></div>
+</div>
+<div class="fa_question"><span class="h2">Specific Loan Questions</span></div>
+<div class="fa_answer">
+<div><strong>How do I get loans?</strong> <br /> By completing the FAFSA, you will be considered to qualify for federal aid which includes student loans. <br /><br /> <strong>I only applied for a Pell Grant, why am I getting loan offers?</strong> <br /> Students who complete the FAFSA are considered for all aid the government offers, which include loan awards. If you do not want the loan awards you qualified for you can decline them. <br /><br /> <strong>What are the MPN and Entrance Counseling that are being requested?</strong> <br /> You only need to complete these if you accept your loan offer(s). To complete them,<a href="https://studentloans.gov/myDirectLoan/index.action"> go to</a> MPN is a Master Promissory Note that needs to be completed and signed in order to receive your loan. Entrance Counseling explains the obligations you agree to meet as a condition of receiving a Direct Loan. <br /><br /> <strong>I rejected my loans, but now I want them. What do I do?</strong> <br /> You will need to contact <a href="x93320.xml" title="Link to Contact Information">our office</a> to have your loan offer(s) reopened. <br /><br /> <strong>I want to make payments on my loan, what do I need to do?</strong> <br /> You will need to contact the servicer of your loan and discuss repayment options with them. To find their contact information, log into <a href="http://www.nslds.ed.gov/nslds_SA/">www.nslds.ed.gov</a>. The blue number next to each loan that you have accepted will link you to that servicer's contact information. <br /><br /></div>
+</div>
+<div class="fa_question"><span class="h2">Credit Hour Requirements</span></div>
+<div class="fa_answer">
+<div><strong>How many credits do I need to be taking to receive a Pell Grant?</strong> <br /> In order to receive the full amount you have qualified for, you need to be taking at least 12 credits. If you are taking less than twelve credits, your aid can be prorated. Contact a <a href="x93320.xml" title="Link to Contact Information">Financial Aid Counselor</a> to discuss specific amounts applicable to your award. <br /><br /> <strong>How many credits do I need to be taking to receive a Loan?</strong> <br /> In order to receive the full amount of your loan offer, you need to be taking at least 12 credits. If you are taking less than twelve credits but more than six credits, your aid may be prorated. Students will not be eligible to receive their loan offer if they are taking less than six credits. <br /><br /> <strong>How many credits do I need to be taking to receive an Academic Scholarship?</strong> <br /> If you have qualified for an academic scholarship or the New Freshman scholarship, you are required to take at least fourteen credits in order to be eligible for the award. <br /><br /> <strong>How many credits do I need to be taking to receive a University Scholarship?</strong> <br /> If you qualified a BYU-Idaho Scholarship, you are required to take at least 12 credits to receive the full amount. This award can be prorated down to six credits. Students will not be eligible to receive this award if they are taking less than six credits. <br /><br /></div>
+</div>
+<div class="fa_question"><span class="h2">Verification</span></div>
+<div class="fa_answer">
+<div><strong>How do I know I was selected for Verification?</strong> <br /> After you submit your FAFSA, you will need to check your document tracking page (under the Finance tab on your my.byui account). This will show you what we have received from you and if you are required to submit any documents to our office to verify. <br /><br /> <strong>Why do I need to do the Verification process?</strong> <br /> Students are randomly selected for verification. If you do not complete the verification process, we will not be able to process your financial aid award. <br /><br /> <strong>What are these forms used for?</strong> <br /> These forms are used to verify the information you put on your FAFSA. If a discrepancy is found, we must clear it up with the student before the FAFSA can be corrected by our office. <br /><br /> <strong>How long does the Verification Process take?</strong> <br /> It takes 6-8 weeks to process your financial aid award from the time you submit your last, completed document. <br /><br /> <strong>Where do I locate the documents I need to turn in?</strong> <br /> You can locate the documents you are required to submit on your Document Tracking page which can be found under the Finance tab on your My.Byui account. You can also <a href="http://www.byui.edu/about-financial-aid/financial-aid-forms"> find verification documents here.</a> <br /><br /></div>
+</div>
+<div class="fa_question"><span class="h2">Changing Marital Status</span></div>
+<div class="fa_answer">
+<div><strong>I just got married, what do I need to do for my financial aid?</strong> <br /> Students who recently got married need to contact a <a href="x93320.xml" title="Link to Contact Information">Financial Aid Counselor</a>. Counselors will be able to go over the student's account and assess what needs to be done regarding their Federal Aid. <br /><br /> <strong>When should I change my name?</strong> <br /> If you have questions about when to change your name with Social Security, you will need to contact a <a href="x93320.xml" title="Link to Contact Information">Financial Aid Counselor</a>. <br /><br /></div>
+</div>
+<div class="fa_question"><span class="h2">Petitions</span></div>
+<div class="fa_answer">
+<div><strong>What should I do if I need to have things changed on my FAFSA form?</strong> <br /> If there are things that you need to change on your FAFSA, you will need to contact a <a href="x93320.xml" title="Link to Contact Information">Financial Aid Counselor</a>. Some changes that need to be made, such as Marital Status, require the student to petition for the change to be made. <br /><br /> <strong>Who do I need to contact about petitions to my financial aid?</strong> <br /> You will need to contact a <a href="x93320.xml" title="Link to Contact Information">Financial Aid Counselor </a>to discuss petitions. <br /><br /><hr /></div>
+</div>
+</div>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="true" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="true" List=""><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x18206" CompTypes="SiteControl" Expanded="false"/></Content>

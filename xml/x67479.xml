@@ -1,0 +1,524 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content_FullWidth ID="x67479" Name="Energy Conservation Map" Layout="general_content.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Energy Conservation</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Energy Conservation</Abstract><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<!--        <mce:script _mce_src="../js/modernizr-2.0.6.min.js"></mce:script> <mce:script _mce_src="../js/jquery.min.js"></mce:script> <mce:script _mce_src="../js/jquery.scroll.min.js"></mce:script>-->
+<style><!--
+#innercontainer{
+        width:960px;
+        margin:auto;
+        overflow:hidden;
+    }
+    #container710{
+        float:right;
+        overflow:hidden;
+        width:710px;
+        height:1028px;
+    }
+    #left230{
+        float:left;
+    }
+    #mapbox{
+        position:relative;
+        padding:0px;
+        margin:0px auto;
+        width:575px;
+        height:819px;
+        background-image: url(Images/web/printablemap2.jpg);
+    }
+    #austin{
+        top:434px;
+        left:165px;
+        width:60px;
+        height:75px;
+    }
+    #auxiliary{
+        top:575px;
+        left:255px;
+        width:45px;
+        height:55px;
+    }
+    #benson{
+        top:451px;
+        left:255px;
+        width:58px;
+        height:103px;
+    }
+    #icenter{
+        top:215px;
+        left:100px;
+        width:135px;
+        height:95px;
+    }
+    #clarke{
+        top:105px;
+        left:333px;
+        width:45px;
+        height:55px;
+    }
+    #hart{
+        top:155px;
+        left:90px;
+        width:135px;
+        height:58px;
+    }
+    #health{
+        top:372px;
+        left:473px;
+        width:33px;
+        height:45px;
+    }
+    #heating{
+        top:340px;
+        left:90px;
+        width:51px;
+        height:32px;
+    }
+    #hinckley{
+        top:438px;
+        left:434px;
+        width:43px;
+        height:58px;
+    }
+    #kimball{
+        top:334px;
+        left:348px;
+        width:39px;
+        height:78px;
+    }
+    #kirkham{
+        top:23px;
+        left:337px;
+        width:45px;
+        height:80px;
+    }
+    #library{
+        top:163px;
+        left:249px;
+        width:95px;
+        height:62px;
+    }
+    #manwaring{
+        top:235px;
+        left:252px;
+        width:118px;
+        height:70px;
+    }
+    #ricks{
+        top:514px;
+        left:340px;
+        width:75px;
+        height:48px;
+    }
+    #romney{
+        top:104px;
+        left:248px;
+        width:50px;
+        height:53px;
+    }
+    #smith{
+        top:185px;
+        left:351px;
+        width:34px;
+        height:48px;
+    }
+    #snow{
+        top:15px;
+        left:206px;
+        width:83px;
+        height:74px;
+    }
+    #spori{
+        top:65px;
+        left:298px;
+        width:35px;
+        height:35px;
+    }
+    #taylor{
+        top:352px;
+        left:280px;
+        width:65px;
+        height:58px;
+    }
+    .buildingbox{
+        position:absolute;
+        display:block;
+        cursor: pointer;
+    }
+    .buildingbox:hover{
+        cursor: pointer;
+    }
+    .buildingpopups{
+        position:absolute;
+        border:2px solid #676767;
+        background-color:white;
+        width:405px;
+        height:auto;
+        padding:10px;
+        margin:0px 40px;
+        -moz-box-shadow: 0px 0px 20px #000000;
+        -webkit-box-shadow: 0px 0px 20px #000000;
+        box-shadow: 0px 0px 20px #000000;
+        border-radius:10px;
+        -moz-border-radius:10px;
+        -webkit-border-radius:10px;
+        display:none;
+    }
+    .buildingpopups img{
+        border:none;
+        float:right;
+        margin-left:10px;
+    }
+
+
+
+    #differencebox{
+        padding:15px 0px;
+        background-color:black;
+        color:white;
+        text-align:center;
+        margin-bottom:15px;
+    }
+    #factsdropdown{
+        background-color:#316ca8;            
+
+    }
+    .open_text {
+        margin: 0px;
+        border: 1px solid #000;
+        background-color:#002849;
+        position:relative;
+    }
+    .open_text p {
+        margin-bottom: 0px;
+        color:white;
+        text-align:left;
+        font-size: 24px;
+        padding:5px 20px;
+    }
+    .open_text div {
+        width: 100%;
+        display: inline-block;
+        min-height:45px;
+    }
+    .open_text:hover
+    {
+        cursor: pointer;
+    }
+    .open_text p:hover
+    {
+        text-decoration: underline;
+    }
+    .close_text
+    {
+        padding: 5px 0px 10px 20px;
+        max-width: 435px;
+        background-color:#316ca8;
+        color:white;
+        margin:0px;
+    }
+    .close_text p
+    {
+        padding:0px;
+        max-width: 435px;
+        background-color:#316ca8;
+        color:white;
+        margin:0px;
+    }
+    .posMark, .negMark {
+        height: 10px;
+        width: 10px;
+        /*                float: left;*/
+        /*                margin: 7px 15px 0 0;*/
+    }
+    .arrowMark{
+        float:right;
+        margin-top:15px;
+    }
+    /*            .posMark {
+                    float:right;
+                    background: url("images/arrow.png") no-repeat scroll 0 0 #ffffff;
+                }
+                .negMark {
+                    float:right;
+                    background: url("http://www.byui.edu/prebuilt/stylenew/images/Content_FAQ/NegMarker.png") no-repeat scroll 0 0 #ffffff;
+                }
+                .posMark:hover {
+                    background: url("http://www.byui.edu/prebuilt/stylenew/images/Content_FAQ/PosMarker.png") no-repeat scroll 0px -9px #ffffff;
+                }
+                .negMark:hover {
+                    background: url("http://www.byui.edu/prebuilt/stylenew/images/Content_FAQ/NegMarker.png") no-repeat scroll 0px -9px #ffffff;
+                }*/
+    .hide {
+        display: none;
+    }
+
+
+    .energylogo{
+        width:575px;
+        margin:auto;
+    }
+    .logocontainer{
+        text-align:center;
+    }
+--></style>
+<script type="text/javascript">
+    var visible = false;
+    function getOffset( el ) {
+        var _x = 0;
+        var _y = 0;
+        while( el && !isNaN( el.offsetLeft ) && !isNaN( el.offsetTop ) ) {
+            _x += el.offsetLeft;// - el.scrollLeft;
+            _y += el.offsetTop;// - el.scrollTop;
+            el = el.offsetParent;
+        }
+        return { top: _y, left: _x };
+    }
+    function togglePopup(element){
+        //                alert(element.style.display.value);
+        console.log("height : " + element.offsetHeight);
+        if (visible == false){
+            var relatedPopup = document.getElementById("pop"+element.id);
+            var x = getOffset(element).top + element.offsetHeight - 340;
+            relatedPopup.style.top = x+'px';
+            //                    console.log('Top Offset: '+x);
+            //                    relatedPopup.style.zIndex = 2;
+            relatedPopup.style.display = 'block';
+            visible = true;
+        }else{
+            var relatedPopup = document.getElementById("pop"+element.id);
+            //                    relatedPopup.style.zIndex = -1;
+            relatedPopup.style.display = 'none';
+            relatedPopup.style.top = '0px';
+            visible = false;
+        }
+    }
+    //            var x = getOffset( document.getElementById('yourElId') ).left;
+
+    function dismissPopup(element){
+        relatedPopup.style.display = 'none';
+        relatedPopup.style.top = '0px';
+        visible = false;
+    }
+        
+//    $(document).ready(function(){
+//        $(".open_text").click(function(){
+//            alert("hello");
+//            var marker = $(this).find('img');
+//            alert(marker);
+//            if( $(this).next().css('display') == 'block')
+//            {
+//                //                        marker.removeClass("negMark");
+//                //                        marker.addClass("posMark");
+//                marker.attr('src', 'Images/web/arrowdown.png');
+//            }
+//            else
+//            {
+//                //                        marker.removeClass("posMark");
+//                //                        marker.addClass("negMark");
+//                marker.attr('src', 'Images/web/arrowup.png');
+//            }
+//
+//            $(this).next().slideToggle("normal");
+//        });
+//    });
+</script>
+<div id="innercontainer">
+<div class="span-6" id="left230"><!--                     ****  apply only once  *************************
+<link href="http://www.byui.edu/prebuilt/stylenew/css/OpenClose.css" _mce_href="http://www.byui.edu/prebuilt/stylenew/css/OpenClose.css" media="screen, projection" rel="stylesheet" type="text/css" />
+****  apply only once  ************************* -->
+<div id="differencebox"><span style="font-size: 20px;">How can I make a</span><br /><span style="font-size: 35px;">Difference?</span></div>
+<div id="factsdropdown">
+<div class="open_text">
+<div>
+<p>With my home?<img class="arrowMark" src="Images/web/arrowup.png" /></p>
+</div>
+</div>
+<div class="close_text">
+<p>- Unplug unused electrical products</p>
+<p>- According to DOE, water heating is the third most energy consuming function in the home</p>
+<p>- Shorten your showers</p>
+<p>- Avoid using space heaters</p>
+<p>- Turn off lights during daylight hours when it's not necessary, especially if you have AC (these lights create heat)</p>
+</div>
+<div class="open_text">
+<div>
+<p>With Food?<img class="arrowMark" src="Images/web/arrowdown.png" /></p>
+</div>
+</div>
+<div class="close_text hide">
+<p>- Vacuum the refrigerator coils</p>
+<p>- Don&rsquo;t leave the fridge door open</p>
+<p>- Don't overload the fridge or freezer, the air needs room to circulate</p>
+</div>
+<div class="open_text">
+<div>
+<p>With cooking?<img class="arrowMark" src="Images/web/arrowdown.png" /></p>
+</div>
+</div>
+<div class="close_text hide">
+<p>- Use the oven&rsquo;s self cleaning feature immediately after cooking with the oven, reduces warm up costs</p>
+<p>- Use lids on pots and pans to reduce cooking times</p>
+</div>
+<div class="open_text">
+<div>
+<p>With laundry?<img class="arrowMark" src="Images/web/arrowdown.png" /></p>
+</div>
+</div>
+<div class="close_text hide">
+<p>- Wash only full loads of laundry</p>
+<p>- Use hot water for only very dirty loads</p>
+<p>- Run dryer loads immediately after one another to reduce warm up costs</p>
+</div>
+</div>
+</div>
+<div class="span-18" id="container710">
+<div class="logocontainer"><img class="energylogo" src="Images/web/EnergyConservationLogo.jpg" /><br /><br /> Hover over a building to see how BYU-Idaho Conserves Energy<br /><br /></div>
+<div id="mapbox">
+<div class="buildingbox" id="austin" onmouseout="togglePopup(this);" onmouseover="togglePopup(this);"></div>
+<div class="buildingpopups" id="popaustin" onclick="dismissPopup(this)"><img height="130" src="Images/web/austin.jpg" />The Austin Building conserves<br /> energy by using:<br /><br /><ol>
+<li>Occupancy sensors</li>
+</ol></div>
+<div class="buildingbox" id="benson" onmouseout="togglePopup (this);" onmouseover="togglePopup (this);"></div>
+<div class="buildingpopups" id="popbenson" onclick="dismissPopup(this)"><img height="130" src="Images/web/benson.jpg" />The Benson Building conserves<br /> energy by using:<br /><br /><ol>
+<li>High efficiency lighting</li>
+</ol></div>
+<div class="buildingbox" id="icenter" onmouseout="togglePopup (this);" onmouseover="togglePopup (this);"></div>
+<div class="buildingpopups" id="popicenter" onclick="dismissPopup(this)"><img height="130" src="Images/web/icenter.jpg" />The BYU-Idaho Center conserves<br /> energy by using:<br /><br /><ol>
+<li>Variable speed motors for HVAC systems</li>
+<li>Occupancy sensors installed as base building package</li>
+<li>EPDM roofing material</li>
+<li>Power link panels with programmable equipment</li>
+</ol></div>
+<div class="buildingbox" id="clarke" onmouseout="togglePopup (this);" onmouseover="togglePopup (this);"></div>
+<div class="buildingpopups" id="popclarke" onclick="dismissPopup(this)"><img height="130" src="Images/web/clarke.jpg" />The Clarke Building conserves<br /> energy by using:<br /><br /><ol>
+<li>Retrofit high efficiency lighting</li>
+<li>Installed occupancy sensors</li>
+<li>Power link panels with programmable equipment</li>
+</ol></div>
+<div class="buildingbox" id="hart" onmouseout="togglePopup (this);" onmouseover="togglePopup (this);"></div>
+<div class="buildingpopups" id="pophart" onclick="dismissPopup(this)"><img height="130" src="Images/web/hart.jpg" />The Hart Building conserves<br /> energy by using:<br /><br /><ol>
+<li>Daylight harvesting in Thor&rsquo;s Hall</li>
+<li>Occupancy sensors in offices and restrooms</li>
+<li>Efficiency lighting</li>
+</ol></div>
+<div class="buildingbox" id="health" onmouseout="togglePopup (this);" onmouseover="togglePopup (this);"></div>
+<div class="buildingpopups" id="pophealth" onclick="dismissPopup(this)"><img height="130" src="Images/web/health.jpg" />The Student Health Center conserves<br /> energy by using:<br /><br /><ol>
+<li>Daylight harvesting</li>
+<li>Double glazed window units</li>
+</ol></div>
+<div class="buildingbox" id="heating" onmouseout="togglePopup (this);" onmouseover="togglePopup (this);"></div>
+<div class="buildingpopups" id="popheating" onclick="dismissPopup(this)"><img height="130" src="Images/web/heating.jpg" />The Heating Plant conserves<br /> energy by using:<br /><br /><ol>
+<li>Retrofit insulation on steam and condensate lines</li>
+</ol></div>
+<div class="buildingbox" id="hinckley" onmouseout="togglePopup (this);" onmouseover="togglePopup (this);"></div>
+<div class="buildingpopups" id="pophinckley" onclick="dismissPopup(this)"><img height="130" src="Images/web/hinckley.jpg" />The Hinckley Building conserves<br /> energy by using:<br /><br /><ol>
+<li>Daylight harvesting</li>
+<li>Double glazed window units</li>
+<li>Occupancy sensors</li>
+</ol></div>
+<div class="buildingbox" id="kimball" onmouseout="togglePopup (this);" onmouseover="togglePopup (this);"></div>
+<div class="buildingpopups" id="popkimball" onclick="dismissPopup(this)"><img height="130" src="Images/web/kimball.jpg" />The Kimball Building conserves<br /> energy by using:<br /><br /><ol>
+<li>Thermal Ice Storage</li>
+<li>Daylight harvesting</li>
+<li>Double glazed window units</li>
+</ol></div>
+<div class="buildingbox" id="kirkham" onmouseout="togglePopup (this);" onmouseover="togglePopup (this);"></div>
+<div class="buildingpopups" id="popkirkham" onclick="dismissPopup(this)"><img height="130" src="Images/web/kirkham.jpg" />The Kirkham Building:<br /><br /><ol>
+<li>Is scheduled for major renovation</li>
+</ol></div>
+<div class="buildingbox" id="library" onmouseout="togglePopup (this);" onmouseover="togglePopup (this);"></div>
+<div class="buildingpopups" id="poplibrary" onclick="dismissPopup(this)"><img height="130" src="Images/web/library.jpg" />The Library conserves<br /> energy by using:<br /><br /><ol>
+<li>Thermal Ice Storage</li>
+<li>Use of windows operating system power management features on computers</li>
+<li>Occupancy sensors</li>
+</ol></div>
+<div class="buildingbox" id="manwaring" onmouseout="togglePopup (this);" onmouseover="togglePopup (this);"></div>
+<div class="buildingpopups" id="popmanwaring" onclick="dismissPopup(this)"><img height="130" src="Images/web/manwaring.jpg" />The Manwaring Center conserves<br /> energy by using:<br /><br /><ol>
+<li>Daylight harvesting in crossroads</li>
+<li>Occupancy sensors installed as base building package</li>
+<li>EPDM roofing material</li>
+</ol></div>
+<div class="buildingbox" id="ricks" onmouseout="togglePopup (this);" onmouseover="togglePopup (this);"></div>
+<div class="buildingpopups" id="popricks" onclick="dismissPopup(this)"><img height="130" src="Images/web/ricks.jpg" />The Ricks Building conserves<br /> energy by using:<br /><br /><ol>
+<li>Thermal ice Storage</li>
+<li>Daylight harvesting</li>
+<li>High efficiency lighting</li>
+</ol></div>
+<div class="buildingbox" id="romney" onmouseout="togglePopup (this);" onmouseover="togglePopup (this);"></div>
+<div class="buildingpopups" id="popromney" onclick="dismissPopup(this)"><img height="130" src="Images/web/romney.jpg" />The Romney Building conserves<br /> energy by using:<br /><br /><ol>
+<li>Thermal Ice Storage</li>
+<li>Occupancy sensors</li>
+</ol></div>
+<div class="buildingbox" id="smith" onmouseout="togglePopup (this);" onmouseover="togglePopup (this);"></div>
+<div class="buildingpopups" id="popsmith" onclick="dismissPopup(this)"><img height="130" src="Images/web/smith.jpg" />The Smith Building conserves<br /> energy by using:<br /><br /><ol>
+<li>Daylight harvesting</li>
+<li>Occupancy sensors</li>
+<li>Double glazed window units</li>
+</ol></div>
+<div class="buildingbox" id="snow" onmouseout="togglePopup (this);" onmouseover="togglePopup (this);"></div>
+<div class="buildingpopups" id="popsnow" onclick="dismissPopup(this)"><img height="130" src="Images/web/snow.jpg" />The Snow Building conserves<br /> energy by using:<br /><br /><ol>
+<li>Daylight harvesting in hallways and lobbies</li>
+<li>Occupancy sensors</li>
+<li>High efficiency lighting</li>
+</ol></div>
+<div class="buildingbox" id="spori" onmouseout="togglePopup (this);" onmouseover="togglePopup (this);"></div>
+<div class="buildingpopups" id="popspori" onclick="dismissPopup(this)"><img height="130" src="Images/web/spori.jpg" />The Spori Building conserves<br /> energy by using:<br /><br /><ol>
+<li>Thermal Ice Storage</li>
+<li>LED accent lighting and LED exit sign replacements</li>
+<li>Daylight harvesting</li>
+</ol></div>
+<div class="buildingbox" id="taylor" onmouseout="togglePopup (this);" onmouseover="togglePopup (this);"></div>
+<div class="buildingpopups" id="poptaylor" onclick="dismissPopup(this)"><img height="130" src="Images/web/taylor.jpg" />The Taylor Building conserves<br /> energy by using:<br /><br /><ol>
+<li>Thermal Ice Storage</li>
+<li>Daylight harvesting</li>
+<li>Retrofitted with high efficiency lighting</li>
+</ol></div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+    //Ignore this function area
+    function loadScript(url, callback){
+        //load script tag at end of body
+        var body = document.getElementsByTagName('body')[0];
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = url;
+
+        // then bind the event to the callback function 
+        // there are several events for cross browser compatibility
+        script.onreadystatechange = callback;
+        script.onload = callback;
+
+        // fire the loading
+        body.appendChild(script);
+    }
+
+    //define inline script to be called inside the callback function parameter
+    var scriptCallback = function(){
+        //insert any inline jquery you would like to run here, ie
+        //things that normally go between script tags, for example:
+//        $("#object").css('width', 200px);
+    }
+
+    // Execute the entire function after page has finished 
+    // loading (script import and callback inline javascript)
+    window.onload = function(){ 
+//    $(document).ready(function(){
+        $(".open_text").click(function(){
+            var marker = $(this).find('img');
+            if( $(this).next().hasClass('hide'))
+            {
+                $(this).next().removeClass('hide');
+                $(marker).attr('src', 'Images/web/arrowup.png');
+            }
+            else
+            {
+                $(this).next().addClass("hide");
+                $(marker).attr('src', 'Images/web/arrowdown.png');
+            }
+
+        });
+//    });        //put the path to your jquery-dependent script below here
+//        loadScript("path/to/existing/js/file.js", scriptCallback);
+    }
+</script>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x17998" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_FullWidth>

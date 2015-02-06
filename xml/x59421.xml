@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x59421" Name="Bowling Coed Rules" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Bowling Coed Rules</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Guiding Principles</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="true"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">true</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent" Expanded="false"/><xPower Type="Component" Component="x27025" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent" Expanded="false"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<span style="font-size: small;">
+<p><em>Any rule not specifically covered will be governed in accordance with the ABC (American Bowling Congress). Modifications have been made to suit BYU-Idaho's Recreational Sports program. </em></p>
+<p><strong>Rule 1: Players </strong></p>
+<p>• Each team will consist of at least 2 males and 2 females. The maximum number of members allowed on each team is six, three males and three females.</p>
+<p>• In order for a game to start each team must have at least two players with one of each gender present.</p>
+<p>• Players have until 15 minutes after the scheduled game time to arrive and still be eligible to be added to the lineup and play. Any player arriving after this time will not be allowed to check in or bowl.</p>
+<p>• A player's fee of $1.50 per game is required to bowl. This includes lane fee and shoe rental.</p>
+<p><strong>Rule 2: Play </strong></p>
+<p><strong><em>Rules</em></strong><br /><br /></p>
+<p>• Matches will consist of one game.</p>
+<p>• All members of the team will be inserted into the lineup in any order determined by the team captain.</p>
+<p>• Each team member will bowl a complete game. That is, each member of the team will bowl 10 frames only.</p>
+<p>• Team members cannot bowl for other team members if they are late or have to leave the match early for any reason.</p>
+<p>• Doing so will result in a 50 point deduction of the team's final score.</p>
+<p><strong><em>Scoring</em></strong> <br /><br /></p>
+<p>• Only the top four scores will be counted towards the team's final score. This is determined by the top two male scores added to the top two female scores</p>
+<p>• Example: each player bowl a complete game (10 frames) and end with the following scores:</p>
+<p>                   • Male 1 score: 120, Male 2 score: 98, Male 3 score:175</p>
+<p>                   • Female 1 score: 118, Female 2 score: 150, Female 3 score: 87</p>
+<p>Because Male 1 and 3 scored the most out of the males their scores are added to Female 1 and 2 scores because they were the highest of the females. Therefore the team's final score is 563.</p>
+<p>• If a team has only one bowler of either gender then only the top three scores will be counted towards the team's final score. This will be determined by the top two scores of the first gender added to the only score of the opposite gender.</p>
+<p>• Example: each player bowl a complete game (10 frames) and end with the following scores:</p>
+<p>                • Male 1 score: 120, Male 2 score: 98, Male 3 score:175</p>
+<p>                • Female 1 score: 118</p>
+<p>Because Male 1 and 3 scored the most out of the males their scores are added to Female 1 score because she is the only females. Therefore the team's final score is 413.</p>
+<p>• The third males score does not replace the missing females score. It is disregarded.</p>
+<p><strong>Rule 3: Playoffs </strong></p>
+<p>Teams must maintain a "3.5" sportsmanship average and have no forfeits against them during the regular season to be eligible for the playoffs.</p>
+<p>Sportsmanship points for each regular season contest will be added together and divided by the total number of contests held to find each team's sportsmanship average.</p>
+<strong>
+<p>  Related links:</p>
+<p><a href="x24372.xml">Return to Bowling</a></p>
+<p><a href="x24452.xml">Policies and Procedures </a></p>
+</strong></span>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x6784" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

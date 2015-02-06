@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<Content ID="x63004" Name="Stress Management" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Stress Management</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Stress Management</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p><link href="Documents/health-center/wellness/well_main.css" rel="stylesheet" type="text/css" /></p>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+<script src="Documents/health-center/faqs1.js" type="text/javascript"></script>
+<div id="wellness">
+<div id="header">
+<div class="icon"></div>
+Health Center Wellness</div>
+<div id="wholebody"><iframe frameborder="0" height="240" id="mynav" scrolling="no" src="Documents/health-center/wellness/well_nav.html" width="350"></iframe>
+<div id="maincontent">
+<div id="subheader">Stress Management<span>Health Center Wellness</span></div>
+<br />
+<p class="quote small">Stress is a normal psychological and physical reaction to the ever-increasing demands of life; however, there are both positive and negative stressors. Learning to identify and manage your stress can help you to cope with life&rsquo;s daily challenges.</p>
+<br />
+<h2>The Three Steps of Stress Management</h2>
+<ol>
+<li>Determine the current stressors within your life</li>
+<li>Identify ways to reduce the stressors</li>
+<li>Make changes and prioritize your life accordingly</li>
+</ol>
+<h2>Identify Your Stressors</h2>
+<p>The most important phase of stress management is identifying your personal triggers. Take time to write down and/or discuss your various life stressors with someone.</p>
+<h2>Stress Reducers</h2>
+<p>The following is a list of proven stress reducers; pick a few to decide which works best for you.</p>
+<ul>
+<li><span class="styled">Sleep:</span> Getting 7-9 hours of sleep each night is crucial in maintaining your body&rsquo;s overall health and wellness.</li>
+<li><span class="styled">Learn to say no:</span> You don&rsquo;t have to say yes to everything. If it doesn&rsquo;t help you achieve your goals, it really is all right to say no.</li>
+<li><span class="styled">Exercise:</span> This not only releases chemicals that help you to feel happy, but it helps to break down the chemicals that raise your stress levels. A regular exercise schedule can help regulate naturally-occurring hormones.</li>
+<li><span class="styled">Laughing:</span> This has been shown to release chemicals and reduce stress hormones in your brain. Read a good comic or watch a funny movie or video clip.</li>
+<li><span class="styled">Journal:</span> Keeping a gratitude journal or journaling about life has been shown to help boost optimism and can help to take burdens from your shoulders.</li>
+<li><span class="styled">Do something you enjoy:</span> Take 5 minutes for &ldquo;me time.&rdquo; This allows for a few minutes to unwind. Try taking up a new hobby, playing music, or painting nails.</li>
+<li><span class="styled">Spend time with others:</span> Although it may seem daunting at first, getting out and socializing can help reduce risk factors for stress.</li>
+<li><span class="styled">Other:</span> Do anything else that is relaxing for you personally.</li>
+</ul>
+<h2>Make Changes</h2>
+<p>In order to manage stress, you need to make changes to cope with life&rsquo;s challenges. Create and stick to a schedule. To start, prioritize those things of most importance and then add in stress reducers. Eliminate unnecessary stressors. Finally, make appropriate lifestyle changes for healthier living.</p>
+<p>Reviewed and approved by Doctor Bradbury, September 2012</p>
+<a href="x43029.xml" target="_blank"><img class="print" src="Images/health-center/print.png" /> Printer Friendly Version</a></div>
+<div class="clear"></div>
+</div>
+</div>
+<p><iframe frameborder="0" height="240" id="footer" scrolling="no" src="http://www.byui.edu/Documents/health-center/footer.html" width="320"></iframe></p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x28441" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

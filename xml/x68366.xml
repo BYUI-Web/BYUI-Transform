@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x68366" Name="Cell" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Cell</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Cell</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style type="text/css"><!--
+.chkBx, .drpDwn, .grpList, .image, .lnk, .text, .webEdit {display: block !important;}
+
+.adminhome, .imgindex {display: block !important;}
+--></style>
+<link href="prebuilt/stylenew/css/training.css" media="screen, projection" rel="stylesheet" type="text/css" />
+<div id="training">
+<div class="intro_box">
+<p>The Cell Component is used to insert content into a page type in a cell like manner (Left to Right / Top to Bottom). The width of cells are adjusted to fill the space of the web page's body area.</p>
+</div>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/drop_down.png" width="20" />
+<p><strong>Place Picture on ___ of text: </strong> Choose to have the image of this cell placed on top, left or right of the content in "Message".</p>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/image.png" width="20" />
+<p><strong>Image: </strong> Enter an image to use in the cell.</p>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/link.png" width="20" />
+<p><strong>Link: </strong> Supply a URL to wrap a link around the image and the footer link.</p>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/edit.png" width="20" />
+<p><strong>Message: </strong> Enter a brief    message or a other content such as links.</p>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/check.png" width="20" />
+<p><strong>Enable to display this cell's "Footer Link": </strong> Enable checkbox to show the footer link, or disable to remove.</p>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/list.png" width="20" />
+<h3><strong>Footer Link: </strong></h3>
+<div class="level1"><img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/text.png" width="20" />
+<p><strong>Text: </strong>Enter the text that will display in the footer.</p>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/text.png" width="20" />
+<p><strong>Background Color | Enter hex value | Example: #000000: </strong>Enter the color name or code value here. This will be the footer's background color. For help in finding a color code use this <a href="http://www.w3schools.com/tags/ref_colormixer.asp">color mixer</a>.</p>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/drop_down.png" width="20" />
+<p><strong>Text Color: </strong>Select the color of the text to be white or black.</p>
+<span class="clear"> </span></div>
+</div>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Component" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="x36276" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/><xpowercomponent_Optional Type="Component" Component="x35847" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x14845" CompTypes="SiteControl"/></Content>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x62942" Name="Insurance" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Insurance and Records</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Insurance and Records at the BYU-Idaho Student Health Center</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<p><link href="Documents/health-center/topper.css" rel="stylesheet" /> <link href="Documents/health-center/layout.css" rel="stylesheet" /></p>
+<style type="text/css"><!--
+body #content_zone #frame .icons {
+      background-position: -300px  -300px;
+z-index: 100;
+   }
+
+   body #content_zone .titlehead {    
+      border-bottom: solid thin #31859C;
+   }
+
+   body #content_zone .comment {    
+      color: #31859C;
+      font-weight: bold;
+   }
+    
+   body #content_zone #setwidth {
+      width: 90%;
+   }
+--></style>
+<script type="text/javascript">
+function hover(id) {
+   var id = document.getElementById(id);
+
+   id.style.backgroundColor = "#ffffff";
+}
+</script>
+<div id="content_zone">
+<div id="topper">
+<div class="titlehead">Insurance</div>
+<div id="frame">
+<div class="icons"></div>
+<div class="shadow"></div>
+</div>
+</div>
+<div id="topsec">
+<div id="faceof"><img alt="Deseret Mutual Logo" height="156" id="logo" src="Images/health-center/deseret(0).png" width="170" /> <br />Co. DMBA</div>
+<div class="quote clear"><strong>The Student Health Center is not a contracted provider with any insurance company aside from the Deseret Mutual Student Insurance Plan. Therefore, the Student Health Center does not bill private insurance. If you have private insurance, you may be seen at the Student Health Center, but you will be responsible for the full cost of your visit. You may have an insurance form printed out that you can mail into your insurance company. They will reimburse you in accordance with their policy.</strong></div>
+<br />
+<h4>BYU-Idaho Health Insurance Requirements</h4>
+<h5>Insurance Requirement</h5>
+<ul>
+<li>BYU-Idaho requires all continuing students to have adequate medical insurance.</li>
+<li><span>You will automatically be enrolled in the Student Health Plan when you first enroll for classes.</span></li>
+</ul>
+<h5>Waiving Enrollment in the Student Health Plan</h5>
+<ul>
+<li>You may waive BYU-Idaho Student Health Plan coverage only if you are already covered by your parent's insurance, or by an employer's insurance policy. <strong>You cannot waive BYU-Idaho insurance if you have your own private outside insurance</strong>. Waivers must be submitted by the deadline (please see catalog for dates).</li>
+<li>There are two ways to waive insurance:
+<ul style="margin-bottom: 0;">
+<li>During the registration process, you may submit the waiver online.</li>
+<li>You may print out the waiver <a href="Documents/health-center/InsuranceWaiver.pdf">here</a> and submit it to the Student Health Center by the deadline (please see catalog for dates).</li>
+</ul>
+</li>
+<li>If your coverage from another insurance plan is discontinued while you are attending BYU-Idaho, contact the Health Center immediately.</li>
+</ul>
+</div>
+<div id="setwidth">
+<p><strong>If you have more questions on waivers, please contact the Student Health Center at (208) 496-9330.</strong></p>
+<h4>Premiums</h4>
+<table id="premiums" style="color: #555555;">
+<tbody>
+<tr class="tableheader">
+<td class="studenttype"></td>
+<td colspan="2">Regular On-Campus &amp; Away-From-Campus Coverage</td>
+<td class="column">Extended Coverage</td>
+</tr>
+<tr>
+<td class="studenttype" rowspan="3">Single Student Only</td>
+<td>Semester</td>
+<td>$270</td>
+<td class="column" rowspan="3">$650 per month</td>
+</tr>
+<tr>
+<td>Block</td>
+<td>$135</td>
+</tr>
+<tr>
+<td>Summer Session</td>
+<td>$90</td>
+</tr>
+<tr class="stripe">
+<td class="studenttype" rowspan="3">Single Student Plus Dependent(s)</td>
+<td>Semester</td>
+<td>$757</td>
+<td class="column" rowspan="3">$991 per month</td>
+</tr>
+<tr class="stripe">
+<td>Block</td>
+<td>$379</td>
+</tr>
+<tr class="stripe">
+<td>Summer Session</td>
+<td>$253</td>
+</tr>
+<tr>
+<td class="studenttype" rowspan="3">Married Student Only</td>
+<td>Semester</td>
+<td>$318</td>
+<td class="column" rowspan="3">$650 per month</td>
+</tr>
+<tr>
+<td>Block</td>
+<td>$159</td>
+</tr>
+<tr>
+<td>Summer Session</td>
+<td>$106</td>
+</tr>
+<tr class="stripe">
+<td class="studenttype" rowspan="3">Married Student Plus Dependent(s)</td>
+<td>Semester</td>
+<td>$1,085</td>
+<td class="column" rowspan="3">$991 per month</td>
+</tr>
+<tr class="stripe">
+<td>Block</td>
+<td>$543</td>
+</tr>
+<tr class="stripe">
+<td>Summer Session</td>
+<td>$362</td>
+</tr>
+</tbody>
+</table>
+<h4>Using the Student Health Plan</h4>
+<p>The Student Health Center is your primary source of medical care. If you need to receive treatment, make your first appointment with the SHC. If the SHC can't treat you, you'll be referred to a contracted physician in the community. You must preauthorize all care you receive outside the SHC. The SHC will coordinate the preauthorization process. If you need to see a physician outside of the SHC make sure your provider is contracted with the Deseret Mutual's Preferred Provider Network. If you use non-contracted providers, your benefits will be lower. For help finding a contracted provider, contact Deseret Mutual. If you use non-contracted providers, you will be responsible to pay any charges over maximum allowable amounts.</p>
+<h4>After-hours Medical Advice</h4>
+<p><ins cite="mailto:BYU%20Idaho" datetime="2012-07-12T16:24"></ins>Deseret Mutual's medical staff is available 24 hours a day at 1-800-777-3622.&nbsp; If you need emergency care after SHC hours, go to the nearest contracted urgent care facility or the nearest hospital emergency room, or dial 911.</p>
+<h4>Prescriptions</h4>
+<p>The Student Health Plan now includes prescription drug coverage for everyone.&nbsp; (Something about lower cost to administer the service this way)&nbsp; As such, insurance premiums have changed. Please refer to the table above or to the <a href="http://www.dmba.com/nsc/Student/Handbooks.aspx">Student Health Plan Handbook</a> for more details.</p>
+<h4>Preventative Services</h4>
+<p>Beginning this 2012-2013 academic year, the Affordable Care Act (otherwise known as "health-care reform") mandates a number of preventive services to be covered by the Student Health Plan, with no cost to you when you see a contracted (or "network") provider. For a list of the covered preventive services, see the <a href="http://www.dmba.com/nsc/Student/Handbooks.aspx">Student Health Plan Handbook</a>.</p>
+<div id="safeharbor">
+<p><strong>NOTICE TO PLAN PARTICIPANTS </strong></p>
+<p><em>The organization that sponsors your group health plan has certified that it qualifies for a temporary enforcement safe harbor with respect to the Federal requirement to cover contraceptive services without cost sharing. During this one-year period, coverage under your group health plan will not include coverage of contraceptive services.</em></p>
+</div>
+<p><a href="http://www.dmba.com/nsc/Student/Handbooks.aspx">STUDENT HEALTH PLAN HANDBOOK</a></p>
+<p><a href="x37061.xml">FREQUENTLY ASKED QUESTIONS</a></p>
+</div>
+</div>
+<p><iframe frameborder="0" height="240" id="footer" scrolling="no" src="http://www.byui.edu/Documents/health-center/footer.html" width="100%"></iframe></p>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="true" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Component" readonly="false" hidden="false" required="false" Expanded="true" List=""><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="true" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" CompTypes="ContentSnippet" Expanded="false"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x28441" CompTypes="SiteControl" Expanded="false"/></Content>

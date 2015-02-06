@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<CommonPage ID="x67136" Name="Photo Resolution and Size" Layout="default.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Photo Resolution and Size</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Photo Resolution and Size</Abstract><xPower Type="GroupStart" GroupStart="" Name="ImageColumn" label="Image Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveRight type="boolean" hidden="true" label="Toggle column left or right (left is default)" readonly="false" required="false">false</MoveRight><xPower Type="List" List="xpowercomponent_ImageComponent" Name="ImageColumnComponentList" label="Images" readonly="false" hidden="false" required="false" Component="" CompTypes="LeftColumnImageComponent" Expanded="false"><xPower Type="Component" Component="" Name="ImageComponent" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent" Expanded="false"/></xPower><xPower Type="List" List="xpowercomponent_TextComponent" Name="TextColumnComponentList" label="Text Box" readonly="false" hidden="false" required="false" Component="" CompTypes="ColumnTextComponent" Expanded="false"><xPower Type="Component" Component="" Name="TextComponent" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent" Expanded="false"/></xPower></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p><strong>Photo<a href="http://www.byui.edu/identity/glossary.htm#Resolution" title="See glossary definition"> Resolution </a>&amp; Size</strong></p>
+<p><strong>How to determine if a photo has sufficient<a href="http://www.byui.edu/identity/glossary.htm#Resolution" title="See glossary definition"> resolution </a>to print well</strong></p>
+<br />
+<p><strong>Screen vs. Printing</strong></p>
+<p>How an image looks on screen and how it will look 									printed are not the same. How large an image appears 									on screen and how large it will appear printed 									are not the same. [This section will help you select 									images that will look good when printed.]</p>
+<br /> <br />
+<p><strong>Definitions</strong></p>
+<p><strong>Pixel:</strong>&nbsp;&nbsp;The tiny squares that a digital image is made 									up of<a href="http://www.byui.edu/identity/glossary.htm#Pixel" title="See glossary definition"> Pixel </a>dimensions of an image: The total pixel 									dimensions of an image will tell you how many total 									pixels the image is made up of (e.g. 3456 x 2304).</p>
+<br />
+<p align="center"><img src="http://www.byui.edu/identity/imagehelp/images/image1.png" /></p>
+<p align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Image at 100% size&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Close-up of center of flower</p>
+<p align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(blocks are individual pixels)</p>
+<br />
+<p align="center">&nbsp;<img src="http://www.byui.edu/identity/imagehelp/images/Pixel_dimensions.jpg" /></p>
+<p align="center">From Photoshop's IMAGE SIZE dialogue box</p>
+<br />
+<p><strong>Digital Image Size:</strong> The size in inches of your digital 									image. Photoshop's dialogue box calls it Document 									Size. (IMPORTANT: This does not necessarily mean 									your image will print out and look good at this size)</p>
+<br />
+<p align="center">&nbsp;<img src="http://www.byui.edu/identity/imagehelp/images/document_size.jpg" /></p>
+<p align="center">From Photoshop's IMAGE SIZE dialogue box</p>
+<br />
+<p><strong>PPI of digital image:</strong>&nbsp;&nbsp;PPI means Pixels Per Inch. Your 									computer screen displays images at 72PPI. For an 									image to look good when printed it needs to be at 									least 225PPI (300PPI is best and should be your 									target)</p>
+<br />
+<p align="center">&nbsp;<img src="http://www.byui.edu/identity/imagehelp/images/digital_imageSize.jpg" /></p>
+<p align="center">From Photoshop's IMAGE SIZE dialogue box</p>
+<br /> <br />
+<p><strong>Screen<a href="http://www.byui.edu/identity/glossary.htm#Resolution" title="See glossary definition"> Resolution </a>vs. printing resolution</strong></p>
+<p>Images on your computer monitor are displayed at 										72 pixels/inch. But when you print an image you 										will need more pixels per inch if you want the image 										to look good (crisp and not "pixelated"). Generally 										speaking images should have a<a href="http://www.byui.edu/identity/glossary.htm#Resolution" title="See glossary definition"> resolution </a>of at least 										225 pixels per inch, and be the actual size they will 										be printed, for them to look good. 300 pixels per 										inch is preferred. How will you know the resolution 										and size of the image? You need to use Photoshop.</p>
+<br /> <br />
+<p><strong>Open your image in Photoshop</strong></p>
+<p>To understand how your image will look when 										printed you have to open it in Photoshop. In the 										top menu bar there will be an option called IMAGE. 										Under that dropdown menu is an option called IMAGE 										SIZE. Open that dialogue. Many images (nearly 										all that come from a Web site) will show a resolution 										of 72 pixels/inch. What does this mean? It has to do 										with how the image is displayed.</p>
+<br />
+<p align="center">&nbsp;<img src="http://www.byui.edu/identity/imagehelp/images/imagesize_res.jpg" /></p>
+<p align="center">Photoshop's IMAGE SIZE dialogue box</p>
+<br /> <br />
+<p><strong>Do the math</strong></p>
+<p>A digital image has a fixed number of pixels. You can 										find that number in the<a href="http://www.byui.edu/identity/glossary.htm#Pixel" title="See glossary definition"> pixel </a>dimensions part of the 										IMAGE SIZE dialogue. This image described in the 										box at the right is 500 x 333 pixels. The document 										size part of the box indicates the image is 6.9 inches 										wide. This is only true at 72 pixels/inch. Let's look at 										the math:</p>
+<br />
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 500px &divide; 72px/in = 6.944 inches</strong></p>
+<br />
+<p>If you want to print your image it needs to be at least 										225 pixels/in (preferably 300px/in).<a href="http://www.byui.edu/identity/glossary.htm#Photoshop" title="See glossary definition"> Photoshop </a>will 										do this math for you type in your desired resolution 										(NOTE: be sure the resample image checkbox at the 										bottom of the dialogue is unchecked). If you type in 										225 you will see that the new math gives us:</p>
+<br />
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 500px &divide; 225px/in = 2.222 inches</strong></p>
+<br />
+<p>This means that the largest you can expect to print 										this image and have it look good is about 2 inches 										wide.</p>
+<br /> <br />
+<p><strong>Testing an image</strong></p>
+<p>What if you already have an image but you're still not 										sure how big it will be (can be) when printed. You 										can test it using Photoshop. You first have to know 										how big you want the image to be when you print 										it. Let's say you are making a flyer and you need the 										image to be 3" x 4". Make a new<a href="http://www.byui.edu/identity/glossary.htm#Photoshop" title="See glossary definition"> Photoshop </a>document 										(FILE/NEW). In the document settings enter 3" 										wide, 4" high and 300 pixels/inch.</p>
+<br />
+<p>Copy and paste your image into this new document. 										It will show at the size it will print correctly.</p>
+<br /> <br />
+<p><strong>What if your image is not large enough?</strong></p>
+<p>Let's say that you have followed the procedure 										above to set your<a href="http://www.byui.edu/identity/glossary.htm#Resolution" title="See glossary definition"> resolution </a>to 225 pixels/in. You 										unchecked the resample image box and you typed 										225 into the<a href="http://www.byui.edu/identity/glossary.htm#Resolution" title="See glossary definition"> resolution </a>box. But your image is only 4" 										wide. You need it to be 6" wide. In order to make the 										image larger you actually have to add pixels to the 										image.<a href="http://www.byui.edu/identity/glossary.htm#Photoshop" title="See glossary definition"> Photoshop </a>will do this. And it will do a pretty 										good job if you don't increase the size too much.</p>
+<br /> <br />
+<p><strong>Letting<a href="http://www.byui.edu/identity/glossary.htm#Photoshop" title="See glossary definition"> Photoshop </a>resample an image</strong></p>
+<p>To make your 4" image 6" wide you need to add 450 										pixels to the width (225 pixels/in x 2" = 450 new 										pixels). Check the resample image box at the bottom 										of the dialogue box. You will notice that the<a href="http://www.byui.edu/identity/glossary.htm#Pixel" title="See glossary definition"> pixel </a>dimensions 										at the top of the box will become editable 										fields again. When you type 6" into the width box 										you will see that the width in pixels will increase to 										1350 pixels from it's original size.</p>
+<br /> <br />
+<p><strong>At the bottom of the box is an dropdown menu.</strong></p>
+<p>Choose Bicubuic Smoother (best for enlargement), 										because it does a good job of enlarging images. 										When you hit OK at the top of the box Photoshop 										will add pixels to the image and do its best to make 										it look natural.</p>
+<br /> <br />
+<p><strong>How much can you enlarge?</strong></p>
+<p>That depends on your tolerance for quality. We want 										your images to look good so they represent your 										events well. We would recommend not increasing an 										image more than 50%. That is what we used for the 										example above. From 4" to 6" is a 50% increase in 										size.</p>
+<br /> <br />
+<p><strong>What happens if you increase the image too much?</strong></p>
+<p>When you increase the image too much Photoshop 										has to add so many pixels that the image begins to 										look fuzzy and "pixelated". It will be obvious that the 										image has been enlarged.</p>
+<br />
+<p align="center">&nbsp;<img src="http://www.byui.edu/identity/imagehelp/images/image6.png" /></p>
+<p align="center">Image at 100% size</p>
+<br />
+<p align="center">&nbsp;<img src="http://www.byui.edu/identity/imagehelp/images/image7.png" /></p>
+<p align="center">Image increased 400%</p>
+<br /> <br /> Questions? Send us an e-mail: <a href="mailto:ucidentity@byui.edu">ucidentity@byui.edu</a>]]></BodyCopy><xPower Type="Component" Component="x14" Name="RelatedLinks" label="Related Links" readonly="false" hidden="false" required="false" CompTypes="RelatedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="false" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x4147" Name="SiteControl" label="Site Control" readonly="true" hidden="true" required="false" CompTypes="SiteControl" Expanded="false"/></CommonPage>

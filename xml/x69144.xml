@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x69144" Name="Back Button" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;style&gt;
+.pageback{
+	margin-bottom: 10px;
+	width: 90px;
+}
+.pageback span{
+	position: relative;
+	top: -9px;
+}
+.pageback a{
+	text-transform: uppercase;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	display: block;
+	color: #777;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+&lt;/style&gt;
+&lt;div class="pageback"&gt;&lt;a href="x69048.xml"&gt; &lt;img alt="report-back-button" height="27" src="images/magazine/report-back-button.png" width="41" /&gt; &lt;span&gt;Back&lt;/span&gt; &lt;/a&gt;&lt;/div&gt;</ContentSnippet></ContentSnippet>

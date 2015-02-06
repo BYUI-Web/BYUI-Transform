@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x63067" Name="After Hours" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">After Hours</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">After Hours</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<link href="Documents/health-center/topper.css" rel="stylesheet" />
+<link href="Documents/health-center/layout.css" rel="stylesheet" />
+<style><!--
+   body #content_zone #maincontent .titlehead {
+      border-bottom: solid thin #4A452A;
+   }
+
+   body #content_zone #maincontent #frame .icons {
+      background-position: -150px -450px;
+   }
+--></style>
+<div id="content_zone">
+<div id="nav"><a href="x27790.xml">
+<div class="title">Student Health Center</div>
+</a> <iframe class="items" frameborder="0" scrolling="auto" src="Documents/health-center/links.html"></iframe></div>
+<div id="maincontent">
+<div id="topper">
+<div class="titlehead">After Hours</div>
+<div id="frame">
+<div class="icons"></div>
+<div class="shadow"></div>
+</div>
+</div>
+<div id="topsec">
+<p>If this is an emergency, immediately dial 911.</p>
+<p>An <strong>emergency</strong> generally involves breathing difficulty, severe bleeding, significant chest pain, and stroke symptoms (paralysis, slurred speech, disorientation, etc....) If you need more information about what an emergency is, please follow this link: <a href="http://www.webmd.com/a-to-z-guides/better-care-at-lower-costs-do-i-need-to-go-to-the-emergency-room">What is an emergency?</a></p>
+<p>If you need to speak to someone about health related issues and the Health Center is closed, please call <strong>1-800-777-3622</strong>.</p>
+</div>
+<div id="setwidth">
+<p>If you are in need of attention and the Student Health Center is closed you have a few options, including:</p>
+<table id="emergency">
+<tbody>
+<tr>
+<td class="firstcol">
+<p>Non-Life Threatening Minor Injuries:</p>
+</td>
+<td>
+<p><strong>Community Care</strong></p>
+<p>72 E Main St.</p>
+<p>Rexburg, ID 83440</p>
+<p>(208) 359-1770</p>
+</td>
+</tr>
+<tr>
+<td class="firstcol">
+<p>Serious (But Not Life - Threatening) Emergencies:</p>
+</td>
+<td>
+<p><strong>Go to the Emergency Room at</strong></p>
+<p>Madison Memorial Hospital</p>
+<p>450 E Main St.</p>
+<p>Rexburg, ID 83440</p>
+<p><a href="http://maps.google.com/maps?f=d&amp;saddr=525+S+Center+St,+Rexburg,+ID+83440+(BYU-Idaho)&amp;daddr=450+E+Main+St,+Rexburg,+ID+83440&amp;hl=en&amp;geocode=CbJecqmWta2NFc2QnAIdrFBW-SHFnat1-RutCg%3BFW67nAIdoHhW-Q&amp;mra=pe&amp;mrcr=0&amp;sll=43.790339,-111.75867&amp;sspn=0.115244,0.219727&amp;ie=UTF8&amp;ll=43.82061,-111.78012&amp;spn=0.01098,0.01316&amp;source=embed" target="_blank">View Map</a></p>
+</td>
+</tr>
+<tr>
+<td class="firstcol">
+<p>Life-Threatening Emergencies:</p>
+</td>
+<td>
+<p><strong>Dial 911</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<iframe frameborder="0" id="footer" scrolling="no" src="Documents/health-center/footer.html"></iframe></div>
+</div>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="Component" Name="xPower" readonly="false" hidden="false" required="false" Component="" CompTypes=""/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x28441" CompTypes="SiteControl"/></Content>

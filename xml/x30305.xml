@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.68 - http://www.ingeniux.com ***-->
+<AdminPage ID="x30305" Name="Student Ambassadors" Layout="admin_office_home.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Student Ambassadors</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Ambassadors Home Page</Abstract><MainMesgTop type="boolean" label="Enable to move &quot;Main Message&quot; to top of page" readonly="false" required="false" hidden="false">true</MainMesgTop><IntroCopy type="dhtml" label="Main Message" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+#page {
+	MIN-HEIGHT: 850px; WIDTH: 710px; HEIGHT: auto
+}
+#page #header {
+	WIDTH: 710px; HEIGHT: 265px
+}
+#page #Content {
+	PADDING-BOTTOM: 1%; MIN-HEIGHT: 300px; PADDING-LEFT: 1%; WIDTH: 78%; PADDING-RIGHT: 1%; FLOAT: left; HEIGHT: auto; PADDING-TOP: 1%
+}
+#page #Content P {
+	PADDING-LEFT: 5px
+}
+#page #buttons {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 1%; MIN-HEIGHT: 300px; PADDING-LEFT: 1%; WIDTH: 18%; PADDING-RIGHT: 1%; FLOAT: left; HEIGHT: auto; PADDING-TOP: 1%
+}
+#page #buttons #one {
+	BACKGROUND-COLOR: #fff; MARGIN-TOP: 10px; WIDTH: 100px; DISPLAY: block; HEIGHT: 100px; MARGIN-LEFT: 28px
+}
+#page #buttons #two {
+	BACKGROUND-COLOR: #fff; MARGIN-TOP: 10px; WIDTH: 100px; DISPLAY: block; HEIGHT: 100px; MARGIN-LEFT: 28px
+}
+#page #buttons #three {
+	BACKGROUND-COLOR: #fff; MARGIN-TOP: 10px; WIDTH: 100px; DISPLAY: block; HEIGHT: 100px; MARGIN-LEFT: 28px
+}
+#page #buttons #four {
+	BACKGROUND-COLOR: #fff; MARGIN-TOP: 10px; WIDTH: 100px; DISPLAY: block; HEIGHT: 100px; MARGIN-LEFT: 28px
+}
+#page #buttons #one {
+	BACKGROUND-IMAGE: url(Images/student-support/Ambassadors/Student-Ambassadors-sprite2.gif); BACKGROUND-POSITION: 0px 708px
+}
+#page #buttons #two {
+	BACKGROUND-IMAGE: url(Images/student-support/Ambassadors/Student-Ambassadors-sprite2.gif); BACKGROUND-POSITION: 0px 507px
+}
+#page #buttons #three {
+	BACKGROUND-IMAGE: url(Images/student-support/Ambassadors/Student-Ambassadors-sprite2.gif); BACKGROUND-POSITION: 0px 305px
+}
+#page #buttons #four {
+	BACKGROUND-IMAGE: url(Images/student-support/Ambassadors/Student-Ambassadors-sprite2.gif); BACKGROUND-POSITION: 0px 201px
+}
+#page #buttons #one:hover {
+	BACKGROUND-IMAGE: url(Images/student-support/Ambassadors/Student-Ambassadors-sprite2.gif); BACKGROUND-POSITION: 0px 809px
+}
+#page #buttons #two:hover {
+	BACKGROUND-IMAGE: url(Images/student-support/Ambassadors/Student-Ambassadors-sprite2.gif); BACKGROUND-COLOR: #fff; BACKGROUND-POSITION: 0px 608px
+}
+#page #buttons #three:hover {
+	BACKGROUND-IMAGE: url(Images/student-support/Ambassadors/Student-Ambassadors-sprite2.gif); BACKGROUND-COLOR: #fff; BACKGROUND-POSITION: 0px 407px
+}
+#page #buttons #four:hover {
+	BACKGROUND-IMAGE: url(Images/student-support/Ambassadors/Student-Ambassadors-sprite2.gif); BACKGROUND-COLOR: #fff; BACKGROUND-POSITION: 0px 99px
+}
+#page #Content #icons {
+	FLOAT: left
+}
+#page #buttons .live_chat {
+	PADDING-BOTTOM: 10px; MARGIN: 0px 0px 0px 27px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; FONT-FAMILY: sans-serif; COLOR: #fff; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 10px; border-radius: 4px
+}
+#page #buttons .live_chat:hover {
+	opacity: .8
+}
+#page #Content TR P {
+	PADDING-LEFT: 0px; MARGIN-LEFT: 0px; PADDING-TOP: 10px
+}
+#Content A:hover {
+	opacity: .8
+}
+
+#content {
+float: left;
+padding-top: 10px;
+width: 80%;
+}
+--></style>
+<div id="page">
+<div id="header"><img src="Images/student-support/Ambassadors/Ambassadors_new_header.jpg" /></div>
+<div id="content">
+<h1>Welcome!</h1>
+<p>All new students who accept their offer are assigned to a student ambassador. Your ambassador is a current student volunteer who will contact you on a frequent basis and answer any questions or concerns you may have.</p>
+<p>Don't know who your Student Ambassador is or need help? Contact us!</p>
+<table>
+<tbody>
+<tr>
+<td>E-mail</td>
+<td>Phone</td>
+<td>Facebook</td>
+</tr>
+<tr>
+<td>
+<p><a href="mailto:studentambassadors@byui.edu">studentambassadors@byui.edu</a></p>
+</td>
+<td>
+<p>(208) 496-1420</p>
+</td>
+<td>
+<p><a href="http://www.facebook.com/BYUIstudentambassadors">facebook.com/ambassadors</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="buttons"><strong>&nbsp;&nbsp;&nbsp;&nbsp; Quick Links: </strong><a href="../../student-support/student-ambassadors/visit-days" id="one" title="Visit Days"></a>
+<p style="margin: -1px;">&nbsp;</p>
+<a class="live_chat" href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=Student%20Support">Live Chat</a></div>
+</div>
+<p>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-33977325-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+</p>]]></IntroCopy><xPower Type="GroupStart" GroupStart="" Name="CellGroup" label="Cells" readonly="false" hidden="false" required="false" Expanded="true"><numColumns type="enumeration" values="1 2 3 4 5" label="Select number of cell columns." readonly="false" hidden="false" required="true">1</numColumns><xPower Type="List" List="xpowercomponent_Cell" Name="CellList" label="Cell List" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="true"><xPower Type="Component" Component="" Name="Cell" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"/></xPower></xPower><xPower Type="List" List="xpowercomponent_BannerAd" Name="BannerAds" label="Rotating Ads (650x216px required)" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="true"><xPower Type="Component" Component="" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/></xPower><xPower Type="Navigation" StartPage="" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="" Query="" Name="DeptEvents" label="Define Your Events Folder" readonly="false" hidden="false" required="false" Expanded="false"/><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="QuickLinksGroup" label="Quick Links Group" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Component="" Name="QuickLinks" label="Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x19075" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></AdminPage>

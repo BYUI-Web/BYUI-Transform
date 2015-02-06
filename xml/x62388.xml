@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<Content ID="x62388" Name="fresh_planning" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">fresh_planning</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">fresh_planning</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style><!--
+/****** Sub Pages ******/ .sub_planning{ background: url('Images/Admin_Offices/Financial Aid/sub_pages/sub_planning.png') no-repeat; width: 700px; height: 160px; } .sub_planning a{ display: block; width: 126px; height: 75px; text-indent: -9999px; position: absolute; margin-top: 30px; } .sub_planning_sprite{ background: none; } .sub_planning_sprite:hover{ background: url('Images/Admin_Offices/Financial Aid/sprites/sub_pages_sprite.png') no-repeat; } .sub_planning_sprite[id="planning"]{ background-position: -150px -27px; margin-left: 141px; } .sub_planning_sprite[id="continuing"]{ background-position: -286px -27px; margin-left: 277px; } .sub_planning_sprite[id="federal_aid"]{ background-position: -424px -27px; margin-left: 415px; } .sub_planning_sprite[id="follow_up"]{ background-position: -560px -27px; margin-left: 551px; }
+--></style>
+<p>
+<script src="Documents/Admin_Offices/Financial Aid/javascripts/prefixfree.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+var TimeOut         = 300;
+var currentLayer    = null;
+var currentitem     = null;
+var currentLayerNum = 0;
+var noClose         = 0;
+var closeTimer      = null;
+
+function mopen(n) {
+	var l  = document.getElementById("menu"+n);
+	var mm = document.getElementById("mmenu"+n);
+	
+	if(l) {
+		mcancelclosetime();
+		l.style.visibility='visible';
+		if(currentLayer && (currentLayerNum != n))
+			currentLayer.style.visibility='hidden';
+		currentLayer = l;
+		currentitem = mm;
+		currentLayerNum = n;			
+	} else if(currentLayer) {
+		currentLayer.style.visibility='hidden';
+		currentLayerNum = 0;
+		currentitem = null;
+		currentLayer = null;
+	}
+}
+
+function mclosetime() {
+	closeTimer = window.setTimeout(mclose, TimeOut);
+}
+
+function mcancelclosetime() {
+	if(closeTimer) {
+		window.clearTimeout(closeTimer);
+		closeTimer = null;
+	}
+}
+
+function mclose() {
+	if(currentLayer && noClose!=1)   {
+		currentLayer.style.visibility='hidden';
+		currentLayerNum = 0;
+		currentLayer = null;
+		currentitem = null;
+	} else {
+		noClose = 0;
+	}
+	currentLayer = null;
+	currentitem = null;
+}
+</script>
+</p>
+<style type="text/css"><!--
+.left {
+	float:left;
+	margin:0 5px 0 0;
+}
+
+.facebook {
+	position: absolute;
+	left: 725px;
+	margin-top: -17px;
+}
+
+/* CSS for DROPDOWN MENU */
+
+#dd {
+	clear: both; 
+	position: absolute; 
+	margin-top: 120px;
+	margin-left: 18px;
+}
+
+#dd li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	font: 14px futura;
+	
+}
+
+#dd li a.menu {
+	display: block;
+	text-align: center;
+	padding: 4px 10px;
+	margin: 0 1px 0 0;
+	width: 112px;
+	text-decoration: none;
+	color: black;
+}
+
+.dd {
+	padding: 0 0 30px 0;
+}
+.dd[id="landing"]{
+	margin-left: 108px;
+	margin-top: 70px !important;
+}
+.dd[id="sub"]{
+	margin-left: 108px;
+	margin-top: 70px !important;
+}
+.dd{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	font: 14px futura;
+	border: solid 1px black;
+}
+
+.dd li a.menu {
+	display: block;
+	text-align: center;
+	margin: 0 1px 0 0;
+	color: #000;
+	width: 114px;
+	text-decoration: none;
+}
+
+.submenu {
+	border: 1px solid #000;
+	visibility: hidden;
+	position: absolute;
+	z-index: 3;
+	width: 130px;
+}
+.submenu a {
+	display: block;
+	font: 11px futura;
+	text-align: center;
+	text-decoration: none;
+	padding: 5px 0 5px 0;
+	background-color: #fff;
+	color: #000;
+	width: 130px;
+}
+.submenu a:hover{
+	color: #000;
+}
+#main_cells{
+	position:absolute;
+	top: 200px;
+}
+#sub_cells{
+	position:absolute;
+	top: 400px;
+}
+--></style>
+<div class="my_container" id="home">
+<ul id="dd">
+<li><a class="menu" href="#" id="mmenu1" onmouseout="mclosetime();" onmouseover="mopen(1);">OFFICE HOURS</a>
+<div class="submenu" id="menu1" onmouseout="mclosetime();" onmouseover="mcancelclosetime()"><a href="#">Mon - Fri, 8am - 5pm</a></div>
+</li>
+<li><a class="menu" href="#" id="mmenu2" onmouseout="mclosetime();" onmouseover="mopen(2);">ADDRESS</a>
+<div class="submenu" id="menu2" onmouseout="mclosetime();" onmouseover="mcancelclosetime()"><a href="#">100 Kimball Building 1610 Rexburg, ID 83460</a></div>
+</li>
+<li><a class="menu" href="#" id="mmenu3" onmouseout="mclosetime();" onmouseover="mopen(3);">PHONE</a>
+<div class="submenu" id="menu3" onmouseout="mclosetime();" onmouseover="mcancelclosetime()"><a href="#">208.496.1600</a></div>
+</li>
+<li><a class="menu" href="#" id="mmenu4" onmouseout="mclosetime();" onmouseover="mopen(4);">EMAIL</a>
+<div class="submenu" id="menu4" onmouseout="mclosetime();" onmouseover="mcancelclosetime()"><a href="#">financialaid@byui.edu</a></div>
+</li>
+<li><a class="menu" href="#" id="mmenu5" onmouseout="mclosetime();" onmouseover="mopen(5);">FAX</a>
+<div class="submenu" id="menu5" onmouseout="mclosetime();" onmouseover="mcancelclosetime()"><a href="#">208.496.6711</a></div>
+</li>
+</ul>
+<div class="sub_planning"><a class="sub_planning_sprite" href="#" id="planning">planning</a> <a class="sub_planning_sprite" href="#" id="continuing">continuing</a> <a class="sub_planning_sprite" href="#" id="federal_aid">federal aid</a> <a class="sub_planning_sprite" href="#" id="follow_up">follow up</a></div>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="x18466" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x18206" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

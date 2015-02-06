@@ -1,0 +1,300 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.143 - http://www.ingeniux.com ***-->
+<Content ID="x17146" Name="Online" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Online Learning</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Online Learning</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="true"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false">BYU-Idaho Online Learning</BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false">BYU-Idaho Online Learning</MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<p>
+<title>Test</title>
+</p>
+<!-- jQuery library (served from Google) -->
+<p>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+</p>
+<!-- bxSlider Javascript file -->
+<p></p>
+<!--<script src="http:/js/jquery.bxslider.min.js"></script>-->
+<p></p>
+<!-- bxSlider CSS file -->
+<p></p>
+<!--<link href="http:/lib/jquery.bxslider.css" rel="stylesheet" />-->
+<style type="text/css"><!--
+/**
+ * BxSlider v4.1.2 - Fully loaded, responsive content slider
+ * http://bxslider.com
+ *
+ * Written by: Steven Wanderski, 2014
+ * http://stevenwanderski.com
+ * (while drinking Belgian ales and listening to jazz)
+ *
+ * CEO and founder of bxCreative, LTD
+ * http://bxcreative.com
+ */
+
+
+/** RESET AND LAYOUT
+===================================*/
+
+.bx-wrapper {
+position: relative;
+margin: 0 auto 60px;
+padding: 0;
+padding-top: 51px;
+max-width: 100%;
+height: 357px;
+float: left;
+margin-top: -19px;
+width: 950px;
+   *zoom: 1;
+
+}
+
+.bx-wrapper img {
+   max-width: 100%;
+   display: block;
+}
+
+/** THEME
+===================================*/
+
+.bx-wrapper .bx-viewport {
+   -moz-box-shadow: 0 0 5px #ccc;
+   -webkit-box-shadow: 0 0 5px #ccc;
+   box-shadow: 0 0 5px #ccc;
+   border:  5px solid #fff;
+   left: -5px;
+   background: #fff;
+   
+   /*fix other elements on the page moving (on Chrome)*/
+   -webkit-transform: translatez(0);
+   -moz-transform: translatez(0);
+      -ms-transform: translatez(0);
+      -o-transform: translatez(0);
+      transform: translatez(0);
+}
+
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {
+   position: absolute;
+   bottom: -30px;
+   width: 100%;
+}
+
+/* LOADER */
+
+.bx-wrapper .bx-loading {
+   min-height: 50px;
+   background: url(images/bx_loader.gif) center center no-repeat #fff;
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 2000;
+}
+
+/* PAGER */
+
+.bx-wrapper .bx-pager {
+   text-align: center;
+   font-size: .85em;
+   font-family: Arial;
+   font-weight: bold;
+   color: #666;
+   padding-top: 20px;
+}
+
+.bx-wrapper .bx-pager .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+   display: inline-block;
+   *zoom: 1;
+   *display: inline;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+   background: #666;
+   text-indent: -9999px;
+   display: block;
+   width: 10px;
+   height: 10px;
+   margin: 0 5px;
+   outline: 0;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+   background: #000;
+}
+
+/* DIRECTION CONTROLS (NEXT / PREV) */
+
+.bx-wrapper .bx-prev {
+   left: 10px;
+   background-image: url(Images/random-images/Arrow-Left.pn);
+}
+
+.bx-wrapper .bx-next {
+   right: 10px;
+   background-image: url(Images/random-images/arrow-right.pn);
+}
+
+.bx-wrapper .bx-prev:hover {
+   color: white;
+}
+
+.bx-wrapper .bx-next:hover {
+   color: white;
+}
+
+.bx-wrapper .bx-controls-direction a {
+   position: absolute;
+   top: 50%;
+   margin-top: -35px;
+   outline: 0;
+   width: 66px;
+   height: 72px;
+   text-indent: -9999px;
+   z-index: 9999;
+}
+
+
+
+
+.bx-wrapper .bx-controls-direction a.disabled {
+   display: none;
+}
+
+/* AUTO CONTROLS (START / STOP) */
+
+.bx-wrapper .bx-controls-auto {
+   text-align: center;
+}
+
+.bx-wrapper .bx-controls-auto .bx-start {
+   display: block;
+   text-indent: -9999px;
+   width: 10px;
+   height: 11px;
+   outline: 0;
+   background: url(images/controls.png) -86px -11px no-repeat;
+   margin: 0 3px;
+}
+
+.bx-wrapper .bx-controls-auto .bx-start:hover,
+.bx-wrapper .bx-controls-auto .bx-start.active {
+   background-position: -86px 0;
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop {
+   display: block;
+   text-indent: -9999px;
+   width: 9px;
+   height: 11px;
+   outline: 0;
+   background: url(images/controls.png) -86px -44px no-repeat;
+   margin: 0 3px;
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop:hover,
+.bx-wrapper .bx-controls-auto .bx-stop.active {
+   background-position: -86px -33px;
+}
+
+/* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+   text-align: left;
+   width: 80%;
+}
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+   right: 0;
+   width: 35px;
+}
+
+/* IMAGE CAPTIONS */
+
+.bx-wrapper .bx-caption {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   background: #666\9;
+   background: rgba(80, 80, 80, 0.75);
+   width: 100%;
+}
+
+.bx-wrapper .bx-caption span {
+   color: #fff;
+   font-family: Arial;
+   display: block;
+   font-size: .85em;
+   padding: 10px;
+}
+
+
+
+.span-24{
+   margin-top: -10px;
+}
+
+
+.bannerHeader{
+   margin-top: -25px;
+}
+--></style>
+<p></p>
+<p style="display: none;">[x94650][x94651]</p>
+<div>[x97646]</div>
+<ul class="bxslider">
+<li><a href="x96196.xml?cid=OLIC001:OL:ICan:HomePage:Ban"><img height="300px;" src="Images/onlineLearnPics/slide-01.jpg" style="margin-left: -37px !important;" width="950px !important;" /></a></li>
+<li><a href="x96196.xml?cid=OLIC002:OL:ICan:HomePage:Ban"><img height="300px;" src="Images/onlineLearnPics/slide-02.jpg" style="margin-left: -37px !important;" width="950px !important;" /></a></li>
+<li><a href="x96196.xml?cid=OLIC003:OL:ICan:HomePage:Ban"><img height="300px;" src="Images/onlineLearnPics/slide-03.jpg" style="margin-left: -37px !important;" width="950px !important;" /></a></li>
+<li><a href="x96196.xml?cid=OLIC004:OL:ICan:HomePage:Ban"><img height="300px;" src="Images/onlineLearnPics/slide-04.jpg" style="margin-left: -37px !important;" width="950px !important;" /></a></li>
+<li><a href="x96196.xml?cid=OLIC005:OL:ICan:HomePage:Ban"><img height="300px;" src="Images/onlineLearnPics/slide-05.jpg" style="margin-left: -37px !important;" width="950px !important;" /></a></li>
+<li><a href="x96196.xml?cid=OLIC006:OL:ICan:HomePage:Ban"><img height="300px;" src="Images/onlineLearnPics/slide-06.jpg" style="margin-left: -37px !important;" width="950px !important;" /></a></li>
+</ul>
+<p>
+<script type="text/javascript">
+$('.bxslider').bxSlider({
+  auto: true,
+  default: true,
+  options: true,
+  mode: 'fade', 
+  pause: 7000, 
+  speed: 1000
+});
+</script>
+</p>
+<style><!--
+.subMenu a {
+        display: block;
+        text-decoration: none;
+        color: black;
+        font-size: 12pt;
+        background-color: #ebebeb;
+        padding-left: 40px;
+        margin-bottom: 5px;
+        height: 48.5px;
+        width: 290px;
+        padding-bottom:8px;
+        padding-top: 14px;
+}
+--></style>
+<div class="bannerHeader blueBanner" style="clear: both; overflow: hidden;">
+<h1 style="color: white;">FUTURE STUDENTS</h1>
+</div>
+<div class="wrapper"><img alt="High School students in a hallway" height="261" src="Images/onlineLearnPics/familyLearning.jpg" width="640" /></div>
+<div class="subMenu menuRight blue"><a href="x95140.xml">Why Learn at BYU-Idaho</a><a class="pointer" href="x95141.xml">How It Works</a> <a href="x95079.xml">Degrees &amp; Programs</a> <a href="x95143.xml">Application</a> <a href="x95144.xml">Tuition &amp; Financial Aid</a></div>
+<p style="clear: both; padding-top: 5px;"></p>
+<div class="bannerHeader redBanner" style="clear: both; overflow: hidden;">
+<h1 style="color: white;">CURRENT STUDENTS</h1>
+</div>
+<div class="wrapper" style="float: right; margin-right: 15px;"><img alt="College students studying" height="261" src="Images/onlineLearnPics/coupleLearning.jpg" width="640" /></div>
+<div class="subMenu menuLeft red"><a href="x95194.xml">Online Student Community</a><a href="x95183.xml">Course List</a> <a href="x95152.xml">Advising</a> <a href="x95186.xml">Registration Help</a> <a href="x95167.xml">Online Support Center</a></div>
+<p style="clear: both; padding-top: 5px;"></p>
+<div class="bannerHeader greenBanner" style="clear: both; overflow: hidden;">
+<h1 style="color: white;">INSTRUCTORS</h1>
+</div>
+<div class="wrapper"><img alt="Instructor Working" height="258" src="Images/Admin_Offices/Online%20Learning/New%20Website/Instructor_Working.jpg" width="640" /></div>
+<div class="subMenu menuRight green"><a href="x95196.xml">Why Teach at BYU-Idaho</a> <a href="x95661.xml">Instructor Requirements</a> <a href="x95176.xml">Hiring Process</a> <a href="https://employment.byui.net/postings/search?query=&amp;query_v0_posted_at_date=&amp;query_organizational_tier_3_id=any&amp;417=&amp;418=8&amp;commit=Search" target="_blank">Open Positions</a> <a href="http://onlineinstruction.ning.com">Current Instructors</a></div>
+<div class="bannerHeader whiteBanner" style="clear: both; overflow: hidden;"></div>
+<p>[x95791]</p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="x91889" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="true" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="x97646" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x94650" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x94651" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x95561" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x95560" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x95791" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x17147" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

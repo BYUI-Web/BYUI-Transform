@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<CommonPage ID="x67251" Name="News" Layout="default.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">KBYI News</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">KBYI News</Abstract><xPower Type="GroupStart" GroupStart="" Name="ImageColumn" label="Image Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveRight type="boolean" hidden="true" label="Toggle column left or right (left is default)" readonly="false" required="false">false</MoveRight><xPower Type="List" List="xpowercomponent_ImageComponent" Name="ImageColumnComponentList" label="Images" readonly="false" hidden="false" required="false" Component="" CompTypes="LeftColumnImageComponent" Expanded="false"><xPower Type="Component" Component="" Name="ImageComponent" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent" Expanded="false"/></xPower><xPower Type="List" List="xpowercomponent_TextComponent" Name="TextColumnComponentList" label="Text Box" readonly="false" hidden="false" required="false" Component="" CompTypes="ColumnTextComponent" Expanded="false"><xPower Type="Component" Component="" Name="TextComponent" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent" Expanded="false"/></xPower></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<img alt="Generic BYU-Idaho Image" height="150" id="HomePageImage" src="Images/New image stucture/FPO_Images/advisingCenter-fpo.jpg" width="650" /><br />
+<div>
+<h1>Local&nbsp;News
+<hr />
+</h1>
+<h4></h4>
+<h4>Local Economy</h4>
+<p>The nation's economic recovery lost momentum in the spring as growth slowed to a 2.4% pace. The last quarter was the most sluggish showing in nearly a year. It's also too weak to drive down unemployment. The commerce department says consumers spent less which was a factor in the slow growth. But the president and CEO of Beehive Federal Credit Union in Rexburg, Shane Berger, says that's not a bad idea...</p>
+<p><a href="http://www.byui.edu/kbyi/Audio/12000424.WAV" target="_self">(audio here)&nbsp;</a></p>
+<p>&nbsp;</p>
+<p>Berger says things aren't quite as bad econmonically in eastern Idaho as they are nationally...</p>
+<p><a href="http://www.byui.edu/kbyi/Audio/12000425.WAV" target="_self">(audio here)&nbsp;</a></p>
+<p>&nbsp;</p>
+<p>Berger attended a World Credit Union Conference last month and he says Economists at that gathering said it may take years before the nation gets back to where it was before the recession began.</p>
+<p>&nbsp;</p>
+</div>
+<div>
+<h1></h1>
+<h1>Campus News</h1>
+<h1>
+<hr />
+</h1>
+<h4></h4>
+<h4>Extravadance</h4>
+<p>The BYU-Idaho Dance department is putting the final touches onto it's major performance of the semester. Garth Bickmore has more on the story.</p>
+<p><a href="http://www.byui.edu/kbyi/Audio/12013826.WAV" target="_self">(audio here)</a></p>
+<p>&nbsp;</p>
+</div>
+<div>
+<h1></h1>
+<h1>&nbsp;Morning Edition</h1>
+<h1>
+<hr />
+</h1>
+<p>Morning Edition is heard weekday mornings from</p>
+<p>5 to 8 on KBYI.&nbsp; Bryce Rydalch and the KBYI News team brings you local and regional news, along with world news coverage from National Public Radio.</p>
+</div>]]></BodyCopy><xPower Type="Component" Component="x14" Name="RelatedLinks" label="Related Links" readonly="false" hidden="false" required="false" CompTypes="RelatedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="false" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x4147" Name="SiteControl" label="Site Control" readonly="true" hidden="true" required="false" CompTypes="SiteControl" Expanded="false"/></CommonPage>

@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<AdminPage ID="x47337" Name="Student Records" Layout="admin_office_home.xsl">
+	<Title type="string" label="Title" readonly="false" hidden="false" required="true">Student Records and Registration</Title>
+	<Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Student Records and Registration</Abstract>
+	<MainMesgTop type="boolean" label="Enable to move &quot;Main Message&quot; to top of page" readonly="false" required="false" hidden="false">false</MainMesgTop>
+	<IntroCopy type="dhtml" label="Main Message" readonly="false" hidden="false" required="false">
+		<![CDATA[<p>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+window.jQuery || document.write('<script src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" _mce_src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" _mce_src="prebuilt/stylenew/js/libs/jquery-1.7.min.js"><\/script>')
+</script>
+<script src="Documents/student-records-and-registration/ibox2.js" type="text/javascript"></script>
+<script src="documents/student-records-and-registration/homepage-style-css/rotatingad(0).js" type="text/javascript"></script>
+</p>
+<p><link href="Documents/student-records-and-registration/homepage-style-css/srrcsshome6.css" rel="stylesheet" type="text/css" /></p>
+<!--      Contact us and Header Banner          -->
+<div id="headerBanner"><img alt="Header Banner" height="200" src="Images/Admin_Offices/Student Record and Registration/HomePage/Kimaball3.jpg" width="675" /></div>
+<!--      Header Contact Links          -->
+<div id="bar"><img alt="Big Bar Image" height="10" src="Images/Admin_Offices/Student Record and Registration/HomePage/bar2.png" width="676" /></div>
+<!--      Top Links          -->
+<div id="mainLinks">
+<ul>
+<li><a href="x44606.xml"><img alt="Registration Link" height="86" onmouseout="this.src='Images/Admin_Offices/Student Record and Registration/HomePage/registration1.png';" onmouseover="this.src='Images/Admin_Offices/Student Record and Registration/HomePage/registrationAlt2.png';" src="Images/Admin_Offices/Student Record and Registration/HomePage/registration1.png" width="88" /></a></li>
+<li><a href="x44646.xml"><img alt="Transfer Evaluation Link" height="86" onmouseout="this.src='Images/Admin_Offices/Student Record and Registration/HomePage/transferEval.png';" onmouseover="this.src='Images/Admin_Offices/Student Record and Registration/HomePage/transferEvalAlt.png';" src="Images/Admin_Offices/Student Record and Registration/HomePage/transferEval.png" width="88" /></a></li>
+<li><a href="x44647.xml"><img alt="Academic Standing Link" height="86" onmouseout="this.src='Images/Admin_Offices/Student Record and Registration/HomePage/AcademicStanding1.png';" onmouseover="this.src='Images/Admin_Offices/Student Record and Registration/HomePage/AcademicStandingAlt1.png';" src="Images/Admin_Offices/Student Record and Registration/HomePage/AcademicStanding1.png" width="88" /></a></li>
+<li><a href="x44651.xml"><img alt="Enrollment Verification Link" height="86" onmouseout="this.src='Images/Admin_Offices/Student Record and Registration/HomePage/Verification.png';" onmouseover="this.src='Images/Admin_Offices/Student Record and Registration/HomePage/VerificationAlt.png';" src="Images/Admin_Offices/Student Record and Registration/HomePage/Verification.png" width="88" /></a></li>
+<li><a href="x44653.xml"><img alt="Graduation Link" height="86" onmouseout="this.src='Images/Admin_Offices/Student Record and Registration/HomePage/Graduation.png';" onmouseover="this.src='Images/Admin_Offices/Student Record and Registration/HomePage/GraduationAlt.png';" src="Images/Admin_Offices/Student Record and Registration/HomePage/Graduation.png" width="88" /></a></li>
+<li><a href="x44657.xml"><img alt="Transcript Link" height="86" onmouseout="this.src='Images/Admin_Offices/Student Record and Registration/HomePage/transcripts.png';" onmouseover="this.src='Images/Admin_Offices/Student Record and Registration/HomePage/transcriptsAlt.png';" src="Images/Admin_Offices/Student Record and Registration/HomePage/transcripts.png" width="88" /></a></li>
+<li><a href="x41454.xml"><img alt="Forms Link" height="86" onmouseout="this.src='Images/Admin_Offices/Student Record and Registration/HomePage/forms.png';" onmouseover="this.src='Images/Admin_Offices/Student Record and Registration/HomePage/formsAlt.png';" src="Images/Admin_Offices/Student Record and Registration/HomePage/forms.png" width="88" /></a></li>
+</ul>
+</div>
+<div id="bar2"><img alt="thin bar Image" height="2" src="Images/Admin_Offices/Student Record and Registration/HomePage/barSmall2.png" width="676" /></div>
+<div id="table">
+<div><img alt="horizontal Bar" src="Images/Admin_Offices/Student Record and Registration/HomePage/academicCal1.png" width="200" /></div>
+<div style="width: 200px; height: 230px; overflow: auto; margin-top: 4px;">
+<table>
+<tbody id="academicCal"><!--THE EVENTS-->
+<tr>
+<td style="background-color: #d0d0d0;"><strong><span style="text-decoration: underline;">Oct 31</span></strong> <img alt="arrow" height="8" src="Images/Admin_Offices/Student Record and Registration/HomePage/arrow.png" width="7" />First block final grades due by 12:00 noon by faculty.</td>
+</tr>
+<tr>
+<td style="font-size: 9pt;"><strong><span style="text-decoration: underline;">Nov 1</span></strong> <img alt="arrow" height="8" src="Images/Admin_Offices/Student Record and Registration/HomePage/arrow.png" width="7" />First block final grades available to students online at my.byui.edu</td>
+</tr>
+<tr>
+<td style="background-color: #d0d0d0;"><strong><span style="text-decoration: underline;">Nov 3</span></strong> <img alt="arrow" height="8" src="Images/Admin_Offices/Student Record and Registration/HomePage/arrow.png" width="7" />Last day to withdraw completely from Fall Semester Classes and receive a pro-rated tuition refund.</td>
+</tr>
+<tr>
+<td style="font-size: 9pt;"><strong><span style="text-decoration: underline;">Nov 5</span></strong> <img alt="arrow" height="8" src="Images/Admin_Offices/Student Record and Registration/HomePage/arrow.png" width="7" />Last day to withdraw from Full Semester Classes and receive a "W" grade and not the grade earned.</td>
+</tr>
+<tr>
+<td style="background-color: #d0d0d0;"><strong><span style="text-decoration: underline;">Nov 5</span></strong> <img alt="arrow" height="8" src="Images/Admin_Offices/Student Record and Registration/HomePage/arrow.png" width="7" />Winter Registration opens.</td>
+</tr>
+<tr>
+<td style="font-size: 9pt;"><strong><span style="text-decoration: underline;">Nov 15</span></strong> <img alt="arrow" height="8" src="Images/Admin_Offices/Student Record and Registration/HomePage/arrow.png" width="7" />Dec 2011 grad app deadline. Must apply for names to be printed in the program and be eligible for honors</td>
+</tr>
+<tr>
+<td style="background-color: #d0d0d0;"><strong><span style="text-decoration: underline;">Nov 21</span></strong> <img alt="arrow" height="8" src="Images/Admin_Offices/Student Record and Registration/HomePage/arrow.png" width="7" />Non-Teaching Day - No classes</td>
+</tr>
+<tr>
+<td style="font-size: 9pt;"><strong><span style="text-decoration: underline;">Nov 22</span></strong> <img alt="arrow" height="8" src="Images/Admin_Offices/Student Record and Registration/HomePage/arrow.png" width="7" />Thanksgiving Holiday - No Classes</td>
+</tr>
+<tr>
+<td style="background-color: #d0d0d0;"><strong><span style="text-decoration: underline;">Nov 23</span></strong> <img alt="arrow" height="8" src="Images/Admin_Offices/Student Record and Registration/HomePage/arrow.png" width="7" />Thanksgiving Holiday - No Classes</td>
+</tr>
+<!--THE EVENTS--></tbody>
+</table>
+</div>
+</div>
+<div id="verticalBar"><img alt="horizontal Bar" height="264" src="Images/Admin_Offices/Student Record and Registration/HomePage/horizBar.png" width="3" /></div>
+<!--      Rotating Banner Ads          -->
+<div id="rotating">
+<div id="sliderFrame">
+<div id="slider"><a href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=SRR&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large" onclick="window.open('https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=SRR&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large&amp;referrer='+escape(document.location),'chat1132447','width=472,height=320');return false;" target="chat1132447"><img src="Images/Admin_Offices/Student Record and Registration/HomePage/liveChatBig.png" /> </a> <a href="x46988.xml"><img height="260" src="Images/Admin_Offices/Student Record and Registration/SRRtextbanner1.png" width="200" /></a> <a href="x46734.xml"><img height="260" src="Images/Admin_Offices/Student Record and Registration/FROSH CLASSES BANNER.png" width="200" /></a> <a href="x43391.xml"><img height="260" src="Images/Admin_Offices/Student Record and Registration/winterregsrr.png" width="200" /></a> <a href="x41450.xml"><img height="260" src="Images/Admin_Offices/Student Record and Registration/last day1.png" width="200" /> </a><a href="x45720.xml"><img height="260" src="Images/Admin_Offices/Student Record and Registration/GRAD app deadline.png" width="200" /> </a> <a href="x44647.xml"><img height="260" src="Images/Admin_Offices/Student Record and Registration/worried 2.png" width="200" /></a> <a href="x44647.xml"><img height="260" src="Images/Admin_Offices/Student Record and Registration/sap.png" width="200" /></a></div>
+</div>
+</div>
+<div id="verticalBar2"><img alt="horizontal Bar" height="264" src="Images/Admin_Offices/Student Record and Registration/HomePage/horizBar.png" width="3" /></div>
+<!--      Secondary Links          -->
+<div id="secondLinks">
+<ul>
+<li><a href="student-records/academic-deadlines"><img alt="Academic Deadlines link" height="29" src="Images/Admin_Offices/Student Record and Registration/HomePage/academic1.png" width="200" /></a></li>
+<li><a href="student-records/grades"><img alt="Grades and Credits link" height="30" src="Images/Admin_Offices/Student Record and Registration/HomePage/grades1.png" width="200" /></a></li>
+<li><a href="student-records/ferpa"><img alt="Ferpa link" height="30" src="Images/Admin_Offices/Student Record and Registration/HomePage/ferpa1.png" width="200" /></a></li>
+<li><a href="student-records/department"><img alt="Department information link" height="30" src="Images/Admin_Offices/Student Record and Registration/HomePage/department1.png" width="200" /></a></li>
+<li><a href="student-records/parent"><img alt="Parent Link" height="30" src="Images/Admin_Offices/Student Record and Registration/HomePage/parent1.png" width="200" /></a></li>
+<li><a href="student-records/missionary"><img alt="Missionary Link" height="30" src="Images/Admin_Offices/Student Record and Registration/HomePage/missionary1.png" width="200" /></a></li>
+<li><a href="student-records/faq"><img alt="Faq Link" height="30" src="Images/Admin_Offices/Student Record and Registration/HomePage/faq1.png" width="200" /></a></li>
+</ul>
+</div>
+<div id="email" style="display: none;">
+<p>For any questions please email us at <a href="mailto:registrar@byui.edu"><span style="text-decoration: underline;">registrar@byui.edu</span></a></p>
+</div>
+<div id="phone" style="display: none;">
+<p>For any questions please call us at (208)496-1000</p>
+</div>
+<div id="bottomBar"><img alt="Bar" height="1" src="Images/Admin_Offices/Student Record and Registration/HomePage/bottomBar.jpg" width="676" /></div>
+<div id="bottomContact">
+<ul>
+<li><img alt="Email Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/envelope.png" width="23" /><a href="student-records#email" rel="ibox" title="Email Information"> Email Us</a></li>
+<li><img alt="Phone Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/phone.png" width="23" /><a href="student-records#phone" rel="ibox" title="Phone Information"> Call Us</a></li>
+<li><img alt="Visit Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/visit.png" width="23" /><a href="Images/Admin_Offices/Student Record and Registration/HomePage/byuidahoMap.jpg" rel="ibox"> Visit Us</a></li>
+<li><img alt="Facebook Link" height="16" src="Images/Admin_Offices/Student Record and Registration/HomePage/facebook.png" width="16" /><a href="Images/Admin_Offices/Student Record and Registration/SecondLevelPage/FacebookInfo.png" rel="ibox"> facebook</a></li>
+<li><img alt="Live Chat Link" height="16" src="Images/Admin_Offices/Student Record and Registration/HomePage/livechat.png" width="18" /><a href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=SRR&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large" onclick="window.open('https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=SRR&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large&amp;referrer='+escape(document.location),'chat1132447','width=472,height=320');return false;" target="chat1132447">Live Chat</a></li>
+<li><img alt="Site Index Link" height="17" src="Images/Admin_Offices/Student Record and Registration/HomePage/index.png" width="18" /><a href="student-records/site-index"> Site Index</a></li>
+</ul>
+</div>
+<div id="bottomBar2"><img alt="bottom Bar" height="1" src="Images/Admin_Offices/Student Record and Registration/HomePage/bottomBar.jpg" width="676" /></div>]]></IntroCopy>
+	<xPower Type="GroupStart" GroupStart="" Name="CellGroup" label="Cells" readonly="false" hidden="false" required="false" Expanded="true">
+		<numColumns type="enumeration" values="1 2 3 4 5" label="Select number of cell columns." readonly="false" hidden="false" required="true">1</numColumns>
+		<xPower Type="List" List="xpowercomponent_Cell" Name="CellList" label="Cell List" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false">
+			<xPower Type="Component" Component="x17266" Name="Cell" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"/>
+			<xPower Type="Component" Component="x17292" Name="Cell" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"/>
+			<xPower Type="Component" Component="x17268" Name="Cell" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"/>
+			<xPower Type="Component" Component="x17314" Name="Cell" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"/>
+		</xPower>
+	</xPower>
+	<xPower Type="List" List="xpowercomponent_BannerAd" Name="BannerAds" label="Rotating Ads (650x216px required)" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false">
+		<xPower Type="Component" Component="" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/>
+		<xPower Type="Component" Component="" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/>
+		<xPower Type="Component" Component="" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/>
+	</xPower>
+	<xPower Type="Navigation" StartPage="" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="" Query="" Name="DeptEvents" label="Define Your Events Folder" readonly="false" hidden="false" required="false" Expanded="false">
+		<Exports/>
+	</xPower>
+	<xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/>
+	<xPower Type="GroupStart" GroupStart="" Name="QuickLinksGroup" label="Quick Links Group" readonly="false" hidden="false" required="false" Expanded="false">
+		<xPower Type="Component" Component="" Name="QuickLinks" label="Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/>
+		<xPower Type="Component" Component="" Name="QuickLinks" label="Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/>
+		<xPower Type="Component" Component="" Name="QuickLinks" label="Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/>
+	</xPower>
+	<xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false">
+		<BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/>
+		<MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/>
+		<NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow>
+		<NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex>
+		<NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP>
+		<Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority>
+	</xPower>
+	<xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/>
+	<xPower Type="Component" Component="x17143" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/>
+</AdminPage>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x68340" Name="Admin Home" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Admin Home</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Admin Home</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style type="text/css"><!--
+.chkBx, .comp, .drpDwn, .grpList, .pgProp, .navIndex, .webEdit {display: block !important;}
+
+.bannerad, .cell, .eventcomp, .highlinks, .quicklinks {display: block !important;}
+
+.acdmevent, .eventdetail {display: block !important;}
+--></style>
+<link href="prebuilt/stylenew/css/training.css" media="screen, projection" rel="stylesheet" type="text/css" />
+<div id="training"><img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/check.png" width="20" />
+<p><strong>Enable to move "Main Message" to top of page: </strong><br />Enable to move content in Main Message above the cell components.</p>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/edit.png" width="20" />
+<p><strong>Main Message: </strong>Additional information you wish to include in the main body area of the Admin Home page can be placed here.</p>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/drop_down.png" width="20" />
+<div class="level0">
+<p class="cutMargin"><strong>Select number of cell columns: </strong> Selecting the number of columns determines the width of the cells that will be displayed in the Admin Home  page. The cells will fill in the body area from top left to bottom right.<br /><br /> <span style="text-decoration: underline; margin-bottom: 0;">Cell Column Widths</span></p>
+<table style="display: block; float: left; height: 117px; width: 97px;">
+<tbody>
+<tr>
+<td><strong>Cols</strong></td>
+<td><strong>Pixels</strong></td>
+</tr>
+<tr>
+<td>1</td>
+<td>710</td>
+</tr>
+<tr>
+<td>2</td>
+<td>350</td>
+</tr>
+<tr>
+<td>3</td>
+<td>230</td>
+</tr>
+</tbody>
+</table>
+<span class="clear"> </span></div>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/list.png" width="20" />
+<h3><strong>Cell List</strong></h3>
+<div class="level1"><img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/component.png" width="20" />
+<p><strong>Cell: </strong> Insert <a href="x36443.xml">Cell Components</a> in the order you wish to display them. A cell can contain an image, a message area, and a footer link.</p>
+</div>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/list.png" width="20" />
+<h3><strong>Rotating Ads</strong></h3>
+<div class="level1"><img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/component.png" width="20" />
+<p><strong>BannerAd: </strong> Insert <a href="x36444.xml">Banner Ad  Components</a> in the order you wish them to rotate. Banner Ads are images that can link to other web pages.</p>
+</div>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/navigation.png" width="20" />
+<div class="level0">
+<p><strong>Define Your Events Folder: </strong>All CMS Pages that are children of the assigned Folder/CMS Page of this input field should display as calendar events located between the Rotating Ads and Quick Links.</p>
+<p>What is displayed is the name of the CMS Page, the given date, and text within the abstract field.</p>
+<p class="cutMargin">The following list contains compatible pages.</p>
+<div class="compatible">
+<p>Compatible CMS Pages</p>
+<ul>
+<li><a href="x36450.xml">Academic Event</a></li>
+<li><a href="x36420.xml">Event Detail</a></li>
+</ul>
+<ul>
+<li><a href="x36439.xml">Event Component</a></li>
+</ul>
+</div>
+<span class="clear"> </span></div>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/component.png" width="20" />
+<p><strong>Highlighted Links: </strong>Insert a <a href="x36423.xml">Highlighted Links Component</a> to list a set of links under the left navigation within the left column of the Admin Home  page.</p>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/list.png" width="20" />
+<h3><strong>Quick Links Group: </strong></h3>
+<div class="level1"><img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/component.png" width="20" />
+<p><strong>Columns 1, 2 &amp; 3: </strong>Insert up to three <a href="x36436.xml">Quick Links Components</a> used to display up to three columns of links at the foot of the Admin Home  page.</p>
+</div>
+</div>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Component" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="x36276" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/><xpowercomponent_Optional Type="Component" Component="x36121" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/><xpowercomponent_Optional Type="Component" Component="x35847" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/><xpowercomponent_Optional Type="Component" Component="x36611" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x14845" CompTypes="SiteControl"/></Content>

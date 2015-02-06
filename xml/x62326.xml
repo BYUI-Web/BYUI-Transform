@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<Content ID="x62326" Name="Travel" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Travel</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Travel</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<div class="style-container">[x50728]</div>
+<style><!--
+div.map-container {
+	float: right;
+	margin: 31px 0 0 60px;
+}
+li {
+	margin: 8px 0;
+}
+--></style>
+<div class="map-container">
+<h2>Travel</h2>
+<iframe frameborder="0" height="295" marginheight="0" marginwidth="0" scrolling="no" src="https://maps.google.com/maps/ms?msa=0&amp;msid=211158663684527091355.0004d575b698df4d5d023&amp;ie=UTF8&amp;t=m&amp;ll=43.817127,-111.780825&amp;spn=0.009135,0.012617&amp;z=15&amp;output=embed" width="295"></iframe><br /><small>View <a href="https://maps.google.com/maps/ms?msa=0&amp;msid=211158663684527091355.0004d575b698df4d5d023&amp;ie=UTF8&amp;t=m&amp;ll=43.817127,-111.780825&amp;spn=0.009135,0.012617&amp;z=15&amp;source=embed" style="color: #0000ff; text-align: left;">BYU-Idaho</a> in a larger map</small></div>
+<h2>Travel Directions</h2>
+<h3>Traveling North on I-15</h3>
+<ul>
+<li>Take exit 119 for US-20 E toward Rigby/W Yellowstone. Turn right at traffic light. Proceed on US-20 E for about 24 miles.</li>
+<li>Take exit 332 toward Brigham Young University Idaho/South Rexburg.</li>
+<li>Turn right onto University Blvd.</li>
+<li>Turn left onto S Hwy 191/S Yellowstone Hwy</li>
+<li>This road will curve towards the East, continue onto W 4th S.</li>
+<li>At the traffic circle, take the 2nd exit onto W 4th S/Viking Dr. (This road leads to campus)</li>
+<li>Consult campus map for parking and accommodations.</li>
+</ul>
+<h3>Traveling East on I-86 E</h3>
+<ul>
+<li>Take exit 63B on the left to merge onto I-15 N toward Blackfoot/Idaho Falls.</li>
+<li>Follow directions above for "traveling North on I-15".</li>
+</ul>
+<h2>Lodging&mdash;Special Deals</h2>
+<p><a href="x50738.xml">Special deals</a> for Education Week participants will be available soon.</p>
+<hr class="separator" />]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="x28840" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="true" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="x50728" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x47794" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

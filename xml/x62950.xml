@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content ID="x62950" Name="About Health Insurance" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">About Health Insurance</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Common Health Insurance Terms - BYU-Idaho Student Health Center</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<link href="Documents/health-center/topper.css" rel="stylesheet" />
+<link href="Documents/health-center/layout.css" rel="stylesheet" />
+<style type="text/css"><!--
+   body #content_zone .icons {
+      background-position: -300px  -300px;
+   }
+
+   body #content_zone .titlehead {    
+      border-bottom: solid thin #31859C;
+   }
+
+   body #content_zone .comment {    
+      color: #31859C;
+      font-weight: bold;
+   }
+--></style>
+<div id="content_zone">
+<div id="topper">
+<div class="titlehead">About Health Insurance</div>
+<div id="frame">
+<div class="icons"></div>
+<div class="shadow"></div>
+</div>
+</div>
+<div id="topsec">
+<div id="faceof"><img alt="Deseret Mutual Logo" height="156" id="logo" src="Images/health-center/deseret(0).png" width="170" /> <br />Co. DMBA</div>
+<p>These are some common insurance terms and their definitions</p>
+<p><strong>NOTE: These definitions are for summary explanation only. Please  refer  to your policy for specific definitions related to your benefits.</strong></p>
+<h4>Deductible</h4>
+<p>A set dollar amount you pay each benefit period for covered services  before your health insurance policy begins paying benefits. Deductibles  are reset each year.</p>
+<h4>Co-insurance</h4>
+<p>A percentage (for example 20 percent) of the allowed amount you pay  for a health care covered service. Coinsurance applies after the  deductible has been met.</p>
+<h4>Co-payment</h4>
+<p>A fixed dollar amount (for example $20 or $30) you pay for specified covered services such as a doctor office visit.</p>
+<h4>Amount Charged vs. Amount Allowed</h4>
+<p>A provider can charge you any amount for a service, but a health  insurer may establish the maximum they will pay for a given covered  service. The amount is often less than the charged amount. Contracting  or contracted providers agree to accept the allowed amount (called the  maximum allowance in your policy) as payment in full for a covered  service and as part of their contract agree not to bill you the  difference between the allowed amount and the charged amount.</p>
+<h4>Contracted or Non-contracted</h4>
+<p>Depending on your policy there may be a different benefit level for  contracted and non-contracted providers. When you use providers out of  the network, you may have to pay significantly more for your health care  service.</p>
+<h4>EOB</h4>
+<p>An explanation of benefits form (EOB) lists the services for which  you or your providers have sent claims for coverage. These forms are not  bills but explain the results for each service submitted.</p>
+<h4>Exclusions</h4>
+<p>A service or type of service that is specifically excluded from  coverage in your policy. Read your policy for a full list, but  non-covered services often include those considered investigational or  convenience items.</p>
+<p>For more information, see the <a href="http://www.dmba.com/nsc/Student/Handbooks.aspx">Student Plan Handbook</a>. The Handbook  provides you with an explanation of your benefits under the BYU-Idaho  Student Health Plan and constitutes a legal contract between you and  Deseret Mutual.</p>
+</div>
+<iframe frameborder="0" id="footer" scrolling="no" src="http://www.byui.edu/Documents/health-center/footer.html"></iframe></div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x28441" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

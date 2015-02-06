@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.70 - http://www.ingeniux.com ***-->
+<PolicyPage ID="x27782" Name="Reserve for Renewal &amp; Replacement (R&amp;R)" Layout="general_Policy.xsl"><Title type="string" label="Policy Title" readonly="false" hidden="false" required="true">Reserve for Renewal &amp; Replacement (R&amp;R)</Title><Abstract type="string" label="Policy Abstract" readonly="false" hidden="false" required="true">Reserve for Renewal &amp; Replacement (R&amp;R)</Abstract><Date type="date" label="Revision Date" readonly="false" hidden="false" required="true" display="localdateshort" UTC="true">20110909T18:00:00</Date><BodyCopy type="dhtml" label="Policy" readonly="false" hidden="false" required="false"><![CDATA[<h4 style="font-weight: bold;">Policy</h4>
+<p style="font-family: Verdana, Arial, sans-serif;">Auxiliary units which have equipment should set aside funds annually to be used to either replace their equipment or to renew (extend) the life of the equipment. This is called the Reserve for Renewal &amp; Replacement (R&amp;R). These funds can be used only to replace or renew existing equipment.</p>
+<h4 style="font-weight: bold;">Procedures</h4>
+<ol style="font-family: Verdana, Arial, sans-serif; padding-left: 15px;">
+<li>In order for a piece of equipment to be considered as R&amp;R equipment, it must be one of the following:
+<ul style="font-family: Verdana, Arial, sans-serif; padding-left: 30px; list-style-type: circle;">
+<li>Capital Equipment - Unit cost is over $5,000 (Object Code 8400)</li>
+<li>Large volume purchases even though each item may be under $5,000 (Object Code 8400)</li>
+</ul>
+</li>
+<li>The amount of the funds set aside is dependent upon the anticipated replacement cost and the life of each equipment item. Because of disposal and purchases, each department should recompute annually the amount to be set aside in the coming year.</li>
+<li>R&amp;R funds can only be used to replace or renew R&amp;R equipment. The following Object Codes are to be used in each R&amp;R account:
+<ul style="font-family: Verdana, Arial, sans-serif; padding-left: 30px; list-style-type: circle;">
+<li>0950 - Balance of funds from prior years</li>
+<li>2020 - Funds set aside during the current year</li>
+<li>8200 - Equipment repair &amp; maintenance</li>
+<li>1630 - Interest earned on the balance of the account</li>
+<li>1610 - Proceeds from sales of R&amp;R equipment</li>
+<li>8400 - Purchases of capital equipment</li>
+</ul>
+</li>
+<li>All expenditures of R&amp;R funds must be approved by the Director of Auxiliaries. Purchase Requisitions, Check Requests, CPOs, etc. should be sent to this office for approval, after which they will be forwarded to the appropraite office.</li>
+<li>All R&amp;R equipment will be kept on the University inventory system. Periodid inventory of these items performed by the Accounting Office. Discrepancies must be resolved by the account custodian (Reference Fixed Assets Inventory section).</li>
+<li>R&amp;R equipment will be kept on the University inventory system and be identified with the R&amp;R account number (Reference Fixed Assets Inventory section).</li>
+</ol>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="Policy" label="Policy" readonly="false" hidden="false" required="false" CompTypes="PolicyNavigationComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="true"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">true</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x18419" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></PolicyPage>

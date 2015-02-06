@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x63673" Name="snipHousing" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"&gt;
+&lt;/script&gt;
+
+&lt;style&gt;
+
+#page_title{
+display:none;
+}
+
+#firstBanner {
+	opacity: 1.0;
+	position:absolute;
+	transition: opacity 2s ease-in-out; 
+	-moz-transition: opacity 2s ease-in-out; 
+	-webkit-transition: opacity 2s ease-in-out; 
+	-o-transition: opacity 2s ease-in-out;
+}
+
+#secondBanner {
+	opacity: 1.0;
+	position:absolute;
+	transition: opacity 6s ease-in-out; 
+	-moz-transition: opacity 6s ease-in-out; 
+	-webkit-transition: opacity 6s ease-in-out; 
+	-o-transition: opacity 6s ease-in-out;
+}
+
+#thirdBanner {
+	position:absolute;
+	opacity: 0.0;
+	transition: opacity 4s ease-in-out; 
+	-moz-transition: opacity 4s ease-in-out; 
+	-webkit-transition: opacity 4s ease-in-out; 
+	-o-transition: opacity 4s ease-in-out;
+}
+
+&lt;/style&gt;
+
+&lt;script&gt;
+
+window.onload=function(){
+
+firstBanner.style.opacity = '0.0';
+secondBanner.style.opacity = '0.0';
+setTimeout(function(){thirdBanner.style.opacity = '1.0'},3000);
+
+};
+&lt;/script&gt;
+
+
+&lt;img height="57" src="Images/housing/blank.png" width="100" /&gt;&lt;img height="68" src="Images/housing/Homepage%202.0/word-title.png" width="471" /&gt;&lt;a class="extLink" href="http://www.facebook.com/BYUI.HSL" target="_blank"&gt;&lt;img height="68" onmouseout="this.src='Images/housing/Homepage 2.0/FB222.png';" onmouseover="this.src='Images/housing/Homepage 2.0/FB2.png';" src="Images/housing/Homepage%202.0/FB222.png" width="44" /&gt;&lt;/a&gt;&lt;a class="extLink" href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;amp;file=visitorWantsToChat&amp;amp;site=1132447&amp;amp;byhref=1&amp;amp;SESSIONVAR%21skill=Housing&amp;amp;imageUrl=https://web.byui.edu/admissions/liveperson/large" target="_blank"&gt;&lt;img height="68" onmouseout="this.src='Images/housing/Homepage 2.0/LC22.png';" onmouseover="this.src='Images/housing/Homepage 2.0/LC2.png';" src="Images/housing/Homepage%202.0/LC22.png" width="84" /&gt;&lt;/a&gt;
+
+&lt;br /&gt;
+
+&lt;!-- Main Banner  2nd image test2, 3rd image image3--&gt;
+&lt;img id="secondBanner" height="183" width="703" src="Images/housing/Homepage 2.0/test2.png"/&gt;
+&lt;img id="firstBanner" height="183" width="703" src="Images/housing/Homepage%202.0/tt1.png"/&gt;
+&lt;img id="thirdBanner" height="183" width="703" src="Images/housing/Homepage 2.0/one-image.png"/&gt;
+&lt;img height="183" width="703" src="Images/housing/blank.png" /&gt;
+&lt;br /&gt;
+
+&lt;!-- Buttons--&gt;
+&lt;a class="intLink" href="x44817.xml"&gt;&lt;img height="156" onmouseout="this.src='Images/housing/Homepage 2.0/nsl1.png';" onmouseover="this.src='Images/housing/Homepage 2.0/nsl2.png';" src="Images/housing/Homepage 2.0/nsl1.png" width="188" /&gt;&lt;/a&gt;&lt;a class="intLink" href="x45370.xml"&gt;&lt;img height="156" onmouseout="this.src='Images/housing/Homepage 2.0/noc1.png';" onmouseover="this.src='Images/housing/Homepage 2.0/noc2.png';" src="Images/housing/Homepage 2.0/noc1.png" width="165" /&gt;&lt;/a&gt;&lt;a class="intLink" href="x45167.xml"&gt;&lt;img height="156" onmouseout="this.src='Images/housing/Homepage 2.0/nms1.png';" onmouseover="this.src='Images/housing/Homepage 2.0/nms2.png';" src="Images/housing/Homepage 2.0/nms1.png" width="160" /&gt;&lt;/a&gt;&lt;a href="http://web.byui.edu/tis/search"&gt;&lt;img height="156" onmouseout="this.src='Images/housing/Homepage 2.0/nah1.png';" onmouseover="this.src='Images/housing/Homepage 2.0/nah2.png';" src="Images/housing/Homepage 2.0/nah1.png" width="196" /&gt;&lt;/a&gt;
+&lt;br /&gt;
+
+&lt;!-- Gray Buttons --&gt;
+&lt;a href="x43533.xml"&gt;&lt;img height="36" onmouseout="this.src='Images/housing/Homepage 2.0/a1.png';" onmouseover="this.src='Images/housing/Homepage 2.0/a2.png';" src="Images/housing/Homepage%202.0/a1.png" width="169" /&gt;&lt;img height="30" src="Images/housing/blank.png" width="3" /&gt;&lt;/a&gt;&lt;a class="intLink" href="x44861.xml"&gt;&lt;img height="36" onmouseout="this.src='Images/housing/Homepage%202.0/s1.png';" onmouseover="this.src='Images/housing/Homepage%202.0/s2.png';" src="Images/housing/Homepage%202.0/s1.png" width="177" /&gt;&lt;img height="30" src="Images/housing/blank.png" width="3" /&gt;&lt;/a&gt;&lt;a class="intLink" href="x9578.xml"&gt;&lt;img height="36" onmouseout="this.src='Images/housing/Homepage%202.0/d1.png';" onmouseover="this.src='Images/housing/Homepage%202.0/d2.png';" src="Images/housing/Homepage%202.0/d1.png" width="187" /&gt;&lt;img height="30" src="Images/housing/blank.png" width="3" /&gt;&lt;/a&gt;&lt;a class="intLink" href="x44113.xml"&gt;&lt;img height="36" onmouseout="this.src='Images/housing/Homepage%202.0/f1.png';" onmouseover="this.src='Images/housing/Homepage%202.0/f2.png';" src="Images/housing/Homepage%202.0/f1.png" width="165" /&gt;&lt;/a&gt;
+</ContentSnippet></ContentSnippet>

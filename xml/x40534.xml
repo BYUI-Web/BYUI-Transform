@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x40534" Name="College of Performing and Visual Arts" Layout="byuidefault.xsl">
+	<Title type="string" label="Title" readonly="false" hidden="false" required="true">College of Performing and Visual Arts</Title>
+	<Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">College of Performing and Visual Arts</Abstract>
+	<xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart="">
+		<BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/>
+		<MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/>
+		<NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow>
+		<NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex>
+		<NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP>
+		<Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority>
+	</xPower>
+	<xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart="">
+		<HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle>
+		<Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation>
+	</xPower>
+	<BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height="">
+		<![CDATA[<h1>Art</h1>
+<ul>
+<li><a href="Documents/instructional_development/outcomes-assessment/Performing and Visual Arts/July 2013/BFA in Art Two Dimensional Emphasis.pdf">BFA--Two Dimensional Studies</a>&nbsp;</li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Performing and Visual Arts/July 2013/BFA in Art Three Dimensional Emphasis.pdf">BFA--Three Dimensional Studies&nbsp;</a></li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Performing and Visual Arts/July 2013/BFA Graphic Design Emphasis.pdf">BFA--Graphic Design Emphasis</a></li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Performing and Visual Arts/July 2013/BFA Illustration Emphasis.pdf">BFA--Illustration Emphasis</a></li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Performing and Visual Arts/July 2013/BFA Photography Emphasis.pdf">BFA--Photography</a>&nbsp;</li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Performing and Visual Arts/July 2013/BA in Art History.pdf">BA in Art--Art History</a></li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Performing and Visual Arts/BA in Art, Standard Degree.pdf">BA in Art--Integrated Studio Art</a></li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Performing and Visual Arts/July 2013/BA in Art Education Composite.pdf">BA Art Education</a></li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Performing and Visual Arts/July 2013/BA in Art Education Composite(0).pdf">BA in Art Education Composite</a></li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Performing and Visual Arts/July 2013/Photography Minor.pdf">Minor in Photography</a></li>
+</ul>
+<h1>Music</h1>
+<p><a href="http://nasm.arts-accredit.org/index.jsp?page=Standards-Handbook">National Association of Schools of Music Standards/Handbook</a></p>
+<ul>
+<li>AAS in Piano Pedagogy</li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Performing and Visual Arts/BA in Music.pdf">BA in Music</a></li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Performing and Visual Arts/BMA Expected Learning Outcomes.pdf">BMA--General Music</a></li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Performing and Visual Arts/BM in Performance Expected Learning Outcomes.pdf">BM--Various Performance Areas</a></li>
+<li>BM in Jazz Studies</li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Performing and Visual Arts/BM in Music Education Expected Learning Outcomes.pdf">BM in Music Education&nbsp;</a></li>
+</ul>
+<h1>Theatre and Dance</h1>
+<ul>
+<li><a href="Documents/instructional_development/outcomes-assessment/Performing and Visual Arts/BA and AAS in Theatre Studies.pdf">BA and AAS in Theatre Studies</a></li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Performing and Visual Arts/July 2013/Theatre and Speech Education.pdf">BA in Theatre and Speech Education</a></li>
+<li><a href="Documents/instructional_development/outcomes-assessment/Performing and Visual Arts/BA in Dance.pdf">BA in Dance</a></li>
+</ul>]]></BodyCopy>
+	<xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart="">
+		<xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List="">
+			<xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/>
+		</xPower>
+		<xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/>
+		<xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/>
+		<xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/>
+	</xPower>
+	<xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="x35591" CompTypes="HighlightedLinksComponent" Expanded="false"/>
+	<xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_ContentSnippet">
+		<xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/>
+	</xPower>
+	<xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/>
+	<xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x34679" CompTypes="SiteControl" Expanded="false"/>
+</Content>

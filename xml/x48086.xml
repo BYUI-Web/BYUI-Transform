@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<Content ID="x48086" Name="Archive" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Archive</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Archive</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<script src="http://www.byui.edu/test/visitorAPI.js" type="text/javascript"></script>
+<script src="http://www.byui.edu/test/AppMeasurement.js" type="text/javascript"></script>
+<div><!-- Here's the Style Snippet -->[x48032] <!-- Here's the Get Involved Button snippet -->[x48217] <!-- Here's the Social Media Buttons snipppet -->[x48218] <!-- Here's the Header Snippet --> [x92199] <!-- Here's the Back Button Snippet -->[x92223] <!-- Here's the Comment Menu Snippet --> [x48230]</div>
+<ul>
+<li><a href="x95035.xml">Issue 5 - Spring, 2014</a></li>
+<li><a href="x90666.xml">Issue 4 - Fall, 2013</a></li>
+<li><a href="x69048.xml">Issue 3 - Spring, 2013</a></li>
+<li><a href="x48045.xml">Issue 2 - Winter, 2013</a></li>
+<li><a href="x46120.xml">Issue 1 - Fall, 2012</a></li>
+</ul>
+<p></p>
+<p>BYU-Idaho Magazine</p>
+<ul>
+<li><a href="http://www2.byui.edu/Magazine/fall2011/">Fall, 2011</a></li>
+<li><a href="http://www2.byui.edu/Magazine/fall2010/">Fall, 2010</a></li>
+<li><a href="x51083.xml">Fall, 2008</a></li>
+<li><a href="x51084.xml">Spring, 2008</a></li>
+<li><a href="x51082.xml">Fall, 2007</a></li>
+</ul>
+<p>Summit Issues:</p>
+<ul>
+<li><a href="x51085.xml">Spring, 2007</a></li>
+<li><a href="x51081.xml">Fall, 2006</a></li>
+<li><a href="x51038.xml">Spring, 2006</a></li>
+<li><a href="x51309.xml">Fall, 2005</a></li>
+<li><a href="x68936.xml">Spring, 2005</a></li>
+<li><a href="x69148.xml">Fall, 2004</a></li>
+<li><a href="x69162.xml">Spring, 2004</a></li>
+<li><a href="x69193.xml">Fall, 2003</a></li>
+<li><a href="x69352.xml">Spring, 2003</a></li>
+<li><a href="x69228.xml">Fall, 2002</a></li>
+<li><a href="x69214.xml">Spring, 2002</a></li>
+<li><a href="x69240.xml">Fall, 2001</a></li>
+<li><a href="x69283.xml">Spring, 2001</a></li>
+<li><a href="x69309.xml">Fall, 2000</a></li>
+<li><a href="x69327.xml">Spring, 2000</a></li>
+<li><a href="x69340.xml">Spring, 1999</a></li>
+</ul>
+<p></p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="true" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="x48032" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x92199" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x48218" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x48217" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x92223" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x48230" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x46118" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

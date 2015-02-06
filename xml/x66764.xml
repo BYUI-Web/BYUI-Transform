@@ -1,0 +1,368 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<ColumnTextComponent ID="x66764" Name="columnNav"><TextColumn type="dhtml" label="Column of Text" readonly="false" hidden="false" required="false"><![CDATA[<p>
+<script type="text/javascript">
+window.onload = function(){
+$(document).ready(function(){
+   //Set all the attributes for non-navigation elements
+   $("#right_aside").css("border-left-width", "5px");
+   $("#right_aside").css("border-left-style", "solid");
+   $(".hours").css("margin-left", "-20px");
+   $(".hours").css("text-align", "left");
+   $(".hours").css("color", "#333333");
+   $("#others").css("background-color", "#04629f");
+
+   //Set attributes for navigation elements
+   $("#right_aside ul").css("list-style-type", "none");
+   $("#right_aside li").css("list-style-type", "none");
+   $("#right_aside ul").css("padding", "0");
+   $("#right_aside li").css("padding", "0");
+   $(".inner, .medinner").css("width", "225px");
+   $(".inner li, .medinner li").css("margin", "0");
+   $(".inner li, .medinner li").css("display", "block");
+   $(".inner li p, .medinner li p").css("font-size", "90%");
+   $(".inner li p, .medinner li p").css("margin", "0");
+   $(".inner li p, .medinner li p").css("padding", "5px");
+   $(".inner li a, .medinner li a").css("text-decoration", "none");
+   $(".inner li, .medinner li").css("width", "225px");
+   $(".inner li").css("background-color", subColor);
+   $(".medinner li").css("background-color", "#b5cfe8");
+   $("#bottomnav").css("width", "230px");
+   $("#bottomnav").css("margin", "0");
+
+   //Hide all the subnavigation
+   $(".inner, .medinner").hide();
+
+   //This adjusts the width of the main content so that the letters inside it don't get too close to that colored border I set up
+   var curWidth = $("#main_content").width();
+   var newWidth = curWidth - 10;
+   $("#main_content").css("width", newWidth);
+
+   //Set the padding for the two side divs within the aside element
+   $(".sidnav").css("padding", "5px");
+   $(".botnav").css("padding", "5px");
+
+   //set these variables in this scope so they can be used in other places
+   var navColor = "#04629f";
+   var subColor = "#b5cfe8";
+   
+   //This makes the nav points change colors, with the pictures changing from white to gray and back again depending on whether the user is hovering over them, or out of them
+   $('.sidnav')
+      .mouseover(function() { 
+            var src = $(this).children(".mainicons").attr("src").replace("iconsGray", "iconsWhite");
+            $(this).children(".mainicons").attr("src", src);
+            if($(this).attr("id") === "media"){
+               var src = $(this).children(".chevron").attr("src").replace("iconsGray", "iconsWhite");
+               $(this).children(".chevron").attr("src", src);
+            }
+            
+            $(this).css("background-color", navColor);
+            $(this).css("color", "#ffffff");
+            changeNav();
+      })
+      .mouseout(function() {
+         if($(this).siblings(".medinner").css("display") === "block")
+            return;
+            var src = $(this).children(".mainicons").attr("src").replace("iconsWhite", "iconsGray");
+            $(this).children(".mainicons").attr("src", src);
+            if($(this).attr("id") === "media"){
+               var src = $(this).children(".chevron").attr("src").replace("iconsWhite", "iconsGray");
+               $(this).children(".chevron").attr("src", src);
+            }
+            var color;
+            $(this).css("background-color", "#ffffff");
+            $(this).css("color", "#333333");
+            changeNav();
+      });
+
+      //Here's the same effect as above, but for the subnavigation
+      $(".inlinks")
+      .mouseover(function() {
+         $(this).css("background-color", navColor);
+         $(this).children("a").children("p").css("color", "#ffffff");
+      })
+      .mouseout(function() {
+         $(this).css("background-color", subColor);
+         $(this).children("a").children("p").css("color", "#333333");
+      });
+
+      //when you click on the media, the subnavigation slides down and up whichever way it needs to go
+      $(".hasnav").click(function() {
+         var src = $("#media").children(".chevron").attr("src").replace("down", "up");
+         $("#media").children(".chevron").attr("src", src);
+         $(this).siblings(".medinner").slideToggle(500, function(){
+            //Change the colors back depending on the three criteria:
+            //      1.has the subnavigation opened or closed?
+            //      2.is the mouse hovering over the main element?
+            //      3.is the user on the media page?
+         if($(".medinner").css("display") === "none" && $("#media").is(":hover") === false && $('#page_title').children('h2').html() !== "Digital Equipment"){
+            //if it passes the tests, make everything back to normal
+            $("#media").css("background-color", "#ffffff");
+            $("#media").css("color", "#333333");
+            var src = $("#media").children(".mainicons").attr("src").replace("iconsWhite", "iconsGray");
+            $("#media").children(".mainicons").attr("src", src);
+            var src = $("#media").children(".chevron").attr("src").replace("iconsWhite", "iconsGray");
+            src = src.replace("up", "down");
+            $("#media").children(".chevron").attr("src", src);
+         }
+         if($(".medinner").css("display") === "none"){
+            var src = $("#media").children(".chevron").attr("src").replace("up", "down");
+            $("#media").children(".chevron").attr("src", src);
+         }
+      });
+      });
+
+      //when the user clicks on any of the external links that have subnavigation, it performs much the same way as the media one, only there can only be one of these open at a time.
+      $(".extnav").click(function() {
+         if($(this).siblings(".inner").css("display") === "none"){
+            $(".inner").each(function(){
+               if($(this).css("display") === "block"){
+                  //nifty callback function, changes the background back, after it has slid up
+                  $(this).slideUp(500, function(){
+                     $(this).siblings(".extnav").css("background-color", "#ffffff");
+                     $(this).siblings(".extnav").css("color", "#333333");
+                     var src = $(this).siblings(".extnav").children("img").attr("src").replace("iconsWhite", "iconsGray");
+                     src = src.replace("up", "down");
+                     $(this).siblings(".extnav").children("img").attr("src", src);
+                     });
+               }
+            });
+         }
+         $(".inner li").css("background-color", subColor);
+         $(this).css("background-color", navColor);
+         $(this).css("color", "#ffffff");
+         var src = $(this).children("img").attr("src").replace("down", "up");
+         $(this).children("img").attr("src", src);
+         $(this).siblings(".inner").slideToggle(500, function(){
+            //same trick used for the media subnav, to fix the problem of it staying highlighted if the mouse leaves the element before the slideup completes
+            if($(this).css("display") === "none" && $(this).siblings(".extnav").is(":hover") === false){
+               $(this).siblings(".extnav").css("background-color", "#ffffff");
+               $(this).siblings(".extnav").css("color", "#333333");
+               var src = $(this).siblings(".extnav").children("img").attr("src").replace("iconsWhite", "iconsGray");
+               src = src.replace("up", "down");
+               $(this).siblings(".extnav").children("img").attr("src", src);
+            }
+            if($(this).css("display") === "none"){
+               var src = $(this).siblings(".extnav").children("img").attr("src").replace("up", "down");
+               $(this).siblings(".extnav").children("img").attr("src", src);
+            }
+         });
+      });
+
+      
+      function changeNav(){
+         var navTitle;
+         
+         //check the title of the page to know which colors to use in the theme
+         switch($('#page_title').children('h2').html()){
+            case "Student Technology Center":
+               navTitle = "#home";
+               break;
+            case "Contact Us":
+               navTitle = "#contact";
+               break;
+            case "Digital Equipment":
+               navTitle = "#media";
+               break;
+            case "Paper & Supplies":
+               navTitle = "#paper";
+               break;
+            case "Locate Us":
+               navTitle = "#locate";
+               break;
+            case "Faculty Resources":
+               navTitle = "#faculty";
+               break;
+            case "Applications":
+               navTitle = "#applications";
+               break;
+            case "Tutorials & Workshops":
+               navTitle = "#tutorial";
+               break;
+            case "Frequently Asked Questions":
+               navTitle = "#faq";
+               break;
+            default:
+               $("#right_aside").css("border-left-color", navColor);
+         }
+         
+         var src = $(navTitle).children(".mainicons").attr("src").replace("iconsGray", "iconsWhite");
+         $(navTitle).children(".mainicons").attr("src", src);
+         if(navTitle === "#media"){
+            var src = $(navTitle).children(".chevron").attr("src").replace("iconsGray", "iconsWhite");
+            $(navTitle).children(".chevron").attr("src", src);
+         }
+         $(navTitle).css("background-color", navColor);
+         $(navTitle).css("color", "#ffffff");
+         $("#right_aside").css("border-left-color", navColor);
+         $("h1").css("color", navColor);
+         $("#others").css("background-color", navColor);
+         $("#others h3").css("color", "#ffffff");
+      }
+   //this provides the hover functionality to the subnavigation, the color matches that of the theme chosen above
+   $('.botnav')
+      .mouseover(function() {
+            $(this).css("background-color", navColor);
+            $(this).css("color", "#ffffff");
+            var src = $(this).children("img").attr("src").replace("iconsGray", "iconsWhite");
+            $(this).children("img").attr("src", src);
+            })
+      .mouseout(function() {
+            if($(this).siblings(".inner").css("display") === "block")
+               return;
+            $(this).css("background-color", "#ffffff");
+            $(this).css("color", "#333333");
+            var src = $(this).children("img").attr("src").replace("iconsWhite", "iconsGray");
+            $(this).children("img").attr("src", src);
+      });
+      //run this last, otherwise it gets messed up!
+      changeNav();
+      $.fn.extend({ 
+                disableSelection: function() { 
+                    this.each(function() { 
+                        if (typeof this.onselectstart != 'undefined') {
+                            this.onselectstart = function() { return false; };
+                        } else if (typeof this.style.MozUserSelect != 'undefined') {
+                            this.style.MozUserSelect = 'none';
+                        } else {
+                            this.onmousedown = function() { return false; };
+                        }
+                    }); 
+                } 
+            });
+
+            $(document).ready(function() {
+                $('.hasnav').disableSelection(); 
+                $('.extnav').disableSelection();            
+            });
+});
+}
+</script>
+</p>
+<!-- this is where all the html for the main side navigation is kept -->
+<ul id="sidenav" style="margin: 0; border-bottom: 5px solid #333333;">
+<li>
+<p class="sidnav" id="home" style="margin: 0;"><img class="mainicons" height="15" src="Images/academic-technology-services/STC/iconsSmall/Home_Small.jpg" width="15" /> <a href="http://www.byui.edu/student-technology-center" title="STC Home">STC Home</a></p>
+</li>
+<!--<div style="visibility: hidden; display: none;">-->
+<li>
+<p class="sidnav" id="tutorial" style="margin: 0;"><img class="mainicons" height="12" src="Images/academic-technology-services/STC/iconsSmall/Tutorials_small.jpg" width="15" /> <a href="x42807.xml">Tutoring &amp; Workshops</a></p>
+<a href="http://www.byui.edu/student-technology-center/tutorials-and-workshops" style="text-decoration: none;"><!--</a>--></a></li>
+<!-- </div> -->
+<li>
+<p class="sidnav" id="faculty" style="margin: 0;"><img class="mainicons" height="15" src="Images/academic-technology-services/STC/iconsSmall/FacultyResources_Small.jpg" width="15" /> <a class="intLink" href="x42519.xml" title="Facu">Faculty Resources</a></p>
+<p class="sidnav" style="margin: 0;"><img height="15" src="Images/academic-technology-services/STC/iconsSmall/FAQs_Small.jpg" style="font-size: 11pt; line-height: 1.4em;" width="15" /><span style="font-size: 11pt; line-height: 1.4em;">&nbsp;</span><a href="x42808.xml" style="font-size: 11pt; line-height: 1.4em;">FAQs</a></p>
+</li>
+<li>
+<p class="sidnav" id="locate" style="margin: 0;"><img class="mainicons" height="15" src="Images/academic-technology-services/STC/iconsSmall/LocateUs_Small.jpg" width="15" /> Locate Us</p>
+</li>
+<li>
+<p class="sidnav" id="contact" style="margin: 0;"><img class="mainicons" height="12" src="Images/academic-technology-services/STC/iconsSmall/Contact_Small.jpg" width="15" /> <a href="x42169.xml">Contact Us</a></p>
+</li>
+</ul>
+<div id="hours" style="margin: 0; border-bottom: 5px solid #333333; background-color: #ddd; text-align: center; max-width: 230px;">
+<p style="margin: 0;"></p>
+<p style="margin: 0;"></p>
+<h1 style="text-decoration: underline;">HOURS</h1>
+<h6 class="hours">Monday............8am - 7pm</h6>
+<h6 class="hours">Tuesday.........8am - 10pm</h6>
+<h6 class="hours">Wednesday...8am - 10pm</h6>
+<h6 class="hours">Thursday.......8am - 10pm</h6>
+<h6 class="hours">Friday..............8am - 9pm</h6>
+<h6 class="hours">Saturday.......9am - 8pm</h6>
+<h6 class="hours">Sunday..................Closed</h6>
+<p><br /> <strong style="color: #444;">MCK 140A</strong> <br /> <strong style="color: #444;">208.496.9550 or </strong><strong style="color: #444;">208.496.9549</strong> <br /> <strong style="color: #444;">STCtech@byui.edu</strong></p>
+<p style="margin: 0;"></p>
+</div>
+<!--This is the html for the bottom side navigation-->
+<div id="others">
+<h3 style="text-align: center; padding-top: 5px; margin-left: -10px; color: #ffffff;">External Links</h3>
+</div>
+<ul id="bottomnav">
+<li>
+<p class="botnav" style="margin: 0;">Help Desk</p>
+</li>
+<li>
+<p class="botnav" style="margin: 0;">Learning Model</p>
+</li>
+<li>
+<p class="botnav" style="margin: 0;">Copyright</p>
+</li>
+<li>
+<p class="botnav" style="margin: 0;">Current Student</p>
+</li>
+<li>
+<p class="botnav" style="margin: 0;">Library Resources</p>
+</li>
+<li>
+<p class="botnav extnav" style="margin: 0; cursor: default;">Academic Help<img class="chevron" height="10" src="Images/academic-technology-services/STC/iconsGray/down.png" style="float: right; margin-right: 5px; margin-top: 5px;" width="10" /></p>
+<ul class="inner">
+<li class="inlinks">
+<p>Academic Support Home</p>
+</li>
+<li class="inlinks">
+<p>Tutoring Center</p>
+</li>
+<li class="inlinks">
+<p>Reading Center</p>
+</li>
+<li class="inlinks">
+<p>Writing Center</p>
+</li>
+<li class="inlinks">
+<p>Math Center</p>
+</li>
+<li class="inlinks">
+<p>Study Skills</p>
+</li>
+<li class="inlinks">
+<p>Presentation Practice</p>
+</li>
+</ul>
+</li>
+<li>
+<p class="botnav extnav" style="margin: 0; cursor: default;">Technology Tools<img class="chevron" height="10" src="Images/academic-technology-services/STC/iconsGray/down.png" style="float: right; margin-right: 5px; margin-top: 5px;" width="10" /></p>
+<ul class="inner">
+<li class="inlinks">
+<p>Email</p>
+</li>
+<li class="inlinks">
+<p>I-Learn</p>
+</li>
+<li class="inlinks">
+<p>Remote File Access</p>
+</li>
+</ul>
+</li>
+<li>
+<p class="botnav extnav" style="margin: 0; cursor: default;">Academic Technology<img class="chevron" height="10" src="Images/academic-technology-services/STC/iconsGray/down.png" style="float: right; margin-right: 5px; margin-top: 5px;" width="10" /></p>
+<ul class="inner">
+<li class="inlinks">
+<p>ATS Home</p>
+</li>
+<li class="inlinks">
+<p>Technology Consulting</p>
+</li>
+<li class="inlinks">
+<p>Tutorials</p>
+</li>
+<li class="inlinks">
+<p>Lecture Capture &amp; Photography</p>
+</li>
+<li class="inlinks">
+<p>Classroom A/V Support</p>
+</li>
+</ul>
+</li>
+<li>
+<p class="botnav extnav" style="margin: 0; cursor: default;">Printing<img class="chevron" height="10" src="Images/academic-technology-services/STC/iconsGray/down.png" style="float: right; margin-right: 5px; margin-top: 5px;" width="10" /></p>
+<ul class="inner">
+<li class="inlinks">
+<p>Copy Spot</p>
+</li>
+<li class="inlinks">
+<p>Press</p>
+</li>
+</ul>
+</li>
+</ul>]]></TextColumn></ColumnTextComponent>

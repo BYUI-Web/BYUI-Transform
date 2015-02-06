@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x56245" Name="Series Performances" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Series Performances</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Series Performances</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style><!--
+.seriespage_art {
+	width: 200px;
+	float: left;
+	padding: 5px;
+}
+
+.seriespage_art img{
+	width: 200px;
+	height: auto; 
+        border: 1px solid rgb(204,204,204);
+}
+--></style>
+<!-- BEGIN MAIN_CONTENT  --> <!-- IF NO CONTENT IN RIGHT ASIDE, SPAN-18 LAST -->
+<div class="span-18 last">
+<div class="seriespage_art"><a href="x46939.xml" title="Bring Forth My Zion (2012) "><img height="310" src="images/sacred-music/2012-coverart.png" width="310" /></a></div>
+<div class="seriespage_art"><a href="x46931.xml" title="God's Everlasting Love (2009)"><img height="310" src="images/sacred-music/2009-coverart.jpg" width="310" /></a></div>
+<div class="seriespage_art"><a href="x46960.xml" title="The Tree of Life: Redemption (2007)"><img src="images/sacred-music/2007-coverart.jpg" /></a></div>
+<div class="seriespage_art"><a href="x46971.xml" title="The Testament of Paul (2005)"><img height="310" src="Images/sacred-music/2005-coverart.jpg" width="310" /></a></div>
+<div class="seriespage_art"><a href="x46961.xml" title="Visions of Light &amp; Truth (2003)"><img height="310" src="Images/sacred-music/2003-coverart.jpg" width="310" /></a></div>
+<div class="seriespage_art"><a href="x46962.xml" title="The Passion and the Promise (2001)"><img height="310" src="Images/sacred-music/2001-coverart.jpg" width="310" /></a></div>
+<div class="seriespage_art"><a href="x46963.xml" title="Come Unto Christ (1999)"><img height="310" src="Images/sacred-music/1999-coverart.jpg" width="310" /></a></div>
+<div class="seriespage_art"><a href="x46964.xml" title="Immanuel (1997)"><img src="images/sacred-music/1997-coverart.jpg" /></a></div>
+<div class="seriespage_art"><a href="x46965.xml" title="The Song of Nephi (1995)"><img src="images/sacred-music/1995-coverart.jpg" /></a></div>
+<div class="seriespage_art"><a href="x46966.xml" title="Visions of Eternity (1993)"><img src="images/sacred-music/1993-coverart.jpg" /></a></div>
+<div class="seriespage_art"><a href="x46967.xml" title="Behold, He Cometh! (1989)"><img src="images/sacred-music/1986-coverart.jpg" /></a></div>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="x46376" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x46981" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

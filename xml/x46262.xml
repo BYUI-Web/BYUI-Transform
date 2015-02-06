@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x46262" Name="Schedule Key" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Schedule Key</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Key to the retention schedule</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<h1>Key to the&nbsp;Campus Retention Schedule</h1>
+<p>Within each function in the Campus Retention Schedule are listed several record categories that look like this:</p>
+<table border="0" cellpadding="0">
+<tbody>
+<tr>
+<td colspan="4">
+<p><strong>Record Category (Series)</strong></p>
+<p>Description of the category along with examples of common record types that fall within this category.</p>
+<p><em>Specific retention instructions or notes.</em></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a class="anchorLink" href="#Event Codes" title="Event">Event for when retention begins</a></p>
+</td>
+<td>
+<p><a class="anchorLink" href="#Preferred Retention Periods" title="Retention Periods">Number of years/months to retain records after the event/preferred retention period</a></p>
+</td>
+<td>
+<p><a class="anchorLink" href="#Disposition" title="Disposition">Disposal action through destruction or transfer</a></p>
+</td>
+<td>
+<p><a class="anchorLink" href="#Vital" title="Vital">If the category contains vital or other notable value in records.</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Each record category or series includes a description of the category, types of records typically included in that category, and retention periods for that category.</p>
+<p><strong><a name="Event Codes"></a>1. Event Codes</strong></p>
+<p>Retention begins after an event occurs, designated by a short expression (End of Calendar Year, Inactive, Graduation, etc.):</p>
+<table border="0" style="width: 400px; margin-left: 20px;">
+<tbody>
+<tr>
+<td><strong>Completion of Activity or Event</strong></td>
+<td><strong>Retention begins when the activity or event is complete.</strong></td>
+</tr>
+<tr>
+<td><strong>End of Calendar Year</strong></td>
+<td><strong>Retention begins at year end.</strong></td>
+</tr>
+<tr>
+<td><strong>Expiration of Contract or Agreement</strong></td>
+<td><strong>Retention begins when a contract or agreement expires.</strong></td>
+</tr>
+<tr>
+<td><strong>Graduation</strong></td>
+<td><strong>Retention begins once student graduates or from the last date or enrollment.</strong></td>
+</tr>
+<tr>
+<td><strong>Inactive</strong></td>
+<td><strong>Retention begins when the record becomes inactive.</strong></td>
+</tr>
+<tr>
+<td><strong>Matriculated</strong></td>
+<td><strong>Retention begins when a student enrolls in classes.</strong></td>
+</tr>
+<tr>
+<td><strong>Obsolete</strong></td>
+<td><strong>Retention begins when records become obsolete.</strong></td>
+</tr>
+<tr>
+<td><strong>Superseded</strong></td>
+<td><strong>Retention begins when the record is superseded, updated,&nbsp;or replaced.</strong></td>
+</tr>
+<tr>
+<td><strong>Termination of Employment</strong></td>
+<td><strong>Retention begins when an employee ends employment through retirement or other means.</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong><a name="Preferred Retention Periods"></a>2. Preferred Retention Periods</strong></p>
+<p>Following an event is a field for a preferred retention period, usually given by a number (1-100)&nbsp;representing calendar years. If a record is considered a permanent business record, "Permanent" is listed rather than a number of&nbsp;years.</p>
+<p><strong><a name="Disposition"></a>3. Disposition</strong></p>
+<p>Disposition is the transfer of a non-current&nbsp;record that has reached its retention period, either through destruction or transfer to a permanent archive like Special Collections:</p>
+<table border="0" style="width: 400px; margin-left: 20px;">
+<tbody>
+<tr>
+<td><strong>Destroy</strong></td>
+<td><strong>The record can be destroyed once the retention period is complete.</strong></td>
+</tr>
+<tr>
+<td><strong>Permanent</strong></td>
+<td><strong>Keep the record in the originating office or transfer to Special Collections (specified&nbsp;in&nbsp;each category).</strong></td>
+</tr>
+</tbody>
+</table>
+<p><em>Duplicate copies of a record</em>: Duplicate copies may be kept as long as needed for business purposes. Duplicate copies should not be kept longer than the retention period of the official record.</p>
+<p><strong><a name="Vital"></a>4. Vital and Other Notable Records</strong></p>
+<p>Vital records contain information essential to the operation of the University. They allow for the University to recreate its legal and financial position and resume business more readily in the event of a disaster. Records that are determined vital are a small portion of the total volume of records; some offices may not have vital records.</p>
+<p>If the record category may contain vital records, it is designated here as <em>Vital</em>. This does not mean all records in this category contains vital records, only that it <span style="text-decoration: underline;">may</span> contain vital records. Again, many offices may not have vital records. Other designations may be given here to notify users of potential record value, such as historical, legal, administrative, etc.</p>
+<p>Use the <a class="intLink" href="x46258.xml" title="CRS">Campus Retention Schedule</a> to see records categories that may contain vital records. If you have records that fit within that category, evaluate them to see if they are vital. If so, mark on your schedule as such and ensure effective management of those records with appropriate backups as needed. Each office with vital records must be concerned with the protection of such records.</p>
+<p>See <a class="intLink" href="x50460.xml" title="Vital Records"><span style="color: #0066cc;">Vital Records</span></a>&nbsp;for more information and instructions for identifying vital records.</p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x45982" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

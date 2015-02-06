@@ -1,0 +1,285 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x48820" Name="snipMutualRespect" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"&gt;&lt;/script&gt;
+
+&lt;style&gt;
+#div1 {
+	padding: 0px 50px; 
+	display:none;
+	position: absolute; 
+	transition: opacity .5s ease-in-out; 
+	-moz-transition: opacity .5s ease-in-out; 
+	-webkit-transition: opacity .5s ease-in-out; 
+	-o-transition: opacity .5s ease-in-out;
+}
+#div2 {
+	padding: 0px 50px; 
+	display:none;
+	position: absolute; 
+	transition: opacity .5s ease-in-out; 
+	-moz-transition: opacity .5s ease-in-out; 
+	-webkit-transition: opacity .5s ease-in-out; 
+	-o-transition: opacity .5s ease-in-out;
+}
+#div3 {
+	padding: 0px 50px; 
+	display:none;
+	position: absolute; 
+	transition: opacity .5s ease-in-out; 
+	-moz-transition: opacity .5s ease-in-out; 
+	-webkit-transition: opacity .5s ease-in-out; 
+	-o-transition: opacity .5s ease-in-out;
+}
+#div4 {
+	padding: 0px 50px; 
+	display:none;
+	position: absolute; 
+	transition: opacity .5s ease-in-out; 
+	-moz-transition: opacity .5s ease-in-out; 
+	-webkit-transition: opacity .5s ease-in-out; 
+	-o-transition: opacity .5s ease-in-out;
+}
+#div5 {
+	padding: 0px 50px; 
+	position: absolute; 
+	transition: opacity .5s ease-in-out; 
+	-moz-transition: opacity .5s ease-in-out; 
+	-webkit-transition: opacity .5s ease-in-out; 
+	-o-transition: opacity .5s ease-in-out;
+}
+
+#img1, #img2, #img3, #img4, #img5 {
+	-webkit-box-reflect: below 0px
+	-webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent) , to(rgba(250, 250, 250, 0.3)));
+}
+
+&lt;/style&gt;
+
+&lt;script&gt;
+
+$(document).ready(function(){
+
+$('#img1').click(function(){
+    $('#backgroundImage').animate({height:'240px'}, 500);
+});
+
+$('#img2').click(function(){
+    $('#backgroundImage').animate({height:'455px'}, 500);
+});
+
+$('#img3').click(function(){
+    $('#backgroundImage').animate({height:'205px'}, 500);
+});
+
+$('#img4').click(function(){
+    $('#backgroundImage').animate({height:'135px'}, 500);
+});
+
+$('#img5').click(function(){
+    $('#backgroundImage').animate({height:'295px'}, 500);
+});
+
+});
+
+
+function video1() {
+
+
+	$('.divs').hide(0);
+	$('#div1').show(0);
+			
+	document._video = document.getElementById('mutualRespect');
+	document._video.setAttribute('poster', 'Images/housing/Student Living/poster/9.png');
+	if(navigator.userAgent.indexOf('Firefox') != -1 || window.opera){
+	document._video.setAttribute('src', 'Documents/housing/principles/MR an expression of christ.ogg');
+	document._video.setAttribute('type', 'video/ogg');
+	}
+	else {
+	document._video.setAttribute('src', 'Media/housing/principles/MR an expression of christ.mp4');
+	document._video.setAttribute('type', 'video/mp4');
+	}
+	document._video.load(); 
+	document._video.play(); 
+}
+
+function video2() {
+
+
+	$('.divs').hide(0);
+	$('#div2').show(0);
+
+	document._video = document.getElementById('mutualRespect');
+	document._video.setAttribute('poster', 'Images/housing/Student Living/poster/16.png');
+	if(navigator.userAgent.indexOf('Firefox') != -1 || window.opera){
+	document._video.setAttribute('src', 'Documents/housing/principles/MR roommates value.ogg');
+	document._video.setAttribute('type', 'video/ogg');
+	}
+	else {
+	document._video.setAttribute('src', 'Media/housing/principles/MR roommates value.mp4');
+	document._video.setAttribute('type', 'video/mp4');
+	}
+	document._video.load(); 
+	document._video.play();
+}
+
+function video3() {
+
+
+	$('.divs').hide(0);
+	$('#div3').show(0);
+
+	document._video = document.getElementById('mutualRespect');
+	document._video.setAttribute('poster', 'Images/housing/Student Living/poster/13.png');
+	if(navigator.userAgent.indexOf('Firefox') != -1 || window.opera){
+	document._video.setAttribute('src', 'Documents/housing/principles/MR respect for others shows.ogg');
+	document._video.setAttribute('type', 'video/ogg');
+	}
+	else {
+	document._video.setAttribute('src', 'Media/housing/principles/MR respect for others shows.mp4');
+	document._video.setAttribute('type', 'video/mp4');
+	}
+	document._video.load(); 
+	document._video.play();
+}
+
+function video4() {
+
+
+	$('.divs').hide(0);
+	$('#div4').show(0);
+
+	document._video = document.getElementById('mutualRespect');
+	document._video.setAttribute('poster', 'Images/housing/Student Living/poster/14.png');
+	if(navigator.userAgent.indexOf('Firefox') != -1 || window.opera){
+	document._video.setAttribute('src', 'Documents/housing/principles/MR roommates live.ogg');
+	document._video.setAttribute('type', 'video/ogg');
+	}
+	else {
+	document._video.setAttribute('src', 'Media/housing/principles/MR roommates live.mp4');
+	document._video.setAttribute('type', 'video/mp4');
+	}
+	document._video.load(); 
+	document._video.play();
+
+}
+
+function video5() {
+
+
+	$('.divs').hide(0);
+	$('#div5').show(0);
+
+	document._video = document.getElementById('mutualRespect');
+	document._video.setAttribute('poster', 'Images/housing/Student Living/poster/8.png');
+	if(navigator.userAgent.indexOf('Firefox') != -1 || window.opera){
+	document._video.setAttribute('src', 'Documents/housing/principles/MR respect leads to happier.ogg');
+	document._video.setAttribute('type', 'video/ogg');
+	}
+	else {
+	document._video.setAttribute('src', 'Media/housing/principles/MR respect leads to happier.mp4');
+	document._video.setAttribute('type', 'video/mp4');
+	}
+	document._video.load(); 
+	document._video.play();
+}
+
+&lt;/script&gt;
+
+&lt;!-- STUDENT LIVING NAV BAR --&gt;
+&lt;div&gt;&lt;img src="Images/housing/navbar/studentliving/blank.png" width="63" /&gt;&lt;a class="intLink" href="x8708.xml"&gt;&lt;img onmouseout="this.src='Images/housing/navbar/studentliving/H.png';" onmouseover="this.src='Images/housing/navbar/studentliving/H-hover.png';" src="Images/housing/navbar/studentliving/H.png" width="148" /&gt;&lt;/a&gt;&lt;a class="intLink" href="x44817.xml"&gt;&lt;img src="Images/housing/navbar/studentliving/S-active.png" width="111" /&gt;&lt;/a&gt;&lt;a class="intLink" href="x44860.xml"&gt;&lt;img onmouseout="this.src='Images/housing/navbar/studentliving/W.png';" onmouseover="this.src='Images/housing/navbar/studentliving/W-hover.png';" src="Images/housing/navbar/studentliving/W.png" width="161" /&gt;&lt;/a&gt;&lt;a class="intLink" href="x44861.xml"&gt;&lt;img onmouseout="this.src='Images/housing/navbar/studentliving/A.png';" onmouseover="this.src='Images/housing/navbar/studentliving/A-hover.png';" src="Images/housing/navbar/studentliving/A.png" width="159" /&gt;&lt;/a&gt;&lt;a class="intLink" href="x44863.xml"&gt;&lt;img onmouseout="this.src='Images/housing/navbar/studentliving/M.png';" onmouseover="this.src='Images/housing/navbar/studentliving/M-hover.png';" src="Images/housing/navbar/studentliving/M.png" width="246" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;!-- END NAV BAR --&gt;
+
+&lt;div style="text-align: center;"&gt;
+
+&lt;a href="http://www.byui.edu/housing/student-living/love"&gt;
+&lt;img src="Images/housing/Student Living/Three Principles/mr - l-side.png"
+	onmouseover="this.src='Images/housing/Student Living/Three Principles/mr - l-side2.png';"   
+    onmouseout="this.src='Images/housing/Student Living/Three Principles/mr - l-side.png';" /&gt;&lt;/a&gt;
+
+&lt;img src="Images/housing/Student Living/Three Principles/MR title.jpg" /&gt;
+
+&lt;a href="http://www.byui.edu/housing/student-living/shared-responsibility"&gt;
+&lt;img id="loveSide" src="Images/housing/Student Living/Three Principles/mr - sr-side.png" 
+	onmouseover="this.src='Images/housing/Student Living/Three Principles/mr - sr-side2.png';"   
+    onmouseout="this.src='Images/housing/Student Living/Three Principles/mr - sr-side.png';" /&gt;&lt;/a&gt;
+
+&lt;br/&gt;
+&lt;img height="272" src="Images/housing/side1.png" width="225" style="margin-left: -5px; margin-right: -5px;" /&gt;
+
+&lt;video id="mutualRespect" width="482" height="272" class="mutualRespect" oncontextmenu="return false;" controls="controls" preload="auto" data-setup="{}" poster="Images/housing/Student Living/poster/8.gif"&gt;
+	&lt;source src="Media/housing/principles/MR respect leads to happier.mp4" type="video/mp4" /&gt;
+	&lt;source src="Documents/housing/principles/MR respect leads to happier.ogg" type="video/ogg" /&gt;
+	&lt;object id="mutualRespect" width="482" height="272" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"&gt;
+	&lt;param name="src" value="../client/editor/tinymce/jscripts/tiny_mce/plugins/media/moxieplayer.swf" /&gt;
+	&lt;param name="flashvars" value="url=/beta/xml/Media/housing/principles/MR-respect%20leads%20to%20happier.mp4&amp;amp;poster=/beta/xml/Images/housing/Student%20Living/poster/8.gif" /&gt;
+	&lt;param name="allowfullscreen" value="true" /&gt;
+	&lt;param name="allowscriptaccess" value="true" /&gt;
+	&lt;embed id="mutualRespect" width="482" height="272" type="application/x-shockwave-flash" src="../client/editor/tinymce/jscripts/tiny_mce/plugins/media/moxieplayer.swf" flashvars="url=/beta/xml/Media/housing/principles/MR-respect%20leads%20to%20happier.mp4&amp;amp;poster=/beta/xml/Images/housing/Student%20Living/poster/8.gif" allowfullscreen="true" allowscriptaccess="true" /&gt;
+	&lt;/object&gt;
+&lt;/video&gt;
+
+&lt;img height="272" src="Images/housing/side2.png" width="225" style="margin-left: -5px; margin-right: -5px;" /&gt;
+&lt;br /&gt;
+&lt;a&gt;&lt;img id="img5" src="Images/housing/Student Living/Three Principles/MR - 5 respect leads to a happier apartment.jpg" 
+	onmouseover="this.src='Images/housing/Student Living/Three Principles/MR - 5 respect leads to a happier apartment(HOVER).jpg';"   
+    onmouseout="this.src='Images/housing/Student Living/Three Principles/MR - 5 respect leads to a happier apartment.jpg';"
+	onClick="video5()"&gt;&lt;/a&gt;
+&lt;a&gt;&lt;img id="img1" src="Images/housing/Student Living/Three Principles/MR - 1 an expression.png" 
+	onmouseover="this.src='Images/housing/Student Living/Three Principles/MR - 1 an expression(HOVER).jpg';"   
+    onmouseout="this.src='Images/housing/Student Living/Three Principles/MR - 1 an expression.png';"
+	onClick="video1()"&gt;&lt;/a&gt;
+&lt;a&gt;&lt;img id="img2" src="Images/housing/Student Living/Three Principles/MR - 2 roomates value.jpg" 
+	onmouseover="this.src='Images/housing/Student Living/Three Principles/MR - 2 roomates value(HOVER).jpg';"   
+    onmouseout="this.src='Images/housing/Student Living/Three Principles/MR - 2 roomates value.jpg';"
+	onClick="video2()"&gt;&lt;/a&gt;
+&lt;a&gt;&lt;img id="img4" src="Images/housing/Student Living/Three Principles/MR - 4 roommates live.jpg" 
+	onmouseover="this.src='Images/housing/Student Living/Three Principles/MR - 4 roommates live(HOVER).jpg';"   
+    onmouseout="this.src='Images/housing/Student Living/Three Principles/MR - 4 roommates live.jpg';"
+	onClick="video4()"&gt;&lt;/a&gt;
+&lt;a&gt;&lt;img id="img3" src="Images/housing/Student Living/Three Principles/MR - 3 respect for others shows.jpg" 
+	onmouseover="this.src='Images/housing/Student Living/Three Principles/MR - 3 respect for others shows(HOVER).jpg';"   
+    onmouseout="this.src='Images/housing/Student Living/Three Principles/MR - 3 respect for others shows.jpg';"
+	onClick="video3()"&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;div height="390"&gt;
+	&lt;img src="Images/housing/Student Living/Three Principles/new-blank-slate(1).png" height="295px" width="100%" id="backgroundImage" style="position:absolute;"&gt;
+	&lt;br /&gt;
+
+&lt;div class="divs" id="div5"&gt;
+&lt;em&gt;&lt;strong&gt;"Respect leads to a happier apartment"&lt;/strong&gt;&lt;/em&gt;
+&lt;p&gt;"As in all relationships-happiness abounds when there is respect for each other. One must have a capacity to work out problems, a willingness to give and take, and a genuine unselfishness . . .&lt;/p&gt;
+&lt;p&gt;"Particularly to those not yet married I counsel: Those who marry in the hope of forming a permanent partnership require certain skills and attitudes of mind. They must be skillful in adapting to each other; they need capacity to work out mutual problems; they need willingness to give and take in the search for harmony; and they need unselfishness of the highest sort- thought for their partners taking the place of desire for themselves. This is respect. It is part of our quest for the abundant life" (Thomas S. Monson, "&lt;a class="extLink" href="http://www.lds.org/ensign/1988/03/in-quest-of-the-abundant-life" target="_blank"&gt;In Quest of the Abundant Life&lt;/a&gt;,"&amp;nbsp;&lt;em&gt;Ensign&lt;/em&gt;, March 1988, 2).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="divs" id="div1"&gt;
+&lt;em&gt;&lt;strong&gt;"An Expression Of Christ-Like Living"&lt;/strong&gt;&lt;/em&gt;
+&lt;p&gt;"Respect is an expression of our sense of universal brotherhood or sisterhood-a testimony of our&amp;nbsp;membership in the human family. It acknowledges our common humanity and shows our reverence for children of God. The gospel teaches us that we are to hold the same esteem for others that&amp;nbsp;we hold for ourselves (see D&amp;amp;C 38:25; Matthew 7:12). Acting disrespectfully suggests we do not&amp;nbsp;esteem the other person as ourselves . . . True respect, then, comes as we develop our ability to love our brothers and sisters as ourselves . . . "Underlying principles of respect that were once commonplace&amp;nbsp;in society have increasingly given way to unkind behavior" (Terrance D. Olson, "&lt;a class="extLink" href="http://www.lds.org/ensign/2001/10/cultivating-respect" target="_blank"&gt;Cultivating Respect&lt;/a&gt;,"&amp;nbsp;&lt;em&gt;Ensign&lt;/em&gt;, Oct. 2001, 46).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="divs" id="div2"&gt;
+&lt;em&gt;&lt;strong&gt;"Roommates value and respect one another"&lt;/strong&gt;&lt;/em&gt;
+&lt;p&gt;"While the gospel teaches us to be respectful toward others without qualification, sometimes we may find ourselves falling into rationalizations about being disrespectful based on their behavior. A person who causes a problem is often seen as warranting disrespectful treatment . . . This kind of thinking shifts responsibility for our behavior to others. It makes us think that our disrespectful acts are someone else's&amp;nbsp;fault . . .&lt;/p&gt;
+&lt;p&gt;"Gossip, [an] everyday form of disrespect, is incompatible with love. What we say about people in their absence should be what we would say to them, with love, if they were present.&lt;/p&gt;
+&lt;p&gt;"Empathy. Feeling empathy for others is a symptom of respectful behavior, while feeling unsympathetic is a symptom of disrespectful acts . . . To ridicule others is to deny our brotherhood and sisterhood.&lt;/p&gt;
+&lt;p&gt;"Care. Respect is also synonymous with care and concern. We respect those we care about. Sometimes we excuse our disrespect, even for people we care about, by holding against them their lack of caring or concern for us" (Terrance D. Olson, "&lt;a class="extLink" href="http://www.lds.org/ensign/2001/10/cultivating-respect" target="_blank"&gt;Cultivating Respect&lt;/a&gt;,"&amp;nbsp;&lt;em&gt;Ensign&lt;/em&gt;, Oct. 2001, 46).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="divs" id="div4"&gt;
+&lt;em&gt;&lt;strong&gt;"Roommates live the Golden Rule"&lt;/strong&gt;&lt;/em&gt;
+&lt;p&gt;"Therefore all things whatsoever ye would that men should do to you, do ye even so to them: for this is the law and the prophets" (Matthew 7:12).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="divs" id="div3"&gt;
+&lt;em&gt;&lt;strong&gt;"Respect for others shows reverence for God and for His creations"&lt;/strong&gt;&lt;/em&gt;
+&lt;p&gt;"Respect is an expression of Christlike living. It is closely linked to all other qualities we are counseled to cultivate: patience, long-suffering, brotherly kindness, and love unfeigned [D&amp;amp;C 121:41-42]. It is a feature of selfless service and humble repentance. It is essential when healing or dissolving hostilities. Respect for others shows reverence for God and for His creations. Through showing respect, we truly feel more a part of the human family and recognize and honor our common divine parentage" (Terrance D. Olson, "&lt;a class="extLink" href="http://www.lds.org/ensign/2001/10/cultivating-respect" target="_blank"&gt;Cultivating Respect&lt;/a&gt;,"&amp;nbsp;&lt;em&gt;Ensign&lt;/em&gt;, Oct. 2001, 46).&lt;/p&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;/div&gt;</ContentSnippet></ContentSnippet>

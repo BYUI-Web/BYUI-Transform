@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x62415" Name="VA FAQ" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">VA FAQ</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Frequently Asked Questions</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style type="text/css"><!--
+/* General Styles for Body Elements */
+a {
+font-family: Arial; 
+}
+.question {
+margin:0;
+padding:0;
+font-family:Arial;
+font-weight:bold;
+}
+
+/* Styles for VA CONTACT */
+#vacontact{
+display:inline-block;
+padding: 0 5px;
+margin: 0 0 10px 0;
+width: 100%; 
+height: 60px;
+}
+#vacontact h1{
+font-family:Arial;
+font-size:12px;
+font-weight:bold;
+margin:0 0 4px 0;
+padding:0;
+color:rgb(70,70,70);
+}
+#vacontact p {
+font-family:Arial;
+font-size:10px;
+margin:0;
+padding:0;
+}
+
+/* CSS styles for the FOOTER Contact information */
+#contact{
+display:inline-block;
+padding: 0 5px;
+margin: 0 0 10px 0;
+width: 100%; 
+height: 100px;
+}
+#contact h1{
+font-family:Arial;
+font-size:12px;
+font-weight:bold;
+margin:0 0 4px 0;
+padding:0;
+color:rgb(70,70,70);
+}
+#contact p {
+font-family:Arial;
+font-size:10px;
+margin:0;
+padding:0;
+}
+#contact_hr {
+margin-bottom:10px;
+}
+.left {
+float:left;
+margin:0 5px 0 0;
+padding:0;
+}
+.office_hours {
+margin: 0; 
+padding: 0; 
+width: 140px; 
+height: 100px; 
+float: left;
+}
+.middle {
+margin: 0; 
+padding: 0 5px 5px 5px; 
+width: 200px; 
+height: 50px; 
+float: left;
+}
+.phone {
+margin: 0; 
+padding: 0 5px 5px 5px; 
+width: 150px; 
+height: 50px; 
+float: left;
+}
+--></style>
+<div id="vacontact">
+<div class="middle left office_hours">
+<h1>Contacting VA Benefit Services</h1>
+<p>Contact a VA Coordinator by phone or email. Visits are handled by an appointment basis.</p>
+</div>
+<div class="phone"><img alt="Phone" class="left" src="Images/Admin_Offices/Financial Aid/1312918476_Telephone.png" title="Phone" width="30" />
+<div class="left">
+<h1>Phone</h1>
+<p>(208) 496-1609</p>
+</div>
+</div>
+<div class="middle"><img alt="Laptop" class="left" src="Images/Admin_Offices/Financial Aid/1312918536_Computer.png" title="Email" width="30" />
+<div class="left">
+<h1>Email</h1>
+<p>vabenefits@byui.edu</p>
+</div>
+</div>
+</div>
+<!-- End of #vacontact --><hr id="contact_hr" />
+<p class="question">How do I find out if I am eligible for VA benefits?</p>
+<p>Visit the <a href="http://www.gibill.va.gov/" title="Link to www.GIBill.va.gov">VA GI Bill</a> site. Students can also call the toll-free VA Education Phone number: 1-888-442-4551 (press 1, then 0 for an operator). The benefit programs change frequently, so it is best to refer directly to the VA for questions about the programs.</p>
+<p class="question">Where are my benefit checks sent?</p>
+<p>VA benefit checks are sent directly to the address students provide on the VA application. Benefit checks are NOT paid to the school. The money is intended to help defray educational expenses, but does not have to go directly toward tuition costs; it can be used any way the student wants. Exceptions to this rule:</p>
+<ul>
+<li><strong>Chapter 33:</strong> Tuition &amp; fee payments come to BYU-Idaho and cover the actual tuition and fees charged to the student's <a href="https://dep.byui.edu/PersonalAccounts/AccountInfo/personalAccounts.aspx" title="Link to the Personal Account Summary">Personal Account Summary</a>. If a student has already paid their tuition and fees a balance will be available for you to transfer to your bank account or you can pick up a check.</li>
+<li><strong>Chapter 31:</strong> These benefit payments are sent as 3rd party billing. The tuition, fees, and sometimes the parking are billed directly to the VA. VA is also billed directly for books, and certain supplies listed on an approved list of supplies provided by the VA Vocational Rehabilitation case manager. Supplies not on the list may require special approval.</li>
+<li><strong>Direct Deposit:</strong> Students receiving chapter 30, 33, 35, 1606 and 1607 students can arrange to have their benefit checks deposited directly into their bank account by electing direct deposit and providing the necessary information on their VA application. A student can also call the toll-free number (1-888-442-4551) and make arrangements for direct deposit with a VA representative.</li>
+</ul>
+<p class="question">How long am I eligible for benefits?</p>
+<p>Eligible students receive 36 months of full time VA education benefits. This does not mean students will have to go to school full time. They can receive &frac12; time benefits over a period of 72 months, or &frac34; time over 48 months, etc. If students are unsure how many months remain, call the VA (1-888-442-4551), and ask exactly how many months of full-time benefits they have left.</p>
+<p><small><strong>Exception to the 36 month limit</strong> - Students with eligibility under more than one program &ndash; can have a combined total of 48 months.</small></p>
+<p class="question">How long do I have to use my VA Benefits?</p>
+<p>The amount of time students have depends on the benefits they are eligbile for. Contact the VA (1-888-442-4551), or visit the <a href="http://www.gibill.va.gov/" title="GI Bill VA site">Veteran Affairs</a> site.</p>
+<p class="question">How do I apply for Federal Tuition Assistance?</p>
+<p>Tuition Assistance (TA) is determined by the unit and branch of service a student is serving under. The Financial Aid Office provides more details on the <a href="x39860.xml" title="Link to VA Other Resources">Other Resources</a> page. Ultimately, this award is not facilitated by BYU-Idaho. Students may direct questions to <a href="http://web.byui.edu/Directory/Employee/howej" title="Link to Julie Howe's employee profile">Julie Howe</a> at the Bursars Office.</p>
+<p class="question">Who disburses Federal Tutition Assistance?</p>
+<p>After the unit and service processes the Tuition Assistance (TA) the funds (via check) will be sent to the BYU-Idaho Bursar's Office. The funds will be released to the student's <a href="https://dep.byui.edu/PersonalAccounts/AccountInfo/personalAccounts.aspx" title="Link to Personal Account Summary page">Personal Account Summary</a>. Students may direct questions to <a href="http://web.byui.edu/Directory/Employee/howej" title="Link to Julie Howe's employee profile">Julie Howe</a> at the Bursar's Office.</p>
+<p class="question">I have not received my "kicker". Who should I contact?</p>
+<p>Contact the Boise Guard/Reserve office at (208)272-3761. Students may also mail a copy of their kicker contract to the VA.</p>
+<p class="question">Where can I access my VA file forms (NOBE, DD214, etc.)?</p>
+<p>A student's unit and service can provide assistance. Students may access the <a href="http://www.army.mil/ako/" title="Link to Army Information System site">Integrated Personnel Electronic Records Management System</a> (I-PERMS).</p>
+<div id="contact"><hr id="contact_hr" />
+<div class="office_hours"><img alt="Office Hours" class="left" src="Images/Admin_Offices/Financial Aid/1312918545_Clock-Time.png" title="Office hours" width="30" />
+<div class="left">
+<h1>Office Hours</h1>
+<p>Monday - Friday</p>
+<p>8am - 5pm</p>
+</div>
+<div style="margin: 8px 13px 0 0; float: right;"></div>
+</div>
+<div class="middle"><img alt="Office Mailing Address" class="left" src="Images/Admin_Offices/Financial Aid/1312918507_Mail -2.png" title="Address" width="30" />
+<div class="left">
+<h1>Address</h1>
+<p>100 Kimball Building 1610</p>
+<p>Rexburg, ID 83460</p>
+</div>
+</div>
+<div class="phone"><img alt="Phone" class="left" src="Images/Admin_Offices/Financial Aid/1312918476_Telephone.png" title="Phone" width="30" />
+<div class="left">
+<h1>Phone</h1>
+<p>(208) 496-1600</p>
+</div>
+</div>
+<div class="chat"><img alt="Live Chat" class="left" src="Images/Admin_Offices/Financial Aid/chat_icon.png" title="Live Chat" width="30" />
+<div class="left">
+<h1><a href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=Financial%20Aid">Live Chat</a></h1>
+<p>with Financial Aid</p>
+</div>
+</div>
+<div class="middle"><img alt="Laptop" class="left" src="Images/Admin_Offices/Financial Aid/1312918536_Computer.png" title="Email" width="30" />
+<div class="left">
+<h1>Email</h1>
+<p>financialaid@byui.edu</p>
+</div>
+</div>
+<div class="phone"><img alt="Fax" class="left" src="Images/Admin_Offices/Financial Aid/1312918465_Printer and Fax.png" title="Fax" width="30" />
+<div class="left">
+<h1>Fax</h1>
+<p>(208) 496-6711</p>
+</div>
+</div>
+<div class="facebook"><img alt="Facebook" class="left" src="Images/Admin_Offices/Financial Aid/facebook_icon.png" title="Facebook" width="30" />
+<div class="left">
+<h1><a href="http://www.facebook.com/BYUIFinancialAid">Facebook</a></h1>
+<p>page of the Financial Aid Office</p>
+</div>
+</div>
+</div>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="x18466" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x18206" CompTypes="SiteControl" Expanded="false"/></Content>

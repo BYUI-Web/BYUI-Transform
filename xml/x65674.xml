@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.68 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x65674" Name="Rental Policies" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Rental Policies</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">An overview of the rental policies used by the Outdoor Resource Center when renting outdoor equipment to BYU-Idaho students, faculty and community members.</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<img alt="Outdoor Resource Center outside view" height="293" src="Images/outdoor-resource-center/ORC_leaves_final.jpg" title="Outdoor Resource Center Store" width="650" />
+<div>
+<p>At the ORC, we want to make sure that you can have fun, be safe, and have the best rental experience.&nbsp; Here are a few quick policies and guidelines that we use, as well as a copy of our rental agreement used whenever you rent equipment from us.</p>
+<p><span style="font-size: x-large;"><strong>Reservations</strong></span></p>
+<p>Reservations can be placed up to 30 days in advance.&nbsp; You can make a reservation by calling (208) 496-7337.&nbsp; You can also visit us in the store during regular hours.&nbsp; There are some exceptions for reserving equipment.&nbsp; Contact us with any specific questions.</p>
+<p><span style="font-size: x-large;"><strong>Prices and Payment</strong></span></p>
+<p>All rental prices are subject to change without notice.&nbsp; We offer multi-day rental discounts for specific equipment.&nbsp; You can view our pricing guides or contact us with specific questions.<br /><br />We&nbsp;accept cash, check, credit cards&nbsp;or campus account.&nbsp;</p>
+<p><span style="font-size: x-large;"><strong>Rental Agreement</strong></span></p>
+<p><a href="Documents/outdoor-resource-center/Signature Pad Info.pdf" target="_blank">ORC Rental Agreement&nbsp;</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1 style="text-align: center;"></h1>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</div>]]></BodyCopy><xPower Type="Component" Component="x30165" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x28149" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

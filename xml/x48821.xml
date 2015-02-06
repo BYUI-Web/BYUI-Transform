@@ -1,0 +1,278 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x48821" Name="snipSharedResonsibility" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"&gt;&lt;/script&gt;
+
+&lt;style&gt;
+#div1 {
+	padding: 0px 50px; 
+	position: absolute; 
+	transition: opacity .5s ease-in-out; 
+	-moz-transition: opacity .5s ease-in-out; 
+	-webkit-transition: opacity .5s ease-in-out; 
+	-o-transition: opacity .5s ease-in-out;
+}
+#div2 {
+	padding: 0px 50px; 
+	display:none;
+	position: absolute; 
+	transition: opacity .5s ease-in-out; 
+	-moz-transition: opacity .5s ease-in-out; 
+	-webkit-transition: opacity .5s ease-in-out; 
+	-o-transition: opacity .5s ease-in-out;
+}
+#div3 {
+	padding: 0px 50px; 
+	display:none;
+	position: absolute; 
+	transition: opacity .5s ease-in-out; 
+	-moz-transition: opacity .5s ease-in-out; 
+	-webkit-transition: opacity .5s ease-in-out; 
+	-o-transition: opacity .5s ease-in-out;
+}
+#div4 {
+	padding: 0px 50px; 
+	display:none;
+	position: absolute; 
+	transition: opacity .5s ease-in-out; 
+	-moz-transition: opacity .5s ease-in-out; 
+	-webkit-transition: opacity .5s ease-in-out; 
+	-o-transition: opacity .5s ease-in-out;
+}
+#div5 {
+	padding: 0px 50px; 
+	display:none;
+	position: absolute; 
+	transition: opacity .5s ease-in-out; 
+	-moz-transition: opacity .5s ease-in-out; 
+	-webkit-transition: opacity .5s ease-in-out; 
+	-o-transition: opacity .5s ease-in-out;
+}
+
+#img1, #img2, #img3, #img4, #img5 {
+	-webkit-box-reflect: below 0px
+	-webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent) , to(rgba(250, 250, 250, 0.3)));
+}
+
+&lt;/style&gt;
+
+&lt;script&gt;
+
+$(document).ready(function(){
+
+$('#img1').click(function(){
+    $('#backgroundImage').animate({height:'400px'}, 500);
+});
+
+$('#img2').click(function(){
+    $('#backgroundImage').animate({height:'290px'}, 500);
+});
+
+$('#img3').click(function(){
+    $('#backgroundImage').animate({height:'265px'}, 500);
+});
+
+$('#img4').click(function(){
+    $('#backgroundImage').animate({height:'130px'}, 500);
+});
+
+$('#img5').click(function(){
+    $('#backgroundImage').animate({height:'210px'}, 500);
+});
+
+});
+
+function video1(){
+
+
+	$('.divs').hide(0);
+	$('#div1').show(0);
+
+	document._video = document.getElementById('sharedResponsibility');
+	document._video.setAttribute('poster', 'Images/housing/Student Living/poster/15.png');
+	if(navigator.userAgent.indexOf('Firefox') != -1 || window.opera){
+	document._video.setAttribute('src', 'Documents/housing/principles/SR brothers keeper.ogg');
+	document._video.setAttribute('type', 'video/ogg');
+	}
+	else {
+	document._video.setAttribute('src', 'Media/housing/principles/SR brothers keeper.mp4');
+	document._video.setAttribute('type', 'video/mp4');
+	}
+	document._video.load();  
+	document._video.play();
+}
+
+function video2(){
+
+	$('.divs').hide(0);
+	$('#div2').show(0);
+
+	document._video = document.getElementById('sharedResponsibility');
+	document._video.setAttribute('poster', 'Images/housing/Student Living/poster/12.png');
+	if(navigator.userAgent.indexOf('Firefox') != -1 || window.opera){
+	document._video.setAttribute('src', 'Documents/housing/principles/SR roommates get.ogg');
+	document._video.setAttribute('type', 'video/ogg');
+	}
+	else {
+	document._video.setAttribute('src', 'Media/housing/principles/SR roommates get.mp4');
+	document._video.setAttribute('type', 'video/mp4');
+	}
+	document._video.load(); 
+	document._video.play();
+}
+
+function video3(){
+
+	$('.divs').hide(0);
+	$('#div3').show(0);
+
+	document._video = document.getElementById('sharedResponsibility');
+	document._video.setAttribute('poster', 'Images/housing/Student Living/poster/2.png');
+	if(navigator.userAgent.indexOf('Firefox') != -1 || window.opera){
+	document._video.setAttribute('src', 'Documents/housing/principles/SR refer for help.ogg');
+	document._video.setAttribute('type', 'video/ogg');
+	}
+	else {
+	document._video.setAttribute('src', 'Media/housing/principles/SR refer for help.mp4');
+	document._video.setAttribute('type', 'video/mp4');
+	}
+	document._video.load();
+	document._video.play();
+}
+
+function video4(){
+
+	$('.divs').hide(0);
+	$('#div4').show(0);
+
+	document._video = document.getElementById('sharedResponsibility');
+	document._video.setAttribute('poster', 'Images/housing/Student Living/poster/6.png');
+	if(navigator.userAgent.indexOf('Firefox') != -1 || window.opera){
+	document._video.setAttribute('src', 'Documents/housing/principles/SR roommates strengthen.ogg');
+	document._video.setAttribute('type', 'video/ogg');
+	}
+	else {
+	document._video.setAttribute('src', 'Media/housing/principles/SR roommates strengthen.mp4');
+	document._video.setAttribute('type', 'video/mp4');
+	}
+	document._video.load(); 
+	document._video.play();
+}
+
+function video5(){
+
+	$('.divs').hide(0);
+	$('#div5').show(0);
+
+	document._video = document.getElementById('sharedResponsibility');
+	document._video.setAttribute('poster', 'Images/housing/Student Living/poster/3.png');
+	if(navigator.userAgent.indexOf('Firefox') != -1 || window.opera){
+	document._video.setAttribute('src', 'Documents/housing/principles/SR responsible for one another.ogg');
+	document._video.setAttribute('type', 'video/ogg');
+	}
+	else {
+	document._video.setAttribute('src', 'Media/housing/principles/SR responsible for one another.mp4');
+	document._video.setAttribute('type', 'video/mp4');
+	}
+	document._video.load(); 
+	document._video.play();
+}
+
+&lt;/script&gt;
+
+&lt;!-- STUDENT LIVING NAV BAR --&gt;
+&lt;div&gt;&lt;img src="Images/housing/navbar/studentliving/blank.png" width="63" /&gt;&lt;a class="intLink" href="x8708.xml"&gt;&lt;img onmouseout="this.src='Images/housing/navbar/studentliving/H.png';" onmouseover="this.src='Images/housing/navbar/studentliving/H-hover.png';" src="Images/housing/navbar/studentliving/H.png" width="148" /&gt;&lt;/a&gt;&lt;a class="intLink" href="x44817.xml"&gt;&lt;img src="Images/housing/navbar/studentliving/S-active.png" width="111" /&gt;&lt;/a&gt;&lt;a class="intLink" href="x44860.xml"&gt;&lt;img onmouseout="this.src='Images/housing/navbar/studentliving/W.png';" onmouseover="this.src='Images/housing/navbar/studentliving/W-hover.png';" src="Images/housing/navbar/studentliving/W.png" width="161" /&gt;&lt;/a&gt;&lt;a class="intLink" href="x44861.xml"&gt;&lt;img onmouseout="this.src='Images/housing/navbar/studentliving/A.png';" onmouseover="this.src='Images/housing/navbar/studentliving/A-hover.png';" src="Images/housing/navbar/studentliving/A.png" width="159" /&gt;&lt;/a&gt;&lt;a class="intLink" href="x44863.xml"&gt;&lt;img onmouseout="this.src='Images/housing/navbar/studentliving/M.png';" onmouseover="this.src='Images/housing/navbar/studentliving/M-hover.png';" src="Images/housing/navbar/studentliving/M.png" width="246" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;!-- END NAV BAR --&gt;
+
+&lt;div style="text-align: center;"&gt;
+
+&lt;a href="http://www.byui.edu/housing/student-living/mutual-respect"&gt;
+&lt;img src="Images/housing/Student Living/Three Principles/sr - mr-side.png"
+	onmouseover="this.src='Images/housing/Student Living/Three Principles/sr - mr-side2.png';"   
+    onmouseout="this.src='Images/housing/Student Living/Three Principles/sr - mr-side.png';" /&gt;&lt;/a&gt;
+
+&lt;img src="Images/housing/Student Living/Three Principles/SR title.jpg" /&gt;
+
+&lt;a href="http://www.byui.edu/housing/student-living/love"&gt;
+&lt;img id="loveSide" src="Images/housing/Student Living/Three Principles/sr - l-side.png" 
+	onmouseover="this.src='Images/housing/Student Living/Three Principles/sr - l-side2.png';"   
+    onmouseout="this.src='Images/housing/Student Living/Three Principles/sr - l-side.png';" /&gt;&lt;/a&gt;
+
+&lt;br/&gt;
+
+&lt;img height="272" src="Images/housing/side1.png" width="225" style="margin-left: -5px; margin-right: -5px;" /&gt;
+
+&lt;video id="sharedResponsibility" width="482" height="272" class="sharedResponsibility" oncontextmenu="return false;" controls="controls" preload="auto" data-setup="{}" poster="Images/housing/Student Living/poster/15.gif"&gt;
+	&lt;source src="Media/housing/principles/SR brothers keeper.mp4" type="video/mp4" /&gt;
+	&lt;source src="Documents/housing/principles/SR brothers keeper.ogg" type="video/ogg" /&gt;
+	&lt;object id="sharedResponsibility" width="482" height="272" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"&gt;
+	&lt;param name="src" value="../client/editor/tinymce/jscripts/tiny_mce/plugins/media/moxieplayer.swf" /&gt;
+	&lt;param name="flashvars" value="url=/beta/xml/Media/housing/principles/SR-brothers%20keeper.mp4&amp;amp;poster=/beta/xml/Images/housing/Student%20Living/poster/15.gif" /&gt;
+	&lt;param name="allowfullscreen" value="true" /&gt;
+	&lt;param name="allowscriptaccess" value="true" /&gt;
+	&lt;embed id="sharedResponsibility" width="482" height="272" type="application/x-shockwave-flash" src="../client/editor/tinymce/jscripts/tiny_mce/plugins/media/moxieplayer.swf" flashvars="url=/beta/xml/Media/housing/principles/SR-brothers%20keeper.mp4&amp;amp;poster=/beta/xml/Images/housing/Student%20Living/poster/15.gif" allowfullscreen="true" allowscriptaccess="true" /&gt;
+	&lt;/object&gt;
+&lt;/video&gt;
+
+&lt;img height="272" src="Images/housing/side2.png" width="225" style="margin-left: -5px; margin-right: -5px;" /&gt;
+&lt;br /&gt;
+&lt;a&gt;&lt;img id="img1" src="Images/housing/Student Living/Three Principles/SR - 1 brothers keeper.jpg" 
+	onmouseover="this.src='Images/housing/Student Living/Three Principles/SR - 1 brothers keeper(HOVER).jpg';"   
+    onmouseout="this.src='Images/housing/Student Living/Three Principles/SR - 1 brothers keeper.jpg';"
+    onClick="video1()"&gt;&lt;/a&gt;
+&lt;a&gt;&lt;img id="img2" src="Images/housing/Student Living/Three Principles/SR - 2 roomate get.jpg" 
+	onmouseover="this.src='Images/housing/Student Living/Three Principles/SR - 2 roomate get(HOVER).jpg';"   
+    onmouseout="this.src='Images/housing/Student Living/Three Principles/SR - 2 roomate get.jpg';"
+    onClick="video2()"&gt;&lt;/a&gt;
+&lt;a&gt;&lt;img id="img3" src="Images/housing/Student Living/Three Principles/SR - 3 roomates refer for help.jpg" 
+	onmouseover="this.src='Images/housing/Student Living/Three Principles/SR - 3 roomates refer for help(HOVER).jpg';"   
+    onmouseout="this.src='Images/housing/Student Living/Three Principles/SR - 3 roomates refer for help.jpg';"
+	onClick="video3()"&gt;&lt;/a&gt;
+&lt;a&gt;&lt;img id="img4" src="Images/housing/Student Living/Three Principles/SR - 4 roommates strengthen.jpg" 
+	onmouseover="this.src='Images/housing/Student Living/Three Principles/SR - 4 roommates strengthen(HOVER).jpg';"   
+    onmouseout="this.src='Images/housing/Student Living/Three Principles/SR - 4 roommates strengthen.jpg';"
+	onClick="video4()"&gt;&lt;/a&gt;
+&lt;a&gt;&lt;img id="img5" src="Images/housing/Student Living/Three Principles/SR - 5 responsible for one another.jpg" 
+	onmouseover="this.src='Images/housing/Student Living/Three Principles/SR - 5 responsible for one another(HOVER).jpg';"   
+    onmouseout="this.src='Images/housing/Student Living/Three Principles/SR - 5 responsible for one another.jpg';"
+	onClick="video5()"&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;br /&gt;
+&lt;div height="333px"&gt;
+	&lt;img src="Images/housing/Student Living/Three Principles/new-blank-slate(1).png" height="400px" width="100%" id="backgroundImage" style="position:absolute;"&gt;
+	&lt;br /&gt;
+
+&lt;div class="divs" id="div1"&gt;
+&lt;em&gt;&lt;strong&gt;"Am I My Brothers Keeper?"&lt;/strong&gt;&lt;/em&gt;
+&lt;p&gt;"The Savior taught us about silence in the parable of the Good Samaritan. When the priest and the Levite came upon a wounded man by the side of the road, they were silent.&lt;/p&gt;
+&lt;p&gt;They&amp;nbsp;took no action to help, nor did they tell anyone of the man in trouble. The Samaritan, in contrast, spoke in word and deed. He bandaged the man's wounds and took him to an inn. The Samaritan told the innkeeper about the wounded man and arranged for his care.&lt;/p&gt;
+&lt;p&gt;The man by the road represents so many&amp;nbsp;of our brothers and sisters, so many of us wounded by the perils of mortal life and the battles of the Great War. And yet, in our modern society, the Enemy has spread fear of getting involved when someone is in trouble and has fostered a social stigma that attaches to people who speak up in the face of evil. The Enemy whispers, 'Don't get involved; it's not your problem. Don't tell; you will be a tattletale.'" (Kim B. Clark, "&lt;a href="http://www2.byui.edu/Presentations/transcripts/devotionals/2008_01_15_clark.htm"&gt;The Power of the Holy&amp;nbsp;Temple&lt;/a&gt;," BYU-Idaho Devotional, Jan. 15, 2008, see p. 27 in the Student Living Guidebook).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="divs" id="div2"&gt;
+&lt;em&gt;&lt;strong&gt;"Roommates get involved"&lt;/strong&gt;&lt;/em&gt;
+&lt;p&gt;Here is an example: a lonely, confused young man gets addicted to pornography by first starting with the wrong movies and then edging into material that is increasingly sleazy, vile, and immoral. He stops going to church, and there is darkness in his eyes.&lt;/p&gt;
+&lt;p&gt;The young man is spiritually wounded on the&amp;nbsp;battlefield of the Great War. His roommates know. But they are silent. They do nothing to help him, and they say nothing to him or to anyone else as he descends into an earthly hell until he is bound in the chains of awful addiction." (Kim B. Clark, "&lt;a href="http://www2.byui.edu/Presentations/transcripts/devotionals/2008_01_15_clark.htm"&gt;The Power of the Holy&amp;nbsp;Temple&lt;/a&gt;," BYU-Idaho Devotional, Jan. 15, 2008, see p. 27 in the Student Living Guidebook).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="divs" id="div3"&gt;
+&lt;em&gt;&lt;strong&gt;"Roommates refer for help when needed"&lt;/strong&gt;&lt;/em&gt;
+&lt;p&gt;"Oh, brothers and sisters, don't leave the wounded on the&amp;nbsp;battlefield! Stick together. You don't need to be a more&amp;nbsp;'righteous-than-thou' person. We are all sinners. We all have&amp;nbsp;troubles. We have all been wounded spiritually. But you who&amp;nbsp;have felt the redeeming power of Christ, you who know&amp;nbsp;His love and His grace, you know He can heal all wounds.&amp;nbsp;If you reach out in a spirit of love and humility, you can&amp;nbsp;help the spiritually wounded find the Savior. If you need&amp;nbsp;to, call for the medics: talk to your bishop, call the Dean of&amp;nbsp;Students, tell someone who can do something that you have&amp;nbsp;a friend in trouble. Don't be silent. Don't leave the wounded&amp;nbsp;on the battlefield!" (Kim B. Clark, "&lt;a href="http://www2.byui.edu/Presentations/transcripts/devotionals/2008_01_15_clark.htm"&gt;The Power of the Holy&amp;nbsp;Temple&lt;/a&gt;," BYU-Idaho Devotional, Jan. 15, 2008, see p. 27 in the Student Living Guidebook).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="divs" id="div4"&gt;
+&lt;em&gt;&lt;strong&gt;"Roommates strengthen one another"&lt;/strong&gt;&lt;/em&gt;
+&lt;p&gt;"Therefore, strengthen your brethren in all your conversation,&amp;nbsp;in all your prayers, in all your exhortations, and in all your&amp;nbsp;doings" (D&amp;amp;C 108:7).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="divs" id="div5"&gt;
+&lt;em&gt;&lt;strong&gt;"Roommates are responsible for one another"&lt;/strong&gt;&lt;/em&gt;
+&lt;p&gt;"During a lifetime we oscillate repeatedly between being&amp;nbsp;nurturing shepherds and nurtured sheep. That fact&amp;nbsp;underlines our mutual interdependence-for we are all 'the&amp;nbsp;people of his pasture, and the sheep of his hand' (Psalms&amp;nbsp;95:7). We are responsible for each other-not as our&amp;nbsp;brother's keeper, but as brothers and sisters freely 'willing to&amp;nbsp;bear one another's burdens' and 'comfort those that stand&amp;nbsp;in need of comfort' (Mosiah 18:8-9). We cannot escape&amp;nbsp;that responsibility, nor expect someone&amp;nbsp;else to accept it for us" (Alexander&amp;nbsp;B. Morrison, "&lt;a href="https://www.lds.org/ensign/1990/08/fire-where-once-were-ashes?lang=eng"&gt;Fire Where Once Were&amp;nbsp;Ashes&lt;/a&gt;," Ensign, Aug. 1990, 7).&lt;/p&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;/div&gt;</ContentSnippet></ContentSnippet>

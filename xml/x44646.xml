@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<AdminPage ID="x44646" Name="Transfer Evaluation" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Transfer Evaluation</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Transfer Evaluation</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="Cells" label="Cells" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="GroupStart" GroupStart="" Name="Cell1" label="Cell 1" readonly="false" hidden="false" required="false" Expanded=""><Cell1Title type="string" label="Cell 1 Title" readonly="false" hidden="false" required="false"></Cell1Title><Cell1Image type="imagefile" label="Cell 1 Image" readonly="false" hidden="false" required="false" Width="" Height="" Alignment="" Border="" Expanded=""></Cell1Image><Cell1Text type="string" label="Cell 1 Text" readonly="false" hidden="false" required="false"></Cell1Text><xPower Type="Link" Link="" Name="Cell1Link" label="Cell 1 Link" readonly="false" hidden="false" required="false" LinkText="" Target="" Expanded=""/></xPower><xPower Type="GroupStart" GroupStart="" Name="Cell2" label="Cell 2" readonly="false" hidden="false" required="false" Expanded=""><Cell2Title type="string" label="Cell 2 Title" readonly="false" hidden="false" required="false"></Cell2Title><Cell2Image type="imagefile" label="Cell 2 Image" readonly="false" hidden="false" required="false" Width="" Height="" Alignment="" Border="" Expanded=""></Cell2Image><Cell2Text type="string" label="Cell 2 Text" readonly="false" hidden="false" required="false"></Cell2Text><xPower Type="Link" Link="" Name="Cell2Link" label="Cell 2 Link" readonly="false" hidden="false" required="false" LinkText="" Target="" Expanded=""/></xPower><xPower Type="GroupStart" GroupStart="" Name="Cell3" label="Cell 3" readonly="false" hidden="false" required="false" Expanded=""><Cell3Title type="string" label="Cell 3 Title" readonly="false" hidden="false" required="false"></Cell3Title><Cell3Image type="imagefile" label="Cell 3 Image" readonly="false" hidden="false" required="false" Width="" Height="" Alignment="" Border="" Expanded=""></Cell3Image><Cell3Text type="string" label="Cell 3 Text" readonly="false" hidden="false" required="false"></Cell3Text><xPower Type="Link" Link="" Name="Cell3Link" label="Cell 3 Link" readonly="false" hidden="false" required="false" LinkText="" Target="" Expanded=""/></xPower><xPower Type="List" List="xpowercomponent_CellComponent" Name="AdditionalCellComponents" label="Additional Cells" readonly="false" hidden="false" required="false" Component="" CompTypes="CellComponent" Expanded="false"><xPower Type="Component" Component="" Name="CellComponent" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"/></xPower></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<!--SCRIPTS AND STYLESHEETS-->
+<div><link href="http://fonts.googleapis.com/css?family=Cambo" rel="stylesheet" type="text/css" /></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+window.jQuery || document.write('<script src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" _mce_src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" _mce_src="prebuilt/stylenew/js/libs/jquery-1.7.min.js"><\/script>')
+</script>
+<script src="Documents/student-records-and-registration/ibox2.js" type="text/javascript"></script>
+<div><link href="Documents/student-records-and-registration/srrcss3.css" rel="stylesheet" type="text/css" /></div>
+<!--IBOXS-->
+<style><!--
+.pointer{cursor: pointer;}
+.clues{height: 110px;}
+.clue-text{width: 610px; float: left;}
+.clue-key{width: 100px; height: 90px; border: 1px solid gray; background: white; padding: 10px; float: left;}
+.clue-key-hr{color: black; background-color: black;}
+--></style>
+<div id="ctran1" style="display: none;">
+<p>BYU&mdash;Idaho accepts most college-level transfer credits from regionally-accredited colleges and universities. Technical and vocational courses are typically not accepted. Once admitted to BYU&mdash;Idaho and a transfer evaluation has been performed, students should review their unofficial transcript and degree audit to verify credit earned.</p>
+<p>Generally, if BYU&mdash;Idaho does not offer an equivalent course, the course will transfer as "ELECTIVE Credit". Students may petition a specific department for an adjustment or substitution regarding certain transfer courses. Please contact the satellite Academic Discovery Center for your major to receive further information.</p>
+</div>
+<div id="ctran2" style="display: none;">
+<p>BYU&mdash;Idaho considers evaluation of courses only with an official college or university transcript. Official transcripts are transcripts mailed in a sealed envelope from the institution or through a secured electronic transmission. BYU&mdash;Idaho will not evaluate transcripts submitted via fax or any other method deemed unsecure by the University.</p>
+<p>Official transcripts should be sent from previously attended colleges and universities by the application deadline to the Admissions Office.</p>
+<p>Brigham Young University&mdash;Idaho<br />Admissions Office<br />Kimball Building 120-1615<br />Rexburg, ID 83460</p>
+</div>
+<div id="ctran3" style="display: none;">
+<p>BYU&mdash;Idaho accepts most college-level courses from regionally-accredited institutions. BYU&mdash;Idaho accepts transfer courses with a grade of C- or higher. Although transfer credits can be used to fulfill course graduation requirements, they will not be calculated into your BYU&mdash;Idaho GPA. Only courses taken at BYU&mdash;Idaho will factor into your GPA.</p>
+<p>If BYU&mdash;Idaho offers a direct course equivalency to your transfer course, it will be listed on your official Transfer Course Evaluation Report (sent to your BYU&mdash;Idaho email account). If no equivalency has been made, the credits will transfer to BYU&mdash;Idaho as "ELECTIVE Credit." Courses from institutions that are not regionally-accredited are generally not transferable to BYU&mdash;Idaho. Courses completed 10 or more years ago may only be accepted as "ELECTIVE Credit".</p>
+<p>The transfer student page on my.byui.edu includes all courses from schools with which BYU&mdash;Idaho has made transfer course equivalencies. Select your state and school from the dropdown boxes to determine which courses from your transfer school have been equated to BYU&mdash;Idaho courses. If your school or a specific course is not listed, BYU&mdash;Idaho may not accept credit from that school, may not accept the course for transfer, or has not yet evaluated that particular course. Transfer course evaluations occur upon your enrollment to BYU&mdash;Idaho and upon receiving an official transcript from your transfer school.</p>
+<p>For a list of established equivalencies from your school, go to our <a href="https://my.byui.edu/ICS/Transfer_Students" style="text-decoration: underline;">Transfer Equivalency Page.</a></p>
+<p>For information regarding a course or school not included on the transfer student page, please send your request or questions to <a href="mailto:transfer@byui.edu"><span style="text-decoration: underline;">transfer@byui.edu</span></a>.</p>
+</div>
+<div id="ctran4" style="display: none;">
+<p>Transfer students who have been awarded an Associate Degree (not including Applied Associate Degrees) from a regionally-accredited college or university will be viewed as having met most of the Foundations requirements for a Bachelor Degree. However, transfer students are still responsible to meet all other graduation and university requirements, including courses that are deemed essential to the BYU&ndash;Idaho experience. Courses for students who have not completed a transfer Associate Degree will be evaluated on a course-by-course basis. Transfer Associate Degrees that do not include a broad liberal arts curriculum may be evaluated on a course-by-course basis.</p>
+</div>
+<div id="ctran5" style="display: none;">
+<p>CLEP scores must be on an official College Level Examination Program transcript. Transcripts can be ordered by calling 1-800-257-9558 and giving school code 556. Earned credit hours will be posted as CLEP credit with a &ldquo;P&rdquo;(pass) grade. Such credit may not be converted to a letter grade. Students may receive University credit for CLEP exams as specified by the list found through the following link: <a href="Documents/student-records-and-registration/Transfer Evaluation/CLEP Update for UG12 Catalog.pdf"><span style="text-decoration: underline;">CLEP Chart</span></a></p>
+</div>
+<!--IMAGES-->
+<div><img height="140" src="Images/Admin_Offices/Student Record and Registration/SecondLevelPage/The Guys NEW FINAL(0).png" style="z-index: 1;" width="510" /> <img alt="Header Banner" height="140" src="Images/Admin_Offices/Student Record and Registration/SecondLevelPage/transferEval.png" width="168" /></div>
+<div id="bar"><img alt="bar" height="4" src="Images/Admin_Offices/Student Record and Registration/SecondLevelPage/bar1.png" width="710" /></div>
+<!--TABZ-->
+<div class="sectionstwo">
+<div class="tabz"><a class="current" href="x44646.xml">College Transfer Credit</a> <a href="x45935.xml">High School Transfer Credit</a> <a href="x45936.xml">International Transfer Credit</a> <a href="x45938.xml">FAQ</a></div>
+<!--NAVIGATION-->
+<div class="box visible">
+<ul>
+<li><a href="#ctran1" rel="ibox" title="Transfer Credit Guidelines">Transfer Credit Guidelines</a></li>
+<li><a href="#ctran2" rel="ibox" title="Sending Official Transcripts">Sending Official Transcripts</a></li>
+<li><a href="#ctran3" rel="ibox" title="Transfer Course Equivalencies">Transfer Course Equivalencies</a></li>
+<li><a href="#ctran4" rel="ibox" title="Transfer Degrees">Transfer Degrees</a></li>
+<li><a href="#ctran5" rel="ibox" title="College Level Examination Program (CLEP)">College Level Examination Program (CLEP)</a></li>
+<li><a href="https://my.byui.edu/ICS/Transfer_Students?ticket=ST-871029-nN5jInTZowfdiJoggIeS-cas">Transfer Equivalency Page</a></li>
+</ul>
+</div>
+</div>
+<!--EVENTS-->
+<div class="span-18 last" id="events_bar_horizontal">
+<div class="span-18 last" id="window">
+<div id="events_bar_control"><span class="prev">&nbsp;</span><span class="next">&nbsp;</span></div>
+<div id="pane"><!--THE BEGING OF THE EVENTS-->
+<script src="Documents/Admin_Offices/Student Records and Registration/Events Script.js" type="text/javascript"></script>
+<!--THE END OF THE EVENTS--></div>
+</div>
+</div>
+<!--FOOTER-->
+<div id="email" style="display: none;">
+<p>For any questions please email us at <a href="mailto:transfer@byui.edu"><span style="text-decoration: underline;">transfer@byui.edu</span></a></p>
+</div>
+<div id="phone" style="display: none;">
+<p>For any questions please call us at (208) 496-1026</p>
+</div>
+<div><img alt="Bar" height="2" src="Images/Admin_Offices/Student Record and Registration/HomePage/bottomBar.jpg" width="710" /></div>
+<div class="barb"><img alt="Bar" height="2" src="Images/Admin_Offices/Student Record and Registration/HomePage/bottomBar.jpg" width="710" /></div>
+<div id="bottomContact">
+<ul>
+<li><img alt="Email Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/envelope.png" width="23" /><a href="#email" rel="ibox" title="Email Information"> Email Us</a></li>
+<li><img alt="Phone Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/phone.png" width="23" /><a href="#phone" rel="ibox" title="Phone Information"> Call Us</a></li>
+<li><img alt="Visit Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/visit.png" width="23" /><a href="Images/Admin_Offices/Student Record and Registration/HomePage/byuidahoMap.jpg" rel="ibox"> Visit Us</a></li>
+<li><img alt="Facebook Link" height="16" src="Images/Admin_Offices/Student Record and Registration/HomePage/facebook.png" width="16" /><a href="http://www.facebook.com/pages/BYU-Idaho-Student-Records-and-Registration/276472292461946?fref=ts"> facebook</a></li>
+<li><img alt="Live Chat Link" height="16" src="Images/Admin_Offices/Student Record and Registration/HomePage/livechat.png" width="18" /><a href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=SRR&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large" onclick="window.open('https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=SRR&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large&amp;referrer='+escape(document.location),'chat1132447','width=472,height=320');return false;" target="chat1132447"> Live Chat</a></li>
+<li><img alt="Site Index Link" height="17" src="Images/Admin_Offices/Student Record and Registration/HomePage/index.png" width="18" /><a href="x43952.xml"> Index</a></li>
+</ul>
+</div>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_BannerAd" Name="BannerAds" label="Rotating Ads" readonly="false" hidden="false" required="false" Component="" CompTypes="BannerAdComponent" Expanded="false"><xPower Type="Component" Component="" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/></xPower><xPower Type="GroupStart" GroupStart="" Name="QuickLinks" label="Quick Links" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="Quick Links Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="Quick Links Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="Quick Links Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Insert" Insert="" WellFormed="false" ExtractHTMLBody="false" Name="HTMLInsert" label="Insert" readonly="false" hidden="true" required="false" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x44650" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></AdminPage>

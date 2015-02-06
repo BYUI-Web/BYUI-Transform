@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x48827" Name="general_audience_test.js" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">general_audience_test.js</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">general_audience_test.js</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">$(document).ready(function() {
+	// add click event to "student life" button to override link to load new link page
+	$('#student_life_link').bind('click', fade_in_student_life_links);
+	$('#student_resources_link').bind('click', fade_in_student_resources_links);
+	$('.close_links').bind('click', clear_super_links);
+	jQuery(function() {
+	    jQuery.getFeed({
+	        url: 'rss.xml',
+	        success: function(feed) {
+	            var html = '&lt;ul&gt;';
+	            for(var i = 0; i &lt; feed.items.length &amp;&amp; i &lt; 2; i++) {
+	                var item = feed.items[i];
+	                html += '&lt;li&gt;'
+	                + '&lt;a href="'
+	                + item.link
+	                + '" '
+	                + 'title="'
+	                + item.description
+	                + '"&gt;'
+	                + item.title
+	                + '&lt;/a&gt;'
+	                + '&lt;/li&gt;';
+	            }
+	            jQuery('#news_and_events').append(html);
+	        }    
+	    });
+	});
+      $("#event_list").jScrollPane({scrollbarWidth:14});
+      
+      // iPhone style headers
+      var i = 0;
+      var p = 0;
+      $(".header:first").addClass('active');
+      $(".header:first").removeClass('header');    
+      $("#event_list_scrolling").scroll(function(){
+        $(".active").css("position", "absolute");
+        if($(".active").offset().top &lt; 145){
+          p = 145 - $(".active").offset().top;
+          i= i+p;
+          $(".active").css("top", i + "px");
+        }
+        if($(".active").offset().top &gt; 145){
+          p = $(".active").offset().top - 145;
+          i= i-p;
+          $(".active").css("top", i + "px");
+        }
+        if($(".header:first").offset().top &lt; $(".active").offset().top + 20){
+          $(".active").addClass("oldHeader");
+          $(".active").removeClass("active");
+          $(".header:first").addClass("temp");
+          $(".header:first").removeClass("header");
+          i = i + 18;
+        }else if($(".temp").offset().top &lt; 145){
+          $(".temp").addClass("active");
+          $(".temp").removeClass("temp");
+        }else if($(".oldHeader").offset().top + 25 &gt; $(".active").offset().top){
+          console.log("OldHeader hit Active");
+        }
+      });
+      
+});
+
+var life_links_open = resources_links_open = false;
+var fade_out_speed = 400;
+var fade_in_speed = 600;
+
+function fade_in_student_resources_links() {
+	// change activation link
+	$('#student_resources_link').unbind('click', fade_in_student_resources_links);
+	// clear other links if they are currently shown
+	clear_super_links();
+	// fade in
+	$('#student_resources_links').fadeIn(fade_in_speed).css({'z-index':'900'});
+	// change arrow to point right
+	$('#student_resources_arrow').css('backgroundImage',"url('images/general_audience/right_arrow.png')");
+	// set semaphore to indicate currently showing
+	resources_links_open = true;
+	// set deactivation link
+	$('#student_resources_link').click(function() { clear_super_links() });
+}
+
+function fade_in_student_life_links() {
+	// change activation link
+	$('#student_life_link').unbind('click', fade_in_student_life_links);
+	// clear other links if they are currently shown
+	clear_super_links();
+	// fade in
+	$('#student_life_links').fadeIn(fade_in_speed).css({'z-index':'900'});
+	// change arrow to point right
+	$('#student_life_arrow').css('backgroundImage',"url('images/general_audience/right_arrow.png')");
+	// set semaphore to indicate currently showing
+	life_links_open = true;
+	// set deactivation link
+	$('#student_life_link').click(function() { clear_super_links() });
+}
+
+
+function clear_super_links() {
+	// check if links are currently shown
+	if(life_links_open) {
+		// fade out
+		$('#student_life_links').fadeOut(fade_out_speed);
+		// change arrow to point down
+		$('#student_life_arrow').css('backgroundImage',"url('images/general_audience/down_arrow.png')");
+		// set semaphore to false
+		life_links_open = false;
+		// change activation link
+		$('#student_life_link').bind('click', fade_in_student_life_links);
+	}
+	if(resources_links_open) {
+		// fade out
+		$('#student_resources_links').fadeOut(fade_out_speed);
+		// change arrow to point down
+		$('#student_resources_arrow').css('backgroundImage','url(images/general_audience/down_arrow.png)');
+		// set semaphore to false
+		resources_links_open = false;
+		// change activation link
+		$('#student_resources_link').bind('click', fade_in_student_resources_links);
+	}
+}</ESContent></EmptyShell>

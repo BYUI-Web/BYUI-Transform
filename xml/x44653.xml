@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<AdminPage ID="x44653" Name="Graduation" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Graduation</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Graduation</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="Cells" label="Cells" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="GroupStart" GroupStart="" Name="Cell1" label="Cell 1" readonly="false" hidden="false" required="false" Expanded="false"><Cell1Title type="string" label="Cell 1 Title" readonly="false" hidden="false" required="false"></Cell1Title><Cell1Image type="imagefile" label="Cell 1 Image" readonly="false" hidden="false" required="false" Width="" Height="" Alignment="" Border="" Expanded="true" AlternateText="" HSpace="" VSpace=""></Cell1Image><Cell1Text type="string" label="Cell 1 Text" readonly="false" hidden="false" required="false"></Cell1Text><xPower Type="Link" Link="" Name="Cell1Link" label="Cell 1 Link" readonly="false" hidden="false" required="false" LinkText="" Target="" Expanded="false" URL=""/></xPower><xPower Type="GroupStart" GroupStart="" Name="Cell2" label="Cell 2" readonly="false" hidden="false" required="false" Expanded="false"><Cell2Title type="string" label="Cell 2 Title" readonly="false" hidden="false" required="false"></Cell2Title><Cell2Image type="imagefile" label="Cell 2 Image" readonly="false" hidden="false" required="false" Width="" Height="" Alignment="" Border="" Expanded="true" AlternateText="" HSpace="" VSpace=""></Cell2Image><Cell2Text type="string" label="Cell 2 Text" readonly="false" hidden="false" required="false"></Cell2Text><xPower Type="Link" Link="" Name="Cell2Link" label="Cell 2 Link" readonly="false" hidden="false" required="false" LinkText="" Target="" Expanded="false" URL=""/></xPower><xPower Type="GroupStart" GroupStart="" Name="Cell3" label="Cell 3" readonly="false" hidden="false" required="false" Expanded="false"><Cell3Title type="string" label="Cell 3 Title" readonly="false" hidden="false" required="false"></Cell3Title><Cell3Image type="imagefile" label="Cell 3 Image" readonly="false" hidden="false" required="false" Width="" Height="" Alignment="" Border="" Expanded="true" AlternateText="" HSpace="" VSpace=""></Cell3Image><Cell3Text type="string" label="Cell 3 Text" readonly="false" hidden="false" required="false"></Cell3Text><xPower Type="Link" Link="" Name="Cell3Link" label="Cell 3 Link" readonly="false" hidden="false" required="false" LinkText="" Target="" Expanded="false" URL=""/></xPower><xPower Type="List" List="xpowercomponent_CellComponent" Name="AdditionalCellComponents" label="Additional Cells" readonly="false" hidden="false" required="false" Component="" CompTypes="CellComponent" Expanded="false"><xPower Type="Component" Component="" Name="CellComponent" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"/></xPower></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<!--SCRIPTS AND STYLESHEETS-->
+<div><link href="http://fonts.googleapis.com/css?family=Cambo" rel="stylesheet" type="text/css" /></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+window.jQuery || document.write('<script src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" _mce_src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" _mce_src="prebuilt/stylenew/js/libs/jquery-1.7.min.js"><\/script>')
+</script>
+<script src="Documents/student-records-and-registration/ibox2.js" type="text/javascript"></script>
+<div><link href="Documents/student-records-and-registration/srrcss3.css" rel="stylesheet" type="text/css" /></div>
+<!--IBOXS-->
+<div id="ctran1" style="display: none;">
+<p>Applying&nbsp;to&nbsp;graduate from BYU&ndash;Idaho can be done in a matter of minutes using the online application.&nbsp; To apply, simply</p>
+<ul>
+<li>log on to&nbsp;your&nbsp;<a href="https://my.byui.edu" style="text-decoration: underline;">my.byui.edu</a>&nbsp;student account</li>
+<li>Select the "Student" tab</li>
+<li>Search for "Graduation Application" at the bottom of the gray links on the left side of the page.</li>
+</ul>
+<img height="299" src="Images/Admin_Offices/Student Record and Registration/GradPhoto/GradDude3.png" style="float: right;" width="236" /><br />
+<p>The online application will walk you through a step-by-step process.&nbsp; Once your application is submitted, you can then return to the application page to review the current status of your application.&nbsp; The application deadlines are also displayed on the application.</p>
+</div>
+<div id="ctran2" style="display: none;">
+<div><!--                Graduation Check List                  --><ol>
+<li style="text-align: left;">At least 1-2 semesters prior to graduation meet with your <a href="http://igx.byui.edu/advising/Career_And_Academic_Advising.html" style="text-decoration: underline;" target="_blank">satellite academic discovery center</a> to ensure you will complete all degree requirements.</li>
+<li style="text-align: left;">Determine whether or not you will be marching at Commencement and/or in your college Convocation. You will need to know this as part of the graduation application process.</li>
+<li style="text-align: left;">If marching, determine if you need to purchase a cap and gown. You will also need this information for the graduation application process.</li>
+<li style="text-align: left;"><a href="https://my.byui.edu/ICS/Academics/" style="text-decoration: underline;" target="_blank">Apply for graduation</a></li>
+<li style="text-align: left;">Watch your BYU&ndash;I email account for important, specific information regarding graduation events.</li>
+</ol>
+<h3>Students who are Marching</h3>
+<ol>
+<li style="text-align: left;">Order graduation <a href="http://www.byuistore.com/c-74-grad-announcements.aspx" style="text-decoration: underline;" target="_blank">announcements and other memorabilia</a>.</li>
+<li style="text-align: left;">Plan to attend <a href="http://www.byuiconnect.org" style="text-decoration: underline;" target="_blank">Grad Night</a> during the semester you will graduate.</li>
+<li style="text-align: left;">Plan to attend <a href="http://www.byuiconnect.org" style="text-decoration: underline;" target="_blank">Grad Fest </a>during the semester you will graduate to pick up your cap, gown, and name card.</li>
+<li style="text-align: left;">Pick up Commencement tickets at the <a href="http://www.byui.edu/tickets/" style="text-decoration: underline;" target="_blank">Ticket Office</a> for your family and guests. (Tickets are not required for Convocation.)</li>
+<li style="text-align: left;">Determine the location, date, and time of your college's <a href="x18323.xml" style="text-decoration: underline;" target="_blank">Convocation</a>.</li>
+<li>Inform your family and guests of the dates and times of graduation events. Remind them to be seated at least 30 minutes prior to start of Commencement.</li>
+<li>Attend your individual college's Convocation to receive your Diploma cover. If you are not participating in Convocation, visit the Student Records and Registration office (Kim 190) to pick up a diploma cover prior to leaving campus.</li>
+</ol><center><a href="Documents/Admin_Offices/Student Records and Registration/Graduation/ChecklistPdf.pdf" style="text-decoration: underline;" target="_blank"><img alt="Pdf version of Checklist " height="38" onmouseout="this.src='Images/Admin_Offices/Student Record and Registration/GradPhoto/PdfButton.png';" onmouseover="this.src='Images/Admin_Offices/Student Record and Registration/GradPhoto/PdfButtonAlt.png';" src="Images/Admin_Offices/Student Record and Registration/GradPhoto/PdfButton.png" width="121" /></a></center></div>
+</div>
+<div id="ctran3" style="display: none;">
+<div><!--                 Alumni Association             --> <!--Eyring Quote-->
+<p style="border: 2px solid #84A8C3; padding: 5px 10px; background: #EBF5FF; width: 740px; border-radius: 5px; font-size: 12px; margin: 10px; line-height: 12px;">"Graduates of BYU-Idaho will become legendary for their capacity to build the people around them and to add value wherever the serve&hellip; We will have a spiritual outpouring, because of your faith and the faith of the faculty and those who lead here, that will lead us to be legendary in terms of our capacity to teach and to learn and in our capacity to innovate&hellip; And that&rsquo;s going to follow you everywhere you go&hellip; I hope I live long enough to someday meet some employer who employed one of you and says, 'Where did that come from?' &hellip; And I&rsquo;ll smile and say, 'Well, come with me to Rexburg.' And I may not be able to show it to you, and I may not be able to prove it to you, but you&rsquo;ll feel it. There will be a spirit here.&rdquo; (President Henry B. Eyring, 2001)"</p>
+<!--Eyring Quote-->
+<p>Dear Graduate,</p>
+<p style="margin-left: '15px';">Welcome to BYU&ndash;Idaho Alumni. You are joining over 170,000 alumni who have experienced the 'Spirit of Ricks' and retain it through continued association with the university.&nbsp; Many of your fellow alumni continue their level&nbsp; of association by serving&nbsp; as <a href="http://www.byuiconnect.org" style="text-decoration: underline;">BYU&ndash;Idaho Ambassadors and Mentors</a>, helping us "link students and alumni for good."</p>
+<p>As a graduate of BYU&ndash;Idaho, you are helping to fulfill the prophecy made by Jacob Spori on November 12, 1888. On that day, the very first day of this school, he announced: "The seeds we are planting today will grow and become mighty oaks, and their branches will run all over the earth."</p>
+<p style="margin-left: '15px';">As a graduate of BYU&ndash;Idaho, you are helping to fulfill this prophecy. We look forward to hearing your progress as you become "a mighty oak" and hope to keep track where you go as you "run all over the earth." Please remember where the seeds were planted and where your educational roots are.</p>
+<p style="margin-left: '15px';">We hope you keep us informed of your successes, life changes, and new addresses. The <a href="http://www.byui.edu/magazine/fall2009/" style="text-decoration: underline;">BYU&ndash;Idaho magazine</a> and your alumni homepage (<a href="http://www.byuiconnect.com/s/1085/07-idaho/start.aspx?gid=4&amp;pgid=61" style="text-decoration: underline;">www.byui.edu/alumni</a>) will keep you up-to-date with campus news and activities and <a href="http://www.byuiconnect.com/s/1085/07-idaho/index.aspx?sid=1085&amp;gid=4&amp;pgid=1576" style="text-decoration: underline;">benefits</a> provided by BYU&ndash;Idaho Alumni. We look forward to a long and close relationship.</p>
+<div style="display: inline; float: left;">
+<p>Your fellow alumnus,</p>
+<p>Steve Davis '84, Director<br />Alumni Relations</p>
+</div>
+</div>
+<div style="display: inline; float: right; margin-right: 100px; margin-top: 30px;">
+<div id="Linkdin" style="display: inline;">
+<p style="display: inline; margin-left: 5px;"><a href="http://www.linkedin.com/groups/Official-BYUIdaho-Student-Alumni-Network-42868"><img alt="Byui Alumni Association Linked in " height="87" src="Images/Admin_Offices/Student Record and Registration/GradPhoto/linkdlink.png" width="84" /></a></p>
+</div>
+<div id="AlumniAss" style="display: inline; margin-left: 5px; margin-top: 10px;">
+<p style="display: inline;"><a href="http://www.byuiconnect.com/s/1085/07-idaho/start.aspx?gid=4&amp;pgid=61"><img alt="Byui Alumni Association Link" height="86" src="Images/Admin_Offices/Student Record and Registration/GradPhoto/AlumniAssLink.png" width="83" /></a></p>
+</div>
+<div id="Facebook" style="display: inline; margin-left: 5px;">
+<p style="display: inline;"><a href="http://www.facebook.com/BYUIAlumni"><img alt="Byui Alumni Association Facebook link" height="85" src="Images/Admin_Offices/Student Record and Registration/GradPhoto/facebooklink.png" width="84" /></a></p>
+</div>
+<div id="ctran4" style="display: none;">
+<table>
+<tbody>
+<tr>
+<td>&nbsp;</td>
+<td><strong>Spring 2013</strong></td>
+<td><strong>Fall 2013</strong></td>
+</tr>
+<tr class="alt">
+<td>To be considered for Honors &amp; have your name in the Commencement program, apply by:</td>
+<td>Jun 15, 2013</td>
+<td>TBA</td>
+</tr>
+<tr>
+<td>To purchase a cap/gown &amp; walk in Commencement ceremony, apply by:</td>
+<td>Jul 23, 2013</td>
+<td>TBA</td>
+</tr>
+<tr class="alt">
+<td>Graduation Ceremony Date (Commencement)*</td>
+<td>Jul 23, 2013</td>
+<td>TBA</td>
+</tr>
+<tr>
+<td>Final Deadline to have an application reviewed for this session:</td>
+<td>Jul 30, 2013</td>
+<td>TBA</td>
+</tr>
+</tbody>
+</table>
+<p>Note: *Specific Convocation dates and times will be available on the <a href="http://www.byui.edu/graduation" target="_blank">graduation website</a>approximately one month prior to Commencement and will be communicated to applicants individually.</p>
+</div>
+</div>
+</div>
+<!--IMAGES-->
+<div><img height="140" src="Images/Admin_Offices/Student Record and Registration/SecondLevelPage/Kyle Grad Final.png" width="510" /> <img alt="Header Banner" height="140" src="Images/Admin_Offices/Student Record and Registration/SecondLevelPage/grad.png" width="168" /></div>
+<div id="bar"><img alt="bar" height="4" src="Images/Admin_Offices/Student Record and Registration/SecondLevelPage/bar1.png" width="710" /></div>
+<!--TABZ-->
+<div class="sectionstwo">
+<div class="tabz"><a class="current" href="x44653.xml">Graduates</a> <a href="x45721.xml">Graduation Events</a> <a href="x45722.xml">Guest Information</a></div>
+<!--NAVIGATION-->
+<div class="box visible">
+<ul>
+<li><a href="#ctran1" rel="ibox" title="Graduation Application">Graduation Application</a></li>
+<li><a href="#ctran2" rel="ibox" title="Graduation Checklist">Graduation Checklist</a></li>
+<li><a href="http://www.byuistore.com/c-74-grad-announcements.aspx" target="_blank"> Graduation Memorabilia </a></li>
+<li><a href="#ctran4" rel="ibox" title="Important Announcements">Important Announcements</a></li>
+<li><a href="#ctran3" rel="ibox" title="Alumni Association">Alumni Association</a></li>
+<li><a href="https://commerce.cashnet.com/diploma" title="Duplicate Diploma Request">Duplicate Diploma Request</a></li>
+<li><a href="x47761.xml" title="Pathway Application">Pathway Application</a></li>
+</ul>
+</div>
+</div>
+<!--EVENTS-->
+<div class="span-18 last" id="events_bar_horizontal">
+<div class="span-18 last" id="window">
+<div id="events_bar_control"><span class="prev">&nbsp;</span><span class="next">&nbsp;</span></div>
+<div id="pane"><!--THE BEGING OF THE EVENTS-->
+<script src="Documents/Admin_Offices/Student Records and Registration/Events Script.js" type="text/javascript"></script>
+<!--THE END OF THE EVENTS--></div>
+</div>
+</div>
+<!--FOOTER-->
+<div id="email" style="display: none;">
+<p>For any questions please email us at <a href="mailto:graduation@byui.edu"><span style="text-decoration: underline;">graduation@byui.edu</span></a></p>
+</div>
+<div id="phone" style="display: none;">
+<p>For any questions please call us at (208) 496-1027</p>
+</div>
+<div><img alt="Bar" height="2" src="Images/Admin_Offices/Student Record and Registration/HomePage/bottomBar.jpg" width="710" /></div>
+<div class="barb"><img alt="Bar" height="2" src="Images/Admin_Offices/Student Record and Registration/HomePage/bottomBar.jpg" width="710" /></div>
+<div id="bottomContact">
+<ul>
+<li><img alt="Email Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/envelope.png" width="23" /><a href="#email" rel="ibox" title="Email Information"> Email Us</a></li>
+<li><img alt="Phone Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/phone.png" width="23" /><a href="#phone" rel="ibox" title="Phone Information"> Call Us</a></li>
+<li><img alt="Visit Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/visit.png" width="23" /><a href="Images/Admin_Offices/Student Record and Registration/HomePage/byuidahoMap.jpg" rel="ibox"> Visit Us</a></li>
+<li><img alt="Facebook Link" height="16" src="Images/Admin_Offices/Student Record and Registration/HomePage/facebook.png" width="16" /><a href="http://www.facebook.com/pages/BYU-Idaho-Student-Records-and-Registration/276472292461946?fref=ts"> facebook</a></li>
+<li><img alt="Live Chat Link" height="16" src="Images/Admin_Offices/Student Record and Registration/HomePage/livechat.png" width="18" /><a href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=SRR&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large" onclick="window.open('https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=SRR&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large&amp;referrer='+escape(document.location),'chat1132447','width=472,height=320');return false;" target="chat1132447"> Live Chat</a></li>
+<li><img alt="Site Index Link" height="17" src="Images/Admin_Offices/Student Record and Registration/HomePage/index.png" width="18" /><a href="x43952.xml"> Index</a></li>
+</ul>
+</div>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_BannerAd" Name="BannerAds" label="Rotating Ads" readonly="false" hidden="false" required="false" Component="" CompTypes="BannerAdComponent" Expanded="false"><xPower Type="Component" Component="" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/></xPower><xPower Type="GroupStart" GroupStart="" Name="QuickLinks" label="Quick Links" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="Quick Links Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="Quick Links Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="Quick Links Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="Insert" Insert="" WellFormed="false" ExtractHTMLBody="false" Name="HTMLInsert" label="Insert" readonly="false" hidden="true" required="false" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x44654" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></AdminPage>

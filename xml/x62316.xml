@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x62316" Name="Top Nav" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;style&gt;
+ul#top-nav {
+	width: 100%;
+	float: left;
+	margin: 0 0 25px 0;
+	padding: 0;
+}
+ul#top-nav &gt; li,
+li.hidden-nav-item
+{
+	list-style-type: none;
+	background-color: #0f6cb6;
+	margin: 0;
+	padding: 0;
+}
+ul#top-nav &gt; li {
+	float: left;
+	width: 25%;
+}
+ul#top-nav &gt; li a {
+	text-align: center;
+}
+ul#top-nav &gt; li a,
+li.hidden-nav-item &gt; a
+{
+	color: #fff;
+	padding: 5px 0;
+	text-decoration: none;
+	font-size: 0.9em;
+	font-weight: bold;
+	font-family: "Century Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	letter-spacing: 1.5pt;
+	display: block;
+}
+ul#top-nav &gt; li &gt; a:hover,
+ul.hidden-nav-menu &gt; li &gt; a:hover
+{
+	background-color: #000;
+}
+ul.hidden-nav-menu {
+	display: none;
+}
+li:hover &gt; ul.hidden-nav-menu {
+	display: block;
+}
+ul#top-nav &gt; li:nth-child(1n+2) &gt; a,
+ul.hidden-nav-menu
+{
+	border-left: 1px solid #fff;
+}
+ul#top-nav a,
+ul.hidden-nav-menu
+{
+	
+}
+&lt;/style&gt;
+
+&lt;!-- Fixes wrapping of nav to a second line in IE 9 and lower --&gt;
+&lt;!--[if IE]&gt;
+&lt;style&gt;
+ul#top-nav {
+	width: 949px; 
+}
+&lt;/style&gt;
+&lt;![endif]--&gt;
+
+&lt;nav&gt;
+	&lt;ul id="top-nav"&gt;
+		&lt;li&gt;&lt;a id="home" href="x50518.xml"&gt;EDUCATION WEEK HOME&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a id="agenda" href="x50522.xml"&gt;TOPICS AND EVENTS&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a id="what-to-expect" href="x50521.xml"&gt;WHAT TO EXPECT&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a id="register" href="x50523.xml"&gt;REGISTER&lt;/a&gt;
+&lt;!--
+			&lt;ul class="hidden-nav-menu"&gt;
+				&lt;li class="hidden-nav-item"&gt;&lt;a href="x50738.xml"&gt;HOTEL INFORMATION&lt;/a&gt;&lt;/li&gt;
+				&lt;li class="hidden-nav-item"&gt;&lt;a href="x51173.xml"&gt;REXBURG HOUSING INFORMATION&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+--&gt;
+		&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/nav&gt;</ContentSnippet></ContentSnippet>

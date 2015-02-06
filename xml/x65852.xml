@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<Content ID="x65852" Name="Competency-Based Courses" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Competency-Based Courses</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Competency-Based Courses</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<!--SCRIPTS AND STYLESHEETS-->
+<div><link href="http://fonts.googleapis.com/css?family=Cambo" rel="stylesheet" type="text/css" /></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+window.jQuery || document.write('<script src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" _mce_src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" _mce_src="prebuilt/stylenew/js/libs/jquery-1.7.min.js"><\/script>')
+</script>
+<script src="prebuilt/stylenew/js/mylibs/scrolling_events_bar.js" type="text/javascript"></script>
+<script src="Documents/student-records-and-registration/ibox2.js" type="text/javascript"></script>
+<div><link href="Documents/student-records-and-registration/srrcss3.css" rel="stylesheet" type="text/css" /></div>
+<!--IBOXS-->
+<div id="faq1" style="display: none;">
+<p>A student will have three opportunities to pass an assessment (module). If you do not pass on the first or second attempt, you will be directed after each attempt to additional on-line study material. If on the third attempt you do not receive 70% or better, then you will fail the course and you will not be able to register for that same CBC again. You would then be required to take the online or face-to-face option the next time you register for the course.</p>
+</div>
+<div id="faq2" style="display: none;">
+<p>No. You can take the assessments when you want, and you can take them in any order as long as you complete all module assessments by the end of the semester. However it is strongly recommended that you take them in order as each module builds upon information in the prior modules.</p>
+</div>
+<div id="faq3" style="display: none;">
+<p>Unfortunately, a student would not receive credit for the course. You would need to enroll in the course, either face-to-face or online, in order to receive a grade and credit for that course. A student will not be able to enroll in the same CBC course again.</p>
+</div>
+<div id="faq4" style="display: none;">
+<p>Fortunately, because the course is developed as an independent study course as well, a student can still learn the material through his or her own efforts. Electronic resources are available for students to study and learn the material they don&rsquo;t know. A student may also use these resources to study the material in the case of a retake.</p>
+</div>
+<div id="faq5" style="display: none;">
+<p>As of right now, the only courses offered are PSYCH 111 (Intro of Psychology) and ECON 150 (Microeconomics) and 151 (Macroeconomics). However, more courses are in development to be offered as CBC soon.</p>
+</div>
+<div id="faq6" style="display: none;">
+<p>You can enroll in a CBC at any time during the semester, but you must allow enough time to pass all modules before the end of the semester. In other words, it&rsquo;s not a good idea to register for the class when there are only two weeks left in the semester.</p>
+</div>
+<div id="faq7" style="display: none;">
+<p>In order to enroll you must contact Sister Natalie Whittaker at whittakern@byui.edu; 208-496-9846 for ECON 150 or 151 or Sister Debbie Willis willisd@byui.edu; 208-496-9855 for PSYCH 111. Email or visit with them in order to discuss the option of the CBC.</p>
+</div>
+<div id="faq8" style="display: none;">
+<p>Grades will be given as Pass/Fail. If you demonstrate 70% or better competency for each of the modules, you will be given a Pass grade, which does not affect your GPA. If you do not score 70% or better after three attempts (if needed) on each of the assessments, you will fail the course, which does affect your GPA.</p>
+</div>
+<div id="faq9" style="display: none;">
+<p>Tutoring will be available for students enrolled in a CBC, however instructor help will not be available.</p>
+</div>
+<div id="faq10" style="display: none;">
+<p>Yes. If you are enrolled in 9 credits and take a 3 credit CBC, you will technically have 12 credits and be considered a full-time student.</p>
+</div>
+<div id="faq11" style="display: none;">
+<p>No, unless you are not a full-time student. The cost will be the same as regular tuition.</p>
+</div>
+<!--IMAGES-->
+<div><img alt="FAQ Banner" height="140" src="Images/Admin_Offices/Student Record and Registration/SecondLevelPage/FAQ1.jpg" width="510" /> <img alt="Question Mark Logo" height="140" src="Images/Admin_Offices/Student Record and Registration/SecondLevelPage/FAQ1.png" width="167" /></div>
+<div id="bar"><img alt="bar" height="4" src="Images/Admin_Offices/Student Record and Registration/SecondLevelPage/bar1.png" width="710" /></div>
+<!--TABZ-->
+<div class="sectionstwo">
+<div class="tabz"><a href="x43953.xml">Registration</a> <a class="current" href="x46090.xml">Transfer Evaluation</a> <a href="x46089.xml">Enrollment Verification</a> <a href="x46088.xml">Graduation</a></div>
+<!--NAVIGATION-->
+<div class="box visible">
+<ul>
+<li><a href="#faq1" rel="ibox" title="What if I don&rsquo;t pass the assessment?">What if I don&rsquo;t pass the assessment?</a></li>
+<li><a href="#faq2" rel="ibox" title="Is there a specific order I have to take the assessments?">Is there a specific order I have to take the assessments?</a></li>
+<li><a href="#faq3" rel="ibox" title="What if I pass all modules but one?">What if I pass all modules but one?</a></li>
+<li><a href="#faq4" rel="ibox" title="So what happens if I don&rsquo;t know the material as well as I thought?">So what happens if I don&rsquo;t know the material as well as I thought?</a></li>
+<li><a href="#faq5" rel="ibox" title="What courses are offered?">What courses are offered?</a></li>
+<li><a href="#faq6" rel="ibox" title="When can I enroll in a CBC?">When can I enroll in a CBC?</a></li>
+<li><a href="#faq7" rel="ibox" title="How do I enroll?">How do I enroll?</a></li>
+<li><a href="#faq8" rel="ibox" title="How is it graded?">How is it graded?</a></li>
+<li><a href="#faq9" rel="ibox" title="Will help be available to study/learn?">Will help be available to study/learn?</a></li>
+<li><a href="#faq10" rel="ibox" title="Will a CBC count towards my semester credit total?">Will a CBC count towards my semester credit total?</a></li>
+<li><a href="#faq11" rel="ibox" title="Will I be charged for enrolling in a CBC?">Will I be charged for enrolling in a CBC?</a></li>
+</ul>
+</div>
+</div>
+<!--EVENTS-->
+<div class="span-18 last" id="events_bar_horizontal">
+<div class="span-18 last" id="window">
+<div id="events_bar_control"><span class="prev">&nbsp;</span><span class="next">&nbsp;</span></div>
+<div id="pane"><!--THE BEGING OF THE EVENTS-->
+<div class="single_event"><a class="event_link" href="http://ingeniux.byui.edu/admin/xml/"><span class="event_date"><span class="cal_day">12</span><br /><span class="cal_month">MAR</span></span></a>
+<p style="color: #303030;">Last day to drop a Second Block without receiving a "W" grade on the transcript.</p>
+</div>
+<div class="single_event"><a class="event_link" href="http://ingeniux.byui.edu/admin/xml/"><span class="event_date"><span class="cal_day">12</span><br /><span class="cal_month">MAR</span></span></a>
+<p style="color: #303030;">Last day to change from credit to audit for second block classes.</p>
+</div>
+<div class="single_event"><a class="event_link" href="http://ingeniux.byui.edu/admin/xml/"><span class="event_date"><span class="cal_day">14</span><br /><span class="cal_month">MAR</span></span></a>
+<p style="color: #303030;">Must apply for graduation by this date for name to be printed in the officail program and to be eligible for honors.</p>
+</div>
+<div class="single_event"><a class="event_link" href="http://ingeniux.byui.edu/admin/xml/"><span class="event_date"><span class="cal_day">24</span><br /><span class="cal_month">MAR</span></span></a>
+<p style="color: #303030;">Last day to withdraw completely from Second Block Classes and recive a pro-rated tuition refund.</p>
+</div>
+<div class="single_event"><a class="event_link" href="http://ingeniux.byui.edu/admin/xml/"><span class="event_date"><span class="cal_day">25</span><br /><span class="cal_month">MAR</span></span></a>
+<p style="color: #303030;">Last day to withdraw from Second Block Classes and recive a "W" grade and not the grade earned.</p>
+</div>
+<div class="single_event"><a class="event_link" href="http://ingeniux.byui.edu/admin/xml/"><span class="event_date"><span class="cal_day">26</span><br /><span class="cal_month">MAR</span></span></a>
+<p style="color: #303030;">Last day to withdraw completely from school and receive a "W" grades and not the grades earned.</p>
+</div>
+<div class="single_event"><a class="event_link" href="http://ingeniux.byui.edu/admin/xml/"><span class="event_date"><span class="cal_day">2</span><br /><span class="cal_month">APR</span></span></a>
+<p style="color: #303030;">Last day to withdraw from all Second Block classes and receive a "W" grade and not the grade earned.</p>
+</div>
+<div class="single_event"><a class="event_link" href="http://ingeniux.byui.edu/admin/xml/"><span class="event_date"><span class="cal_day">10</span><br /><span class="cal_month">APR</span></span></a>
+<p style="color: #303030;">Last day of classes.</p>
+</div>
+<div class="single_event"><a class="event_link" href="http://ingeniux.byui.edu/admin/xml/"><span class="event_date"><span class="cal_day">12</span><br /><span class="cal_month">APR</span></span></a>
+<p style="color: #303030;">Graduation Commencement and Convocations.</p>
+</div>
+<!--THE END OF THE EVENTS--></div>
+</div>
+</div>
+<p><!--FOOTER--></p>
+<div id="email" style="display: none;">
+<p>For any questions please email us at <a href="mailto:registrar@byui.edu"><span style="text-decoration: underline;">registrar@byui.edu</span></a></p>
+</div>
+<div id="phone" style="display: none;">
+<p>For any questions please call us at (208)-496-1000</p>
+</div>
+<p><img alt="Bar" height="2" src="Images/Admin_Offices/Student Record and Registration/HomePage/bottomBar.jpg" width="710" /></p>
+<div class="barb"><img alt="Bar" height="2" src="Images/Admin_Offices/Student Record and Registration/HomePage/bottomBar.jpg" width="710" /></div>
+<div id="bottomContact">
+<ul>
+<li><img alt="Email Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/envelope.png" width="23" /><a href="#email" rel="ibox" title="Email Information"> Email Us</a></li>
+<li><img alt="Phone Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/phone.png" width="23" /><a href="#phone" rel="ibox" title="Phone Information"> Call Us</a></li>
+<li><img alt="Visit Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/visit.png" width="23" /><a href="Images/Admin_Offices/Student Record and Registration/HomePage/byuidahoMap.jpg" rel="ibox"> Visit Us</a></li>
+<li><img alt="Facebook Link" height="16" src="Images/Admin_Offices/Student Record and Registration/HomePage/facebook.png" width="16" /><a href="http://www.facebook.com/pages/BYU-Idaho-Student-Records-and-Registration/276472292461946?fref=ts"> facebook</a></li>
+<li><img alt="Live Chat Link" height="16" src="Images/Admin_Offices/Student Record and Registration/HomePage/livechat.png" width="18" /><a href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=SRR&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large" onclick="window.open('https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=SRR&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large&amp;referrer='+escape(document.location),'chat1132447','width=472,height=320');return false;" target="chat1132447"> Live Chat</a></li>
+<li><img alt="Site Index Link" height="17" src="Images/Admin_Offices/Student Record and Registration/HomePage/index.png" width="18" /><a href="x43952.xml"> Index</a></li>
+</ul>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x44655" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

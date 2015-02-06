@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x66617" Name="I-Night Events" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">I-Night Events</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Check out all of the Events and locations for I-night.</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<p><img alt="I-night banner" height="216" src="Images/student-support/I-night/I-night_homebanner2.jpg" title="I-night banner" width="710" /></p>
+<h1>Events &amp; Locations</h1>
+<p>Events will go from <strong>7:00p.m. to 11p.m.</strong> (except for a few, check the times by the event)<br />All activities for I-night will take place in the Manwaring Center, the MC plaza, the Amphitheater, and the BYU-Idaho Center.</p>
+<!-- To change this template, choose Tools | Templates and open the template in the editor. -->
+<title></title>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+<style type="text/css"><!--
+h1,h2,h3,tr,td{
+                margin:0;
+                padding:0;
+            }
+            a{
+                text-decoration:none;
+            }
+            #table{
+                width:680px;
+                margin-left:0px;
+                margin-top:10px;
+
+            }
+            #header_background #img{
+                position:absolute;
+                left:52px;
+
+            }
+            #header_background{
+                background-image:url();
+                background-repeat:no-repeat;
+                background-position: -7px 0px;
+            }
+            #header_background #p{
+                margin-bottom:0;
+                color:#E9E1A3;
+                margin-left:90px;
+                font-size:18px;
+                vertical-align:middle;
+
+            }
+            #header2 h2{
+                margin-top:4px;
+                margin-left:8px;
+                color: #87670B;
+            }
+            #wrapper #table #header2 h3{
+                text-align:left;
+                color: #87670B;
+                font-size:1.3em;
+            }
+            tr{
+                height:40px;
+            }
+            #wrapper{
+                height:3700px;
+            }
+            #tbody tr #description{
+                display:block;
+                width:250px;
+                float:right;
+                margin-right:10px;
+                margin-bottom:10px;
+            }
+            #tbody tr h3{
+                padding:5px 0 10px 0;
+            }
+            #event_description{
+                float:right;
+
+            }
+            #wrapper #table #table_head #header2{
+                background-color: #E3DEC9;
+            }
+            #wrapper #table #table_head #header3 {
+                background-color:#EFEBD5;
+
+            }
+            #header3 span{
+                color:#83817D;
+            }
+
+            #wrapper #table .even td{
+                background-color: #E3DEC9;
+                -moz-transition:height 1.5s;
+                font-family:arial;
+            }
+            /*    #wrapper #table .even:hover td{
+                   background-color: #C9C5B2;
+                   
+                }
+                #wrapper #table .odd:hover td{
+                   background-color: #C9C5B2;
+                   
+                }*/
+            #wrapper #table #nohovereven td{
+                background-color:#E3DEC9;
+                font-famly:arial;
+
+            }
+            #wrapper #table .odd td{
+                background-color:#EFEBD5;
+                -moz-transition:height 1.5s;
+                font-family:arial;
+
+            }
+            /*    #wrapper #table .odd #content{
+                    background-image:url(Images/student-support/checklist/arrowdown_gray.png);
+                    background-repeat:no-repeat;
+                    background-position:97% 50%;
+                }
+                #wrapper #table .even #content{
+                    background-image:url(Images/student-support/checklist/arrowdown_gray.png);
+                    background-repeat:no-repeat;
+                    background-position:97% 50%;
+                }*/
+            .big{
+                
+
+            }
+            #wrapper #table #nohoverodd td{
+                background-color:#EFEBD5;
+                font-family:arial;
+
+            }
+
+            table{
+                border-collapse: collapse;
+                margin-left:50px;
+            }
+            #wrapper #col_description{
+                border-right:thin dotted;
+                width:75%;
+            }
+            #wrapper #col_location{
+                width:25%;
+            }
+            #wrapper td h3, td p{
+
+                margin-left:8px;
+                color:#83817D;
+                font-size:.9em;
+            }
+            #content h3{
+                font-size:2em;
+                float:left;
+                width:105px;
+            }
+            #content img{
+
+                margin-left:8px;
+                margin-bottom:8px;
+                margin-top:-12px;
+                display:inline-block;
+                border:1px solid #000;
+                box-shadow:1px 1px 1px #666;
+                display:none;
+            }
+            #description p{
+                display:inline-block;
+                margin:25% 0px auto -15px;
+                color:#83817D;
+                font-size:1.2em;
+                display:none;
+
+            }
+            #content img{
+                margin-top:5px;
+            }
+            #wrapper #content h3{font-size:15px;}
+            #wrapper #content p{font-size:12px;}
+            #wrapper #header2 h3{text-align:left;
+                                 color: #87670B;
+                                 font-size:1.6em;}
+            #col_description{
+                width:65%;
+            }
+            #col_location{
+                width:35%;
+            }
+            #wrapper #table td h3{
+                font-size:1.2em;
+                margin-top:10px;
+                font-family:arial;
+            }
+            #wrapper #table #content h3{
+                font-size:1.2em;
+                font-family:arial;
+                font-weight:600;
+            }
+            .odd:hover td, .even:hover td{
+                cursor:pointer;
+
+            }
+            .odd:hover #h3, .even:hover #h3{
+                color:#636158;
+                float:left;
+                
+            }
+            .odd .hiddens{
+                float:right;
+                font-weight:normal;
+               margin-right:20px;
+                margin-top:15px;
+                display:none;
+                color:#636158;
+            }
+               .even .hiddens{
+                float:right;
+                font-weight:normal;
+               margin-right:20px;
+                margin-top:15px;
+                display:none;
+                color:#636158;
+            }
+            #wrapper #table .clicked td{
+                height:200px;
+            }
+--></style>
+<div id="wrapper">
+<table border="0" id="table"><colgroup> <col id="col_description" style="width: 65%;" /> <col id="col_location" /> </colgroup>
+<tbody>
+<tr id="table_head">
+<td id="header2">
+<h2>BYU-Idaho Center Gym</h2>
+</td>
+<td id="header2">
+<h3>Time</h3>
+</td>
+</tr>
+</tbody>
+<tbody id="tbody">
+<tr class="odd">
+<td id="content">
+<h3 id="h3">Welcome Back <br />Dance</h3>
+<span class="hiddens">Read more...</span>
+<div id="description">
+<p style="margin-top: 86px;">Are you ready to get your groove on? Come show your moves on the dance floor in the biggest dance party of the semester!</p>
+</div>
+<div id="image"><img class="16" height="112px" /></div>
+</td>
+<td>
+<h3>7-11 p.m.</h3>
+</td>
+</tr>
+<tr class="even">
+<td id="content">
+<h3 id="h3">Giant Slide</h3>
+<span class="hiddens">Read more...</span>
+<div id="description">
+<p style="margin-top: 78px;">It's giant, and it's a slide.</p>
+</div>
+<div id="image"><img class="36" height="110px" /></div>
+</td>
+<td>
+<h3>7-11 p.m.</h3>
+</td>
+</tr>
+<tr class="odd">
+<td id="content">
+<h3 id="h3">Sumo Wrestling</h3>
+<span class="hiddens">Read more...</span>
+<div id="description">
+<p style="margin-top: 70px;">Is that a fat joke? Nope, just a chance to get your sumo on! Grab a sumo suit and summon the strength of your ancestors to defeat your opponent in the ring.</p>
+</div>
+<div class="image"><img class="6" height="110px" /></div>
+</td>
+<td>
+<h3>7-11 p.m.</h3>
+</td>
+</tr>
+<tr class="even">
+<td id="content">
+<h3 id="h3">Bungee Run</h3>
+<span class="hiddens">Read more...</span>
+<div id="description">
+<p style="margin-top: 70px;">Strap yourself in and run with all your might! Challenge a friend and beat the bungee in this fun, inflatable bungee run.</p>
+</div>
+<div id="image"><img class="25" width="168px" /></div>
+</td>
+<td>
+<h3>7-11 p.m.</h3>
+</td>
+</tr>
+<tr class="odd">
+<td id="content">
+<h3 id="h3">Gladiator Jousting</h3>
+<span class="hiddens">Read more...</span>
+<div id="description">
+<p style="margin-top: 75px;">Do you have what it takes to beat your opponent in "Off with your head" jousting? Grab your jousting pole, and knock off your opponent's head before they get yours.</p>
+</div>
+<div class="image"><img class="7" height="110px" /></div>
+</td>
+<td>
+<h3>7-11 p.m.</h3>
+</td>
+</tr>
+<tr class="even">
+<td id="content">
+<h3 id="h3">Volleyball</h3>
+<span class="hiddens">Read more...</span>
+<div id="description">
+<p style="margin-top: 78px;">If you don't know what volleyball is, I pity you.</p>
+</div>
+<div id="image"><img class="35" height="110px" /></div>
+</td>
+<td>
+<h3>7-11 p.m.</h3>
+</td>
+</tr>
+<tr class="odd">
+<td id="content">
+<h3 id="h3">Dodgeball</h3>
+<span class="hiddens">Read more...</span>
+<div id="description">
+<p>Do you have the reflexes of a jungle cat? Grab a ball, and throw! Just remember the 5 D&rsquo;s of dodgeball: dodge, duck, dip, dive, and&hellip;dodge!</p>
+</div>
+<div id="image"><img class="32" height="110px" /></div>
+</td>
+<td>
+<h3>7-11 p.m.</h3>
+</td>
+</tr>
+</tbody>
+</table>
+<!--          Manwaring Center         -->
+<table border="0" id="table"><colgroup> <col id="col_description" style="width: 65%;" /> <col id="col_location" /> </colgroup>
+<tbody>
+<tr id="table_head">
+<td id="header2">
+<h2>Manwaring Center</h2>
+</td>
+<td id="header2">
+<h3>Place/time</h3>
+</td>
+</tr>
+</tbody>
+<tbody id="tbody">
+<tr class="odd">
+<td id="content">
+<h3 id="h3">Bowling</h3>
+<span class="hiddens">Read more...</span>
+<div id="description">
+<p></p>
+</div>
+<div id="image"><img class="0" height="110px" /></div>
+</td>
+<td id="time">
+<h3>1st floor<br />7-11 p.m.</h3>
+</td>
+</tr>
+<tr class="even">
+<td id="content">
+<h3 id="h3">Musical Chairs</h3>
+<span class="hiddens">Read more...</span>
+<div id="description">
+<p>&nbsp;</p>
+</div>
+<div id="image"><img class="1" height="110px" /></div>
+</td>
+<td id="time">
+<h3>1st floor<br />7-11 p.m.</h3>
+</td>
+</tr>
+<tr class="odd">
+<td id="content">
+<h3 id="h3">Joust Your Head Off</h3>
+<span class="hiddens">Read more...</span>
+<div id="description">
+<p>&nbsp;</p>
+</div>
+<div id="image"><img class="2" height="110px" /></div>
+</td>
+<td id="time">
+<h3>2nd floor<br />7-11 p.m.</h3>
+</td>
+</tr>
+<tr class="even">
+<td id="content">
+<h3 id="h3">Karaoke</h3>
+<span class="hiddens">Read more...</span>
+<div id="description">
+<p style="margin-top: 78px;">Sing along to some cool songs!</p>
+</div>
+<div class="image"><img class="3" height="110px" /></div>
+</td>
+<td>
+<h3>2nd floor<br />7-11 p.m.</h3>
+</td>
+</tr>
+<tr class="odd">
+<td id="content">
+<h3 id="h3">Dating Game</h3>
+<span class="hiddens">Read more...</span>
+<div id="description">
+<p style="margin-top: 78px;">Get the opportunity to pick your match!</p>
+</div>
+<div class="image"><img class="4" height="110px" /></div>
+</td>
+<td>
+<h3>2nd floor<br />(Shows every 30 minutes)</h3>
+</td>
+</tr>
+<tr class="even">
+<td id="content">
+<h3 id="h3">In-It-To-Win-It</h3>
+<span class="hiddens">Read more...</span>
+<div id="description">
+<p style="margin-top: 80px;">Play some games, you only have a minute to win!</p>
+</div>
+<div id="image"><img class="5" height="110px" /></div>
+</td>
+<td>
+<h3>2nd floor<br />7-11 p.m.</h3>
+</td>
+</tr>
+<tr class="odd">
+<td id="content">
+<h3 id="h3">Arm Wrestling</h3>
+<span class="hiddens">Read more...</span>
+<div id="description">
+<p></p>
+</div>
+<div id="image"><img class="42" height="110px" /></div>
+</td>
+<td>
+<h3>2nd floor<br />7-11 p.m.</h3>
+</td>
+</tr>
+<tr class="even">
+<td id="content">
+<h3 id="h3">Sumo Wrestling</h3>
+<span class="hiddens">Read more...</span>
+<div id="description">
+<p style="margin-top: 70px;">Is that a fat joke? Nope, just a chance to get your sumo on! Grab a sumo suit and summon the strength of your ancestors to defeat your opponent in the ring.</p>
+</div>
+<div id="image"><img class="6" height="110px" /></div>
+</td>
+<td>
+<h3>2nd floor<br />7-11 p.m</h3>
+</td>
+</tr>
+<tr class="odd">
+<td id="content">
+<h3 id="h3">Jousting</h3>
+<span class="hiddens">Read more...</span>
+<div id="description">
+<p style="margin-top: 65px;">Do you have what it takes to beat your opponent in "Off with your head" jousting? Grab your jousting pole, and knock off your opponent's head before they get yours.</p>
+</div>
+<div class="image"><img class="7" height="110px" /></div>
+</td>
+<td>
+<h3>2nd floor<br />7-11 p.m.</h3>
+</td>
+</tr>
+<tr class="even">
+<td id="content">
+<h3 id="h3">Bean Bag Toss</h3>
+<span class="hiddens">Read more...</span>
+<div id="description">
+<p style="margin-top: 65px;"></p>
+</div>
+<div class="image"><img class="38" height="110px" /></div>
+</td>
+<td>
+<h3>2nd floor<br />7-11 p.m.</h3>
+</td>
+</tr>
+<tr class="odd">
+<td id="content">
+<h3 id="h3">Balloon Animals</h3>
+<span class="hiddens">Read more...</span>
+<div id="description">
+<p style="margin-top: 65px;"></p>
+</div>
+<div class="image"><img class="43" height="110px" /></div>
+</td>
+<td>
+<h3>2nd floor<br />7-11 p.m.</h3>
+</td>
+</tr>
+<tr class="even">
+<td id="content">
+<h3 id="h3">Bottle Stand</h3>
+<span class="hiddens">Read more...</span>
+<div id="description">
+<p style="margin-top: 20px;">&nbsp;</p>
+</div>
+<div class="image"><img class="37" height="110px" /></div>
+</td>
+<td>
+<h3>2nd floor<br />7-11 p.m.</h3>
+</td>
+</tr>
+<tr class="odd">
+<td id="content">
+<h3 id="h3">Dart Board</h3>
+<span class="hiddens">Read more...</span>
+<div id="description">
+<p style="margin-top: 20px;">&nbsp;</p>
+</div>
+<div class="image"><img class="41" height="110px" /></div>
+</td>
+<td>
+<h3>2nd floor<br />7-11 p.m.</h3>
+</td>
+</tr>
+<tr class="even">
+<td id="content">
+<h3 id="h3">Photo Booth</h3>
+<span class="hiddens">Read more...</span>
+<div id="description">
+<p style="margin-top: 20px;">&nbsp;</p>
+</div>
+<div class="image"><img class="40" height="110px" /></div>
+</td>
+<td>
+<h3>2nd floor<br />7-11 p.m.</h3>
+</td>
+</tr>
+<tr class="odd">
+<td id="content">
+<h3 id="h3">Kissing Booth</h3>
+<span class="hiddens">Read more...</span>
+<div id="description">
+<p style="margin-top: 20px;">&nbsp;</p>
+</div>
+<div class="image"><img class="39" height="110px" /></div>
+</td>
+<td>
+<h3>2nd floor<br />7-11 p.m.</h3>
+</td>
+</tr>
+<tr class="even">
+<td id="content">
+<h3 id="h3">Board Games</h3>
+<span class="hiddens">Read more...</span>
+<div id="description">
+<p style="margin-top: 20px;">&nbsp;</p>
+</div>
+<div class="image"><img class="9" height="110px" /></div>
+</td>
+<td>
+<h3>2nd floor<br />7-11 p.m.</h3>
+</td>
+</tr>
+<tr class="odd">
+<td id="content">
+<h3 id="h3">Giant Jenga</h3>
+<span class="hiddens">Read more...</span>
+<div id="description">
+<p style="margin-top: 83px;">This isn't your mom's Jenga.</p>
+</div>
+<div id="image"><img class="10" height="112px" /></div>
+</td>
+<td>
+<h3>2nd floor<br />7-11 p.m.</h3>
+</td>
+</tr>
+<tr class="even">
+<td id="content">
+<h3 id="h3">Laser Tag</h3>
+<span class="hiddens">Read more...</span>
+<div id="description">
+<p style="margin-top: 83px;">Get up off the couch and play some laser tag.</p>
+</div>
+<div id="image"><img class="11" height="112px" /></div>
+</td>
+<td>
+<h3>2nd floor<br />7-11 p.m.</h3>
+</td>
+</tr>
+<tr class="odd">
+<td id="content">
+<h3 id="h3">ROTC Obstacle Course</h3>
+<span class="hiddens" style="margin-top: 25px;">Read more...</span>
+<div id="description">
+<p style="margin-top: 97px;">Try and make your way through the obstacle course!</p>
+</div>
+<div id="image"><img class="18" height="112px" /></div>
+</td>
+<td>
+<h3>2nd floor<br />7-11 p.m.</h3>
+</td>
+</tr>
+<tr class="even">
+<td id="content">
+<h3 id="h3">Giant Inflatable Twister</h3>
+<span class="hiddens" style="margin-top: 25px;">Read more...</span>
+<div id="description">
+<p style="margin-top: 93px;">Get tangled up on a giant inflatable twister board.</p>
+</div>
+<div id="image"><img class="29" width="167px" /></div>
+</td>
+<td>
+<h3>2nd floor<br />7-11 p.m.</h3>
+</td>
+</tr>
+<tr class="odd">
+<td id="content">
+<h3 id="h3">Carnival Games</h3>
+<span class="hiddens">Read more...</span>
+<div id="description">
+<p style="margin-top: 86px;">Play carnival games, win prizes!</p>
+</div>
+<div id="image"><img class="12" height="110px" /></div>
+</td>
+<td>
+<h3>2nd floor<br />7-11 p.m.</h3>
+</td>
+</tr>
+<tr class="even">
+<td id="content">
+<h3 id="h3">Speed Dating</h3>
+<span class="hiddens">Read more...</span>
+<div id="description">
+<p style="margin-top: 70px;">Have you ever been on 10 dates in one night? Well give it a go, and who knows, you might just find the one?</p>
+</div>
+<div id="image"><img class="14" height="110px" /></div>
+</td>
+<td>
+<h3>2nd floor<br />7-11 p.m.</h3>
+</td>
+</tr>
+<tr class="odd">
+<td id="content">
+<h3 id="h3">Comic Frenzy</h3>
+<span class="hiddens">Read more...</span>
+<div id="description">
+<p style="margin-top: 53px;">Comic Frenzy is an improvisational comedy group that will keep you laughing all night long. These students practice their improv skills to keep you entertained. If you want a good laugh, come participate!</p>
+</div>
+<div id="image"><img class="13" height="110px" /></div>
+</td>
+<td>
+<h3>3rd floor<br />8:30p.m - 10:30p.m.</h3>
+</td>
+</tr>
+<tr class="even">
+<td id="content">
+<h3 id="h3">Guitar Hero</h3>
+<span class="hiddens">Read more...</span>
+<div id="description">
+<p style="margin-top: 72px;">Guitar players are automatically more attractive.</p>
+</div>
+<div id="image"><img class="15" height="110px" /></div>
+</td>
+<td>
+<h3>3rd floor<br />7-11 p.m.</h3>
+</td>
+</tr>
+<tr class="odd">
+<td id="content">
+<h3 id="h3">Dance, Dance Revolution</h3>
+<span class="hiddens">Read more...</span>
+<div id="description">
+<p style="margin-top: 90px;">Dance your fanny off!</p>
+</div>
+<div id="image"><img class="31" height="113px" /></div>
+</td>
+<td>
+<h3>3rd floor<br />7-11 p.m.</h3>
+</td>
+</tr>
+</tbody>
+</table>
+<!--                           MC PLAZA                                   
+<table border="0" id="table"><colgroup> <col id="col_description" style="width: 65%;" /> <col id="col_location" /> </colgroup>
+<tbody>
+<tr id="table_head">
+<td id="header2">
+<h2>MC Plaza</h2>
+</td>
+<td id="header2">
+<h3>Time</h3>
+</td>
+</tr>
+</tbody>
+<tbody id="tbody">
+<tr class="odd">
+<td id="content">
+<h3 id="h3">Dunk Tank</h3>
+<span class="hiddens">Read more...</span>
+<div id="description">
+<p>Try and dunk some poor sap, it's fun!</p>
+</div>
+<div id="image"><img class="17" height="110px" /></div>
+</td>
+<td>
+<h3>7-11 p.m.</h3>
+</td>
+</tr>
+<tr class="odd">
+<td id="content">
+<h3 id="h3">Giant Slide</h3>
+<span class="hiddens">Read more...</span>
+<div id="description">
+<p> </p>
+</div>
+<div id="image"><img class="19" height="110px" /></div>
+</td>
+<td>
+<h3>7-11 p.m.</h3>
+</td>
+</tr>
+<tr class="even">
+<td id="content">
+<h3 id="h3">Orbiter</h3>
+<span class="hiddens">Read more...</span>
+<div id="description">
+<p> </p>
+</div>
+<div id="image"><img class="20" height="110px" /></div>
+</td>
+<td>
+<h3>7-11 p.m.</h3>
+</td>
+</tr>
+<tr class="odd">
+<td id="content">
+<h3 id="h3">Bell Ringer</h3>
+<span class="hiddens">Read more...</span>
+<div id="description">
+<p>Are you a he-man or a little weak wimpy guy?</p>
+</div>
+<div id="image"><img class="21" height="110px" /></div>
+</td>
+<td>
+<h3>7-11 p.m.</h3>
+</td>
+</tr>
+<tr class="even">
+<td id="content">
+<h3 id="h3">Dangle Hopper</h3>
+<span class="hiddens">Read more...</span>
+<div id="description">
+<p>Get flung in the air! Sounds fun!</p>
+</div>
+<div id="image"><img class="22" height="110px" /></div>
+</td>
+<td>
+<h3>7-11 p.m.</h3>
+</td>
+</tr>
+<tr class="odd">
+<td id="content">
+<h3 id="h3">Mechanical Bull</h3>
+<span class="hiddens">Read more...</span>
+<div id="description">
+<p>You know the drill.</p>
+</div>
+<div id="image"><img class="23" height="110px" /></div>
+</td>
+<td>
+<h3>7-11 p.m.</h3>
+</td>
+</tr>
+<tr class="even">
+<td id="content">
+<h3 id="h3">Climbing Wall</h3>
+<span class="hiddens">Read more...</span>
+<div id="description">
+<p>You don’t need the finger strength of a rock-climbing jazz-pianist to scale this wall, just the determination to make it to the top!</p>
+</div>
+<div id="image"><img class="24" height="110px" /></div>
+</td>
+<td>
+<h3>7-11 p.m.</h3>
+</td>
+</tr>
+<tr class="even">
+<td id="content">
+<h3 id="h3">Human Bowling</h3>
+<span class="hiddens">Read more...</span>
+<div id="description">
+<p>Strap into the cage ball and be rolled down the lane into cushioned pins. Prepare to get dizzy!</p>
+</div>
+<div id="image"><img class="26" /></div>
+</td>
+<td>
+<h3>7-11 p.m.</h3>
+</td>
+</tr>---> <!--                            -AMPHITHEATER                                
+<table border="0" id="table"><colgroup> <col id="col_description" style="width: 65%;" /> <col id="col_location" /> </colgroup>
+<tbody></tbody>
+<tbody id="tbody">
+<tr id="table_head">
+<td id="header2">
+<h2>Amphitheater</h2>
+</td>
+<td id="header2">
+<h3>Time</h3>
+</td>
+</tr>
+<tr class="odd">
+<td id="content">
+<h3 id="h3">Sumo Wrestling</h3>
+<span class="hiddens">Read more...</span>
+<div id="description" style="margin-top: -17px;">
+<p>Is that a fat joke? Nope, just a chance to get your sumo on! Grab a sumo suit and summon the strength of your ancestors to defeat your opponent in the ring.</p>
+</div>
+<div id="image"><img class="27" width="110px" /></div>
+</td>
+<td>
+<h3>7-11 p.m</h3>
+</td>
+</tr>
+<tr class="even">
+<td id="content">
+<h3 id="h3">Gladiator Joust</h3>
+<span class="hiddens">Read more...</span>
+<div id="description" style="margin-top: -20px;">
+<p>Do you have what it takes to beat your opponent in "Off with your head" jousting? Grab your jousting pole, and knock off your opponent's head before they get yours.</p>
+</div>
+<div id="image"><img class="28" width="110px" /></div>
+</td>
+<td>
+<h3>7-11 p.m.</h3>
+</td>
+</tr>
+<tr class="even">
+<td id="content">
+<h3 id="h3">Live Music</h3>
+<span class="hiddens">Read more...</span>
+<div id="description">
+<p>Are you ready to get your groove on?</p>
+</div>
+<div id="image"><img class="30" height="110px" /></div>
+</td>
+<td>
+<h3>7-11 p.m.</h3>
+</td>
+</tr>
+</tbody>
+</table>--> <!--                              -BYUI CENTER                                 --> <!--   <tr class="odd">
+        <td id="content">
+        <h3 id="h3">Ping Pong</h3>
+        <span class="hiddens">Read more...</span>
+        <div id="description">
+        <p>Table tennis, ping pong, whatever you want to call it, it's stinkin' fun.</p>
+        </div>
+        <div id="image"><img class="33" height="110px" /></div>
+        </td>
+        <td>
+        <h3>7-11 p.m.</h3>
+        </td>
+        </tr> --> <!-- <tr class="even">
+        <td id="content">
+        <h3 id="h3">Human Foosball</h3>
+        <span class="hiddens">Read more...</span>
+        <div id="description">
+        <p>Just like the tabletop game, but in real life! You and your team hold on to poles and have to work together to defend your goal, and to score in the other team's goal.</p>
+        </div>
+        <div id="image"><img class="34" height="110px" /></div>
+        </td>
+        <td>
+        <h3>7-11 p.m.</h3>
+        </td>
+        </tr> --> <!--                         -Roaming Games                                   
+<table border="0" id="table"><colgroup> <col id="col_description" style="width: 65%;" /> <col id="col_location" /> </colgroup>
+<tbody id="tbody">
+<tr id="table_head">
+<td id="header2">
+<h2>Roaming Games</h2>
+</td>
+<td id="header2">
+<h3>Time</h3>
+</td>
+</tr>
+<tr class="odd">
+<td id="content">
+<h3>Human Clue</h3>
+<div id="description">
+<p> </p>
+</div>
+</td>
+<td>
+<h3>7-11 p.m.</h3>
+</td>
+</tr>
+<tr class="even">
+<td id="content">
+<h3>Spot the Potato</h3>
+<div id="description">
+<p> </p>
+</div>
+</td>
+<td>
+<h3>7-11 p.m.</h3>
+</td>
+</tr>
+</tbody>
+</table>-->
+<table border="0" id="table"><colgroup> <col id="col_description" style="width: 65%;" /> <col id="col_location" /> </colgroup>
+<tbody id="tbody">
+<tr id="nohoverodd">
+<td colspan="2" id="header2" style="text-align: left;">
+<h2>Food Discounts</h2>
+</td>
+</tr>
+<tr id="nohovereven">
+<td><span style="margin-left: 6px; color: #83817d; font-size: 1.2em;"><strong>The Crossroads (MC 2nd floor)</strong></span></td>
+<td id="header3"><span style="font-size: 1.2em;"><strong>Open until 9 p.m.</strong></span></td>
+</tr>
+<tr id="nohoverodd">
+<td>
+<p style="font-family: arial; margin-left: 8px; font-weight: bold; font-size: .9em;">Churro - $1.00</p>
+</td>
+<td></td>
+</tr>
+<tr id="nohovereven">
+<td>
+<p style="font-family: arial; margin-left: 8px; font-weight: bold; font-size: .9em;">Pepperoni pizza slice - $1.00</p>
+</td>
+<td></td>
+</tr>
+<tr id="nohoverodd">
+<td>
+<p style="font-family: arial; margin-left: 8px; font-weight: bold; font-size: .9em;">Corndog - $1.00</p>
+</td>
+<td></td>
+</tr>
+<tr id="nohovereven">
+<td>
+<p style="font-family: arial; margin-left: 8px; font-weight: bold; font-size: .9em;">Egg Rolls(2)- $1.00</p>
+</td>
+<td></td>
+</tr>
+<tr id="nohoverodd">
+<td>
+<p style="font-family: arial; margin-left: 8px; font-weight: bold; font-size: .9em;">Ice Cream cone - $1.00</p>
+</td>
+<td></td>
+</tr>
+<tr id="nohovereven">
+<td>
+<p style="font-family: arial; margin-left: 8px; font-weight: bold; font-size: .9em;">Pepperoni pizza slice - $1.00</p>
+</td>
+<td></td>
+</tr>
+<tr id="nohoverodd">
+<td>
+<p style="font-family: arial; margin-left: 8px; font-weight: bold; font-size: .9em;">20 oz. Fountain drink - $1.00</p>
+</td>
+<td></td>
+</tr>
+<tr id="nohovereven">
+<td><span style="margin-left: 6px; font-size: 1.2em; color: #83817d;"><strong>Freshens</strong></span></td>
+<td id="header3"><span style="font-size: 1.2em;"><strong>7:00p.m. - 11:00p.m.</strong></span></td>
+</tr>
+<tr id="nohoverodd">
+<td>
+<p style="font-family: arial; margin-left: 8px; font-weight: bold; font-size: .9em;">Small frozen yogurt cone $1.00</p>
+</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<script type="text/javascript">
+window.onload=function(){
+                $(document).ready(function(){
+                    var images = ['Images/student-support/I-night/bowling1.jpg',  /* 0 */
+                        'Images/student-support/I-Night/musical-chairs1.jpg', /* 1 */
+                        'Images/student-support/I-Night/joust_head_off.jpg', /* 2*/
+                        'Images/student-support/I-night/Karaoke1.jpg', /* 3 */
+                        'Images/student-support/I-night/DatingGame1.jpg', /* 4 */
+                        'Images/student-support/I-night/friends.jpg', /* 5 */
+                        'Images/student-support/I-night/SumoWrestling1.jpg', /* 6 */
+                        'Images/student-support/I-night/GladiatorJousting.jpg', /* 7 */
+                        'Images/student-support/I-Night Website Photos/friends.jpg', /* 8 */
+                        'Images/student-support/I-Night Website Photos/inight voluteer.jpg', /* 9 */
+                        'Images/student-support/I-night/jenga(0).jpg', /* 10 */
+                        'Images/student-support/I-night/lasertag3.jpg', /* 11 */
+                        'Images/student-support/I-night/friends2.jpg', /* 12 */
+                        'Images/student-support/I-night/ComicFrenzy.jpg', /* 13 */
+                        'Images/student-support/I-night/SpeedDate1.jpg', /* 14 */
+                        'Images/student-support/I-night/Guitarhero1.jpg',/* 15 */
+                        'Images/student-support/I-night/welcome_back_dance.jpg',/* 16 */
+                        'Images/student-support/I-night/DunkTank.jpg',/* 17 */
+                        'Images/student-support/I-night/obstacle.jpg',/* 18 */
+                        'Images/student-support/I-Night Website Photos/sliding.jpg',/* 19 */
+                        'Images/student-support/I-Night Website Photos/space.jpg',/* 20 */
+                        'Images/student-support/I-night/BellRinger.jpg',/* 21 */
+                        'Images/student-support/I-night/DangleHopper.jpg',/* 22 */
+                        'Images/student-support/I-night/MechanicalBull.JPG',/* 23 */
+                        'Images/student-support/I-night/climb.jpg',/* 24 */
+                        'Images/student-support/I-night/bungeeRun(0).jpg',/* 25 */
+                        'Images/student-support/I-night/HumanBowling.jpg" width="110px',/* 26 */
+                        'Images/student-support/I-night/SumoWrestling.JPG',/* 27 */
+                        'Images/student-support/I-night/GladiatorJousting.jpg',/* 28 */
+                        'Images/student-support/I-Night/twister.jpg',/* 29 */
+                        'Images/student-support/I-night/LiveMusic.JPG',/* 30 */
+                        'Images/student-support/I-night/DanceDance1.JPG',/* 31 */
+                        'Images/student-support/I-night/dodgeball(0).jpg',/* 32 */
+                        'Images/student-support/I-night/PingPong.JPG',/* 33 */
+                        'Images/student-support/I-night/HumanFoosball.jpg',/* 34 */
+                        'Images/student-support/I-night/volleyball(0).jpg',/* 35 */
+                        'Images/student-support/I-night/GiantSlide.jpg',/* 36 */
+                        'Images/student-support/I-night/bottle_stand.jpg', /* 37 */
+                        'Images/student-support/I-night/beanbag.jpg', /* 38 */
+                        'Images/student-support/I-night/kissing3(0).jpg', /* 39 */
+                        'Images/student-support/I-night/photobooth.jpg', /* 40 */
+                        'Images/student-support/I-night/dartboard(0).jpg', /* 41 */
+                        'Images/student-support/I-night/armwrestling(0).jpg', /* 42 */
+                        'Images/student-support/I-night/balloonanimals.jpg' /* 43 */
+                    ];
+                
+                    $('#wrapper #table .odd').click(function(){
+                        var num = $(this).find('img').attr('class');
+                        $(this).find('img').attr('src',images[num]).toggle();
+                        $(this).find('#description p').toggle();
+                        
+                        
+                    });
+                    $('#wrapper #table .even').click(function(){
+                        var num = $(this).find('img').attr('class');
+                        $(this).find('img').attr('src',images[num]).toggle();
+                        $(this).find('#description p').toggle();
+                        
+                      
+                    });
+                      $('#wrapper #table .odd').toggle(function(){
+                       $(this).addClass("clicked");
+                       $(this).find('#content .hiddens').css("display", "none");
+                       
+                    },function(){
+                        $(this).removeClass("clicked");
+        //                alert($(this).attr('class'));
+                    });
+                    $('#wrapper #table .even').toggle(function(){
+                          $(this).addClass("clicked"); 
+                        $(this).find('#content .hiddens').css("display", "none");
+                          
+                    },function(){
+                        $(this).removeClass("clicked");
+        //                alert($(this).attr('class'));
+                    });
+                
+        //        $('#wrapper #table .odd #content .hiddens').css("display", "hidden");
+                 
+                 $('#wrapper #table .odd').hover(function(){
+                     if($(this).hasClass("clicked")){
+                         
+                     }else{
+                     $(this).find('#content .hiddens').css("display", "block");
+                     
+                     }
+                 },function(){
+                     $(this).find('#content .hiddens').css("display", "none")
+                 });
+                 
+                 $('#wrapper #table .even').hover(function(){
+                     if($(this).hasClass("clicked")){
+                         
+                     }else{
+                     $(this).find('#content .hiddens').css("display", "block");
+                    
+                     }
+                 },function(){
+                     $(this).find('#content .hiddens').css("display", "none")
+                 });
+                 
+        //         if(('#wrapper #table .odd').hasClass('clicked')){
+        //          $('#wrapper #table .even').hover(function(){
+        //             $(this).find('#content .hiddens').css("display", "block")
+        //         },function(){
+        //             $(this).find('#content .hiddens').css("display", "none")
+        //         });
+        //         }
+                
+        });//end document ready
+            }//end window load
+</script>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x19075" CompTypes="SiteControl"/></Content>

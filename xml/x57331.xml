@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<Content ID="x57331" Name="English Transitional Center" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">English Transitional Center</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">English Transitional Center</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<!-- insert inline CSS styles here -->
+<style type="text/css"><!--
+IMG.top_img {
+			width: 440px; height: 190px; float: left; margin: 0px; padding-right: 10px;
+	}
+	   
+	DIV.location {
+			text-align: center; height: 190px; float: right; width: 240px;
+	}
+	
+	DIV.middle_content {
+			
+	}
+	   
+	DIV.bottom_content {
+			text-align:center; padding-left:50px; padding-right:50px;
+	}
+	   
+	DIV.left_content ul.pagination li {
+			float:left; visibility:hidden;
+	}
+	   
+	DIV.location h1 {
+			color:black;
+	}
+
+	DIV.bottom_content p {
+			color:#326ba9; font-style:italic;
+	}
+	   
+	DIV.bottom_content SPAN {
+			FONT-WEIGHT: bold;
+	}
+--></style>
+<!--contents-->
+<div><img class="top_img" src="http://www2.byui.edu/imageLibrary/homePage/LAL-Writing_1.jpg" />
+<div class="location">
+<p>&nbsp;&nbsp;</p>
+<h1>Location</h1>
+<hr />
+<p>David O. McKay Library Room 290 <br />2nd Floor, East Wing <br />(near the Reading Center)</p>
+</div>
+<div class="middle_content">
+<h2>What is the English Transitional Center?</h2>
+<p>The English Transitional Center (ETC) is designed to help students who have English as a Second Language (ESL) adjust to their role as matriculated college students. The ETC program helps students improve and practice their listening, speaking, reading, and writing skills. Through English 101 modules, students may receive individual (peer tutor) help with pronunciation, grammar, writing, vocabulary, reading comprehension, and conversation skills. English 101 may be taken for credit or non credit. English 108 (Orientation and Verbal Communication) and English 109 (Writing) are classroom setting courses offered through the Academic Support Centers for ESL students who have been accepted to BYU-Idaho. Students receive college credit toward graduation for each of these courses.</p>
+<h2>The Goal of ETC</h2>
+<p>The ETC helps students continue to improve and practice their language skills while they are concurrently enrolled in other college courses.</p>
+The English Transitional Center's mission is to do the following:
+<ul>
+<li>Maintain an open, friendly, and non-threatening learning environment where students can practice and improve their language skills.</li>
+<li>Increase confidence and proficiency in oral and written communication through tutoring, modules, and classes.</li>
+<li>Support and help students as they adjust academically and culturally to American College life.</li>
+</ul>
+</div>
+<br /><br /><br />
+<div class="bottom_content">
+<p>Mission Statement:&nbsp;</p>
+<p>The English Transitional Center (ETC) is designed to help non-native speakers of English adjust to their role as <span>matriculated college students at BYU-Idaho.<span></span></span></p>
+</div>
+</div>
+<!--contents end-->]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x25860" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

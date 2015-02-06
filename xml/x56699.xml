@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x56699" Name="Application" Layout="general_content.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Application</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Application</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<h3><span style="font-family: minion-pro-1, minion-pro-2, georgia, serif; font-size: 14px; display: inline;"><a href="Documents/education-human-dev/Field_Services_Office/B1%20Initial%20APP%20-%20ELECT.pdf">PRINT APPLICATION (B1 link)</a></span></h3>
+<p>Item #1 &ldquo;Indicate Type of Application&rdquo; by checking the third box &ldquo;Initial&rdquo;</p>
+<p>Item #2 &ldquo;Personal Information&rdquo; Write the address where you want your teaching certificate sent.</p>
+<p>Item #3 &ldquo;Certificates&rdquo; List type of certificate</p>
+<ol>
+<li>Standard Elementary, OR</li>
+<li>Early Childhood/Early Childhood Special Education, OR</li>
+<li>Standard Secondary</li>
+</ol>
+<p>Item #4 &ldquo;Endorsements&rdquo;</p>
+<ol>
+<li><strong>El Ed</strong> students list <em>Elementary Ed K-8</em> in box #1, </li>
+<li><strong>Sec Ed</strong> students list Major in box #1 and Minor in box #2, </li>
+<li><strong>ECSE</strong> students list <em>Birth through 3<sup>rd</sup></em> in box #1</li>
+</ol>
+<p>Item #5 &ldquo;Educational Institutions&rdquo;: Follow instructions on application.</p>
+<p>..................................................... Must provide transcript for all colleges listed in the section.</p>
+<p>Items #6 &ldquo;Teaching Experience&rdquo; <strong>Leave this section blank</strong></p>
+<p>Item #7 &ldquo;Praxis II Tests&rdquo; <strong>Leave this section blank</strong></p>
+<p>. This information will be provided by BYU - Idaho on your Institutional Recommendation form.</p>
+<p>Item #8 &ldquo;Prior Certification Irregularities or Legal Convictions&rdquo;</p>
+<p>............................................. - Answer all questions and be sure to sign and date at the bottom.</p>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x19230" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

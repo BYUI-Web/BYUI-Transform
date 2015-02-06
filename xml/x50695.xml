@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x50695" Name="writing center main code" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;style type="text/css"&gt; 
+DIV.view {
+		 display:none; 
+}
+&lt;/style&gt;
+&lt;div style="width: 710px;"&gt;&lt;link href="//courses.byui.edu/AcademicSupport/writing-center/css/main.css" rel="stylesheet" type="text/css"&gt;
+&lt;img alt="At the BYU-Idaho Writing Center, we are dedicated to providing a comfortable environment where students can receive helpful feedback on any phase of the writing process." src="http://courses.byui.edu/AcademicSupport/writing-center/img/main-picture.jpg"&gt;
+&lt;script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"&gt;&lt;/script&gt; 
+&lt;script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.4/jquery-ui.min.js"&gt;&lt;/script&gt; 
+&lt;script type="text/javascript"&gt; 
+window.onload = function() { 
+$(".slide").click(function(){ 
+    $(".view").slideToggle("slow"); 
+  }); 
+}; 
+&lt;/script&gt; 
+&lt;p class="slide" style="cursor: pointer; width: 230px; margin-top: -25px; margin-left: 470px; color: white; font-style: italic; font-weight: bold;"&gt;Watch Our Promotion Video&lt;/p&gt;
+&lt;div class="view"&gt;
+&lt;hr /&gt;
+&lt;div style="padding-left: 32px;"&gt;
+&lt;script src="http://courses.byui.edu/AcademicSupport/js/jwplayer.js" type="text/javascript"&gt;&lt;/script&gt;
+&lt;div id="mediaplayer_wrapper" style="position: relative; width: 650px; height: 488px;"&gt;&lt;object type="application/x-shockwave-flash" data="http://courses.byui.edu/AcademicSupport/js/player.swf" width="100%" height="100%" bgcolor="#000000" id="mediaplayer" name="mediaplayer" tabindex="0"&gt;&lt;param name="allowfullscreen" value="true"&gt;&lt;param name="allowscriptaccess" value="always"&gt;&lt;param name="seamlesstabbing" value="true"&gt;&lt;param name="wmode" value="opaque"&gt;&lt;param name="flashvars" value="netstreambasepath=http%3A%2F%2Fingeniux.byui.edu%2Fadmin%2Fdsspreview%2Figxdynamicpreview%3FpageId%3Dx47090%26showControls%3Dfalse%26debug%3Dfalse%26ice%3Dfalse%26Site%3DNone%26UserAgent%3DMSIE%26PubTgt%3D1%26QS%3D%26Form%3D%26Cookies%3D%26XForm%3D1%26Include%3Dfalse&amp;amp;id=mediaplayer&amp;amp;file=https%3A%2F%2Fbyui.box.com%2Fshared%2Fstatic%2Fs1zpmeu71w5efpu3n1mo.mp4&amp;amp;autostart=true&amp;amp;controlbar.position=over"&gt;&lt;/object&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+  jwplayer('mediaplayer').setup({
+    'flashplayer': '//courses.byui.edu/AcademicSupport/js/player.swf',
+    'id': 'playerID',
+    'width': '650',
+    'height': '488',
+    'file': 'https://byui.box.com/shared/static/s1zpmeu71w5efpu3n1mo.mp4',
+    'autostart':false
+  });
+&lt;/script&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div class="writing-links" style="text-align: center;"&gt;&lt;a class="writing-link" href="x35533.xml"&gt;MAKE AN&lt;br&gt;APPOINTMENT&lt;/a&gt; &lt;a class="writing-link" href="x46426.xml"&gt;THE DROP-IN&lt;br&gt;CENTER&lt;/a&gt; &lt;a class="writing-link" href="x35534.xml"&gt;HELP FOR&lt;br&gt;ONLINE STUDENTS&lt;/a&gt; &lt;a class="writing-link" href="x35535.xml"&gt;VIDEOS AND&lt;br&gt;HANDOUTS&lt;/a&gt; &lt;a class="writing-link" href="x46428.xml"&gt;FREQUENT&lt;br&gt;QUESTIONS&lt;/a&gt;&lt;/div&gt;
+&lt;br&gt;&lt;br&gt; 
+&lt;hr&gt;
+&lt;div style="margin-left: 20px; font-family: arial, sans-serif;"&gt;
+&lt;h3&gt;Contact us&lt;/h3&gt;
+&lt;strong&gt;The Writing Center&lt;/strong&gt;&lt;br&gt; Location: 2nd Floor of the McKay Library, East Wing&lt;br&gt;Hours: 9:00am-5:30pm Monday-Friday (Closed for Devotionals)&lt;br&gt;Phone: 208.496.4288&lt;br&gt;Email: byuionlinewriting@gmail.com&lt;/div&gt;&lt;/div&gt;
+&lt;div style="float: right"&gt;&lt;p style="color: gray; text-decoration:none;"&gt;&lt;a href="x50401.xml"&gt;T&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</ContentSnippet></ContentSnippet>

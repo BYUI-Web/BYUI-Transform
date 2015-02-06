@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.82 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x62774" Name="Feedback and Contact" Layout="general_content.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Leave feedback or contact us!</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Leave feedback or contact us!</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<div style="background: url(../../images/food-services/);">
+<div style="width: 325px; float: left; height: 100px;">Brigham Young University-Idaho<br /> 525 South Center St.<br />276A Manwaring Center<br /> Rexburg, ID 83460-0725 <br /> <br /></div>
+<div style="width: 325px; float: left; height: 100px;">Food Services Phone: (208) 496-2800<br /> Catering Phone: (208) 496-2840<br /> Fax: (208) 496-2803<br /> E-mail: foodservices@byui.edu</div>
+</div>
+<br />
+<div style="text-align: center; width: 650px;">Office Hours<br /> 8am - 4pm MTWTF</div>
+<br />
+<div style="border-top: 1px double black; border-bottom: 1px double black; text-align: center;">Comments or suggestions?<br /> <a href="mailto:foodmarketing@byui.edu" title="Food Services Feedback">Click here</a> to give us your feedback!</div>
+<table border="0">
+<style type="text/css"><!--
+td{
+padding: 10px !important;
+}
+--></style>
+<tbody>
+<tr>
+<td><strong>Name</strong></td>
+<td><strong>Position</strong></td>
+<td><strong>Phone</strong></td>
+<td><strong>Email</strong></td>
+</tr>
+<tr>
+<td>Todd Huchendorf</td>
+<td>General Manager</td>
+<td>(208) 496-2811</td>
+<td><a href="mailto:huchendorft@byui.edu" target="_self">huchendorft@byui.edu</a></td>
+</tr>
+<tr style="background-color: #85d0f3;">
+<td>Chris Mann<br /></td>
+<td>Operations Supervisor<br /></td>
+<td>(208) 496-2812</td>
+<td valign="middle"><a href="mailto:mannc@byui.edu" target="_self">mannc@byui.edu</a></td>
+</tr>
+<tr>
+<td>Ryan Young</td>
+<td>Operations Supervisor/Hiring</td>
+<td>(208) 496-2816</td>
+<td><a href="mailto:youngr@byui.edu" target="_self">youngr@byui.edu</a></td>
+</tr>
+<tr style="background-color: #85d0f3;">
+<td>Yang Soo Kim<br /></td>
+<td>Business Office/Accounting<br /></td>
+<td>(208) 496-2815</td>
+<td><a href="mailto:kimy@byui.edu" target="_self">kimy@byui.edu</a></td>
+</tr>
+<tr>
+<td>Sharon Leevy<br /></td>
+<td>Marketing Coordinator<br /></td>
+<td>(208) 496-2831</td>
+<td><a href="mailto:leevys@byui.edu" target="_self">leevys@byui.edu</a></td>
+</tr>
+<tr style="background-color: #85d0f3;">
+<td>Donnetta Rhead<br /></td>
+<td>Catering Coordinator<br /></td>
+<td>(208) 496-2841</td>
+<td><a href="mailto:rheadd@byui.edu" target="_self">rheadd@byui.edu</a></td>
+</tr>
+<tr>
+<td>Warren Moore<br /></td>
+<td>Catering Manager<br /></td>
+<td>(208) 496-2845</td>
+<td><a href="mailto:moorew@byui.edu" target="_self">moorew@byui.edu</a></td>
+</tr>
+<tr style="background-color: #85d0f3;">
+<td>Shon Barnes<br /></td>
+<td>Vending/Maintenance</td>
+<td>(208) 496-2846</td>
+<td><a href="mailto:barness@byui.edu" target="_self">barness@byui.edu</a></td>
+</tr>
+<tr>
+<td>Tammy Neumann<br /></td>
+<td>Dining Dollars</td>
+<td>(208) 496-2801</td>
+<td><a href="mailto:neumannt@byui.edu" target="_self">neumannt@byui.edu</a></td>
+</tr>
+</tbody>
+</table>
+<br />]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x16909" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

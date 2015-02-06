@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x47002" Name="CES Honor Code" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">CES Honor Code</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">CES Honor Code</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style><!--
+#list{
+	background-color: #F3F6D1;
+	border-radius: 4px;
+	float: right;
+	width: 410px;
+	font-family: Helvetica;
+	font-size: 14px
+}
+
+#green-dots{
+	list-style-image:url('Images/student-honor/green-bullet.PNG');
+}
+
+.left{
+	float:left;
+}
+
+.right{
+	float:right;
+}
+
+.understanding{
+	color: #4777af;
+}
+
+.orange-boxes div{
+	background-image: url('Images/student-honor/what-and-why.png');
+	height: 75px;
+	margin-bottom: 10px;
+	background-repeat: no-repeat;
+}
+.orange a {
+	text-decoration: none;
+}
+
+.orange{
+	width: 200px;
+	font-family: Arial;
+}
+
+.orange p{
+	text-align: center;
+	height: 75px;
+	position: relative;
+	top: 45px;
+	font-size:14px;
+
+}
+
+#light-orange{
+	background-color: #fdf3d1;
+	border-radius: 4px;
+	-color: #ffbd53;
+	padding: 12px 12px 12px 12px;
+	margin-bottom: 12px;
+	float: right;
+	font-family: Arial;
+}
+
+#green-dots ul{
+	margin-left: 10px;
+}
+
+#green-dots li{
+	padding: 12px 0 12px 0;
+	margin-left: 10px;
+}
+p {
+	font-family: "Times New Roman";
+	color: #666;
+}
+.intro_text {
+	font-family: Georgia;
+	font-style: italic;
+	font-size: 20px;
+	text-align: center;
+	line-height: 165%;
+	color: #666;
+	margin-bottom: 10px;
+}
+.understanding {
+	font-family: Arial;
+	font-size: 19px;
+	margin-left: 0px;
+	font-weight: 550;
+
+}
+--></style>
+<!-- IF NO CONTENT IN RIGHT ASIDE, SPAN-18 LAST -->
+<div class="span-18 first"><img src="images/student-honor/understanding.PNG" /></div>
+<div class="span-18 first intro_text">What exactly is the Church Educational System (CES) Honor Code? <br />Is it simply a list of rules or is there more to it? When you were<br />admitted&nbsp;to BYU&ndash;Idaho, you promised, with your signature, to live the<br />Honor Code. So it&rsquo;s important that you truly understand what the<br />Honor Code is and why we agree to live by it.</div>
+<div class="span-18 last" style="margin-bottom: 20px; margin-top: -10px;"><img src="images/student-honor/dots.PNG" /></div>
+<div class="span-18 first">
+<div class="span-6"><a href="#include"><img height="198" src="Images/student-honor/include.jpg" width="228" /></a></div>
+<div class="span-6" style="margin-left: 2px; margin-right: 8px;"><a href="#haveit"><img height="198" src="images/student-honor/have.jpg" width="230" /></a></div>
+<div class="span-6 last"><a href="#works"><img height="198" src="images/student-honor/works.jpg" style="float: right;" width="229" /></a></div>
+</div>
+<div class="span-18 last understanding"><br /><a name="include" style="text-decoration: none;"></a>What does it include?</div>
+<div class="span-18 first"><br />
+<div class="span-7 first">
+<p>The CES Honor Code is actually quite simple. As a matter of personal commitment, faculty, staff, and students of BYU, BYU-Hawaii, BYU-Idaho, and the LDS Business College seek to demonstrate in daily living on and off campus those moral virtues encompassed in the gospel of Jesus Christ.</p>
+<p>In essence, we try to live by the Thirteenth Article of Faith which states, &ldquo;We believe in being honest, true, chaste, benevolent, virtuous, and in doing good to all men &hellip;. If there is anything virtuous, lovely, or of good report or praiseworthy, we seek after these things&rdquo;.</p>
+</div>
+<div class="span-10 last" id="list">
+<h2 style="color: #c0cc00; padding: 10px; text-align: center;">The CES Honor Code</h2>
+<div class="span-5 left">
+<ul id="green-dots">
+<li>Be honest</li>
+<li>Live a chaste and virtuous life</li>
+<li>Obey the law and all campus policies</li>
+<li>Use clean language</li>
+<li>Respect others</li>
+</ul>
+</div>
+<div class="span-5 last">
+<ul id="green-dots">
+<li>Abstain from alcoholic beverages, tobacco, tea, coffee and substance abuse</li>
+<li>Participate regularly in church services</li>
+<li>Observe Dress and Grooming Standards</li>
+<li>Encourage others in their commitment to comply with the Honor Code</li>
+</ul>
+</div>
+</div>
+</div>
+<p></p>
+<div class="span-18 last understanding"><br /><a name="haveit" style="text-decoration: none;"></a>Why do we have it?</div>
+<div class="span-18 first"><br />
+<div class="span-7 first">
+<p>The CES Honor Code exists to educate students in an atmosphere consistent with the ideals and principles of The Church of Jesus Christ of Latter-day Saints. As a condition of admission and employment, students and employees of BYU-Idaho are expected to live by the Honor Code standards approved by the Board of Trustees &ldquo;at all times&hellip; and in all places&rdquo; (Mosiah 18:9). Individuals who are not members of the Church are also expected to maintain the same standards of honor, integrity, morality, and consideration of others.</p>
+</div>
+<div class="span-11 last"><img class="right" src="images/student-honor/have-it.PNG" width="410px" /></div>
+</div>
+<p></p>
+<div class="span-18 last understanding"><br /><a name="works" style="text-decoration: none;"></a>How it works at BYU-Idaho</div>
+<div class="span-18 first"><br />
+<div class="span-7 first">
+<p>Each CES Institution is charged with forming its own policies founded on the standards outlined in the CES Honor Code. These standards are unique to each institution and are defined and approved by the Board of Trustees. Each institution has the discretion to implement standards regarding dress and grooming, housing, academic honesty, etc. that are unique to that institution.</p>
+</div>
+<div class="span-11 last">
+<div class="span-11 last" id="light-orange" style="width: 387px; float: right;">Click below to learn more about specific university standards and how they relate to the CES Honor Code.</div>
+<div class="span-11 last">
+<div class="span-11 last" style="width: 412px; float: right;">
+<div class="span-5 last orange-boxes"><a></a>
+<div class="orange"><a> </a>
+<p><a href="x47004.xml">Academic Honesty</a></p>
+</div>
+<a></a>
+<div class="orange"><a> </a>
+<p><a href="x47006.xml">Student Life</a></p>
+</div>
+<a></a>
+<div class="orange"><a> </a>
+<p><a href="x47008.xml">Ecclesiastical Endorsement</a></p>
+</div>
+</div>
+<div class="span-5 right last orange-boxes" style="float: right; margin-right: 4px;"><a></a> <a></a>
+<div class="orange"><a> </a>
+<p><a href="x47007.xml">Church Attendance</a></p>
+</div>
+<a></a>
+<div class="orange"><a> </a>
+<p><a href="x47009.xml">Dress &amp; Grooming</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="x47172" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="Component" Name="xPower" readonly="false" hidden="false" required="false" Component="" CompTypes=""/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x43014" CompTypes="SiteControl" Expanded="false"/></Content>

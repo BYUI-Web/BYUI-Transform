@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.82 - http://www.ingeniux.com ***-->
+<AdminPage ID="x33572" Name="College Preparatory Math Courses" Layout="admin_office_home.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Lecture-based College-prep. Math Classes</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Lecture-based College-prep. Math Classes</Abstract><MainMesgTop type="boolean" label="Enable to move &quot;Main Message&quot; to top of page" readonly="false" required="false" hidden="false">false</MainMesgTop><IntroCopy type="dhtml" label="Main Message" readonly="false" hidden="false" required="false"><![CDATA[<p>Some students need additional background before taking college level math courses. We offer three courses taught in a lecture based setting. Students should meet with one of the faculty who teach these courses before they enroll to determine which level will be best.</p>
+<table align="left" border="0">
+<tbody>
+<tr style="background-color: #efefec;">
+<td colspan="3">
+<h3>Courses</h3>
+</td>
+</tr>
+<tr style="background-color: #ffffff;">
+<td>
+<h5>Course Number</h5>
+</td>
+<td>
+<h5>Title</h5>
+</td>
+<td>
+<h5>Description</h5>
+</td>
+</tr>
+<tr style="background-color: #efefec;">
+<td style="color: #444444;">Math 100 A (register online)
+<ul></ul>
+</td>
+<td style="color: #444444;">Arithmetic
+<ul></ul>
+</td>
+<td style="color: #444444;">Fractions, decimals, percents, negative #'s
+<ul></ul>
+</td>
+</tr>
+<tr style="background-color: #ffffff;">
+<td style="color: #444444;">Math 100 B (register online)
+<ul></ul>
+</td>
+<td style="color: #444444;">Beginning Algebra
+<ul></ul>
+</td>
+<td>
+<div style="color: #444444;">No previous algebra needed.&nbsp; This class starts with&nbsp;basics. This is the prep. class for Math 108.</div>
+</td>
+</tr>
+<tr style="background-color: #efefec;">
+<td><a href="x33577.xml" target="_parent">Math 101</a><br />
+<ul></ul>
+(requires an interview and instructor's consent before registering)</td>
+<td style="color: #444444;">Intermediate Algebra
+<ul></ul>
+</td>
+<td style="color: #444444;">Need some prior algebra knowledge.&nbsp; This is the prep. class for Math 110 or Math 221.</td>
+</tr>
+</tbody>
+</table>]]></IntroCopy><xPower Type="GroupStart" GroupStart="" Name="CellGroup" label="Cells" readonly="false" hidden="false" required="false" Expanded="false"><numColumns type="enumeration" values="1 2 3 4 5" label="Select number of cell columns." readonly="false" hidden="false" required="true">3</numColumns><xPower Type="List" List="xpowercomponent_Cell" Name="CellList" label="Cell List" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"><xPower Type="Component" Component="" Name="Cell" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"/></xPower></xPower><xPower Type="List" List="xpowercomponent_BannerAd" Name="BannerAds" label="Rotating Ads (650x216px required)" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"><xPower Type="Component" Component="" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/></xPower><xPower Type="Navigation" StartPage="" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="" Query="" Name="DeptEvents" label="Define Your Events Folder" readonly="false" hidden="false" required="false" Expanded="false"/><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="QuickLinksGroup" label="Quick Links Group" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Component="" Name="QuickLinks" label="Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Insert" Insert="" WellFormed="false" ExtractHTMLBody="false" Name="HTMLInsert" label="Insert" readonly="false" hidden="true" required="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x25860" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></AdminPage>

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<Content ID="x50226" Name="Live" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Live Webcast of Student Q&amp;A</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Live webcast of student question and answer session.</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<div>
+<div class="span-18">
+<div class="span-3 live_webcast">[x50229]</div>
+<div class="span-3 live_webcast">LIVE WEBCAST</div>
+<div class="span-8 last date">&mdash; June 12, 2 p.m. MDT</div>
+</div>
+<div class="span-18 clark">A Conversation with President Kim B. Clark</div>
+<div class="span-18">
+<div class="span-18 last">
+<div id="video">[x50227]</div>
+<p>Join President Kim B. Clark for a Q&amp;A session with students at 2:00 pm on Thursday, June 12. Every student is invited to participate in this special Q&amp;A.</p>
+<p>For online and pathway students, this event will be streamed live on this page. Here you will be able to submit questions beginning Monday, June 2 and continuing throughout the Q&amp;A. One of the student representative council members will submit your questions to President Clark during the session.</p>
+<hr />
+<h2 class="span-18 date last" style="margin-top: 10px; margin-left: 0px;">Submit a Question</h2>
+<iframe frameborder="2" height="660" scrolling="auto" src="https://byui.qualtrics.com/SE/?SID=SV_3xZ7MniiqsamIeh" style="float: left; display: inline;" width="100%"></iframe></div>
+</div>
+</div>
+<p></p>
+<!-- Start of Brightcove Player -->
+<div style="display: none;"></div>
+<!--
+By use of this code snippet, I agree to the Brightcove Publisher T and C
+found at https://accounts.brightcove.com/en/terms-and-conditions/.
+-->
+<script language="JavaScript" src="https://sadmin.brightcove.com/js/BrightcoveExperiences.js" type="text/javascript"></script>
+<p></p>
+<!--
+This script tag will cause the Brightcove Players defined above it to be created as soon
+as the line is read by the browser. If you wish to have the player instantiated only after
+the rest of the HTML is processed and the page load is complete, remove the line.
+-->
+<script type="text/javascript">
+brightcove.createExperiences();
+</script>
+<!-- End of Brightcove Player -->
+<p></p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="true" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="x50227" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x50229" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x50228" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

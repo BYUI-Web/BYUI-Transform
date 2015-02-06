@@ -1,0 +1,223 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<Content ID="x47328" Name="Employer Evaluation Form" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Employer Evaluation Form</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Employer Evaluation Form</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p><meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" />
+<title>Horticulture Department&nbsp;&ndash;&nbsp;BYU&ndash;Idaho</title>
+</p>
+<!-- Remove TemplateSource line to disable the Web Editor --><!--TemplateSource="3C.htm"--><!--***********************************************************************
+    *   Brigham Young University-Idaho Template
+    *   Version:        1.2
+    *   Type:           3C
+    *   Last Revised:   June, 2006
+    *   Copyright 2006 Brigham Young University-Idaho
+    *   All Rights Reserved.
+    ************************************************************************--><!-- REFERENCED STYLESHEETS -->
+<p><link href="topBar.css" rel="stylesheet" type="text/css" /><link href="structure2.css" rel="stylesheet" type="text/css" /><link href="body_text.css" rel="stylesheet" type="text/css" /><link href="table.css" rel="stylesheet" type="text/css" /></p>
+<!-- EMBEDED JAVASCRIPT FUNCTIONS --><!-- EDITOR JAVASCRIPT FUNCTIONS --><!-- The body type determines the number of columns in the CONTENT AREA. View structure.css to where these types are specified --><!-- ********************************************************************* --><!-- TOP BAR                                                               --><!-- ********************************************************************* --><!-- END ***************************************************************** --><!--EditorForm--><!--EditorToolbar-->
+<div id="container">
+<div id="main_body"><!-- LEFT COLUMN --><!-- RIGHT COLUMN -->
+<div id="content_section">
+<div class="content_bottom_section">
+<div class="leftAREA"><!--Editor="MainBody1" Size="67x23"-->
+<h2 align="center"><span style="text-decoration: underline;">Employer Evaluation Report</span></h2>
+<div align="center"></div>
+<p align="center">(To be completed by the Internship Provider, evaluating the student intern)</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<form action="http://www2.byui.edu/AspUtilities/emailAForm.asp" method="post"><input name="txtEmailTo" type="hidden" value="nelsonre@byui.edu" /> <input name="txtEmailSubject" type="hidden" value="Employer Evaluation" />
+<table border="0">
+<tbody>
+<tr>
+<td>Student Intern's Name:</td>
+<td><input name="Student's Intern's Name" size="41" type="text" /></td>
+</tr>
+<tr>
+<td>Please indicate the number of conferences you have had with the student:</td>
+<td><input name="Conferences with student" size="11" type="text" /></td>
+</tr>
+<tr>
+<td>1) Punctuality:</td>
+<td><select name="Punctuality" size="1">
+<option>Superior</option>
+<option>Good</option>
+<option>Average</option>
+<option>Fair</option>
+<option>Needs Improvement</option>
+</select></td>
+</tr>
+<tr>
+<td>2) Willingness to learn:</td>
+<td><select name="Willingness to learn" size="1">
+<option>Superior</option>
+<option>Good</option>
+<option>Average</option>
+<option>Fair</option>
+<option>Needs Improvement</option>
+</select></td>
+</tr>
+<tr>
+<td>3) Dependability:</td>
+<td><select name="Dependability" size="1">
+<option>Superior</option>
+<option>Good</option>
+<option>Average</option>
+<option>Fair</option>
+<option>Needs Improvement</option>
+</select></td>
+</tr>
+<tr>
+<td>4) Thoroughness of work:</td>
+<td><select name="Thoroughness of work" size="1">
+<option>Superior</option>
+<option>Good</option>
+<option>Average</option>
+<option>Fair</option>
+<option>Needs Improvement</option>
+</select></td>
+</tr>
+<tr>
+<td>5) Acceptance of constructive criticism:</td>
+<td><select name="Acceptance of constructive criticism" size="1">
+<option>Superior</option>
+<option>Good</option>
+<option>Average</option>
+<option>Fair</option>
+<option>Needs Improvement</option>
+</select></td>
+</tr>
+<tr>
+<td>
+<p>6)Personal appearance:</p>
+</td>
+<td><select name="Personal appearance" size="1">
+<option>Superior</option>
+<option>Good</option>
+<option>Average</option>
+<option>Fair</option>
+<option>Needs Improvement</option>
+</select></td>
+</tr>
+<tr>
+<td>7) Cooperation with fellow workers:</td>
+<td><select name="Cooperation with fellow workers" size="1">
+<option>Superior</option>
+<option>Good</option>
+<option>Average</option>
+<option>Fair</option>
+<option>Needs Improvement</option>
+</select></td>
+</tr>
+<tr>
+<td>8) Work speed:</td>
+<td><select name="Work speed" size="1">
+<option>Superior</option>
+<option>Good</option>
+<option>Average</option>
+<option>Fair</option>
+<option>Needs Improvement</option>
+</select></td>
+</tr>
+<tr>
+<td>9) Responsibility:</td>
+<td><select name="Responsibility" size="1">
+<option>Superior</option>
+<option>Good</option>
+<option>Average</option>
+<option>Fair</option>
+<option>Needs Improvement</option>
+</select></td>
+</tr>
+<tr>
+<td>10) Acceptance by supervisors:</td>
+<td><select name="Acceptance by supervisors" size="1">
+<option>Superior</option>
+<option>Good</option>
+<option>Average</option>
+<option>Fair</option>
+<option>Needs Improvement</option>
+</select></td>
+</tr>
+<tr>
+<td>11) Acceptance by others:</td>
+<td><select name="Acceptance by others" size="1">
+<option>Superior</option>
+<option>Good</option>
+<option>Average</option>
+<option>Fair</option>
+<option>Needs Improvement</option>
+</select></td>
+</tr>
+<tr>
+<td>12) Technical competence:</td>
+<td><select name="Technical competence" size="1">
+<option>Superior</option>
+<option>Good</option>
+<option>Average</option>
+<option>Fair</option>
+<option>Needs Improvement</option>
+</select></td>
+</tr>
+<tr>
+<td>13) <strong>Additional comments:</strong></td>
+<td><textarea cols="20" name="Additional Comments" rows="5"></textarea></td>
+</tr>
+<tr>
+<td>Date:</td>
+<td><input name="date" size="26" type="text" /></td>
+</tr>
+<tr>
+<td>Firm name and address:</td>
+<td><textarea cols="20" name="firm name and address" rows="6"></textarea></td>
+</tr>
+<tr>
+<td>Owner/Supervisor name:</td>
+<td><input name="owner/supervisor name" size="33" type="text" /></td>
+</tr>
+<tr>
+<td>Contact Email:</td>
+<td><input name="txtEmailFrom" size="33" type="text" /></td>
+</tr>
+<tr>
+<td>Phone number:</td>
+<td><input name="phone" size="20" type="text" /></td>
+</tr>
+<tr>
+<td>Initial:</td>
+<td><input name="initials:" size="20" type="text" /></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p><strong>If it does not submit, please print or save this form and send it to:</strong> Reese Nelson, BYU-Idaho, 273 BEN or at nelsonre@byui.edu</p>
+<p><br /> <input type="submit" value="Submit" />&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value="Reset" /></p>
+<p>&nbsp;</p>
+<!--EndEditor--></form></div>
+<div class="rightAREA">
+<p><!--EditorImage="SmallBodyImage" Size="80x100"--></p>
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+<!--EndEditorForm--><!-- TABLE FORMATTING SECTION -->
+<p>
+<script type="text/javascript">
+var tableTags = document.getElementById('main_body').getElementsByTagName("table");
+        for (var i = 0; i < tableTags.length; i++)
+        {
+            var trTags = tableTags[i].getElementsByTagName("tr");
+            for (var j = 0; j < trTags.length; j++)
+            {
+                if(j%2 == 0)
+                {
+                    trTags.item(j).style.backgroundColor = "#efefec";
+                }
+                else
+                {
+                    trTags.item(j).style.backgroundColor = "#ffffff";
+                }
+            }
+        }
+</script>
+</p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x6517" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

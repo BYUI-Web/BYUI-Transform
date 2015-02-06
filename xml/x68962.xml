@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.101 - http://www.ingeniux.com ***-->
+<Content ID="x68962" Name="Hart Intermediary" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Hart Intermediary</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Hart Intermediary</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<h2><a class="extLink" href="http://www.facebook.com/byuiactivities" title="FB Site"><img alt="FB" height="68" onmouseout="this.src='Images/activities/likeus.png';" onmouseover="this.src='Images/activities/likeus3.png';" src="Images/activities/likeus.png" style="float: right;" width="59" /></a><img alt="Title" height="69" src="Images/activities-activity-resources/title3.2.png" style="display: block; margin-left: auto; margin-right: auto;" width="528" /></h2>
+<style><!--
+.ch-grid {
+    margin: 20px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+ 
+.ch-grid:after,
+.ch-item:before {
+    content: '';
+    display: table;
+}
+ 
+.ch-grid:after {
+    clear: both;
+}
+ 
+.ch-grid li {
+    width: 135px;
+    height: 130px;
+    display: inline-block;
+    margin: 20px;
+}
+
+
+.ch-item {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: relative;
+    cursor: default;
+    box-shadow:
+        inset 0 0 0 0 rgba(0,0,0, 0.4),
+        inset 0 0 0 16px rgba(255,255,255,0.6),
+        0 1px 2px rgba(0,0,0,0.1);
+    transition: all 0.4s ease-in-out;
+}
+
+
+.ch-img-1 {
+    background-image: url(Images/activities/facilities/fitnessButton.png);
+}
+ 
+.ch-img-2 {
+    background-image: url(Images/activities/exercisefacilities2/aerobics_button.png);
+}
+ 
+.ch-img-3 {
+    background-image: url(Images/activities/exercisefacilities2/pool_button.png);
+}
+
+.ch-img-4 {
+    background-image: url(Images/activities/exercisefacilities2/RB_button.png);
+}
+
+.ch-img-5 {
+    background-image: url(Images/activities/exercisefacilities2/clothes_button.png);
+}
+
+.ch-img-6 {
+    background-image: url(Images/activities/exercisefacilities2/contactus_button.png);
+}
+
+
+
+.ch-info {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: visible;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+    transform: scale(0);
+    backface-visibility: visible;
+}
+
+
+.ch-info h3 {
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: 2px;
+    font-size: 12px;
+    margin: 0 11px;
+    padding: 35px 0 0 0;
+    height: 37px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    text-shadow:
+        0 0 1px #fff,
+        0 1px 2px rgba(0,0,0,0.3);
+}
+ 
+.ch-info p {
+    color: #fff;
+    padding: 2px 5px;
+    font-style: italic;
+    margin: 0 15px;
+    font-size: 10px;
+    border-top: 1px solid rgba(255,255,255,0.5);
+}
+ 
+.ch-info p a {
+    display: block;
+    color: rgba(255,255,255,0.7);
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 9px;
+    letter-spacing: 1px;
+    padding-top: 2px;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+ 
+.ch-info p a:hover {
+    color: rgba(255,242,34, 0.8);
+}
+
+
+.ch-item:hover {
+    box-shadow:
+        inset 0 0 0 110px rgba(0,0,0, 0.4),
+        inset 0 0 0 16px rgba(255,255,255,0.8),
+        0 1px 2px rgba(0,0,0,0.1);
+}
+
+
+.ch-item:hover .ch-info {
+    opacity: 1;
+    transform: scale(1);   
+}
+--></style>
+<p><img alt="InterAreas Billboard" height="250" src="Images/activities/exercisefacilities2/InterBanner.jpg" width="703" /></p>
+<ul class="ch-grid">
+<li>
+<div class="ch-item ch-img-1">
+<div class="ch-info">
+<h3>Fitness<br />Center</h3>
+<p><a href="x24793.xml">Click Here</a></p>
+</div>
+</div>
+</li>
+<li>
+<div class="ch-item ch-img-2">
+<div class="ch-info">
+<h3>Aerobics</h3>
+<p><a href="x23794.xml">Click Here</a></p>
+</div>
+</div>
+</li>
+<li>
+<div class="ch-item ch-img-3">
+<div class="ch-info">
+<h3>Pool</h3>
+<p><a href="x30465.xml">Click Here</a></p>
+</div>
+</div>
+</li>
+<li>
+<div class="ch-item ch-img-4">
+<div class="ch-info">
+<h3>Racquetball</h3>
+<p><a href="x45256.xml">Click Here</a></p>
+</div>
+</div>
+</li>
+<li>
+<div class="ch-item ch-img-5">
+<div class="ch-info">
+<h3>Clothing</h3>
+<p><a href="x30466.xml">Click Here</a></p>
+</div>
+</div>
+</li>
+<li>
+<div class="ch-item ch-img-6">
+<div class="ch-info">
+<h3>Contact<br />Us</h3>
+<p><a href="x45228.xml">Click Here</a></p>
+</div>
+</div>
+</li>
+</ul>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="x6793" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x6784" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

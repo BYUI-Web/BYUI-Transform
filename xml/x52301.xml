@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x52301" Name="student qa video" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;div id="non-ios"&gt;
+&lt;!-- Start of Brightcove Player - non-iOS (from this page) --&gt;
+
+
+&lt;!--
+By use of this code snippet, I agree to the Brightcove Publisher T and C
+found at https://accounts.brightcove.com/en/terms-and-conditions/.
+--&gt;
+
+
+&lt;script language="JavaScript" type="text/javascript"
+src="http://admin.brightcove.com/js/BrightcoveExperiences.js"&gt;&lt;/script&gt;
+
+
+&lt;object id="myExperience1535946488001" class="BrightcoveExperience"&gt;
+  &lt;param name="bicolor" value="#FFFFFF" /&gt;
+  &lt;param name="width" value="710" /&gt;
+  &lt;param name="height" value="400" /&gt;
+  &lt;param name="playerID" value="1148472359001" /&gt;
+  &lt;param name="playerKey"
+value="AQ~~,AAABCveqfDE~,4WT0xjonGpje6eFavuxLuVzlUH2tlGnZ" /&gt;
+  &lt;param name="isVid" value="true" /&gt;
+  &lt;param name="isUI" value="true" /&gt;
+  &lt;param name="dynamicStreaming" value="true" /&gt;
+
+  &lt;param name="@videoPlayer" value="1535946488001" /&gt;
+&lt;/object&gt;
+
+
+&lt;!--
+This script tag will cause the Brightcove Players defined above it to be
+created as soon
+as the line is read by the browser. If you wish to have the player
+instantiated only after
+the rest of the HTML is processed and the page load is complete, remove
+the line.
+--&gt;
+&lt;script type="text/javascript"&gt;brightcove.createExperiences();&lt;/script&gt;
+
+
+&lt;!-- End of Brightcove Player - non-iOS --&gt;
+&lt;/div&gt;
+
+&lt;div id="ios" style="display:none"&gt;
+
+&lt;!-- Start of Brightcove Player - IOS version--&gt;
+
+&lt;div style="display:none"&gt;
+&lt;/div&gt;
+&lt;!--
+By use of this code snippet, I agree to the Brightcove Publisher T and C
+found at https://accounts.brightcove.com/en/terms-and-conditions/.
+--&gt;
+&lt;script language="JavaScript" type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"&gt;&lt;/script&gt;
+&lt;object id="myExperience1942421342001" class="BrightcoveExperience"&gt;
+  &lt;param name="bgcolor" value="#FFFFFF" /&gt;
+  &lt;param name="width" value="480" /&gt;
+  &lt;param name="height" value="270" /&gt;
+  &lt;param name="playerID" value="1956072169001" /&gt;
+  &lt;param name="playerKey" value="AQ~~,AAABCveqfDE~,4WT0xjonGphZPc7bcpuNwtSB7lo4cJKZ" /&gt;
+  &lt;param name="isVid" value="true" /&gt;
+  &lt;param name="isUI" value="true" /&gt;
+  &lt;param name="dynamicStreaming" value="true" /&gt;
+ 
+  &lt;param name="@videoPlayer" value="1942421342001" /&gt;
+&lt;/object&gt;
+&lt;!--
+This script tag will cause the Brightcove Players defined above it to be created as soon
+as the line is read by the browser. If you wish to have the player instantiated only after
+the rest of the HTML is processed and the page load is complete, remove the line.
+--&gt;
+&lt;script type="text/javascript"&gt;brightcove.createExperiences();&lt;/script&gt;
+&lt;!-- End of Brightcove Player - IOS version--&gt;
+
+&lt;/div&gt;&lt;/div&gt;
+
+
+&lt;script type="text/javascript"&gt;
+function log(message){
+if(typeof console == "object"){
+console.log(message);
+}
+}
+
+
+
+
+  var deviceIphone = "iphone";
+  var deviceIpod = "ipod";
+  var deviceIpad = "ipad";
+   
+  //Initialize our user agent string to lower case.
+  var uagent = navigator.userAgent.toLowerCase();
+   
+  // Detects if the current device is an iPhone.
+  function DetectIphone() {
+    return (uagent.search(deviceIphone) &gt; -1);
+  }
+   
+  // Detects if the current device is an iPad.
+  function DetectIpad() {
+    return (uagent.search(deviceIpad) &gt; -1);
+  }
+   
+  // Detects if the current device is an iPod Touch.
+  function DetectIpod() {
+    return (uagent.search(deviceIpod) &gt; -1);
+  }
+   
+  // Detects if the current device is an iPhone or iPod Touch.
+  function DetectIphoneOrIpod() {
+    if (DetectIphone()){
+    log("iphone detected");
+      return true}
+    else if (DetectIpod()){
+    log("ipod detected");
+      return true}
+    else if (DetectIpad()){
+    log("ipad detected");
+      return true}
+    else{
+    log("no ios detected");
+      return false}
+  }
+  if (DetectIphoneOrIpod()){
+    log("showing IOS player");
+        document.getElementById("ios").style.display = "block";
+    log("hiding non-IOS player");
+        document.getElementById("non-ios").style.display = "none";
+
+    log("done");
+  }
+
+&lt;/script&gt;&lt;/div&gt;</ContentSnippet></ContentSnippet>

@@ -1,0 +1,227 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<PolicyPage ID="x62404" Name="Deadlines" Layout="general_Policy.xsl"><Title type="string" label="Policy Title" readonly="false" hidden="false" required="true">Deadlines</Title><Abstract type="string" label="Policy Abstract" readonly="false" hidden="false" required="true">Deadlines for federal aid, university aid, and other important dates</Abstract><Date type="date" label="Revision Date" readonly="false" hidden="false" required="true" display="localdateshort" UTC="true">20120328T18:00:00</Date><BodyCopy type="dhtml" label="Policy" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+/* General Styles for Body Elements */
+a {
+font-family: Arial; 
+}
+
+/* Deadline Container Layout */
+#deadline ul {
+list-style-type:none;
+}
+
+#deadline li {
+float:left;
+list-style-type:none;
+display:inline;
+}
+
+/* Styles for DATE_CONTAINER */
+.date_container {
+margin: 5px 5px 20px 5px; 
+padding: 10px;
+width:300px;
+height:255px;
+border: 1px solid #e6e6e6; 
+box-shadow: 0 0 3px #f0f0f0; 
+background: #fafafa;
+color: black;
+font-family:Arial;
+}
+.date_container h1 {
+margin:0;
+padding:0;
+font-size:16px;
+font-family:Arial;
+}
+.date_container p {
+margin:0;
+padding:0;
+font-family:Arial;
+line-height:1em;
+}
+.date_container small {
+color:rgb(110,110,110);
+font-weight:bold;
+}
+.date_container hr {
+margin-bottom:10px;
+}
+ul.date_list {
+margin:2px 0 5pz 0;
+padding:2px 2px 15px 2px;
+}
+ul.date_list li {
+margin:0;
+padding:2px 5px;
+list-style-type:none;
+display:inline;
+}
+li.label {
+font-family:Arial;
+font-size:12px;
+padding-right:8px;
+float:left;
+text-align:right;
+width:80px;
+border-right:1px solid rgb(200,200,200);
+}
+li.label_lg {
+width:150px;
+font-family:Arial;
+font-size:12px;
+padding-right:8px;
+float:left;
+text-align:right;
+border-right:1px solid rgb(200,200,200);
+}
+li.date{
+float:left;
+padding-left:10px;
+font-family:Arial;
+font-size:14px;
+font-weight:bold;
+color:rgb(230,90,30);
+text-align:left;
+width:135px;
+}
+li.date_sm {
+width:100px;
+float:left;
+padding-left:10px;
+font-family:Arial;
+font-size:14px;
+font-weight:bold;
+color:rgb(230,90,30);
+text-align:left;
+}
+.date_con_sm {
+height:130px;
+}
+.clear {
+clear:both;
+height:10px;
+}
+/* CSS styles for the FOOTER Contact information */
+#contact{
+display:inline-block;
+padding: 0 5px;
+margin: 0 0 10px 0;
+width: 100%; 
+height: 100px;
+}
+#contact h1{
+font-family:Arial;
+font-size:12px;
+font-weight:bold;
+margin:0 0 4px 0;
+padding:0;
+color:rgb(70,70,70);
+}
+#contact p {
+font-family:Arial;
+font-size:10px;
+margin:0;
+padding:0;
+}
+#contact_hr {
+margin-bottom:10px;
+}
+.left {
+float:left;
+margin:0 5px 0 0;
+padding:0;
+}
+.office_hours {
+margin: 0; 
+padding: 0; 
+width: 140px; 
+height: 100px; 
+float: left;
+}
+.middle {
+margin: 0; 
+padding: 0 5px 5px 5px; 
+width: 200px; 
+height: 50px; 
+float: left;
+}
+.phone {
+margin: 0; 
+padding: 0 5px 5px 5px; 
+width: 150px; 
+height: 50px; 
+float: left;
+}
+--></style>
+<ul id="deadline">
+<li>
+<div class="date_container">
+<h1>FAFSA Submission Deadline</h1>
+<p><small>Correctly complete and submit a FAFSA</small></p>
+<ul class="date_list">
+<li class="label">2013 Winter</li>
+<li class="date">Oct. 1, 2012</li>
+<li class="label">2013 Spring</li>
+<li class="date">Jan. 1, 2013</li>
+<li class="label">2013 Fall</li>
+<li class="date">June 1, 2013</li>
+</ul>
+<div class="clear"></div>
+<hr />
+<h1>Document Completion Deadline</h1>
+<p><small>Submissions of verification documents; including corrections</small></p>
+<ul class="date_list">
+<li class="label">2013 Winter</li>
+<li class="date">Nov. 1, 2012</li>
+<li class="label">2013 Spring</li>
+<li class="date">Feb. 1, 2013</li>
+<li class="label">2013 Fall</li>
+<li class="date">July 1, 2013</li>
+</ul>
+</div>
+<!--End of .date_container--></li>
+<li>
+<div class="date_container">
+<h1>Financial Aid Determination Dates</h1>
+<p><small>Full semester and First block FADD</small></p>
+<ul class="date_list">
+<li class="label">2012 Summer</li>
+<li class="date">August 7, 2012</li>
+<li class="label">2012 Fall</li>
+<li class="date">Oct. 2, 2012</li>
+<li class="label">2013 Winter</li>
+<li class="date">Jan. 29, 2013</li>
+<li class="label">2013 Spring</li>
+<li class="date">May 14, 2013</li>
+</ul>
+<hr />
+<p><small>Second block FADD</small></p>
+<ul class="date_list">
+<li class="label">2012 Fall</li>
+<li class="date">Nov. 9, 2013</li>
+<li class="label">2013 Winter</li>
+<li class="date">Mar. 12, 2013</li>
+<li class="label">2013 Spring</li>
+<li class="date">June 21, 2013</li>
+</ul>
+</div>
+<!--End of #date_container--></li>
+</ul>
+<br /> 
+<ul id="deadline">
+<li>
+<div class="date_container date_con_sm">
+<h1>BYU-Idaho Scholarship Application <small>(Heber J. Grant)</small></h1>
+<p><small>Application for University Awards</small></p>
+<ul class="date_list">
+<li class="label_lg">2013-2014 Academic Year</li>
+<li class="date_sm">April 1, 2013</li>
+</ul>
+<div class="clear"></div>
+<hr />
+<p>Learn more on the <a href="http://www.byui.edu/financial-aid/new-freshmen/scholarships" title="Link to the University Aid page">Scholarships Page</a> page</p>
+</div>
+<!--End of .date_container--></li>
+</ul>]]></BodyCopy><xPower Type="Component" Component="x18466" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="Policy" label="Policy" readonly="false" hidden="false" required="false" CompTypes="PolicyNavigationComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false">Deadlines | Financial Aid</BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false">Deadlines for federal aid, university aid, and other important dates</MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x18206" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></PolicyPage>

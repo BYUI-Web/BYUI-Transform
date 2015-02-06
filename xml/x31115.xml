@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.68 - http://www.ingeniux.com ***-->
+<AdminPage ID="x31115" Name="Programs &amp; Camps" Layout="admin_office_home.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Programs &amp; Camps</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">All of the programs and camps offered by Community Connections at BYUI.</Abstract><MainMesgTop type="boolean" label="Enable to move &quot;Main Message&quot; to top of page" readonly="false" required="false" hidden="false">false</MainMesgTop><IntroCopy type="dhtml" label="Main Message" readonly="false" hidden="false" required="false"><![CDATA[<table class="table-listing">
+<tbody>
+<tr>
+<td class="image-column"><a href="x32540.xml"><img src="images/community-connections/afywint.jpg" /></a></td>
+<td class="content-column">
+<div class="list-content">
+<h3><a href="x32540.xml">AFY Winter</a></h3>
+<p class="list-desc">Come enjoy 3 days and 2 nights of thrilling activities, inspiring devotionals, and lasting memories. Your stay will be at the beautiful Badger Creek Ranch at the hills of the Grand Teton Mountains.</p>
+</div>
+</td>
+</tr>
+<tr>
+<td class="image-column"><a href="x28831.xml"><img src="Images/community-connections/bestof.jpg" /></a></td>
+<td class="content-column">
+<div class="list-content">
+<h3><a href="x28831.xml">Best of EFY</a></h3>
+<p class="list-desc">Presentations are delivered by experienced, talented, and spiritual speakers. Presentation topics may include religion, morality, peer pressure, family, dating, courtship, and other subjects.</p>
+<a href="x30119.xml">Schedule</a> <a href="x32570.xml">Register</a> <a href="x32572.xml">FAQ</a> <a href="x32572.xml"></a></div>
+</td>
+</tr>
+<tr>
+<td class="image-column"><a href="x34719.xml"><img src="Images/community-connections/byouthspec.png" /></a></td>
+<td class="content-column">
+<div class="list-content">
+<h3><a href="x34719.xml">Boise Youth Spectacular</a></h3>
+<p class="list-desc">The <em>Boise Youth Spectacular (BYS)</em> is an engaging three-day testimony-building experience for youth held at the Boise State University (BSU) campus and the BSU LDS Institute of Religion.</p>
+<a href="x30119.xml"></a></div>
+</td>
+</tr>
+<tr>
+<td class="image-column"><a href="x32581.xml"><img src="images/community-connections/efy.jpg" /></a></td>
+<td class="content-column">
+<div class="list-content">
+<h3><a href="x32581.xml">Especially for Youth (EFY)</a></h3>
+<p class="list-desc">EFY is a CES Program for youth administered by BYU in Provo, Utah. Community Connections at BYU-Idaho works closely with EFY to provide the best possible experience for EFY participants while on the BYU-Idaho campus.</p>
+</div>
+</td>
+</tr>
+<tr>
+<td class="image-column"><a href="x32754.xml"><img src="images/community-connections/camps.jpg" /></a></td>
+<td class="content-column">
+<div class="list-content">
+<h3><a href="x28838.xml">Experience Camps</a></h3>
+<p class="list-desc">Experience Camps is to provides enjoyable opportunities to explore new areas of interest and to develop abilities that could lead to academic progression, professional skills, or life-long hobbies.</p>
+<a href="https://ioffice.byui.edu/CERegistration/RegForms.aspx?FormID=350" target="_parent">Film Camp</a> <a href="https://ioffice.byui.edu/CERegistration/RegForms.aspx?FormID=334" target="_parent">Theatre Camp</a></div>
+</td>
+</tr>
+<tr>
+<td class="image-column"><a href="x28836.xml"><img src="images/community-connections/yfe.png" /></a></td>
+<td class="content-column">
+<div class="list-content">
+<h3><a href="x28836.xml">Youth For Excellence (YFE)</a></h3>
+<p class="list-desc">YFE is a unique adventure where you will experience a hands-on approach to studying Church history in the location where the events actually took place.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>]]></IntroCopy><xPower Type="GroupStart" GroupStart="" Name="CellGroup" label="Cells" readonly="false" hidden="false" required="false" Expanded="false"><numColumns type="enumeration" values="1 2 3 4 5" label="Select number of cell columns." readonly="false" hidden="false" required="true">3</numColumns><xPower Type="List" List="xpowercomponent_Cell" Name="CellList" label="Cell List" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"><xPower Type="Component" Component="" Name="Cell" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"/></xPower></xPower><xPower Type="List" List="xpowercomponent_BannerAd" Name="BannerAds" label="Rotating Ads (650x216px required)" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"><xPower Type="Component" Component="" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/></xPower><xPower Type="Navigation" StartPage="" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="" Query="" Name="DeptEvents" label="Define Your Events Folder" readonly="false" hidden="false" required="false" Expanded="false"/><xPower Type="Component" Component="x28840" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="QuickLinksGroup" label="Quick Links Group" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Component="" Name="QuickLinks" label="Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x28802" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></AdminPage>

@@ -1,0 +1,236 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x62317" Name="CSS Style" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;style&gt;&lt;!--
+.type ol {
+	padding: 0;
+}
+.type ol li {
+	margin: 0 0 10px 20px;
+}
+div.main-title-banner,
+div.secondary-banner
+{
+	width: 100%;
+	margin: 0;
+}
+div.main-title-banner,
+div.small-image-label
+{
+	background-color: #0f6cb6;
+}
+div.secondary-banner {
+	background-color: #000;
+}
+div.small-image1,
+div.small-image2,
+div.small-image3
+{
+	position: relative;
+	float: left;
+	border: 1px solid #888;
+	width: 302px;
+	height: 212px;
+}
+div.small-image1,
+div.small-image2
+{
+	margin: 15px 19px 0 0;
+}
+div.small-image3 {
+	margin: 15px 0 0 0;
+}
+div.small-image1:hover,
+div.small-image2:hover,
+div.small-image3:hover
+{
+	border-color: #282828;
+}
+div.small-image1:hover &gt; div.small-image-label,
+div.small-image2:hover &gt; div.small-image-label,
+div.small-image3:hover &gt; div.small-image-label
+{
+	background-color: #fff;
+}
+div.small-image1:hover p,
+div.small-image2:hover p,
+div.small-image3:hover p
+{
+	color: #0f6cb6;
+}
+div.small-image-label {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 36px;
+}
+div.main-title-banner &gt; p,
+div.secondary-banner &gt; p,
+div.small-image-label &gt; p
+{
+	margin: 5px auto;
+	text-align: center;
+	font-weight: bold;
+	font-family: "Century Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+div.main-title-banner &gt; p {
+	height: 50px;
+	letter-spacing: 2pt;
+	font-size: 2.8em;
+}
+div.main-title-banner &gt; p,
+div.small-image-label &gt; p
+{
+	color: #fff;
+}
+div.main-title-banner &gt; p.slogan {
+	font-weight: normal;
+	font-family: Georgia, Times, serif;
+	font-size: 1.1em;
+	font-style: italic;
+	height: 25px;
+	letter-spacing: 0;
+}
+div.small-image-label &gt; p {
+	font-size: 1.2em;
+}
+div.secondary-banner &gt; p {
+	color: #fff;
+	height: 40px;
+	font-size: 2pt;
+}
+div.main-image {
+	margin: -8px 0;
+}
+div.style-container {
+	margin-top: -2px;
+}
+div.text-box {
+	background-color: #ffcf06;
+	padding: 20px 20px 25px 0;
+	margin-bottom: 15px;
+}
+div.text-box &gt; p,
+div.text-box &gt; h1,
+div.text-box &gt; h2,
+div.text-box &gt; h3,
+div.text-box &gt; h4,
+div.text-box &gt; hr
+{
+	color: #000;
+}
+div.text-box &gt; h1,
+div.text-box &gt; h2,
+div.text-box &gt; h3,
+div.text-box &gt; h4
+{
+	text-transform: uppercase;
+	letter-spacing: 3pt;
+	margin-bottom: 10px;
+}
+div.text-box &gt; p {
+	font-size: 1.2em;
+	margin-bottom: 0;
+	padding-left: 20px;
+}
+div.main-title-container,
+div.subtitle-container
+{
+	padding-right: 7px;
+	background-repeat: no-repeat;
+	background-position: right center;
+	display: inline-block;
+}
+div.main-title-container {
+	margin: 0;
+	background-image: url("images/university-relations/education-week/side-arrow-black.png");
+}
+div.subtitle-container {
+	margin: 20px 0 12px 0;
+	background-image: url("images/university-relations/education-week/side-arrow-blue.png");
+}
+div.more-info p,
+p.show-more
+{
+	margin-top: -20px;
+}
+hr.separator {
+	background: #000;
+	color: #000;
+	margin: 15px 0 15px 0;
+}
+.type h1 {
+	padding: 7px 20px;
+	background-color: #000;
+	letter-spacing: 4pt;
+	font-size: 1.8em;
+	line-height: 1.2em;
+}
+.type h1,
+.type h2
+{
+	color: #fff;
+	margin: 0;
+	text-transform: uppercase;
+	display: inline-block;
+}
+.type h2 {
+	padding: 7px 17px;
+	background-color: #0f6cb6;
+	letter-spacing: 2pt;
+	font-size: 1.3em;
+	line-height: 1.1em;
+}
+.type h3 {
+	padding-bottom: 0;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+span.make-link {
+	position: absolute; 
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	background-image: url("empty.png");
+}
+
+/* TABLES STYLE */
+.type table {
+	width: 410px;
+	margin: 0 0 25px 0;
+}
+.type table th {
+	color: #000;
+	background-color: #ffcf06;
+	font-size: 0.7em;
+	letter-spacing: 1.5pt;
+	text-transform: uppercase;
+	padding-left: 20px;
+}
+.type table,
+.type table caption,
+div.hotel-copy
+{
+	-webkit-box-shadow: 2px 2px 3px #888;
+	-moz-box-shadow: 2px 2px 3px #888;
+	box-shadow: 2px 2px 3px #888;
+}
+.type table tbody tr:nth-child(even) td,
+.type table tbody tr:nth-child(even):hover td
+{
+	background-color: #f1f1f1;
+}
+.type table tbody tr:nth-child(odd):hover td {
+	background-color: #fff;
+}
+.type table td {
+	color: #000;
+	padding-left: 20px;
+}
+caption {
+	background-color: #fff;
+	caption-side: bottom;
+	font-size: 0.7em;
+}
+--&gt;&lt;/style&gt;</ContentSnippet></ContentSnippet>

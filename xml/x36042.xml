@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.68 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x36042" Name="Setup" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Email Setup for Employees</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Email Settings for BYUI Employees who want to send/receive email using connections other than Exchange</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p><a href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;SV!skill=Email%20Support&amp;leInsId=113244750564404872&amp;skId=19&amp;leEngId=1132447_6e9fd04e-a803-4486-8f96-2b041b80c15c&amp;leEngTypeId=7&amp;leEngName=Email%20button_default&amp;leRepAvState=3&amp;referrer=(button%20dynamic-button:Email%20button_default(Email%20Settings%20for%20on-%20and%20off-campus%20Connections))%20http%3A//www.byui.edu/information-technology/services-and-systems/email-for-employees/setup">Need help with your email?<br />Click here to chat with an expert or leave us a message after hours.</a></p>
+<h1>On-Campus Settings</h1>
+<p>On-campus users are treated royally. &nbsp;Outlook will automatically recognize you through the magic of "<strong>AutoDiscover</strong>"!</p>
+<p><img alt="Allow AutoDiscover to configure your server settings." height="192" src="Images/helpdesk/email/AutoDiscover.PNG" width="367" /></p>
+<p>If you see the message, "Allow this website to configure myname@byui.edu server settings?", simply answer "<strong>Allow</strong>".</p>
+<h1>Off-Campus Settings</h1>
+<p><span style="font-size: 11pt; line-height: 1.4em;" data-mce-mark="1">Many email programs, such as, Hotmail and Gmail will allow you to retrieve messages from another email address using either POP3 or IMAP. BYU-Idaho does not directly support connecting a your email account in this way to any clients except Outlook or Entourage, but if you choose to use a different application, the below configuration will allow you to download messages.</span></p>
+<p>To change your server settings refer to the information below. The examples below are for an employee <a href="mailto:doej@byui.edu">doej@byui.edu</a> with johndoe123 as his <strong><em>BYU-Idaho User Name </em></strong>(formerly known as a <strong>net-id</strong>).</p>
+<h2>Windows Users</h2>
+<p>The easiest way to set up Outlook is through something called "<strong>Outlook Anywhere</strong>" and documented at&nbsp;<a href="http://www.byui.edu/help-desk/employee-home-email-setup-windows">http://www.byui.edu/help-desk/employee-home-email-setup-windows</a>.</p>
+<h2>Macintosh Users</h2>
+<p>On Macintosh machines click on the application name (Mac Mail, Entourage, or Outlook) in the menu bar and select preferences. On the preferences window select accounts and then click the plus sign in the lower left hand corner. This will ask you for your relevant email settings. Here is the information you need to know:</p>
+<ul>
+<li><strong>Email</strong>: doej@byui.edu</li>
+<li><strong>Server</strong>: owa.byui.edu</li>
+<li><strong>Username</strong>: johndoe123</li>
+<li><strong>Domain</strong>: BYUI</li>
+</ul>
+<h2>Mobile Phone Users</h2>
+<ul>
+<li><strong>Outlook Web Access Server:</strong> <em>owa.byui.edu</em></li>
+<li><strong>User Name: </strong>BYUI\johndoe123</li>
+<li><strong>Save Password: </strong>YES</li>
+<li>(Please accept<em> "This server requires you accept policy enforcement"</em> if prompted.)</li>
+</ul>
+<p><em><a href="http://www2.byui.edu/helpdesk/smartphone/">More SmartPhone Support</a></em></p>
+<h2>POP3 Users</h2>
+<ul>
+<li><strong>Incoming Server: </strong><em>pop3.byui.edu</em></li>
+<li><strong>Port: </strong>995</li>
+<li><strong>Save Messages on Server: </strong>Yes
+<ul>
+<li>(By default, POP3 will extract your e-mail messages from your BYU-Idaho mailbox. Make sure to leave a copy of the messages on the server so that you can still access them through the BYU-Idaho Exchange system.)</li>
+</ul>
+</li>
+<li><strong>Encryption: </strong>SSL</li>
+<li><strong>Username: </strong>byui/johndoe123/doej</li>
+</ul>
+<p><em><a href="http://www2.byui.edu/helpdesk/Email/pop3.htm">More POP3 Support</a></em><em> </em></p>
+<h2>IMAP&nbsp;Users</h2>
+<p>IMAP&nbsp;leaves all of your email on the server, and allows you to access it from multiple computers and other devices all at the same time.</p>
+<ul>
+<li><strong>Incoming Server: </strong><em>imap.byui.edu</em></li>
+<li><strong>Port: </strong>993</li>
+<li><strong>Encryption: </strong>SSL</li>
+<li><strong>Username: </strong>byui/johndoe123/doej</li>
+</ul>
+<h2>SMTP Users</h2>
+<ul>
+<li><strong>Outgoing Server: </strong><em>smtp.byui.edu</em></li>
+<li><strong>Port: </strong>587</li>
+<li><strong>Encryption: </strong>TLS</li>
+<li><strong>My Server Requires Authentication: </strong>Yes</li>
+<li><strong>Require Secure Password Authentication: </strong>NO</li>
+<li><strong>Log on Using: </strong>BYUI\johndoe123</li>
+</ul>
+<p><a href="http://www2.byui.edu/HelpDesk/Email/smtp.htm">More SMTP Support</a></p>
+<p>(SMTP is not supported from off-campus or&nbsp;through&nbsp;cell phones)</p>
+<p></p>
+<p><strong><a href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;SV!skill=Email%20Support&amp;leInsId=113244750564404872&amp;skId=19&amp;leEngId=1132447_6e9fd04e-a803-4486-8f96-2b041b80c15c&amp;leEngTypeId=7&amp;leEngName=Email%20button_default&amp;leRepAvState=3&amp;referrer=(button%20dynamic-button:Email%20button_default(Email%20Settings%20for%20on-%20and%20off-campus%20Connections))%20http%3A//www.byui.edu/information-technology/services-and-systems/email-for-employees/setup">Need help with your email?<br />Click here to chat with an expert or leave us a message after hours.</a></strong></p>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x35726" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

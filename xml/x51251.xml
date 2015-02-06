@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<Content ID="x51251" Name="Arrival Checklist" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Arrival Checklist</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Arrival Checklist</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style><!--
+.cl-block-top{
+    position: relative;
+    cursor: pointer;
+}
+
+.cl-block { 
+    margin-bottom: 30px;
+    font-size: 12px;
+}
+
+h4.cl-header {
+    font-weight: normal;
+    font-size: 15px;
+    font-family: helvetica,sans-serif;
+    font-style: normal;
+    margin-left: 45px;
+    padding: 10px 10px 10px 20px;
+    background-color: #ddd;
+}
+
+.cl-icon {
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+    border-radius: 55px 55px 55px 55px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -8px;
+}
+
+.cl-block-content {
+    border-right: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    /* display: none; */
+}
+
+.cl-block-content > ul {
+    margin: 0px;
+}
+
+.cl-icon-housing{
+    background-image: url(Images/student-support/checklist/icons/icons-01.png);
+}
+
+.cl-icon-icard{
+    background-image: url(Images/student-support/checklist/icons/icons-02.png);
+}
+
+.cl-icon-register{
+    background-image: url(Images/student-support/checklist/icons/icons-03.png);
+}
+
+.cl-icon-purchase{
+    background-image: url(Images/student-support/checklist/icons/icons-04.png);
+}
+
+.cl-icon-dining {
+    background-image: url(Images/student-support/checklist/icons/icons-05.png);
+}
+
+.cl-arrow {
+    right: 10px;
+    position: absolute;
+    border-style:solid;
+    width:0;
+    height:0;
+    margin:4px 25px 0 0;
+    border-width:9px;
+}
+
+.cl-down-arrow {
+    border-color: grey transparent transparent;
+    top: 12px;
+}
+
+.cl-up-arrow {
+    border-color:transparent transparent grey transparent;
+    top: 2px;
+}
+
+.cl-block-content ul li {
+padding: 6px 0;
+width: 99%;
+list-style-type: square;
+}
+--></style>
+<div id="cl-content">
+<div class="cl-block">
+<div class="cl-block-top"><span class="cl-icon-housing cl-icon"></span>
+<h4 class="cl-header">Move Into Your Housing Complex on Move-in Day</h4>
+<span class="cl-arrow cl-down-arrow"></span></div>
+<div class="cl-block-content">
+<ul>
+<li>Move into your housing complex on the morning of Move-in Day. &nbsp;All university approved housing complexes should be open by 8:00 a.m. (MT). &nbsp;See the <span style="text-decoration: underline;"><a href="http://www.byui.edu/get-connected/get-connected-schedules/fall-schedule">Get Connected schedule</a></span> for your move-in date.</li>
+<li>If you experience travel difficulties that will not allow you to check in during regular times, please contact your housing manager to make other arrangements.</li>
+</ul>
+</div>
+</div>
+<div class="cl-block">
+<div class="cl-block-top"><span class="cl-icon-register cl-icon"></span>
+<h4 class="cl-header">Register for and Attend Get Connected</h4>
+<span class="cl-arrow cl-down-arrow"></span></div>
+<div class="cl-block-content">
+<ul>
+<li>Register for Get Connected (see <span style="text-decoration: underline;"><a href="http://www.byui.edu/get-connected/get-connected-schedules/fall-schedule">Get Connected schedule</a></span> for registration locations). &nbsp;When you register you will receive a copy of the Get Connected Map with your I-Team group number and meeting location as well as your Get Connected wristband which gets you into the&nbsp;<em>New Student Talent Show &amp; Social&nbsp;</em>and a free meal at the&nbsp;<em>Student Services Tour &amp; Breakfast and New Student Lunch.</em></li>
+<li>Audition for the <span style="text-decoration: underline;"><a href="http://www.byui.edu/get-connected/new-student-talent-show">New Student Talent Show</a>.</span></li>
+<li>Meet your I-Team at your designated meeting location. &nbsp;Together you will attend the BYU-Idaho Welcome and all other Get Connected events.</li>
+<li>Parents are invited to attend the BYU-Idaho Welcome with their student. &nbsp;Those unable to travel to Rexburg may view the <span style="text-decoration: underline;"><a href="http://www.byui.edu/live/video">BYU-Idaho Welcome</a></span> streamed live (Steam available 72 hours after broadcast).</li>
+<li>See all that's happening at <span style="text-decoration: underline;"><a href="http://www.byui.edu/student-support/i-night">I-Night</a></span> and purchase <span style="text-decoration: underline;"><a href="http://byui.universitytickets.com/user_pages/event_listings.aspx">tickets online</a></span> or at the Ticket Office window located at the Cashier's Office on the first floor of the Kimball Building. &nbsp;Tickets will also be on sale at the door.</li>
+</ul>
+</div>
+</div>
+<div class="cl-block">
+<div class="cl-block-top"><span class="cl-icon-icard cl-icon"></span>
+<h4 class="cl-header">Get Your I-Card</h4>
+<span class="cl-arrow cl-down-arrow"></span></div>
+<div class="cl-block-content">
+<ul>
+<li>Your I-card serves as your student identification card and can also be used as a debit card, if you deposit funds on it, for on-campus purchases. &nbsp;Locations accepting I-card transactions include: University Store, Food Services, printers, and photocopy locations.</li>
+<li>To get your I-card you will need your I-number and government-issued photo ID (driver's license, passport, state identification, etc.) as well as be in compliance with the <span style="text-decoration: underline;"><a href="http://www.byui.edu/student-honor-office/ces-honor-code/dress-and-grooming">BYU-Idaho Dress and Grooming Standards</a>.</span></li>
+<li>The I-Card Office is permanently located on the first floor of the Kimball Building, room 130. &nbsp;During Fall and Winter Get Connected the I-Card Office will be temporarily located in Manwaring Center (MC) 372.</li>
+<li>You have five days after the start of classes before you must have your I-Card. &nbsp;During this time your I-Number and photo ID can be used for any campus services that normally would require your I-Card.</li>
+<li>Don't know your I-Number? Login to <span style="text-decoration: underline;"><a href="https://secure.byui.edu/cas/login?service=https://web.byui.edu/Services/Login/?RedirectURL=https%3a%2f%2fmy.byui.edu%2f%3fcid%3dhli%3a111">my.byui.edu</a></span>; select the profile tab, then see the personal info section.</li>
+</ul>
+</div>
+</div>
+<div class="cl-block">
+<div class="cl-block-top"><span class="cl-icon-purchase cl-icon"></span>
+<h4 class="cl-header">Reserve Your Textbooks</h4>
+<span class="cl-arrow cl-down-arrow"></span></div>
+<div class="cl-block-content">
+<ul>
+<li>Previously reserved textbooks and exercise clothing can be picked up from the <span style="text-decoration: underline;"><a href="http://www.byuistore.com/">University Store</a></span> located on the first floor of the Manwaring Center (MC 176A).</li>
+<li>To help you select the correct books for class, you will need a copy of your book list.&nbsp; You can also print your book list and class schedule at the University Store if you forget to bring it with you.</li>
+<li>Review the <span style="text-decoration: underline;"><a href="http://www.byui.edu/help-desk/laptop-initiative">laptop initiative</a></span> and consider purchasing a laptop from the University Store.</li>
+<li>Purchase BYU-Idaho approved exercise clothing from the University Store.&nbsp;</li>
+</ul>
+</div>
+</div>
+<div class="cl-block">
+<div class="cl-block-top"><span class="cl-icon-dining cl-icon"></span>
+<h4 class="cl-header">Campus Dining Options on Move-in Day</h4>
+<span class="cl-arrow cl-down-arrow"></span></div>
+<div class="cl-block-content">
+<ul>
+<li><span style="text-decoration: underline;"><a href="http://www.byui.edu/food-services/?cid=fli:123">The Crossroads</a></span>, located on the 2nd floor of the Manwaring Center will be open with limited hours during Move-in Day and Get Connected. &nbsp;See the <span style="text-decoration: underline;"><a href="http://www.byui.edu/get-connected/get-connected-schedules/fall-schedule">Get Connected</a></span> Schedule for details.</li>
+</ul>
+</div>
+</div>
+</div>
+<p>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$('.cl-block-content').css("display", "none");
+window.onload = function(){
+(function(){
+    var content = $('.cl-block-content'),
+    top = $('.cl-block-top'),
+    checklist = {
+        init: function(){
+            top.on('click', checklist.show);
+            content.css("display", "none");
+        },
+        show: function(){
+            var arrow = $(this).find(".cl-arrow");
+            var contentBlock = $(this).next(content);
+            var isVisible = contentBlock.is(":visible");
+
+            contentBlock.slideToggle();
+            //if content is visible display the up arrow
+            arrow.toggleClass('cl-up-arrow', !isVisible);
+            //otherwise display the down arrow
+            arrow.toggleClass('cl-down-arrow', isVisible);
+        }
+    };
+    checklist.init();
+
+})();
+};
+</script>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-43458717-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x19075" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

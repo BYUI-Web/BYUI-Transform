@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.68 - http://www.ingeniux.com ***-->
+<AdminPage ID="x66609" Name="I-Night" Layout="admin_office_home.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">I-Night Extravaganza</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">I-Night Extravaganza, the can't miss, fun-filled, start-of the semester celebration for all BYU-Idaho students.</Abstract><MainMesgTop type="boolean" label="Enable to move &quot;Main Message&quot; to top of page" readonly="false" required="false" hidden="false">true</MainMesgTop><IntroCopy type="dhtml" label="Main Message" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+#page{width: 710px; height: auto; min-height: 700px;}
+    #page #header{width: 710px;}
+    #page #content{width: 78%; height: auto; min-height: 300px; float: left; padding: 1%;}
+    #page #content p{padding-left: 5px;}
+
+    #page #buttons{width: 18%; height: auto; min-height: 300px; float: left; padding: 1%; text-align: center;}
+    #page #buttons div{width: 100px; height: 100px; margin-left: auto; margin-top: 10px; margin-bottom: 20px;}
+    #page #buttons .one{
+        background-image: url('Images/student-support/I-night/I-night-sprite2.gif');
+        background-position:0 100px;
+        height:100px;
+                        width:100px;
+                        display:block;
+                        margin-left:28px;
+                        margin-top:10px;
+    }
+    #page #buttons .two{
+        background-image: url('Images/student-support/I-night/I-night-sprite2.gif');
+        background-position:0 303px;
+        height:100px;
+                        width:100px;
+                        display:block;
+                        margin-left:28px;
+                        margin-top:10px;
+    }
+    #page #buttons .three{
+        background-image: url('Images/student-support/I-night/I-night-sprite2.gif');
+        background-position:0 510px;
+        height:100px;
+                        width:100px;
+                        display:block;
+                        margin-left:28px;
+                        margin-top:10px;
+    }
+    #page #buttons .four{
+        background-image: url('Images/student-support/I-night/I-night-sprite2.gif');
+        background-position:0 714px;
+        height:100px;
+                        width:100px;
+                        display:block;
+                        margin-left:28px;
+                        margin-top:10px;
+    }
+
+    #page #buttons .one:hover{background-image: url('Images/student-support/I-night/I-night-sprite2.gif');background-position:0 202px;}
+    #page #buttons .two:hover{background-image: url('Images/student-support/I-night/I-night-sprite2.gif');background-position:0 406px;}
+    #page #buttons .three:hover{background-image: url('Images/student-support/I-night/I-night-sprite2.gif');background-position:0 611px;}
+    #page #buttons .four:hover{background-image: url('Images/student-support/I-night/I-night-sprite2.gif');background-position:0 816px;}
+    #page #buttons .live_chat{
+                display:inline;
+        margin-left:0px;
+        padding-top:8px;
+        margin-left:28px;
+        padding-bottom:8px;
+        padding-right:15px;
+        padding-left:15px;
+
+        background-color:#383234;
+        /* IE10 Consumer Preview */ 
+        /* IE10 Consumer Preview */ 
+
+        /* IE10 Consumer Preview */ 
+        background-image: -ms-linear-gradient(top left, #231F20 0%, #383234 100%);
+
+        /* Mozilla Firefox */ 
+        background-image: -moz-linear-gradient(top left, #231F20 0%, #383234 100%);
+
+        /* Opera */ 
+        background-image: -o-linear-gradient(top left, #231F20 0%, #383234 100%);
+
+        /* Webkit (Safari/Chrome 10) */ 
+        background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #231F20), color-stop(1, #383234));
+
+        /* Webkit (Chrome 11+) */ 
+        background-image: -webkit-linear-gradient(top left, #231F20 0%, #383234 100%);
+
+        /* W3C Markup, IE10 Release Preview */ 
+        background-image: linear-gradient(to bottom right, #231F20 0%, #383234 100%);
+
+
+
+
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bababa', endColorstr='#231f20',GradientType=0 ); /* IE6-9 */
+        -ms-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bababa', endColorstr='#231f20',GradientType=0 ); /* IE6-9 */
+
+        text-decoration:none;
+        color:#fff;
+        border-radius:4px;
+        font-family:sans-serif;
+        font-weight:bold;
+
+    }
+    #page #buttons .live_chat:hover{
+        opacity:.8;
+    }
+--></style>
+<div id="page">
+<div id="header"><img height="266" src="Images/student-support/I-night/Jousting_webbanner.png" width="710" /></div>
+<div id="content">
+<h1>You are invited to <br />I-Night Extravaganza!</h1>
+<br />
+<p>The can't miss, fun-filled, start-of the semester celebration for all BYU-Idaho students. I-night is our kickoff party every semesters where we get together, dance, eat, play games and get to know other students on campus.</p>
+<p>Don't miss a chance to be part of this fun party, join us at I-night!</p>
+<p><object style="width: 550px; height: 322px;" width="550" height="322" classid="clsid:02bf25d5-8c17-4b23-bc80-d3488abddc6b" codebase="http://www.apple.com/qtactivex/qtplugin.cab#version=6,0,2,0"><param name="autoplay" value="false" /><param name="src" value="Media/student-support/I Night 550 309.mov" /><embed style="width: 550px; height: 322px;" width="550" height="322" type="video/quicktime" src="Media/student-support/I Night 550 309.mov" autoplay="false" /> </object></p>
+</div>
+<div id="buttons"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Quick Links: </strong> <a class="one" href="http://byui.universitytickets.com/user_pages/event.aspx?id=1117&amp;cid=114&amp;p=1"></a> <a class="two" href="x41363.xml"></a> <a class="three" href="x43559.xml"></a> <a class="four" href="x41147.xml"></a>
+<p style="height: 0px; margin-top: 0px;">&nbsp;</p>
+<a class="live_chat" href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=Student%20Support">Live Chat</a></div>
+<br /><br /></div>]]></IntroCopy><xPower Type="GroupStart" GroupStart="" Name="CellGroup" label="Cells" readonly="false" hidden="false" required="false" Expanded="true"><numColumns type="enumeration" values="1 2 3 4 5" label="Select number of cell columns." readonly="false" hidden="false" required="true">1</numColumns><xPower Type="List" List="xpowercomponent_Cell" Name="CellList" label="Cell List" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"><xPower Type="Component" Component="" Name="Cell" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"/><xPower Type="Component" Component="" Name="Cell" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"/><xPower Type="Component" Component="" Name="Cell" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"/></xPower></xPower><xPower Type="List" List="xpowercomponent_BannerAd" Name="BannerAds" label="Rotating Ads (650x216px required)" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="true"><xPower Type="Component" Component="x45150" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/><xPower Type="Component" Component="x45147" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/><xPower Type="Component" Component="x45148" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/><xPower Type="Component" Component="x45149" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/></xPower><xPower Type="Navigation" StartPage="" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="" Query="" Name="DeptEvents" label="Define Your Events Folder" readonly="false" hidden="false" required="false" Expanded="false"/><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="QuickLinksGroup" label="Quick Links Group" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Component="" Name="QuickLinks" label="Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x19075" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></AdminPage>

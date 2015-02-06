@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x46152" Name="Fill Prescription" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Contact</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Contact</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<div id="headblock">
+<div id="content_header">
+<div class="icons"></div>
+<div class="titlehead">Fill Prescription</div>
+<div class="subhead"></div>
+</div>
+</div>
+<div id="content_zone">
+<p>The Student Health Center and Pharmacy accept private insurance and the Pharmacy can bill ~ 90% of private insurance plans.</p>
+<p>To fill your prescription, visit our Onsite Location or visit us at</p>
+<p><a href="https://www.mypharmacyconnect.com/Home/Index?StoreToken=82518E72-B289-4287-956C-70415636002E"><img alt="BYU-Idaho Pharmacy" height="75" src="Images/health-center/Pharmacy-Desktop-Logo.jpg" style="display: block; margin-left: auto; margin-right: auto; border: 1px solid black;" title="Pharmacy" width="200" /></a></p>
+<p>Make sure to provide following information when visiting our Onsite Pharmacy:</p>
+<ul>
+<li>I-number (or your spouse's I-number if you are not a student)</li>
+<li>Name</li>
+<li>Address</li>
+<li>Phone Number</li>
+<li>Medication allergies</li>
+<li>Prescription private insurance card (if applicable)</li>
+</ul>
+<p>Please note:</p>
+<ul>
+<li>Traditional Students, the spouse or dependent of a student, or those with the student health plan can use the Pharmacy</li>
+<li>Prescriptions are usually filled in 10 minutes or less</li>
+<li>As a health clinic pharmacy, medications are purchased at a discount which is passed on to you</li>
+</ul>
+<p><a href="x46153.xml">Pharmacy Prescription Transfer Request</a></p>
+<p>Call the pharmacy at <strong>(208) 496-9342 </strong>with any questions!</p>
+</div>
+<p><a href="x37092.xml">Back to Pharmacy Home Page</a></p>
+<p><iframe frameborder="0" height="240" id="footer" scrolling="no" src="Documents/health-center/footer.html" width="100%"></iframe></p>
+<p><link href="Documents/health-center/css/header.css" rel="stylesheet" /> <link href="Documents/health-center/css/body.css" rel="stylesheet" /> <link href="Documents/health-center/css/pharmacy.css" rel="stylesheet" /></p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x28441" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

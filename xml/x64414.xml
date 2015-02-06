@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x64414" Name="Locations" Layout="byuidefault.xsl">
+	<Title type="string" label="Title" readonly="false" hidden="false" required="true">Pathway Locations</Title>
+	<Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">BYU-Idaho Pathway Locations</Abstract>
+	<xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false">
+		<BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/>
+		<MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/>
+		<NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow>
+		<NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex>
+		<NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP>
+		<Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority>
+	</xPower>
+	<xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false">
+		<HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle>
+		<Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation>
+	</xPower>
+	<BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false">
+		<![CDATA[<p><a href="x46356.xml"><img alt="Why Pathway Is Different" height="104" onmouseout="this.src='Images/Admin_Offices/Online Learning/Pathway/WhatisPatwayNav.jpg';" onmouseover="this.src='Images/Admin_Offices/Online Learning/Pathway/WhatisPatwayNavB.jpg';" src="Images/Admin_Offices/Online Learning/Pathway/WhatisPatwayNav.jpg" style="float: left;" width="142" /></a><a href="x21541.xml"><img alt="How Pathway Works" height="104" onmouseout="this.src='Images/Admin_Offices/Online Learning/Pathway/How_Path_Works.jpg';" onmouseover="this.src='Images/Admin_Offices/Online Learning/Pathway/How_Path_WorksB.jpg';" src="Images/Admin_Offices/Online Learning/Pathway/How_Path_Works.jpg" style="float: left;" width="142" /></a><a href="x21552.xml"><img alt="The Pathway Experience" height="104" onmouseout="this.src='Images/Admin_Offices/Online Learning/Pathway/Experience.jpg';" onmouseover="this.src='Images/Admin_Offices/Online Learning/Pathway/ExperienceB.jpg';" src="Images/Admin_Offices/Online Learning/Pathway/Experience.jpg" style="float: left;" width="142" /></a><a href="x46402.xml"><img alt="Locations" height="104" onmouseout="this.src='Images/Admin_Offices/Online Learning/Pathway/Locations.jpg';" onmouseover="this.src='Images/Admin_Offices/Online Learning/Pathway/LocationsB.jpg';" src="Images/Admin_Offices/Online Learning/Pathway/Locations.jpg" style="float: left;" width="142" /></a><a href="x40409.xml"><img alt="Admissions" height="104" onmouseout="this.src='Images/Admin_Offices/Online Learning/Pathway/Admissions.jpg';" onmouseover="this.src='Images/Admin_Offices/Online Learning/Pathway/AdmissionsB.jpg';" src="Images/Admin_Offices/Online Learning/Pathway/Admissions.jpg" width="142" /></a></p>
+<hr />
+<p></p>
+<p>Pathway sites are approved by the Church Board of Education and are supported by local Church leaders and missionaries.&nbsp;If you don't see a location near you, join our&nbsp;<a href="x31690.xml">interest list</a> or contact our&nbsp;<a href="x28630.xml">Online Support Center</a>.&nbsp;</p>
+<p>Pathway sites may offer a combination of the following options: Ages 18+, Ages 18-30, Ages 31+, and ESL (English Second Language).</p>
+<p>If you would like to visit a Pathway site, please&nbsp; <a href="x35679.xml"><img alt="schedule a visit" height="20" src="Images/Admin_Offices/Online%20Learning/Pathway/schedule%20a%20visit(0).png" style="vertical-align: bottom;" title="visit" width="90" /></a></p>
+<p></p>]]></BodyCopy>
+	<xPower Name="HTMLInsert" label="Insert" ExtractHTMLBody="false" WellFormed="true" Insert="online/pathway.xml" hidden="true" readonly="false" required="false" Expanded="true" Type="Insert"/>
+	<xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="">
+		<xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false">
+			<xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/>
+		</xPower>
+		<xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/>
+		<xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/>
+		<xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/>
+	</xPower>
+	<xPower Type="Component" Component="x18360" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/>
+	<xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/>
+	<xPower Type="Component" Component="x17147" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/>
+</Content>

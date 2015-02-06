@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x35777" Name="Tutorial" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Video Tutorial</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Video Tutorial</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<p><link href="http://courses.byui.edu/AcademicSupport/css/tutorials.css" media="screen" rel="stylesheet" type="text/css" /></p>
+<p>
+<script src="http://courses.byui.edu/AcademicSupport/js/tutorials.js" type="text/javascript"></script>
+<script language="JavaScript" type="text/javascript">
+// Create Global variables;
+
+  var relatedIndex = 0;
+
+  function GET_V(variable) 
+  {
+    var query = window.location.search.substring(1);
+    var vars = query.split("&");
+    for (var i = 0; i < vars.length; i++) 
+    {
+      var pair = vars[i].split("=");
+      if (pair[0] == variable) 
+      {
+        return unescape(pair[1]);
+      }
+    }
+    return false;
+  }
+
+  function findVideo(url, myArray) 
+  {
+    var x;
+    var found = 0;
+
+    for (x in myArray)
+    {
+      if (url == myArray[x][4])
+      {
+        found = x;
+      }
+    }
+    return found;
+  }
+
+  function createRelatedVideos(i, c, myArray)
+  {
+    var picturesDisplayed = 0;
+    var showLeftArrow = 1;
+    var showRightArrow = 1;
+    var c2 = (c - 3 + i);
+    var max = myArray.length;
+
+
+    // Check to see if left arrow should be disabled
+    if (c2 < 0 || c2 >= max)
+      showLeftArrow = 0;
+    else if (myArray[c2][0] != myArray[c][0] || myArray[c2][1] != myArray[c][1])
+      showLeftArrow = 0;
+
+    if (showLeftArrow == 1)
+    {
+      // Display Left Arrow
+      var arrow_left = document.getElementById('arrow_left');
+      arrow_left.innerHTML='<a href="#" onClick="return slideLeft(currVid, allVideos);" ><img class="arrow_left" src="http://courses.byui.edu/AcademicSupport/pics/tutorials/arrow_left.jpg" alt="Previous" /></a>';
+    }
+    else
+    {
+      // Display Disabled Left Arrow
+      var arrow_left = document.getElementById('arrow_left');
+      arrow_left.innerHTML='<img class="disabled" src="http://courses.byui.edu/AcademicSupport/pics/tutorials/arrow_left.jpg" alt="Previous" />';
+    }
+    c2++;
+
+
+
+    while (picturesDisplayed < 5)
+    {
+      var video = document.getElementById('video_' + (picturesDisplayed + 1));
+
+      if (c2 == c)
+        // Display Current Video
+        video.innerHTML='<img class="current" src="http://courses.byui.edu/AcademicSupport/pics/tutorials/' + myArray[c][4] + '.jpg" alt="' + myArray[c][3] + '" />';
+      else if (c2 < 0 || c2 >= max)
+        // Display Blank Video
+        video.innerHTML='<img class="blank" src="http://courses.byui.edu/AcademicSupport/pics/tutorials/blank.jpg" alt="blank" />';
+      else if (myArray[c2][0] == myArray[c][0] && myArray[c2][1] == myArray[c][1])
+        // Display Related Video
+        video.innerHTML='<a href="academic-support-centers/tutoring-center/video-tutorials/tutorial?vid=' + myArray[c2][4] + '"><img class="related" src="http://courses.byui.edu/AcademicSupport/pics/tutorials/' + myArray[c2][4] + '.jpg" alt="' + myArray[c2][3] + '" /></a>';
+      else
+        // Display Blank Video
+        video.innerHTML='<img class="blank" src="http://courses.byui.edu/AcademicSupport/pics/tutorials/blank.jpg" alt="blank" />';
+
+      c2++;
+      picturesDisplayed++;
+    }
+
+
+    // Check to see if right arrow should be disabled
+    if (c2 < 0 || c2 >= max)
+      showRightArrow = 0;
+    else if (myArray[c2][0] != myArray[c][0] || myArray[c2][1] != myArray[c][1])
+      showRightArrow = 0;
+
+    if (showRightArrow == 1)
+    {
+      // Display Right Arrow
+      var arrow_right = document.getElementById('arrow_right');
+      arrow_right.innerHTML='<a href="#" onClick="return slideRight(currVid, allVideos);" ><img class="arrow_right" src="http://courses.byui.edu/AcademicSupport/pics/tutorials/arrow_right.jpg" alt="Next" /></a>';
+    }
+    else
+    {
+      // Display Disabled Right Arrow
+      var arrow_right = document.getElementById('arrow_right');
+      arrow_right.innerHTML='<img class="disabled" src="http://courses.byui.edu/AcademicSupport/pics/tutorials/arrow_right.jpg" alt="Next" />';
+    }
+  }
+
+  function slideLeft (c, myArray) 
+  {
+    relatedIndex -= 5;
+    createRelatedVideos(relatedIndex, c, myArray);
+    return false;    
+  }
+
+  function slideRight (c, myArray) 
+  {
+    relatedIndex += 5;
+    createRelatedVideos(relatedIndex, c, myArray);
+    return false;    
+  }
+
+  var currVid = findVideo(GET_V("vid"), allVideos);
+
+  var videoTitle = allVideos[currVid][3];
+
+  var videoSubject = allVideos[currVid][1];
+
+  if (videoSubject == 0)
+  {
+    videoSubject = allVideos[currVid][0];
+  }
+
+  var head = document.getElementsByTagName("head")[0]; 
+
+  head.setAttribute('prefix', 'og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# video: http://ogp.me/ns/video#');
+
+  var meta1 = document.createElement('meta');
+  meta1.setAttribute('property', 'fb:app_id');
+  meta1.setAttribute('content', '102722099852126');
+  head.appendChild(meta1);
+
+  var meta2 = document.createElement('meta');
+  meta2.setAttribute('property', 'og:site_name');
+  meta2.setAttribute('content', 'BYU-Idaho Tutoring Center');
+  head.appendChild(meta2);
+
+  var meta3 = document.createElement('meta');
+  meta3.setAttribute('property', 'og:locality');
+  meta3.setAttribute('content', 'Rexburg');
+  head.appendChild(meta3);
+
+  var meta4 = document.createElement('meta');
+  meta4.setAttribute('property', 'og:region');
+  meta4.setAttribute('content', 'ID');
+  head.appendChild(meta4);
+
+  var meta5 = document.createElement('meta');
+  meta5.setAttribute('property', 'og:type');
+  meta5.setAttribute('content', 'video.other');
+  head.appendChild(meta5);
+
+  var meta6 = document.createElement('meta');
+  meta6.setAttribute('property', 'og:title');
+  meta6.setAttribute('content', allVideos[currVid][3]);
+  head.appendChild(meta6);
+
+  var meta7 = document.createElement('meta');
+  meta7.setAttribute('property', 'og:image');
+  meta7.setAttribute('content', 'http://courses.byui.edu/AcademicSupport/pics/tutorials/' + allVideos[currVid][4] + '.jpg');
+  head.appendChild(meta7);
+
+  document.title= videoTitle + " | " + videoSubject + " | BYU-Idaho Tutoring Center";
+
+  function updateIngeniux ()
+  { 
+    var page_title = document.getElementById('page_title');
+    page_title.innerHTML = "<h2>" + videoSubject + ": " + videoTitle + "</h2>";
+
+    var breadcrumbs = document.getElementById('breadcrumbs');
+    var breadcrumbsInner = '<a href="">Home</a> &gt; <a href="academic-support-centers">Academic Support Centers</a> &gt; ';
+    breadcrumbsInner += '<a href="academic-support-centers/tutoring-center">Tutoring Center</a> &gt; '; 
+    breadcrumbsInner += '<a href="academic-support-centers/tutoring-center/video-tutorials">Video Tutorials</a> &gt; ';
+    breadcrumbsInner += '<a href="academic-support-centers/tutoring-center/video-tutorials/?sub=' + allVideos[currVid][0] + '">' + allVideos[currVid][0] + '</a> &gt; ';
+    breadcrumbsInner += '<a href="academic-support-centers/tutoring-center/video-tutorials/tutorial?vid=' + allVideos[currVid][4] + '">' + allVideos[currVid][3] + '</a></nav>';
+    breadcrumbs.innerHTML = breadcrumbsInner;
+  }
+
+  updateIngeniux();
+</script>
+</p>
+<div id="fb-root"></div>
+<p>
+<script type="text/javascript">
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=102722099852126";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+<script src="http://courses.byui.edu/AcademicSupport/js/jwplayer.js" type="text/javascript"></script>
+<script src="http://courses.byui.edu/AcademicSupport/js/standard.js" type="text/javascript"></script>
+</p>
+<div id="CaptivateContent"></div>
+<p>
+<script type="text/javascript">
+var videoExtension = allVideos[currVid][5].split('.').pop();
+  if (videoExtension == "swf")
+  {
+	   var so = new SWFObject(allVideos[currVid][5], "Captivate", "641", "512", "10", "#CCCCCC");
+		so.addParam("quality", "high");
+		so.addParam("name", "Captivate");
+		so.addParam("id", "Captivate");
+		so.addParam("wmode", "window");
+		so.addParam("bgcolor","#f5f4f1");
+		so.addParam("menu", "false");
+		so.addVariable("variable1", "value1");
+		so.setAttribute("redirectUrl", "http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash");
+		so.write("CaptivateContent");
+
+		document.getElementById('Captivate').focus();
+		document.Captivate.focus();
+  }
+  else if (videoExtension == "mp4" || videoExtension == "flv")
+  {
+    jwplayer('CaptivateContent').setup({
+      'flashplayer': 'http://courses.byui.edu/AcademicSupport/js/player.swf',
+      'id': 'playerID',
+      'width': '650',
+      'height': '488',
+      'file': allVideos[currVid][5],
+      'autostart':true
+    });
+  }
+</script>
+</p>
+<p></p>
+<p><em>Note: If this video doesn't work, please download the latest flash player <a href="http://get.adobe.com/flashplayer/">here</a></em></p>
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style "></div>
+<p>
+<script src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4e8f55d36a5bcc11" type="text/javascript"></script>
+</p>
+<!-- AddThis Button END -->
+<div class="relatedVideos">
+<div id="arrow_left"></div>
+<div class="other_video" id="video_1"></div>
+<div class="other_video" id="video_2"></div>
+<div class="other_video" id="video_3"></div>
+<div class="other_video" id="video_4"></div>
+<div class="other_video" id="video_5"></div>
+<div id="arrow_right"></div>
+</div>
+<p>
+<script type="text/javascript">
+document.write('<div class="fb-comments" data-href="http://www.byui.edu/academic-support-centers/tutoring-center/video-tutorials/tutorial?vid=' + allVideos[currVid][4] + '" data-num-posts="10" data-width="650"></div>');
+</script>
+<script type="text/javascript">
+createRelatedVideos(0, currVid, allVideos);
+  window.onload = updateIngeniux;
+</script>
+</p>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Component" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x25860" CompTypes="SiteControl" Expanded="false"/></Content>

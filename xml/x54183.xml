@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x54183" Name="Places to See" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Places to See</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Places that will possibly be visited</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="true" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false">Places</BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<p>Some of the Attractions:</p>
+<p> </p>
+<p><strong>London</strong></p>
+<ul>
+<li>
+<p align="left">British Museum</p>
+</li>
+<li>
+<p align="left"><a href="http://www.nationalgallery.org.uk/" target="_self">National Gallery </a></p>
+</li>
+<li>
+<p align="left"><a href="http://www.hrp.org.uk/TowerOfLondon/" target="_self">Tower of London </a></p>
+</li>
+<li>
+<p align="left"><a href="http://www.westminster-abbey.org/" target="_self">Westminster Abbey </a></p>
+</li>
+<li>
+<p align="left"><a href="http://www.london.gov.uk/priorities/art-culture/trafalgar-square" target="_self">Trafalgar Square</a></p>
+</li>
+<li>
+<p align="left"><a href="http://www.stpauls.co.uk/" target="_self">St. Paul's Cathedral </a></p>
+</li>
+<li>
+<p align="left">Globe Theater</p>
+</li>
+<li>
+<p align="left"><a href="http://www.royalcollection.org.uk/" target="_self">Buckingham Palace </a></p>
+</li>
+</ul>
+<p><strong>England</strong></p>
+<ul>
+<li>
+<p align="left"><a href="http://winchester-cathedral.org.uk/" target="_self">Winchester Cathedral </a></p>
+</li>
+<li>
+<p align="left"><a href="http://www.jane-austens-house-museum.org.uk/" target="_self">Jane Austen's Home </a></p>
+</li>
+<li>
+<p align="left"><a href="http://www.salisburycathedral.org.uk/" target="_self">Salisbury Cathedral </a></p>
+</li>
+<li>
+<p align="left"><a href="http://www.stonehenge.co.uk/" target="_self">Stonehenge </a></p>
+</li>
+<li>
+<p align="left">Beatrix Potter's Home (Hilltop)</p>
+</li>
+<li>
+<p align="left">William Wordworth's home</p>
+</li>
+<li>
+<p align="left">Hike the Lake District</p>
+</li>
+<li>
+<p align="left">Windermere and England's Lake District</p>
+</li>
+<li>
+<p align="left">Hadrian's Wall (Roman)</p>
+</li>
+<li>
+<p align="left">Haworth</p>
+</li>
+<li>
+<p align="left">The Brontë Parsonage Museum</p>
+</li>
+<li>
+<p align="left">Walk on the Moors</p>
+</li>
+<li>
+<p align="left">Warwick Castle</p>
+</li>
+<li>
+<p align="left">Stratford on Avon</p>
+</li>
+<li>
+<p align="left">Shakespeare properties</p>
+</li>
+<li>
+<p align="left">Oxford</p>
+</li>
+</ul>
+<p><strong>More Countries</strong></p>
+<ul>
+<li>
+<p align="left">Hike to Tintern Abbey in Wales</p>
+</li>
+<li>
+<p align="left">Conwy Castle, Wales</p>
+</li>
+<li>
+<p align="left">Robert Burns' home in Scotland</p>
+</li>
+</ul>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/><!--071613 xpowercomponent_Optional to xPower--></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x1905" CompTypes="SiteControl"/></Content>

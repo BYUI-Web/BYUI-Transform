@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x63084" Name="TB Hold Tutorials" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">TB Hold Tutorials</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">TB Hold Tutorials</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<link href="Documents/health-center/topper.css" rel="stylesheet" />
+<link href="Documents/health-center/layout.css" rel="stylesheet" />
+<style><!--
+      body #videoWindow h4 {
+        border-bottom: 1px solid #FF9900;
+      }
+
+   body #content_zone .titlehead {    
+      border-bottom: solid thin #FF9900;
+   }
+
+   body #content_zone .comment {    
+      color: #FF9900;
+      font-weight: bold;
+   }
+
+   body #content_zone #maincontent #frame .icons {
+      background-position: -300px  -150px;
+   }
+--></style>
+<script type="text/Javascript">
+      function startUp(i) {
+        var questions = document.getElementById("videoQuestions").children;
+        var links = document.getElementById("links").children;
+
+        var title = questions[i].innerHTML;
+        title = title.slice(0, title.indexOf("<"));
+
+        if (i < questions.length) {
+          questions[i].onclick = function() { showVideo(links[i - 1].innerHTML, title); };
+          i++;
+
+          startUp(i);
+        }
+      }
+
+      function showVideo(video, title) {
+        var background = document.getElementById("background");
+        var videoWindow = document.getElementById("videoWindow");
+
+        background.style.display = "block";
+        videoWindow.style.display = "block";
+
+        var videoFrame = document.getElementById("videoFrame");
+        var videoTitle = document.getElementById("videoTitle");
+        
+        videoFrame.src = video;
+        videoTitle.innerHTML = title;
+      }
+
+      function closeVideo() {
+        var background = document.getElementById("background");
+        var videoWindow = document.getElementById("videoWindow");
+        var videoFrame = document.getElementById("videoFrame");
+        
+        background.style.display = "none";
+        videoWindow.style.display = "none";
+        videoFrame.src = "";
+      }
+</script>
+<div id="content_zone">
+<div id="nav"><a href="x27790.xml">
+<div class="title">Student Health Center</div>
+</a> <iframe class="items" frameborder="0" scrolling="auto" src="Documents/health-center/links.html"></iframe></div>
+<div id="maincontent">
+<div id="topper">
+<div class="titlehead">TB Hold Tutorials</div>
+<div id="frame">
+<div class="icons"></div>
+<div class="shadow"></div>
+</div>
+</div>
+<div id="topsec">
+<p>These are common questions and concerns about the TB Hold. Click a question to view the video answer.</p>
+<div class="tbinfo">
+<p><span class="titleinfo">List of High-Risk Countries: </span><a href="http://www.byui.edu/health-center/tb-information">www.byui.edu/health-center/tb-information</a></p>
+<p><span class="titleinfo">Fax:</span> 208-496-9343</p>
+<p><span class="titleinfo">Email (for TB test results):</span> healthcenterpublichealth@byui.edu</p>
+</div>
+<div class="tbinfo2">
+<p><span class="titleinfo">Mailing Address:</span><br /> BYU-Idaho Student Health Center/ TB screening<br /> 100 Student Health Center<br /> Rexburg, ID 83460-2010</p>
+</div>
+<div class="clear"></div>
+<!-- The following list is the questions and the video thumbnail.  This is what the user actually sees --> 
+<ul id="videoQuestions">
+<li>What is TB?
+<div class="tbvideo tb1"></div>
+</li>
+<li>What is a TB Test?
+<div class="tbvideo tb2"></div>
+</li>
+<li>Who needs a TB Test?
+<div class="tbvideo tb3"></div>
+</li>
+<li>Why do I need a test if I served a mission in the United States?
+<div class="tbvideo tb4"></div>
+</li>
+<li>How do I submit my test results?
+<div class="tbvideo tb5"></div>
+</li>
+<li>What if I am taking online classes?
+<div class="tbvideo tb6"></div>
+</li>
+<li>What if I can't get to the Health Center the first day of classes?
+<div class="tbvideo tb7"></div>
+</li>
+<li>What if I have tested positive for TB?
+<div class="tbvideo tb8"></div>
+</li>
+<li>What if I've had a BCG shot?
+<div class="tbvideo tb9"></div>
+</li>
+<li>Why do I need a test if I've been here for years?
+<div class="tbvideo tb10"></div>
+</li>
+<li>Where is the Student Health Center?
+<div class="tbvideo tb11"></div>
+</li>
+<li>What if I still have questions?
+<div class="tbvideo tb12"></div>
+</li>
+</ul>
+<!-- This list are the actual links to embed the videos into the page. --><!-- Each item in this list corresponds with an item in the previous list.  Both lists are in the same order, i.e. the first link in this list corresponds with the first item in the previous list, the second link in this list with the second item in the previous list, etc. --><!-- When adding a new clip, just copy/paste one of these items and replace everything after embed/ and before ?rel=0 with the unintelligible part of the video's URL, for example in http://youtu.be/feDPJGzRXEM copy feDPJGzRXEM. --> 
+<ul id="links">
+<li>http://www.youtube.com/embed/3czorfjt2Q0?rel=0</li>
+<li>http://www.youtube.com/embed/MJ5f3mGy8yM?rel=0</li>
+<li>http://www.youtube.com/embed/fskYsraGR8M?rel=0</li>
+<li>http://www.youtube.com/embed/oXV1fDg1FPE?rel=0</li>
+<li>http://www.youtube.com/embed/Nbymy1aScGQ?rel=0</li>
+<li>http://www.youtube.com/embed/X2lWLBBJLM0?rel=0</li>
+<li>http://www.youtube.com/embed/EqYIzueU0Xs?rel=0</li>
+<li>http://www.youtube.com/embed/lOk7GPNUOw0?rel=0</li>
+<li>http://www.youtube.com/embed/iBV3jJGgV7o?rel=0</li>
+<li>http://www.youtube.com/embed/d-ZHzLDWS_U?rel=0</li>
+<li>http://www.youtube.com/embed/aLhQobqtraQ?rel=0</li>
+<li>http://www.youtube.com/embed/feDPJGzRXEM?rel=0</li>
+</ul>
+<div id="background"></div>
+<div id="videoWindow">
+<h4 id="videoTitle">This is the title of the Video</h4>
+<p onclick="closeVideo()">X</p>
+<iframe frameborder="0" height="480" id="videoFrame" scrolling="auto" src="http://www.youtube.com/embed/VmuNjnkGwSc?rel=0" width="640"></iframe></div>
+</div>
+<iframe frameborder="0" id="footer" scrolling="no" src="http://www.byui.edu/Documents/health-center/footer.html"></iframe></div>
+</div>
+<script type="text/Javascript">
+      var isIE = (navigator.appName == "Microsoft Internet Explorer");
+
+      startUp(0);
+</script>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x28441" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

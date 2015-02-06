@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<GeneralLandingPage ID="x67090" Name="KBYR" Layout="default.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true" ID="1">KBYR Radio Services</Title><Subtitle type="string" label="Subtitle" readonly="false" hidden="false" required="false" ID="2">Always Inspirational </Subtitle><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true" ID="3">KBYR Radio Services</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" ID="4"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false" ID="5"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false" ID="6"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false" ID="7">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false" ID="8">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false" ID="9">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="false" required="false" ID="10">0.5</Priority></xPower><xPower Type="Component" Component="x14" Name="RelatedLinks" label="Related Links" readonly="false" hidden="false" required="false" CompTypes="RelatedLinksComponent" Expanded="false" ID="11"/><IntroTitle type="string" label="Intro Title" readonly="false" hidden="false" required="false" ID="12">KBYR 91.5 FM</IntroTitle><IntroCopy type="dhtml" label="Intro Copy" readonly="false" hidden="false" required="false" ID="13"><![CDATA[<script type="text/javascript">
+			if (window.XMLHttpRequest)
+			  {
+			  xhttp=new XMLHttpRequest();
+			  }
+			else // Internet Explorer 5/6
+			  {
+			  xhttp=new ActiveXObject("Microsoft.XMLHTTP");
+			  }
+			xhttp.open("GET","xml/kbyrfeed.xml",false);
+			xhttp.send("");
+			xmlDoc=xhttp.responseXML; 
+			
+			
+			var x=xmlDoc.getElementsByTagName("audio");
+			for (i=0;i<1;i++) //changed due to broadcasting laws, used to be: for (i=0;i<x.length;i++)
+			  { 
+			  
+			  if (x[i].getElementsByTagName("status")[0].childNodes[0].nodeValue == 'Playing')
+			  {
+			  	document.write("<div class='sched_item_playing'>");
+			  }
+			  else 
+			  {
+			  	document.write("<div class='sched_item'>");
+			  }
+
+			  if (x[i].getElementsByTagName("played_date")[0].hasChildNodes())
+			  {
+				  document.write("<div class='sched_left_col'><div class='schedule_date_time'>");
+				  document.write(x[i].getElementsByTagName("played_date")[0].childNodes[0].nodeValue);
+				  document.write(" - ");
+			  }
+			  if (x[i].getElementsByTagName("played_time")[0].hasChildNodes())
+			  {
+				  document.write(x[i].getElementsByTagName("played_time")[0].childNodes[0].nodeValue);
+				 // document.write("  (24HR)<br />");
+				  document.write("</div></div>");
+			  }
+			  if (x[i].getElementsByTagName("type")[0].hasChildNodes())
+			  {
+				  document.write('<div class="sched_right_col"><div class="schedule_type">');
+				  /* document.write(x[i].getElementsByTagName("type")[0].childNodes[0].nodeValue); */
+				  document.write("</div>");
+			  }
+			  if (x[i].getElementsByTagName("artist")[0].hasChildNodes())
+			  {
+				  document.write('<div class="schedule_artist">');
+				  document.write(x[i].getElementsByTagName("artist")[0].childNodes[0].nodeValue);
+				  document.write("</div>");
+			  }
+
+			  if (x[i].getElementsByTagName("title")[0].hasChildNodes())
+			  {
+				  document.write('<div class="schedule_title">');
+				  document.write(x[i].getElementsByTagName("title")[0].childNodes[0].nodeValue);
+				  document.write("</div>");
+			  }
+			  					  if (x[i].getElementsByTagName("comment1")[0].hasChildNodes())
+			  {
+				  document.write('<div class="schedule_comment1">Additional Info: <br /> ');
+				  document.write(x[i].getElementsByTagName("comment1")[0].childNodes[0].nodeValue);
+				  document.write("</div>");
+			 }
+			  //if (x[i].getElementsByTagName("composer")[0].hasChildNodes())
+			  //{
+				//  document.write('<div class="schedule_composer">');
+				//  document.write(x[i].getElementsByTagName("composer")[0].childNodes[0].nodeValue);
+				//  document.write("</div>");
+
+			  //}
+			  if (x[i].getElementsByTagName("length")[0].hasChildNodes())
+			  {
+				  
+				  document.write('<div class="schedule_length">Length: ');
+				  document.write(x[i].getElementsByTagName("length")[0].childNodes[0].nodeValue);
+				  document.write("</div>");
+			  }
+			  	  document.write("</div></div><br />");
+			  }
+</script>]]></IntroCopy><MainImage type="imagefile" label="Main Image" readonly="false" hidden="false" required="false" Width="460" Height="260" Alignment="" Border="" Expanded="false" ID="14">Academic Advising/homepage.jpg</MainImage><xPower Type="List" List="xpowercomponent_Image" Name="LeftComponents" label="Left Components" readonly="false" hidden="false" required="false" Component="" CompTypes="LeftColumnImageComponent" Expanded="true" ID="15"><xPower Type="Component" Component="x4129" Name="Image" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent" Expanded="false" ID="16"/></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" ID="17"><![CDATA[<p><strong><br /></strong></p>
+<p>KBYR is part of the broadcasting network of Brigham Young University-Idaho. With an inspirational format, KBYR serves the campus and Rexburg community with programming 24/7. A pleasant mix of over 2800 songs can be heard with Devotionals, General Conference reports, talks from Education Week, and various symposia sponsored by BYU and BYU-Idaho. Programming is shaped and governed by a team of students representing academic areas including Communications and Music. KBYR offers a safe haven where listeners can feel comfortable with uplifting music and messages of hope and inspiration.</p>
+<p>&nbsp;</p>
+<p><a href="http://www.byui.edu/KBYRStream/default.asx">Listen online to our Windows Media stream <img border="0" height="22" src="http://www.byui.edu/kbyr/assets/images/stream1d.jpg" width="81" /></a> <br /><a href="http://www.byui.edu/KBYR/flash_radio_player/kbyrStation.html">Listen online to our Flash stream in our popout player <img border="0" height="26" src="http://www.byui.edu/kbyr/assets/images/Flash_48.png" width="26" /></a></p>]]></BodyCopy><xPower Name="Quote" Type="Component" Component="" label="Quote" ID="18" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" ID="19"/><xPower Type="Component" Component="x921" Name="SiteControl" label="Site Control" readonly="true" hidden="true" required="false" CompTypes="SiteControl" Expanded="false" ID="20"/></GeneralLandingPage>

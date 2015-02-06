@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.70 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x55782" Name="Nursing Transfer Student Tutorial" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Nursing Transfer Student Tutorial</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Nursing Transfer Student Tutorial</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<script type="text/javascript">
+            $(document).ready(function(){
+                $(".tutorial").hide();
+                $("#intro").show();
+                $("#restart").click(function(){
+                    $(".tutorial").hide();
+                    $("#intro").show();
+                });
+                $("#continueintro").click(function(){
+                    $("#intro").hide(500)
+                    $("#areyourn").show(400);	
+                    $("#notrn").hide();	
+                });                
+                $("#yesareyourn").click(function(){
+                    $(".tutorial").hide(500);
+                    $("#almateraccredited").show(400);	
+                    $("#notrn").hide();	
+                });
+                $("#noareyourn").click(function(){
+                    $("#notrn").show(400);
+                });                  
+                $("#almateraccreditedcontinue").click(function(){       
+                    $(".tutorial").hide(500);
+                    $("#whatisalmateraccredited").show(200);
+                    $("#explainaccreditation").hide();	                });                              
+                $("#iamenrolled").click(function(){
+                    $(".tutorial").hide(500);
+                    $("#almateraccredited").show(400);
+                    $("#notrn").hide();	
+                });                                    
+                $("#notenrolled").click(function(){
+                    $(".tutorial").hide(500);
+                    $("#rntobsnexplained").show(400);
+                    $("#notrn").hide();	
+                });               
+                $("#dontknowaccreditation").click(function(){
+                    $("#explainaccreditation").show(400);
+                });                               
+                $("#regionalaccredited").click(function(){
+                    $(".tutorial").hide(500);
+                    $("#isaccrediteda").show(400);
+                    $("#explainaccreditation").hide();	
+                });                               
+                $("#nationallyaccredited").click(function(){
+                    $(".tutorial").hide(500);
+                    $("#threeaccreditation").show(400);
+                    $("#explainaccreditation").hide();	
+                });                                      
+                $("#learnmoreasnyes").click(function(){
+                    $(".tutorial").hide(500);
+                    $("#whichdescribesbackground").show(400);
+                });
+                // <{Check Point}>
+            });
+</script>
+<style type="text/css"><!--
+            .pointer{
+                cursor: pointer;
+                text-decoration: underline;
+            }
+            .pointer:hover{
+                color: gray;
+                text-decoration: none;
+            }
+            .header>h1{
+                margin: 5px;
+                padding: 5px;
+            }
+            .header>h1, .header>button{
+                display: inline;
+            }
+            .tutorial{
+                width: 500px;
+                border-width: 3px;
+                border-style: solid;
+                border-color: #686868;
+                border-radius:25px;
+                margin: 5px;
+                padding: 15px;
+                display: none;*//*
+            }
+--></style>
+<div class="header">
+<h1><span style="font-family: helvetica;">Nursing Tutorial</span></h1>
+<span style="font-family: helvetica;"> <button id="restart">Restart</button></span></div>
+<div class="tutorial" id="intro" style="border: 3px solid; padding: 15px; border-color: #686868;">
+<p><span style="font-family: helvetica;">Intro:We are pleased to learn of your interest in applying to the RN-BSN program. In order to help you know what will be expected of you once admitted, we invite you to answer the questions that follow:</span></p>
+<span style="font-family: helvetica;"> <button id="continueintro">Continue</button></span></div>
+<div class="tutorial" id="areyourn" style="border: 3px solid; padding: 15px; border-color: #686868;">
+<p><span style="font-family: helvetica;">Are you a Registered Nurse(RN)?</span></p>
+<span style="font-family: helvetica;"> <button id="yesareyourn">Yes</button> <button id="noareyourn">No</button> </span>
+<div id="notrn" style="display: none;">
+<p><span style="font-family: helvetica;">Please select one of the following statements that best describes you</span></p>
+<ol>
+<li class="pointer" id="iamenrolled"><span style="font-family: helvetica;">I am currently enrolled in associates of nursing program. OR I have my associates in nursing</span></li>
+<li class="pointer" id="notenrolled"><span style="font-family: helvetica;">I'm not enrolled in a nursing program but want to be.</span></li>
+</ol></div>
+</div>
+<div class="tutorial" id="almateraccredited" style="border: 3px solid; border-color: #686868; padding: 15px;">
+<p><span style="font-family: helvetica;">Great, please  realize that the number of courses and credits you are expected to complete will differ depending on:</span></p>
+<ul>
+<span style="font-family: helvetica;">
+<li>the accreditation status of your college and/or university (school)</li>
+<span style="font-family: helvetica;">
+<li>the type of degree you have</li>
+</span></span> 
+</ul>
+<span style="font-family: helvetica;"> <button id="almateraccreditedcontinue">Continue</button></span></div>
+<div class="tutorial" id="whatisalmateraccredited" style="border: 3px solid; border-color: #686868; padding: 15px;">
+<p><span style="font-family: helvetica;">What is the accreditation status of your university and/or college?</span></p>
+<ol> <span style="font-family: helvetica;">
+<li class="pointer" id="dontknowaccreditation">I don't know. Why is this important?</li>
+<span style="font-family: helvetica;">
+<li class="pointer" id="regionalaccredited">It is regional accredited.</li>
+<span style="font-family: helvetica;">
+<li class="pointer" id="nationallyaccredited">It is nationally accredited.</li>
+</span></span></span></ol>
+<div id="explainaccreditation" style="display: none;">
+<p><span style="font-family: helvetica;">Accreditation is important to pay attention to because:</span></p>
+<ul>
+<span style="font-family: helvetica;">
+<li>Accreditation shows that school (or an institution) meets specified standards.</li>
+<span style="font-family: helvetica;">
+<li>Accreditation help a school identify other schools that share these standards.</li>
+</span></span> 
+</ul>
+<p><span style="font-family: helvetica;">As result, schools with the same accreditation standards will most likely accept each other's course credits.</span></p>
+</div>
+</div>
+<div class="tutorial" id="rntobsnexplained" style="border: 3px solid; border-color: #686868; padding: 15px;">
+<p><span style="font-family: helvetica;">The RN-BSN is designed for active registered nurses. RN licensure is required. The program builds on our Associate of Science in Nursing (ASN).</span></p>
+<p><span style="font-family: helvetica;">Would you like to learn more about our ASN program?</span></p>
+<span style="font-family: helvetica;"> <button id="learnmoreasnyes">Yes</button> <a><button>No</button></a></span></div>
+<div class="tutorial" id="whichdescribesbackground" style="border: 3px solid; border-color: #686868; padding: 15px;">
+<p><span style="font-family: helvetica;">Which of the following best describes your educational background?</span></p>
+<ul>
+<span style="font-family: helvetica;">
+<li class="pointer">High School graduate with no higher education</li>
+<span style="font-family: helvetica;">
+<li class="pointer">High School graduate with some college or university credits</li>
+<span style="font-family: helvetica;">
+<li class="pointer">College or University graduate with an Associate's degree</li>
+<span style="font-family: helvetica;">
+<li class="pointer">College or University graduate with a Bachelor's degree </li>
+</span></span></span></span> 
+</ul>
+</div>
+<!--<{Check Point}>-->
+<div class="tutorial" id="isaccrediteda" style="border: 3px solid; border-color: #686868; padding: 15px;">
+<p><span style="font-family: helvetica;">Is your regionally accredited degree an:</span></p>
+<ol> <span style="font-family: helvetica;">
+<li class="pointer" id="appliedassociates">Applied Associates</li>
+<span style="font-family: helvetica;">
+<li class="pointer" id="associates">Associates</li>
+<span style="font-family: helvetica;">
+<li class="pointer" id="whatsthediff">What's the difference?</li>
+</span></span></span></ol></div>
+<div class="tutorial" id="threeaccreditation" style="border: 3px solid; border-color: #686868; padding: 15px;">
+<p><span style="font-family: helvetica;">Regional, national and specialized are the main types of accreditations:</span></p>
+<ul>
+<span style="font-family: helvetica;">
+<li>Regional and national accreditation focuses on the standards of entire school.</li>
+<span style="font-family: helvetica;">
+<li>Specialized accreditation focuses on the standards of departments or programs within a school in relation to a specialized field (like Nursing, Engineering, Mechanics, etc...)</li>
+</span></span> 
+</ul>
+<p><span style="font-family: helvetica;">As a result a regionally and a nationally accredited school could both have the same specialized accreditation of a program (like Nursing) but the credits still may not transfer from one to the other because one school is regionally accredited; whereas the other is nationally accredited.</span></p>
+</div>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x1839" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

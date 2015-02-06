@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.68 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x65678" Name="Used Rental Items" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Used Equipment Sales</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">This page gives price and availability for used equipment sales through the Outdoor Resource Center.</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<div>
+<p><img alt="Used equipment" height="216" src="Images/outdoor-resource-center/Tent_and_packs.png" title="ORC Used Equipment" width="650" /></p>
+<p><span style="font-size: large; font-family: georgia,palatino;"><strong>Used Equipment For Sale</strong></span></p>
+<p><span style="font-family: georgia,palatino;">The ORC has lots of high-quality used items for purchase.&nbsp; Below is a list of things you can buy, with prices included.&nbsp; Quantities are limited so be sure to stop by and check us out. To purchase anything on this list just stop by the ORC and ask about an item.</span></p>
+<p><span style="font-family: georgia,palatino;">Items can be purchased on a first come first serve basis from the Outdoor Resource Center.&nbsp;</span><strong><span style="font-family: georgia,palatino;">&nbsp;</span></strong>&nbsp;Prices are subject to change with out notice, this list may not be up to date.</p>
+<p></p>
+<h1><span style="font-family: Georgia; color: #303538;"></span>&nbsp;</h1>
+<table align="left" border="1" cellpadding="5" cellspacing="10" style="border: #000000 1px solid;">
+<tbody>
+<tr>
+<td>Item</td>
+<td>Price</td>
+<td>Size</td>
+<td>Quantity</td>
+</tr>
+<tr>
+<td>Kayak Helemt and Protective Face Masks</td>
+<td>$10.00</td>
+<td>L, S</td>
+<td></td>
+</tr>
+<tr>
+<td>Single Speed Cruizer Bike</td>
+<td>$50</td>
+<td>W's</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Atomic Skate/Combi Boot Size 42</td>
+<td>$10</td>
+<td>Unisex</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Snowsport Helmet</td>
+<td>$10</td>
+<td>L</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Snowboard Boots</td>
+<td>$15</td>
+<td>7</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Wonder Hand Pump</td>
+<td>$10</td>
+<td>-</td>
+<td>12</td>
+</tr>
+<tr>
+<td>Bellow Foot Pump</td>
+<td>$10</td>
+<td>-</td>
+<td><span style="background-color: #f1f1f1;">1</span></td>
+</tr>
+<tr>
+<td>Overshoes (NEOS)</td>
+<td>$25</td>
+<td>XS</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Casa 6 Tent</td>
+<td>$100</td>
+<td>6 person</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Crestone 1 Tent</td>
+<td>$30</td>
+<td>1 person</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Mountaineering Boots</td>
+<td>$25</td>
+<td>7</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Gear Sled</td>
+<td>$25</td>
+<td>-</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Wet Suit</td>
+<td>$15</td>
+<td>M</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Wet Suit</td>
+<td>$15</td>
+<td>XXL</td>
+<td>1</td>
+</tr>
+<tr>
+<td>LTD Snowboard Bindings</td>
+<td>$35</td>
+<td>M</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Stearns Adult PFD</td>
+<td>$10</td>
+<td>L/XL</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Grandsport Youth PFD</td>
+<td>$10</td>
+<td>30-50 lbs</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-family: georgia,palatino;">&nbsp;</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1 style="text-align: center;"></h1>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</div>]]></BodyCopy><xPower Type="Component" Component="x30165" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x28149" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

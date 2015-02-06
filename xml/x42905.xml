@@ -1,0 +1,307 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content ID="x42905" Name="Flexible Degree Structures" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Flexible Degree Structures</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Overview of the degree structures that BYU-Idaho offers to provide flexibility and cost savings for students</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<!-- END Enhanced Body Copy Area Template 2012, by Jakob Anderson [ and08073@byui.edu ] -->
+<style type="text/css"><!--
+html, body {
+                padding: 0;
+                margin: 0;
+                /* height: 100%; */
+            }
+            body, div, p {
+                font-family: Georgia;
+                color: #333;
+            }
+            body {
+                background-color: white;
+            }
+            #container{
+                margin-top: -20px;
+                width: 712px;
+                overflow:auto;
+/*                border: 1px solid lightgrey;*/
+                padding:0px;
+            }
+            #container a{
+                text-decoration:none;
+                color:white;
+            }
+            #container a:hover{
+                text-decoration:underline;
+            }
+            #top{background-color: #232425;
+            }
+           /* .separator{ */
+           /*     padding-top:10px;*/
+            /*  border-bottom: 1px dotted #666666;*/
+        /* }*/
+            #topleft{
+                float:left;
+                width:420px;
+                font-size: 110%;
+            }
+            #topleft ul{
+                padding-left:20px;
+            }
+            #topright{
+                float:right;
+                width:260px;
+                margin: 30px 10px 0 0;
+            }
+            .lightgrey{
+                color:#898989;
+            }
+            .italics{
+                width:90%;
+                font-style: italic;
+            }
+            .clear{
+                clear:both;
+            }
+            #degreebuttontable td{
+                height:55px;
+                width:200px;
+                padding:5px;
+                padding-top:10px;
+            }
+            #rightdegreebuttontable td{
+                height:127px;
+                width:280px;
+                padding:5px;
+                padding-top:10px;
+                text-align:center;
+            }
+            #rightdegreebuttontable a{
+                text-decoration: none;
+            }
+            td{
+                border-radius: 10px;
+            }
+            .pinkcolor{
+                background-color: #9c4375;
+            }
+            .orangecolor{
+                background-color: #d0532c;
+            }
+            .greencolor{
+                background-color: #aca228;
+            }
+            .bluecolor{
+                background-color: #2e69ab;
+            }
+            .yellowcolor{
+                background-color: #f69710;
+                /*                background-color: #fdd95b;*/
+                background: -webkit-gradient( linear, 0 0, 100% 100%, from(#f69710), to(#fdd95b) );
+                background: -moz-linear-gradient( top, #f69710, #fdd95b );
+            }
+            .pinkcolortitle{
+                color: #9c4375;
+                font-size:130%;
+            }
+            .orangecolortitle{
+                color: #d0532c;
+                font-size:130%;
+            }
+            .greencolortitle{
+                color: #aca228;
+                font-size:130%;
+            }
+            .bluecolortitle{
+                color: #2e69ab;
+                font-size:130%;
+            }
+            .learnmore{
+                font-size: 80%;
+                text-align: right;
+            }
+            .buttontitle{
+                color:#fff;
+                font-family: Helvetica;
+                font-size: 80%;
+                letter-spacing: 2px;
+                padding:5px;
+            }
+            .buttonsmall{
+                position:absolute;
+                color:#fff;
+                font-family: Helvetica;
+                font-style: italic;
+                font-size: 65%;
+                top:33px;
+                right:10px;
+                padding-right:5px;
+            }
+            .degreebox{
+                color:#fff;
+                font-family: Helvetica;
+                font-size: 90%;
+                padding:15px 0px;
+                width:100%;
+                min-height:200px;
+                float: left;
+              /*  border-top: 1px dotted #666666;*/
+            }
+            .descriptionbox{
+                font-family: Helvetica;
+                font-size: 90%;
+                padding:35px 5px;
+            }
+            table, th, td {
+                vertical-align: top;
+            }
+            .totop{
+                position:relative;
+                top:20px;
+                color:white;
+                font-size:10px;
+            }
+            #degreebuttontable a{
+                text-decoration:none;
+                color:white;
+            }
+            #degreebuttontable a:hover{
+                text-decoration:underline;
+                color:white;
+            }
+            #bottom{
+                margin-top:15px;
+            }
+            #bottom a{
+                text-decoration:none;
+                color:white;
+            }
+            #bottom a:hover{
+                text-decoration:underline;
+                color:white;
+            }
+            .yellowmedium{
+                font-size:90%;
+                font-family: Helvetica;
+                color:white;
+                padding:5px;
+            }
+
+            .yellowlarge{
+                font-size:170%;
+                font-family: Helvetica;
+                color:white;
+            }
+            .yellowsmall{
+                font-family: Helvetica;
+                line-spacing:15px;
+                font-size:85%;
+                color:black;
+                padding-top:5px;
+            }
+            .threecolumns{
+                width: 710px;
+                float:left;
+            }
+            .abutton{
+                position:relative;
+                margin:5px;
+                padding:5px;
+                height:45px;
+                border-radius:8px;
+            }
+            .bigbutton{
+                margin:5px;
+                padding:5px;
+                height:105px;
+                border-radius:8px;
+                text-align:center;
+            }
+            .leftdegreebox{
+                font-family: Helvetica;
+                font-size: 14px;
+                width: 301px;
+                height: 230px;
+                margin:5px 9px 10px 5px;
+                padding:30px 20px;
+                float:left;
+                border-radius: 4px;
+                min-height:200px;
+                color:white;
+            }
+           /* .rightdegreebox{*/
+           /*     padding:30px 20px;*/
+            /*    width:420px;*/
+           /*     float:right;*/
+           /*     min-height:200px;*/
+         /*   }
+--></style>
+<div id="container">
+<div id="top">
+<div id="topleft"><br />Because BYU-Idaho is committed to providing you with an innovative educational experience, the university has built greater flexibility and versatility into your degree options.<br /><br />Our bachelor's degrees are organized into four simple structures highlighted below. Each has its unique characteristics that may give you:<br /><br />
+<ul>
+<li>Clearer guidelines to choose the right major</li>
+<li>Greater freedom to utilize elective credits</li>
+<li>Greater flexibility to build your own degree</li>
+<li>Earlier graduation&mdash;saving time and money</li>
+</ul>
+</div>
+<div id="topright"><img alt="Flexible Degrees Image" src="http://www.byui.edu/Images/Academic-Advising/flexible-degrees-text.gif" /></div>
+</div>
+</div>
+<hr />
+<div id="bottom">
+<div class="pinkcolor leftdegreebox">
+<h4 style="color: white;"><strong>Standard Degree:</strong></h4>
+<h4 style="color: white;"><a name="integrated"></a><strong></strong></h4>
+<ul>
+<li>40-55 credits in major</li>
+<li>No minor or clusters required</li>
+<li>40 Foundations credits</li>
+<li>Elective credits to reach 120 credits</li>
+</ul>
+<p style="color: white;"><em>These majors allow you to use your elective credits that best fit your career &amp; life goals.<br /><br /></em></p>
+<h5><a href="x45191.xml" style="color: yellow; text-decoration: underline;" title="Standard Degrees">List of Standard Degrees</a><a href="#"><br /></a></h5>
+</div>
+<div class="orangecolor leftdegreebox">
+<h4 style="color: white;"><a name="integrated"></a><strong>Integrated Standard Degree:</strong></h4>
+<h4 style="color: white;"><a name="integrated"></a><strong></strong></h4>
+<ul>
+<li>Up to 67 credits in major</li>
+<li>40 Foundations credits</li>
+<li>Elective credits to reach 120 credits</li>
+</ul>
+<p style="color: white;"><em><br />These majors may require you to integrate a minor or cluster to complement your degree.<br /><br /></em></p>
+<h5><a href="x45194.xml" style="color: yellow; text-decoration: underline;" title="Integrated Standard Degrees">List of Integrated Standard Degrees</a><a href="#"><br /></a></h5>
+</div>
+<div class="greencolor leftdegreebox">
+<h4 style="color: white;"><strong>Specialized Degree:<br /></strong></h4>
+<h4 style="color: white;"><a name="integrated"></a><strong></strong></h4>
+<ul>
+<li>Up to 80 credits in major</li>
+<li>40 Foundations credits</li>
+<li>Limited elective credits</li>
+</ul>
+<p style="color: white;"><em>These majors require high credits to satisfy accreditation or certification requirements.<br /><br /></em></p>
+<h5><a href="x45196.xml" style="color: yellow; text-decoration: underline;" title="Specialized Degrees"><br />List of Specialized Degrees</a><a href="#"><br /></a></h5>
+</div>
+<div class="bluecolor leftdegreebox">
+<h4 style="color: white;"><strong>Interdisciplinary Studies Degree:</strong></h4>
+<ul>
+<li>Select a <span style="text-decoration: underline;"><a href="x93175.xml" title="Possible Concentrations">Concentration</a></span><em><small> (30-36 credits)</small></em></li>
+<li>Add one of the following:
+<ul>
+<li>One minor, <em>or</em></li>
+<li>Two clusters, <em>or</em></li>
+<li>2nd concentration</li>
+</ul>
+</li>
+</ul>
+<p style="margin-top: -10px; color: white;"><em>This degree is for students who want flexibility in creating their own degree.</em></p>
+<h5 style="margin-top: -5px;"><a href="http://www.byui.edu/Documents/catalog/2013-2014/Interdisciplinary%20Studies.pdf" style="color: yellow; text-decoration: underline;" title="BYU-I Catalog Interdisciplinary Studies">Interdisciplinary Studies Webpage</a>&nbsp;<a href="#"><span class="totop"><br /></span></a></h5>
+</div>
+</div>
+<div class="threecolumns">
+<div class="yellowcolor bigbutton">
+<div class="yellowmedium">Find out what works for you</div>
+<div class="yellowlarge"><a href="x24269.xml" title="ADC Locations">VISIT US TODAY!</a></div>
+<div class="yellowsmall">Manwaring Center 129 &bull; (208) 496-9800<br /> academicdiscoverycenter@byui.edu</div>
+</div>
+</div>
+<!-- thumbnail scroller markup end -->
+<p></p>
+<!-- END Enhanced Body Copy Area Template 2012, by Jakob Anderson [ and08073@byui.edu ] -->]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x17690" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

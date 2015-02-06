@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x53228" Name="Student Society" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Course Offerings</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Course Offerings</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" hidden="true" label="Toggle column right or left (right is default)" readonly="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<div>
+<p style="text-align: center;"><strong>Student Societies</strong></p>
+<p style="text-align: center;">These are academic societies to which BYU-Idaho Biology students belong.  <br />You do not have to major in Biology to belong to these societies</p>
+<p style="text-align: center;"><strong><a href="http://www.byui.edu/Societies/dental/default.htm">Dental Society</a></strong></p>
+<p style="text-align: center;"><a href="http://www2.byui.edu/Biology/Presentation3.ppt">Honduras Trip</a></p>
+<p style="text-align: center;"><a href="http://www2.byui.edu/Biology/Dental%20Honduras%20Expedition.htm">Honduras Expedition Description</a></p>
+<p style="text-align: center;"> </p>
+<p style="text-align: center;"><strong>Pre-Chiropractic Society</strong></p>
+<p style="text-align: center;"><strong>Pre-Medical Society</strong></p>
+<p style="text-align: center;"><strong>Pre-Optometry</strong></p>
+<p style="text-align: center;"><strong>Pre-Pharmacy Students</strong></p>
+<p style="text-align: center;"><strong>Pre-Physical Therapy Society</strong></p>
+<p style="text-align: center;"><strong><a href="http://emp.byui.edu/STRICKLAND/wildlife_club_of_byu.htm">Wildlife Society</a></strong></p>
+<br />
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+</div>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="false" required="false">0.5</Priority></xPower><xPower Type="Component" Component="x1835" Name="SiteControl" label="Site Control" readonly="true" hidden="true" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

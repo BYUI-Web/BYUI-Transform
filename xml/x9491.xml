@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x9491" Name="Contact Us" Layout="general_content.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Contact Us</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Contact Us</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="true"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent" Expanded="false"/><xPower Type="Component" Component="x10128" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent" Expanded="false"/></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<div>
+<h4>Stop by our office: 196 Kimball Building</h4>
+<p>See map</p>
+<hr />
+<p>Office: (208) 496.9220</p>
+<p>Fax: (208) 496.5220</p>
+<p>E-mail: <a href="mailto:housing@byui.edu">housing@byui.edu</a></p>
+<hr />
+<table border="0" style="width: 100%;">
+<tbody>
+<tr>
+<td><img height="128" src="Images/Admin_Offices/Housing/Contact Us/Chat Button.png" width="128" /></td>
+<td valign="middle">
+<h5>Live Chat:</h5>
+Get help from an office representative today.
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td style="text-align: center;"><a href="http://www.facebook.com/pages/BYU-I-Housing/278205531212" title="Visit our Facebook page"><img height="128" src="Images/Admin_Offices/Housing/Contact Us/1301325710_facebook.png" style="float: left;" width="128" /></a></td>
+<td style="text-align: center;" valign="middle">
+<h5 style="text-align: left;"></h5>
+<h5 style="text-align: left;">Facebook:</h5>
+<p style="text-align: left;">Follow us on Facebook</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td style="text-align: center;">
+<p><a href="http://twitter.com/#!/BYUIHousing"><img height="128" src="Images/Admin_Offices/Housing/Contact Us/1301325699_twitter.png" style="float: left;" width="128" /></a></p>
+<p>&nbsp;</p>
+</td>
+<td style="text-align: center;" valign="middle">
+<h5 style="text-align: left;"></h5>
+<h5 style="text-align: left;">Twitter:</h5>
+<p style="text-align: left;">Follow us on Twitter</p>
+<p style="text-align: left;">&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>
+</div>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="false" required="false">0.5</Priority></xPower><xPower Type="Component" Component="x9287" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

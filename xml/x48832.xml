@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x48832" Name="imodules.js" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">imodules.js</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">imodules.js</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">$(document).ready(function(){
+
+	////////////////////
+	// RSS Functionality
+	////////////////////
+	jQuery(function() {
+  	  jQuery.getFeed({
+	        url: 'rss.xml',
+	        success: function(xml) {
+	            var html = '&lt;ul&gt;';
+	            for(var i = 0; i &lt; xml.items.length; i++) {
+	                var item = xml.items[i];
+	                if(i % 2 == 0){
+	                  html += '&lt;li class="even"&gt;';
+	                }else{
+	                  html += '&lt;li class="odd"&gt;';
+	                }
+	                html += ' 	&lt;a href="'
+	                + item.link
+	                + '" '
+	                + 'title="'
+	                + item.updated
+	                + item.description.replace(/\\n/g, "")
+	                + '"&gt;'
+	                + item.title
+	                + '&lt;/a&gt;'
+	                + '&lt;/li&gt;';
+	            }
+	            html += '&lt;/ul&gt;';
+	            jQuery('#newsEventsList').append(html);
+	            jQuery("#newsEventsList").jScrollPane({scrollbarWidth:16});
+	        }    
+	    });
+	});	
+	
+	jQuery(function() {
+  	  jQuery.getFeed({
+	        url: 'class_notes_rss.xml',
+	        success: function(xml) {
+	            var html = '&lt;ul&gt;';
+	            for(var i = 0; i &lt; xml.items.length; i++) {
+	                var item = xml.items[i];
+	                if(i % 2 == 0){
+	                  html += '&lt;li class="even"&gt;';
+	                }else{
+	                  html += '&lt;li class="odd"&gt;';
+	                }
+	                html += ' 	&lt;a href="'
+	                + item.link
+	                + '" '
+	                + 'title="'
+	                + item.updated
+	                + item.description.replace(/\\n/g, "")
+	                + '"&gt;'
+	                + item.title
+	                + '&lt;/a&gt;'
+	                + '&lt;/li&gt;';
+	            }
+	            html += '&lt;/ul&gt;';
+	            jQuery('#classEventsList').append(html);
+	            jQuery("#classEventsList").jScrollPane({scrollbarWidth:16});
+	        }    
+	    });
+	});
+	
+	jQuery(function() {
+  	  jQuery.getFeed({
+	        url: 'class_notes_rss.xml',
+	        success: function(xml) {
+	            var html = '&lt;ul&gt;';
+	            for(var i = 0; i &lt; xml.items.length; i++) {
+	                var item = xml.items[i];
+	                if(i % 2 == 0){
+	                  html += '&lt;li class="even"&gt;';
+	                }else{
+	                  html += '&lt;li class="odd"&gt;';
+	                }
+	                html += ' 	&lt;a href="'
+	                + item.link
+	                + '" '
+	                + 'title="'
+	                + item.updated
+	                + item.description.replace(/\\n/g, "")
+	                + '"&gt;'
+	                + item.title
+	                + '&lt;/a&gt;'
+	                + '&lt;/li&gt;';
+	            }
+	            html += '&lt;/ul&gt;';
+	            jQuery('#messageEventsList').append(html);
+	            jQuery("#messageEventsList").jScrollPane({scrollbarWidth:16});
+	        }    
+	    });
+	});
+
+
+
+});</ESContent></EmptyShell>

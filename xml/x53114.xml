@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<Content ID="x53114" Name="Active Internship" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Active Internship</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Avtive Internship</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<p>Test for the <a href="https://www.dropbox.com/s/hdpkb1vgw11i44u/from_java_to_ruby.pdf">pdf upload</a>&nbsp;and other test <a href="http://www.dropbox.com/s/j1poxhe1znpqlh5/Getting%20Started.pdf">pdf upload</a></p>
+<p>It will be a link will show for five day. 22 - 26</p>
+<div id="mylink" style="display: none;"><a href="http://www.google.com">The link only show on 22 - 26 of March</a></div>
+<script type="text/javascript">
+var information =  document.getElementById("mylink");
+
+var startday = 22; // user input for the start day
+var endday = 26; // user input for the end day
+var startmonth = 3;
+var endmonth = 3;
+var nextyear = 0; // use full date like 2013. this for if you what go next year like first of the month which is 1
+
+
+var now = new Date();  // Today information
+var day = now.getDate(); // get the today  like 22 if on that date of the month
+var month = now.getMonth() + 1;  //get the month
+
+var year = now.getFullYear();
+	
+if (startmonth == endmonth) // test the both month are same
+{
+    if (startmonth == month) // this test if you are in the less than and equal month you are on
+	{
+	    if (day >= startday && day <= endday)
+		{
+		  information.style.display = "block";
+		}
+		
+    }
+}
+
+else if (nextyear > year )
+{
+	    if (startmonth <= month)
+		{
+		   information.style.display = "block";
+	    }
+}	    
+
+else if (nextyear == year )
+{
+	    if (endmonth <= month)
+		{
+		    if (day <= endday)
+			{
+			  information.style.display = "block";
+			}
+	    }
+}	   
+
+else
+{
+    if (endmonth == month)
+	{
+	   if (day <= endday)
+		{
+		  information.style.display = "block";
+		}
+	}
+	if (startmonth == month)
+	{
+	   if (day >= startday)
+		{
+		  information.style.display = "block";
+		}
+	}
+	else if (startmonth <= month && endmonth >= month)
+	{
+	   information.style.display = "block";
+	}
+}
+</script>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x1833" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

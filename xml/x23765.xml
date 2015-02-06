@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x23765" Name="Degrees" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Degrees</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Degrees</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" hidden="true" label="Toggle column right or left (right is default)" readonly="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript"></script>
+</div>
+<div>
+<script type="text/javascript">
+$(function() {    
+    var d = new Date();
+    var tDate = d.getFullYear();
+    var nDate = tDate - 1;  
+    var tMonth = d.getMonth();
+    var pstDate = tDate + 1;
+    var psnDate = nDate + 1;
+    
+    if(tMonth >= 9){
+    var myhref = ("Documents/catalog/" + psnDate + "-" + pstDate + "/Political%20Science.pdf");
+ $('.politicalScience').attr('href', myhref);
+    }else{
+    var myhref = ("Documents/catalog/" + nDate + "-" + tDate + "/Political%20Science.pdf");
+ $('.politicalScience').attr('href', myhref);
+    } 
+ });
+</script>
+</div>
+<table border="0" style="width: 710px;">
+<tbody>
+<tr>
+<td onmouseout="this.style.backgroundColor='#FFFFFF'" onmouseover="this.style.backgroundColor='#FFFFFF'" style="background-color: white;">
+<h3><strong>Majors</strong></h3>
+</td>
+<td onmouseout="this.style.backgroundColor='#FFFFFF'" onmouseover="this.style.backgroundColor='#FFFFFF'" style="background-color: white;">
+<h3><strong>Minors</strong></h3>
+</td>
+<td onmouseout="this.style.backgroundColor='#FFFFFF'" onmouseover="this.style.backgroundColor='#FFFFFF'" style="background-color: white;">
+<h3><strong>Pre-Approved Clusters</strong></h3>
+</td>
+</tr>
+<tr>
+<td onmouseout="this.style.backgroundColor='#eeeeee'" onmouseover="this.style.backgroundColor='#eeeeee'" style="background-color: #eeeeee;">
+<p>BA in Political Science Foreign Affairs Emphasis</p>
+<p>BA in Political Science American Government Emphasis</p>
+</td>
+<td onmouseout="this.style.backgroundColor='#eeeeee'" onmouseover="this.style.backgroundColor='#eeeeee'" style="background-color: #eeeeee;">
+<p>Political Science</p>
+<p>American Government Education</p>
+<p>Public Administration</p>
+</td>
+<td onmouseout="this.style.backgroundColor='#eeeeee'" onmouseover="this.style.backgroundColor='#eeeeee'" style="background-color: #eeeeee;">
+<p>American Politics</p>
+<p>International Politics</p>
+<p>Pre-Law</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>For all information dealing with the Political Science Majors, Minors and Pre-Approved Cluster click <a class="politicalScience" href="#" title="Degree Information" target="_blank"> Degree Information</a>. (Information is provided in PDF form, scroll down to research the appropriate section)</p>
+<h1><strong>Foreign Affairs Emphasis</strong></h1>
+<p>The Foreign Affairs emphasis is available to students who wish to concentrate on comparative and international politics. This includes the study of American and other foreign policies, international law and political economy. Different approaches to democracy and economic development are also considered.</p>
+<h1><strong>American Government Emphasis</strong></h1>
+<p>The American Government emphasis is available to students who wish to concentrate on the American political process. This includes the study of national politics including the three branches of government, state and local political institutions, public opinion and voting behavior are also considered.</p>
+<h1><strong>BYU-Idaho/Idaho State University M.A. Programs</strong></h1>
+<p>In order to promote greater educational and career opportunities for students and to develop further collaboration between the two universities, ISU and BYU-Idaho agreed in 2012 to cooperate in promoting an expedited opportunity for BYUI undergraduate students to gain early admission to graduate programs at ISU. As a result, one could earn both degrees in as little as five years.</p>
+<p>Select undergraduate students at BYU-Idaho may work towards graduate degrees from Idaho State University while completing their B.A. degree at BYU-Idaho. Students must follow all required guidelines and deadlines closely and should meet early with an advisor from Idaho State University. Not all classes will be available in every semester; students need to plan for this when working with their advisor to develop the program of study.</p>
+<p><strong>Programs</strong><br />Follow the link below to the I.S.U. website for more information. <br /> <a href="http://www.isu.edu/polsci/" target="_blank">M.A. in Political Science with BYU-Idaho and Idaho State University</a></p>
+<style><!--
+img#linkIcon{
+width: 16px;
+position: relative;
+z-index: -1;
+float: left;
+padding-top: 3px;
+padding-right: 4px;
+}
+--></style>
+<div><strong><img id="linkIcon" src="images/HistoryGeographyPolsci/link.png" />Helpful Links:</strong></div>
+<div><a class="politicalScience" href="#" target="_blank">Department of Political Science Catalog</a></div>
+<div><a href="http://my.byui.edu/ICS/Class_Schedule/" target="_blank">Class Schedule</a></div>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="false" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x8158" Name="SiteControl" label="Site Control" readonly="true" hidden="true" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

@@ -1,0 +1,382 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<Content ID="x47515" Name="OLD - Frequently Asked Questions" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Frequently Asked Questions</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Frequently Asked Questions</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p><meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><meta content="width=device-width; initial-scale=1.0; maximum-scale=2.0; user-scalable=1;" name="viewport" /></p>
+<p><link href="Documents/health-center/topper.css" rel="stylesheet" /><link href="Documents/health-center/css/layout.css" rel="stylesheet" /></p>
+<p></p>
+<style><!--
+body #content_zone .titlehead {
+      border-bottom: solid thin #558ED5;
+   }
+
+body #content_zone .icons {
+      background-position: 0  -600px;
+   background-image:url('http://www.byui.edu/Images/health-center/symbols_150X150.png');
+   background-repeat:no-repeat;
+   width: 150px;
+   height: 150px;
+   margin: 10px;
+   float: left;
+   border-radius: 17px;
+   position: relative;
+   bottom: -60px;    
+   box-shadow: 0px 0px 0px #000000;
+
+   }
+
+#content_zone .collapse{
+	color: #ffffff;
+	cursor: pointer;
+}
+
+#content_zone .closeall:hover {
+        text-decoration: underline;
+        cursor: pointer;
+}
+#content_zone #faqs {
+	padding: 0;
+	margin: 0;
+}
+
+#content_zone #faqs li {
+	clear: both;
+	position: relative;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+#content_zone #faqs div {
+	float: left;
+}
+
+#content_zone #faqs .arrow {
+	width: 30px;
+	height: 30px;
+	background-image: url("Images/health-center/arrows.png");
+	background-position: -30px 0;
+	margin-right: 15px;
+	cursor: pointer;
+	box-shadow: 0px 2px 2px #555555;
+	border-radius: 7px;
+        float: left;
+}
+
+#content_zone #faqs .arrow:hover {
+	background-position: -30px -30px;
+	box-shadow: inset 0px 0px 5px #555555;
+}
+
+#content_zone #faqs .selected {
+	background-position: 0 0;
+}
+
+#content_zone #faqs .selected:hover {
+	background-position: 0px -30px;
+}
+
+#content_zone #faqs .faq {
+	width: 440px;
+	padding-bottom: 15px;
+	position: relative;
+}
+
+#content_zone #faqs .faq .faqTitle {
+	border: 1px solid #558ED5;
+	color: #000000;
+	padding: 4px;
+	padding-left: 5px;
+	clear: both;
+	width: 100%;
+	font-size: 11pt;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+#content_zone #faqs .faq .clickTitle {
+	background-color: #558ED5;
+	color: #ffffff;
+}
+
+#content_zone #faqs .faq .faqBody {
+	border: 1px solid #558ED5;
+	width: 100%;
+	padding: 5px;
+	padding-right: 4px;
+	clear: both;
+	font-size: 10pt;
+        font-family: arial;
+        text-align: left;
+}
+
+#content_zone #faqs .hours{
+        margin: 0;
+        padding: 0;
+}
+#content_zone #faqs .faq .faqBody .just{
+      text-align: justify;
+}
+
+body #content_zone #faqs li .quote {
+	margin: 5px;
+	margin-top: 15px;
+	width: 400px;
+	font-size: 9pt;
+}
+
+body #content_zone #faqs li .quote .state {
+	margin-top: 10px;
+	width: 400px;
+	font-weight: bold;
+}
+{
+body #content_zone #frame {
+   background-image:url('http://www.byui.edu/Images/health-center/metal_frame3.png');
+   position: absolute;
+   right: 0;
+   top: 0px;
+   width: 170px;
+   height: 230px;
+}
+--></style>
+<p>
+<script type="text/javascript">
+function closeAll() {
+   clickSlide($(".open").parent().siblings(".arrow"), $(".open").siblings(".faqTitle"));
+				
+   $(".open").removeClass("open");
+}
+		
+function clickSlide(arrow, title) {
+   var faqBody = $(arrow).next(".faq").children(".faqBody");
+					
+   faqBody.slideToggle(250);
+				
+   if (faqBody.hasClass("open")) {
+      faqBody.removeClass("open");
+   } else {
+      faqBody.addClass("open");
+   }
+				
+   if (arrow.hasClass("selected")) {
+      arrow.removeClass("selected");
+   } else {
+      arrow.addClass("selected");
+   }
+				
+   if (title.hasClass("clickTitle")) {
+      var t = setTimeout(function() {
+      title.removeClass("clickTitle");
+   }, 250);
+   } else {
+      title.addClass("clickTitle");
+   }
+}
+</script>
+</p>
+<div id="content_zone">
+<div id="topper">
+<div class="titlehead">Frequently Asked Questions</div>
+<div id="frame">
+<div class="icons"></div>
+<div class="shadow"></div>
+</div>
+</div>
+<div id="topsec">
+<p class="closeall" onclick="closeAll()">Collapse All(-)</p>
+<ul id="faqs">
+<li>
+<div class="arrow"></div>
+<div class="faq">
+<div class="faqTitle">What are your hours?</div>
+<div class="faqBody">
+<ul>
+<li><strong>Student Health Center:</strong>
+<ul>
+<li class="hours"><span>8am - 5pm</span> MWThF:</li>
+<li class="hours"><span>8am - 2pm, 3pm - 5pm</span> Tues:</li>
+</ul>
+</li>
+<li><strong>Pharmacy:</strong>
+<ul>
+<li class="hours"><span>9am - 5pm</span> MWThF:</li>
+<li class="hours"><span>9am - 2pm, 3pm - 5pm</span> Tues:</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li>
+<div class="arrow"></div>
+<div class="faq">
+<div class="faqTitle">What do I do for my mission physical?</div>
+<div class="faqBody">You can find step-by-step instructions at: <br /> <a href="http://www.byui.edu/x37090.xml">www.byui.edu/health-center/services/mission-physicals</a></div>
+</div>
+</li>
+<li>
+<div class="arrow"></div>
+<div class="faq">
+<div class="faqTitle">What do I do for my premarital exam?</div>
+<div class="faqBody">You can find step-by-step instructions at: <br /> <a href="http://www.byui.edu/x43063.xml">www.byui.edu/health-center/services/premarital-exams</a></div>
+</div>
+</li>
+<li>
+<div class="arrow"></div>
+<div class="faq">
+<div class="faqTitle">Why do I have to get a TB test?</div>
+<div class="faqBody">
+<ul>
+<li><strong>All</strong> missionaries need to have a TB test upon returning from a mission <strong>regardless of where they have served.</strong> Also those who have lived in or traveled to a high-risk country need to have a TB test.</li>
+<li>For a list of high-risk countries and more information, please visit: <a href="x34770.xml">www.byui.edu/health-center/services/tb-testing</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li>
+<div class="arrow"></div>
+<div class="faq">
+<div class="faqTitle">Why can't you do a TB test on Thursday?</div>
+<div class="faqBody">TB tests have to be checked 48-72 hours after being administered. The Student Health Center is only open Monday-Friday, so if a TB Test were administered on Thursday, it couldn&rsquo;t be checked in 48-72 hours.</div>
+</div>
+</li>
+<li>
+<p>For more questions about TB Holds, watch our <a href="x43322.xml">TB Hold Tutorials.</a></p>
+</li>
+<li>
+<div class="arrow"></div>
+<div class="faq">
+<div class="faqTitle">Who can be seen at the Health Center?</div>
+<div class="faqBody">Only students of the university and their dependents can be seen at the Health Center.</div>
+</div>
+</li>
+<li>
+<div class="arrow"></div>
+<div class="faq">
+<div class="faqTitle">What is your No-Show Policy?</div>
+<div class="faqBody">If you are unable to make your appointment contact the Health Center immediately.<br /><br /> You will be charged a $10 fine if you do not show up for your appointment or cancel less than an hour before.</div>
+</div>
+</li>
+<li>
+<div class="arrow"></div>
+<div class="faq">
+<div class="faqTitle">What vaccines do you have?</div>
+<div class="faqBody">We offer the following immunizations:
+<ul>
+<li>Allergy Shots (Recurring)</li>
+<li>Hepatitis A</li>
+<li>Hepatitis B</li>
+<li>Combination Hepatitis A and B</li>
+<li>Meningococcal Meningitis</li>
+<li>MMR (Measles, Mumps, and Rubella)</li>
+<li>Polio</li>
+<li>Tdap (Tetanus, Diphtheria, Pertussis)</li>
+<li>Typhoid</li>
+<li>Yellow Fever</li>
+<li>Influenza</li>
+</ul>
+For more information, visit: <br /> <a href="x34773.xml">www.byui.edu/health-center/services/immunizations</a></div>
+</div>
+</li>
+<li>
+<div class="arrow"></div>
+<div class="faq">
+<div class="faqTitle">How do I pay for my visit to the Health Center?</div>
+<div class="faqBody">Any charges you incur at the Student Health Center will be placed on your student account. You can pay outstanding balances on your student account at the cashier's office in the Kimball building, or you may pay the balance online by accessing <a href="http://my.byui.edu">http://my.byui.edu</a>.</div>
+</div>
+</li>
+<li>
+<div class="arrow"></div>
+<div class="faq">
+<div class="faqTitle">Does the Health Center take private insurance?</div>
+<div class="faqBody">
+<div><strong>The Student Health Center:</strong></div>
+<div class="quote">The Student Health Center does not bill private insurance. A recent survey stated there are more than 450 different private insurance companies for BYU-Idaho students. It would be an impossible task for the current billing department to bill and tract this many private insurance carriers. With students usually at BYU-Idaho two semesters and gone one semester the Student Health Center would have problems contacting students for information. Another important factor is the number of foreign insurance companies involved and the problems associated with billing them.</div>
+<div><strong>The Pharmacy:</strong></div>
+<div class="quote">The Student Health Center Pharmacy is able to directly bill most private insurance plans (hundreds of national plans). These include Blue Cross and Blue Shield, Tricare (military), Medco, DMBA, Aetna, Caremark, CVS, Cigna, Express Scripts, Medimpact, and many others. Bring in your pharmacy insurance card and we'll be glad to run it for you. If you do not have your card here at school, your parents can fax us a copy of their pharmacy card and we can rerun it for you, even if you have already picked up the prescription (as long as it is less than one month from the time you picked it up).</div>
+</div>
+</div>
+</li>
+<li>
+<div class="arrow"></div>
+<div class="faq">
+<div class="faqTitle">What is "Co-pay" and how much is it?</div>
+<div class="faqBody">
+<ul>
+<li>A Co-payment, or &ldquo;Co-pay&rdquo;, is a fixed dollar amount (for example $20 or $30) you pay for specified covered services such as a doctor office visit.</li>
+<li>If you have Student Insurance, the Co-payment for a visit at the Student Health Center is $10</li>
+</ul>
+For more information, visit <a href="x34763.xml">www.byui.edu/health-center/insurance</a></div>
+</div>
+</li>
+<li>
+<div class="arrow"></div>
+<div class="faq">
+<div class="faqTitle">How do I get my insurance card?</div>
+<div class="faqBody">If you have Student Health Insurance, then you should receive your insurance card in the mail. However, this is mailed to the address on record when you register. This means your card could be mailed to your parent&rsquo;s house.</div>
+</div>
+</li>
+<li>
+<div class="arrow"></div>
+<div class="faq">
+<div class="faqTitle">How do I find my insurance policy number?</div>
+<div class="faqBody"><strong>If you have your Insurance Card:</strong>
+<ul>
+<li>Policy number should be displayed and marked appropriately.</li>
+</ul>
+<strong>No Insurance Card:</strong>
+<ul>
+<li>You will need to contact DMBA for access to your policy number.<br />1-800-777-3622</li>
+</ul>
+</div>
+</div>
+</li>
+<li>
+<div class="arrow"></div>
+<div class="faq">
+<div class="faqTitle">How does my insurance work if I am out of state?</div>
+<div class="faqBody">
+<ul>
+<li>If you are out of state, you are covered by the Away From Campus insurance option.</li>
+<li>From the Student Insurance Handbook:</li>
+</ul>
+<div class="quote">&ldquo;If you are away from Rexburg, you may receive your medical care from any qualified, appropriately licensed medical provider. However, it will be to your advantage to use providers who are part of Deseret Mutual&rsquo;s national Preferred Provider Network whenever possible.&rdquo; (Page 4)</div>
+<div class="quote">&ldquo;You must still preauthorize any care you receive outside of the SHC, other than emergency and well-baby care.&rdquo; (Page 4)</div>
+<div class="quote">For information about providers in your area, please call the appropriate telephone number. Be sure to identify yourself as a participant in a Deseret Mutual plan.
+<div class="state">Hawaii: MDX (formerly Queen&rsquo;s Health Care Plan Network)</div>
+<br /><span>1-808-293-3970</span><br />
+<div class="state">Idaho and Utah: Deseret Mutual Contracted Providers</div>
+<br /><span>1-800-777-3622 or www.dmba.com (click on &ldquo;Find a Provider&rdquo;)</span><br />
+<div class="state">All other states: First Health Medical Network</div>
+<br /><span>1-800-226-5116 or www.firsthealth.com (Page 19)</span></div>
+For more information, please refer to the <a href="http://www.dmba.com/nsc/Student/Handbooks.aspx">Student Insurance Handbook</a></div>
+</div>
+</li>
+<li>
+<div class="arrow"></div>
+<div class="faq">
+<div class="faqTitle">How do I get the insurance manual online?</div>
+<div class="faqBody">Visit <a href="http://www.dmba.com/nsc/Student/Handbooks.aspx">http://www.dmba.com/nsc/Student/Handbooks.aspx</a> and select the insurance handbook for the correct school year.</div>
+</div>
+</li>
+<li>
+<p>For more questions about Insurance, watch our <a href="x43104.xml">Insurance Tutorials.</a></p>
+</li>
+</ul>
+<h4>Have a question not on the list?</h4>
+<p>Call us and we'll be happy to answer it for you!</p>
+<p><strong>208-496-9330 - All Services</strong></p>
+<p><strong>208-496-9331 - Insurance</strong></p>
+<p><strong>208-496-9342 - Pharmacy</strong></p>
+</div>
+<iframe frameborder="0" height="240" id="footer" scrolling="no" src="Documents/health-center/footer.html" width="320"></iframe>
+<script type="text/Javascript">
+$(document).ready(function() {
+   $(".faqBody").hide();
+				
+   $(".arrow").click(function() {clickSlide($(this), $(this).next(".faq").children(".faqTitle")); });
+				
+   $(".faqTitle").click(function()
+      {clickSlide($(this).parent().siblings(".arrow"), $(this)); });
+   });
+</script>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x28441" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

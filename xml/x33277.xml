@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.82 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x33277" Name="Mega Registration" Layout="general_content.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Registration</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">This page contains links for registrations of all sorts.  Click on a link and you will be led to the proper registration for each page.</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style><!--
+.column1{
+float: left;
+width: 210px;
+display: inline;
+}
+.column2{
+float: left;
+width: 210px;
+display: inline;
+}
+.column3{
+float: left;
+width: 210px;
+display: inline;
+}
+--></style>
+<h4><strong>Please click a link below to go to the registration information for that item. </strong></h4>
+<hr />
+<div class="column1">
+<p><strong><a href="x30175.xml"> Adult Religion Classes<br /></a></strong></p>
+<p><a href="x31976.xml">Adventure for Youth (AFY)</a></p>
+<p><a href="x32570.xml">Best of EFY</a></p>
+<p><a href="x28830.xml">Education Week</a></p>
+<p><a href="x28828.xml">Family History Conference</a></p>
+<p><strong><strong><a href="x30442.xml">GMAT Test Prep</a></strong> <br /></strong></p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+</div>
+<div class="column2">
+<p><strong> </strong><a href="x30507.xml">GRE Test Prep</a></p>
+<p><a href="x32749.xml">Kinder Camp</a></p>
+<p><a href="x30576.xml">Merit Badge PowWow</a></p>
+<p><a href="x28827.xml">Nauvoo Student Tour </a></p>
+<p><a href="x28824.xml">Non-Credit Classes</a></p>
+<p><a href="x31976.xml"> </a><a href="x31766.xml">Outdoor for Youth (OYA)</a></p>
+<p> </p>
+<p> </p>
+</div>
+<div class="column3">
+<p><a href="x32971.xml">Sports Camp</a></p>
+<p><a href="x28825.xml">Swimming Lessons</a></p>
+<p><a href="x32977.xml">Theatre Camp</a></p>
+<p><a href="x32447.xml">Youth for Excellence (YFE)</a></p>
+<p><a href="x28827.xml"> </a></p>
+</div>]]></BodyCopy><xPower Type="Component" Component="x28840" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x28802" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

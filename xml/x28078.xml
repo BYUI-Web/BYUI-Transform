@@ -1,0 +1,343 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.70 - http://www.ingeniux.com ***-->
+<AdminPage ID="x28078" Name="University Relations" Layout="admin_office_home.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">University Relations</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Provides Resources for Community Relations and Campus Services</Abstract><MainMesgTop type="boolean" label="Enable to move &quot;Main Message&quot; to top of page" readonly="false" required="false" hidden="false">false</MainMesgTop><IntroCopy type="dhtml" label="Main Message" readonly="false" hidden="false" required="false"><![CDATA[<style><!--
+.ur-main-content {
+  width: 100%;
+}
+.ur-main-content h3 {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Arial;
+  padding-left: 2px;
+}
+.ur-main-content h5 {
+  font-size: 14px;
+  font-family: Arial;
+}
+/*Bottom section of content*/
+.campus-communication h3 {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Arial;
+  padding-left: 2px;
+}
+.campus-communication h5 {
+  font-size: 14px;
+  font-family: Arial;
+}
+.columns {
+  width: 33%;
+  float: left;
+  padding: 0px 1px;
+}
+.center{
+  padding-bottom: 2px;
+  border-right: 1px solid #DDDDDD;
+  border-left: 1px solid #DDDDDD;
+}
+.right {
+  width: 32.5%;
+  float: left;
+  padding-left: 1px;  
+}
+/*Container that holds icon and icon-content*/
+.box {
+  background-color: #FFFFFF !important;
+  border-radius: 15px !important;
+  margin: 5px !important;
+  padding: 5px 2px 2px 2px !important;
+}
+.box p {
+  font-size: 11px;
+}
+.box:hover {
+  background-color: #0080F3 !important;
+  color: #FFFFFF !important;
+}
+.box h5 {
+  color: #2966AD;
+  margin-bottom: -6px;
+}
+.box:hover h5, .box:hover p {
+  color: #FFFFFF;
+}
+.group:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+/*Text next to icon*/
+.icon-content {
+  float: right;
+  width: 70%;
+  padding-top: 10px;
+  padding-right: 2px;
+}
+/*More buttons */
+.more {
+  background-image: url('Images/university-relations/Homepage/more-button.png');
+  background-repeat: no-repeat;
+  float: right;
+  width: 48px;
+  height: 21px;
+}
+.more:hover {
+  background-image: url('Images/university-relations/Homepage/more-blue-button.png');
+}
+/*Learn How buttons*/
+.learn {
+  background-image: url('Images/university-relations/Homepage/learn-button.png');
+  background-repeat: no-repeat;
+  width: 75px;
+  height: 22px;
+  margin: 6px 0px 18px 68px;
+}
+.learn:hover {
+  background-image: url('Images/university-relations/Homepage/learn-button-blue.png')
+} 
+/*All the icons for each box*/
+.ur-icon {
+  float: left;
+  width: 45px;
+  height: 50px;
+  margin: 4px 0 0 8px;
+}
+.maps {
+  background-image: url('Images/university-relations/Homepage/maps.png');
+}
+.box:hover .maps {
+  background-image: url('Images/university-relations/Homepage/maps-white.png');
+}
+.news {
+  background-image: url('Images/university-relations/Homepage/news-resources.png');
+}
+.box:hover .news {
+  background-image: url('Images/university-relations/Homepage/news-resources-white.png');
+}
+.campus-tours {
+  background-image: url('Images/university-relations/Homepage/tours.png');
+}
+.box:hover .campus-tours {
+  background-image: url('Images/university-relations/Homepage/tours-white.png');
+}
+.stage {
+  background-image: url('Images/university-relations/Homepage/center-stage.png'); 
+}
+.box:hover .stage {
+  background-image: url('Images/university-relations/Homepage/center-stage-white.png');
+}
+.devo {
+  background-image: url('Images/university-relations/Homepage/devo-speeches.png');   
+}
+.box:hover .devo {
+  background-image: url('Images/university-relations/Homepage/devo-speeches-white.png');
+}
+.performance-tours {
+  background-image: url('Images/university-relations/Homepage/performance-tours.png'); 
+}
+.box:hover .performance-tours {
+  background-image: url('Images/university-relations/Homepage/performance-tours-white.png');
+}
+.scheduling {
+  background-image: url('Images/university-relations/Homepage/scheduling.png');
+}
+.box:hover .scheduling {
+  background-image: url('Images/university-relations/Homepage/schedule-white.png');
+}
+.radio {
+  background-image: url('Images/university-relations/Homepage/radio.png');
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.box:hover .radio {
+  background-image: url('Images/university-relations/Homepage/radio-white.png');
+}
+.catering {
+  background-image: url('Images/university-relations/Homepage/catering.png');
+}
+.box:hover .catering {
+  background-image: url('Images/university-relations/Homepage/catering-white.png');}
+  .print {
+    background-image: url('Images/university-relations/Homepage/print-copy.png');}
+    .box:hover .print {
+      background-image: url('Images/university-relations/Homepage/print-copy-white.png');}
+      .store {
+        background-image: url('Images/university-relations/Homepage/university-store.png');}
+        .box:hover .store {
+          background-image: url('Images/university-relations/Homepage/university-store-white.png');}
+          .ads {
+            background-image: url('Images/university-relations/Homepage/ad-templates.png');}
+            .box:hover .ads {
+              background-image: url('Images/university-relations/Homepage/ad-template-white.png');}
+              .logos {
+                background-image: url('Images/university-relations/Homepage/department-logos.png');}
+                .box:hover .logos {
+                  background-image: url('Images/university-relations/Homepage/department-logos-white.png');}
+                  .template {
+                    background-image: url('Images/university-relations/Homepage/office-template.png');}
+                    .box:hover .template {
+                      background-image: url('Images/university-relations/Homepage/office-templates-white.png');}
+                      #frame1 {
+                        background-image: url('Images/university-relations/Homepage/About.png');
+                      }
+                      #frame2 {
+                        background-image: url('Images/university-relations/Homepage/Events.png');
+                      }
+                      #frame3 {
+                        background-image: url('Images/university-relations/Homepage/services.png');
+                      }
+                      span.make-link {
+                        position:absolute; 
+                        width:221px;
+                        height:60px;
+                        z-index: 2;
+                      }
+
+                      /*override home page banner*/
+                      main #cycle1 {
+                        float:none;
+                        width:auto;
+                        border:none;
+                        position:relative;
+                        overflow:visible;
+                        height:auto;
+                      }
+--></style>
+<div id="cycle_gallery">
+<div id="cycle1">
+<div class="image-rotator" id="frame1" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 3; opacity: 0; width: 710px; height: 242px;"></div>
+<div class="image-rotator" id="frame2" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 3; opacity: 0; width: 710px; height: 242px;"></div>
+<div class="image-rotator" id="frame3" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 3; opacity: 0; width: 710px; height: 242px;"></div>
+</div>
+</div>
+<div class="ur-main-content">
+<div class="columns">
+<h3></h3>
+<h3>About BYU-Idaho &nbsp;<a href="http://www.byui.edu/about"><span class="more" style="margin-right: 6px;"> </span></a></h3>
+<hr style="width: 96%; margin-right: 3.5%;" />
+<div class="box group"><a href="http://www.byui.edu/maps"> <span class="make-link" data-mce-mark="1"></span></a>
+<div class="ur-icon maps"></div>
+<div class="icon-content">
+<h5>Maps</h5>
+<p>Find driving directions, building info &amp; locations, etc.</p>
+</div>
+</div>
+<div class="box group"><a href="http://www.byui.edu/newsroom"> <span class="make-link" data-mce-mark="1"></span></a>
+<div class="ur-icon news"></div>
+<div class="icon-content">
+<h5>News Resources</h5>
+<p>Get the latest news about the university and students.</p>
+</div>
+</div>
+<div class="box group"><a href="http://www.byui.edu/campus-tours"> <span class="make-link" data-mce-mark="1"></span></a>
+<div class="ur-icon campus-tours"></div>
+<div class="icon-content">
+<h5>Campus Tours</h5>
+<p>Book an on-campus tour or view one online.</p>
+</div>
+</div>
+</div>
+<div class="columns center">
+<h3></h3>
+<h3 style="margin-left: 3px;">Events<!--<span class="more"> </span>--></h3>
+<hr style="width: 95%; margin-left: 1.75%; margin-right: 1.75%;" />
+<div class="box group"><a href="http://www.byui.edu/center-stage"> <span class="make-link" data-mce-mark="1"></span></a>
+<div class="ur-icon stage"></div>
+<div class="icon-content">
+<h5>Center Stage</h5>
+<p>Check out the line-up of campus performances.</p>
+</div>
+</div>
+<div class="box group"><a href="http://www2.byui.edu/Devotionals/default.htm"> <span class="make-link" data-mce-mark="1"></span></a>
+<div class="ur-icon devo"></div>
+<div class="icon-content">
+<h5>Devotionals/Speeches</h5>
+<p>Prepare for upcoming or look up past talks.</p>
+</div>
+</div>
+<div class="box group"><a href="http://www.byui.edu/performance-tours"> <span class="make-link" data-mce-mark="1"></span></a>
+<div class="ur-icon performance-tours"></div>
+<div class="icon-content">
+<h5>Performance Tours</h5>
+<p>Learn more about off-campus, student performances.</p>
+</div>
+</div>
+<div class="box group"><a href="http://www.byui.edu/university-services/scheduling-office"> <span class="make-link" data-mce-mark="1"></span></a>
+<div class="ur-icon scheduling"></div>
+<div class="icon-content">
+<h5>Scheduling</h5>
+<p>Reserve a room for meetings, receptions, etc.</p>
+</div>
+</div>
+</div>
+<div class="right">
+<h3></h3>
+<h3 style="margin-left: 5px;">Services <!--<span class="more"> </span>--></h3>
+<hr style="width: 96%; margin-left: 2.5%;" />
+<div class="box group"><a href="http://www.byuidahoradio.org"> <span class="make-link" data-mce-mark="1"></span></a>
+<div class="ur-icon radio"></div>
+<div class="icon-content">
+<h5>BYU-Idaho Radio</h5>
+<p>Listen online or see what is playing on air now.</p>
+</div>
+</div>
+<div class="box group"><a href="http://www.byui.edu/university-services/catering-services"> <span class="make-link" data-mce-mark="1"></span></a>
+<div class="ur-icon catering"></div>
+<div class="icon-content">
+<h5>Catering</h5>
+<p>Select from a wide variety of delicious options.</p>
+</div>
+</div>
+<div class="box group"><a href="http://www.byui.edu/university-services/print"> <span class="make-link" data-mce-mark="1"></span></a>
+<div class="ur-icon print"></div>
+<div class="icon-content">
+<h5>Print &amp; Copy</h5>
+<p>Order copies, books, banners, announcements, etc.</p>
+</div>
+</div>
+<div class="box group"><a href="http://www.byuistore.com"> <span class="make-link" data-mce-mark="1"></span></a>
+<div class="ur-icon store"></div>
+<div class="icon-content">
+<h5>University Store</h5>
+<p>Shop for textbooks, electronics, gifts, and much more.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="campus-communication"><hr />
+<div class="span-12" style="width: 475px;">
+<h3>Campus Communication and Marketing Support &nbsp;<a href="http://www.byui.edu/university-communications"><span class="more make-link" style="margin-left: 72px;"> </span></a></h3>
+</div>
+<div><hr /></div>
+<div class="columns">
+<div class="box group"><a href="http://www.byui.edu/university-communications/templates-and-logos/print-ad-templates"> <span class="make-link" data-mce-mark="1"></span></a>
+<div class="ur-icon ads"></div>
+<div class="icon-content">
+<h5>Ad Templates</h5>
+<p>Download templates for the advertisements you may use on campus.</p>
+</div>
+</div>
+<!--<div class="learn"></div>--></div>
+<div class="columns center">
+<div class="box group"><a href="http://www.byui.edu/university-communications/templates-and-logos/logos"> <span class="make-link" data-mce-mark="1"></span></a>
+<div class="ur-icon logos"></div>
+<div class="icon-content">
+<h5>Department Logos</h5>
+<p>Download department logos to use on ad templates and other materials.</p>
+</div>
+</div>
+<!--<div class="learn"></div>--></div>
+<div class="right">
+<div class="box group"><a href="http://www.byui.edu/university-communications/templates-and-logos/office-templates"> <span class="make-link" data-mce-mark="1"></span></a>
+<div class="ur-icon template"></div>
+<div class="icon-content">
+<h5>Office Template</h5>
+<p>Download the office documents for your department.</p>
+</div>
+</div>
+<!--<div class="learn"></div>--></div>
+<div><hr /></div>
+</div>]]></IntroCopy><xPower Type="GroupStart" GroupStart="" Name="CellGroup" label="Cells" readonly="false" hidden="false" required="false" Expanded="true"><numColumns type="enumeration" values="1 2 3 4 5" label="Select number of cell columns." readonly="false" hidden="false" required="true">3</numColumns><xPower Type="List" List="xpowercomponent_Cell" Name="CellList" label="Cell List" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="true"><xPower Type="Component" Component="" Name="Cell" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"/></xPower></xPower><xPower Type="List" List="xpowercomponent_BannerAd" Name="BannerAds" label="Rotating Ads (650x216px required)" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="true"><xPower Type="Component" Component="" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/></xPower><xPower Type="Navigation" StartPage="x36684" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Children" Query="/events" Name="DeptEvents" label="Define Your Events Folder" readonly="false" hidden="false" required="false" Expanded="true"><Exports></Exports></xPower><xPower Type="Component" Component="x94848" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="QuickLinksGroup" label="Quick Links Group" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Component="" Name="QuickLinks" label="Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false">University Relations</BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false">University Relations exists to help serve both the community and the student body the do this through a variety of methods but especially through sponsored events</MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x33224" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></AdminPage>

@@ -1,0 +1,241 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.82 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x33226" Name="News Page" Layout="general_content.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">News Page</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">News Page</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<div>
+<p> </p>
+<table border="1" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td width="22%">
+<p><strong>Local TV:</strong></p>
+</td>
+<td width="25%">
+<p><strong>Local Newspapers:</strong></p>
+</td>
+<td width="24%">
+<p><strong>Regional TV:</strong></p>
+</td>
+<td width="95%">
+<p><strong>Regional Newspapers:</strong></p>
+</td>
+</tr>
+<tr>
+<td width="22%">
+<p><a href="http://www.kidk.com/" target="_parent">KIDK 3 </a></p>
+</td>
+<td width="25%">
+<p><a href="http://www.rexburgstandardjournal.com/" target="_parent">Standard   Journal</a></p>
+</td>
+<td width="24%">
+<p><a href="http://tv.ksl.com/" target="_parent">KSL 5</a></p>
+</td>
+<td width="95%">
+<p><a href="http://www.sltrib.com/" target="_parent">The Salt Lake Tribune</a></p>
+</td>
+</tr>
+<tr>
+<td width="22%">
+<p><a href="http://www.kpvi.com/" target="_parent">KPVI 6</a></p>
+</td>
+<td width="25%">
+<p><a href="http://www.postregister.com/" target="_parent">Post Register</a></p>
+</td>
+<td width="24%">
+<p><a href="http://www.kbcitv.com/" target="_parent">KBCI 2</a></p>
+</td>
+<td width="95%">
+<p><a href="http://deseretnews.com/dn" target="_parent">Dessert Morning News</a></p>
+</td>
+</tr>
+<tr>
+<td width="22%">
+<p><a href="http://www.localnews8.com/" target="_parent">KIFI   8</a></p>
+</td>
+<td width="25%">
+<p><a href="http://www.byui.edu/scroll/" target="_parent">Scroll-   BYU-Idaho</a></p>
+</td>
+<td width="24%">
+<p> </p>
+</td>
+<td width="95%">
+<p><a href="http://www.idahostatesman.com/apps/pbcs.dll/frontpage" target="_parent">The Idaho Statesman</a></p>
+</td>
+</tr>
+<tr>
+<td width="22%">
+<p> </p>
+</td>
+<td width="25%">
+<p> </p>
+</td>
+<td width="24%">
+<p> </p>
+</td>
+<td width="95%">
+<p><a href="http://www.hjnews.com/" target="_parent">H.J. -   Logan Utah </a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<table border="1" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td width="33%">
+<p><strong>National Media:</strong></p>
+</td>
+<td width="33%">
+<p><strong>Newspapers/Journals:</strong></p>
+</td>
+<td width="33%">
+<p><strong>Magazines:</strong></p>
+</td>
+</tr>
+<tr>
+<td width="33%">
+<p><a href="http://abcnews.go.com/" target="_parent">ABC News</a></p>
+</td>
+<td width="33%">
+<p><a href="http://www.suntimes.com/index/business.html" target="_parent">Chicago   Sun Times</a></p>
+</td>
+<td width="33%">
+<p><a href="http://www.barrons.com/" target="_parent">Barron's</a></p>
+</td>
+</tr>
+<tr>
+<td width="33%">
+<p><a href="http://www.newsday.com/ap/business/index.htm" target="_parent">AP Newsday - Business</a></p>
+</td>
+<td width="33%">
+<p><a href="http://www.industryweek.com/" target="_parent">Industry   Week</a></p>
+</td>
+<td width="33%">
+<p><a href="http://forbes.com/" target="_parent">Forbes</a></p>
+</td>
+</tr>
+<tr>
+<td width="33%">
+<p><a href="http://www.bloomberg.com/" target="_parent">Bloomberg   News</a></p>
+</td>
+<td width="33%">
+<p><a href="http://www.joc.com/" target="_parent">Journal of Commerce</a></p>
+</td>
+<td width="33%">
+<p><a href="http://www.fortune.com/fortune/" target="_parent">Fortune</a></p>
+</td>
+</tr>
+<tr>
+<td width="33%">
+<p><a href="http://www.businesswire.com/" target="_parent">Business   Wire</a></p>
+</td>
+<td width="33%">
+<p><a href="http://www.latimes.com/business/" target="_parent">LA   Times - Business</a></p>
+</td>
+<td width="33%">
+<p><a href="http://economist.com/" target="_parent">The   Economist</a></p>
+</td>
+</tr>
+<tr>
+<td width="33%">
+<p><a href="http://www.cnn.com/" target="_parent">CNN</a></p>
+</td>
+<td width="33%">
+<p><a href="http://www.wsj.com/" target="_parent">Wall Street   Journal</a></p>
+</td>
+<td width="33%">
+<p><a href="http://www.msnbc.com/news/NW-front_Front.asp" target="_parent">Newsweek</a></p>
+</td>
+</tr>
+<tr>
+<td width="33%">
+<p><a href="http://www.foxnews.com/" target="_parent">Fox   News</a></p>
+</td>
+<td width="33%">
+<p><a href="http://www.washingtonpost.com/" target="_parent">Washington   Post</a></p>
+</td>
+<td width="33%">
+<p><a href="http://news.ft.com/" target="_parent">The   Financial Times</a></p>
+</td>
+</tr>
+<tr>
+<td width="33%">
+<p><a href="http://www.msnbc.com/news/default.asp" target="_parent">MSNBC</a></p>
+</td>
+<td width="33%">
+<p><a href="http://www.nytimes.com/" target="_parent">NY   Times</a></p>
+</td>
+<td width="33%">
+<p><a href="http://businessweek.com/" target="_parent">Business   Week</a></p>
+</td>
+</tr>
+<tr>
+<td width="33%">
+<p><a href="http://www.money.com/money/" target="_parent">Money</a></p>
+</td>
+<td width="33%">
+<p><a href="http://www.newwork.com/" target="_parent">NewWork   News</a></p>
+</td>
+<td width="33%">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="33%">
+<p><a href="http://www.npr.org/" target="_parent">NPR Online</a></p>
+</td>
+<td width="33%">
+<p> </p>
+</td>
+<td width="33%">
+<p><a href="http://cato.org/" target="_parent">The CATO   Institute</a></p>
+</td>
+</tr>
+<tr>
+<td width="33%">
+<p><a href="http://www.openhere.com/news1/daily/business/" target="_parent">More Business News</a></p>
+</td>
+<td width="33%">
+<p><a href="http://www.chicago.tribune.com/" target="_parent">Chicago   Tribune</a></p>
+</td>
+<td width="33%">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="33%">
+<p><a href="http://www.redherring.com/" target="_parent">Red Herring</a></p>
+</td>
+<td width="33%">
+<p><a href="http://washtimes.com/" target="_parent">Washington   Times</a></p>
+</td>
+<td width="33%">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="33%">
+<p><a href="http://soundmoney.publicradio.org/" target="_parent">Sound Money</a></p>
+</td>
+<td width="33%">
+<p><a href="http://www.usatoday.com/" target="_parent">USA   Today</a></p>
+</td>
+<td width="33%">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="33%">
+<p><a href="http://dir.yahoo.com/Business_and_Economy/" target="_parent">Yahoo - Business</a></p>
+</td>
+<td width="33%">
+<p><a href="http://www.usnews.com/usnews/home.htm" target="_parent">US News</a></p>
+</td>
+<td width="33%">
+<p> </p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p> </p>
+<p> </p>
+</div>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x8158" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

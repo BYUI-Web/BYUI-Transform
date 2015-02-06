@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<BlankDetailPage ID="x52705" Name="Ticket Office" Layout="default.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Ticket Office</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Ticket Office</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="true"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="false" required="false">0.5</Priority></xPower><xPower Type="Component" Component="x14" Name="RelatedLinks" label="Related Links" readonly="false" hidden="false" required="false" CompTypes="RelatedLinksComponent" Expanded="false"/><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p><strong><a href="https://web.byui.edu/tickets/content/ticketlogin.aspx" target="_parent">Click Here to Purchase Tickets Online</a></strong></p>
+<p><strong>Location:&nbsp;&nbsp;</strong></p>
+<p>Spencer W. Kimball Building</p>
+<p>Cashiers Office</p>
+<p>Hours:&nbsp; Monday - Friday</p>
+<p>8:15 &nbsp;AM to 4:30 PM</p>
+<p><strong>Close at 2:00 PM on Tuesdays for Devotional</strong></p>
+<p><strong>Placing Orders:</strong></p>
+<ul>
+<li>Local - 496-2230</li>
+<li>Toll Free - 1-800-717-4257&nbsp;</li>
+</ul>
+<p><strong>&nbsp;&nbsp;</strong></p>
+<p><strong>Reminder</strong></p>
+<p><strong>Please be in your seat at least 10 minutes before the event starts.&nbsp;  For most University sponsored events seating is released at that time  except in the Hart Auditorium therefore entry into the event may not be  possible after that time and refunds not given.</strong></p>]]></BodyCopy><xPower Type="List" List="xpowercomponent_ImageComponent" Name="LeftColumnImageComponentList" label="Left Column Image Component List" readonly="false" hidden="false" required="false" Component="" CompTypes="LeftColumnImageComponent" Expanded="false"><xPower Type="Component" Component="" Name="ImageComponent" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent" Expanded="false"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x86" Name="SiteControl" label="Site Control" readonly="true" hidden="true" required="false" CompTypes="SiteControl" Expanded="false"/></BlankDetailPage>

@@ -1,0 +1,231 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content ID="x62396" Name="Private Scholarships" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Private Scholarships</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Private Scholarships</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p>
+<script language="javascript" type="text/javascript">
+var fa_slideSpeed = 15;	// Higher value = faster
+var fa_timer = 2;	// Lower value = faster
+
+var objectIdToSlideDown = false;
+var fa_activeId = false;
+var fa_slideInProgress = false;
+var fa_slideInProgress = false;
+var fa_expandMultiple = false; // true if you want to be able to have multiple items expanded at the same time.
+
+function showHideContent(e,inputId)
+{
+	if(fa_slideInProgress)return;
+	fa_slideInProgress = true;
+	if(!inputId)inputId = this.id;
+	inputId = inputId + '';
+	var numericId = inputId.replace(/[^0-9]/g,'');
+	var answerDiv = document.getElementById('fa_a' + numericId);
+
+	objectIdToSlideDown = false;
+
+	if(!answerDiv.style.display || answerDiv.style.display=='none'){
+		if(fa_activeId &&  fa_activeId!=numericId && !fa_expandMultiple){
+			objectIdToSlideDown = numericId;
+			slideContent(fa_activeId,(fa_slideSpeed*-1));
+		}else{
+
+			answerDiv.style.display='block';
+			answerDiv.style.visibility = 'visible';
+
+			slideContent(numericId,fa_slideSpeed);
+		}
+	}else{
+		slideContent(numericId,(fa_slideSpeed*-1));
+		fa_activeId = false;
+	}
+}
+
+function slideContent(inputId,direction)
+{
+
+	var obj =document.getElementById('fa_a' + inputId);
+	var contentObj = document.getElementById('fa_ac' + inputId);
+	height = obj.clientHeight;
+	if(height==0)height = obj.offsetHeight;
+	height = height + direction;
+	rerunFunction = true;
+	if(height>contentObj.offsetHeight){
+		height = contentObj.offsetHeight;
+		rerunFunction = false;
+	}
+	if(height<=1){
+		height = 1;
+		rerunFunction = false;
+	}
+
+	obj.style.height = height + 'px';
+	var topPos = height - contentObj.offsetHeight;
+	if(topPos>0)topPos=0;
+	contentObj.style.top = topPos + 'px';
+	if(rerunFunction){
+		setTimeout('slideContent(' + inputId + ',' + direction + ')',fa_timer);
+	}else{
+		if(height<=1){
+			obj.style.display='none';
+			if(objectIdToSlideDown && objectIdToSlideDown!=inputId){
+				document.getElementById('fa_a' + objectIdToSlideDown).style.display='block';
+				document.getElementById('fa_a' + objectIdToSlideDown).style.visibility='visible';
+				slideContent(objectIdToSlideDown,fa_slideSpeed);
+			}else{
+				fa_slideInProgress = false;
+			}
+		}else{
+			fa_activeId = inputId;
+			fa_slideInProgress = false;
+		}
+	}
+}
+
+
+
+function initShowHideDivs()
+{
+	var divs = document.getElementsByTagName('DIV');
+	var divCounter = 1;
+	for(var no=0;no<divs.length;no++){
+		if(divs[no].className=='fa_question'){
+			divs[no].onclick = showHideContent;
+			divs[no].id = 'fa_q'+divCounter;
+			var answer = divs[no].nextSibling;
+			while(answer && answer.tagName!='DIV'){
+				answer = answer.nextSibling;
+			}
+			answer.id = 'fa_a'+divCounter;
+			contentDiv = answer.getElementsByTagName('DIV')[0];
+			contentDiv.style.top = 0 - contentDiv.offsetHeight + 'px';
+			contentDiv.className='fa_answer_content';
+			contentDiv.id = 'fa_ac' + divCounter;
+			answer.style.display='none';
+			answer.style.height='1px';
+			divCounter++;
+		}
+	}
+}
+window.onload = initShowHideDivs;
+</script>
+</p>
+<style type="text/css"><!--
+/* CSS styles for the Show/Hide functionality. */
+
+.fa_question{
+        overflow:hidden;
+	cursor:pointer;
+        background-color: #f0f0f0;
+        color: #666;
+        padding: 10px;
+        border: 1px solid #000;
+        -webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+}
+.fa_question:hover{
+        background-color: #fcc35a;
+}
+.fa_answer{
+        visibility:hidden;
+	height:0px;
+	overflow:hidden;
+	position:relative;
+}
+.fa_answer_content{	/* Content that is slided down */
+        margin-top: 10px;
+	padding:1px;
+	font-size:1em;
+	position:relative;
+}
+
+.h1 {font-family: futura, arial, sans-serif; font-size: 2em;}
+.h2 {font-family: futura, arial, sans-serif; font-size: 1.75em; color: #000;}
+.h3 {font-family: futura, arial, sans-serif; font-size: 1.5em; color: #000;}
+.h4 {font-family: futura, arial, sans-serif; font-size: 1.3em; margin-left: 45px;}
+
+ul {margin-left:65px;}
+
+#page_title{
+     display: none;
+}
+#table_futura th{
+     color:#F8F8F8;
+     background-color: #333;   
+     font-family: futura, arial, sans-serif;
+     font-size: medium;
+     font-weight: normal;
+}
+#table_futura ul{
+     margin-left: 5px; color: #000;
+}
+
+.tableTitle{
+     font-size: 1.2em;
+     margin-bottom:10px;
+     color: #000;
+}
+.floatLeft{
+     float:left;
+     font-family: futura;
+}
+.floatRight{
+     float:right;
+     font-family: futura;
+}
+--></style>
+<p><span style="font-size: 2.5em; font-family: futura, arial, sans-serif;">Private Scholarships</span><br /><br /></p>
+<p>The following awards are just a few of the many outside scholarship opportunities available to students. The following scholarships are not endorsed or affliated with BYU-Idaho:</p>
+<div class="fa_question"><span class="h3">Betty Schmidt Scholarship Fund</span> <br /><small>Scholarship for Accounting majors who are Idaho State residents.</small> <br /> <span class="floatLeft">Deadline: April 15, 2013</span><span class="floatRight">Application: <a href="http://www.iapacct.com/Scholarships" title="Online access at www.iapacct.com">Online Access</a></span></div>
+<p></p>
+<div class="fa_question"><span class="h3">Adeline Neilson Scholarship</span><br /><small>Scholarship program available to students pursuing graduate or undergraduate degrees. Awards are determined by financial need, record of good personal conduct, distinguishing qualities, and goals.</small><br /> <span class="floatLeft">Deadline: April 20, 2013</span> <span class="floatRight">Application: <a href="mailto:ansfnd@gmail.com" title="Email Address">Email ansfnd@gmail.com by April 13, 2013</a></span></div>
+<p></p>
+<div class="fa_question"><span class="h3">LIFE Lessons Scholarship</span> <br /><small>Scholarship program to benefit students who have suffered the death of a parent or guardian. Application process includes essay or video submission. Awards range from $10,000 to $1,000.</small> <br /> <span class="floatLeft">Deadline: March 31, 2013</span> <span class="floatRight">Application: <a href="http://www.lifehappens.org/life-lessons/" title="Link to www.lifehappens.org">Online Application</a></span></div>
+<p></p>
+<div class="fa_question"><span class="h3">Dr. Alma S. Adams Scholarship</span><br /> <small>Scholarship program to benefit high school, undergraduate, or graduate students. Awards are granted on a competitive basis on: commitment to tobacco prevention through community service and use of media, visual arts, creative writing to promote tobacco prevention.</small> <br /> <span class="floatLeft">Deadline: April 30, 2013</span> <span class="floatRight">Application: <a href="https://www.legacyforhealth.org/adams-scholarship.aspx" title="Online PDF Application">Online PDF Application</a> </span></div>
+<p></p>
+<div class="fa_question"><span class="h3">Zonta Scholarship for Non-Traditional Student</span><br /> <small>Scholarship program for individuals who have been out of high school for at least 5 years. Eligible students must have completed at least one semester in either academic or vocational program. Awards are normally $1200.</small> <br /> <span class="floatLeft">Deadline: April 11, 2013</span> <span class="floatRight">Application: <a href="Documents/Admin_Offices/Financial Aid/2013_2014_Documents/ZONTA_BLKFTann.pdf" title="PDF Application download">PDF Application</a></span></div>
+<p></p>
+<div class="fa_question"><span class="h3">SEMA Memorial Scholarship Fund</span> <br /><small>The SEMA Memorial Scholarship Fund is dedicated to fostering the next generation of industry leaders and innovators. This program is dedicated to students entering the <strong>automotive industry</strong>. Awards range from $1,000 - $2,000, with $4,000 going to the top student.</small><br /> <span class="floatLeft">Deadline: April 5, 2013</span> <span class="floatRight">Application: <a href="http://www.sema.org/scholarships" title="Online access to www.sema.org">Online Application</a></span></div>
+<p></p>
+<div class="fa_question"><span class="h3">SEMA Loan Forgiveness Program</span> <br /><small>This program is dedicated to aiding recent graduates in getting off to a successful start in their <strong>automotive</strong> aftermarket career. They offer $1,000 awards toward outstanding student loans for individuals who are employed by SEMA-member companies.</small> <br /> <span class="floatLeft">Deadline: April 5, 2013</span> <span class="floatRight">Application: <a href="http://www.sema.org/loan-forgiveness-program" title="Online access to www.sema.org">Online Application</a></span></div>
+<p></p>
+<div class="fa_question"><span class="h3">CableTV.com Historical Photograph Scholarship</span><br /> <small>The CableTV.com Historical Photograph Scholarship is open to current or prospective college students who are enrolled or are planning on enrolling in a college or university program. The scholarship can be applied to any accredited U.S. university. Essays will be no longer than 1000 words in length and will be judged by professional writers.</small><br /> <span class="floatLeft">Deadline: May 8, 2013</span> <span class="floatRight">Application: <a href="http://www.cabletv.com/scholarship" title="Online access to cabletv.com">Online Application</a></span></div>
+<p></p>
+<div class="fa_question"><span class="h3">Benevolent Patriotic Order of DOEs Scholarship</span> <br /><small>Benevolent Patriotic Order of DOEs is national organization working alongside Benevolent and Protective Order of Elks (Elk clubs and lodges). This scholarship is available to Bingham County, Idaho residents only. Applicants must show financial need. (see PDF application for details) </small> <br /> <span class="floatLeft">Deadline: April 15, 2013</span> <span class="floatRight">Application: <a href="Documents/Admin_Offices/Financial Aid/Outside_Scholarships/BPO_DOE_sch_app.pdf" title="PDF download">PDF Download</a></span></div>
+<p></p>
+<div class="fa_question"><span class="h3">B.B. Entrepreneur of the Year Scholarship</span> <br /><small>Brock Blake, The CEO of Lendio, once won a similar scholarship in an entrepreneur contest during college. He used the money to start his own career as an entrepreneur,and now wants to give back and help other aspiring business owners get a similar head start.&nbsp; </small> <br /> <span class="floatLeft">Deadline: See Application</span><span class="floatRight">Application: <a href="http://www.lendio.com/scholarship/" title="Online Access">Online Access</a></span></div>
+<p></p>
+<div class="fa_question"><span class="h3">CEO of Tomorrow Scholarship</span><br /> <small>The CEO of Tomorrow Scholarship is directed to students interested in business leadership and/or entrepreneurship. The following submissions are required to be considered for the scholarship: (1) A short online survey and (2) a 500-1000 word essay on &ldquo;the CEO of tomorrow&rdquo;&nbsp; </small> <br /> <span class="floatLeft">Deadline: June 1, 2013</span> <span class="floatRight">Application: <a href="http://www.ceo.com/ceo-of-tomorrow-scholarship/" title="Online Application">Online Application</a></span></div>
+<p></p>
+<div class="fa_question"><span class="h3">Health, Nutrition and Fitness Scholarship</span> <br /><small>The One Stop Treatment scholarship for Nutrition, Health and Fitness is designed to encourage students to create a personal brand for themselves as they enter a field where how you treat clients is just as important as what you know. Applicants must fill out 300 - 500 word essay to apply. </small> <br /> <span class="floatLeft">Deadline: See Application</span> <span class="floatRight">Application: <a href="http://www.onestoptreatment.com/one-stop-treatment-scholarship/" title="Online Access" target="_blank">Online Access</a></span></div>
+<p></p>
+<div class="fa_question"><span class="h3">HBPE Young Entrepreneur Scholarship</span><br /> <small>Hayes Barnard, CEO of Paramount Equity, built Paramount Equity with his two best friends and a small army of selfless people who were committed to helping families save money on the biggest expenses in their lives. The HBPE Young Entrepreneur Scholarship gives future entrepreneurs the opportunity to develop their ideas through higher education and help make a difference in the world. (see PDF application for details) </small> <br /> <span class="floatLeft">Deadline: See Application</span> <span class="floatRight">Application: <a href="Documents/Admin_Offices/Financial Aid/Outside_Scholarships/HBPE_Young_Entrepreneur_Scholarship.pdf" title="PDF download">PDF Download</a></span></div>
+<p></p>
+<div class="fa_question"><span class="h3">Vacation Roost Marketing Scholarship</span> <br /><small>The Interactive Marketing Scholarship is designed to encourage and promote creative marketing in relation to online business. A scholarship of $2,500 is awarded twice per year, once in August and January.&nbsp; </small><br /> <span class="floatLeft">Deadline: June 15, 2013</span> <span class="floatRight">Application: <a href="http://www.vacationroost.com/about-us/community/scholarships" title="Online Application">Online Application</a></span></div>
+<p></p>
+<div class="fa_question"><span class="h3">Stay Fit In College Scholarship</span> <br /><small>StayFitInCollege.org, which promotes fitness in college, awards a $700 scholarship each month. There is no purchase necessary to apply for the scholarship. (see online application for details)</small><br /> <span class="floatLeft">Deadline: March 7, 2013</span> <span class="floatRight">Application: <a href="http://stayfitincollege.com/scholarship-awards.html" title="Online Application">Online Application</a></span></div>
+<p></p>
+<div class="fa_question"><span class="h3">Jacobsen Scholarship Fund</span> <br /><small>Scholarship for undergraduate students who are members of the Church of Jesus Christ of Latter-day Saints and who are citizens of the United States. Based on need. Committed to educational progress. (see website application for details)</small> <br /> <span class="floatLeft">Deadline: Fall Semester - June 1, 2013; Winter Semester - October 15, 2013</span> <span class="floatRight">Application: <a href="http://www.jacobsenscholarshipfund.com" title="Online Application">Website for more info</a></span></div>
+<p></p>
+<div class="fa_question"><span class="h3">B. Davis Scholarship</span> <br /><small>This Scholarship is available to all high school juniors and seniors as well as all students currently registered in any post secondary institution. (see website application for details)</small><br /> <span class="floatLeft">Deadline: May 27, 2013</span> <span class="floatRight">Application: <a href="http://www.studentawardsearch.com/scholarships.htm" title="Online Application">Online Application</a></span></div>
+<p></p>
+<div class="fa_question"><span class="h3">Thermo Scientific Pierce Scholarship</span> <br /><small>This scholarship was created to help provide educational opportunities for the future generation of scientists.</small><br /> <span class="floatLeft">Deadline: July 31, 2013</span> <span class="floatRight">Application: <a href="http://www.pierce-antibodies.com/PierceScholarship/index.cfm" title="Online Application">Online Application</a></span></div>
+<p></p>
+<hr />
+<p></p>
+<div class="fa_question"><span class="h3">Scholarship search and directory sites</span><br /> <small>The following resources are not affiliated or endorsed by BYU-Idaho:</small></div>
+<ul>
+<li><a href="http://scholarshipamerica.org/" title="Link to ScholarshipAmerica.org">Scholarship America</a> - Scholarship provider and search</li>
+<li><a href="http://www.collegeboard.org/" title="Link to CollegeBoard.org">College Board</a> - College Planning and Scholarship Search</li>
+<li><a href="http://www.scholarshiphelp.org/" title="Link to ScholarshipHelp.org">Scholarship Help</a> - Scholarship search</li>
+<li><a href="http://www.fastweb.com/" title="Link to FastWeb.com">Fast Web</a> - Scholarship search</li>
+<li><a href="https://www.salliemae.com/" title="Link to SallieMae.com">Sallie Mae</a> - Student Loans</li>
+<li><a href="http://www.finaid.org//" title="Link to FinAid.org">Fin Aid - Smart Student Guide to Financial Aid</a> - Scholarship search</li>
+<li><a href="http://www.scholarshiphunter.com/" title="Link to ScholarshipHunter.com/">ScholarshipHunter.com</a> - Scholarship search</li>
+<li><a href="http://studentaid2.ed.gov/getmoney/scholarship/" title="Link to StudentAid.ed.gov">Student Aid - US Department of Education</a> - Links to other scholarship searches</li>
+<li><a href="http://www.scholarships.com//" title="Link to Scholarships.com">Scholarships.com</a> - Scholarship search</li>
+<li><a href="http://www.college-scholarships.com/" title="Link to College-Scholarships.com">College Scholarships</a> - Scholarship search</li>
+<li><a href="http://www.fastaid.com/" title="Link to FastAid.com">Fast Aid</a> - Scholarship search</li>
+<li><a href="http://www.princetonreview.com/" title="Link to PrincetonReview.com">Princeton Review</a> - College Planning and Scholarship Search</li>
+<li><a href="http://www.mappingyourfuture.org/" title="Link to MappingYourFuture.org">Mapping Your Future</a> - College Planning resource</li>
+<li><a href="http://www.collegesavings.org/index.aspx" title="College Savings Plan Network">College Savings Plan Network</a> - College Savings plan resource</li>
+</ul>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="x18466" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x18206" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

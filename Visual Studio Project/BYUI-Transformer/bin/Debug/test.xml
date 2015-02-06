@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x10215" Name="Content" Layout="byuidefault.xsl" IsComponent="false">
+  <Title type="string" label="Title" readonly="false" hidden="false" required="true">Video Production</Title>
+  <Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Video Production</Abstract>
+  <IsResponsive type="boolean" label="Mobile Ready (responsive)" readonly="false" hidden="false" required="false">true</IsResponsive>
+  <xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false">
+    <BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false" />
+    <MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false" />
+    <NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow>
+    <NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex>
+    <NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP>
+    <Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority>
+  </xPower>
+  <xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false">
+    <BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false" />
+    <MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false" />
+    <NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow>
+    <NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex>
+    <NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP>
+    <Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority>
+  </xPower>
+  <xPower Type="GroupStart" GroupStart="" Name="SocialMedia" label="Social Media" readonly="false" hidden="false" required="false" Expanded="false">
+    <SocialTitle type="string" label="Title" readonly="false" hidden="false" required="false" />
+    <SocialDescription type="string" label="Description" readonly="false" hidden="false" required="false" />
+    <SocialImage type="imagefile" label="Image" readonly="false" hidden="false" required="false" Expanded="false" Width="" Height="" Border="" HSpace="" VSpace="" Alignment="" />
+    <SocialVideo type="mediafile" label="Video" readonly="false" hidden="false" required="false" Expanded="false" />
+    <SocialAudio type="string" label="Audio" readonly="false" hidden="false" required="false" />
+    <SocialSeeAlso type="string" label="See Also" readonly="false" hidden="false" required="false" />
+  </xPower>
+  <xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false">
+    <HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle>
+    <Hideleftnavigation type="boolean" label="Hide Navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation>
+  </xPower>
+  <BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height="">&lt;div&gt;&lt;img alt="Video Production" height="241" src="Images/Admin_Offices/university_communications/Our Services/Video1.jpg" title="Video Production" width="650" /&gt;
+&lt;style&gt;&lt;!--
+#recent-work{
+	margin-left: 15px;
+	display: block;
+	float: left;
+	width: 426px;
+	border-right: solid 1px #aeaeae;
+        border-bottom: 1px dotted #363636;
+}
+#recent-work h2{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 10px;
+	margin-top: 8px;
+}
+#ads{
+	display: block;
+	float: left;
+	width: 197;
+}
+.image{
+	width: 65px;
+	height: 65px;
+	float: left;
+	
+}
+.image img {
+        border: solid 1px #aeaeae;
+        padding: 3px;
+}
+.article{
+	display: block;
+	overflow: hidden;
+	margin: 10px 0;
+	cursor: pointer;
+}
+.article-body{
+	display: block;
+	overflow: hidden;
+	float: left;
+	width:295px;
+	margin-right: 30px;
+	margin-left: 25px;
+}
+.article-body h3 {
+	font-size: 16px;
+}
+.article-body p{
+        margin-bottom: 5px;
+        padding: 0!important;
+}
+.readMore{
+	margin-top: 5px;
+	display: block;
+	color: #693800;
+	font-size: 10px;
+        letter-spacing: 1px;
+        over-flow: hidden;
+        margin-bottom: 15px;
+}
+#ads img{
+        border: solid 1px #aeaeae;
+        padding: 3px;
+        margin-top: 10px;
+        margin-left: 15px;
+}
+--&gt;&lt;/style&gt;
+&lt;div id="recent-work"&gt;
+&lt;h2&gt;recent work&lt;/h2&gt;
+&lt;div class="article" onclick="location.href=''"&gt;
+&lt;div class="image"&gt;&lt;a href="http://www2.byui.edu/StudentHonor/trueatalltimes.htm"&gt;&lt;img height="55" src="Images/university-communications/place-holders/Couragesmall.jpg" width="68" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;a href="http://www2.byui.edu/StudentHonor/trueatalltimes.htm"&gt;&lt;br /&gt; &lt;/a&gt;
+&lt;div class="article-body"&gt;
+&lt;h3&gt;True at all Times&lt;/h3&gt;
+&lt;p&gt;True at all Times campain has highlighted several core values at BYU-Idaho. Integrity, courage, virtue and commitment are some of the completed work so far. These videos illustrate key principles that will guide each of us as we seek to be True at all Times.&lt;/p&gt;
+&lt;span class="readMore"&gt;&lt;a href="http://www2.byui.edu/StudentHonor/trueatalltimes.htm"&gt;read more &amp;gt;&amp;gt;&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="article" onclick="location.href=''"&gt;
+&lt;div class="image"&gt;&lt;a href="http://www.byui.edu/online/pathway"&gt;&lt;img alt="place holder 2" height="46" src="Images/university-communications/place-holders/pathway.jpg" width="70" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="article-body"&gt;
+&lt;h3&gt;Pathway videos&lt;/h3&gt;
+&lt;p&gt;One way BYU-Idaho is so unique is the new pathway program. It allows more opportunites for others to be educated throughout the world.&lt;/p&gt;
+&lt;span class="readMore"&gt;&lt;a href="http://www.byui.edu/online/pathway"&gt;read more &amp;gt;&amp;gt;&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="article" onclick="location.href=''"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="ads"&gt;&lt;a&gt;&lt;img alt="place holder 3" height="168" src="Images/university-communications/place-holders/place-holder-4.jpg" width="168" /&gt;&lt;/a&gt; &lt;a&gt;&lt;img alt="place holder 5" height="168" src="Images/university-communications/place-holders/place-holder-5.jpg" width="168" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;</BodyCopy>
+</Content>

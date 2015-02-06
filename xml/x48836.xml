@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x48836" Name="randomNoteImage_old.js" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">randomNoteImage_old.js</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">randomNoteImage_old.js</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">//Begin 
+                       
+	rnd.today=new Date();
+	rnd.seed=rnd.today.getTime();
+
+	function rnd() {
+		rnd.seed = (rnd.seed*9301+49297) % 233280;
+		return rnd.seed/(233280.0);
+	}
+
+	function rand(number) {
+		var result = Math.ceil(rnd()*number);
+		if (!result)result++;
+    	return result
+	}
+	
+function randomNewsNote(){ 
+	var ad_cnta =9;
+	var imageNumber = rand(ad_cnta);
+
+	var titleHeader = new Array();
+	titleHeader[1] = "Construction Update";
+	titleHeader[2] = "Departments Merge";
+	titleHeader[3] = "Employee in Iraq";
+	titleHeader[4] = "Rosetta Stone Replica";
+	titleHeader[5] = "Elder Nelson";
+	titleHeader[6] = "Enrollment Up";
+	titleHeader[7] = "Gutenberg Bible";
+	titleHeader[8] = "Elder Scott";
+	titleHeader[9] = "University Goals";
+	
+	var subTitle = new Array();
+	subTitle[1] = "The latest campus construction news";
+	subTitle[2] = "Alumni Relations and Community Youth Programs merge";
+	subTitle[3] = "University employee develops military academy in Iraq";
+	subTitle[4] = "Special Collections acquires Rosetta Stone replica";
+	subTitle[5] = "Apostle encourages students to seek wisdom";
+	subTitle[6] = "Winter enrollment shows BYU-Idaho continues to expand";
+	subTitle[7] = "BYU-Idaho obtains illustrious religious artifact";
+	subTitle[8] = "Apostle gives guidance to graduates";
+	subTitle[9] = "President Clark sets focus for 2010";
+							
+	//document.getElementById('rotating_image').src = "images/image_rotater/newsofNote/image" + imageNumber + ".jpg";
+	//document.getElementById('rotating_image').alt = "News of Note images";
+	document.getElementById('rotating_image_2').src = "images/image_rotater/newsofNote/image" + imageNumber + ".jpg";
+	document.getElementById('rotating_image_2').alt = "News of Note images";
+	document.getElementById('note_title').innerHTML = titleHeader[imageNumber];
+	document.getElementById('note_subtitle').innerHTML = subTitle[imageNumber];
+	//document.getElementById('onCampusLink').href = link[imageNumber];
+	
+	setTimeout("doItAgain01()", 5000);			
+	//document.getElementById('pic').src = "images/image_rotater/newsofNote/image" + imageNumber + ".jpg";
+	//document.getElementById('pic').alt = "News of Note images";
+	//document.getElementById('note_title').innerHTML = titleHeader[imageNumber];
+	//document.getElementById('note_subtitle').innerHTML = subTitle[imageNumber];
+	//document.getElementById('newsOfNoteLink').href = "departments/news_of_note.htm#news"+[imageNumber];
+
+	//console.log("changed it");
+}
+// End
+function doItAgain01(){
+	randomNewsNote();
+}</ESContent></EmptyShell>

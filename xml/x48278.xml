@@ -1,0 +1,276 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<Content ID="x48278" Name="Video - Devotional Highlights" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Video - Devotional Highlights</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Video - Devotional Highlights</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<!-- Here's the Style Snippet -->
+<div><!-- Here's the Get Involved Button snippet --> [x48217] <!-- Here's the Social Media Buttons snippet --> [x48218] <!-- Here's the Header Snippet --> [x88588] <!-- And here's the Back Button Snippet --> [x48009]</div>
+<style><!--
+/* STYLING HERE */
+    .page_header{
+    height: 80px;
+    position: relative;
+    }
+    #page_header-title{
+    height:100px;
+    }
+    #page_header-title img {
+    margin-top:20px;
+    }
+    h2.page_title{
+    text-transform: uppercase;
+    color: #777;
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 14px;
+    padding-bottom: 10px;
+    
+    }
+    p.page_tagline {
+    font-family: Georgia, Times, serif;
+    font-size: 14px;
+    margin-top: -8px;
+    }
+    .update-frame{
+    width: 200px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    float: left;
+    }
+    .update-meta{
+    background-color: rgb(56, 56, 56);
+    background-color: rgba(0, 0, 0, .8);
+    padding: 12px;
+    position: absolute;
+    bottom: -80px;
+    transition: all .4s;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    }
+    .update-frame:hover .update-meta{
+    bottom: -3px;
+    }
+    h3.update-title{
+    color: white;
+    margin: 0;
+    padding: 0;
+    margin-top: -2px;
+    margin-bottom: 6px;
+    font-size: 13px;
+    height: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    }
+    h3.update-title a{
+    color: #fff; text-decoration: none;
+    }
+    h3.update-title a:hover{
+    color: #fff; text-decoration: underline;
+    }
+    p.update-caption{
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
+    height: 48px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    }
+    a.update-href{
+    color: #ccc;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 11px;
+    line-height: 18px;
+    }
+    a.update-href:hover {
+    color: #fff;
+    text-decoration: underline;
+    }
+    .archive{
+    width: 720px;
+    float: left;
+    }
+    .galleries{
+    width: 190px;
+    float: right;
+    }
+    .galleries hr{
+    color: #111;
+    }
+    .gallery-list{
+    padding: 0;
+    }
+    .gallery-list a{
+    text-decoration: none;
+    }
+    .gallery-list li{
+    display: block;
+    list-style-type: none;
+    height: 72px;
+    margin-bottom: 8px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    padding-right: 8px;
+    }
+    .gallery-list li:hover{
+    background-color: #eee;
+    }
+    .gallery-list li p{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    color: #111;
+    display: block;
+    padding: 20px 0;
+    text-decoration: none;
+    }
+    .gallery-list-thumbnail{
+    float: left;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    }
+    ul.related-links{
+    padding: 0;
+    }
+    ul.related-links li {
+    list-style-type: none;
+    margin: 0 20px 10px 0;
+    }
+    ul.related-links a {
+    font-size: 12px;
+    color: #111;
+    text-decoration: none;
+    font-style: italic;
+    }
+    ul.related-links a:hover {
+    text-decoration: underline;
+    }
+    .update{
+
+    }
+    .update-figure{
+    float: right;
+    height: 430px;
+    border-top: thin solid black;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    }
+    #first-video{
+    border-top: 0;
+    padding-top: 0;
+    }
+    .pageback{
+    margin-bottom: 10px;
+    width: 90px;
+    }
+    .pageback span{
+    position: relative;
+    top: -9px;
+    }
+    .pageback a{
+    text-transform: uppercase;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    display: block;
+    color: #777;
+    letter-spacing: 2px;
+    font-weight: bold;
+    }
+    .article-title{
+
+    }
+    .update-text p{
+    font-family: Helvetica, Arial, sans-serif;
+    }
+    .avideo{
+    float: left;
+    margin-bottom: 10px;
+    }
+    
+    .wordsVideo{
+    font-family: Helvetica, Arial, sans-serif;
+    float: right;
+    position: relative;
+    left: 15px;
+    width: 200px;
+    }
+--></style>
+<p></p>
+<!-- CONTENT -->
+<div class="update container span-24">
+<div class="update-text span-5 append-1" id="altSideBar" style="min-height: 600px;">
+<h2 class="article-title">Devotionals at BYU-Idaho</h2>
+<p>Every Tuesday afternoon, students and employees assemble in the BYU-Idaho Center for devotional. In these worship services, students and employees come together to hear words of counsel and inspiration from a variety of specially selected speakers.</p>
+<ul class="related-links">
+<li><a href="http://web.byui.edu/devotionalsandspeeches/speeches.aspx" target="_blank">Devotional Archive &gt;</a></li>
+<li><a href="http://www2.byui.edu/Devotionals/default.htm" target="_blank">Upcoming Speakers &gt;</a></li>
+<li><a href="http://www.byui.edu/buildings/byu-idaho-center">BYU-Idaho Center &gt;</a></li>
+</ul>
+</div>
+<!-- video/text figure start -->
+<div class="update-figure span-18 last" id="first-video">
+<div class="avideo">[x50340]</div>
+<div class="wordsVideo update-text">
+<h3>Faith, Hope, and Charity</h3>
+<p><strong><em>Kim B. Clark</em></strong> <br /> <em>President of BYU-Idaho</em></p>
+<p>"In every trial in our lives, the way forward is always faith and hope in the Lord Jesus Christ and His pure and perfect love. If we choose Christ and the way of faith, hope, and charity, the Lord will bless us with the spiritual gifts and guidance we need to overcome our trials and become more and more like Him."</p>
+<ul class="related-links">
+<li><a href="http://www2.byui.edu/DevotionalPlayer/BYUIplayer.html?StartCue=1229&amp;EndCue=2848&amp;VideoName=2012_09_11_DV_Clark" target="_blank">Watch Full Video &gt;</a></li>
+<li><a href="http://www2.byui.edu/Presentations/Transcripts/Devotionals/2012_09_11_Clark.htm" target="_blank">Read Talk &gt;</a></li>
+</ul>
+</div>
+</div>
+<!-- video/text figure end --> <!-- video/text figure start -->
+<div class="update-figure span-18 last">
+<div class="avideo">[x50341]</div>
+<div class="wordsVideo update-text">
+<h3>Come Unto Christ Through The Book of Mormon</h3>
+<p><strong><em>Elder Gary Coleman</em></strong> <br /> <em>Emeritus Member, First Quorum of the Seventy</em></p>
+<p>"I like to know that I am okay before the Lord. I like to know exactly what my circumstance is in this life as I follow Jesus, believe in God, and have the influence of the Holy Ghost in my life."</p>
+<ul class="related-links">
+<li><a href="http://www2.byui.edu/DevotionalPlayer/BYUIplayer.html?StartCue=799&amp;EndCue=2365&amp;VideoName=2012_09_18_DV_Coleman" target="_blank">Watch Full Video &gt;</a></li>
+<li><a href="http://www2.byui.edu/Presentations/Transcripts/Devotionals/2012_09_18_Coleman.htm" target="_blank">Read Talk &gt;</a></li>
+</ul>
+</div>
+</div>
+<!-- video/text figure end --> <!-- video/text figure start -->
+<div class="update-figure span-18 last">
+<div class="avideo">[x50342]</div>
+<div class="wordsVideo update-text">
+<h3>Tolerance&mdash;Knowing and Living</h3>
+<p><strong><em>Elder Allan F. Packer</em></strong> <br /> <em>First Quorum of the Seventy</em></p>
+<p>"In God&rsquo;s plan for salvation, we are the ones being molded, shaped and polished to become like Him. It is something each of us have to do individually. 'For behold, this is my work and my glory&mdash;to bring to pass the immortality and eternal life of man.'"</p>
+<ul class="related-links">
+<li><a href="http://www2.byui.edu/DevotionalPlayer/BYUIplayer.html?StartCue=678&amp;EndCue=2148&amp;VideoName=2012_11_13_DV_Packer" target="_blank">Watch Full Video &gt;</a></li>
+</ul>
+</div>
+</div>
+<!-- video/text figure end --> <!-- video/text figure start -->
+<div class="update-figure span-18 last">
+<div class="avideo">[x48484]</div>
+<div class="wordsVideo update-text">
+<h3>Principles, Patterns and Promises</h3>
+<p><strong><em>Elder Paul E. Koelliker</em></strong> <br /> <em>First Quorum of the Seventy</em></p>
+<p>"As we embrace 'change,' we discover it to be a principle of growth rather than a trial.&nbsp; I've come to call 'change' the principle of 'continuous learning.'"</p>
+<ul class="related-links">
+<li><a href="http://www2.byui.edu/DevotionalPlayer/BYUIplayer.html?StartCue=755&amp;EndCue=2581&amp;VideoName=2012_10_16_DV_Koelliker" target="_blank">Watch Full Video &gt;</a></li>
+</ul>
+</div>
+</div>
+<!-- video/text figure end --> <!-- video/text figure start -->
+<div class="update-figure span-18 last">
+<div class="avideo">[x50343]</div>
+<div class="wordsVideo update-text">
+<h3>I Will Prepare</h3>
+<p><strong><em>President Clair O. Thueson</em></strong> <br /> <em>President, Rexburg Idaho Temple</em></p>
+<p>"Those simple, plain, unattractive rocks had a beauty that I would not have thought possible. This same process happens to us as we experience the polishing that God sees fit as a preparation for our growth and development."</p>
+<ul class="related-links">
+<li><a href="http://www2.byui.edu/DevotionalPlayer/BYUIplayer.html?StartCue=711&amp;EndCue=2553&amp;VideoName=2012_11_27_DV_Thueson" target="_blank">Watch Full Video &gt;</a></li>
+</ul>
+</div>
+</div>
+<!-- video/text figure end --></div>
+<div>[x48230]</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="true" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="x48484" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x50341" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x50342" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x50340" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x50343" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x48032" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x48217" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x48218" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x88588" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x48009" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x48230" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x46118" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?><Content ID="x40642" Name="Dates and Itinerary" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Experience Europe Dates and Itinerary</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Experience Europe Dates and Itinerary</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false" /><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false" /><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<h2>September 20 - October 12, 2013</h2>
+<p>Please click on a country below to see information and agenda: <br /><br /><br /></p>
+<p><a onclick="switchMenu('Czech Republic');" style="text-decoration: none;" target="_self">Czech Republic</a><br /><br /></p>
+<div id="Czech Republic">
+<ul>
+<li><a href="http://www.opera.cz/en/" title="State Opera House">State Opera House</a>, <a href="http://www.state-opera.com/" title="more information">more information</a></li>
+<li><a href="http://www.hrad.cz/en/prague-castle/prague-castle-tourist-information/visit-of-prague-castle.shtml" title="Prague Castle">Prague Castle</a></li>
+<li><a href="http://www.hradkarlstejn.cz/history/" title="Karlstejn Castle">Karlstejn Castle</a> trip</li>
+</ul>
+</div>
+<p><a onclick="switchMenu('Austria');" style="text-decoration: none;" target="_self">Austria</a><br /><br /></p>
+<div id="Austria">
+<ul>
+<li><a href="http://www.wien-vienna.com/stephenscathedral.php" title="St. Stephan's Cathedral">St. Stephan's Cathedral</a></li>
+<li>Vienna Opera House: <a href="http://www.wiener-staatsoper.at/Content.Node/home/index.php" title="Staatsoper">Staatsoper</a></li>
+<li><a href="http://www.hofburg-wien.at/en/" title="Hofburg Palace">Hofburg Palace</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Vienna" title="Vienna Austria">Vienna Day Trip</a></li>
+</ul>
+</div>
+<p><a onclick="switchMenu('Italy');" style="text-decoration: none;" target="_self">Italy</a><br /><br /></p>
+<div id="Italy"></div>
+<p><a onclick="switchMenu('Switzerland');" style="text-decoration: none;" target="_self">Switzerland</a><br /><br /></p>
+<div id="Switzerland">
+<ul>
+<li><a href="http://www.pilatus-aircraft.com/" title="Pilatus Aircraft">Pilatus Aircraft</a> (Tentative)</li>
+<li><a href="http://www.swatchgroup.com/en/" title="Swatch Group">Swatch Group</a> (Tentative)</li>
+<li><a href="http://en.wikipedia.org/wiki/Interlaken" title="Interlaken Day Trip">Interlaken Day Trip</a></li>
+</ul>
+</div>
+<p><a onclick="switchMenu('France');" style="text-decoration: none;" target="_self">France</a><br /><br /></p>
+<div id="France">
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Strasbourg" title="Strasbourg">Strasbourg</a></li>
+<li><a href="http://www.europarl.europa.eu/portal/en" title="European Parliament">European Parliament</a></li>
+</ul>
+</div>
+<p><a onclick="switchMenu('Germany');" style="text-decoration: none;" target="_self">Germany</a><br /><br /></p>
+<div id="Germany">
+<ul>
+<li>Frankfurt Hotel:&nbsp; <a href="http://www.accorhotels.com/gb/hotel-5382-novotel-frankfurt-niederrad/index.shtml" title="Frankfurt Hotel">Novotel Frankfurt Niederrad</a></li>
+<li><a href="http://www.bmw.com/com/en/index.html" title="BMW">BMW</a></li>
+<li><a href="http://deutsche-boerse.com/dbg/dispatch/en/kir/dbg_nav/home" title="Deutsche Borse Group">Deutsche B&ouml;rse Group</a></li>
+<li><a href="http://www.ecb.int/ecb/html/index.en.html" title="European Central Bank">European Central Bank</a></li>
+<li><a href="http://www.commerzbank-arena.de/english/home" title="Commerzbank Arena">Commerzbank Arena</a></li>
+<li><a href="http://www.k-d.de/english/home/" title="K&ouml;ln-D&uuml;sseldorfer Cruise">K&ouml;ln-D&uuml;sseldorfer Cruise</a></li>
+<li><a href="http://www.lds.org/church/temples/frankfurt-germany?lang=eng" title="Frankfurt LDS Temple">Frankfurt Temple</a></li>
+<li>Main Tower</li>
+<li>Shopping</li>
+<li>Walking Tour</li>
+<li>Museums</li>
+<li>Zoo</li>
+<li>Greenbelt</li>
+</ul>
+</div>
+<p><a onclick="switchMenu('Belgium');" style="text-decoration: none;" target="_self">Belgium</a></p>
+<div id="Belgium"></div>
+<p>
+<script type="text/JavaScript">
+// Hide all expandable elements
+var load1 = document.getElementById('Czech Republic');
+var load2 = document.getElementById('Austria');
+var load3 = document.getElementById('Italy');
+var load4 = document.getElementById('Switzerland');
+var load5 = document.getElementById('France');
+var load6 = document.getElementById('Germany');
+var load7 = document.getElementById('Belgium');
+
+
+
+load1.style.display = 'none';
+load2.style.display = 'none';
+load3.style.display = 'none';
+load4.style.display = 'none';
+load5.style.display = 'none';
+load6.style.display = 'none';
+load7.style.display = 'none';
+
+
+
+// Function that toggles expandable elements
+
+function switchMenu(obj) {
+	var el = document.getElementById(obj);
+
+	if ( el.style.display != "none" ) {
+		el.style.display = 'none';
+	}
+	else {
+load1.style.display = 'none';
+load2.style.display = 'none';
+load3.style.display = 'none';
+load4.style.display = 'none';
+load5.style.display = 'none';
+load6.style.display = 'none';
+load7.style.display = 'none';
+
+
+		el.style.display = '';
+	}
+}
+</script>
+</p>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false" /></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" /><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" /><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" /></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="x8228" CompTypes="HighlightedLinksComponent" /><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet" /></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query="" /><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x8138" CompTypes="SiteControl" /></Content>

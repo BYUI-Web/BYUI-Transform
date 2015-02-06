@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x46305" Name="Ordering Transcripts Prior to 1983" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Ordering Transcripts Prior to 1983</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Ordering Transcripts Prior to 1983</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p>
+<script type="text/javascript">
+function updateSubject(){
+var name = document.getElementById("name").value;
+var id = document.getElementById("socialNumber").value;
+document.getElementById("txtEmailSubject").value = "PAMR: ".concat(name).concat(" ").concat(id);
+}
+</script>
+</p>
+<p>Ricks College did not acquire its first student information system until 1983. Transcript records for students who attended Ricks College prior to 1983 and who have not requested a transcript since 2007 are not in BYU-Idaho's current student information system. In order for former students in this situation to order an official transcript a request to add their transcript record to the student information system must be made first. Please submit the information below to have BYU&mdash;Idaho locate your record in microfilm and add it to the student information system.</p>
+<div id="Center" style="text-align: center;"><form action="http://www2.byui.edu/AspUtilities/emailAForm.asp" method="post"><fieldset><legend>Request to have record added</legend> <br />
+<table border="0" style="border: 0px none; width: 600px; padding-left: 5px;">
+<tbody>
+<tr style="border: 0px;">
+<td style="text-align: left; border: 0px none; width: 260px;">Name(First Middle Last):</td>
+<td style="text-align: center; border: 0px;"><input id="name" name="Name(First, Middle, Last)" onkeyup="updateSubject()" size="30" type="text" /></td>
+</tr>
+<tr style="border: 0px;">
+<td style="text-align: left; border: 0px;">Maiden or other Names(separate by a comma):</td>
+<td style="text-align: center; border: 0px;"><input name="Maiden or other Names" size="30" type="text" /></td>
+</tr>
+<tr style="border: 0px;">
+<td style="text-align: left; border: 0px;">Last four digits of your Social Security Number:</td>
+<td style="text-align: center; border: 0px;"><input id="socialNumber" name="Social Security Number or Student ID" onkeyup="updateSubject()" size="30" type="text" /></td>
+</tr>
+<tr style="border: 0px;">
+<td style="text-align: left; border: 0px;">Date of Birth(MM/DD/YYYY):</td>
+<td style="text-align: center; border: 0px;"><input name="Date of Birth" size="30" type="text" /></td>
+</tr>
+<tr style="border: 0px;">
+<td style="text-align: left; border: 0px;">Gender(M/F):</td>
+<td style="text-align: center; border: 0px;"><input name="Gender" size="30" type="text" /></td>
+</tr>
+<tr style="border: 0px;">
+<td style="text-align: left; border: 0px;">Dates of Attendance:</td>
+<td style="text-align: center; border: 0px;"><input name="Dates of Attendance" size="30" type="text" /></td>
+</tr>
+<tr style="border: 0px;">
+<td style="text-align: left; border: 0px;">Phone Number:</td>
+<td style="text-align: center; border: 0px;"><input name="Phone Number" size="30" type="text" /></td>
+</tr>
+<tr style="border: 0px;">
+<td style="text-align: left; border: 0px;">E-mail:</td>
+<td style="text-align: center; border: 0px;"><input name="txtEmailFrom" size="30" type="text" /></td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: center;">Current Address</p>
+<table border="0" style="border: 0px none; width: 600px; padding-left: 5px;">
+<tbody>
+<tr style="border: 0px;">
+<td style="text-align: left; border: 0px; width: 260px;">Street:</td>
+<td style="text-align: center; border: 0px;"><input name="Street" size="30" type="text" /></td>
+</tr>
+<tr style="border: 0px;">
+<td style="text-align: left; border: 0px;">City:</td>
+<td style="text-align: center; border: 0px;"><input name="City" size="30" type="text" /></td>
+</tr>
+<tr style="border: 0px;">
+<td style="text-align: left; border: 0px;">State:</td>
+<td style="text-align: center; border: 0px;"><input name="State" size="30" type="text" /></td>
+</tr>
+<tr style="border: 0px;">
+<td style="text-align: left; border: 0px;">Zip:</td>
+<td style="text-align: center; border: 0px;"><input name="Zip" size="30" type="text" /></td>
+</tr>
+</tbody>
+</table>
+<!-- Insert Your fields above --> <!-- Required by form handler --> <input name="txtEmailTo" type="hidden" value="transcripts@byui.edu" /><!-- REQUIRED FIELD NAME --> <input id="txtEmailSubject" name="txtEmailSubject" type="hidden" value="Please add my record" /><!-- REQUIRED FIELD NAME --> <!-- Buttons of course --> <input name="submit" type="submit" value="Submit" /><!-- REQUIRED FIELD NAME --> <input name="Reset" type="reset" value="Reset" /><input name="txtRedirect" type="hidden" value="http://www.byui.edu/transcripts/ordering-transcripts-prior-to-1983-confirmation" /></fieldset></form></div>
+<p>Once we have added your transcript record to our student information system we will contact you via email with a link to create a username and password. This will then allow you to request your transcript. This process may take up to two weeks.</p>
+<p>If you have any questions about ordering transcripts you may contact us by phone at 208-496-1024 or by email at <a href="mailto:transcripts@byui.edu">transcripts@byui.edu</a></p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x44659" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

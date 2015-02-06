@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x62896" Name="old graduation" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">old graduation</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">old graduation</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style><!--
+#rotating{
+}
+#eventsbanner{
+float: right;
+margin-top: -205px;
+margin-right: 5px;
+}
+#events{
+float:right;
+width: 39%;
+margin-top: -180px;
+margin-right: -20px;
+*margin-right: -300px;
+
+}
+#widelinks{
+clear:both;
+margin-left: -20px;
+}
+
+#widelinks li{
+list-style-type: none;
+}
+
+#shortlinks{
+clear:both;
+margin-left: 310px;
+margin-top: -150px;
+*margin-top: -145px;
+
+}
+
+#shortlinks li{
+list-style-type: none;
+display: inline;
+clear:both;
+}
+--></style>
+<div id="rotating"><img height="200" id="Rotating1" name="Rotating" width="450" />
+<script language="JavaScript">
+  var ImageArr1 = new Array("Images/Admin_Offices/Student Record and Registration/GradPhoto/GradBanner3497x200.jpg","Images/Admin_Offices/Student Record and Registration/GradPhoto/GradBanner3497x200AltFont.jpg","Images/Admin_Offices/Student Record and Registration/GradPhoto/GradBanner2497x200.jpg","Images/Admin_Offices/Student Record and Registration/GradPhoto/GradBanner2497x200AltFont.jpg","Images/Admin_Offices/Student Record and Registration/GradPhoto/GradBanner497x200.jpg","Images/Admin_Offices/Student Record and Registration/GradPhoto/GradBanner497x200BackFont.jpg");
+  var ImageHolder1 = document.getElementById('Rotating1');
+  
+function RotateImages(whichHolder,Start)
+  {
+  	var a = eval("ImageArr"+whichHolder);
+  	var b = eval("ImageHolder"+whichHolder);
+  	if(Start>=a.length)
+  		Start=0;
+  	b.src = a[Start];
+  	window.setTimeout("RotateImages("+whichHolder+","+(Start+1)+")",5000);
+  }
+  
+  RotateImages(1,0);
+  RotateImages(2,0);
+</script>
+</div>
+<div id="eventsbanner"><img alt="Grad announcements button" height="25" src="Images/Admin_Offices/Student Record and Registration/GradPhoto/announcementBannerBlue.png" width="250" /></div>
+<div id="events">
+<ul>
+<li>Commencement will be <a href="x41070.xml">streamed live online</a>.</li>
+<li>The Fall 2012 Graduation Application Deadline is Monday, November 15. &nbsp;Students must apply by this deadline to be considered for academic honors. Apply on <a href="my.byui.edu">my.byui.edu</a></li>
+</ul>
+</div>
+<div id="widelinks">
+<ul>
+<li><a href="x19065.xml"><img alt="Apply for Graduation Link" height="60" onmouseout="this.src='Images/Admin_Offices/Student Record and Registration/GradPhoto/ApplyForGrad.png';" onmouseover="this.src='Images/Admin_Offices/Student Record and Registration/GradPhoto/ApplyForGradAlt.png';" src="Images/Admin_Offices/Student Record and Registration/GradPhoto/ApplyForGrad.png" width="320" /></a></li>
+<li><a href="x18323.xml"><img alt="Events and Tickets Link" height="60" onmouseout="this.src='Images/Admin_Offices/Student Record and Registration/GradPhoto/EventsAndTickets.png';" onmouseover="this.src='Images/Admin_Offices/Student Record and Registration/GradPhoto/EventsAndTicketsAlt.png';" src="Images/Admin_Offices/Student Record and Registration/GradPhoto/EventsAndTickets.png" width="320" /></a> </li>
+</ul>
+</div>
+<div id="shortlinks">
+<ul>
+<li><a href="x19105.xml"><img alt="Guest information Link" height="122" src="Images/Admin_Offices/Student Record and Registration/GradPhoto/GuestInfo.png" width="116" /></a></li>
+<li><a href="x19734.xml"><img alt="Alumni Association Button" height="122" src="Images/Admin_Offices/Student Record and Registration/GradPhoto/AlumniAssc.png" width="116" /></a></li>
+<li><a href="http://www.byuistore.com/c-74-grad-announcements.aspx"><img alt="Memorabilia link" height="122" src="Images/Admin_Offices/Student Record and Registration/GradPhoto/Announcements.png" width="116" /></a></li>
+</ul>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x44654" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.68 - http://www.ingeniux.com ***-->
+<Form_wSideColumn ID="x28373" Name="My Account Questions" Layout="general_form.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Ask a Question | My Account</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Ask a Question | My Account</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="Form" label="form container" readonly="false" hidden="false" required="false" Expanded="true"><From type="string" label="From" readonly="false" hidden="false" required="true">My Account Question</From><Subject type="string" label="Subject" readonly="false" hidden="false" required="true">My Account Question</Subject><xPower Type="List" List="email" Name="TextElements" label="emailTo list" readonly="false" hidden="false" required="false" LinkText="" Target="" Link="" Expanded="true"><email readonly="false" hidden="false" required="false" LinkText="" Target="" Link="" Expanded="false">bursarsoffice@byui.edu</email></xPower><formElements type="dhtml" label="form elements" readonly="false" hidden="false" required="false"><![CDATA[<form action="send_form_email.php" method="post" name="contactform"> 
+<table width="450px">
+<tbody>
+<tr>
+<td valign="top"><label for="name">Name</label></td>
+<td valign="top"><input maxlength="50" name="name" size="30" type="text" /></td>
+</tr>
+<tr>
+<td valign="top"><label for="email">Email Address</label></td>
+<td valign="top"><input maxlength="80" name="email" size="30" type="text" /></td>
+</tr>
+<tr>
+<td valign="top">Topic</td>
+<td valign="top"><select name="topic"> <option value="personalAccount">Personal Account</option> <option value="tuitionAndFees">Tuition and Fees</option> <option value="refunds">Refunds</option> <option value="other">Other</option></select></td>
+</tr>
+<tr>
+<td valign="top"><label for="question">Question</label></td>
+<td valign="top"><textarea cols="30" name="question" rows="6"></textarea></td>
+</tr>
+</tbody>
+</table>
+</form>]]></formElements></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x18419" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Form_wSideColumn>

@@ -1,0 +1,1464 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<AdminPage ID="x44647" Name="Academic Standards" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Academic Standards</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Academic Standards</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="Cells" label="Cells" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="GroupStart" GroupStart="" Name="Cell1" label="Cell 1" readonly="false" hidden="false" required="false" Expanded="false"><Cell1Title type="string" label="Cell 1 Title" readonly="false" hidden="false" required="false"></Cell1Title><Cell1Image type="imagefile" label="Cell 1 Image" readonly="false" hidden="false" required="false" Width="" Height="" Alignment="" Border="" Expanded="true" AlternateText="" HSpace="" VSpace=""></Cell1Image><Cell1Text type="string" label="Cell 1 Text" readonly="false" hidden="false" required="false"></Cell1Text><xPower Type="Link" Link="" Name="Cell1Link" label="Cell 1 Link" readonly="false" hidden="false" required="false" LinkText="" Target="" Expanded="false" URL=""/></xPower><xPower Type="GroupStart" GroupStart="" Name="Cell2" label="Cell 2" readonly="false" hidden="false" required="false" Expanded="false"><Cell2Title type="string" label="Cell 2 Title" readonly="false" hidden="false" required="false"></Cell2Title><Cell2Image type="imagefile" label="Cell 2 Image" readonly="false" hidden="false" required="false" Width="" Height="" Alignment="" Border="" Expanded="true" AlternateText="" HSpace="" VSpace=""></Cell2Image><Cell2Text type="string" label="Cell 2 Text" readonly="false" hidden="false" required="false"></Cell2Text><xPower Type="Link" Link="" Name="Cell2Link" label="Cell 2 Link" readonly="false" hidden="false" required="false" LinkText="" Target="" Expanded="false" URL=""/></xPower><xPower Type="GroupStart" GroupStart="" Name="Cell3" label="Cell 3" readonly="false" hidden="false" required="false" Expanded="false"><Cell3Title type="string" label="Cell 3 Title" readonly="false" hidden="false" required="false"></Cell3Title><Cell3Image type="imagefile" label="Cell 3 Image" readonly="false" hidden="false" required="false" Width="" Height="" Alignment="" Border="" Expanded="true" AlternateText="" HSpace="" VSpace=""></Cell3Image><Cell3Text type="string" label="Cell 3 Text" readonly="false" hidden="false" required="false"></Cell3Text><xPower Type="Link" Link="" Name="Cell3Link" label="Cell 3 Link" readonly="false" hidden="false" required="false" LinkText="" Target="" Expanded="false" URL=""/></xPower><xPower Type="List" List="xpowercomponent_CellComponent" Name="AdditionalCellComponents" label="Additional Cells" readonly="false" hidden="false" required="false" Component="" CompTypes="CellComponent" Expanded="false"><xPower Type="Component" Component="" Name="CellComponent" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"/></xPower></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+window.jQuery || document.write('<script src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" _mce_src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" _mce_src="prebuilt/stylenew/js/libs/jquery-1.7.min.js"><\/script>')
+</script>
+<script src="Documents/student-records-and-registration/ibox2.js" type="text/javascript"></script>
+<link href="Documents/student-records-and-registration/srrcss3.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+var stop = 0;
+var arrowGoodLocation = 1;
+var currentColumn = "Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image002.gif";
+function columnChangeMouseOut(){
+document.getElementById('thePic').setAttribute('src',currentColumn);
+document.getElementById('thePicInTutorial').setAttribute('src',currentColumn);
+}
+function show(x,z){
+/* Moves the little guy */
+document.getElementById("arrowHere").className = "arrowLocation".concat(z);
+
+/* Needed to call the right box functions */
+if(z == 1){
+good2warning(1);
+currentColumn = "Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0021of9.gif";
+}
+if(z == 2){
+currentColumn = "Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0022of9(0).gif";
+}
+if(z == 3){
+good2probation(1);
+currentColumn = "Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0023of9.gif";
+}
+if(z == 4){
+probation2Suspension(1);
+currentColumn = "Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0024of9(0).gif";
+}
+if(z == 5){
+good2suspention(1);
+currentColumn = "Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0025of9.gif";
+}
+if(z == 6){
+currentColumn = "Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0026of9.gif";
+}
+if(z == 7){
+probation2dismissal(1);
+currentColumn = "Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0027of9(0).gif";
+}
+if(z == 8){
+good2dismissal(1);
+currentColumn = "Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0028of9.gif";
+}
+if(z == 9){
+currentColumn = "Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0029of9.gif";
+}
+document.getElementById("Good").className = "section hidden";
+document.getElementById("Warning").className = "section hidden";
+document.getElementById("Probation").className = "section hidden";
+document.getElementById("Suspension").className = "section hidden";
+document.getElementById("Dismissal").className = "section hidden";
+
+document.getElementById("Good-tab").className = "img-tab under";
+document.getElementById("Warning-tab").className = "img-tab under";
+document.getElementById("Probation-tab").className = "img-tab under";
+document.getElementById("Suspension-tab").className = "img-tab under";
+document.getElementById("Dismissal-tab").className = "img-tab under";
+
+	document.getElementById(x).className = "section";
+	document.getElementById(x + "-tab").className = "img-tab";
+columnChangeMouseOut()
+}
+function showTutorial(x,z){
+
+document.getElementById("kaltura_player").className = "hidden";
+/* Needed to call the right box functions */
+good2warning(1);
+currentColumn = "Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0021of9.gif";
+if(z == 2){
+currentColumn = "Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0022of9(0).gif";
+}
+if(z == 3){
+good2probation(1);
+currentColumn = "Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0023of9.gif";
+}
+if(z == 4){
+probation2Suspension(1);
+currentColumn = "Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0024of9(0).gif";
+}
+if(z == 5){
+good2suspention(1);
+currentColumn = "Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0025of9.gif";
+}
+if(z == 6){
+currentColumn = "Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0026of9.gif";
+}
+if(z == 7){
+probation2dismissal(1);
+currentColumn = "Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0027of9(0).gif";
+}
+if(z == 8){
+good2dismissal(1);
+currentColumn = "Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0028of9.gif";
+}
+if(z == 9){
+currentColumn = "Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0029of9.gif";
+}
+if(stop == 0){
+stop = 1;
+document.getElementById("animatedPointer").id = "pointerStop";
+
+document.getElementById("summary-Good-tab").className = "summary-img-tab pointer stopAnimation";
+document.getElementById("summary-Warning-tab").className = "summary-img-tab pointer stopAnimation";
+document.getElementById("summary-Probation-tab").className = "summary-img-tab pointer stopAnimation";
+document.getElementById("summary-Suspension-tab").className = "summary-img-tab pointer stopAnimation";
+document.getElementById("summary-Dismissal-tab").className = "summary-img-tab pointer stopAnimation";}
+
+
+document.getElementById("arrowHere").className = "arrowLocation".concat(z);
+
+document.getElementById("Summary").className = "hidden-transition";
+document.getElementById("Tutorial").className = "notHidden";
+
+document.getElementById("Good").className = "section hidden";
+document.getElementById("Warning").className = "section hidden";
+document.getElementById("Probation").className = "section hidden";
+document.getElementById("Suspension").className = "section hidden";
+document.getElementById("Dismissal").className = "section hidden";
+
+document.getElementById("Good-tab").className = "img-tab under";
+document.getElementById("Warning-tab").className = "img-tab under";
+document.getElementById("Probation-tab").className = "img-tab under";
+document.getElementById("Suspension-tab").className = "img-tab under";
+document.getElementById("Dismissal-tab").className = "img-tab under";
+
+	document.getElementById(x).className = "section";
+	document.getElementById(x + "-tab").className = "img-tab";
+columnChangeMouseOut()
+}
+
+function showSummary(){
+document.getElementById("Summary").className = "notHidden";
+document.getElementById("Tutorial").className = "hidden-transition";
+currentColumn = "Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image002.gif";
+setTimeout(function(){
+if(document.getElementById("Summary").className == "notHidden"){document.getElementById("kaltura_player").className = "";
+}
+},1000);
+columnChangeMouseOut()
+}
+
+function get(name){
+   if(name=(new RegExp('[?&]'+encodeURIComponent(name)+'=([^&]*)')).exec(location.search))
+      return decodeURIComponent(name[1]);
+}
+
+var lastAnswer = "none";
+
+function showAnswer(x,w){
+// hide last answer if there was one
+if(lastAnswer != "none"){
+	document.getElementById(lastAnswer).className = w.concat("answer faq-hidden");
+
+//unrotate all arrows
+	document.getElementById(lastAnswer + "arrow").className = "FAQarrow";
+}
+	if(lastAnswer != x){
+		var className = w.concat("answer");
+		lastAnswer = x;
+		var z = document.getElementById(x).className;
+		if(z != className ){
+			document.getElementById(x).className = className;
+			document.getElementById(x + "arrow").className = "FAQarrow rotate";
+		}
+	}
+	else{
+		lastAnswer = "none"	
+	}
+}
+
+function showContent(x,w){
+var currentHiddenSection = document.getElementById(x).className;
+
+	if(currentHiddenSection == "answer faq-hidden"){
+		var className = w.concat("unhidden");
+		document.getElementById(x).className = className;
+		document.getElementById(x + "arrow").className = "FAQarrow rotate";
+		
+	}
+	else{
+		document.getElementById(x).className = ("answer faq-hidden");
+		document.getElementById(x + "arrow").className = "FAQarrow";
+	}
+}
+
+
+function good2warning(){
+document.getElementById("arrowHere").className = "arrowLocation1";
+document.getElementById("good2probation").className = "right-box boxs Probation hidden";
+document.getElementById("good2suspention").className = "right-box boxs Suspension hidden";
+document.getElementById("good2dismissal").className = "right-box boxs Dismissal hidden";
+document.getElementById("good2warning").className = "right-box boxs Warning";
+
+document.getElementById("good-button-1").className = "section-button current-section-button";
+document.getElementById("good-button-2").className = "section-button";
+document.getElementById("good-button-3").className = "section-button";
+document.getElementById("good-button-4").className = "section-button";
+
+currentColumn = "Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0021of9.gif";
+columnChangeMouseOut()
+}
+
+function good2probation(dontMove){
+if(dontMove != 1){
+document.getElementById("arrowHere").className = "arrowLocation3";
+}
+document.getElementById("good2warning").className = "right-box boxs Warning hidden";
+document.getElementById("good2suspention").className = "right-box boxs Suspension hidden";
+document.getElementById("good2dismissal").className = "right-box boxs Dismissal hidden";
+document.getElementById("good2probation").className = "right-box boxs Probation";
+
+document.getElementById("good-button-1").className = "section-button";
+document.getElementById("good-button-2").className = "section-button current-section-button";
+document.getElementById("good-button-3").className = "section-button";
+document.getElementById("good-button-4").className = "section-button";
+currentColumn = "Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0023of9.gif";
+columnChangeMouseOut()
+}
+
+function good2suspention(dontMove){
+if(dontMove != 1){
+document.getElementById("arrowHere").className = "arrowLocation5";
+}
+document.getElementById("good2warning").className = "right-box boxs Warning hidden";
+document.getElementById("good2probation").className = "right-box boxs Probation hidden";
+document.getElementById("good2dismissal").className = "right-box boxs Dismissal hidden";
+document.getElementById("good2suspention").className = "right-box boxs Suspension";
+
+document.getElementById("good-button-1").className = "section-button";
+document.getElementById("good-button-2").className = "section-button";
+document.getElementById("good-button-3").className = "section-button current-section-button";
+document.getElementById("good-button-4").className = "section-button";
+currentColumn = "Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0025of9.gif";
+columnChangeMouseOut()
+}
+
+function good2dismissal(dontMove){
+if(dontMove != 1){
+document.getElementById("arrowHere").className = "arrowLocation8";
+}
+document.getElementById("good2warning").className = "right-box boxs Warning hidden";
+document.getElementById("good2probation").className = "right-box boxs Probation hidden";
+document.getElementById("good2suspention").className = "right-box boxs Suspension hidden";
+document.getElementById("good2dismissal").className = "right-box boxs Dismissal";
+
+document.getElementById("good-button-1").className = "section-button";
+document.getElementById("good-button-2").className = "section-button";
+document.getElementById("good-button-3").className = "section-button";
+document.getElementById("good-button-4").className = "section-button current-section-button";
+currentColumn = "Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0028of9.gif";
+columnChangeMouseOut()
+}
+
+function probation2Suspension(){
+document.getElementById("arrowHere").className = "arrowLocation4";
+document.getElementById("probation2dismissal").className = "right-box boxs Dismissal hidden";
+document.getElementById("probation2good2").className = "left-box boxs Good hidden";
+document.getElementById("probation2good1").className = "left-box boxs Good";
+document.getElementById("probation2suspension").className = "right-box boxs Suspension";
+
+document.getElementById("probation-button-1").className = "section-button current-section-button";
+document.getElementById("probation-button-2").className = "section-button";
+currentColumn = "Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0024of9(0).gif";
+columnChangeMouseOut()
+}
+
+function probation2dismissal(dontMove){
+if(dontMove != 1){
+document.getElementById("arrowHere").className = "arrowLocation7";
+}
+document.getElementById("probation2suspension").className = "right-box boxs Suspension hidden";
+document.getElementById("probation2good1").className = "left-box boxs Good hidden";
+document.getElementById("probation2good2").className = "left-box boxs Good";
+document.getElementById("probation2dismissal").className = "right-box boxs Dismissal";
+
+document.getElementById("probation-button-2").className = "section-button current-section-button";
+document.getElementById("probation-button-1").className = "section-button";
+currentColumn = "Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0027of9(0).gif";
+columnChangeMouseOut()
+}
+</script>
+</div>
+<style><!--
+#page_title{
+display:none;
+}
+.span-6 {
+display: none;
+}
+.type{
+width: 944px;
+}
+#Whole-Thing{
+margin:auto;
+width: 945px;
+height:980px;
+}
+#summary-tab-bar{
+position: absolute;
+top: 65px;
+margin-left: 13px;
+}
+
+.summary-img-tab{
+margin:2px;
+}
+
+.type p+ul, .type p+ol{
+margin-top: -10px;
+}
+
+.srr-brand{
+float:right;
+}
+
+#tab-bar{
+margin: 0px 0px -10px 15px; 
+padding: 0px; 
+width: 753px;
+height: 55px;
+position: relative;
+z-index: 0;
+}
+.pointer{
+cursor:pointer;
+}
+#summary-button{
+margin:auto;
+margin-bottom: -123px;
+}
+.hidden-transition{
+opacity:0;
+z-index: 0;
+margin: 0px auto;
+width: 753px;
+}
+.notHidden{
+z-index:1;
+margin: 0px auto;
+width: 753px;
+}
+#Tutorial{
+
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+position: relative;
+left: 0px;
+top: -815px;
+padding
+}
+#Summary{
+
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+position: relative;
+left: 0px;
+top: -16px;
+}
+
+
+.img-tab{
+cursor:pointer;
+margin-right:4px;
+}
+.under:hover{
+padding-bottom:6px;
+}
+.under{
+margin-bottom:-9px;
+}
+.font-reduced{
+font-size:12px;
+}
+.Good, #Good{border: 4px solid #7DC142; 
+background: #d5e0cc; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, #d5e0cc 0%, #c1eb9d 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#d5e0cc), color-stop(100%,#c1eb9d)); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover, #d5e0cc 0%,#c1eb9d 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover, #d5e0cc 0%,#c1eb9d 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover, #d5e0cc 0%,#c1eb9d 100%); /* IE10+ */
+background: radial-gradient(ellipse at center, #d5e0cc 0%,#c1eb9d 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5e0cc', endColorstr='#c1eb9d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.Warning, #Warning{border: 4px solid #FAD70D; 
+
+background: rgb(244,238,178); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, rgba(244,238,178,1) 0%, rgba(248,239,134,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(244,238,178,1)), color-stop(100%,rgba(248,239,134,1))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover, rgba(244,238,178,1) 0%,rgba(248,239,134,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover, rgba(244,238,178,1) 0%,rgba(248,239,134,1) 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover, rgba(244,238,178,1) 0%,rgba(248,239,134,1) 100%); /* IE10+ */
+background: radial-gradient(ellipse at center, rgba(244,238,178,1) 0%,rgba(248,239,134,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4eeb2', endColorstr='#f8ef86',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.Probation, #Probation{border: 4px solid #F57E20; 
+
+background: rgb(237,226,211); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, rgba(237,226,211,1) 0%, rgba(241,212,174,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(237,226,211,1)), color-stop(100%,rgba(241,212,174,1))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover, rgba(237,226,211,1) 0%,rgba(241,212,174,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover, rgba(237,226,211,1) 0%,rgba(241,212,174,1) 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover, rgba(237,226,211,1) 0%,rgba(241,212,174,1) 100%); /* IE10+ */
+background: radial-gradient(ellipse at center, rgba(237,226,211,1) 0%,rgba(241,212,174,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ede2d3', endColorstr='#f1d4ae',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.Suspension, #Suspension{border: 4px solid #D02B2F; 
+
+background: rgb(232,222,222); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, rgba(232,222,222,1) 0%, rgba(235,201,201,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(232,222,222,1)), color-stop(100%,rgba(235,201,201,1))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover, rgba(232,222,222,1) 0%,rgba(235,201,201,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover, rgba(232,222,222,1) 0%,rgba(235,201,201,1) 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover, rgba(232,222,222,1) 0%,rgba(235,201,201,1) 100%); /* IE10+ */
+background: radial-gradient(ellipse at center, rgba(232,222,222,1) 0%,rgba(235,201,201,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8dede', endColorstr='#ebc9c9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.Dismissal, #Dismissal{border: 4px solid #868688; 
+
+background: rgb(234,234,234); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, rgba(234,234,234,1) 0%, rgba(209,209,209,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(234,234,234,1)), color-stop(100%,rgba(209,209,209,1))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover, rgba(234,234,234,1) 0%,rgba(209,209,209,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover, rgba(234,234,234,1) 0%,rgba(209,209,209,1) 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover, rgba(234,234,234,1) 0%,rgba(209,209,209,1) 100%); /* IE10+ */
+background: radial-gradient(ellipse at center, rgba(234,234,234,1) 0%,rgba(209,209,209,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#d1d1d1',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+#cutes-and-ladders{
+float: left;
+position: absolute;
+top: 210px;
+left: 118px;
+z-index: 3;
+}
+#cutes-and-ladders-whole{
+width: 535px;
+margin: 30px auto;
+position: absolute;
+z-index: 2;
+top: 148px;
+left: 110px;
+}
+
+#onmouseover-reset-image{
+width: 645px;
+height: 314px;
+position: absolute;
+top: -18px;
+left: -103px;
+z-index: 1;
+}
+#cutes-and-ladders2{
+float: left;
+position: absolute;
+top: 19px;
+left: 9px;
+width: 503px;
+height: 218px;
+z-index: 3;
+}
+#thePic{
+position: relative;
+z-index: 0;
+}
+#thePicInTutorial{
+position: absolute;
+z-index: 0;
+}
+.section-button{
+float: left;
+width: 80px;
+height: 25px;
+margin-top: 3px;
+cursor: pointer;
+}
+.section-button:hover{
+width: 90px;
+height: 28px;
+margin-top:1px;
+margin-bottom:-1px;
+margin-left:-5px;
+}
+
+.current-section-button{
+width: 86px;
+height: 27px;
+margin-top:2px;
+margin-bottom:-1px;
+margin-left:-2px;
+}
+
+.section{
+border-top-right-radius:5px;
+moz-top-right-border-radius:5px;
+position:absolute;
+border-top-left-radius:5px;
+moz-top-left-border-radius:5px;
+width:740px;
+min-height:300px;
+margin: -20px 0px 0px 7px; 
+padding: 5px;
+}
+.section p{
+margin-left:10px;
+}
+.center{
+margin-left:85px;
+}
+#arrowHere{
+margin-left:85px;
+position: relative;
+z-index:3;
+  -webkit-transition: all 1s; 
+  -moz-transition: all 1s; 
+  -o-transition: all 1s; 
+  transition: all 1s;
+}
+.arrowLocation1{
+left: 64px;
+top: 170px;
+}
+.arrowLocation2{
+left: 120px;
+top: 205px;
+}
+.arrowLocation3{
+left: 163px;
+top: 170px;
+}
+.arrowLocation4{
+left: 219px;
+top: 219px;
+}
+.arrowLocation5{
+left: 270px;
+top: 170px;
+}
+.arrowLocation6{
+left: 332px;
+top: 259px;
+}
+.arrowLocation7{
+left: 379px;
+top: 219px;
+}
+.arrowLocation8{
+left: 435px;
+top: 170px;
+}
+.arrowLocation9{
+left: 510px;
+top: 314px;
+}
+div#Warning div.section-description h3{
+padding-top:5px;
+}
+div#Good div.section-description h3{
+padding-top:5px;
+}
+.hidden{
+visibility: hidden;
+height:0px;
+}
+.section-description{
+padding:5px;
+padding-left:15px;
+height:310px;
+}
+.left-box{
+float:left;
+display:inline;
+}
+.right-box{
+float:right;
+display:inline;
+}
+div.faqs{
+padding:15px;
+clear:both;
+min-height:80px;
+/*margin-bottom: -38px;*/
+}
+div.faqs h3{
+font-size:95%;
+text-decoration: underline;
+}
+div.faqs h3:hover{
+text-decoration: none;
+}
+ div.faqs p, div.faqs li{
+font-size:85%;
+}
+.hide-extra-space{
+margin-top:-53px;
+}
+.question{
+cursor:pointer;
+}
+#bottomContact{
+float: right;
+position: relative;
+top: 61px;
+}
+.srr-brand-under{
+position:relative;
+top:97px;
+float:right;
+}
+
+.unhidden{
+height:84px;
+margin-left:20px;
+overflow:hidden;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.threeunhidden{
+height:63px;
+margin-left:20px;
+overflow:hidden;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.twounhidden{
+height:42px;
+margin-left:20px;
+overflow:hidden;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.oneunhidden{
+height:21px;
+margin-left:20px;
+overflow:hidden;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+
+
+.answer{
+height:84px;
+margin-left:20px;
+overflow:hidden;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.threeanswer{
+height:83px;
+margin-left:20px;
+overflow:hidden;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.twoanswer{
+height:60px;
+margin-left:20px;
+overflow:hidden;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.oneanswer{
+height:40px;
+margin-left:20px;
+overflow:hidden;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.zeroanswer{
+height:23px;
+margin-left:20px;
+overflow:hidden;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.faq-hidden {
+height:0px;
+}
+.FAQarrow{
+  padding:0;
+  margin:-3px 0 0 6px;
+  line-height:20px;
+  width:13px;
+  position:absolute;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.rotate{
+padding:0px;
+  -webkit-transform:rotate(90deg);
+  -moz-transform:rotate(90deg);
+  -o-transform:rotate(90deg);
+  transform:rotate(90deg);
+
+}
+div.faqs p+ul, div.faqs p+ol{
+margin-top:-1.2em;
+}
+.avoid-text{
+display: block; 
+margin-left: auto; 
+margin-right: auto;
+margin-top:5px;
+margin-bottom:15px;
+cursor:pointer;
+padding-right:15px;
+}
+.return-to-text{
+display: block; 
+margin-left: auto; 
+margin-right: auto;
+margin-top:5px;
+margin-bottom:15px;
+cursor:pointer;
+padding-left:10px;
+}
+.arrow{
+display: block; 
+margin-left: auto; 
+margin-right: auto;
+margin-top:-95px;
+margin-bottom:5px;
+cursor:pointer;
+}
+.arrow:hover{
+height:85px;
+margin-top:-96px;
+margin-bottom:4px;
+}
+.arrow-good{
+display: block; 
+margin-left: auto; 
+margin-right: auto;
+margin-top:5px;
+margin-bottom:15px;
+cursor:pointer;
+}
+.boxs{
+border-radius:25px;
+moz-border-radius:25px;
+width:337px;
+min-height:115px;
+margin: 5px; 
+padding: 0px 5px;
+}
+.boxs ul ul li{
+list-style-type:disc;
+}
+
+#Good .boxs{
+}
+#Warning .boxs{
+}
+#Probation .boxs{
+}
+#Suspension .boxs{
+}
+#Good div.left-box{
+border:solid 2px #7DC142;
+}
+#Good div.right-box{
+border:solid 2px #7DC142;
+}
+#Warning div.left-box{
+border:solid 2px #E1C20C;
+}
+#Warning div.right-box{
+border:solid 2px #E1C20C;
+}
+#Probation div.left-box{
+border:solid 2px #F57E20;
+}
+#Probation div.right-box{
+border:solid 2px #F57E20;
+}
+#Suspension div.left-box{
+border:solid 2px #E49092;
+}
+#Suspension div.right-box{
+border:solid 2px #E49092;
+}
+#Dismissal div.left-box{
+border:solid 2px #868688;
+}
+#Dismissal div.boxs{
+border:solid 2px #868688;
+}
+
+#animatedPointer{
+position:absolute;
+margin-left:-5px;
+top:40px; 
+  -webkit-transition: left 1s; 
+  -moz-transition: left 1s; 
+  -o-transition: left 1s; 
+  transition: left  1s;
+}
+
+.location1{left:71px;
+}
+.location2{left:213px;
+}
+.location3{left:355px;
+}
+.location4{left:497px;
+}
+.location5{left:639px;
+}
+
+.summary-img-tab:hover{
+width:142px;
+margin:0px 0px 2px 0px;
+}
+
+.currentTab{
+width:142px;
+margin:0px 0px 2px 0px;
+}
+.stopAnimation{
+width:138px;
+margin:2px;
+}
+.stopAnimation:hover{
+width:142px;
+margin:0px 0px 2px 0px;
+}
+#pointerStop{
+display:none;
+}
+
+.columns{
+cursor:pointer;
+float: left;
+margin:0px;
+position: relative;
+z-index:4;
+}
+#pic1{
+width:53px;
+height:218px;
+}
+#pic2{
+width:57px;
+height:218px;
+}
+#pic3{
+width:50px;
+height:218px;
+}
+#pic4{
+width:54px;
+height:218px;
+}
+#pic5{
+width:60px;
+height:218px;
+}
+#pic6{
+width:57px;
+height:218px;
+}
+#pic7{
+width:53px;
+height:218px;
+}
+#pic8{
+width:53px;
+height:218px;
+}
+#pic9{
+width:66px;
+height:218px;
+}
+.good-button-section{
+width: 80px;
+height:112px;
+left: 644px;
+top: 113px;
+position: absolute;
+}
+
+@-moz-document url-prefix() {
+    #Tutorial{
+    top: -820px;
+    }
+#summary-tab-bar{
+top:66px;
+}
+
+}
+--></style>
+<!--[if IE]>
+<style>
+.hide-extra-space{
+margin-top:-40px;
+}
+.hidden-transition{
+display:none;
+}
+#thePicInTutorial{
+z-index:0;
+}
+#Tutorial{
+top: -69px;
+height:700px;
+}
+#summary-button{
+margin-bottom:-121px;
+}
+#summary{
+top: 0px;
+}
+.section{
+margin-top: -20px;
+}
+#cutes-and-ladders-whole{
+top:129px;
+}
+
+
+</style>
+<![endif]-->
+<p></p>
+<!--[if IE 7]>
+<style>
+#summary-tab-bar{
+left:0px;
+}
+
+</style>
+<![endif]-->
+<div id="Whole-Thing">
+<div class="notHidden" id="Summary"><img src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image001.gif" />
+<div id="summary-tab-bar"><img class="location1" id="animatedPointer" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/pointer.gif" /> <img alt="Good" class="summary-img-tab pointer animation1" id="summary-Good-tab" onclick="showTutorial('Good',1)" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/good-s.gif" width="138px" /> <img alt="Warning" class="summary-img-tab pointer animation2" id="summary-Warning-tab" onclick="showTutorial('Warning',2)" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/warning-s.gif" width="138" /> <img alt="Probation" class="summary-img-tab pointer animation3" id="summary-Probation-tab" onclick="showTutorial('Probation',4)" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/probation-s.gif" width="138" /> <img alt="Suspension" class="summary-img-tab pointer animation4" id="summary-Suspension-tab" onclick="showTutorial('Suspension',6)" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/suspension-s.gif" width="138" /> <img alt="Dismissal" class="summary-img-tab pointer animation5" id="summary-Dismissal-tab" onclick="showTutorial('Dismissal',9)" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/dismissal-s.gif" width="138" /></div>
+<div onmouseover="columnChangeMouseOut()" style="width: 535px; margin: -10px auto 30px;">
+<p></p>
+<img class="pointer" height="292" id="thePic" onclick="showTutorial('Good',1)" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image002.gif" width="535" /></div>
+<div id="cutes-and-ladders">
+<div class="columns" id="pic1" onclick="showTutorial('Good',1)" onmouseover="document.getElementById('thePic').src='Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0021of9.gif'"></div>
+<div class="columns" id="pic2" onclick="showTutorial('Warning',2)" onmouseover="document.getElementById('thePic').src='Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0022of9.gif'"></div>
+<div class="columns" id="pic3" onclick="showTutorial('Good',3)" onmouseover="document.getElementById('thePic').src='Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0023of9.gif'"></div>
+<div class="columns" id="pic4" onclick="showTutorial('Probation',4)" onmouseover="document.getElementById('thePic').src='Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0024of9.gif'"></div>
+<div class="columns" id="pic5" onclick="showTutorial('Good',5)" onmouseover="document.getElementById('thePic').src='Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0025of9.gif'"></div>
+<div class="columns" id="pic6" onclick="showTutorial('Suspension',6)" onmouseover="document.getElementById('thePic').src='Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0026of9.gif'"></div>
+<div class="columns" id="pic7" onclick="showTutorial('Probation',7)" onmouseover="document.getElementById('thePic').src='Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0027of9.gif'"></div>
+<div class="columns" id="pic8" onclick="showTutorial('Good',8)" onmouseover="document.getElementById('thePic').src='Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0028of9.gif'"></div>
+<div class="columns" id="pic9" onclick="showTutorial('Dismissal',9)" onmouseover="document.getElementById('thePic').src='Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0029of9.gif'"></div>
+</div>
+<p><em>Click any Academic Standing button or Chutes &amp; Ladders box to learn more about each Academic Standing.</em></p>
+<p>All students start on Good Academic Standing (first green block).&nbsp; If a student fails to meet the <a href="#academic-standards" rel="ibox" title="Academic Standards">Academic Standards</a> the first time they slide to Warning.&nbsp; A student may then <a onclick="showTutorial('Warning',2)" style="color: #056cb6; text-decoration: underline;">climb</a> their way out of Warning back to Good.</p>
+<p>If a student fails to meet the <a href="#academic-standards" rel="ibox" title="Academic Standards">Academic Standards</a> a second, third, or fourth time they slide to Probation, then Suspension and Dismissal.</p>
+<p>If you feel you struggle in school, President Clark has a message of encouragement below.</p>
+<center><iframe frameborder="0" height="285" id="kaltura_player" src="https://www.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/16687322/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player&amp;entry_id=0_48ql0j29&amp;wid=0_3ss85q8x&amp;flashvars[mediaProtocol]=rtmp&amp;flashvars[streamerType]=rtmp&amp;flashvars[streamerUrl]=rtmp://www.kaltura.com:1935&amp;flashvars[rtmpFlavors]=1&amp;" width="400"></iframe></center>
+<div id="bottomContact">
+<ul>
+<li><img alt="Email Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/envelope.png" width="23" /><a href="#email" rel="ibox" title="Email Information"> Email Us</a></li>
+<li><img alt="Phone Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/phone.png" width="23" /><a href="#phone" rel="ibox" title="Phone Information"> Call Us</a></li>
+<li><img alt="Visit Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/visit.png" width="23" /><a href="Images/Admin_Offices/Student Record and Registration/HomePage/byuidahoMap.jpg" rel="ibox"> Visit Us</a></li>
+<li><img alt="Facebook Link" height="16" src="Images/Admin_Offices/Student Record and Registration/HomePage/facebook.png" width="16" /><a href="http://www.facebook.com/pages/BYU-Idaho-Student-Records-and-Registration/276472292461946?fref=ts"> facebook</a></li>
+<li><img alt="Live Chat Link" height="16" src="Images/Admin_Offices/Student Record and Registration/HomePage/livechat.png" width="18" /><a href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=SRR&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large" onclick="window.open('https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=SRR&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large&amp;referrer='+escape(document.location),'chat1132447','width=472,height=320');return false;" target="chat1132447"> Live Chat</a></li>
+<li><img alt="Site Index Link" height="17" src="Images/Admin_Offices/Student Record and Registration/HomePage/index.png" width="18" /><a href="x43952.xml"> Index</a></li>
+</ul>
+</div>
+</div>
+<!-- **************************** TUTORIAL *********************************-->
+<div class="hidden-transition" id="Tutorial"><img class="arrowLocation1" height="50px" id="arrowHere" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/person-stand-books5.gif" width="20px" />
+<div id="cutes-and-ladders-whole" style="width: 535px; margin: 46px auto;"><img height="292" id="thePicInTutorial" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image002.gif" width="535" />
+<div id="onmouseover-reset-image" onmouseover="columnChangeMouseOut()"></div>
+<div id="cutes-and-ladders2">
+<div class="columns" id="pic1" onclick="showTutorial('Good',1)" onmouseover="document.getElementById('thePicInTutorial').src='Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0021of9.gif'"></div>
+<div class="columns" id="pic2" onclick="showTutorial('Warning',2)" onmouseover="document.getElementById('thePicInTutorial').src='Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0022of9(0).gif'"></div>
+<div class="columns" id="pic3" onclick="showTutorial('Good',3)" onmouseover="document.getElementById('thePicInTutorial').src='Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0023of9.gif'"></div>
+<div class="columns" id="pic4" onclick="showTutorial('Probation',4)" onmouseover="document.getElementById('thePicInTutorial').src='Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0024of9(0).gif'"></div>
+<div class="columns" id="pic5" onclick="showTutorial('Good',5)" onmouseover="document.getElementById('thePicInTutorial').src='Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0025of9.gif'"></div>
+<div class="columns" id="pic6" onclick="showTutorial('Suspension',6)" onmouseover="document.getElementById('thePicInTutorial').src='Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0026of9.gif'"></div>
+<div class="columns" id="pic7" onclick="showTutorial('Probation',7)" onmouseover="document.getElementById('thePicInTutorial').src='Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0027of9(0).gif'"></div>
+<div class="columns" id="pic8" onclick="showTutorial('Good',8)" onmouseover="document.getElementById('thePicInTutorial').src='Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0028of9.gif'"></div>
+<div class="columns" id="pic9" onclick="showTutorial('Dismissal',9)" onmouseover="document.getElementById('thePicInTutorial').src='Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0029of9.gif'"></div>
+</div>
+</div>
+<img class="pointer" id="summary-button" onclick="showSummary()" onmouseout="this.src='Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image004(2).gif'" onmouseover="this.src='Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image0042(3).gif'" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/image004(2).gif" /> <!-- ****************************** TOP TABS ***************************** -->
+<div id="tab-bar"><img alt="Good" class="img-tab" id="Good-tab" onclick="show('Good',1)" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/NEW-good(2).gif" width="138" /> <img alt="Warning" class="img-tab under" id="Warning-tab" onclick="show('Warning',2)" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/warning-tab(2).gif" width="138" /> <img alt="Probation" class="img-tab under" id="Probation-tab" onclick="show('Probation',4)" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/new-probation(2).gif" width="138" /> <img alt="Suspension" class="img-tab under" id="Suspension-tab" onclick="show('Suspension',6)" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/NEW-suspension(2).gif" width="138" /> <img alt="Dismissal" class="img-tab under" id="Dismissal-tab" onclick="show('Dismissal',9)" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/new-dismissal(2).gif" width="138" /></div>
+<!-- ******************************* IBOXS ******************************* -->
+<div id="email" style="display: none;">
+<p>For any Academic Petitions questions please email us at: <a href="mailto:srrpetitions@byui.edu"><span style="text-decoration: underline;">srrpetitions@byui.edu</span></a></p>
+</div>
+<div id="phone" style="display: none;">
+<p>For any Academic Petitions questions please email us at (208)-496-1023</p>
+</div>
+<div id="academic-standards" style="display: none;">
+<p>The three Academic Standards of BYU-Idaho.</p>
+<ol>
+<li>1.0 Semester GPA (While on Good Academic Standing)</li>
+<li>2.0 cumulative GPA</li>
+<li>SAP of 75% or greater</li>
+</ol></div>
+<div id="cumulative" style="display: none;">Cumulative GPA means the average GPA of all your semesters at BYU&ndash;Idaho.</div>
+<div id="gpa" style="display: none;">GPA stands for <strong>G</strong>rade <strong>P</strong>oint <strong>A</strong>verage.
+<p>GPA calculation: points divided by quality credits (Example: 43.20 / 15 = 2.880 GPA)</p>
+<p>Proceed to <a href="x47100.xml" target="_blank">GPA calculator</a> page.</p>
+</div>
+<div id="sap" style="display: none;">SAP stands for <strong>S</strong>atisfactory <strong>A</strong>cademic <strong>P</strong>rogress and is calculated each semester by dividing earned credits by attempted credits. EXAMPLE: 9 earned credits / 12 attempted credits = 75%</div>
+<div id="6credit" style="display: none;">Although it is required to complete at least 6 credits in a subsequent semester to return to &ldquo;Good Academic Standing&rdquo; if you are unable to take at least 6 credits the semester following your Academic Warning you would stay on Warning. Your academic standing would not digress to probation. Academic standing at BYU-Idaho is only affected when not meeting the <a href="#academic-standards" rel="ibox" title="Academic Standards">Academic Standards</a> of BYU-Idaho.</div>
+<div id="6credit2" style="display: none;">Although it is required to complete at least 6 credits in a subsequent semester to return to &ldquo;Good Academic Standing&rdquo; if you are unable to take at least 6 credits the semester following your Academic Probation you would stay on Probation. Your academic standing would not digress to Suspension. Academic standing at BYU-Idaho is only affected when not meeting the Academic Standards of BYU-Idaho.</div>
+<div id="aasw" style="display: none;">
+<p>Leaving the Academic Standing Tutorial</p>
+<p>proceed to the <a href="x45999.xml" target="_blank">AASW info webpage</a>.</p>
+</div>
+<!-- ***************************** SECTION GOOD ************************** -->
+<div style="z-index: 1; position: relative;">
+<div class="section" id="Good">
+<div class="section-description">
+<div class="good-button-section"><img class="section-button" height="37px" id="good-button-1" onclick="good2warning()" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/good-button-1.gif" width="120px" /> <img class="section-button" height="37px" id="good-button-2" onclick="good2probation()" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/good-button-2.gif" width="120px" /> <img class="section-button" height="37px" id="good-button-3" onclick="good2suspention()" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/good-button-3.gif" width="120px" /> <img class="section-button" height="37px" id="good-button-4" onclick="good2dismissal()" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/good-button-4.gif" width="120px" /></div>
+</div>
+<div class="left-box boxs Good"><img class="arrow-good" height="70px" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/good-button.gif" />
+<p>To remain on Good Academic Standing, meet the following <a href="#academic-standards" rel="ibox" title="Academic Standards">Academic Standards</a>:</p>
+<ul>
+<li>2.0 <a href="#cumulative" rel="ibox" title="Cumulative">cumulative</a> <a href="#gpa" rel="ibox" title="GPA">GPA</a> or higher</li>
+<li>1.0 semester GPA or higher</li>
+<li>75% semester <a href="x94068.xml" target="_blank">SAP</a></li>
+</ul>
+</div>
+<div class="right-box boxs Warning" id="good2warning"><img class="avoid-text" height="83px" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/slip-to-text-warning.gif" /><img class="arrow" height="83px" onclick="show('Warning',2)" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/slip-to-arrow-warning.gif" />
+<p>You will move to academic Warning if any one of the following accurs:</p>
+<ul>
+<li>Less than 2.0 <a href="#cumulative" rel="ibox" title="Cumulative">cumulative</a> <a href="#gpa" rel="ibox" title="GPA">GPA</a></li>
+<li>Less than 1.0 semester GPA</li>
+<li>Less than 75% semester <a href="x94068.xml" target="_blank">SAP</a></li>
+</ul>
+</div>
+<div class="right-box boxs Probation hidden" id="good2probation"><img class="avoid-text" height="83px" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/slip-to-text-Probation.gif" /><img class="arrow" height="83px" onclick="show('Probation',4)" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/slip-to-arrow-Probation.gif" />
+<p>You will move to Academic Probation if you have previously been on Academic Warning and if any one of the following occurs:</p>
+<ul>
+<li>Less than 2.0 cumulative GPA</li>
+<li>Less than 1.0 semester GPA while on Good Academic Standing <span style="font-size: 80%;">(having returned from &ldquo;Warning&rdquo; to &ldquo;Good&rdquo; in a previous semester)</span></li>
+<li>Less than 75% <a href="x94068.xml" target="_blank">SAP</a></li>
+</ul>
+</div>
+<div class="right-box boxs Suspension hidden" id="good2suspention"><img class="avoid-text" height="83px" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/slip-to-text-suspension.gif" /><img class="arrow" height="83px" onclick="show('Suspension',6)" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/slip-to-arrow-suspension.gif" />
+<p>You will move to Academic Suspension if you have previously been on Academic Probation and if any one of the following occurs:</p>
+<ul>
+<li>Less than 2.0 cumulative GPA</li>
+<li>Less than 1.0 semester GPA while on Good Academic Standing <span style="font-size: 80%;">(having returned from &ldquo;Probation&rdquo; to &ldquo;Good&rdquo; in a previous semester)</span></li>
+<li>You cannot move to Suspension for less than 75% <a href="x94068.xml" target="_blank">SAP</a> alone
+<ul>
+<li>You will go back to Probation if you fail the semester <a href="x94068.xml" target="_blank">SAP</a> Standard</li>
+</ul>
+</li>
+<li>Less than 75% semester SAP in conjunction with less than 2.0 Semester GPA</li>
+</ul>
+</div>
+<div class="right-box boxs Dismissal hidden" id="good2dismissal"><img class="avoid-text" height="83px" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/slip-to-text-dismissal.gif" /><img class="arrow" height="83px" onclick="show('Dismissal',9)" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/slip-to-arrow-dismissal.gif" />
+<p>You will move to Academic Dismissal if you have previously been on Academic Suspension and if any one of the following occurs:</p>
+<ul>
+<li>Less than 2.0 cumulative GPA</li>
+<li>Less than 1.0 semester GPA while on Good Academic Standing <span style="font-size: 78%;">(having returned from &ldquo;Suspension&rdquo; to &ldquo;Good&rdquo; in a previous semester)</span></li>
+<li>You cannot move to Dismissal for less than 75% <a href="x94068.xml" target="_blank">SAP</a> alone
+<ul>
+<li>You will go back to Probation if you fail the semester <a href="x94068.xml" target="_blank">SAP</a> Standard</li>
+</ul>
+</li>
+<li>Less than 75% semester SAP in conjunction with less than 2.0 Semester GPA</li>
+</ul>
+</div>
+<!-- ***************************** FAQ GOOD ****************************** -->
+<div class="faqs">
+<h2>FAQs</h2>
+<h3 class="question" onclick="showAnswer('goodA1','two')">Why does BYU&ndash;Idaho have academic standards? <span class="FAQarrow" id="goodA1arrow">▶</span></h3>
+<div class="answer faq-hidden" id="goodA1">
+<p>BYU&mdash;Idaho has <a href="#academic-standards" rel="ibox" title="Academic Standards">Academic Standards</a> to help students safeguard the sacred church resources expended in their behalf. Academic Standards are also the university's way to hold students accountable for the mastery of educational curriculum deemed essential for a degree from BYU&mdash;Idaho.</p>
+</div>
+<h3 class="question" onclick="showAnswer('goodA2','two')">Why is SAP important? <span class="FAQarrow" id="goodA2arrow">▶</span></h3>
+<div class="answer faq-hidden" id="goodA2">
+<p>There are two reasons why <strong>S</strong>atisfactory <strong>A</strong>cademic <strong>P</strong>rogress is important:</p>
+<ul>
+<li>to encourage efficient completion of degree requirements</li>
+<li>to safeguard sacred church resources used by each student at BYU-Idaho</li>
+</ul>
+</div>
+<h3 class="question" onclick="showAnswer('goodA3','two')">Who can answer additional questions regarding BYU-Idaho&rsquo;s academic standards? <span class="FAQarrow" id="goodA3arrow">▶</span></h3>
+<div class="answer faq-hidden" id="goodA3">
+<p>Additional questions regarding Academic Standing can be directed to <a href="mailto:srrpetitions@byui.edu">srrpetitions@byui.edu</a>, (208) 496-1023, or Kimball 190. When contacting us, please begin your statement with "I have a question about Academic Standing...." Prefacing your question this way allows us to route your question to the right department.</p>
+</div>
+<h3 class="question" onclick="showAnswer('goodA4','zero')">What is a "W" grade and how does it affect me? <span class="FAQarrow" id="goodA4arrow">▶</span></h3>
+<div class="answer faq-hidden" id="goodA4">
+<p>A "W" grade is an <a href="x95215.xml" target="_blank">unearned</a> grade and will affect your <a href="x94068.xml" target="_blank">SAP</a>.</p>
+</div>
+</div>
+<div class="hide-extra-space"><img class="srr-brand-under" height="38" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/Student-Records-and-Registration_6.png" width="253" />
+<div id="bottomContact">
+<ul>
+<li><img alt="Email Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/envelope.png" width="23" /><a href="#email" rel="ibox" title="Email Information"> Email Us</a></li>
+<li><img alt="Phone Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/phone.png" width="23" /><a href="#phone" rel="ibox" title="Phone Information"> Call Us</a></li>
+<li><img alt="Visit Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/visit.png" width="23" /><a href="Images/Admin_Offices/Student Record and Registration/HomePage/byuidahoMap.jpg" rel="ibox"> Visit Us</a></li>
+<li><img alt="Facebook Link" height="16" src="Images/Admin_Offices/Student Record and Registration/HomePage/facebook.png" width="16" /><a href="http://www.facebook.com/pages/BYU-Idaho-Student-Records-and-Registration/276472292461946?fref=ts"> facebook</a></li>
+<li><img alt="Live Chat Link" height="16" src="Images/Admin_Offices/Student Record and Registration/HomePage/livechat.png" width="18" /><a href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=SRR&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large" onclick="window.open('https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=SRR&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large&amp;referrer='+escape(document.location),'chat1132447','width=472,height=320');return false;" target="chat1132447"> Live Chat</a></li>
+<li><img alt="Site Index Link" height="17" src="Images/Admin_Offices/Student Record and Registration/HomePage/index.png" width="18" /><a href="x43952.xml"> Index</a></li>
+</ul>
+</div>
+</div>
+</div>
+<!-- ************************** SECTION WARNING ************************** -->
+<div class="section hidden" id="Warning">
+<div class="section-description"></div>
+<div class="left-box boxs Good"><img class="return-to-text" height="83px" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/climb-to-text-good.gif" /><img class="arrow" height="83px" onclick="show('Good',3)" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/climb-to-arrow-good.gif" />
+<p>To return to Good Standing, complete the following:</p>
+<ul>
+<li>Complete <a href="#aasw" rel="ibox" title="AASW">AASW</a> (<strong>A</strong>chieving <strong>A</strong>cademic <strong>S</strong>uccess <strong>W</strong>orkshop) - 2 to 4 hours</li>
+<li><a href="#6credit" rel="ibox" title="6 semester credits in a single semester">Complete 6 or more credits</a> in a single semester</li>
+<li>Meet the Academic Standards
+<ul>
+<li>2.0 <a href="#cumulative" rel="ibox" title="Cumulative">cumulative</a> <a href="#gpa" rel="ibox" title="GPA">GPA</a> or higher</li>
+<li>2.0 semester GPA or higher</li>
+<li>75% semester <a href="x94068.xml" target="_blank">SAP</a> or higher</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="right-box boxs Probation"><img class="avoid-text" height="83px" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/slip-to-text-probation.gif" /><img class="arrow" height="83px" onclick="show('Probation',4)" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/slip-to-arrow-probation.gif" />
+<p>You will move to Academic Probation if you have previously been on Academic Warning and if any one of the following occurs:</p>
+<ul>
+<li>Less than 2.0 cumulative GPA</li>
+<!-- WORKING ON IT -->
+<li>Less than 2.0 semester GPA while on Academic Warning</li>
+<!-- WORKING ON IT -->
+<li>Less than 75% <a href="x94068.xml" target="_blank">SAP</a></li>
+</ul>
+</div>
+<!-- *************************** FAQ WARNING ***************************** -->
+<div class="faqs">
+<h2>FAQs</h2>
+<h3 class="question" onclick="showAnswer('warningA0','three')">How does Academic Warning affect me? <span class="FAQarrow" id="warningA0arrow">▶</span></h3>
+<div class="answer faq-hidden" id="warningA0">
+<p>"Academic Warning" is just that, "a warning." Academic Warning does NOT prevent registration nor access to any other student services on campus. Academic Warning is intended to warn you that if you fail to meet any of the Academic Standards in another semester, you will move to Academic Probation. To see the effects of Academic Probation, proceed to the "Probation" tab.</p>
+</div>
+<h3 class="question" onclick="showAnswer('warningA1','three')">Why am I on Academic Warning? <span class="FAQarrow" id="warningA1arrow">▶</span></h3>
+<div class="answer faq-hidden" id="warningA1">
+<p>Academic Warning occurs the first time you do not meet one or more of BYU-Idaho&rsquo;s three <a href="#academic-standards" rel="ibox" title="Academic Standards">Academic Standards</a>.</p>
+<ul>
+<li>2.0 <a href="#cumulative" rel="ibox" title="Cumulative">cumulative</a> <a href="#gpa" rel="ibox" title="GPA">GPA</a> or higher</li>
+<li>1.0 semester GPA or higher</li>
+<li>75% semester <a href="x94068.xml" target="_blank">SAP</a></li>
+</ul>
+</div>
+<h3 class="question" onclick="showAnswer('warningA2','one')">What is AASW? <span class="FAQarrow" id="warningA2arrow">▶</span></h3>
+<div class="answer faq-hidden" id="warningA2">
+<p>AASW stands for Achieving Academic Success Workshop. Additional information regarding this workshop can be found on the <a href="#aasw" rel="ibox" title="AASW">AASW webpage</a>.</p>
+</div>
+<h3 class="question" onclick="showAnswer('warningA3','two')">Why is there an "AASW Hold" on my account? Does it prevent me from registering? <span class="FAQarrow" id="warningA3arrow">▶</span></h3>
+<div class="answer faq-hidden" id="warningA3">
+<p>The "<a href="#aasw" rel="ibox" title="AASW">AASW</a> Hold" does NOT prevent registration nor access to any other student service on campus. The "AASW hold" is a reminder to complete the Achieving Academic Success Workshop (AASW) in your I-learn account. You will not be able to return to Good Academic Standing until you have completed this course.</p>
+</div>
+<h3 class="question" onclick="showAnswer('warningA4','two')">What if I meet the semester GPA and SAP standards but my cumulative GPA is still below a 2.0? <span class="FAQarrow" id="warningA4arrow">▶</span></h3>
+<div class="answer faq-hidden" id="warningA4">
+<p>The University understands it may take time to raise a cumulative GPA above a 2.0 especially if you've had a bad early semester. If your cumulative GPA is less tham 2.0 and you meet all of the other academic standards of BYU-Idaho you will not go on Probation. You will stay on Warning until your Cumulative GPA is above 2.0.</p>
+</div>
+</div>
+<div class="hide-extra-space"><img class="srr-brand-under" height="38" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/Student-Records-and-Registration_6.png" width="253" />
+<div id="bottomContact">
+<ul>
+<li><img alt="Email Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/envelope.png" width="23" /><a href="#email" rel="ibox" title="Email Information"> Email Us</a></li>
+<li><img alt="Phone Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/phone.png" width="23" /><a href="#phone" rel="ibox" title="Phone Information"> Call Us</a></li>
+<li><img alt="Visit Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/visit.png" width="23" /><a href="Images/Admin_Offices/Student Record and Registration/HomePage/byuidahoMap.jpg" rel="ibox"> Visit Us</a></li>
+<li><img alt="Facebook Link" height="16" src="Images/Admin_Offices/Student Record and Registration/HomePage/facebook.png" width="16" /><a href="http://www.facebook.com/pages/BYU-Idaho-Student-Records-and-Registration/276472292461946?fref=ts"> facebook</a></li>
+<li><img alt="Live Chat Link" height="16" src="Images/Admin_Offices/Student Record and Registration/HomePage/livechat.png" width="18" /><a href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=SRR&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large" onclick="window.open('https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=SRR&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large&amp;referrer='+escape(document.location),'chat1132447','width=472,height=320');return false;" target="chat1132447"> Live Chat</a></li>
+<li><img alt="Site Index Link" height="17" src="Images/Admin_Offices/Student Record and Registration/HomePage/index.png" width="18" /><a href="x43952.xml"> Index</a></li>
+</ul>
+</div>
+</div>
+</div>
+<!-- ************************* SECTION PROBATION ************************* -->
+<div class="section hidden" id="Probation">
+<div class="section-description">
+<div class="good-button-section"><img class="section-button" height="37px" id="probation-button-1" onclick="probation2Suspension()" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/probation-section-button1.png" width="120px" /> <img class="section-button" height="37px" id="probation-button-2" onclick="probation2dismissal()" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/probation-section-button2.png" width="120px" /></div>
+</div>
+<div class="left-box boxs Good" id="probation2good1"><img class="return-to-text" height="83px" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/climb-to-text-good.gif" /><img class="arrow" height="83px" onclick="show('Good',5)" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/climb-to-arrow-good.gif" />
+<p>To return to Good Standing, complete the following:</p>
+<ul>
+<li>Complete <a href="#aasw" rel="ibox" title="AASW">AASW</a> (<strong>A</strong>chieving <strong>A</strong>cademic <strong>S</strong>uccess <strong>W</strong>orkshop) - 2 to 4 hours</li>
+<li><a href="#6credit2" rel="ibox" title="Complete 6 or more credits in a single semester but not more than 12 credits">Complete 6 or more credits</a> but less than 12 in a single semester</li>
+<li>Meet the Academic Standards
+<ul>
+<li>2.0 <a href="#cumulative" rel="ibox" title="Cumulative">cumulative</a> <a href="#gpa" rel="ibox" title="GPA">GPA</a> or higher</li>
+<li>2.0 semester GPA or higher</li>
+<li>75% semester <a href="x94068.xml" target="_blank">SAP</a> or higher</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="left-box boxs Good hidden" id="probation2good2"><img class="return-to-text" height="83px" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/climb-to-text-good.gif" /><img class="arrow" height="83px" onclick="show('Good',8)" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/climb-to-arrow-good.gif" />
+<p>To return to Good Standing, complete the following:</p>
+<ul>
+<li>Complete <a href="#aasw" rel="ibox" title="AASW">AASW</a> (<strong>A</strong>chieving <strong>A</strong>cademic <strong>S</strong>uccess <strong>W</strong>orkshop) - 2 to 4 hours</li>
+<li><a href="#6credit2" rel="ibox" title="Complete 6 or more credits in a single semester but not more than 12 credits">Complete 6 or more credits</a> but less than 12 in a single semester</li>
+<li>Meet the Academic Standards:
+<ul>
+<li>2.0 <a href="#cumulative" rel="ibox" title="Cumulative">cumulative</a> <a href="#gpa" rel="ibox" title="GPA">GPA</a> or higher</li>
+<li>2.0 semester GPA or higher</li>
+<li>75% semester <a href="x94068.xml" target="_blank">SAP</a> or higher</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="right-box boxs Suspension" id="probation2suspension"><img class="avoid-text" height="83px" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/slip-to-text-suspension.gif" /><img class="arrow" height="83px" onclick="show('Suspension',6)" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/slip-to-arrow-suspension.gif" />
+<p>You will move to Academic Suspension if you have previously been on Academic Probation and if any one of the following occurs:</p>
+<ul>
+<li>Less than 2.0 cumulative GPA</li>
+<!-- WORKING ON IT -->
+<li>Less than 2.0 semester GPA while on Academic Probation</li>
+<li>You cannot move to Suspension for a less than 75% <a href="x94068.xml" target="_blank">SAP</a> alone</li>
+</ul>
+</div>
+<div class="right-box boxs Dismissal hidden" id="probation2dismissal"><img class="avoid-text" height="83px" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/slip-to-text-dismissal.gif" /><img class="arrow" height="83px" onclick="show('Dismissal',9)" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/slip-to-arrow-dismissal.gif" />
+<p>You will move to Academic Dismissal if you have previously been on Academic Suspension and if any one of the following occurs:</p>
+<ul>
+<li>Less than 2.0 cumulative GPA</li>
+<li>Less than 2.0 semester GPA while on Academic Probation</li>
+<li>You cannot move to Dismissal for a less than 75% <a href="x94068.xml" target="_blank">SAP</a> alone</li>
+</ul>
+</div>
+<!-- ************************* FAQ PROBATION ***************************** -->
+<div class="faqs">
+<h2>FAQs</h2>
+<h3 class="question" onclick="showAnswer('probationA1','one')">Why am I on Academic Probation? <span class="FAQarrow" id="probationA1arrow">▶</span></h3>
+<div class="answer faq-hidden" id="probationA1">
+<p>Your academic standing has changed to Academic Probation because you failed to meet BYU-Idaho&rsquo;s three <a href="#academic-standards" rel="ibox" title="Academic Standards">Academic Standards</a> for a second time.</p>
+</div>
+<h3 class="question" onclick="showAnswer('probationA2','two')">Why is there a &ldquo;Probation Hold&rdquo; on my account? Does it prevent me from registering? <span class="FAQarrow" id="probationA2arrow">▶</span></h3>
+<div class="answer faq-hidden" id="probationA2">
+<p>A &ldquo;Probation Hold&rdquo; does not prevent registration but does restrict your registration to 12 credits or less per semester. It is your responsibility to know if being placed on Academic Probation will impact any of your other various student services, activities, or programs.</p>
+</div>
+<h3 class="question" onclick="showAnswer('probationA3','two')">Why can&rsquo;t I register for more than 12 credits while on Academic Probation? <span class="FAQarrow" id="probationA3arrow">▶</span></h3>
+<div class="answer faq-hidden" id="probationA3">
+<p>We want students to be successful academically. We have found it beneficial for students to take 12 credits or less per semester until they have changed the habits or patterns that led to Academic Probation&mdash;particularly because any future failure to meet the Academic Standards may lead to Academic Suspension.</p>
+</div>
+<h3 class="question" onclick="showAnswer('probationA4','two')">What if I meet the semester GPA and SAP standards but my cumulative GPA is still below a 2.0? <span class="FAQarrow" id="probationA4arrow">▶</span></h3>
+<div class="answer faq-hidden" id="probationA4">
+<p>The University understands it may take time to raise a cumulative GPA above a 2.0 especially if you've had a bad early semester. If your cumulative GPA is less tham 2.0 and you meet all of the other academic standards of BYU-Idaho you will not go on Suspension. You will stay on Probation until your Cumulative GPA is above 2.0.</p>
+</div>
+</div>
+<div class="hide-extra-space"><img class="srr-brand-under" height="38" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/Student-Records-and-Registration_6.png" width="253" />
+<div id="bottomContact">
+<ul>
+<li><img alt="Email Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/envelope.png" width="23" /><a href="#email" rel="ibox" title="Email Information"> Email Us</a></li>
+<li><img alt="Phone Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/phone.png" width="23" /><a href="#phone" rel="ibox" title="Phone Information"> Call Us</a></li>
+<li><img alt="Visit Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/visit.png" width="23" /><a href="Images/Admin_Offices/Student Record and Registration/HomePage/byuidahoMap.jpg" rel="ibox"> Visit Us</a></li>
+<li><img alt="Facebook Link" height="16" src="Images/Admin_Offices/Student Record and Registration/HomePage/facebook.png" width="16" /><a href="http://www.facebook.com/pages/BYU-Idaho-Student-Records-and-Registration/276472292461946?fref=ts"> facebook</a></li>
+<li><img alt="Live Chat Link" height="16" src="Images/Admin_Offices/Student Record and Registration/HomePage/livechat.png" width="18" /><a href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=SRR&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large" onclick="window.open('https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=SRR&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large&amp;referrer='+escape(document.location),'chat1132447','width=472,height=320');return false;" target="chat1132447"> Live Chat</a></li>
+<li><img alt="Site Index Link" height="17" src="Images/Admin_Offices/Student Record and Registration/HomePage/index.png" width="18" /><a href="x43952.xml"> Index</a></li>
+</ul>
+</div>
+</div>
+</div>
+<!-- ************************ SECTION SUSPENSTION ************************ -->
+<div class="section hidden" id="Suspension">
+<div class="section-description"></div>
+<div class="left-box boxs Probation"><img class="return-to-text" height="83px" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/climb-to-text-Probation.gif" /><img class="arrow" height="83px" onclick="show('Probation',7)" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/climb-to-arrow-Probation.gif" />
+<p>To return to Academic Probation:</p>
+<ul>
+<li>Sit out for two consecutive semesters following Academic Suspension.</li>
+<li>To be better prepared to return to school after Suspension, visit the <a href="x69440.xml" target="_blank">Returning from Suspension</a> page.</li>
+</ul>
+</div>
+<div class="right-box boxs Dismissal"><img class="avoid-text" height="83px" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/10text.gif" style="padding-right: 0px; margin-top: -12px;" /><img class="arrow" height="83px" onclick="show('Dismissal',9)" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/10button.gif" />
+<p>When you return to BYU-Idaho after Suspension you will be on 2nd Probation - you will be dismissed if one of the following occurs:</p>
+<ul>
+<li>Less than 2.0 cumulative GPA</li>
+<li>Less than 2.0 semester GPA while on Academic Probation</li>
+<li>You cannot move to Dismissal for a less than 75% <a href="x94068.xml" target="_blank">SAP</a> alone</li>
+</ul>
+</div>
+<!-- *************************** FAQ SUSPENSTION ************************* -->
+<div class="faqs">
+<h2>FAQs</h2>
+<h3 class="question" onclick="showAnswer('suspentionA1','two')">Can I petition my Academic Suspension? <span class="FAQarrow" id="suspentionA1arrow">▶</span></h3>
+<div class="answer faq-hidden" id="suspentionA1">
+<p>Yes. A student who feels they have extenuating circumstances (circumstances beyond their control) which impacted their academic performance may petition their Academic Standing to the Academic Standards Committee. To get to this petition go to your Student tab in myBYUI, then select <a href="https://my.byui.edu/ICS/Academics/Academic_Forms.jnz">Academic Forms</a>, then select Academic Suspension Petition.</p>
+</div>
+<h3 class="question" onclick="showAnswer('suspentionA2','zero')">Does my "off-track" count as one of the two consecutive semesters away from BYU&ndash;Idaho? <span class="FAQarrow" id="suspentionA2arrow">▶</span></h3>
+<div class="answer faq-hidden" id="suspentionA2">
+<p>Yes. It is two consecutive semesters away regardless if they are &ldquo;on-track&rdquo; or &ldquo;off-track&rdquo; semesters.</p>
+</div>
+<h3 class="question" onclick="showAnswer('suspentionA3','one')">Can I take online or continuing education classes at BYU-Idaho while I&rsquo;m on Academic Suspension? <span class="FAQarrow" id="suspentionA3arrow">▶</span></h3>
+<div class="answer faq-hidden" id="suspentionA3">
+<p>No. A student on Academic Suspension is not eligible to enroll in any course offered by BYU-Idaho. However, academically suspended students may take classes from another university during their two semesters away.</p>
+</div>
+<h3 class="question" onclick="showAnswer('suspentionA4','two')">Besides the registration, are any of my other student services affected while on Academic Suspension? <span class="FAQarrow" id="suspentionA4arrow">▶</span></h3>
+<div class="answer faq-hidden" id="suspentionA4">
+<p>Yes. Suspension may impact your BYU&ndash;Idaho housing, employment at BYU&ndash;Idaho, scholarships, etc. If you are on Academic Suspension, you will need to contact these offices to determine how your Academic Suspension may impact you. To view a full list of services avaliable and not avaliable to suspended students visit <a href="http://www.byui.edu/dean-of-students/student-services-protocol?column=9">Student Services Protocol</a>.</p>
+</div>
+</div>
+<div class="hide-extra-space"><img class="srr-brand-under" height="38" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/Student-Records-and-Registration_6.png" width="253" />
+<div id="bottomContact">
+<ul>
+<li><img alt="Email Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/envelope.png" width="23" /><a href="#email" rel="ibox" title="Email Information"> Email Us</a></li>
+<li><img alt="Phone Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/phone.png" width="23" /><a href="#phone" rel="ibox" title="Phone Information"> Call Us</a></li>
+<li><img alt="Visit Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/visit.png" width="23" /><a href="Images/Admin_Offices/Student Record and Registration/HomePage/byuidahoMap.jpg" rel="ibox"> Visit Us</a></li>
+<li><img alt="Facebook Link" height="16" src="Images/Admin_Offices/Student Record and Registration/HomePage/facebook.png" width="16" /><a href="http://www.facebook.com/pages/BYU-Idaho-Student-Records-and-Registration/276472292461946?fref=ts"> facebook</a></li>
+<li><img alt="Live Chat Link" height="16" src="Images/Admin_Offices/Student Record and Registration/HomePage/livechat.png" width="18" /><a href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=SRR&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large" onclick="window.open('https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=SRR&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large&amp;referrer='+escape(document.location),'chat1132447','width=472,height=320');return false;" target="chat1132447"> Live Chat</a></li>
+<li><img alt="Site Index Link" height="17" src="Images/Admin_Offices/Student Record and Registration/HomePage/index.png" width="18" /><a href="x43952.xml"> Index</a></li>
+</ul>
+</div>
+</div>
+</div>
+<!-- ************************** SECTION DISMISSAL ************************ -->
+<div class="section hidden" id="Dismissal">
+<div class="section-description"></div>
+<div class="boxs Dismissal" style="width: 698px;">
+<p style="padding-top: 5px;">Impacts of Academic Dismissal</p>
+<ul>
+<li>Permanent dismissal from BYU-Idaho</li>
+<li>Potential negative impacts on applications to other universities</li>
+<li>Potential negative impacts on seeking future degrees at other universities</li>
+</ul>
+</div>
+<!-- ************************** FAQ DISMISSAL **************************** -->
+<div class="faqs">
+<h2>FAQs</h2>
+<h3 class="question" onclick="showAnswer('dismissalA1','two')">Can I petition my Academic Dismissal? <span class="FAQarrow" id="dismissalA1arrow">▶</span></h3>
+<div class="answer faq-hidden" id="dismissalA1">
+<p>Yes. A student who feels they have extenuating circumstances (circumstances beyond their control) which impacted their academic performance may petition their Academic Dismissal to the Academic Standards Committee. To get to this petition go to your Student tab in myBYUI, then select <a href="https://my.byui.edu/ICS/Academics/Academic_Forms.jnz">Academic Forms</a>, then select Academic Suspension Petition.</p>
+</div>
+<h3 class="question" onclick="showAnswer('dismissalA2','one')">What happens to the classes in which I am currently enrolled? <span class="FAQarrow" id="dismissalA2arrow">▶</span></h3>
+<div class="answer faq-hidden" id="dismissalA2">
+<p>When a student is Academically Dismissed, his/her classes will be automatically dropped after the grace period to petition has expired.</p>
+</div>
+</div>
+<div class="hide-extra-space"><img class="srr-brand-under" height="38" src="Images/Admin_Offices/Student%20Record%20and%20Registration/Standards/Student-Records-and-Registration_6.png" width="253" />
+<div id="bottomContact">
+<ul>
+<li><img alt="Email Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/envelope.png" width="23" /><a href="#email" rel="ibox" title="Email Information"> Email Us</a></li>
+<li><img alt="Phone Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/phone.png" width="23" /><a href="#phone" rel="ibox" title="Phone Information"> Call Us</a></li>
+<li><img alt="Visit Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/visit.png" width="23" /><a href="Images/Admin_Offices/Student Record and Registration/HomePage/byuidahoMap.jpg" rel="ibox"> Visit Us</a></li>
+<li><img alt="Facebook Link" height="16" src="Images/Admin_Offices/Student Record and Registration/HomePage/facebook.png" width="16" /><a href="http://www.facebook.com/pages/BYU-Idaho-Student-Records-and-Registration/276472292461946?fref=ts"> facebook</a></li>
+<li><img alt="Live Chat Link" height="16" src="Images/Admin_Offices/Student Record and Registration/HomePage/livechat.png" width="18" /><a href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=SRR&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large" onclick="window.open('https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=SRR&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large&amp;referrer='+escape(document.location),'chat1132447','width=472,height=320');return false;" target="chat1132447"> Live Chat</a></li>
+<li><img alt="Site Index Link" height="17" src="Images/Admin_Offices/Student Record and Registration/HomePage/index.png" width="18" /><a href="x43952.xml"> Index</a></li>
+</ul>
+</div>
+</div>
+</div>
+<p>
+<script type="text/javascript">
+window.onload = loaded();
+function loaded(){
+var tab = get('tab');
+if(tab != null){
+if(tab == "Good"){
+showTutorial("Good",1);
+}
+if(tab == "Warning"){
+showTutorial("Warning",2);
+}
+if(tab == "Probation"){
+showTutorial("Probation",4);
+}
+
+
+
+if(tab == "Probation2"){
+showTutorial("Probation",7);
+}
+
+
+
+if(tab == "Suspension"){
+showTutorial("Suspension",6);
+}
+if(tab == "Dismissal"){
+showTutorial("Dismissal",9);
+}
+}
+};
+
+var locationText = "location";
+var currentTab = 1;
+var last = 5;
+start();
+document.getElementById("summary-Good-tab").className = "summary-img-tab pointer currentTab";
+
+function start(){
+pointer()
+setTimeout(tab,500)
+}
+function pointer(){
+if(stop==0){
+locationText = "location".concat(currentTab);
+document.getElementById("animatedPointer").className = locationText;
+}
+}
+function tab(){
+if(stop==0){
+document.getElementById("summary-Good-tab").className = "summary-img-tab pointer";
+document.getElementById("summary-Warning-tab").className = "summary-img-tab pointer";
+document.getElementById("summary-Probation-tab").className = "summary-img-tab pointer";
+document.getElementById("summary-Suspension-tab").className = "summary-img-tab pointer";
+document.getElementById("summary-Dismissal-tab").className = "summary-img-tab pointer";
+	if(currentTab == 1){
+		document.getElementById("summary-Good-tab").className = "summary-img-tab pointer currentTab";
+	}
+	else if(currentTab == 2){
+		document.getElementById("summary-Warning-tab").className = "summary-img-tab pointer currentTab";
+	}
+	else if(currentTab == 3){
+		document.getElementById("summary-Probation-tab").className = "summary-img-tab pointer currentTab";
+	}
+	else if(currentTab == 4){
+		document.getElementById("summary-Suspension-tab").className = "summary-img-tab pointer currentTab";
+	}
+	else{
+		document.getElementById("summary-Dismissal-tab").className = "summary-img-tab pointer currentTab";
+	}
+
+	if(currentTab < 5){
+		currentTab ++;
+	}
+	else{
+		currentTab = 1;
+	}
+	setTimeout(start,2000)
+}
+}
+</script>
+</p>
+</div>
+</div>
+</div>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_BannerAd" Name="BannerAds" label="Rotating Ads" readonly="false" hidden="false" required="false" Component="" CompTypes="BannerAdComponent" Expanded="false"><xPower Type="Component" Component="" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/></xPower><xPower Type="GroupStart" GroupStart="" Name="QuickLinks" label="Quick Links" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="Quick Links Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="Quick Links Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="Quick Links Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="Insert" Insert="" WellFormed="false" ExtractHTMLBody="false" Name="HTMLInsert" label="Insert" readonly="false" hidden="true" required="false" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x44649" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></AdminPage>

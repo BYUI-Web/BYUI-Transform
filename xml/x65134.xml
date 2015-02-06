@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x65134" Name="Costs" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Tuition</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Cost information for the Online Degree program, including tuition, fees, and scholarship information.</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">true</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent" Expanded="false"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent" Expanded="false"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<h3>What will the program cost?</h3>
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 505px; height: 80px;">
+<caption></caption> 
+<tbody>
+<tr style="background-color: #dbdbdb; height: 30px;">
+<td>Non-Refundable Application Fee (free for returning students):</td>
+<td>$35</td>
+</tr>
+<tr style="background-color: #c0c0c0; height: 30px;">
+<td>LDS Tuition (updated yearly):<br /></td>
+<td style="text-align: left;">$145 per credit<br /></td>
+</tr>
+<tr style="height: 30px; background-color: #dbdbdb;">
+<td>LDS Tuition (12 credits or more):</td>
+<td style="text-align: left;">$1735</td>
+</tr>
+<tr style="height: 30px; background-color: #c0c0c0;">
+<td>Individual Course Resource Fees (if applicable):</td>
+<td><a href="http://www.byui.edu/od/resourcefeechart.pdf">View List</a></td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: small;"> </span></p>
+<p>*Tuition for the Online Degree program may increase annually at the same rate as other students <a class="extLink" href="http://www.byui.edu/admissions/costs/totalcosts.shtml" title="Admissions - BYU-Idaho" target="_blank">on campus</a>.</p>
+<p>Tuition for BYU-Idaho courses is usually due before the second week of class (see semester <a href="http://www.byui.edu/registrarsoffice/AcademicDeadlines.htm">Academic Deadlines</a>)</p>
+<h3>Can I get financial aid?<img height="383" src="Images/Admin_Offices/Online Learning/General/coin-jar.jpg" style="float: right;" width="228" /></h3>
+<p>As a BYU-Idaho student you are eligible for federal financial aid. To apply for federal financial aid you will need to complete the Free Application for Federal Student Aid (FAFSA). We encourage you to contact our <a href="http://www.byui.edu/financialaid/fa/apply.htm">Financial Aid office</a> for more detailed information.</p>
+<p>Online degree students are not eligible for institutional scholarships and grants.</p>
+<p>Students who have previously earned a bachelor's degree are ineligible for federal Pell grants.</p>
+<h3>Federal Financial Aid can come in a number of forms:</h3>
+<p><a href="http://www.byui.edu/financialaid/fa/pell_grant.htm">Federal Grants, such as the Pell Grant</a><br /><a href="http://www.byui.edu/financialaid/fa/loans.htm">Federal Student Loans</a><a href="http://www.byui.edu/financialaid/scholarships/apply.htm"></a><br /> <br />In most cases, there is no credit minimum to be eligible for the Federal Pell Grant. In order to be eligible for Federal Student Loans, however, you must enroll at least half-time (6 credit hours). Please contact the BYU-Idaho financial aid office for more information (Financial.Aid@byui.edu).</p>
+<p> </p>
+<p> </p>
+<p><span> </span></p>]]></BodyCopy><xPower Type="Component" Component="x18360" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x17147" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<TrainingElement ID="x10306" Name="Navigation / Index" Layout="default-training.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Navigation / Index</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Navigation / Index</Abstract><LinkText type="string" label="Icon Address" readonly="false" hidden="false" required="true">Internal_Use/Ingeniux_Training/Icons/navigation.png</LinkText><TrainingIcon type="imagefile" label="Icon Image" hidden="false" readonly="false" required="false">Internal_Use/Ingeniux_Training/Icons/navigation.png</TrainingIcon><TrainingImage type="imagefile" label="Element Image" hidden="false" readonly="false" required="false">Internal_Use/Ingeniux_Training/Element Views/Navigation.png</TrainingImage><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<div class="intro">
+<p>Some web pages will require referring to groups of web pages or components within the Content Management System. The Navigation element allows users to select grouped CMS pages.</p>
+</div>
+<h4 class="sub_title">Start Page</h4>
+<p>&nbsp;&nbsp; The Navigation element requires selecting a target CMS page. To do this the user enters the ID number of the target CMS page in the <em>Start Page</em> field. If an ID number is not provided, the target CMS page will be the current page.</p>
+<h4 class="sub_title">Type</h4>
+<div style="margin-left: 10px; float: right;">
+<h4 style="margin: 0 0 10px 50px; padding-top: 28px;">Example of a selection of children with a max depth of&nbsp; three.</h4>
+<img alt="Page Depth" height="160" src="Images/Internal_Use/Ingeniux_Training/Element Views/Page_Depth.png" title="Page Depth" width="540" /></div>
+<p>&nbsp;&nbsp; The <em>Type</em> dropdown menu determines what pages are selected by establishing the relationship of selected CMS pages to the target CMS page. The relationships can be understood using genealogy terms. Where the parent is the container of the child.</p>
+<ul>
+<li class="dot">Ancestors - The target CMS page is the grandparent of the current page. This selects the target CMS page, all grandparents in between, and current page.</li>
+<li class="dot">Children - Selects children and grandchildren CMS pages.</li>
+<li class="dot">Sibling - Selects CMS pages that share target CMS page's parent.</li>
+<li class="dot">Sequential - This selection type is not used.</li>
+<li class="dot">Subtree - This selection type is not used.</li>
+</ul>
+<h4 class="sub_title">Max Depth</h4>
+<p>&nbsp;&nbsp; The <em>Max Depth</em> field determines how far away from the target CMS page the <em>Navigation</em> element will select.</p>
+<p>A max depth of 2 will only select children and grandchildren.</p>
+<p>Siblings will only have a depth of 1.</p>
+<p>The depth of Ancestors is determined by how far away the target CMS page is from the current page.</p>
+<h4 class="sub_title">Max Nodes</h4>
+<p>&nbsp;&nbsp; The <em>Max Nodes</em> field limits the number of nodes that are selected by the number provide. This is field is often ignored.</p>
+<h4 class="sub_title">Query and Exports</h4>
+<p>&nbsp;&nbsp; <em>Exports</em> and <em>Query</em> are designed to assist in the coding of the web page.</p>
+<p>&nbsp;&nbsp; Do not add to or remove any content from the <em>Query</em> or <em>Export</em> fields without help from technical support. Doing so can result in breaking the web page.</p>]]></BodyCopy><xPower Type="Navigation" StartPage="x10283" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Children" Query="" Name="Icons" label="Element Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/></TrainingElement>

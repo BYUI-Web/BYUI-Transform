@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x50506" Name="main page code" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;!-- insert inline CSS styles here --&gt;
+&lt;style type="text/css"&gt;
+&lt;!--
+    P.bracket {
+          FONT-SIZE: 130px; FONT-FAMILY: Arial; COLOR: #D0D0D0; MARGIN: 0px;
+    }
+
+    DIV.top_content {
+          BACKGROUND: url(http://courses.byui.edu/AcademicSupport/pics/tutor-background.jpg); WIDTH: 710px; HEIGHT: 400px;
+		  BORDER-BOTTOM: solid; BORDER-COLOR: #D0D0D0; BORDER-WIDTH: 3px;
+    }
+    DIV.top_content A {
+          TEXT-DECORATION: none;
+    }
+    DIV.top_content A P.style1 {
+          MARGIN-BOTTOM: 0px; FONT-SIZE: 55px; COLOR: #4d5154; FONT-FAMILY: Arial; TEXT-ALIGN: right; MARGIN: 0px; MARGIN-TOP: 15px; 
+    }
+    DIV.top_content A P.style2 {
+          MARGIN-BOTTOM: 0px; FONT-SIZE: 140px; FONT-FAMILY: Arial; COLOR: black;  MARGIN: 0px; MARGIN-LEFT: 235px; MARGIN-TOP: -60px; 
+    }
+    DIV.top_content A:hover P.style2 {
+          TEXT-DECORATION: underline;
+    }
+    DIV.top_content DIV.links {
+          MARGIN-LEFT: 350px; MARGIN-TOP: -130px;
+    }
+    DIV.top_content DIV.links A.style3 {
+          TEXT-DECORATION: none; MARGIN: 0px; FONT-SIZE: 18px; FONT-FAMILY: Arial; COLOR: #FF6600;FONT-WEIGHT: bold;
+    }
+    DIV.top_content DIV.links A.style3:hover {
+          TEXT-DECORATION: underline;
+    }
+    DIV.top_content P.bracket {
+           MARGIN-LEFT: 300px; MARGIN-TOP: -40px;  FONT-SIZE: 130px; FONT-FAMILY: Arial; COLOR: #D0D0D0;
+    }
+
+    DIV.left_content {
+          BACKGROUND: url(http://courses.byui.edu/AcademicSupport/pics/subject-background.jpg); WIDTH: 440px; HEIGHT: 240px; FLOAT: left;
+		  BORDER-BOTTOM: solid; BORDER-COLOR: #D0D0D0; BORDER-WIDTH: 3px;
+    }
+    DIV.left_content P.style1 {
+          FONT-SIZE: 23px; FONT-FAMILY: Arial; COLOR: #4d5154; MARGIN: 0px; MARGIN-TOP: 15px; MARGIN-LEFT: 150px;
+    }
+    DIV.left_content P.style2 {
+          FONT-SIZE: 41px; FONT-FAMILY: Arial; MARGIN: 0px; MARGIN-TOP: -15px;
+    }
+    DIV.left_content P.bracket {
+           MARGIN: 0px; MARGIN-LEFT: 20px; MARGIN-TOP: -30px; FONT-SIZE: 130px; FONT-FAMILY: Arial; COLOR: #D0D0D0;
+    }
+    DIV.left_content DIV.links {
+		MARGIN-LEFT: 70px; MARGIN-TOP: -130px;
+    }    
+    DIV.left_content DIV.links A.style3 {
+          TEXT-DECORATION: none; FONT-SIZE: 20px; FONT-FAMILY: Arial; COLOR: #993366; FONT-WEIGHT: bold;
+    }
+    DIV.left_content DIV.links A.style3:hover {
+          TEXT-DECORATION: underline;
+    }
+    
+    DIV.right_content A {
+          BACKGROUND: url(http://courses.byui.edu/AcademicSupport/pics/video-background.jpg); WIDTH: 260px; HEIGHT: 240px; FLOAT: left;
+		  TEXT-DECORATION: none; BORDER-LEFT: solid; BORDER-COLOR: #D0D0D0; BORDER-WIDTH: 3px; BORDER-BOTTOM: solid; BORDER-COLOR: #D0D0D0; 
+		  BORDER-WIDTH: 3px;
+    }
+    DIV.right_content A P.style1 {
+          FONT-SIZE: 41px; FONT-FAMILY: Arial; COLOR: #303538; MARGIN: 0px; TEXT-ALIGN: right;
+    }
+    DIV.right_content A P.style2 {
+          FONT-SIZE: 23px; FONT-FAMILY: Arial; COLOR: #4d5154; MARGIN: 0px; TEXT-ALIGN: right; MARGIN-TOP: -20px;
+    }
+    DIV.right_content A:hover P.style2{
+          TEXT-DECORATION: underline;
+    }
+    
+    DIV.subcontents {
+          PADDING: 0px; MARGIN: 0px; DISPLAY: block; MARGIN-LEFT: 5px; FONT-FAMILY: Arial, Verdana, Sans-serif; 
+          WIDTH: 710px;
+    }
+    DIV.subcontents P {
+          FONT-FAMILY: Arial, Verdana, Sans-serif; DISPLAY: block; LINE-HEIGHT: 100%;
+    }
+    DIV.subcontents A {
+          TEXT-DECORATION: none; COLOR: black; 
+    }
+    DIV.subcontents DIV.small_box {
+          MARGIN-BOTTOM: 5px; FLOAT: left; WIDTH: 200px; MARGIN: 17px;
+    }
+    DIV.subcontents DIV.small_box DIV.title {
+          FLOAT: left; PADDING-LEFT: 35px; PADDING-TOP: 3px; FONT-WEIGHT: bold; MARGIN-BOTTOM: 2px; WIDTH: 150px; HEIGHT: 25px; COLOR: #363739;
+    }
+    DIV.subcontents DIV.small_box DIV#info {
+          BACKGROUND: url(http://courses.byui.edu/AcademicSupport/pics/info-link.jpg) no-repeat;
+    }
+    DIV.subcontents DIV.small_box DIV#disability_services {
+          BACKGROUND: url(http://courses.byui.edu/AcademicSupport/pics/disabilities-link.jpg) no-repeat;
+    }
+    DIV.subcontents DIV.small_box DIV#contact {
+          BACKGROUND: url(http://courses.byui.edu/AcademicSupport/pics/contact-link.jpg) no-repeat;
+    }
+    DIV.subcontents DIV.small_box DIV.subtext {
+          FLOAT: left; WIDTH: 175px; MARGIN-LEFT: 20px; MARGIN-BOTTOM: 20px; FONT-SIZE: 15px;
+    }
+    DIV.subcontents DIV.small_box DIV.subtext A {
+          FLOAT: RIGHT; FONT-WEIGHT: bold;
+    }
+    DIV.subcontents DIV.small_box DIV.title A:hover {
+          TEXT-DECORATION: none; COLOR: black;
+    }
+    DIV.subcontents DIV.small_box DIV.subtext A#info {
+          COLOR: #d9511d;
+    }
+    DIV.subcontents DIV.small_box DIV.subtext A#disability_services {
+          COLOR: #1c71b2;
+    }
+    DIV.subcontents DIV.small_box DIV.subtext A#contact {
+          COLOR: #a24176;
+    }
+ --&gt;
+&lt;/style&gt;
+&lt;!--contents--&gt;
+&lt;div class="top_content"&gt;
+   &lt;a href="https://eps.byui.edu"&gt;
+      &lt;p class="style1"&gt;REQUEST A&lt;/p&gt;
+      &lt;p class="style2"&gt;TUTOR&lt;/p&gt;
+   &lt;/a&gt;
+   &lt;p class="bracket"&gt;{&lt;/p&gt;
+   &lt;div class="links"&gt;
+      &lt;a class="style3" href="https://eps.byui.edu"&gt;GET STARTED NOW&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
+      &amp;nbsp;&amp;nbsp;&lt;a class="style3" href="x50447.xml"&gt;FREQUENTLY ASKED QUESTIONS&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a class="style3" href="http://www.byui.edu/academic-support-centers/tutoring-center/online-tutoring"&gt;TAKING ONLINE COURSE?&lt;/a&gt;
+   &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="left_content"&gt;
+   &lt;p class="style1"&gt;need help with a&lt;/p&gt;
+   &lt;p class="style2"&gt;specific subject?&lt;/p&gt;
+   &lt;p class="bracket"&gt;{&lt;/p&gt;
+   &lt;div class="links"&gt;
+      &lt;a class="style3" href="academic-support-centers/math"&gt;math&lt;/a&gt;&lt;br /&gt;
+      &amp;nbsp;&lt;a class="style3" href=" http://www.byui.edu/readingcenter/"&gt;reading&lt;/a&gt;&lt;br /&gt;
+      &amp;nbsp;&amp;nbsp;&lt;a class="style3" href="academic-support-centers/writing"&gt;writing&lt;/a&gt;&lt;br /&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a class="style3" href="academic-support-centers/presentation"&gt;presentation&lt;/a&gt;&lt;br /&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a class="style3" href="academic-support-centers/study-skills"&gt;study skills&lt;/a&gt;
+   &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="right_content"&gt;
+   &lt;a href="http://www.byui.edu/academic-support-centers/Interactive-videos-and-quizzes"&gt;
+      &lt;p class="style1"&gt;interactive&lt;/p&gt;
+      &lt;p class="style2"&gt;videos &amp; quizzes&lt;/p&gt;
+   &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;!--sub contents (small boxes)--&gt;
+&lt;div class="subcontents"&gt;
+   &lt;div class="small_box" id="about_us"&gt;
+      &lt;div class="title" id="info"&gt;
+         &lt;a href="http://www.byui.edu/academic-support-centers/about-us"&gt;about us&lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class="subtext"&gt;
+         &lt;p&gt;
+            Every year at BYU Idaho, the Academic Support Centers serve over 12,000 different students from all parts of the university's campus&lt;br /&gt;
+            &lt;a id="info" href="http://www.byui.edu/academic-support-centers/about-us"&gt;[learn more]&lt;/a&gt;
+         &lt;/p&gt;
+      &lt;/div&gt;
+   &lt;/div&gt;
+   
+   &lt;div class="small_box" id="disability_services"&gt;
+      &lt;div class="title" id="disability_services"&gt;
+         &lt;a href="http://www2.byui.edu/Disabilities/"&gt;disability services&lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class="subtext"&gt;
+         &lt;p&gt;
+            The Disability Service Center provides services for classroom and other university related activities for students with qualifying disabilities&lt;br /&gt;
+            &lt;a id="disability_services" href="http://www2.byui.edu/Disabilities/"&gt;[learn more]&lt;/a&gt;
+         &lt;/p&gt;
+      &lt;/div&gt;
+   &lt;/div&gt;
+   
+   &lt;div class="small_box" id="contact_us"&gt;
+      &lt;div class="title" id="contact"&gt;
+         &lt;a href="http://www.byui.edu/academic-support-centers/contact-us"&gt;contact us&lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class="subtext"&gt;
+         &lt;p&gt;
+            Location:&lt;br /&gt;
+            David O. McKay Library&lt;br /&gt;
+            2nd Floor, East Wing&lt;br /&gt;
+            &lt;br /&gt;
+            Phone:&lt;br /&gt;
+            208.496.4270&lt;br /&gt;
+            &lt;a id="contact" href="http://www.byui.edu/academic-support-centers/contact-us"&gt;[more contacts]&lt;/a&gt;
+         &lt;/p&gt;
+      &lt;/div&gt;
+   &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--contents end--&gt;</ContentSnippet></ContentSnippet>

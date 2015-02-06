@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.68 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x36007" Name="Junk Mail (SPAM)" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Junk Mail Main Page</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Manage Junk Mail at BYUI</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<!-- ****  apply only once  ************************* -->
+<p><link href="prebuilt/stylenew/css/OpenClose.css" media="screen, projection" rel="stylesheet" type="text/css" /></p>
+<!-- ****  apply only once  ************************* -->
+<div></div>
+<p></p>
+<h1><strong>What is Junk Mail (SPAM)?</strong></h1>
+<p>Junk Mail -- otherwise known as "bulk e-mail" or "SPAM" is referred to as any e-mail that is an unsolicited bulk message. Its purpose is usually to advertise a product, web site, or company.</p>
+<!-- *************
+
+Break
+
+**************** -->
+<div class="open_text">
+<div class="posMark"></div>
+<div>
+<p><strong>Click here for more about spam</strong></p>
+</div>
+</div>
+<div class="close_text hide">
+<p>Recently there has been a fast increase in spam around the world. 80%-85% of world wide emails are spam. Spam is getting harder to detect due to the massive amount of "Zombie Servers". A "Zombie Server" is a regular computer that has been infected by spam and is now used to create and send spam to others. Spam now also uses randomly generated subjects with conversational style messages. If we were to block those, then all emails would be blocked. All these factors make it hard to prevent all spam from entering your mailbox. Sometimes a malicious spammer or infected computer can send messages <a>spoofing</a> the address as-if it were from @byui.edu. Messages like this might bounce back to a student or faculty member making it look like THEY were the ones sending out spam. This is common, and though we do the best we can to block such emails, some will continue to get through.</p>
+<p>Spam filters examine the entire message, looking at:</p>
+<ul>
+<li>Where it came from</li>
+<li>Who it came from</li>
+<li>What it says</li>
+<li>How it says it</li>
+<li>Many other different things</li>
+</ul>
+<p>It then uses that to add to its knowledge of what you think is junk or spam.</p>
+<p>The problem here is that spammers have been spoofing From addresses for a really long time. They rarely send email from the same address twice. Heck, they rarely send spam from an address that they even own. They&rsquo;ll say, &ldquo;This message is from Mary Jones,&rdquo; and have an email address for Frank Johnson when the name and the email address that display don&rsquo;t relate to each other, and have absolutely nothing to do with the actual sender of the mail.</p>
+<p>Blocking or setting up rules for email addresses and having the spam filter focus on the From address are ineffective and inefficient ways of blocking spam. That&rsquo;s why most spam filters now look at the content and other characteristics of the email rather than looking at the From line.</p>
+<p>Outlook is doing the best that it can with the spam that&rsquo;s coming in, but your expectation that it will block things based on the sender address is probably off the mark. It&rsquo;s not a technique that, by itself, works very well at all.</p>
+</div>
+<!-- *************
+
+Break
+
+**************** -->
+<div><hr /></div>
+<h1><strong>About BYU-Idaho's Powerful Spam Filtering</strong></h1>
+<div class="open_text">
+<div class="posMark"></div>
+<div><strong>What does BYUI do to keep you free from Junk Mail?</strong></div>
+</div>
+<div class="close_text hide">
+<p>All mail destined for an @byui.edu uses at least one powerful Spam Filtering Service. Before email enters our internal network, it is filtered first by ProofPoint spam engine. As of the date of this writing, more than 12 million messages attempt to be delivered to BYU-Idaho every month, but only around 62 thousand of those are legitimate mail that eventually end up in the Inbox of a student or employee. If you receive an e-mail in your mailbox that should have been flagged as Junk Mail, please&nbsp;<a href="http://www.byui.edu/HelpDesk/spam.htm" style="color: #00254a; padding: 0px; margin: 0px;" target="_self">report it</a>&nbsp;so that we may block future copies of the same email.</p>
+<p><strong>Student&nbsp;</strong>email is provided by Microsoft's "<strong>Outlook Live</strong>" service which, in addition to ProofPoint, also&nbsp;leverages Hotmail's powerful spam filter. If students desire to bypass this second layer of protection,&nbsp;they can log into their student email and&nbsp;<a href="http://www.byui.edu/Outlooklive/DisableJunkMail.htm" style="color: #00254a; padding: 0px; margin: 0px;" target="_self">disable Junk Mail Filtering</a>&nbsp;from the options menu.</p>
+<p><strong>Employees&nbsp;</strong>have the added safety of Junk Mail settings in Microsoft&nbsp;<strong>Outlook</strong>. Microsoft provides pre-defined&nbsp;rules in their Desktop version of &nbsp;Outlook, which can sometimes be even over-zealous in filtering business-related mail into a Junk Mail folder. From the tools menu, select "Options" and click the Junk E-mail button under the Preferences tab to modify your&nbsp;<a href="http://www.byui.edu/helpdesk/email/junkfilter.htm" style="color: #00254a; padding: 0px; margin: 0px;" target="_self">Junk Mail folder settings</a><span style="color: #666666; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 18px;">.</span></p>
+</div>
+<!-- *************
+
+"What To Do If You Get SPAM"
+
+**************** -->
+<div><hr /></div>
+<h1><strong>What To Do If You Get SPAM</strong></h1>
+<p>Even the best spam filter lets a few SPAM emails slip through the cracks. At this point it's up to the users to help make the filter even stronger.</p>
+<div class="open_text">
+<div class="posMark"></div>
+<div><strong>What can you do as a user if you are getting spam or other unwanted emails?</strong></div>
+</div>
+<div class="close_text hide"><ol>
+<li><a href="http://www.byui.edu/help-desk/categories/email-employee/junk-mail-(spam)/what-if-its-not-blockable-by-my-administrator">If the Spam came from someone that you know or some other "legitimate" source</a></li>
+<li><a href="http://www.byui.edu/help-desk/categories/email-employee/junk-mail-(spam)/reporting-junk-mail-(spam)">Report the Spam to your email administrators</a></li>
+<li><a href="http://www.byui.edu/help-desk/categories/email-employee/junk-mail-(spam)/blocking-junk-mail-(spam)-using-proofpoint">Configure your personal filter using ProofPoint</a></li>
+<li><a href="http://www.byui.edu/help-desk/categories/email-employee/junk-mail-(spam)/blocking-junk-mail-(spam)-using-outlook">Configure Outlook's Junk Mail settings</a></li>
+</ol></div>
+<!-- *************
+
+Break
+
+**************** -->
+<div><hr /></div>
+<h2>Junk Mail (SPAM) Quick Links</h2>
+<div>
+<ul>
+<li><a href="x44296.xml">Re</a><a href="x44296.xml">porting Junk Mail (SPAM)</a></li>
+<li><a href="x44294.xml">What if it's not blockable by my Administrator?</a></li>
+<li><a href="x44293.xml">Blocking Junk Mail (SPAM) with ProofPoint</a></li>
+<li><a href="x36009.xml">Blocking Junk Mail (SPAM) with Outlook&nbsp;</a></li>
+</ul>
+</div>
+<table border="0">
+<tbody>
+<tr>
+<td><strong>Employee</strong></td>
+<td><strong>Student</strong></td>
+</tr>
+<tr>
+<td>
+<ul style="color: #666666; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 18px; padding: 0px; margin: 0px;">
+<li style="margin-top: 0.05em; margin-right: 0px; margin-bottom: 0.05em; margin-left: 15px; font: normal normal normal 12px/18px Arial, Helvetica, sans-serif; list-style-type: circle; list-style-position: initial; list-style-image: initial; padding: 0px;"><a href="https://spamdigest.byui.edu:10020/">Server (ProofPoint) Settings</a></li>
+<li style="margin-top: 0.05em; margin-right: 0px; margin-bottom: 0.05em; margin-left: 15px; font: normal normal normal 12px/18px Arial, Helvetica, sans-serif; list-style-type: circle; list-style-position: initial; list-style-image: initial; padding: 0px;"><a href="x30755.xml">Client (Outlook) Settings</a></li>
+</ul>
+</td>
+<td>
+<ul style="color: #666666; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 18px; padding: 0px; margin: 0px;">
+<li style="margin-top: 0.05em; margin-right: 0px; margin-bottom: 0.05em; margin-left: 15px; font: normal normal normal 12px/18px Arial, Helvetica, sans-serif; list-style-type: circle; list-style-position: initial; list-style-image: initial; padding: 0px;"><a href="https://spamdigest.byui.edu:10020/">Server (ProofPoint) Settings</a></li>
+<li style="margin-top: 0.05em; margin-right: 0px; margin-bottom: 0.05em; margin-left: 15px; font: normal normal normal 12px/18px Arial, Helvetica, sans-serif; list-style-type: circle; list-style-position: initial; list-style-image: initial; padding: 0px;"><a href="x30769.xml">Client (Outlook Live) Settings</a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="line-height: 18px; color: #666666; font-family: Arial, Helvetica, sans-serif; font-size: 12px; padding: 0px; margin: 0px;">&nbsp;</p>
+<h3 style="margin-top: 0.05em; margin-right: 0px; margin-bottom: 0.05em; margin-left: 0px; color: #3e77b5; font: normal normal bold 14px/18px Arial, Helvetica, sans-serif; font-family: Arial, Helvetica, sans-serif; line-height: 18px; padding: 0px;"></h3>
+<h3 style="margin-top: 0.05em; margin-right: 0px; margin-bottom: 0.05em; margin-left: 0px; color: #3e77b5; font: normal normal bold 14px/18px Arial, Helvetica, sans-serif; font-family: Arial, Helvetica, sans-serif; line-height: 18px; padding: 0px;"></h3>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x35726" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

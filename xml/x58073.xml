@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.68 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x58073" Name="Career Navigator - Job Database for Employers" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Career Navigator - Job Database for Employers</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">EMPLOYERS AND INTERNSHIP PROVIDERS ONLY. Information for employers about Career Navigator, which is BYU-Idaho's online database for jobs, internships, and career postings.</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p>Career Navigator is BYU-Idaho's online database for jobs, internships and career postings.</p>
+<h3>Register / Log In</h3>
+<p><strong>Employers &amp; Internship Providers:</strong> To access Career Navigator, go to&nbsp;<a class="extLink" href="https://byui-csm.symplicity.com/employers/" title="Career Navigator" target="_blank">https://byui-csm.symplicity.com/employers/</a> .&nbsp; Once there, you can bookmark the site or add it to your favorites if you'd like.</p>
+<p>(<strong>Students</strong>: your link is different, please <a href="https://byui-csm.symplicity.com/students/" title="Career Navigator for Students" target="_blank">click here</a>).</p>
+<p>New employers may click on the "Register" button, and create their account in a few short minutes. Employers wishing to host BYU-Idaho interns will also sign the Master Internship Agreement during the registration process.</p>
+<p>Once you have registered in the site,&nbsp;simply enter your email address and password - and you're in!</p>
+<h3>Create Your Profile</h3>
+<p>You now have the ability to create a more extensive company profile for students to view, including the following:</p>
+<ul>
+<li>Organization Overview</li>
+<li>Web address</li>
+<li>Products &amp; Services</li>
+<li>Divisions &amp; Departments</li>
+<li>Achievements</li>
+<li>Awards</li>
+<li>Future of the Company</li>
+<li>Stock Symbols &amp; Information</li>
+<li>Revenue Data</li>
+<li>Growth Rates and Trends</li>
+<li>Company Culture</li>
+<li>Company Logo</li>
+<li>...and More!</li>
+</ul>
+<p>We invite you to add as much information as possible about your organization, to allow students to get to know your business better!</p>
+<h3>Fill Your Employment Needs</h3>
+<p>With Career Navigator, you have the ability to find the students that fill all your employment needs - from a top-rate intern to an experienced graduate ready to start their career.</p>
+<ul>
+<li>Post Jobs</li>
+<li>Search Students by Criteria</li>
+<li>Review Resumes</li>
+<li>Compile and View Resume Books</li>
+<li>Schedule Interviews</li>
+<li>Arrange for On-Campus Recruiting</li>
+<li>...and More!</li>
+</ul>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x17690" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

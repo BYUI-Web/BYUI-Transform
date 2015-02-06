@@ -1,0 +1,200 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.101 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x69167" Name="about" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;style type="text/css"&gt;
+@font-face {
+font-family: Asap;
+src: url("https://byui.box.com/shared/static/z3jkvkc4lrq9zigojb95.otf") format("opentype");
+}
+@font-face {
+font-family: Goudy;
+src: url("https://byui.box.com/shared/static/tfhihow6sspbm3tur81h.otf") format("opentype");
+}
+
+ul.nav {
+   margin: 0; padding: 0; position: relative; display: table; border: 0; width: 100%; overflow: visible; zoom: 1;
+}
+ul.nav li {
+   list-style: none; margin: 0px; width: 20%; float: left;
+}
+ul.nav li a.nav_btn {
+   display: block;               text-align: center; text-decoration: none;
+	border: 1px solid 		#ccc /*{c-bup-border}*/;
+	background: 			#eee /*{c-bup-background-color}*/;
+	font-weight: bold;
+	color: 					#222 /*{c-bup-color}*/;
+	text-shadow: 0 /*{c-bup-shadow-x}*/ 1px /*{c-bup-shadow-y}*/ 0 /*{c-bup-shadow-radius}*/ #fff /*{c-bup-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #fff /*{c-bup-background-start}*/), to( #f1f1f1 /*{c-bup-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #fff /*{c-bup-background-start}*/, #f1f1f1 /*{c-bup-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #fff /*{c-bup-background-start}*/, #f1f1f1 /*{c-bup-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #fff /*{c-bup-background-start}*/, #f1f1f1 /*{c-bup-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #fff /*{c-bup-background-start}*/, #f1f1f1 /*{c-bup-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #fff /*{c-bup-background-start}*/, #f1f1f1 /*{c-bup-background-end}*/);
+   font-family: Helvetica,Arial,sans-serif; cursor: pointer;
+}
+ul.nav li a.nav_btn:hover {
+	border: 1px solid 		#bbb /*{c-bhover-border}*/;
+	background: 			#dfdfdf /*{c-bhover-background-color}*/;
+	font-weight: bold;
+	color: 					#222 /*{c-bhover-color}*/;
+	text-shadow: 0 /*{c-bhover-shadow-x}*/ 1px /*{c-bhover-shadow-y}*/ 0 /*{c-bhover-shadow-radius}*/ #fff /*{c-bhover-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #f6f6f6 /*{c-bhover-background-start}*/), to( #e0e0e0 /*{c-bhover-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #f6f6f6 /*{c-bhover-background-start}*/, #e0e0e0 /*{c-bhover-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #f6f6f6 /*{c-bhover-background-start}*/, #e0e0e0 /*{c-bhover-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #f6f6f6 /*{c-bhover-background-start}*/, #e0e0e0 /*{c-bhover-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #f6f6f6 /*{c-bhover-background-start}*/, #e0e0e0 /*{c-bhover-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #f6f6f6 /*{c-bhover-background-start}*/, #e0e0e0 /*{c-bhover-background-end}*/);
+   font-family: Helvetica,Arial,sans-serif; cursor: pointer;
+}
+ul.nav li a.nav_btn_visited {
+   display: block; text-align: center; text-decoration: none;
+   border: 1px solid #2373a5;
+   background: #5393c5;
+   font-weight: bold;
+   color: #fff;
+   cursor: pointer;
+   text-shadow: 0 1px 0 #3373a5;
+   text-decoration: none;
+   background-image: -webkit-gradient(linear,left top,left bottom,from( #5393c5 ),to( #6facd5 ));
+   background-image: -webkit-linear-gradient( #5393c5,#6facd5 );
+   background-image: -moz-linear-gradient( #5393c5,#6facd5 );
+   background-image: -ms-linear-gradient( #5393c5,#6facd5 );
+   background-image: -o-linear-gradient( #5393c5,#6facd5 );
+   background-image: linear-gradient( #5393c5,#6facd5 );
+   font-family: Helvetica,Arial,sans-serif;
+}
+ul.nav li a span.nav_txt {
+   display: block; padding-top: 6%; padding-bottom: 6%;
+}
+img.icon {
+   width: 100%;
+}
+div.social {
+   width: 100%; height: 30px;
+}
+div.social p {
+   font-size: 30px; float: left; margin: 0px; margin-left: 160px;
+}
+div.social a {
+   float: left;
+}
+div.social a img {
+   height: 40px; margin-left: 15px;
+}
+p.content {
+   font-family: Goudy, Georgia, Garamond; 
+}
+div.profile {
+   WIDTH:50%; margin: 0px; float: left;
+}
+div.profile img {
+   width: 150px; height: 160px; float: left;
+}
+div.profile p {
+   float: left; font-family: Goudy, Georgia, Garamond; margin-left: 5px;
+}
+.main h3 {
+   width: 100%; float: left; margin-top: 20px;
+}
+&lt;/style&gt;
+&lt;script type="text/javascript"&gt;
+function btnClick(obj)
+{
+   obj.className = "nav_btn_visited";
+}
+&lt;/script&gt;
+&lt;div class="main"&gt;
+&lt;ul id="nav" class="nav"&gt;
+&lt;li&gt;&lt;a href="http://www.byui.edu/academic-support-centers/advertising-council" class="nav_btn" onClick="btnClick(this)"&gt;&lt;span class="nav_txt"&gt;Home&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.byui.edu/academic-support-centers/advertising-council/portfolio" class="nav_btn" onClick="btnClick(this)"&gt;&lt;span class="nav_txt"&gt;Portfolio&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.byui.edu/academic-support-centers/advertising-council/practicum-info" class="nav_btn" onClick="btnClick(this)"&gt;&lt;span class="nav_txt"&gt;Practicum info&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.byui.edu/academic-support-centers/advertising-council/requirements" class="nav_btn" onClick="btnClick(this)"&gt;&lt;span class="nav_txt"&gt;Requirements&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.byui.edu/academic-support-centers/advertising-council/about-us" class="nav_btn_visited" onClick="btnClick(this)"&gt;&lt;span class="nav_txt"&gt;About us&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br /&gt;
+&lt;h3&gt;Who we are:&lt;/h3&gt;
+&lt;p class="content" style="margin-left:30px;margin-right:30px;"&gt;
+This practicum provides students with the unique opportunity to develop important professional communication skills in an up-beat atmosphere.
+&lt;br /&gt;&lt;br /&gt;Advertising Council focuses specifically within the realms of Print Production, Video Production and Public Relations. In a hands-on, real-world setting, students will collaborate in planning, executing and evaluating campaigns for the various functions of Academic Support (Tutoring Center, Presentation Practice Center, Chemistry/Physics Drop In Lab etc.)
+&lt;br /&gt;&lt;br /&gt;At the conclusion of the semester, students will have gained invaluable experience to add to their resume and will have produced highly professional materials to include in their portfolios.
+&lt;/p&gt;
+&lt;div class="social"&gt;
+&lt;p&gt;Find Us On&lt;/p&gt;
+&lt;a class="facebook" href="https://www.facebook.com/pages/BYU-I-Ad-Council/487318101327108" target="_blank"&gt;&lt;img src="http://courses.byui.edu/AcademicSupport/ad-council/social/f_logo.png" /&gt;&lt;/a&gt;
+&lt;a class="tweeter" href="https://twitter.com/AdvertisingCncl" target="_blank"&gt;&lt;img src="http://courses.byui.edu/AcademicSupport/ad-council/social/t_logo.png" /&gt;&lt;/a&gt;
+&lt;a class="youtube" href="https://www.youtube.com/user/BYUIadcouncil" target="_blank"&gt;&lt;img src="http://courses.byui.edu/AcademicSupport/ad-council/social/y_logo.png" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;h3&gt;Directors&lt;/h3&gt;
+&lt;br /&gt;
+&lt;div class="profile"&gt;
+&lt;img src="http://courses.byui.edu/AcademicSupport/ad-council/about/Kris.jpg" /&gt;
+&lt;p&gt;
+&lt;br /&gt;&lt;br /&gt;
+Kris Keltner&lt;br /&gt;
+kel08006@byui.edu&lt;br /&gt;
+Ad Council Director
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="profile"&gt;                                                                                  
+&lt;img src="http://courses.byui.edu/AcademicSupport/ad-council/about/Matt.jpg" /&gt;
+&lt;p&gt;
+&lt;br /&gt;&lt;br /&gt;
+Matt Vallejo&lt;br /&gt;
+val11002@byui.edu&lt;br /&gt;
+Ad Council Director
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;h3&gt;Graphic Services Coordinators&lt;/h3&gt;
+&lt;br /&gt;
+&lt;div class="profile"&gt;                                                                                  
+&lt;img src="http://courses.byui.edu/AcademicSupport/ad-council/about/Kevin.jpg" /&gt;
+&lt;br /&gt;&lt;br /&gt;
+Kevin Dench&lt;br /&gt;
+den08006@byui.edu&lt;br /&gt;
+Graphic Services
+&lt;/p&gt;
+&lt;/div&gt;   
+&lt;div class="profile"&gt;                                                                                  
+&lt;img src="http://curriculuminnovation.mixxt.org/storage/images/profiles/f/f/f/fffffffffffffffffffffffffffff.jpg" /&gt;
+&lt;br /&gt;&lt;br /&gt;
+Anna Buys&lt;br /&gt;
+fre10003@byui.edu&lt;br /&gt;
+Graphic Services
+&lt;/p&gt;
+&lt;/div&gt; 
+&lt;h3&gt;Video Production Coordinators&lt;/h3&gt;
+&lt;br /&gt;                                                                                                
+&lt;div class="profile"&gt;                                                                                  
+&lt;img src="http://courses.byui.edu/AcademicSupport/ad-council/about/Tyler.jpg" /&gt;
+&lt;br /&gt;&lt;br /&gt;
+Tyler Clay&lt;br /&gt;
+cla09029@byui.edu&lt;br /&gt;
+Video Production
+&lt;/p&gt;
+&lt;/div&gt;                                                                                                 
+&lt;div class="profile"&gt;                                                                                  
+&lt;img src="http://courses.byui.edu/AcademicSupport/ad-council/about/Devin.jpg" /&gt;
+&lt;br /&gt;&lt;br /&gt;
+Devin Collins&lt;br /&gt;
+col09009@byui.edu&lt;br /&gt;
+Video Production
+&lt;/div&gt; 
+&lt;h3&gt;Public Relations Coordinator&lt;/h3&gt;
+&lt;br /&gt;                                                                                            
+&lt;div class="profile"&gt;                                                                                  
+&lt;img src="http://courses.byui.edu/AcademicSupport/ad-council/about/Denis.jpg" /&gt;
+&lt;br /&gt;&lt;br /&gt;
+Denis Tang&lt;br /&gt;
+tan06006@byui.edu&lt;br /&gt;
+Public Relations
+&lt;/div&gt;
+&lt;h3&gt;Web Development Coordinator&lt;/h3&gt;
+&lt;br /&gt;
+&lt;div class="profile"&gt;                                                                                  
+&lt;img src="http://courses.byui.edu/AcademicSupport/ad-council/about/Jay.jpg" /&gt;
+&lt;br /&gt;&lt;br /&gt;
+Jay Lee&lt;br /&gt;
+lee11001@byui.edu&lt;br /&gt;
+Web Development
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- END html area --&gt;</ContentSnippet></ContentSnippet>

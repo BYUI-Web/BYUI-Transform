@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.82 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x33950" Name="Independent Contractor" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Independent Contractor</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Independent Contractor</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="true"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent" Expanded="false"/><xPower Type="Component" Component="x33951" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent" Expanded="false"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<h4 style="font-weight: bold;">Policy</h4>
+<p style="font-family: Verdana, Arial, sans-serif;">BYU Idaho seeks to ensure that independent contractors are appropriately classified as such. Significant legal consequences and penalty assessments may result if an individual who meets the legal definition of an employee is erroneously hired as an independent contractor. The University may be audited at any time by the IRS or various government agencies to determine appropriate use of independent contractors.</p>
+<p style="font-family: Verdana, Arial, sans-serif;">Generally most individuals hired by the University are employees. However, those who meet certain requirements might be classified as independent contractors. <span style="font-weight: bold;">Normally the reasons for contracting work out are to achieve something ordinarily not within the usual capabilities of the University's regular employees.</span> Employees of the university including students are not eligible to be independent contractors of the University.</p>
+<p style="font-family: Verdana, Arial, sans-serif;">Contracts over $2500, for a recurring event, or where there is risk to the University should be processed through the Purchasing Office.<br /><br /> Payments to individuals for a onetime event and under $2500 may be done using the independent contractor form.</p>
+<p style="font-family: Verdana, Arial, sans-serif;"><strong>Procedures</strong></p>
+<ol style="font-family: Verdana, Arial, sans-serif;">
+<li>Use the "Independent Contractor or Employee" guidelines at <a href="http://www.byui.edu/financial-services/payroll/independent-contractor/employee-or-contractor" title="Employee or contractor" target="_blank">http://www.byui.edu/financial-services/payroll/independent-contractor/employee-or-contractor</a> to determine if individual or entity qualifies for independent contractor status.<br />
+<h5 style="font-weight: bold;">Examples of Independent Contractors</h5>
+The following categories of individuals or firms and types of services are generally qualified to serve as independent contractors (who are not faculty, staff or student employees):
+<ul style="list-style-type: circle;">
+<li>Test Proctors</li>
+<li>Consultants</li>
+<li>Sports Officials</li>
+<li>Dance Judges</li>
+<li>Trimming Horses (Must have business and use own tools)</li>
+<li>Speakers and Presenters (non-credit)</li>
+<li>Entertainment (short-term engagement)</li>
+<li>Artist</li>
+<li>Professional Photography (short-term engagement)</li>
+<li>Student Teacher Supervisors</li>
+<li>Student Teacher Coordinators (other than University employees)</li>
+<li>Market research done by off campus business</li>
+</ul>
+If an individual doesn't qualify as an independent contractor, they must be hired through Human Resources following current hiring practices.</li>
+<li>Payment Requests
+<ul style="list-style-type: circle;">
+<li>For one time payments under $2500.00 a completed Independent Contractor Payment Request and a form W-9 (included on payment request form) completed by the contractor sent with appropriate approvals to the Accounting Office. Cumulative annual payments over $600.00 will be reportable to the IRS on form 1099 MISC.</li>
+<li>Recurring payments or payments over $2500 should be arranged through the Purchasing Office.</li>
+</ul>
+</li>
+<li>Travel Payments to Independent Contractors
+<ul style="list-style-type: lower-alpha;">
+<li>Guest Artists or Lecturers coming to BYU-Idaho (Three Options)<ol>
+<li>Departments can make travel arrangements through the Travel Office and BYU-Idaho will pay the vendor directly. Amount will not be included on the 1099 MISC.</li>
+<li>The guest can make own travel arrangements and BYU-Idaho will reimburse them. The full amount will be included on the 1099 Misc.</li>
+<li>The guest can be paid a lump sum that will cover honoraria and travel. The full amount will be included on the 1099 Misc.</li>
+</ol></li>
+<li>All other Independent Contractors and travel away from the campus (Two Options)<ol>
+<li>For any reimbursable travel the Independent Contractor must first pay for the travel expenses and request reimbursement. The full amount will be included on the 1099 Misc.</li>
+<li>The Independent Contractor can be paid a lump sum that will cover honoraria and travel. The full amount will be included on the 1099 Misc.</li>
+</ol></li>
+</ul>
+</li>
+<li>The check for payment will be mailed to the Independent Contractor. Checks can not be picked up to give to the Contractor.</li>
+</ol>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x18419" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

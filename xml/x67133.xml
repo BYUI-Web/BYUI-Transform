@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<CommonPage ID="x67133" Name="Tutorials" Layout="default.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Tutorials</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Tutorials for design help</Abstract><xPower Type="GroupStart" GroupStart="" Name="ImageColumn" label="Image Column" readonly="false" hidden="false" required="false" Expanded="true"><MoveRight type="boolean" hidden="true" label="Toggle column left or right (left is default)" readonly="false" required="false">false</MoveRight><xPower Type="List" List="xpowercomponent_ImageComponent" Name="ImageColumnComponentList" label="Images" readonly="false" hidden="false" required="false" Component="" CompTypes="LeftColumnImageComponent" Expanded="false"><xPower Type="Component" Component="" Name="ImageComponent" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent" Expanded="false"/></xPower><xPower Type="List" List="xpowercomponent_TextComponent" Name="TextColumnComponentList" label="Text Box" readonly="false" hidden="false" required="false" Component="" CompTypes="ColumnTextComponent" Expanded="false"><xPower Type="Component" Component="" Name="TextComponent" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent" Expanded="false"/></xPower></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<h2></h2>
+<h2></h2>
+<h2 style="padding-left: 60px;"><img alt="Demo Image" height="198" src="Images/NO_IMAGE.jpg" width="460" /></h2>
+<ol>
+<li>
+<h2 style="padding-left: 60px;"><a href="">Opening a Template File in InDesign</a></h2>
+</li>
+<li>
+<h2 style="padding-left: 60px;"><a class="top_up" href="">Opening a Template File in Publisher</a></h2>
+</li>
+<li>
+<h2 style="padding-left: 60px;"><a href="Documents/Identity/PlacingLogoInDesign.pdf">Placing a .eps logo format in InDesign Template</a></h2>
+</li>
+<li>
+<h2 style="padding-left: 60px;"><a href="">Placing a .eps logo format in Publisher Template</a></h2>
+</li>
+<li>
+<h2 style="padding-left: 60px;"><a href="">Saving a logo in .eps format</a></h2>
+</li>
+</ol>
+<h2 style="padding-left: 60px;"></h2>
+<h2 style="padding-left: 60px;"></h2>
+<h2 style="padding-left: 60px;"></h2>]]></BodyCopy><xPower Type="Component" Component="x14" Name="RelatedLinks" label="Related Links" readonly="false" hidden="false" required="false" CompTypes="RelatedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="false" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x10072" Name="SiteControl" label="Site Control" readonly="true" hidden="true" required="false" CompTypes="SiteControl" Expanded="false"/></CommonPage>

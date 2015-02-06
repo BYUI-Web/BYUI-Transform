@@ -1,0 +1,344 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x48644" Name="past_issues.htm" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">past_issues.htm</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">past_issues.htm</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"&gt;
+&lt;head&gt;
+    &lt;meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /&gt;
+    &lt;title&gt;BYU&amp;ndash;Idaho&amp;nbsp;|&amp;nbsp;Online&amp;nbsp;Magazine&amp;nbsp;&gt;&amp;nbsp;Alumni&amp;nbsp;News&lt;/title&gt;
+    &lt;!-- Remove TemplateSource line to disable the Web Editor --&gt;
+    &lt;!--TemplateSource="2A.htm"--&gt;
+    &lt;!--***********************************************************************
+    *   Brigham Young University-Idaho Template
+    *   Version:        1.2
+    *   Type:           2A
+    *   Last Revised:   June, 2006
+    *   Copyrightï¿½ 2007 Brigham Young University-Idaho
+    *   All Rights Reserved.
+    ************************************************************************--&gt;
+    &lt;!-- REFERENCED STYLESHEETS --&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/v1/topBar.css" /&gt;
+
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/V1/structure.css" /&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/V1/body_text.css" /&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/V1/table.css" /&gt;
+	&lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/driveorwalk/css/walkordrivestyle.css" /&gt;
+	&lt;link rel="stylesheet" type="text/css" href="../css/ol.css" /&gt;
+	&lt;link rel="stylesheet" type="text/css" href="../css/news_of_note_style.css" /&gt;
+	&lt;link rel="stylesheet" type="text/css" href="../../features/css/article_style.css" /&gt;
+	
+	&lt;!--Fix for h3 tag headlines on this page--&gt;
+	&lt;style type="text/css"&gt;#page_layout2_content h3 {font-family: Helvetica, Arial, sans-serif; color:#2a2827;	font-size:16px;	padding-top:10px;}&lt;/style&gt;
+
+	
+    &lt;!-- EMBEDED JAVASCRIPT FUNCTIONS --&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/js/v2/changeSizeRevised.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/js/v2/leftLinks.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/driveorwalk/js/textswap.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/driveorwalk/js/active.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/driveorwalk/js/randomadimage.js"&gt;&lt;/script&gt;
+
+
+
+    &lt;!-- EDITOR JAVASCRIPT FUNCTIONS --&gt;
+&lt;/head&gt;
+&lt;body id="type_A" onload="callFunctions(); randomImageDisplay(); activeNav(1); randomAdImage();" style="visibility:hidden;"&gt;
+    &lt;!-- The body type determines the number of columns in the CONTENT AREA. View structure.css to where these types are specified --&gt;
+    &lt;!-- ********************************************************************* --&gt;
+    &lt;!-- TOP BAR                                                               --&gt;
+    &lt;!-- ********************************************************************* --&gt;
+    &lt;div id="topBar"&gt;
+
+        &lt;div id="blueSpace"&gt;&lt;/div&gt;
+        &lt;div&gt;
+            &lt;table id="tableBlue" cellspacing="0" cellpadding="0"&gt;
+                &lt;!-- Title menu with the Blue Background --&gt;
+                &lt;tr&gt;&lt;td id="tdBlueSpace"&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr id="trBlueTop"&gt;&lt;td id="tdBlueTop"&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td id="tdBlueMenu" align="center"&gt;
+                        &lt;div id="javaMenu"&gt;
+
+                            &lt;script type="text/javascript" src="http://www.byui.edu/js/V1/HomepageNavBar.js"&gt;&lt;/script&gt;
+                        &lt;/div&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+        &lt;/div&gt;
+        &lt;!-- Gray Bar --&gt;
+        &lt;div id="divGrayBarContainer"&gt;
+
+            &lt;div id="divDarkGrayBar"&gt;
+                &lt;!--&lt;div id="divStudent"&gt;
+                    &lt;script type="text/javascript" src="http://www.byui.edu/js/V1/imageChange.js"&gt;&lt;/script&gt;
+                &lt;/div&gt; //--&gt;
+                &lt;div id="divBYUILogo"&gt;
+                    &lt;a id="logoLink" href="http://www.byui.edu/"&gt;&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div id="divVertLine"&gt;&lt;/div&gt;
+                &lt;div id="divDepartmentTitle"&gt;
+                    &lt;!-- Department Title --&gt;
+                    &lt;div id="divSectionTitle"&gt;
+
+                        &lt;a id="iframeText" target="_top" href="http://www.byui.edu/magazine/fall2010"&gt;Online Magazine &amp;gt; Alumni News&lt;/a&gt;
+                    &lt;/div&gt;  
+                    &lt;span id="divSemester" style="width:100px;align:right;margin-left:190px;"&gt;
+                        &lt;!--EditorContacts--&gt;
+						&lt;font color="white"&gt;&lt;b&gt;Fall 2010&lt;/b&gt;&lt;/font&gt;
+                        &lt;!--EndEditorContacts--&gt;
+                    &lt;/span&gt;
+
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;!-- White Bar --&gt;
+        &lt;div id="divWhiteContainer"&gt;
+        &lt;div id="divWhiteBar"&gt;
+            &lt;img src="http://www.byui.edu/css/V1/images/whiteBar.gif" alt="White Bar" /&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+    &lt;!-- END ***************************************************************** --&gt;
+    &lt;!--EditorForm--&gt;
+    &lt;!--EditorToolbar--&gt;
+    &lt;div id="container"&gt;
+        &lt;div id="main_body"&gt;
+            &lt;!-- LEFT COLUMN --&gt;
+            &lt;!-- NAVIGATION FILE INCLUDE --&gt;
+            			&lt;div id="left_column"&gt;
+
+							&lt;div id="onlinemagazinenav"&gt;
+								&lt;!--#include file="../../common/nav.inc"--&gt;
+					
+			  				 &lt;/div&gt;
+					   
+						&lt;/div&gt;
+            
+            &lt;div id="right_section"&gt;
+                &lt;div class="right_bottom_section"&gt;
+                    &lt;div class="leftAREA"&gt;
+
+						&lt;div id="page_layout2_content"&gt;
+							&lt;h1&gt;&lt;em&gt;BYU-Idaho Magazine On-Line&lt;/h1&gt;
+							
+							&lt;a name="news1"&gt;&lt;/a&gt;
+							&lt;div class="first_news_item"&gt;
+
+								
+								&lt;p&gt;The &lt;em&gt;BYU-Idaho&lt;/em&gt; Magazine (formerly the &lt;em&gt;Summit Magazine&lt;/em&gt;)  is produced twice a year, usually in November and April.&amp;nbsp;&amp;nbsp; We have  provided an on-line version of our latest issues and previous editions  of the &lt;em&gt;Summit Magazine.&lt;/em&gt;&lt;/p&gt;
+								&lt;table border="0" cellpadding="4" cellspacing="4"&gt;
+								
+								&lt;tbody&gt;
+									&lt;tr&gt;
+										&lt;td align="center" width="25%"&gt;
+											&lt;p&gt;&lt;a href="http://www.byui.edu/magazine/fall2009/" target="_self"&gt;&lt;img alt="BYU-Idaho Magazine Fall 2009" border="0" src="http://www.byui.edu/magazine/fall2009/images/mailer_icon.png" width="85" height="105" /&gt;&lt;/a&gt;&lt;/p&gt;
+											&lt;p&gt;&lt;a href="http://www.byui.edu/magazine/fall2009/" target="_parent"&gt;Fall 2009&lt;/a&gt;&lt;/p&gt;
+										&lt;/td&gt;
+										
+										&lt;td align="center" width="25%"&gt;
+											&lt;p&gt;&lt;a href="http://www.byui.edu/magazine/spring2009/" target="_self"&gt;&lt;img alt="mag" border="0" src="http://www.byui.edu/alumni/images/BYUIMagSpring2009.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+											&lt;p&gt;&lt;a href="http://www.byui.edu/magazine/spring2009/" target="_self"&gt;Spring 2009 &lt;/a&gt;&lt;/p&gt;
+										&lt;/td&gt;
+								
+										&lt;td align="center" width="25%"&gt; 
+											&lt;p&gt;&lt;a href="http://www.byui.edu/alumni/BYUIMag/Fall_2008/Contents.htm" target="_self"&gt;&lt;img alt="mag" border="0" src="http://www.byui.edu/alumni/images/BYUIMagFall2008.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+											&lt;p&gt;&lt;a href="http://www.byui.edu/alumni/BYUIMag/Fall_2008/Contents.htm" target="_self"&gt;Fall 2008 &lt;/a&gt;&lt;/p&gt;
+										&lt;/td&gt;
+									&lt;/tr&gt;
+									&lt;tr&gt;
+										&lt;td align="center" width="25%"&gt;
+											&lt;p&gt;&lt;a href="http://www.byui.edu/alumni/BYUIMag/Spring_2008/Contents.html" target="_self"&gt;&lt;img alt="BYU-Idaho Magazine Fall 2007" border="0" height="105" src="http://www.byui.edu/alumni/images/BYUIMagSpring2008.jpg" width="84" /&gt;&lt;/a&gt;&lt;/p&gt;
+											&lt;p&gt;&lt;a href="http://www.byui.edu/alumni/BYUIMag/Spring_2008/Contents.html" target="_parent"&gt;Spring 2008&lt;/a&gt;&lt;/p&gt;
+										&lt;/td&gt;
+										&lt;td align="center" width="25%"&gt;
+											
+											&lt;p&gt;&lt;a href="http://www.byui.edu/alumni/BYUIMag/Fall_2007/Contents.html" target="_self"&gt;&lt;img alt="BYU-Idaho Magazine Fall 2007" border="0" height="105" src="http://www.byui.edu/alumni/images/BYUIMagFall2007.jpg" width="84" /&gt;&lt;/a&gt;&lt;/p&gt;
+											&lt;p&gt;&lt;a href="http://www.byui.edu/alumni/BYUIMag/Fall_2007/Contents.html" target="_parent"&gt;Fall 2007&lt;/a&gt;&lt;/p&gt;
+										&lt;/td&gt;
+										&lt;td align="center" width="25%"&gt;&lt;br /&gt;&lt;/td&gt;
+									&lt;/tr&gt;
+									&lt;tr&gt;
+										&lt;td align="center" colspan="3"&gt;&lt;em&gt;Summit Magazine&lt;/em&gt; Editions&lt;/td&gt;
+									&lt;/tr&gt;
+								
+									&lt;tr&gt;
+								
+										&lt;td align="center" width="25%"&gt;&lt;a href="http://www.byui.edu/alumni/summit/spring_2007/contents.htm" target="_parent"&gt; &lt;img border="0" height="105" src="http://www.byui.edu/alumni/images/summitspring2007.jpg" width="84" /&gt;&lt;/a&gt;
+								
+											&lt;p&gt;&lt;a href="http://www.byui.edu/alumni/summit/spring_2007/contents.htm" target="_parent"&gt; Spring 2007&lt;/a&gt;&lt;/p&gt;
+								
+										&lt;/td&gt;
+								
+										&lt;td align="center" width="25%"&gt;&lt;a href="http://www.byui.edu/alumni/summit/Fall_2006/contents.htm" target="_parent"&gt; &lt;img border="0" height="105" src="http://www.byui.edu/alumni/images/summitfall2006.jpg" width="84" /&gt;&lt;/a&gt;
+								
+											&lt;p&gt;&lt;a href="http://www.byui.edu/alumni/summit/fall_2006/contents.htm" target="_parent"&gt; Fall 2006&lt;/a&gt;&lt;/p&gt;
+										&lt;/td&gt;
+								
+										&lt;td align="center" width="25%"&gt;&lt;a href="http://www.byui.edu/alumni/summit/Spring_2006/contents.htm" target="_parent"&gt; &lt;img border="0" src="http://www.byui.edu/alumni/images/summitspring2006.jpg" /&gt;&lt;/a&gt;
+								
+											&lt;p&gt;&lt;a href="http://www.byui.edu/alumni/summit/Spring_2006/contents.htm" target="_parent"&gt; Spring 2006&lt;/a&gt;&lt;/p&gt;
+								
+										&lt;/td&gt;
+								
+									&lt;/tr&gt;
+								
+									&lt;tr&gt;
+								
+										&lt;td align="center" width="25%"&gt;&lt;a href="http://www.byui.edu/alumni/Summit/Fall%202005/contents.htm" target="_parent"&gt;&lt;img border="0" height="105" src="http://www.byui.edu/alumni/Summit/Fall%202005/SummitWebFall05/webimages/cover-small.jpg" width="84" /&gt;&lt;/a&gt;
+								
+											&lt;p&gt;&lt;strong&gt;&lt;a href="http://www.byui.edu/alumni/Summit/Fall%202005/contents.htm" target="_parent"&gt; Fall 2005&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+										&lt;/td&gt;
+								
+										&lt;td align="center" width="25%"&gt;&lt;a href="http://www.byui.edu/alumni/summit/Spring_2005/contents.htm" target="_parent"&gt;&lt;img border="0" height="105" src="http://www.byui.edu/alumni/images/summitspring2005.jpg" width="84" /&gt;&lt;/a&gt;
+								
+											&lt;p&gt;&lt;a href="http://www.byui.edu/alumni/summit/Spring_2005/contents.htm" target="_parent"&gt; Spring 2005&lt;/a&gt;&lt;/p&gt;
+										
+										&lt;/td&gt;
+								
+										&lt;td align="center" width="25%"&gt;&lt;a href="http://www.byui.edu/alumni/summit/fall_2004/contents.htm" target="_parent"&gt;&lt;img border="0" height="103" src="http://www.byui.edu/alumni/images/summitfall2004.jpg" width="84" /&gt;&lt;/a&gt;
+								
+											&lt;p&gt;&lt;strong&gt;&lt;a href="http://www.byui.edu/alumni/summit/fall_2004/contents.htm" target="_parent"&gt; Fall 2004&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+								
+										&lt;/td&gt;
+								
+									&lt;/tr&gt;
+								
+									&lt;tr&gt;
+								
+										&lt;td align="center" width="25%"&gt;&lt;a href="http://www.byui.edu/alumni/summit/Spring_2004/contents.htm" target="_parent"&gt;&lt;img border="0" height="105" src="http://www.byui.edu/alumni/images/summitspring2004.jpg" width="84" /&gt;&lt;/a&gt;
+								
+											&lt;p&gt;&lt;strong&gt;&lt;a href="http://www.byui.edu/alumni/summit/Spring_2004/contents.htm" target="_parent"&gt; Spring 2004&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+								
+										&lt;/td&gt;
+								
+										&lt;td align="center" width="25%"&gt;&lt;a href="http://www.byui.edu/alumni/summit/fall_2003/contents.htm" target="_parent"&gt;&lt;img border="0" height="105" src="http://www.byui.edu/alumni/images/summitfall2003.jpg" width="84" /&gt;&lt;/a&gt;
+									
+											&lt;p&gt;&lt;strong&gt;&lt;a href="http://www.byui.edu/alumni/summit/fall_2003/contents.htm" target="_parent"&gt; Fall 2003&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+										&lt;/td&gt;
+								
+										&lt;td align="center" width="25%"&gt;
+								
+											&lt;p align="center"&gt;&lt;a href="http://www.byui.edu/alumni/summit/spring_2003/contents.htm" target="_parent"&gt;&lt;img alt="Summit Magazine Spring 2003" border="0" height="105" src="http://www.byui.edu/alumni/images/summitspring2003.gif" width="84" /&gt;&lt;/a&gt;&lt;/p&gt;
+								
+											&lt;p align="center"&gt;&lt;a href="http://www.byui.edu/alumni/summit/spring_2003/contents.htm" target="_parent"&gt; Spring 2003&lt;/a&gt;&lt;/p&gt;
+								
+										&lt;/td&gt;
+								
+									&lt;/tr&gt;
+								
+									&lt;tr&gt;
+								
+										&lt;td align="center" width="25%"&gt;
+								
+											&lt;p align="center"&gt;&lt;a href="http://www.byui.edu/alumni/summit/fall_2002/contents.htm" target="_parent"&gt;&lt;img alt="Summit Magazine Fall 2002" border="0" height="105" src="http://www.byui.edu/alumni/images/summitfall2002.gif" width="84" /&gt;&lt;/a&gt;&lt;/p&gt;
+								
+											&lt;p&gt;&lt;a href="http://www.byui.edu/alumni/summit/fall_2003/contents.htm" target="_parent"&gt; Fall 2002&lt;/a&gt;&lt;/p&gt;
+								
+										&lt;/td&gt;
+								
+										&lt;td align="center" width="25%"&gt;
+								
+											&lt;p align="center"&gt;&lt;a href="http://www.byui.edu/alumni/summit/spring_2002/contents.htm" target="_parent"&gt;&lt;img alt="Summit Magazine Spring 2002" border="0" height="105" src="http://www.byui.edu/alumni/images/summitspring2002.jpg" width="84" /&gt;&lt;/a&gt;&lt;/p&gt;
+								
+											&lt;p&gt;&lt;a href="http://www.byui.edu/alumni/summit/spring_2002/contents.htm" target="_parent"&gt; Spring 2002&lt;/a&gt;&amp;nbsp;&lt;/p&gt;
+								
+										&lt;/td&gt;
+								
+										&lt;td align="center" width="25%"&gt;
+								
+											&lt;p align="center"&gt;&lt;a href="http://www.byui.edu/alumni/summit/summit_fall_2001/summit_fall_2001_contents.htm" target="_parent"&gt;&lt;img alt="Summit Magazine Fall 2001" border="0" height="104" src="http://www.byui.edu/alumni/images/summitfall2001.jpg" width="81" /&gt;&lt;/a&gt;&lt;/p&gt;
+								
+											&lt;p&gt;&lt;a href="http://www.byui.edu/alumni/summit/summit_fall_2001/summit_fall_2001_contents.htm" target="_parent"&gt; Fall 2001&lt;/a&gt;&lt;/p&gt;
+								
+										&lt;/td&gt;
+								
+									&lt;/tr&gt;
+								
+									&lt;tr&gt;
+								
+										&lt;td align="center" width="25%"&gt;
+								
+											&lt;p align="center"&gt;&lt;a href="http://www.byui.edu/alumni/summit/Summit_Spring2001/contents.htm" target="_parent"&gt;&lt;img alt="Summit Magazine Spring 2001" border="0" height="106" src="http://www.byui.edu/alumni/images/spring01.jpg" width="95" /&gt;&lt;/a&gt;&lt;/p&gt;
+								
+											&lt;p&gt;&lt;a href="http://www.byui.edu/alumni/summit/Summit_Spring2001/contents.htm" target="_parent"&gt; Spring 2001&lt;/a&gt;&lt;/p&gt;
+								
+											&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+								
+										&lt;/td&gt;
+								
+										&lt;td align="center" width="25%"&gt;
+								
+											&lt;p align="center"&gt;&lt;a href="http://www.byui.edu/alumni/summit/summitfall_2000/contents.htm" target="_parent"&gt;&lt;img alt="Summit Magazine Fall 2000" border="0" height="105" src="http://www.byui.edu/alumni/images/summitfall.jpg" width="84" /&gt;&lt;/a&gt;&lt;/p&gt;
+								
+											&lt;p&gt;&lt;a href="http://www.byui.edu/alumni/summit/summitfall_2000/contents.htm" target="_parent"&gt; Fall 2000&lt;/a&gt;&lt;/p&gt;
+								
+											&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+								
+										&lt;/td&gt;
+								
+										&lt;td align="center" width="25%"&gt;
+								
+											&lt;p align="center"&gt;&lt;a href="http://www.byui.edu/alumni/summit/summit2/contents.htm" target="_parent"&gt;&lt;img alt="Summit Magazine Spring 2000" border="0" height="105" src="http://www.byui.edu/alumni/images/summit25pic.jpg" width="85" /&gt;&lt;/a&gt;&lt;/p&gt;
+								
+											&lt;p&gt;&lt;a href="http://www.byui.edu/alumni/summit/summit2/contents.htm" target="_parent"&gt; Spring 2000&lt;/a&gt;&lt;/p&gt;
+								
+										&lt;/td&gt;
+								
+									&lt;/tr&gt;
+								
+								&lt;/tbody&gt;
+							&lt;/table&gt;
+						&lt;/div&gt;&lt;!--END NEWS ITEM--&gt;
+							
+
+						&lt;div class="dashing_divider"&gt;&lt;/div&gt;
+							
+						&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class="rightAREA"&gt;&lt;img alt="Place Holder" src="http://www.byui.edu/css/V1/images/placeholder80.gif" /&gt;&lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div id="footer"&gt;
+            &lt;div id="shadow"&gt;Copyright&amp;copy; &lt;script type="text/javascript"&gt;var d = new Date();document.write(d.getFullYear());&lt;/script&gt; BYU&amp;ndash;Idaho&lt;br /&gt;All Rights Reserved.&lt;/div&gt;
+
+        &lt;/div&gt;
+    
+    &lt;!--EndEditorForm--&gt;
+    &lt;!-- TABLE FORMATTING SECTION --&gt;
+    &lt;script type="text/javascript"&gt;
+        &lt;!--
+        var tableTags = document.getElementById('main_body').getElementsByTagName("table");
+        for (var i = 0; i &lt; tableTags.length; i++)
+        {
+            var trTags = tableTags[i].getElementsByTagName("tr");
+            for (var j = 0; j &lt; trTags.length; j++)
+            {
+                if(j%2 == 0)
+                {
+                    trTags.item(j).style.backgroundColor = "#efefec";
+                }
+                else
+                {
+                    trTags.item(j).style.backgroundColor = "#ffffff";
+                }
+            }
+        }
+        --&gt;
+    &lt;/script&gt;
+&lt;!-- This script enables Google Analytics --&gt;
+		&lt;script type="text/javascript"&gt;
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		&lt;/script&gt;
+		&lt;script type="text/javascript"&gt;
+			try {
+			var pageTracker = _gat._getTracker("UA-12079604-1");
+			pageTracker._trackPageview();
+			} catch(err) {}
+		&lt;/script&gt;
+	&lt;/body&gt;
+
+&lt;/html&gt;
+</ESContent></EmptyShell>

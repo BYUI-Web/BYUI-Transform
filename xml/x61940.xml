@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x61940" Name="Nursing Transfer Student Tutorial" Layout="general_content.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Nursing Transfer Student Tutorial</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Nursing Transfer Student Tutorial</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<script src="jquery.js" type="text/javascript"></script>
+<script type="text/javascript">
+ 
+    $(document).ready(function(){
+        $("#tutorial").hide(function(){
+            $(".Intro").show();
+            $("#continueintro").click(function(){
+                $(".tutorial").hide(500);
+                $(".AreyouRN").show(400);
+            });
+        });
+        $("#yesAreyouRN").click(function(){
+            $("#tutorial").hide(500);
+            $(".allASNwelcome").show(400);
+        });
+        $("#allASNwelcome").click(function(){
+            $("#tutorial").hide(500);
+            $(".alumniORtransfer").show(400);
+        });
+        $("#transfer-studentalumniORtransfer").click(function(){
+            $("#tutorial").hide(500);
+            $(".infotransfer").show(400);
+        });
+        $("#continueinfotransfer").click(function(){
+            $("#tutorial").hide(500);
+            $(".AlmaterAccredited").show(400);
+        });
+        $("#noAlmaterAccredited").click(function(){
+            $("#tutorial").hide(500);
+            $(".infotransferablitycredits").show(400);
+        });
+        $("#yesAlmaterAccredited").click(function(){
+            $("#tutorial").hide(500);
+            $(".ASNorAAS").show(400);
+        });
+        $("#continueinfotransferablitycredits").click(function(){
+            $("#tutorial").hide(500);
+            $(".continueinfo120standard").show(400);
+        });
+        $("#asnASNorAAS").click(function(){
+            $("#tutorial").hide(500);
+            $(".infoGenerlrequierments120standard").show(400);
+        });
+        $("#aasASNorAAS").click(function(){
+            $("#tutorial").hide(500);
+            $(".info120standard").show(400);
+        });
+        $("#continueinfoGenerlrequierments120standard").click(function(){
+            $("#tutorial").hide(500);
+            $(".wouldyouliketoapply").show(400);
+        });
+        $("#continue10").click(function(){
+            $("#tutorial").hide(500);
+            $(".wouldyouliketoapply").show(400);                    
+        });
+    });
+</script>
+<h4 class="Intro" id="tutorial">
+<p>Intro:</p>
+<button id="continueintro">Continue</button></h4>
+<h4 class="AreyouRN" id="tutorial">
+<p>Question 1: Are you a Registered Nurse(RN)?</p>
+<button id="yesAreyouRN">Yes</button> <a href="http://www.byui.edu/nursing/asn/"><button id="no2">No</button></a></h4>
+<h4 class="allASNwelcome" id="tutorial">
+<p>Graduates from all ASN programs are welcome to apply</p>
+<button id="continueallASNwelcome">Continue</button></h4>
+<h4 class="alumniORtransfer" id="tutorial">
+<p>Question 2: Are you a...</p>
+<a href="http://www.byui.edu/alumni/contacts.htm"><button id="byui-nursing-alumni">BYUI Nursing Alumni</button></a>
+<p>Or a</p>
+<button id="transfer-studentalumniORtransfer">Transfer Student</button></h4>
+<h4 class="infotransfer" id="tutorial">
+<p>Info about transfer students</p>
+<button id="continueinfotransfer">Continue</button></h4>
+<h4 class="AlmaterAccredited" id="tutorial">
+<p>Question 3: Almater regionally accredited?</p>
+<button id="yesAlmaterAccredited">Yes</button> <button id="noAlmaterAccredited">No</button></h4>
+<h4 class="infotransferablitycredits" id="tutorial">
+<p>Explain Transferability of credits</p>
+<button id="continueinfotransferablitycredits">Continue</button></h4>
+<h4 class="ASNorAAS" id="tutorial">
+<p>Question 4: Do you have a</p>
+<button id="asnASNorAAS">ASN</button>
+<p>or a</p>
+<button id="aasASNorAAS">AAS</button></h4>
+<h4 class="infoGenerlrequierments120standard" id="tutorial">
+<p>Explain the general Requierments are the Foundations bridge + RN-BSN + 120 Standard</p>
+<button id="continueinfoGenerlrequierments120standard">Continue</button></h4>
+<h4 class="info120standard" id="tutorial">
+<p>Explain 120 standard and GE/Foundations requirements</p>
+<button id="continueinfo120standard">Continue</button></h4>
+<h4 class="wouldyouliketoapply" id="tutorial">
+<p>Question 5: Would you like to apply?</p>
+<a href="http://www.byui.edu/nursing/rnbsn/process/"><button id="yes11">Yes</button></a> <a href="http://www.byui.edu/nursing/"><button id="no11">No</button></a></h4>]]></BodyCopy><xPower Type="Component" Component="x25256" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x21577" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

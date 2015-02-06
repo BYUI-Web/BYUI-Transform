@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<Content ID="x68164" Name="Be heard" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Be heard</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Be heard</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style><!--
+.intro{
+	display: block;
+	float: left;
+	background-color:#85A9B2;
+	z-index:0;
+	position:relative;
+	border-top: 1.75px dotted #A9A9A9;
+	margin-top:5px;
+	
+
+}
+
+.intro h4{
+ 	font-family: helvetica; 
+ 	letter-spacing: 2px; 
+ 	font-size: 23px;
+ 	padding:8px 13px;
+	margin-top: 22px;
+	margin-left: 1px;
+}
+
+#intro{
+	font-family: helvetica; 
+	font-size: 24px;
+	padding: 0;
+	margin: 0 30px 40px 30px;
+}	
+/*.survey{
+	display: block;
+	float: right;
+	background-color:#8D912C;
+	height: 50px;
+	color:#FFFFFF;
+	text-align: center;
+	z-index:1;
+	position:relative;
+	margin-right:-5px;
+	margin-top:-25px;
+
+
+}
+
+.survey img{
+	float:right;
+	margin-right:-35px;
+	margin-top:-1px;
+	
+
+}
+
+.survey p{
+	color:#FFF;
+	width:500px;
+	padding-top:12px;
+	font-family: Georgia;
+	font-size: 18px;
+
+	}*/
+
+	.content1{
+		display:block;
+	}
+
+	.content2{
+		display:block;
+	}
+
+
+
+	.content h3{
+		font-family: helvetica;
+		font-size: 10px;
+		font-weight: bold;
+	}
+
+
+
+	.line{
+		border-top: 2px solid #FFFFFF;	
+		position:absolute;
+		left:30px;
+		width: 890px;
+	}
+
+	.line2{
+
+		border-top: 1px dotted black;
+		margin-top:8px;
+		position:relative;
+		left:3px;
+	}
+
+
+	.text{
+		float:right;
+	}
+
+	.comm{
+		height:75px;
+		background-color:#89689D;
+		border-top: 1.75px dotted #A9A9A9;
+		border-bottom: 1.75px dotted #A9A9A9;
+		position:relative;
+		left:3px;
+	}
+
+	.comm p{
+		color:#FFFFFF;
+		position:absolute;
+		left:195px;
+		top:27px;
+		font-size: 16px;
+	}
+
+	.comm img{
+		position:absolute;
+		z-index:1;
+		margin-top:12px;
+	}
+
+	#big-arrow{
+		position:absolute;
+		right:-110px;
+		bottom:-14px;
+	}
+
+	#icon{
+		position:absolute;
+		left:10px;
+	}
+
+	#beheard{	
+		margin-left:35px;
+		margin-bottom:18px;
+		margin-top:-25px;
+	}
+	
+	#commFooter{
+		position:absolute; 
+		width:100%;
+		height:100%;
+		top:0;
+		left: 0;
+		z-index:5;
+	}
+--></style>
+<div id="container">
+<div>[x50914]</div>
+<div style="border-top: 1px  #000 dotted; margin-top: 5px;">
+<div class="intro span-24">
+<h4><strong>BE HEARD</strong></h4>
+<div class="line span-23"></div>
+&nbsp;
+<p id="intro">University leadership wants to hear from you. Every employee is encouraged to have a voice. The university has established a number of venues designed to help facilitate discussion and surface your ideas and concerns.</p>
+</div>
+<!-- 		<div class="survey span-14">
+			<p>Employee Communication Survey Results <img alt="small-arrow" src="Images/campaigns/join-the-conversation/small-arrow2.png" /></p>
+		</div> --></div>
+<p>&nbsp; &nbsp;</p>
+<div class="content1 span-23"><img alt="Be Heard Graphic" id="beheard" src="Images/campaigns/join-the-conversation/beheard2.png" />
+<div class="text span-11">
+<p style="font-family: Helvetica, sans-serif; font-weight: bold;">Everyone who works at BYU-Idaho plays an important role. Here are a few ways you can share your thoughts and ideas:</p>
+<ul style="font-family: Georgia, serif; padding-left: 2.5em;">
+<li>preparing questions and thoughts for the President and vice presidents as they make visits to departments across campus,</li>
+<li>providing feedback and collaborating with supervisors as they share information,</li>
+<li>reviewing information and actively participating on blogs, Facebook, email, and other digital resources, and</li>
+<li>participating in President&rsquo;s Q&amp;A. This is a unique venue where you can obtain immediate responses from university leaders.</li>
+</ul>
+<p><a href="Documents/Admin_Offices/University Communications/Employee_Communication_Survey_Results.pdf" style="font-size: 11pt; line-height: 1.4em;">Employee Communication Survey Results</a><span style="font-size: 11pt; line-height: 1.4em;">&nbsp;- See employee feedback about communication on campus.</span></p>
+</div>
+</div>
+<div class="comm span-24"><a href="x50271.xml"><span id="commFooter"></span></a><img alt="Communication Tools Icon" id="icon" src="Images/campaigns/join-the-conversation/comm-link.png" />
+<p>Be part of the conversation now by using the new <strong>BYU-Idaho communication tools. </strong> <img alt="large-arrow" id="big-arrow" src="Images/campaigns/join-the-conversation/large-arrow3.png" /></p>
+</div>
+<div class="line2 span-24"></div>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="true" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="x50914" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x50691" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

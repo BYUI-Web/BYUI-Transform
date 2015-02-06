@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x29017" Name="Career Fair" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Career Fair</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Information about the Career Fair, a semi-annual event when recruiters from businesses and graduate schools are on campus</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<div style="text-align: left;"><em>The Career Fair is designed to connect you with employers interested in recruiting for internships and entry-level positions. Graduate schools will also be on campus sharing information.<br /> <br /></em></div>
+<hr />
+<p style="text-align: left;"></p>
+<h3 style="text-align: center;"><strong>The Career Fair will be October 9, 2014, 10am - 3pm in the BYU-I Center.</strong></h3>
+<p><a class="addthisevent" href="http://example.com/link-to-your-event" title="Add to Calendar"> Add to Calendar <span class="_start">09-10-2014 10:00:00</span> <span class="_end">09-10-2014 15:00:00</span> <span class="_zonecode">9</span> <span class="_summary">BYU-Idaho Career Fair</span> <span class="_description">Come and connect with employers.</span> <span class="_location">BYU-Idaho Center Gym</span> <span class="_organizer">BYU-Idaho Academic Discovery Center</span> <span class="_organizer_email">adcevents@byui.edu</span> <span class="_facebook_event"></span> <span class="_all_day_event">false</span> <span class="_date_format">DD/MM/YYYY</span> </a></p>
+<p style="text-align: left;"></p>
+<ul>
+<li><a href="x90179.xml" title="Companies attending the Career Fair">Companies Attending Fair</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+<li><a href="x90186.xml" title="Graduate Schools attending the Career Fair">Graduate Schools Attending Fair</a></li>
+<li><a href="x32413.xml" title="Prepare for the Fair">How to prepare</a></li>
+</ul>
+<p style="text-align: left;"></p>
+<hr />
+<h3 style="text-align: left;"><strong>Information Sessions and Interview Schedules</strong></h3>
+<p style="text-align: left;">Many companies and graduate schools have scheduled additional presentations on campus during Career Week.</p>
+<ul style="text-align: left;">
+<li><a href="x39746.xml" title="Information Sessions">Information Sessions</a></li>
+<li><a href="x39747.xml" title="Interview Schedules">Interview Schedules</a></li>
+</ul>
+<p style="text-align: left;">Additional information on these events can also be found in <a class="extLink" href="https://byui-csm.symplicity.com/students/" onclick="
+	var s = s_gi(s_account);
+	s.linkTrackVars='events';
+	s.linkTrackEvents='event2';
+	s.events='event2';
+	s.tl(this,'e','Career Navigator');
+	" title="Career Navigator" target="_blank">Career Navigator</a> - once you're logged in, click on the "Events" tab.</p>
+<!-- AddThisEvent -->
+<script src="http://js.addthisevent.com/atemay.js" type="text/javascript"></script>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x98430" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

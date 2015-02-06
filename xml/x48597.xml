@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x48597" Name="accordion_ie.css" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">accordion_ie.css</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">accordion_ie.css</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">/* general */
+.accordion {
+	margin: 0 !important;
+	text-transform: capitalize;
+	padding-left: 0 !important;
+}
+
+.accordion * {
+	list-style: none;
+}
+
+/* control */
+#accordion_control {
+	background-image: url('../../images/common/accordion/accordion_control_background.png');
+	background-repeat: repeat-x;
+	height: 16px;
+	padding-top: 4px;
+}
+.expand, .collapse {
+	float: left;
+	padding: 0 5px 0 10px;
+	text-transform: capitalize;
+	color: #C0C0C0;
+	font-size: 9px;
+}
+h3, h4, h5, .expand, .collapse {
+	cursor: pointer;
+}
+
+
+/* ACCORDION LISTS */
+/* primary */
+.accordion &gt; li { 
+	background-image: url('../../images/common/accordion/accordion_primary_background.png');
+	background-repeat: repeat-x;
+	background-color: #BEBEBE;
+	padding-top: 6px;
+	font-size: 10px;
+	list-style: none;
+	list-style-image: none;
+	padding-left: 10px;
+	padding-bottom: 0px;
+}
+.accordion h3 {
+	padding-left: 17px;
+	padding-bottom: 6px;
+	color: white;
+	font-size: 14px;
+}
+
+/* secondary */
+.accordion &gt; li &gt; ul {
+	padding-left: 2px;
+}
+.accordion &gt; li &gt; ul &gt; li{ 	
+	background-image: url('../../images/common/accordion/secondary_down.png');
+	background-repeat: no-repeat;
+	padding-top: 5px;
+}
+.accordion h4 {
+	padding-left: 23px;
+	padding-bottom: 7px;
+/*	padding-top: 1px;*/
+	font-size: 14px;
+}
+
+/* tertiary */
+.accordion &gt; li &gt; ul &gt; li &gt; ul {
+	padding-left: 0px;
+/*	margin-bottom: 14px;*/
+}
+.accordion &gt; li &gt; ul &gt; li &gt; ul &gt; li {
+	background-image: url('../../images/common/accordion/tertiary_down.png');
+	background-repeat: no-repeat;
+	padding-top: 7px;
+	background-color: #E3E3E3;
+}
+.accordion h5 {
+	padding-left: 24px;
+	padding-top: 0;
+	height: 19px;
+	color: #1c74b5;
+	padding-bottom: 3px;
+}
+/* quanternary */
+.accordion &gt; li &gt; ul &gt; li &gt; ul &gt; li &gt; ul {
+	padding-left: 25px;
+	padding-top: 5px;
+}
+.accordion &gt; li &gt; ul &gt; li &gt; ul &gt; li &gt; ul &gt; li {
+/*	margin-bottom: 7px;*/
+}</ESContent></EmptyShell>

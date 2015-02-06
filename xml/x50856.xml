@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<ColumnTextComponent ID="x50856" Name="Search SPC" IsComponent="true"><TextColumn type="dhtml" label="Column of Text" readonly="false" hidden="false" required="false"><![CDATA[<p><img src="http://media.lib.byu.edu/images/hbll/lens_white.gif" width="25" />Find SPC Materials:</p>
+<p>
+<script type="text/javascript">
+function validateForm()
+{
+        var x=document.forms.searchForm.query.value;
+        if (x==null || x=="")
+        {
+                alert("Enter a search term");
+                return false;
+        } else {
+                document.forms.searchForm.query.value="any,contains,'MCK Special Collections' "+x;
+        }
+}
+</script>
+</p>
+<form action="http://chipri20lsna.hosted.exlibrisgroup.com/primo_library/libweb/action/dlSearch.do?" class="EXLSearchForm" enctype="application/x-www-form-urlencoded; charset=utf-8" id="searchForm" method="get" name="searchForm" onsubmit="return validateForm()"><input id="institution" name="institution" type="hidden" value="BYUID" /> <input id="vid" name="vid" type="hidden" value="BYUID" /> <input id="search_scope" name="search_scope" type="hidden" value="byuid_equella" /> <input id="tab" name="tab" type="hidden" value="default_tab" /> <input id="onCampus" name="onCampus" type="hidden" value="false" /> <input id="indx" name="indx" type="hidden" value="1" /> <input id="bulkSize" name="bulkSize" type="hidden" value="10" /> <input id="dym" name="dym" type="hidden" value="true" /> <input id="highlight" name="highlight" type="hidden" value="true" /> <input id="displayField" name="displayField" type="hidden" value="title" /> <input id="search_field" name="query" size="30" title="search_field" type="text" /> <input type="submit" value="Search" /></form>]]></TextColumn></ColumnTextComponent>

@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<AdminPage ID="x15407" Name="Digital Ad Templates" Layout="admin_office_home.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Digital Ad Templates</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Digital Ad Templates</Abstract><MainMesgTop type="boolean" label="Enable to move &quot;Main Message&quot; to top of page" readonly="false" required="false" hidden="false">true</MainMesgTop><IntroCopy type="dhtml" label="Main Message" readonly="false" hidden="false" required="false"><![CDATA[<p>For step-by-step instructions on how to create each digital advertising option and then get it approved, please refer to the page&nbsp;<a href="x15480.xml">Marketing Tip: Produce Materials</a>&nbsp;and select the option that matches the media you would like to produce.</p>
+<style><!--
+.cell_box { margin-bottom: 10px; }
+            .cell_border { border: 2px solid #ccc; border-radius: 5px; }
+            .cell_header { border-bottom: 2px solid #ccc; padding: .5em; background-color: #eee; }
+            .cell_header h3 { padding-bottom: 0;}
+            .cell_body { text-align: center; }
+--></style>
+<div class="cell_box span-6">
+<div class="cell_border">
+<div class="cell_body">
+<div class="cell_header">
+<h3>My.Byui Banner</h3>
+</div>
+<a href="x44981.xml"> <img alt="posters" height="240" src="Images/university-communications/web_banner.jpg" width="210" /></a></div>
+</div>
+</div>
+<p></p>
+<div class="cell_box span-6">
+<div class="cell_border">
+<div class="cell_body">
+<div class="cell_header">
+<h3>Social Media</h3>
+</div>
+<a href="x10877.xml"><img alt="oversized-poster" height="240" src="Images/university-communications/social-media.jpg" width="210" /></a></div>
+</div>
+</div>
+<p></p>
+<div class="cell_box span-6 last">
+<div class="cell_border">
+<div class="cell_body">
+<div class="cell_header">
+<h3>PowerPoint</h3>
+</div>
+<a href="x45059.xml"><img alt="fliers" height="240" src="Images/university-communications/powerpoint.jpg" width="210" /></a></div>
+</div>
+</div>
+<p></p>
+<div class="cell_box span-6">
+<div class="cell_border">
+<div class="cell_body">
+<div class="cell_header">
+<h3>Digital Postcard</h3>
+</div>
+<a href="x16328.xml"><img alt="posters" height="240" src="Images/university-communications/postcards.jpg" width="210" /></a></div>
+</div>
+</div>
+<p></p>
+<div class="cell_box span-6">
+<div class="cell_border">
+<div class="cell_body">
+<div class="cell_header">
+<h3>Campus Email</h3>
+</div>
+<a href="x10748.xml"><img alt="table-tents" height="240" src="Images/university-communications/campus-email.jpg" width="210" /></a></div>
+</div>
+</div>
+<div class="cell_box span-6 last">
+<div class="cell_border">
+<div class="cell_body">
+<div class="cell_header">
+<h3>CVN Template</h3>
+</div>
+<a href="x89764.xml"><img alt="table-tents" height="240" src="Images/university-communications/cvntemplate(0).jpg" width="210" /></a></div>
+</div>
+</div>]]></IntroCopy><xPower Type="GroupStart" GroupStart="" Name="CellGroup" label="Cells" readonly="false" hidden="false" required="false" Expanded="true"><numColumns type="enumeration" values="1 2 3 4 5" label="Select number of cell columns." readonly="false" hidden="false" required="true">3</numColumns><xPower Type="List" List="xpowercomponent_Cell" Name="CellList" label="Cell List" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="true"><xPower Type="Component" Component="" Name="Cell" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"/></xPower></xPower><xPower Type="List" List="xpowercomponent_BannerAd" Name="BannerAds" label="Rotating Ads (650x216px required)" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"><xPower Type="Component" Component="" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/></xPower><xPower Type="Navigation" StartPage="" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="" Query="" Name="DeptEvents" label="Define Your Events Folder" readonly="false" hidden="false" required="false" Expanded="false"/><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="QuickLinksGroup" label="Quick Links Group" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Component="" Name="QuickLinks" label="Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x10072" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></AdminPage>

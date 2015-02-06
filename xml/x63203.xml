@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x63203" Name="Fax: Send a fax with Outlook" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Fax: Send a fax with Outlook</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">BYUI Personal Fax: Send a fax with Outlook</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<h1 align="center" style="text-align: left;">How do I send a fax in Outlook?</h1>
+<p><strong>Note:</strong> In order to send or receive a fax in Outlook, you must first have a Personal Fax Number. To request a number <a href="https://byui.qualtrics.com/SE/?SID=SV_9EQfrFfm2qFCr89">click here</a> to fill out the Personal Fax Number Request form.</p>
+<ol start="1">
+<li><span style="font-size: 11pt; line-height: 1.4em;">Open a new e-mail message in Outlook</span><span style="font-size: 11pt; line-height: 1.4em;">.</span></li>
+</ol><ol start="1"><ol start="1">
+<li>The fax is addressed using the <strong>To...</strong>line of the email message.&nbsp;<ol>
+<li>Simply type <strong>[fax:8</strong> followed by the fax number.</li>
+<li>If you are using a <strong>calling card</strong> append that to the end of the number.</li>
+<li>End the address with another bracket <strong>]</strong>.<ol>
+<li>Examples:&nbsp;<ol>
+<li>Campus: <strong>[fax:8</strong>4966511<strong>]</strong></li>
+<li>Off Campus (Local): &nbsp;<strong>[fax:8</strong>3561234<strong>]</strong></li>
+<li>Off Campus (Toll-Free):<strong> [fax:8</strong>18005281234<strong>]</strong></li>
+<li>Off Campus (Calling Card): <strong>[fax:8</strong>18011234567<strong>12345678]</strong></li>
+<li>Off Campus (Calling Card - International): <strong>[fax:8</strong>011223344556677<strong>12345678]</strong></li>
+</ol></li>
+</ol></li>
+</ol></li>
+<li>The <strong>To, From, Subject</strong>, and message <strong>body</strong> of the email message appear on the cover page of the fax. Fill in this information if you desire it to appear on the cover letter.</li>
+</ol></ol>
+<p><br />[x50160]</p>
+<ol start="1"><ol start="1">
+<li>Attach the document you would like to fax by clicking on the <strong>Insert</strong> menu and choosing <strong>File...</strong> or clicking the paper clip icon. <br /><br />Note: Attachments appear as subsequent pages behind the cover letter. <br />
+<div align="center"></div>
+</li>
+</ol></ol>
+<p><img height="275" src="Images/helpdesk/email/Send Fax from outlook/fax2.jpg" width="523" /><br /><br /></p>
+<ol start="1">
+<li>Click <strong>Send</strong>.</li>
+</ol>
+<p></p>
+<p>If your fax is not delivered successfully, you will receive a notification by e-mail.</p>
+<p>To send a test fax use the HP FaxBack Test system by dialing&nbsp;<strong>[fax:8</strong>18884732963<strong>]</strong></p>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="true" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Component="x50160" Name="ContentSnippet" readonly="false" hidden="false" required="false" CompTypes="ContentSnippet" Expanded="false"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x35726" CompTypes="SiteControl" Expanded="false"/></Content>

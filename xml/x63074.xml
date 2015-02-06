@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x63074" Name="Insurance Hold Tutorials" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Insurance Hold Tutorials</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Insurance Hold Tutorials</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<link href="Documents/health-center/topper.css" rel="stylesheet" />
+<link href="Documents/health-center/layout.css" rel="stylesheet" />
+<style><!--
+   body #maincontent #videoQuestions {
+      margin-top: 150px;
+   }
+
+   body #videoWindow h4 {
+     border-bottom: 1px solid #31859C;
+   }
+
+   body #content_zone .titlehead {    
+      border-bottom: solid thin #31859C;
+   }
+
+   body #content_zone .comment {    
+      color: #31859C;
+      font-weight: bold;
+   }
+
+   body #content_zone #maincontent #frame .icons {
+      background-position: -300px  -300px;
+   }
+   
+   body #content_zone #setwidth{
+      width: 100%;
+      margin-top: 100px;
+   }
+--></style>
+<script type="text/Javascript">
+      function startUp(i) {
+        var questions = document.getElementById("videoQuestions").children;
+        var links = document.getElementById("links").children;
+
+        var title = questions[i].innerHTML;
+        title = title.slice(0, title.indexOf("<"));
+
+        if (i < questions.length) {
+          questions[i].onclick = function() { showVideo(links[i - 1].innerHTML, title); };
+          i++;
+
+          startUp(i);
+        }
+      }
+
+      function showVideo(video, title) {
+        var background = document.getElementById("background");
+        var videoWindow = document.getElementById("videoWindow");
+
+        background.style.display = "block";
+        videoWindow.style.display = "block";
+
+        var videoFrame = document.getElementById("videoFrame");
+        var videoTitle = document.getElementById("videoTitle");
+        
+        videoFrame.src = video;
+        videoTitle.innerHTML = title;
+      }
+
+      function closeVideo() {
+        var background = document.getElementById("background");
+        var videoWindow = document.getElementById("videoWindow");
+        var videoFrame = document.getElementById("videoFrame");
+        
+        background.style.display = "none";
+        videoWindow.style.display = "none";
+        videoFrame.src = "";
+      }
+</script>
+<div id="content_zone">
+<div id="nav"><a href="x27790.xml">
+<div class="title">Student Health Center</div>
+</a> <iframe class="items" frameborder="0" scrolling="auto" src="Documents/health-center/links.html"></iframe></div>
+<div id="maincontent">
+<div id="topper">
+<div class="titlehead">Insurance Hold Tutorials</div>
+<div id="frame">
+<div class="icons"></div>
+<div class="shadow"></div>
+</div>
+</div>
+<div id="topsec">
+<p>These are questions about student insurance at BYU-Idaho. Click a question to watch the video response.</p>
+<p>For best results watch the videos at 720p.</p>
+<div class="clear"></div>
+<!-- The following list is the questions and the video thumbnail.  This is what the user actually sees --></div>
+<div id="setwidth">
+<ul id="videoQuestions">
+<li>What is TB?
+<div class="insurvideo insur1"></div>
+</li>
+<li>What is a TB Test?
+<div class="insurvideo insur2"></div>
+</li>
+<li>Who needs a TB Test?
+<div class="insurvideo insur3"></div>
+</li>
+<li>Why do I need a test if I served a mission in the United States?
+<div class="insurvideo insur4"></div>
+</li>
+<li>How do I submit my test results?
+<div class="insurvideo insur5"></div>
+</li>
+<li>What if I am taking online classes?
+<div class="insurvideo insur6"></div>
+</li>
+<li>Where is the Student Health Center?
+<div class="insurvideo insur7"></div>
+</li>
+<li>What if I still have questions?
+<div class="insurvideo insur8"></div>
+</li>
+</ul>
+<!-- This list are the actual links to embed the videos into the page. --><!-- Each item in this list corresponds with an item in the previous list.  Both lists are in the same order, i.e. the first link in this list corresponds with the first item in the previous list, the second link in this list with the second item in the previous list, etc. --><!-- When adding a new clip, just copy/paste one of these items and replace everything after embed/ and before ?rel=0 with the unintelligible part of the video's URL, for example in http://youtu.be/feDPJGzRXEM copy feDPJGzRXEM. --> 
+<ul id="links">
+<li>http://www.youtube.com/embed/VoGt0pwX0Xg?rel=0</li>
+<li>http://www.youtube.com/embed/GQtUflmHcQY?rel=0</li>
+<li>http://www.youtube.com/embed/1Zk7fnr80rw?rel=0</li>
+<li>http://www.youtube.com/embed/EhOE27xVnRg?rel=0</li>
+<li>http://www.youtube.com/embed/BkI3mI3Z674?rel=0</li>
+<li>http://www.youtube.com/embed/D1DTbT-iXAk?rel=0</li>
+<li>http://www.youtube.com/embed/aLhQobqtraQ?rel=0</li>
+<li>http://www.youtube.com/embed/feDPJGzRXEM?rel=0</li>
+</ul>
+<div id="background"></div>
+<div id="videoWindow">
+<h4 id="videoTitle">This is the title of the Video</h4>
+<p onclick="closeVideo()">X</p>
+<iframe frameborder="0" height="480" id="videoFrame" scrolling="auto" src="http://www.youtube.com/embed/VmuNjnkGwSc?rel=0" width="640"></iframe></div>
+</div>
+<iframe frameborder="0" id="footer" scrolling="no" src="http://www.byui.edu/Documents/health-center/footer.html"></iframe></div>
+</div>
+<script type="text/Javascript">
+      var isIE = (navigator.appName == "Microsoft Internet Explorer");
+
+      startUp(0);
+</script>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="Component" Name="xPower" readonly="false" hidden="false" required="false" Component="" CompTypes=""/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x28441" CompTypes="SiteControl"/></Content>

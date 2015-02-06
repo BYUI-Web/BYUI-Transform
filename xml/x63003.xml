@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<Content ID="x63003" Name="Exercise" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Exercise</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Exercise</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p><link href="Documents/health-center/wellness/well_main.css" rel="stylesheet" type="text/css" /></p>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+<script src="Documents/health-center/faqs1.js" type="text/javascript"></script>
+<div id="wellness">
+<div id="header">
+<div class="icon"></div>
+Health Center Wellness</div>
+<div id="wholebody"><iframe frameborder="0" height="240" id="mynav" scrolling="no" src="Documents/health-center/wellness/well_nav.html" width="350"></iframe>
+<div id="maincontent">
+<div id="subheader">Exercise<span>Health Center Wellness</span></div>
+<br />
+<p>Exercise is essential to human health and well-being. As we strive to gain control of our lives and achieve optimal health, we must be educated in the three aspects of physical health and exercise.</p>
+<h2>What is Exercise?</h2>
+<p>Medical dictionaries define exercise as, &ldquo;physical activity that is planned, structured, and repetitive for the purpose of conditioning any part of the body.&rdquo; Exercise is used to improve health, maintain fitness, and assist in the progression of physical rehabilitation.</p>
+<h2>Recommended Exercise Guidelines for Adults (ages 18-60):</h2>
+<ul>
+<li><span class="styled">Cardiovascular exercise:</span>150 minutes of moderate intensity exercise
+<ul>
+<li>20-60 minutes, 3-5 days a week</li>
+<li>Minimum of 20 minutes with an elevated heart rate reaching 60% to 80% of maximal heart rate (220-age)</li>
+</ul>
+</li>
+<li><span class="styled">Strength Training:</span>2-3 times a week for 20 minutes,
+<ul>
+<li>Free weights, body weight exercises, etc.</li>
+</ul>
+</li>
+<li><span class="styled">Flexibility (stretching):</span>3 times a week for 10 minutes
+<ul>
+<li>Hold each stretch for 30 seconds</li>
+</ul>
+</li>
+</ul>
+<h2>Benefits of Exercise:</h2>
+<ul>
+<li>Improves heart health by increasing circulation and lowing resting heart rate</li>
+<li>Releases endorphins which helps to reduce stress, and better maintain overall mental health</li>
+<li>Improves blood pressure and reduces your risk of developing hypertension</li>
+<li>Helps to build muscle and bone mass which reduces the risk of osteoporosis</li>
+<li>Helps to improve balance and flexibility, which prevents falls and strains</li>
+<li>Helps you to engage in more restful sleep</li>
+</ul>
+<h2>How to Get Started?</h2>
+<ul>
+<li>Do not start with high intensity exercises; rather, start simple and within your current fitness level. <br /> Also, perform exercises that challenge you without causing pain or discomfort.</li>
+<li>Resources to Utilize:
+<ul>
+<li>The Fitness Center (located in the old auxiliary gym in the Hart building) offers free fitness trainers to assist you with your goals</li>
+<li>The Wellness Center (located in the Hart building room 142) offers full physical assessments to establish a baseline and track your fitness progress</li>
+<li>For further information or questions, please contact Wellness Coordinator @ <a href="mailto:healthcenterwellness@byui.edu">healthcenterwellness@byui.edu</a></li>
+</ul>
+</li>
+</ul>
+<p>Reviewed and approved by Doctor Bradbury, September 2012</p>
+<a href="x43026.xml" target="_blank"><img class="print" src="Images/health-center/print.png" /> Printer Friendly Version</a>
+<div class="clear"></div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<script src="Documents/health-center/faqs2.js" type="text/javascript"></script>
+<p><iframe frameborder="0" height="240" id="footer" scrolling="no" src="http://www.byui.edu/Documents/health-center/footer.html" width="320"></iframe></p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x28441" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

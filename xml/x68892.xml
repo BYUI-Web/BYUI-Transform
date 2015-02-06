@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.82 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x68892" Name="404 Error" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">404 Error: Page Not Found</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">404 Error for users tring to reach a non-existent or moved web page</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<h1>The page you are looking for is not here.</h1>
+<p>&nbsp;</p>
+<p>May we recommend that you...?</p>
+<!--Search Box-->
+<div id="search" style="width: 27%; margin-right: 1%; padding: 2%; float: left;">
+<h2 style="border-bottom: solid thin black;"><img alt="image of magnifying glass" height="27" src="Images/Internal_Use/system/search_icon.gif" style="vertical-align: bottom; margin-right: .5em;" width="27" />Search</h2>
+<form action="http://search.byui.edu/search" id="search_form" method="get" style="margin-top: 5px;"><input class="header_search_box" id="input_1" name="q" style="top: 0px; margin-right: 5px; width: 100%;" type="text" /><input type="submit" value="Search" /><input name="site" type="hidden" value="default_collection" /><input name="client" type="hidden" value="current_byui_frontend" /><input name="output" type="hidden" value="xml_no_dtd" /><input name="proxystylesheet" type="hidden" value="current_byui_frontend" /><input name="proxyreload" type="hidden" value="0" /></form></div>
+<!--Recommended Links-->
+<div id="recommended_links" style="width: 27%; margin-right: 1%; padding: 2%; float: left; borsder: thin solid black;">
+<h2 style="border-bottom: solid thin black;"><img alt="computer mouse pointer" height="27" src="Images/Internal_Use/system/explore_icon.gif" style="vertical-align: bottom; margin-right: .5em;" width="27" />Explore</h2>
+<ul style="margin-left: 0px;">
+<li><a href="x128.xml" title="Site index of major pages of the university">Site Map</a></li>
+<li><a href="x5425.xml" title="Listing of all colleges and departments">Colleges &amp; Departments</a></li>
+<li><a href="x285" title="Listing of all non-academic departments and offices"></a><a href="x285.xml">Administrative Offices</a></li>
+<li>or try the links in the side navigation bar.</li>
+</ul>
+</div>
+<!--AskBYUI-->
+<div id="askbyui" style="width: 27%; margin-right: 1%; padding: 2%; float: left;">
+<h2 style="border-bottom: solid thin black;"><img alt="two quote bubbles" height="27" src="Images/Internal_Use/system/chat_icon.gif" style="vertical-align: bottom; margin-right: .5em;" width="27" /><em>Ask</em>BYUI</h2>
+<p><a href="http://www.byui.edu/ask/live-chat" title="Launches a live chat session with the campus operator.">Launch <em>Ask</em>BYUI (Live Chat</a>)</p>
+<p style="padding-left: 30px;">AskBYUI is now available from 8:00am to 7:00pm, MST Monday - Friday and from 10:00am to 2:00pm on Saturday. Outside of that time, you may leave a message and we will contact you later.</p>
+<p style="padding-left: 30px;">For technical questions call the Help Desk at extension 9000. We are always open except on Sunday from 2:00am to 6:00pm.</p>
+<p style="padding-left: 30px;"><a href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=Help%20Desk">Help Desk Live Chat</a></p>
+</div>
+<!--Help Text-->
+<div id="help_text" style="float: left; width: 100%;">
+<h2>What happened?</h2>
+<p>Many things may have gone wrong.&nbsp;The page may not exist, or it has been deleted, or moved.</p>
+<p>If you clicked on a link, the author of that page may have made a mistake.</p>
+<p>If you typed in an address, check for typing errors.</p>
+<!--Report the Problem-->
+<h2>Would you like to report the problem?</h2>
+<p>Our servers track these errors, but that doesn't always help us fix them. If you feel that this is unacceptable, please&nbsp;<a href="x34827.xml" title="Web page error submission (opens new window)" target="_blank">report the broken address</a> and include any helpful information that you can.</p>
+</div>
+<script type="text/javascript">
+s.pageName="404:"+document.location
+s.server=""
+s.channel = ""
+s.pageType="errorPage"
+s.prop1=""
+s.prop2=""
+s.events=""
+s.eVar1=""
+s.eVar2=""
+var s_code=s.t();if(s_code)document.write(s_code)
+</script>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="true"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">true</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x85" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x48824" Name="accordion.js" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">custom</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">custom</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">$(document).ready(function(){
+	$(".accordion :header").next().slideToggle(1); 	// collapses accordion (starts out fully expanded)
+	$(".accordion :header").click(function(){ $(this).next().slideToggle("normal")}); // every header click will toggle child content
+	$(".expand").click(function(){ $(".accordion *").slideDown("normal") }); // show all functionality
+	$(".collapse").click(function(){ $(".accordion :header").next().slideUp("normal") }); // hide all functionality
+	$(".accordion li :header a").parent().parent().css({"background-image":"none"}); // removes dropdown decoration from items that are actual links
+	$(".accordion &gt; li:last &gt; h3").css({"height":"14px"}); // fixes background-color overflow on last main accordion item
+});
+</ESContent></EmptyShell>

@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.68 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x63235" Name="Outlook Live" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Student Email Information</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">BYUI Student Email is hosted by Microsoft Outlook Live</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<div>
+<p><span style="color: #3e77b5; font-family: Arial, Helvetica, sans-serif; font-size: 18px; line-height: 18px;">Student E-mail</span></p>
+<hr size="2" style="color: #666666; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 18px; padding: 0px; margin: 0px;" width="100%" />
+<p style="line-height: 18px; color: #666666; font-family: Arial, Helvetica, sans-serif; font-size: 12px; padding: 0px; margin: 0px;">BYU-I  now uses Outlook Live for student e-mail. Instructions below detail how to setup Outlook live, as well as directions to synchronize other mail applications with your Outlook Live account.</p>
+<p style="line-height: 18px; color: #666666; font-family: Arial, Helvetica, sans-serif; font-size: 12px; padding: 0px; margin: 0px;"> </p>
+<h1 style="margin-top: 0.05em; margin-right: 0px; margin-bottom: 0.05em; margin-left: 0px; padding-top: 6px; padding-right: 0px; padding-bottom: 6px; padding-left: 0px; color: #3e77b5; font: normal normal normal 18px/18px Arial, Helvetica, sans-serif; font-family: Arial, Helvetica, sans-serif; line-height: 18px;">Integrated Chat</h1>
+<hr size="2" style="color: #666666; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 18px; padding: 0px; margin: 0px;" width="100%" />
+<p style="line-height: 18px; color: #666666; font-family: Arial, Helvetica, sans-serif; font-size: 12px; padding: 0px; margin: 0px;">Students using compatible browsers have access to chat right from their mailboxes. Click "Integrated Chat" in the left panel above for details.</p>
+<p style="line-height: 18px; color: #666666; font-family: Arial, Helvetica, sans-serif; font-size: 12px; padding: 0px; margin: 0px;"> </p>
+<p style="line-height: 18px; color: #666666; font-family: Arial, Helvetica, sans-serif; font-size: 12px; padding: 0px; margin: 0px;"><img border="0" src="http://www.byui.edu/Outlooklive/loginPics/EmailTab.jpg" style="padding: 0px; margin: 0px;" /></p>
+<p style="line-height: 18px; color: #666666; font-family: Arial, Helvetica, sans-serif; font-size: 12px; padding: 0px; margin: 0px;"> </p>
+<p style="line-height: 18px; color: #666666; font-family: Arial, Helvetica, sans-serif; font-size: 12px; padding: 0px; margin: 0px;">If you are accessing your account for the first time, you will be promted to select a time zone. We reccommend that you choose the time zone where you are primarily attending school. For most students this will be Rexburg, Idaho (Mountain Time GMT -7:00)</p>
+<p style="line-height: 18px; color: #666666; font-family: Arial, Helvetica, sans-serif; font-size: 12px; padding: 0px; margin: 0px;"><img border="0" src="http://www.byui.edu/Outlooklive/loginPics/FreshnessSeal.jpg" style="padding: 0px; margin: 0px;" /></p>
+<p style="line-height: 18px; color: #666666; font-family: Arial, Helvetica, sans-serif; font-size: 12px; padding: 0px; margin: 0px;"> </p>
+<p style="line-height: 18px; color: #666666; font-family: Arial, Helvetica, sans-serif; font-size: 12px; padding: 0px; margin: 0px;">If you currently use another e-mail application to access your university e-mail, you will need to change your settings so that your e-mail application picks up messages from your new BYU-Idaho e-mail account.</p>
+<p style="line-height: 18px; color: #666666; font-family: Arial, Helvetica, sans-serif; font-size: 12px; padding: 0px; margin: 0px;"> </p>
+<p style="line-height: 18px; color: #666666; font-family: Arial, Helvetica, sans-serif; font-size: 12px; padding: 0px; margin: 0px;"><em style="padding: 0px; margin: 0px;">*NOTE: You will need to wait until your e-mail account has been fully migrated to Outlook Live before synchronizing your new account with another e-mail application.</em></p>
+<p style="line-height: 18px; color: #666666; font-family: Arial, Helvetica, sans-serif; font-size: 12px; padding: 0px; margin: 0px;"><em style="padding: 0px; margin: 0px;"> </em></p>
+<p style="line-height: 18px; color: #666666; font-family: Arial, Helvetica, sans-serif; font-size: 12px; padding: 0px; margin: 0px;">If you prefer to use <a href="http://www.byui.edu/Outlooklive/connect2outlook.htm" style="color: #00254a; padding: 0px; margin: 0px;" target="_self">other e-mail applications </a>such as Outlook Express, Windows Mail, Mozilla Thunderbird, Entourage, or Mac Mail rather than the university's e-mail portal, then click a link above to find out how to synchronize your preferred application with your new BYU-Idaho e-mail account. Otherwise, continue to access your new BYU-Idaho e-mail account by clicking on the e-mail tab located within my.byui.edu. You can also refer to <a href="http://help.outlook.com/en-us/140/dd936216.aspx" style="color: #00254a; padding: 0px; margin: 0px;" target="_self">Microsoft's support site</a> for e-mail setup for all of the above programs and cell phone email setup too.</p>
+<p style="line-height: 18px; color: #666666; font-family: Arial, Helvetica, sans-serif; font-size: 12px; padding: 0px; margin: 0px;"> </p>
+<p style="line-height: 18px; color: #666666; font-family: Arial, Helvetica, sans-serif; font-size: 12px; padding: 0px; margin: 0px;">In addition, you will now be able to access your e-mail account via certain <a href="http://www.byui.edu/Outlooklive/OutlookLiveMobile.htm#Settings" style="color: #00254a; padding: 0px; margin: 0px;" target="_self">Mobile Phones</a>.</p>
+<p style="line-height: 18px; color: #666666; font-family: Arial, Helvetica, sans-serif; font-size: 12px; padding: 0px; margin: 0px;"> </p>
+<p style="line-height: 18px; color: #666666; font-family: Arial, Helvetica, sans-serif; font-size: 12px; padding: 0px; margin: 0px;">You need to keep in mind the following rules for password:</p>
+<p style="line-height: 18px; color: #666666; font-family: Arial, Helvetica, sans-serif; font-size: 12px; padding: 0px; margin: 0px;">The password can have a maximum length of 16 characters.<br />The password is case-sensitive.<br />The password can contain uppercase letters and lowercase letters.<br />The password can contain numbers.<br />The  password can contain the following ASCII text characters: ' ~ ! @ # $ %  ^ &amp; * ( ) _ + - = { } | [ ] \ : " ; ' &lt; &gt; ? , . /<br />Password restrictions<br />The password can't contain any of the following items:<br />Spaces<br />Non-English characters<br />The  account name part of the e-mail address. For example, if the e-mail  address is user@contoso.com, the password can't contain user. This  restriction isn't case-sensitive. Therefore, USER or User can't be used  in the password for user@contoso.com.</p>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td>
+<p>In early June 2012, Windows Live rolled out enhanced security requirements   impacting Live@edu end users.  <br /> <br /> The enhanced security requirements include two primary adjustments:</p>
+</td>
+</tr>
+<tr>
+<td>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td valign="top" width="20">
+<p>•</p>
+</td>
+<td valign="top">
+<p>Users are required     to have secondary authentication for the Live@edu account</p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="20">
+<p>•</p>
+</td>
+<td valign="top">
+<p>Users may be     prompted to change passwords that do not meet standard security thresholds</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<p>The secondary   authentication requirements are either an alternate e-mail address, phone   number or trusted PC. Users will be prompted for enhanced security at sign in   to any Windows Live service. Users will not be prompted if using Microsoft   Office Outlook or a mobile device. Read about <a href="http://click.email.microsoftonline.com/?qs=95b057194df522bc4988d14addef88f5f4a41177ff044a4b3d1bf83f894c644678d2fcc32fbedc7c" title="Secondary authentication requirements">secondary authentication   requirements</a>. In certain situations, <strong>an end user may be prompted to change their password   if it is not a strong password </strong>. A strong password contains   7-16 characters, does not include common words or names, and combines   uppercase letters, lowercase letters, numbers and symbols. Live@edu <strong>recommends that end users have a   strong password</strong>. Read the latest <a href="http://click.email.microsoftonline.com/?qs=95b057194df522bcebbebbe11d2a620a6d6002b8b62789b14220b1806b160fd7e345b8090068d749" title="Microsoft Security article">Microsoft Security article</a> for more   information on validating and creating strong passwords.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="line-height: 18px; color: #666666; font-family: Arial, Helvetica, sans-serif; font-size: 12px; padding: 0px; margin: 0px;"> </p>
+</div>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x35726" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

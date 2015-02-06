@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x40120" Name="Winter Start (31+)" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Registration Schedule (Age 31+ Program; started Pathway in January)</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Registration for Pathway students who started in the winter semester and are over 31 years old</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<p>Find which courses to register for using the chart below. You may only register for one semester at a time.</p>
+<table border="0" dir="ltr" frame="border" rules="all" style="width: 764px; height: 216px; border: 0pt solid #000000;">
+<tbody>
+<tr>
+<td>
+<h3></h3>
+</td>
+<td>
+<h2>1st Semester</h2>
+</td>
+<td>
+<h2>2nd Semester</h2>
+</td>
+<td>
+<h2>3rd Semester</h2>
+</td>
+<td>
+<h2>Matriculate</h2>
+</td>
+</tr>
+<tr>
+<td>
+<h2>Pathway Course</h2>
+</td>
+<td>
+<h3 style="text-indent: .25in; mso-list: l0 level1 lfo1;"><strong style="color: #939ba1; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; line-height: 12px; text-align: left; text-indent: 0px;">GS 120</strong><span style="color: #939ba1; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; line-height: 12px; text-align: left; text-indent: 0px;">&nbsp;&mdash;Life Skills &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(BYU-Idaho)&nbsp;</span></h3>
+</td>
+<td>
+<h3 style="text-indent: 0.25in;"></h3>
+<strong>ENG 106 </strong>&mdash; Basic Writing (BYU-Idaho)</td>
+<td><strong>MATH100G</strong> &mdash;&nbsp; Personal Finance (BYU-Idaho)</td>
+<td><a href="x40452.xml">Click here</a></td>
+</tr>
+<tr>
+<td>
+<h2>Religion Course</h2>
+</td>
+<td>
+<h3 style="text-indent: .25in; mso-list: l0 level1 lfo1;"><strong style="color: #939ba1; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; line-height: 12px; text-align: left;"><strong>FDREL 121</strong>&nbsp;</strong><span style="color: #939ba1; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; line-height: 12px; text-align: left;">&mdash; Book of Mormon (BYU-Idaho)</span></h3>
+</td>
+<td><strong><strong>FDREL 333</strong>&nbsp;</strong>&mdash; Teachings of the Living Prophets (BYU-Idaho)&nbsp;</td>
+<td>&nbsp;<strong><strong>FDREL 122</strong>&nbsp;</strong>&mdash; Book of Mormon (BYU-Idaho)</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><a href="x30317.xml">Register for BYU-Idaho courses</a><br /><br />(Students may repeat a course during Academic Start to improve their grade. Keep in mind that students can only repeat four courses while attending BYU-Idaho. If you would like to repeat a course during Academic Start, talk to the <a href="x28630.xml">Online Support Center</a>)</p>
+<h3 style="text-indent: .25in; mso-list: l0 level1 lfo1;"></h3>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" List=""><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="x18360" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" CompTypes="ContentSnippet" Expanded="false"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x91759" CompTypes="SiteControl" Expanded="false"/></Content>

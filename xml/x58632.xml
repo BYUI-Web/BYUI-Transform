@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content ID="x58632" Name="jquerytestdeleteme" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">fgjlkadf</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">ljflkseir</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<!-- open a script tag anywhere (above your html would probably be easiest) -->
+<script type="text/javascript">
+	//insert the wrapper	
+	window.onload = function(){
+		//You may choose to insert document.ready if you want
+		$(document).ready(function(){
+			//put in whatever code you want
+			$("#hide").click(function(){
+			    $("p").hide();
+			});
+			$("#show").click(function(){
+			    $("p").show();
+			});
+		});
+		alert("JavaScript test!");
+	}
+</script>
+<!-- You will see that the jquery successfully interacts with the html on the page, 	whether it is in an optional side panel, or the main content, everything on the  	page is visible to the jQuery. -->
+<p>Hide me! Then Show me!</p>
+<button id="hide">Hide</button> <button id="show">Show</button> <!-- ****  apply only once at the head of content *** -->
+<link href="prebuilt/stylenew/css/OpenClose.css" media="screen, projection" rel="stylesheet" type="text/css" />
+<!-- ****  apply only once  ************************* -->
+<div class="open_text">
+<div class="negMark"></div>
+<div>
+<p><strong>Enter Title Here</strong></p>
+</div>
+</div>
+<div class="close_text">
+<p>Enter Visible Text Here</p>
+</div>
+<!-- Visible text above **** Hidden text below -->
+<div class="open_text">
+<div class="posMark"></div>
+<div>
+<p><strong>Enter Title Here</strong></p>
+</div>
+</div>
+<div class="close_text hide">
+<p>Enter Hidden Text Here</p>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

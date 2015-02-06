@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<Content ID="x50385" Name="Presentation Practice Center" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Presentation Practice Center</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Presentation Practice Center</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<!-- insert inline CSS styles here -->
+<style type="text/css"><!--
+DIV.left_content {
+      width:440px; height:1216px; padding-left: 10px; padding-right:10px; float:left;
+   }
+   
+   DIV.right_content {
+      width:240px; height:1000px; padding-left:10px; text-align:center; float:right;
+   }
+   
+   DIV.right_content DIV.bottom_content {
+      text-align:center; padding-left:5px; padding-right:5px;
+   }
+   
+   DIV.left_content ul.pagination li {
+      float:left; visibility:hidden;
+   }
+   
+   DIV.right_content h1 {
+      color:black;
+   }
+   
+   DIV.right_content div.scheduling_appointment {
+      border: thin solid; padding:10px; padding-bottom:0px;
+   }
+   
+   DIV.right_content div.scheduling_appointment p {
+      font-size:13px;
+   }
+   
+   DIV.right_content div.scheduling_appointment li {
+      font-size:11px; text-align:left;
+   }
+   
+   DIV.bottom_content p {
+      color:#326ba9; font-style:italic;
+   }
+--></style>
+<!--contents-->
+<div class="left_content">
+<div id="slides">
+<div class="slides_container"><img height="190" src="https://dl.dropbox.com/u/7692238/PPC/Nathan.jpg" width="440" /> <img height="190" src="https://dl.dropbox.com/u/7692238/PPC/Speech.jpg" width="440" /> <img height="190" src="https://dl.dropbox.com/u/7692238/PPC/Speech2.jpg" width="440" /></div>
+</div>
+<h2 class="h2_1"><strong>What is the PPC?</strong></h2>
+<p><br /> The BYU-Idaho Presentations Practice Center is designed to help students and faculty develop, practice, and polish their presentations for any project, in any discipline-from class presentations to rehearsals for a performance.</p>
+<p><strong>Why should you come?</strong></p>
+<p>Preparation is the key to success with any speech or presentation. The Presentation Practice Center can help students and faculty with brainstorming ideas, outlining a presentation, slide design, and, of course, practice! Practice helps build confidence and polish your speech before the actual presenting day! Our center has many trained tutors that excel in presenting who want to help you achieve your best! The center offers a very calm atmosphere where you can feel at ease to express your ideas and practice your presentation.  The results of practice and of taking advantage of free, qualified tutoring can allow students and faculty to produce stunning and strong presentations.</p>
+<p><strong>Where can you find us?</strong></p>
+<p>The Presentation Practice Center is found in Smith 368 in Spencer Haacke's office.  We also do online tutoring appointments, so you don't always have to come to the center.</p>
+<p><strong>How does it work?</strong> <strong>On Campus Appointments</strong></p>
+<p>To sign up for an appointment, follow the instructions on the right. After you have signed up for a thirty minute appointment, you will meet your tutor in Smith 368 at the designated time. The tutor will log you into the system. After being logged in, you will go to a reserved classroom in the Smith to have your one-on-one appointment with the tutor.</p>
+<p><strong>Online Appointments</strong></p>
+<p>The student follows the same instructions for signing up for an appointment. Include in the "Notes" box, when confirming the appointment, that this is a "Skype/Online" appointment. The tutor will get on Skype at the time the student signed up for and conduct the appointment from there. The student can email a link to a video (posted on vimeo or youtube) to presentationpractice@byui.edu. A tutor will watch the video and email their feedback back to the student.&nbsp;&nbsp;</p>
+</div>
+<div class="right_content">
+<h1>Welcome!</h1>
+<hr />
+<p>To schedule an appointment, view the instructions below.</p>
+<p><strong>Contact: 496-3719</strong></p>
+<p><a href="mailto:presentationpractice@byui.edu">PresentationPractice@byui.edu<br /></a>&nbsp;</p>
+<div class="scheduling_appointment">
+<h3>Scheduling Appointment</h3>
+<span style="text-decoration: underline;"><a href="https://video.byui.edu/media/PPC+Tutor+Sign+Up/0_07t28nzv" target="_blank">Click Here for Video</a></span></div>
+<div class="scheduling_appointment"><br />Please be patient as it may take a few minutes to load up. &nbsp;</div>
+<div class="scheduling_appointment">&nbsp;
+<p><span style="font-size: 13px;">Must sign up for an appointment by MIDNIGHT the night before!</span></p>
+</div>
+<div class="bottom_content"><br /> <br />
+<p style="text-align: justify;">Mission Statement:&nbsp;</p>
+<p style="text-align: justify;">"Whether you are presenting a project or presenting yourself, the Presentation Practice Center will help you find the confidence and passion to be successful."</p>
+</div>
+</div>
+<!-- END html area -->
+<script type="text/javascript">
+//Ignore this function area
+  function loadScript(url, callback)
+  {
+    //load script tag at end of body
+    var body = document.getElementsByTagName('body')[0];
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = url;
+
+    // then bind the event to the callback function 
+    // there are several events for cross browser compatibility
+    script.onreadystatechange = callback;
+    script.onload = callback;
+
+
+    // fire the loading
+    body.appendChild(script);
+  }
+
+
+  //define inline script to be called inside the callback function parameter
+  var scriptCallback = function()
+  {
+    //insert any inline jquery you would like to run here, ie
+    //things that normally go between script tags, for example:
+    $('#slides').slides(
+    {
+      preload: true,
+      preloadImage: 'http://courses.byui.edu/AcademicSupport/pics/loading.gif',
+      play: 5000,
+      pause: 2500,
+      hoverPause: true
+    });
+  }
+
+
+  // Execute the entire function after page has finished 
+  // loading (script import and callback inline javascript)
+  window.onload = function()
+  { 
+    //put the path to your jquery-dependent script below here
+    loadScript("http://courses.byui.edu/AcademicSupport/js/slide/slides.min.jquery.js", scriptCallback);
+  }
+</script>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x25860" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

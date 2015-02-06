@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x17857" Name="Typography Example 2" Layout="general_content.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Typography Example 2</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Typography Example 2</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<div class="rt-article">
+<div class="rt-headline">
+<h1 class="rt-article-title" style="visibility: visible;"><span>HTML</span> Typography</h1>
+<div class="clear"></div>
+</div>
+<p>This tutorial page features all the typography available with the template, showcasing them in HTML form. If you wish to use the RokCandy format, which is WYSIWYG friendly, please go to <a href="../../free/quasar/typography/rokcandy-examples">the RokCandy Typography page</a>. 	<br /><br /> This page shows all of the typography styles and settings in action. If you would like to read more detailed information on inserting the included typography into your content, check out the <a href="../../free/quasar/component/content/63">Typography Tutorial.</a></p>
+<div class="component-header">
+<h2 class="componentheading" style="visibility: visible;"><span>This</span> is a ComponentHeading</h2>
+</div>
+<p>Praesent rutrum sapien ac felis. Phasellus elementum dolor quis turpis. Vestibulum nec mi vitae pede tincidunt nonummy. Vestibulum facilisis mollis neque. Sed orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed euismod magna a nibh.</p>
+<div class="contentheading">This is a Contentheading</div>
+<p>Proin ac nunc eu nunc condimentum accumsan. Phasellus odio justo, euismod vitae, egestas a, porttitor in, urna. Maecenas vitae mauris. Donec vestibulum, nunc eu varius pharetra, massa est sagittis odio, sit amet eleifend elit dolor id tortor.</p>
+<h1 style="visibility: visible;"><span>This</span> is a H1 Header</h1>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin sit amet odio quis sapien molestie ultrices. Vivamus quis lectus. Praesent eu mi. Curabitur pharetra leo sed nisl. Nunc vel nisi. Aliquam nulla. Etiam at est. Pellentesque arcu diam, tempus nec, sodales eu, ullamcorper quis, risus.</p>
+<h2 style="visibility: visible;"><span>This</span> is a H2 Header</h2>
+<p>Proin ac nunc eu nunc condimentum accumsan. Phasellus odio justo, euismod vitae, egestas a, porttitor in, urna. Maecenas vitae mauris. Donec vestibulum, nunc eu varius pharetra, massa est sagittis odio, sit amet eleifend elit dolor id tortor.</p>
+<h3 style="visibility: visible;"><span>This</span> is a H3 Header</h3>
+<p>Mauris euismod. In ac massa vitae quam tincidunt dapibus. Ut at tortor nec mi mattis blandit. Maecenas venenatis lorem at nulla. Phasellus a libero. Sed odio odio, eleifend dignissim, feugiat vel, tempor nec, ligula. Suspendisse lacinia convallis nulla.</p>
+<h4>This is a H4 Header</h4>
+<p>Vestibulum posuere, lacus aliquet pulvinar faucibus, tortor urna luctus diam, vitae ultrices ante magna non tellus. Donec nunc magna, posuere eget, aliquam in, vulputate in, lacus. Sed venenatis. Donec nec dolor vitae mauris dapibus ullamcorper. Etiam iaculis mollis tortor.</p>
+<h5>This is a H5 Header</h5>
+<p>Pellentesque vel enim urna, sit amet blandit ipsum. Maecenas quis sem sit amet nunc pretium mattis. Sed dapibus semper est, sed pretium erat sodales sed. Aenean hendrerit fringilla sem, et tincidunt libero ornare at. Sed venenatis pretium mauris sed vehicula.</p>
+<h3><a href="#blockquotes" name="blockquotes" style="visibility: visible;"><span>Blockquote</span> Example</a></h3>
+<blockquote>
+<p><strong>This is a blockquote, you will want to use the following formatting: &lt;blockquote&gt;&lt;p&gt;....&lt;/p&gt;&lt;/blockquote&gt;</strong>. Praesent rutrum sapien ac felis. Phasellus elementum dolor quis turpis. Vestibulum nec mi vitae pede tincidunt nonummy. Vestibulum facilisis mollis neque. Sed orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed euismod magna a nibh.</p>
+</blockquote>
+<h3><a href="#dropcap" name="dropcap" style="visibility: visible;"><span>DropCap</span> Styles</a></h3>
+<p class="dropcap"><span class="dropcap">P</span>Praesent rutrum sapien ac felis. Phasellus elementum dolor quis turpis. Vestibulum nec mi vitae pede tincidunt nonummy. Vestibulum facilisis mollis neque. Sed orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed euismod magna a nibh.<br /><br />You will need to use the following formatting: <strong>&lt;p class="dropcap"&gt;&lt;span class="<em style="font-weight: normal !important;">dropcap</em>"&gt;<em style="font-weight: normal !important;">P</em>&lt;/span&gt;&lt;/p&gt;</strong></p>
+<p><strong>Number Examples</strong></p>
+<p class="dropcap"><span class="dropcap">1</span>You will need to use the following formatting: <strong>&lt;p class="dropcap"&gt;&lt;span class="<em style="font-weight: normal !important;">dropcap</em>"&gt;<em style="font-weight: normal !important;">1</em>&lt;/span&gt;&lt;/p&gt;</strong></p>
+<p class="dropcap"><span class="dropcap">2</span>You will need to use the following formatting: <strong>&lt;p class="dropcap"&gt;&lt;span class="<em style="font-weight: normal !important;">dropcap</em>"&gt;<em style="font-weight: normal !important;">2</em>&lt;/span&gt;&lt;/p&gt;</strong></p>
+<p class="dropcap"><span class="dropcap">3</span>You will need to use the following formatting: <strong>&lt;p class="dropcap"&gt;&lt;span class="<em style="font-weight: normal !important;">dropcap</em>"&gt;<em style="font-weight: normal !important;">3</em>&lt;/span&gt;&lt;/p&gt;</strong></p>
+<h3><a href="#bullets" name="bullets" style="visibility: visible;"><span>List</span> Styles - Bullets</a></h3>
+<p>Below is a list with <em style="font-weight: normal !important;">bullets</em>.  To use this style create a list in the following format: <strong>&lt;ul class="</strong><em style="font-weight: normal !important;">class name</em><strong>"&gt;&lt;li&gt;....&lt;/li&gt;&lt;li&gt;....&lt;/li&gt;...&lt;/ul&gt;</strong></p>
+<ul class="bullet-1">
+<li>To use this style create a list in the following format: <strong>&lt;ul class="</strong><em style="font-weight: normal !important;">bullet-1</em><strong>"&gt;&lt;li&gt;....&lt;/li&gt;&lt;li&gt;....&lt;/li&gt;...&lt;/ul&gt;</strong>.</li>
+</ul>
+<ul class="bullet-2">
+<li>To use this style create a list in the following format: <strong>&lt;ul class="</strong><em style="font-weight: normal !important;">bullet-2</em><strong>"&gt;&lt;li&gt;....&lt;/li&gt;&lt;li&gt;....&lt;/li&gt;...&lt;/ul&gt;</strong>.</li>
+</ul>
+<ul class="bullet-3">
+<li>To use this style create a list in the following format: <strong>&lt;ul class="</strong><em style="font-weight: normal !important;">bullet-3</em><strong>"&gt;&lt;li&gt;....&lt;/li&gt;&lt;li&gt;....&lt;/li&gt;...&lt;/ul&gt;</strong>.</li>
+</ul>
+<ul class="bullet-4">
+<li>To use this style create a list in the following format: <strong>&lt;ul class="</strong><em style="font-weight: normal !important;">bullet-4</em><strong>"&gt;&lt;li&gt;....&lt;/li&gt;&lt;li&gt;....&lt;/li&gt;...&lt;/ul&gt;</strong>.</li>
+</ul>
+<h3><a href="#emphasis" name="emphasis" style="visibility: visible;"><span>Emphasis</span> Styles</a></h3>
+This is a emphasis tag that allows you to <em class="color">highlight words or phrases</em>. Use the following format: <strong>&lt;em class="<em style="font-weight: normal !important;">color</em>"&gt;...&lt;/em&gt;</strong><br /><br /> This is a emphasis tag that allows you to <em class="bold">highlight words or phrases</em>. Use the following format: <strong>&lt;em class="<em style="font-weight: normal !important;">bold</em>"&gt;...&lt;/em&gt;</strong><br /><br />
+<h3><a href="#insets" name="insets" style="visibility: visible;"><span>Inset</span> Styles</a></h3>
+<p>Praesent rutrum sapien ac felis. Phasellus elementum dolor quis turpis. Vestibulum nec mi vitae pede tincidunt nonummy. Vestibulum facilisis mollis neque. Sed orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<span class="inset-right"><span class="inset-right-title">Inset Right Title</span>You will need to use the following formatting: <strong>&lt;span class="inset-right"&gt;&lt;span class="inset-right-title"&gt;....&lt;/span&gt;<em style="font-weight: normal !important;">...some content...</em>&lt;/strong&gt;</strong></span>Vestibulum facilisis mollis neque. Sed orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed euismod magna a nibh.</p>
+<p>Praesent rutrum sapien ac felis. Phasellus elementum dolor quis turpis. Vestibulum nec mi vitae pede tincidunt nonummy. Vestibulum facilisis mollis neque. Sed orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<span class="inset-left"><span class="inset-left-title">Inset Left Title</span>You will need to use the following formatting: <strong>&lt;span class="inset-left"&gt;&lt;span class="inset-left-title"&gt;....&lt;/span&gt;<em style="font-weight: normal !important;">...some content...</em>&lt;/span&gt;</strong></span>Vestibulum facilisis mollis neque. Sed orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed euismod magna a nibh.</p>
+<p>Sed euismod magna a nibh. Praesent rutrum sapien ac felis. Phasellus elementum dolor quis turpis. Vestibulum nec mi vitae pede tincidunt nonummy. Praesent rutrum sapien ac felis. Phasellus elementum dolor quis turpis. Vestibulum nec mi vitae pede tincidunt nonummy. Vestibulum facilisis mollis neque. Sed orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Praesent rutrum sapien ac felis. Phasellus elementum dolor quis turpis. Vestibulum nec mi vitae pede tincidunt nonummy. Vestibulum facilisis mollis neque. Sed orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+<br />
+<h3><a href="#important" name="important" style="visibility: visible;"><span>Important</span> Emphasis Styles</a></h3>
+<div class="important"><span class="important-title">Sample Title</span> <span>This is a span that lets you place all of the content into a nice well formed section. You will need to use the following formatting: <strong>&lt;div class="<em style="font-weight: normal !important;">important</em>"&gt;&lt;span class="<em style="font-weight: normal !important;">important-title</em>"&gt;<em style="font-weight: normal !important;">Sample Title</em>&lt;/span&gt;<em style="font-weight: normal !important;">...some content...</em>&lt;/div&gt;</strong></span></div>
+<br />
+<h3><a href="#notice" name="notice" style="visibility: visible;"><span>Notice</span> Styles</a></h3>
+<div class="attention">
+<div class="typo-icon">This is a sample of the 'attention' style.  Use this style to denote very important information to your users. To use this use the following html: <strong>&lt;div class="attention"&gt;&lt;div class="typo-icon"&gt;....&lt;/div&gt;&lt;/div&gt;</strong></div>
+</div>
+<div class="notice">
+<div class="typo-icon">This is a sample of the 'notice' style.  Use this style to denote very important information to your users. To use this use the following html: <strong>&lt;div class="notice"&gt;&lt;div class="typo-icon"&gt;....&lt;/div&gt;&lt;/div&gt;</strong></div>
+</div>
+<div class="alert">
+<div class="typo-icon">This is a sample of the 'alert' style.  Use this style to denote very important information to your users. To use this use the following html: <strong>&lt;div class="alert"&gt;&lt;div class="typo-icon"&gt;....&lt;/div&gt;&lt;/div&gt;</strong></div>
+</div>
+<div class="download">
+<div class="typo-icon">This is a sample of the 'download' style.  Use this style to denote very important information to your users. To use this use the following html: <strong>&lt;div class="download"&gt;&lt;div class="typo-icon"&gt;....&lt;/div&gt;&lt;/div&gt;</strong></div>
+</div>
+<div class="approved">
+<div class="typo-icon">This is a sample of the 'approved' style.  Use this style to denote very important information to your users. To use this use the following html: <strong>&lt;div class="approved"&gt;&lt;div class="typo-icon"&gt;....&lt;/div&gt;&lt;/div&gt;</strong></div>
+</div>
+<div class="media">
+<div class="typo-icon">This is a sample of the 'media' style.  Use this style to denote very important information to your users. To use this use the following html: <strong>&lt;div class="media"&gt;&lt;div class="typo-icon"&gt;....&lt;/div&gt;&lt;/div&gt;</strong></div>
+</div>
+<div class="note">
+<div class="typo-icon">This is a sample of the 'note' style.  Use this style to denote very important information to your users. To use this use the following html: <strong>&lt;div class="note"&gt;&lt;div class="typo-icon"&gt;....&lt;/div&gt;&lt;/div&gt;</strong></div>
+</div>
+<div class="cart">
+<div class="typo-icon">This is a sample of the 'cart' style.  Use this style to denote very important information to your users. To use this use the following html: <strong>&lt;div class="cart"&gt;&lt;div class="typo-icon"&gt;....&lt;/div&gt;&lt;/div&gt;</strong></div>
+</div>
+<div class="camera">
+<div class="typo-icon">This is a sample of the 'camera' style.  Use this style to denote very important information to your users. To use this use the following html: <strong>&lt;div class="camera"&gt;&lt;div class="typo-icon"&gt;....&lt;/div&gt;&lt;/div&gt;</strong></div>
+</div>
+<div class="doc">
+<div class="typo-icon">This is a sample of the 'doc' style.  Use this style to denote very important information to your users. To use this use the following html: <strong>&lt;div class="doc"&gt;&lt;div class="typo-icon"&gt;....&lt;/div&gt;&lt;/div&gt;</strong></div>
+</div>
+<h3><a href="#pre-example" name="pre-example" style="visibility: visible;"><span>Pre</span> Example</a></h3>
+<pre>This is a sample <strong>&lt;pre&gt;...&lt;/pre&gt;</strong> tag:
+
+div.modulebox-black div.bx1 {
+  background: url(../images/black/box_bl.png) 0 100% no-repeat; 
+}
+
+div.modulebox-black div.bx2 {
+  background: url(../images/black/box_tr.png) 100% 0 no-repeat;
+}
+
+div.modulebox-black div.bx3 {
+  background: url(../images/black/box_tl.png) 0 0 no-repeat;
+  padding: 0;
+  margin: 0;
+}
+</pre>
+<div class="clear"></div>
+</div>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x9354" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

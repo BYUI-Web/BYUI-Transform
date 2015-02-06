@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<ColumnTextComponent ID="x68603" Name="Page Types Nav"><TextColumn type="dhtml" label="Column of Text" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+	#page_nav {margin-bottom: 15px;}
+	#page_nav img {float:left; margin-right: 5px;}
+	#page_nav h3 {font-size: 18px; margin:20px 0 7px; border-bottom: 1px solid;}
+	#page_nav ul {padding-left: 0; margin: 0;}
+	#page_nav li {margin-left: 25px; float: none; display: none;}
+	#page_nav a {font-size: 14px; margin-bottom: 0; line-height: 16px; text-decoration: none;}
+	#page_nav a:hover {text-decoration: underline;}
+
+.fade, .fade p {opacity: 0.7;}
+--></style>
+<!--  Use this style in the body copy area to choose what links to display.  .acdmevent, .acdmhome, .adminhome, .adminevent, .azindex, .audience, .home, .content, .contentfaq, .employee, .empindex, .eventdetail, .imggallery, .imgindex, .newsarchive, .newsartl, .newsindex, .newsfrnt, .policy, .policyindex, .rss {display: block !important;} -->
+<div id="page_nav"><img height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/header.png" width="20" />
+<h3>Page Types</h3>
+<ul>
+<li class="acdmevent"> <a href="x36450.xml">Academic Event</a></li>
+<li class="acdmhome"> <a href="x36449.xml">Academic Home</a></li>
+<li class="adminhome"> <a href="x36448.xml">Admin Home</a></li>
+<li class="adminevent"> <a href="x36447.xml">Admin Event Area</a></li>
+<li class="azindex"> <a href="x36446.xml">A-Z Index</a></li>
+<li class="audience"> <a class="fade" onclick="underConstruction3()">BYU-I Audience</a></li>
+<li class="home"> <a class="fade" onclick="underConstruction3()">BYU-I Home</a></li>
+<li class="content"> <a href="x36416.xml">Content</a></li>
+<li class="contentfaq"> <a class="fade" onclick="underConstruction3()">Content FAQ</a></li>
+<li class="employee"> <a href="x36418.xml">Employee</a></li>
+<li class="empindex"> <a href="x36419.xml">Employee Index</a></li>
+<li class="eventdetail"> <a href="x36420.xml">Event Detail</a></li>
+<li class="imggallery"> <a href="x36421.xml">Image Gallery</a></li>
+<li class="imgindex"> <a href="x36414.xml">Image Gallery Index</a></li>
+<li class="newsarchive"> <a href="x36408.xml">News Archive</a></li>
+<li class="newsartl"> <a href="x36407.xml">News Article</a></li>
+<li class="newsfrnt"> <a href="x36413.xml">News Front Page</a></li>
+<li class="policy"> <a href="x36412.xml">Policy</a></li>
+<li class="policyindex"> <a href="x36411.xml">Policy Index</a></li>
+<li class="rss"> <a class="fade" onclick="underConstruction3()">RSS Feed</a></li>
+</ul>
+</div>
+<!--
+<p>These links are for working pages.</p>
+<p> </p>
+<pre> 
+class = acdmevent      href = x36450.xml    Academic Event<br />
+class = acdmhome       href = x36449.xml    Academic Home<br />
+class = adminhome      href = x36448.xml    Admin Home<br />
+class = adminevent     href = x36447.xml    Admin Event Area<br />
+class = azindex        href = x36446.xml    A-Z Index<br />
+class = audience       href = x36445.xml    BYU-I Audience<br />
+class = home           href = x36415.xml    BYU-I Home<br />
+class = content        href = x36416.xml    Content<br />
+class = contentfaq     href = x36417.xml    Content FAQ<br />
+class = employee       href = x36418.xml    Employee<br />
+class = empindex       href = x36419.xml    Employee Index<br />
+class = eventdetail    href = x36420.xml    Event Detail<br />
+class = imggallery     href = x36421.xml    Image Gallery<br />
+class = imgindex       href = x36414.xml    Image Gallery Index<br />
+class = imgnav         href = x36410.xml    Image Gallery with Nav<br />
+class = newsarchive    href = x36408.xml    News Archive<br />
+class = newsartl       href = x36407.xml    News Article<br />
+class = newsfrnt       href = x36413.xml    News Front Page<br />
+class = policy         href = x36412.xml    Policy<br />
+class = policyindex    href = x36411.xml    Policy Index<br />
+class = rss            href = x41063.xml    RSS Feed
+</pre>
+-->
+<script type="text/javascript">
+function underConstruction3() {
+	alert ("We are sorry the training page you tried to access is under construction.");
+}
+</script>]]></TextColumn></ColumnTextComponent>

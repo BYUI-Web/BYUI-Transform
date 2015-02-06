@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<AdminPage ID="x58655" Name="Home/Private School" Layout="admin_office_home.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Home/Private School</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Home/Private School requirements for BYU-Idaho</Abstract><MainMesgTop type="boolean" label="Enable to move &quot;Main Message&quot; to top of page" readonly="false" required="false" hidden="false">false</MainMesgTop><IntroCopy type="dhtml" label="Main Message" readonly="false" hidden="false" required="false"><![CDATA[<p><img alt="BYU-Idaho Students" height="150" src="Images/Admin_Offices/Admissions/HomeSchool_Banner.jpg" title="BYU-Idaho Students" width="710" /></p>
+<p>Home school, private school, charter school, and public school diplomas are only accepted from schools accredited with the following accrediting organizations.</p>
+<ul>
+<li><span style="display: inline;">Middle States Association of Colleges and Schools Commission on Higher Education</span></li>
+<li><span style="display: inline;">New England Association of Schools and Colleges Commission on Higher Education</span></li>
+<li><span style="display: inline;">North Central Association of Colleges and Schools Commission of Higher Education</span></li>
+<li><span style="display: inline;">Northwest Commission on Colleges and Universities (NWCC)</span></li>
+<li><span style="display: inline;">Northwest Accreditation Commission (NWAC)</span></li>
+<li><span style="display: inline;">Southern Association of Colleges and Schools Commission on Colleges</span></li>
+<li><span style="display: inline;">Western Association of Schools and College Accrediting Commission for Senior Colleges and Universities</span></li>
+</ul>
+<p>If your program is not accredited with one of the above organizations, you will be required to submit one of the following in addition to your ACT or SAT scores for the academic portion of your admission review:</p>
+<ul>
+<li><span style="display: inline;">G.E.D. (more information at <a href="http://www.acenet.edu">www.acenet.edu</a>)</span></li>
+<li><span style="display: inline;">COMPASS test (more information at <a href="http://www.act.org/compass">www.act.org/compass</a>) </span></li>
+<li><span style="display: inline;">15 or more semester credits of accredited college/university study</span></li>
+</ul>
+<span style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;"><span style="line-height: normal;"> 
+<table border="0">
+<tbody>
+<tr>
+<th class="table" colspan="4" style="text-align: center;"><strong>Approved Secondary Test List with Minimum Scores</strong><strong></strong><strong></strong><strong></strong></th>
+</tr>
+<tr style="background-color: #f5f5f5;">
+<td style="background-color: #f5f5f5;"><strong>Test</strong></td>
+<td style="background-color: #f5f5f5;"><strong>Subject</strong></td>
+<td style="background-color: #f5f5f5;"><strong>Minimum Subscore</strong></td>
+<td style="background-color: #f5f5f5;"><strong>Minimum Overall Composite Score</strong></td>
+</tr>
+<tr>
+<td style="background-color: #ffffff;">COMPASS</td>
+<td class="tableRow" style="background-color: #ffffff;">Reading</td>
+<td style="background-color: #ffffff;">72</td>
+<td style="background-color: #ffffff;">None</td>
+</tr>
+<tr>
+<td style="background-color: #ffffff;"></td>
+<td style="background-color: #ffffff;">Algebra</td>
+<td style="background-color: #ffffff;">22</td>
+<td style="background-color: #ffffff;"></td>
+</tr>
+<tr>
+<td class="table" style="background-color: #f5f5f5;"><br /></td>
+<td style="background-color: #f5f5f5;">Writing</td>
+<td style="background-color: #f5f5f5;">450</td>
+<td style="background-color: #f5f5f5;">500</td>
+</tr>
+<tr>
+<td style="background-color: #f5f5f5;"></td>
+<td style="background-color: #f5f5f5;">Social Studies<br /></td>
+<td style="background-color: #f5f5f5;">450</td>
+<td style="background-color: #f5f5f5;"></td>
+</tr>
+<tr>
+<td style="background-color: #f5f5f5;">G.E.D</td>
+<td style="background-color: #f5f5f5;">Science</td>
+<td style="background-color: #f5f5f5;">450</td>
+<td style="background-color: #f5f5f5;"></td>
+</tr>
+<tr>
+<td style="background-color: #f5f5f5;"></td>
+<td style="background-color: #f5f5f5;">Reading<br /></td>
+<td style="background-color: #f5f5f5;">450</td>
+<td style="background-color: #f5f5f5;"></td>
+</tr>
+<tr>
+<td style="background-color: #f5f5f5;"></td>
+<td style="background-color: #f5f5f5;">Math</td>
+<td style="background-color: #f5f5f5;">450</td>
+<td style="background-color: #f5f5f5;"></td>
+</tr>
+</tbody>
+</table>
+</span></span>If 24 or more semester credits (36 quarter hours) have been earned by the application deadline, no ACT, SAT, or secondary test will be required. These applicants should apply as Transfer students with more than 24 credit hours (36 quarter hours)     earned.<br />]]></IntroCopy><xPower Type="GroupStart" GroupStart="" Name="CellGroup" label="Cells" readonly="false" hidden="false" required="false" Expanded="false"><numColumns type="enumeration" values="1 2 3 4 5" label="Select number of cell columns." readonly="false" hidden="false" required="true">3</numColumns><xPower Type="List" List="xpowercomponent_Cell" Name="CellList" label="Cell List" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"><xPower Type="Component" Component="" Name="Cell" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"/></xPower></xPower><xPower Type="List" List="xpowercomponent_BannerAd" Name="BannerAds" label="Rotating Ads (650x216px required)" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"><xPower Type="Component" Component="" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/></xPower><xPower Type="Navigation" StartPage="" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="" Query="" Name="DeptEvents" label="Define Your Events Folder" readonly="false" hidden="false" required="false" Expanded="false"/><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="QuickLinksGroup" label="Quick Links Group" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Component="" Name="QuickLinks" label="Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x17636" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></AdminPage>

@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x44555" Name="Parents-template" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Parents-template</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Parents-template</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+    #page{width: 710px; height: auto; min-height: 600px;}
+    #page #header{width: 710px; height: 265px;}
+    #page #content{width: 78%; height: auto; min-height: 300px; float: left; padding: 1%;}
+    #page #content p{padding-left: 5px;}
+
+    #page #buttons{width: 18%; height: auto; min-height: 300px; float: left; padding: 1%; text-align: center;}
+    #page #buttons div{width: 100px; height: 100px; margin-left: auto; margin-right: auto; margin-top: 10px; margin-bottom: 20px; background-repeat: no-repeat; background-size: 100% 100%;}
+    #page #buttons .one{background-image: url('Images/student-support/parents/Stay-connected.png');}
+    #page #buttons .two{background-image: url('Images/student-support/parents/Arrival-checklist.png');}
+    #page #buttons .three{background-image: url('Images/student-support/parents/important deadlines.png');}
+    
+    #page #buttons .one:hover{background-image: url('Images/student-support/parents/Stay-connected-dark.png');}
+    #page #buttons .two:hover{background-image: url('Images/student-support/parents/Arrival-checklist-dark.png');}
+    #page #buttons .three:hover{background-image: url('Images/student-support/parents/important deadlines dark.png');}
+--></style>
+<div id="page">
+<div id="header"><img src="Images/student-support/parents/parents_home.jpg" /></div>
+<div id="content">
+<h1>For BYUI Parents</h1>
+<p>Sending your son or daugther to college can be an exciting yet challenging time for you as a parent. We understand the importance of receiving timley and essential information you need to make this a good experience for both you and your daughter/son. The purpose of this site is to help you connect to the resources you need, stay informed, and better understand the spirit and mission of BYU-Idaho.</p>
+<p>Here are some links to information you might be interested in:</p>
+<ul>
+<li>
+<h2><a href="x28865.xml">Get Connected (Orientation)</a></h2>
+<div id="info">Parents of new students are invited to participate in Get                     Connected during the Move-in Day (the first day of Get Connected)                      prior to the start of school.<br /><br />We realize that not all parents are able to travel to Rexburg with their student.                     We are planning on streaming the BYU-Idaho Welcome with President and Sister                     Clark over the internet. Check back here for the link.</div>
+</li>
+<li>
+<h2><a href="x43420.xml">Stay Connected</a></h2>
+Sign up to receive text notifications and the parents' version of the  new student update which is e-mailed on a weekly basis from our office  to all admitted students who have accepted their offer. </li>
+<li>
+<h2><a href="#">Admitted Student Checklist</a></h2>
+We have a specialized checklist for every starting semester and student admissions type which was created to help guide you in your preparations to start school.</li>
+<li>
+<h2><a href="#">Important Deadlines</a></h2>
+These are some important and fun things happening in the next few months! </li>
+<li>
+<h2><a href="x30305.xml">Student Ambassadors</a></h2>
+Every admitted student is assigned a Student Ambassador,                       volunteers who help your son or daughter with any  questions they may have. </li>
+<br /> 
+</ul>
+</div>
+<div id="buttons"><strong>Quick Icons:</strong> <a href="x43420.xml">
+<div class="one"></div>
+</a> <a href="x43005.xml">
+<div class="two"></div>
+</a> <a href="x42919.xml">
+<div class="three"></div>
+</a></div>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x19075" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x62968" Name="Appointments" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Appointments</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Appointments at the BYU-Idaho Student Health Center</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<link href="Documents/health-center/topper.css" rel="stylesheet" /> <link href="Documents/health-center/css/layout.css" rel="stylesheet" />
+<style><!--
+body #content_zone .titlehead {
+      border-bottom: solid thin #CC2222;
+   }
+
+   body #content_zone #frame .icons {
+      background-position: -300px -600px;
+   }
+--></style>
+<div id="content_zone">
+<div id="topper">
+<div class="titlehead">Appointments</div>
+<div id="frame">
+<div class="icons"></div>
+<div class="shadow"></div>
+</div>
+</div>
+<div id="topsec">
+<div class="quote clear"><strong>The Student Health Center is not a contracted provider with any insurance company aside from the Deseret Mutual Student Insurance Plan. Therefore, the Student Health Center does not bill private insurance. If you have private insurance, you may be seen at the Student Health Center, but you will be responsible for the full cost of your visit. You may have an insurance form printed out that you can mail into your insurance company. They will reimburse you in accordance with their policy.</strong></div>
+</div>
+<div id="setwidth">
+<p>The Student Health Center can be very busy. Therefore, an appointment is necessary unless it is an emergency or an accident.</p>
+<h4>Who can be seen at the Student Health Center:</h4>
+<p>Traditional students, the spouse or dependent of a student, or those with student insurance.<strong>&nbsp;</strong></p>
+<h4>To Schedule an Appointment:</h4>
+<p>Call <strong>(208) 496-9330</strong> between 8 a.m. and 5 p.m. Monday through Friday. <strong>&nbsp;</strong></p>
+<p><strong><strong>NOTE: If a student is sick, THE PARENTS OR ROOMMATES OF THE STUDENT ARE NOT ALLOWED TO SCHEDULE AN APPOINTMENT.&nbsp; The student must schedule their own appointment with the Health Center.</strong> <br /></strong></p>
+<h4>Information Needed to Make an Appointment</h4>
+<p>When scheduling an appointment, the receptionist will ask the following questions:</p>
+<ul>
+<li>What is the general purpose for the visit?</li>
+<li>What phone number can we reach you at in the event of a change?</li>
+<li>What is your mailing address?</li>
+<li>Do you have student insurance?</li>
+<li>Is this your first visit?
+<ul style="margin-bottom: 0;">
+<li>If it is your first visit, extra time is allowed for you to complete paperwork before seeing a health care provider. <a href="x34769.xml">More Information</a></li>
+</ul>
+</li>
+<li>Are you a current student, the spouse of a current student, or do you have student insurance?
+<ul style="margin-bottom: 0;">
+<li>At the BYU-Idaho Health Center, we are authorized to see only these patients. We are not a health care provider for Medicare, Medicaid, or military insurance (Tricare, Triwest, and Champus). Beginning fall semester 2004, dependent children may also be seen.</li>
+<li>As of January 1, 2012, <strong>if you have the student insurance you must provide your insurance ID number</strong>.&nbsp; You can find it on your insurance card or call Deseret Mutual Benefits Administrators at 1-800 777-3622.</li>
+</ul>
+</li>
+<li>What is your I-number?</li>
+<li>What is your social security number?
+<ul style="margin-bottom: 0;">
+<li>If you have been in before, a social security number may also be requested to allow the office staff to find your medical chart and have it ready in order to facilitate check-in time.</li>
+</ul>
+</li>
+</ul>
+<p>Please bring your student ID card to the appointment.</p>
+<h4>Referrals</h4>
+<p>Referrals to outside doctors are made at the discretion of the Health Center provider. When seeking a referral, bring your insurance identification number with you to your appointment at the Health Center. Failure to present this number may result in a denial of coverage from the insurance company.</p>
+<p><a href="x37061.xml">FREQUENTLY ASKED QUESTIONS</a></p>
+</div>
+<iframe frameborder="0" height="240" id="footer" scrolling="no" src="Documents/health-center/footer.html" width="320"></iframe></div>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Component" readonly="false" hidden="false" required="false" Expanded="" List=""><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/><!--071613 xpowercomponent_Optional to xPower--></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x28441" CompTypes="SiteControl"/></Content>

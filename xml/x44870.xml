@@ -1,0 +1,240 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x44870" Name="Family Proclamation Tool" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Family Proclamation Tool</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Family Proclamation</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p><link href="core.css" rel="stylesheet" type="text/css" /> <link href="index.css" rel="stylesheet" type="text/css" /></p>
+<style type="text/css"><!--
+div.left
+{
+width:420px;
+float:left;
+padding:5px 0px 0px 40px;
+text-align: justify;
+}
+
+div.right
+{
+width:420px;
+float:right;
+padding:5px 40px 0px 0px;
+text-align: justify;
+}
+
+.tooltip {
+  border-bottom: 0px solid #18416b;
+  color: #284f7f; outline: none;
+  cursor: hand; text-decoration: none;
+  position: relative;
+}
+.tooltip span {
+  margin-left: -999em;
+  position: absolute;
+}
+
+
+.tooltip:hover span {
+  font-family: Calibri, Tahoma, Geneva, sans-serif;
+  position: absolute;
+  left: 1em;
+  top: 2em;
+  z-index: 100;
+  margin-left: 0;
+  width: 300px;
+  border-radius: 5px 5px;
+z-index: 100;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+-webkit-box-shadow: 1px 3px 8px #9b9b9b; 
+-moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+}
+.tooltip:hover img {
+  border: 0;
+  margin: -10px 0 0 -55px;
+  float: left;
+  position: absolute;
+}
+.tooltip:hover em {
+  font-family: Candara, Tahoma, Geneva, sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  display: block;
+  padding: 0.4em 0 0.6em 0;
+}
+.tooltip2 {
+  border-bottom: 0px solid #18416b;
+  color: #18416b; outline: none;
+  cursor: hand; text-decoration: none;
+  position: relative;
+}
+.tooltip2 span {
+  margin-left: -999em;
+  position: absolute;
+z-index: 100;
+}
+
+
+.tooltip2:hover span {
+  font-family: Calibri, Tahoma, Geneva, sans-serif;
+  position: absolute;
+  left: 1em;
+  bottom: 2em;
+  z-index: 100;
+  margin-left: 0;
+  width: 300px;
+  border-radius: 5px 5px;
+z-index: 100;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+-webkit-box-shadow: 1px 3px 8px #9b9b9b; 
+-moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+z-index: 100;
+}
+.tooltip2:hover img {
+  border: 0;
+  margin: -10px 0 0 -55px;
+  float: left;
+  position: absolute;
+z-index: 100;
+}
+.tooltip2:hover em {
+  font-family: Candara, Tahoma, Geneva, sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  display: block;
+  padding: 0.2em 0 0.6em 0;
+z-index: 100;
+}
+
+
+
+
+
+.tooltip3 {
+  border-bottom: 0px solid #18416b;
+  color: #18416b; outline: none;
+  cursor: hand; text-decoration: none;
+  position: relative;
+z-index: 100;
+}
+.tooltip3 span {
+  margin-left: -999em;
+  position: absolute;
+z-index: 100;
+}
+
+
+.tooltip3:hover span {
+  font-family: Calibri, Tahoma, Geneva, sans-serif;
+  position: absolute;
+  right: 1em;
+  top: 2em;
+  z-index: 99;
+  margin-left: 0;
+  width: 300px;
+  border-radius: 5px 5px;
+z-index: 100;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+-webkit-box-shadow: 1px 3px 8px #9b9b9b; 
+-moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+z-index: 100;
+}
+.tooltip3:hover img {
+  border: 0;
+  margin: -10px 0 0 -55px;
+  float: left;
+  position: absolute;
+z-index: 100;
+}
+.tooltip3:hover em {
+  font-family: Candara, Tahoma, Geneva, sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  display: block;
+  padding: 0.2em 0 0.6em 0;
+z-index: 100;
+}
+
+
+
+
+.tooltip4 {
+  border-bottom: 0px solid #18416b;
+  color: #18416b; outline: none;
+  cursor: hand; text-decoration: none;
+  position: relative;
+z-index: 100;
+}
+.tooltip4 span {
+  margin-left: -999em;
+  position: absolute;
+z-index: 100;
+}
+
+
+.tooltip4:hover span {
+  font-family: Calibri, Tahoma, Geneva, sans-serif;
+  position: absolute;
+  right: 1em;
+  bottom: 2em;
+  z-index: 99;
+  margin-left: 0;
+  width: 300px;
+  border-radius: 5px 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+-webkit-box-shadow: 1px 3px 8px #9b9b9b; 
+-moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+z-index: 100;
+}
+.tooltip4:hover img {
+  border: 0;
+  margin: -10px 0 0 -55px;
+  float: left;
+  position: absolute;
+}
+.tooltip4:hover em {
+  font-family: Candara, Tahoma, Geneva, sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  display: block;
+  padding: 0.2em 0 0.6em 0;
+z-index: 100;
+}
+.classic { padding: 0.8em 1em; }
+.custom { padding: 0.5em 0.8em 0.8em 2em; }
+* html a:hover { background: transparent; }
+
+.classic { background: #FFFFAA; border: 1px solid #FFAD33; }
+.critical { background: #FFCCAA; border: 1px solid #FF3334; }
+.help { background: #9FDAEE; border: 1px solid #2BB0D7; }
+.info { background: #f8f8f8; border: 1px solid #ffffff;z-index:1;z-index: 100; }
+.warning { background: #FFFFAA; border: 1px solid #FFAD33; }
+
+}
+--></style>
+<!-- STUDENT LIVING NAV BAR -->
+<div><img src="Images/housing/navbar/studentliving/blank.png" width="63" /><a class="intLink" href="x8708.xml"><img onmouseout="this.src='Images/housing/navbar/studentliving/H.png';" onmouseover="this.src='Images/housing/navbar/studentliving/H-hover.png';" src="Images/housing/navbar/studentliving/H.png" width="148" /></a><a class="intLink" href="x44817.xml"><img src="Images/housing/navbar/studentliving/S-active.png" width="111" /></a><a class="intLink" href="x44860.xml"><img onmouseout="this.src='Images/housing/navbar/studentliving/W.png';" onmouseover="this.src='Images/housing/navbar/studentliving/W-hover.png';" src="Images/housing/navbar/studentliving/W.png" width="161" /></a><a class="intLink" href="x44861.xml"><img onmouseout="this.src='Images/housing/navbar/studentliving/A.png';" onmouseover="this.src='Images/housing/navbar/studentliving/A-hover.png';" src="Images/housing/navbar/studentliving/A.png" width="159" /></a><a class="intLink" href="x44863.xml"><img onmouseout="this.src='Images/housing/navbar/studentliving/M.png';" onmouseover="this.src='Images/housing/navbar/studentliving/M-hover.png';" src="Images/housing/navbar/studentliving/M.png" width="246" /></a></div>
+<!-- END NAV BAR -->
+<div><br /><br />
+<div></div>
+<div><img height="204" src="Images/housing/Student Living/Family-Proclamation-Title.png" style="display: block; margin-left: auto; margin-right: auto; vertical-align: middle;" width="536" />
+<div></div>
+</div>
+<div class="left">
+<p>WE, THE FIRST PRESIDENCY and the Council of the Twelve Apostles of The Church of Jesus Christ of Latter-day Saints, solemnly proclaim that <a class="tooltip" href="http://www.lds.org/topics/marriage?lang=eng&amp;query=marriage+between+man+woman" target="_blank">marriage between a man and a woman<span class="custom info"><em>Marriage between Man and Woman</em>"The covenant of eternal marriage is necessary for exaltation."<br /><br />Click to view more information about marriage at lds.org</span></a> is ordained of God and that the <a class="tooltip" href="http://www.lds.org/general-conference/2010/04/generations-linked-in-love?lang=eng" target="_blank">family is central<span class="custom info"><em>Family is Central</em>"While the family is under attack throughout the world, The Church of Jesus Christ of Latter-day Saints proclaims, promotes, and protects the truth that the family is central to the Creator's plan for the eternal destiny of His children."<br />&ndash;Russell M. Nelson<br /><br />Click to view complete talk "Generations Linked in Love" by Russell M. Nelson </span></a>to the Creator's plan for the <a class="tooltip" href="http://www.lds.org/general-conference/2009/10/more-diligent-and-concerned-at-home?lang=eng" target="_blank">eternal destiny<span class="custom info"><em>Eternal Destiny</em>"In these important pursuits we will never be left alone. Our Heavenly Father and His Beloved Son live. They love us and know our circumstances."<br />&ndash;David A. Bednar<br /><br />Click to view complete talk "More Diligent and Concerned at Home" by David A. Bednar</span></a> of His children.</p>
+<p>ALL HUMAN BEINGS <a class="tooltip" href="http://www.lds.org/scriptures/ot/gen/1?lang=eng" target="_blank">&mdash;male and female&mdash;<span class="custom info"><em>Male and Female</em>Genesis 1:26-27<br /><br />26 And God said, Let us make man in our image, after our likeness; and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth, and over every creeping thing that creepeth upon the night.<br />27. So God created man in his own image, in the image of God created he him; male and female created he them.</span></a> are created in the image of God. Each is a beloved spirit son or daughter of heavenly parents, and, as such, each has a <a class="tooltip" href="http://www.lds.org/scriptures/nt/2-pet/1.4-7?lang=eng">divine nature<span class="custom info"><em>Divine Nature</em>2 Peter 1:4-7<br /><br />4. Whereby are given unto exceeding great and precious promises: that by these ye might be partakers of the diving nature, having escaped the corruption that is in this world through lust. <br />5. And beside this, giving all diligence, add to your faith virtue, and to your virtue knowledge; <br />6. And to knowledge temperance; and to temperance patience; and to patience godliness; <br />7. And to godliness brotherly kindness; and to brotherly kindness charity.</span></a> and <a class="tooltip" href="http://www.lds.org/new-era/2008/08/three-gates-only-you-can-open?lang=eng&amp;query=destiny" target="_blank">destiny<span class="custom info"><em>Destiny</em>"Albert Schweitzer, the noted theologian and missionary physician, declared: 'I don&rsquo;t know what your destiny will be, but one thing I know: the only ones among you who will be really happy are those who have sought and found how to serve'."<br />&mdash;President Thomas S Monson<br /><br />Click to view complete talk "Three Gates Only You Can Open" by President Thomas S. Monson</span></a> . Gender is an <a class="tooltip" href="http://www.lds.org/ldsorg/v/index.jsp?sourceId=7d2adb98e2b9c110VgnVCM100000176f620a____&amp;locale=0&amp;vgnextoid=2354fccf2b7db010VgnVCM1000004d82620aRCRD" target="_blank">essential characteristic<span class="custom info"><em>Essential Characteristic</em>"The premortal and mortal natures of men and women were specified by God Himself. ... [Sometimes women] ask: 'Is a woman's value dependent exclusively upon her role as a wife and mother?' The answer is simple and obvious: No. ... Every righteous man and woman has a significant role to play in the onward march of the kingdom of God..."<br />&ndash;M Russell Ballard<br /><br />Click to view complete article "Women of Righteousness" by M Russell Ballard</span></a> of individual premortal, mortal, and eternal <a class="tooltip" href="http://www.lds.org/liahona/2010/06/things-as-they-really-are?lang=eng&amp;query=eternal+identity" target="_blank">identity<span class="custom info"><em>Identity</em>In this dispensation the Lord revealed that "the spirit and the body are the soul of man" (D&amp;C 88:15). A truth that really is and always will be is that the body and the spirit constitute our reality and identity. When body and spirit are inseparably connected, we can receive a fullness of joy; when they are separated, we cannot receive a fullness of joy.<br />&ndash;David A. Bednar<br /><br />Click to view entire article "Things as they Really Are" by David A. Bednar</span> </a>and <a class="tooltip" href="http://www.lds.org/liahona/2012/07/always-in-the-middle?lang=eng&amp;query=purpose" target="_blank">purpose<span class="custom info"><em>Purpose</em>Yes, there will be moments of beginnings and moments of endings throughout our lives, but these are only markers along the way of the great middle of our eternal lives. Whether we are at the beginning or the end, whether we are young or old, the Lord can use us for His purposes if we simply set aside whatever thoughts limit our ability to serve and allow His will to shape our lives.<br />&ndash;David A. Bednar<br /><br />Click to view entire article "Always in the Middle" by David A. Bednar</span></a>.</p>
+<p>IN THE PREMORTAL REALM, <a class="tooltip" href="http://www.lds.org/general-conference/2012/04/the-race-of-life?lang=eng&amp;query=race+life" target="_blank">sons and daughters<span class="custom info"><em>Sons and Daughters</em>"Parents ponder their responsibility to teach, to inspire, and to provide guidance, direction, and example. And while parents ponder, children-and particularly youth-ask the penetrating question, why are we here? Usually it is spoken silently to the soul and phrased, why am I here? How grateful we should be that a wise Creator fashioned an earth and placed us here, with a veil of forgetfulness of our previous existence so that we might experience a time of testing, an opportunity to prove ourselves in order to qualify for all that God has prepared for us to receive."<br />&ndash;President Thomas S. Monson<br /><br />Click to view entire talk "The Race of Life" by President Thomas S. Monson</span></a> knew and worshipped God as their Eternal Father and accepted <a class="tooltip" href="http://www.lds.org/general-conference/2012/04/the-race-of-life?lang=eng&amp;query=race+life" target="_blank">His plan<span class="custom info"><img alt="Information" height="48" src="Images/housing/video-icon2.png" width="48" /><em>His Plan</em>Click to view video "Our Heavenly Father's Plan"</span></a> by which His children could obtain a physical body and gain earthly experience to progress toward perfection and ultimately realize their <a class="tooltip" href="http://www.lds.org/general-conference/2011/10/you-matter-to-him?lang=eng&amp;query=%22you+matter+to+him%22" target="_blank">divine destiny<span class="custom info"><em>Divine Destiny</em>"Compared to God, man is nothing; yet we are everything to God...My dear brothers and sisters, it may be true that man is nothing in comparison to the greatness of the universe. At times we may even feel insignificant, invisible, alone, or forgotten. But always remember-you matter to Him!"<br />&ndash;President Dieter F. Uchtdorf<br /><br />Click to view complete talk "You Matter to Him" by Dieter F. Uchtdorf</span></a> as heirs of eternal life. The divine plan of happiness <a class="tooltip" href="http://www.youtube.com/watch?v=-x_-TQivCx8" target="_blank">enables family<span class="custom info"><img alt="Information" height="48" src="Images/housing/video-icon2.png" width="48" /><em>Enables Families</em>Click to view Mormon Message "Why Mormons Build Temples"</span></a> relationships to be perpetuated beyond the grave. Sacred ordinances and covenants available in holy temples make it possible for individuals to <a class="tooltip" href="http://www.lds.org/new-era/2012/06/how-to-endure-to-the-end?lang=eng&amp;query=can+endure+end" target="_blank">return<span class="custom info"><em>Return</em>"Enduring to the end requires faithfulness to the end, as in the case of Paul, who told Timothy, "I have fought a good fight, I have finished my course, I have kept the faith" (2 Timothy 4:7). Obviously, this is not an easy task. It is intended to be difficult, challenging, and, ultimately, refining as we prepare to return to live with our Father in Heaven and receive eternal blessings. Enduring to the end is definitely not a do-it-yourself project."<br />&ndash;L. Tom Perry<br /><br />Click to view complete article "How to Endure to the End" by L. Tom Perry</span></a> to the presence of God and for families to be <a class="tooltip" href="http://www.youtube.com/watch?v=XLXYxmaHWQs" target="_blank">united eternally<span class="custom info"><img alt="Information" height="48" src="Images/housing/video-icon2.png" width="48" /><em>United Eternally</em>Click to view video "The Blessings of the Temple"</span></a> .</p>
+<p>THE FIRST COMMANDMENT that God gave to Adam and Eve pertained to their <a class="tooltip2" href="http://www.lds.org/general-conference/2004/04/a-mother-heart?lang=eng&amp;query=">potential for parenthood<span class="custom info"><em>Potential for Parenthood</em>"Catch the teaching moments. This can be done anytime during the day...Mother, you are your children's best teacher. Don't shift this precious responsibility to day-care centers or babysitters. A mother's love and prayerful concern for her children are her most important ingredients in teaching her own."<br />&ndash;Julie B. Beck<br /><br />Click to view complete article "A Mother Heart" by Julie B. Beck</span></a> as husband and wife. We declare that God&rsquo;s commandment for His children to <a class="tooltip2" href="http://www.lds.org/general-conference/2011/10/children?lang=eng" target="_blank">multiply and replenish<span class="custom info"><em>Multiply and Replenish</em>"In 'the best of times [and] ... the worst of times,' the true Saints of God, acting in faith, have never forgotten, dismissed, or neglected 'God's commandment ... to multiply and replenish the earth.' We go forward in faith-realizing the decision of how many children to have and when to have them is between a husband and wife and the Lord. We should not judge one another on this matter"<br />&ndash;Niel L. Anderson<br /><br />Click to view complete talk "Children" by Niel L. Anderson</span></a> the earth remains in force. We further declare that God has commanded that the sacred powers of procreation are to be employed only between man and woman, lawfully wedded as husband and wife.</p>
+<p>WE DECLARE the means by which mortal life is created to be divinely appointed. We affirm the sanctity of life and of its <a class="tooltip2" href="http://www.lds.org/liahona/2011/08/love-at-home-counsel-from-our-prophet?lang=eng&amp;query=husband+wife" target="_blank">importance in God's eternal plan<span class="custom info"><em>Importance in God's Eternal Plan</em>"The commandment to multiply and replenish the earth has never been rescinded. It is essential to the plan of redemption and is the source of human happiness. Through the righteous exercise of this power, as through nothing else we may come close to our Father in Heaven and experience a fullness of joy, even godhood! The power of procreation is not an incidental part of the plan of happiness; it is the key-the very key."<br />&ndash;Boyd K. Packer<br /><br />Click to view complete talk "The Fountain of Life" by Boyd K. Packer</span></a> .</p>
+<p>HUSBAND AND WIFE have a <a class="tooltip2" href="http://www.lds.org/liahona/2011/08/love-at-home-counsel-from-our-prophet?lang=eng&amp;query=husband+wife" target="_blank">solemn responsibility to love and care for each other and for their children<span class="custom info"><em>Solemn responsibility to love and care for each other and for their children</em>"What is most important almost always involves the people around us. Often we assume that they must know how much we love them. But we should never assume; we should let them know. Wrote William Shakespeare, 'They do not love that do not show their love.' We will never regret the kind words spoken or the affection shown. Rather, our regrets will come if such things are omitted from our relationships with those who mean the most to us.<br />&ndash;President Thomas S. Monson<br /><br />Click to view complete article "Love at Home" by President Thomas S. Monson</span></a>. "Children are an heritage of the Lord" (Psalm 127:3).</p>
+</div>
+<div class="right">
+<p>Parents have a sacred duty to rear their children in love and righteousness, to provide for their physical and spiritual needs, and to <a class="tooltip3" href="#">teach them to love and serve one another<span class="custom info"><em>Teach Them to Love and Serve One Another</em>"Brethren, let's treat our wives with dignity and with respect. They're our eternal companions. Sisters, honor your husbands. They need to hear a good word. They need a friendly smile. They need a warm expression of true love. ..."To you who are parents, I say, show love to your children. You know you love them, but make certain they know it as well. They are so precious. Let them know. Call upon our Heavenly Father for help as you care for their needs each day and as you deal with the challenges which inevitably come with parenthood. You need more than your own wisdom in rearing them."<br />&ndash;President Thomas S. Monson</span></a> , observe the commandments of God, and be law-abiding citizens wherever they live. Husbands and wives&mdash;mothers and fathers&mdash; will be held accountable before God for the discharge of these obligations.</p>
+<p>THE FAMILY is ordained of God. <a class="tooltip3" href="http://www.lds.org/general-conference/2011/04/the-eternal-blessings-of-marriage?lang=eng" target="_blank">Marriage between man and woman is essential<span class="custom info"><em>Marriage Between Man and Woman is Essential</em>"Two of the vital pillars that sustain Father in Heaven's plan of happiness are marriage and the family. Their lofty significance is underscored by Satan's relentless efforts to splinter the family and to undermine the significance of temple ordinances, which bind the family together for eternity. The temple sealing has greater meaning as life unfolds. It will help you draw ever closer together and find greater joy and fulfillment in mortality."<br />&ndash;Richard G. Scott <br /><br />Click to view complete talk "The Eternal Blessings of Marriage" by Richard G. Scott</span></a> to His eternal plan. Children are entitled to birth within the bonds of matrimony, and to be reared by a father and a mother who honor marital vows with complete fidelity. Happiness in family life is most likely to be achieved when founded upon the teachings of the Lord Jesus Christ. Successful marriages and families are established and maintained on principles of faith, prayer, repentance, forgiveness, respect, love, compassion, work, and wholesome recreational activities. By divine design, <a class="tooltip3" href="http://www.youtube.com/watch?v=3LQ80TFOGvw" target="_blank">fathers are to<span class="custom info"><em>Father's Responsibility</em>"Melchizedek Priesthood holders who are fathers in sealed families have been taught what they must do. There is nothing that has come or will come into your family as important as the sealing blessings. There is nothing more important than honoring the marriage and family covenants you have made or will make in the temples of God."<br />&ndash;President Henry B. Eyring<br /><br />Click to view video "Love Her Mother"</span></a> preside over their families in love and righteousness and are responsible to provide the necessities of life and protection for their families. Mothers are primarily responsible for the nurture of their children. In these sacred responsibilities, fathers and mothers are obligated to help one another as equal partners. Disability, death, or other circumstances may necessitate individual adaptation. Extended families should lend support when needed.</p>
+<p>WE WARN that individuals who violate covenants of chastity, who <a class="tooltip4" href="http://www.lds.org/liahona/2002/07/personal-worthiness-to-exercise-the-priesthood?lang=eng&amp;query=physical+abuse+warning" target="_blank">abuse spouse or offspring<span class="custom info"><em>Abuse of Spouse or Offspring</em>In the marriage companionship there is neither inferiority nor superiority. The woman does not walk ahead of the man; neither does the man walk ahead of the woman. They walk side by side as a son and daughter of God on an eternal journey. She is not your servant, your chattel, nor anything of the kind. How tragic and utterly disgusting a phenomenon is wife abuse. Any man in this Church who abuses his wife, who demeans her, who insults her, who exercises unrighteous dominion over her is unworthy to hold the priesthood. Though he may have been ordained, the heavens will withdraw, the Spirit of the Lord will be grieved, and it will be amen to the authority of the priesthood of that man. Any man who engages in this practice is unworthy to hold a temple recommend. I regret to say that I see too much of this ugly phenomenon. There are men who cuff their wives about, both verbally and physically. What a tragedy when a man demeans the mother of his children.<br />&ndash;President Gordon B. Hinckley<br /><br />Click to view complete talk "Personal Worthiness to Exercise the Priesthood" by Gordon B. Hinckley</span></a> , or who fail to fulfill family responsibilities will one day stand <a class="tooltip4" href="http://www.lds.org/ldsorg/v/index.jsp?vgnextoid=2354fccf2b7db010VgnVCM1000004d82620aRCRD&amp;locale=0&amp;sourceId=1783558fcc599110VgnVCM100000176f620a____&amp;hideNav=1" target="_blank">accountable before God<span class="custom info"><em>Accountability Before God</em>"Jacob taught that the Lord delights 'in the chastity of women' (Jacob 2:28). I delight in the chastity and purity of all women and men. How it must grieve the Lord to see virtue violated and modesty mocked on every side in this wicked world. The Lord has provided for His children great joy through intimate, loving relationships, as my grandchildren were learning. I delight in the clarity of the proclamation to the world on the family which warns that 'individuals who violate covenants of chastity, who abuse spouse or offspring, or who fail to fulfill family responsibilities will one day stand accountable before God'."<br />&ndash;Susan W. Tanner<br /><br />Click to view complete article "My Soul Delighteth in the The Things of the Lord" by Susan W. Tanner</span></a>. Further, we warn that the <a class="tooltip4" href="http://www.lds.org/new-era/2012/03/be-a-defender-of-the-family?lang=eng&amp;query=disintegration" target="_blank">disintegration of the family<span class="custom info"><em>Disintegration of the Family</em>"Don't underestimate the way you can defend the family unit by participating in your family unit."<br />&ndash;Brittany Beattie<br /><br />Click to view complete article "Be a Defender of the Family" by Brittany Beattie</span></a> will bring upon individuals, communities, and nations the calamities foretold by ancient and modern prophets.</p>
+<p>WE CALL UPON <a class="tooltip4" href="http://www.lds.org/ensign/2012/08/standing-together-for-the-cause-of-christ?lang=eng" target="_blank">responsible citizens and officers of government everywhere<span class="custom info"><em>Responsible Citizens and Officers of Government Everywhere</em>"All our nations religious citizens need to develop a respect for another... it is time for all religiously committed citizens to untie against our common enemy."<br />&ndash;Jeffery R. Holland<br /><br />Click to view complete talk "Standing Together for the cause of Christ" by Jeffery R. Holland</span></a> to promote those measures designed to maintain and strengthen the family as the fundamental unit of society.</p>
+</div>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="x9764" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x9287" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

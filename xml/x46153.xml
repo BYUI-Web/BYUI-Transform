@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x46153" Name="Prescription Transfer Request" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Prescription Transfer Request</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Prescription Transfer Request</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<div id="headblock">
+<div id="content_header">
+<div class="icons"></div>
+<div class="titlehead">Prescription Transfer Request</div>
+<div class="subhead"></div>
+</div>
+</div>
+<div>
+<div>
+<div id="content_zone">
+<p>If you have been getting prescriptions filled at another pharmacy we are glad to transfer your prescriptions to our pharmacy. We can do this even if they are currently located out-of-state.</p>
+<h3>What to do:</h3>
+<p>Just fill out the following form, print it off, and do one of the following:</p>
+<div class="left">DROP OFF:<br />or FAX:</div>
+<div class="right"><a href="x34828.xml">179 Student Health Center</a> <br /><strong>496-9343</strong></div>
+<div class="clear"></div>
+<br />
+<p>Once we receive the information we will contact your pharmacy and transfer the prescription here, fill it, and have it ready for you when you come to pick it up. The whole process usually takes less than 30 minutes.</p>
+<table border="0" id="prescription">
+<tbody>
+<tr>
+<td>Name:</td>
+</tr>
+<tr>
+<td>Date of Birth:</td>
+</tr>
+<tr>
+<td>Prescription # (located on your prescription label, usually the upper left hand corner):</td>
+</tr>
+<tr>
+<td>Name of Medication:</td>
+</tr>
+<tr>
+<td>Pharmacy Name:</td>
+</tr>
+<tr>
+<td>Pharmacy Phone #:</td>
+</tr>
+<tr>
+<td>Your Cell Phone Number:</td>
+</tr>
+</tbody>
+</table>
+<p style="margin-top: 35px;"><strong>*NOTE:</strong> If you have more than one prescription you need transferred, please fill out a form for each medication or just call us at 496-9342 and we'll take of the rest!</p>
+<a href="x37092.xml">Back to Pharmacy Home Page</a></div>
+<iframe frameborder="0" height="240" id="footer" scrolling="no" src="Documents/health-center/footer.html" width="100%"></iframe></div>
+<p><link href="Documents/health-center/css/header.css" rel="stylesheet" /> <link href="Documents/health-center/css/body.css" rel="stylesheet" /> <link href="Documents/health-center/css/pharmacy.css" rel="stylesheet" /></p>
+</div>
+<style type="text/css"><!--
+body #content_zone .left {
+       padding-left: 50px;
+       width: 17%;
+   }
+
+   body #content_zone .right {
+       width: 67%;
+   }
+   
+   body #content_zone .titlehead {    
+      border-bottom: solid thin #753B95;
+   }
+
+   .pharm{background-position:          0px  -150px;}   
+
+   #prescription tr td {      
+      background-color: #ffffff;
+      color: #555555;
+      border-bottom: 2px solid #000000;
+   }
+
+   #prescription {
+      border: 0;
+      margin-left: 20px;
+   }
+--></style>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x28441" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

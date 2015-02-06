@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x48613" Name="non_interactive_department.css" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">non_interactive_department.css</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">non_interactive_department.css</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">#related_links {
+	background-color: #C8C8C8;
+}
+
+#top_banner {
+	background-color: #2e2e2e;
+	color: #FFF;
+	width: 100%;
+	min-height: 260px;
+	margin-bottom: 10px;
+}
+#left_content_banner {
+	float: left;
+	width: 150px;
+	padding: 20px;
+	background-image: url(../../images/non_interactive_department/black-box.jpg);
+	height: 220px;
+	background-repeat: no-repeat;
+}
+#right_image_banner {
+	float: left;
+	width: 460px;
+	display: block;
+}
+
+.banner_title {
+	font-size: 18px;
+	margin: 0px 0px 10px 0px;
+}
+
+.banner_text {}
+
+#main_content { clear: both;}
+#main_content_left {
+	float: left;
+	width: 200px;
+	padding-bottom: 10px;
+}
+#main_content_right { 
+	width: 440px;
+	float: left;
+	padding-bottom: 10px;
+	border-left:1px solid gray;
+}
+
+.title {
+	font-size: 21px;
+	color: #1c74b5;
+}
+.abstract {
+	font-size: 15px;
+	margin: 10px 0px 10px 0px;
+}
+
+p {
+	font-size: 11px;
+}</ESContent></EmptyShell>

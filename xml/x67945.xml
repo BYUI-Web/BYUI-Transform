@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x67945" Name="print.css" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">print.css</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">print.css</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">* {
+ background-color: white !important;
+ background-image: none !important;
+ float:none;
+ overflow: visible !important;
+ }
+
+body {
+	font-family: "Georgia", Times New Roman, Serif;
+	color: #000;
+}
+
+#topBar {
+	display:none;
+}
+
+#main_body {
+	height:auto !important;
+}
+
+#page_layout2_content {
+	height:auto;
+}
+
+#left_column {
+	display: none;
+}
+
+#random_image {
+	display:none;
+}
+
+.dashing_divider {
+	display:none;
+}
+
+.videolist {
+	display:none;
+}
+
+.rightAREA {
+	display:none;
+}
+
+.previewDiv {
+	display:none;
+}
+
+.noprint {
+	display:none;
+}
+							
+.printit {
+	display:none;
+}
+</ESContent></EmptyShell>

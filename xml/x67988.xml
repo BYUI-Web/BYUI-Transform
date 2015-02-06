@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x67988" Name="default.htm" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">default.htm</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">default.htm</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"&gt;
+   &lt;head&gt;
+      &lt;meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /&gt;
+      &lt;title&gt;BYU-Idaho - Interactive Map&lt;/title&gt;
+      &lt;!--***********************************************************************
+               *   Brigham Young University-Idaho Template
+               *   Modified for Activities Communication.
+               *   Copyright 2008 Brigham Young University-Idaho
+               *   All Rights Reserved.
+               ************************************************************************--&gt;
+       &lt;!-- REFERENCED STYLESHEETS --&gt;
+      &lt;!-- BYU-I --&gt;
+      &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/v1/topBar.css"/&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/v1/structure.css"/&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/v1/body_text.css"/&gt;
+    &lt;!-- Act Comm --&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://activities.byui.edu/css/v1/tabs.css"/&gt; 
+	 &lt;link rel="stylesheet" type="text/css" href="http://activities.byui.edu/css/v1/style.css"/&gt;
+      &lt;link rel="stylesheet" type="text/css" href="file:///W|/graduation_temp/css/mothers_weekend.css"/&gt;
+
+      &lt;!-- EMBEDED JAVASCRIPT FUNCTIONS --&gt;
+      &lt;!-- BYU-I --&gt;
+      &lt;script type="text/javascript" src="http://www.byui.edu/js/V1/findDOM.js"&gt;&lt;/script&gt;
+      &lt;!-- Act Comm --&gt;
+      &lt;script type="text/javascript" src="http://activities.byui.edu/js/v1/menu.js"&gt;&lt;/script&gt;
+      &lt;script type="text/javascript" src="http://activities.byui.edu/js/v1/image.js"&gt;&lt;/script&gt;
+      &lt;script type="text/javascript" src="http://activities.byui.edu/js/v1/layer.js"&gt;&lt;/script&gt; 
+   	&lt;script type="text/javascript" src="http://activities.byui.edu/js/v1/announcement_dev2.js"&gt;&lt;/script&gt;
+	&lt;script type="text/javascript" src="file:///W|/graduation_temp/js/slideShow.js"&gt;&lt;/script&gt;
+      &lt;!--[if lt IE 7]&gt;
+                 &lt;script type="text/javascript" src="http://activities.byui.edu/js/v1/png_fix.js"&gt;&lt;/script&gt;
+                 &lt;![endif]--&gt;  
+		&lt;style type="text/css" media="all"&gt;
+			
+			li {
+				line-height:30px;
+				list-style-type:disc;
+				margin-left:10px;
+			}			
+			.title {
+				margin-top: 4px;
+			}
+			.td_hover:hover {
+				background-color: #eee;
+			}
+			.td_hover {
+				background-color: #fbfbfb;
+			}
+			.content {
+				padding:22px;
+			}
+				.left {
+					width:202px;
+					padding-right:12px;
+					padding-top:8px;
+					padding-bottom:35px;
+					float:left;
+					border-right:solid 1px #8B8B8B;
+					margin-bottom:20px;
+				}
+				.right {
+					padding-left:30px;
+					padding-top:8px;
+					padding-bottom:35px;
+					float:left;
+					margin-bottom:20px;
+				}
+			#preview {
+				font-size:12px;
+				color:#666666;
+				text-transform:uppercase;
+				letter-spacing:4px;
+			}
+			#nav {
+				width:767px;				
+				background-color:#F9F9F9;
+				padding-top:7px;
+				padding-left:11px;
+				padding-bottom:7px;
+				border-bottom:solid 1px #E4E1D9;
+			}
+			#nav:hover {
+				background-color:#F5F5F5;
+			}
+			.other_videos {
+				line-height:20px;
+				margin-top:23px;
+			}
+				.video_links {
+					color:#558ec2;
+					text-decoration:underline;
+					font-size:14px;
+				}
+			
+
+        &lt;/style&gt;           
+        &lt;script src="Scripts/AC_RunActiveContent.js" type="text/javascript"&gt;&lt;/script&gt;
+        &lt;script src="Scripts/swfobject_modified.js" type="text/javascript"&gt;&lt;/script&gt;
+&lt;/head&gt;
+  &lt;!-- Google Analytics Code ---&gt;
+  &lt;script type="text/javascript"&gt;
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+&lt;/script&gt;
+&lt;script type="text/javascript"&gt;
+var pageTracker = _gat._getTracker("UA-4869371-12");
+pageTracker._trackPageview();
+&lt;/script&gt;
+&lt;!-- End Google Code ---&gt;
+   &lt;body id="type_c" onload="changeSize(); return false;"&gt;
+      &lt;!-- *********** BYU-I Header Bar, no need to edit*********** --&gt;
+      &lt;div id="topBar"&gt;
+            &lt;div id="blueSpace"&gt;&lt;/div&gt;
+            &lt;div&gt;
+               &lt;table id="tableBlue" cellspacing="0" cellpadding="0"&gt;
+                  &lt;tr&gt;&lt;td id="tdBlueSpace"&gt;&lt;/td&gt;&lt;/tr&gt;
+                  &lt;tr id="trBlueTop"&gt;&lt;td id="tdBlueTop"&gt;&lt;/td&gt;&lt;/tr&gt;
+                  &lt;tr&gt;
+                     &lt;td id="tdBlueMenu" align="center"&gt;
+                        &lt;div id="javaMenu"&gt;
+                           &lt;script type="text/javascript" src="http://www.byui.edu/js/V1/HomepageNavBar.js"&gt;&lt;/script&gt;
+                        &lt;/div&gt;
+                     &lt;/td&gt;
+                  &lt;/tr&gt;
+               &lt;/table&gt;
+            &lt;/div&gt;
+            &lt;div id="divGrayBarContainer"&gt;
+               &lt;div id="divDarkGrayBar"&gt;
+                   &lt;div id="divStudent"&gt;
+                       &lt;script type="text/javascript" src="http://www.byui.edu/js/V1/imageChange.js"&gt;&lt;/script&gt;
+                   &lt;/div&gt;
+                   &lt;div id="divBYUILogo"&gt;
+                       &lt;a id="logoLink" href="http://www.byui.edu/"&gt;&lt;/a&gt;
+                   &lt;/div&gt;
+                   &lt;div id="divVertLine"&gt;&lt;/div&gt;
+                   &lt;div id="divDepartmentTitle"&gt;
+                       &lt;div id="divSectionTitle"&gt;
+                           &lt;!--#include file="templateSupport/sectionTitle.inc"--&gt;
+                       &lt;/div&gt;  
+                       &lt;div id="divContactButton"&gt;
+                           &lt;a id="contactButtonRef" href="http://www.byui.edu/ParkingServices/contacts.htm"&gt;&lt;/a&gt;
+                       &lt;/div&gt;
+                   &lt;/div&gt;
+               &lt;/div&gt;
+            &lt;/div&gt;&lt;!-- /divGrayBarContainer --&gt;
+            &lt;div id="divWhiteContainer"&gt;
+               &lt;div id="divWhiteBar"&gt;
+                  &lt;img src="http://www.byui.edu/css/V1/images/whiteBar.gif" alt="White Bar" /&gt;
+               &lt;/div&gt;
+           &lt;/div&gt;
+         &lt;/div&gt;&lt;!-- /topBar --&gt;
+         
+         &lt;!-- *********** Act Comm data starts here*********** --&gt;
+        &lt;div id="container"&gt;
+            &lt;div id="main_body" style="height:auto"&gt;    
+			      &lt;div id="nav"&gt;&lt;a href="javascript:history.go(-1)" title="Go back to the previous page"&gt;&lt;img src="http://activities.byui.edu/video/guiding_principles_videos/back.gif" width="14" height="11" style="border:0px;"/&gt;&lt;span style="color:#558ec2; font-size:12px; font-weight:bold"&gt;Back&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;       
+				&lt;div class="content"&gt;
+				  &lt;object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="740" height="600" id="FlashID"&gt;
+				    &lt;param name="movie" value="preloader.swf" /&gt;
+				    &lt;param name="quality" value="high" /&gt;
+				    &lt;param name="wmode" value="opaque" /&gt;
+				    &lt;param name="swfversion" value="6.0.65.0" /&gt;
+				    &lt;!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. --&gt;
+				    &lt;param name="expressinstall" value="Scripts/expressInstall.swf" /&gt;
+				    &lt;!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. --&gt;
+				    &lt;!--[if !IE]&gt;--&gt;
+				    &lt;object type="application/x-shockwave-flash" data="preloader.swf" width="740" height="600"&gt;
+				      &lt;!--&lt;![endif]--&gt;
+				      &lt;param name="quality" value="high" /&gt;
+				      &lt;param name="wmode" value="opaque" /&gt;
+				      &lt;param name="swfversion" value="6.0.65.0" /&gt;
+				      &lt;param name="expressinstall" value="Scripts/expressInstall.swf" /&gt;
+				      &lt;!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. --&gt;
+				      &lt;div&gt;
+				        &lt;h4&gt;Content on this page requires a newer version of Adobe Flash Player.&lt;/h4&gt;
+				        &lt;p&gt;&lt;a href="http://www.adobe.com/go/getflashplayer"&gt;&lt;img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /&gt;&lt;/a&gt;&lt;/p&gt;
+			          &lt;/div&gt;
+				      &lt;!--[if !IE]&gt;--&gt;
+			        &lt;/object&gt;
+				    &lt;!--&lt;![endif]--&gt;
+			      &lt;/object&gt;   
+					
+					
+				
+				           
+                 
+              &lt;/div&gt;  
+            &lt;/div&gt;&lt;!-- /main_body --&gt;
+        &lt;/div&gt;&lt;!-- /container --&gt;
+               
+            &lt;/div&gt;&lt;!-- /main_body --&gt;
+      &lt;/div&gt;&lt;!-- /container --&gt;
+      &lt;div id="footer"&gt;
+         &lt;div id="shadow"&gt;Copyright 2006 BYU&amp;ndash;Idaho&lt;br /&gt;All Rights Reserved.&lt;/div&gt;
+      &lt;/div&gt;&lt;!-- /footer --&gt;
+   &lt;script type="text/javascript"&gt;
+&lt;!--
+swfobject.registerObject("FlashID");
+//--&gt;
+      &lt;/script&gt;
+      &lt;!-- This script enables Google Analytics --&gt;
+		&lt;script type="text/javascript"&gt;
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		&lt;/script&gt;
+		&lt;script type="text/javascript"&gt;
+			try {
+			var pageTracker = _gat._getTracker("UA-12079604-1");
+			pageTracker._trackPageview();
+			} catch(err) {}
+		&lt;/script&gt;
+
+   &lt;/body&gt;
+&lt;/html&gt;
+</ESContent></EmptyShell>

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<AdminPage ID="x39908" Name="Admin Home Template" Layout="admin_office_home.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Admin Home Template</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Admin Home Template</Abstract><MainMesgTop type="boolean" label="Enable to move &quot;Main Message&quot; to top of page" readonly="false" required="false" hidden="false">false</MainMesgTop><IntroCopy type="dhtml" label="Main Message" readonly="false" hidden="false" required="false"><![CDATA[<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Fading JavaScript Example</title>
+<style type="text/css"><!--
+* {margin:0; padding:0}
+body {font:12px Verdana,Arial; color:#777; background:#222}
+a {color:#999; text-decoration:none}
+a:hover {color:#bbb}
+#wrapper {width:500px; margin:75px auto}
+#buttons {height:35px}
+.button {border:1px solid #eee; background:#ccc; border-radius:3px; -moz-border-radius:3px; padding:4px 0 5px; width:245px; text-align:center; cursor:pointer; float:left; color:#555}
+.button:hover {border:1px solid #fff; background:#d9d9d9; color:#333}
+.floatright {float:right}
+#fade {opacity:0; filter:alpha(opacity='0') border-radius:3px; -moz-border-radius:3px; margin-bottom:10px; padding:9px 10px 0; height:26px; border:1px solid #548954; background:#355c33; color:#79af72; text-shadow:1px 1px #21341d}
+--></style>
+<script type="text/javascript">
+var fadeEffect=function(){
+	return{
+		init:function(id, flag, target){
+			this.elem = document.getElementById(id);
+			clearInterval(this.elem.si);
+			this.target = target ? target : flag ? 100 : 0;
+			this.flag = flag || -1;
+			this.alpha = this.elem.style.opacity ? parseFloat(this.elem.style.opacity) * 100 : 0;
+			this.si = setInterval(function(){fadeEffect.tween()}, 20);
+		},
+		tween:function(){
+			if(this.alpha == this.target){
+				clearInterval(this.si);
+			}else{
+				var value = Math.round(this.alpha + ((this.target - this.alpha) * .05)) + (1 * this.flag);
+				this.elem.style.opacity = value / 100;
+				this.elem.style.filter = 'alpha(opacity=' + value + ')';
+				this.alpha = value
+			}
+		}
+	}
+}();
+</script>
+<div id="wrapper">
+<div id="fade">Fading JavaScript Example</div>
+<div id="buttons">
+<div class="button" onclick="fadeEffect.init('fade', 1)">Fade In</div>
+<div class="button floatright" onclick="fadeEffect.init('fade', 0)">Fade Out</div>
+</div>
+<p>For more information visit <a href="http://www.leigeber.com">leigeber.com</a>.</p>
+</div>]]></IntroCopy><xPower Type="GroupStart" GroupStart="" Name="CellGroup" label="Cells" readonly="false" hidden="false" required="false" Expanded="false"><numColumns type="enumeration" values="1 2 3 4 5" label="Select number of cell columns." readonly="false" hidden="false" required="true">3</numColumns><xPower Type="List" List="xpowercomponent_Cell" Name="CellList" label="Cell List" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"><xPower Type="Component" Component="" Name="Cell" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"/></xPower></xPower><xPower Type="List" List="xpowercomponent_BannerAd" Name="BannerAds" label="Rotating Ads (650x216px required)" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"><xPower Type="Component" Component="" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/></xPower><xPower Type="Navigation" StartPage="" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="" Query="" Name="DeptEvents" label="Define Your Events Folder" readonly="false" hidden="false" required="false" Expanded="false"/><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="QuickLinksGroup" label="Quick Links Group" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Component="" Name="QuickLinks" label="Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Insert" Insert="" WellFormed="false" ExtractHTMLBody="false" Name="HTMLInsert" label="Insert" readonly="false" hidden="true" required="false" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x19075" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></AdminPage>

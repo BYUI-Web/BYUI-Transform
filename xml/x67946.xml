@@ -1,0 +1,314 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x67946" Name="ol.css" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">ol.css</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">ol.css</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">#home_button
+{
+	display:block;
+	background-image:url('/magazine/fall2010/features/images/sideNave_sprite.jpg');
+	background-position:0px 0px;
+	position:absolute;
+	width:200px;
+	height:46px;
+	margin-top:0px;
+}
+
+#home_button:hover
+{
+	display:block;
+	background-image:url('/magazine/fall2010/features/images/sideNave_sprite.jpg');
+	background-position:-200px 0px;
+	position:absolute;
+	width:200px;
+	height:46px;
+	margin-top:0px;
+}
+
+#all_articles_button
+{
+	display:block;
+	background-image:url('/magazine/fall2010/features/images/sideNave_sprite.jpg');
+	background-position:0px -47px;
+	position:absolute;
+	width:200px;
+	height:46px;
+	margin-top:46px;
+}
+
+#all_articles_button:hover
+{
+	display:block;
+	background-image:url('/magazine/fall2010/features/images/sideNave_sprite.jpg');
+	background-position:-200px -47px;
+	position:absolute;
+	width:200px;
+	height:46px;
+	margin-top:46px;
+}
+
+#presidents_message
+{
+	display:block;
+	background-image:url('/magazine/fall2010/features/images/sideNave_sprite.jpg');
+	background-position:0px -93px;
+	position:absolute;
+	width:200px;
+	height:46px;
+	margin-top:92px;
+}
+
+#presidents_message:hover
+{
+	display:block;
+	background-image:url('/magazine/fall2010/features/images/sideNave_sprite.jpg');
+	background-position:-200px -93px;
+	position:absolute;
+	width:200px;
+	height:46px;
+	margin-top:92px;
+}
+
+#alumni_news
+{
+	display:block;
+	background-image:url('/magazine/fall2010/features/images/sideNave_sprite.jpg');
+	background-position:0px -139px;
+	position:absolute;
+	width:200px;
+	height:46px;
+	margin-top:138px;
+}
+
+#alumni_news:hover
+{
+	display:block;
+	background-image:url('/magazine/fall2010/features/images/sideNave_sprite.jpg');
+	background-position:-200px -139px;
+	position:absolute;
+	width:200px;
+	height:46px;
+	margin-top:138px;
+}
+
+#news_of_note
+{
+	display:block;
+	background-image:url('/magazine/fall2010/features/images/sideNave_sprite.jpg');
+	background-position:0px -186px;
+	position:absolute;
+	width:200px;
+	height:46px;
+	margin-top:184px;
+}
+
+#news_of_note:hover
+{
+	display:block;
+	background-image:url('/magazine/fall2010/features/images/sideNave_sprite.jpg');
+	background-position:-200px -186px;
+	position:absolute;
+	width:200px;
+	height:46px;
+	margin-top:184px;	
+}
+
+#on_campus
+{
+	display:block;
+	background-image:url('/magazine/fall2010/features/images/sideNave_sprite.jpg');
+	background-position:0px -233px;
+	position:absolute;
+	width:200px;
+	height:44px;
+	margin-top:230px;
+	/*border-bottom:1px solid #A9A9A9;*/
+}
+
+#on_campus:hover
+{
+	display:block;
+	background-image:url('/magazine/fall2010/features/images/sideNave_sprite.jpg');
+	background-position:-200px -233px;
+	position:absolute;
+	width:200px;
+	height:44px;
+	margin-top:230px;
+	/*border-bottom:1px solid #ABABAB;*/
+}
+
+#sub_nav_watch{
+	display:block;
+	background-image: url(http://www.byui.edu/Magazine/fall2010/images/dark_box_pixel.jpg);
+	background-repeat: repeat-y;
+	height: 210px;
+	padding-top:230px;
+	margin-bottom: 1px;
+}
+
+#sub_nav_watch img{
+	padding-left: 16px;
+	padding-top: 0px;
+}
+
+#sub_nav1 img{
+	padding-left: 25px;
+	padding-top: 25px;
+}
+
+#sub_nav_watch p {
+	color: white;
+	padding-top: 8px;
+	padding-left: 25px;
+	width: 150px;
+}
+
+#sub_nav1 p {
+	color: white;
+	padding-top: 8px;
+	padding-bottom: 11px;
+	padding-left: 25px;
+	width: 150px;
+}
+
+#sub_nav_watch #video{
+	padding-left: 25px;
+	padding-top: 10px;
+}
+
+#sub_nav_item{
+	background-image: url(http://www.byui.edu/Magazine/fall2010/images/dark_box_pixel.jpg);
+	background-repeat: repeat-y;
+	height: 50px;
+	margin-bottom: 1px;
+	border-top: 1px solid #FFF;
+}
+
+#sub_nav_item img{
+	margin-left: 25px;
+	padding-top: 15px;
+}
+
+#sub_nav_item img:hover{
+	border-bottom: thin solid white;
+}
+#sub_nav {
+	padding-top: 230px;
+}
+
+#sub_nav1
+{
+   padding-top: 0px;
+   display:block;
+   background-image: url(http://www.byui.edu/Magazine/fall2010/images/dark_box_pixel.jpg);
+   background-repeat: repeat-y;
+}
+
+#divSemester{
+	float:right;
+	margin-right:-40px;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+#type_A #main_body {
+	background-image: url(../images/1pixwhite3.gif);
+	background-repeat: repeat-y;
+}
+.nav {
+	display:block;
+	width:200px;
+	height:46px;
+}
+#synopses {
+	font-family: "Georgia", "Arial", sans-serif;
+	font-style: italic;
+	font-size: 16px;
+	line-height: 22px;
+	color: #666;
+	padding-top: 15px;
+}
+#read_complete_article{
+	border-top: 1px dotted #888;
+	border-bottom: 1px dotted #888;
+	font-size: 10px;
+	letter-spacing: .2em;
+	color: #666;
+	width: 460px;
+	margin-bottom:10px;
+}
+#viewGallery{
+	
+	border-bottom: 1px dotted #888;
+	font-size: 10px;
+	letter-spacing: .2em;
+	color: #666;
+	width: 460px;
+	margin-top:-10px;
+}
+#viewGallery a{
+	color: #666;	
+}
+#viewGallery a:hover{
+	color: #00254A;	
+}
+.bottom_padding{
+	padding-bottom: 20px;
+}
+.top_boarder{
+	border-top: 2px, dotted, #666;
+}
+
+/*The following is related to the print magazine page which positions text to fit into a background image*/
+#imageWrap {
+	margin-top:25px;
+	background-image: url(../../print/images/magazineInsert.jpg);
+	background-repeat:no-repeat;
+	min-height:215px;
+}
+.imageText{
+	width:307px;
+	max-height:138px;
+	margin:0 0 0 93px;
+	padding:72px 0 0 0;
+	overflow:hidden;
+	color:#ada8a3;
+}
+.imageText h1 {
+	font-size:17px !important;
+	color:#ada8a3 !important;
+	padding:0 !important;
+	margin-top:17px !important;
+}
+.imageText  #title {
+	font-size:6px !important;
+	line-height: 7px !important;
+
+}
+.imageText p {
+	font-size:6px !important;
+	margin:15px 0 0 0 !important;
+	padding:0 !important;
+	color:#9C9C9C !important;
+	line-height:7px !important;
+}
+.adobe {
+	margin-top:27px
+}
+
+.adobe img {
+	
+	float:left;
+}
+.adobe a img {
+	padding:17px 12px;
+	background-color:#efefec;
+	border-left:solid 3px #fff;	
+}
+#printButton .fileSize {
+	position:relative; 
+	bottom:12px; 
+	right:44px; 
+	color:#fff;
+	font-size:9px;
+	font:helvetica;
+	font-weight:bold;
+}
+
+/*END print magazine css*/</ESContent></EmptyShell>

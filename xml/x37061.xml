@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x37061" Name="Frequently Asked Questions" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Frequently Asked Questions</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Frequently Asked Questions from the BYU-Idaho Student Health Center</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<div id="headblock">
+<div id="content_header">
+<div class="icons"></div>
+<div class="titlehead">Frequently Asked Questions</div>
+<div class="subhead"></div>
+</div>
+</div>
+<style><!--
+#content_header .icons{background-position: 0px -400px !important;}
+--></style>
+<p><link href="documents/health-center/css/faqtest.css" rel="stylesheet" type="text/css" /></p>
+<script type="text/javascript">
+var ContentHeight = 300;
+var TimeToSlide = 300.0;
+var openAccordion = '';
+function runAccordion(index){  
+	var nID = "Accordion" + index + "Content";  
+	if(openAccordion == nID)    nID = '';  
+	setTimeout("animate(" + new Date().getTime() + "," + TimeToSlide + ",'"       + openAccordion + "','" + nID + "')", 33);  
+	openAccordion = nID;
+}
+function animate(lastTick, timeLeft, closingId, openingId){ 
+   var curTick = new Date().getTime();  
+   var elapsedTicks = curTick - lastTick;  
+   var opening = (openingId == '') ? null : document.getElementById(openingId);  
+   var closing = (closingId == '') ? null : document.getElementById(closingId);  
+   if(timeLeft <= elapsedTicks)  {    
+		if(opening != null)     
+			opening.style.height = 'auto';    
+		if(closing != null)    {      
+			closing.style.display = 'none';      
+			closing.style.height = '0px';    
+		}    
+		return;  
+	}  
+	timeLeft -= elapsedTicks;  
+	var newClosedHeight = Math.round((timeLeft/TimeToSlide) * ContentHeight);  
+	if(opening != null)  {    
+		if(opening.style.display != 'block')     
+			opening.style.display = 'block';   
+		opening.style.height = (ContentHeight - newClosedHeight) + 'px';  
+	} 
+	if(closing != null)   
+		closing.style.height = newClosedHeight + 'px';  
+	setTimeout("animate(" + curTick + "," + timeLeft + ",'"       + closingId + "','" + openingId + "')", 33);
+}
+</script>
+<p><link href="faqtest.css" rel="stylesheet" type="text/css" /></p>
+<div class="AccordionContainer" id="AccordionContainer">
+<div onclick="runAccordion(1);">
+<div class="AccordionTitle" style="text-align: justify;">&nbsp;What are your hours?</div>
+</div>
+<div class="AccordionContent" id="Accordion1Content" style="text-align: justify;"><br /><strong>Student Health Center:</strong> <br /><strong>MWThF:</strong> 8am-5pm <br /><strong>Tues:</strong> 8am-2pm, 3pm-5pm <br /><strong>We are closed on Tuesday from 2-3pm for Devotional.</strong><br /> <br /> <strong>Pharmacy:</strong> <br /> <strong>MWThF:</strong> 9am-5pm <br /><strong>Tues:</strong> 9am-2pm, 3pm-5pm <br /><strong> We are closed on Tuesday from 2-3pm for Devotional.</strong> <br /> Hours during Winter and Summer breaks may vary.<br /><br /></div>
+<div onclick="runAccordion(2);" style="text-align: justify;">
+<div class="AccordionTitle">&nbsp;Why do I have to get a TB test?</div>
+</div>
+<div class="AccordionContent" id="Accordion2Content" style="text-align: justify;"><br /> All missionaries need to have a TB test upon returning from a mission regardless<br /> of where&nbsp;they have served.&nbsp;Also those who have lived in or traveled to a <br />high-risk country need to have a TB test.<br /> For a list of high-risk countries and more information,<br /> please visit: <a href="x34770.xml">www.byui.edu/health-center/services/tb-testing</a><br /><br /></div>
+<div onclick="runAccordion(3);" style="text-align: justify;">
+<div class="AccordionTitle">&nbsp;Why can't you do a TB test on Thursday?</div>
+</div>
+<div class="AccordionContent" id="Accordion3Content" style="text-align: justify;"><br /> TB tests have to be checked 48-72 hours after being administered. <br />The Student Health Center is only open on Monday-Friday, <br />so if a TB test were to be administered on Thursday, it couldn'<br />t be checked within 48-72 hours. For more questions about TB holds,<br /> watch our <a href="x43322.xml">TB Hold Tutorial</a><br /><br /></div>
+<div onclick="runAccordion(4);" style="text-align: justify;">
+<div class="AccordionTitle">&nbsp;Who can be seen at the Health Center?</div>
+</div>
+<div class="AccordionContent" id="Accordion4Content" style="text-align: justify;"><br />Only students of the university and their dependents can be seen at the Health Center.<br /><br /></div>
+<div onclick="runAccordion(5);" style="text-align: justify;">
+<div class="AccordionTitle">&nbsp;What is your no-show policy?</div>
+</div>
+<div class="AccordionContent" id="Accordion5Content" style="text-align: justify;"><br /> If you are unable to make your appointment, contact the Health Center immediately. <br /> <br /> You will be charged a $10 fine if you do not show up for your appointment or <br />cancel less than an hour before.<br /><br /></div>
+<div onclick="runAccordion(6);" style="text-align: justify;">
+<div class="AccordionTitle">&nbsp;What vaccines do you have?</div>
+</div>
+<div class="AccordionContent" id="Accordion6Content" style="text-align: justify;"><br /> We offer the following immunizations:<br />
+<ul>
+<li>Allergy Shots (Recurring)</li>
+<li>Hepatitis A</li>
+<li>Hepatitis B</li>
+<li>Combination Hepatitis A and B</li>
+<li>Meningococcal Meningitis</li>
+<li>MMR (Measles, Mumps, and Rubella)</li>
+<li>Polio</li>
+<li>Tdap (Tetanus, Diphtheria, Pertussis)</li>
+<li>Typhoid</li>
+<li style="text-align: left;">Influenza</li>
+</ul>
+<p>For more information, visit:<br /><a href="x47768.xml">www.byui.edu/health-center/services/immunizations</a></p>
+<br /><br /></div>
+<div onclick="runAccordion(7);" style="text-align: justify;">
+<div class="AccordionTitle">&nbsp;How do I pay for my visit to the Health Center?</div>
+</div>
+<div class="AccordionContent" id="Accordion7Content" style="text-align: justify;"><br /> Any charges you incur at the Student Health Center will be placed on your <br />student account.&nbsp;You can pay outstanding balances on your student<br /> account at the cashier's office in the&nbsp;Kimball building, or you may<br /> pay the balance online by accessing <a href="http://my.byui.edu">http://my.byui.edu</a><br /><br /></div>
+<div onclick="runAccordion(8);" style="text-align: justify;">
+<div class="AccordionTitle">&nbsp;Does The SHC See Patients With Private Insurance?</div>
+</div>
+<div class="AccordionContent" id="Accordion8Content" style="text-align: justify;"><br />
+<p style="margin: 0px 10px 0px 10px !important;"><strong>The Student Health Center:</strong> Yes; however, the Student Health Center does<br /> not bill private insurance. For office visits or any services provided during office visits.<br /><br /> <strong>The Pharmacy:</strong> The Student Health Center Pharmacy is able to directly bill <br />most private insurance plans (hundreds of national plans) for prescriptions. <br /><br /></p>
+<p style="margin: 0px 10px 0px 10px !important;">These include Blue Cross and Blue Shield, Tricare (military), Medco, Deseret Mutual, Aetna, Caremark, CVS, Cigna, Express Scripts, Medimpact, and many others. Bring in your pharmacy insurance card and we'll be glad&nbsp;to run it for you. If you do not have your card here at school, your parents can fax us a copy of their pharmacy card and we can run it for you. Also, even if you have already&nbsp;picked up your prescription, you can bring in your pharmacy insurance card to be run as long as it is less than one month from the time you picked up your prescription. <br /><br /></p>
+</div>
+<div onclick="runAccordion(9);" style="text-align: justify;">
+<div class="AccordionTitle">&nbsp;What is "Co-pay" and how much is it?</div>
+</div>
+<div class="AccordionContent" id="Accordion9Content" style="text-align: justify;"><br />
+<ul>
+<li>A Co-payment, or "Co-pay", is a fixed dollar amount (for example $20 or $30) you<br /> pay for specified covered services such as a doctor office visit.</li>
+<li>If you have Student Health Plan, the Co-payment for a visit at the Student Health Center is $10</li>
+</ul>
+<p>For more information, please visit:<br /><span style="font-size: 11pt; line-height: 1.4em;" data-mce-mark="1"><a href="x46738.xml">www.byui.edu/health-center/Health-Plan</a></span></p>
+<br /><br /></div>
+<div onclick="runAccordion(10);" style="text-align: justify;">
+<div class="AccordionTitle">&nbsp;How do I get my Health Plan card?</div>
+</div>
+<div class="AccordionContent" id="Accordion10Content" style="text-align: justify;"><br />If you have the Student Health Plan, then you should receive your<br /> health plan card in the mail.&nbsp;However, this is mailed to the address <br />on record when you register. This means your card could be<br /> mailed to your parent's house.<br /><br /></div>
+<div onclick="runAccordion(11);" style="text-align: justify;">
+<div class="AccordionTitle">&nbsp;How do I find my Health Plan Policy Number?</div>
+</div>
+<div class="AccordionContent" id="Accordion11Content" style="text-align: justify;"><br /><strong>If you have your Health Plan Card:</strong>
+<ul>
+<li>Policy number should be displayed and marked appropriately.</li>
+</ul>
+<strong>No Health Plan Card:</strong>
+<ul>
+<li>You will need to contact Deseret Mutual for access to your policy number.<br />1-800-777-3622</li>
+</ul>
+<br /><br /></div>
+<div onclick="runAccordion(12);" style="text-align: justify;">
+<div class="AccordionTitle">&nbsp;How does my health plan work if I am out of state?</div>
+</div>
+<div class="AccordionContent" id="Accordion12Content" style="text-align: justify;"><br />
+<ul>
+<li>If you are out of state, you are covered by the Away From Campus health plan option.</li>
+<li>From the Student Health Plan Handbook:</li>
+</ul>
+"If you are away from Rexburg, you may receive your medical care from<br /> any qualified, appropriately licensed medical provider. However, it <br />will be to your advantage to use&nbsp;providers who are part of Deseret<br /> Mutual's national Preferred Provider&nbsp;Network whenever possible."<br />(Page 4)"You must still preauthorize any care you receive outside of<br /> the SHC,&nbsp;other than emergency and well-baby care."<br /> (Page 4)For information&nbsp;about providers in your area, please<br /> call the appropriate telephone number. Be sure to identify yourself <br />as&nbsp;a participant in a Deseret Mutual plan.&nbsp;Hawaii: MDX (formerly Queen's<br /> Health Care Plan Network)&nbsp;1-808-293-3970<br /><br />Idaho and Utah: Deseret Mutual Contracted Providers<br />1-800-777-3622 or www.dmba.com (click on "Find a Provider")<br /><br />All other states: First Health Medical Network<br />1-800-226-5116 or www.firsthealth.com (Page 19)<br /><br />For more information, please refer to:<br /><a href="http://www.dmba.com/nsc/Student/Handbooks.aspx">Student Health Plan Handbook</a><br /><br /></div>
+<div onclick="runAccordion(13);" style="text-align: justify;">
+<div class="AccordionTitle">&nbsp;How Do I Locate The BYU-Idaho Health Plan Manual Online?</div>
+</div>
+<div class="AccordionContent" id="Accordion13Content" style="text-align: justify;"><br />Visit <a href="http://www.dmba.com/nsc/Student/Handbooks.aspx" title="http://www.dmba.com/nsc/Student/Handbooks.aspx">http://www.dmba.com/nsc/Student/Handbooks.aspx</a> and<br /> select the Student Health&nbsp;Plan handbook that correlates<br /> with the current year.<br /><br /></div>
+</div>
+<p><iframe frameborder="0" height="240" id="footer" scrolling="no" src="Documents/health-center/footer.html" width="100%"></iframe></p>
+<p><link href="Documents/health-center/css/header.css" rel="stylesheet" /></p>
+<p><link href="Documents/health-center/css/faqs.css" rel="stylesheet" /></p>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="true" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="true" List=""><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="true" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" CompTypes="ContentSnippet" Expanded="false"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x28441" CompTypes="SiteControl" Expanded="false"/></Content>

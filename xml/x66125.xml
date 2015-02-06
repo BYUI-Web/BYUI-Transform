@@ -1,0 +1,404 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.82 - http://www.ingeniux.com ***-->
+<AdminPage ID="x66125" Name="Film Society" Layout="admin_office_home.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Film Society</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Film Society</Abstract><MainMesgTop type="boolean" label="Enable to move &quot;Main Message&quot; to top of page" readonly="false" required="false" hidden="false">false</MainMesgTop><IntroCopy type="dhtml" label="Main Message" readonly="false" hidden="false" required="false"><![CDATA[<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+<title>Film Society</title>
+<style type="text/css"><!--
+body {
+	font: 100%/1.4 Verdana, sans-serif;
+	background: #fff;
+	margin: 0;
+	padding: 0;
+	color: #000000;
+}
+
+ul, ol, dl, li { 
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, p {
+	margin-top: 0;
+	margin-left: 0px;
+	padding-right: 0px;
+	padding-left: 0px; 
+	padding-bottom: 0px;
+	font-size: 12px;
+	font family: helvetica, sans-serif;
+
+}
+
+h5 {
+	margin-top: 0;
+	margin-left: 0px;
+	padding-right: 0px;
+	padding-left: 0px; 
+	padding-bottom: 0px;
+	font-size: 10px;
+	font-family: Helvetica, sans-serif;
+}
+
+h6 {
+	margin-top: 0;
+	margin-left: 0px;
+	padding-right: 0px;
+	padding-left: 15px; 
+	padding-bottom: 15px;
+	padding-top: 15px;
+	font-size: 10px !important;
+	font: Helvetica, sans-serif !important;
+}
+
+#p{
+	margin-top: 0;
+	margin-left: 0px;
+	padding-right: 0px;
+	padding-left: 15px; 
+	padding-bottom: 0px;
+	font-size: 12px !important;
+	font: Verdana, Geneva, sans-serif !important;
+	font-size:10px !important;
+}
+
+hr {
+	padding-top:-10px
+	
+}
+
+a img {
+	border: none;
+	float:;
+	padding-top: 0px;
+}
+
+a:link {
+	color: #000000;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #000000;
+	text-decoration: underline;
+}
+
+a:hover, a:active, a:focus {
+	text-decoration: blink;
+	color: #000;
+}
+
+
+.container {
+	width: 650px;
+	background: #FFF;
+	margin: 0;
+	overflow: none;	
+}
+
+.topper {
+	float: left;
+	width: 650px;
+	background: #fff;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.vimeo {
+	float: left;
+	width: 475px;
+	background: #fff;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.content_top {
+	float: left;
+	width: 435px;
+	height: 400px;
+	background: #fff;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.content_bottom {
+	float: left;
+	width: 475px;
+	height: 300px;
+	background: #fff;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+
+.image {
+	float: right;
+	width: 167.5px;
+	background: #fff;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.hr {
+	float: left;
+	width: 650px;
+	background: #fff;
+	padding-bottom: 15px;
+	padding-top: 0px;
+	border-bottom: 1px dotted #000000;
+}
+
+.sidebar1 {
+	float: right;
+	width: 167.5px;
+	background: #fff;
+	padding-top: 15px;
+}
+
+.content1 {
+	width: 475px;
+	float: left;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.leftBox {
+	width: 224px;
+	float: left;
+	padding-top: 15px;
+}
+
+.rightBox {
+	width: 224px;
+	min-height: 250;
+	float: left;
+	padding-top: 15px;
+	padding-left: 0px;
+}
+
+.content ul, .content ol {
+	padding-top: 0;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+ul.nav {
+	list-style: none;
+	border-top: 1px solid #666;
+	margin-bottom: 15px;
+}
+
+ul.nav li {
+	border-bottom: 1px solid #666;
+}
+
+ul.nav a, ul.nav a:visited { 
+	display: block;
+	width: 150px;
+	text-decoration: none;
+	background: #C6D580;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+}
+
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus {
+	background: #ADB96E;
+	color: #FFF;
+}
+
+
+.fltrt {
+	float: right;
+	margin-left: 8px;
+}
+
+.fltlft {
+	float: left;
+	margin-right: 8px;
+}
+
+.clearfloat {
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+.bottomBox {
+	width:471px;
+	height:auto;
+	padding-bottom:15px;
+}
+
+.Box11 {
+	width:471px;
+	height:auto;
+	float:left;
+	padding-top:5px;	
+}
+
+
+.box1 p, .box2 p, .box3 p, .box4 p, .box5 p, .box6 p, .box7 p, .box9 p, .box10 p, .box11 p, .box12 p, .box13 p, .box14 p, .box15 p, .box16 p{
+	margin: 15px;
+	color: #000000;
+	outline: none;
+}
+
+.box1{
+	width: 224px;
+	min-height: 150px;
+	position:relative;
+	float:left;
+	padding-top:0px;
+	padding-bottom:0px;
+	display: inline-block;
+	background: -webkit-gradient(linear, 0% 20%, 0% 1000%, from(#fff), to(#fff), color-stop(.1,#f3f3f3));
+	border: 1px solid #DDD;
+		
+}
+
+.box1:before{
+	content: '';
+	width: 50px;
+	height: 100px;
+	position:absolute;
+	bottom:0; right:0;
+	
+}
+
+.box1:after{
+	content: '';
+	width: 100px;
+	height: 100px;
+	top:0; left:0;
+	position:absolute;
+	display: inline-block;
+	
+}
+
+.box2{
+	width: 224px;
+	min-height: 150px;
+	position:relative;
+	float:right;
+	padding-top:0px;
+	padding-bottom:0px;
+	display: inline-block;
+	background: -webkit-gradient(linear, 0% 20%, 0% 1000%, from(#fff), to(#fff), color-stop(.1,#f3f3f3));
+	border: 1px solid #DDD;
+		
+}
+
+.box2:before{
+	content: '';
+	width: 50px;
+	height: 100px;
+	position:absolute;
+	bottom:0; right:0;
+	
+}
+
+.box2:after{
+	content: '';
+	width: 100px;
+	height: 100px;
+	top:0; left:0;
+	position:absolute;
+	display: inline-block;
+	
+}
+
+.twtr-hd, .twtr-ft
+{
+display: none;
+}
+
+.twtr-widget .twtr-tweet {
+border:none!important;
+border-color:#FFF;
+text-align:left;
+font-family:  Helvetica, sans-serif !important;
+font-size:12px;
+}
+
+#twtr-widget .twtr-new-results, #twtr-widget .twtr-results-inner, #twtr-widget .twtr-timeline {
+    background:#FFFFFF !important;
+}
+--></style>
+<!--        --> <!--        --> <!--TOPPER-->
+<div class="container">
+<div class="topper">
+<div class="vimeo"><iframe frameborder="0" height="300" src="http://player.vimeo.com/video/7045777?byline=0&amp;portrait=0" width="471"></iframe></div>
+<div class="image"><img alt="Join Our Facebook Fan Page" border="0" height="300" src="https://fbcdn-sphotos-a.akamaihd.net/hphotos-ak-ash4/392747_231341640264468_151570944908205_533595_397201784_n.jpg" width="167.5" /></div>
+<div class="hr"></div>
+</div>
+<!--END TOPPER--> <!--CONTENT-->
+<div class="content1">
+<div class="bottomBox">
+<div class="box1">
+<h6><strong>FILM SOCIETY INFO</strong> <br /> Meeting Location: <em><strong>Snow 102</strong></em> <br /> Meeting Day: <em><strong>Thursdays</strong></em> <br /> Meeting Time: <em><strong>5-6pm</strong></em> <br /> <a href="http://www.ardvisuals.com/FilmSociety-Proposal.pdf"><strong><em>Society Bylaws</em></strong></a></h6>
+</div>
+<!-- end box1 -->
+<div class="box2">
+<h6><strong>FILM SOCIETY LEADERS</strong> <br /> Advisor: <em><a href="http://beta.byui.edu/theatre/contact/roger-merrill"><strong>Roger Merrill</strong></a></em> <br /> President:   <br /> Vice President:   <br /> Vice President:</h6>
+</div>
+<!-- end box1 --></div>
+<div class="bottomBox1">
+<div class="Box11"><a href="http://www.facebook.com/byuifilm" target="_blank"><img alt="Join Our Facebook Fan Page" border="0" src="https://fbcdn-sphotos-a.akamaihd.net/hphotos-ak-ash4/406048_246609265404372_151570944908205_569641_1360107051_n.jpg" /></a></div>
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="201" width="471">
+<param name="allowFullScreen" value="true" />
+<param name="allowscriptaccess" value="always" />
+<param name="src" value="http://www.youtube.com/v/xitHF0IPJSQ?modestbranding=0;autohide=1&amp;showinfo=0&amp;controls=0;" />
+<param name="allowfullscreen" value="true" /><embed src="http://www.youtube.com/v/xitHF0IPJSQ?modestbranding=0;autohide=1&amp;showinfo=0&amp;controls=0;" type="application/x-shockwave-flash" width="471" height="201"></embed>
+</object>
+<br /> <br /></div>
+</div>
+<!--       ---> <!-- END CONTENT ---> <!--      ---> <!--START SIDEBAR-->
+<div class="sidebar1">
+<h5><strong>FOLLOW US</strong></h5>
+<hr />
+<div align="center">
+<table cellpadding="0" cellspacing="0" width="150">
+<tbody>
+<tr>
+<td><a href="http://www.facebook.com/byuifilm" target="_blank"><img alt="Join Our Facebook Fan Page" border="0" height="50" src="https://fbcdn-sphotos-a.akamaihd.net/hphotos-ak-ash4/374903_230906693641296_151570944908205_545646_960772802_n.jpg" width="50" /></a></td>
+<td><a href="http://twitter.com/byuifilm" target="_blank"><img alt="Follow Us On Twitter" border="0" height="50" src="https://fbcdn-sphotos-a.akamaihd.net/hphotos-ak-snc7/380152_230906706974628_151570944908205_545647_1817127626_n.jpg" width="50" /></a></td>
+<td><a href="http://www.vimeo.com/byuifilm" target="_blank"><img alt="Check Us Out On MySpace" border="0" height="50" src="https://fbcdn-sphotos-a.akamaihd.net/hphotos-ak-snc7/386052_230906720307960_151570944908205_545648_1999867959_n.jpg" width="50" /></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<br />
+<h5><strong>TWITTER FEED</strong></h5>
+<hr />
+<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script type="text/javascript">
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 5,
+  interval: 30000,
+  width: 167.5,
+  height: 400,
+  theme: {
+    shell: {
+      background: '#ffffff',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#000000',
+      links: '#0065b3'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: true,
+    behavior: 'all'
+  }
+}).render().setUser('byuifilm').start();
+</script>
+<br /> <br /></div>
+</div>
+<!-- END SIDEBAR ---> <!--       --->]]></IntroCopy><xPower Type="GroupStart" GroupStart="" Name="CellGroup" label="Cells" readonly="false" hidden="false" required="false" Expanded="false"><numColumns type="enumeration" values="1 2 3 4 5" label="Select number of cell columns." readonly="false" hidden="false" required="true">3</numColumns><xPower Type="List" List="xpowercomponent_Cell" Name="CellList" label="Cell List" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"><xPower Type="Component" Component="" Name="Cell" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"/></xPower></xPower><xPower Type="List" List="xpowercomponent_BannerAd" Name="BannerAds" label="Rotating Ads (650x216px required)" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"><xPower Type="Component" Component="" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/></xPower><xPower Type="Navigation" StartPage="" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Subtree" Query="" Name="DeptEvents" label="Define Your Events Folder" readonly="false" hidden="false" required="false" Expanded="false"/><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="QuickLinksGroup" label="Quick Links Group" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Component="" Name="QuickLinks" label="Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="true"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Insert" Insert="" WellFormed="false" ExtractHTMLBody="false" Name="HTMLInsert" label="Insert" readonly="false" hidden="true" required="false" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x17645" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></AdminPage>

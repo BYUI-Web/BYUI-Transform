@@ -1,0 +1,594 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x45176" Name="Get Involved" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Get Involved</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Get Involved</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+.cat-info-content a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    .cat-info-content a:hover {
+        text-decoration: underline;
+    }
+
+    ul.bxslider, ul.bxslider li{
+        height: 442px;
+        margin: 0px;
+        padding: 0px;
+        list-style-type: none;
+        overflow: hidden;
+    }
+
+    .cat-info-block {
+        margin-bottom: 10px;
+        padding: 20px 10px;
+        display: none;
+        height: 90px;
+        border: 4px solid;
+        position: relative;
+        top: -4px;
+        z-index: 1;
+    }
+
+    .cat-info-content > ul {
+        float: left;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+
+    .theater > a { background-image:url("Images/student-support/Get%20Involved/site/theater.gif"); } 
+    .service > a { background-image:url("Images/student-support/Get%20Involved/site/service.gif"); } 
+    .campus > a { background-image:url("Images/student-support/Get%20Involved/site/campus-life.gif"); } 
+    .academic > a{ background-image:url("Images/student-support/Get%20Involved/site/academic.gif"); } 
+    .culture > a{ background-image:url("Images/student-support/Get%20Involved/site/culture.gif"); } 
+    .social > a{ background-image:url("Images/student-support/Get%20Involved/site/social.gif"); } 
+    .outdoors > a{ background-image:url("Images/student-support/Get%20Involved/site/outdoors.gif"); } 
+    .entertainment > a{ background-image:url("Images/student-support/Get%20Involved/site/entertainment.gif"); }
+    .wellness > a{ background-image:url("Images/student-support/Get%20Involved/site/wellness.gif"); } 
+    .sports > a{ background-image: url("Images/student-support/Get%20Involved/site/sports.gif"); } 
+
+    
+    .theater > a:hover, .theater.active a{ background-image:url("Images/student-support/Get%20Involved/site/theater-hover.gif"); } 
+    .service > a:hover, .service.active a{ background-image:url("Images/student-support/Get%20Involved/site/service-hover.gif"); } 
+    .campus > a:hover, .campus.active a{ background-image:url("Images/student-support/Get%20Involved/site/campus-life-hover.gif"); } 
+    .academic > a:hover, .academic.active a{ background-image:url("Images/student-support/Get%20Involved/site/academic-hover.gif"); } 
+    .culture > a:hover, .culture.active a{ background-image:url("Images/student-support/Get%20Involved/site/culture-hover.gif"); } 
+    .social > a:hover, .social.active a{ background-image:url("Images/student-support/Get%20Involved/site/social-hover.gif"); } 
+    .outdoors > a:hover, .outdoors.active a{ background-image:url("Images/student-support/Get%20Involved/site/outdoors-hover.gif"); } 
+    .entertainment > a:hover, .entertainment.active a{ background-image:url("Images/student-support/Get%20Involved/site/entertainment-hover.gif"); } 
+    .wellness > a:hover, .wellness.actives a{ background-image:url("Images/student-support/Get%20Involved/site/wellness.gif"); }
+    .sports > a:hover, .sports.active a{ background-image: url("Images/student-support/Get%20Involved/site/sports-hover.gif"); }
+
+    .cat-nav li a:hover+p, .cat-nav li.active p{ color: inherit;}
+
+    .theater{color: #E42797;  }
+    .service{color: #87c9be; }
+    .campus{color: #27b4b8 ; }
+    .academic{color: #80c27f; }
+    .culture{color: #efa33e; }
+    .social{color: #7c4b9b; }
+    .outdoors{color: #e7575a; }
+    .entertainment{color: #455b9a; }
+    .wellness{color: #bababa; }
+    .sports{color: #e1c819; }
+
+    /* Dont merge the two. IE does not lie it. */
+    .theater.active{ border-color: #E42797 ;}
+    .service.active{ border-color: #87c9be ;}
+    .campus.active{ border-color: #27b4b8 ;}
+    .academic.active{ border-color: #80c27f ;}
+    .culture.active{ border-color: #efa33e ;}
+    .social.active{ border-color: #7c4b9b ;}
+    .outdoors.active{ border-color: #e7575a ;}
+    .entertainment.active{ border-color: #455b9a ;}
+    .wellness.active{ border-color: #bababa ;}
+    .sports.active{border-color: #f3da2b ;}
+
+
+    /*
+    .cat-info-block:nth-child(even) {
+        background-color: #85889B;
+    }
+
+    .cat-info-block:nth-child(odd) {
+        background-color: #625263;
+    }
+    */
+
+    .cat-info-block h4{
+        font-style: normal;
+        font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 1.2px;
+        color: inherit;
+        /*color: #454545;*/
+    }
+
+    .cat-info-block li .cat-info-block p{
+        color: #666;/*inherit;*/
+        margin: 0;
+    }
+
+    
+
+    #sl-content {
+        background-color: #6dcff6;
+        padding: 5px;
+        text-align: center;
+        height: 65px;
+    }
+    #sl-content p {
+        color: #fff;
+        text-transform: uppercase;
+        margin: 0px;
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+
+    #sl-progress {
+        clear:both;
+        width:75px;
+        margin:5px auto 15px;
+        padding:0;
+    }
+
+    #sl-progress li {
+        list-style:none;
+        float:left;
+        margin:0 2px;
+    }
+
+    #sl-progress li a {
+        display:block;
+        width:5px;
+        height:5px;
+        text-indent:-10000px;
+        background: white;
+        margin-top: 2px;
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+    }
+
+    #sl-progress li a.active {
+        background: #fff;
+    }
+    #sl-left-arrow, #sl-right-arrow {
+        background-repeat: no-repeat;
+        height: 100px;
+        width: 25px;
+        top: 18px;
+        position: absolute;
+    }
+
+    #sl-left-arrow {
+        background-image: url('Images/student-support/Get%20Involved/site/left_arrow2.gif');
+        left: 10px;
+    }
+    
+    #sl-right-arrow {
+        background-image: url('Images/student-support/Get%20Involved/site/right_arrow2.gif');
+        right: 10px;
+    }
+
+    #sl-content{
+        position: relative;
+    }
+
+    #categories-block {
+        margin-top: 40px;
+    }
+
+    #categories {
+        margin-top:30px;
+        position: relative;
+    }
+
+    .cat-head {
+        text-align: center;
+        margin: 10px;
+    }
+
+    .cat-head h4{
+        font-style: normal;
+        line-height: 1;
+        border: 2px solid #c5c5c5;
+        color: #c5c5c5;
+        padding: 6px;
+        text-transform: uppercase;
+        display: inline;
+        font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+        letter-spacing: 1.2px;
+    }
+
+    .cat-nav {
+        height: 140px;
+        padding-top: 10px;
+    }
+
+    .cat-nav li{
+        display: inline;
+        float: left;
+        /*width: 19%;*/
+        width: 129px;
+        text-align: center;
+        height: 152px;
+        padding-top: 23px;
+    }
+
+
+    .cat-nav li.active{ 
+        border-radius: 100px 100px 0 0;
+        border-left: 3px solid; 
+        border-top: 3px solid; 
+        border-right: 3px solid;
+        background-color: #fff;
+        z-index:100;
+        position: relative;
+        padding-top: 20px;
+    }
+
+    
+
+    .cat-nav .cat-img{
+        /*width: 70%;*/
+        display:-moz-inline-stack;
+    display:inline-block;
+    zoom:1;
+    *display:inline;
+        width: 90px;
+        height: 90px;
+        border-radius: 90px;
+    }
+
+    .cat-nav p {
+        margin: 0px;
+        text-transform: uppercase;
+        font-size: 13px;
+    }
+
+    #borderHide {
+        background-color: #c5c5c5;
+        min-height: 2px;
+        min-width: 127px;
+        position: absolute;
+    }
+    
+    .sl-picblock img {
+        display: none;
+    }
+
+    .sl-picblock img.active {
+        display: inherit;
+    }
+
+    .sl-msg{
+        display: none;
+        padding-top: 8px;
+
+    }
+
+    .sl-msg.active{
+display:-moz-inline-stack;
+    display:inline-block;
+    zoom:1;
+    *display:inline;
+    }
+.jsinline-block{
+display:-moz-inline-stack !important;
+    display:inline-block !important ;
+    zoom:1 !important;
+    *display:inline !important;
+}
+--></style>
+<style type="text/css"><!--
+.cat-nav li {
+height: 139px;
+}
+--></style>
+<div id="sl-slider">
+<div id="sl-pic-holder">
+<ul class="bxslider">
+<li><img class="active" src="Images/student-support/Get%20Involved/site/slide1.png" /></li>
+<li><img src="Images/student-support/Get%20Involved/site/slide2_r.png" /></li>
+<li><img src="Images/student-support/Get%20Involved/site/slide3.png" /></li>
+<li><img src="Images/student-support/Get%20Involved/site/slide4.png" /></li>
+</ul>
+</div>
+<div id="sl-content-holder">
+<div id="sl-content"><a id="sl-left-arrow"></a>&nbsp; <a id="sl-right-arrow"></a>&nbsp;
+<div class="sl-msg active">
+<p>Want to Get <strong>Involved?</strong></p>
+<p>Come Check Us Out!</p>
+</div>
+<div class="sl-msg">
+<p>Want to Get <strong>Involved?</strong></p>
+<p>Come Check Us Out!</p>
+</div>
+<div class="sl-msg">
+<p>Want to Get <strong>Involved?</strong></p>
+<p>Come Check Us Out!</p>
+</div>
+<div class="sl-msg">
+<p>Want to Get <strong>Involved?</strong></p>
+<p>Come Check Us Out!</p>
+</div>
+</div>
+</div>
+</div>
+<div id="categories-block">
+<div class="cat-head">
+<h4>Categories</h4>
+</div>
+<div id="categories">
+<div id="cat-top">
+<ul class="cat-nav">
+<li class="theater nav-item"><a class="cat-img" href="#"></a>
+<p class="cat-txt">Performing Arts</p>
+</li>
+<li class="service nav-item"><a class="cat-img" href="#"></a>
+<p class="cat-txt">Service</p>
+</li>
+<li class="campus nav-item"><a class="cat-img" href="#"></a>
+<p class="cat-txt">Campus Life</p>
+</li>
+<li class="academic nav-item"><a class="cat-img" href="#"></a>
+<p class="cat-txt">Academics / Networking</p>
+</li>
+<li class="culture nav-item"><a class="cat-img" href="#"></a>
+<p class="cat-txt">Culture</p>
+</li>
+</ul>
+<div class="clear"></div>
+<div class="cat-info-block theater">
+<h4>Performing Arts</h4>
+<div class="cat-info-content">
+<ul>
+<li><a href="get-involved/choir">Choirs</a></li>
+<li><a href="get-involved/orchestra">Orchestra</a></li>
+<li><a href="get-involved/talent">Talent Activities</a></li>
+</ul>
+</div>
+</div>
+<div class="cat-info-block service">
+<h4>Service</h4>
+<div class="cat-info-content">
+<ul>
+<li><a href="get-involved/get-connected">Get Connected</a></li>
+<li><a href="get-involved/involvement-reps">Involvement Reps</a></li>
+<li><a href="get-involved/student-service-activities">Service Activities</a></li>
+</ul>
+<ul>
+<li><a href="get-involved/ambassadors">Student Ambassadors</a></li>
+<li><a href="get-involved/devotional-ushers">Student Ushers</a></li>
+<li><a href="get-involved/rotc">ROTC</a></li>
+</ul>
+</div>
+</div>
+<div class="cat-info-block campus">
+<h4>Campus Life</h4>
+<div class="cat-info-content">
+<ul>
+<li><a href="get-involved/student-honor">Student Honor</a></li>
+<li><a href="get-involved/student-living">Student Living</a></li>
+<li><a href="student-representative-council/student-voice">Student Voice</a></li>
+</ul>
+<ul>
+<li><a href="get-involved/student-safety-council">Student Safety Council</a></li>
+<li><a href="get-involved/student-services-council">Student Services Council</a></li>
+</ul>
+</div>
+</div>
+<div class="cat-info-block academic">
+<h4>Acedemic / Networking</h4>
+<div class="cat-info-content">
+<ul>
+<li><a href="societies">Academic Societies</a></li>
+<li><a href="#">Build Program</a></li>
+<li><a href="http://alumni.byu.edu">Student Alumni Association</a></li>
+</ul>
+</div>
+</div>
+<div class="cat-info-block culture">
+<h4>Culture</h4>
+<div class="cat-info-content">
+<ul>
+<li><a href="get-involved/student-associations">Student Associations</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="cat-bottom">
+<ul class="cat-nav">
+<li class="sports nav-item"><a class="cat-img" href="#"></a>
+<p class="cat-txt">Sports</p>
+</li>
+<li class="social nav-item"><a class="cat-img" href="#"></a>
+<p class="cat-txt">Social</p>
+</li>
+<li class="outdoors nav-item"><a class="cat-img" href="#"></a>
+<p class="cat-txt">Outdoors</p>
+</li>
+<li class="entertainment nav-item"><a class="cat-img" href="#"></a>
+<p class="cat-txt">Entertainment</p>
+</li>
+<li class="wellness nav-item"><a class="cat-img" href="#"></a>
+<p class="cat-txt">Wellness</p>
+</li>
+</ul>
+<div class="clear"></div>
+<div class="cat-info-block sports">
+<div>
+<h4>Sports</h4>
+<div class="cat-info-content">
+<ul>
+<li><a href="get-involved/sports">Sports Activities</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="cat-info-block social">
+<div>
+<h4>Social</h4>
+<div class="cat-info-content">
+<ul>
+<li><a href="get-involved/social-activities">Social Activities</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="cat-info-block outdoors">
+<div>
+<h4>Outdoors</h4>
+<div class="cat-info-content">
+<ul>
+<li><a href="get-involved/outdoors">Outdoor Activities</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="cat-info-block entertainment">
+<div>
+<h4>Entertainment</h4>
+<div class="cat-info-content">
+<ul>
+<li><a href="get-involved/center-stage">Center Stage</a></li>
+<li><a href="get-involved/social-activities">Social Activities</a></li>
+<li><a href="get-involved/talent">Talent Activities</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="cat-info-block wellness">
+<div>
+<h4>Wellness</h4>
+<div class="cat-info-content">
+<ul>
+<li><a href="get-involved/wellness">Wellness Activities</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p>
+<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+</p>
+<p>
+<script src="Documents/student-support/Get%20Involved/PIE.js" type="text/javascript"></script>
+<script type="text/javascript">
+if(typeof console == "undefined") {
+   console = {log: function() {}};
+}
+
+//Documents/student-support/Get%20Involved/jquery.bxslider.min.js
+var mJquery = jQuery.noConflict();
+(function(t){var e={},s={mode:"horizontal",slideSelector:"",infiniteLoop:!0,hideControlOnEnd:!1,speed:500,easing:null,slideMargin:0,startSlide:0,randomStart:!1,captions:!1,ticker:!1,tickerHover:!1,adaptiveHeight:!1,adaptiveHeightSpeed:500,video:!1,useCSS:!0,preloadImages:"visible",responsive:!0,touchEnabled:!0,swipeThreshold:50,oneToOneTouch:!0,preventDefaultSwipeX:!0,preventDefaultSwipeY:!1,pager:!0,pagerType:"full",pagerShortSeparator:" / ",pagerSelector:null,buildPager:null,pagerCustom:null,controls:!0,nextText:"Next",prevText:"Prev",nextSelector:null,prevSelector:null,autoControls:!1,startText:"Start",stopText:"Stop",autoControlsCombine:!1,autoControlsSelector:null,auto:!1,pause:4e3,autoStart:!0,autoDirection:"next",autoHover:!1,autoDelay:0,minSlides:1,maxSlides:1,moveSlides:0,slideWidth:0,onSliderLoad:function(){},onSlideBefore:function(){},onSlideAfter:function(){},onSlideNext:function(){},onSlidePrev:function(){}};t.fn.bxSlider=function(n){if(0==this.length)return this;if(this.length>1)return this.each(function(){t(this).bxSlider(n)}),this;var o={},r=this;e.el=this;var a=t(window).width(),l=t(window).height(),d=function(){o.settings=t.extend({},s,n),o.settings.slideWidth=parseInt(o.settings.slideWidth),o.children=r.children(o.settings.slideSelector),o.children.length<o.settings.minSlides&&(o.settings.minSlides=o.children.length),o.children.length<o.settings.maxSlides&&(o.settings.maxSlides=o.children.length),o.settings.randomStart&&(o.settings.startSlide=Math.floor(Math.random()*o.children.length)),o.active={index:o.settings.startSlide},o.carousel=o.settings.minSlides>1||o.settings.maxSlides>1,o.carousel&&(o.settings.preloadImages="all"),o.minThreshold=o.settings.minSlides*o.settings.slideWidth+(o.settings.minSlides-1)*o.settings.slideMargin,o.maxThreshold=o.settings.maxSlides*o.settings.slideWidth+(o.settings.maxSlides-1)*o.settings.slideMargin,o.working=!1,o.controls={},o.interval=null,o.animProp="vertical"==o.settings.mode?"top":"left",o.usingCSS=o.settings.useCSS&&"fade"!=o.settings.mode&&function(){var t=document.createElement("div"),e=["WebkitPerspective","MozPerspective","OPerspective","msPerspective"];for(var i in e)if(void 0!==t.style[e[i]])return o.cssPrefix=e[i].replace("Perspective","").toLowerCase(),o.animProp="-"+o.cssPrefix+"-transform",!0;return!1}(),"vertical"==o.settings.mode&&(o.settings.maxSlides=o.settings.minSlides),r.data("origStyle",r.attr("style")),r.children(o.settings.slideSelector).each(function(){t(this).data("origStyle",t(this).attr("style"))}),c()},c=function(){r.wrap('<div class="bx-wrapper"><div class="bx-viewport"></div></div>'),o.viewport=r.parent(),o.loader=t('<div class="bx-loading" />'),o.viewport.prepend(o.loader),r.css({width:"horizontal"==o.settings.mode?100*o.children.length+215+"%":"auto",position:"relative"}),o.usingCSS&&o.settings.easing?r.css("-"+o.cssPrefix+"-transition-timing-function",o.settings.easing):o.settings.easing||(o.settings.easing="swing"),f(),o.viewport.css({width:"100%",overflow:"hidden",position:"relative"}),o.viewport.parent().css({maxWidth:v()}),o.settings.pager||o.viewport.parent().css({margin:"0 auto 0px"}),o.children.css({"float":"horizontal"==o.settings.mode?"left":"none",listStyle:"none",position:"relative"}),o.children.css("width",u()),"horizontal"==o.settings.mode&&o.settings.slideMargin>0&&o.children.css("marginRight",o.settings.slideMargin),"vertical"==o.settings.mode&&o.settings.slideMargin>0&&o.children.css("marginBottom",o.settings.slideMargin),"fade"==o.settings.mode&&(o.children.css({position:"absolute",zIndex:0,display:"none"}),o.children.eq(o.settings.startSlide).css({zIndex:50,display:"block"})),o.controls.el=t('<div class="bx-controls" />'),o.settings.captions&&P(),o.active.last=o.settings.startSlide==x()-1,o.settings.video&&r.fitVids();var e=o.children.eq(o.settings.startSlide);"all"==o.settings.preloadImages&&(e=o.children),o.settings.ticker?o.settings.pager=!1:(o.settings.pager&&T(),o.settings.controls&&C(),o.settings.auto&&o.settings.autoControls&&E(),(o.settings.controls||o.settings.autoControls||o.settings.pager)&&o.viewport.after(o.controls.el)),g(e,h)},g=function(e,i){var s=e.find("img, iframe").length;if(0==s)return i(),void 0;var n=0;e.find("img, iframe").each(function(){t(this).is("img")&&t(this).attr("src",t(this).attr("src")+"?timestamp="+(new Date).getTime()),t(this).load(function(){setTimeout(function(){++n==s&&i()},0)})})},h=function(){if(o.settings.infiniteLoop&&"fade"!=o.settings.mode&&!o.settings.ticker){var e="vertical"==o.settings.mode?o.settings.minSlides:o.settings.maxSlides,i=o.children.slice(0,e).clone().addClass("bx-clone"),s=o.children.slice(-e).clone().addClass("bx-clone");r.append(i).prepend(s)}o.loader.remove(),S(),"vertical"==o.settings.mode&&(o.settings.adaptiveHeight=!0),o.viewport.height(p()),r.redrawSlider(),o.settings.onSliderLoad(o.active.index),o.initialized=!0,o.settings.responsive&&t(window).bind("resize",B),o.settings.auto&&o.settings.autoStart&&H(),o.settings.ticker&&L(),o.settings.pager&&I(o.settings.startSlide),o.settings.controls&&W(),o.settings.touchEnabled&&!o.settings.ticker&&O()},p=function(){var e=0,s=t();if("vertical"==o.settings.mode||o.settings.adaptiveHeight)if(o.carousel){var n=1==o.settings.moveSlides?o.active.index:o.active.index*m();for(s=o.children.eq(n),i=1;i<=o.settings.maxSlides-1;i++)s=n+i>=o.children.length?s.add(o.children.eq(i-1)):s.add(o.children.eq(n+i))}else s=o.children.eq(o.active.index);else s=o.children;return"vertical"==o.settings.mode?(s.each(function(){e+=t(this).outerHeight()}),o.settings.slideMargin>0&&(e+=o.settings.slideMargin*(o.settings.minSlides-1))):e=Math.max.apply(Math,s.map(function(){return t(this).outerHeight(!1)}).get()),e},v=function(){var t="100%";return o.settings.slideWidth>0&&(t="horizontal"==o.settings.mode?o.settings.maxSlides*o.settings.slideWidth+(o.settings.maxSlides-1)*o.settings.slideMargin:o.settings.slideWidth),t},u=function(){var t=o.settings.slideWidth,e=o.viewport.width();return 0==o.settings.slideWidth||o.settings.slideWidth>e&&!o.carousel||"vertical"==o.settings.mode?t=e:o.settings.maxSlides>1&&"horizontal"==o.settings.mode&&(e>o.maxThreshold||e<o.minThreshold&&(t=(e-o.settings.slideMargin*(o.settings.minSlides-1))/o.settings.minSlides)),t},f=function(){var t=1;if("horizontal"==o.settings.mode&&o.settings.slideWidth>0)if(o.viewport.width()<o.minThreshold)t=o.settings.minSlides;else if(o.viewport.width()>o.maxThreshold)t=o.settings.maxSlides;else{var e=o.children.first().width();t=Math.floor(o.viewport.width()/e)}else"vertical"==o.settings.mode&&(t=o.settings.minSlides);return t},x=function(){var t=0;if(o.settings.moveSlides>0)if(o.settings.infiniteLoop)t=o.children.length/m();else for(var e=0,i=0;e<o.children.length;)++t,e=i+f(),i+=o.settings.moveSlides<=f()?o.settings.moveSlides:f();else t=Math.ceil(o.children.length/f());return t},m=function(){return o.settings.moveSlides>0&&o.settings.moveSlides<=f()?o.settings.moveSlides:f()},S=function(){if(o.children.length>o.settings.maxSlides&&o.active.last&&!o.settings.infiniteLoop){if("horizontal"==o.settings.mode){var t=o.children.last(),e=t.position();b(-(e.left-(o.viewport.width()-t.width())),"reset",0)}else if("vertical"==o.settings.mode){var i=o.children.length-o.settings.minSlides,e=o.children.eq(i).position();b(-e.top,"reset",0)}}else{var e=o.children.eq(o.active.index*m()).position();o.active.index==x()-1&&(o.active.last=!0),void 0!=e&&("horizontal"==o.settings.mode?b(-e.left,"reset",0):"vertical"==o.settings.mode&&b(-e.top,"reset",0))}},b=function(t,e,i,s){if(o.usingCSS){var n="vertical"==o.settings.mode?"translate3d(0, "+t+"px, 0)":"translate3d("+t+"px, 0, 0)";r.css("-"+o.cssPrefix+"-transition-duration",i/1e3+"s"),"slide"==e?(r.css(o.animProp,n),r.bind("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd",function(){r.unbind("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd"),D()})):"reset"==e?r.css(o.animProp,n):"ticker"==e&&(r.css("-"+o.cssPrefix+"-transition-timing-function","linear"),r.css(o.animProp,n),r.bind("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd",function(){r.unbind("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd"),b(s.resetValue,"reset",0),N()}))}else{var a={};a[o.animProp]=t,"slide"==e?r.animate(a,i,o.settings.easing,function(){D()}):"reset"==e?r.css(o.animProp,t):"ticker"==e&&r.animate(a,speed,"linear",function(){b(s.resetValue,"reset",0),N()})}},w=function(){for(var e="",i=x(),s=0;i>s;s++){var n="";o.settings.buildPager&&t.isFunction(o.settings.buildPager)?(n=o.settings.buildPager(s),o.pagerEl.addClass("bx-custom-pager")):(n=s+1,o.pagerEl.addClass("bx-default-pager")),e+='<div class="bx-pager-item"><a href="" data-slide-index="'+s+'" class="bx-pager-link">'+n+"</a></div>"}o.pagerEl.html(e)},T=function(){o.settings.pagerCustom?o.pagerEl=t(o.settings.pagerCustom):(o.pagerEl=t('<div class="bx-pager" />'),o.settings.pagerSelector?t(o.settings.pagerSelector).html(o.pagerEl):o.controls.el.addClass("bx-has-pager").append(o.pagerEl),w()),o.pagerEl.delegate("a","click",q)},C=function(){o.controls.next=t('<a class="bx-next" href="">'+o.settings.nextText+"</a>"),o.controls.prev=t('<a class="bx-prev" href="">'+o.settings.prevText+"</a>"),o.controls.next.bind("click",y),o.controls.prev.bind("click",z),o.settings.nextSelector&&t(o.settings.nextSelector).append(o.controls.next),o.settings.prevSelector&&t(o.settings.prevSelector).append(o.controls.prev),o.settings.nextSelector||o.settings.prevSelector||(o.controls.directionEl=t('<div class="bx-controls-direction" />'),o.controls.directionEl.append(o.controls.prev).append(o.controls.next),o.controls.el.addClass("bx-has-controls-direction").append(o.controls.directionEl))},E=function(){o.controls.start=t('<div class="bx-controls-auto-item"><a class="bx-start" href="">'+o.settings.startText+"</a></div>"),o.controls.stop=t('<div class="bx-controls-auto-item"><a class="bx-stop" href="">'+o.settings.stopText+"</a></div>"),o.controls.autoEl=t('<div class="bx-controls-auto" />'),o.controls.autoEl.delegate(".bx-start","click",k),o.controls.autoEl.delegate(".bx-stop","click",M),o.settings.autoControlsCombine?o.controls.autoEl.append(o.controls.start):o.controls.autoEl.append(o.controls.start).append(o.controls.stop),o.settings.autoControlsSelector?t(o.settings.autoControlsSelector).html(o.controls.autoEl):o.controls.el.addClass("bx-has-controls-auto").append(o.controls.autoEl),A(o.settings.autoStart?"stop":"start")},P=function(){o.children.each(function(){var e=t(this).find("img:first").attr("title");void 0!=e&&(""+e).length&&t(this).append('<div class="bx-caption"><span>'+e+"</span></div>")})},y=function(t){o.settings.auto&&r.stopAuto(),r.goToNextSlide(),t.preventDefault()},z=function(t){o.settings.auto&&r.stopAuto(),r.goToPrevSlide(),t.preventDefault()},k=function(t){r.startAuto(),t.preventDefault()},M=function(t){r.stopAuto(),t.preventDefault()},q=function(e){o.settings.auto&&r.stopAuto();var i=t(e.currentTarget),s=parseInt(i.attr("data-slide-index"));s!=o.active.index&&r.goToSlide(s),e.preventDefault()},I=function(e){var i=o.children.length;return"short"==o.settings.pagerType?(o.settings.maxSlides>1&&(i=Math.ceil(o.children.length/o.settings.maxSlides)),o.pagerEl.html(e+1+o.settings.pagerShortSeparator+i),void 0):(o.pagerEl.find("a").removeClass("active"),o.pagerEl.each(function(i,s){t(s).find("a").eq(e).addClass("active")}),void 0)},D=function(){if(o.settings.infiniteLoop){var t="";0==o.active.index?t=o.children.eq(0).position():o.active.index==x()-1&&o.carousel?t=o.children.eq((x()-1)*m()).position():o.active.index==o.children.length-1&&(t=o.children.eq(o.children.length-1).position()),"horizontal"==o.settings.mode?b(-t.left,"reset",0):"vertical"==o.settings.mode&&b(-t.top,"reset",0)}o.working=!1,o.settings.onSlideAfter(o.children.eq(o.active.index),o.oldIndex,o.active.index)},A=function(t){o.settings.autoControlsCombine?o.controls.autoEl.html(o.controls[t]):(o.controls.autoEl.find("a").removeClass("active"),o.controls.autoEl.find("a:not(.bx-"+t+")").addClass("active"))},W=function(){1==x()?(o.controls.prev.addClass("disabled"),o.controls.next.addClass("disabled")):!o.settings.infiniteLoop&&o.settings.hideControlOnEnd&&(0==o.active.index?(o.controls.prev.addClass("disabled"),o.controls.next.removeClass("disabled")):o.active.index==x()-1?(o.controls.next.addClass("disabled"),o.controls.prev.removeClass("disabled")):(o.controls.prev.removeClass("disabled"),o.controls.next.removeClass("disabled")))},H=function(){o.settings.autoDelay>0?setTimeout(r.startAuto,o.settings.autoDelay):r.startAuto(),o.settings.autoHover&&r.hover(function(){o.interval&&(r.stopAuto(!0),o.autoPaused=!0)},function(){o.autoPaused&&(r.startAuto(!0),o.autoPaused=null)})},L=function(){var e=0;if("next"==o.settings.autoDirection)r.append(o.children.clone().addClass("bx-clone"));else{r.prepend(o.children.clone().addClass("bx-clone"));var i=o.children.first().position();e="horizontal"==o.settings.mode?-i.left:-i.top}b(e,"reset",0),o.settings.pager=!1,o.settings.controls=!1,o.settings.autoControls=!1,o.settings.tickerHover&&!o.usingCSS&&o.viewport.hover(function(){r.stop()},function(){var e=0;o.children.each(function(){e+="horizontal"==o.settings.mode?t(this).outerWidth(!0):t(this).outerHeight(!0)});var i=o.settings.speed/e,s="horizontal"==o.settings.mode?"left":"top",n=i*(e-Math.abs(parseInt(r.css(s))));N(n)}),N()},N=function(t){speed=t?t:o.settings.speed;var e={left:0,top:0},i={left:0,top:0};"next"==o.settings.autoDirection?e=r.find(".bx-clone").first().position():i=o.children.first().position();var s="horizontal"==o.settings.mode?-e.left:-e.top,n="horizontal"==o.settings.mode?-i.left:-i.top,a={resetValue:n};b(s,"ticker",speed,a)},O=function(){o.touch={start:{x:0,y:0},end:{x:0,y:0}},o.viewport.bind("touchstart",X)},X=function(t){if(o.working)t.preventDefault();else{o.touch.originalPos=r.position();var e=t.originalEvent;o.touch.start.x=e.changedTouches[0].pageX,o.touch.start.y=e.changedTouches[0].pageY,o.viewport.bind("touchmove",Y),o.viewport.bind("touchend",V)}},Y=function(t){var e=t.originalEvent,i=Math.abs(e.changedTouches[0].pageX-o.touch.start.x),s=Math.abs(e.changedTouches[0].pageY-o.touch.start.y);if(3*i>s&&o.settings.preventDefaultSwipeX?t.preventDefault():3*s>i&&o.settings.preventDefaultSwipeY&&t.preventDefault(),"fade"!=o.settings.mode&&o.settings.oneToOneTouch){var n=0;if("horizontal"==o.settings.mode){var r=e.changedTouches[0].pageX-o.touch.start.x;n=o.touch.originalPos.left+r}else{var r=e.changedTouches[0].pageY-o.touch.start.y;n=o.touch.originalPos.top+r}b(n,"reset",0)}},V=function(t){o.viewport.unbind("touchmove",Y);var e=t.originalEvent,i=0;if(o.touch.end.x=e.changedTouches[0].pageX,o.touch.end.y=e.changedTouches[0].pageY,"fade"==o.settings.mode){var s=Math.abs(o.touch.start.x-o.touch.end.x);s>=o.settings.swipeThreshold&&(o.touch.start.x>o.touch.end.x?r.goToNextSlide():r.goToPrevSlide(),r.stopAuto())}else{var s=0;"horizontal"==o.settings.mode?(s=o.touch.end.x-o.touch.start.x,i=o.touch.originalPos.left):(s=o.touch.end.y-o.touch.start.y,i=o.touch.originalPos.top),!o.settings.infiniteLoop&&(0==o.active.index&&s>0||o.active.last&&0>s)?b(i,"reset",200):Math.abs(s)>=o.settings.swipeThreshold?(0>s?r.goToNextSlide():r.goToPrevSlide(),r.stopAuto()):b(i,"reset",200)}o.viewport.unbind("touchend",V)},B=function(){var e=t(window).width(),i=t(window).height();(a!=e||l!=i)&&(a=e,l=i,r.redrawSlider())};return r.goToSlide=function(e,i){if(!o.working&&o.active.index!=e)if(o.working=!0,o.oldIndex=o.active.index,o.active.index=0>e?x()-1:e>=x()?0:e,o.settings.onSlideBefore(o.children.eq(o.active.index),o.oldIndex,o.active.index),"next"==i?o.settings.onSlideNext(o.children.eq(o.active.index),o.oldIndex,o.active.index):"prev"==i&&o.settings.onSlidePrev(o.children.eq(o.active.index),o.oldIndex,o.active.index),o.active.last=o.active.index>=x()-1,o.settings.pager&&I(o.active.index),o.settings.controls&&W(),"fade"==o.settings.mode)o.settings.adaptiveHeight&&o.viewport.height()!=p()&&o.viewport.animate({height:p()},o.settings.adaptiveHeightSpeed),o.children.filter(":visible").fadeOut(o.settings.speed).css({zIndex:0}),o.children.eq(o.active.index).css("zIndex",51).fadeIn(o.settings.speed,function(){t(this).css("zIndex",50),D()});else{o.settings.adaptiveHeight&&o.viewport.height()!=p()&&o.viewport.animate({height:p()},o.settings.adaptiveHeightSpeed);var s=0,n={left:0,top:0};if(!o.settings.infiniteLoop&&o.carousel&&o.active.last)if("horizontal"==o.settings.mode){var a=o.children.eq(o.children.length-1);n=a.position(),s=o.viewport.width()-a.outerWidth()}else{var l=o.children.length-o.settings.minSlides;n=o.children.eq(l).position()}else if(o.carousel&&o.active.last&&"prev"==i){var d=1==o.settings.moveSlides?o.settings.maxSlides-m():(x()-1)*m()-(o.children.length-o.settings.maxSlides),a=r.children(".bx-clone").eq(d);n=a.position()}else if("next"==i&&0==o.active.index)n=r.find("> .bx-clone").eq(o.settings.maxSlides).position(),o.active.last=!1;else if(e>=0){var c=e*m();n=o.children.eq(c).position()}if("undefined"!=typeof n){var g="horizontal"==o.settings.mode?-(n.left-s):-n.top;b(g,"slide",o.settings.speed)}}},r.goToNextSlide=function(){if(o.settings.infiniteLoop||!o.active.last){var t=parseInt(o.active.index)+1;r.goToSlide(t,"next")}},r.goToPrevSlide=function(){if(o.settings.infiniteLoop||0!=o.active.index){var t=parseInt(o.active.index)-1;r.goToSlide(t,"prev")}},r.startAuto=function(t){o.interval||(o.interval=setInterval(function(){"next"==o.settings.autoDirection?r.goToNextSlide():r.goToPrevSlide()},o.settings.pause),o.settings.autoControls&&1!=t&&A("stop"))},r.stopAuto=function(t){o.interval&&(clearInterval(o.interval),o.interval=null,o.settings.autoControls&&1!=t&&A("start"))},r.getCurrentSlide=function(){return o.active.index},r.getSlideCount=function(){return o.children.length},r.redrawSlider=function(){o.children.add(r.find(".bx-clone")).outerWidth(u()),o.viewport.css("height",p()),o.settings.ticker||S(),o.active.last&&(o.active.index=x()-1),o.active.index>=x()&&(o.active.last=!0),o.settings.pager&&!o.settings.pagerCustom&&(w(),I(o.active.index))},r.destroySlider=function(){o.initialized&&(o.initialized=!1,t(".bx-clone",this).remove(),o.children.each(function(){void 0!=t(this).data("origStyle")?t(this).attr("style",t(this).data("origStyle")):t(this).removeAttr("style")}),void 0!=t(this).data("origStyle")?this.attr("style",t(this).data("origStyle")):t(this).removeAttr("style"),t(this).unwrap().unwrap(),o.controls.el&&o.controls.el.remove(),o.controls.next&&o.controls.next.remove(),o.controls.prev&&o.controls.prev.remove(),o.pagerEl&&o.pagerEl.remove(),t(".bx-caption",this).remove(),o.controls.autoEl&&o.controls.autoEl.remove(),clearInterval(o.interval),o.settings.responsive&&t(window).unbind("resize",B))},r.reloadSlider=function(t){void 0!=t&&(n=t),r.destroySlider(),d()},d(),this}}(mJquery));
+(function ($) {
+    function errorLog(message){
+        var dat = new Date();
+        console.log(dat.getMilliseconds() + " :: ERROR :: " + message);
+    }
+
+    function getParent(obj){
+        var bottomNav = "#cat-bottom";
+        var topNav = "#cat-top";
+        if(obj.parents(topNav).length != 0){
+            return topNav;
+        } else if(obj.parents(bottomNav).length != 0){
+            return bottomNav 
+        }
+        
+        errorLog("No Parents found in getParent");
+        return null;
+    }
+
+    function showInfoForElem(elem, prnt){
+        var prevActLi = $(".cat-nav li.active");
+        $(".cat-nav li").toggleClass("active", false);
+        var prevActive = $(".cat-info-block:visible");
+        var prevParent = getParent(prevActive);
+        $(".cat-info-block").hide();
+        var liElem = elem.parents("li");
+        var index = liElem.prevAll(".nav-item").length;
+        var infoElem = $($(prnt).find(".cat-info-block")[index]);
+        liElem.toggleClass("active", true);
+
+        if(window.PIE && $('html').is(".ie6,.ie7")){
+                if(prevActLi.length > 0){
+                     window.PIE.detach(prevActLi[0]); 
+                }
+                window.PIE.attach(liElem[0]);
+        }
+        //only slide if it panal changes
+        if(prevParent != null && prevParent == prnt){
+            infoElem.show();
+        }
+        else{
+            infoElem.slideDown(100);
+        }
+
+    }
+
+    $(document).ready(function(){
+        var bxSliderURL = "Documents/student-support/Get%20Involved/jquery.bxslider.min.js";
+            var slider = $(".bxslider").bxSlider({
+                pager: false,
+                controls: false,
+                auto: true,
+                autoHover: true,
+                onSlideBefore: fadeAndShowNextCaption
+            });
+            $("#sl-left-arrow").click(function(){
+                fadeAndShowNextCaption();
+                slider.goToPrevSlide();
+            });
+
+            $("#sl-right-arrow").click(function(){
+                fadeAndShowNextCaption();
+                slider.goToNextSlide();
+            });
+
+        $(".cat-nav a").click(function(evt){
+            evt.preventDefault();
+            var elem = $(evt.currentTarget);
+            var realParent = getParent(elem);
+
+            //get the index of the element clicked
+            showInfoForElem(elem, realParent);
+            //return false;
+        });    
+
+        
+        function fadeAndShowNextCaption(){
+            var curActive = $(".sl-msg.active");
+            var toBe = curActive.next(".sl-msg");
+
+            if(toBe.length == 0){
+                toBe = $(".sl-msg").first();
+            }
+
+            curActive.fadeOut('fast', function(){
+                    curActive.toggleClass('active', false);
+                    curActive.toggleClass('jsinline-block', false);
+                    toBe.fadeIn('fast', function(){
+                        toBe.toggleClass('active', true);
+                    }).toggleClass('jsinline-block', true);
+            });
+        }
+    });
+}(mJquery));
+</script>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-43458717-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0];     
+    s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x46900" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.82 - http://www.ingeniux.com ***-->
+<AdminPage ID="x33573" Name="Math Study Center" Layout="admin_office_home.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Visit the Math Study Center</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Visit the Math Study Center</Abstract><MainMesgTop type="boolean" label="Enable to move &quot;Main Message&quot; to top of page" readonly="false" required="false" hidden="false">false</MainMesgTop><IntroCopy type="dhtml" label="Main Message" readonly="false" hidden="false" required="false"><![CDATA[<h3>Located in the McKay Library 266 &amp; 270</h3>
+<table border="1" cellpadding="3" cellspacing="3" style="background-color: #ffffff; width: 60%;">
+<tbody>
+<tr>
+<td colspan="2">
+<h4>Walk-in Tutoring Hours</h4>
+</td>
+</tr>
+<tr>
+<td style="width: 35%; color: #444444;"><strong>Monday</strong></td>
+<td style="color: #444444;">9:00-6:30 pm</td>
+</tr>
+<tr>
+<td style="color: #444444;"><strong>Tuesday</strong></td>
+<td style="color: #444444;">9:00-9:00 pm</td>
+</tr>
+<tr>
+<td style="color: #444444;"><strong>Wednesday</strong></td>
+<td style="color: #444444;">9:00-9:00 pm</td>
+</tr>
+<tr>
+<td style="color: #444444;"><strong>Thursday</strong></td>
+<td style="color: #444444;">9:00-9:00 pm</td>
+</tr>
+<tr>
+<td style="color: #444444;"><strong>Friday</strong></td>
+<td style="color: #444444;">9:00-6:30 pm</td>
+</tr>
+<tr>
+<td style="color: #444444;"><strong>Saturday</strong></td>
+<td style="color: #444444;">11:00-2:00 pm</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>In the Math Study Center, you may study math whether it be for homework or preparing for a test.</li>
+<li>Trained staff of tutors available to answer math questions.</li>
+<li>Textbooks, solution manuals, and math strategies are available for many of the math classes.</li>
+<li>Student ID is required for Math Study Center and to check out textbooks.</li>
+<li>Students may also review their Math 100 and 101 tests at the Math Study Center during all center hours. *Students will need the test printout and a picture ID for test help.</li>
+</ul>
+<h3>Interested in Being a Math Tutor?</h3>
+<p>Fill out <a href="https://courses.byui.edu/AcademicSupport/math-study-center/math-tutor-application.pdf" target="_blank">this form</a> and email it to reedde@byui.edu.</p>]]></IntroCopy><xPower Type="GroupStart" GroupStart="" Name="CellGroup" label="Cells" readonly="false" hidden="false" required="false" Expanded="false"><numColumns type="enumeration" values="1 2 3 4 5" label="Select number of cell columns." readonly="false" hidden="false" required="true">3</numColumns><xPower Type="List" List="xpowercomponent_Cell" Name="CellList" label="Cell List" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"><xPower Type="Component" Component="" Name="Cell" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"/></xPower></xPower><xPower Type="List" List="xpowercomponent_BannerAd" Name="BannerAds" label="Rotating Ads (650x216px required)" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"><xPower Type="Component" Component="" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/></xPower><xPower Type="Navigation" StartPage="" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="" Query="" Name="DeptEvents" label="Define Your Events Folder" readonly="false" hidden="false" required="false" Expanded="false"/><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="QuickLinksGroup" label="Quick Links Group" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Component="" Name="QuickLinks" label="Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Insert" Insert="" WellFormed="false" ExtractHTMLBody="false" Name="HTMLInsert" label="Insert" readonly="false" hidden="true" required="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x25860" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></AdminPage>

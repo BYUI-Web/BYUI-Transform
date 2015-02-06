@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x62108" Name="Depression" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Depression</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Depression</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<script type="text/Javascript">
+   function expand(num) {
+      var hidden = document.getElementById("hidden" + num);
+      var expand = document.getElementById("plus" + num);
+
+      if (expand.innerHTML == "+") {
+         expand.innerHTML = "-";
+         hidden.style.display = "block";
+      } else {
+         expand.innerHTML = "+";
+         hidden.style.display = "none";
+      }
+   }
+
+   function hover(type, num) {
+      var hover = document.getElementById("plus" + num);
+
+      if (type == 1) {
+         hover.style.backgroundColor = "#999999";
+      } else {
+         hover.style.backgroundColor = "#007ebd";
+      }
+   }
+</script>
+<h3>Basic Overview Goes Here</h3>
+<p><a href="http://www.mentalhealthscreening.org/screening/BYUI" target="_blank">Depression Screening</a>:  Take this online test to find out if you are depressed.</p>
+<h3>Symptoms or Signs of Depression</h3>
+<p>Click the (+) next to each topic to learn more</p>
+<table border="0">
+<tbody>
+<tr>
+<td id="plus1" onclick="expand(1)" onmouseout="hover(2, 1)" onmouseover="hover(1, 1)" style="font-weight: bold; padding: 0 5px 5px; cursor: pointer; background-color: #007ebd; color: #ffffff; border: 1px solid #ffffff;">+</td>
+<td style="padding: 0 5px 5px; width: 200%;"><strong>Behavioral Symptoms</strong></td>
+</tr>
+<tr>
+<td></td>
+<td id="hidden1" style="display: none;">
+<ul style="margin-left: 15px;">
+<li>Crying</li>
+<li>Social withdrawal</li>
+<li>Psychomotor retardation (slow movements)</li>
+<li>Clinging behavior</li>
+<li>Agitation/Fidgeting</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td id="plus2" onclick="expand(2)" onmouseout="hover(2, 2)" onmouseover="hover(1, 2)" style="font-weight: bold; padding: 0 5px 5px; cursor: pointer; background-color: #007ebd; color: #ffffff; border: 1px solid #ffffff;">+</td>
+<td style="width: 250px; padding: 0 5px 5px;"><strong>Affective (Emotional) Symptoms</strong></td>
+</tr>
+<tr>
+<td></td>
+<td id="hidden2" style="display: none;">
+<ul style="margin-left: 15px;">
+<li>Sadness (inability to feel happy)</li>
+<li>Irritability</li>
+<li>Anxiety</li>
+<li>Guilt</li>
+<li>Variation in moods (mood swings)</li>
+<li>Loss of interest in normally enjoyed activities</li>
+<li>Fear</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td id="plus3" onclick="expand(3)" onmouseout="hover(2, 3)" onmouseover="hover(1, 3)" style="font-weight: bold; padding: 0 5px 5px; cursor: pointer; background-color: #007ebd; color: #ffffff; border: 1px solid #ffffff;">+</td>
+<td style="padding: 0 5px 5px;"><strong>Cognitive (Mental) Symptoms</strong></td>
+</tr>
+<tr>
+<td></td>
+<td id="hidden3" style="display: none;">
+<ul style="margin-left: 15px;">
+<li>Helplessness</li>
+<li>Worthlessness</li>
+<li>Indecision</li>
+<li>Self blame</li>
+<li>Negative self-concept</li>
+<li>Negative anticipation</li>
+<li>Thoughts of death or suicide</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td id="plus4" onclick="expand(4)" onmouseout="hover(2, 4)" onmouseover="hover(1, 4)" style="font-weight: bold; padding: 0 5px 5px; cursor: pointer; background-color: #007ebd; color: #ffffff; border: 1px solid #ffffff;">+</td>
+<td style="padding: 0 5px 5px;"><strong>Somatic (Physical) Symptoms</strong></td>
+</tr>
+<tr>
+<td></td>
+<td id="hidden4" style="display: none;">
+<ul style="margin-left: 15px;">
+<li>Sleep disorders (difficulty falling asleep, early morning awakening, sleeping too</li>
+<li>much)</li>
+<li>Menstrual irregularity</li>
+<li>Weight loss/Weight gain</li>
+<li>Sexual disorders (loss of interest, erectile dysfunction, difficulty achieving</li>
+<li>orgasm)</li>
+<li>Weakness</li>
+<li>Easy fatiguability</li>
+<li>Pain (usually headaches)</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<ul>
+</ul>
+<h3>How to Stay Spiritually Connected</h3>
+<ul>
+<li>Pray often, and always as if your Heavenly Father was nearby.</li>
+<li>Study the scriptures from a personal point of view as your needs dictate, either topically or chronologically.</li>
+<li>Read a church book on a favorite topic.</li>
+<li>Take a walk in nature and appreciate the works of God.</li>
+<li>Listen to or read a Conference talk.</li>
+<li>Sing and listen to favorite sacred music.</li>
+<li>Take a religion class and participate in class.</li>
+<li>Realize that you are a child of God and have eternal worth.</li>
+<li>Participate in temple service.</li>
+<li>Forgive yourself and others. </li>
+</ul>
+<h3>How to Help a Friend</h3>
+<p>Click the (+) next to each topic to learn more</p>
+<table border="0">
+<tbody>
+<tr>
+<td id="plus5" onclick="expand(5)" onmouseout="hover(2, 5)" onmouseover="hover(1, 5)" style="font-weight: bold; padding: 0 5px 5px; cursor: pointer; background-color: #007ebd; color: #ffffff; border: 1px solid #ffffff;">+</td>
+<td style="padding: 0 5px 5px;"><strong>Be able to tell facts from fiction</strong></td>
+</tr>
+<tr>
+<td></td>
+<td id="hidden5" style="display: none;">
+<p style="margin-left: 20px;"><strong>Myth</strong>:  It's normal for teenagers to be moody; teens don't suffer from "real" depression.<br /> <strong>Fact: </strong> Depression can affect people at any age or of any race, ethnic or economic group.</p>
+<p style="margin-left: 20px;"><strong>Myth</strong>:  People who claim to be depressed are weak, and just need to pull themselves together.<br /> <strong>Fact:</strong> Depression is not a weakness, but a serious health disorder.</p>
+<p style="margin-left: 20px;"><strong>Myth</strong>:  Talking about depression only makes it worse.<br /> <strong>Fact: </strong> Talking through feelings may help a friend recognize the need for professional help.</p>
+<p style="margin-left: 20px;"><strong>Myth</strong>:  Telling another person that a friend might be depressed is betraying a trust.  If someone wants help, he or she will get it.<br /> <strong> Fact: </strong>Depression,   which saps energy and self-esteem,  interferes with a person's ability   or wish to get help.  It is an act  of true friendship to share your   concerns with another trusted adult.</p>
+</td>
+</tr>
+<tr>
+<td id="plus6" onclick="expand(6)" onmouseout="hover(2, 6)" onmouseover="hover(1, 6)" style="font-weight: bold; padding: 0 5px 5px; cursor: pointer; background-color: #007ebd; color: #ffffff; border: 1px solid #ffffff;">+</td>
+<td style="padding: 0 5px 5px; width: 200%;"><strong>Know the possible symptoms</strong></td>
+</tr>
+<tr>
+<td></td>
+<td id="hidden6" style="display: none;">
+<ul style="margin-left: 15px;">
+<li>Sadness or "emptiness"</li>
+<li>Hopelessness, pessimism, or guilt</li>
+<li>Helplessness or worthlessness</li>
+</ul>
+<ul style="margin-left: 15px;">
+<li>Inability to make decision</li>
+<li>Inability to concentrate and remember</li>
+<li>Lost interest or pleasure during ordinary activities--like sports or talking on the phone</li>
+<li>More problems with school, friends and family</li>
+<li>Trouble falling asleep, staying asleep, or getting up</li>
+<li>Appetite problems; weight changes</li>
+<li>Headaches, stomachaches, backaches, sore joints and muscles</li>
+</ul>
+<ul style="margin-left: 15px;">
+<li>Restlessness and irritability--feels like anxiety</li>
+<li>Wants to be alone</li>
+<li>Skips classes and drops hobbies and activities</li>
+<li>Drinks too much and takes drugs</li>
+</ul>
+<ul style="margin-left: 15px;">
+<li>Talks about suicide</li>
+<li>Talks about death</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td id="plus7" onclick="expand(7)" onmouseout="hover(2, 7)" onmouseover="hover(1, 7)" style="font-weight: bold; padding: 0 5px 5px; cursor: pointer; background-color: #007ebd; color: #ffffff; border: 1px solid #ffffff;">+</td>
+<td style="padding: 0 5px 5px;"><strong>What not to do</strong></td>
+</tr>
+<tr>
+<td></td>
+<td id="hidden7" style="display: none;">
+<p style="padding-left: 30px;">Don't dismiss your friend's feelings by saying things like "Just snap out of it."</p>
+<p style="padding-left: 30px;">Don't force someone to socialize, which can result in more feelings of worthlessness.</p>
+<p style="padding-left: 30px;">Don't agree with negative views.  Negative thoughts are a symptom of depression.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 style="margin-bottom: 10px;">Three Empirically-Proven Interventions</h3>
+<h5>1.   Gratitude letter and visit:</h5>
+<p style="padding-left: 30px;">Write a  thoughtful, heart-felt letter of thanks to someone who has made  a  significant difference in your life (someone you haven't thanked   before).  If at all possible, deliver this letter in person.</p>
+<h5>2. Three good things</h5>
+<p style="padding-left: 30px;">At the  end of the day, look back and acknowledge three good things that   happened during the day and acknowledge why they happened (in other   words, "count your blessings").</p>
+<h5>3.  Using signature strengths of character in novel ways:</h5>
+<p style="padding-left: 30px;">Take the <a href="http://www.viasurvey.org/" target="_blank">Values in Action Survey</a>.  Identify your personal strengths.  Use them in novel (new) ways.</p>
+<ul style="margin-left: 0;">
+</ul>
+<h3>Resources</h3>
+<p style="padding-left: 30px;"><a href="http://www.nimh.nih.gov/health/publications/depression/what-is-depression.shtml">Information about Depression</a> from the National Institute of Mental Health</p>
+<p style="padding-left: 30px;">Take care of yourself by keeping a <a href="x32113.xml">balance</a> in your life</p>
+<p style="padding-left: 30px;">Learn how to <a href="x31027.xml">challenge faulty thinking </a>that may contribute to depression.</p>
+<p style="padding-left: 30px;">If you are hard on yourself, check out this information on <a href="x42427.xml" title="Perfectionism">perfectionism</a>.</p>
+<p style="padding-left: 30px;">Check out this information from the Mayo Clinic on how <a href="http://mayoclinic.com/health/depression-and-exercise/MH00043" target="_blank">exercise eases the symptoms of depression</a>.</p>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x17637" CompTypes="SiteControl"/></Content>

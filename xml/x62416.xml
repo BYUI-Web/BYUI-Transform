@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x62416" Name="Other Resources" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Other Resources</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Additional benefits and resources; such as Non-Education Military Benefits.</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false">Other Resources | Veteran Benefits</BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false">Additional benefits and resources; such as Non-Education Military Benefits.</MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style type="text/css"><!--
+/* General Styles for Body Elements */
+a {
+font-family: Arial; 
+}
+
+/* CSS Style for in Body GUIDE */ 
+.guide ul {
+display:inline-block; 
+padding: 0; 
+margin: 0 0 5px 0; 
+text-align: center;
+width:100%;
+} 
+.guide li { 
+padding: 0; 
+margin: 0; 
+text-align: center; 
+display:inline-block;
+float:left; 
+list-style-type:none; 
+white-space: nowrap; 
+}
+.guide_container {
+margin:0 200px 15px 0;
+padding:0;
+width:100%;
+display:inline-block;
+}
+
+/* CSS styles for the FOOTER Contact information */
+#contact{
+display:inline-block;
+padding: 0 5px;
+margin: 0 0 10px 0;
+width: 100%; 
+height: 100px;
+}
+#contact h1{
+font-family:Arial;
+font-size:12px;
+font-weight:bold;
+margin:0 0 4px 0;
+padding:0;
+color:rgb(70,70,70);
+}
+#contact p {
+font-family:Arial;
+font-size:10px;
+margin:0;
+padding:0;
+}
+#contact_hr {
+margin-bottom:10px;
+}
+.left {
+float:left;
+margin:0 5px 0 0;
+padding:0;
+}
+.office_hours {
+margin: 0; 
+padding: 0; 
+width: 140px; 
+height: 100px; 
+float: left;
+}
+.middle {
+margin: 0; 
+padding: 0 5px 5px 5px; 
+width: 200px; 
+height: 50px; 
+float: left;
+}
+.phone {
+margin: 0; 
+padding: 0 5px 5px 5px; 
+width: 150px; 
+height: 50px; 
+float: left;
+}
+--></style>
+<h1>Financial Aid Guide</h1>
+<p>All students (regardless of their VA eligibility) should follow the Financial Aid Guide starting with <a href="x39744.xml" title="Link to Step 1 - Planning">Step 1 - Planning</a>. Completing the Financial Aid Guide will consider a student for all types of financial assistance (i.e. Outside Aid, University Aid, and Federal Aid):</p>
+<div class="guide_container">
+<ul class="guide">
+<li class="guide" style="margin: 0px 4px 0px 0px;"><a href="x40665.xml" title="Link to Step 2 - Outside Aid"><img alt="Outside Aid" src="Images/Admin_Offices/Financial Aid/Box Links/outsideaid_navbox.jpg" title="Outside Aid" /></a></li>
+<li class="guide" style="margin: 0px 4px;"><a href="x39792.xml" title="Link to Step 3 - University Aid"><img src="Images/Admin_Offices/Financial Aid/Box Links/universityaid_navbox.jpg" /></a></li>
+<li class="guide" style="margin: 0px 4px;"><a href="x40057.xml" title="Link to Step 4 - Federal Aid"><img height="160" src="Images/Admin_Offices/Financial Aid/Box Links/federalaid_navbox.jpg" /></a></li>
+</ul>
+</div>
+<!-- End of #guide_container --> <img alt="Seal of the U.S. Department of Defense" src="Images/Admin_Offices/Financial Aid/dod_logo.jpg" style="float: right; margin: 0 0 5px 10px;" title="U.S. Department of Defense" width="180" />
+<h1>Overview of Tution Assistance</h1>
+<p>Armed Forces <a href="http://www.military.com/education/content/money-for-school/tuition-assistance-ta-program-overview.html" title="Link to Military.com TA Program overview">Tuition Assistance</a> is a benefit paid to eligible members of the Army, Navy, Marines, Air Force, and Coast Guard. Congress has given each service the ability to pay up to 100% for the tuition expenses of its members.</p>
+<p>Each service has its own criteria for eligibility, obligated service, application process, and restrictions. Funds are usually paid directly to the institution by the military service branch. TA is not a loan; it should be viewed as money a student have earned just like base pay.</p>
+<p><small>VA Benefits (i.e. GI Bill, Tuition Assistance, etc.) is not affiliated or controlled by BYU-Idaho.</small></p>
+<ul>
+<li><a href="http://www.military.com/education/content/money-for-school/tuition-assistance/army-tuition-assistance.html" title="Learn more about Army TA at military.com">Army Tuition Assistance</a></li>
+<li><a href="http://www.military.com/education/content/money-for-school/tuition-assistance/air-force-tuition-assistance.html" title="Learn more about Air Force TA at military.com">Air Force Tuition Assistance</a></li>
+<li><a href="http://www.military.com/education/content/money-for-school/tuition-assistance/navy-tuition-assistance.html" title="Learn more about Navy TA at military.com">Navy Tuition Assistance</a></li>
+<li><a href="http://www.military.com/education/content/money-for-school/tuition-assistance/marine-corps-tuition-assistance.html" title="Learn more about Marine TA at military.com">Marine Corps Tuition Assistance</a></li>
+<li><a href="http://www.military.com/education/content/money-for-school/tuition-assistance/coast-guard-tuition-assistance.html" title="Learn more about Coast Guard TA at military.com">Coast Guard Tuition Assistance</a></li>
+<li><a href="http://www.military.com/education/content/money-for-school/tuition-assistance/national-guard-tuition-assistance.html" title="Learn more about National Guard TA at military.com">National Guard Tuition Assistance</a></li>
+<li><a href="http://www.military.com/education/content/money-for-school/tuition-assistance/reserve-tuition-assistance.html" title="Learn more about Reserve TA at military.com">Reserve Tuition Assistance</a></li>
+</ul>
+<h2>Disbursement of Tution Assistance at BYU-Idaho</h2>
+<p>After the unit and service processes the Tuition Assistance (TA), the funds will be sent to the BYU-Idaho <a href="http://www.byui.edu/financial-services" title="Financial Services and Accounting Office site">Bursar's Office</a>. The funds will be released to the student's <a href="https://dep.byui.edu/PersonalAccounts/AccountInfo/personalAccounts.aspx" title="Link to Personal Account Summary page">Personal Account Summary</a>. Students may direct questions to <a href="http://web.byui.edu/Directory/Employee/howej" title="Link to Julie Howe's employee profile">Julie Howe</a> at the Bursar's Office.</p>
+<h1>Overview of CHAMPVA</h1>
+<p>The <a href="http://www.va.gov/hac/forbeneficiaries/champva/champva.asp" title="Link to VA.gov CHAMPVA site">Civilian Health and Medical Program of the Department of Veterans Affairs</a> (CHAMPVA) is a comprehensive health care program in which the VA shares the cost of covered health care services and supplies with eligible beneficiaries.</p>
+<p>Due to the similarity between CHAMPVA and the Department of Defense (DoD) TRICARE program (sometimes referred to by its old name, CHAMPUS) the two are often mistaken for each other. CHAMPVA is a Department of Veterans Affairs program whereas TRICARE is a regionally managed health care program for active duty and retired members of the uniformed services, their families, and survivors. In some cases a veterans may look to be eligible for both/either program on paper. However, if you are a military retiree, or the spouse of a veteran who was killed in action, you are and will always be a TRICARE beneficiary, you can´t choose between the two.</p>
+<h2>Eligibility and application</h2>
+<p>For more details of CHAMPVA can be found at the <a href="http://www.va.gov/hac/forbeneficiaries/champva/champva.asp" title="Link to the CHAMPVA site">CHAMPVA site</a>. Students may be required to submit <a href="http://www2.byui.edu/RegistrarsOffice/studentverification.htm" title="Enrollment Verification - Student Records Office">Enrollment Verification</a>. Students may contact the <a href="http://www2.byui.edu/RegistrarsOffice/" title="Student Records Office">Student Records Office</a> concerning inquiries about Enrollment Verification.</p>
+<div id="contact">
+<hr id="contact_hr" />
+<div class="office_hours"><img alt="Office Hours" class="left" src="Images/Admin_Offices/Financial Aid/1312918545_Clock-Time.png" title="Office hours" width="30" />
+<div class="left">
+<h1>Office Hours</h1>
+<p>Monday - Friday</p>
+<p>8am - 5pm</p>
+</div>
+<div style="margin: 8px 13px 0 0; float: right;"></div>
+</div>
+<div class="middle"><img alt="Office Mailing Address" class="left" src="Images/Admin_Offices/Financial Aid/1312918507_Mail -2.png" title="Address" width="30" />
+<div class="left">
+<h1>Address</h1>
+<p>100 Kimball Building 1610</p>
+<p>Rexburg, ID 83460</p>
+</div>
+</div>
+<div class="phone"><img alt="Phone" class="left" src="Images/Admin_Offices/Financial Aid/1312918476_Telephone.png" title="Phone" width="30" />
+<div class="left">
+<h1>Phone</h1>
+<p>(208) 496-1600</p>
+</div>
+</div>
+<div class="chat"><img alt="Live Chat" class="left" src="Images/Admin_Offices/Financial Aid/chat_icon.png" title="Live Chat" width="30" />
+<div class="left">
+<h1><a href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=Financial%20Aid">Live Chat</a></h1>
+<p>with Financial Aid</p>
+</div>
+</div>
+<div class="middle"><img alt="Laptop" class="left" src="Images/Admin_Offices/Financial Aid/1312918536_Computer.png" title="Email" width="30" />
+<div class="left">
+<h1>Email</h1>
+<p>financialaid@byui.edu</p>
+</div>
+</div>
+<div class="phone"><img alt="Fax" class="left" src="Images/Admin_Offices/Financial Aid/1312918465_Printer and Fax.png" title="Fax" width="30" />
+<div class="left">
+<h1>Fax</h1>
+<p>(208) 496-6711</p>
+</div>
+</div>
+<div class="facebook"><img alt="Facebook" class="left" src="Images/Admin_Offices/Financial Aid/facebook_icon.png" title="Facebook" width="30" />
+<div class="left">
+<h1><a href="http://www.facebook.com/BYUIFinancialAid">Facebook</a></h1>
+<p>page of the Financial Aid Office</p>
+</div>
+</div>
+</div>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="true" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/><!--071613 xpowercomponent_Optional to xPower--></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="x40184" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="x40325" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="x40329" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="x18466" CompTypes="HighlightedLinksComponent"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x18206" CompTypes="SiteControl"/></Content>

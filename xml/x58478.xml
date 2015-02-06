@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<Content ID="x58478" Name="Import Scores from ExamStat" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Import Scores from ExamStat</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Import Scores from ExamStat</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<strong>Objective</strong><br />To demonstrate how to import scores from ExamStat into the gradebook of an I-Learn course.<br /><br /><strong>Instructions</strong><br /><ol>
+<li>Follow the URL provided to you to access the exam results.</li>
+<li>Enter your report #.</li>
+<li>Check to be sure the course and instructor information is correct.</li>
+<li>Click on the link for "student scores" in the left hand column.</li>
+<li>The screen will display columns with the student ID, student name, score, max possible, and percentage.</li>
+<li>Left click and drag to select all information. Then right click the selected text and select "copy."</li>
+<li>Open a blank excel document.</li>
+<li>Paste the information by right clicking the A1 cell and selecting the paste option.</li>
+<li>Delete all unnecessary information. This includes the student names, max points, and percentage.</li>
+<li>Insert a blank column between the student ID column and the points column.</li>
+<li>Select the student ID column.</li>
+<li>On the "Data" tab of Excel, click on "text to columns."</li>
+<li>Make sure "delimited" is selected as the file type. Click next.</li>
+<li>Uncheck any checked boxes and then check "other" and type into the blank a dash symbol. Click next.</li>
+<li>All the appropriate settings should already be set. Click finish.</li>
+<li>Delete column A because it contains the extra section number appended to the student ID.</li>
+<li>All leading zeros were deleted during this process so we must now add them back in. Select the student ID&nbsp;column and from the drop-down menu at the top middle of the screen, select "text."</li>
+<li>Now go down through the ID numbers and add however many zeros are necessary to the beginning of the&nbsp;number to bring the digit count up to 9.</li>
+<li>Go to "file" at the top of the page and select "save."</li>
+<li>Choose a location to save the file.</li>
+<li>Change the file type to CSV (Comma delimited) by clicking the drop-down menu below the file name andthen click "save."</li>
+<li>Click "ok" in response to any pop-up message windows.</li>
+<li>Now you can import the scores. You will need to have already created a column in the gradebook of the&nbsp;appropriate course that can receive the grades.</li>
+<li>Enter the gradebook and choose the "import scores" option.</li>
+<li>Uncheck "header row."</li>
+<li>Choose the CSV file and click continue.</li>
+<li>Choose "external ID" from the drop-down menu of the left column.</li>
+<li>Choose the title of the gradebook column that you wish to fill with scores from the right hand column dropdown menu.</li>
+<li>Choose "points" from the second drop-down menu, which will appear beneath the previous one.</li>
+<li>Select "import."</li>
+<li>Check to be sure the scores have appeared correctly in the gradebook.</li>
+</ol>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x15119" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

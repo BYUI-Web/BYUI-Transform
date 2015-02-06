@@ -1,0 +1,654 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<Content ID="x63060" Name="OLD - FAQs" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">OLD - FAQs</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">OLD - FAQs</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<script src="Documents/health-center/faqs2.js" type="text/Javascript">
+
+</script>
+<link href="Documents/health-center/faqs.css" rel="stylesheet" />
+<style type="text/css"><!--
+#FAQs tbody tr td table tr .answer ul li ul {
+      margin-top: 5px;
+   }
+
+   #FAQs tbody tr td table tr .question {
+      font-family: Arial;
+      line-height: 120%
+   }
+
+   #FAQs tbody tr .question {
+      font-size: 14pt;
+   }
+
+   body div #footer {
+      width: 710px;
+      height: 250px;
+   }
+--></style>
+<div>
+<p>Click the (+) next to each item to expand the list</p>
+<p id="collapse" onclick="collapseAll()">Collapse All (-)</p>
+<table id="FAQs">
+<tbody>
+<tr>
+<td>+</td>
+<td>Insurance</td>
+</tr>
+<tr>
+<td colspan="2">
+<table border="0">
+<tbody>
+<tr>
+<td>+</td>
+<td>Why is the Student Health Plan premium more for a married person than a single person?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>Title IX of the Education Amendments Act states: No person shall, on the basis of sex, be excluded from participation in, be denied the benefits of, or be subjected to discrimination under any education program or activity receiving Federal financial assistance</p>
+<p>A recipient shall treat pregnancy, childbirth, false pregnancy, termination of pregnancy and recovery there from in the same manner and under the same policies as any other temporary disability with respect to any medical or hospital benefit, service, plan or policy which such recipient administers, operates, offers, or participates in with respect to students admitted to the recipient's educational program or activity.</p>
+<p>Because BYU-Idaho receives Federal financial assistance, the Student Health Center was advised by DMBA and BYU-Idaho's legal counsel that it could not discriminate between a married male student and a married female student. In order to have a premium that would cover a married female student for pregnancy, both male and female have to be charged the same premium.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Why do you automatically enroll me in the student insturance plan?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>The mandatory student health plan was implemented fall semester of 1989. This decision was based on two major issues. First, members of the local business community were being left with unpaid medical bills by the BYU-Idaho students and their dependents. Secondly, local stake and ward leaders were paying large amounts of dollars from the fast offering funds of the church to cover medical bills.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Why do I have to add my newborn for the whole semester in which he was born and you do not pro-rate?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>Your newborn is a new, separate participant under the Plan. Therefore, the health plan can cover their percentage of the baby's hospital and pediatrician bills only if the baby is added to your coverage as a dependent for the enrollment period in which it was born. However, if the child is born during the 2nd Block or 2nd half of the semester, the child is only added for the 2nd Block.&nbsp; Health plan premiums are based on the same enrollment as the university (semester and terms), so the new dependent is added for that enrollment period.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Why do I have to provide proof of private insurance each semester?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>Many BYU-Idaho students are at the age they may be dropped from their parents' private insurance. Insurance companies all have different policies and the Student Health Center doesn't know the guidelines of your private insurance. Also, if you provide this information each semester, you will know where to find this information in case of an emergency.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Why don't you bill my private insurance company?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>A recent survey stated there are more than 450 different private insurance companies for BYU-Idaho students. It would be an impossible task for the current billing department to bill and tract this many private insurance carriers. With students usually at BYU-Idaho two semesters and gone one semester the Student Health Center would have problems contacting students for information. Another important factor is the number of foreign insurance companies involved and the problems associated with billing them.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Why do I have to pay for a visit if I only see the doctor for five minutes?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>There are many processes associated with a doctor visit--scheduling, pulling the chart, taking vitals billing, overhead, and the doctor visit. Some visits do not require the physician to spend twenty minutes with the patient.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>How do I know if the BYU-Idaho Student Health Plan is a good idea?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>To help determine the value of and how our Student Health Plan compared to other universities, Brigham Young University - Provo hired an outside consultant to make a comparison study. The consultant, Stephen L. Beckley &amp; Associates, Inc., who works exclusively with college health centers, compared the facility and services available at BYU-Provo with five other like universities. In comparing the costs and benefits of all plans, he stated that the value of the Deseret Mutual plan was outstanding; ranging from 26% to over 100% better than the other universities. He also stated that the plan had one of the nation's most effective funding systems and premier facilities.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Does the Health Center take private insurance?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>The Student Health Center does not bill private insurance. All charges will be charged to your student account that you can pay for online. If you have private insurance after you pay for the charges on your account you can come into the Health Center and ask for a HCFA form. You can then fill that form out and submit it to your insurance company and your insurance company may reimburse you, but since we're not a participating provider there are NO guarantees that they will.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>What does the student insurance cover?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>It is easier to discuss what the student insurance does not cover than to address all the issues it does. Anything that insurance companies do not cover is referred to as "exclusions." You can review exclusions by reading the Student Insurance Handbook which can be found <a href="http://www.dmba.com/nsc/student/Handbooks.aspx">here</a>.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Where do I pay my insurance bill?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>Any charges you incur at the Student Health Center will be placed on your student account. You can pay outstanding balances on your student account at the cashier's office in the Kimball building, or you may pay the balance online by accessing my.byui.edu.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>When does the insurance start and end for each semester?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>Coverage under the Student Insurance plan begins on the first day of a new semester, and ends the day before the first day of the following semester.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Laboratory</td>
+</tr>
+<tr>
+<td colspan="2">
+<table border="0">
+<tbody>
+<tr>
+<td>+</td>
+<td>If I came in to get a lab done would I have to see a doctor first?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>You have to see a doctor unless you get the following labs:</p>
+<ul>
+<li>Blood work for marriage license</li>
+<li>Blood Group and Type</li>
+<li>Lipid/cholesterol - needs to be fasting</li>
+<li>Pregnancy Test (urine)
+<ul>
+<li>Pregnancy blood tests must have an appointment with a doctor</li>
+</ul>
+</li>
+<li>TB test</li>
+</ul>
+<p>If you need any other lab work you must call in and see a doctor first.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Appointments</td>
+</tr>
+<tr>
+<td colspan="2">
+<table border="0">
+<tbody>
+<tr>
+<td>+</td>
+<td>What can I be seen for at the Health Center?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>The Student Health Center is equipped to handle a variety of medical issues. Here is a short list of common concerns which can be treated here at the Student Health Center:</p>
+<ul>
+<li>Acne</li>
+<li>Allergies</li>
+<li>Anxiety</li>
+<li>Asthma</li>
+<li>Back Pain</li>
+<li>Broken Bones</li>
+<li>Burns</li>
+<li>Common Cold</li>
+<li>Coughs</li>
+<li>Cuts and scrapes</li>
+<li>Depression</li>
+<li>Diarrhea</li>
+<li>Diabetes</li>
+<li>Dizziness</li>
+<li>Etc...</li>
+</ul>
+<p>As you can see, we treat a wide range of medical concerns. If you need help with a medical issue we can assist you. For an appointment, call <strong>208-496-9330</strong>, and always dial 911 in an emergency. If more information is needed, please call <strong>208-496-9330</strong> if you have a specific question about what we can treat.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Where do I go if I get hurt or sick and the Health Center is closed?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>You should always seek medical care in an emergency by dialing 911, or going to the nearest Emergency Room. For less urgent concerns, there are a few options that you have here in Rexburg which include a local urgent care called "Community Care" and the Madison Memorial Hospital. Call <strong>1-800-777-3622</strong> for after hours medical advice. For more information, click <a href="health-center/after-hours">here</a>.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Do I need an appointment to be seen at the Health Center?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>It is best to make an appointment to be seen at the Student Health Center. Please call to <strong>208-496-9330</strong> to make an appointment.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>How much does a regular doctor's visit cost?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>If you are covered by the Deseret Mutual Student Health Insurance plan, you will pay $10 for an office visit. If you are not covered by the Student Health plan, you will pay $20 for an office visit.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>How much are X-rays?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>The price for X-rays varies. For specific questions, please contact the Student Health Center at <strong>208-496-9330</strong>.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>If I'm a female and I'm preparing to get married, when should I get a premarital exam?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>It is best to have a premarital exam about two months before the wedding. If you are planning on using birth control, you should have the examination done at least a month before the wedding date.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>What if I just graduated, can I be seen at the Health Center?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>If you have purchased the Student Insurance plan, you can be seen at the Student Health Center until the day before the first day of the semester after you graduate. If you are on private insurance you may not be seen at the Student Health Center after you graduate.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Pharmacy</td>
+</tr>
+<tr>
+<td colspan="2">
+<table border="0">
+<tbody>
+<tr>
+<td>+</td>
+<td>If a drug is past the expiration date shown on the packaging, is it still safe to use?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>Because of legal restrictions and liability concerns, we cannot sanction the use of prescription medications past their expiration dates. Does that mean the medication is no longer effective or is unsafe to use? The expiration date is actually the date at which the manufacturer can still guarantee the full potency and safety of the drug. The effectiveness of the drug may decrease over time, but much of the original potency still remains. The only report of human toxicity that may have been caused by degradation of a drug product was associated with the use of degraded tetracycline.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Can I take an antibiotic of I take an oral contraceptive?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>Data on the effect of broad spectrum antibiotics on birth control pills are conflicting. Theoretically, such antibiotics can kill GI bacteria, which decrease blood levels of birth control pills by interfering with drug recirculation in some women. Whether they interact remains a controversy. It is up to the patient to decide whether to use a backup method of contraception while on an antibiotic or not. One option is to consider using backup methods (such as condoms) during the course of treatment and for at least one week after stopping the antibiotic.</p>
+<p><em>- From Pharmacists Letter</em></p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Are antibiotics always necessary?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>Doctors should not prescribe antibiotics for most colds, coughs and sore throats because they don't help and their overuse is making them less effective against other infections, the nation's second-largest doctors' group said. For most healthy adults, the best treatment for bronchitis, most sinus infections, colds and coughs is over-the-counter cold remedies, according to the American College of Physicians-American Society of Internal Medicine. Experts have warned for a decade that overuse of antibiotics is causing germs to become resistant to drugs. If we can lower our total antibiotic consumption by 20 or 30 percent, we can show an effect in changing the rate of prevalence in these resistance organisms, said Dr. Ralph Gonzales of the University of Colorado Health Sciences Center. The Centers for Disease Control and Prevention estimate that up to half of the 133 million doses of antibiotics administered daily outside hospitals are unnecessary because they are being prescribed for viral infections that don't respond to antibiotics. The Food and Drug Administration has proposed requiring labels on antibiotics reminding doctors to prescribe them only when truly necessary. Doctors often feel pressured to prescribe antibiotics when they are not needed because patients demand them, said Dr. Vincenza Snow, senior medical associate at the American College of Physicians. The guidelines, presented in the Annals of Internal Medicine, are intended for treatment of healthy adults and not for patients over age 65 or people with long-term medical conditions such as diabetes. They were developed by a panel of doctors assembled by the CDC and led by Gonzales. The American College of Physicians-American Society of Internal Medicine represents 115,000 physicians.</p>
+<p><em>-From an article published by the Associated Press.</em></p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>If I got my medication at my home doctor can I get it refilled at the Health Center?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>If you have refills left on that prescription, but they are at another pharmacy, we can transfer them here for you. If you are out of refills on the prescription your physician from back home can phone or fax a new prescription into us, or you may meet with a provider here at the health center and they can write you a new prescription.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Are you registered under the iPLEDGE program?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>The Student Health Center Pharmacy is associated with the iPLEDGE program and is able to fill any Accutane prescription written by an approved provider, including out of state physicians. The providers at the health center are not able to write for Accutane, but can refer you to other area providers who can do so.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Who can use the BYU-Idaho pharmacy?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>If you are a current traditional student, the spouse or dependent of a student, or on the student insurance, you can fill a prescription with us.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Can the pharmacy fill or refill my prescription from any doctor?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>YES! Bring in your written prescription, or have your home physician phone or fax in a new prescription.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Can I have my doctor call the pharmacy with my prescription information?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>YES! They can phone in a new prescription, fax it, or send it electronically via computer. The exception to this is Schedule II medications such as Ritalin or Adderall, which would have to be mailed to us.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>I have refills available on my prescription; can the pharmacy on campus refill it for me?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>Definitely! Call us with the information on your bottle or bring it in and we'll be glad to call the pharmacy you received the prescription at and fill it here for you.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>I have private insurance that covers my medication; will the BYU-Idaho pharmacy accept it?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>We are able to accept ~90% of all private prescription plans, including Tricare (Military), Medco, Caremark, most Blue Cross/Blue Shield plans, and many others. Bring your pharmacy card with you and we'll be glad to run it through for you. If you don't have your card, your parents can fax in a copy to us.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Who is able to use the pharmacy?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>On and off-track matriculating students and their dependents are able to use the pharmacy. We are also able to fill workman comp claims of campus employees.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>What are your hours?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>The pharmacy is open from 9 AM to 5 PM Monday through Friday. It is closed each Tuesday from 2 PM to 3 PM for devotional and closed on university holidays. It is also open limited days during the break between fall and winter semester. We are occasionally closed for campus all-employee meetings and staff training and continuing education. We are open during the 6 week break in between Spring and Fall Semesters, but our hours may be different. Check with the pharmacy for exact times.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>I don't have the student insurance, can I still use the pharmacy?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>We accept most private insurance (see the next question).</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Do you accept private insurance?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>The pharmacy is able to directly bill most private insurance plans (hundreds of national plans). These include Blue Cross and Blue Shield, Tricare (military), Medco, DMBA, Aetna, Caremark, CVS, Cigna, Express Scripts, Medimpact, and many others. Bring in your pharmacy insurance card and we'll be glad to run it for you. If you do not have your card here at school, your parents can fax us a copy of their pharmacy card and we can rerun it for you, even if you have already picked up the prescription (as long as it is less than one month from the time you picked it up).</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Note to students and parents about private prescription insurance:</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>Always have your private prescription drug card or a legible copy (of the front and back) of the card. Many patients bring their health card, which is often different from their pharmacy prescription card. Some cards do have both medical and pharmacy information on the same card, but many do not. If you are not sure, contact the pharmacy and we will be glad to help you.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Do you take Idaho Medicaid?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>We are unable to bill Idaho Medicaid. You would need to use another local pharmacy that accepts Medicaid.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>How long does it take to fill my prescription?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>The pharmacy can get busy at times, but generally it will take less than ten minutes. Calling in your refills ahead of time will guarantee that your prescription is ready when you come and will minimize any wait time.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Can I call ahead for my prescription refill?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>YES! This is what we recommend to minimize any wait time. Our phone number is in the upper right hand corner of your prescription label. Give us a call anytime and we will get your prescription filled. Just give us your prescription number, which is the 6-digit number in the upper left hand corner of your prescription. You can even call us after hours and leave a message which we will get first thing the following morning we are open.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Can I bring in prescriptions from physicians who don't work at the Student Health Center?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>YES! The pharmacy is able to fill any valid prescription from any physician with a valid license, even from those out of state. You can bring in written prescriptions from those providers, or your home physician can call, fax, or send electronically a prescription to us (except Schedule Two prescriptions such as Ritalin, Adderall, etc. Those would have to be mailed to us).</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Can I transfer a prescription from another pharmacy to you?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>Yes, as long as there are valid refills at that pharmacy. You can bring us your package or bottle from your old pharmacy or even just call and give us the pharmacy name, telephone number, and your prescription number, and we'll be glad to contact your other pharmacy and get your prescription transferred here for you. This can be done the same day you need it (usually takes 30 minutes or less).</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Do you carry the same products as a "normal" pharmacy?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>We have a large variety of medications in stock. We also can carry any product normally carried by a retail pharmacy. If we don't have the medication in stock you need we can order it for you and have it here the next business day.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Do I have to fill my prescription at the Student Health Center Pharmacy?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>No, but we are conveniently located on campus, are usually cheaper, and can almost always fill your prescription a lot faster than the time it would take at other pharmacies. We also bill the charge to your student account. We are here to serve you the best possible way we can.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Do you carry Over-the-Counter (OTC) products?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>We carry many OTC products including generic Tylenol, ibuprofen, cough syrup, cough drops, generic Claritin, generic Prilosec, and many other items. Pricing is very competitive. If there's an item you would like but we don't have it, we can usually order it in for you and have it here the next business day. All OTC items are also charged sales tax as per Idaho law.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Do you carry pseudoephedrine-containing products?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>We carry different varieties of cough/cold medications containing pseudoephedrine behind the pharmacy counter. You can purchase them without a prescription, but you will need to bring a state or federal ID to show in order to get them.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Are prescriptions free?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>Unfortunately not. It costs for the medication, the labeling, and the labor to prepare your prescription and check for drug interactions, allergies, dosage, etc. We do have special contracts through which we purchase our medications that lower the cost of most medications. We are then able to pass the savings on to you.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>How do I pay for my prescription?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>We do not take cash, check, or credit card. All pharmacy charges, including OTC items, are charged to your student account. These charges can be paid for on-line or at the cashier's office in the Kimball building. You usually have ~ 30 days to do this. It is your responsibility to check your account and take care of charges accrued.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Can I charge my prescriptions to a FSA (flexible spending account) card?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>We are unable to accept charge cards that enable you to pay for your prescriptions from your FSA. We are able to offer you receipts you can turn into your FSA account for reimbursement.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>I'm leaving after the semester to go on an internship / off-track / graduating, etc. Can I get more than one month of my prescription before I leave?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>If you have sufficient refills and your physician authorizes it, we are able to give you more than one month of prescriptions before you leave. Often it is less expensive to get enough refills here to last until you return or find a new provider. All charges go on your student account.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>What do you need from me to fill a prescription?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>Your demographic information (address, cell phone number, birth-date, etc.) Medication allergy information List of other prescription and OTC medications you are currently taking Your private insurance Card (the one for pharmacy, not the medical card) Your I-card or I-number to bill your account.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>How do I get a refill on my medication?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>If there are refills on your prescription call the pharmacy and we'll be glad to refill it for you. The lower left hand corner of your prescription label will tell you if you have refills or not. If there are no refills and you saw a provider here at the Student Health Center, you will need to make a follow-up appointment with that provider. If the prescription is from an outside doctor give us a call and we can contact your provider for you for refills (it also usually speeds the process up if you call also). In the state of Idaho, non-controlled substance prescriptions are good for 15 months from the date written. Controlled substance prescriptions are good for 6 months from the date written, except for schedule 2 prescriptions (Ritalin, adderall, etc.)-no refills are allowed on this type of medication.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>How much do prescriptions cost at the health center?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>Prices vary depending on the type of medication. As a non-profit pharmacy we are usually cheaper (or the same price) as most retail pharmacies. This is especially relevant for those on Student Insurance. Give us a call and we'll be glad to give you a quote.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Do I need my student insurance card to fill a prescription at the pharmacy?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>It is usually not necessary to have your student insurance card to fill a prescription. Exceptions would be diabetic test strips, syringes, needles, etc., which are covered at 80% by student insurance. We would need your card to bill those.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>I don't need to get my prescription today, but I don't want to lose it. What do I do?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>You can leave your prescription with us and we'll store it on your file. It will be placed on hold for future use. When you need it, just give us a call and we'll get it ready for you.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Can I return things to the pharmacy I didn't use?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>No. In the interest of public health, state regulations prohibit the return of medications and items purchased from pharmacies after they have left the premises of the pharmacy.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Can my spouse / roommate/ family member, etc. pick up my prescription for me?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>Yes, you may designate someone else to pick up your prescription for you. Please call us in advance to let us know. Make sure they have your I-number or card so we can bill your account.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>I would like my prescription transferred to my home pharmacy. What do I do?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>Have your home pharmacy contact us by phone and give us your name and prescription number and we'll gladly send the prescription there for you.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Where is the pharmacy located?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>We're on the east wall of the Student Health Center Building, north of the Hinckley building, East of the Kimball building, next door to the tennis courts. <a href="health-center/about-us/contact">Location</a></p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Are my pharmacy records confidential?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>YES! We will not release any information regarding your pharmacy records to anyone without your permission. This includes your parents (if you are 18 or older). If you wish them to be allowed to get information about your records you will need to give us verbal permission or fill out a release of information form at the Student Health Center check-in desk. Your information can be shared with physicians involved in your medical care.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>When is the pharmacy least busy?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>The pharmacy is generally slower in the mornings between 9 and 11 AM. We are usually busiest on Mondays, Fridays, and after 2:30 PM. Calling your refills in ahead will minimize any waiting time involved.</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Who can I call to answer my medication questions?</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>The pharmacist at the Student Health Center, Shawn Andreasen PharmD, RPh, is available during normal pharmacy hours to answer any medication (both prescription and over-the-counter) and medication-related questions you may have as well as any questions on billing, etc. If you're not sure what you need for your condition, please give us a call at <strong>208-496-9342</strong>. We'll be glad to help.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<script type="text/Javascript">
+startUp(document.getElementById("FAQs").rows[0].cells[1].innerHTML, 0);
+</script>
+<h4>Have a question not on the list?</h4>
+<p>Call us and we'll be happy to answer it for you!</p>
+<p><strong>208-496-9330 - All Services</strong></p>
+<p><strong>208-496-9331 - Insurance</strong></p>
+<p><strong>208-496-9342 - Pharmacy</strong></p>
+<iframe frameborder="0" height="240" id="footer" scrolling="no" src="http://www.byui.edu/Documents/health-center/footer.html" width="320"></iframe></div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x28441" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x22036" Name="Minors Offered" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Minors Offered</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Minors Offered</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<div>
+<p><strong>Click on each heading to download the specific department catalogs for more information.</strong></p>
+<p>*Not available for students in that same major. <strong> <br /></strong></p>
+<table border="0">
+<tbody>
+<tr>
+<td>
+<h3><a href="http://www.byui.edu/Documents/catalog/2013-2014/Animal%20and%20Food%20Science.pdf"><strong>Animal and Food Science</strong></a></h3>
+</td>
+</tr>
+<tr>
+<td><strong>Animal Science</strong></td>
+</tr>
+<tr>
+<td><strong>Nutrition</strong></td>
+</tr>
+</tbody>
+</table>
+<table border="0">
+<tbody>
+<tr>
+<td>
+<h3><a href="http://www.byui.edu/Documents/catalog/2013-2014/Applied%20Plant%20Science%202013-2014.pdf"><strong>Applied Plant Science</strong></a></h3>
+</td>
+</tr>
+<tr>
+<td><strong>Horticulture</strong></td>
+</tr>
+<tr>
+<td><strong>Plant Science and Technology</strong></td>
+</tr>
+</tbody>
+</table>
+<table border="0" class="floatLeft">
+<tbody>
+<tr style="background-color: #dcdcdc; height: 25px;">
+<td style="width: 325px;">
+<h4><a href="http://www.byui.edu/Documents/catalog/2013-2014/Biology.pdf">&nbsp;<strong></strong><strong>Biology</strong></a></h4>
+</td>
+</tr>
+<tr>
+<td><strong>Natural Resources</strong></td>
+</tr>
+<tr>
+<td><strong>Biology</strong></td>
+</tr>
+<tr>
+<td><strong>Biology Education</strong></td>
+</tr>
+</tbody>
+</table>
+<table border="0" style="margin-right: 5px;">
+<tbody>
+<tr style="background-color: #dcdcdc; height: 25px;">
+<td style="width: 325px;">
+<h3><a href="http://www.byui.edu/Documents/catalog/2013-2014/Health,%20Recreation%20and%20Human%20Performance%202013-2014.pdf"><strong>Health, Recreation and Human Performance</strong></a></h3>
+</td>
+</tr>
+<tr>
+<td><strong>Exercise and Sport Science</strong></td>
+</tr>
+<tr>
+<td><strong>Health Science</strong></td>
+</tr>
+<tr>
+<td><strong>Sports Management</strong></td>
+</tr>
+<tr>
+<td><strong>Recration Management</strong></td>
+</tr>
+<tr>
+<td><strong>Industrial Health</strong></td>
+</tr>
+<tr>
+<td><strong>Healthcare Administration</strong></td>
+</tr>
+</tbody>
+</table>
+<table border="0" class="floatLeft">
+<tbody>
+<tr style="background-color: #dcdcdc; height: 25px;">
+<td style="width: 325px;">
+<h4><a href="http://www.byui.edu/Documents/catalog/2013-2014/Nursing.pdf">&nbsp;<strong>Nursing</strong></a></h4>
+</td>
+</tr>
+<tr>
+<td><strong>&nbsp;No minors available. Please see Nursing catalog.</strong></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</div>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x6757" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

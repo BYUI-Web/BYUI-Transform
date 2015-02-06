@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<PolicyPage ID="x63620" Name="Housing Holds" Layout="general_Policy.xsl"><Title type="string" label="Policy Title" readonly="false" hidden="false" required="true">Housing Holds</Title><Abstract type="string" label="Policy Abstract" readonly="false" hidden="false" required="true">Holds are placed on student accounts if there is a problem with a student's address.</Abstract><Date type="date" label="Revision Date" readonly="false" hidden="false" required="true" display="localdateshort" UTC="true">20110301T07:00:00</Date><BodyCopy type="dhtml" label="Policy" readonly="false" hidden="false" required="false"><![CDATA[<p>Only single students who are matriculating, or assigned to a track, can live in Approved Housing. When a student's address does not match an address corresponding with an Approved Housing unit, a hold is placed on that student's account restriction that needs to be resolved before that restriction can be lifted.</p>
+<p>Below is a list of common reasons a restriction is placed on a student's account with a brief explanation of the first steps to take to resolve the restriction:</p>
+<h3>The student does not have a current school address.</h3>
+<p>If you are living in a BYU-Idaho Approved Housing complex, please contact your manager to ensure that they have registered you as living at that complex with the university. You can also update your address in my.byui.edu under the profile tab. Once your address is updated, please contact the Housing &amp; Student Living Office to have the restriction removed.</p>
+<h3>The student is living at home but his/her address does not match the parent's address on file.</h3>
+<p>The computer system automatically flags addresses that do not match an Approved Housing address. Living at home is considered Approved Housing but if a student's school address and parent address do not match exactly, the computer will still flag it as a violation.</p>
+<p>If the parent address is correct, you can update your address to match the parent address in my.byui.edu under the profile tab. Once your address is updated, please contact the Housing &amp; Student Living Office to have the restriction removed (each restriction needs to be manually lifted).</p>
+<p>If the parent address is no longer correct, a parent must contact Records &amp; Registration. Once the different addresses are resolved, contact the Housing &amp; Student Living Office (each restriction needs to be manually lifted).</p>
+<h3>The student's current school address is in community housing.</h3>
+<p><em>Did you recently get married?</em><br />Once your marital status is updated with Student Records &amp; Registration, please contact the Housing &amp; Student Living Office so we can lift the hold (each restriction must be manually lifted).</p>
+<p><em>Are you living with family?</em><br />Living with family other than parents is not automatically approved. Please complete an exception-to-policy form to be reviewed by the Housing Exceptions Committee. If you are living with your parents, please see #2 above.</p>
+<h3>The student is not eligible for Approved Housing but their school address is listed as being in Approved Housing.</h3>
+<p>Please contact the Housing &amp; Student Living Office to discuss your situation.</p>
+<table border="0" style="width: 100%;">
+<tbody>
+<tr>
+<td>
+<h3>Contact the Housing &amp; Student Living Office:</h3>
+<p><a href="mailto:Housing@byui.edu">Housing@byui.edu</a></p>
+<p>(208) 496-9220</p>
+</td>
+</tr>
+</tbody>
+</table>]]></BodyCopy><xPower Type="Component" Component="x10868" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="Policy" label="Policy" readonly="false" hidden="false" required="false" CompTypes="PolicyNavigationComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x9287" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></PolicyPage>

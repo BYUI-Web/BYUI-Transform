@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<AdminPage ID="x42220" Name="CES Honor Code" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">CES Honor Code</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">CES Honor Code</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="Cells" label="Cells" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="GroupStart" GroupStart="" Name="Cell1" label="Cell 1" readonly="false" hidden="false" required="false" Expanded=""><Cell1Title type="string" label="Cell 1 Title" readonly="false" hidden="false" required="false"></Cell1Title><Cell1Image type="imagefile" label="Cell 1 Image" readonly="false" hidden="false" required="false" Width="" Height="" Alignment="" Border="" Expanded=""></Cell1Image><Cell1Text type="string" label="Cell 1 Text" readonly="false" hidden="false" required="false"></Cell1Text><xPower Type="Link" Link="" Name="Cell1Link" label="Cell 1 Link" readonly="false" hidden="false" required="false" LinkText="" Target="" Expanded=""/></xPower><xPower Type="GroupStart" GroupStart="" Name="Cell2" label="Cell 2" readonly="false" hidden="false" required="false" Expanded=""><Cell2Title type="string" label="Cell 2 Title" readonly="false" hidden="false" required="false"></Cell2Title><Cell2Image type="imagefile" label="Cell 2 Image" readonly="false" hidden="false" required="false" Width="" Height="" Alignment="" Border="" Expanded=""></Cell2Image><Cell2Text type="string" label="Cell 2 Text" readonly="false" hidden="false" required="false"></Cell2Text><xPower Type="Link" Link="" Name="Cell2Link" label="Cell 2 Link" readonly="false" hidden="false" required="false" LinkText="" Target="" Expanded=""/></xPower><xPower Type="GroupStart" GroupStart="" Name="Cell3" label="Cell 3" readonly="false" hidden="false" required="false" Expanded=""><Cell3Title type="string" label="Cell 3 Title" readonly="false" hidden="false" required="false"></Cell3Title><Cell3Image type="imagefile" label="Cell 3 Image" readonly="false" hidden="false" required="false" Width="" Height="" Alignment="" Border="" Expanded=""></Cell3Image><Cell3Text type="string" label="Cell 3 Text" readonly="false" hidden="false" required="false"></Cell3Text><xPower Type="Link" Link="" Name="Cell3Link" label="Cell 3 Link" readonly="false" hidden="false" required="false" LinkText="" Target="" Expanded=""/></xPower><xPower Type="List" List="xpowercomponent_CellComponent" Name="AdditionalCellComponents" label="Additional Cells" readonly="false" hidden="false" required="false" Component="" CompTypes="CellComponent" Expanded="false"><xPower Type="Component" Component="" Name="CellComponent" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"/></xPower></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+	/* STRUCTURE */
+	
+	
+	/* INTRO */
+	#intro p { font-family: "Georgia", "Times New Roman", serif; font-style: italic; }
+	#intro h1#ces-page-title { font-family: "Georgia", "Times New Roman", serif; color: #60686E; font-size: 36px; }
+	
+	/* TOPIC BOXES */
+	.topic-box-wrap { height: 8px; text-overflow: ellipsis; overflow:hidden; }
+	div.topic-box { margin-bottom: 10px; }
+	
+	/* TOP */
+	div#topic-box-wrap div.topic-row a.tbox-link div.topic-box { overflow:hidden; text-overflow: ellipsis; }
+	div#topic-box-wrap div.topic-row a.tbox-link div.topic-box div.topic-top { background-color: #ffa800; border: 1px 1px 0 0 #ffcb66 solid;  border-radius: 5px 5px 0 0;  position: relative; }
+	div#topic-box-wrap div.topic-row a.tbox-link div.topic-box div.topic-top p.box-top-text { color: #fff !important; font-family: "Georgia", "Times New Roman", serif !important; text-transform: uppercase; font-size: 12px !important; text-align: center; line-height: 30px !important; font-weight: bold; margin: 0; }
+	.play-button { background: url(images/student-honor/playbutton.png); background-position: 0px 0px; width: 16px; height: 16px; position: absolute; bottom: -8px; left: 106px; }
+	/* BOTTOM */
+	div#topic-box-wrap div.topic-row a.tbox-link div.topic-box div.topic-bottom { border: 1px solid #999999; border-top: none; }
+	div#topic-box-wrap div.topic-row a.tbox-link div.topic-box div.topic-bottom p.box-bottom-text { margin: 0;  font-family: "Arial", sans-serif; text-align: center; line-height: 46px; font-size: 18px; letter-spacing: -1px; color: #555; }
+	/* HOVER */
+	.tbox-link:hover .play-button { background-position: 0px 16px; }
+	div#topic-box-wrap div.topic-row a.tbox-link:hover div.topic-box div.topic-top { background-color: #ffcb66; }
+	
+	
+	/* KIMBALL */
+	#kimball { width: 100%; background-color: #fff6e5; font-family: "Georgia", "Times New Roman", serif;  font-style: italic; }
+	#kimball h3 { font-family: "Georgia", "Times New Roman", serif;  font-style: italic; color: #666!important; text-transform: uppercase; font-weight: normal; letter-spacing: 1px; font-size: 16px; margin-bottom: .5em; }
+	#kimball p { font-style: italic; font-size:14px; line-height: 20px; }
+	.kimball-pad { padding: 24px; overflow: hidden; }
+	#on-my-honor { width: 414px; float: left; }
+	.left-pad { padding-left: 24px; }
+	.right-pad { padding-right: 24px; }
+	#personal-honor { width: 246px; float: right; border-left: 2px solid #bfb8ae; height: 100%; overflow:hidden;}
+	#on-my-honor img {  }
+	#on-my-honor p.kimball-blockquote { margin: 0; border: none; color: #37758f; font-size:14px; line-height: 20px; margin-bottom: 24px; }
+	#on-my-honor div.blockquote-indent { width: 85px; float: left; }
+	#on-my-honor div.blockquote-content { width: 305px; float: right; }
+	#on-my-honor a { text-decoration: none; }
+	#on-my-honor a:hover p { color: #056cb6 !important; }
+	#personal-honor a:hover img { opacity: 0.7;}
+--></style>
+<div id="ces-wrap">
+<div id="intro">
+<h1 id="ces-page-title">What is the CES Honor Code?</h1>
+<p>It's one of the defining characteristics of your BYU-Idaho experience. But what exactly is the CES Honor Code? Is it simply a list or rules or is there more to it than that? When you were admitted to BYU-Idaho, you promised with your signature to live the Honor Code. So it's important that you truly understand what the Honor Code is and why we agree to live by it.</p>
+</div>
+<!-- #intro -->
+<div id="topic-box-wrap">
+<div class="topic-row"><a class="tbox-link">
+<div class="topic-box span-6">
+<div class="topic-top">
+<p class="box-top-text">What &amp; Why?</p>
+<div class="play-button"></div>
+</div>
+<div class="topic-bottom">
+<p class="box-bottom-text">Academic Honesty</p>
+</div>
+</div>
+</a> <a class="tbox-link">
+<div class="topic-box span-6">
+<div class="topic-top">
+<p class="box-top-text">What &amp; Why?</p>
+<div class="play-button"></div>
+</div>
+<div class="topic-bottom">
+<p class="box-bottom-text">Housing</p>
+</div>
+</div>
+</a> <a class="tbox-link">
+<div class="topic-box span-6 last">
+<div class="topic-top">
+<p class="box-top-text">What &amp; Why?</p>
+<div class="play-button"></div>
+</div>
+<div class="topic-bottom">
+<p class="box-bottom-text">University Standards</p>
+</div>
+</div>
+</a></div>
+<!-- .topic-row -->
+<div class="topic-row"><a class="tbox-link">
+<div class="topic-box span-6">
+<div class="topic-top">
+<p class="box-top-text">What &amp; Why?</p>
+<div class="play-button"></div>
+</div>
+<div class="topic-bottom">
+<p class="box-bottom-text">Church Attendance</p>
+</div>
+</div>
+</a> <a class="tbox-link">
+<div class="topic-box span-6">
+<div class="topic-top">
+<p class="box-top-text">What &amp; Why?</p>
+<div class="play-button"></div>
+</div>
+<div class="topic-bottom">
+<p class="box-bottom-text">Ecclesiastical Endorsements</p>
+</div>
+</div>
+</a> <a class="tbox-link">
+<div class="topic-box span-6 last">
+<div class="topic-top">
+<p class="box-top-text">What &amp; Why?</p>
+<div class="play-button"></div>
+</div>
+<div class="topic-bottom">
+<p class="box-bottom-text">Dress &amp; Grooming</p>
+</div>
+</div>
+</a></div>
+<!-- .topic-row --> 
+<hr />
+<div id="kimball">
+<div>
+<div class="kimball-pad">
+<div id="on-my-honor">
+<div class="right-pad">
+<h3>On My Honor</h3>
+<p>Please read this amazing address given at BYU by President Spencer W. Kimbal in 1978. It is more true today than ever.</p>
+<div class="blockquote-indent"><img src="images/student-honor/kimballava.jpg" /></div>
+<div class="blockquote-content">
+<p class="kimball-blockquote">"It is my understanding that each student who enrolls in this great institution and its sister Church institutions understands before coming here what the rules and regulations are, and he or she signs the enrollment sheet with a firm promise to obey those rules and regulations."</p>
+<a href="#">
+<p>&gt;&gt; CLICK FOR FULL ARTICLE &gt;&gt;</p>
+</a></div>
+</div>
+</div>
+<div id="personal-honor">
+<div class="left-pad">
+<h3>Personal Honor</h3>
+<p>At its core, the Honor Code is about being True at All Times. Please click the banner below to view several short videos.</p>
+<a href="#"><img src="images/student-honor/true.jpg" /></a></div>
+</div>
+</div>
+</div>
+</div>
+<!-- #kimball --></div>
+<!-- #ces-wrap --></div>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_BannerAd" Name="BannerAds" label="Rotating Ads" readonly="false" hidden="false" required="false" Component="" CompTypes="BannerAdComponent" Expanded="false"><xPower Type="Component" Component="" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/></xPower><xPower Type="GroupStart" GroupStart="" Name="QuickLinks" label="Quick Links" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="Quick Links Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="Quick Links Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="Quick Links Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Insert" Insert="" WellFormed="false" ExtractHTMLBody="false" Name="HTMLInsert" label="Insert" readonly="false" hidden="true" required="false" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x41832" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></AdminPage>

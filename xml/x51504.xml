@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content ID="x51504" Name="Ricks Web Camera" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Ricks Web Camera</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Ricks Web Camera</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style><!--
+            #container{
+                width:710px;
+            }
+            #mainpicture{
+                float: left;
+                margin-bottom: 15px;
+                width:560px;
+                height:375px;
+            }
+            #mainpicture img{
+                width:560px;
+                height:375px;
+            }
+            .subpicture{
+                width:135px;
+                height:115px;
+                margin-left:15px;
+                margin-top:15px;
+                float:left;
+                opacity:1;
+            }
+            .subpicture img{
+                width:135px;
+                height:115px;
+            }
+            .firstsubpicture{
+                margin-top:0px;
+            }
+            .subpicture:hover{
+                opacity:.75;
+            }
+            p {
+                
+            }
+            .bottomboxes{
+                border-radius: 4px;
+                width: 225px;
+                height: 200px;
+                background-color: #f2f2f2;
+                border: thin solid #e0e0e0;
+                float: left;
+                margin:0px;
+            }
+            .middle{
+                margin:0px 14px;
+            }
+            .bottomboxheader{
+                width: 100%; 
+                background-color: #eaeaea;
+                margin-right: 15px; 
+                padding-top: 10px; 
+                border-bottom: solid 1px #e0e0e0;
+            }
+            .bottomboxheadertext{
+                margin: 0px 0px 5px 15px;
+                font-size: large;
+            }
+            .bottomboxbullettext{
+                font-size: .9em;
+                margin-left: 10px; 
+                margin-top: 15px; 
+                padding-left: 5px;
+                margin-bottom: 10px;
+                color: #60686e;
+            }
+            .bottomboxbullettext a{
+                text-decoration: none;
+                color: #60686e;
+            }
+            .bottomboxbullettext a:hover{
+                color:#056CB6;
+            }
+--></style>
+<div id="container">
+<div id="mainpicture"><!--   -EDIT  BELOW  THIS    -                 href=""     : INSERT THE URL ADDRESS THAT THE LINK OR PICTURE DIRECTS TO IN BETWEEN THE "DOUBLE QUOTES"                 src=""      : INSERT THE URL ADDRESS OF AN IMAGE IN BETWEEN THE "DOUBLE QUOTES"                 title=""    : INSERT A DESCRIPTION OF WHERE THE LINK WILL TAKE USERS                 alt=""      : INSERT A DESCRIPTION OF THE IMAGE                      -EDIT  BELOW  THIS   --> <a href="http://www.byui.edu/x42905.xml" title="Learn about the new Flexible Degree Structures"> <img alt="BYUI Center" height="514" src="Images/101116_BYU-IdahoCenter_09a.jpg" title="BYUI Center" width="790" /> </a> <!--   -EDIT  ABOVE  THIS    -                      -EDIT  ABOVE  THIS   --></div>
+<div class="subpicture firstsubpicture"><a href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=Advising" title="Live Chat with an Academic Advisor"><img alt="Sunset" height="327" src="Images/art/030730SunsetFence_2622.jpg" title="Sunset" width="500" /> </a></div>
+<div class="subpicture"><a href="https://byui-csm.symplicity.com/students/index.php" title="Career Navigator" target="_blank"><img alt="MC Building" height="263" src="Images/dance/ManwaringCenterThumbnailsmall.jpg" title="MC Building" width="263" /></a></div>
+<div class="subpicture"><a href="http://www.byui.edu/x28931.xml" title="Career Preparation"><img alt="Arial View" height="250" src="Images/planetarium/Directions.png" title="Arial View" width="350" /></a></div>
+<div>
+<div class="bottomboxes">
+<div class="bottomboxheader">
+<p class="bottomboxheadertext">Other Links...</p>
+</div>
+<p class="bottomboxbullettext"><a href="http://www.byui.edu/x35066.xml" title="Expeditions and Service Missionaries"><img height="9" src="http://www.byui.edu/Images/advising/blue-arrow.png" width="5" /> Link 1</a></p>
+<p class="bottomboxbullettext"><a href="http://www.byui.edu/x32811.xml" title="Events and Recruiting"><img height="9" src="http://www.byui.edu/Images/advising/blue-arrow.png" width="5" /> Another Link 2</a></p>
+<p class="bottomboxbullettext"><a href="http://www.byui.edu/x32763.xml" title="Academic Advising"><img height="9" src="http://www.byui.edu/Images/advising/blue-arrow.png" width="5" /> A third Link</a></p>
+<p class="bottomboxbullettext"><a href="http://www.byui.edu/x19025.xml" title="Health Professions"><img height="9" src="http://www.byui.edu/Images/advising/blue-arrow.png" width="5" /> One Last link for this column</a></p>
+</div>
+<div class="bottomboxes middle">
+<div class="bottomboxheader">
+<p class="bottomboxheadertext">...or articles...</p>
+</div>
+<p class="bottomboxbullettext"><a href="http://www.byui.edu/x31929.xml" title="Change Major"><img height="9" src="http://www.byui.edu/Images/advising/blue-arrow.png" width="5" /> More Links</a></p>
+<p class="bottomboxbullettext"><a href="http://www.byui.edu/x32809.xml" title="Internship Info and Services"><img height="9" src="http://www.byui.edu/Images/advising/blue-arrow.png" width="5" /> More Links</a></p>
+<p class="bottomboxbullettext"><a href="http://www.byui.edu/x39610.xml" title="Class Planning"><img height="9" src="http://www.byui.edu/Images/advising/blue-arrow.png" width="5" /> More Links</a></p>
+<p class="bottomboxbullettext"><a href="http://www.byui.edu/x30220.xml" title="Find a Job"><img height="9" src="http://www.byui.edu/Images/advising/blue-arrow.png" width="5" /> More Links</a></p>
+</div>
+<div class="bottomboxes">
+<div class="bottomboxheader">
+<p class="bottomboxheadertext">...or Contact Information</p>
+</div>
+<p class="bottomboxbullettext"><strong>Hours</strong><br />Monday-Friday<br />8-5pm</p>
+<p class="bottomboxbullettext"><strong>Locations</strong><br />Please see our <a href="http://www.byui.edu/x24269.xml" style="color: #056cb6; text-decoration: underline;" title="Academic Discovery Center Locations">locations</a> page for your major specific center.</p>
+</div>
+</div>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x33098" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

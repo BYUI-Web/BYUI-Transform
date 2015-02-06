@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x34945" Name="History" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">History</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">A brief BYU-Idaho history</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style><!--
+#cycle_time-line_gallery {
+  position: relative;
+  display: block;
+}
+#cycle_time-line {
+  float: left;
+  position: relative;
+  width: 300px;
+  height: 550px;
+  clear:both;
+  overflow:hidden;
+  margin-top:10px;
+}
+#time_control {
+  position: absolute;
+  top: 50px;
+  height: 37px;
+  z-index: 99999;
+}
+#time_prev {
+  width: 40px;
+  height: 40px;
+  margin: 0 0 0 10px;
+  display: none;
+  background: url("../../../images/interface/cycle/prev-next_button_80x40.png") no-repeat;
+  background-position: 0px 0px;
+  cursor: pointer;
+}
+#time_next {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px 0 0;
+  display: none;
+  background: url("../../../images/interface/cycle/prev-next_button_80x40.png") no-repeat;
+  background-position: -40px 0px;
+  cursor: pointer;
+}
+#time_nav {
+  display: block;
+  margin: 10px auto 10px;
+  padding: 0;
+}
+#time_nav li {
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: black;
+  height: 24px;
+  width: 50px;
+  list-style: none;
+  margin: 0 5px 0 0;
+  font-family: Helvetica;
+  font-size: 14px;
+  line-height: 25px;
+  text-decoration: none;
+  text-align: center;
+  float: left;
+  background: -moz-linear-gradient(top, #dddddd, #eeeeee);
+  filter: progid:dximagetransform.microsoft.gradient(startColorStr=#dddddd, endColorStr=#eeeeee);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#DDDDDD, endColorstr=#EEEEEE)";
+  background: -webkit-gradient(linear, left top, left bottom, from(#dddddd), to(#eeeeee));
+  background: -moz-linear-gradient(top, #dddddd, #eeeeee);
+  border: 1px solid #CCC;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+#time_nav li:hover {
+  background: -moz-linear-gradient(top, #cccccc, #aaaaaa);
+  filter: progid:dximagetransform.microsoft.gradient(startColorStr=#cccccc, endColorStr=#aaaaaa);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCCCCC, endColorstr=#AAAAAA)";
+  background: -webkit-gradient(linear, left top, left bottom, from(#cccccc), to(#aaaaaa));
+  background: -moz-linear-gradient(top, #cccccc, #aaaaaa);
+}
+#time_nav li.activeSlide {
+  background: -moz-linear-gradient(top, #aaaaaa, #cccccc);
+  filter: progid:dximagetransform.microsoft.gradient(startColorStr=#aaaaaa, endColorStr=#cccccc);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#AAAAAA, endColorstr=#CCCCCC)";
+  background: -webkit-gradient(linear, left top, left bottom, from(#aaaaaa), to(#cccccc));
+  background: -moz-linear-gradient(top, #aaaaaa, #cccccc);
+}
+#time_nav li:focus {
+  outline: none;
+}
+
+
+
+.top_message {
+  font-family: Georgia;
+  font-style: italic;
+  color: #60686E;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #b7b7b7;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+.left_column{
+  font-weight: bold;
+  width: 200px;
+}
+.right_column{
+  width:470px;
+  display: block;
+  margin-bottom:5px;
+}
+.left_column, .right_column{
+  font-size: 12px;
+  /*float: left;*/
+  text-align:center;
+  color: #252525;
+  width: 708px;
+}
+.right_column li {
+  list-style-type: none !important;
+  line-height: 1.3em;
+  margin-bottom: 5px;
+}
+.column_row{
+  border-bottom: 1px solid #252525;
+  margin-top: 10px;
+
+}
+
+#cycle_time-line img {
+  width: 708px !important;
+  margin: 0px 0px !important;
+}
+--></style>
+<p class="top_message">The BYU-Idaho story begins on a cold November day in 1888, when Latter-day Saint pioneers in the newly settled town of Rexburg gathered for the opening of a new academy. Bannock Stake Academy, as it was first known, grew and matured over the ensuing decades. Its curriculum and name changed more than once. It forged ahead through uncertainty and difficulty to become Ricks College, the venerable institution that laid the foundation for BYU-Idaho.</p>
+<div class="span-18 last" id="cycle_time-line_gallery">
+<ul id="time_nav">
+<li>1888</li>
+<li>1900</li>
+<li>1903</li>
+<li>1915</li>
+<li>1923</li>
+<li>1988</li>
+<li>1999</li>
+<li>2000</li>
+<li>2001</li>
+<li>2009</li>
+<li>2011</li>
+<li>2013</li>
+</ul>
+<!-- this is a pagenation navigation -->
+<div id="time_control">
+<div class="span-2 last right" id="time_next"></div>
+<div class="span-2" id="time_prev"></div>
+</div>
+<span class="clearall"> </span>
+<div id="cycle_time-line">
+<div><img alt="Bannock Stake Academy" src="Images/about/history/history-1888.jpg" title="Bannock Stake Academy" width="710" />
+<div class="left_column">1888</div>
+<ul class="right_column">
+<li>Bannock Stake Academy established, offering elementary school-level courses in log schoolhouse.</li>
+<li>Serving 59 students ranging in ages from 5-20.</li>
+</ul>
+</div>
+<div><img alt="Curriculum expanded to include high school-level courses" src="Images/about/history/history-1900.jpg" title="Curriculum expanded to include high school-level courses" width="710" />
+<div class="left_column">1900</div>
+<ul class="right_column">
+<li>Curriculum expanded to include high school-level courses.</li>
+<li>Cornerstone laid for Spori Building.</li>
+</ul>
+</div>
+<div><img alt="Name changed to Ricks Academy in honor of founder Thomas E. Ricks" src="Images/about/history/history-1903.jpg" title="Name changed to Ricks Academy in honor of founder Thomas E. Ricks" width="710" />
+<div class="left_column">1903</div>
+<ul class="right_column">
+<li>Name changed to Ricks Academy in honor of founder Thomas E. Ricks.</li>
+<li>Spori building construction completed.</li>
+</ul>
+</div>
+<div><img alt="Curriculum expanded to include college courses" src="Images/about/history/history-1915.jpg" title="Curriculum expanded to include college courses" width="710" />
+<div class="left_column">1915</div>
+<ul class="right_column">
+<li>Curriculum expanded to include college courses.</li>
+</ul>
+</div>
+<div><img alt="High school-level courses phased out, name changed to Ricks College" src="Images/about/history/history-1923.jpg" title="High school-level courses phased out, name changed to Ricks College" width="710" />
+<div class="left_column">1923</div>
+<ul class="right_column">
+<li>High school-level courses phased out, name changed to Ricks College.</li>
+</ul>
+</div>
+<div><img alt="Ricks College celebrates its centennial" src="Images/about/history/history-1988.jpg" title="Ricks College celebrates its centennial" width="710" />
+<div class="left_column">1988</div>
+<ul class="right_column">
+<li>Ricks College celebrates its centennial.</li>
+</ul>
+</div>
+<div><img alt="Ricks College is the largest private junior college in the United States" src="Images/about/history/history-1999.jpg" title="Ricks College is the largest private junior college in the United States" width="710" />
+<div class="left_column">1999</div>
+<ul class="right_column">
+<li>Ricks College is the largest private junior college in the United States.</li>
+</ul>
+</div>
+<div><img alt="Transition from Ricks College to Brigham Young University-Idaho announced" src="Images/about/history/history-2000.jpg" title="Transition from Ricks College to Brigham Young University-Idaho announced" width="710" />
+<div class="left_column">2000</div>
+<ul class="right_column">
+<li>Transition from Ricks College to Brigham Young University-Idaho announced along with<br />a year-round operations calendar to serve more students.</li>
+<li>Fully online courses begin.</li>
+</ul>
+</div>
+<div><img alt="Ricks College officially becomes BYU-Idaho" src="Images/about/history/history-2001.jpg" title="Ricks College officially becomes BYU-Idaho" width="710" />
+<div class="left_column">2001</div>
+<ul class="right_column">
+<li>Ricks College officially becomes BYU-Idaho.</li>
+</ul>
+</div>
+<div><img alt="The school begins Pathway program." src="Images/about/history/history-2009.jpg" title="The school begins Pathway program." width="710" />
+<div class="left_column">2009</div>
+<ul class="right_column">
+<li>Pathway, a program developed by BYU-Idaho to help individuals seek higher education,<br />launches with sites in Manhattan, NY; Nampa, ID; and Mesa, AZ.</li>
+<li>Enrollment begins with 48 students.</li>
+</ul>
+</div>
+<div><img alt="Tenth anniversary of transition to university status" src="Images/about/history/history-2011.jpg" title="Tenth anniversary of transition to university status" width="710" />
+<div class="left_column">2011</div>
+<ul class="right_column">
+<li>Tenth anniversary of transition to university status.</li>
+</ul>
+</div>
+<div><img alt="Celebrating 125 years of history." src="Images/about/history/history-2013.jpg" title="Celebrating 125 years of history." width="710" />
+<div class="left_column">2013</div>
+<ul class="right_column">
+<li>Campus spans 430 acres with over 40 buildings.</li>
+<li>Students come from all 50 states and over 80 countries.</li>
+<li>More than 28,000 students attend each calendar year, with over 16,000 full-time students at any given time.</li>
+<li>Online Learning offers 159 courses and degrees.</li>
+<li>Pathway sites have grown to over 135 locations in 16 countries.</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- The following includes are required (relative paths may change) -->
+<p>
+<script type="text/javascript">
+//function to load cycle and config script after jquery/window has loaded
+function loadScript(url, callback)
+{
+    // adding the script tag to the head as suggested before
+    //var head = document.getElementById('jQueryLoad');
+    var head = document.getElementsByTagName('body')[0];
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = url;
+
+
+     // then bind the event to the callback function 
+     // there are several events for cross browser compatibility
+     script.onreadystatechange = callback;
+     script.onload = callback;
+
+     // fire the loading
+     head.appendChild(script);
+   }
+
+   var cycleCallBack = function() {
+
+      // here, do whatever you want
+      console.log("inside cycleCallBack");
+
+      var width = $('#cycle_time-line_gallery').width() - 2;
+      var highest = 0;
+      var control_top = 0;
+      var img_left_margin = 0;
+      var img_top_margin = 0;
+      var count = 0;
+
+      $('#cycle_time-line img').each(function(){
+        if($(this).width() > width){
+          $(this).css('width', width);
+        }
+        count++;
+      });
+      $('#cycle_time-line img').each(function(){
+        if($(this).height() > highest){
+          highest = $(this).height();
+        }
+      });
+      $('#cycle_time-line img').each(function(){
+        if($(this).width() > width){
+          $(this).css('width', width);
+        }
+        if($(this).height() > highest){
+          highest = $(this).height();
+          $('#cycle_time-line').css('height', highest);
+        }
+        else {
+          img_top_margin = (highest - $(this).height()) / 2;
+          $(this).css('margin-top', img_top_margin);
+        }
+        control_top = highest / 2 - 5;
+        $('#time_control').css('top', control_top);
+        img_left_margin = (width - $(this).width()) / 2;  
+        $(this).css('margin-left', img_left_margin);
+      });
+      $('#time_control').css('width', width);
+      
+      $('#cycle_time-line').cycle({
+        fx:     $('#cycle_time-line').attr('class'),
+        pause:    1, 
+        next:     '#time_next',
+        prev:     '#time_prev',
+        pager:    '#time_nav',
+        pagerAnchorBuilder: function(idx, slide) {
+                // return sel string for existing anchor
+                return '#time_nav li:eq(' + (idx) + ')'
+              },
+              after : function() {
+                if ($('#time_nav li:last-child').attr('class') == "activeSlide") {
+                  $('#cycle_time-line').cycle('pause');
+                }
+              }
+            });
+
+      //make each of the yeah boxes cause the slideshow to pause
+      $('#time_nav li').hover(function() {
+        if ($(this).attr("class") == "activeSlide") {
+          $('#cycle_time-line').cycle('pause');
+        }
+      });
+      $('#time_nav li').click(function() {
+        $('#cycle_time-line').cycle('pause');
+      });
+//makes it so that when you stop hovering over a time box it will resume the slideshow
+$('#time_nav li').mouseleave(function() {
+  if ($(this).attr("class") == "activeSlide") {
+    $('#cycle_time-line').cycle('resume');
+  }
+});
+
+var nav_width = 0;
+var left_padding = 0;
+var page_nav = count * 57;
+if(page_nav > width){
+  nav_width = width
+} else {
+  nav_width = page_nav;
+  left_padding = ((page_nav - width) / 2) * -1;
+}
+
+$('#time_nav').css('width', nav_width);
+$('#time_nav').css('margin-left', left_padding);
+$('#cycle_time-line_gallery').css('width', width);
+$('#cycle_time-line').css('width', width);
+      // $('#cycle_time-line').css('height', highest);
+
+      $('#cycle_time-line').hover(function(){
+        $('#time_next').toggle();
+        $('#time_prev').toggle();
+      });
+      $('#time_control').hover(function(){
+        $('#time_next').toggle();
+        $('#time_prev').toggle();
+      });
+
+    };
+    //document.onload = function() {
+      window.onload = function(){ 
+        loadScript("prebuilt/stylenew/js/libs/jquery.cycle.all.js", cycleCallBack);
+        console.log("inside window onload"); 
+
+
+      }
+      
+    //}
+</script>
+</p>
+<p></p>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Component" readonly="false" hidden="false" required="false" Expanded="" List=""><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/><!--071613 xpowercomponent_Optional to xPower--></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="true" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" CompTypes="ContentSnippet" Expanded="false"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x33098" CompTypes="SiteControl" Expanded="false"/></Content>

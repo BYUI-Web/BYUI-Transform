@@ -1,0 +1,253 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<PolicyPage ID="x40183" Name="Satisfactory Academic Progress" Layout="general_Policy.xsl"><Title type="string" label="Policy Title" readonly="false" hidden="false" required="true">Satisfactory Academic Progress</Title><Abstract type="string" label="Policy Abstract" readonly="false" hidden="false" required="true">Brigham Young University-Idaho is required to establish satisfactory academic progress (SAP) standards for its federal 
+financial aid recipients in accordance with the U.S. Department of Education regulations.  These standards ensure that 
+only those recipients demonstrating satisfactory progress toward the completion of their educational programs continue 
+to receive financial aid.</Abstract><Date type="date" label="Revision Date" readonly="false" hidden="false" required="true" display="localdateshort" UTC="true">20140626T18:00:00</Date><BodyCopy type="dhtml" label="Policy" readonly="false" hidden="false" required="false"><![CDATA[<p>
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40754833-1', 'byui.edu');
+  ga('send', 'pageview');
+</script>
+</p>
+<p>
+<script language="javascript" type="text/javascript">
+var fa_slideSpeed = 15;	// Higher value = faster
+var fa_timer = 2;	// Lower value = faster
+
+var objectIdToSlideDown = false;
+var fa_activeId = false;
+var fa_slideInProgress = false;
+var fa_slideInProgress = false;
+var fa_expandMultiple = false; // true if you want to be able to have multiple items expanded at the same time.
+
+function showHideContent(e,inputId)
+{
+	if(fa_slideInProgress)return;
+	fa_slideInProgress = true;
+	if(!inputId)inputId = this.id;
+	inputId = inputId + '';
+	var numericId = inputId.replace(/[^0-9]/g,'');
+	var answerDiv = document.getElementById('fa_a' + numericId);
+
+	objectIdToSlideDown = false;
+
+	if(!answerDiv.style.display || answerDiv.style.display=='none'){
+		if(fa_activeId &&  fa_activeId!=numericId && !fa_expandMultiple){
+			objectIdToSlideDown = numericId;
+			slideContent(fa_activeId,(fa_slideSpeed*-1));
+		}else{
+
+			answerDiv.style.display='block';
+			answerDiv.style.visibility = 'visible';
+
+			slideContent(numericId,fa_slideSpeed);
+		}
+	}else{
+		slideContent(numericId,(fa_slideSpeed*-1));
+		fa_activeId = false;
+	}
+}
+
+function slideContent(inputId,direction)
+{
+
+	var obj =document.getElementById('fa_a' + inputId);
+	var contentObj = document.getElementById('fa_ac' + inputId);
+	height = obj.clientHeight;
+	if(height==0)height = obj.offsetHeight;
+	height = height + direction;
+	rerunFunction = true;
+	if(height>contentObj.offsetHeight){
+		height = contentObj.offsetHeight;
+		rerunFunction = false;
+	}
+	if(height<=1){
+		height = 1;
+		rerunFunction = false;
+	}
+
+	obj.style.height = height + 'px';
+	var topPos = height - contentObj.offsetHeight;
+	if(topPos>0)topPos=0;
+	contentObj.style.top = topPos + 'px';
+	if(rerunFunction){
+		setTimeout('slideContent(' + inputId + ',' + direction + ')',fa_timer);
+	}else{
+		if(height<=1){
+			obj.style.display='none';
+			if(objectIdToSlideDown && objectIdToSlideDown!=inputId){
+				document.getElementById('fa_a' + objectIdToSlideDown).style.display='block';
+				document.getElementById('fa_a' + objectIdToSlideDown).style.visibility='visible';
+				slideContent(objectIdToSlideDown,fa_slideSpeed);
+			}else{
+				fa_slideInProgress = false;
+			}
+		}else{
+			fa_activeId = inputId;
+			fa_slideInProgress = false;
+		}
+	}
+}
+
+
+
+function initShowHideDivs()
+{
+	var divs = document.getElementsByTagName('DIV');
+	var divCounter = 1;
+	for(var no=0;no<divs.length;no++){
+		if(divs[no].className=='fa_question'){
+			divs[no].onclick = showHideContent;
+			divs[no].id = 'fa_q'+divCounter;
+			var answer = divs[no].nextSibling;
+			while(answer && answer.tagName!='DIV'){
+				answer = answer.nextSibling;
+			}
+			answer.id = 'fa_a'+divCounter;
+			contentDiv = answer.getElementsByTagName('DIV')[0];
+			contentDiv.style.top = 0 - contentDiv.offsetHeight + 'px';
+			contentDiv.className='fa_answer_content';
+			contentDiv.id = 'fa_ac' + divCounter;
+			answer.style.display='none';
+			answer.style.height='1px';
+			divCounter++;
+		}
+	}
+}
+window.onload = initShowHideDivs;
+</script>
+</p>
+<style type="text/css"><!--
+/* CSS styles for the Show/Hide functionality. */
+
+.fa_question{
+        overflow:hidden;
+	cursor:pointer;
+        background-color: #f0f0f0;
+        color: #666;
+        padding: 10px;
+        border: 1px solid #000;
+        -webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+}
+.fa_question:hover{
+        background-color: #fcc35a;
+}
+.fa_answer{
+        visibility:hidden;
+	height:0px;
+	overflow:hidden;
+	position:relative;
+}
+.fa_answer_content{	/* Content that is slided down */
+        margin-top: 10px;
+	padding:1px;
+	font-size:1em;
+	position:relative;
+}
+
+.h1 {font-family: futura, arial, sans-serif; font-size: 2em; color: #000}
+.h2 {font-family: futura, arial, sans-serif; font-size: 1.75em; color: #000;}
+.h3 {font-family: futura, arial, sans-serif; font-size: 1.5em; color: #000;}
+.h4 {font-family: futura, arial, sans-serif; font-size: 1.3em; margin-left: 15px;}
+.h5 {font-family: futura, arial, sans-serif; font-size: 1em; margin-left: 12px;}
+
+#table_futura th{
+     color:#F8F8F8;
+     background-color: #333;   
+     font-family: futura, arial, sans-serif;
+     font-size: medium;
+     font-weight: normal;
+}
+#table_futura ul{
+     margin-left: 5px;
+}
+#table_futura td{
+     color:#000;
+}
+ul {margin-left:30px;}
+--></style>
+<p>Brigham Young University-Idaho is required to establish satisfactory academic progress (SAP) standards for its federal financial aid recipients in accordance with the U.S. Department of Education regulations. These standards ensure that only those recipients demonstrating satisfactory progress toward the completion of their educational programs continue to receive federal financial aid.</p>
+<p>Students are held responsible for knowing SAP eligibility criteria and their status at the end of each semester. Students should contact the Student Financial Aid Office if questions occur.</p>
+<p>Whether a student is considered to be making SAP depends on the successful completion of courses (credit hours), cumulative grade point average (GPA), and maximum time limits to complete his or her course of study. Students must meet all the requirements listed below:</p>
+<div class="fa_question"><span class="h4">Completion Requirement</span></div>
+<div class="fa_answer">
+<div>
+<ul>
+<li>A student must have earned credits equal to at least 67% of the total cumulative credits attempted (measured as credits earned &divide; credits attempted). Students earning less than 67% may be denied further aid.
+<p>Attempted credits are defined as all credits appearing on the student&rsquo;s official transcript regardless of the grade assigned. This includes, but is not limited to, progress (A, B, C, D, P) and non-progress (F, I, W, UW, T, NR) grades, special exams, AP, CLEP, IB, vertical, transfer, retakes, consortium, and academic renewal credits.</p>
+<p>Earned credits are defined as credits successfully completed with final grades of A, B, C, D, or P according to BYU-Idaho&rsquo;s Academic Policy. A student is allowed to retake a course based on the requirements of the Student Records &amp; Registration Office. Audit and non-credit classes are ineligible for financial aid and do not count in SAP calculations</p>
+</li>
+<li><strong>Grade Point Average Requirements</strong> &ndash; Financial aid recipients must maintain at least a 2.0 GPA. Students earning less than a 2.0 cumulative GPA may be denied further aid.</li>
+</ul>
+</div>
+</div>
+<div class="fa_question"><span class="h4">Maximum Time Limit Requirements</span></div>
+<div class="fa_answer">
+<div>
+<p>A student's eligibility for financial aid will be terminated at the point when a student will be unable to complete his or her degree within 150% of the total credits required. This will be 180 credits for a Bachelor&rsquo;s Degree. Depending on the Associates Degree, the limit ranges from 90 &ndash; 117 credits. All attempted credits are counted, whether or not financial aid was received, including transfer hours accepted for credit, AP, IB, CLEP, vertical, special exam, retakes, and credits granted academic renewal. Measured in 3 steps example:</p>
+<ul>
+<li>Step 1 - Credits required for Bachelors Degree is 120 credits &ndash; earned credits = remaining credits needed for degree</li>
+<li>Step 2 - Maximum time frame for Bachelors Degree of 180 credits &ndash; attempted credits = remaining credits until 150% point is reached</li>
+<li>Step 3 - If remaining credits from Step 1 is greater than remaining credits from Step 2, the student will be considered unable to complete his degree with the 150% maximum time limit</li>
+</ul>
+</div>
+</div>
+<div class="fa_question"><span class="h4">Academic Standing/Earned Degree</span></div>
+<div class="fa_answer">
+<div>
+<p>At the time of evaluation, students who meet SAP requirements, but are on academic suspension, probation, or warning will be on SAP suspension or warning (academic probation or warning), respectively. If academic records are amended after the evaluation has been completed, a new evaluation may be completed using the amended data. Results of this new evaluation will replace the student&rsquo;s original SAP status.</p>
+<p>Once a degree is awarded, a student becomes ineligible for federal financial aid. An exception is made when the student has received an Associates Degree and is now pursuing a Bachelors Degree.</p>
+</div>
+</div>
+<div class="fa_question"><span class="h4">Newly Admitted/Transfer Students</span></div>
+<div class="fa_answer">
+<div>
+<p>Newly admitted students, including new freshmen or transfer students, are eligible to receive federal financial aid unless they have met the maximum credit limit. Their progress will be evaluated at the next evaluation period following their first enrollment at BYU-Idaho.</p>
+</div>
+</div>
+<div class="fa_question"><span class="h4">Timing of Evaluation of Academic Progress</span></div>
+<div class="fa_answer">
+<div>
+<p>A financial aid recipient's cumulative completion rate, GPA, and maximum time frame is evaluated after each semester or term following the student's first term of enrollment as a regular degree-seeking student or at the point of awarding aid. At that time, a student will either be in good standing, be placed on warning, or suspended from financial assistance for future enrollment periods. Students will be notified by the Student Financial Aid Office if they are placed on warning or suspension status for financial aid.</p>
+<p>These rules are applied uniformly to all students for all periods of enrollment whether or not aid has been received previously.</p>
+</div>
+</div>
+<div class="fa_question"><span class="h4">Academic Progress Status</span></div>
+<div class="fa_answer">
+<div>
+<p>Warning Status &ndash; Warning status will not prevent the student from receiving financial aid. This status is meant to inform the student of potential academic problems and provide time for corrective action. The first time a student does not meet the completion and GPA requirements, a student will receive a warning status. If after the next evaluation period the student has not met all the minimum requirements, the student will go to suspended status. If a student does not meet the satisfactory academic progress standards after the warning period, ineligibility status will be imposed.</p>
+<p>Suspended Status &ndash; Students who do not meet the minimum progress standards will become ineligible for future federal financial aid.</p>
+<p>Eligibility is reestablished after the student improves their academic record to meet the minimum standards or an appeal due to unusual and/or mitigating circumstances is approved.</p>
+<p>Probation Status &ndash; Students who have been placed on Suspended Status and have an appeal that is approved by the Financial Aid Appeals Committee will be placed on Probation Status. With this status, students will be able to receive financial aid for the subsequent semester. Students will be required to meet the standards by the end of the subsequent semester or meet the academic plan set by the Financial Aid Appeals Committee. If the academic plan is met, the student will continue on Probation Status.</p>
+</div>
+</div>
+<div class="fa_question"><span class="h4">Appeals and Reinstatement</span></div>
+<div class="fa_answer">
+<div>
+<p>Students may appeal their suspension status if unusual and/or mitigating circumstances affected academic progress. Such circumstances may include:</p>
+<ul>
+<li>Severe illness or injury to the student or an immediate family member</li>
+<li>Death of a student&rsquo;s relative</li>
+<li>Student activation into military service</li>
+<li>Interpersonal difficulties with friends, roommates, or family members</li>
+<li>Difficulty balancing work, family responsibilities, etc., and school</li>
+<li>Financial difficulties</li>
+<li>A learning or functional disability</li>
+<li>Change of major has impacted the Maximum Time Frame requirement or...</li>
+<li>Other circumstances as deemed appropriate for consideration by the SAP Appeals Committee</li>
+</ul>
+<br />
+<p>Requests for appeals must be submitted with an Appeal Form to the Financial Aid Appeals Committee. Appeal Forms may be picked up from the Student Financial Aid Office or printed online from the Financial Aid web site. This should explain in detail why they failed to meet the minimum academic standards, what unusual and/or mitigating circumstances caused the failure and how their situation has improved. Student may be required to provide 3rd party documentation, an academic plan, or other documentation.</p>
+<p>Appeals to the maximum timeframe requirement will require most students to be enrolled in 100% required coursework. Repeating a class that has a satisfactory grade for the degree will not be considered required coursework.</p>
+<p>Appeals must be received by the committee no later than 5 business days before the end of the payment period for which reinstatement is desired. Appeal approvals are not applied retroactively after the end of a semester for federal grants such as Pell Grants.</p>
+<p>Committee decisions will be sent to the student by mail or by electronic means. Appeal approvals will give the conditions and time frame for maintaining aid eligibility. SAP Appeals Committee decisions may be appealed to the Director of Financial Aid.</p>
+</div>
+</div>
+<p></p>
+<p>A low SAP may also affect your academic standing, for more information visit the Student Records' <a href="http://www.byui.edu/academic-standards/satisfactory-academic-progress-%28sap%29">Academic Standards SAP page</a>.</p>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="Policy" label="Policy" readonly="false" hidden="false" required="false" CompTypes="PolicyNavigationComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="true"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">true</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x18206" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></PolicyPage>

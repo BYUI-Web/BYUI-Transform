@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x62951" Name="Pharmacy" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Pharmacy</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">The Pharmacy at the BYU-Idaho Student Health Center</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<p><link href="Documents/health-center/topper.css" rel="stylesheet" /> <link href="Documents/health-center/css/layout.css" rel="stylesheet" /></p>
+<style type="text/css"><!--
+body #content_zone .titlehead {    
+      border-bottom: solid thin #753B95;
+   }
+   body .blank { background-image: url('');background-color: #FFFFFF;}
+   body #setwidth {
+      width: 100%;
+   }
+body #content_zone { top: -30px; }
+   body #content_zone .left {
+      width: 44%;
+   }
+   body #content_zone .right {
+      width: 56%;
+   }
+   body #content_zone .icon_sm {
+      background-image:url('Images/health-center/pharm_symbols_200x150.png');
+      background-size: 200px 150px;
+      background-repeat:no-repeat;
+      float: left;
+      width: 50px;
+      height: 50px;
+      margin-right: 10px;
+      border-radius: 5px;
+      box-shadow: 0px 5px 5px #555555;
+   }
+
+   body #content_zone .icon_sm:hover {
+      background-image:url('Images/health-center/pharm_symbols_inv_200x150.png');
+      box-shadow: inset 0px 0px 10px #555555;
+      position: relative;
+      top: 2px;
+   }
+
+   body #content_zone .items ul {
+      list-style-type: none;
+   }
+
+   body #content_zone li {
+      list-style-type: none; 
+padding-right: 0;
+   }
+
+   body #content_zone .items li {
+      clear: both;
+      line-height: 60px;
+      margin: 0;
+padding: 0;
+   } 
+body #content_zone .items ul {
+      list-style-type: none;
+   }
+
+   body #content_zone li {
+      list-style-type: none; 
+padding-right: 0;
+   }
+
+   body #content_zone .items{
+      border: none;
+   } 
+   body #content_zone .comment div{
+      color: #753B95;
+      font-weight: bold;
+   }
+
+   body #content_zone #setwidth a:link,a:visited {
+      color: #000000;
+      text-decoration: none;
+      font-weight: bold;
+   }
+body #content_zone #setwidth a:hover {
+      color: #753B95;
+      text-decoration: underline;
+   }
+   .pharm{background-position:          0px  -150px;}
+
+   .mouth{background-position:          0px     0px;}
+   .female{background-position:       -50px     0px;}
+   .skin{background-position:        -100px     0px;}
+   .stomach{background-position:     -150px     0px;}
+   .ear{background-position:            0px   -50px;}
+   .knee{background-position:         -50px   -50px;}
+   .eye{background-position:         -100px   -50px;}
+   .arm{background-position:         -150px   -50px;}
+   .vitamin{background-position:        0px  -100px;}
+   .thermometer{background-position:  -50px  -100px;}
+   .sneeze{background-position:      -100px  -100px;}
+   .first_aid{background-position:   -150px  -100px;}
+--></style>
+<div id="content_zone">
+<div id="topper">
+<div class="titlehead">Pharmacy</div>
+<div id="frame">
+<div class="icons pharm"></div>
+<div class="shadow"></div>
+</div>
+</div>
+<div id="topsec">
+<div id="faceof"><img alt="Shawn Andreasen" height="237" src="Images/health-center/TS - 4Andreasen Shawn.png" width="190" /> <br />Shawn Andreasen<br />Pharm.D. &amp; R.Ph. <br /><strong>- Pharmacist</strong></div>
+<h4>OVER THE COUNTER (OTC) ITEMS AVAILABLE</h4>
+<h4>AT THE STUDENT HEALTH CENTER PHARMACY</h4>
+<p>The BYU-Idaho Student Health Center Pharmacy carries a wide variety of over-the-counter products at affordable prices, available without a prescription to meet your healthcare needs.</p>
+<p>We carry a wide variety of diabetic supplies, including:</p>
+<ul>
+<li style="list-style: square; margin-left: 50px;">Test strips, Syringes &amp; Lancets</li>
+</ul>
+<p>Most of which are covered by private insurance if you get a prescription from your physician.</p>
+<p><strong>We also carry the following valuable kits:</strong></p>
+<ul>
+<li>First Aid to Go!&reg;: <strong>$1.00!</strong><br /><span class="comment"><span class="comment">a 12 item portable first aid kit</span></span>
+<div>perfect for backpacks</div>
+</li>
+<li>First Aid Essentials: <strong>$6.50</strong> <br /><span class="comment"><span class="comment">a 131 piece first aid kit perfect</span></span>
+<div>for dorm rooms, apartments, or automobiles</div>
+</li>
+<li>Healthy Traveler Kit - International: <strong>$17.00</strong> <br /><span class="comment"><span class="comment">Filled with valuable bandages and medications perfect</span></span>
+<div>for those traveling overseas</div>
+</li>
+<li>Healthy Traveler Kit - Domestic: <strong>$12.50</strong> <br /><span class="comment"><span class="comment">A modified version of our international kit with less items yet still valuable</span></span>
+<div>for any travel within the U.S.</div>
+</li>
+<li>Flu Survival Kit: <strong>$5.00</strong> <br /><span class="comment"><span class="comment">An inexpensive kit designed to help treat flu and flu-like symptoms as well as protect you from infection or infecting others</span></span>
+<div>for details, see <a href="x45841.xml">Cough, Cold, and Flu</a></div>
+</li>
+</ul>
+</div>
+<div id="setwidth">
+<h4>Other OTC items available (by category):</h4>
+<div class="items left">
+<ul>
+<li>
+<div class="icon_sm sneeze"></div>
+<a href="x45836.xml">Allergy Medications </a></li>
+<li>
+<div class="icon_sm thermometer"></div>
+<a href="x45841.xml">Cough, Cold, and Flu</a></li>
+<li>
+<div class="icon_sm ear"></div>
+<a href="x45851.xml">Ear Care</a></li>
+<li>
+<div class="icon_sm eye"></div>
+<a href="x45847.xml">Eye Care</a></li>
+<li>
+<div class="icon_sm female"></div>
+<a href="x45846.xml">Feminine Care</a></li>
+<li>
+<div class="icon_sm first_aid"></div>
+<a href="x45840.xml">First Aid</a></li>
+</ul>
+</div>
+<div class="items right">
+<ul>
+<li>
+<div class="icon_sm mouth"></div>
+<a href="x45838.xml">Oral Care</a></li>
+<li>
+<div class="icon_sm knee"></div>
+<a href="x45839.xml">Pain Relievers</a></li>
+<li>
+<div class="icon_sm skin"></div>
+<a href="x45852.xml">Skin Care</a></li>
+<li>
+<div class="icon_sm stomach"></div>
+<a href="x45844.xml">Stomach &amp; Digestive</a></li>
+<li>
+<div class="icon_sm vitamin"></div>
+<a href="x45843.xml">Vitamins and Supplements</a></li>
+<li>
+<div class="icon_sm blank"></div>
+<a href="x46269.xml">Buck-a-Box</a></li>
+</ul>
+</div>
+<p><strong>All charges go directly to your student account.&nbsp;</strong></p>
+<p>If we don't currently carry the product you are looking for, we can typically order it for you for the following business day.</p>
+<p><strong>We Now have an Online Pharmacy! Visit us at</strong></p>
+<p><a href="https://www.mypharmacyconnect.com/Home/Index?StoreToken=82518E72-B289-4287-956C-70415636002E"><img height="75" src="Images/health-center/Pharmacy-Desktop-Logo.jpg" style="display: block;" width="200" /></a></p>
+</div>
+<div class="clear"></div>
+<p>Questions? Call the Pharmacy at <strong>(208) 496-9342</strong>.</p>
+<p><a href="x37061.xml">FREQUENTLY ASKED QUESTIONS</a></p>
+<iframe frameborder="0" height="240" id="footer" scrolling="no" src="http://www.byui.edu/Documents/health-center/footer.html" width="320"></iframe></div>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="true" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="true" List=""><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x28441" CompTypes="SiteControl" Expanded="false"/></Content>

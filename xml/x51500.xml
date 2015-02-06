@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<Content ID="x51500" Name="index" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">index</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">index</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<!-- BYU-Idaho Campus Map made by Jakob Anderson :: jakobanderson.com --> <!-- Version: 1.0 Revision 1 --> <!-- Updated 12.26.2012 --> <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]--> <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8"> <![endif]--> <!--[if IE 8]>    <html class="no-js lt-ie9"> <![endif]--> <!--[if gt IE 8]><!--><!--<![endif]--><meta /><meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+<title>BYU-Idaho Campus Map</title>
+<!-- favicon section for all device types --> <!-- For iPhone 4 with high-resolution Retina display: --> <link href="Images/maps/apple-touch-icon-114x114-precomposed.png" rel="apple-touch-icon-precomposed" /> <!-- For first-generation iPad: --> <link href="Images/maps/apple-touch-icon-72x72-precomposed.png" rel="apple-touch-icon-precomposed" /> <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: --> <link href="Images/maps/apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed" /> <link href="favicon.ico" rel="icon" /><meta content="" name="description" /><meta content="yes" name="apple-mobile-web-app-capable" /><!-- Mobile viewport optimized: h5bp.com/viewport --><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" /><link href="css/font_style.css" rel="stylesheet" /> x48508 <link href="css/main.min.css" rel="stylesheet" />
+<script src="js/vendor/modernizr.custom.46328.js" type="text/javascript"></script>
+<script type="text/javascript">
+        // update this var when updates are made until official release version deployment
+        var updated = "12.26.2012";
+      
+</script>
+<!--[if lt IE 8]>  <script src="js/vendor/lte-ie7.js"></script><![endif]-->
+<div id="title">
+<h1 id="heading">BYU-Idaho Campus Map<sup>BETA</sup></h1>
+<div id="device_container">
+<div class="device icon-desktop"></div>
+<div class="device icon-mobile"></div>
+</div>
+<a class="icon-settings" href="#" id="menu_button" title="Open Menu. Click this or press [space] bar"></a></div>
+<div id="container">
+<div id="menu" style="display: none; z-index: 2;">
+<div class="scrolling-element-class" id="inner_menu"><nav class="child-element" id="categories"></nav><!-- // categories --></div>
+<!-- // inner menu --></div>
+<!-- // menu -->
+<div id="map_canvas">
+<div id="nojs-msg"><br /> This BYU-Idaho Campus Map application requires Javascript to run. <br /> Your device or browser doesn't appear to have JavaScript enabled. <br /> Please enable it and try again, or try another device or browser.</div>
+</div>
+<div id="loading">
+<div id="loading_inside"><span class="map-icon icon-compass"></span>
+<p id="loading_text">[ LOADING... ]</p>
+<div class="progress-bar blue stripes" id="loading_bar"><span id="loading_progress" style="width: 10%;"></span> <input id="loading_indicator" name="loading_indicator" type="hidden" value="loading" /></div>
+</div>
+</div>
+<div id="map_keys"></div>
+</div>
+<!-- // container -->
+<div class="hybrid" id="notification">
+<p id="updated">Last updated <br />
+<script type="text/javascript">
+document.write(updated);
+</script>
+</p>
+<a class="icon-info" href="#" id="info" title="[Coming Soon] More info about this map"></a> <a class="icon-feedback" href="http://www.byui.edu/feedback/maps" id="feedback" title="Submit feedback about this map" target="_blank"></a></div>
+<!-- Test suite (do not include in final deploment form) -->
+<script src="js/test-suite.js" type="text/javascript"></script>
+<!-- jQuery library import (required for ajax functions) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+window.jQuery || document.write('<script src="js/vendor/jquery-1.7.2.min.js"><\/script>')
+</script>
+<!-- scripts concatenated and minified via build script? -->
+<script src="http://maps.googleapis.com/maps/api/js?v=3&amp;sensor=false" type="text/javascript"></script>
+<script src="js/script.js" type="text/javascript"></script>
+<!-- end script imports -->
+<script type="text/javascript">
+/*iOS Auto-Zoom bugFix, rewritten version By @mathias, @cheeaun and @jdalton*/(function(a){function c(){b.content="width=device-width,minimum-scale="+d[0]+",maximum-scale="+d[1];a.removeEventListener(e,c,!0)}var e="gesturestart",d=[1,1],b="querySelectorAll"in a?a.querySelectorAll("meta[name=viewport]"):[];if((b=b[b.length-1])&&"addEventListener"in a)c(),d=[0.25,1.6],a.addEventListener(e,c,!0)})(document);
+</script>
+<!-- script loading of all analytics resources -->
+<script src="js/vendor/s_code.js" type="text/javascript"></script>
+<script src="js/vendor/omniture_code.js" type="text/javascript"></script>
+<script type="text/javascript">
+      //Insert google analytics asynchronously
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-12079604-6']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+      var ga = document.createElement('script'); 
+      ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; 
+      s.parentNode.insertBefore(ga, s);
+      })();
+    
+</script>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

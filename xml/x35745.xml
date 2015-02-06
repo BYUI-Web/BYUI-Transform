@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x35745" Name="Brazilian Join Us" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Brazilian Associations Join us</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Brazilian Associations Join us</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style type="text/css"><!--
+#page{width: 710px; height: auto; min-height: 600px;}
+    #page #header{width: 710px; height: 265px;}
+    #page #content{width: 78%; height: auto; min-height: 300px; float: left; padding: 1%;}
+    #page #content p{padding-left: 5px;}
+
+    #page #buttons{width: 18%; height: auto; min-height: 300px; float: left; padding: 1%; text-align: center;}
+    #page #buttons a{display:block; width: 100px; height: 100px; margin-left: auto; margin-top: 10px; margin-bottom: 20px;
+        }
+     #page #buttons .useful{background-image: url('Images/student-support/Associations/Association_icons/latinW.png'); background-size: 100%; background-repeat: no-repeat;}
+    #page #buttons .fun{background-image: url('Images/student-support/Associations/Association_icons/latinF.png'); background-size: 100%; background-repeat: no-repeat;}
+    #page #buttons .join{background-image: url('Images/student-support/Associations/Association_icons/join(1).png'); background-size: 100%; background-repeat: no-repeat;}
+
+    #page #buttons .useful:hover{background-image: url('Images/student-support/Associations/Association_icons/blackandwhite.png');}
+    #page #buttons .fun:hover{background-image: url('Images/student-support/Associations/Association_icons/blackandwhiteF.png');}
+    #page #buttons .join:hover{background-image: url('Images/student-support/Associations/Association_icons/join(0)blackandwhite.png');}
+--></style>
+<div id="page">
+<div id="header"><img src="Images/student-support/Associations/Brazilian_710px.jpg" /></div>
+<div id="content">
+<h1>Join Us<span style="font-family: trebuchet ms,geneva; font-size: large; color: #639e42;"></span></h1>
+<p><span style="font-size: xx-small;"><span style="font-family: trebuchet ms,geneva; font-size: medium;"><strong><strong><strong><strong>Contact: <br /> <strong>President: Jason Nestor</strong> </strong><br /><small><strong>Phone: 801-712-3113</strong></small><br /><small><strong>Email: nes09002@byui.edu</strong></small></strong></strong> </strong></span></span></p>
+<p><strong><strong><strong> Contact: <br /> Vice <strong>President: Gary Bernard </strong> </strong><br /><small><strong>Phone: 425-387-3543</strong></small><br /><small><strong>Email: ber09001@byui.edu</strong></small></strong></strong></p>
+<p><strong><strong><strong><strong>Contact: <br /><strong><strong>Vice President: Margaret Carneiro</strong> </strong></strong><br /><strong><small>Phone: 978-590-8489</small></strong> <br /><strong><small>Email: val07008@byui.edu </small></strong> <br /></strong></strong> </strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>&nbsp;</strong></p>
+<ul>
+<li style="list-style-type: none;"><strong><br /><br /> </strong></li>
+</ul>
+<strong><small></small></strong></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div id="buttons"><a class="useful" href="x35721.xml">&nbsp;</a> <a class="fun" href="x35722.xml"></a> <a class="join" href="x35745.xml"></a></div>
+</div>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Component" readonly="false" hidden="false" required="false" Expanded="" List=""><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/><!--071613 xpowercomponent_Optional to xPower--></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x35763" CompTypes="SiteControl" Expanded="false"/></Content>

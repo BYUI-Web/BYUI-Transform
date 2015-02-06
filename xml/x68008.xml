@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x68008" Name="Updated_Ambassador_Spotlight.htm" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Updated_Ambassador_Spotlight.htm</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">Updated_Ambassador_Spotlight.htm</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"&gt;
+&lt;head&gt;
+    &lt;meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /&gt;
+    &lt;title&gt;BYU&amp;ndash;Idaho&amp;nbsp;|&amp;nbsp;Online&amp;nbsp;Magazine&amp;nbsp;&gt;&amp;nbsp;Ambassador&amp;nbsp;Spotlight&lt;/title&gt;
+    &lt;!-- Remove TemplateSource line to disable the Web Editor --&gt;
+    &lt;!--TemplateSource="2A.htm"--&gt;
+    &lt;!--***********************************************************************
+    *   Brigham Young University-Idaho Template
+    *   Version:        1.2
+    *   Type:           2A
+    *   Last Revised:   June, 2006
+    *   Copyright� 2007 Brigham Young University-Idaho
+    *   All Rights Reserved.
+    ************************************************************************--&gt;
+    &lt;!-- REFERENCED STYLESHEETS --&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/v1/topBar.css" /&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/V1/structure.css" /&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/V1/body_text.css" /&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/V1/table.css" /&gt;
+	&lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/driveorwalk/css/walkordrivestyle.css" /&gt;
+	&lt;link rel="stylesheet" type="text/css" href="../css/ol.css" /&gt;
+	&lt;link rel="stylesheet" type="text/css" href="../css/news_of_note_style.css" /&gt;
+
+	
+    &lt;!-- EMBEDED JAVASCRIPT FUNCTIONS --&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/js/v2/changeSizeRevised.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/js/v2/leftLinks.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/driveorwalk/js/textswap.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/driveorwalk/js/active.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/driveorwalk/js/randomadimage.js"&gt;&lt;/script&gt;
+
+
+
+    &lt;!-- EDITOR JAVASCRIPT FUNCTIONS --&gt;
+&lt;/head&gt;
+&lt;body id="type_A" onload="callFunctions(); randomImageDisplay(); activeNav(1); randomAdImage();" style="visibility:hidden;"&gt;
+    &lt;!-- The body type determines the number of columns in the CONTENT AREA. View structure.css to where these types are specified --&gt;
+    &lt;!-- ********************************************************************* --&gt;
+    &lt;!-- TOP BAR                                                               --&gt;
+    &lt;!-- ********************************************************************* --&gt;
+    &lt;div id="topBar"&gt;
+        &lt;div id="blueSpace"&gt;&lt;/div&gt;
+        &lt;div&gt;
+            &lt;table id="tableBlue" cellspacing="0" cellpadding="0"&gt;
+                &lt;!-- Title menu with the Blue Background --&gt;
+                &lt;tr&gt;&lt;td id="tdBlueSpace"&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr id="trBlueTop"&gt;&lt;td id="tdBlueTop"&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td id="tdBlueMenu" align="center"&gt;
+                        &lt;div id="javaMenu"&gt;
+                            &lt;script type="text/javascript" src="http://www.byui.edu/js/V1/HomepageNavBar.js"&gt;&lt;/script&gt;
+                        &lt;/div&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+        &lt;/div&gt;
+        &lt;!-- Gray Bar --&gt;
+        &lt;div id="divGrayBarContainer"&gt;
+            &lt;div id="divDarkGrayBar"&gt;
+                &lt;!--&lt;div id="divStudent"&gt;
+                    &lt;script type="text/javascript" src="http://www.byui.edu/js/V1/imageChange.js"&gt;&lt;/script&gt;
+                &lt;/div&gt; //--&gt;
+                &lt;div id="divBYUILogo"&gt;
+                    &lt;a id="logoLink" href="http://www.byui.edu/"&gt;&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div id="divVertLine"&gt;&lt;/div&gt;
+                &lt;div id="divDepartmentTitle"&gt;
+                    &lt;!-- Department Title --&gt;
+                    &lt;div id="divSectionTitle"&gt;
+                        &lt;a id="iframeText" target="_top" href="http://www.byui.edu/magazine"&gt;Online Magazine &amp;gt; Ambassador Spotlight&lt;/a&gt;
+
+                    &lt;/div&gt;  
+                    &lt;span id="divSemester" style="width:100px;align:right;margin-left:170px;"&gt;
+                        &lt;!--EditorContacts--&gt;
+						&lt;font color="white"&gt;&lt;b&gt;Fall 2009&lt;/b&gt;&lt;/font&gt;
+                        &lt;!--EndEditorContacts--&gt;
+                    &lt;/span&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;!-- White Bar --&gt;
+        &lt;div id="divWhiteContainer"&gt;
+        &lt;div id="divWhiteBar"&gt;
+            &lt;img src="http://www.byui.edu/css/V1/images/whiteBar.gif" alt="White Bar" /&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!-- END ***************************************************************** --&gt;
+    &lt;!--EditorForm--&gt;
+    &lt;!--EditorToolbar--&gt;
+    &lt;div id="container"&gt;
+        &lt;div id="main_body"&gt;
+            &lt;!-- LEFT COLUMN --&gt;
+            &lt;!-- NAVIGATION FILE INCLUDE --&gt;
+            			&lt;div id="left_column"&gt;
+							&lt;div id="onlinemagazinenav"&gt;
+								&lt;!--#include file="../../common/nav.inc"--&gt;
+					
+			   				&lt;/div&gt;
+					   
+						&lt;/div&gt;
+            
+            &lt;div id="right_section"&gt;
+                &lt;div class="right_bottom_section"&gt;
+                    &lt;div class="leftAREA"&gt;
+						&lt;div id="page_layout2_content"&gt;&lt;br&gt;
+							&lt;h1&gt;BYU-Idaho Ambassador Spotlight&lt;/h1&gt;&lt;b&gt; - A Sibling Connection&lt;/b&gt;
+							&lt;a name="news1"&gt;&lt;/a&gt;
+							&lt;div class="first_news_item"&gt;
+								&lt;p&gt;Among the ranks of our BYU-Idaho Ambassadors are three siblings and their spouses who span the United States, from Florida to Oregon.  The first to volunteer were Ambassadors Drew and Tamra Kriser of Bonifay, Florida.  Tamra soon encouraged her sister Krista Carrol of Hillsboro, Oregon and her brother Lathan Flake of Meridian, Idaho to become Ambassadors.  These siblings all share these things in common: First, they love BYU-Idaho, Second they all met their spouses at Ricks College, and Third, they and their spouses are all making a difference in the lives of our students and alumni.&lt;/p&gt;
+								&lt;p&gt;For example, Lathan and Michelle tell of an experience were they visited with a young lady who had no aspirations of attending college believing she could not be accepted.  They told this young sister about the new admissions guidelines made possible by the Three Track System and encouraged her to apply.   She followed their advice she did apply, was accepted, and enrolled at BYU-Idaho.  Her older brother soon followed her example and followed her to Rexburg.  According to the Flakes, &amp;#147;Her life has changed, her family is following her example.  She came from a difficult childhood and now she is accomplishing things she never thought possible.&amp;#148;&lt;/p&gt;
+								&lt;p&gt;Similarly, Jonathan and Krista Carrol encouraged a young sister to consider BYU-Idaho.  Soon after her arrival to campus, she sent the Carrols&amp;#039;s a thank you note stating:&lt;/p&gt;
+								&lt;p style="margin-left:20px"&gt;&amp;#147;So, maybe the truth is that I hated this place when I first started. It snows approximately 7 months of the year, the wind never stops blowing, the temperature is frequently in negative double-digits, the dating culture is slightly ridiculous . . . BUT, I now love it. I love the atmosphere. I love starting every class with a prayer; I love talking about how we all play &amp;#039;Spot the Mormon&amp;#039; on vacation; I love debating &amp;#039;fetch&amp;#039; as a swear word; I love knowing that every Sunday I will see the guys I go to class with wearing their white shirts and ties and honoring their Priesthood; I love seeing people reading their scriptures on campus; I love walking to class and having random strangers smile at me and say hi and strike up a conversation (well, that one depends what time of morning it is); I love my on-campus job and the people I work with; I love not opening any doors on campus because if there are any boys within 100 feet of me they will run over and do it; and most of all I love not having to worry about what kind of things my friends are going to want to do and if I&amp;#039;m going to end up not going because whatever they&amp;#039;re doing is against my standards. I just love it!&amp;#148;&lt;/p&gt;
+								&lt;p&gt;The Krisers recently encouraged a student from Florida to take a detour to Rexburg while she and her mother were on a coast-to-coast trip to the state of Washington.  They helped arrange a campus tour.  She late visited several other college campus in the East, but she was very disappointed in both the physical condition of the schools and the overall feeling.  She couldn&amp;#039;t help put contrast her visit to the BYU-Idaho campus where everything had been clean and beautiful and where she had felt a wonderful and inviting spirit. A desire to attend BYU-I began to grow.  She applied and was accepted, and her father drove her out West.  He was a student at a Baptist College and had attended several colleges throughout his life, but had never seen or felt anything like what he experienced at BYU-I.  Before leaving Rexburg, he wanted to make sure he felt comfortable leaving her behind.  They attended some orientation meetings together, and his respect for the University continued to grow&amp;#151; giving him full confidence that his daughter would thrive in this environment.  Megan is a now a sophomore at BYU-I.  She has a job, works hard in her classes, participates in her ward, and loves student life.  She cannot say enough about her positive experience at BYU-I and how it has positively changed the course of her life.&lt;/p&gt;
+								&lt;p&gt;The Krisers state, &amp;#147;It has been very rewarding to watch certain individuals from our area transforming into disciple leaders and strengthening in faith and testimony through their experiences at BYUI . . . and to know we have played a small part in helping them get there.   The quality of life and clear direction several of these individuals now have will carry on and multiply for generations to come.&lt;/p&gt;
+								&lt;p&gt;Drew and Tamra Kriser are continuing the family tradition by encouraging their own children, with two daughters and one son currently enrolled at BYU-Idaho.  They also are still actively encouraging others to join the Ambassador ranks, including another brother living in Utah. &lt;/p&gt;
+								&lt;p&gt;We are very grateful for these three couples and all they do for BYU-Idaho and their Alumni Association.  They are great Ambassadors because they live and teach by both precept and example the mission and value of BYU-Idaho and the &amp;#039;Spirit of Ricks,&amp;#039; blessing the lives alumni, parents, and students in their local communities.&lt;/p&gt;
+								&lt;p&gt;If you would like more information about becoming a BYU-Idaho Ambassador, please contact Steve Davis at &lt;a href="mailto:daviss@byui.edu"&gt;daviss@byui.edu&lt;/a&gt; or call toll free 1-800-537-2586.&lt;/p&gt;
+							&lt;/div&gt;&lt;!--END NEWS ITEM--&gt;
+						&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class="rightAREA"&gt;&lt;img alt="Place Holder" src="http://www.byui.edu/css/V1/images/placeholder80.gif" /&gt;&lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div id="footer"&gt;
+            &lt;div id="shadow"&gt;Copyright&amp;copy; &lt;script type="text/javascript"&gt;var d = new Date();document.write(d.getFullYear());&lt;/script&gt; BYU&amp;ndash;Idaho&lt;br /&gt;All Rights Reserved.&lt;/div&gt;
+        &lt;/div&gt;
+    
+    &lt;!--EndEditorForm--&gt;
+    &lt;!-- TABLE FORMATTING SECTION --&gt;
+    &lt;script type="text/javascript"&gt;
+        &lt;!--
+        var tableTags = document.getElementById('main_body').getElementsByTagName("table");
+        for (var i = 0; i &lt; tableTags.length; i++)
+        {
+            var trTags = tableTags[i].getElementsByTagName("tr");
+            for (var j = 0; j &lt; trTags.length; j++)
+            {
+                if(j%2 == 0)
+                {
+                    trTags.item(j).style.backgroundColor = "#efefec";
+                }
+                else
+                {
+                    trTags.item(j).style.backgroundColor = "#ffffff";
+                }
+            }
+        }
+        --&gt;
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</ESContent></EmptyShell>

@@ -1,0 +1,288 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x48037" Name="passwordbody" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;script type="text/javascript"&gt;
+			//There are many things done in this code that are bad practices.
+			//This was my only option due to the limitations of the ingenuix web developer tool.
+			
+			// Create variables to hold many of the different texts required for the dynamic displays
+			// They are created outside of any function so they will be accessible by all functions
+			var iosForgetEmailLink = "'www2.byui.edu/helprequest/password/iosForgetEmail.html'";
+			var iosForgetWifiLink = "'www2.byui.edu/helprequest/password/iosForgetWifi.html'";
+			var androidForgetEmailLink = "'www2.byui.edu/helprequest/password/androidForgetEmail.html'";
+			var androidForgetWifiLink = "'www2.byui.edu/helprequest/password/androidForgetWifi.html'";
+			var windows7WirelessLink = "'www2.byui.edu/helprequest/password/windows7Wireless.html'";
+			var windowsRemoveProfileLink = "'www2.byui.edu/helprequest/password/removeProfile.html'";
+			var iosStudentEmailLink = "'www2.byui.edu/helprequest/password/iosStudentEmail.html'";
+			var iosFacultyEmailLink = "'www2.byui.edu/helprequest/password/iosFacultyEmail.html'";
+			var androidStudentEmailLink = "'www2.byui.edu/helprequest/password/androidStudentEmail.html'";
+			var androidFacultyEmailLink = "'www2.byui.edu/helprequest/password/androidFacultyEmail.html'";
+			var iosWirelessSetupLink = "'www2.byui.edu/helprequest/password/iosWirelessSetup.html'";
+			var androidWirelessSetupLink = "'www2.byui.edu/helprequest/password/androidWirelessSetup.html'";
+			var genericWirelessLink = "'www2.byui.edu/helprequest/password/genericWireless.html'";
+			var genericemailLink = "'www2.byui.edu/helprequest/password/genericemail.html'";
+			var printerURL = "'www2.byui.edu/helprequest/password/wirelessPrinting.html'"
+			var cellphoneInstruct = document.createElement("LI");
+			var ciText = document.createTextNode("Reconfigure your Wireless on your devices");
+			cellphoneInstruct.appendChild(ciText);
+			var ciP = document.createElement("P");
+			var ciPText = document.createTextNode("One at a time, restart each of your devices such as a phone or tablet.  Follow the instructions for the devices you have.");
+			ciP.appendChild(ciPText);
+			cellphoneInstruct.appendChild(ciP);
+			var iosInstruct = '&lt;a id="iosInstructLink" href="javascript:displayIframe('+iosForgetEmailLink+')"&gt;Instructions for turning off your email on your iPhone or iPad&lt;/a&gt; &lt;br /&gt; &lt;a href="javascript:displayIframe('+iosForgetWifiLink+')"&gt;Instructions for removing your wireless profile on your iPad or iPhone&lt;/a&gt;';
+			var iosLink = '&lt;a href="javascript:displayIframe('+iosWirelessSetupLink+')"&gt;iPhone or iPad wireless reconfiguration&lt;/a&gt;';
+			var androidInstruct = '&lt;a href="javascript:displayIframe('+androidForgetEmailLink+')"&gt;Instructions for turning off your email on your Android phone or tablet.&lt;/a&gt; &lt;br /&gt; &lt;a href="javascript:displayIframe('+androidForgetWifiLink+')"&gt;Instructions for removing your wireless profile on your Android phone or tablet.&lt;/a&gt;';
+			var androidLink = '&lt;a href="javascript:displayIframe('+androidWirelessSetupLink+')"&gt;Android wireless phone or tablet reconfiguration&lt;/a&gt;';
+			var otherInstruct = '&lt;a href="javascript:displayIframe('+windowsRemoveProfileLink+')"&gt;Instructions for removing your windows wireless profile.&lt;/a&gt;';
+			var otherLink = '&lt;a href="javascript:displayIframe('+genericWirelessLink+')"&gt;Other devices wireless reconfiguration&lt;/a&gt;';
+			var printerInstruct = document.createElement("LI");
+			var piText = document.createTextNode("Pharos printers for private computers");
+			printerInstruct.appendChild(piText);
+			var piP = document.createElement("P");
+			var piPText = document.createTextNode("If you have a private computer and print to a Pharos printer, you need to reconfigure your print drivers.  (This includes student owned and employee owned computers.)");
+			piP.appendChild(piPText);
+			printerInstruct.appendChild(piP);
+			var printerLink = '&lt;a id="pointer" onclick="displayIframe('+printerURL+')" title="View instructions for finding out which devices access your employee email"&gt;Instructions for removing your printer profile.&lt;/a&gt;';
+			var iosEmail = '&lt;a href="javascript:displayIframe('+iosFacultyEmailLink+')"&gt;iPhone or iPad Employee Email reconfiguration&lt;/a&gt;  &lt;br /&gt;  &lt;a href="javascript:displayIframe('+iosStudentEmailLink+')"&gt;iPhone or iPad Student Email reconfiguration&lt;/a&gt;';
+			var androidEmail = '&lt;a href="javascript:displayIframe('+androidFacultyEmailLink+')"&gt;Android Device Employee Email reconfiguration&lt;/a&gt; &lt;br /&gt; &lt;a href="javascript:displayIframe('+androidStudentEmailLink+')"&gt;Android Device Student Email reconfiguration&lt;/a&gt;';
+			var otherEmail = '&lt;a href="javascript:displayIframe('+genericemailLink+')"&gt;Reconfigure email on other devices&lt;/a&gt;';
+			
+			//This next section of code is used to display the dynamic content required depending on the devices or configurations they have.
+			//There are several logic checks here to ensure that none of the checkboxes conflict with eachother
+			function iosCheck() {
+				//This first section returns the value of the different checkboxes required for the logic gate.
+				//If a box is checked the value of the box is true. If it is unchecked, the value is false
+				var check = document.getElementById("ios").checked;
+				var acheck = document.getElementById("android").checked;
+				var ocheck = document.getElementById("other").checked; 
+				//if the box for ios devices is checked, and the second boxes for android and other are not checked,
+				//then if populates the divs with the display information contained in the variables above.
+				//when these conditions are met then all relative ios data is displayed as well as the cellphone field
+				if (check == true &amp;&amp; acheck !== true &amp;&amp; ocheck !== true) {
+					iosResult.innerHTML = iosInstruct;
+					cellphone.appendChild(cellphoneInstruct);
+					iosDisplay.innerHTML = iosLink;
+					iosEmailDisplay.innerHTML = iosEmail;
+				//If andoid, other, and ios devices are checked then only populate data directly correlating to ios.
+				} else if ((acheck == true || ocheck == true) &amp;&amp; check == true) {
+					iosResult.innerHTML = iosInstruct;
+					iosDisplay.innerHTML = iosLink;
+					iosEmailDisplay.innerHTML = iosEmail;
+				//if android and other are checked, but ios is unchecked, then it only removes the display for those
+				//things which directly correlate to ios.
+				} else if ((acheck == true || ocheck == true) &amp;&amp; check !== true) {
+					iosResult.innerHTML = "";
+					iosDisplay.innerHTML = "";
+					iosEmailDisplay.innerHTML = "";
+				//This is the final step, once we have ensure that no other fields require cellphone or ios instructions all
+				//fields are removed.
+				} else {
+					iosResult.innerHTML = "";
+					cellphone.removeChild(cellphoneInstruct);
+					iosDisplay.innerHTML = "";
+					iosEmailDisplay.innerHTML = "";
+				}
+			}
+			
+			//All of the other functions ending in Check() and Fill(), with exception to the pharosCheck() and pharosFill(), 
+			//work off of this same premise, you just would change check from referring to ios to another field and creating a check for ios devices.
+			
+			//For logic walkthrough, please refer to iosCheck() above.
+			function androidCheck() {
+				var check = document.getElementById("android").checked;
+				var icheck = document.getElementById("ios").checked;
+				var ocheck = document.getElementById("other").checked;
+				if (check == true &amp;&amp; icheck !== true &amp;&amp; ocheck !== true) {
+					androidResult.innerHTML = androidInstruct;
+					cellphone.appendChild(cellphoneInstruct);
+					androidDisplay.innerHTML = androidLink;
+					androidEmailDisplay.innerHTML = androidEmail;
+				} else if ((icheck == true || ocheck == true) &amp;&amp; check == true) {
+					androidResult.innerHTML = androidInstruct;
+					androidDisplay.innerHTML = androidLink;
+					androidEmailDisplay.innerHTML = androidEmail;
+				} else if ((icheck == true || ocheck == true) &amp;&amp; check !== true) {
+					androidResult.innerHTML = "";
+					androidDisplay.innerHTML = "";
+					androidEmailDisplay.innerHTML = "";
+				} else {
+					androidResult.innerHTML = "";
+					cellphone.removeChild(cellphoneInstruct);
+					androidDisplay.innerHTML = "";
+					androidEmailDisplay.innerHTML = "";
+				}
+			}
+			
+			//Fortunately the printer option doesn't need to interact with the mobile devices
+			function pharosCheck() {
+				//retrieve the value of the pharos checkbox
+				var check = document.getElementById("pharos").checked;
+				//if checked, display the information for printers
+				if (check == true ) {
+					printer.appendChild(printerInstruct);
+					pharosResult.innerHTML = printerLink;
+				//if not checked, do not display the information for printers
+				} else {
+					printer.removeChild(printerInstruct);
+					pharosResult.innerHTML = "";
+				}
+			}
+			
+			//For logic walkthrough, please refer to iosCheck() above.
+			function otherCheck() {
+				var check = document.getElementById("other").checked;
+				var icheck = document.getElementById("ios").checked;
+				var acheck = document.getElementById("android").checked;
+				if (check == true &amp;&amp; acheck !== true &amp;&amp; icheck !== true) {
+					otherResult.innerHTML = otherInstruct;
+					cellphone.appendChild(cellphoneInstruct);
+					otherEmailDisplay.innerHTML = otherEmail;
+					otherDisplay.innerHTML = otherLink;
+				} else if ((acheck == true || icheck == true) &amp;&amp; check == true) {
+					otherResult.innerHTML = otherInstruct;
+					otherEmailDisplay.innerHTML = otherEmail;
+					otherDisplay.innerHTML = otherLink;
+				} else if ((acheck == true || icheck == true) &amp;&amp; check !== true) {
+					otherResult.innerHTML = "";
+					otherDisplay.innerHTML = "";
+					otherEmailDisplay.innerHTML = "";
+				}else {
+					otherResult.innerHTML = "";
+					cellphone.removeChild(cellphoneInstruct);
+					otherEmailDisplay.innerHTML = "";
+					otherDisplay.innerHTML = "";
+				}
+			}
+			
+			//custom code for the popout boxes that display the tutorials
+			var displayCount = 0;
+			function displayIframe(source) {
+				frameDisplay.innerHTML = "&lt;a id='closeFrameButton' href='javascript: closeIframe()'&gt;Close&lt;/a&gt;&lt;iframe id='theFrame' src='http://"+source+"' frameborder='0'&gt;&lt;/iframe&gt;";
+				if(displayCount == 0) {
+					document.getElementById('frameDisplay').style.position="fixed";
+					document.getElementById('frameDisplay').style.zIndex="100";
+					document.getElementById('frameDisplay').style.left="25%";
+					displayCount++;
+				}
+				document.getElementById('frameDisplay').style.top="1%";
+				document.getElementById('theFrame').style.height="50em";
+				document.getElementById('theFrame').style.width="45.09em";
+				document.getElementById('theFrame').style.backgroundColor="white";
+				document.getElementById('darken').style.opacity="0.4";
+                document.getElementById('university_message').style.opacity="0.4";
+                document.getElementById('local_nav').style.opacity="0.4";
+				document.getElementById('breadcrumbs').style.opacity="0.4";
+				document.getElementById('main_header').style.opacity="0.4";
+				document.getElementById('top_header').style.opacity="0.4";
+				document.getElementById('footer_nav').style.opacity="0.4";
+				document.getElementById('footer_links_container').style.opacity="0.4";
+				document.getElementById('footer_brand').style.opacity="0.4";
+				document.getElementById('page_title').style.opacity="0.4";
+			}
+
+			//code to close the box and return the page to normal.
+			function closeIframe() {
+				frameDisplay.innerHTML = "";
+				document.getElementById('darken').style.opacity="1.0";
+                document.getElementById('university_message').style.opacity="1.0";
+				document.getElementById('local_nav').style.opacity="1.0";
+                document.getElementById('breadcrumbs').style.opacity="1.0";
+				document.getElementById('main_header').style.opacity="1.0"; 
+				document.getElementById('top_header').style.opacity="1.0";
+				document.getElementById('footer_nav').style.opacity="1.0";
+				document.getElementById('footer_links_container').style.opacity="1.0";
+				document.getElementById('footer_brand').style.opacity="1.0";
+				document.getElementById('page_title').style.opacity="1.0";
+			}
+		&lt;/script&gt;
+		&lt;style type="text/css"&gt;
+
+			#theFrame{
+				box-shadow: 10px 10px 10px #888888; 
+				border: 1px solid black;
+			}
+
+			#closeFrameButton{
+				left:91.9%; 
+				border: 1px solid black; 
+				color:white; 
+				text-decoration:none; 
+				background-color: rgb(50,107,169); 
+				border-radius:5px; 
+				display: block;
+				width: 2.3rem;
+				margin-left: 42.5em;
+			}
+
+			#pointer{
+				cursor: pointer;
+				color: #056CC2;
+				text-decoration: underline;
+			}
+
+			#passwordFrame{
+				border: none;
+			}
+
+		&lt;/style&gt;
+		&lt;div id="frameDisplay"&gt;&lt;/div&gt;
+		&lt;div id="darken"&gt;
+		&lt;h1&gt;Warning&lt;/h1&gt;
+		&lt;p&gt;If you have a CELL PHONE, TABLET, or a pharos printer set up on your computer, changing your password may negatively affect the applications on your cell phone or tablet and visa-versa.   The instructions will help you avoid locking your account.&lt;/p&gt;
+		&lt;p&gt;Just logged back in after changing your password? Please proceed to &lt;a href="#verification"&gt;Verification Process&lt;/a&gt;&lt;/p&gt;
+		&lt;ul&gt;
+			&lt;li&gt;Turn off your cell phone and tablets&lt;/li&gt;&lt;br /&gt;
+				&lt;p&gt;If you have a cell phone or a tablet that accesses your campus email, the campus WIFI (wireless) account or a pharos printer set up on your computer, you should turn off these devices before  changing your password. You may also remove your profiles from these devices. If you do not use these devices for these features, changing your password will be simple.&lt;/p&gt;
+			&lt;li&gt;Change password&lt;/li&gt;
+					&lt;p&gt;Passwords must have the following features:&lt;/p&gt;
+					&lt;ul&gt;
+					&lt;li&gt;From 8 to 16 characters in length&lt;/li&gt;
+					&lt;li&gt;Contain 3 of the following:&lt;/li&gt;
+					&lt;ul&gt;
+						&lt;li&gt;Lower case letters&lt;/li&gt;
+						&lt;li&gt;Upper case letters&lt;/li&gt;
+						&lt;li&gt;Numbers&lt;/li&gt;
+						&lt;li&gt;Symbols or special characters except for: -, ?, &lt;,&gt;, /&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/ul&gt;&lt;br /&gt;
+				&lt;!--This frame is a placeholder for the new password change form.--&gt;
+				&lt;iframe id='passwordFrame' src="https://web.byui.edu/Username/ChangePassword.aspx" seamless height='600' width='600'&gt;&lt;/iframe&gt;
+			&lt;li&gt;Log off and log back on&lt;/li&gt;
+				&lt;p&gt;If you are using a campus Windows computer you need to log off your computer and log back on to set the new password in your computer's memory. Please click on the start icon, then select the arrow to the right of shutdown and click on "Log off".&lt;/p&gt;
+				&lt;p&gt;If you are using a campus Apple computer change your password for your User Profile.&lt;/p&gt;
+				&lt;ol&gt;
+					&lt;li&gt;View the &lt;a href="http://www.byui.edu/information-technology/apple-os-x-password-change" target="_blank" title="View the tutorial for changing your Apple OS X password."&gt;Apple OS X Password Change Tutorial&lt;/a&gt; and remove all old passwords from browsers.&lt;/li&gt;
+					&lt;li&gt;Then clear your old passwords from the Key Chain. Please use our &lt;a href="http://www.byui.edu/x43392.xml" target="_blank" title="Remove Apple Keychain passwords"&gt;Remove Apple Keychain Passwords Tutorial&lt;/a&gt;.&lt;/li&gt;
+				&lt;/ol&gt;
+				&lt;p&gt;You can also view the tutorial for &lt;a id='pointer' onclick='displayIframe("www2.byui.edu/helprequest/password/logoff.html");' title="View the tutorial on how to log off a Windows or Apple Computer"&gt;Logging off of a Windows or Apple Computer&lt;/a&gt;.&lt;/p&gt;
+				&lt;p&gt;&lt;strong&gt;After logging back in, return to this page for instructions for completing the process.&lt;/strong&gt;&lt;/p&gt;
+				&lt;a name="verification"&gt;&lt;/a&gt;
+				&lt;h4&gt;Verification process&lt;/h4&gt;
+				&lt;p&gt;Now that your password has been changed, you need to verify that it is working correctly for all of your devices. If you know how, change the stored password on your devices, otherwise follow the instructions for removing your profiles. The display below will help you monitor any problems with locking of your account.&lt;/p&gt;
+				&lt;a id="pointer" onclick="displayIframe('www2.byui.edu/helprequest/password/devicesemployee.html')" title="View instructions for finding out which devices access your employee email"&gt;Instructions for discovering which devices access your employee email.&lt;/a&gt; &lt;br /&gt; &lt;a id="pointer" onclick="displayIframe('www2.byui.edu/helprequest/password/devicesstudent.html')" title="View instructions for finding out which devices access your student email"&gt;Instructions for discovering which devices access your student email.&lt;/a&gt;&lt;p&gt;&lt;/p&gt;
+				&lt;p&gt;Please select your devices and configurations:&lt;/p&gt;
+				&lt;!--The if statements in the onclick ensure that if the corresponding box after verification is checked that the function will not fire.--&gt;
+				&lt;input type="checkbox" id="ios" onclick="iosCheck()"&gt;iPhone or iPad&lt;/input&gt;
+				&lt;input type="checkbox" id="android" onclick="androidCheck()"&gt;Android phone or tablet&lt;/input&gt;
+				&lt;input type="checkbox" id="pharos" onclick="pharosCheck()"&gt;Pharos Printer&lt;/input&gt;
+				&lt;input type="checkbox" id="other" onclick="otherCheck()"&gt;Other&lt;/input&gt; &lt;br /&gt;
+				&lt;!--This div is where display data is published once checkboxes are marked--&gt;
+				&lt;div id="iosResult"&gt;&lt;/div&gt;
+				&lt;div id="androidResult"&gt;&lt;/div&gt;
+				&lt;div id="otherResult"&gt;&lt;/div&gt;&lt;br /&gt;
+			&lt;div id="cellphone"&gt;&lt;/div&gt;
+				&lt;div id="iosDisplay"&gt;&lt;/div&gt;
+				&lt;div id="androidDisplay"&gt;&lt;/div&gt;
+				&lt;div id="otherDisplay"&gt;&lt;/div&gt;&lt;br /&gt;
+			&lt;li&gt;Check email&lt;/li&gt;
+				&lt;p&gt;Verify that the email system is accepting your new password on your computer.  Launch your email system and test it.  See if it receives new email message or if you can send an email message.&lt;/p&gt;
+				&lt;!--These divs are reserved for display--&gt;
+				&lt;div id="iosEmailDisplay"&gt;&lt;/div&gt;
+				&lt;div id="androidEmailDisplay"&gt;&lt;/div&gt;
+				&lt;div id="otherEmailDisplay"&gt;&lt;/div&gt;&lt;br /&gt;
+				&lt;a id="pointer" onclick="displayIframe('www2.byui.edu/helprequest/password/checkemail.html')" title="View instructions for finding out which devices access your employee email"&gt;Instructions for checking your email functionality&lt;/a&gt;
+			&lt;div id="printer"&gt;&lt;/div&gt;
+				&lt;div id="pharosResult"&gt;&lt;/div&gt;&lt;br /&gt;
+			&lt;li&gt;Additional help&lt;/li&gt;
+				&lt;p&gt;If you have problems following these instructions or configuring your devices, do not hesitate to contact the Help Desk at 208-496-9000 or 1-866-237-5195 (toll free).  Your can find online help by visiting the Help desk web pages.  You can find the Help desk web pages one of three ways,  by following the link from the bottom of the main pages at &lt;a href="http://www.byui.edu" title="Go to the BYU-I homepage"&gt;www.byui.edu&lt;/a&gt;, by searching for "help desk" in the search button on &lt;a href="http://www.byui.edu" title="Go to the BYU-I homepage"&gt;www.byui.edu&lt;/a&gt;, and by searching in Google for "byui help desk."&lt;/p&gt;
+		&lt;/ul&gt; 
+		&lt;/div&gt;</ContentSnippet></ContentSnippet>

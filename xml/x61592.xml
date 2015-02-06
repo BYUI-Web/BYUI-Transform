@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<AdminPage ID="x61592" Name="Buildings" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Buildings</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Buildings</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="Cells" label="Cells" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="GroupStart" GroupStart="" Name="Cell1" label="Cell 1" readonly="false" hidden="false" required="false" Expanded=""><Cell1Title type="string" label="Cell 1 Title" readonly="false" hidden="false" required="false"></Cell1Title><Cell1Image type="imagefile" label="Cell 1 Image" readonly="false" hidden="false" required="false" Width="" Height="" Alignment="" Border="" Expanded=""></Cell1Image><Cell1Text type="string" label="Cell 1 Text" readonly="false" hidden="false" required="false"></Cell1Text><xPower Type="Link" Link="" Name="Cell1Link" label="Cell 1 Link" readonly="false" hidden="false" required="false" LinkText="" Target="" Expanded=""/></xPower><xPower Type="GroupStart" GroupStart="" Name="Cell2" label="Cell 2" readonly="false" hidden="false" required="false" Expanded=""><Cell2Title type="string" label="Cell 2 Title" readonly="false" hidden="false" required="false"></Cell2Title><Cell2Image type="imagefile" label="Cell 2 Image" readonly="false" hidden="false" required="false" Width="" Height="" Alignment="" Border="" Expanded=""></Cell2Image><Cell2Text type="string" label="Cell 2 Text" readonly="false" hidden="false" required="false"></Cell2Text><xPower Type="Link" Link="" Name="Cell2Link" label="Cell 2 Link" readonly="false" hidden="false" required="false" LinkText="" Target="" Expanded=""/></xPower><xPower Type="GroupStart" GroupStart="" Name="Cell3" label="Cell 3" readonly="false" hidden="false" required="false" Expanded=""><Cell3Title type="string" label="Cell 3 Title" readonly="false" hidden="false" required="false"></Cell3Title><Cell3Image type="imagefile" label="Cell 3 Image" readonly="false" hidden="false" required="false" Width="" Height="" Alignment="" Border="" Expanded=""></Cell3Image><Cell3Text type="string" label="Cell 3 Text" readonly="false" hidden="false" required="false"></Cell3Text><xPower Type="Link" Link="" Name="Cell3Link" label="Cell 3 Link" readonly="false" hidden="false" required="false" LinkText="" Target="" Expanded=""/></xPower><xPower Type="List" List="xpowercomponent_CellComponent" Name="AdditionalCellComponents" label="Additional Cells" readonly="false" hidden="false" required="false" Component="" CompTypes="CellComponent" Expanded="false"><xPower Type="Component" Component="" Name="CellComponent" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"/></xPower></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<h5>Agricultural Engineering Bldg (AGM)</h5>
+<h5>Auxiliary Sciences Bldg (ASB)</h5>
+<h5>Mark Austin Technical &amp; Engineering Bldg (AUS)</h5>
+<h5><a href="x44123.xml" title="BYU-Idaho Center">BYU-Idaho Center (BCTR)</a></h5>
+<h5>Ezra Taft Benson Agricultural &amp; Biological Sciences Bldg (BEN)</h5>
+<h5>Biddulph Hall (BID)</h5>
+<h5>Barnes Hall (women) (BRN)</h5>
+<h5>Chapman Hall (men) (CHP)</h5>
+<h5>John L. Clarke Bldg (CLK)</h5>
+<h5>Construction Management Lab (CML)</h5>
+<h5>Gordon B. Hinckley (HIN)</h5>
+<h5>John W. Hart Physical Education Bldg (HRT)</h5>
+<h5>Heating Plant (HTG)</h5>
+<h5>Kerr Hall (women) (KER)</h5>
+<h5>Spencer W. Kimball Student &amp; Administration Services Bldg (KIM)</h5>
+<h5>Oscar A. Kirkham Bldg (KRK)</h5>
+<h5>Lamprecht Hall (LAM)</h5>
+<h5>Hyrum Manwaring Student Center (MC)</h5>
+<h5>David O. McKay Library (MCK)</h5>
+<h5>Perkins Hall (women) (PER)</h5>
+<h5>Physical Plant Grounds Construction &amp; Sign Shop (PPG)</h5>
+<h5>Physical Plant Office Bldg (PPO)</h5>
+<h5>Physical Plant Shop Bldg (PPS)</h5>
+<h5>Plumbing &amp; Welding Shop (PWS)</h5>
+<h5>Radio &amp; Graphic Services Bldg (UCB)</h5>
+<h5>Ricks Hall (women) (RIC)</h5>
+<h5>Rigby Hall (faculty offices (RIG)</h5>
+<h5>Thomas E. Ricks Bldg (RKS)</h5>
+<h5>George S. Romney Bldg (ROM)</h5>
+<h5>Student Health &amp; Counseling Center (SHC)</h5>
+<h5>Joseph Fielding Smith Bldg (SMI)</h5>
+<h5>Eliza R. Snow Performing Arts Center (SNO)</h5>
+<h5>Jacob Spori Bldg (SPO)</h5>
+<h5>BYU-Idaho Stadium (STA)</h5>
+<h5>John Taylor Bldg (TAY)</h5>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_BannerAd" Name="BannerAds" label="Rotating Ads" readonly="false" hidden="false" required="false" Component="" CompTypes="BannerAdComponent" Expanded="false"><xPower Type="Component" Component="" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/></xPower><xPower Type="GroupStart" GroupStart="" Name="QuickLinks" label="Quick Links" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="Quick Links Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="Quick Links Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="Quick Links Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Insert" Insert="" WellFormed="false" ExtractHTMLBody="false" Name="HTMLInsert" label="Insert" readonly="false" hidden="true" required="false" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x44208" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></AdminPage>

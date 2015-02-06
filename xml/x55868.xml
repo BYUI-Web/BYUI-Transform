@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x55868" Name="Placement Request" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Placement Request</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Registered Nurse to Bachelors of Science in Nursing, Current Student, Forms &amp; Applications, Placement Request</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<title>Untitled document</title>
+<img alt="RN Nursing Pin" height="250" src="Images/nursing/RN-BSN.jpg" width="710" />
+<h3>Baccalaureate of Science in Nursing: Clinical Placement Request</h3>
+<hr />
+<br />
+<p>This form is to request placement in a hospital listed <a href="x30892.xml">here</a> for which we currently have an Affiliation Agreement on file. Please fill out the form completely before submitting it.</p>
+<br />
+<div id="Center" style="text-align: center;"><!-- Regular Form --> <form action="http://www2.byui.edu/AspUtilities/emailAForm.asp" method="post"> <fieldset> <legend>Your Contact Information</legend> <br /> 
+<table border="0" style="border: 0px none; width: 500px; padding-left: 20px;">
+<tbody>
+<tr style="border: 0px;">
+<td style="text-align: left; border: 0px none; width: 50px;">Name:</td>
+<td style="text-align: center; border: 0px;"><input name="Name" size="30" type="text" /></td>
+</tr>
+<tr style="border: 0px;">
+<td style="text-align: left; border: 0px;">E-mail:</td>
+<td style="text-align: center; border: 0px;"><input name="txtEmailFrom" size="30" type="text" /></td>
+</tr>
+<tr style="border: 0px;">
+<td style="text-align: left; border: 0px;">I-Number:</td>
+<td style="text-align: center; border: 0px;"><input name="I-Number" size="30" type="text" /></td>
+</tr>
+</tbody>
+</table>
+<br /> </fieldset> <!-- REQUIRED FIELD NAME --> <!-- Insert Your fields below --> <br /> <fieldset> <legend>Clinical Placement Request</legend> <br /> 
+<table border="0" style="border: 0px none; width: 500px; padding-left: 20px; padding-bottom: 5px;">
+<tbody>
+<tr style="border: 0px;">
+<td style="text-align: left; border: 0px;">Hospital Name:</td>
+<td style="text-align: center; border: 0px;"><input name="Hospital Name" size="30" type="text" /></td>
+</tr>
+<tr style="border: 0px;">
+<td style="text-align: left; border: 0px;">Course requiring the clinical hours:</td>
+<td style="text-align: center; border: 0px;"><input name="Course Name" size="30" type="text" /></td>
+</tr>
+<tr style="border: 0px;">
+<td style="text-align: left; border: 0px;">Semester needed (i.e. Fall 2011):</td>
+<td style="text-align: center; border: 0px;"><input name="Course Name" size="30" type="text" /></td>
+</tr>
+</tbody>
+</table>
+<p>Desired or required unit of clinical rotation and how many hours needed per unit:</p>
+<textarea cols="60" name="Requested Unit(s) and Hours per Unit" rows="5"></textarea><br /> <br />
+<p>Scheduling needs and availability (try to be as flexible as possible):</p>
+<textarea cols="60" name="Availability" rows="5"></textarea><br /><br /> </fieldset> <!-- Insert Your fields above --> <!-- Required by form handler --> <input name="txtEmailTo" type="hidden" value="nursingoutreach@byui.edu" /><!-- REQUIRED FIELD NAME --> <input name="txtEmailSubject" type="hidden" value="Clinical Placement Request" /><!-- REQUIRED FIELD NAME --> <!-- Buttons of course --> <br /> <input name="submit" type="submit" value="Submit" /><!-- REQUIRED FIELD NAME --> <input name="Reset" type="reset" value="Reset" /> <input name="Print" onclick="javascript:window.print()" type="button" value="  Print  " />
+<p> </p>
+</form></div>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/><!--071613 xpowercomponent_Optional to xPower--></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="x27133" CompTypes="HighlightedLinksComponent"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x1839" CompTypes="SiteControl"/></Content>

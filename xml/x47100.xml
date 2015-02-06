@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x47100" Name="How to calculate your Grade Point Average(GPA)" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">How to calculate your Grade Point Average(GPA)</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">How to calculate your Grade Point Average(GPA)</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p style="height: 0px; margin: 0px;">
+<script type="text/javascript">
+function roundNumber(num, dec) {
+	var result = Math.round(num*Math.pow(10,dec))/Math.pow(10,dec);
+	return result;
+}
+function gpa()
+{
+var A2 = parseFloat(document.calgpa.A.value);
+var Am2 = parseFloat(document.calgpa.Am.value);
+var Bp2 = parseFloat(document.calgpa.Bp.value);
+var B2 = parseFloat(document.calgpa.B.value);
+var Bm2 = parseFloat(document.calgpa.Bm.value);
+var Cp2 = parseFloat(document.calgpa.Cp.value);
+var C2 = parseFloat(document.calgpa.C.value);
+var Cm2 = parseFloat(document.calgpa.Cm.value);
+var Dp2 = parseFloat(document.calgpa.Dp.value);
+var D2 = parseFloat(document.calgpa.D.value);
+var Dm2 = parseFloat(document.calgpa.Dm.value);
+var F2 = parseFloat(document.calgpa.F.value);
+var UW2 = parseFloat(document.calgpa.UW.value);
+
+var A = 0;
+var Am = 0;
+var Bp = 0;
+var B = 0;
+var Bm = 0;
+var Cp = 0;
+var C = 0;
+var Cm = 0;
+var Dp = 0;
+var D = 0;
+var Dm = 0;
+var F = 0;
+var UW = 0;
+
+
+function IsNumeric(num) {
+     return (num >=0 || num < 0);
+}
+
+if(IsNumeric(A2)){A = A2;}
+if(IsNumeric(Am2)){Am = Am2;}
+if(IsNumeric(Bp2)){Bp = Bp2;}
+if(IsNumeric(B2)){B = B2;}
+if(IsNumeric(Bm2)){Bm = Bm2;}
+if(IsNumeric(Cp2)){Cp = Cp2;}
+if(IsNumeric(C2)){C = C2;}
+if(IsNumeric(Cm2)){Cm = Cm2;}
+if(IsNumeric(Dp2)){Dp = Dp2;}
+if(IsNumeric(D2)){D = D2;}
+if(IsNumeric(Dm2)){Dm = Dm2;}
+if(IsNumeric(F2)){F = F2;}
+if(IsNumeric(UW2)){UW = UW2;}
+
+document.getElementById("x40").innerHTML = roundNumber(A * 4.0, 3);
+document.getElementById("x37").innerHTML = roundNumber(Am * 3.7, 3);
+document.getElementById("x34").innerHTML = roundNumber(Bp * 3.4, 3);
+document.getElementById("x30").innerHTML = roundNumber(B * 3.0, 3);
+document.getElementById("x27").innerHTML = roundNumber(Bm * 2.7, 3);
+document.getElementById("x24").innerHTML = roundNumber(Cp * 2.4, 3);
+document.getElementById("x20").innerHTML = roundNumber(C * 2.0, 3);
+document.getElementById("x17").innerHTML = roundNumber(Cm * 1.7, 3);
+document.getElementById("x14").innerHTML = roundNumber(Dp * 1.4, 3);
+document.getElementById("x10").innerHTML = roundNumber(D * 1.0, 3);
+document.getElementById("x07").innerHTML = roundNumber(Dm * 0.7, 3);
+document.getElementById("x00").innerHTML = roundNumber(F * 0, 3);
+document.getElementById("x0").innerHTML = roundNumber(UW * 0, 3);
+
+var x40 = roundNumber(A * 4.0, 3);
+var x37 = roundNumber(Am * 3.7, 3);
+var x34 = roundNumber(Bp * 3.4, 3);
+var x30 = roundNumber(B * 3.0, 3);
+var x27 = roundNumber(Bm * 2.7, 3);
+var x24 = roundNumber(Cp * 2.4, 3);
+var x20 = roundNumber(C * 2.0, 3);
+var x17 = roundNumber(Cm * 1.7, 3);
+var x14 = roundNumber(Dp * 1.4, 3);
+var x10 = roundNumber(D * 1.0, 3);
+var x07 = roundNumber(Dm * 0.7, 3);
+var x00 = roundNumber(F * 0, 3);
+var x0 = roundNumber(UW * 0, 3);
+
+
+var totalc = roundNumber(A + Am + Bp + B + Bm + Cp + C + Cm + Dp + D + Dm + F + UW, 3);
+var totalp = roundNumber(x40 + x37 + x34 + x30 + x27 + x24 + x20 + x17 + x14 + x10 + x07 + x00 + x0, 3);
+
+document.getElementById('totalc').innerHTML = totalc;
+document.getElementById('totalp').innerHTML = totalp;
+
+document.getElementById('gpa').innerHTML = roundNumber(totalp/totalc, 3);
+}
+</script>
+</p>
+<p><strong>GPA Disclaimer:</strong>This GPA calculator is not an official representation of your BYU-Idaho GPA. To view your official GPA, go to your unofficial transcript on your student account.<br />This GPA calculator does not take into account academic retake or renewal policies.</p>
+<form name="calgpa">
+<table border="0" style="width: 600px; margin-left: auto; margin-right: auto;">
+<tbody>
+<tr>
+<td style="width: 74px;">Grades</td>
+<td style="width: 157px;">Quality Credits</td>
+<td style="width: 132px;">Grade Points Per Credits</td>
+<td style="width: 150px;">Total Grade Points</td>
+</tr>
+<tr>
+<td>A</td>
+<td><input name="A" onkeyup="gpa()" type="text" /></td>
+<td>x4.0</td>
+<td id="x40"></td>
+</tr>
+<tr>
+<td>A-</td>
+<td><input name="Am" onkeyup="gpa()" type="text" /></td>
+<td>x3.7</td>
+<td id="x37"></td>
+</tr>
+<tr>
+<td>B+</td>
+<td><input name="Bp" onkeyup="gpa()" type="text" /></td>
+<td>x3.4</td>
+<td id="x34"></td>
+</tr>
+<tr>
+<td>B</td>
+<td><input name="B" onkeyup="gpa()" type="text" /></td>
+<td>x3.0</td>
+<td id="x30"></td>
+</tr>
+<tr>
+<td>B-</td>
+<td><input name="Bm" onkeyup="gpa()" type="text" /></td>
+<td>x2.7</td>
+<td id="x27"></td>
+</tr>
+<tr>
+<td>C+</td>
+<td><input name="Cp" onkeyup="gpa()" type="text" /></td>
+<td>x2.4</td>
+<td id="x24"></td>
+</tr>
+<tr>
+<td>C</td>
+<td><input name="C" onkeyup="gpa()" type="text" /></td>
+<td>x2.0</td>
+<td id="x20"></td>
+</tr>
+<tr>
+<td>C-</td>
+<td><input name="Cm" onkeyup="gpa()" type="text" /></td>
+<td>x1.7</td>
+<td id="x17"></td>
+</tr>
+<tr>
+<td>D+</td>
+<td><input name="Dp" onkeyup="gpa()" type="text" /></td>
+<td>x1.4</td>
+<td id="x14"></td>
+</tr>
+<tr>
+<td>D</td>
+<td><input name="D" onkeyup="gpa()" type="text" /></td>
+<td>x1.0</td>
+<td id="x10"></td>
+</tr>
+<tr>
+<td>D-</td>
+<td><input name="Dm" onkeyup="gpa()" type="text" /></td>
+<td>x0.7</td>
+<td id="x07"></td>
+</tr>
+<tr>
+<td>F</td>
+<td><input name="F" onkeyup="gpa()" type="text" /></td>
+<td>x0.0</td>
+<td id="x00"></td>
+</tr>
+<tr>
+<td>UW</td>
+<td><input name="UW" type="text" /></td>
+<td>x0.0</td>
+<td id="x0"></td>
+</tr>
+<tr>
+<td>Total</td>
+<td id="totalc"></td>
+<td>Total</td>
+<td id="totalp"></td>
+</tr>
+<tr>
+<td><button onclick="gpa()" type="button">Calculate</button></td>
+<td>Your GPA</td>
+<td id="gpa"></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</form>
+<p>Divide total grade points by the total quality credits. Example: 35.2 divided by 13.0 credits = 2.71 GPA</p>
+<ul>
+<ul>
+<li>P (Pass) courses are not factored in the student's GPA</li>
+<li>I (Incompletes) and W (Withdrawls) do not receive grade points and do not have an effect on the GPA</li>
+<li>UW (Unofficial Withdrawals) are calculated into the GPA as a failing grade value (0.0)</li>
+<li>T (Temporary) grades do not factor into the student's GPA</li>
+<li>NR (Not Reported) grades do not factor into the student's GPA</li>
+</ul>
+</ul>
+<h2>How to calculate your Major Grade Point Average(GPA)</h2>
+<p>Separate out your major classes on your transcript and add them to the GPA calculator the same as for your total GPA. You will come up with major grade points and major credits which will equal a major GPA.</p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x44659" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

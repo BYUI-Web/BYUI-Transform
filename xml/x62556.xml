@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.82 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x62556" Name="Office Supplies" Layout="general_content.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Office Supplies</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Office Supplies</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p style="font-family: Verdana, Arial, sans-serif;">Church Headquarters and BYU-Idaho have a contract with Staples for <strong>significant</strong> price reductions on many items.  These prices do not show in the catalogs that we receive each year.  Below are some of the savings that can be realized.</p>
+<br />
+<h4 style="font-weight: bold;">NOTE: The prices on this page are to be kept confidential</h4>
+<br /> 
+<table border="1" frame="border" rules="all" style="border: 1px solid #000000; width: 80%; margin-left: auto; margin-right: auto;">
+<tbody>
+<tr align="center" style="background-color: lavender;">
+<th colspan="2">Staples Catalog</th> <th colspan="2">Staples E-Way</th>
+</tr>
+<tr>
+<td>Paper Clips, Small</td>
+<td>$.62/BX</td>
+<td>Paper Clips, Small</td>
+<td>$.52/BX</td>
+</tr>
+<tr style="background-color: lavender;">
+<td>BIC Pens</td>
+<td>$4.08/DZ</td>
+<td>BIC Pens</td>
+<td>$1.78/DZ</td>
+</tr>
+<tr>
+<td>Sharpie Marker</td>
+<td>$4.12/EA</td>
+<td>Sharpie Marker</td>
+<td>$1.51/EA</td>
+</tr>
+<tr style="background-color: lavender;">
+<td>1" Binder</td>
+<td>$11.98/EA</td>
+<td>1" Binder</td>
+<td>$7.27/EA</td>
+</tr>
+<tr>
+<td>Dry Erase Cleaner</td>
+<td>$9.47/EA</td>
+<td>Dry Erase Cleaner</td>
+<td>$1.66/EA</td>
+</tr>
+<tr style="background-color: lavender;">
+<td>Expo Dry Erase Marker</td>
+<td>$21.84/DZ</td>
+<td>Expo Dry Erase Marker</td>
+<td>$8.00/DZ</td>
+</tr>
+<tr>
+<td>Post-It Notes 3X3</td>
+<td>$32.23/PK</td>
+<td>Post-It Notes 3X3</td>
+<td>$20.83/PK</td>
+</tr>
+<tr style="background-color: lavender;">
+<td>Sheet Protectors</td>
+<td>$24.07/BX</td>
+<td>Sheet Protectors</td>
+<td>$20.43/BX</td>
+</tr>
+<tr>
+<td>Transparent Tape ¾"</td>
+<td>$28.14/PK</td>
+<td>Transparent Tape ¾"</td>
+<td>$12.12/PK</td>
+</tr>
+</tbody>
+</table>
+<br />
+<p style="font-family: Verdana, Arial, sans-serif;"><strong>Staples is our preferred vendor for all office supplies.</strong></p>
+<p style="font-family: Verdana, Arial, sans-serif;">E-Way is the on-line ordering site for staples.  As you place your orders you will see the quantity they have in stock and the price.  Most items are delivered to you the next day by Stores and Receiving.  Returns are easily handled over the phone or on the web.</p>
+<p style="font-family: Verdana, Arial, sans-serif;">Don't forget to check stores for their prices.  They have many high demand items on their shelves at a greatly reduced price.</p>
+<p style="font-family: Verdana, Arial, sans-serif;">To request an account with E-Way contact LaVona Borg at ext. 2312 or email her at <a href="mailto:borgl@byui.edu">borgl@byui.edu</a>.  She will convey your name and phone number to Staples.  You will be contacted directly by our Staples representative.</p>
+<p style="font-family: Verdana, Arial, sans-serif;">This company is authorized to use Release Numbers.  You can call Purchasing at ext. 2312 to obtain numbers to keep on file for when you need to purchase office supplies.</p>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x18419" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

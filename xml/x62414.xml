@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x62414" Name="GI Bill" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">GI Bill</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">GI Bill Chapters 30, 31, 33, 35, 1606, 1607. Veteran Affairs, VA Benefits, Department of Veteran Affairs aid to students in the military.</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false">GI Bills | Veteran Benefits</BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false">GI Bill Chapters 30, 31, 33, 35, 1606, 1607. Veteran Affairs, Veteran Benefits, GI Bills, REAP, Post-9/11, Post 9/11. VA,</MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<script language="javascript" type="text/javascript">
+function showHide(shID) {
+   if (document.getElementById(shID)) {
+      if (document.getElementById(shID+'-show').style.display != 'none') {
+         document.getElementById(shID+'-show').style.display = 'none';
+         document.getElementById(shID).style.display = 'block';
+      }
+      else {
+         document.getElementById(shID+'-show').style.display = 'inline';
+         document.getElementById(shID).style.display = 'none';
+      }
+   }
+}
+</script>
+<style type="text/css"><!--
+/* CSS styles for the Show/Hide functionality. */
+
+.more_container {
+display:none;
+margin:0;
+padding:0;
+}
+.more_content {
+margin: 0 0 0 30px; 
+padding: 8px; 
+border: 1px solid #e6e6e6; 
+box-shadow: 0 0 3px #f0f0f0; 
+background: #fafafa;
+}
+.more_content p, .more_content li {
+font-family:Arial;
+font-size:12px;
+}
+.more_content h4, .more_content h5 {
+margin:0 0 4px 0;
+padding:0;
+text-indent: 0;
+font-family:Arial;
+}
+
+.more_content h4 {
+font-size:14px;
+font-weight:bold;
+}
+
+.more_content h5 {
+font-size:12px;
+font-weight:bold;
+}
+
+.more_content ul {
+margin-left:20px;
+padding:;
+}
+
+.award_level {
+font-size:14px;
+color:rgb(230,90,30);
+}
+
+/* General Styles for Body Elements */
+a {
+font-family: Arial; 
+}
+.award_level {
+font-size:14px;
+font-weight:bold;
+color:rgb(230,90,30);
+}
+
+/* Styles for VA CONTACT */
+#vacontact{
+display:inline-block;
+padding: 0 5px;
+margin: 0 0 10px 0;
+width: 100%; 
+height: 60px;
+}
+#vacontact h1{
+font-family:Arial;
+font-size:12px;
+font-weight:bold;
+margin:0 0 4px 0;
+padding:0;
+color:rgb(70,70,70);
+}
+#vacontact p {
+font-family:Arial;
+font-size:10px;
+margin:0;
+padding:0;
+}
+
+/* CSS styles for the FOOTER Contact information */
+#contact{
+display:inline-block;
+padding: 0 5px;
+margin: 0 0 10px 0;
+width: 100%; 
+height: 100px;
+}
+#contact h1{
+font-family:Arial;
+font-size:12px;
+font-weight:bold;
+margin:0 0 4px 0;
+padding:0;
+color:rgb(70,70,70);
+}
+#contact p {
+font-family:Arial;
+font-size:10px;
+margin:0;
+padding:0;
+}
+#contact_hr {
+margin-bottom:10px;
+}
+.left {
+float:left;
+margin:0 5px 0 0;
+padding:0;
+}
+.office_hours {
+margin: 0; 
+padding: 0; 
+width: 140px; 
+height: 100px; 
+float: left;
+}
+.middle {
+margin: 0; 
+padding: 0 5px 5px 5px; 
+width: 200px; 
+height: 50px; 
+float: left;
+}
+.phone {
+margin: 0; 
+padding: 0 5px 5px 5px; 
+width: 150px; 
+height: 50px; 
+float: left;
+}
+--></style>
+<div id="vacontact">
+<div class="middle left office_hours">
+<h1>Contacting VA Benefit Services</h1>
+<p>Contact a VA Coordinator by phone or email. Visits are handled by an appointment basis.</p>
+</div>
+<div class="phone"><img alt="Phone" class="left" src="Images/Admin_Offices/Financial Aid/1312918476_Telephone.png" title="Phone" width="30" />
+<div class="left">
+<h1>Phone</h1>
+<p>(208) 496-1609</p>
+</div>
+</div>
+<div class="middle"><img alt="Laptop" class="left" src="Images/Admin_Offices/Financial Aid/1312918536_Computer.png" title="Email" width="30" />
+<div class="left">
+<h1>Email</h1>
+<p>vabenefits@byui.edu</p>
+</div>
+</div>
+</div>
+<!-- End of #vacontact --> 
+<hr id="contact_hr" />
+<img alt="Seal of the US Department of Veteran Affairs and US Department of Defense" src="Images/Admin_Offices/Financial Aid/va_logo.jpg" style="margin: 0 0 5px 5px; float: right;" title="Seal of the US Department of Veteran Affairs and US Department of Defense" width="180" />
+<h1>Overview of GI Bill</h1>
+<p>Veteran Benefits are financial aid funds available to students who are serving in the active armed forces, Reserves or National Guard, and dependents or survivors of disabled or deceased veterans. These benefits commonly come from the US Department of Veteran Affairs and the US Department of Defense. Veteran Benefits have several award levels (referred to as Chapters). Each type of Veteran Benefit may have different requirements and criteria.</p>
+<p><small>VA Benefits (i.e. GI Bill, Tuition Assistance, etc.) is not affiliated or controlled by BYU-Idaho.</small></p>
+<h2>National Guard/Reserve Benefits</h2>
+<p>National Guard and Reserve benefits provides financial aid funds to students who are serving in a Reserve or National Guard unit. Awards available to such students includes the Montgomery GI Bill Chapter 1606.</p>
+<h3 class="award_level">Chapter 1606</h3>
+<p>The <a href="http://gibill.va.gov/benefits/montgomery_gibill/selected_reserve.html" title="Link to Montgomery GI Bill Selected Reserve (MGIB-SR)" target="_blank"><strong>Montgomery GI Bill — Selected Reserve (MGIB-SR)</strong></a> program may be available to members of the Selected Reserve, including all military branch reserve components as well as the Army National Guard and Air National Guard. This benefit may be used for degree and certificate programs, flight training, apprenticeship/on-the-job training and correspondence courses.</p>
+<a class="showlink" href="#" id="reserve1-show" onclick="showHide('reserve1');return false;"><img alt="Expand Button" height="36" src="Images/Admin_Offices/Financial Aid/expand_button.png" title="Show and read more content" width="132" /></a>
+<div class="more_container" id="reserve1">
+<div class="more_content">
+<h4>Source of award</h4>
+<p>U.S. Department of Veteran Affairs - <a href="http://www.gibill.va.gov/" title="Link to the US Department of Veteran Affairs site">www.gibill.va.gov</a></p>
+<hr />
+<h4>Application requirements</h4>
+<p><strong>If it is your first time applying: </strong></p>
+<p>1.     Complete the <a href="https://www.ebenefits.va.gov/ebenefits-portal/ebenefits.portal;EBEN_JSESSIONID=YLWHTwLFCvJTtvmnTpLjjcLhkDQnrsQBQlvQfmgvv68PXZhTSXyS%21-698102376%211354715730?_nfpb=true&amp;_nfxr=false&amp;_pageLabel=Vonapp"><strong>VONAPP Education Benefit - Form 22-1990</strong></a>.  A certificate of eligibility will be sent to you from the VA when the application has been successfully processed.  (If you have already received GI Bill benefits and are transferring to BYU-Idaho: fill out the <a href="https://www.ebenefits.va.gov/ebenefits-portal/ebenefits.portal;EBEN_JSESSIONID=YLWHTwLFCvJTtvmnTpLjjcLhkDQnrsQBQlvQfmgvv68PXZhTSXyS%21-698102376%211354715730?_nfpb=true&amp;_nfxr=false&amp;_pageLabel=Vonapp"><strong>Change of Program/Place of Training - Form 22-1995)</strong></a></p>
+<p>2.     Submit a copy of your VA application and certificate of eligibility to the BYU-Idaho Financial Aid Office (email, fax, mail, or personal delivery are appropriate).</p>
+<p><strong>Semester Requirements:</strong></p>
+<p>3.     Read the <a href="http://www.byui.edu/financial-aid/veteran-benefits/va-faq"><strong>VA FAQ</strong></a> page.  This will help answer the most frequently asked questions by parents and students.</p>
+<p>4.     Confirm that your declared major, minor, and or clusters are listed on your official BYU-Idaho degree audit.  Only courses that count towards graduation will be reported to the VA.  Students can view their official BYU-Idaho degree audit by visiting the <em>STUDENTS</em> tab at <a href="http://my.byui.edu/" title="Link to the my.byui.edu student access page"><strong>my.byui.edu</strong></a>.</p>
+<p>5.     Print off or obtain from the financial aid office a copy of the <a href="Documents/Admin_Offices/Financial Aid/va/Revised Class Certification Form 2012.pdf"><strong>2012-2013 Class Certification Form.</strong></a><strong> </strong>Carefully read and fill out this form.  You will need to meet with your academic advisor in order to effectively review all reportable classes.  You can contact an academic advisor at one of the <a href="http://www.byui.edu/academic-discovery-center/about-us/locations" title="Link to the Satellite Advising Centers"><strong>Satellite Advising Centers</strong></a><strong> </strong>or the<strong> </strong><a href="http://www.byui.edu/academic-discovery-center" title="Link to the Academic Discovery Center Office"><strong>Academic Discovery Center Office</strong></a>.</p>
+<p>6.     Submit the <a href="Documents/Admin_Offices/Financial Aid/va/Revised Class Certification Form 2012.pdf"><strong>2012-2013 Class Certification Form</strong></a> with your official BYU-Idaho degree audit and other applicable documents to the BYU-Idaho Financial Aid Office (email, fax, mail, or personal delivery are appropriate).  If you wish to send your information directly to the BYU-Idaho VA Coordinator he can be reached at <a href="mailto:vabenefits@byui.edu"><strong>vabenefits@byui.edu</strong></a>.</p>
+<p><strong>Monthly Requirements:</strong><strong> </strong></p>
+<p>7.     Submit a <a href="http://gibill.va.gov/resources/verify_attendance/"><strong>Verification of Enrollment</strong></a><strong> </strong>to the US Department of Veterans Affairs every month.</p>
+<hr />
+<h4>Deadlines</h4>
+<p>The U.S. Department of Veteran Affairs will currently allow students to seek back-payments for eligible classes not to exceed one year. The process can take up to 2-3 months. Students should plan on obtaining their first payment no sooner than the second month of each semester.</p>
+<hr />
+<h4>Award Levels</h4>
+<p>VA benefits are determined on a semester to semester basis. The following criteria factor into determining a VA benefit amount:</p>
+<ul>
+<li>Enrolling in classes that fulfill graduation requirements (as contained on a BYU-Idaho degree audit)</li>
+<li>Total number of enrolled credits for a semester. 10 eligible credits will currently satisfy the requirements for the full-time rate.</li>
+</ul>
+<hr />
+<h4>Duration</h4>
+<p>Eligible students receive 36 months of full time VA education benefits. This does not mean students are required to go to school full time. Students can receive ½ time benefits over a period of 72 months, or ¾ time over 48 months, etc.</p>
+<p>If students are unsure how many months remain, call the VA (1-888-442-4551), and ask exactly how many months of full-time benefits the student has left. The VA can also explain the number of years a student has to use their benefits.</p>
+<h5>Exceptions</h5>
+<p><strong>Exception to the 36 month limit</strong> - Students with eligibility under more than one program – can have a combined total of 48 months.</p>
+</div>
+<br /> <a class="hideLink" href="#" id="reserve1-hide" onclick="showHide('reserve1');return false;"><img alt="Collapse Button" height="36" src="Images/Admin_Offices/Financial Aid/collapse_button.png" title="Hide content" /></a></div>
+<br /> <br /> <br />
+<h2>Active Duty Benefits</h2>
+<img alt="Army unit in formation" src="Images/Admin_Offices/Financial Aid/nationalguard.png" style="float: right; margin: 0 0 5px 5px; padding: 5px; border: 1px solid #c8c8c8;" title="Army unit in formation" width="250" />
+<p>Active Duty benefits provides financial aid funds to students who are serving actively in the regular armed forces. Awards available to such students includes the Montgomery GI Bill Active Duty Chapter 30 and Post 9/11 Chapter 33 and the Reserve Educational Assistance Program Chapter 1607 (REAP).</p>
+<h3 class="award_level">Chapter 30</h3>
+<p>The <a href="http://gibill.va.gov/benefits/montgomery_gibill/active_duty.html" title="Link to Montgomery GI Bill Active Duty (MGIB-AD)" target="_blank"><strong>Montgomery GI Bill — Active Duty (MGIB-AD)</strong></a> states that active duty members forfeit $100 per month for 12 months; if they use the benefits, they receive as of 2009 $1321 monthly as a full time student (tiered at lower rates for less-than-full time) for a maximum of 36 months of education benefits.</p>
+<p>This benefit may be used for degree and certificate programs, flight training, apprenticeship/on-the-job training and correspondence courses if the veteran is enrolled full-time. Part-time veteran students receive less, but for a proportionately longer period. Veterans from the reserve have different eligibility requirements and different rules on receiving benefits. MGIB may also be used while active, but as each service has additional educational benefit programs for active duty members most delay using MGIB benefits until after separation, discharge or retirement.</p>
+<a class="showlink" href="#" id="reserve3-show" onclick="showHide('reserve3');return false;"><img alt="Expand Button" height="36" src="Images/Admin_Offices/Financial Aid/expand_button.png" title="Show and read more content" width="132" /></a>
+<div class="more_container" id="reserve3">
+<div class="more_content">
+<h4>Source of award</h4>
+<p>U.S. Department of Veteran Affairs - <a href="http://gibill.va.gov/" title="Link to the US Department of Veteran Affairs site">www.gibill.va.gov</a></p>
+<hr />
+<h4>Application requirements</h4>
+<p><strong>If it is your first time applying: </strong></p>
+<p>1.     Complete the <a href="https://www.ebenefits.va.gov/ebenefits-portal/ebenefits.portal;EBEN_JSESSIONID=YLWHTwLFCvJTtvmnTpLjjcLhkDQnrsQBQlvQfmgvv68PXZhTSXyS%21-698102376%211354715730?_nfpb=true&amp;_nfxr=false&amp;_pageLabel=Vonapp"><strong>VONAPP Education Benefit - Form 22-1990</strong></a>.  A certificate of eligibility will be sent to you from the VA when the application has been successfully processed.  (If you have already received GI Bill benefits and are transferring to BYU-Idaho: fill out the <a href="https://www.ebenefits.va.gov/ebenefits-portal/ebenefits.portal;EBEN_JSESSIONID=YLWHTwLFCvJTtvmnTpLjjcLhkDQnrsQBQlvQfmgvv68PXZhTSXyS%21-698102376%211354715730?_nfpb=true&amp;_nfxr=false&amp;_pageLabel=Vonapp"><strong>Change of Program/Place of Training - Form 22-1995)</strong></a></p>
+<p>2.     Submit a copy of your VA application and certificate of eligibility to the BYU-Idaho Financial Aid Office (email, fax, mail, or personal delivery are appropriate).</p>
+<p><strong>Semester Requirements:</strong></p>
+<p>3.     Read the <a href="http://www.byui.edu/financial-aid/veteran-benefits/va-faq"><strong>VA FAQ</strong></a> page.  This will help answer the most frequently asked questions by parents and students.</p>
+<p>4.     Confirm that your declared major, minor, and or clusters are listed on your official BYU-Idaho degree audit.  Only courses that count towards graduation will be reported to the VA.  Students can view their official BYU-Idaho degree audit by visiting the <em>STUDENTS</em> tab at <a href="http://my.byui.edu/" title="Link to the my.byui.edu student access page"><strong>my.byui.edu</strong></a>.</p>
+<p>5.     Print off or obtain from the financial aid office a copy of the <a href="Documents/Admin_Offices/Financial Aid/va/Revised Class Certification Form 2012.pdf"><strong>2012-2013 Class Certification Form.</strong></a><strong> </strong>Carefully read and fill out this form.  You will need to meet with your academic advisor in order to effectively review all reportable classes.  You can contact an academic advisor at one of the <a href="http://www.byui.edu/academic-discovery-center/about-us/locations" title="Link to the Satellite Advising Centers"><strong>Satellite Advising Centers</strong></a><strong> </strong>or the<strong> </strong><a href="http://www.byui.edu/academic-discovery-center" title="Link to the Academic Discovery Center Office"><strong>Academic Discovery Center Office</strong></a>.</p>
+<p>6.     Submit the <a href="Documents/Admin_Offices/Financial Aid/va/Revised Class Certification Form 2012.pdf"><strong>2012-2013 Class Certification Form</strong></a> with your official BYU-Idaho degree audit and other applicable documents to the BYU-Idaho Financial Aid Office (email, fax, mail, or personal delivery are appropriate).  If you wish to send your information directly to the BYU-Idaho VA Coordinator he can be reached at <a href="mailto:vabenefits@byui.edu"><strong>vabenefits@byui.edu</strong></a>.</p>
+<p><strong>Monthly Requirements:</strong><strong> </strong></p>
+<p>7.     Submit a <a href="http://gibill.va.gov/resources/verify_attendance/"><strong>Verification of Enrollment</strong></a><strong> </strong>to the US Department of Veterans Affairs every month.</p>
+<hr />
+<h4>Deadlines</h4>
+<p>The U.S. Department of Veteran Affairs will currently allow students to seek back-payments for eligible classes not to exceed one year. The process can take up to 2-3 months. Students should plan on obtaining their first payment no sooner than the second month of each semester.</p>
+<hr />
+<h4>Award Levels</h4>
+<p>VA benefits are determined on a semester to semester basis. The following criteria factor into determining a VA benefit amount:</p>
+<ul>
+<li>Enrolling in classes that fulfill graduation requirements (as contained on a BYU-Idaho degree audit)</li>
+<li>Total number of enrolled credits for a semester. 10 eligible credits will currently satisfy the requirements for the full-time rate.</li>
+</ul>
+<hr />
+<h4>Duration</h4>
+<p>Eligible students receive 36 months of full time VA education benefits. This does not mean students are required to go to school full time. Students can receive ½ time benefits over a period of 72 months, or ¾ time over 48 months, etc.</p>
+<p>If students are unsure how many months remain, call the VA (1-888-442-4551), and ask exactly how many months of full-time benefits the student has left. The VA can also explain the number of years a student has to use their benefits.</p>
+<h5>Exceptions</h5>
+<p><strong>Exception to the 36 month limit</strong> - Students with eligibility under more than one program – can have a combined total of 48 months.</p>
+</div>
+<br /> <a class="hideLink" href="#" id="reserve3-hide" onclick="showHide('reserve3');return false;"><img alt="Collapse Button" height="36" src="Images/Admin_Offices/Financial Aid/collapse_button.png" title="Hide content" /></a></div>
+<br /> <br />
+<h3 class="award_level">Chapter 33</h3>
+<p>The<strong> <a href="http://www.gibill.va.gov/benefits/post_911_gibill/index.html" title="Link to the Post 9/11 GI Bill Site">Post-9/11 GI Bill (Chapter 33)</a></strong> provides education benefits for service members who have served on active duty for 90 or more days since Sept. 10, 2001. These benefits are tiered based on the number of days served on active duty, creating a benefit package that gives current and previously activated National Guard and Reserve members the same benefits as active duty service members.</p>
+<a class="showlink" href="#" id="reserve5-show" onclick="showHide('reserve5');return false;"><img alt="Expand Button" height="36" src="Images/Admin_Offices/Financial Aid/expand_button.png" title="Show and read more content" width="132" /></a>
+<div class="more_container" id="reserve5">
+<div class="more_content">
+<h4>Source of award</h4>
+<p>U.S. Department of Veteran Affairs - <a href="http://www.gibill.va.gov/" title="Link to the US Department of Veteran Affairs site">www.gibill.va.gov</a></p>
+<hr />
+<h4>Application requirements</h4>
+<p><strong>If it is your first time applying: </strong></p>
+<p>1.     Complete the <a href="https://www.ebenefits.va.gov/ebenefits-portal/ebenefits.portal;EBEN_JSESSIONID=YLWHTwLFCvJTtvmnTpLjjcLhkDQnrsQBQlvQfmgvv68PXZhTSXyS%21-698102376%211354715730?_nfpb=true&amp;_nfxr=false&amp;_pageLabel=Vonapp"><strong>VONAPP Education Benefit - Form 22-1990</strong></a>.  A certificate of eligibility will be sent to you from the VA when the application has been successfully processed.  (If you have already received GI Bill benefits and are transferring to BYU-Idaho: fill out the <a href="https://www.ebenefits.va.gov/ebenefits-portal/ebenefits.portal;EBEN_JSESSIONID=YLWHTwLFCvJTtvmnTpLjjcLhkDQnrsQBQlvQfmgvv68PXZhTSXyS%21-698102376%211354715730?_nfpb=true&amp;_nfxr=false&amp;_pageLabel=Vonapp"><strong>Change of Program/Place of Training - Form 22-1995)</strong></a></p>
+<p>2.     Submit a copy of your VA application and certificate of eligibility to the BYU-Idaho Financial Aid Office (email, fax, mail, or personal delivery are appropriate).</p>
+<p><strong>Semester Requirements:</strong></p>
+<p>3.     Read the <a href="http://www.byui.edu/financial-aid/veteran-benefits/va-faq"><strong>VA FAQ</strong></a> page.  This will help answer the most frequently asked questions by parents and students.</p>
+<p>4.     Confirm that your declared major, minor, and or clusters are listed on your official BYU-Idaho degree audit.  Only courses that count towards graduation will be reported to the VA.  Students can view their official BYU-Idaho degree audit by visiting the <em>STUDENTS</em> tab at <a href="http://my.byui.edu/" title="Link to the my.byui.edu student access page"><strong>my.byui.edu</strong></a>.</p>
+<p>5.     Print off or obtain from the financial aid office a copy of the <a href="Documents/Admin_Offices/Financial Aid/va/Revised Class Certification Form 2012.pdf"><strong>2012-2013 Class Certification Form.</strong></a><strong> </strong>Carefully read and fill out this form.  You will need to meet with your academic advisor in order to effectively review all reportable classes.  You can contact an academic advisor at one of the <a href="http://www.byui.edu/academic-discovery-center/about-us/locations" title="Link to the Satellite Advising Centers"><strong>Satellite Advising Centers</strong></a><strong> </strong>or the<strong> </strong><a href="http://www.byui.edu/academic-discovery-center" title="Link to the Academic Discovery Center Office"><strong>Academic Discovery Center Office</strong></a>.</p>
+<p>6.     Submit the <a href="Documents/Admin_Offices/Financial Aid/va/Revised Class Certification Form 2012.pdf"><strong>2012-2013 Class Certification Form</strong></a> with your official BYU-Idaho degree audit and other applicable documents to the BYU-Idaho Financial Aid Office (email, fax, mail, or personal delivery are appropriate).  If you wish to send your information directly to the BYU-Idaho VA Coordinator he can be reached at <a href="mailto:vabenefits@byui.edu"><strong>vabenefits@byui.edu</strong></a>.</p>
+<hr />
+<h4>Deadlines</h4>
+<p>The U.S. Department of Veteran Affairs will currently allow students to seek back-payments for eligible classes not to exceed one year. The process can take up to 2-3 months. Students should plan on obtaining their first payment no sooner than the second month of each semester.</p>
+<hr />
+<h4>Award Levels</h4>
+<p>VA benefits are determined on a semester to semester basis. The following criteria factor into determining a VA benefit amount:</p>
+<ul>
+<li>Enrolling in classes that fulfill graduation requirements (as contained on a BYU-Idaho degree audit)</li>
+<li>Total number of enrolled credits for a semester. 12 eligible credits will currently satisfy the requirements for the full-time rate.</li>
+</ul>
+<hr />
+<h4>Duration</h4>
+<p>Eligible students receive 36 months of full time VA education benefits. This does not mean students are required to go to school full time. Students can receive ½ time benefits over a period of 72 months, or ¾ time over 48 months, etc.</p>
+<p>If students are unsure how many months remain, call the VA (1-888-442-4551), and ask exactly how many months of full-time benefits the student has left. The VA can also explain the number of years a student has to use their benefits.</p>
+<h5>Exceptions</h5>
+<p><strong>Exception to the 36 month limit</strong> - Students with eligibility under more than one program – can have a combined total of 48 months.</p>
+</div>
+<br /> <a class="hideLink" href="#" id="reserve5-hide" onclick="showHide('reserve5');return false;"><img alt="Collapse Button" height="36" src="Images/Admin_Offices/Financial Aid/collapse_button.png" title="Hide content" /></a></div>
+<br /> <br />
+<h3 class="award_level">Chapter 1607</h3>
+<p>The <a href="http://gibill.va.gov/benefits/other_programs/reap.html" title="Link to VA REAP" target="_blank"><strong>Reserve Educational Assistance Program (REAP)</strong></a> is available to all reservists who on or after September 11, 2001, complete 90 days or more of active duty service "in support of contingency operations." This benefit provides reservists return from active duty with up to 80% of the active duty (Chapter 30) G.I. Bill benefits as long as they remain active participants in the reserves.</p>
+<a class="showlink" href="#" id="reserve2-show" onclick="showHide('reserve2');return false;"><img alt="Expand Button" height="36" src="Images/Admin_Offices/Financial Aid/expand_button.png" title="Show and read more content" width="132" /></a>
+<div class="more_container" id="reserve2">
+<div class="more_content">
+<h4>Source of award</h4>
+<p>U.S. Department of Veteran Affairs - <a href="http://www.gibill.va.gov/" title="Link to the US Department of Veteran Affairs site">www.gibill.va.gov</a></p>
+<hr />
+<h4>Application requirements</h4>
+<p><strong>If it is your first time applying: </strong></p>
+<p>1.     Complete the <a href="https://www.ebenefits.va.gov/ebenefits-portal/ebenefits.portal;EBEN_JSESSIONID=YLWHTwLFCvJTtvmnTpLjjcLhkDQnrsQBQlvQfmgvv68PXZhTSXyS%21-698102376%211354715730?_nfpb=true&amp;_nfxr=false&amp;_pageLabel=Vonapp"><strong>VONAPP Education Benefit - Form 22-1990</strong></a>.  A certificate of eligibility will be sent to you from the VA when the application has been successfully processed.  (If you have already received GI Bill benefits and are transferring to BYU-Idaho: fill out the <a href="https://www.ebenefits.va.gov/ebenefits-portal/ebenefits.portal;EBEN_JSESSIONID=YLWHTwLFCvJTtvmnTpLjjcLhkDQnrsQBQlvQfmgvv68PXZhTSXyS%21-698102376%211354715730?_nfpb=true&amp;_nfxr=false&amp;_pageLabel=Vonapp"><strong>Change of Program/Place of Training - Form 22-1995)</strong></a></p>
+<p>2.     Submit a copy of your VA application and certificate of eligibility to the BYU-Idaho Financial Aid Office (email, fax, mail, or personal delivery are appropriate).</p>
+<p><strong>Semester Requirements:</strong></p>
+<p>3.     Read the <a href="http://www.byui.edu/financial-aid/veteran-benefits/va-faq"><strong>VA FAQ</strong></a> page.  This will help answer the most frequently asked questions by parents and students.</p>
+<p>4.     Confirm that your declared major, minor, and or clusters are listed on your official BYU-Idaho degree audit.  Only courses that count towards graduation will be reported to the VA.  Students can view their official BYU-Idaho degree audit by visiting the <em>STUDENTS</em> tab at <a href="http://my.byui.edu/" title="Link to the my.byui.edu student access page"><strong>my.byui.edu</strong></a>.</p>
+<p>5.     Print off or obtain from the financial aid office a copy of the <a href="Documents/Admin_Offices/Financial Aid/va/Revised Class Certification Form 2012.pdf"><strong>2012-2013 Class Certification Form.</strong></a><strong> </strong>Carefully read and fill out this form.  You will need to meet with your academic advisor in order to effectively review all reportable classes.  You can contact an academic advisor at one of the <a href="http://www.byui.edu/academic-discovery-center/about-us/locations" title="Link to the Satellite Advising Centers"><strong>Satellite Advising Centers</strong></a><strong> </strong>or the<strong> </strong><a href="http://www.byui.edu/academic-discovery-center" title="Link to the Academic Discovery Center Office"><strong>Academic Discovery Center Office</strong></a>.</p>
+<p>6.     Submit the <a href="Documents/Admin_Offices/Financial Aid/va/Revised Class Certification Form 2012.pdf"><strong>2012-2013 Class Certification Form</strong></a> with your official BYU-Idaho degree audit and other applicable documents to the BYU-Idaho Financial Aid Office (email, fax, mail, or personal delivery are appropriate).  If you wish to send your information directly to the BYU-Idaho VA Coordinator he can be reached at <a href="mailto:vabenefits@byui.edu"><strong>vabenefits@byui.edu</strong></a>.</p>
+<p><strong>Monthly Requirements:</strong><strong> </strong></p>
+<p>7.     Submit a <a href="http://gibill.va.gov/resources/verify_attendance/"><strong>Verification of Enrollment</strong></a><strong> </strong>to the US Department of Veterans Affairs every month.</p>
+<hr />
+<h4>Deadlines</h4>
+<p>The U.S. Department of Veteran Affairs will currently allow students to seek back-payments for eligible classes not to exceed one year. The process can take up to 2-3 months. Students should plan on obtaining their first payment no sooner than the second month of each semester.</p>
+<hr />
+<h4>Award Levels</h4>
+<p>VA benefits are determined on a semester to semester basis. The following criteria factor into determining a VA benefit amount:</p>
+<ul>
+<li>Enrolling in classes that fulfill graduation requirements (as contained on a BYU-Idaho degree audit)</li>
+<li>Total number of enrolled credits for a semester. 10 eligible credits will currently satisfy the requirements for the full-time rate.</li>
+</ul>
+<hr />
+<h4>Duration</h4>
+<p>Eligible students receive 36 months of full time VA education benefits. This does not mean students are required to go to school full time. Students can receive ½ time benefits over a period of 72 months, or ¾ time over 48 months, etc.</p>
+<p>If students are unsure how many months remain, call the VA (1-888-442-4551), and ask exactly how many months of full-time benefits the student has left. The VA can also explain the number of years a student has to use their benefits.</p>
+<h5>Exceptions</h5>
+<p><strong>Exception to the 36 month limit</strong> - Students with eligibility under more than one program – can have a combined total of 48 months.</p>
+</div>
+<br /> <a class="hideLink" href="#" id="reserve2-hide" onclick="showHide('reserve2');return false;"><img alt="Collapse Button" height="36" src="Images/Admin_Offices/Financial Aid/collapse_button.png" title="Hide content" /></a></div>
+<br /> <br />
+<h2>Survivor Dependent Benefits</h2>
+<p>Survivor Dependent Benefits includes the Dependent Educational Assistance Program Chapter 35, the Post-9/11 GI Bill Fry Scholarship (Chapter 33 - Marine Gunnery Sergeant John David Fry Scholarship) and  the Transfer of Post-9/11 GI-Bill Benefits to Dependents Chapter 33T (TEB).</p>
+<h3 class="award_level">Chapter 35</h3>
+<p>The <a href="http://www.gibill.va.gov/benefits/other_programs/dea.html" title="Link to VA DEA Page" target="_blank"><strong>Survivors and Dependents Educational Assistance Program (DEA)</strong></a> provides education and training opportunities to eligible dependents of veterans who are permanently and totally disabled due to a service-related condition, or who died while on active duty or as a result of a service related condition. The program offers up to 45 months of education benefits. These benefits may be used for degree and certificate programs, apprenticeship, and on-the-job training. Spouses may take correspondence courses</p>
+<a class="showlink" href="#" id="reserve4-show" onclick="showHide('reserve4');return false;"><img alt="Expand Button" height="36" src="Images/Admin_Offices/Financial Aid/expand_button.png" title="Show and read more content" width="132" /></a>
+<div class="more_container" id="reserve4">
+<div class="more_content">
+<h4>Source of award</h4>
+<p>U.S. Department of Veteran Affairs - <a href="http://www.gibill.va.gov/" title="Link to the US Department of Veteran Affairs site">www.gibill.va.gov</a></p>
+<hr />
+<h4>Application requirements</h4>
+<p><strong>If it is your first time applying: </strong></p>
+<p>1.     Complete the <a href="https://www.ebenefits.va.gov/ebenefits-portal/ebenefits.portal;EBEN_JSESSIONID=YLWHTwLFCvJTtvmnTpLjjcLhkDQnrsQBQlvQfmgvv68PXZhTSXyS%21-698102376%211354715730?_nfpb=true&amp;_nfxr=false&amp;_pageLabel=Vonapp"><strong>VONAPP Education Benefit - Form 22-</strong><strong>54</strong><strong>90</strong></a>.  A certificate of eligibility will be sent to you from the VA when the application has been successfully processed.  (If you have already received GI Bill benefits and are transferring to BYU-Idaho: fill out the <a href="https://www.ebenefits.va.gov/ebenefits-portal/ebenefits.portal;EBEN_JSESSIONID=YLWHTwLFCvJTtvmnTpLjjcLhkDQnrsQBQlvQfmgvv68PXZhTSXyS%21-698102376%211354715730?_nfpb=true&amp;_nfxr=false&amp;_pageLabel=Vonapp"><strong>Change of Program/Place of Training - Form 22-</strong><strong>54</strong><strong>95)</strong></a></p>
+<p>2.     Submit a copy of your VA application and certificate of eligibility to the BYU-Idaho Financial Aid Office (email, fax, mail, or personal delivery are appropriate).</p>
+<p><strong>Semester Requirements:</strong></p>
+<p>3.     Read the <a href="http://www.byui.edu/financial-aid/veteran-benefits/va-faq"><strong>VA FAQ</strong></a> page.  This will help answer the most frequently asked questions by parents and students.</p>
+<p>4.     Confirm that your declared major, minor, and or clusters are listed on your official BYU-Idaho degree audit.  Only courses that count towards graduation will be reported to the VA.  Students can view their official BYU-Idaho degree audit by visiting the <em>STUDENTS</em> tab at <a href="http://my.byui.edu/" title="Link to the my.byui.edu student access page"><strong>my.byui.edu</strong></a>.</p>
+<p>5.     Print off or obtain from the financial aid office a copy of the <a href="Documents/Admin_Offices/Financial Aid/va/Revised Class Certification Form 2012.pdf"><strong>2012-2013 Class Certification Form.</strong></a><strong> </strong>Carefully read and fill out this form.  You will need to meet with your academic advisor in order to effectively review all reportable classes.  You can contact an academic advisor at one of the <a href="http://www.byui.edu/academic-discovery-center/about-us/locations" title="Link to the Satellite Advising Centers"><strong>Satellite Advising Centers</strong></a><strong> </strong>or the<strong> </strong><a href="http://www.byui.edu/academic-discovery-center" title="Link to the Academic Discovery Center Office"><strong>Academic Discovery Center Office</strong></a>.</p>
+<p>6.     Submit the <a href="Documents/Admin_Offices/Financial Aid/va/Revised Class Certification Form 2012.pdf"><strong>2012-2013 Class Certification Form</strong></a> with your official BYU-Idaho degree audit and other applicable documents to the BYU-Idaho Financial Aid Office (email, fax, mail, or personal delivery are appropriate).  If you wish to send your information directly to the BYU-Idaho VA Coordinator he can be reached at <a href="mailto:vabenefits@byui.edu"><strong>vabenefits@byui.edu</strong></a>.</p>
+<hr />
+<h4>Deadlines</h4>
+<p>The U.S. Department of Veteran Affairs will currently allow students to seek back-payments for eligible classes not to exceed one year. The process can take up to 2-3 months. Students should plan on obtaining their first payment no sooner than the second month of each semester.</p>
+<hr />
+<h4>Award Levels</h4>
+<p>VA benefits are determined on a semester to semester basis. The following criteria factor into determining a VA benefit amount:</p>
+<ul>
+<li>Enrolling in classes that fulfill graduation requirements (as contained on a BYU-Idaho degree audit)</li>
+<li>Total number of enrolled credits for a semester. 10 eligible credits will currently satisfy the requirements for the full-time rate.</li>
+</ul>
+<hr />
+<h4>Duration</h4>
+<p>Eligible students receive 36 months of full time VA education benefits. This does not mean students are required to go to school full time. Students can receive ½ time benefits over a period of 72 months, or ¾ time over 48 months, etc.</p>
+<p>If students are unsure how many months remain, call the VA (1-888-442-4551), and ask exactly how many months of full-time benefits the student has left. The VA can also explain the number of years a student has to use their benefits.</p>
+<h5>Exceptions</h5>
+<p><strong>Exception to the 36 month limit</strong> - Students with eligibility under more than one program – can have a combined total of 48 months.</p>
+</div>
+<br /> <a class="hideLink" href="#" id="reserve4-hide" onclick="showHide('reserve4');return false;"><img alt="Collapse Button" height="36" src="Images/Admin_Offices/Financial Aid/collapse_button.png" title="Hide content" /></a></div>
+<br />
+<p> </p>
+<h3 class="award_level">Chapter 33 Fry Scholarship</h3>
+<p>The <strong><a href="http://www.gibill.va.gov/documents/factsheets/fry_scholarship.pdf" title="Link to the Post 9/11 GI Bill Fry Scholarship Site">Post-9/11 GI Bill (Chapter 33 - Marine Gunnery Sergeant John David Fry Scholarship)</a></strong> Public Law 111-32, the Marine Gunnery Sergeant John David Fry Scholarship, amends the Post-9/11 GI Bill (chapter 33) to include the children of service members who die in the line of duty after Sept. 10, 2001. The benefit is effective August 1, 2009; the same day the Post-9/11 GI Bill takes effect.</p>
+<a class="showlink" href="#" id="reserve6-show" onclick="showHide('reserve6');return false;"><img alt="Expand Button" height="36" src="Images/Admin_Offices/Financial Aid/expand_button.png" title="Show and read more content" width="132" /></a>
+<div class="more_container" id="reserve6">
+<div class="more_content">
+<h4>Source of award</h4>
+<p>U.S. Department of Veteran Affairs - <a href="http://www.gibill.va.gov/" title="Link to the US Department of Veteran Affairs site">www.gibill.va.gov</a></p>
+<hr />
+<h4>Application requirements</h4>
+<p><strong>If it is your first time applying: </strong></p>
+<p>1.     Complete the <a href="https://www.ebenefits.va.gov/ebenefits-portal/ebenefits.portal;EBEN_JSESSIONID=YLWHTwLFCvJTtvmnTpLjjcLhkDQnrsQBQlvQfmgvv68PXZhTSXyS%21-698102376%211354715730?_nfpb=true&amp;_nfxr=false&amp;_pageLabel=Vonapp"><strong>VONAPP Education Benefit - Form 22-</strong><strong>54</strong><strong>90</strong></a>.  A certificate of eligibility will be sent to you from the VA when the application has been successfully processed.  (If you have already received GI Bill benefits and are transferring to BYU-Idaho: fill out the <a href="https://www.ebenefits.va.gov/ebenefits-portal/ebenefits.portal;EBEN_JSESSIONID=YLWHTwLFCvJTtvmnTpLjjcLhkDQnrsQBQlvQfmgvv68PXZhTSXyS%21-698102376%211354715730?_nfpb=true&amp;_nfxr=false&amp;_pageLabel=Vonapp"><strong>Change of Program/Place of Training - F</strong><strong>orm 22-54</strong><strong>95)</strong></a></p>
+<p>2.     Submit a copy of your VA application and certificate of eligibility to the BYU-Idaho Financial Aid Office (email, fax, mail, or personal delivery are appropriate).</p>
+<p><strong>Semester Requirements:</strong></p>
+<p>3.     Read the <a href="http://www.byui.edu/financial-aid/veteran-benefits/va-faq"><strong>VA FAQ</strong></a> page.  This will help answer the most frequently asked questions by parents and students.</p>
+<p>4.     Confirm that your declared major, minor, and or clusters are listed on your official BYU-Idaho degree audit.  Only courses that count towards graduation will be reported to the VA.  Students can view their official BYU-Idaho degree audit by visiting the <em>STUDENTS</em> tab at <a href="http://my.byui.edu/" title="Link to the my.byui.edu student access page"><strong>my.byui.edu</strong></a>.</p>
+<p>5.     Print off or obtain from the financial aid office a copy of the <a href="Documents/Admin_Offices/Financial Aid/va/Revised Class Certification Form 2012.pdf"><strong>2012-2013 Class Certification Form.</strong></a><strong> </strong>Carefully read and fill out this form.  You will need to meet with your academic advisor in order to effectively review all reportable classes.  You can contact an academic advisor at one of the <a href="http://www.byui.edu/academic-discovery-center/about-us/locations" title="Link to the Satellite Advising Centers"><strong>Satellite Advising Centers</strong></a><strong> </strong>or the<strong> </strong><a href="http://www.byui.edu/academic-discovery-center" title="Link to the Academic Discovery Center Office"><strong>Academic Discovery Center Office</strong></a>.</p>
+<p>6.     Submit the <a href="Documents/Admin_Offices/Financial Aid/va/Revised Class Certification Form 2012.pdf"><strong>2012-2013 Class Certification Form</strong></a> with your official BYU-Idaho degree audit and other applicable documents to the BYU-Idaho Financial Aid Office (email, fax, mail, or personal delivery are appropriate).  If you wish to send your information directly to the BYU-Idaho VA Coordinator he can be reached at <a href="mailto:vabenefits@byui.edu"><strong>vabenefits@byui.edu</strong></a>.</p>
+<hr />
+<h4>Deadlines</h4>
+<p>The U.S. Department of Veteran Affairs will currently allow students to seek back-payments for eligible classes not to exceed one year. The process can take up to 2-3 months. Students should plan on obtaining their first payment no sooner than the second month of each semester.</p>
+<hr />
+<h4>Award Levels</h4>
+<p>VA benefits are determined on a semester to semester basis. The following criteria factor into determining a VA benefit amount:</p>
+<ul>
+<li>Enrolling in classes that fulfill graduation requirements (as contained on a BYU-Idaho degree audit)</li>
+<li>Total number of enrolled credits for a semester. 12 eligible credits will currently satisfy the requirements for the full-time rate.</li>
+</ul>
+<hr />
+<h4>Duration</h4>
+<p>Eligible students receive 36 months of full time VA education benefits. This does not mean students are required to go to school full time. Students can receive ½ time benefits over a period of 72 months, or ¾ time over 48 months, etc.</p>
+<p>If students are unsure how many months remain, call the VA (1-888-442-4551), and ask exactly how many months of full-time benefits the student has left. The VA can also explain the number of years a student has to use their benefits.</p>
+<h5>Exceptions</h5>
+<p><strong>Exception to the 36 month limit</strong> - Students with eligibility under more than one program – can have a combined total of 48 months.</p>
+</div>
+<br /> <a class="hideLink" href="#" id="reserve6-hide" onclick="showHide('reserve6');return false;"><img alt="Collapse Button" height="36" src="Images/Admin_Offices/Financial Aid/collapse_button.png" title="Hide content" /></a></div>
+<br /> <br />
+<h3 class="award_level">Chapter 33T (TEB)</h3>
+<p>The<strong> <a href="http://www.gibill.va.gov/benefits/post_911_gibill/transfer_of_benefits.html" title="Link to the Post 9/11 GI Bill Site (TEB)">Transfer of Post-9/11 GI-Bill Benefits to Dependents (TEB)</a></strong> For the first time in history, service members enrolled in the Post-9/11 GI Bill program will be able to transfer unused educational benefits to their spouses or children starting August 1, 2009.</p>
+<a class="showlink" href="#" id="reserve7-show" onclick="showHide('reserve7');return false;"><img alt="Expand Button" height="36" src="Images/Admin_Offices/Financial Aid/expand_button.png" title="Show and read more content" width="132" /></a>
+<div class="more_container" id="reserve7">
+<div class="more_content">
+<h4>Source of award</h4>
+<p>U.S. Department of Veteran Affairs - <a href="http://www.gibill.va.gov/" title="Link to the US Department of Veteran Affairs site">www.gibill.va.gov</a></p>
+<hr />
+<h4>Application requirements</h4>
+<p><strong>If it is your first time applying: </strong></p>
+<ol start="1" type="1">
+<li>Complete the <a href="https://www.ebenefits.va.gov/ebenefits-portal/ebenefits.portal;EBEN_JSESSIONID=YLWHTwLFCvJTtvmnTpLjjcLhkDQnrsQBQlvQfmgvv68PXZhTSXyS%21-698102376%211354715730?_nfpb=true&amp;_nfxr=false&amp;_pageLabel=Vonapp">VONAPP Education Benefit - Form 22-1990</a><span style="text-decoration: underline;">e</span>.       A certificate of eligibility will be sent to you from the VA when      the application has been successfully processed.  (If you have already received GI Bill      benefits and are transferring to BYU-Idaho: fill out the <a href="https://www.ebenefits.va.gov/ebenefits-portal/ebenefits.portal;EBEN_JSESSIONID=YLWHTwLFCvJTtvmnTpLjjcLhkDQnrsQBQlvQfmgvv68PXZhTSXyS%21-698102376%211354715730?_nfpb=true&amp;_nfxr=false&amp;_pageLabel=Vonapp">Change of Program/Place of Training - Form 22-5495)</a></li>
+<li>Submit a copy      of your VA application and certificate of eligibility to the BYU-Idaho      Financial Aid Office (email, fax, mail, or personal delivery are      appropriate). </li>
+</ol>
+<p><strong>Semester Requirements:</strong></p>
+<ol start="3" type="1">
+<li>Read the <a href="http://www.byui.edu/financial-aid/veteran-benefits/va-faq">VA FAQ</a> page.       This will help answer the most frequently asked questions by      parents and students. </li>
+<li>Confirm that      your declared major, minor, and or clusters are listed on your official BYU-Idaho degree audit.  Only courses that count towards      graduation will be reported to the VA.       Students can view      their official BYU-Idaho degree audit by visiting the <em>STUDENTS</em> tab at <a href="http://my.byui.edu/" title="Link to the my.byui.edu student access page">my.byui.edu</a>. </li>
+<li>Print off or      obtain from the financial aid office a copy of the <a href="Documents/Admin_Offices/Financial Aid/va/Revised Class Certification Form 2012.pdf">2012-2013 Class Certification Form.</a><strong> </strong>Carefully      read and fill out this form.  You      will need to meet with your academic advisor in order to effectively      review all reportable classes.  You can contact an academic advisor at one      of the <a href="http://www.byui.edu/academic-discovery-center/about-us/locations" title="Link to the Satellite Advising Centers">Satellite      Advising Centers</a><strong> </strong>or the<strong> </strong><a href="http://www.byui.edu/academic-discovery-center" title="Link to the Academic Discovery Center Office">Academic      Discovery Center Office</a>. </li>
+<li>Submit the <a href="Documents/Admin_Offices/Financial Aid/va/Revised Class Certification Form 2012.pdf">2012-2013 Class Certification Form</a> with your official BYU-Idaho degree audit and other applicable      documents to the BYU-Idaho Financial Aid Office (email, fax,      mail, or personal delivery are appropriate).  If you wish to send your information      directly to the BYU-Idaho VA Coordinator he can be reached at <a href="mailto:vabenefits@byui.edu">vabenefits@byui.edu</a>.</li>
+</ol> 
+<hr />
+<h4>Deadlines</h4>
+<p>The U.S. Department of Veteran Affairs will currently allow students to seek back-payments for eligible classes not to exceed one year. The process can take up to 2-3 months. Students should plan on obtaining their first payment no sooner than the second month of each semester.</p>
+<hr />
+<h4>Award Levels</h4>
+<p>VA benefits are determined on a semester to semester basis. The following criteria factor into determining a VA benefit amount:</p>
+<ul>
+<li>Enrolling in classes that fulfill graduation requirements (as contained on a BYU-Idaho degree audit)</li>
+<li>Total number of enrolled credits for a semester. 12 eligible credits will currently satisfy the requirements for the full-time rate.</li>
+</ul>
+<hr />
+<h4>Duration</h4>
+<p>Eligible students receive 36 months of full time VA education benefits. This does not mean students are required to go to school full time. Students can receive ½ time benefits over a period of 72 months, or ¾ time over 48 months, etc.</p>
+<p>If students are unsure how many months remain, call the VA (1-888-442-4551), and ask exactly how many months of full-time benefits the student has left. The VA can also explain the number of years a student has to use their benefits.</p>
+<h5>Exceptions</h5>
+<p><strong>Exception to the 36 month limit</strong> - Students with eligibility under more than one program – can have a combined total of 48 months.</p>
+</div>
+<br /> <a class="hideLink" href="#" id="reserve7-hide" onclick="showHide('reserve7');return false;"><img alt="Collapse Button" height="36" src="Images/Admin_Offices/Financial Aid/collapse_button.png" title="Hide content" /></a></div>
+<br /> <br />
+<div id="contact">
+<hr id="contact_hr" />
+<div class="office_hours"><img alt="Office Hours" class="left" src="Images/Admin_Offices/Financial Aid/1312918545_Clock-Time.png" title="Office hours" width="30" />
+<div class="left">
+<h1>Office Hours</h1>
+<p>Monday - Friday</p>
+<p>8am - 5pm</p>
+</div>
+<div style="margin: 8px 13px 0 0; float: right;"></div>
+</div>
+<div class="middle"><img alt="Office Mailing Address" class="left" src="Images/Admin_Offices/Financial Aid/1312918507_Mail -2.png" title="Address" width="30" />
+<div class="left">
+<h1>Address</h1>
+<p>100 Kimball Building 1610</p>
+<p>Rexburg, ID 83460</p>
+</div>
+</div>
+<div class="phone"><img alt="Phone" class="left" src="Images/Admin_Offices/Financial Aid/1312918476_Telephone.png" title="Phone" width="30" />
+<div class="left">
+<h1>Phone</h1>
+<p>(208) 496-1600</p>
+</div>
+</div>
+<div class="chat"><img alt="Live Chat" class="left" src="Images/Admin_Offices/Financial Aid/chat_icon.png" title="Live Chat" width="30" />
+<div class="left">
+<h1><a href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=Financial%20Aid">Live Chat</a></h1>
+<p>with Financial Aid</p>
+</div>
+</div>
+<div class="middle"><img alt="Laptop" class="left" src="Images/Admin_Offices/Financial Aid/1312918536_Computer.png" title="Email" width="30" />
+<div class="left">
+<h1>Email</h1>
+<p>financialaid@byui.edu</p>
+</div>
+</div>
+<div class="phone"><img alt="Fax" class="left" src="Images/Admin_Offices/Financial Aid/1312918465_Printer and Fax.png" title="Fax" width="30" />
+<div class="left">
+<h1>Fax</h1>
+<p>(208) 496-6711</p>
+</div>
+</div>
+<div class="facebook"><img alt="Facebook" class="left" src="Images/Admin_Offices/Financial Aid/facebook_icon.png" title="Facebook" width="30" />
+<div class="left">
+<h1><a href="http://www.facebook.com/BYUIFinancialAid">Facebook</a></h1>
+<p>page of the Financial Aid Office</p>
+</div>
+</div>
+</div>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/><!--071613 xpowercomponent_Optional to xPower--></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="x40184" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="x40325" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="x40329" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="x18466" CompTypes="HighlightedLinksComponent"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x18206" CompTypes="SiteControl"/></Content>

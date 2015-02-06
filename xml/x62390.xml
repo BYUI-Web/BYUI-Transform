@@ -1,0 +1,1369 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<Content ID="x62390" Name="fresh_federal_aid" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">fresh_federal_aid</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">fresh_federal_aid</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style><!--
+#top_content,
+#main_content,
+#bottom_content{
+	margin-bottom: 0 !important;
+}
+/****Cycling images beneath the main content area****/
+#cycle_gallery{
+	margin-top: -130px;
+}
+/*****end of cycling images*****/
+a{
+	outline: 0 !important;
+	text-decoration: none !important;
+}
+h1{
+	font: 40px bold;
+}
+h2{
+	font: 30px bold;
+}
+h3{
+	font: 20px bold;
+}
+@font-face{
+	font-family: futuraMC;
+	src: 	url('Documents/Admin_Offices/Financial Aid/fonts/FUTURAMC.ttf'),
+			url('Documents/Admin_Offices/Financial Aid/fonts/FUTURAMC.otf'),
+			url('Documents/Admin_Offices/Financial Aid/fonts/FUTURAMC.eot'); 
+}
+@font-face{
+	font-family: knockout;
+	src:	url('Documents/Admin_Offices/Financial Aid/fonts/knockout-htf68-fullfeatherwt.otf'),
+			url('Documents/Admin_Offices/Financial Aid/fonts/knockout-htf68-fullfeatherwt.ttf'),
+			url('Documents/Admin_Offices/Financial Aid/fonts/knockout-htf68-fullfeatherwt.eot');
+}
+.futuraMC{
+	font-family: futuraMC, knockout, arial, san-serif !important;
+}	
+.my_container{
+	width: 710px;
+	display: block;
+	font-family: futuraMC, knockout, arial, san-serif !important;
+}
+.my_container li{
+	list-style-type: none !important;
+}
+.my_container[id="home"] section.nav_top_section{
+	height: 60px;
+}
+.my_container[id="home"] div.lined_background{
+	height: 400px;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+
+
+/********animation keyframes*******/
+@keyframes spin{
+	from{
+		transform: rotatey(0deg);
+	}
+	to{
+		transform: rotatey(360deg);
+	}
+}
+@keyframes scale_and_wiggle{
+	0% {
+		transform:rotate(4deg);}
+	50% {
+		transform:rotate(-4deg) ;}
+	100% {
+		transform:rotate(4deg) ;}	
+}
+@keyframes bounce {
+  0% {
+  	transform: scale3d(0.1,0.1,1);
+  	box-shadow: 0 3px 20px rgba(0,0,0,0.9);
+  }
+  100% {
+  	transform: scale3d(1,1,1);
+  	box-shadow: 0 3px 20px rgba(0,0,0,0.9);
+  }
+}
+@keyframes minimize {
+  0% {
+  	transform: scale3d(1,1,1);
+  }
+  100% {
+  	transform: scale3d(0.1,0.1,1);
+  }
+}
+/***************end of animation******/
+.my_nav{
+	height: 100px;
+	width: 693px;
+}
+.my_nav h1{
+	font-size: 45px;
+	text-transform: uppercase;
+	display: inline-block;
+	margin: 0;
+}
+.my_nav:hover .freshman_icon,
+.my_nav:hover .transfer_icon,
+.my_nav:hover .cont_ed_icon {
+	animation: spin 2s infinite linear;
+}
+.facebook{
+	background: url('Images/Admin_Offices/Financial Aid/facebook.png') no-repeat;
+	height: 30px;
+	width: 100px;
+	text-indent: -9999px;
+	background-size: 100px;
+}
+.chat{
+	background:url('Images/Admin_Offices/Financial Aid/chat.png') no-repeat;
+	width: 100px;
+	height: 30px;
+	text-indent: -9999px;
+	background-size: 100px;
+}
+.my_nav a[id~='facebook']{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 10px;
+	float: right;
+}
+.my_nav a[id~='chat']{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 10px;
+	float: right;
+}
+.nav_top_section{
+	display: inline-block;
+	width: 693px;
+	height: 110px;
+}
+.nav_bar ul{
+	padding: 0 !important;
+}
+.nav_bar{
+	margin-bottom: 10px;
+	color: black;
+	text-align: center;
+}
+.nav_bar >li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 2px;
+	width: 19%;
+	text-align: center;
+	font-size: 18px;
+	transition: all .2s linear;
+	border-right: solid 1px black; 
+	margin-left: -4px;
+}
+.nav_bar>li:last-child,
+.nav_bar[id="with_logo"]>li:last-child{
+	border: none;
+}
+.nav_bar>li:first-child{
+	margin-left: 2px;
+}
+.nav_bar>li:hover{
+	box-shadow: 0 0 2px 2px #888;
+}
+.nav_bar[id="with_logo"]{
+	margin-top: -10px;
+}
+
+.nav_bar[id="with_logo"] .bubble li{
+	list-style: none;
+}
+li.pop-up{
+	cursor: pointer;
+	position: relative;
+	z-index: 24;
+}
+li.pop-up section{
+	display: none;
+}
+li.pop-up:hover section.bubble{
+	display: block;
+	position: absolute;
+	width: 137px;
+	background-color: white;
+	border-radius: 0 0 5px 5px;
+	transition: none;
+	transform: none;
+	text-align: center;
+	margin-left: -2px;
+	font-size: 16px;
+	padding: 10px 0 10px 0;
+}
+li.pop-up:hover section.bubble ul:first-child li:nth-child(2n+1){
+	text-align: left;
+	margin-left: 15px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding-top: 3px;
+}
+ul.nav_bar[id="with_logo"] li.pop-up:hover section.bubble{
+	border-radius: 5px;
+}
+li.pop-up:nth-child(4):hover section.bubble{
+	letter-spacing: 1px;
+}
+.my_nav ul[id~="with_background"]{
+	margin-top: -10px;
+	margin-left: 30px;
+}
+.main_content{
+	width: 710px;
+}
+
+.main_content object[id~='home']{
+	float: left; 
+	width: 670px; 
+	height: 240px;
+	
+	border: solid 1px black;
+}
+.main_content p{
+	font-size: 20px;
+	margin-left: 20px;
+	padding: 10px;
+}
+.main_content>p{
+	padding: 10px;
+}
+.main_content .arrow{
+	margin-top: 20px;
+}
+.main_content>ul,
+.main_content li>ul,
+.main_content li>ol{
+	margin-left: 20px;
+	font-size: 20px;
+	padding: 10px;
+}
+.display{
+	display: inline-block;
+}
+/**********images************/
+.freshman_icon{
+	background: url('Images/Admin_Offices/Financial Aid/sprites/sprites_icons.png') no-repeat -10px 0px;
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+	transition: all 2s ease-in-out;
+}
+.transfer_icon{
+	background: url('Images/Admin_Offices/Financial Aid/sprites/sprites_icons.png') no-repeat -105px 0px;
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+	transition: all 2s ease-in-out;
+}
+.cont_ed_icon{
+	background: url('Images/Admin_Offices/Financial Aid/sprites/sprites_icons.png') no-repeat -200px 0px;
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+	transition: all 2s ease-in-out;
+}
+
+.home_page_logos{
+	height: 205px;
+    width: 220px;
+	background: url('Images/Admin_Offices/Financial Aid/sprites/sprite_home_buttons.png') no-repeat;
+	background-size: 750px auto;
+	display: inline-block;
+	float: left;
+}
+.freshman_logo{
+    background-position: -22px -19px;
+	margin-right: 6px;
+	margin-left: 7px;
+}
+.freshman_logo:hover{
+    background-position: -23px -261px;
+    margin-right: 6px;
+	margin-left: 7px;
+}
+.transfer_student_logo{
+    background-position: -265px -19px;
+	margin-right: 6px;
+}
+.transfer_student_logo:hover{
+    background-position: -265px -261px;
+    margin-right: 6px;
+}
+.cont_ed_student_logo{
+    background-position: -515px -19px;
+}
+.cont_ed_student_logo:hover{
+    background-position: -515px -261px;
+    background-size: 750px auto;
+}
+.questions_logo{
+	width: 220px;
+	height: 79px;
+	background-position: -18px -502px;
+	background-size: 735px auto;
+	margin-top: 10px;
+	margin-left: 6px;
+}
+.questions_logo:hover{
+	width: 220px;
+	height: 79px;
+	background-position: -18px -627px;
+	background-size: 735px auto;
+	margin-top: 10px;
+	margin-left: 6px;
+}
+.doc_tracker_logo{
+	width: 220px;
+	height: 79px;
+	background-position:  -257px -502px;
+	background-size: 735px auto;
+	margin-top: 10px;
+	margin-left: 7px;
+}
+.doc_tracker_logo:hover{
+	width: 220px;
+	height: 79px;
+	background-position: -256px -628px;
+	background-size: 735px auto;
+	margin-top: 10px;
+	margin-left: 7px;
+}
+.deadlines_logo{
+	width: 220px;
+	height: 79px;
+	background-position:  -500px -502px;
+	background-size: 735px auto;
+	margin-top: 10px;
+	margin-left: 6px;
+}
+.deadlines_logo:hover{
+	width: 220px;
+	height: 79px;
+	background-position:  -500px -628px;
+	background-size: 735px auto;
+	margin-top: 10px;
+	margin-left: 6px;
+}
+/*******arrow sprites******/
+.arrow{
+	text-decoration: none;
+	text-indent: -9999px;
+}
+
+.my_nav .arrow a{
+	transform: scale(.6);
+	margin-right: -70px !important;
+	margin-top: -10px;
+}
+.my_nav .arrow a:first-child{
+	margin-left: -20px;
+}
+
+.arrow a{
+	float: left;
+	width: 210px;
+	height: 126px;
+	transform: scale(.8);
+	-webkit-transform: scale(.8);
+	margin-right: -47px;
+	background: url('Images/Admin_Offices/Financial Aid/sprites/sprite_arrows.png') no-repeat;
+}
+
+/******yellow*******************************************/
+
+.arrow a[id~='planning_yellow']{
+	background-position: -47px -44px;
+}
+.arrow a[id~='planning_yellow']:hover{
+	background-position: -47px -212px;
+}
+.arrow a[id~='planning_yellow_breadcrumb']{
+	background-position: -36px -1047px;
+} 
+.arrow a[id~='scholarships_yellow']{
+	background-position: -255px -44px;
+}
+.arrow a[id~='scholarships_yellow']:hover{
+	background-position: -255px -212px;
+}
+.arrow a[id~='scholarships_yellow_breadcrumb']{
+	background-position: -258px -1047px;
+}
+.arrow a[id~='federal_aid_yellow']{
+	background-position: -465px -44px;
+}
+.arrow a[id~='federal_aid_yellow']:hover{
+	background-position: -465px -212px;
+}
+.arrow a[id~='federal_aid_yellow_breadcrumb']{
+	background-position: -472px -1047px;
+}
+.arrow a[id~='follow_up_yellow']{
+	background-position: -675px -44px;
+}
+.arrow a[id~='follow_up_yellow']:hover{
+	background-position: -675px -212px;
+}
+.arrow a[id~='follow_up_yellow_breadcrumb']{
+	background-position: -690px -1047px;
+}
+
+/*******orange**************************************************/
+.arrow a[id~='planning_orange']{
+	background-position: -47px -380px;
+}
+.arrow a[id~='planning_orange']:hover{
+	background-position: -47px -548px;
+}
+.arrow a[id~='planning_orange_breadcrumb']{
+	background-position: -32px -1215px;
+}
+.arrow a[id~='scholarships_orange']{
+	background-position: -256px -380px;
+}
+.arrow a[id~='scholarships_orange']:hover{
+	background-position: -255px -548px;
+}
+.arrow a[id~='scholarships_orange_breadcrumb']{
+	background-position: -252px -1215px;
+}
+.arrow a[id~='federal_aid_orange']{
+	background-position: -465px -380px;
+}
+.arrow a[id~='federal_aid_orange']:hover{
+	background-position: -465px -548px;
+}
+.arrow a[id~='federal_aid_orange_breadcrumb']{
+	background-position: -470px -1215px;
+}
+.arrow a[id~='follow_up_orange']{
+	background-position: -675px -380px;
+}
+.arrow a[id~='follow_up_orange']:hover{
+	background-position: -675px -548px;
+}
+.arrow a[id~='follow_up_orange_breadcrumb']{
+	background-position: -690px -1215px;
+}
+
+/**********red*****************************************/
+.arrow a[id~='planning_red']{
+	background-position: -45px -717px;
+}
+.arrow a[id~='planning_red']:hover{
+	background-position: -46px -884px;
+}
+.arrow a[id~='planning_red_breadcrumb']{
+	background-position: -32px -1379px;
+}
+.arrow a[id~='scholarships_red']{
+	background-position: -255px -717px;
+}
+.arrow a[id~='scholarships_red']:hover{
+	background-position: -255px -884px;
+}
+.arrow a[id~='scholarships_red_breadcrumb']{
+	background-position: -252px -1379px;
+}
+.arrow a[id~='federal_aid_red']{
+	background-position: -465px -716px;
+}
+.arrow a[id~='federal_aid_red']:hover{
+	background-position: -465px -884px;
+}
+.arrow a[id~='federal_aid_red_breadcrumb']{
+	background-position: -470px -1379px;
+}
+.arrow a[id~='follow_up_red']{
+	background-position: -675px -716px;
+}
+.arrow a[id~='follow_up_red']:hover{
+	background-position: -675px -883px;
+}
+.arrow a[id~='follow_up_red_breadcrumb']{
+	background-position: -690px -1379px;
+}
+
+/******end of arrows******/
+.lined_background{
+	background: url('Images/Admin_Offices/Financial Aid/Home Page Cells/lined_background-06.png') no-repeat;
+	height: 500px;
+	text-indent: -9999px;
+	background-size: 693px;
+	width: 700px;
+}
+.lined_background_inverted{
+	background: url('Images/Admin_Offices/Financial Aid/Home Page Cells/lined_background_inverted.png') 0px -100px no-repeat;
+	background-size: 100% auto;
+	height: 160px !important;
+}
+.wraparound{
+	background: url('Images/Admin_Offices/Financial Aid/Home Page Cells/wraparound-07.png') no-repeat;
+	height: 60px;
+	width: 710px;
+	text-indent: -9999px;
+	background-size: 710px;
+	margin-left: -10px;
+}
+.policies_bell{
+	background: url('Images/Admin_Offices/Financial Aid/sprites/sprites_policies_bell.png') 0px 0px no-repeat;
+	height: 60px;
+	width: 60px;
+	text-indent: -9999px;
+	position: absolute;
+    margin-top: -62px;
+	margin-right: 11px;
+	margin-left: 627px;
+	background-size: 115px;
+	display: block;
+}
+.policies_bell[id~='home']:hover{
+	background: url('Images/Admin_Offices/Financial Aid/sprites/sprites_policies_bell.png') -59px 0px no-repeat;
+	z-index: 50;
+	background-size: 115px;
+	animation: scale_and_wiggle 1s infinite;
+}
+/* Advisors Table */
+#advisors{
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+#page_title{
+	display: none;
+}
+#table{
+	margin: 10px auto;
+}
+#table th{
+	color:#F8F8F8;
+	background-color: #333;   
+	font-weight: normal;
+	letter-spacing: 1px;
+	border-right: 1px solid white;
+}
+#table th:last-child{
+	border:none;
+}
+#table ul{
+	margin-left: 5px; 
+	color: #000;
+}
+#table td{
+	width: 200px;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	padding: 2px 0 2px 10px;
+}
+#table td:nth-child(2),
+#table td:nth-child(3){
+	text-align: center;
+	padding-left: 0;
+}
+#table td:last-child{
+	border-right: none;
+}
+.tableTitle{
+	font-size: 1.2em;
+	margin-bottom:10px;
+	color: #000;
+}
+/*************modal*************/
+/* Container */
+.modal {
+
+/* Overlay page content */
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background: rgba(0,0,0,0.5);
+z-index: 10000;
+
+/* Transition opacity on open */
+transition: opacity 500ms ease-in;
+
+
+/* Hide for now */
+opacity: 0;
+pointer-events: none;
+}
+
+/* Show modal */
+.modal:target {
+opacity: 1;
+pointer-events: auto;
+/* at time of writing (Feb 2012), pointer-events not supported by Opera or IE */
+}
+
+/* Content */
+.modal > div {
+width: 720px;
+max-height: 500px;
+background: #fff;
+position: relative;
+margin: 10% auto;
+
+/* Default minimize animation */
+animation: minimize 500ms linear;
+
+/* Prettify */
+padding: 30px;
+border-radius: 7px;
+box-shadow: 0 3px 20px rgba(0,0,0,0.9);
+background: #fff;
+background: linear-gradient(#fff, #ccc);
+text-shadow: 0 1px 0 #fff;
+display: none;
+}
+.modal div section:first-child{
+	overflow: auto;
+	padding: 10px;
+	max-height: 480px;
+}
+/* Override animation on modal open */
+.modal:target > div {
+animation-name: bounce;
+display: block;
+}
+
+/* Modal close link */
+.modal a[href="#close"] {
+position: absolute;
+right: 0;
+top: 0;
+color: transparent;
+}
+
+/* Reset native styles */
+.modal a[href="#close"]:focus {
+outline: none;
+}
+
+/* Create close button */
+.modal a[href="#close"]:after {
+content: 'X';
+display: block;
+
+/* Position */
+position: absolute;
+right: -10px;
+top: -10px;
+width: 1.5em;
+padding: 1px 1px 1px 2px;
+
+/* Style */
+text-decoration: none;
+text-shadow: none;
+text-align: center;
+font-weight: bold;
+background: #000;
+color: #fff;
+border: 3px solid #fff;
+border-radius: 20px;
+box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+.modal a[href="#close"]:focus:after,
+.modal a[href="#close"]:hover:after {
+ transform: scale(1.1,1.1);
+}
+.modal a[href="#close"]:focus:after {
+outline: 1px solid #000;
+}
+.modal li{
+	padding: 5px 0 5px 20px;
+}
+.modal ul{
+	margin: 0px 0px 10px 0px;
+	font-size: 20px;
+}
+
+/****boxes for the steps*****/
+
+.step_box a{
+	color: black !important;
+}
+.step_box li{
+	height: auto;
+	width: auto;
+	border: solid 1px black;
+	padding: 10px;
+	margin-top: 10px;
+	background-color: #EEEFEF;
+	width: 653px;
+}
+
+/**************videos version 1******************/
+.videos a.list_box{
+	width: 100%;
+	height: 50px;
+	border: solid 1px black;
+	background: linear-gradient(#fff, #ddd);
+	margin-top: 10px;
+	display: block;
+}
+.text_vid{
+	display: inline-block;
+	width: 160px !important;
+	height: 20px !important;
+	border: solid 1px black;
+	background: linear-gradient(#fff, #ddd);
+	margin-top: 10px;
+}
+.videos aside li{
+	display: inline-block;
+}
+
+.videos aside ul{
+	
+}
+.hidden{
+	pointer-events: none;
+	transition: opacity 500ms ease-in;
+	display: none;
+}
+.hidden:target{
+	pointer-events: auto;
+	transition: opacity 500ms ease-in;
+	display: block;
+}
+/**************videos version 2******************/
+.youtube_thumb{
+	background-size: 120px auto;
+}
+.youtube_thumb[id~="submit_docs"]{
+	background: url(http://img.youtube.com/vi/3byYwMoTxjM/1.jpg) no-repeat;
+}
+.youtube_thumb[id~="accept_loans"]{
+	background: url(http://img.youtube.com/vi/LOcGP7au6wQ/1.jpg) no-repeat;
+}
+.youtube_thumb[id~="dependent_ver"]{
+	background: url(http://img.youtube.com/vi/fCE4sDiPInU/1.jpg) no-repeat;
+}
+.youtube_thumb[id~="independent_ver"]{
+	background: url(http://img.youtube.com/vi/Y_tPwKcqvVU/1.jpg) no-repeat;
+}
+.youtube_thumb[id~="selected_ver"]{
+	background: url(http://img.youtube.com/vi/3tRD8ZUj7D4/1.jpg) no-repeat;
+}
+.youtube_thumb[id~="disbursed"]{
+	background: url(http://img.youtube.com/vi/V-oCDtPpQTU/1.jpg) no-repeat;
+}
+.youtube_thumb[id~="fasfa"]{
+	background: url(http://img.youtube.com/vi/8B7Uc41UN2E/1.jpg) no-repeat;
+}	
+.youtube_thumb[id~="data_retrieval"]{
+	background: url(http://img.youtube.com/vi/jtNqVLd6oD4/1.jpg) no-repeat;
+}
+.youtube_thumb[id~="return_trans"]{
+	background: url(http://img.youtube.com/vi/9VnMECE1EQ8/1.jpg) no-repeat;
+}
+.youtube_thumb[id~="rejected_sig"]{
+	background: url(http://img.youtube.com/vi/bB-gG-0wYq0/1.jpg) no-repeat;
+}
+.youtube_thumb[id~="locate_docs"]{
+	background: url(http://img.youtube.com/vi/OxACXADss2A/1.jpg) no-repeat;
+}	
+.youtube_thumb[id~="fix_taxes"]{
+	background: url(http://img.youtube.com/vi/16Jt4fMogtE/1.jpg) no-repeat;
+}	
+.videos2 a{
+	text-decoration: none !important;
+}	
+.videos2>ul{
+	margin-left: 60px;
+}
+.videos2 li{
+	float: left;
+	width: 180px;
+	height: 200px;
+	margin-left: 5px;
+	margin-top: 5px;
+	background: linear-gradient(#f0f0f0, #fff);
+}
+.videos2 li>a:first-child{
+	display: block;
+	width: 120px;
+	height: 90px;
+	text-align: center;
+	margin: 10px auto;
+}
+.videos2 li>a:nth-child(3){
+	display: block;
+	width: 160px !important;
+	height: 20px !important;
+	background: linear-gradient(#fff, #ddd);
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.videos2 li>h4{
+	text-align: center;
+	display: block;
+}
+.videos2>a{
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+}
+
+iframe.iframe{
+	width: 1080px;
+	height: 520px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+/*! jQuery UI - v1.9.2 - 2012-11-23
+* http://jqueryui.com
+* Includes: jquery.ui.core.css, jquery.ui.accordion.css, jquery.ui.autocomplete.css, jquery.ui.button.css, jquery.ui.datepicker.css, jquery.ui.dialog.css, jquery.ui.menu.css, jquery.ui.progressbar.css, jquery.ui.resizable.css, jquery.ui.selectable.css, jquery.ui.slider.css, jquery.ui.spinner.css, jquery.ui.tabs.css, jquery.ui.tooltip.css, jquery.ui.theme.css
+* Copyright 2012 jQuery Foundation and other contributors; Licensed MIT 
+* 12/11/12 I removed most of the css and kept just what I needed - Mat Yang F.A. Dept Web Specialist*/
+
+/* Layout helpers
+----------------------------------*/
+.ui-helper-hidden { 
+	display: none; 
+}
+.ui-helper-hidden-accessible { 
+	border: 0; 
+	clip: rect(0 0 0 0); 
+	height: 1px; 
+	margin: -1px; 
+	overflow: hidden; 
+	padding: 0; 
+	position: absolute; 
+	width: 1px; 
+}
+.ui-helper-reset { 
+	margin: 0; 
+	padding: 0; 
+	border: 0; 
+	outline: 0; 
+	line-height: 1.3; 
+	text-decoration: none; 
+	font-size: 100%; 
+	list-style: none; 
+}
+.ui-helper-clearfix:before, 
+.ui-helper-clearfix:after { 
+	content: ""; 
+	display: table; 
+}
+.ui-helper-clearfix:after { 
+	clear: both; 
+}
+.ui-helper-clearfix { 
+	zoom: 1;
+}
+.ui-helper-zfix { 
+	width: 100%; 
+	height: 100%; 
+	top: 0; 
+	left: 0; 
+	position: absolute; 
+	opacity: 0; 
+	filter:Alpha(Opacity=0); 
+}
+
+/* Interaction Cues
+----------------------------------*/
+.ui-state-disabled { cursor: default !important; }
+
+/* states and images */
+.ui-icon { 
+	display: block; 
+	text-indent: -99999px; 
+	overflow: hidden; 
+	background-repeat: no-repeat; 
+}
+
+/* Misc visuals
+----------------------------------*/
+.ui-dialog {
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	padding: .2em; 
+	width: 300px; 
+	overflow: hidden; 
+}
+.ui-dialog .ui-dialog-titlebar { 
+	padding: .4em 1em; 
+	position: relative;  
+}
+.ui-dialog .ui-dialog-title { 
+	float: left; 
+	margin: .1em 16px .1em 0; 
+}
+.ui-dialog .ui-dialog-titlebar-close { 
+	position: absolute; 
+	right: .3em; 
+	top: 50%; 
+	width: 19px; 
+	margin: -10px 0 0 0; 
+	padding: 1px; 
+	height: 18px; 
+}
+.ui-dialog .ui-dialog-titlebar-close span { 
+	display: block;
+	margin: 1px; 
+}
+.ui-dialog .ui-dialog-titlebar-close:hover, 
+.ui-dialog .ui-dialog-titlebar-close:focus { 
+	padding: 0; 
+}
+.ui-dialog .ui-dialog-titlebar-close:after {
+	content: 'X';
+	display: block;
+	/* Position */
+	position: absolute;
+	right: 4px;
+	top: -1px;
+}
+.ui-dialog .ui-dialog-content { 
+	position: relative; 
+	border: 0; 
+	padding: .5em 1em; 
+	background: none; 
+	overflow: auto; 
+	zoom: 1; 
+}
+.ui-dialog .ui-resizable-se { 
+	width: 14px; 
+	height: 14px; 
+	right: 3px; 
+	bottom: 3px; 
+}
+.ui-draggable .ui-dialog-titlebar { 
+	cursor: move; 
+}
+
+/* Component containers
+----------------------------------*/
+.ui-widget { 
+	font-family: futuraMC, knockout, arial, san-serif !important;
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+.ui-widget .ui-widget { 
+	font-size: 1em; 
+}
+.ui-widget input, 
+.ui-widget select, 
+.ui-widget textarea, 
+.ui-widget button { 
+	font-family: futuraMC, knockout, arial, san-serif !important; 
+	font-size: 1em; 
+}
+.ui-widget-content { 
+	border: 1px solid #a6c9e2; 
+	background: #fcfdfd  50% bottom repeat-x; 
+	color: #222222; 
+}
+.ui-widget-content a { 
+	color: #222222; 
+}
+.ui-widget-header { 
+	border: 1px solid #4297d7;
+	background: #5c9ccc  50% 50% repeat-x; 
+	color: #ffffff; 
+	font-weight: bold; 
+	width: 678px;
+}
+.ui-widget-header a { 
+	color: #ffffff; 
+}
+
+/* Interaction states
+----------------------------------*/
+
+.ui-state-hover, 
+.ui-widget-content .ui-state-hover, 
+.ui-widget-header .ui-state-hover, 
+.ui-state-focus, 
+.ui-widget-content .ui-state-focus, 
+.ui-widget-header .ui-state-focus { 
+	border: 1px solid #79b7e7; 
+	background: #d0e5f5  50% 50% repeat-x; 
+	font-weight: bold; 
+	color: #1d5987; 
+}
+.ui-state-hover a, 
+.ui-state-hover a:hover, 
+.ui-state-hover a:link, 
+.ui-state-hover a:visited { 
+	color: #1d5987; 
+	text-decoration: none; 
+}
+
+/* Misc visuals
+----------------------------------*/
+
+/* Corner radius */
+.ui-corner-all{
+	border-radius: 5px;
+}
+/* Overlays */
+.ui-widget-overlay { 
+	background: #aaaaaa 50% 50% repeat-x; 
+	opacity: .3;
+	filter:Alpha(Opacity=30); 
+}
+.ui-widget-shadow { 
+	margin: -8px 0 0 -8px; 
+	padding: 8px; 
+	background: #aaaaaa 50% 50% repeat-x; 
+	opacity: .3;filter:Alpha(Opacity=30); 
+	border-radius: 8px; 
+}
+/*Start button buttons css**********************************/
+/*Create button*/
+.button{
+	display: inline-block;
+	background:#EDCA1B;
+	border:3px solid black;
+	font-weight:normal;
+	font-size:12px;
+	height: auto;
+	border-radius: 25px;
+	margin: 1em auto 2em auto;
+	cursor: pointer;
+}
+.button p{
+	padding: 0 1em 0 1em;
+}
+/*Put space to left of button*/
+#button_margin_left{
+	margin-left: 4em;
+}
+/*Text alignment inside button*/
+.button_text{
+	text-align: center;
+	display: block;
+	color: #000;
+}
+/*Emphasize a selection of text*/
+.emphasize{
+	color: red;
+	font-size: 1.5em;
+	font-weight: bolder;
+}
+/*Remove text decoration*/
+.no_dec a{
+		text-decoration: none;
+		margin: 0 auto;
+}
+/*"changes" text color red*/
+#changes{
+		color: red;
+}
+/*Center align div*/
+
+/*End button css********************************************/
+--></style>
+<p>
+<script type="text/javascript">
+//prefixFree.js no vendor prefixes needed
+/**
+ * StyleFix 1.0.3 & PrefixFree 1.0.7
+ * @author Lea Verou
+ * MIT license
+ */(function(){function t(e,t){return[].slice.call((t||document).querySelectorAll(e))}if(!window.addEventListener)return;var e=window.StyleFix={link:function(t){try{if(t.rel!=="stylesheet"||t.hasAttribute("data-noprefix"))return}catch(n){return}var r=t.href||t.getAttribute("data-href"),i=r.replace(/[^\/]+$/,""),s=t.parentNode,o=new XMLHttpRequest,u;o.onreadystatechange=function(){o.readyState===4&&u()};u=function(){var n=o.responseText;if(n&&t.parentNode&&(!o.status||o.status<400||o.status>600)){n=e.fix(n,!0,t);if(i){n=n.replace(/url\(\s*?((?:"|')?)(.+?)\1\s*?\)/gi,function(e,t,n){return/^([a-z]{3,10}:|\/|#)/i.test(n)?e:'url("'+i+n+'")'});var r=i.replace(/([\\\^\$*+[\]?{}.=!:(|)])/g,"\\$1");n=n.replace(RegExp("\\b(behavior:\\s*?url\\('?\"?)"+r,"gi"),"$1")}var u=document.createElement("style");u.textContent=n;u.media=t.media;u.disabled=t.disabled;u.setAttribute("data-href",t.getAttribute("href"));s.insertBefore(u,t);s.removeChild(t);u.media=t.media}};try{o.open("GET",r);o.send(null)}catch(n){if(typeof XDomainRequest!="undefined"){o=new XDomainRequest;o.onerror=o.onprogress=function(){};o.onload=u;o.open("GET",r);o.send(null)}}t.setAttribute("data-inprogress","")},styleElement:function(t){if(t.hasAttribute("data-noprefix"))return;var n=t.disabled;t.textContent=e.fix(t.textContent,!0,t);t.disabled=n},styleAttribute:function(t){var n=t.getAttribute("style");n=e.fix(n,!1,t);t.setAttribute("style",n)},process:function(){t('link[rel="stylesheet"]:not([data-inprogress])').forEach(StyleFix.link);t("style").forEach(StyleFix.styleElement);t("[style]").forEach(StyleFix.styleAttribute)},register:function(t,n){(e.fixers=e.fixers||[]).splice(n===undefined?e.fixers.length:n,0,t)},fix:function(t,n,r){for(var i=0;i<e.fixers.length;i++)t=e.fixers[i](t,n,r)||t;return t},camelCase:function(e){return e.replace(/-([a-z])/g,function(e,t){return t.toUpperCase()}).replace("-","")},deCamelCase:function(e){return e.replace(/[A-Z]/g,function(e){return"-"+e.toLowerCase()})}};(function(){setTimeout(function(){t('link[rel="stylesheet"]').forEach(StyleFix.link)},10);document.addEventListener("DOMContentLoaded",StyleFix.process,!1)})()})();(function(e){function t(e,t,r,i,s){e=n[e];if(e.length){var o=RegExp(t+"("+e.join("|")+")"+r,"gi");s=s.replace(o,i)}return s}if(!window.StyleFix||!window.getComputedStyle)return;var n=window.PrefixFree={prefixCSS:function(e,r,i){var s=n.prefix;n.functions.indexOf("linear-gradient")>-1&&(e=e.replace(/(\s|:|,)(repeating-)?linear-gradient\(\s*(-?\d*\.?\d*)deg/ig,function(e,t,n,r){return t+(n||"")+"linear-gradient("+(90-r)+"deg"}));e=t("functions","(\\s|:|,)","\\s*\\(","$1"+s+"$2(",e);e=t("keywords","(\\s|:)","(\\s|;|\\}|$)","$1"+s+"$2$3",e);e=t("properties","(^|\\{|\\s|;)","\\s*:","$1"+s+"$2:",e);if(n.properties.length){var o=RegExp("\\b("+n.properties.join("|")+")(?!:)","gi");e=t("valueProperties","\\b",":(.+?);",function(e){return e.replace(o,s+"$1")},e)}if(r){e=t("selectors","","\\b",n.prefixSelector,e);e=t("atrules","@","\\b","@"+s+"$1",e)}e=e.replace(RegExp("-"+s,"g"),"-");e=e.replace(/-\*-(?=[a-z]+)/gi,n.prefix);return e},property:function(e){return(n.properties.indexOf(e)?n.prefix:"")+e},value:function(e,r){e=t("functions","(^|\\s|,)","\\s*\\(","$1"+n.prefix+"$2(",e);e=t("keywords","(^|\\s)","(\\s|$)","$1"+n.prefix+"$2$3",e);return e},prefixSelector:function(e){return e.replace(/^:{1,2}/,function(e){return e+n.prefix})},prefixProperty:function(e,t){var r=n.prefix+e;return t?StyleFix.camelCase(r):r}};(function(){var e={},t=[],r={},i=getComputedStyle(document.documentElement,null),s=document.createElement("div").style,o=function(n){if(n.charAt(0)==="-"){t.push(n);var r=n.split("-"),i=r[1];e[i]=++e[i]||1;while(r.length>3){r.pop();var s=r.join("-");u(s)&&t.indexOf(s)===-1&&t.push(s)}}},u=function(e){return StyleFix.camelCase(e)in s};if(i.length>0)for(var a=0;a<i.length;a++)o(i[a]);else for(var f in i)o(StyleFix.deCamelCase(f));var l={uses:0};for(var c in e){var h=e[c];l.uses<h&&(l={prefix:c,uses:h})}n.prefix="-"+l.prefix+"-";n.Prefix=StyleFix.camelCase(n.prefix);n.properties=[];for(var a=0;a<t.length;a++){var f=t[a];if(f.indexOf(n.prefix)===0){var p=f.slice(n.prefix.length);u(p)||n.properties.push(p)}}n.Prefix=="Ms"&&!("transform"in s)&&!("MsTransform"in s)&&"msTransform"in s&&n.properties.push("transform","transform-origin");n.properties.sort()})();(function(){function i(e,t){r[t]="";r[t]=e;return!!r[t]}var e={"linear-gradient":{property:"backgroundImage",params:"red, teal"},calc:{property:"width",params:"1px + 5%"},element:{property:"backgroundImage",params:"#foo"},"cross-fade":{property:"backgroundImage",params:"url(a.png), url(b.png), 50%"}};e["repeating-linear-gradient"]=e["repeating-radial-gradient"]=e["radial-gradient"]=e["linear-gradient"];var t={initial:"color","zoom-in":"cursor","zoom-out":"cursor",box:"display",flexbox:"display","inline-flexbox":"display",flex:"display","inline-flex":"display"};n.functions=[];n.keywords=[];var r=document.createElement("div").style;for(var s in e){var o=e[s],u=o.property,a=s+"("+o.params+")";!i(a,u)&&i(n.prefix+a,u)&&n.functions.push(s)}for(var f in t){var u=t[f];!i(f,u)&&i(n.prefix+f,u)&&n.keywords.push(f)}})();(function(){function s(e){i.textContent=e+"{}";return!!i.sheet.cssRules.length}var t={":read-only":null,":read-write":null,":any-link":null,"::selection":null},r={keyframes:"name",viewport:null,document:'regexp(".")'};n.selectors=[];n.atrules=[];var i=e.appendChild(document.createElement("style"));for(var o in t){var u=o+(t[o]?"("+t[o]+")":"");!s(u)&&s(n.prefixSelector(u))&&n.selectors.push(o)}for(var a in r){var u=a+" "+(r[a]||"");!s("@"+u)&&s("@"+n.prefix+u)&&n.atrules.push(a)}e.removeChild(i)})();n.valueProperties=["transition","transition-property"];e.className+=" "+n.prefix;StyleFix.register(n.prefixCSS)})(document.documentElement);
+</script>
+</p>
+<div class="my_container">
+<div class="my_nav lined_background_inverted">
+<section class="nav_top_section">
+<div class="freshman_icon spin left"></div>
+<section class="arrow"><a href="x42841.xml" id="planning_yellow">planning arrow</a> <a href="x42842.xml" id="scholarships_yellow">scholarships arrow</a> <a href="x42843.xml" id="federal_aid_yellow_breadcrumb">federal aid arrow</a> <a href="x42844.xml" id="follow_up_yellow">follow up arrow</a></section>
+</section>
+<ul class="futuraMC nav_bar">
+<li class="pop-up">OFFICE HOURS
+<section class="bubble">
+<ul>
+<li>Regular Hours</li>
+<li>Mon - Fri, 8am - 5pm</li>
+<li>Advisor Hours</li>
+<li>Mon - Fri, 8am - 4pm</li>
+</ul>
+</section>
+</li>
+<li class="pop-up">ADDRESS
+<section class="bubble">100 Kimball Building 1610 Rexburg, ID 83460</section>
+</li>
+<li class="pop-up">PHONE
+<section class="bubble">208.496.1600</section>
+</li>
+<li class="pop-up">EMAIL
+<section class="bubble">financialaid@byui.edu</section>
+</li>
+<li class="pop-up">FAX
+<section class="bubble">208.496.6711</section>
+</li>
+</ul>
+</div>
+<h1>Apply for Federal Aid</h1>
+<ul class="step_box">
+<li>
+<div><a href="#question_1"> <span>1. Fill out a FAFSA</span> <span>A FAFSA is a Free Application for Federal Student Aid.&nbsp; FAFSA determines a student's eligibility for the awards listed below.&nbsp; In order to be considered for any Federal Aid, a student must fill out the FAFSA application correctly and follow up with the Financial Aid Office.</span> </a></div>
+</li>
+<li>
+<div><a href="#question_2"> <span>2. Verification</span> <span>BYU-Idaho is required by the Department of Education to verify that FAFSA forms are filled out correctly. To complete this process, one out of every three students will be required to submit certain documents to the BYU-Idaho Student Financial Aid Office. If a discrepancy is found, the FAFSA will be corrected by our office based on the information found on the documents submitted to us. <strong>Verification must be completed (i.e. all documents submitted, including corrections) before students will be notified of which FAFSA awards they will receive.</strong></span> </a></div>
+</li>
+<li>
+<div><a href="#question_3"> <span>3. Federal Pell Grant</span> <span>Federal Pell Grants are awarded to undergraduate students pursuing a degree on the basis of financial need.&nbsp; Students are considered for these awards based off of a FAFSA.</span> </a></div>
+</li>
+<li>
+<div><a href="#question_4"> <span>4. Direct Stafford Loans</span> <span>Stafford loans are a series of fixed-rate student loans for undergraduate and graduate students attending college at least half-time (6-credits or more).&nbsp; Students are considered for these loan offers based on the FAFSA.</span> </a></div>
+</li>
+<li>
+<div><a href="#question_5"> <span>5. Plus Loan</span> <span>A Parent Loan for Undergraduate Students (PLUS) is a federally guaranteed loan and is available for a parent of dependent undergraduate students.&nbsp; The parent may borrow up to the student's annual cost of attendance minus any financial assistance the student has been or will be awarded during the period of enrollment.</span> </a></div>
+</li>
+</ul>
+<aside class="modal" id="question_1">
+<div>
+<section>
+<h2>Application</h2>
+<ul>
+<li>Go to <a href="http://www.fafsa.ed.gov" title="apply for fafsa" target="_blank">FAFSA.ed.gov</a> to apply.</li>
+</ul>
+<h2>Deadline:</h2>
+<ul>
+<li>The FAFSA needs to be submitted roughly 3 months before the student starts school each academic year in order to receive their aid by the tuition payment deadline.</li>
+</ul>
+<h2>Frequently Asked Questions:</h2>
+<ul>
+<li>What is our school code?
+<ul>
+<li>001625</li>
+</ul>
+</li>
+<li>What information do I need to fill out the FAFSA?
+<ul>
+<li>If married: Your Personal and Spouse's tax information</li>
+<li>If single (dependent): Parent's tax information.</li>
+</ul>
+</li>
+<li>I'm having problems with the FAFSA application/website, what can I do?
+<ul>
+<li>Call FAFSA suppport at 1-(800)-433-3243</li>
+</ul>
+</li>
+<li>What if I'm getting married?
+<ul>
+<li>Speak with your financial aid advisor BEFORE filling out the FAFSA</li>
+</ul>
+</li>
+<li>When do I complete the FAFSA?
+<ul>
+<li>The FAFSA needs to be submitted roughly 3 months before starting school each academic year in order to receive aid by the tuition payment deadline.</li>
+</ul>
+</li>
+</ul>
+<a href="#close" title="Close">Close</a></section>
+</div>
+</aside>
+<aside class="modal" id="question_2">
+<div>
+<section>
+<h2>Submitting Documents</h2>
+<ul>
+<li><a href="https://my.byui.edu/ICS/Finances/Financial_Aid.jnz?portlet=Financial_Aid_Document_Tracking">The Financial Aid Document Tracking Tool</a> - Displays documentation received and awaiting by the Student Financial Aid Office.</li>
+<li><a href="http://www.byui.edu/financial-aid/about-financial-aid/financial-aid-forms">Financial Aid Forms</a></li>
+<li>Commonly Required Documents
+<ul>
+<li><a class="intLink" href="Documents/Admin_Offices/Financial Aid/2012_2013_Documents/How to order a tax return transcript.pdf" title="IRS Tax Return Transcript Instructions" target="_blank">IRS Tax Return Transcript </a> (obtained the from IRS)</li>
+<li>Dependent or Independent Verification worksheets
+<ul>
+<li>When you see that worksheets are awaiting on your document tracking, the link for the worksheet will pull up a PDF file of that worksheet.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>Include student's full name and I-number (Student ID number) on all documents</li>
+<li>Submit only legible and readable documents (text and info needs to be clear and not blurred)</li>
+<li>If a document is being submitted for multiple students, please include all students' names and I-numbers</li>
+<li>Worksheets need to be filled out <strong>completely</strong> and <strong>correctly</strong>. An incomplete document will cause a longer processing time as the document will need to be completed and re-submitted.
+<ul>
+<li>Please read <strong>all</strong> instructions on every worksheet.</li>
+</ul>
+</li>
+</ul>
+<h2>Ways to Submit Documents</h2>
+<ul>
+<li>Email - Documents can be emailed as attachments (preferably PDF files) to financialaid@byui.edu</li>
+<li>Fax - Documents can be faxed to: (208)-496-6711</li>
+<li>Mail - Documents can be mailed to:
+<ul>
+<li>BYU-I Student Financial Aid Office</li>
+<li>100 Kimball Building, 1610</li>
+<li>Rexburg, ID 83460</li>
+</ul>
+</li>
+<li>Personal Delivery - Documents can be dropped off at the front dest of the Student Financial Aid Office, located at 100 Kimball Building</li>
+</ul>
+<span class="h3">Timelines</span>
+<ul>
+<li>After submitting a document, it will be between 2-4 weeks before it shows as received in the Financial Aid Document Tracking link.</li>
+<li>Once the Student Financial Aid Office has received every document (including corrections) that is necessary, it can take anywhere from 6-8 weeks before awards will be posted.</li>
+</ul>
+<a href="#close" title="Close">Close</a>
+<section></section>
+</section>
+</div>
+</aside>
+<aside class="modal" id="question_3">
+<h1>Receive Awards:</h1>
+<div>
+<section>
+<h2>Deadlines</h2>
+<ul>
+<li>See FAFSA deadlines above.</li>
+<li><a href="http://www.byui.edu/financial-aid/policies/deadlines">Financial Aid Deadlines Page</a></li>
+</ul>
+<h2>Requirements</h2>
+<ul>
+<li>Be a U.S. citizen or an eligible non-citizen
+<ul>
+<li><a href="http://www.byui.edu/Documents/Admin_Offices/Financial%20Aid/2012_2013_Documents/Citizen%20Eligible%20Non-citizen%20Certification.pdf">CITSTAT form</a></li>
+</ul>
+</li>
+<li>Be a degree seeking undergraduate student
+<ul>
+<li>Students who already have a bachelor's degree are not eligible.</li>
+<li>Continuing Education Students, Pathway Students, and other Non-Matriculating Students are not eligible.</li>
+</ul>
+</li>
+<li>Meet the financial need requirements determined by the FAFSA application</li>
+<li>Meet the <a href="http://www.byui.edu/financial-aid/policies/satisfactory-academic-progress">Satisfactory Academic Progress Requirements</a></li>
+<li>Award amounts are based on need and on enrollment status (credit level). The award amount will vary depending on enrollment status.</li>
+<li>Submit verification documents(if required)
+<ul>
+<li>(See Step 2: Verification above)</li>
+</ul>
+</li>
+</ul>
+<h2>Duration</h2>
+<ul>
+<li>Federal Aid awards are valid for one academic year</li>
+<li>Pell Grants are limited to the equivalent of two full time awards (on or off track). There will not be a third semester Pell Grant award unless the student has not exceeded the two full-time award equivalent limit.</li>
+</ul>
+<a href="#close" title="Close">Close</a></section>
+</div>
+</aside>
+<aside class="modal" id="question_4">
+<div>
+<section>
+<h2>Deadlines</h2>
+<ul>
+<li>See FAFSA deadlines above.</li>
+<li><a>Financial Aid Deadlines Page</a></li>
+</ul>
+<h2>Requirements</h2>
+<ul>
+<li>Submit a FAFSA and complete document verification.</li>
+<li>Meet the financial need requirements determined by the FAFSA application</li>
+<li>Must be enrolled at least half time (6 credits)</li>
+<li>Must meet the <a href="http://www.byui.edu/financial-aid/policies/satisfactory-academic-progress">Satisfactory Academic Progress Requirements</a></li>
+<li>Must be within the annual and aggregate <a href="http://www.direct.ed.gov/applying.html">Federal Aid Loan Limits</a></li>
+<li>Complete the <a href="https://studentloans.gov/myDirectLoan/index.action">Entrance Counseling and Master Promissory Note (MPN)</a></li>
+</ul>
+<h2>Loan Levels</h2>
+<table id="table_futura">
+<tbody>
+<tr><th>Direct Subsidized Loan</th><th>Direct Unsubsidized Loan</th></tr>
+<tr>
+<td>3.4% APR interest rate</td>
+<td>6.8% APR Interest rate</td>
+</tr>
+<tr>
+<td>The federal government pays the interest for the loan while the student is in school.</td>
+<td>The student pays for the interest that the loan accrues while they are in school.</td>
+</tr>
+<tr>
+<td>Principal and Interest payments are postponed while students are enrolled in at least 6 credits and durning their grace period.</td>
+<td>Principal payments are postponed while students are enrolled in at least 6 credits and during their grace period.</td>
+</tr>
+<tr>
+<td>Grace Period - students aren't required to start repayment until 6 months after dropping below 6 credits
+<ul>
+<li>If a student defers a semester and is below 6 credits for more than 6 months, repayment will start and their grace period will have been used up.</li>
+</ul>
+</td>
+<td>Grace Period - students aren't required to start repayment until 6 months after dropping below 6 credits
+<ul>
+<li>If a student defers a semester and is below 6 credits for more than 6 months, repayment will start and their grace period will have been used up.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<h2>Duration</h2>
+<ul>
+<li>Direct Stafford Loans are valid for one school year. The accepted loan amount is disbursed in two installments (divided between two semesters).</li>
+<li>Students need to re-apply every academic year.</li>
+</ul>
+<h2>Important Information</h2>
+<ul>
+<li>BYU-Idaho is not the lender or loan servicer. Questions about repayment, consolidation, etc. all need to be directed to the student's lender, and not BYU-Idaho.</li>
+<li><a href="http://www.byui.edu/financial-aid/policies/loan-policies">Loan Policies Page</a></li>
+<li><a href="https://Studentloans.gov/myDirectLoan/index.action">Studentloans.gov</a></li>
+<li><a href="http://www.nslds.ed.gov/nslds_SA/">NSLDS.ed.gov</a> - To find out who a student's loan servicer is as well as total loan balances</li>
+<li>Contact your financial aid advisor if you will be attending school on your off-track OR if you will be attending only one semester during the school year.</li>
+</ul>
+<a href="#close" title="Close">Close</a></section>
+</div>
+</aside>
+<aside class="modal" id="question_5">
+<div>
+<section>
+<h2>Deadlines</h2>
+<ul>
+<li>See FAFSA deadlines above</li>
+<li><a href="http://www.byui.edu/financial-aid/policies/deadlines">Financial Aid Deadlines Page</a></li>
+</ul>
+<h2>Requirements</h2>
+<ul>
+<li>Submit a FAFSA and complete document verification.</li>
+<li>Be considered a Dependent Student</li>
+<li>Be enrolled at least half time (6 credits)</li>
+<li>Meet the <a href="http://www.byui.edu/financial-aid/policies/satisfactory-academic-progress">Satisfactory Academic Progress Requirements</a></li>
+<li>Submit a <a href="http://www.byui.edu/Documents/Admin_Offices/Financial%20Aid/2012_2013_Documents/Plus%20Response.pdf">PLUS Acceptance Form</a> to the Financial Aid Office</li>
+<li>Parent must complete <a href="https://studentloans.gov/myDirectLoan/index.action"><strong>PLUS Master Promissory Note (MPN)</strong></a></li>
+<li>Parent must pass a credit check. If parent does not pass the credit check, the student should contact advisor for additional options.</li>
+</ul>
+<h2>Interest Rate and Repayment</h2>
+<ul>
+<li>7.9% APR Interest Rate</li>
+<li>Repayment begins within 60 days after the loan has been <strong>fully</strong> disbursed.</li>
+<li>Interest begins to accumulate at the time the first disbursement is made (on the first semester amount only until the second half is disbursed).</li>
+</ul>
+<h2>Duration</h2>
+<ul>
+<li>PLUS Loans are valid for one school year. The accepted loan amount is disbursed in two installments (divided between two semesters).</li>
+<li>Students and Parents will need to re-apply every academic year.</li>
+</ul>
+<h2>Important Information</h2>
+<ul>
+<li>BYU-Idaho is not the lender or loan servicer. Questions about repayment, consolidation, etc. all need to be directed to the lender, and not BYU-Idaho.</li>
+<li><a href="http://www.byui.edu/financial-aid/policies/loan-policies">Loan Policies Page</a></li>
+<li><a href="https://studentloans.gov/myDirectLoan/index.action">Studentloans.gov</a></li>
+<li><a href="http://www.nslds.ed.gov/nslds_SA/">NSLDS.ed.gov</a> - go to find out who the loan servicer is.</li>
+</ul>
+<a href="#close" title="Close">Close</a></section>
+</div>
+</aside>
+<p>Federal Disclosure: Students enrolled in study abroad programs approved for credit by BYU-Idaho may be considered enrollment at BYU-Idaho for the purpose of applying for assistance from federal financial aid as contained under title IV, HEA programs. The program must meet the Department of Education&rsquo;s definition of a study abroad program.</p>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="x18466" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x18206" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

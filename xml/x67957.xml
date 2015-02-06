@@ -1,0 +1,300 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x67957" Name="default.htm" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">default.htm</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">default.htm</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"&gt;
+&lt;head&gt;
+    &lt;meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /&gt;
+    &lt;title&gt;BYU&amp;ndash;Idaho&amp;nbsp;|&amp;nbsp;Online&amp;nbsp;Magazine&amp;nbsp;&gt;&amp;nbsp;Faculty as Architects of Learning Environments&lt;/title&gt;
+    &lt;!-- Remove TemplateSource line to disable the Web Editor --&gt;
+    &lt;!--TemplateSource="2A.htm"--&gt;
+    &lt;!--***********************************************************************
+    *   Brigham Young University-Idaho Template
+    *   Version:        1.2
+    *   Type:           2A
+    *   Last Revised:   June, 2006
+    *   Copyright� 2007 Brigham Young University-Idaho
+    *   All Rights Reserved.
+    ************************************************************************--&gt;
+    &lt;!-- REFERENCED STYLESHEETS --&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/v1/topBar.css" /&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/V1/structure.css" /&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/V1/body_text.css" /&gt;
+    &lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/css/V1/table.css" /&gt;
+	&lt;link rel="stylesheet" type="text/css" href="http://www.byui.edu/driveorwalk/css/walkordrivestyle.css" /&gt;
+	&lt;link rel="stylesheet" type="text/css" href="../css/ol.css" /&gt;
+	&lt;link rel="stylesheet" type="text/css" href="../css/article_style.css" /&gt;
+	&lt;link rel="stylesheet" href="../css/print.css" type="text/css" media="print" /&gt;
+
+	
+    &lt;!-- EMBEDED JAVASCRIPT FUNCTIONS --&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/js/v2/changeSizeRevised.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/js/v2/leftLinks.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/driveorwalk/js/textswap.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/driveorwalk/js/active.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="http://www.byui.edu/driveorwalk/js/randomadimage.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="../js/js.js"&gt;&lt;/script&gt;
+
+
+    &lt;!-- EDITOR JAVASCRIPT FUNCTIONS --&gt;
+	&lt;!-- This is the new style used by analytics. Please keep it right above the closing header. thanks --&gt;
+	&lt;script type="text/javascript"&gt;
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-12079604-1']);
+  _gaq.push(['_trackPageview']);
+
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body id="type_A" onload="callFunctions(); randomImageDisplay(); activeNav(1); randomAdImage();" style="visibility:hidden;"&gt;
+    &lt;!-- The body type determines the number of columns in the CONTENT AREA. View structure.css to where these types are specified --&gt;
+    &lt;!-- ********************************************************************* --&gt;
+    &lt;!-- TOP BAR                                                               --&gt;
+    &lt;!-- ********************************************************************* --&gt;
+    &lt;div id="topBar"&gt;
+        &lt;div id="blueSpace"&gt;&lt;/div&gt;
+        &lt;div&gt;
+            &lt;table id="tableBlue" cellspacing="0" cellpadding="0"&gt;
+                &lt;!-- Title menu with the Blue Background --&gt;
+                &lt;tr&gt;&lt;td id="tdBlueSpace"&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr id="trBlueTop"&gt;&lt;td id="tdBlueTop"&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td id="tdBlueMenu" align="center"&gt;
+                        &lt;div id="javaMenu"&gt;
+                            &lt;script type="text/javascript" src="http://www.byui.edu/js/V1/HomepageNavBar.js"&gt;&lt;/script&gt;
+                        &lt;/div&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+        &lt;/div&gt;
+        &lt;!-- Gray Bar --&gt;
+        &lt;div id="divGrayBarContainer"&gt;
+            &lt;div id="divDarkGrayBar"&gt;
+                &lt;!--&lt;div id="divStudent"&gt;
+                    &lt;script type="text/javascript" src="http://www.byui.edu/js/V1/imageChange.js"&gt;&lt;/script&gt;
+                &lt;/div&gt; //--&gt;
+                &lt;div id="divBYUILogo"&gt;
+                    &lt;a id="logoLink" href="http://www.byui.edu/"&gt;&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div id="divVertLine"&gt;&lt;/div&gt;
+                &lt;div id="divDepartmentTitle"&gt;
+                    &lt;!-- Department Title --&gt;
+                    &lt;div id="divSectionTitle"&gt;
+                        &lt;a id="iframeText" target="_top" href="http://www.byui.edu/magazine/fall2010"&gt;Online Magazine&amp;nbsp;&amp;gt;&amp;nbsp;Faculty as Architects of Learning Environments&lt;/a&gt;
+
+                    &lt;/div&gt;  
+                    &lt;span id="divSemester"&gt;
+						Fall 2010 
+                    &lt;/span&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;!-- White Bar --&gt;
+        &lt;div id="divWhiteContainer"&gt;
+        &lt;div id="divWhiteBar"&gt;
+            &lt;img src="http://www.byui.edu/css/V1/images/whiteBar.gif" alt="White Bar" /&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!-- END ***************************************************************** --&gt;
+    &lt;!--EditorForm--&gt;
+    &lt;!--EditorToolbar--&gt;
+    &lt;div id="container"&gt;
+        &lt;div id="main_body"&gt;
+            &lt;!-- LEFT COLUMN --&gt;
+            &lt;!-- NAVIGATION FILE INCLUDE --&gt;
+            			&lt;div id="left_column" style="background-color:#FFF";&gt;
+                
+				&lt;div id="onlinemagazinenav"&gt;
+				&lt;!--#include file="../../common/nav.inc"--&gt;
+					&lt;div id="sub_nav_watch"&gt;
+						&lt;!--#include file="../../common/navPhoto.inc"--&gt;
+						
+						
+						&lt;a href="#featurePhotoGallery"&gt;&lt;img id="video" src="viewgallery.jpg" /&gt;&lt;/a&gt;
+						&lt;p&gt;Faculty as Architects of Learning Environments&lt;/p&gt;
+					&lt;/div&gt;
+			   &lt;/div&gt;
+			   
+            &lt;/div&gt;
+            
+            &lt;div id="right_section"&gt;
+                &lt;div class="right_bottom_section"&gt;
+                    &lt;div class="leftAREA"&gt;
+                        &lt;div id="random_image"&gt;
+							&lt;div&gt;
+                        		&lt;img id="bannerImage" alt="Feature Template" src="../images/architect_banner.jpg" width="580px" height="230px"/&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+						
+
+						&lt;div id="page_layout2_content"&gt;&lt;br&gt;
+						
+						&lt;div class="printit"&gt;&lt;a href="javascript:window.print()"&gt;&lt;img src="../../images/common/print_issue.jpg" alt="Print Article" /&gt;&lt;/a&gt;&lt;/div&gt;
+							
+								&lt;div class="noprint"&gt;							
+
+						&lt;!-- AddThis Button BEGIN --&gt;
+							&lt;script type="text/javascript"&gt;var addthis_config = {"data_track_clickback":true};&lt;/script&gt;
+								&lt;a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;amp;username=byuiadmin"&gt;&lt;img src="http://s7.addthis.com/static/btn/sm-share-en.gif" width="83" height="16" alt="Bookmark and Share" style="border:0"/&gt;&lt;/a&gt;&lt;script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=byuiadmin"&gt;&lt;/script&gt;
+							&lt;!-- AddThis Button END --&gt;
+							
+								&lt;/div&gt;
+
+							&lt;h1 style="width:550px"&gt;Faculty as Architects of Learning Environments&lt;/h1&gt;&lt;!--Only add custom h1 width when title is too long but could still fit on one line. If you add the width in the style sheet it will mess other things up. thanks--&gt;
+							&lt;h3&gt;Clark Gilbert&lt;/h3&gt;
+							&lt;span id="title"&gt;Previous Associate Academic Vice President&lt;/span&gt;
+							&lt;h3&gt;Steve Hunsaker&lt;/h3&gt;
+							&lt;span id="title"&gt;Department of Foreign Language Faculty&lt;/span&gt;
+							&lt;h3&gt;Brian Schmidt&lt;/h3&gt; 
+							&lt;span id="title"&gt;Instructional Development Director&lt;/span&gt; 
+							
+							
+							
+							&lt;div id="synopses"&gt;BYU-Idaho classrooms are rich as students take action by teaching, leading, interacting, and sharing &amp;mdash; led by dedicated faculty who coordinate the learning process. Using the BYU-Idaho Learning Model as their tool, faculty use a variety of methods to produce positive outcomes in their students, such as group collaboration, case studies, and peer evaluation. 
+							&lt;/div&gt;
+							&lt;br/&gt;
+							&lt;div id="read_complete_article"&gt;READ COMPLETE ARTICLE BELOW&lt;/div&gt;
+							&lt;div id="viewGallery"&gt;&lt;a href="#featurePhotoGallery"&gt;VIEW PHOTO GALLERY&lt;/a&gt;&lt;/div&gt;
+							&lt;br/&gt;
+							&lt;p&gt;President Kim B. Clark said, "The challenge before us is to create even more powerful and effective learning experiences in which students learn by faith.... Students need opportunities to take action, ...where prepared students, exercising faith, step out beyond the light they already possess, to speak, to contribute, and to teach one another.... It is in that moment that the Spirit teaches."&lt;sup&gt;1&lt;/sup&gt;&lt;/p&gt;
+														
+							&lt;p&gt;Inspired instructors across campus are responding to President Clark's challenge to create classroom experiences that allow students to take action. The form that action takes varies considerably, but faculty members are finding opportunities to apply the BYU-Idaho Learning Model in ways that allow students to "teach one another." This does not imply that faculty are disengaged from the process of teaching. In fact, the teaching role of faculty actually deepens, focusing more on their role as the architects of peer learning experiences. The following are a few examples of the experiences faculty are designing for students:&lt;/p&gt;
+							
+						&lt;ol&gt;
+														
+							&lt;li&gt;&lt;p&gt;In a physics course, students prepare an assignment on the principle of constant volume flow rate and complete a pre-class online quiz. In class, their professor presents a diagram that asks them to apply the theory. Students are given the opportunity to vote on one of three answers. The instructor then divides the students into pairs where they convince each other why they believe they have the right answer. At the conclusion of the paired discussion, another vote is taken. The faculty member calls on a student who changed his answer to explain why he changed his vote. An active discussion ensues with faculty direction but broad student participation.&lt;/p&gt;&lt;/li&gt;
+							
+							&lt;li&gt;&lt;p&gt;In an English course, a professor assigns students to conduct a written thematic analysis of Dante's &lt;em&gt;Divine Comedy&lt;/em&gt;. Students are assigned to groups where they must submit the theme of their article to an editorial board made up of peers. Students evaluate the analysis based on a set of criteria that has been used with previous examples in class. All students have the opportunity to present their own work as well as to evaluate and later edit the work of their peers. Grades are based on faculty evaluation of a student's individual article and on the overall quality of other articles in the assigned group.&lt;/p&gt;&lt;/li&gt;
+							
+							&lt;li&gt;&lt;p&gt;In a computer science course, students read a paper discussing eight design rules for an effective user interface. They complete a quiz that tests basic understanding of the material. The quiz is difficult but can be taken multiple times before class starts. In class, the faculty member reviews the questions that were frequently missed on the quiz. After the review, students are divided into teams where they are presented an actual product and asked to analyze which of the design rules is most critical to the product interface. As each team presents, there is disagreement as to which design rule should be used. The faculty member follows with further questions, allowing the teams to rework their answers before he shares the correct response with the class.&lt;/p&gt;&lt;/li&gt;
+							
+						&lt;/ol&gt;
+							
+							&lt;p&gt;Each of these examples provide an opportunity for students to act. Students prepare for classroom discussion, form their own ideas, and teach each other. And while there is significant responsibility placed on the students, the choice of peer instruction tool is neither accidental nor episodic. Each faculty member is deeply involved as the architect of the learning experience.  Students have the opportunity to take action&amp;mdash;they teach, evaluate, interact, and share with each other in ways that require them to apply and articulate what they are learning. But in order for this student action to occur in an environment that is most effective, faculty must design the context and characteristics of those actions with specific learning outcomes in mind. &lt;/p&gt;
+							
+							&lt;span class="section_heading"&gt;Using Peer Instructional Tools in Course Design&lt;/span&gt;
+							
+							&lt;p&gt;There are a variety of peer instructional tools faculty can use to shape their classroom learning environments. Some of the approaches are helpful for introducing new material while other methods might deepen conceptual understanding or strengthen application. We have identified five types of peer learning tools: peer interaction, peer response, peer collaboration, peer feedback, and peer-facilitated instruction. &lt;/p&gt;
+														
+							&lt;p&gt;&lt;em&gt;Peer Interaction&lt;/em&gt;&lt;br/&gt;
+When: These approaches are most effective as preparatory stages of engagement. They allow students to become generally acquainted with the material and with each other, which permits richer follow-up discussions. The tool can also be helpful with assessing the initial level of student understanding.
+&lt;/p&gt;
+							&lt;p&gt;Faculty Role: Instructors initiate and frame the student dialogue by creating the forum, describing the topic, and inviting students to participate. After the conversation has started, they observe the interaction (either directly or from a distance).&lt;/p&gt;
+							
+							&lt;p&gt;Applications: This approach can be used with online or face-to-face activities. For example, students can engage in dialogue through online discussion boards. In a classroom setting, students can be paired or placed in larger groups to discuss a topic. Other applications include study groups, brainstorming sessions, and activities that allow students to personally compare their work against other students' work.&lt;/p&gt;
+							
+							&lt;p&gt;&lt;em&gt;Peer Response&lt;/em&gt;&lt;br/&gt;
+When: This tool is useful in deepening and integrating preparatory learning. It provides opportunities for students to become more engaged in the subject. Additionally, it allows the faculty member or facilitator to gauge student understanding.
+&lt;/p&gt;
+														
+							&lt;p&gt;Faculty Role: The instructor must design appropriate questions that allow students to teach one another. The instructor must elevate and ensure the quality of student responses to enrich and strengthen the discussion. The instructor should also create or identify appropriate problem-centered curriculum and match them with peer response tools.&lt;/p&gt;
+							&lt;p&gt;Application: The instructor takes an active role directing the conversation. The instructor could direct case studies, role plays, student panels, and class demonstrations. Concept tests and voting are other approaches that direct the conversation by grouping students (based on knowledge disparity) so they can teach and learn from one another.&lt;/p&gt;
+							
+							&lt;p&gt;&lt;em&gt;Peer Collaboration&lt;/em&gt;&lt;br/&gt;
+When: After a subject has been introduced, these tools can be used to inject energy, teach application, and deepen learning. This approach brings students together to jointly work on a project, make sense of a concept, or come to a consensus with a problem.
+&lt;/p&gt;
+							&lt;p&gt;Faculty Role: Instructors must develop application materials that link to key learning objectives. They must appropriately match students, monitor progress, and have systems that assess both individual and group work.&lt;/p&gt;
+							&lt;p&gt;Application: These tools include variations of group projects in which the students work together on a specific assignment. Whether face-to-face or virtual, students are expected to work with their group to collectively produce something (whether it be a project, a presentation, or a response).&lt;/p&gt;
+							&lt;p&gt;&lt;em&gt;Peer Feedback&lt;/em&gt;&lt;br/&gt;
+When: When real-time feedback is important but constrained by faculty availability, this approach can benefit both the student being evaluated and the student giving the evaluation.
+&lt;/p&gt;
+							&lt;p&gt;Faculty Role: Instructors must design practical ways in which students can be matched. Calibrated rubrics must be provided to ensure the quality of student evaluations. Incentives must be provided for students to give quality feedback.&lt;/p&gt;
+							
+							&lt;p&gt;Application: Students are matched so they can evaluate one another. In some cases the feedback may be "blind" to encourage candor. Students use rubrics or other criteria designed by faculty to evaluate the work of fellow students and give feedback. Web-based software can even permit "calibrated peer reviews" that match students, train and qualify the reviewer, and automatically distribute the feedback.&lt;/p&gt;
+							
+							&lt;p&gt;&lt;em&gt;Peer Facilitation&lt;/em&gt;&lt;br/&gt;
+When: Peer facilitation extends the reach of faculty members as student facilitators guide and monitor peer-to-peer learning. This approach deepens the learning experience of the facilitator while teaching lifelong peer instruction skills. It also shows students how to teach and learn from each other and requires deeper peer responsibility for learning.
+&lt;/p&gt;
+							
+							&lt;p&gt;Faculty Role: The instructor must select and train student facilitators. Curriculum must be monitored through reviewing each facilitator's teaching plans. The faculty member observes instruction to identify and focus on problem areas.&lt;/p&gt;
+							
+							&lt;p&gt;Application: Rotated student-led instruction, peer-facilitated lesson plan development, mutual peer tutoring, and dedicated peer facilitators.&lt;/p&gt;
+							
+							&lt;span class="section_heading"&gt;Integrating Peer Tools into Course Design&lt;/span&gt;
+							
+							&lt;p&gt;The Learning Model at BYU-Idaho provides a framework to tightly integrate peer instructional tools into the overall design of a course. The learning processes of &lt;em&gt;prepare, teach one another&lt;/em&gt;, and &lt;em&gt;ponder/prove&lt;/em&gt; can be incorporated across various cycles of learning within the structure of a course. Such cycles of learning can be integrated over the span of the semester or simply used to organize a daily lesson plan.&lt;/p&gt;
+							
+							&lt;p&gt;The faculty team developing the Family Foundations Course, for example, has structured a two-week cycle involving four class sessions. Each of the cycles focuses on a key principle from the document, &lt;em&gt;The Family: A Proclamation to the World.&lt;/em&gt; On the first session of the week, students &lt;em&gt;prepare&lt;/em&gt; by focusing on the fundamental doctrines and eternal truths of the content. During the second and third sessions students &lt;em&gt;teach one another&lt;/em&gt;. In these sessions the course design draws on peer instructional tools most heavily, using various forms of peer response and peer feedback. The fourth session provides opportunities for students to &lt;em&gt;ponder and prove&lt;/em&gt; more specific applications of the principle. The focus of each of these sessions affects class size, student configurations, and instructional methods.&lt;/p&gt;
+							
+							&lt;p&gt;While the Family Foundations Course provides an example of a multi-week structure across an entire semester, faculty can design peer instructional tools within weekly and even daily structure. The weekly cycle provides a framework to consistently integrate peer tools into the course to enhance learning.&lt;/p&gt;
+							
+							&lt;span class="section_heading"&gt;Teach to Learn&lt;/span&gt;
+							
+							&lt;p&gt;President Clark has stated that "BYU-Idaho is engaging students in a very powerful way in teaching one another. Over time, it will become apparent that the most powerful way for the students to learn is for them to teach&amp;mdash;they will teach to learn."&lt;sup&gt;2&lt;/sup&gt;&lt;/p&gt;
+							
+							&lt;p&gt;Faculty are the architects of peer learning environments and must determine course design, provide structure and support, create an environment of preparation and participation, and monitor learning with positive intervention.&lt;/p&gt;
+							
+							&lt;p&gt;When we ask students to teach and learn from each other, we are teaching them skills that will promote lifelong learning. We believe this is part of what Elder Eyring saw when he said, "They will be natural leaders who know how to teach and how to learn.... Those graduates of BYU-Idaho will become&amp;mdash;and this is a prophesy that I am prepared to make and make solemnly&amp;mdash;those graduates of BYU-Idaho will become legendary for their capacity to build people around them and to add value wherever they serve."&lt;sup&gt;3&lt;/sup&gt;  It is our hope that we can work together to fulfill that inspired vision as we learn how to better enable our students to teach and learn from each other.&lt;/p&gt;
+							
+							&lt;p&gt;&lt;small&gt;Taken from a &lt;em&gt;Perspective&lt;/em&gt; article, Autumn 2007&lt;/small&gt;&lt;/p&gt;
+
+								&lt;hr/&gt;
+							
+							&lt;span class="section_heading"&gt;Notes&lt;/span&gt;
+							
+							&lt;span class="notes"&gt;&lt;sup&gt;1&lt;/sup&gt; Kim B. Clark, "Inaugural Response," BYU-Idaho Inauguration, Oct. 2005&lt;/span&gt;
+							
+							&lt;span class="notes"&gt;&lt;sup&gt;2&lt;/sup&gt; Kim B. Clark, "Realizing the Mission of BYU-Idaho: Developing Disciple Leaders," All-Employee Meeting, May 2007&lt;/span&gt;
+							
+							&lt;span class="notes"&gt;&lt;sup&gt;3&lt;/sup&gt; Henry B. Eyring, "A Steady, Upward Course," BYU-Idaho Devotional, Sept. 2001&lt;/span&gt;
+							
+													
+						&lt;div class="noprint"&gt;							
+	
+						&lt;a name="featurePhotoGallery"&gt;&amp;nbsp;&lt;/a&gt;
+						&lt;div class="dashing_divider"&gt;&amp;nbsp;&lt;/div&gt;
+						&lt;h1 name"featurePhotoGallery"&gt;Photo Gallery&lt;/h1&gt;
+							&lt;!--Begin Photo Gallery--&gt;
+							&lt;iframe style="width:540px; height:440px; margin-left:0px; margin-top:10px;" src="slideshow_strengthening/index.html" scrolling="no" frameborder="0" width="540px" height="440px"&gt;
+							&lt;/iframe&gt;
+							&lt;!--End Photo Gallery--&gt;
+							&lt;a name="featureDownloadPDF"&gt;&amp;nbsp;&lt;/a&gt;
+							&lt;div class="dashing_divider"&gt;&amp;nbsp;&lt;/div&gt;
+					&lt;/div&gt;
+						
+								
+							&lt;/div&gt;
+							
+						&lt;/div&gt;
+						&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class="rightAREA"&gt;&lt;img alt="Place Holder" src="http://www.byui.edu/css/V1/images/placeholder80.gif" /&gt;&lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div id="footer"&gt;
+            &lt;div id="shadow"&gt;Copyright&amp;copy; &lt;script type="text/javascript"&gt;var d = new Date();document.write(d.getFullYear());&lt;/script&gt; BYU&amp;ndash;Idaho&lt;br /&gt;All Rights Reserved.&lt;/div&gt;
+        &lt;/div&gt;
+   
+    &lt;!--EndEditorForm--&gt;
+    &lt;!-- TABLE FORMATTING SECTION --&gt;
+    &lt;script type="text/javascript"&gt;
+        &lt;!--
+        var tableTags = document.getElementById('main_body').getElementsByTagName("table");
+        for (var i = 0; i &lt; tableTags.length; i++)
+        {
+            var trTags = tableTags[i].getElementsByTagName("tr");
+            for (var j = 0; j &lt; trTags.length; j++)
+            {
+                if(j%2 == 0)
+                {
+                    trTags.item(j).style.backgroundColor = "#efefec";
+                }
+                else
+                {
+                    trTags.item(j).style.backgroundColor = "#ffffff";
+                }
+            }
+        }
+        --&gt;
+    &lt;/script&gt;
+	&lt;/body&gt;
+&lt;/html&gt;
+</ESContent></EmptyShell>

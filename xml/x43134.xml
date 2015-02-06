@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x43134" Name="Web Cameras" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Web Cameras</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Web Cameras</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style><!--
+#container {
+    width:710px;
+}
+
+#mainpicture {
+    float: left;
+    margin-bottom: 15px;
+    width:560px;
+    height:375px;
+}
+
+#mainpicture img {
+    width:560px;
+    height:375px;
+}
+
+.subpicture {
+    width:135px;
+    height:115px;
+    margin-left:15px;
+    margin-top:15px;
+    float:left;
+    opacity:1;
+}
+
+.subpicture p {
+    font-size: 10pt;
+}
+
+.firstsubpicture {
+    margin-top:0px;
+}
+
+.bottomboxes {
+    width: 75%;
+    background-color: #f2f2f2;
+    float: left;
+    margin:0px;
+}
+
+.middle {
+    margin:0px 14px;
+}
+
+.bottomboxheader {
+    width: 100%; 
+    background-color: #eaeaea;
+    margin-right: 15px; 
+    padding-top: 10px; 
+}
+
+.bottomboxheadertext {
+    margin: 0px 0px 5px 15px;
+    font-size: medium;
+}
+
+.bottomboxbullettext {
+    font-size: .9em;
+    margin-left: 10px; 
+    margin-top: 15px; 
+    padding-left: 5px;
+    margin-bottom: 10px;
+    color: #60686e;
+}
+
+.bottomboxbullettext a {
+    text-decoration: none;
+    color: #60686e;
+}
+
+.bottomboxbullettext a:hover {
+    color:#056CB6;
+}
+
+hr.horizontal_rule {
+    height: 1px;
+    background: #666;
+}
+
+.thumbnail {
+    height: 236px;
+    width: 315px;
+    cursor: pointer;
+}
+
+.definition {
+    float: left;
+    margin: 5px;
+}
+
+.definition p {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.text_line {
+    clear: both;
+    margin-bottom:2px;
+    position: relative;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    font-size: 8pt;
+}
+--></style>
+<div class="definition">
+<p>BYU-Idaho Center</p>
+<a href="x90006.xml"><img alt="BYU-Idaho Center Web Camera" class="thumbnail" src="http://www2.byui.edu/images/aud2.asp?1374177950826" title="BYU-Idaho Center" /> </a></div>
+<div class="definition">
+<p>Central Plant</p>
+<a href="x93348.xml"> <img alt="Central Plant Web Camera" class="thumbnail" src="http://www2.byui.edu/images/central.asp" title="Central Plant" /> </a></div>
+<div class="definition">
+<p>EXPRESS Print &amp; Copy</p>
+<!--live feed source is "http://www2.byui.edu/images/copyspot.asp"--><a href="x90005.xml"><img alt="Copy Spot Web Camera" class="thumbnail" src="Images/Web%20Cameras/ExpressPrintCopyTemp.jpg" title="Copy Spot" /> </a></div>
+<div class="definition">
+<p>Rexburg Temple</p>
+<!--live feed source is "http://www2.byui.edu/images/temple.asp"--><a href="x90007.xml"><img alt="Rexburg Temple Web Camera" class="thumbnail" src="Images/Web%20Cameras/templeTemp.jpg" title="Rexburg Temple" /> </a></div>
+<div class="definition">
+<p>Ricks Gardens</p>
+<a href="x90003.xml"><img alt="Ricks Gardens Web Camera" class="thumbnail" src="http://www2.byui.edu/images/gardens.asp" title="Ricks Gardens" /> </a></div>
+<div class="definition">
+<p>Smith Quad</p>
+<!--live feed source is "http://www2.byui.edu/images/smithQuad.asp"--><a href="x90002.xml"><img alt="Smith Quad Web Camera" class="thumbnail" src="Images/Web%20Cameras/smithQuadTemp.jpg" title="Smith Quad" /> </a></div>
+<div class="definition">
+<p>Spori Quad</p>
+<a href="x90001.xml"><img alt="Spori Quad Web Camera" class="thumbnail" src="http://www2.byui.edu/images/spori.asp" title="Spori Quad" /> </a></div>
+<div class="definition">
+<p>Stadium</p>
+<a href="x90004.xml"><img alt="Stadium Web Camera" class="thumbnail" src="http://www2.byui.edu/images/stadium.asp" title="Stadium" /> </a></div>
+<div class="definition">
+<p>Taylor Quad</p>
+<a href="x90000.xml"><img alt="Taylor Quad Web Camera" class="thumbnail" src="http://www2.byui.edu/images/taylorQuad.asp" title="Taylor Quad" /> </a></div>
+<div class="definition">
+<p>Testing Center</p>
+<a href="x89997.xml"><img alt="Testing Center Web Camera" class="thumbnail" src="http://www2.byui.edu/images/testingcenter.asp" title="Testing Center" /> </a></div>
+<div class="definition">
+<p>Weather Camera</p>
+<a href="x89989.xml"><img alt="Weather Web Camera" class="thumbnail" src="http://www2.byui.edu/images/weather.asp" title="Weather Camera" /> </a></div>
+<div class="definition">
+<p>Student Housing Construction Project</p>
+<a href="x94164.xml"><img alt="Student Housing Construction Project Web Camera" class="thumbnail" src="http://www2.byui.edu/images/studenthousing.asp" title="Student Housing Construction Project" /> </a></div>
+<div class="text_line">
+<pre>Click <a href="javascript:history.go();" target="_parent">Refresh</a> to update to current pictures</pre>
+</div>
+<div class="text_line"><hr class="horizontal_rule" />We hope you enjoy our web camera pictures. If you have suggestions or comments, please send an e-mail to <a href="mailto:webcam@byui.edu">WebCam@byui.edu</a>.</div>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x89994" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

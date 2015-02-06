@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<TrainingElement ID="x16464" Name="Links" Layout="default-training.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Links</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Links</Abstract><LinkText type="string" label="Icon Address" readonly="false" hidden="false" required="true">Internal_Use/Ingeniux_Training/Icons/link.png</LinkText><TrainingIcon type="imagefile" label="Icon Image" hidden="false" readonly="false" required="false">Internal_Use/Ingeniux_Training/Icons/link.png</TrainingIcon><TrainingImage type="imagefile" label="Element Image" hidden="false" readonly="false" required="false">Internal_Use/Ingeniux_Training/Element Views/Ext_or_Doc_Link.png</TrainingImage><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<div class="intro">
+<p>The Link element allows users to distinguish hyperlinks within web pages.</p>
+</div>
+<p>The Link element has three types of links to choose from: Internal, External and Document links.</p>
+<p><strong>External Links</strong></p>
+<p>&nbsp;&nbsp; An External Link is a hyperlink to any web page not found within the Content Management System.</p>
+<h4 class="sub_title">URL:</h4>
+<p>&nbsp;&nbsp; The <em>URL</em> field is where the user enters the full web address of the web page being linked. If you are not sure what the full address is you can click on the <em>Browse</em> button.</p>
+<h4 class="sub_title">Browse</h4>
+<p>&nbsp;&nbsp; Clicking the <em>Browse</em> button will open a window to preview a web page. In this window the user can enter a web address in the top text field, by typing the address in the same manner commonly                 performed with     in a web browser. &nbsp;After previewing the web page, the user can click on the <em>Save Address</em> button, saving the correct address in the <em>URL</em> field.</p>
+<h4 class="sub_title">Link Name:</h4>
+<p>&nbsp;&nbsp; The <em>Link Name</em> is the name of the link that will be displayed within the link's web page. Not entering text in this field will render the link invisible.</p>
+<p>&nbsp;&nbsp; NOTE: clicking on the top right arrow will expand the Link area to reveal the "Link Name" field.</p>
+<h4 class="sub_title">Display in new window</h4>
+<p>&nbsp;&nbsp; This function is currently not in use.</p>
+<p><strong>Document Links</strong></p>
+<p>&nbsp;&nbsp; A Document Link is a hyperlink to any document found within the Assets folder.</p>
+<h4 class="sub_title">Document:</h4>
+<p>&nbsp;&nbsp; The <em>Document</em> field is where the user enters the full file address of the file being linked. All files are located in the assets folder.</p>
+<p>&nbsp;&nbsp; If needed, the <em>Browse</em> button can be used to display the contents of the assets document folder where a user can select a document. Doing so will insert the file address of the selected document.</p>
+<h4 class="sub_title">How to upload Documents</h4>
+<p>&nbsp;&nbsp; In order to upload a document to the assets folder click on the&nbsp; <a href="http://ingeniux.byui.edu/beta/help/ClientHTMLHelp/Universal_Client_Table_of_Contents/Manage_Assets.asp" style="color: #3366ff;" title="Assets" target="_blank"><img alt="upload" height="12" src="Images/Internal_Use/Ingeniux_Training/Icons/upload.png" title="upload" width="12" /> Assets button</a> located in the <a href="http://ingeniux.byui.edu/beta/help/ClientHTMLHelp/Universal_Client_Table_of_Contents/Client_Interface/Toolbar.asp" style="color: #3366ff;" title="CMS tool bar" target="_blank">CMS tool bar</a>. All departments should have a predefined documents folder to place documents in. If you are not sure where to upload documents to, please refer to upper management or technical support.</p>
+<h4 class="sub_title">Link Name:&nbsp;&nbsp; and &nbsp; Display in new window</h4>
+<p>&nbsp;&nbsp; Refer to the External Link section for information on <em>Link Name</em> and <em>Display in new window</em>.</p>
+<p><strong>Internal Links</strong></p>
+<img alt="Internal Link view" height="200" src="Images/Internal_Use/Ingeniux_Training/Element Views/Internal_Link.png" style="margin-left: 10px; float: right;" title="Internal Link" width="550" />
+<p>&nbsp;&nbsp; A Internal Link is a hyperlink to any web page found within the Content Management System.</p>
+<h4 class="sub_title">Page:</h4>
+<p>&nbsp;&nbsp; The <em>Page</em> field is where users select a CMS page for the target link.</p>
+<p style="padding-bottom: 0; margin-left: -15px;"><em>To select a CMS page...</em></p>
+<p>Enter the name or ID number of the CMS page in the <em>Page</em> field, and select from the drop down menu.</p>
+<h4 class="sub_title">ID:</h4>
+<p>&nbsp;&nbsp; The ID number will display in the <em>ID</em> field once a CMS page has been selected.</p>
+<h4 class="sub_title">Exports</h4>
+<p>&nbsp;&nbsp; <em>Exports</em> are designed to assist in the coding of the web page.</p>
+<p>&nbsp;&nbsp; Do not add to or remove any content from the <em>Export</em> fields without help from technical support. Doing so can result in breaking the web page.</p>
+<p><strong>FAQ</strong></p>
+<p style="padding-bottom: 0;">Q. I filled in a link with a web/document address but I don't see it anywhere on the web page.</p>
+<p style="padding-bottom: 0;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A. If the link is located within a component, the component&nbsp;  needs to be active within your web page.</p>
+<p style="padding-bottom: 0;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A. Did you assign the link a Link Name?</p>
+<p style="padding-bottom: 0;">&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; The "Link Name" is the name of the link that will be displayed within the web page. Not entering text here will render the link invisible.</p>
+<p>&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; NOTE: clicking on the top right arrow will expand the Link area to reveal the "Link Name" field.</p>]]></BodyCopy><xPower Type="Navigation" StartPage="x10283" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Children" Query="" Name="Icons" label="Element Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/></TrainingElement>

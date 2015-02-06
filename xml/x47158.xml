@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x47158" Name="Get Involved with Student Honor" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Get Involved with Student Honor</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Get Involved with Student Honor</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style><!--
+a:link {
+	text-decoration: none;
+}
+#body-content {
+
+}
+
+#honor-council {
+
+}
+
+#get-involved {
+
+}
+
+#committees {
+	width: 430px;
+	float: left;
+	margin-right: 10px;
+}
+
+#committees p {
+	font-size: 14px;
+}
+
+#principles {
+	float: right;
+	width: 270px;
+}
+
+#honor_topic {
+	margin-left: 5px;
+	background-color: #FFF8EB;
+	width: 260px;
+}
+
+#topic_head {
+	background-color: #FFA800;
+	color: #FFF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border-top-left-radius: 5px;
+	-moz-border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	-moz-border-top-right-radius: 5px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#true-at-all-times {
+	padding: 10px;
+	font-size: 10px;
+	margin-top: 10px
+}
+
+#true-at-all-times p {
+	font-size: 10px;
+}
+
+.intro_text {
+	font-family: Georgia;
+	font-style: italic;
+	font-size: 16px;
+	line-height: 165%;
+	color: #666;
+	margin-bottom: 10px;
+}
+#heading{
+	color: #056CB6;
+	font-size: 16px;
+}
+li {
+       padding: 4px;
+}
+--></style>
+<div id="body-content">
+<div class="span-18 first" id="honor-council">
+<div class="span-18 first intro_text"><img alt="Student Honor Council" height="179" src="Images/student-honor/studenthonorcouncilbanner.jpg" title="Student Honor Council" width="710" /></div>
+<div class="span-18 first intro_text">The Student Honor Office provides valuable opportunities for students to serve on the Student Honor Council. Council members attend regular meetings related to their leadership role and also demonstrate Honor Code observance and lives of Personal Honor.</div>
+</div>
+<p id="heading">The council is comprised of three different committees:</p>
+<div id="committees">
+<h2>Steady Upward Committee</h2>
+<p>The Steady Upward Course Committee provides a class setting for students who have met with the Student Honor Office for minor Honor Code infractions. Committee members facilitate the class with talks related to Personal Honor in an effort to educate students.</p>
+<h2>Return with Honor Committee</h2>
+<p>Members of the Return with Honor Committee review submitted assignments and evaluate the readiness of students who request to be cleared by the Student Honor office and return to the university. Committee members gain satisfaction in seeing a change of heart in students who desire another opportunity to live the Honor Code.</p>
+<h2>Outreach Committee</h2>
+<p>The main purpose of the Outreach Committee is to create awareness and educate the university community on Principles of Personal Honor and the Honor Code. The group utilizes teamwork and a creative environment to execute marketing campaigns, promotional events, as well as utilize additional communication channels to extend their voice.</p>
+</div>
+<div id="principles">
+<div id="honor_topic">
+<h3 id="topic_head"><a href="http://www2.byui.edu/StudentHonor/trueatalltimes.htm" style="color: #fff;">Principles of Personal Honor</a></h3>
+<div id="true-at-all-times">
+<ul>
+<li>Personal honor is integrity in fulfilling commitments, responsibilities, and covenants.</li>
+<li>Personal honor begins with willing obedience and is fully developed when we consistently govern ourselves by true principles.</li>
+<li>Personal honor increases spiritual strength through the ministry of the Holy Ghost.</li>
+<li>Personal honor is central to every aspect of our lives, including the BYU-Idaho experience.</li>
+<li>Personal honor brings us joy and happiness; deepens our desire to love, serve, and lift others; and ultimately helps us to become more like the Savior.</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="span-18 first" id="get-involved">
+<h2><em>How can I get involved?</em></h2>
+<p>Student Honor Council members for each of the three committees are finalized during the first week of each semester. Students interested in participating should e-mail sho@byui.edu for more information.</p>
+<!--
+<p>After a student has served as a Council member for at least one semester, they may apply for a scholarship leadership position by filling out the application form <a href="#">here</a> and e-mail it to sho@byui.edu or deliver the form on campus to 270 Kimball Building.</p>--></div>
+</div>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="x47172" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Component="" Name="xPower" readonly="false" hidden="false" required="false" CompTypes="" Expanded="false"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x43014" CompTypes="SiteControl" Expanded="false"/></Content>

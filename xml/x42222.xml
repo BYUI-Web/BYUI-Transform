@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x42222" Name="Academic Honesty" Layout="general_content.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Academic Honesty</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Academic Honesty</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent" Expanded="false"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent" Expanded="false"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<div>
+<h1><strong>ACADEMIC HONESTY</strong></h1>
+<table border="0" height="387" width="675">
+<tbody>
+<tr>
+<td>
+<p>BYU-Idaho students should seek to be completely honest in all their dealings.They should complete their own work and be evaluated for that work. They should avoid academic dishonesty and misconduct in all its forms, including but not limited to plagiarism, fabrication, falsification and cheating.</p>
+</td>
+<td>
+<p> </p>
+<p><img height="266" src="Images/university-communications/Honor Code/test.jpg" width="202" /></p>
+<p>Why (Possible Video)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h1></h1>
+<p><strong> </strong></p>
+<p>(What it is) BYU-Idaho students should seek to be completely honest in all their dealings. They should complete their own work and be evaluated for that work. They should avoid academic dishonesty and misconduct in all its forms, including but not limited to plagiarism, fabrication, falsification, and cheating.</p>
+<p> </p>
+<p>(The following topics will be a list and when clicked the text will drop down.)</p>
+<p><span style="text-decoration: underline;">Plagiarism</span></p>
+<p>Intentional plagiarism is the deliberate act of representing the words, ideas, or data of another as one's own without providing proper attribution to the original author through quotation, reference, or footnote.</p>
+<p> </p>
+<p><span style="text-decoration: underline;">Fabrication or Falsification</span></p>
+<p>Fabrication or falsification occurs when a student invents or distorts the origin or content of information used as authority.</p>
+<p> </p>
+<p><span style="text-decoration: underline;">Cheating</span></p>
+<p>A student cheats when he or she attempts to give the appearance of a level of knowledge or skill that has not been obtained.</p>
+<p> </p>
+<p><span style="text-decoration: underline;">Other Academic Misconduct</span></p>
+<p>Other academic misconduct includes other academically dishonest, deceitful, or inappropriate acts which are intentionally committed.</p>
+<p> </p>
+<p><span style="text-decoration: underline;">Procedures for Handling Academic Dishonesty</span></p>
+Instructors are responsible to establish and communicate to students their expectations of behavior with respect to academic honesty and conduct in the course. Students are also encouraged to help each other strive to be honest in their academic work.</div>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x41832" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

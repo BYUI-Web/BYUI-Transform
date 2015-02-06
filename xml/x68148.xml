@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<Content ID="x68148" Name="test" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">test</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">test</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style><!--
+#intro{
+	float: left;
+	margin-left: 20px;
+}
+
+#content{
+	float: left;
+	padding: 10px;
+}
+
+.container .span-11{
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.span-11 {float: left;}
+
+.icon{ 
+	padding-top: 6px; 
+	float:left; 
+	height: 100%;
+}
+
+.text {
+	padding: 20 5 0 0;
+}
+--></style>
+<!-- Content -->
+<div id="intro">
+<h1>Communication Tools</h1>
+<p style="font-style: italic;">The university has launched several new tools to help you be informed and be heard. These tools will provide you with high-level information and allow you to contribute your thoughts on relevant university news. It is with great pleasure that we extend to you an invitation to use these tools and join the conversation.</p>
+</div>
+<div id="content">
+<div class="container span-11" style="height: 120px;"><!--Icon-->
+<div class="icon span-3"><img alt="President of BYU-Idaho Facebook Page" height="100" src="Images/campaigns/join-the-conversation/Icons/10.png" width="100" /></div>
+<!-- End of Icon -->
+<div class="text">
+<h2>President of BYU-Idaho Facebook page</h2>
+<p>Join President Clark as he shares his personal thoughts with employees and students and welcomes their comments.</p>
+</div>
+</div>
+<div class="container span-11" style="height: 120px;"><!--Icon-->
+<div class="icon span-3"><img alt="The Campus Video Network (CVN)" height="100" src="Images/campaigns/join-the-conversation/Icons/14.png" width="100" /></div>
+<!-- End of Icon -->
+<div class="text">
+<h2>The Campus Video Network (CVN)</h2>
+<p>View the latest university messages and updates on monitors located in nearly every building on campus.</p>
+</div>
+</div>
+<div class="container span-11" style="height: 170px;"><!--Icon-->
+<div class="icon span-3" style="padding-top: 30px;"><img alt="BYU-Idaho Facebook Page" height="100" src="Images/campaigns/join-the-conversation/Icons/11.png" width="100" /></div>
+<!-- End of Icon -->
+<div class="text" style="padding-top: 30px;">
+<h2>BYU-Idaho Facebook page</h2>
+<p>The university will share official announcements and other important information with the public and invites open dialogue.</p>
+</div>
+</div>
+<div class="container span-11" style="height: 120px;"><!--Icon-->
+<div class="icon span-3"><img alt="Segmentation of weekly email" height="100" src="Images/campaigns/join-the-conversation/Icons/15.png" width="100" /></div>
+<!-- End of Icon -->
+<div class="text">
+<h2>Segmentation of weekly email</h2>
+<p>Read emails specifically geared for you and your interests. Whether you work on campus or not, university emails will keep you informed with relevant information.</p>
+</div>
+</div>
+<div class="container span-11" style="height: 120px;"><!--Icon-->
+<div class="icon span-3"><img alt="Public BYU-Idaho blog" height="100" src="Images/campaigns/join-the-conversation/Icons/13.png" width="100" /></div>
+<!-- End of Icon -->
+<div class="text">
+<h2>Public BYU-Idaho blog</h2>
+<p>Learn about BYU-Idaho updates, event information, and answers to questions that affect the community.</p>
+</div>
+</div>
+<div class="container span-11" style="height: 170px;"><!--Icon-->
+<div class="icon span-3"><img alt="New format for President's Q &amp; A" height="100" src="Images/campaigns/join-the-conversation/Icons/16.png" width="100" /></div>
+<!-- End of Icon -->
+<div class="text">
+<h2>New format for President&rsquo;s Q&amp;A</h2>
+<p>Meet face-to-face with President Clark and other university leaders to get your questions answered immediately. This meeting is held regularly and changes days so every employee has the opportunity to attend. In addition, off-campus employees will now be able to pose questions and participate via live webcast.</p>
+</div>
+</div>
+<div class="container span-11" style="height: 170px; margin-bottom: 10px;"><!--Icon-->
+<div class="icon span-3"><img alt="Internal BYU-Idaho blog" height="100" src="Images/campaigns/join-the-conversation/Icons/12.png" width="100" /></div>
+<!-- End of Icon -->
+<div class="text">
+<h2>Internal BYU-Idaho blog</h2>
+<p>University leaders will share what is discussed in their weekly council meeting immediately after the meeting&rsquo;s conclusion. The minutes from President&rsquo;s Council and President&rsquo;s Executive Group (PEG) will be available to BYU-Idaho employees who will have the opportunity to express their personal thoughts on the plans and updates presented.</p>
+</div>
+</div>
+<div class="container2 span-24" style="margin-top: 60px;">
+<div class="text">
+<h1>Communication Resources Links</h1>
+<p style="font-style: italic;">Don&rsquo;t miss out on the latest issue of Upward! BYU-Idaho&rsquo;s official online update includes campus videos, photo galleries, activities, and news.</p>
+<ul>
+<li><a href="http://www.byui.edu/upward" style="text-decoration: none;" title="Upward Online Magazine">Upward Online Magazine</a></li>
+<li><a href="http://www.byui.edu/learning-teaching/faculty-committees/publication/perspective-magazine" style="text-decoration: none;" title="Perspective Magazine">Perspective Magazine</a></li>
+</ul>
+<p style="font-style: italic;">Learn how to enhance the quality of learning and teaching at BYU-Idaho through faculty articles and insights. Receive training and access additional resources to help you in your stewardship.</p>
+<ul>
+<li><a href="http://www.byui.edu/human-resources/for-employees/training-and-development" style="text-decoration: none;" title="Additional communication tools and resources">Additional communication tools and resources</a></li>
+</ul>
+</div>
+</div>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x31624" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

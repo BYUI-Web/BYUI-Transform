@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AdminPage ID="x58726" Name="Activities" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Student Activities Program</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Student Activities Program</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="Cells" label="Cells" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="GroupStart" Name="Cell1" label="Cell 1" readonly="false" hidden="false" required="false" Expanded=""><Cell1Title type="string" label="Cell 1 Title" readonly="false" hidden="false" required="false"/><Cell1Image type="imagefile" label="Cell 1 Image" readonly="false" hidden="false" required="false" Expanded="" Width="" Height="" Border="" HSpace="" VSpace="" Alignment=""/><Cell1Text type="string" label="Cell 1 Text" readonly="false" hidden="false" required="false"/><xPower Type="Link" Name="Cell1Link" label="Cell 1 Link" readonly="false" hidden="false" required="false" Expanded="" Link="" LinkText="" URL="" Target=""/></xPower><xPower Type="GroupStart" Name="Cell2" label="Cell 2" readonly="false" hidden="false" required="false" Expanded=""><Cell2Title type="string" label="Cell 2 Title" readonly="false" hidden="false" required="false"/><Cell2Image type="imagefile" label="Cell 2 Image" readonly="false" hidden="false" required="false" Expanded="" Width="" Height="" Border="" HSpace="" VSpace="" Alignment=""/><Cell2Text type="string" label="Cell 2 Text" readonly="false" hidden="false" required="false"/><xPower Type="Link" Name="Cell2Link" label="Cell 2 Link" readonly="false" hidden="false" required="false" Expanded="" Link="" LinkText="" URL="" Target=""/></xPower><xPower Type="GroupStart" Name="Cell3" label="Cell 3" readonly="false" hidden="false" required="false" Expanded=""><Cell3Title type="string" label="Cell 3 Title" readonly="false" hidden="false" required="false"/><Cell3Image type="imagefile" label="Cell 3 Image" readonly="false" hidden="false" required="false" Expanded="" Width="" Height="" Border="" HSpace="" VSpace="" Alignment=""/><Cell3Text type="string" label="Cell 3 Text" readonly="false" hidden="false" required="false"/><xPower Type="Link" Name="Cell3Link" label="Cell 3 Link" readonly="false" hidden="false" required="false" Expanded="" Link="" LinkText="" URL="" Target=""/></xPower><xPower Type="List" Name="AdditionalCellComponents" label="Additional Cells" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Name="CellComponent" readonly="false" hidden="false" required="false" Component="" CompTypes="CellComponent"/></xPower></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<p>[x51107]</p>
+<p>
+<script language="JavaScript" type="text/javascript">
+var once_per_session=1
+function get_cookie(Name) {
+var search = Name + "="
+var returnvalue = "";
+if (document.cookie.length > 0) {
+offset = document.cookie.indexOf(search)
+if (offset != -1) { // if cookie exists
+offset += search.length
+// set index of beginning of value
+end = document.cookie.indexOf(";", offset);
+// set index of end of cookie value
+if (end == -1)
+end = document.cookie.length;
+returnvalue=unescape(document.cookie.substring(offset, end))
+}
+}
+return returnvalue;
+}
+
+function alertornot(){
+if (get_cookie('alerted')==''){
+loadalert(alert)
+document.cookie="alerted=yes"
+}
+}
+
+function loadalert(){
+var browserName=navigator.appName; 
+if (browserName=="Microsoft Internet Explorer")
+{
+alert("Our Web Panel best viewed in Google Chrome and Firefox. You may still continue but some features may not work properly..");
+}
+}
+
+if (once_per_session==0)
+loadalert()
+else
+alertornot()
+</script>
+</p>]]></BodyCopy><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="x6793" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" Name="DeptEvents" label="Define Your Events Folder" readonly="false" hidden="false" required="false" Expanded="true" Navigation="" GenerationOrder="" StartPage="" MaxNodes="" MaxDepth="" Query=""/><xPower Type="List" Name="BannerAds" label="Rotating Ads" readonly="false" hidden="false" required="false" Expanded="true" List=""><xPower Type="Component" Component="x51004" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/><xPower Type="Component" Component="x51106" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/></xPower><xPower Type="GroupStart" Name="QuickLinks" label="Quick Links" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Name="QuickLinksColumn1" label="Quick Links Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="Quick Links Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="Quick Links Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Insert" Name="HTMLInsert" label="Insert" readonly="false" hidden="true" required="false" Insert="" WellFormed="false" ExtractHTMLBody="false"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="true"><xPower Type="Component" Component="x51107" Name="ContentSnippet" readonly="false" hidden="false" required="false" CompTypes="ContentSnippet" Expanded="false"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x6784" CompTypes="SiteControlAdminOffice" Expanded="false"/></AdminPage>

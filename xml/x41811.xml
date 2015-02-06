@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x41811" Name="SharePoint" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">SharePoint 101</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">BYUI Employees should use SharePoint when they want web pages to require authentication to access.</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<h1>What is SharePoint?</h1>
+<p>SharePoint 2010 is a scalable document repository that blends traditional content management, social computing, and search to deliver an enterprise content management platform. &nbsp;It is quickly becoming the tool of choice for those who want to make information available to <em><strong>authenticated </strong></em>users. &nbsp;Some other capabilities include:</p>
+<ul>
+<li>Search</li>
+<li>Portal</li>
+<li>Workflow</li>
+<li>Business Intelligence</li>
+<li>Enterprise Content Management</li>
+<li>Extranet</li>
+<li>Intranet
+<ul>
+<li>The typical intranet is a document repository where users simply uploadand download content. SharePoint offers much more.</li>
+</ul>
+</li>
+<li>Social Networking</li>
+<li>...and so on</li>
+</ul>
+<h2>Training</h2>
+<ol>
+<li><a class="extLink" href="http://office.microsoft.com/en-us/sharepoint-server-help/take-sharepoint-server-2010-training-at-your-desk-HA101859255.aspx" title="Microsoft SharePoint Training" target="_blank">Microsoft</a></li>
+<li><a href="https://cms.byui.edu/home/Training/Pages/Product.aspx?Product=SharePoint">BYUI</a></li>
+<li><a href="http://www.lynda.com/SharePoint-2010-tutorials/essential-training/65720-2.html">Lynda.com</a> (contact Academic Technology Center for login details)</li>
+<li><a href="http://www.learnatest.com/LEL/index.cfm/learningCenter/computerSkills/KA_D_MS_SharePoint_Designer_Courses/KA_SharePoint_Designer_2007" title="SharePoint Designer 2007">SharePoint Designer 2007</a></li>
+</ol>
+<p>Once you have some Basic Training completed&nbsp;<a href="mailto:sharepoint@byui.edu?subject=SharePointDocumentationRequest">click here</a> to share your SharePoint questions so that we can build documentation for all.</p>
+<h2>Errors and Answers</h2>
+<ul>
+<li>Microsoft SharePoint Foundation compatible Application could not be found.&nbsp;
+<ul>
+<li>Make sure you're using Internet Explorer (32-bit).</li>
+</ul>
+</li>
+</ul>
+<h2>Popular Internal Sites</h2>
+<ul>
+<li><a href="https://cms.byui.edu/home/IT/Pages/Default.aspx">IT</a>&nbsp;(Information Technology)</li>
+</ul>
+<p>[x50160]</p>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="true" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Component="x50160" Name="ContentSnippet" readonly="false" hidden="false" required="false" CompTypes="ContentSnippet" Expanded="false"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x35726" CompTypes="SiteControl" Expanded="false"/></Content>

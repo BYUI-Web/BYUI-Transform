@@ -1,0 +1,416 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content ID="x62301" Name="Student Services Protocol" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Student Services Protocol</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Student Services Protocol</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<table border="0" cellpadding="0" cellspacing="0" style="width: 1047px;"><colgroup> <col width="38" /> <col width="149" /> <col span="10" width="86" /></colgroup>
+<tbody>
+<tr>
+<td colspan="2" height="60" width="187"><strong>Role</strong></td>
+<td width="86"><strong>New Student</strong></td>
+<td width="86"><strong>On-Track Student</strong></td>
+<td width="86"><strong>Off-Track Student</strong></td>
+<td width="86"><strong>Part-Time Student</strong></td>
+<td width="86"><strong>Non-Matriculated Student</strong></td>
+<td width="86"><strong>Continuing Ed Student</strong></td>
+<td width="86"><strong>Online Student</strong></td>
+<td width="86"><strong>Suspended Student</strong></td>
+<td width="86"><strong>Student Spouse</strong></td>
+<td width="86"><strong>Student Child</strong></td>
+</tr>
+<tr>
+<td colspan="2" height="92" rowspan="3" width="187"><strong>Implementation</strong><br /><strong>Details</strong></td>
+<td colspan="8" width="688"><em>adm_stat = ADMT and acst != DSML</em></td>
+<td rowspan="3" style="text-align: left;" width="86"><strong><br /><br /><br /><br />Spouse has Student role</strong></td>
+<td rowspan="3" style="text-align: left;" width="86"><strong><br /><br /><br /><br />Parent has Student role</strong></td>
+</tr>
+<tr>
+<td colspan="3" height="28" width="258"><em>subprog = DAY, POST</em></td>
+<td rowspan="2" style="text-align: left;" width="86"><strong><br /><br />subprog = PART</strong></td>
+<td rowspan="2" style="text-align: left;" width="86"><strong><br /><br />subprog = NONM,</strong><strong>CECE, PBTC,ACST</strong></td>
+<td rowspan="2" style="text-align: left;" width="86"><strong><br /><br />subprog = CTED</strong></td>
+<td rowspan="2" style="text-align: left;" width="86"><strong><br /><br />subprog = ONLN</strong></td>
+<td rowspan="2" style="text-align: left;" width="86"><strong><br />acst = SUSP or hold = HNRS</strong></td>
+</tr>
+<tr>
+<td height="36" style="text-align: left;" width="86"><strong>prior to expected date</strong></td>
+<td style="text-align: left;" width="86"><strong>current semester</strong></td>
+<td style="text-align: left;" width="86"><strong>not current semester</strong></td>
+</tr>
+<tr>
+<td colspan="2" height="20"><strong><em>Username and Email</em></strong></td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>Credit only</td>
+<td>X</td>
+<td>X</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td colspan="2" height="20"><strong><em>I-Card Services</em></strong></td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td colspan="2" height="20"><strong><em>Career &amp; Academic Advising</em></strong></td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>Limited</td>
+<td>X</td>
+<td>X</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td colspan="2" height="20"><strong><em>Approved Housing</em></strong></td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>Exception</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>X</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td colspan="2" height="20"><strong><em>Health Center</em></strong></td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Local</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+</tr>
+<tr>
+<td colspan="2" height="20"><em><strong>Health Insurance</strong></em></td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Limited</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+</tr>
+<tr>
+<td colspan="2" height="20"><em><strong>Counseling Center</strong></em></td>
+<td>&nbsp;</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Local</td>
+<td>X</td>
+<td>Couples</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td colspan="2" height="20"><em><strong>Dances &amp; Spectator Events</strong></em></td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+</tr>
+<tr>
+<td colspan="2" height="20"><em><strong>University Events</strong></em></td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>Limited</td>
+<td>Limited</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+</tr>
+<tr>
+<td colspan="2" height="20"><em><strong>Financial Aid</strong></em></td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>Limited</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Limited</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td colspan="2" height="20"><em><strong>Library</strong></em></td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>With fees</td>
+<td>Credit only</td>
+<td>X</td>
+<td>&nbsp;</td>
+<td>Limited</td>
+<td>Limited</td>
+</tr>
+<tr>
+<td colspan="2" height="20"><em><strong>Testing Center</strong></em></td>
+<td>&nbsp;</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td colspan="2" height="20"><em><strong>Internships</strong></em></td>
+<td>&nbsp;</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>X</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td colspan="2" height="20"><em><strong>Placement</strong></em></td>
+<td>&nbsp;</td>
+<td>X</td>
+<td>X</td>
+<td>Limited</td>
+<td>Grads only</td>
+<td>&nbsp;</td>
+<td>X</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td colspan="2" height="20"><em><strong>Scholarships</strong></em></td>
+<td>X</td>
+<td>14 credits</td>
+<td>Limited</td>
+<td>Exception</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td colspan="2" height="20"><em><strong>Student Employment</strong></em></td>
+<td>&nbsp;</td>
+<td>12 credits</td>
+<td>12 credits</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>12 credits</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td colspan="2" height="20"><em><strong>Ticketing</strong></em></td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>Credit only</td>
+<td>X</td>
+<td>X</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td height="240" rowspan="12"><em><strong>Activities</strong></em></td>
+<td><em>Leadership</em></td>
+<td>&nbsp;</td>
+<td>X</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>X</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td height="20"><em>Volunteers</em></td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>X</td>
+<td>&nbsp;</td>
+<td>X</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td height="20"><em>Competitive Sports</em></td>
+<td>&nbsp;</td>
+<td>X</td>
+<td>X</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>X</td>
+<td>&nbsp;</td>
+<td>X</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td height="20"><em>Recreational Sports</em></td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>X</td>
+<td>&nbsp;</td>
+<td>X</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td height="20"><em>Fitness</em></td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>X</td>
+<td>&nbsp;</td>
+<td>X</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td height="20"><em>Outdoor</em></td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>X</td>
+<td>&nbsp;</td>
+<td>X</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td height="20"><em>Service</em></td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>X</td>
+<td>&nbsp;</td>
+<td>X</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td height="20"><em>Social</em></td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>X</td>
+<td>&nbsp;</td>
+<td>X</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td height="20"><em>Talent</em></td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>X</td>
+<td>&nbsp;</td>
+<td>X</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td height="20"><em>Life Skills</em></td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>X</td>
+<td>&nbsp;</td>
+<td>X</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td height="20"><em>Fitness Center</em></td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>X</td>
+<td>&nbsp;</td>
+<td>X</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td height="20"><em>Other Hart Facilities</em></td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>Limited/fee</td>
+<td>Limited/fee</td>
+<td>X</td>
+<td>&nbsp;</td>
+<td>X</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="x43094" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x42756" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

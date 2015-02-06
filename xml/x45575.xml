@@ -1,0 +1,215 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x45575" Name="Frequently Asked Questions" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Frequently Asked Questions</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Frequently Asked Questions</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style><!--
+/*Add some spacing*/
+.faq-section{
+	margin: 40px 0;
+        position: relative;
+        
+}
+
+/*Hide the paragraphs*/
+.faq-section p{
+	display: none;
+}	
+
+/*Hide the checkboxes */
+.faq-section input{
+	position: absolute;
+	z-index: 2;
+	cursor: pointer;
+	opacity: 0;			
+	display: none\9; /* IE8 and below */
+	margin: 0;			
+	width: 100%;
+	height: 36px;
+}
+
+/*Show only the clipped intro */
+.faq-section label+p{
+	display: block;	
+	color: #999;
+	font-size: .85em;
+	transition: all .15s ease-out;
+	/* Clipping text */
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;						
+}
+
+/*If the checkbox is checked, show all paragraphs*/
+.faq-section input[type=checkbox]:checked~p{
+	display: block;
+	color: #444;
+	font-size: 1em;
+	/* restore clipping defaults */
+	text-overflow: clip; 
+	white-space: normal;
+	overflow: visible;	
+}
+
+/*Style the label*/
+.faq-section label{
+	font-size: 1.2em;
+	background: #eee;
+	display: block;
+	position: relative;
+        height: 33px;
+	padding: 7px 10px;
+	font-weight: bold;
+	border: 1px solid #ddd;
+	border-left: 3px solid #888;
+	text-shadow: 0 1px 0 rgba(255,255,255,.5);
+	transition: all .15s ease-out;			
+}
+
+/*Remove text selection when toggle-ing*/
+.faq-section label::selection{
+	background: none;
+}
+
+.faq-section label:hover{
+	background: #6899D3;
+}
+
+/*If the checkbox is checked, style the label accordingly*/
+.faq-section input[type=checkbox]:checked~label{
+	border-color: #0E53A7;			
+	background: #6899D3;
+	background-image: linear-gradient(to bottom, #fff, #6899D3);
+	box-shadow: 0 0 1px rgba(0,0,0,.4);				
+}
+
+/*Label's arrow - default state */
+.faq-section label::before{
+	content: '';
+	position: absolute;
+	right: 4px;
+	top: 50%;
+	margin-top: -6px;
+	border: 6px solid transparent;
+	border-left-color: inherit;	
+}
+
+/*Update the right arrow*/
+.faq-section input[type=checkbox]:checked~label::before{
+	border: 6px solid transparent;
+	border-top-color: inherit;
+	margin-top: -3px;
+	right: 10px;	
+}
+.faq-section input{
+	position: absolute; 
+	z-index: 2;
+	cursor: pointer;
+	opacity: 0;			
+	display: none\9; /* IE8 and below */
+	margin: 0;			
+	width: 100%;
+	height: 36px;
+
+}
+   
+    .background-switch {
+    text-align: center;
+    padding: 1em;
+    max-width: 250px;
+    font-size: 2.2em;
+    border-radius: 30px;
+    background-color: pink;
+    }
+    .background-switch:hover {
+    background-color: lightblue;
+    color: white;
+    }
+    .hover-rotate { margin-left: 30px; }
+    .hover-rotate:hover {
+    -ms-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+    }
+    .hover-outline {
+    margin-left: 30px;
+    margin-top: 10px;
+    }
+    .hover-outline:hover {
+    outline: 5px solid gray;
+    outline-offset: 10px;
+    }
+--></style>
+<section class="faq-section"><input id="q1" type="checkbox" /> <label for="q1">What are the rules of the Testing Center?</label>
+<p></p>
+<p>1. Present your I-Card<br /> 2. Observe BYU-Idaho Dress &amp; Grooming Standards<br /> 3. Turn off all cell phones and electronic devices<br /> 4. Take out all approved testing items*<br /> 5. Store all of your personal items under your seat<br /> 6. Use only #2 pencils on bubble sheets<br /> 7. Use only approved testing items*<br />8. Access only your test and approved websites<br /> 9. Food and drinks are not allowed <br /> 10. Leave large items** at home</p>
+<p>*Approved testing items include calculators, dictionaries, scriptures, etc.</p>
+<p>**Large items include art portfolios, musical instruments, rollerblades, scooters, etc.</p>
+</section>
+<section class="faq-section"><input id="q1" type="checkbox" /> <label for="q1">What time does the Music Testing Room open?</label>
+<p></p>
+<p>The Music Testing Room opens at 10:00 AM.</p>
+</section>
+<section class="faq-section"><input id="q1" type="checkbox" /> <label for="q1">What does it mean if my test closes early?</label>
+<p></p>
+<p>To accommodate as many students as possible without causing long lines and wait times, some tests close before our regular closing time.&nbsp; If you have a test that closes at 2:00 PM, you will need to check-in at the Testing Center prior to 2:00 PM.&nbsp; As long as the test is untimed, you can spend as much time as you like in completing your exam, so long as you finish prior to our regularly scheduled closing time.</p>
+</section>
+<section class="faq-section"><input id="q1" type="checkbox" /> <label for="q1">How do I request a special testing room?</label>
+<p></p>
+<p>There are special testing rooms designed for students needing accommodations.&nbsp; Permission to schedule these rooms is granted by Brother Richard Taylor in the <a href="http://www2.byui.edu/Disabilities/">Disability Services Office</a>.&nbsp; Once permission is granted, an email will be sent outlining the scheduling procedure.</p>
+</section>
+<section class="faq-section"><input id="q1" type="checkbox" /> <label for="q1">When is the Testing Center open?</label>
+<p></p>
+<p>The Testing Center is open every week, Monday through Saturday.&nbsp; The Testing Center is closed on</p>
+<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sundays</p>
+<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LDS General Conference Saturdays</p>
+<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.byui.edu/human-resources/for-employees/benefits/holiday-schedule">Paid BYU-Idaho Holidays</a></p>
+<p>The Testing Center has limited hours during Christmas and Summer Sessions.&nbsp; Call 208-496-1751 for more information.</p>
+</section>
+<section class="faq-section"><input id="q1" type="checkbox" /> <label for="q1">What time does the Testing Center close?</label>
+<p></p>
+<p>The Testing Center doors close at:</p>
+<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5:00 PM on Mondays</p>
+<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9:00 PM on Tuesdays-Fridays</p>
+<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4:00 PM on Saturdays</p>
+<p>There are often longer lines near closing time, so please plan accordingly.&nbsp; Even though the doors close, the Testing Center is open so that students can complete their tests until:</p>
+<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6:00 PM on Mondays</p>
+<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:00 PM on Tuesdays-Fridays</p>
+<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5:00 PM on Saturdays</p>
+</section>
+<section class="faq-section"><input id="q1" type="checkbox" /> <label for="q1">Can I use the restroom or get a drink in the middle of a test?</label>
+<p></p>
+<p>Yes, if you need to use the restroom or get a drink, please place your answer sheet underneath your test and leave it and any permissible test aids on your desk so that you can return to them later.</p>
+</section>
+<section class="faq-section"><input id="q1" type="checkbox" /> <label for="q1">Why should I check my score after taking my exam?</label>
+<p></p>
+<p>Checking your score after your exam ensures that the correct key was used to score your test.&nbsp; In addition, skipped questions are flagged.&nbsp; If you get a message that there are blanks on your answer sheet, you may immediately return to the check-out desk and request to mark those answers so that your test can be rescored.&nbsp; Please note: If you take more than one test in the Testing Center on any given day, you will only be able to see one score recorded.&nbsp; You can find out the score of your other exam by going to our website and selecting <em>Test Results</em>.</p>
+</section>
+<section class="faq-section"><input id="q1" type="checkbox" /> <label for="q1">Why do the proctors ask me what I can use on my test?</label>
+<p></p>
+<p>Each instructor allows students to use or not use different test aids.&nbsp; By asking you to repeat back to us what you can use on your test, we ensure that you will not inadvertently use a test aid you are not permitted to use.&nbsp;</p>
+<p>If you do happen to use an unapproved test aid, we are required to send an integrity report to your instructor and you may not be able to finish your exam or receive a grade.</p>
+</section>
+<section class="faq-section"><input id="q1" type="checkbox" /> <label for="q1">Why do the proctors walk up and down the aisles?</label>
+<p></p>
+<p>Proctors are there to act as proxies for your instructors.&nbsp; They provide the passwords for computer-based exams and other items students may need.&nbsp; In addition, they ensure the aisles are clear and maintain the integrity of the test itself.&nbsp; All allowable test aids are written on your cover sheet and/or answer sheet.&nbsp; They often look to make sure you are following the instructions you were given.</p>
+</section>
+<section class="faq-section"><input id="q1" type="checkbox" /> <label for="q1">Why do I need to use a #2 pencil when testing?</label>
+<p></p>
+<p>Answer sheets are read by a scanner.&nbsp; The scanner cannot pick up markings made by pens or other writing utensils</p>
+</section>
+<section class="faq-section"><input id="q1" type="checkbox" /> <label for="q1">When is the best time to test in the Testing Center?</label>
+<p></p>
+<p>Most people prefer to use the Testing Center when it is not busy.&nbsp; This typically occurs daily between the hours of<strong> 8:00AM</strong> and <strong>11:00AM</strong>.&nbsp; Some of the busiest times are right before closing on Mondays and Saturdays and right after Devotional on Tuesdays.</p>
+</section>
+<section class="faq-section"><input id="q1" type="checkbox" /> <label for="q1">Why do I have to pay a late or retake fee?</label>
+<p></p>
+<p>Late and/or retake fees are charged at the discretion of your instructor.&nbsp; This fee serves as not only a determent, but also pays for the extra time and supplies involved in printing another test copy after the initial test is given.</p>
+</section>
+<section class="faq-section"><input id="q1" type="checkbox" /> <label for="q1">What will happen if I write on a "Do Not Write on Exam?"</label>
+<p></p>
+<p>If you write on a copy of a "Do Not Write on Exam", you will be charged a<strong> $5.00 fee</strong>.&nbsp; This fee serves as not only a determent, but also pays for the time and supplies involved in printing another test copy.</p>
+</section>
+<section class="faq-section"><input id="q1" type="checkbox" /> <label for="q1">What will happen if I forget to return a dictionary?</label>
+<p></p>
+<p>You will be contacted by email to return the item.&nbsp; If you do not respond, <strong>your account will be charged for the item</strong>.</p>
+</section>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x41457" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

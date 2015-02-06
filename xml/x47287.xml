@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x47287" Name="Get Connected Schedule" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Get Connected Schedule</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Get Connected Schedule</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+#buttons a{
+        color:#fff;
+        text-decoration:none;
+        font-size:.9em;
+    }
+    ul#buttons li{
+        list-style-type:none;
+    }
+    #buttons{
+        margin-top:-25px;
+    }
+    #buttons a{
+        clear:right;
+        float:right;
+        border:0.3px #000 solid;
+        border-bottom:0;
+        padding:7px;
+        width:110px;
+        height:30px;
+        padding-bottom:20px;
+        list-style-type:none;
+        border-top:1px solid #ddd;
+        border-left:1px solid #ddd;
+        border-right:1px solid #ddd;
+        background-color:##E99D38;
+    }
+    #buttons a:hover{
+    opacity:.9;
+    }
+    #buttons{
+        float:right;
+        margin-top:275px;
+    }
+    #buttons #menu{
+        background-image:url('Images/student-support/volunteers/spirit-conference-sprite4.png');
+        background-position:0 60px;
+    }
+    #buttons #menu:hover{
+       opacity:.9;
+    }
+    #buttons #menus:hover{
+        font-size:1em;
+        font-family:sans-serif;
+
+    }
+    #buttons #partnership{
+         font-size:1em;
+        background-image:url('Images/student-support/volunteers/spirit-conference-sprite4.png');
+        background-position:0 185px;
+        opacity:1;
+    }
+    #buttons #partnership:hover{
+        
+        opacity:.9;
+    }
+    #buttons #leadership{
+        font-size:1em;
+        background-image:url('Images/student-support/volunteers/spirit-conference-sprite4.png');
+        background-position:0 309px;
+        opacity:1;
+    }
+    #buttons #leadership:hover{
+        
+        opacity:.9;
+    }
+
+    #buttons #spiritschedule{
+        background-image:url('Images/student-support/volunteers/spirit-conference-sprite4.png');
+        background-position:0 436px;
+    }
+    #buttons #spiritschedule:hover{
+        opacity:.9;
+
+    }
+     #buttons #getconnected{
+        background-image:url('Images/student-support/volunteers/spirit-conference-sprite4.png');
+        background-position:0 561px;
+    }
+    #buttons #getconnected:hover{
+        opacity:.9;
+
+    }
+     #buttons #inight{
+        background-image:url('Images/student-support/volunteers/spirit-conference-sprite4.png');
+        background-position:0 687px;
+    }
+    #buttons #inight:hover{
+        opacity:.9;
+
+    }
+     #buttons #meetcouncil{
+        background-image:url('Images/student-support/volunteers/spirit-conference-sprite4.png');
+        background-position:0 814px;
+    }
+    #buttons #meetcouncil:hover{
+        opacity:.9;
+
+    }
+    .content{
+        float:left;
+        width:540px;
+    }
+    #header{
+        background-image:url('Images/student-support/volunteers/spiritconference.png');
+        background-repeat:no-repeat;
+        height:250px;
+        width:710px;
+    }
+    .content h1{
+        color:#056FBD;
+        font-family:sans-serif;
+    }
+    table{
+        margin-top:30px;
+    }
+    #page #content table{
+        width: 553.8px;
+        font-size: 13px; border-color: #dcdcdc; 
+        border-width: .01px; border-style: solid;
+    }
+    #page #content table #top{
+        text-align: left; padding: 5px 10px 10px 10px; 
+        font-weight: bold; color: black;    
+        background-color
+        background-image: url('Images/student-support/Get Connected/spring.jpg'); background-size: 100% 100%;}
+    #page #content table span{float: right;}
+    #page #content table td{border-color: #dcdcdc; border-width: .01px; border-left-style: solid;  color: black;}
+    .color #time, .color #event, .color #place{background-color: #ced364;}
+    .color:hover #time, .color:hover #event, .color:hover #place{background-color: #c8cd50;}
+    #page #content table #cap{width: 100%;}
+    #page #content table #time{width: 100px; padding: 10px 5px 5px 5px; border-style: none;}
+    #page #content table #event{padding: 10px; line-height: 15px;}
+    #page #content table #place{width: 150px; padding: 10px; line-height:15px; text-align: right;}
+--></style>
+<div class="content">
+<p id="header">&nbsp;</p>
+<h1>Get Connected Schedule</h1>
+<p>Get Connected will be held on Friday, April 18, and Saturday, April 19, 2014. I-Night will be held on Tuesday, April 22. <a href="http://www.byui.edu/get-connected/get-connected-schedules/spring-schedule">Click here to view the 2014 Spring Get Connected Schedule.</a></p>
+</div>
+<div id="buttons"><a href="../../student-support/current-volunteers/spirit-conference/menus" id="menu"></a><a href="../../student-support/current-volunteers/spirit-conference/leadership-learning" id="leadership">&nbsp;</a> <a href="../../student-support/current-volunteers/spirit-conference/spirit-conference-schedule" id="spiritschedule"></a><a href="../../student-support/current-volunteers/spirit-conference/get-connected-schedule" id="getconnected"></a><a href="../../student-support/current-volunteers/spirit-conference/i-night-volunteer" id="inight"></a><a href="../../student-support/current-volunteers/spirit-conference/get-connected-council" id="meetcouncil"></a></div>
+<p>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33977325-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x19075" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

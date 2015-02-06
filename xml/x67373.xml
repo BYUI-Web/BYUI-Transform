@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<CommonPage ID="x67373" Name="Get a logo" Layout="default.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Get a logo
+</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Get a logo</Abstract><xPower Type="GroupStart" GroupStart="" Name="ImageColumn" label="Image Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveRight type="boolean" hidden="true" label="Toggle column left or right (left is default)" readonly="false" required="false">false</MoveRight><xPower Type="List" List="xpowercomponent_ImageComponent" Name="ImageColumnComponentList" label="Images" readonly="false" hidden="false" required="false" Component="" CompTypes="LeftColumnImageComponent" Expanded="false"><xPower Type="Component" Component="" Name="ImageComponent" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent" Expanded="false"/></xPower><xPower Type="List" List="xpowercomponent_TextComponent" Name="TextColumnComponentList" label="Text Box" readonly="false" hidden="false" required="false" Component="" CompTypes="ColumnTextComponent" Expanded="false"><xPower Type="Component" Component="" Name="TextComponent" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent" Expanded="false"/></xPower></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p><strong>Get A Logo</strong></p>
+<br />
+<p>All <a href="http://www.byui.edu/identity/glossary.htm" title="See glossary definition">communication pieces</a> need to have a <a href="http://www.byui.edu/identity/glossary.htm#Logo" title="See glossary definition"> logo </a>as seen below,  						which identifies the sponsoring office, college or program.  						Unless otherwise determined by the <a href="http://www.byui.edu/identity/glossary.htm#communicationCouncil">Communication Council</a>, a <a href="http://www.byui.edu/identity/glossary.htm#Logo" title="See glossary definition"> logo </a>should be used on all <a href="http://www.byui.edu/identity/glossary.htm" title="See glossary definition">communication pieces</a>.</p>
+<br /> <img alt="Poster Example" src="http://www.byui.edu/identity/logo/images/posterCallout.jpg" /> <br /> <br />
+<p><strong>To download the appropriate logo:</strong></p>
+<p>Begin typing the department, college or office your  communication piece is associated with in the box below.  If you don't  see your department, college or office, please  						contact <a href="mailto:ucidentity@byui.edu">ucidentity@byui.edu</a> to request a logo.</p>
+<br /> <input id="findLogoSignatures" type="text" /> &nbsp; 						<button onclick="downloadFile()">Submit</button>
+<script type="text/javascript">
+								var obj = actb(document.getElementById('findLogoSignatures'),signaturesArray);
+								//setTimeout(function(){obj.actb_keywords = custom2;},10000);
+</script>
+<script type="text/javascript">
+							
+									function downloadFile() {
+										var area = document.getElementById('findLogoSignatures').value; 
+										
+										var  result = area + "<a href=\"logo/" + area + ".zip\"><img style=\"margin-left:10px;\" src=\"images/DownloadBtn.jpg\" /></a>";
+
+										document.getElementById('result').innerHTML = result;
+
+									}
+</script>
+<br />
+<h3 id="result">&nbsp;
+<p>&nbsp;</p>
+<br />
+<p>When you open your downloaded file, you will see four approved logos for your department,  						college or office. The most common <a href="http://www.byui.edu/identity/glossary.htm#Logo" title="See glossary definition"> logo </a>used for posters is the White Horizontal Logo.  						Be aware that the White Horizontal Logos appear blank until applied to a dark background.</p>
+<br /> <img alt="Examples of Approved Logos" src="http://www.byui.edu/identity/logo/images/Composite.jpg" /> <br /><br /> &nbsp;
+<p><strong>Looking For These?</strong></p>
+<br /> <img alt="Official Color Logo" src="http://www.byui.edu/identity/logo/images/logotypes.jpg" /> &nbsp;
+<p>The use of these logos is determined by University Communications.  						Please direct any questions regarding the use of these logos to <a href="mailto:ucidentity@byui.edu">ucidentity@byui.edu</a></p>
+<br /> <img alt="Mug Example" src="http://www.byui.edu/identity/logo/images/mug.jpg" /> <img alt="Pen Example" src="http://www.byui.edu/identity/logo/images/pen.jpg" /> <img alt="Polo Example" src="http://www.byui.edu/identity/logo/images/polo.jpg" /> <img alt="Polo Example" src="http://www.byui.edu/identity/logo/images/tshirt.jpg" /> &nbsp; 						 						 						 						 						 						 						 						                                                                                                    	Questions? Send us an e-mail: <a href="mailto:ucidentity@byui.edu">ucidentity@byui.edu</a></h3>]]></BodyCopy><xPower Type="Component" Component="" Name="RelatedLinks" label="Related Links" readonly="false" hidden="false" required="false" CompTypes="RelatedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="false" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x4147" Name="SiteControl" label="Site Control" readonly="true" hidden="true" required="false" CompTypes="SiteControl" Expanded="false"/></CommonPage>

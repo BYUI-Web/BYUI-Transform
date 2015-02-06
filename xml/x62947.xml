@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content ID="x62947" Name="What Do I Pay?" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">What Do I Pay?</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">What you pay for Student Health Insurance - BYU-Idaho Student Health Center</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<link href="Documents/health-center/topper.css" rel="stylesheet" />
+<link href="Documents/health-center/layout.css" rel="stylesheet" />
+<style><!--
+   body #content_zone .titlehead {
+      border-bottom: solid thin #31859C;
+   }
+
+   body #content_zone #frame .icons {
+      background-position: -300px -300px;
+   }
+
+   body #content_zone .comment {    
+      color: #31859C;
+      font-weight: bold;
+   }
+
+   body #content_zone #setwidth {
+      width: 73%;
+   }
+--></style>
+<div id="content_zone">
+<div id="topper">
+<div class="titlehead">What Do I Pay?</div>
+<div id="frame">
+<div class="icons"></div>
+<div class="shadow"></div>
+</div>
+</div>
+<div id="faceof"><img alt="Deseret Mutual Logo" height="156" id="logo" src="Images/health-center/deseret(0).png" width="170" /> <br />Co. DMBA</div>
+<div class="clear" id="setwidth">
+<table id="premiums" style="color: #555555;">
+<tbody>
+<tr class="tableheader">
+<td class="studenttype"><br /></td>
+<td colspan="2">Regular On-Campus &amp; Away-From-Campus Coverage</td>
+<td class="column">Extended Coverage</td>
+</tr>
+<tr>
+<td class="studenttype" rowspan="3">Single Student Only</td>
+<td>Semester</td>
+<td>$270</td>
+<td class="column" rowspan="3">$650 per month</td>
+</tr>
+<tr>
+<td>Block</td>
+<td>$135</td>
+</tr>
+<tr>
+<td>Summer Session</td>
+<td>$90</td>
+</tr>
+<tr class="stripe">
+<td class="studenttype" rowspan="3">Single Student Plus <br />Dependent(s)</td>
+<td>Semester</td>
+<td>$757</td>
+<td class="column" rowspan="3">$991 per month</td>
+</tr>
+<tr class="stripe">
+<td>Block</td>
+<td>$379</td>
+</tr>
+<tr class="stripe">
+<td>Summer Session</td>
+<td>$253</td>
+</tr>
+<tr>
+<td class="studenttype" rowspan="3">Married Student Only</td>
+<td>Semester</td>
+<td>$318</td>
+<td class="column" rowspan="3">$650 per month</td>
+</tr>
+<tr>
+<td>Block</td>
+<td>$159</td>
+</tr>
+<tr>
+<td>Summer Session</td>
+<td>$106</td>
+</tr>
+<tr class="stripe">
+<td class="studenttype" rowspan="3">Married Student Plus Dependent(s)</td>
+<td>Semester</td>
+<td>$1,085</td>
+<td class="column" rowspan="3">$991 per month</td>
+</tr>
+<tr class="stripe">
+<td>Block</td>
+<td>$543</td>
+</tr>
+<tr class="stripe">
+<td>Summer Session</td>
+<td>$362</td>
+</tr>
+</tbody>
+</table>
+<h4>Services at the Student Health Center</h4>
+<table id="premiums" style="color: #555555;">
+<tbody>
+<tr class="tableheader">
+<td>Office Visit Fee</td>
+<td>Plan Pays After Office Visit Fee (for Covered Services)</td>
+<td>You Pay After Office Visit Fee (for Covered Services)</td>
+</tr>
+<tr>
+<td>$10</td>
+<td>80%</td>
+<td>20%</td>
+</tr>
+</tbody>
+</table>
+<h4>Copayments Outside the Student Health Center</h4>
+<table id="premiums" style="color: #555555;">
+<tbody>
+<tr class="tableheader">
+<td>Physician Services, Outpatient Care, and Urgent Care</td>
+<td>Hospital Emergency Room</td>
+<td>Hospital Admission</td>
+</tr>
+<tr>
+<td>$25</td>
+<td>$50</td>
+<td>$300</td>
+</tr>
+</tbody>
+</table>
+<h4>Plan Benefits Outside the Student Health Center*</h4>
+<table id="premiums" style="color: #555555;">
+<tbody>
+<tr class="tableheader">
+<td></td>
+<td>Plan Pays After Copayment (Where Applicable)</td>
+<td>You Pay After Copayment (Where Applicable)</td>
+</tr>
+<tr>
+<td class="type">Contracted Providers</td>
+<td>80%</td>
+<td>20%</td>
+</tr>
+<tr>
+<td class="type">Non-Contracted Providers</td>
+<td>50%</td>
+<td>50%</td>
+</tr>
+</tbody>
+</table>
+<p>*For most covered services.&nbsp; For full details see the <a href="http://www.dmba.com/nsc/Student/Handbooks.aspx">Student Health Plan Handbook</a>.</p>
+<h4>Deductible</h4>
+<p>If you are married, you must pay a $750 deductible per person each year before the plan pays benefits.&nbsp; Non-student spouses must also pay a $4,750 deductible for maternity care.</p>
+<h4>Preventative Services</h4>
+<p>When you see a contracted provider, preventative services covered by the student health plan are offered at no cost to you.&nbsp; For a list of covered preventative services or for more information, please see the <a href="http://www.dmba.com/nsc/Student/Handbooks.aspx">Student Health Plan Handbook</a>.</p>
+<div id="safeharbor">
+<p><strong>NOTICE TO PLAN PARTICIPANTS </strong></p>
+<p><em>The organization that sponsors your group health plan has certified that it qualifies for a temporary enforcement safe harbor with respect to the Federal requirement to cover contraceptive services without cost sharing. During this one-year period, coverage under your group health plan will not include coverage of contraceptive services.</em></p>
+</div>
+</div>
+<iframe frameborder="0" id="footer" scrolling="no" src="http://www.byui.edu/Documents/health-center/footer.html"></iframe></div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x28441" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

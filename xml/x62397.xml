@@ -1,0 +1,226 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x62397" Name="Changes" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Financial Aid Changes</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Changes, Announcements, Updates, Important</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<script language="javascript" type="text/javascript">
+var fa_slideSpeed = 15;	// Higher value = faster
+var fa_timer = 2;	// Lower value = faster
+
+var objectIdToSlideDown = false;
+var fa_activeId = false;
+var fa_slideInProgress = false;
+var fa_slideInProgress = false;
+var fa_expandMultiple = false; // true if you want to be able to have multiple items expanded at the same time.
+
+function showHideContent(e,inputId)
+{
+	if(fa_slideInProgress)return;
+	fa_slideInProgress = true;
+	if(!inputId)inputId = this.id;
+	inputId = inputId + '';
+	var numericId = inputId.replace(/[^0-9]/g,'');
+	var answerDiv = document.getElementById('fa_a' + numericId);
+
+	objectIdToSlideDown = false;
+
+	if(!answerDiv.style.display || answerDiv.style.display=='none'){
+		if(fa_activeId &&  fa_activeId!=numericId && !fa_expandMultiple){
+			objectIdToSlideDown = numericId;
+			slideContent(fa_activeId,(fa_slideSpeed*-1));
+		}else{
+
+			answerDiv.style.display='block';
+			answerDiv.style.visibility = 'visible';
+
+			slideContent(numericId,fa_slideSpeed);
+		}
+	}else{
+		slideContent(numericId,(fa_slideSpeed*-1));
+		fa_activeId = false;
+	}
+}
+
+function slideContent(inputId,direction)
+{
+
+	var obj =document.getElementById('fa_a' + inputId);
+	var contentObj = document.getElementById('fa_ac' + inputId);
+	height = obj.clientHeight;
+	if(height==0)height = obj.offsetHeight;
+	height = height + direction;
+	rerunFunction = true;
+	if(height>contentObj.offsetHeight){
+		height = contentObj.offsetHeight;
+		rerunFunction = false;
+	}
+	if(height<=1){
+		height = 1;
+		rerunFunction = false;
+	}
+
+	obj.style.height = height + 'px';
+	var topPos = height - contentObj.offsetHeight;
+	if(topPos>0)topPos=0;
+	contentObj.style.top = topPos + 'px';
+	if(rerunFunction){
+		setTimeout('slideContent(' + inputId + ',' + direction + ')',fa_timer);
+	}else{
+		if(height<=1){
+			obj.style.display='none';
+			if(objectIdToSlideDown && objectIdToSlideDown!=inputId){
+				document.getElementById('fa_a' + objectIdToSlideDown).style.display='block';
+				document.getElementById('fa_a' + objectIdToSlideDown).style.visibility='visible';
+				slideContent(objectIdToSlideDown,fa_slideSpeed);
+			}else{
+				fa_slideInProgress = false;
+			}
+		}else{
+			fa_activeId = inputId;
+			fa_slideInProgress = false;
+		}
+	}
+}
+
+
+
+function initShowHideDivs()
+{
+	var divs = document.getElementsByTagName('DIV');
+	var divCounter = 1;
+	for(var no=0;no<divs.length;no++){
+		if(divs[no].className=='fa_question'){
+			divs[no].onclick = showHideContent;
+			divs[no].id = 'fa_q'+divCounter;
+			var answer = divs[no].nextSibling;
+			while(answer && answer.tagName!='DIV'){
+				answer = answer.nextSibling;
+			}
+			answer.id = 'fa_a'+divCounter;
+			contentDiv = answer.getElementsByTagName('DIV')[0];
+			contentDiv.style.top = 0 - contentDiv.offsetHeight + 'px';
+			contentDiv.className='fa_answer_content';
+			contentDiv.id = 'fa_ac' + divCounter;
+			answer.style.display='none';
+			answer.style.height='1px';
+			divCounter++;
+		}
+	}
+}
+window.onload = initShowHideDivs;
+</script>
+<style type="text/css"><!--
+/* CSS styles for the Show/Hide functionality. */
+
+.fa_question{
+        overflow:hidden;
+	cursor:pointer;
+        background-color: #f0f0f0;
+        color: #666;
+        padding: 10px;
+        border: 1px solid #000;
+        -webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+}
+.fa_question:hover{
+        background-color: #fcc35a;
+}
+.fa_answer{
+        visibility:hidden;
+	height:0px;
+	overflow:hidden;
+	position:relative;
+}
+.fa_answer_content{	/* Content that is slided down */
+        margin-top: 10px;
+	padding:1px;
+	font-size:1em;
+	position:relative;
+}
+
+.h1 {font-family: futura, arial, sans-serif; font-size: 2em; color: #000}
+.h2 {font-family: futura, arial, sans-serif; font-size: 1.75em; color: #000;}
+.h3 {font-family: futura, arial, sans-serif; font-size: 1.5em; color: #000;}
+.h4 {font-family: futura, arial, sans-serif; font-size: 1.3em; margin-left: 15px;}
+
+ul {margin-left:15px;}
+
+
+#page_title{
+     display: none;
+}
+#table_futura th{
+     color:#F8F8F8;
+     background-color: #333;   
+     font-family: futura, arial, sans-serif;
+     font-size: medium;
+     font-weight: normal;
+}
+#table_futura ul{
+     margin-left: 5px; color: #000;
+}
+
+.tableTitle{
+     font-size: 1.2em;
+     margin-bottom:10px;
+     color: #000;
+}
+.caption{
+     font-size: .8em;
+}
+--></style>
+<br /><span style="font-size: 2.0em; font-family: futura, arial, sans-serif;">Important Changes to Student Financial Aid</span><br /><br />
+<p>These are items of importance for updates and changes within the BYU-Idaho Student Financial Aid Office. Use this page as an opportunity for quick information and a bridge to our current site. Click on a box below to display more information for each "changes" section.</p>
+<div class="fa_question"><span class="h2">Changes to BYU-Idaho Scholarships</span><br /><small>All changes listed will take effect with the start of the 2013 - 2014 Academic Year, <strong>that begins with the Fall 2013</strong> semester. Talent and Leadership Scholarships are excluded from these changes and will follow their policies previously established.</small></div>
+<div class="fa_answer">
+<div>
+<p>To learn more about the changes regarding academic scholarships for INCOMING FRESHMEN <a href="http://www.byui.edu/financial-aid/new-freshmen/scholarships">click here</a>.</p>
+<p>To learn more about the changes regarding academic scholarships for TRANSFER STUDENTS <a href="http://www.byui.edu/financial-aid/transfer-students/scholarships">click here</a>.</p>
+<p>To learn more about the changes regarding academic scholarships for CONTINUING STUDENTS <a href="http://www.byui.edu/financial-aid/continuing-students/scholarships">click here</a>.</p>
+</div>
+</div>
+<div id="content_section"><br />
+<div class="fa_question"><span class="h2">1. The BYU-Idaho Scholarship Application <small>(Heber J. Grant)</small><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;will be required for <span style="text-decoration: underline;">ALL</span> University Scholarships</span></div>
+<br />
+<div class="fa_answer">
+<div>
+<ul>
+<ul>
+<li>This includes BYU-Idaho Academic Scholarships - Students will <span style="text-decoration: underline;">NO LONGER</span> be automatically considered.</li>
+</ul>
+</ul>
+<br />
+<ul>
+<ul>
+<li>This new policy applies to <span style="text-decoration: underline;">ALL INCOMING FRESHMEN</span>, <span style="text-decoration: underline;">CONTINUING STUDENTS</span>, and <span style="text-decoration: underline;">TRANSFER STUDENTS</span>.</li>
+</ul>
+</ul>
+<br />
+<ul>
+<li>The BYU-Idaho Scholarship Application will open on November 1, 2012</li>
+</ul>
+</div>
+</div>
+<br />
+<div class="fa_question"><span class="h2">2. Academic Scholarship GPA requirements will change</span>
+<table cellpadding="0" cellspacing="0" id="table_futura" style="width: 500px; font-family: Arial; margin-left: 75px; margin-top: 15px; margin-bottom: -2px;">
+<tbody>
+<tr><th>Cumulative Credit Levels</th><th>Cumulative GPA &amp; Award Levels</th></tr>
+<tr>
+<td><strong>Sophomores, Juniors, Seniors</strong></td>
+<td><strong>3.950 - 4.000-----Full LDS Tuition<br /><br />3.900 - 3.949-----Half LDS Tuition<br /><br />3.750 - 3.899-----Quarter LDS Tuition</strong></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small><em>*Students must have between 28 and 129 total earned credits for these GPA lines to apply.<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**These GPA lines do not apply to incoming freshmen.</em></small></p>
+</div>
+<div class="fa_answer">
+<div>
+<ul>
+<li>Academic scholarships for continuing students <span style="text-decoration: underline;">(sophomores, juniors and seniors)*</span> will have one set of criteria and the GPA requirements are displayed in the table above.</li>
+<li>Academic scholarships for <strong><span style="text-decoration: underline;">freshmen</span></strong> will be based on high school GPA and ACT/SAT scores</li>
+</ul>
+</div>
+</div>
+<br /> <iframe frameborder="0" height="360" scrolling="auto" src="http://www.youtube.com/embed/Zxn07K6Rq5Q?rel=0" width="640"></iframe><br /><br />
+<p>To learn more about the changes regarding academic scholarships for INCOMING FRESHMEN <a href="http://www.byui.edu/financial-aid/new-freshmen/scholarships">click here</a>.</p>
+<p>To learn more about the changes regarding academic scholarships for TRANSFER STUDENTS <a href="http://www.byui.edu/financial-aid/transfer-students/scholarships">click here</a>.</p>
+<p>To learn more about the changes regarding academic scholarships for CONTINUING STUDENTS <a href="http://www.byui.edu/financial-aid/continuing-students/scholarships">click here</a>.</p>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="x18466" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x18206" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

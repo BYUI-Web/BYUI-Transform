@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.111 - http://www.ingeniux.com ***-->
+<Content ID="x21932" Name="Courses" Layout="byuidefault.xsl" IsComponent="false">
+	<Title type="string" label="Title" readonly="false" hidden="false" required="true">Courses</Title>
+	<Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">BYU-Idaho Online Courses Homepage</Abstract>
+	<xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false">
+		<BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/>
+		<MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/>
+		<NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow>
+		<NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex>
+		<NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP>
+		<Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority>
+	</xPower>
+	<xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true">
+		<HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle>
+		<Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation>
+	</xPower>
+	<BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height="">
+		<![CDATA[<p>[x89395]</p>
+<div id="mainContainer">
+<div class="header"><img alt="five things you need to know about online learning" height="110" src="Images/Admin_Offices/Online%20Learning/Courses/Courses%20Beta/OC-header.jpg" width="710" /></div>
+<div class="subContainer">
+<div class="header"><img src="Images/Admin_Offices/Online%20Learning/Courses/1.jpg" /><br /> <img src="Images/Admin_Offices/Online%20Learning/Courses/OurApproach_new.jpg" /><br /> <span class="subTitle">Our approach to online learning is the same as our approach to face-to-face courses. These are BYU-Idaho courses delivered online.</span><br /><br /><span class="subTitle">Online programs vary dramatically. It is important to understand that online learning is a delivery method not an ideology.</span><img src="Images/Admin_Offices/Online%20Learning/Courses/Courses%20Beta/Spectrum.jpg" /></div>
+<div class="leftColumn">
+<div class="content">
+<h1>Dedicated Faculty</h1>
+<p>BYU-Idaho&rsquo;s commitment to excellent faculty continues online. Each online course features a dedicated instructor to help you succeed.</p>
+</div>
+<div class="videoContent">[x88617]</div>
+</div>
+<div class="rightColumn">
+<div class="content">
+<h1>Same Learning Outcomes</h1>
+<p>Online courses have the same learning outcomes as campus courses. In fact the same faculty that created the campus course created the online version.</p>
+</div>
+<div class="content">
+<h1>Learning Model</h1>
+<p>Online courses leverage the power of the learning model to help students take ownership of their own education and facilitate lifelong learning.</p>
+</div>
+<div class="content">
+<h1>Meaningful Interactions</h1>
+<p>You will interact with your instructors and classmates throughout your course. Watch this video about <a href="http://www.byui.edu/online/videos/deep-learning" target="_blank">deep learning</a> in online courses.</p>
+</div>
+</div>
+</div>
+<div class="subContainer">
+<div class="header"><img src="Images/Admin_Offices/Online%20Learning/Courses/2.jpg" /><br /> <img src="Images/Admin_Offices/Online%20Learning/Courses/TechnologyEducation_new.jpg" /><br /> <span class="subTitle">Learning online prepares students for the mixed-media, tech-savvy world they will enter after graduation.</span></div>
+<div class="leftColumn">
+<div class="content">
+<h1>Be More Successful</h1>
+<p>Knowing how to learn effectively online and use technology is critical in today's workplace. Students who take online courses are better prepared to live in a world that is based on technology.</p>
+</div>
+<div class="content">
+<h1>Digital Future</h1>
+<p>BYU-Idaho is bringing technology to bear on education in a far more pervasive and powerful way than ever before, both in the classroom and in the creation of online courses. Online learning elevates the entire educational experience.</p>
+</div>
+</div>
+<div class="rightColumn">
+<div class="content">
+<h1>Rich Immersive Interface</h1>
+<p>Course content is continually updated to harness the power of technology through interactive course design, graphics, video, and more.</p>
+</div>
+<div class="content"><img src="Images/Admin_Offices/Online%20Learning/Courses/Anatomy.jpg" /></div>
+</div>
+</div>
+<div class="subContainer">
+<div class="header"><img src="Images/Admin_Offices/Online%20Learning/Courses/3.jpg" /><br /> <img src="Images/Admin_Offices/Online%20Learning/Courses/MoreOptions_new.jpg" /><br /> <span class="subTitle">Online learning enables students from around the world to access a BYU-Idaho education online.</span></div>
+<div class="leftColumn">
+<div class="content">
+<h1>Over 140 Online Courses</h1>
+<p>More courses are offered online each semester, including a growing number of block and summer session courses. View the <a href="http://www.byui.edu/online/courses/course-list">course list</a>.</p>
+</div>
+<div class="content">
+<h1>Online Degrees</h1>
+<p>Earn a BYU-Idaho degree online! BYU-Idaho offers both associate and bachelor's degrees online. <a href="http://www.byui.edu/online/online-degrees-and-certificates">Learn more</a>.</p>
+</div>
+</div>
+<div class="rightColumn">
+<div class="content">
+<h1>Concurrent Enrollment</h1>
+<p>High School juniors and seniors can begin their BYU-Idaho education online at a significantly lower cost while still in high school. <a href="http://www.byui.edu/online/concurrent-enrollment">Learn more</a>.</p>
+</div>
+<div class="content">
+<h1>Institute Hybrid Courses</h1>
+<p>Blend the benefits of online learning with face-to-face courses through BYU-Idaho&rsquo;s <a href="http://www.byui.edu/online/courses/institute-hybrid-courses">Institute Hybrid Courses</a>.</p>
+</div>
+</div>
+</div>
+<div class="subContainer">
+<div class="header"><img src="Images/Admin_Offices/Online%20Learning/Courses/4.jpg" /><br /> <img src="Images/Admin_Offices/Online%20Learning/Courses/DistinctPerspective_new.jpg" /><br /> <span class="subTitle">Online courses include the distinct perspectives of students who study from around the world, providing an expansive experience not commonly found on campus.</span></div>
+<div class="leftColumn">
+<div class="content">
+<h1>Over 900 International Students</h1>
+<p>Students from around the world use online courses through the <a href="x33932.xml">Online Degree Program</a>.</p>
+</div>
+<div class="content">
+<h1>More than 6,800 Online Students</h1>
+<p>During spring semester, there were 6,852 students in an online program at BYU-Idaho.</p>
+</div>
+</div>
+<div class="rightColumn">
+<div class="content">
+<h1>Over 11,600 BYU-Idaho Students Take Online Courses</h1>
+<p>Many campus students enroll in online courses, which compliment campus courses and prepares students to thrive in a technologically based world.</p>
+</div>
+</div>
+</div>
+<div class="subContainer">
+<div class="header"><img src="Images/Admin_Offices/Online%20Learning/Courses/5.jpg" /><br /> <img src="Images/Admin_Offices/Online%20Learning/Courses/SetCorrectExpectations_new.jpg" /><br /> <span class="subTitle">Before taking an online course, it is important to know what to expect. Online courses are more flexible, but they are not easier than face-to-face courses.</span></div>
+<div class="leftColumn">
+<div class="content">
+<h1>Be Prepared</h1>
+<p>Watch this video to better understand how an online class at BYU-Idaho works.</p>
+</div>
+<div class="videoContent">[x88624]</div>
+</div>
+<div class="rightColumn">
+<div class="content">
+<h1>Semester Based</h1>
+<p>Online courses are semester based, which means that you can easily add them to your schedule.</p>
+</div>
+<div class="content">
+<h1>Regular Due Dates</h1>
+<p>These are not self-paced courses. You will have regular due dates and class interactions each week.</p>
+</div>
+<div class="content">
+<h1>Available To all Students</h1>
+<p>Any admitted BYU-Idaho student can take an online course, regardless of student type or track assignment.</p>
+<p>[x89523]</p>
+</div>
+</div>
+</div>
+</div>]]></BodyCopy>
+	<xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="">
+		<xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote">
+			<xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/>
+		</xPower>
+		<xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/>
+		<xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/>
+		<xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/>
+	</xPower>
+	<xPower Type="Component" Component="x91889" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/>
+	<xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="true" Component="" CompTypes="ContentSnippet">
+		<xPower Type="Component" Component="x89395" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x88617" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x88624" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/><xPower Type="Component" Component="x89523" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower>
+	<xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/>
+	<xPower Type="Component" Component="x17147" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/>
+</Content>

@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content ID="x44187" Name="Tutorials" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Tutorials</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Tutorials</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p>Welcome to the ATS Tutorial Website. &nbsp;The following tutorials are available to help you get started with campus technologies. If you need help, please contact the Faculty Technology Center at (208) 496-7230.</p>
+<table border="0" style="width: 625px; height: 296px;">
+<tbody>
+<tr>
+<td><img height="75" src="Images/academic-technology-services/FTC/Adobe%20Connect%20Logo.png" width="75" /></td>
+<td><a href="x44358.xml">Adobe Connect</a></td>
+<td>A web conferencing tool used as a substitute for classroom meetings and office appointments in online classes.</td>
+</tr>
+<tr>
+<td><img height="62" src="Images/academic-technology-services/FTC/box.com%20logo.png" width="75" /></td>
+<td><a href="x44628.xml">Box.com</a></td>
+<td>A content management system which allows instructors to add, collaborate, and manage files.</td>
+</tr>
+<tr>
+<td><img height="36" src="Images/academic-technology-services/FTC/EQUELLA%20logo%20Master.png" width="75" /></td>
+<td><a href="x51014.xml">Equella</a></td>
+<td>A content management system which allows instructors to add, collaborate, and manage files.</td>
+</tr>
+<tr>
+<td><img height="75" src="Images/academic-technology-services/FTC/I-Learn%20Support%20Icon2%20small%20.png" width="75" /></td>
+<td><a href="x44354.xml">I-Learn</a></td>
+<td>Learning management system with many useful features like a gradebook, group organization, and outcome tracking.</td>
+</tr>
+<tr>
+<td><img height="66" src="Images/academic-technology-services/FTC/IClicker%20logo.png" width="75" /></td>
+<td><a href="x44355.xml">I&gt;Clickers</a></td>
+<td>A classroom polling system that allows teachers to interact with students and receive live feedback from the class as a whole.&nbsp;</td>
+</tr>
+<tr>
+<td><img height="75" src="Images/academic-technology-services/FTC/myBYUI.png" width="75" /></td>
+<td><a href="x44348.xml">my.byui.edu</a></td>
+<td>A tool created to help complete basic, necessary tasks needed as student or faculty.</td>
+</tr>
+<tr>
+<td><img height="75" src="Images/academic-technology-services/FTC/Phone%20logo.png" width="75" /></td>
+<td><a href="http://www2.byui.edu/VOIP/">Phones</a></td>
+<td>A guide for working with the Cisco phones provided by the University.</td>
+</tr>
+<tr>
+<td><img height="42" src="Images/academic-technology-services/FTC/SwankMotionPictures.png" width="75" /></td>
+<td><a href="x44353.xml">Swank</a></td>
+<td>A repository of educational films and videos.</td>
+</tr>
+<tr>
+<td><img height="75" src="Images/academic-technology-services/FTC/toolbox.png" width="75" /></td>
+<td><a href="x44352.xml">Toolbox</a></td>
+<td>An array of useful software and websites outside of school provided tools.</td>
+</tr>
+<tr>
+<td><img height="75" src="Images/academic-technology-services/FTC/wireless%20printing%20icon.png" width="75" /></td>
+<td><a href="x45997.xml">Wireless Printing</a><a href="x44352.xml"> </a></td>
+<td>Tutorials on how to connect personal computers to the wireless printers at the University.</td>
+</tr>
+<tr>
+<td><img height="75" src="Images/academic-technology-services/FTC/Other%20Icon.png" width="75" /></td>
+<td><a href="x44615.xml">Other Tutorials</a> <a href="x44352.xml"></a></td>
+<td>Includes miscellaneous tutorials for programs like: Audacity, Google Docs, Microsoft Office suite, Skype, and general computer use.</td>
+</tr>
+</tbody>
+</table>
+<p>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39301324-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x15119" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

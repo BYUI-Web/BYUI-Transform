@@ -1,0 +1,221 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.82 - http://www.ingeniux.com ***-->
+<PolicyPage ID="x62405" Name="Financial Aid Determination Date" Layout="general_Policy.xsl"><Title type="string" label="Policy Title" readonly="false" hidden="false" required="true">Financial Aid Determination Date</Title><Abstract type="string" label="Policy Abstract" readonly="false" hidden="false" required="true">Schools who disburse Federal Aid are required to evaluate students once a semester to confirm that their federal aid was disbursed correctly. This date is referred to as the Financial Aid Determination Date (FADD).</Abstract><Date type="date" label="Revision Date" readonly="false" hidden="false" required="true" display="localdateshort" UTC="true">20120227T19:00:00</Date><BodyCopy type="dhtml" label="Policy" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+/* General Styles for Body Elements */
+a {
+font-family: Arial; 
+}
+
+/* Styles for DATE_CONTAINER */
+#date_container {
+margin: 5px;
+height:250 px; 
+padding: 10px;
+float: right;
+width:280px; 
+border: 1px solid #e6e6e6; 
+box-shadow: 0 0 15px #f0f0f0; 
+background: #fafafa;
+color: black;
+font-family:Arial;
+}
+#date_container h1 {
+margin:0;
+padding:0;
+font-size:16px;
+font-family:Arial;
+}
+#date_container p {
+margin:0;
+padding:0;
+font-family:Arial;
+}
+#date_container small {
+color:rgb(110,110,110);
+font-weight:bold;
+}
+#date_container hr {
+margin-bottom:10px;
+}
+ul.date_list {
+margin:2px 0 5pz 0;
+padding:2px;
+height:35px;
+}
+ul.date_list li {
+margin:0;
+padding:2px 5px;
+list-style-type:none;
+}
+li.label {
+font-family:Arial;
+font-size:12px;
+padding-right:8px;
+float:left;
+text-align:right;
+width:90px;
+border-right:1px solid rgb(200,200,200);
+}
+li.date{
+float:left;
+padding-left:10px;
+font-family:Arial;
+font-size:14px;
+font-weight:bold;
+color:rgb(230,90,30);
+text-align:left;
+width:125px;
+}
+
+/* CSS styles for the FOOTER Contact information */
+#contact{
+display:inline-block;
+padding: 0 5px;
+margin: 0 0 10px 0;
+width: 100%; 
+height: 100px;
+}
+#contact h1{
+font-family:Arial;
+font-size:12px;
+font-weight:bold;
+margin:0 0 4px 0;
+padding:0;
+color:rgb(70,70,70);
+}
+#contact p {
+font-family:Arial;
+font-size:10px;
+margin:0;
+padding:0;
+}
+#contact_hr {
+margin-bottom:10px;
+}
+.left {
+float:left;
+margin:0 5px 0 0;
+padding:0;
+}
+.office_hours {
+margin: 0; 
+padding: 0; 
+width: 140px; 
+height: 100px; 
+float: left;
+}
+.middle {
+margin: 0; 
+padding: 0 5px 5px 5px; 
+width: 200px; 
+height: 50px; 
+float: left;
+}
+.phone {
+margin: 0; 
+padding: 0 5px 5px 5px; 
+width: 150px; 
+height: 50px; 
+float: left;
+}
+--></style>
+<div id="date_container">
+<h1>Financial Aid Determination Dates</h1>
+<p><small>Full semester and First block FADD</small></p>
+<ul class="date_list">
+<li class="label">2012 Fall</li>
+<li class="date">Oct. 2, 2012</li>
+<li class="label">2013 Winter</li>
+<li class="date">Jan. 29, 2013</li>
+<li class="label">2013 Spring</li>
+<li class="date">May 14, 2013</li>
+</ul>
+<br />
+<hr />
+<p><small>Second block FADD</small></p>
+<ul class="date_list">
+<li class="label">2012 Fall</li>
+<li class="date">Nov. 9, 2013</li>
+<li class="label">2013 Winter</li>
+<li class="date">Mar. 12, 2013</li>
+<li class="label">2013 Spring</li>
+<li class="date">June 21, 2013</li>
+</ul>
+</div>
+<!--End of #date_container-->
+<p>Schools who disburse Federal Aid are required to evaluate students once a semester to confirm that their federal aid was disbursed correctly. This date is referred to as the <strong>Financial Aid Determination Date (FADD)</strong>. Additionally, BYU-Idaho uses this date to confirm if University Aid and other awards were disbursed correctly. This date is established each semester to determine if students have reached the required amount credits for their disbursed awards.</p>
+<p>Financial aid awards are posted and disbursed based on the number of credit hours a student is enrolled. Certain awards require enrolling in a certain amount of credit hours to qualify (University Scholarships &ndash; 14 credits | University Grants &ndash; 12 credits). Pell Grants can be awarded for as little as half a credit hour. To be awarded a full Pell Award requires 12 credits. Loans require a minimum of 6 credits.</p>
+<p>Grants and scholarships are based on the number of credits a student is registered for as of the semester&rsquo;s FADD. The Financial Aid Office takes a "snapshot" of the classes a student is enrolled in as of that date. For example: If the Financial Aid Office disbursed a Pell Grant to a student for 12 credits and the student dropped to 10 credits, then the Financial Aid office would reduce (prorate) the award accordingly [Pell Grants can be prorated from 12 credits to .5 credits. University Scholarships and Grants cannot be pro-rated.]</p>
+<h2>Before Financial Aid Determination Date</h2>
+<p>Students need to consider the following concerning the consequences of reducing, withdrawing, adding, or failing to reach credit levels corresponding to their awards:</p>
+<ul>
+<li><strong>Enrolled in less than the minimum required credits</strong> &ndash; Students need to consider the following consequences if they are below the required amount credits as of midnight of the semester&rsquo;s FADD: 
+<ul>
+<li><strong>University Scholarship</strong> &ndash; A student&rsquo;s semester installment for the scholarship will be canceled and the student will be required to return all disbursed funds.</li>
+<li><strong>University Grant</strong> &ndash; If a student drops below the six credit minimum the award will be cancelled and the student will be required to return all disbursed funds.</li>
+<li><strong>Pell Grant</strong> &ndash; A student&rsquo;s semester installment for their Pell Grant will be prorated (adjusted) according to the change in credits.</li>
+</ul>
+</li>
+<li><strong>Reducing credits or completely withdrawing</strong> &ndash; A student&rsquo;s Pell Grant, University Scholarships, University Grant, and outside scholarship awards will be canceled if a student drops all classes before midnight of the semester&rsquo;s FADD. Students will be required to return all disbursed funds.</li>
+<li><strong>Registering for Second Block classes</strong> &ndash; Students intending to cover tuition fees for Second Block classes with financial aid funds need to be registered for those classes by the semester&rsquo;s FADD. Otherwise the Second Block class credit hours will not count towards a student&rsquo;s University Aid credit requirements (14 credits for University Scholarships and Outside Scholarships | 12 credits for University Grants).</li>
+</ul>
+<h2>After Financial Aid Determination Date</h2>
+<p>Changing credit levels by adding, reducing, or withdrawing &ndash; Students adding, reducing their credit hours or completely withdrawing need to consider the following:</p>
+<h3>No Affect to Financial Aid <span style="font-size: 12px;">- No increase or decrease to Financial Aid Funds</span></h3>
+<ul>
+<li><strong>Add Full Semester classes</strong></li>
+<li><strong>Drop Full Semester classes</strong></li>
+<li><strong>Add Second Block classes</strong></li>
+</ul>
+<h3>Affects Financial Aid</h3>
+<ul>
+<li><strong>Reducing or withdrawing Second Block classes</strong> &ndash; possible adjustment to Federal Aid (Pell Grant and or Loans) contact Financial Aid Advisor for inquiries.</li>
+</ul>
+<div id="contact">
+<hr id="contact_hr" />
+<div class="office_hours"><img alt="Office Hours" class="left" src="Images/Admin_Offices/Financial Aid/1312918545_Clock-Time.png" title="Office hours" width="30" />
+<div class="left">
+<h1>Office Hours</h1>
+<p>Monday - Friday</p>
+<p>8am - 5pm</p>
+</div>
+<div style="margin: 8px 13px 0 0; float: right;"></div>
+</div>
+<div class="middle"><img alt="Office Mailing Address" class="left" src="Images/Admin_Offices/Financial Aid/1312918507_Mail -2.png" title="Address" width="30" />
+<div class="left">
+<h1>Address</h1>
+<p>100 Kimball Building 1610</p>
+<p>Rexburg, ID 83460</p>
+</div>
+</div>
+<div class="phone"><img alt="Phone" class="left" src="Images/Admin_Offices/Financial Aid/1312918476_Telephone.png" title="Phone" width="30" />
+<div class="left">
+<h1>Phone</h1>
+<p>(208) 496-1600</p>
+</div>
+</div>
+<div class="chat"><img alt="Live Chat" class="left" src="Images/Admin_Offices/Financial Aid/chat_icon.png" title="Live Chat" width="30" />
+<div class="left">
+<h1><a href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=Financial%20Aid">Live Chat</a></h1>
+<p>with Financial Aid</p>
+</div>
+</div>
+<div class="middle"><img alt="Laptop" class="left" src="Images/Admin_Offices/Financial Aid/1312918536_Computer.png" title="Email" width="30" />
+<div class="left">
+<h1>Email</h1>
+<p>financialaid@byui.edu</p>
+</div>
+</div>
+<div class="phone"><img alt="Fax" class="left" src="Images/Admin_Offices/Financial Aid/1312918465_Printer and Fax.png" title="Fax" width="30" />
+<div class="left">
+<h1>Fax</h1>
+<p>(208) 496-6711</p>
+</div>
+</div>
+<div class="facebook"><img alt="Facebook" class="left" src="Images/Admin_Offices/Financial Aid/facebook_icon.png" title="Facebook" width="30" />
+<div class="left">
+<h1><a href="http://www.facebook.com/BYUIFinancialAid">Facebook</a></h1>
+<p>page of the Financial Aid Office</p>
+</div>
+</div>
+</div>]]></BodyCopy><xPower Type="Component" Component="x18466" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="Policy" label="Policy" readonly="false" hidden="false" required="false" CompTypes="PolicyNavigationComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="true"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false">Financial Aid Determination Date</BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false">Schools who disburse Federal Aid are required to evaluate students once a semester to confirm that their federal aid was disbursed correctly. This date is referred to as the Financial Aid Determination Date (FADD).</MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x18206" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></PolicyPage>

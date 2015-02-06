@@ -1,0 +1,1017 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 6.0.82 - http://www.ingeniux.com ***-->
+<BlankPage ID="x29029" Name="Getting Started" Layout="default.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Getting Started</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">A tool to help students at any point in their academic career create a checklist of important tasks to perform.</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="true"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false">Getting Started</BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false">Getting Started at BYU-Idaho</MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="false" required="false">0.5</Priority></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+@import url(prebuilt/css/pt/style_advising_map.css);-->
+#know_your_major, #dont_know_your_major{
+	float: left;
+	padding-left: 20px;
+}
+
+#specialCases{
+	float: right;
+	width: 670px;
+	margin-top: 20px;
+}
+
+#nontraditional, #online, #military, #international, #disabled, #transfer{
+	width: 670px;
+}
+
+div.tooltip{
+	background-color: #000; 
+	box-shadow: 2px 2px 7px #333;
+}
+
+.scroll-pane a:hover {
+    color: #607890;
+    text-decoration: underline;
+}
+-->
+--></style>
+<p>
+<script type="text/javascript">
+function printMap(){
+	var bygh = 0;
+	var fresh = 0;
+	var soph = 0;
+	var jr = 0;
+	var sr = 0;
+	var non = 0;
+	var on = 0;
+	var mil = 0;
+	var int = 0;
+	var dis = 0;
+	var tran = 0;
+	var printWindowref;
+	var statusDiv = "You haven't selected your student status! (i.e. Freshman, Sophomore, etc.)";
+	var situationDiv = '';
+	var tempStatusDiv;
+	
+	if(document.getElementById('prospectiveStatus').style.visibility == 'visible'){
+	 	statusDiv = document.getElementById('prospectiveStatus').innerHTML;
+	}
+	if(document.getElementById('freshmanStatus').style.visibility == 'visible'){
+	 	statusDiv = document.getElementById('freshmanStatus').innerHTML;
+	}
+	if(document.getElementById('sophomoreStatus').style.visibility == 'visible'){
+		statusDiv = document.getElementById('sophomoreStatus').innerHTML;
+	}
+	if(document.getElementById('juniorStatus').style.visibility == 'visible'){
+		statusDiv = document.getElementById('juniorStatus').innerHTML;
+	}
+	if(document.getElementById('seniorStatus').style.visibility == 'visible'){
+		statusDiv = document.getElementById('seniorStatus').innerHTML;
+	}
+	if(document.getElementById('nontraditional').style.display == 'block'){
+		situationDiv =  '<div class="statusdiv">' + document.getElementById('nontraditional').innerHTML + '</div>';;
+	}
+	if(document.getElementById('online').style.display == 'block'){
+		situationDiv = situationDiv + '<div class="statusdiv">' + document.getElementById('online').innerHTML + '</div>';
+	}
+	if(document.getElementById('military').style.display == 'block'){
+		situationDiv = situationDiv + '<div class="statusdiv">' + document.getElementById('military').innerHTML + '</div>';
+	}
+	if(document.getElementById('international').style.display == 'block'){
+		situationDiv = situationDiv + '<div class="statusdiv">' + document.getElementById('international').innerHTML + '</div>';
+	}
+	if(document.getElementById('disabled').style.display == 'block'){
+		situationDiv = situationDiv + '<div class="statusdiv">' + document.getElementById('disabled').innerHTML + '</div>';
+	}
+	if(document.getElementById('transfer').style.display == 'block'){
+		situationDiv = situationDiv + '<div class="statusdiv">' + document.getElementById('transfer').innerHTML + '</div>';
+	}
+	printWindowRef = window.open('','_blank','favoritebar=no, toolbar=yes, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, copyhistory=yes, width=1000, height=800');
+	printWindowRef.document.writeln(
+		'<head><title>My Checklist | Getting Started</title>'
+		+ '<style>'
+		+ 'img, h4 {display: none;} .statusdiv {border: 1px solid #000; padding:  15px; border-radius: 5px; margin-bottom: 20px;}'
+		+ 'body {margin: 10px auto; width: 80%; min-width: 400px;} ul {list-style: square;} a{color:#1F7AB8;}</style></head>'
+		+'<body bgcolor=white onLoad="self.focus()">'
+		+ '<h1>Getting Started Checklist</h1>'
+		+ '<div class="statusdiv">' + statusDiv  + '</div>'
+		+ situationDiv
+		+ '<script>' + displayToolTipDivs + 'displayToolTipDivs();</' + 'script>'
+		+'</body>'
+	)
+	printWindowRef.document.close()
+	
+	}
+	
+	//Used by the print selection function when writing checklist to the new blank window
+	function displayToolTipDivs(){
+		for (var iter = 0; iter <= document.getElementsByTagName('div').length - 1; iter++){
+			console.log('iteration' + iter);
+			if (document.getElementsByTagName('div')[iter].classname = 'tooltip'){
+				document.getElementsByTagName('div')[iter].removeAttribute('block');
+				document.getElementsByTagName('div')[iter].style.display = 'block';
+				document.getElementsByTagName('div')[iter].style.position = 'static';
+				console.log('classname was tooltip');
+			}
+		}
+	}
+	
+function refreshStudent(){
+	document.getElementById('know_your_major').style.display = 'none';
+	document.getElementById('dont_know_your_major').style.display = 'none';
+	
+	document.getElementById('prospectiveButton').className = 'left2';
+	document.getElementById('freshmanButton').className = 'left2';
+	document.getElementById('sophomoreButton').className = 'left2';
+	document.getElementById('juniorButton').className = 'left2';
+	document.getElementById('seniorButton').className = 'left2';
+	
+	document.getElementById('introContent').style.display = 'none';
+	document.getElementById('prospectiveStatus').style.visibility = 'hidden'; 
+	document.getElementById('freshmanStatus').style.visibility = 'hidden'; 
+	document.getElementById('sophomoreStatus').style.visibility = 'hidden'; 
+	document.getElementById('juniorStatus').style.visibility = 'hidden';
+	document.getElementById('seniorStatus').style.visibility = 'hidden'; 
+	
+	document.getElementById('resourceBox1').style.display = 'none';
+	document.getElementById('resourceBox2').style.display = 'none';
+	document.getElementById('resourceBox3').style.display = 'none';
+	document.getElementById('resourceBox4').style.display = 'none';
+	document.getElementById('resourceBox5').style.display = 'none';
+}
+function refreshType(){
+	document.getElementById('nontraditional').style.display = 'none';
+	document.getElementById('online').style.display = 'none';
+	document.getElementById('military').style.display = 'none';
+	document.getElementById('international').style.display = 'none';
+	document.getElementById('disabled').style.display = 'none';
+	document.getElementById('transfer').style.display = 'none';
+	
+	document.getElementById('picture').style.display = 'none';
+	document.getElementById('introContent').style.display = 'block';
+	document.getElementById('know_your_major').style.display = 'none';
+	document.getElementById('dont_know_your_major').style.display = 'none';
+	
+	document.getElementById('nontraditionalButton').className = 'left2';
+	document.getElementById('onlineButton').className = 'left2';
+	document.getElementById('militaryButton').className = 'left2';
+	document.getElementById('internationalButton').className = 'left2';
+	document.getElementById('disabledButton').className = 'left2';
+	document.getElementById('transferButton').className = 'left2';
+}
+
+function toggle_back1(id1, id2, id3) { 
+	//get element to change by if statement 
+	var e = document.getElementById(id1);
+	var g = document.getElementById(id2);
+	var f = document.getElementById(id3);
+	
+	refreshStudent()
+	
+	//if statment
+	if(g.style.visibility == 'visible'){ 
+		g.style.visibility = 'hidden';
+		f.style.display = 'none';
+	}
+	else {
+		g.style.visibility = 'visible';
+		f.style.display = 'block';
+	}	
+	e.className = 'left2a';  	
+	select_test()
+}
+
+function toggle_back2(id1, id2) { 
+	document.getElementById('know_your_major').style.display = 'none';
+	document.getElementById('dont_know_your_major').style.display = 'none';
+	document.getElementById('picture').style.display = 'block';
+	var e = document.getElementById(id1);
+	var f = document.getElementById(id2);
+	if(e.className == 'left2') 
+		e.className = 'left2a'; 
+	else 
+		e.className = 'left2'; 
+	
+	if(f.style.display == 'block') 
+		f.style.display = 'none'; 
+	else 
+		f.style.display = 'block'; 
+	select_test()
+}
+function select_test(){
+	if(	document.getElementById('nontraditionalButton').className == 'left2' &&
+		document.getElementById('onlineButton').className == 'left2' &&
+		document.getElementById('militaryButton').className == 'left2' &&
+		document.getElementById('internationalButton').className == 'left2' &&
+		document.getElementById('disabledButton').className == 'left2' &&
+		document.getElementById('transferButton').className == 'left2'){
+		
+		document.getElementById('picture').style.display = 'block';
+	}
+}
+// for Know Your Major button
+function kym(){
+	refreshStudent();
+	refreshType();
+	document.getElementById('know_your_major').style.display = 'block';
+}
+// for Don't Know Your Major button
+function dkym(){
+	refreshStudent();
+	refreshType();
+	document.getElementById('dont_know_your_major').style.display = 'block';
+}
+
+function stayon(id1) { 
+	document.getElementById(id1).className = 'ssitem_a'; 	
+}
+function refresh_bya(){
+	document.getElementById('bya_1').className = 'ssitem';
+	document.getElementById('bya_2').className = 'ssitem';
+	document.getElementById('bya_3').className = 'ssitem';
+	document.getElementById('bya_4').className = 'ssitem';
+	document.getElementById('bya_5').className = 'ssitem';
+}
+function refresh_fresh(){
+	document.getElementById('fresh_1').className = 'ssitem';
+	document.getElementById('fresh_2').className = 'ssitem';
+	document.getElementById('fresh_3').className = 'ssitem';
+	document.getElementById('fresh_4').className = 'ssitem';
+	document.getElementById('fresh_5').className = 'ssitem';
+	document.getElementById('fresh_6').className = 'ssitem';
+}
+function refresh_soph(){
+	document.getElementById('soph_1').className = 'ssitem';
+	document.getElementById('soph_2').className = 'ssitem';
+	document.getElementById('soph_3').className = 'ssitem';
+	document.getElementById('soph_4').className = 'ssitem';
+	document.getElementById('soph_5').className = 'ssitem';
+	document.getElementById('soph_6').className = 'ssitem';
+}
+function refresh_jr(){
+	document.getElementById('jr_1').className = 'ssitem';
+	document.getElementById('jr_2').className = 'ssitem';
+	document.getElementById('jr_3').className = 'ssitem';
+	document.getElementById('jr_4').className = 'ssitem';
+	document.getElementById('jr_5').className = 'ssitem';
+	document.getElementById('jr_6').className = 'ssitem';
+}
+function refresh_sr(){
+	document.getElementById('sr_1').className = 'ssitem';
+	document.getElementById('sr_2').className = 'ssitem';
+	document.getElementById('sr_3').className = 'ssitem';
+}
+</script>
+<script src="http://cdn.jquerytools.org/1.2.2/jquery.tools.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+//JQuery Start
+$(document).ready(function(){
+	$('#studentStatus img').tooltip();
+
+});
+</script>
+</p>
+<div id="innerWrapper"><a name="top"></a>
+<div id="leftMenu"><a href="x23107.xml" title="Back to Career &amp; Academic Advising"> </a>
+<h2 class="box_header"><a href="x23107.xml" title="Back to Career &amp; Academic Advising"></a><a href="http://www.byui.edu/academic-discovery-center" title="Academic Discovery Center Home Page">Academic Discovery Center</a></h2>
+<div id="left1">
+<p class="para">Select Your Student Status</p>
+</div>
+<div class="left2" id="prospectiveButton" onclick="toggle_back1('prospectiveButton', 'prospectiveStatus', 'resourceBox1')">
+<p class="para2">BEFORE ARRIVING</p>
+</div>
+<div class="left2" id="freshmanButton" onclick="toggle_back1('freshmanButton', 'freshmanStatus', 'resourceBox2')">
+<p class="para2">FRESHMAN</p>
+</div>
+<div class="left2" id="sophomoreButton" onclick="toggle_back1('sophomoreButton', 'sophomoreStatus', 'resourceBox3')">
+<p class="para2">SOPHOMORE</p>
+</div>
+<div class="left2" id="juniorButton" onclick="toggle_back1('juniorButton', 'juniorStatus', 'resourceBox4')">
+<p class="para2">JUNIOR</p>
+</div>
+<div class="left2" id="seniorButton" onclick="toggle_back1('seniorButton', 'seniorStatus', 'resourceBox5')">
+<p class="para2">SENIOR</p>
+</div>
+<div id="left3">
+<p class="para">Select All Situations that Apply</p>
+</div>
+<div class="left2" id="nontraditionalButton" onclick="toggle_back2('nontraditionalButton', 'nontraditional')">
+<p class="para2">PART-TIME STUDENT</p>
+</div>
+<div class="left2" id="onlineButton" onclick="toggle_back2('onlineButton', 'online')">
+<p class="para2">ONLINE STUDENT</p>
+</div>
+<div class="left2" id="militaryButton" onclick="toggle_back2('militaryButton', 'military')">
+<p class="para2">MILITARY STUDENT</p>
+</div>
+<div class="left2" id="internationalButton" onclick="toggle_back2('internationalButton', 'international')">
+<p class="para2">INTERNATIONAL STUDENT</p>
+</div>
+<div class="left2" id="disabledButton" onclick="toggle_back2('disabledButton', 'disabled')">
+<p class="para2">STUDENT WITH DISABILITY</p>
+</div>
+<div class="left2" id="transferButton" onclick="toggle_back2('transferButton', 'transfer')">
+<p class="para2">TRANSFER STUDENT</p>
+</div>
+<div id="left4">
+<p class="para">Print Checklist and Instructions</p>
+</div>
+<div class="left2b" onclick="printMap()">
+<p class="para2">PRINT SELECTION</p>
+</div>
+<div id="left5">
+<p class="para">Explore Your Major</p>
+</div>
+<div class="left2b" onclick="kym()"><!--academic advising landing page-->
+<p class="para2">KNOW YOUR MAJOR?</p>
+</div>
+<div class="left2b" onclick="dkym()"><!--career & major exploration-->
+<p class="para2">DON'T KNOW YOUR MAJOR?</p>
+</div>
+</div>
+<!-- end leftMenu -->
+<div id="container">
+<div id="studentStatus">
+<div id="introContent">
+<div id="intro">
+<h3>Welcome to the Advising Map</h3>
+<p>Select your student status and all special situations that apply to you. Then print a copy of the student status checklist for review with an advisor. Finally, proceed to the Explore Your Major section to further prepare to meet with an advisor.</p>
+</div>
+</div>
+<div id="prospectiveStatus">
+<h3 class="studentstatus">Before You Arrive</h3>
+<ul>
+<ul>
+<li class="ssitem" id="bya_1">Accept offer</li>
+</ul>
+</ul>
+<img border="0" height="40" onmouseout="refresh_bya()" onmouseover="stayon('bya_1')" src="Images/Academic-Advising/icons/hide.gif" width="205" />
+<div class="tooltip" onmouseout="refresh_bya()" onmouseover="stayon('bya_1')">
+<h4>Accept Offer</h4>
+<div class="scroll-pane">
+<p>You will need to accept your offer to attend BYU-Idaho before advisors and other campus personnel outside of the Admissions Office can help you. Offers can be accepted at <a href="http://www.byui.edu/response">byui.edu/response</a>. Follow the instructions on the track assignment letter you received in the mail. When accepting your offer you&rsquo;ll also be able to re-declare your major, fulfill registration requirements, and set up your student email account. Please note that you must accept your offer before you can register for classes, finalize your housing contract, etc.</p>
+</div>
+</div>
+<ul>
+<ul>
+<li class="ssitem" id="bya_2">Declare major</li>
+</ul>
+</ul>
+<img border="0" height="40" onmouseout="refresh_bya()" onmouseover="stayon('bya_2')" src="Images/Academic-Advising/icons/hide.gif" width="205" />
+<div class="tooltip" onmouseout="refresh_bya()" onmouseover="stayon('bya_2')">
+<h4>Declare Major</h4>
+<div class="scroll-pane">
+<p>In order to serve as many youth of the Church as possible, you are expected to complete your college degree in a timely manner. Please spend a considerable amount of time considering your major. Several <a href="http://www.byui.edu/academic-discovery-center/students/career-and-major-exploration">major and career exploration resources</a> are available to help you with your decision. Please take full advantage of these resources and <a href="http://www.byui.edu/academic-discovery-center/students/academic-advising-and-class-planning/class-planning/planning-early">start planning early</a>.</p>
+</div>
+</div>
+<ul>
+<ul>
+<li class="ssitem" id="bya_3">Access student portal</li>
+</ul>
+</ul>
+<img border="0" height="40" onmouseout="refresh_bya()" onmouseover="stayon('bya_3')" src="Images/Academic-Advising/icons/hide.gif" width="205" />
+<div class="tooltip" onmouseout="refresh_bya()" onmouseover="stayon('bya_3')">
+<h4>Access Student Portal</h4>
+<div class="scroll-pane">
+<p>Your <a href="http://my.byui.edu">student portal</a> will be your central hub as a student. You can access your email, register for classes, pay tuition, and much more. If you have any questions, our <a href="http://www.byui.edu/ATS/helpdesk.htm">Help Desk</a> is ready to assist you.</p>
+</div>
+</div>
+<ul>
+<ul>
+<li class="ssitem" id="bya_4">Locate class planning resources</li>
+</ul>
+</ul>
+<img border="0" height="40" onmouseout="refresh_bya()" onmouseover="stayon('bya_4')" src="Images/Academic-Advising/icons/hide.gif" width="205" />
+<div class="tooltip" onmouseout="refresh_bya()" onmouseover="stayon('bya_4')">
+<h4>Locate classes planning resources</h4>
+<div class="scroll-pane">
+<p>Registering for your first semester of college classes is an exciting milestone, but can also seem overwhelming. We encourage you to work with Advising and Academic Support to arrange a schedule that strengthens your weaknesses and builds a solid foundation to a successful college experience. Please be aware of the following planning considerations:</p>
+<ul>
+<li><span class="liHeader">Plan to take Foundations courses first</span><br />The Foundations Program is BYU-Idaho&rsquo;s core of general education courses. You are required to take certain classes, called pre-requisites, before you can register for other classes: FDENG 101, FDAMF 101, FDSCI 101, and FDMAT 108. In addition, we recommend you take a Book of Mormon class (FDREL 121, 122).</li>
+<li><span class="liHeader">Plan for the correct amount of credits</span><br />In order to complete a bachelor&rsquo;s degree requiring 120 credits in eight semesters (four years), you must take at least 15 credits per semester. However, to be technically classified as full-time, you must take at least 12 credits per semester. And in order to be eligible for BYU-Idaho scholarships, you must take at least 14 credits.</li>
+<li><span class="liHeader">Understand what your Advanced Placement (AP) or Concurrent Enrollment (CE) credits fulfill</span><br />Many AP and concurrent enrollment classes satisfy Foundations requirements. AP scores must be submitted to our Student Records and Registration Office on an official AP transcript. For a complete list of AP credit given, click <a href="http://www.byui.edu/catalog/2011-2012/Academic%20Policies.pdf">here</a>. CE classes will be evaluated and accepted using guidelines established by our transfer evaluation department. CE classes may satisfy Foundations requirements, may be the equivalent of a class currently offered at BYU-Idaho, or may be accepted as elective credit. To see how your CE classes may transfer, click <a href="http://www.byui.edu/catalog/2011-2012/Transfer Students.pdf">here</a>.</li>
+<li><span class="liHeader">Create a plan for first semester success</span><br />The Academic Discovery Center has created a recommended course sequences for each major. These plans recommend certain classes from your major as well as elective or Foundations classes. Click <a href="http://www.byui.edu/academic-discovery-center/students/academic-advising-and-class-planning/class-planning/recommended-course-sequences">here </a>to see a list of the majors with their accompanying plans.</li>
+</ul>
+</div>
+</div>
+<ul>
+<ul>
+<li class="ssitem" id="bya_5">Attend Get Connected</li>
+</ul>
+</ul>
+<img border="0" height="40" onmouseout="refresh_bya()" onmouseover="stayon('bya_5')" src="Images/Academic-Advising/icons/hide.gif" width="205" />
+<div class="tooltip" onmouseout="refresh_bya()" onmouseover="stayon('bya_5')">
+<h4>Attend Get Connected</h4>
+<div class="scroll-pane">
+<p>Get Connected is the official start to your BYU-Idaho learning experience, and as a new student you are expected to fully participate. At Get Connected you will learn about your role in attending this university, make new friends, become familiar with campus, and more fully understand the opportunities you have while attending BYU-Idaho. Find the <a href="http://www.byui.edu/student-support/student-checklists">New Student Checklist</a>. For more details, click <a href="http://www.byui.edu/getconnected">here</a>.</p>
+</div>
+</div>
+</div>
+<div id="freshmanStatus">
+<h3 class="studentstatus">Freshman Year</h3>
+<ul>
+<ul>
+<li class="ssitem" id="fresh_1">Understand Academic Policies</li>
+</ul>
+</ul>
+<img border="0" height="40" onmouseout="refresh_fresh()" onmouseover="stayon('fresh_1')" src="Images/Academic-Advising/icons/hide.gif" width="205" />
+<div class="tooltip" onmouseout="refresh_fresh()" onmouseover="stayon('fresh_1')">
+<h4>Understand Academic Policies</h4>
+<div class="scroll-pane">
+<p>All students should understand the policies that govern academic life. Visit <a href="http://www.byui.edu/registrarsoffice">Student Records and Registration</a> for more information, and read <a href="http://www.byui.edu/registrarsoffice/AcademicStandards.htm">Academic Standards</a>. We also recommend you read the policy section of the <a href="http://www2.byui.edu/catalog/2011-2012/Academic%20Policies.pdf">Academic Catalog</a>.</p>
+</div>
+</div>
+<ul>
+<ul>
+<li class="ssitem" id="fresh_2">Take an Introductory Course</li>
+</ul>
+</ul>
+<img border="0" height="40" onmouseout="refresh_fresh()" onmouseover="stayon('fresh_2')" src="Images/Academic-Advising/icons/hide.gif" width="205" />
+<div class="tooltip" onmouseout="refresh_fresh()" onmouseover="stayon('fresh_2')">
+<h4>Take an Introductory Course</h4>
+<div class="scroll-pane">
+<p>If you have settled on a major, you will find your major&rsquo;s introductory courses in your major's <a href="http://www.byui.edu/academic-discovery-center/students/academic-advising-and-class-planning/class-planning/recommended-course-sequences">recommended course sequence</a>. If you are exploring careers, or if you are looking for an introduction to college life, consider the following options:</p>
+<ul>
+<ul>
+<li><span class="liHeader">GS 100 &ndash; Career Exploration: </span>Designed to aid in making a decision concerning a career or a major. In-depth career assessments are given to help students identify strengths concerning major and career options.</li>
+<li><span class="liHeader">GS 101 &ndash; Principles of Personal Achievement: </span>The intent of this course is to focus on principles that produce success in college and beyond.</li>
+<li><span class="liHeader">GS 102 &ndash; Study Skills: </span>This class is designed to help students improve their learning effectiveness, attitudes, and motivation. Time management, memorization methods, note-taking skills, textbook study methods, test-taking strategies, and critical thinking are all part of the curriculum. It also provides an orientation to services and resources available to students on campus.</li>
+<li><span class="liHeader">GS 103A-J &ndash; Individual Study Skills Modules: </span>The Study Skills Center offers six online modules for students to choose from:<ol start="1">
+<li>Concentration and Memorization,</li>
+<li>Note Taking,</li>
+<li>Thinking Skills,</li>
+<li>Textbook Study,</li>
+<li>Time Management,</li>
+<li>Test Taking.</li>
+</ol></li>
+</ul>
+</ul>
+<p>It is recommended that students take no more than one module at a time.</p>
+<ul>
+<li><span class="liHeader">GS 105 &ndash; College Success: </span>This class is designed to be an experiential class where students will learn various study methods and be given the opportunity to apply them. They will learn about campus resources which can help them. They will also learn what their learning style is and study strategies which apply to their style. In this course students will review and enhance their attitudes toward learning.</li>
+</ul>
+</div>
+</div>
+<ul>
+<ul>
+<li class="ssitem" id="fresh_3">Create a Graduation Plan</li>
+</ul>
+</ul>
+<img border="0" height="40" onmouseout="refresh_fresh()" onmouseover="stayon('fresh_3')" src="Images/Academic-Advising/icons/hide.gif" width="205" />
+<div class="tooltip" onmouseout="refresh_fresh()" onmouseover="stayon('fresh_3')">
+<h4>Create Graduation Plan</h4>
+<div class="scroll-pane">
+<p>Graduating with your bachelor&rsquo;s degree requires 120 credits. You can do this in four years by taking 15 credits each semester. An eight semester graduation plan of <a href="http://www.byui.edu/academic-discovery-center/students/academic-advising-and-class-planning/class-planning/recommended-course-sequences">recommended course sequences</a> have been provided for each major. Access your major&rsquo;s eight-semester plan and modify it according to your needs. You can create your own grad plan <a href="http://www.byui.edu/gradplan">here</a>. Some factors to consider as you personalize your graduation may include course availability, prerequisites, transfer coursework (including AP and concurrent enrollment credits), academic readiness, and other commitments (family, work, extracurricular, etc.).</p>
+</div>
+</div>
+<ul>
+<ul>
+<li class="ssitem" id="fresh_4">Visit Your Advising Center</li>
+</ul>
+</ul>
+<img border="0" height="40" onmouseout="refresh_fresh()" onmouseover="stayon('fresh_4')" src="Images/Academic-Advising/icons/hide.gif" width="205" />
+<div class="tooltip" onmouseout="refresh_fresh()" onmouseover="stayon('fresh_4')">
+<h4>Visit Your Advising Center</h4>
+<div class="scroll-pane">
+<p>You will be assigned to a <a href="http://www.byui.edu/academic-discovery-center/about-us/locations">Satellite Academic Discovery Center</a> based on your declared major. In addition to online planning tools, Satellite Academic Discovery Centers are your best resource for class planning. Prior to your next semester&rsquo;s class registration, schedule an appointment to review your graduation plan.</p>
+</div>
+</div>
+<ul>
+<ul>
+<li class="ssitem" id="fresh_5">Discover Career and Major Resources</li>
+</ul>
+</ul>
+<img border="0" height="40" onmouseout="refresh_fresh()" onmouseover="stayon('fresh_5')" src="Images/Academic-Advising/icons/hide.gif" width="205" />
+<div class="tooltip" onmouseout="refresh_fresh()" onmouseover="stayon('fresh_5')">
+<h4>Discover Career and Major Resources</h4>
+<div class="scroll-pane">
+<p>The Academic Discovery Center has several <a href="http://www.byui.edu/academic-discovery-center/students/career-and-major-exploration">career and major exploration</a> resources to assist you in making decisions. Do your best to plan early so you are happy with your choices as you approach graduation. Keep in mind that credit limits and certain degree program guidelines may prohibit you from changing majors as an upperclassman.</p>
+</div>
+</div>
+<ul>
+<ul>
+<li class="ssitem" id="fresh_6">Strengthen skills with Academic Support</li>
+</ul>
+</ul>
+<img border="0" height="40" onmouseout="refresh_fresh()" onmouseover="stayon('fresh_6')" src="Images/Academic-Advising/icons/hide.gif" width="205" />
+<div class="tooltip" onmouseout="refresh_fresh()" onmouseover="stayon('fresh_6')">
+<h4>Strengthen Skills with Academic Support</h4>
+<div class="scroll-pane">
+<p>The benefits of strong academic performance are far-reaching. Many opportunities now and in your future will depend on your cumulative GPA. To help you be the best student possible, BYU&ndash;Idaho offers <a href="http://www.byui.edu/academicsupport/">Academic Support Centers</a> designed to supplement classroom instruction and help you practice, sharpen, and master skills. All tutoring is free, and more than 8,000 students use their services every year. You and your future are worth the investment.</p>
+</div>
+</div>
+</div>
+<div id="sophomoreStatus">
+<h3 class="studentstatus">Sophomore Year</h3>
+<ul>
+<ul>
+<li class="ssitem" id="soph_1">Declare Minors or Clusters</li>
+</ul>
+</ul>
+<img border="0" height="40" onmouseout="refresh_soph()" onmouseover="stayon('soph_1')" src="Images/Academic-Advising/icons/hide.gif" width="205" />
+<div class="tooltip" onmouseout="refresh_soph()" onmouseover="stayon('soph_1')">
+<h4>Declare Minors or Clusters</h4>
+<div class="scroll-pane">
+<p>Not all majors require a minor or clusters, but if yours does, this is the year to finalize your decision. Meet with your faculty mentor to discuss your degree plan. When you&rsquo;re ready to declare your minor or clusters, visit the appropriate Satellite Academic Discovery Center. A complete list of minor and cluster options is available in the <a href="http://www.byui.edu/catalog">Academic Catalog</a>.</p>
+</div>
+</div>
+<ul>
+<ul>
+<li class="ssitem" id="soph_2">Finalize Graduation Plan</li>
+</ul>
+</ul>
+<img border="0" height="40" onmouseout="refresh_soph()" onmouseover="stayon('soph_2')" src="Images/Academic-Advising/icons/hide.gif" width="205" />
+<div class="tooltip" onmouseout="refresh_soph()" onmouseover="stayon('soph_2')">
+<h4>Finalize Graduation Plan</h4>
+<div class="scroll-pane">
+<p>Now that all of your degree components are in place, make your final graduation plan. Click <a href="http://web.byui.edu/gradplan">here</a> to access the online planning tool. When finished, submit it to your Satellite Academic Discovery Center for review.</p>
+</div>
+</div>
+<ul>
+<ul>
+<li class="ssitem" id="soph_3">Consider Fast Grad</li>
+</ul>
+</ul>
+<img border="0" height="40" onmouseout="refresh_soph()" onmouseover="stayon('soph_3')" src="Images/Academic-Advising/icons/hide.gif" width="205" />
+<div class="tooltip" onmouseout="refresh_soph()" onmouseover="stayon('soph_3')">
+<h4>Consider Fast Grad</h4>
+<div class="scroll-pane">
+<p>Bachelor&rsquo;s degrees at BYU-Idaho require 120 credits, which generally take four years to complete. Fast Grad allows students to attend year-round after they have earned 50 credits, cutting a year off of your graduation plan. To learn more about Fast Grad, click <a href="http://www.byui.edu/Admissions/students/programs/fastgrad.shtml">here</a>.</p>
+</div>
+</div>
+<ul>
+<ul>
+<li class="ssitem" id="soph_4">Prepare for an Internship</li>
+</ul>
+</ul>
+<img border="0" height="40" onmouseout="refresh_soph()" onmouseover="stayon('soph_4')" src="Images/Academic-Advising/icons/hide.gif" width="205" />
+<div class="tooltip" onmouseout="refresh_soph()" onmouseover="stayon('soph_4')">
+<h4>Prepare for an Internship</h4>
+<div class="scroll-pane">
+<p>Most majors require professional internship, which can be an invaluable experience as you prepare for your future career. Internships provide hands-on experience in your chosen field and get you networked with individuals that may hire you one day. Visit <a href="http://www.byui.edu/academic-discovery-center">Academic Discovery Center </a>for assistance.</p>
+</div>
+</div>
+<ul>
+<ul>
+<li class="ssitem" id="soph_5">Study for Graduate School Exams</li>
+</ul>
+</ul>
+<img border="0" height="40" onmouseout="refresh_soph()" onmouseover="stayon('soph_5')" src="Images/Academic-Advising/icons/hide.gif" width="205" />
+<div class="tooltip" onmouseout="refresh_soph()" onmouseover="stayon('soph_5')">
+<h4>Study for Graduate School Exams</h4>
+<div class="scroll-pane">
+<p>Ideally, graduate school exams are taken during your junior year. This means that your sophomore year is the time to prepare. The following resources are available to support you in your graduate school goals:</p>
+<ul>
+<li><strong>Ag and Life Sciences Academic Discovery Center: </strong>This advising center is dedicated to helping students enter careers in the health industry. This office contains resources to assist in the application process and provides students with the resources and support to develop a customized portfolio of knowledge, skills, and experiences required for an advanced study in health care. Contact information for this center can be found <a href="http://www.byui.edu/academic-discovery-center/about-us/locations">here</a>.</li>
+<li><strong><a href="http://www.byui.edu/academic-discovery-center/health-professions">Health Profession Website</a></strong>: This website is packed with information that will help you plan and prepare for applying to medical school in a variety of different fields.</li>
+<li><strong>Prelaw Advising Center: </strong>The Prelaw Advising Center has resources on personal statements, letters of recommendation, and resumes. They can also recommend things to consider as you declare your major, enroll in helpful courses, and focus on gaining critical skills for law school. Prelaw advising is by appointment, so be ready with your prelaw questions when requesting an appointment at <a href="mailto:garners@byui.edu">garners@byui.edu</a>.</li>
+<li><strong><a href="http://www.byui.edu/societies/AlphaList.htm">Academic Societies</a>: </strong>Student academic societies at BYU-Idaho exist to extend and enhance the learning experience, improve professional opportunities, and provide leadership opportunities. There are several academic societies that may be helpful to you as you prepare for graduate school.</li>
+<li><strong>GRE and GMAT Prep Classes: </strong>Continuing Education offers preparation courses for the GRE and GMAT in fall and winter semesters. <a href="http://www.byui.edu/ce/">www.byui.edu/ce/</a></li>
+</ul>
+</div>
+</div>
+<ul>
+<ul>
+<li class="ssitem" id="soph_6">Contribute to Leadership Transcript</li>
+</ul>
+</ul>
+<img border="0" height="40" onmouseout="refresh_soph()" onmouseover="stayon('soph_6')" src="Images/Academic-Advising/icons/hide.gif" width="205" />
+<div class="tooltip" onmouseout="refresh_soph()" onmouseover="stayon('soph_6')">
+<h4>Contribute to Leadership Transcript</h4>
+<div class="scroll-pane">
+<p>The leadership transcript is separate from your academic transcript. It lists volunteer and leadership opportunities that you participated in as a BYU-Idaho student. The experiences you log on your leadership transcript will be key to future opportunities in your career and personal life. Leadership opportunities are available through a variety of organizations on campus. Not only will your service strengthen you, but it will bless the lives of the students you lead.</p>
+</div>
+</div>
+</div>
+<!-- end Sophomore -->
+<div id="juniorStatus">
+<h3 class="studentstatus">Junior Year</h3>
+<ul>
+<ul>
+<li class="ssitem" id="jr_1">Have Faculty Mentor Review</li>
+</ul>
+</ul>
+<img border="0" height="40" onmouseout="refresh_jr()" onmouseover="stayon('jr_1')" src="Images/Academic-Advising/icons/hide.gif" width="205" />
+<div class="tooltip" onmouseout="refresh_jr()" onmouseover="stayon('jr_1')">
+<h4>Have Faculty Mentor Review</h4>
+<div class="scroll-pane">
+<p>Faculty mentors have industry and graduate school experience. They are valuable resources as you plan your upper-division coursework and internship experience. Your junior year is a great opportunity to check in with your faculty mentor, share your plans, and see what advice he or she has. To find your Faculty Mentor, log on to your <a href="http://my.byui.edu">myBYUI</a> account and they'll be listed in the Academic Summary section.</p>
+</div>
+</div>
+<ul>
+<ul>
+<li class="ssitem" id="jr_2">Apply for Internships</li>
+</ul>
+</ul>
+<img border="0" height="40" onmouseout="refresh_jr()" onmouseover="stayon('jr_2')" src="Images/Academic-Advising/icons/hide.gif" width="205" />
+<div class="tooltip" onmouseout="refresh_jr()" onmouseover="stayon('jr_2')">
+<h4>Apply for Internships</h4>
+<div class="scroll-pane">
+<p>Internships should be done during your off-track and are typically completed between your junior and senior year. Students are responsible for lining up their own internship experiences, but are welcome to visit the Academic Discovery Center for help. More information about the process of obtaining and reigstering an academic internship can be found <a href="http://www.byui.edu/academic-discovery-center/students/internship-info-and-services">here</a>.</p>
+</div>
+</div>
+<ul>
+<ul>
+<li class="ssitem" id="jr_3">Request Graduate School Applications</li>
+</ul>
+</ul>
+<img border="0" height="40" onmouseout="refresh_jr()" onmouseover="stayon('jr_3')" src="Images/Academic-Advising/icons/hide.gif" width="205" />
+<div class="tooltip" onmouseout="refresh_jr()" onmouseover="stayon('jr_3')">
+<h4>Request Graduate School Applications</h4>
+<div class="scroll-pane">
+<p>The graduate schools you choose to apply to should provide programs that match your interests and give you the necessary environment to pursue your graduate studies. Apply to several schools to ensure you have options.</p>
+</div>
+</div>
+<ul>
+<ul>
+<li class="ssitem" id="jr_4">Take Graduate Exams</li>
+</ul>
+</ul>
+<img border="0" height="40" onmouseout="refresh_jr()" onmouseover="stayon('jr_4')" src="Images/Academic-Advising/icons/hide.gif" width="205" />
+<div class="tooltip" onmouseout="refresh_jr()" onmouseover="stayon('jr_4')">
+<h4>Take Graduate Exams</h4>
+<div class="scroll-pane">
+<p>If you're applying to graduate, law, health care profession, or business school, you'll be required to take a standard examination. Make sure to identify the proper exam for your academic pursuits. Consult your faculty mentor or Satellite Academic Discovery Center for assistance. Take standardized tests early (typically, the spring or summer before you apply to graduate school). This will guide your selection of programs as well as ensure that your scores arrive at your selected schools before admission deadlines.</p>
+</div>
+</div>
+<ul>
+<ul>
+<li class="ssitem" id="jr_5">Maintain Professional Relationships</li>
+</ul>
+</ul>
+<img border="0" height="40" onmouseout="refresh_jr()" onmouseover="stayon('jr_5')" src="Images/Academic-Advising/icons/hide.gif" width="205" />
+<div class="tooltip" onmouseout="refresh_jr()" onmouseover="stayon('jr_5')">
+<h4>Maintain Professional Relationships</h4>
+<div class="scroll-pane">
+<p>Networking is one of the most powerful tools you have during your internship and career searches. The associations you build today will help you in the future if you nurture relationships of trust. Take advantage of the following:</p>
+<ul>
+<li><span class="liHeader"><a href="http://www.byuiconnect.com/s/1085/07-idaho/idaho-start.aspx?gid=4&amp;pgid=61">BYU&ndash;Idaho Student and Alumni Network</a></span><br />The BYU-Idaho alumni/connection website.</li>
+<li><span class="liHeader"><a href="http://www.byui.edu/academic-discovery-center/students/preparing-for-and-finding-a-job-or-career/expedition-cities-and-internship-service-missionaries">Hub Service Missionaries</a></span><br />Located in various cities throughout the United States, these part-time CES service missionaries are called to build and maintain relationships with companies in their areas and to assist students and alumni in finding internships or careers in these areas.</li>
+<li><span class="liHeader"><a href="http://www.byui.edu/academic-discovery-center/students/preparing-for-and-finding-a-job-or-career/expedition-cities-and-internship-service-missionaries">Internship Expeditions</a></span><br />Internship Expeditions are a great way to visit an area of interest and meet face-to-face with potential employers and experienced providers.</li>
+<li><span class="liHeader"><a href="http://www.byui.edu/academic-discovery-center/students/internship-info-and-services/how-to-find-an-internship/past-internships">Past Internships</a></span><br />A list of past internships completed by BYU-I Students.</li>
+</ul>
+</div>
+</div>
+<ul>
+<ul>
+<li class="ssitem" id="jr_6">Contribute to Leadership Transcript</li>
+</ul>
+</ul>
+<img border="0" height="40" onmouseout="refresh_jr()" onmouseover="stayon('jr_6')" src="Images/Academic-Advising/icons/hide.gif" width="205" />
+<div class="tooltip" onmouseout="refresh_jr()" onmouseover="stayon('jr_6')">
+<h4>Contribute to Leadership Transcript</h4>
+<div class="scroll-pane">
+<p>The leadership transcript is separate from your academic transcript. It lists volunteer, leadership opportunities that you participated in as a BYU-Idaho student. The experiences you log on your leadership transcript will be key to future opportunities in your career and personal life. In 2001, President Eyring prophesied that graduates of BYU-Idaho will &ldquo;become legendary for their capacity to build the people around them and to add value wherever they serve&rdquo; <em><a href="http://www.byui.edu/Presentations/Transcripts/Devotionals/2001_09_18_Eyring.htm">(Steady Upward Course, BYU-Idaho Devotional, Sept. 18, 2001)</a></em>.</p>
+<p>This is something to be a part of! And the exciting part is that each BYU-Idaho student can rise to answer the call of leadership. Leadership opportunities are available through campus employment, classroom experiences, involvement in wards and stakes, the Student Activities Program, and other extracurricular options. Not only will your service strengthen you, but it will bless the lives of the students you lead. Learn more about student leadership <a href="http://www.byui.edu/about/defining-aspects/student-leadership-model">here</a>.</p>
+</div>
+</div>
+</div>
+<!-- end juniorStatus -->
+<div id="seniorStatus">
+<h3 class="studentstatus">Senior Year</h3>
+<ul>
+<ul>
+<li class="ssitem" id="sr_1">Conduct Final Graduation Check</li>
+</ul>
+</ul>
+<img border="0" height="40" onmouseout="refresh_sr()" onmouseover="stayon('sr_1')" src="Images/Academic-Advising/icons/hide.gif" width="205" />
+<div class="tooltip" onmouseout="refresh_sr()" onmouseover="stayon('sr_1')">
+<h4>Conduct Final Graduation Check</h4>
+<div class="scroll-pane">
+<p>No one likes surprises when it comes to graduation requirements. Prior to registering for your senior year classes, review your <a href="http://www.byui.edu/academic-discovery-center/students/academic-advising-and-class-planning/class-planning/degree-audit">degree audit</a> for any remaining graduation requirements. Then, visit your <a href="http://www.byui.edu/academic-discovery-center/about-us/locations">Satellite Academic Discovery Center</a> and have them review your graduation plan. Remember, even though you may have completed all of the requirements for your selected major/minor, you must have 120 credits to graduate.</p>
+</div>
+</div>
+<ul>
+<ul>
+<li class="ssitem" id="sr_2">Apply for Graduation by Deadlines</li>
+</ul>
+</ul>
+<img border="0" height="40" onmouseout="refresh_sr()" onmouseover="stayon('sr_2')" src="Images/Academic-Advising/icons/hide.gif" width="205" />
+<div class="tooltip" onmouseout="refresh_sr()" onmouseover="stayon('sr_2')">
+<h4>Apply for Graduation by Deadlines</h4>
+<div class="scroll-pane">
+<p>Apply for graduation using the <a href="http://www.byui.edu/graduation/apply.htm">online graduation application</a>. Be sure to apply by the correct deadline so that your name appears in the printed program and that appropriate graduation honors can be assigned.</p>
+</div>
+</div>
+<ul>
+<ul>
+<li class="ssitem" id="sr_3">Call Upon Professional Contacts for Placement Leads</li>
+</ul>
+</ul>
+<img border="0" height="40" onmouseout="refresh_sr()" onmouseover="stayon('sr_3')" src="Images/Academic-Advising/icons/hide.gif" width="205" />
+<div class="tooltip" onmouseout="refresh_sr()" onmouseover="stayon('sr_3')">
+<h4>Call Upon Professional Contacts for Placement Leads</h4>
+<div class="scroll-pane">
+<p>Finally, the results of your networking, relationship investments, and demonstrated competencies can pay off. Follow-up with your established network and professional contacts for job leads. Also, the Academic Discovery Center has provided a <a href="http://www.byui.edu/academic-discovery-center/students/preparing-for-and-finding-a-job-or-career/job-search-and-networking-resources">list of networking and job search tips</a>.</p>
+</div>
+</div>
+</div>
+<!-- end seniorStatus --></div>
+<!-- end studentStatus -->
+<div id="picture"><img alt="Advising Map img" height="418" src="Images/Academic-Advising/advising_map_landing_image.jpg" style="display: block;" width="463" /></div>
+<div id="know_your_major">
+<h1 class="cat">Know Your Major?</h1>
+<h3>If you know your major, you are ready to create a plan. You'll want to determine what courses you need next semester so you'll be ready to register. You will also want to create a schedule for each future semester, a plan that will lead you to graduation.</h3>
+<h4><a href="http://www.byui.edu/academic-discovery-center/students/academic-advising-and-class-planning/class-planning">Click here to visit the Class Planning page.</a></h4>
+</div>
+<!-- end know_your_major -->
+<div id="dont_know_your_major">
+<h1 class="cat">Don't Know Your Major?</h1>
+<h3>If you don't know your major, you will want to explore the majors we offer here at BYU-Idaho. You'll be interested in knowing what careers correspond with those majors. <a href="http://www.byui.edu/academic-discovery-center/students/career-and-major-exploration">Click here</a> to begin a search by either major or career; you'll find a wealth of information to help you find the right major for you.</h3>
+</div>
+<!-- end dont_know_your_major -->
+<div id="resourceBox">
+<div id="resourceBox1"><!-- Before You Get Here -->
+<div class="leftColumnResource">
+<h4 class="Hpara"><strong>RESOURCES</strong></h4>
+<h4 class="Hpara"><a href="http://wwww.byui.edu/admissions">Admissions</a></h4>
+<p class="Rpara"><strong>1) Accept Offer</strong> &ndash; Access <a href="http://www.byui.edu/response">byui.edu/response</a> to accept your admission offer, track assignment and set up your BYU-Idaho e-mail address.</p>
+<p class="Rpara"><strong>2) Declare Major</strong> &ndash; Carefully consider your major selection. For details on majors, click <a href="http://www.byui.edu/academic-discovery-center/students/career-and-major-exploration">here</a>.</p>
+<br />
+<h4 class="Hpara"><a href="http://www.byui.edu/getconnected">Get Connected</a></h4>
+<p class="Rpara"><strong>3) Prepare to attend Get Connected</strong> &ndash; <a href="http://www.byui.edu/getconnected">byui.edu/getconnected</a></p>
+<h4 class="Hpara"><a href="http://www.byui.edu/financialaid">Financial Aid</a></h4>
+<p class="Rpara"><strong>4) Apply for Financial Aid</strong> &ndash; Visit the <a href="http://www2.byui.edu/FinancialAid/">Financial Aid</a> office to learn what kind of financial assistance is available.</p>
+<h4 class="Hpara"><a href="http://wwww.byui.edu/housing">Housing</a></h4>
+<p class="Rpara"><strong>5) Select Student Housing</strong> &ndash; Student housing options can be found on the BYU-I Housing and Student Living Web site, <a href="http://www.byui.edu/housing">byui.edu/housing</a>.</p>
+</div>
+<div class="rightColumnResource">
+<h4 class="Hpara"><a href="http://www.byui.edu/studenthonor">Personal Honor</a></h4>
+<p class="Rpara"><strong>6) Learn About Personal Honor</strong> &ndash; Personal Honor is following the path of discipleship and learning to be like Christ&mdash;learning to think, feel, and act as He does. Personal Honor is also an agreement to abide by and code of conduct. Read the <a href="http://www2.byui.edu/StudentHonor/UniversityStandards.htm">Honor Code</a>.</p>
+<h4 class="Hpara"><a href="http://www.byui.edu/academic-discovery-center/students">Advising</a></h4>
+<p class="Rpara"><strong>7) Register for Classes</strong> &ndash; Start developing your four-year (bachelor&rsquo;s) or two-year (associate) course schedule prior to the start of school. Visit the <a href="http://www.byui.edu/academic-discovery-center/students">Academic Discovery Center</a> for assistance.</p>
+<h4 class="Hpara"><a href="http://www.byui.edu/learningmodel/src">Learning Model</a></h4>
+<p class="Rpara"><strong>8) Learn about the Learning Model</strong> &ndash; The Learning Model was created to deepen the learning experiences of students at BYU-Idaho. More information can be found at <a href="http://www.byui.edu/learningmodel/src">byui.edu/learningmodel/src</a>.</p>
+</div>
+</div>
+<div id="resourceBox2"><!-- Freshman Year -->
+<div class="leftColumnResource">
+<h4 class="Hpara"><strong>RESOURCES</strong></h4>
+<h4 class="Hpara"><a href="http://www.byui.edu/registraroffice.edu">Student Records &amp; Registration</a></h4>
+<p class="Rpara">1) Be aware of key academic policies and deadlines. Please note the following: class add/drop deadline, withdrawing, GPA requirement, and probation and suspension policies.</p>
+<h4 class="Hpara"><a href="http://www.byui.edu/academicsupport">Academic Support Centers</a></h4>
+<p class="Rpara">2) Academic Support Centers are designed to supplement classroom instruction and help students practice, sharpen, and master essential college skills. Tutoring is free. See what services are available. <a href="http://www.byui.edu/academicsupport">byui.edu/academicsupport</a></p>
+<h4 class="Hpara"><a href="http://www2.byui.edu/catalog/2011-2012/General%20Studies.pdf">Introductory Courses</a></h4>
+<p class="Rpara">3) Freshman year is a great time to take an <a href="http://www2.byui.edu/catalog/2011-2012/General%20Studies.pdf">introductory course</a>, with topics including major and career selection, college success, and academic major overviews.</p>
+</div>
+<div class="rightColumnResource">
+<h4 class="Hpara"><a href="http://www.byui.edu/academic-discovery-center/students">Academic Discovery Center-Major/Career Advising </a></h4>
+<p class="Rpara">4) Undecided as to your college major? The Academic Discovery Center has many <a href="http://www.byui.edu/academic-discovery-center/students/career-and-major-exploration">resources</a> to connect you to your major and career: major and career selection classes, major and career selection inventories, online major and career databases, and a career library.</p>
+<h4 class="Hpara"><a href="http://www.byui.edu/academic-discovery-center/about-us/locations" title="Satellite Academic Discovery Centers" target="_blank">Satellite Academic Discovery Centers</a></h4>
+<p class="Rpara">5) Love your declared major? Ready to sign up for your next semester of classes? Access your major&rsquo;s <a href="http://www.byui.edu/academic-discovery-center/students/academic-advising-and-class-planning/class-planning/recommended-course-sequences">eight-semester plan</a> and <a href="http://www.byui.edu/gradplan">create your customized graduation plan</a>. Then, visit with your <a href="http://www.byui.edu/academic-discovery-center/about-us/locations">Satellite Discovery Center</a> to have your plan reviewed before registering.</p>
+</div>
+</div>
+<div id="resourceBox3"><!-- Sophomore Year -->
+<div class="leftColumnResource">
+<h4 class="Hpara"><strong>RESOURCES</strong></h4>
+<h4 class="Hpara"><a href="http://www.byui.edu/academic-discovery-center/about-us/locations" title="Satellite Academic Discovery Centers" target="_blank">Satellite Academic Discovery Centers</a></h4>
+<p class="Rpara">1) Minors and clusters should be declared at the appropriate <a href="http://www.byui.edu/academic-discovery-center/about-us/locations">Satellite Academic Discovery Center</a>. Meet with your faculty mentor to discuss your career/graduate school goals and if your major/minor or major/cluster combination is preparing you well for those goals.</p>
+<h4 class="Hpara"><a href="http://www.byui.edu/academic-discovery-center/students/preparing-for-and-finding-a-job-or-career/career-preparation-services">Career Preparation Services</a></h4>
+<p class="Rpara">2) Jumpstart your future career by getting involved with the resources and programs at <a href="http://www.byui.edu/academic-discovery-center/students/preparing-for-and-finding-a-job-or-career/career-preparation-services">Career Preparation Services. </a></p>
+</div>
+<div class="rightColumnResource">
+<h4 class="Hpara"><a href="http://www.byui.edu/academicsupport">Academic Support Centers</a></h4>
+<p class="Rpara">3) Academic Support Centers are designed to supplement classroom instruction and help students practice, sharpen, and master essential college skills. Tutoring is free. See what services are available. <a href="http://www.byui.edu/academicsupport">byui.edu/academicsupport</a></p>
+</div>
+</div>
+<div id="resourceBox4"><!-- Junior Year -->
+<div class="leftColumnResource">
+<h4 class="Hpara"><strong>RESOURCES</strong></h4>
+<h4 class="Hpara"><a href="http://www.byui.edu/academic-discovery-center/students/preparing-for-and-finding-a-job-or-career/career-preparation-services">Career Preparation Services</a></h4>
+<p class="Rpara">1) We hope a significant amount of time during your junior year is spent working on your resume, practicing interviewing skills, and meeting potential employers. The<a href="http://www.byui.edu/academic-discovery-center/students/preparing-for-and-finding-a-job-or-career/career-preparation-services">Career Preparation Services</a> webpage has a listing of what you can do to prepare for your entry into the workforce. Remember to attend the <a href="http://www.byui.edu/academic-discovery-center/students/events-and-recruiting/discovery-fair-%28formerly-career-fair%29">Discovery Fair</a> each semester.</p>
+<h4 class="Hpara"><a href="http://www.byui.edu/academic-discovery-center/about-us/locations" title="Satellite Academic Discovery Centers" target="_blank">Satellite Academic Discovery Centers</a></h4>
+<p class="Rpara">2) The details of your graduation plan should now be finalized. However, your <a href="http://www.byui.edu/academic-discovery-center/about-us/locations">Satellite Academic Discovery Center</a> is available if you have questions regarding last-minute changes and general class planning.</p>
+</div>
+<div class="rightColumnResource">
+<h4 class="Hpara"><a href="http://www.byui.edu/academicsupport">Academic Support Centers</a><a></a></h4>
+<p class="Rpara">3) Academic Support Centers are designed to supplement classroom instruction and help students practice, sharpen, and master essential skills. Tutoring is free. See what services are available. <a href="http://www.byui.edu/academicsupport">byui.edu/academicsupport</a></p>
+</div>
+</div>
+<div id="resourceBox5"><!-- Senior Year -->
+<div class="leftColumnResource">
+<h4 class="Hpara"><strong>RESOURCES</strong></h4>
+<h4 class="Hpara"><a href="http://www.byui.edu/registraroffice.edu">Satellite Academic Discovery Centers</a></h4>
+<p class="Rpara">1) Prior to registering for your first semester of your senior year, make an appointment to review your graduation plan with your major&rsquo;s <a href="http://www.byui.edu/academic-discovery-center/about-us/locations">Satellite Academic Discovery Center</a>. We want to make sure there are no missing requirements as you prepare for graduation.</p>
+<h4 class="Hpara"><a href="http://www.byui.edu/registraroffice">Student Records &amp; Registration</a></h4>
+<p class="Rpara">2) Apply for graduation at <a href="http://www.byui.edu/registraroffice">Student Records &amp; Registration</a>. Be sure to apply by the correct deadline so that your name appears in the printed graduation program.</p>
+</div>
+<div class="rightColumnResource">
+<h4 class="Hpara"><a href="http://www.byui.edu/academic-discovery-center/students/preparing-for-and-finding-a-job-or-career/career-preparation-services">Career Services</a></h4>
+<p class="Rpara">Use your senior year as a time to be <a href="http://www.byui.edu/academic-discovery-center/students/preparing-for-and-finding-a-job-or-career">actively seeking full-time employment</a>.</p>
+</div>
+</div>
+</div>
+<!-- end resourceBox --></div>
+<div id="specialCases">
+<div id="nontraditional">
+<h3 class="map_headings">If you wish to attend school part-time* and need the flexibility to take courses around a busy work or family schedule, please consider the following:</h3>
+<hr /><a href="#top">Return to top</a> <br />
+<ul>
+<ul>
+<li>You can apply to be a Part-time student if you want to take 9 credits or less per semester (including on-campus courses, online courses, and Continuing Education courses), are not enrolled on a track at BYU-Idaho, and meet any of the following criteria:
+<ul>
+<li>are married</li>
+<li>have a bachelor's degree or higher</li>
+<li>are 25 years of age or older</li>
+<li>are a single parent</li>
+</ul>
+</li>
+</ul>
+</ul>
+<br />
+<ul>
+<ul>
+<li>The application for Part-time students is separate from other applications. Please see Admissions for details.</li>
+</ul>
+</ul>
+<br />
+<ul>
+<li>You may be eligible for financial aid as a Part-time student if you do not already have a bachelor&rsquo;s degree. Please contact Financial Aid for assistance.</li>
+<li>Academic advising for Part-time students is done in the Satellite Academic Discovery Center of your major or, if your major is General Studies or University Studies, in the main Academic Discovery Center in MC129.</li>
+</ul>
+<p>* Full-time students can also tailor their courses around busy work or family schedules. Please note that you must apply as a full-time student if you wish to take more than 9 credits per semester.</p>
+<br /><br /></div>
+<div id="online">
+<h3 class="map_headings">If you are considering online courses, you will want to be aware of the following:</h3>
+<hr /><a href="#top">Return to top</a> <br />
+<ul>
+<ul>
+<li>You can take online courses if you are on-track or off-track (as a regularly admitted Day student).</li>
+</ul>
+</ul>
+<br />
+<ul>
+<ul>
+<li>You may be eligible for an online Bachelor of University Studies (BUS) degree or an online Associate of General Studies (AGS) if you have previously attended Ricks College, BYU-Idaho, BYU-Hawaii or LDSBC.</li>
+</ul>
+</ul>
+<br />
+<ul>
+<ul>
+<li>You may be eligible for our Pathway program if you have never previously attended Ricks College, BYU-Idaho, BYU-Hawaii or LDSBC.</li>
+</ul>
+</ul>
+<br />
+<ul>
+<ul>
+<li>You can take online courses as a community patron through our Community Connections.</li>
+</ul>
+</ul>
+<br />
+<ul>
+<li>For more information, please go to <a href="http://www.byui.edu/online/" title="BYU-Idaho Classes Online" target="_blank">www.byui.edu/online/</a>.</li>
+</ul>
+<br /><br /></div>
+<div id="military">
+<h3 class="map_headings">If you are a student in the military who wishes to receive the GI Bill, you will need to know the following:</h3>
+<hr /><a href="#top">Return to top</a> <br />
+<ul>
+<ul>
+<li>The Department of Veterans Affairs will only pay for classes that show up as needed for graduation on their current BYU-Idaho degree audit.</li>
+</ul>
+</ul>
+<br />
+<ul>
+<ul>
+<li>VA students may receive payment for prerequisites to any class on their degree audit.</li>
+</ul>
+</ul>
+<br />
+<ul>
+<ul>
+<li>VA Students may receive payment for approved remedial classes if they obtain a letter from the applicable department chair.</li>
+</ul>
+</ul>
+<br />
+<ul>
+<ul>
+<li>VA Students may receive payment for approved class substitutions.</li>
+</ul>
+</ul>
+<br />
+<ul>
+<ul>
+<li>VA students must obtain approval for class substitutions before they have completed a class (VA requirement)</li>
+</ul>
+</ul>
+<br />
+<ul>
+<ul>
+<li>VA students must contact Academic Advising for help with properly declaring their major/minor/clusters.</li>
+</ul>
+</ul>
+<br />
+<ul>
+<ul>
+<li>VA students must contact the Financial Aid office and find information such as applying for <a href="http://www.byui.edu/FinancialAid/" title="Financial Aid" target="_blank">GI Bill Benefits</a>.</li>
+</ul>
+</ul>
+<br /><br /><br /></div>
+<div id="international">
+<h3 class="map_headings">If you are an International student, you will need to be aware of how to maintain your immigration status. Please consider the following:</h3>
+<hr /><a href="#top">Return to top</a> <br />
+<ul>
+<ul>
+<li>As an International student, you have a track assignment; however, an override to attend the off-track semester is allowed. The requirements for the override are to attend on-track semesters full time, and have at least a 2.5 GPA.</li>
+</ul>
+</ul>
+<br />
+<ul>
+<ul>
+<li>To maintain immigration status you need to take at least 12 credits each semester and only 3 online or distance learning credits can be counted towards the 12. (You can take more, but only 3 can be counted towards the 12)</li>
+</ul>
+</ul>
+<br />
+<ul>
+<ul>
+<li>Deferments, internships, and study abroad trips can all affect immigration status. International Services should be contacted beforehand for confirmation on status.</li>
+</ul>
+</ul>
+<br />
+<ul>
+<ul>
+<li>On-track employment is limited to 20 hours per week and students must be full-time. Off-track International students can work more than 20 hours with no credit requirements.</li>
+</ul>
+</ul>
+<br />
+<ul>
+<ul>
+<li>Be aware of academic support resources. BYU-Idaho has a wonderful Academic Support Center, located in McKay 290 (in the east wing on the 2nd floor of the McKay Library). Specifically, the center includes an English Transitional Center and courses like Eng 106-109 that benefit many of our International students.</li>
+</ul>
+</ul>
+<br />
+<ul>
+<li>For further information regarding International Students, please go to: <a href="http://www.byui.edu/International/" target="_blank">www.byui.edu/International/</a></li>
+</ul>
+<br /><br /></div>
+<div id="disabled">
+<h3 class="map_headings">If you are a student with disabilities, please be aware of the following:</h3>
+<hr /><a href="#top">Return to top</a> <br />
+<ul>
+<ul>
+<li>BYU-Idaho has a Disability Service Center that provides services for classroom and other university related activities and operates at the request of any BYU-I student with qualifying disabilities. <a href="http://www2.byui.edu/Disabilities/" title="BYU-Idaho Disabilities Home" target="_blank">Click here</a> for more information.</li>
+</ul>
+</ul>
+<br />
+<ul>
+<ul>
+<li>We have advisors in every college on campus that can assist you in planning for success.</li>
+</ul>
+</ul>
+<br />
+<ul>
+<ul>
+<li>Typically, to be classified as full-time, you must take at least 12 credits. In order to be eligible for scholarships from BYU-Idaho, you must take at least 14 credits and in order to complete a bachelor's degree requiring 120 credits in a traditional, eight-semester time frame, you would need at least 15 credits per semester. However, please be aware that you may seek accommodation to take fewer credits if it is appropriate for your situation.</li>
+</ul>
+</ul>
+<br />
+<ul>
+<li>BYU-Idaho has a wonderful Academic Support Center, located in McKay 290 (in the east wing on the 2nd floor of the McKay Library). You should know that the Academic Support Center is for everyone, and that tutoring is free. The Support Center includes services in Reading, Writing, Math, Content Tutoring, Study Skills, as well as an English Transitional Center. Over 8,000 students use the Support Center each semester, and 94% believe they receive better grades because of it. Remember to sign up quickly; the most repeated comment on student surveys is something like, "I wish I'd known about this sooner!"</li>
+</ul>
+<br /><br /></div>
+<div id="transfer">
+<h3 class="map_headings">As a new transfer student at BYU-Idaho, please consider the following:</h3>
+<hr /><a href="#top">Return to top</a> <br />
+<ul>
+<ul>
+<li>Students who are not yet admitted can look up course equivalencies on the student records and registration website under <a href="http://www.byui.edu/registrarsoffice/CollegeCourseEquivalencies.htm" title="Transfer Evaluation" target="_blank">transfer evaluation</a> to get an idea of how transfer courses will be processed.</li>
+</ul>
+</ul>
+<br />
+<ul>
+<ul>
+<li>BYU-Idaho accepts college-level transfer credits from regionally accredited colleges and universities. Technical and vocational courses are typically not accepted. (e.g. dental assisting courses) If BYU-I offers a direct course equivalency to the transfer course it will be accepted to fulfill a specific BYU-Idaho course credit. Once admitted to BYU-Idaho a transfer evaluation will be completed. Students will then be able to review their unofficial transcripts which will specify whether a course has a direct equivalency or if it has been accepted as elective credit. (Admitted students will be able to view their unofficial transcripts by logging into <a href="http://my.byui.edu">my.byui.edu</a> and looking in their student tab.) If BYU-Idaho does not offer an equivalent, the course will generally transfer as elective credit. Students may petition a specific department for an adjustment or substitution regarding certain transfer courses. Please contact the <a href="http://www.byui.edu/academic-discovery-center/about-us/locations" title="Satellite Academic Discovery Centers" target="_blank">Satellite Academic Discovery Center</a> for your major to obtain further information regarding these options.</li>
+</ul>
+</ul>
+<br />
+<ul>
+<ul>
+<li>Your transfer GPA will not factor into your BYU-Idaho GPA.</li>
+</ul>
+</ul>
+<br />
+<ul>
+<ul>
+<li>Transferring with an associate degree can affect/reduce your requirements here at BYU-Idaho. An Associate of Art or Science degree from a regionally accredited college or university will fulfill BYU-Idaho Foundations requirements except for the FDCNC 250 course and any required religion courses. Students transferring with an Applied Associate degree will have their courses individually evaluated. Religion credit earned at CES Institutes of Religion or other Church schools will transfer as elective credit when the following conditions are met: (1) the course number is 100 or above; (2) a letter grade is given; and (3) course was taken for credit. The religion requirement for students will be adjusted according to the amount of transfer credit. Please refer to the <a href="http://www.byui.edu/catalog/2011-2012/University%20Requirements.pdf" title="Religion Credit" target="_blank">following chart</a> (pg.53) to get an accurate idea of the amount of religion credit you will need as a transfer student in order to complete your religion requirement. Additionally, students completing courses at the BYU Jerusalem Center or Nauvoo may receive up to 6 credits in religion which will count toward BYU-Idaho religion requirement.*</li>
+</ul>
+</ul>
+<br />
+<ul>
+<ul>
+<li>Transfer credit over 10 years old must be assessed separately. College courses taken from a regionally accredited college or university that are ten or more years old will transfer to BYU-Idaho as elective credit and will require a petitioning process in order to meet major or minor requirements. Please see your declared major's <a href="http://www.byui.edu/academic-discovery-center/about-us/locations" title="Satellite Academic Discovery Centers" target="_blank">Satellite Academic Discovery Center</a> to work with an advisor on this process. Transfer courses older than ten years will not be able to be petitioned to fulfill Foundations requirements. If, however, you are transferring an associate degree that is older than ten years it will fulfill most foundation requirements except for FDCNC 250 and any unfinished religion.</li>
+</ul>
+</ul>
+<br />
+<ul>
+<ul>
+<li>Students are required to complete a total of 30 upper division credits at BYU-Idaho to receive their degree.</li>
+</ul>
+</ul>
+<br />
+<ul>
+<ul>
+<li>To be classified as full-time, you must take at least 12 credits. In order to be eligible for scholarships from BYU-Idaho, you must take at least 14 credits. In order to complete a bachelor's degree requiring 120 credits in a traditional, eight-semester time frame, you must take at least 15 credits per semester. We encourage you to take at least 12 credits, and closer to 15, each semester. This will allow you to complete your degree in a timely manner as well as be successful in your coursework.</li>
+</ul>
+</ul>
+<br />
+<ul>
+<li>AP, concurrent enrollment or CLEP credits may fulfill Foundations requirements. Many AP and concurrent enrollment classes will satisfy GE/Foundations requirements and thus hasten completion of your degree. AP scores must be on an official Advanced Placement transcript and should be sent to our Student Records and Registration office. For a complete list of AP credit given, click <a href="http://www2.byui.edu/catalog/2011-2012/Academic%20Policies.pdf">here</a>. Concurrent Enrollment (CE) classes will be evaluated and accepted using the articulation guidelines established by our Transfer Evaluation department. CE classes may satisfy Foundations/GE requirements, may be the equivalent of a class currently offered at BYU-Idaho, or may be accepted as elective credit. For a list of classes from the university or college through which you took your CE classes and to see how those classes may transfer, click <a href="https://my.byui.edu/ICS/Academics/Transfer_Courses.jnz" title="CE class lists">here</a>.</li>
+</ul>
+<br /><br /></div>
+</div>
+<!-- end specialCases --> <!-- end container --></div>
+<!-- end innerWrapper -->]]></BodyCopy><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x17690" Name="SiteControl" label="Site Control" readonly="true" hidden="true" required="false" CompTypes="SiteControl" Expanded="false"/></BlankPage>

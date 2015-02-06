@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<CampaignInfo ID="x14692" Name="Search" Layout="general_campaign.xsl"><Campchild type="boolean" label="Check if this page is a child of a campaign home page." readonly="false" required="false" hidden="false">true</Campchild><Title type="string" label="Title" readonly="false" hidden="false" required="true">Search</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Try the new and improved "search".</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="List" List="MainImage" Name="MainImages" label="Images" readonly="false" hidden="false" required="true" Width="" Border="" Alignment="" Expanded="true" Height=""><MainImage type="imagefile" readonly="false" hidden="false" required="true" Width="" Border="" Alignment="" Expanded="false" Height="">Admin_Offices/university_communications/campaigns/beta_campaign/explore/betaSearch.jpg</MainImage></xPower><ThumbnailImage type="imagefile" label="Navigation Thumbnail (31 x 20) required for child pages only" readonly="false" hidden="false" required="false" Width="" Height="" Alignment="" Border="" Expanded="false">Admin_Offices/university_communications/campaigns/beta_campaign/icons/icon_02.png</ThumbnailImage><xPower Type="GroupStart" GroupStart="" Name="IntroText" label="Intro Text" readonly="false" hidden="false" required="false" Expanded="true"><IntroCopy type="dhtml" label="Intro Text" readonly="false" hidden="false" required="false"><![CDATA[<p>Search engines are a popular way to navigate the BYU-Idaho Web site.  But sometimes the results are out-of-date, duplicated, irrelevant, or  missing altogether. To address this, a Google search appliance has been  installed directly on campus. This new tool will continuously monitor  BYU-Idaho Web pages to provide the most timely search results.</p>
+<p><a href="x15018.xml" title="Tell Us What You Think" target="_blank">Give your feedback</a></p>
+<p><a href="x77.xml">Visit BETA site </a><span style="font-size: x-small;"><br /></span></p>]]></IntroCopy></xPower><BodyCopy type="dhtml" label="Optional Content" readonly="false" hidden="false" required="false"><![CDATA[<div class="cwrap">
+<div class="ccl">
+<p><strong>Global search bar </strong></p>
+<ul>
+<li>Every page has a global search bar in the header to search all public BYU-Idaho sites.</li>
+</ul>
+</div>
+<img alt="Search" height="166" src="Images/Admin_Offices/university_communications/campaigns/beta_campaign/search/search.jpg" title="Search in college depts" width="435" /></div>
+<div class="cwrap">
+<div class="ccl">
+<p><strong>Local search bar </strong></p>
+<ul>
+<li>Department and office sub-sites have a their own search bar that searches only their information.</li>
+<li>The results from this search bar will be much more refined and helpful if you know which site to search in.</li>
+</ul>
+</div>
+<img alt="Global Search" height="185" src="Images/Admin_Offices/university_communications/campaigns/beta_campaign/search/topSearch.jpg" title="Search Globally" width="435" /></div>
+<div class="cwrap">
+<div class="ccl">
+<p><strong>Google Mini</strong></p>
+<ul>
+<li>Google Mini has been adopted as BYU-Idaho's new search engine-a major improvement from the previous search function.</li>
+<li>The new site is better optimized for search indexing and should, over time, provide better results to all engines.</li>
+</ul>
+</div>
+<img alt="Global Search" height="224" src="Images/Admin_Offices/university_communications/campaigns/beta_campaign/search/gmini.jpg" title="Search Globally" width="435" /></div>]]></BodyCopy><xPower Type="Component" Component="x14686" Name="CampaignNav" label="Campaign Navigation" readonly="false" hidden="false" required="true" CompTypes="CampaignNavigationComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x15497" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></CampaignInfo>

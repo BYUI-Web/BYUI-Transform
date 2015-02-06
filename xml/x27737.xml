@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.70 - http://www.ingeniux.com ***-->
+<PolicyPage ID="x27737" Name="Check Requests" Layout="general_Policy.xsl"><Title type="string" label="Policy Title" readonly="false" hidden="false" required="true">Check Requests and Invoices</Title><Abstract type="string" label="Policy Abstract" readonly="false" hidden="false" required="true">Explanation of why and how to use a Check Request
+</Abstract><Date type="date" label="Revision Date" readonly="false" hidden="false" required="true" display="localdateshort" UTC="true">20130617T18:00:00</Date><BodyCopy type="dhtml" label="Policy" readonly="false" hidden="false" required="false"><![CDATA[<h4 style="font-weight: bold;">Policy</h4>
+<p style="font-family: Verdana, Arial, sans-serif;">Check Requests should be used for purchases and payments under $2,500 where a Purchasing Card would be inappropriate or for any amount which would not be appropriate to process a Purchase Requisition through the Purchasing Department; e.g.,&nbsp;moving expenses.</p>
+<p style="font-family: Verdana, Arial, sans-serif;">Invoices with a total value of $2,500 or less will be paid by the Accounts Payable Office without further documentation.&nbsp;If it is a payment for services, honorariums, stipends, services, lessons, or consultations the completed independent contractor form is required.</p>
+<h4 style="font-weight: bold;">Procedures</h4>
+<h5 style="font-weight: bold;">Check Requests</h5>
+<ol style="font-family: Verdana, Arial, sans-serif; padding-left: 15px;">
+<li>Check Requests which are in the Accounting Office by 5:00 pm will usually be processed the next morning and mailed that afternoon. If a check must be mailed the next day, the requester should contact the Payables clerk to make sure it is processed and mailed on time. Checks are printed at 9:15 am and mailed by 1:00 pm each day.</li>
+<li>Check Requests should be completely filled out before submission to the Accounting Office. Appropriate invoices should be attached. Any missing pertinent information will delay the processing of a check. Information needed on the Check Request includes the following:
+<ul style="font-family: Verdana, Arial, sans-serif; padding-left: 30px; list-style-type: circle;">
+<li>The date, name, and address must be completed. A check will not be written to a person who has signed the request.</li>
+<li>The Social Security number (or Employer I.D number) must be entered for payments to employees or students.</li>
+<li>The Travel Authorization/Expenditure (TA)number or Group Travel Expenditures (GTE) number should be on all requests relating to travel.</li>
+<li>The explanation of the payment must have enough information to determine the full purpose of the request.</li>
+<li>The account number(s) must be valid.</li>
+<li>The signature on the request must be by a person who has authorization to expend funds from the listed account(s). If a check request is to an account custodian then their supervisor must sign the check request.</li>
+</ul>
+</li>
+<li>The resulting check will be mailed to the address shown unless the Hold at Cashiers box or the Direct Deposit to employees bank account box is marked. If the hold at Cashiers box is marked, then the check will be given only to the party or company representative whose name appears on the check. Any exceptions must be approved by the Accounting Office. If the requester wishes to have any document mailed with the check, he should attach it to the Check Request with a note.</li>
+<li>The Check Request number will appear in the reference column on the General Ledger which is accessed from the Monthly Financial Reports on the internet.</li>
+</ol>
+<h5 style="font-weight: bold;">Vendor Invoices</h5>
+<ol style="font-family: Verdana, Arial, sans-serif; padding-left: 15px;">
+<li>Generally, any invoice received from a vendor for more than $2500 should have been ordered on a Purchase Order. Any exception to this must be approved by the Disbursement Supervisor in the Accounting Office.</li>
+<li>Invoices for goods received in amounts less than $2500 will be paid without further documentation if the following appears on the invoice:
+<ul style="font-family: Verdana, Arial, sans-serif; list-style-type: circle; padding-left: 30px;">
+<li>A clear description of the goods. The description provided by the vendor is usually sufficient.</li>
+<li>Mailing address.</li>
+<li>A valid account number(s) to be charged.</li>
+<li>The signature of an authorized employee on the account(s) being charged.</li>
+</ul>
+</li>
+<li>Invoices for services should be accompanied by an Independent Contractor form so that the proper Tax I.D. number is recorded.</li>
+<li>If the check is to be picked up at the Cashiers Office, the invoice should be attached to a prepared Check Request.</li>
+<li>The invoice number (or the Check Request number if used) will appear in the reference column on the General Ledger which is accessed from the Monthly Financial Reports on the internet.</li>
+</ol>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="Policy" label="Policy" readonly="false" hidden="false" required="false" CompTypes="PolicyNavigationComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="true"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">true</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x18419" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></PolicyPage>

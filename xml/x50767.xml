@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x50767" Name="Header - Be Informed" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;style type="text/css"&gt;&lt;!--
+#header {
+border-bottom: 2px solid darkgray;
+    width: 950px;
+    height: 147px;
+}
+
+#header &gt; div {
+    float:left;
+    padding: 15px;
+    height: 117px;
+}
+
+#header &gt; div &gt; img{
+    padding-top:15px;
+}
+
+span.make-link {
+	position:absolute; 
+	width:100%;
+	height:100%;
+	top:0;
+	left: 0;
+	z-index: 1;
+}
+
+#logo{
+width:350px;
+position:relative;
+}
+
+.header-button{
+margin:0 15px 0 15px;
+width:8s0px;
+position:relative;
+border-left-style: dotted;
+}
+
+#header-tools{
+width:232px;
+}
+
+#header-be-informed-button{
+	background-color:#E0E0E0;
+}
+div.vertical-separator {
+	margin: 15px 0;
+	padding: 0 !important;
+	float: left;
+	border-left: 1px dotted #808080;
+	width: 0;
+	height: 113px !important;
+}
+--&gt;&lt;/style&gt;
+
+&lt;div id="header"&gt;
+&lt;div id="logo"&gt;&lt;a href="x50270.xml"&gt;&lt;span class="make-link"&gt;&lt;/span&gt;&lt;img alt="Join the Conversation site logo." height="109" src="Images/campaigns/join-the-conversation/logo(0).png" width="305" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="vertical-separator"&gt;&lt;/div&gt;
+&lt;div class="header-button" id="header-be-informed-button"&gt;&lt;a href="x50274.xml"&gt;&lt;span class="make-link"&gt;&lt;/span&gt;&lt;img class="button-img" height="69" src="Images/campaigns/join-the-conversation/icon-be-informed.png" style="display: block; margin-left: auto; margin-right: auto;" width="69" /&gt;&lt;/a&gt;
+&lt;h3 style="text-align: center; margin-top: 7px;"&gt;Be&lt;br /&gt;Informed&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class="vertical-separator"&gt;&lt;/div&gt;
+&lt;div class="header-button" id="header-be-heard-button"&gt;&lt;a href="x50273.xml"&gt;&lt;span class="make-link"&gt;&lt;/span&gt;&lt;img class="button-img" height="69" src="Images/campaigns/join-the-conversation/icon-be-heard.png" style="display: block; margin-left: auto; margin-right: auto;" width="69" /&gt;&lt;/a&gt;
+&lt;h3 style="text-align: center; margin-top: 7px;"&gt;Be&lt;br /&gt;Heard&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class="vertical-separator"&gt;&lt;/div&gt;
+&lt;div class="header-button" id="header-tools"&gt;&lt;a href="x50271.xml"&gt;&lt;span class="make-link"&gt;&lt;/span&gt;&lt;img class="button-img" height="69" src="Images/campaigns/join-the-conversation/icon-tools.png" style="display: block; margin-left: auto; margin-right: auto;" width="177" /&gt;&lt;/a&gt;
+&lt;h3 style="text-align: center; margin-top: 7px;"&gt;Communication Tools&lt;br /&gt;and Resources&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;</ContentSnippet></ContentSnippet>

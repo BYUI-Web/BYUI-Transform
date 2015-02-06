@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<CustomPageWithReturn ID="x18323" Name="Events " Layout="general_content.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Graduation Events</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Choose which semester you will graduate in</Abstract><xPower Type="GroupStart" GroupStart="" Name="LeftNavGroup" label="Left Nav Return" readonly="false" hidden="false" required="false" Expanded="true"><ParentName type="string" label="Parent Name" readonly="false" hidden="false" required="false">Back to Graduation Home Page</ParentName><xPower Type="Link" Link="x45721" Name="Link" label="Link" readonly="false" hidden="false" required="true" LinkText="Graduation Events" Target="" Expanded="false" URL=""/></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+#navlist li {
+display: inline;
+list-style-type: none;
+margin-left: 153px;
+}
+
+#monthlist li{
+  display: inline;
+  list-style-type: none;
+  margin-left: 153px;
+}
+--></style>
+<div id="navlist">
+<ul>
+<li><a href="x18683.xml"><img alt="Winter Graduation Link" height="200" onmouseout="this.src='Images/Admin_Offices/Student Record and Registration/GradPhoto/WinterBanner1.jpg';" onmouseover="this.src='Images/Admin_Offices/Student Record and Registration/GradPhoto/WinterBannerAlt1.jpg';" src="Images/Admin_Offices/Student Record and Registration/GradPhoto/WinterBanner1.jpg" width="200" /></a> <a href="x22048.xml"><img alt="Spring Graduation Link" height="200" onmouseout="this.src='Images/Admin_Offices/Student Record and Registration/GradPhoto/springThing.jpg';" onmouseover="this.src='Images/Admin_Offices/Student Record and Registration/GradPhoto/springThingAlt.jpg';" src="Images/Admin_Offices/Student Record and Registration/GradPhoto/springThing.jpg" width="200" /></a> <a href="x18678.xml"><img alt="Fall Graduation Link" height="200" onmouseout="this.src='Images/Admin_Offices/Student Record and Registration/GradPhoto/FallGradBanner.jpg';" onmouseover="this.src='Images/Admin_Offices/Student Record and Registration/GradPhoto/FallGradBannerAlt.jpg';" src="Images/Admin_Offices/Student Record and Registration/GradPhoto/FallGradBanner.jpg" width="200" /></a></li>
+</ul>
+</div>
+<div id="monthlist">
+<ul>
+<li><img height="60" src="Images/Admin_Offices/Student Record and Registration/GradPhoto/winter date.png" width="200" /><img height="60" src="Images/Admin_Offices/Student Record and Registration/GradPhoto/Spring date.png" width="200" /><img height="60" src="Images/Admin_Offices/Student Record and Registration/GradPhoto/falldatesNew.png" width="200" /></li>
+</ul>
+</div>
+<!--                END OF LIST                  -->]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x44654" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></CustomPageWithReturn>

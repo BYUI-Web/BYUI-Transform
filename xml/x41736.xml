@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.143 - http://www.ingeniux.com ***-->
+<Content ID="x41736" Name="Application Process" Layout="byuidefault.xsl" IsComponent="false">
+	<Title type="string" label="Title" readonly="false" hidden="false" required="true">Application Process</Title>
+	<Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Application Process</Abstract>
+	<IsResponsive type="boolean" label="Mobile Ready (responsive)" readonly="false" hidden="false" required="false">false</IsResponsive>
+	<xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false">
+		<BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/>
+		<MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/>
+		<NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow>
+		<NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex>
+		<NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP>
+		<Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority>
+	</xPower>
+	<xPower Type="GroupStart" GroupStart="" Name="SocialMedia" label="Social Media" readonly="false" hidden="false" required="false" Expanded="false">
+		<SocialTitle type="string" label="Title" readonly="false" hidden="false" required="false"/>
+		<SocialDescription type="string" label="Description" readonly="false" hidden="false" required="false"/>
+		<SocialImage type="imagefile" label="Image" readonly="false" hidden="false" required="false" Expanded="false" Width="" Height="" Border="" HSpace="" VSpace="" Alignment=""/>
+		<SocialVideo type="mediafile" label="Video" readonly="false" hidden="false" required="false" Expanded="false"/>
+		<SocialAudio type="string" label="Audio" readonly="false" hidden="false" required="false"/>
+		<SocialSeeAlso type="string" label="See Also" readonly="false" hidden="false" required="false"/>
+	</xPower>
+	<xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false">
+		<HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle>
+		<Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation>
+	</xPower>
+	<BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height="">
+		<![CDATA[<style><!--
+svg#printer-icon {
+  height: 40px;
+  width: 40px;
+  vertical-align: middle;
+  border-radius: 100%;
+-webkit-border-radius: 100%;
+-moz-border-radius: 100%;
+-o-border-radius: 100%;
+  border: 1px solid;
+  padding: 7px;
+}
+
+div.print:hover svg#printer-icon {
+  background: rgb(50, 107, 169);
+  fill: white;
+}
+
+svg.education-icon {
+width: 55px;
+vertical-align: middle;
+border: 1px solid rgb(50, 107, 169);
+fill: rgb(50, 107, 169);
+border-radius: 100%;
+-webkit-border-radius: 100%;
+-moz-border-radius: 100%;
+-o-border-radius: 100%;
+margin-right: .5em;
+}
+
+#biography-template:hover svg.education-icon {
+background: rgb(50, 107, 169);
+  fill: white;
+}
+
+h3 {
+margin-bottom: 30px;
+margin-top: 41px;
+}
+
+.inverted {
+padding: 10px;
+border: 1px solid gray;
+background: gray;
+color: white;
+}
+
+main .type .inverted, main .type .inverted a {
+color: white;
+}
+
+.inverted * {
+color: white;
+}
+
+.inverted a, .inverted a:hover {
+font-weight: bold;
+}
+
+.underline {
+border-bottom: 1px solid gray;
+font-weight: bold;
+margin-top: 25px;
+}
+
+div.print h3 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icon {
+  fill: rgb(50, 107, 169);
+  border-color: rgb(50, 107, 169);
+}
+
+div#application-process li {
+font-size: 27px;
+font-family: serif;
+}
+
+div#application-process li p, div#application-process li strong, div#application-process li em, div#application-process li a {
+font-size: 17px;
+font-family: sans-serif;
+}
+--></style>
+<p><img height="252" src="Images/education-human-dev/Field_Services_Office/110526ElementaryEd-banner650.jpg" width="650" /></p>
+<p class="inverted">Students should apply to student teach up to 18 months before the semester they intend to be placed. <a href="x19531.xml" title="Student Teaching">Deadlines</a> for application are listed on the <a href="x19531.xml" title="Student Teaching">Student Teaching</a> page.</p>
+<div class="row print"><a href="Documents/education-human-dev/Field_Services_Office/Instructions for Application Checklist 5-16-2014.pdf" title="Printable Application Checklist">[x97372]</a>
+<h3><a href="Documents/education-human-dev/Field_Services_Office/Instructions for Application Checklist 5-16-2014.pdf" title="Printable Application Checklist">Printable Checklist</a></h3>
+</div>
+<hr />
+<h4>To apply and be eligible to be placed in a school for student teaching, the application includes:</h4>
+<div id="application-process"><ol>
+<li>
+<h3>Student Teaching Online Application</h3>
+<p>This <a href="http://web.byui.edu/studentteaching/" target="_self">application</a> allows a student to declare their student teaching semester. This must be done before continuing to the <em>P</em><em>reparation Plan</em>.</p>
+</li>
+<li>
+<h3>Teacher Candidate Preparation Plan (Prep Plan)</h3>
+<p>The Prep Plan is a document that gives the status on your completion of your required courses and testing. It will have to be carefully reviewed and signed by you, your Academic Advising Center for your major (and minor, if Secondary Education), and the Field Services Office.</p>
+<p>Please plan on a minimum of ten minutes for each visit.</p>
+<p>Bring your printed Prep Plan and a copy of your approved Grad Plan to your content area Academic Discovery Center to begin the Prep Plan.</p>
+</li>
+<li>
+<h3>Photo</h3>
+<p>The photo will be attached to your personal bio, which will be given to potential principals for student teaching.</p>
+<p>The campus photography studio (MCK Library 356) will take your photo. This service is <strong>free</strong> to you unless you choose to purchase more prints. You may go at any time between <strong>8 am and 5 pm</strong>; you do not need an appointment.</p>
+<p>The photo studio will send our office your photo. You do not need to bring it in yourself.</p>
+</li>
+<li>
+<h3>Complete Your Personal Bio</h3>
+<p>The personal bio is a brief, <strong>one-page</strong> essay which <strong>may include</strong>: family background, interests, skills that will be utilized in teaching, education, and reasons for choosing teaching as a profession. Your personal biography should <strong>emphasize your philosophy of teaching</strong>. For more details about the bio, please view the<a href="Documents/education-human-dev/Field_Services_Office/Instructions for Application Checklist 2-3-12.pdf"> application checklist pdf.</a></p>
+<p>To continue, copy and paste your completed biography into the template below. You will be <strong>filling</strong> in the <strong>grey spaces</strong>.</p>
+<h4 id="biography-template"><a href="Documents/education-human-dev/Field_Services_Office/Personal Intro Template.doc" title="Personal Biography Template">[x95586]</a><a href="Documents/education-human-dev/Field_Services_Office/Personal Intro Template.doc" title="Personal Biography Template"></a><a href="Documents/education-human-dev/Field_Services_Office/Personal Intro Template.doc" title="Personal Biography Template">Biography Template</a></h4>
+<p><strong>We will not accept your personal biography unless it is in this template.</strong></p>
+</li>
+<li>
+<h3>Submit Your Personal Bio</h3>
+<p>Send the completed template as an <strong>attachment</strong> to <a href="mailto:fieldservices@byui.edu">fieldservices@byui.edu</a>.</p>
+<p><em>It is a wise idea to save your completed template to your computer for backup.</em></p>
+</li>
+<li>
+<h3>Background Clearance for the State of Idaho (Fingerprinting)</h3>
+<h4 class="inverted">All Education majors must be fingerprinted for Idaho regardless of their intended destination for student teaching or career teaching.</h4>
+<h4 class="underline">Where</h4>
+<p>Field Services Office. (HIN 325)</p>
+<h4 class="underline">When</h4>
+<p>Must be completed prior to the application deadline for the semester you plan to student teach.</p>
+<h4 class="underline">Time</h4>
+<p>No appointment needed. Come to the Field Services Office between <strong>8:00 A.M.</strong> and <strong>4:30 P.M.</strong></p>
+<h4 class="underline">Photo ID</h4>
+<p>Government-issued ID: <em>driver's license, a state issued photo ID, passport, a military card with a photo included, etc. . .</em></p>
+<h4 class="underline">Utah and Arizona Student Teachers</h4>
+<p>You will be asked to complete a second set of fingerprints if you are student teaching in Arizona or Utah. This will occur after you have applied and have been assigned.</p>
+</li>
+</ol><hr />
+<p class="inverted">Student Teaching placements will not be considered until all of the above application requirements have been met.</p>
+</div>
+<h3 class="underline">Student Resources</h3>
+<ul>
+<li><a href="http://www.ets.org/praxis/idaho/requirements" title="Idaho Praxis Exam">Praxis Information</a></li>
+<li><a href="Documents/education-human-dev/Field_Services_Office/Preparation Packet for Student 1-27-14.docx" title="Field Services Preparation Packet">Field Services Preparation Packet</a></li>
+<li><a href="x50559.xml" title="Partner Schools Interviews">Partner Schools Interviews</a></li>
+</ul>]]></BodyCopy>
+	<xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="">
+		<xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote;LeftColumnImageComponent">
+			<xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote;LeftColumnImageComponent"/>
+		</xPower>
+		<xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/>
+		<xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/>
+		<xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/>
+	</xPower>
+	<xPower Type="Component" Component="x26132" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/>
+	<xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="true" Component="" CompTypes="ContentSnippet">
+		<xPower Type="Component" Component="x97372" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/>
+		<xPower Type="Component" Component="x97856" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/>
+		<xPower Type="Component" Component="x95586" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/>
+	</xPower>
+	<xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/>
+	<xPower Type="Component" Component="x19230" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/>
+</Content>

@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content ID="x43774" Name="Disciple" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Disciple</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Disciple</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+#page{width: 710px; height: auto; min-height: 600px;}
+    #page #header{width: 710px; height: 265px;}
+    #page #content{width: 78%; height: auto; min-height: 300px; float: left; padding: 1%;}
+    #page #content p{padding-left: 5px; border: none;}
+
+    #page #box{width: 48%; height: 125px; margin: 1%; position: relative; float: left;}
+    #page #box #info{height: 125px; display: none; background-image: url("Images/student-support/grad.png"); background-repeat: no-repeat; background-size: 100% 100%;}
+    #page #box #info h3, #page #box #info p{margin: 0px; padding: 2.5px 5px; color: white;}
+
+    #page #content table{
+        width: 553.8px;
+        font-size: 13px;
+    }
+    #page #content table #top{
+        text-align: left; padding: 5px 10px 10px 10px; 
+        font-weight: bold; color: black;
+        background-image: url('http://www.byui.edu/Images/student-support/Get Connected/winter.jpg'); background-size: 100% 100%;}
+    #page #content table span{float: right;}
+    #page #content table td{border-color: #dcdcdc; border-width: .01px; border-left-style: solid; color: black;}
+    .color #time, .color #event, .color #place{background-color: #D9E9F7;}
+    .color:hover #time, .color:hover #event, .color:hover #place{background-color: #c4ddf3;}
+    #page #content table .white{background-color: #F3F8FC;}
+    #page #content table .white:hover{background-color: #dfecf7;}
+    #page #content table #cap{width: 100%;}
+    #page #content table #time{width: 100px; padding: 10px 5px 5px 5px; border-style: none;}
+    #page #content table #event{padding: 10px 5px 5px 5px;}
+    #page #content table #place{width: 150px; padding: 10px 5px 5px 5px; text-align: right;}
+
+    #page #box:hover #info{display: block;}
+    #page #box:hover{}
+
+    #page #buttons{width: 18%; height: auto; min-height: 300px; float: left; padding: 1%; text-align: center;}
+    #page #buttons div{width: 100px; height: 100px; margin-left: auto; margin-right: auto; margin-top: 10px; margin-bottom: 20px;}
+    #page #buttons .one{background-image: url('Images/student-support/volunteers/newsletter.png');}
+    #page #buttons .two{background-image: url('Images/student-support/volunteers/sharepoint.png');}
+#page #buttons .three{background-image: url('Images/student-support/volunteers/disciple.png');}
+#page #buttons .four{background-image: url('Images/student-support/volunteers/retreat.png');}
+#page #buttons .five{background-image: url('Images/student-support/volunteers/handbook.png');}
+    #page #buttons .one:hover{background-image: url('Images/student-support/volunteers/newsletter_rollover.png');}
+    #page #buttons .two:hover{background-image: url('Images/student-support/volunteers/sharepoint_rollover.png');}
+#page #buttons .three:hover{background-image: url('Images/student-support/volunteers/disciple_rollover.png');}
+#page #buttons .four:hover{background-image: url('Images/student-support/volunteers/retreat_rollover.png');}
+#page #buttons .five:hover{background-image: url('Images/student-support/volunteers/handbook_rollover.png');}
+--></style>
+<div id="page">
+<div id="header"><img alt="Student Support Current Volunteers" height="266" src="Images/student-support/volunteers/Current-volunteers.jpg" title="Student Support Current Volunteers" width="710" /></div>
+<div id="content" style="text-align: left; width: 69.3%; height: 832px;">
+<h1>Disciple Leadership Training</h1>
+<p>Here you can find this semester's schedule as well as links to resources and materials to help you prepare for these trainings.</p>
+<hr />
+<h1>Schedule</h1>
+<ul>
+<li>Times:&nbsp; 3:05 - 4:00 p.m.</li>
+<li>Location:&nbsp; MC 378 for all dates except April 29.</li>
+</ul>
+<table cellspacing="0" style="width: 667px; height: 622px;">
+<tbody>
+<tr id="title">
+<td style="text-align: center; border-left-style: none; border-bottom-style: solid;"><strong>Date</strong></td>
+<td style="text-align: center; border-bottom-style: solid;"><strong>Council/Person Responsible</strong></td>
+<td style="text-align: center; border-bottom-style: solid;"><strong>Materials</strong></td>
+</tr>
+<tr class="color" style="background-color: #bde3f8;">
+<td><strong><strong><strong>April 22</strong></strong></strong></td>
+<td><strong>&nbsp;<strong>Purpose of DLT / Inviting Others</strong></strong></td>
+<td>
+<p>TBD</p>
+</td>
+</tr>
+<tr class="color" style="background-color: #bde3f8;">
+<td><strong><strong>April 29</strong></strong></td>
+<td><strong>&nbsp;<strong>Guest Speaker: Bro. Harris, Dean of Students</strong></strong>&nbsp;&nbsp;<br />&nbsp;Meet in the Gardens by the Ricks Building</td>
+<td>
+<p>TBD</p>
+</td>
+</tr>
+<tr class="color" style="background-color: #bde3f8;">
+<td><strong><strong>May 5</strong></strong></td>
+<td><strong>&nbsp;<strong>Involvement Council</strong></strong></td>
+<td>
+<p>TBD</p>
+</td>
+</tr>
+<tr class="color">
+<td><strong>May 13</strong></td>
+<td><strong>Student Representative Council</strong></td>
+<td>
+<p>TBD</p>
+</td>
+</tr>
+<tr class="tableRow" style="background-color: #bde3f8;">
+<td><strong>May 20</strong></td>
+<td><strong>Student Ambassadors Council</strong></td>
+<td>TBD</td>
+</tr>
+<tr class="color">
+<td><strong>May 27</strong></td>
+<td><strong>Bro. Miyasaki, Student Services &amp; Activities V.P.</strong></td>
+<td>Nothing</td>
+</tr>
+<tr class="color">
+<td><strong>June 3</strong></td>
+<td><strong>Communications&nbsp;Council&nbsp;</strong></td>
+<td>TBD</td>
+</tr>
+<tr class="color" style="background-color: #d0eafa;">
+<td><strong>June 10</strong></td>
+<td><strong>Get Connected Council</strong></td>
+<td>TBD</td>
+</tr>
+<tr class="color" style="background-color: #ffffff;">
+<td><strong>June 17</strong></td>
+<td><strong>Student Support Full-Time Coordinators</strong></td>
+<td>TBD</td>
+</tr>
+<tr class="color" style="background-color: #bde3f8;">
+<td><strong>June 24</strong></td>
+<td><strong>Director Interviews -</strong> if selected, must be able to attend Director's Retreat June 27-28</td>
+<td>TBD</td>
+</tr>
+<tr class="color" style="background-color: #ffffff;">
+<td><strong>July 1</strong></td>
+<td><strong>Online Support&nbsp;Council&nbsp;</strong></td>
+<td>TBD</td>
+</tr>
+<tr class="color" style="background-color: #bde3f8;">
+<td><strong>July 8</strong></td>
+<td><strong>Closing DLT:&nbsp; Area Director / Bro. J. / Councils</strong></td>
+<td>TBD</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x19075" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

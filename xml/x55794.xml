@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x55794" Name="FAQ's" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">FAQ's</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">FAQ's</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<title>Untitled document</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".lists,.answers").hide();  
+            $("h3.faqsheaders").css({"text-decoration":"underline","color":"gray","font-size":"150%","padding":"5px","margin":"5px","width":"220px"});      
+        $("h3#applicationprocess").css({"text-decoration":"none","color":"black","font-size":"150%","padding":"5px","margin":"5px","width":"220px"});
+        $("#applicationprocesslist").show();
+        $("h3#applicationprocess").click(function(){
+            $(".lists,.answers").hide();
+            $("h3.faqsheaders").css({"text-decoration":"underline","color":"gray","font-size":"150%","padding":"5px","margin":"5px","width":"220px"});
+            $("h3#applicationprocess").css({"text-decoration":"none","color":"black","font-size":"150%","padding":"5px","margin":"5px","width":"220px"});
+            $("#applicationprocesslist").show();
+        });
+        $("h3#clinicalscourses").click(function(){
+            $(".lists,.answers").hide();        
+            $("h3.faqsheaders").css({"text-decoration":"underline","color":"gray","font-size":"150%","padding":"5px","margin":"5px","width":"220px"});
+            $("h3#clinicalscourses").css({"text-decoration":"none","color":"black","font-size":"150%","padding":"5px","margin":"5px","width":"220px"});
+            $("#clinicalscourseslist").show();
+        });
+        $("h3#informaion").click(function(){
+            $(".lists,.answers").hide();        
+            $("h3.faqsheaders").css({"text-decoration":"underline","color":"gray","font-size":"150%","padding":"5px","margin":"5px","width":"220px"});
+            $("h3#informaion").css({"text-decoration":"none","color":"black","font-size":"150%","padding":"5px","margin":"5px","width":"20px"});
+            $("#informaionlist").show();
+        });
+        $("#ap1").mouseover(function(){        
+            $(".questions").css({"text-decoration":"underline","color":"gray"});
+            $("#ap1").css({"text-decoration":"none","color":"black"});
+            $(".answers").hide();        
+            $("#ap1p").show();
+        });
+        $("#ap2").mouseover(function(){        
+            $(".questions").css({"text-decoration":"underline","color":"gray"});
+            $("#ap2").css({"text-decoration":"none","color":"black"});
+            $(".answers").hide();        
+            $("#ap2p").show();
+        });
+        $("#ap3").mouseover(function(){        
+            $(".questions").css({"text-decoration":"underline","color":"gray"});
+            $("#ap3").css({"text-decoration":"none","color":"black"});
+            $(".answers").hide();        
+            $("#ap3p").show();
+        });
+        $("#ap4").mouseover(function(){        
+            $(".questions").css({"text-decoration":"underline","color":"gray"});
+            $("#ap4").css({"text-decoration":"none","color":"black"});
+            $(".answers").hide();        
+            $("#ap4p").show();
+        });
+        $("#ap5").mouseover(function(){        
+            $(".questions").css({"text-decoration":"underline","color":"gray"});
+            $("#ap5").css({"text-decoration":"none","color":"black"});
+            $(".answers").hide();        
+            $("#ap5p").show();
+        });
+        $("#cc1").mouseover(function(){        
+            $(".questions").css({"text-decoration":"underline","color":"gray"});
+            $("#cc1").css({"text-decoration":"none","color":"black"});
+            $(".answers").hide();        
+            $("#cc1p").show();
+        });
+        $("#cc2").mouseover(function(){        
+            $(".questions").css({"text-decoration":"underline","color":"gray"});
+            $("#cc2").css({"text-decoration":"none","color":"black"});
+            $(".answers").hide();        
+            $("#cc2p").show();
+        });
+        $("#cc3").mouseover(function(){        
+            $(".questions").css({"text-decoration":"underline","color":"gray"});
+            $("#cc3").css({"text-decoration":"none","color":"black"});
+            $(".answers").hide();        
+            $("#cc3p").show();
+        });
+        $("#cc4").mouseover(function(){        
+            $(".questions").css({"text-decoration":"underline","color":"gray"});
+            $("#cc4").css({"text-decoration":"none","color":"black"});
+            $(".answers").hide();        
+            $("#cc4p").show();
+        });
+        $("#cc5").mouseover(function(){        
+            $(".questions").css({"text-decoration":"underline","color":"gray"});
+            $("#cc5").css({"text-decoration":"none","color":"black"});
+            $(".answers").hide();        
+            $("#cc5p").show();
+        });
+        $("#cc6").mouseover(function(){        
+            $(".questions").css({"text-decoration":"underline","color":"gray"});
+            $("#cc6").css({"text-decoration":"none","color":"black"});
+            $(".answers").hide();        
+            $("#cc6p").show();
+        });
+        $("#cc7").mouseover(function(){        
+            $(".questions").css({"text-decoration":"underline","color":"gray"});
+            $("#cc7").css({"text-decoration":"none","color":"black"});
+            $(".answers").hide();        
+            $("#cc7p").show();
+        });
+        $("#i1").mouseover(function(){        
+            $(".questions").css({"text-decoration":"underline","color":"gray"});
+            $("#i1").css({"text-decoration":"none","color":"black"});
+            $(".answers").hide();        
+            $("#i1p").show();
+        });
+        $("#i2").mouseover(function(){        
+            $(".questions").css({"text-decoration":"underline","color":"gray"});
+            $("#i2").css({"text-decoration":"none","color":"black"});
+            $(".answers").hide();        
+            $("#i2p").show();
+        });
+        $("#i3").mouseover(function(){        
+            $(".questions").css({"text-decoration":"underline","color":"gray"});
+            $("#i3").css({"text-decoration":"none","color":"black"});
+            $(".answers").hide();        
+            $("#i3p").show();
+        });
+        $("#i4").mouseover(function(){        
+            $(".questions").css({"text-decoration":"underline","color":"gray"});
+            $("#i4").css({"text-decoration":"none","color":"black"});
+            $(".answers").hide();        
+            $("#i4p").show();
+        });
+        $("#i5").mouseover(function(){        
+            $(".questions").css({"text-decoration":"underline","color":"gray"});
+            $("#i5").css({"text-decoration":"none","color":"black"});
+            $(".answers").hide();        
+            $("#i5p").show();
+        });
+        $("#i6").mouseover(function(){        
+            $(".questions").css({"text-decoration":"underline","color":"gray"});
+            $("#i6").css({"text-decoration":"none","color":"black"});
+            $(".answers").hide();        
+            $("#i6p").show();
+        });
+        $("#i7").mouseover(function(){        
+            $(".questions").css({"text-decoration":"underline","color":"gray"});
+            $("#i7").css({"text-decoration":"none","color":"black"});
+            $(".answers").hide();        
+            $("#i7p").show();
+        });
+    });
+</script>
+<style type="text/css"><!--
+    .faqsheaders {
+        display: inline; 
+        padding: 10px; 
+        margin: 10px; 
+        text-decoration: underline;
+        font-family: "helvetica";
+        font-size: 120%;
+        cursor: pointer;
+    }
+    .lists{
+        width: 300px;
+        margin-left: 10px;
+        color: gray;
+    }
+    .questions {
+        text-decoration: underline; 
+        font-family: "helvetica";
+        font-size: 18px; 
+        width: 320px;
+        cursor: pointer;
+        margin-left: 10px;
+    }
+    .answers {
+        font-family: "helvetica";
+        font-size: 16px;
+        width: 500px;
+    }
+    .answers h3 {
+        font-size: 16px;
+    }
+    #body{
+        width: 600px;
+        height: 540px;
+    }
+--></style>
+<div id="body">
+<div>
+<h3 class="faqsheaders" id="applicationprocess"><strong>Application Process</strong></h3>
+<h3 class="faqsheaders" id="clinicalscourses"><strong>Clinicals/Courses</strong></h3>
+<h3 class="faqsheaders" id="informaion"><strong>Information</strong></h3>
+</div>
+<div>
+<div class="lists" id="applicationprocesslist"><ol>
+<li class="questions" id="ap2">What are the academic prerequisites?</li>
+<li class="questions" id="ap3">How many credits do I need for the Bachelor of Science in Nursing degree?</li>
+<li class="questions" id="ap4">Does BYU-Idaho accept degrees from other colleges and universities?</li>
+<li class="questions" id="ap5">When do I get my BSN degree?</li>
+</ol></div>
+<div class="lists" id="clinicalscourseslist"><ol>
+<li class="questions" id="cc1">When can General Education classes be taken?</li>
+<li class="questions" id="cc2">What religion classes do I need?</li>
+<li class="questions" id="cc3">What is the "ADV CE T FEE" on my account?</li>
+<li class="questions" id="cc4">Must all classes be taken from BYU-Idaho?</li>
+<li class="questions" id="cc5">Are all Nursing and Foundation courses offered online?</li>
+<li class="questions" id="cc6">How do I arrange clinicals as an online student?</li>
+<li class="questions" id="cc7">What are ESCROW Credits?</li>
+</ol></div>
+<div class="lists" id="informaionlist"><ol>
+<li class="questions" id="i1">Do I have to choose to complete the RN to BSN Program all online or all on campus?</li>
+<li class="questions" id="i2">Is the online nursing program easier than on-campus?</li>
+<li class="questions" id="i4">Are there nursing scholarships and financial aid available for me?</li>
+<li class="questions" id="i5">Is the RN to BSN Program accredited?</li>
+<li class="questions" id="i6">I have a degree, how do I become a nurse?</li>
+<li class="questions" id="i7"><span style="font-family: helvetica;">What is the transcultural program?</span></li>
+<li class="questions" id="i3">Who can I talk to if I have questions?</li>
+</ol></div>
+</div>
+<div style="height: 240px;">
+<div class="answers" id="ap1p">
+<h3></h3>
+<p> </p>
+</div>
+<div class="answers" id="ap2p">
+<h3>What are the academic prerequisites?</h3>
+<p>FDMAT 108 Math for the real world or FDMAT 222 Biostatistics must be taken before starting the BSN 3-semester sequence. If starting the 6-semester sequence, there are no academic prerequisites.</p>
+</div>
+<div class="answers" id="ap3p">
+<h3>How many credits do I need for the Bachelor of Science in Nursing degree?</h3>
+<p>You need a total of at least 120 credits which include:</p>
+<ul>
+<li>30 credits of upper division (300 or 400 level) credits                                    
+<ul>
+<li>You will receive 24 upper division credits by completing the nursing courses.</li>
+<li>In addition, you must apply for 6 escrow credits after successfully completing NURS 327 and NURS 400</li>
+</ul>
+</li>
+<li>Other courses included in the major requirements                                    
+<ul>
+<li>Pathophysiology</li>
+<li>Family Foundations</li>
+<li>Foundation Capstone</li>
+</ul>
+</li>
+<li>Other university requirements may apply. Consult with the College of Agriculture and Life Sciences Academic Discovery Center immediately upon acceptance in the RN to BSN Program.</li>
+<li>Transferred and/or Associate degree credits (as accepted by BYU-Idaho)</li>
+</ul>
+</div>
+<div class="answers" id="ap4p">
+<h3>Does BYU-Idaho accept degrees from other colleges and universities?</h3>
+<ul>
+<li>BYU-Idaho accepts college level transfer credits from institutions that are regionally accredited by one of the following associations:                                             
+<ul>
+<li>Middle States Association of Colleges and Schools,</li>
+<li>New England Association of Colleges and Schools </li>
+<li>North Central Association of Colleges and Schools</li>
+<li>Northwest Association of Colleges and Schools</li>
+<li>Southern Association of Colleges and Schools</li>
+<li>Western Association of Colleges and Schools</li>
+</ul>
+</li>
+<li>Courses from institutions that are not regionally accredited, such as nationally accredited only, are generally non-transferable to BYU-Idaho.</li>
+<li>Information regarding transfer course equivalencies (link to https://my.byui.edu/ICS/Transfer_Students/ )http://www2.byui.edu/RegistrarsOffice/CollegeCourseEquivalencies.htm) is available on the web and you can view a listing by states / institutions (link to .</li>
+<li>If you have questions, please contact College of Agriculture and Life Sciences Academic Discovery Center.</li>
+</ul>
+</div>
+<div class="answers" id="ap5p">
+<h3>When do I get my BSN degree?</h3>
+<p>The degree will not be granted until all requirements are met.</p>
+</div>
+<div class="answers" id="cc1p">
+<h3>When can General Education classes be taken?</h3>
+<p>Foundation (General Education) courses can be taken at any time throughout the Program. It is highly recommended that during the first semester in the Program the student meets with an Academic Advisor at the College of Agriculture and Life Sciences Academic Discovery Center to establish their Degree Completion Plan / Graduation Plan.</p>
+</div>
+<div class="answers" id="cc2p">
+<h3>What religion classes do I need to take?</h3>
+<p>Talk to the College of Agriculture and Life Sciences Academic Discovery Center to understand your requirements. Some religion credits may be waived based on the number of credits you have transferred.</p>
+</div>
+<div class="answers" id="cc3p">
+<h3>What is the "ADV CE T FEE" on my account?</h3>
+<p>This is the Advanced Continuing Education Fee. You are charged the current per credit tuition rate plus an additional $68 for any online Nursing credits.</p>
+</div>
+<div class="answers" id="cc4p">
+<h3>Must all classes be taken from BYU-Idaho?</h3>
+<p>By taking all 30 Nursing credits from BYU-Idaho the University residency requirements are met. For questions regarding transferring credits, please call the College of Agriculture and Life Sciences Academic Discovery Center.</p>
+</div>
+<div class="answers" id="cc5p">
+<h3>Are all Nursing and Foundation courses offered online?</h3>
+<p>All the Nursing classes are offered online. Sufficient Foundations course are offered online to meet graduation requirements.</p>
+</div>
+<div class="answers" id="cc6p">
+<h3>How do I arrange clinicals as an online student?</h3>
+<p>Students first identify clinical facilities appropriate to the nursing course. Official agreements must be established between the medical facilities and the University before you can begin your clinical hours. Those legal agreements are:</p>
+<ul>
+<li>Affiliation Agreements which already exist with many facilities and</li>
+<li>RN to BSN Preceptorship Agreements which must be established if an Affiliation Agreement is not in place.</li>
+</ul>
+</div>
+<div class="answers" id="cc7p">
+<h3>What are ESCROW Credits?</h3>
+<ul>
+<li>Escrow Credit allows a block of credit to be granted for previous learning.</li>
+<li>The Escrow Credits are granted upon completion of NURS 327 and NURS 330 / 400.</li>
+<li>Escrow Credits appear on your transcripts as NUS 331.</li>
+<li>Escrow Credits are required for graduation. Escrow Credits may NOT be used to meet Financial Aid or Scholarship credit requirements.</li>
+</ul>
+.            
+<ul>
+</ul>
+</div>
+<div class="answers" id="i1p">
+<h3>Do I have to choose to complete the RN to BSN Program all online or all on campus?</h3>
+<p>You have 3 options:</p>
+<ol>
+<li>Take all courses on-campus</li>
+<li>Take all courses online</li>
+<li>Take some courses online and some on campus</li>
+</ol>
+<p>Your University Track assignment may restrict your options. If you have any questions regarding your admission status and what courses you can register for, please contact Admissions</p>
+</div>
+<div class="answers" id="i2p">
+<h3>Is the online nursing program easier than on-campus?</h3>
+<p>The course requirements online and on-campus are the same.</p>
+</div>
+<div class="answers" id="i4p">
+<h3>Are there nursing scholarships and financial aid available for me?</h3>
+<p>Please check with the BYU-Idaho Scholarship office for needed financial aid at (208) 496-1600. For financial aid specific to the distance education student please contact the financial aid office at (208) 496-1617.</p>
+</div>
+<div class="answers" id="i5p">
+<h3>Is the RN to BSN Program accredited?</h3>
+<p>Yes</p>
+<ul>
+<li>The University is accredited by the Northwest Regional Association of Schools and Colleges.</li>
+<li>The Nursing Programs are accredited by the National League for Nursing Accrediting commission, Inc.</li>
+<li>And is approved by the Idaho State Board of Nursing.</li>
+</ul>
+Consult the University Catalog for information regarding accrediting agencies.</div>
+<div class="answers" id="i6p">
+<h3>I have a degree, how do I become a nurse?</h3>
+<p>The BSN Program is designed to enhance the skills of currently registered nurses. If you would like information regarding becoming a nurse, please see the ASN Program.  The ASN Program is designed to prepare students to become a RN.</p>
+</div>
+<div class="answers" id="i7p">
+<h3>What is the transcultural program?</h3>
+<ul>
+<li>Transcultural experiences may be offered to partially complete clinical hours for Community Nursing and/or Nursing Leadership courses.</li>
+<li>Transcultural opportunities are offered when experiences become available.</li>
+<li>Contact the Department of Nursing at (208) 496-4550 for more information.</li>
+</ul>
+</div>
+<div class="answers" id="i3p">
+<h3>Who can I talk to if I have questions?</h3>
+<ul>
+<li>Questions about the nursing programs at BYU-Idaho: Nursing Outreach Secretary (208) 496-1281</li>
+<li>Questions about religion requirements: Religion Secretary (208) 496-3920 or College of Agriculture and Life Sciences Academic Discovery Center (208) 496-9830</li>
+<li>Questions about how my transfer credits are accepted: College of Agriculture and Life Sciences Academic Discovery Center (208) 496-9830 or Student Records and Registration (208) 496-1001</li>
+<li>Just about any question I have: College of Agriculture and Life Sciences Academic Discovery Center (208) 496-9830</li>
+</ul>
+</div>
+</div>
+</div>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/><!--071613 xpowercomponent_Optional to xPower--></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="x27131" CompTypes="HighlightedLinksComponent"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" List="xpowercomponent_ContentSnippet"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x1839" CompTypes="SiteControl"/></Content>

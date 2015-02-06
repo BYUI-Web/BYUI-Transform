@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x16325" Name="Facebook" Layout="general_content.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Facebook</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Facebook</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="true"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent" Expanded="false"/><xPower Type="Component" Component="x15409" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent" Expanded="false"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<h1><span style="font-size: xx-small;">&nbsp;</span><span style="font-size: medium;">Facebook Usage Requirments:<br /></span></h1>
+<ul>
+<li>Name the page: "BYU-Idaho {insert name of organization} (official site)"</li>
+<li>Use the Facebook Profile Picture template</li>
+<li>In the profile include a link to your webpage on the BYU-Idaho website</li>
+<li>A full-time employee in your area is accountable for login information and monitoring all content</li>
+<li>Be familiar with official Facebook policy (<a href="Documents/Identity/Templates/Digital/FacebookPolicy/template/FacebookProc.pdf" title="Facebook Policy ">here</a>)</li>
+</ul>
+<h1><span style="font-size: medium;">Facebook Profile Picture<br /></span></h1>
+<div class="imgWrap"><img alt="Facebook Profile Pic" class="leftImg" height="200" src="Images/Admin_Offices/university_communications/Digital templates/facebook_profile_template.jpg" title="Facebook Profile Pic" width="67" /></div>
+<div class="imgWrap"></div>
+<div class="imgWrap">&nbsp;&nbsp;<a href="Documents/Identity/Templates/Digital/FacebookPolicy/template/FacebookTemp_General.psd" title="Facebook Profile Pic psd"><img alt="Download button" height="20" src="Images/Admin_Offices/university_communications/Distribute a Message/Posters/IndesignDownloadBtn.jpg" title="Download Button" width="96" /></a></div>
+<h3 style="clear: left;"></h3>
+<h1></h1>
+<ul>
+</ul>
+<ul>
+</ul>
+<ul>
+</ul>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x10072" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

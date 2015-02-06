@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<IdentityTemplate ID="x67121" Name="Get a Template" Layout="defaultshawntest.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Get A Template</Title><PosterName type="string" label="Template Type" readonly="false" hidden="false" required="true">Vertical Posters</PosterName><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="false" required="false">0.5</Priority></xPower><BodyCopy type="dhtml" label="Body Copy"><![CDATA[<ul>
+<li><strong>Suggested Uses</strong> 
+<ul>
+<li>Off-campus institutional messages, department-sponsored events, and on-campus student-to student events. </li>
+</ul>
+</li>
+<li><strong>Cost</strong> 
+<ul>
+<li>Printing costs are inexpensive, ranging from $1.50-2.50 depending upon size and quantity printed. </li>
+</ul>
+</li>
+<li><strong>Categories Offered</strong> 
+<ul>
+<li>Poster templates are offered in 2 sizes: regular 11"x17", and large 13"x20". </li>
+</ul>
+</li>
+</ul>
+<br />]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="Poster" label="Template Information" readonly="false" hidden="false" required="false" Expanded="true"><Imagefile type="imagefile" label="Profile Image" hidden="false" readonly="true">New image stucture/Identity/PostersV/posters.jpg</Imagefile><PosterSize type="string" label="Template Size" hidden="false" readonly="true">11" X 17"</PosterSize><PosterDesc type="string" label="Template Description" hidden="false" readonly="true">Small scale; displayed on tack strips &amp; bulletin boards</PosterDesc></xPower><xPower Type="GroupStart" GroupStart="" Name="Poster" label="Template Information" readonly="false" hidden="false" required="false" Expanded="true"><Imagefile type="imagefile" label="Profile Image" hidden="false" readonly="false" required="false">New image stucture/Identity/PostersV/posters.jpg</Imagefile><PosterSize2 type="string" label="Template Size" hidden="false" readonly="false" required="false">13" X 20"</PosterSize2><PosterDesc2 type="string" label="Template Description" hidden="false" readonly="false" required="false">Large scale; for easel display on campus to promote larger events</PosterDesc2></xPower><xPower Type="Component" Component="x14" Name="RelatedLinks" label="Related Links" readonly="false" hidden="false" required="false" CompTypes="RelatedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x4147" Name="SiteControl" label="Site Control" readonly="true" hidden="true" required="false" CompTypes="SiteControl" Expanded="false"/></IdentityTemplate>

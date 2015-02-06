@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?><Content ID="x36449" Name="Academic Home" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Academic Home</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Academic Home</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false" /><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false" /><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style type="text/css"><!--
+.chkBx, .comp, .grpList, .image, .lnkSet, .pgProp, .navIndex, .text, .webEdit {display: block !important;}
+
+.bannerad, .eventcomp, .highlinks, .pgProp, .quicklinks {display: block !important;}
+
+.acdmevent, .eventdetail, .newsartl {display: block !important;}
+--></style>
+<link href="prebuilt/stylenew/css/training.css" media="screen, projection" rel="stylesheet" type="text/css" />
+<div id="training"><img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/list.png" width="20" />
+<h3><strong>Top Image(s)</strong></h3>
+<div class="level1"><img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/image.png" width="20" />
+<p><strong>Main Image: </strong>Images declared here are displayed at the top of the Academic Home page. A recommended number of images would be between 1 to 4 images.</p>
+</div>
+<br /> <img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/list.png" width="20" />
+<h3><strong>Main Content</strong></h3>
+<div class="level1"><img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/linkset.png" width="20" />
+<p class="cutMargin"><strong>Course Highlights: </strong>This input field will allow you to select CMS Pages. From the CMS pages selected, the main image and the text within the abstract field are used to populate the main body area of the Academic Home  page. The following list contains compatible pages.</p>
+<div class="level2">
+<div class="compatible">
+<p>Compatible CMS Pages</p>
+<ul>
+<li><a href="x36407.xml">News Article</a></li>
+<li><a href="x36450.xml">Academic Event</a></li>
+</ul>
+</div>
+<span class="clear"> </span></div>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/linkset.png" width="20" />
+<p class="cutMargin"><strong>Featured Student: </strong>This has the same function as “Course Highlights” except the thumbnail image is used instead of the main image.</p>
+<div class="level2">
+<div class="compatible">
+<p>Compatible CMS Pages</p>
+<ul>
+<li><a href="x36407.xml">News Article</a></li>
+<li><a href="x36420.xml">Event Detail</a></li>
+</ul>
+<ul>
+<li><a href="x36450.xml">Academic Event</a></li>
+</ul>
+</div>
+<span class="clear"> </span></div>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/check.png" width="20" />
+<p><strong>Check for text body to use the full width of the page: (deprecated) </strong><br />Enable to expand main content across the full width of the Academic Home  page.</p>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/check.png" width="20" />
+<p><strong>Check to put text body above Highlighted News: (deprecated) </strong><br />Enable to move Optional Content material to the top of the Academic Home  page.</p>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/edit.png" width="20" />
+<p><strong>Optional Content: </strong>Additional information you wish to include in the main body area of the Academic Home  page can be placed here.</p>
+</div>
+<br /> <img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/list.png" width="20" />
+<h3><strong>Facebook Integration: </strong></h3>
+<div class="level1"><img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/text.png" width="20" />
+<p><strong>Facebook Integration Facebook ID#: </strong>Place a facebook ID# here to display the most recent facebook messages in the right column of the Academic Home  page.</p>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/text.png" width="20" />
+<p><strong>Number of status messages to display: </strong>Enter the number of status messages you wish to display.</p>
+<span class="clear"> </span></div>
+<br /> <img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/drop_down.png" width="20" />
+<p><strong>Rotating Ads: (deprecated) </strong>Select from a list of <a href="x36444.xml">Banner Ad Components</a> what ads to display in a rotating ad gallery used within the Academic Home  page.</p>
+<br /> <img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/list.png" width="20" />
+<h3><strong>Quick Links Group: </strong></h3>
+<div class="level1"><img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/component.png" width="20" />
+<p><strong>Columns 1, 2 &amp; 3: </strong>Insert up to three <a href="x36436.xml">Quick Links Components</a> used to display up to three columns of links at the foot of the Academic Home  page.</p>
+</div>
+<br /> <img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/component.png" width="20" />
+<p><strong>Highlighted Links: </strong>Insert a <a href="x36423.xml">Highlighted Links Component</a> to list a set of links under the left navigation within the left column of the Academic Home  page.</p>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/navigation.png" width="20" />
+<div class="level0">
+<p><strong>Define Your Events Folder: </strong>All CMS Pages that are children of the assigned Folder/CMS Page of this input field should display as calendar events located within the right column of the Academic Home  page.</p>
+<p>What is displayed is the name of the CMS Page, the given date, and text within the abstract field.</p>
+<p class="cutMargin">The following list contains compatible pages.</p>
+<div class="compatible">
+<p>Compatible CMS Pages</p>
+<ul>
+<li><a href="x36450.xml">Academic Event</a></li>
+<li><a href="x36420.xml">Event Detail</a></li>
+</ul>
+<ul>
+<li><a href="x36439.xml">Event Component</a></li>
+</ul>
+</div>
+<span class="clear"> </span></div>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/navigation.png" width="20" />
+<p class="cutMargin"><strong>Define Your Articles Folder: (deprecated) </strong></p>
+<div class="level2">
+<div class="compatible" style="width: 450px;">
+<p>Compatible CMS Pages</p>
+<ul>
+<li>???</li>
+</ul>
+</div>
+<span class="clear"> </span></div>
+</div>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Component" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="x36276" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false" /><xpowercomponent_Optional Type="Component" Component="x36121" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false" /><xpowercomponent_Optional Type="Component" Component="x35847" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false" /><xpowercomponent_Optional Type="Component" Component="x36611" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false" /></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" /><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" /><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent" /></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent" /><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet" /></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query="" /><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x14845" CompTypes="SiteControl" /></Content>

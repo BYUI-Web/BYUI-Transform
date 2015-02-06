@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x8066" Name="Content" Layout="byuidefault.xsl" IsComponent="false">
+  <Title type="string" label="Title" readonly="false" hidden="false" required="true">Overview of BYU-Idaho's Chemistry Department</Title>
+  <Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Overview of BYU-Idaho's Chemistry Department</Abstract>
+  <IsResponsive type="boolean" label="Mobile Ready (responsive)" readonly="false" hidden="false" required="false">true</IsResponsive>
+  <xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="true">
+    <BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false" />
+    <MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false" />
+    <NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow>
+    <NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex>
+    <NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP>
+    <Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="false" required="false">0.5</Priority>
+  </xPower>
+  <xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false">
+    <BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false" />
+    <MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false" />
+    <NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow>
+    <NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex>
+    <NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP>
+    <Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority>
+  </xPower>
+  <xPower Type="GroupStart" GroupStart="" Name="SocialMedia" label="Social Media" readonly="false" hidden="false" required="false" Expanded="false">
+    <SocialTitle type="string" label="Title" readonly="false" hidden="false" required="false" />
+    <SocialDescription type="string" label="Description" readonly="false" hidden="false" required="false" />
+    <SocialImage type="imagefile" label="Image" readonly="false" hidden="false" required="false" Expanded="false" Width="" Height="" Border="" HSpace="" VSpace="" Alignment="" />
+    <SocialVideo type="mediafile" label="Video" readonly="false" hidden="false" required="false" Expanded="false" />
+    <SocialAudio type="string" label="Audio" readonly="false" hidden="false" required="false" />
+    <SocialSeeAlso type="string" label="See Also" readonly="false" hidden="false" required="false" />
+  </xPower>
+  <xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false">
+    <HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle>
+    <Hideleftnavigation type="boolean" label="Hide Navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation>
+  </xPower>
+  <BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height="">
+&lt;br&gt;
+&lt;p style="text-align: left;"&gt;&lt;span style="font-size: 11pt; line-height: 1.4em;"&gt;The mission of the BYU-Idaho Chemistry Department is to provide a quality chemistry program to help students become productive employees and citizens in the society.&amp;nbsp; This program consists of appropriate classes, laboratory courses, and research opportunities for students of varying educational pursuits.&amp;nbsp; The department is also committed to the academic improvement and professional development of the faculty members.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="text-align: left;"&gt;Goals specific to this mission statement would include the following:&lt;/p&gt;
+&lt;ol start="1" style="text-align: left;" type="1"&gt;
+&lt;li&gt;
+&lt;p&gt;Support the mission of BYU-Idaho.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Provide the necessary chemistry classes with appropriate content and rigor for students enrolled in a Chemistry B.S. degree.&amp;nbsp; Expose students to the key ideas in practices in each of the chemistry subdisciplines: physical, analytical, inorganic, organic, and biochemistry.&amp;nbsp; Teach students correct laboratory skills, including laboratory safety, standard experimental practices and accurate record keeping.&amp;nbsp; Provide students with the opportunity to read selected scientific materials and apply appropriate language to describe and analyze scientific events.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Provide the necessary chemistry classes as support programs for students in other disciplines, including other science majors, engineering majors, and health or other pre-professional majors.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Provide extracurricular development for students as teaching assistants, laboratory instructors, or lecture demonstration assistants at the introductory chemistry level.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Provide the necessary chemistry courses for students earning general education credit in physical science.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Demonstrate the importance of chemistry as a science through the following:&amp;nbsp; (a) introduce students to the facts, concepts, and vocabulary of chemistry provide them with a solid conceptual understanding of chemical processes; (b) encourage development of students' problem-solving skills applied to problems in chemistry and give students the opportunity to use the scientific method to formulate explanations for events in the natural world; (c) show relationships of chemistry to other disciplines, such as mathematics and the biological sciences; and (d) demonstrate the application of chemistry to have a powerful, positive impact on the lives and standard of living of the world population&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Encourage faculty to maintain a high level of competence in chemistry through individual study, attendance at conferences, membership in appropriate national organizations, and participation in university-granted leaves.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</BodyCopy>
+  <xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="true">
+    <xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="true" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote;LeftColumnImageComponent">
+      <xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="true" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote;LeftColumnImageComponent" />
+      <xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="true" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote;LeftColumnImageComponent" />
+    </xPower>
+  </xPower>
+  <xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false" />
+  <xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="ContentSnippet">
+    <xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet" />
+  </xPower>
+  <xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" />
+  <xPower Type="Component" Component="x1892" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false" />
+</Content>

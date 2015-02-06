@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<AdminPage ID="x66420" Name="Honor Code" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Honor Code</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Honor Code</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="Cells" label="Cells" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="GroupStart" GroupStart="" Name="Cell1" label="Cell 1" readonly="false" hidden="false" required="false" Expanded=""><Cell1Title type="string" label="Cell 1 Title" readonly="false" hidden="false" required="false"></Cell1Title><Cell1Image type="imagefile" label="Cell 1 Image" readonly="false" hidden="false" required="false" Width="" Height="" Alignment="" Border="" Expanded=""></Cell1Image><Cell1Text type="string" label="Cell 1 Text" readonly="false" hidden="false" required="false"></Cell1Text><xPower Type="Link" Link="" Name="Cell1Link" label="Cell 1 Link" readonly="false" hidden="false" required="false" LinkText="" Target="" Expanded=""/></xPower><xPower Type="GroupStart" GroupStart="" Name="Cell2" label="Cell 2" readonly="false" hidden="false" required="false" Expanded=""><Cell2Title type="string" label="Cell 2 Title" readonly="false" hidden="false" required="false"></Cell2Title><Cell2Image type="imagefile" label="Cell 2 Image" readonly="false" hidden="false" required="false" Width="" Height="" Alignment="" Border="" Expanded=""></Cell2Image><Cell2Text type="string" label="Cell 2 Text" readonly="false" hidden="false" required="false"></Cell2Text><xPower Type="Link" Link="" Name="Cell2Link" label="Cell 2 Link" readonly="false" hidden="false" required="false" LinkText="" Target="" Expanded=""/></xPower><xPower Type="GroupStart" GroupStart="" Name="Cell3" label="Cell 3" readonly="false" hidden="false" required="false" Expanded=""><Cell3Title type="string" label="Cell 3 Title" readonly="false" hidden="false" required="false"></Cell3Title><Cell3Image type="imagefile" label="Cell 3 Image" readonly="false" hidden="false" required="false" Width="" Height="" Alignment="" Border="" Expanded=""></Cell3Image><Cell3Text type="string" label="Cell 3 Text" readonly="false" hidden="false" required="false"></Cell3Text><xPower Type="Link" Link="" Name="Cell3Link" label="Cell 3 Link" readonly="false" hidden="false" required="false" LinkText="" Target="" Expanded=""/></xPower><xPower Type="List" List="xpowercomponent_CellComponent" Name="AdditionalCellComponents" label="Additional Cells" readonly="false" hidden="false" required="false" Component="" CompTypes="CellComponent" Expanded="false"><xPower Type="Component" Component="" Name="CellComponent" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"/></xPower></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+	/* BANNER */
+	div#honorbannerwrap { height: 359px; overflow: hidden; position: relative; }
+	div.bannerleft { width: 340px; overflow: hidden; float: left; }
+	div.bannerright { width: 340px; overflow: hidden; float: right; }
+	div.bannerleft>.bannertextbar { background: #a8ac00; }
+	div.bannerright>.bannertextbar { background: #95419a; }
+	div.bannertextbar { display: block; position: absolute; top: 0; font-family: "Georgia", "Times New Roman", serif; color: #000; font-style: italic; width: 340px; padding-top: 10px; height: 75px; font-size: 18px; border-radius: 5px 5px 0 0; text-align: center }
+	div.bannerleft img { position:absolute; bottom:0; }
+	div.bannerright img { position:absolute; bottom:0; }
+	div.bannerleft div.bannertextbar { box-shadow: -3px 3px 5px black; }
+	div.bannerright div.bannertextbar { box-shadow: 3px 3px 5px black; }
+	div.bannerleft>.bannertextbar>p { color: #fff; text-shadow: 0px 0px 8px #7a7258,0px 0px 8px #7a7258; }
+	div.bannerright>.bannertextbar>p { color: #fff; text-shadow: 0px 0px 8px #541376, 0px 0px 8px #541376; }
+	.bannertextbar .bannertextbreak { text-transform: uppercase; font-style: normal; width: 100%; font-size: 12px; letter-spacing: 3px; }
+	div#honorbannerwrap>a:hover>div.bannerleft>div { background: #bfcb02; color: #000; }	
+	div#honorbannerwrap>a:hover>div.bannerright>div { background: #b753bd; color: #000; }
+	div#honorbannerwrap>a:hover>div>img { opacity: 0.85; }
+	
+	/* ORANGE BOXES */
+	div.orangebox { background-color: #ffa800; border-radius: 5px; max-width: 340px; max-height: 92px; }
+	div.orangeboxpad { padding: 20px; padding-left: 30px; }
+	div.orangebuttonwrap { margin-top: 15px; }
+	div#orangepush { height: 28px; }
+	h3.orangeboxhead { color: #ffffff; font-family: "Georgia", "Times New Roman", serif; font-style: italic; font-size: 35px; margin: 0; }
+	p.orangeboxtext { color: #000000; text-transform: uppercase; font-size: 10px; font-family: "Helvetica CY", "Arial", sans-serif;}
+	div#orangebuttonwrap>a:hover div.orangebox { background-color: #ffb446; }
+--></style>
+<div class="span-18 last">
+<div id="honorbannerwrap"><a href="#">
+<div class="bannerleft"><img src="images/student-honor/understanding-ces.jpg" />
+<div class="bannertextbar">
+<p><span class="bannertextbreak">Understanding</span><br /> The CES Honor Code at BYU-I &gt;&gt;</p>
+</div>
+</div>
+</a> <a href="#">
+<div class="bannerright"><img class="right" src="images/student-honor/understanding-personal.jpg" />
+<div class="bannertextbar" style="right: 0px;">
+<p><span class="bannertextbreak">Understanding</span><br /> Principles of Personal Honor &gt;&gt;</p>
+</div>
+</div>
+</a></div>
+<div id="orangepush"></div>
+<div class="clear" id="orangebuttonwrap"><a href="#">
+<div class="span-9 orangebox">
+<div class="orangeboxpad">
+<h3 class="orangeboxhead">Endorsements &gt;&gt;</h3>
+<p class="orangeboxtext">How and When to Get Your Ecclesiastical Endorsement</p>
+</div>
+</div>
+</a> <a href="#">
+<div class="span-9 orangebox right last">
+<div class="orangeboxpad">
+<h3 class="orangeboxhead">FAQs &gt;&gt;</h3>
+<p class="orangeboxtext">Everything you always wanted to know.</p>
+</div>
+</div>
+</a></div>
+</div>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_BannerAd" Name="BannerAds" label="Rotating Ads" readonly="false" hidden="false" required="false" Component="" CompTypes="BannerAdComponent" Expanded="true"><xPower Type="Component" Component="" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/></xPower><xPower Type="GroupStart" GroupStart="" Name="QuickLinks" label="Quick Links" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="Quick Links Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="Quick Links Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="Quick Links Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Insert" Insert="" WellFormed="false" ExtractHTMLBody="false" Name="HTMLInsert" label="Insert" readonly="false" hidden="true" required="false" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x43014" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></AdminPage>

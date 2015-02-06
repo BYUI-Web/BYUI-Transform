@@ -1,0 +1,233 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x51503" Name="Web Cameras" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Web Cameras</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Web Cameras</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<!-- END Enhanced Body Copy Area Template 2012, by Jakob Anderson [ and08073@byui.edu ] -->
+<style type="text/css"><!--
+            html, body {
+                padding: 0;
+                margin: 0;
+                /* height: 100%; */
+            }
+            body, div, p {
+                font-family: Arial, Helvetica, Verdana;
+                color: #333;
+            }
+            body {
+                background-color: white;
+            }
+            .wrapper {
+                background-color: white;
+                width: 708px;
+                margin: 40px auto;
+                padding: 0px;/*50*/
+                height: 210px;
+            }
+            .list_carousel {
+                background-color: white;
+                margin: 0 auto;
+                height: 215px;
+            }
+            .list_carousel ul {
+                margin: 0 20px 0 20px;
+                padding: 0;
+                list-style: none;
+                display: block;
+            }
+            .list_carousel li {
+                font-size: 40px;
+                color: #999;
+                text-align: center;
+                background-color: white;
+                border: 1px solid black;
+                width: 210px;
+                height: 215px;
+                padding: 0;
+                margin: 0px 2px;
+                display: block;
+                float: left;
+            }
+            .list_carousel.responsive {
+                width: auto;
+                margin-left: 0;
+            }
+            .clearfix {
+                float: none;
+                clear: both;
+            }
+            .prev {
+                margin-top:70px;
+                float: left;
+            }
+            .next {
+                margin-top:70px;
+                float: right;
+            }
+            .pager {
+                float: left;
+                width: 300px;
+                text-align: center;
+            }
+            .pager a {
+                margin: 0 5px;
+                text-decoration: none;
+            }
+            .pager a.selected {
+                text-decoration: underline;
+            }
+            .timer {
+                background-color: #999;
+                height: 6px;
+                width: 0px;
+            }
+
+            #container{
+                margin: 10px auto;
+                width: 710px;
+/*                border: 1px solid lightgrey;*/
+                padding:0px;
+                overflow:auto;
+                text-align:center;
+            }
+            #upper{
+                margin-bottom:20px;
+                /*                border: 1px solid blue;*/
+                color:blue;
+                padding:0px;
+            }
+            #top{
+                margin-bottom:10px;
+                overflow:auto;
+            }
+            #bottom{
+                margin-top:20px;
+                padding:2px;
+                /*                border: 1px solid black;*/
+                overflow:auto;
+            }
+            .lower{
+                width:35%;
+                height:240px;
+                margin:15px 45px;
+                float:left;
+            }
+            .topicbox{
+                background-color: #454545;
+                height:50px;
+                color:white;
+            }
+            .whatwhy{
+                width:50%;
+                height:240px;
+                float:left;
+            }
+            .whatwhyleft{
+                background-color: #808080;
+                color:white;
+            }
+            .whatwhyright{
+                background-color: #A1A1A1;
+                color:white;
+            }
+            .lowerleft{
+                background-color: #D3D3D3;
+                color:black;
+            }
+            .lowerright{
+                background-color: #EDEDED;
+                color:black;
+            }
+--></style>
+<div id="container">
+<div id="upper">
+<div id="top">
+<div class="topicbox"><br />Topic</div>
+<div class="whatwhy whatwhyleft"><br /><br />What<br /><br /></div>
+<div class="whatwhy whatwhyright"><br /><br />Why<br /><br /></div>
+</div>
+<div class="wrapper" id="slider"><img alt="Previous" class="prev" src="http://www.kshaneb.com/dev/j/left.png" /> <img alt="Next" class="next" src="http://www.kshaneb.com/dev/j/right.png" />
+<div class="list_carousel">
+<ul id="foo1">
+<li><br />1</li>
+<li><br />2</li>
+<li><br />3</li>
+<li><br />4</li>
+<li><br />5</li>
+<li><br />6</li>
+<li><br />7</li>
+<li><br />8</li>
+<li><br />9</li>
+<li><br />10</li>
+<li><br />11</li>
+<li><br />12</li>
+<li><br />13</li>
+<li><br />14</li>
+<li><br />15</li>
+<li><br />16</li>
+<li><br />17</li>
+</ul>
+</div>
+</div>
+</div>
+<hr />
+<div id="bottom"><a href="#">
+<div class="lower lowerleft"><br /><br />Lower Left Box<br /><br /></div>
+</a> <a href="#">
+<div class="lower lowerright"><br /><br />Lower Right Box<br /><br /></div>
+</a></div>
+</div>
+<!-- thumbnail scroller markup end -->
+<script type="text/javascript">
+            //Ignore this function area
+            function loadScript(url, callback){
+                //load script tag at end of body
+                var body = document.getElementsByTagName('body')[0];
+                var script = document.createElement('script');
+                script.type = 'text/javascript';
+                script.src = url;
+
+                // then bind the event to the callback function 
+                // there are several events for cross browser compatibility
+                script.onreadystatechange = callback;
+                script.onload = callback;
+
+                // fire the loading
+                body.appendChild(script);
+            }
+
+            //define inline script to be called inside the callback function parameter
+            var scriptCallback = function(){
+                //insert any inline jquery you would like to run here, ie
+                //things that normally go between script tags, for example:
+                $(function() {
+                    $("#foo1").carouFredSel({
+                        prev:{
+                            key: 'left',
+                            button: '.prev'
+                        },
+                        next:{
+                            key: 'right',
+                            button: '.next'
+                        },
+                        auto: {
+                            play: true,
+                            pauseDuration: 1000
+                        },
+                        items:{
+                            visible: 3
+                        },
+                        scroll:{
+                            pauseOnHover: true,
+                            duration: 1000,
+                            items: 1
+                        }
+                    });
+                });
+            }
+
+            // Execute the entire function after page has finished 
+            // loading (script import and callback inline javascript)
+            window.onload = function(){ 
+                //put the path to your jquery-dependent script below here
+                loadScript("http://www.kshaneb.com/dev/j/fred.js", scriptCallback);
+            }
+</script>
+<!-- END Enhanced Body Copy Area Template 2012, by Jakob Anderson [ and08073@byui.edu ] -->]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x33098" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

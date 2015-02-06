@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.82 - http://www.ingeniux.com ***-->
+<Content_FullWidth ID="x61125" Name="ContactUs" Layout="general_content.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Activities Contacts</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">The Activities Office can be reached through the listed contacts</Abstract><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style><!--
+            #container710{
+                float:left;
+                overflow:hidden;
+            }
+            #mainpicture{
+                float: left;
+                margin-bottom: 15px;
+                width:560px;
+                height:375px;
+            }
+            #mainpicture img{
+                width:560px;
+                height:375px;
+            }
+            .subpicture{
+                width:135px;
+                height:115px;
+                margin-left:15px;
+                margin-top:15px;
+                float:left;
+                opacity:1;
+            }
+            .subpicture img{
+                width:135px;
+                height:115px;
+            }
+            .firstsubpicture{
+                margin-top:0px;
+            }
+            .subpicture:hover{
+                opacity:.75;
+            }
+            .bottomboxes{
+                border-radius: 4px;
+                width: 708px;
+                height: 270px;
+                background-color: #fff7dd;
+                border: thin solid #000000;
+                float: left;
+                margin:0px;
+            }
+            .middle{
+                margin:0px 14px;
+            }
+            .bottomboxheader{
+                width: 100%; 
+                background-color: #ffe9a7;
+                margin-right: 15px; 
+                padding-top: 10px; 
+                border-bottom: solid 1px #000000;
+            }
+            .bottomboxheadertext{
+                margin: 0px 0px 5px 15px;
+                font-size: large;
+            }
+            .bottomboxbullettext{
+                font-size: .9em;
+                margin-left: 10px; 
+                margin-top: 15px; 
+                padding-left: 5px;
+                margin-bottom: 10px;
+                color: #60686e;
+            }
+            .bottomboxbullettext a{
+                text-decoration: none;
+                color: #60686e;
+            }
+            .bottomboxbullettext a:hover{
+                color:#056CB6;
+            }
+--></style>
+<div class="span-18" id="container710">
+<div id="mainpicture"><img alt="Come on in!" height="375" src="Images/activities/Homepage/large-photo.gif" title="Come on in!" width="560" /></div>
+<div class="subpicture firstsubpicture"><img alt="Volunteers" height="115" src="Images/activities/Homepage/small-photo2.gif" title="Volunteers" width="135" />&nbsp;</div>
+<div class="subpicture"><img alt="The Front Desk" height="115" src="Images/activities/Homepage/small-photo1.gif" title="Front Desk" width="135" /></div>
+<div class="subpicture"><img alt="Students gather to plan new activities!" height="115" src="Images/activities/Homepage/small-photo3.gif" title="Students planing the next great activity!" width="135" /></div>
+<div>
+<div class="bottomboxes">
+<div class="bottomboxheader">
+<p class="bottomboxheadertext" style="text-align: center;"><strong>Contact Information</strong></p>
+</div>
+<p class="bottomboxbullettext"><strong>&nbsp;</strong><strong>Location: </strong>MC 101 (across from the University Store)</p>
+<p class="bottomboxbullettext"><strong>Office Hours:</strong> Monday-Thursday:8am-6pm Friday:8am-5:30pm</p>
+<p class="bottomboxbullettext"><strong>Phone:</strong> 208-496-7300</p>
+<p class="bottomboxbullettext"><strong>E-mail: </strong>activities@byui.edu</p>
+<p class="bottomboxbullettext">&nbsp;</p>
+<p class="bottomboxbullettext"><a href="x44279.xml">Full staff list of the Activities office.</a></p>
+</div>
+</div>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x6784" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_FullWidth>

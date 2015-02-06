@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<Content ID="x50319" Name="EXPRESS Print&amp;Copy" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">EXPRESS Print &amp; Copy</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Formerly known as the Copy Spot, EXPRESS Print &amp; Copy has moved to the Manwaring Center to offer more printing services to faculty, staff, and students.</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="true"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false">EXPRESS Print &amp; Copy</BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false">Formerly known as the Copy Spot, EXPRESS Print &amp; Copy has moved to the Manwaring Center to offer more printing services to faculty, staff, and students.</MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style><!--
+p.announcement,
+p.stand-out,
+p.location
+{
+	width: 600px;
+	margin: 0 auto;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+.type p,
+.type ul,
+h2.subtitle
+{
+	font-family: "Century Gothic", Helvetica, Arial, sans-serif;
+}
+p.stand-out,
+p.location
+{
+	margin-top: -5px;
+	width: 500px;
+	color: #5f5f5f;
+	font-size: 2.5em;
+}
+p.location {
+	margin: 15px auto 40px auto;
+	font-size: 1.5em;
+	text-transform: none;
+}
+p.stand-out {
+	color: #8e5160;
+}
+h2.subtitle,
+p.info-text,
+.strong-text
+{
+	margin: 30px 0 10px 0;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+h2.subtitle {
+	margin-top: 5px;
+	font-size: 1.3em;
+}
+p.info-text {
+	font-weight: normal;
+	margin: 10px 0;
+}
+span.statement,
+div.sidebar > p {
+	color: #000;
+}
+span.statement {
+	font-weight: bold;
+}
+div.content-header {
+	position: relative;
+}
+div.header-menu {
+	position: absolute;
+	margin-top: 141px;
+	margin-left: 305px;
+	/* remove the following line after code is done */
+	display: none;
+}
+div.header-menu ul {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+div.header-menu li {
+	font-size: 1.1em;
+	float: left;
+	margin: 0;
+	padding: 14px 25px 12px 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+		background-color: #7c7c7c;
+	list-style-type: none;
+}
+div.list-container {
+	height: 200px;
+}
+div.left-list,
+div.right-list
+{
+	float: left;
+}
+div.left-list {
+	width: 250px;
+}
+div.left-list > p {
+	width: 200px;
+}
+div.sidebar {
+	float: right;
+	padding: 0 0 5px 8px;
+	width: 270px;
+	background-color: #eee;
+}
+ul {
+	margin-bottom: 30px;
+}
+li,
+p.hours
+{
+	margin-bottom: 8px;
+}
+--></style>
+<div class="content-header">
+<div class="header-menu">
+<ul>
+<li>Home</li>
+<li>Services</li>
+<li>Place an Order</li>
+</ul>
+</div>
+<div><img alt="EXPRESS Print &amp; Copy banner" height="187" src="Images/university-relations/Express Print and Copy/expressprintcopy-banner.jpg" width="950" /></div>
+</div>
+<p class="location"><span class="statement" id="evolved">The Copy Spot has evolved.</span> <br /> Stop by our <em>new</em> central location in the Manwaring Center, next to the University Store.</p>
+<div class="sidebar">
+<h2 class="subtitle">Store hours</h2>
+<p class="hours"><strong>Monday&ndash;Thursday:</strong> 7 am &ndash; 9 pm (closed for Devotional on Tuesdays)</p>
+<p class="hours"><strong>Friday:</strong> 7 am &ndash; 7 pm</p>
+<p class="hours"><strong>Saturday:</strong> 11 am &ndash; 5 pm</p>
+</div>
+<div class="list-container">
+<h2 class="subtitle">We provide the following express services:</h2>
+<div class="left-list">
+<ul>
+<li>B/W and color printing</li>
+<li>Business cards</li>
+<li>Custom printing</li>
+<li>Laminating</li>
+<li>Course packets</li>
+</ul>
+</div>
+<div class="right-list">
+<ul>
+<li>Banners and other large-format printing</li>
+<li>Spiral, softcover, and hardcover binding</li>
+<li>Foam core mounting</li>
+<li>Canvas prints</li>
+<li>And more!</li>
+</ul>
+</div>
+</div>
+<p class="info-text"><span class="statement">Location:</span> Manwaring Center, next to the University Store and across from the MC Market.</p>
+<p class="info-text"><span class="statement">Phone:</span>&nbsp;496-2880</p>
+<p class="stand-out"><em>We are here for you.</em></p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x33224" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

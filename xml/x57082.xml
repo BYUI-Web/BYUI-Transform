@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x57082" Name="Academic Probation" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Academic Probation</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Academic Probation</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<!--SCRIPTS AND STYLESHEETS-->
+<div><link href="http://fonts.googleapis.com/css?family=Cambo" rel="stylesheet" type="text/css" /></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+window.jQuery || document.write('<script src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" _mce_src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" _mce_src="prebuilt/stylenew/js/libs/jquery-1.7.min.js"><\/script>')
+</script>
+<script src="Documents/student-records-and-registration/ibox2.js" type="text/javascript"></script>
+<script src="prebuilt/stylenew/js/mylibs/scrolling_events_bar.js" type="text/javascript"></script>
+<div><link href="Documents/student-records-and-registration/srrcss3.css" rel="stylesheet" type="text/css" /></div>
+<!--IBOXS-->
+<div id="egg" style="display: none;">
+<p>You have been led to a false Easter Egg. One of you answers was incorrect. Go back and try again.</p>
+</div>
+<div id="prob1" style="display: none;">
+<p>Academic Probation is an official notice to students that they have performed below the established BYU&mdash;Idaho academic standards for a second time (after having been on Academic Warning). Students on Academic Probation are permitted to continue their enrollment at BYU&mdash;Idaho; however, students are restricted to no more than 12 credits until they return to Satisfactory Standing.</p>
+</div>
+<div id="prob2" style="display: none;">
+<p>Students will need to complete the following requirments to have their Academic Probation lifted:</p>
+<ul>
+<li>Complete the Achieving Academic Success Workshop (AASW tab for more information)</li>
+<li>Earn 2.0 or greater cumulative GPA</li>
+<li>Earn 2.0 or greater semester GPA</li>
+<li>Earn 75% or greater semester SAP (Satisfactory Academic Progress)</li>
+<li>Earn at least six semester credits in a single semester</li>
+</ul>
+</div>
+<div id="prob3" style="display: none;">
+<p>Students will remain on Academic Probation if they:</p>
+<ul>
+<li>Earn a semester GPA of 2.0 or higher but fail to raise their cumulative GPA to 2.0</li>
+<li>Earn less than six credits in their next semester of enrollment</li>
+<li>Do not complete the AASW workshop before the semester grades are posted. (AASW tab for more information)</li>
+</ul>
+</div>
+<div id="prob4" style="display: none;">
+<p>Students who have been placed on Academic Probation will be placed on Academic Suspension under any of the following circumstances:</p>
+<ul>
+<li>Earn less than 2.0 semester GPA while on Academic Probation</li>
+<li>Earn less than 2.0 cumulative GPA and have previously been on Academic Warning and Academic Probation at any time</li>
+<li>If a student has returned to Satisfactory Academic Standing and they earn less than 1.0 semester GPA and have previously been on Academic Warning and Academic Probation at any time</li>
+</ul>
+<p>Please note that a student cannot be placed on Academic Suspension for failure to maintain SAP (Satisfactory Academic Progress)&nbsp;alone. Failure to earn 75% SAP must also be accompanied with a semester GPA below a 2.0</p>
+</div>
+<div id="prob5" style="display: none;">
+<p>If students are receiving University Federal Financial Aid, they should contact the <a href="x17043.xml">Student Financial Aid Office</a> to verify their eligibility.</p>
+<p>Student Financial Aid Office: (208)496-1600</p>
+</div>
+<div id="prob6" style="display: none;">
+<p>Students may not petition Academic Probation because this standing does not prevent their ability to enroll in courses or have access to university resources.</p>
+</div>
+<div id="prob7" style="display: none;">
+<p><strong>PROB HOLD:</strong> Restriction to a maximum of 12 credits for any future semesters until Satisfactory Standing is achieved. Students placed on Academic Probation who had previously registered for more than 12 credits should reduce their credit load in adherence to academic standard policy.</p>
+<strong>AASW HOLD:</strong> Achieving Academic Success Workshop completion required. <br />The above holds will not restrict the student from registering.</div>
+<div id="prob8" style="display: none;">
+<p>Yes. Effective Fall Semester 2010, BYU&mdash;Idaho introduced Academic Warning and stipulated that all students, regardless of the standard they do not meet, will go from Satisfactory Standing to Academic Warning on their first infraction. This policy is not retroactive. Students that received academic discipline prior to Fall Semester 2010 and have continued their education at BYU&mdash;Idaho do not start over on Academic Warning.</p>
+<p>Additionally, a student cannot be placed on Academic Suspension for failure to maintain SAP alone. Failure to earn 75% SAP (Satisfactory Academic Progress) must also be accompanied with a semester GPA below a 2.0.</p>
+</div>
+<!--IMAGES-->
+<div><img height="140" src="Images/Admin_Offices/Student Record and Registration/SecondLevelPage/kyles office.png" width="510" /><img alt="Academic Deadline Banner" height="140" src="Images/Admin_Offices/Student Record and Registration/SecondLevelPage/AcademicDeadline.png" width="168" /></div>
+<div id="bar"><img alt="bar" height="4" src="Images/Admin_Offices/Student Record and Registration/SecondLevelPage/bar1.png" width="710" /></div>
+<!--TABZ-->
+<div class="sectionstwo">
+<div class="tabz"><a href="x44647.xml">Academic Standards</a> <a href="x45999.xml">AASW</a> <a href="x46000.xml">Academic Warning</a> <a class="current" href="x46001.xml">Academic Probation</a> <a href="x46002.xml">Academic Suspension</a> <a href="x46003.xml">Academic Dismissal</a></div>
+<!--NAVIGATION-->
+<div class="box visible">
+<ul>
+<li><a href="#prob1" rel="ibox" title="What does Academic Probation mean?">What does Academic Probation mean?</a></li>
+<li><a href="#prob2" rel="ibox" title="How do I remove my Academic Probation?">How do I remove my Academic Probation?</a></li>
+<li><a href="#prob3" rel="ibox" title="What will keep me on Academic Probation?">What will keep me on Academic Probation?</a></li>
+<li><a href="#prob4" rel="ibox" title="Am I at risk of being placed on Academic Suspension?">Am I at risk of being placed on Academic Suspension?</a></li>
+<li><a href="#prob5" rel="ibox" title="Will Academic Probation affect my Finacial Aid?">Will Academic Probation affect my Finacial Aid?</a></li>
+<li><a href="#prob6" rel="ibox" title="Can I petition my Academic Probation?">Can I petition my Academic Probation?</a></li>
+<li><a href="#prob7" rel="ibox" title="What are the holds that have been placed on my account?">What are the holds that have been placed on my account?</a></li>
+<li><a href="#prob8" rel="ibox" title="Is it true that BYU&mdash;Idaho has a new Academic Standards Policy?">Is it true that BYU&mdash;Idaho has a new Academic Standards Policy?</a></li>
+</ul>
+</div>
+</div>
+<!--EVENTS-->
+<div class="span-18 last" id="events_bar_horizontal">
+<div class="span-18 last" id="window">
+<div id="events_bar_control"><span class="prev">&nbsp;</span><span class="next"></span></div>
+<div id="pane"><!--THE BEGING OF THE EVENTS-->
+<div class="single_event"><a class="event_link" href="http://ingeniux.byui.edu/admin/xml/"><span class="event_date"><span class="cal_day">25</span><br /><span class="cal_month">MAR</span></span></a>
+<p style="color: #303030;">Last day to withdraw from Second Block Classes and receive a "W" grade and not the grade earned.</p>
+</div>
+<div class="single_event"><a class="event_link" href="http://ingeniux.byui.edu/admin/xml/"><span class="event_date"><span class="cal_day">26</span><br /><span class="cal_month">MAR</span></span></a>
+<p style="color: #303030;">Last day to withdraw completely from school and receive a "W" grades and not the grades earned.</p>
+</div>
+<div class="single_event"><a class="event_link" href="http://ingeniux.byui.edu/admin/xml/"><span class="event_date"><span class="cal_day">2</span><br /><span class="cal_month">APR</span></span></a>
+<p style="color: #303030;">Last day to withdraw from all Second Block classes and receive a "W" grade and not the grade earned.</p>
+</div>
+<div class="single_event"><a class="event_link" href="http://ingeniux.byui.edu/admin/xml/"><span class="event_date"><span class="cal_day">10</span><br /><span class="cal_month">APR</span></span></a>
+<p style="color: #303030;">Last day of classes.</p>
+</div>
+<div class="single_event"><a class="event_link" href="http://ingeniux.byui.edu/admin/xml/"><span class="event_date"><span class="cal_day">12</span><br /><span class="cal_month">APR</span></span></a>
+<p style="color: #303030;">Graduation Commencement and Convocations.</p>
+</div>
+<div class="single_event"><a class="event_link" href="http://ingeniux.byui.edu/admin/xml/"><span class="event_date"><span class="cal_day">22</span><br /><span class="cal_month">APR</span></span></a>
+<p style="color: #303030;">Classes Begin.</p>
+</div>
+<div class="single_event"><a class="event_link" href="http://ingeniux.byui.edu/admin/xml/"><span class="event_date"><span class="cal_day">28</span><br /><span class="cal_month">APR</span></span></a>
+<p style="color: #303030;">Last day to Add to a Full Semester &amp; First Block Waiting List.</p>
+</div>
+<div class="single_event"><a class="event_link" href="http://ingeniux.byui.edu/admin/xml/"><span class="event_date"><span class="cal_day">28</span><br /><span class="cal_month">APR</span></span></a>
+<p style="color: #303030;">Last day to Add to a First Block Waiting List.</p>
+</div>
+<div class="single_event"><a class="event_link" href="http://ingeniux.byui.edu/admin/xml/"><span class="event_date"><span class="cal_day">29</span><br /><span class="cal_month">APR</span></span></a>
+<p style="color: #303030;">PAYMENT DEADLINES - Full Semester: Tuition, Fees, and Insurance - Late Charge of 5% on unpaid balance.</p>
+</div>
+<!--THE END OF THE EVENTS--></div>
+</div>
+</div>
+<!--FOOTER-->
+<div id="email" style="display: none;">
+<p>For any Academic Petitions questions please email us at: <a href="mailto:srrpetitions@byui.edu"><span style="text-decoration: underline;">srrpetitions@byui.edu</span></a></p>
+</div>
+<div id="phone" style="display: none;">
+<p>For any Academic Petitions questions please email us at (208)-496-1023</p>
+</div>
+<p><img alt="Bar" height="2" src="Images/Admin_Offices/Student Record and Registration/HomePage/bottomBar.jpg" width="710" /></p>
+<div class="barb"><img alt="Bar" height="2" src="Images/Admin_Offices/Student Record and Registration/HomePage/bottomBar.jpg" width="710" /></div>
+<div id="bottomContact">
+<ul>
+<li><img alt="Email Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/envelope.png" width="23" /><a href="#email" rel="ibox" title="Email Information"> Email Us</a></li>
+<li><img alt="Phone Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/phone.png" width="23" /><a href="#phone" rel="ibox" title="Phone Information"> Call Us</a></li>
+<li><img alt="Visit Link" height="15" src="Images/Admin_Offices/Student Record and Registration/HomePage/visit.png" width="23" /><a href="Images/Admin_Offices/Student Record and Registration/HomePage/byuidahoMap.jpg" rel="ibox"> Visit Us</a></li>
+<li><img alt="Facebook Link" height="16" src="Images/Admin_Offices/Student Record and Registration/HomePage/facebook.png" width="16" /><a href="http://www.facebook.com/pages/BYU-Idaho-Student-Records-and-Registration/276472292461946?fref=ts"> facebook</a></li>
+<li><img alt="Live Chat Link" height="16" src="Images/Admin_Offices/Student Record and Registration/HomePage/livechat.png" width="18" /><a href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=SRR&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large" onclick="window.open('https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=SRR&amp;imageUrl=https://web.byui.edu/admissions/liveperson/large&amp;referrer='+escape(document.location),'chat1132447','width=472,height=320');return false;" target="chat1132447"> Live Chat</a></li>
+<li><img alt="Site Index Link" height="17" src="Images/Admin_Offices/Student Record and Registration/HomePage/index.png" width="18" /><a href="x43952.xml"> Index</a></li>
+</ul>
+</div>
+<div><a href="#egg" rel="ibox" title="Easter egg"><img height="30" src="Images/Admin_Offices/Student%20Record%20and%20Registration/egg/egg2c.gif" style="margin: 0px 0px -35px -48px; position: relative; top: -130px; left: 250px;" width="41" /></a></div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x44649" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

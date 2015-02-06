@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.82 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x64646" Name="Available Services" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Available Services</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">BYU-Idaho Student Services (by student type)</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent" Expanded="false"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent" Expanded="false"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<p style="text-align: left;">The chart below shows the different services available for BYU-Idaho Online Degree, Campus, and Pathway students.<br /><br /></p>
+<table border="0" cellpadding="0" cellspacing="0" style="width: 250px; height: 1004px;"><colgroup><col width="157" /> <col width="157" /> <col span="2" width="88" /> <col width="108" /> <col width="111" /> <col width="140" /> <col width="121" /> <col width="106" /> <col width="87" /> <col width="92" /> </colgroup>
+<tbody>
+<tr style="background-color: #6f74f5;">
+<td style="width: 350px; height: 20px;"></td>
+<td style="text-align: center;" width="157"><strong>Online Degree<br /></strong></td>
+<td style="text-align: center;" width="88">Campus Student</td>
+<td style="text-align: center;" width="140">Pathway Student</td>
+</tr>
+<tr>
+<td style="width: 350px; height: 20px;">Username and Email</td>
+<td style="text-align: center;"><strong>X</strong></td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">X</td>
+</tr>
+<tr>
+<td style="width: 350px; height: 20px;">I-Card Services</td>
+<td style="text-align: center;"><strong>X</strong></td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">X</td>
+</tr>
+<tr>
+<td style="width: 350px; height: 20px;">Career &amp; Academic Advising</td>
+<td style="text-align: center;"><strong>X</strong></td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="width: 350px; height: 20px;">Approved Housing</td>
+<td style="text-align: center;"><strong>X</strong></td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 350px; height: 20px;">Health Center</td>
+<td style="text-align: center;"><strong>Limited</strong></td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 350px; height: 20px;">Health Insurance</td>
+<td style="text-align: center;"><strong>Limited</strong></td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 350px; height: 20px;">Counseling Center</td>
+<td style="text-align: center;"><strong>Local</strong></td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 350px; height: 20px;">Dances &amp; Spectator Events</td>
+<td style="text-align: center;"><strong>X</strong></td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">X</td>
+</tr>
+<tr>
+<td style="width: 350px; height: 20px;">University Events</td>
+<td style="text-align: center;"><strong>X</strong></td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">Limited</td>
+</tr>
+<tr>
+<td style="width: 350px; height: 20px;">Financial Aid</td>
+<td style="text-align: center;"><strong>Limited</strong></td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 350px; height: 20px;">Library</td>
+<td style="text-align: center;"><strong>X</strong></td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">With Fees</td>
+</tr>
+<tr>
+<td style="width: 350px; height: 20px;">Testing Center</td>
+<td style="text-align: center;"><strong>X</strong></td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">X</td>
+</tr>
+<tr>
+<td style="width: 350px; height: 20px;">Internships</td>
+<td style="text-align: center;"><strong>X</strong></td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 350px; height: 20px;">Placement</td>
+<td style="text-align: center;"><strong>X</strong></td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">Graduates Only</td>
+</tr>
+<tr>
+<td style="width: 350px; height: 20px;">Scholarships</td>
+<td style="text-align: center;"><strong>&nbsp;</strong></td>
+<td style="text-align: center;">14 Credits</td>
+<td style="text-align: center;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 350px; height: 20px;">Student Employment</td>
+<td style="text-align: center;"><strong>12 Credits</strong></td>
+<td style="text-align: center;">12 Credits</td>
+<td style="text-align: center;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 350px; height: 20px;">Ticketing</td>
+<td style="text-align: center;"><strong>X</strong></td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">X</td>
+</tr>
+<tr>
+<td style="width: 350px; height: 20px;"><strong>ACTIVITIES</strong></td>
+<td style="text-align: center;"><strong>&nbsp;</strong></td>
+<td style="text-align: center;">&nbsp;</td>
+<td style="text-align: center;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 350px; height: 20px;">Leadership</td>
+<td style="text-align: center;"><strong>X</strong></td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 350px; height: 20px;">Volunteers</td>
+<td style="text-align: center;"><strong>X</strong></td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 350px; height: 20px;">Competitive Sports</td>
+<td style="text-align: center;"><strong>X</strong></td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 350px; height: 20px;">Recreational Sports</td>
+<td style="text-align: center;"><strong>X</strong></td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 350px; height: 20px;">Fitness</td>
+<td style="text-align: center;"><strong>X</strong></td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 350px; height: 20px;">Outdoor</td>
+<td style="text-align: center;"><strong>X</strong></td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 350px; height: 20px;">Service</td>
+<td style="text-align: center;"><strong>X</strong></td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 350px; height: 20px;">Social</td>
+<td style="text-align: center;"><strong>X</strong></td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 350px; height: 20px;">Talent</td>
+<td style="text-align: center;"><strong>X</strong></td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 350px; height: 20px;">Life Skills</td>
+<td style="text-align: center;"><strong>X</strong></td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 350px; height: 20px;">Fitness Center</td>
+<td style="text-align: center;"><strong>X</strong></td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 350px; height: 20px;">Other Hart Facilities</td>
+<td style="text-align: center;"><strong>X</strong></td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">Limited/Fees</td>
+</tr>
+</tbody>
+</table>]]></BodyCopy><xPower Type="Component" Component="x18360" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x17147" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<EmptyShell ID="x67894" Name="global.js" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">global.js</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="false">global.js</Abstract><ESContent type="string" label="Content" readonly="false" hidden="false" required="false">$(document).ready(function(){
+	//Sub Menu interactivity 
+	var holder;
+	$(document).click(function(e){
+		try{
+			holder = e.target.parentNode.parentNode.className;
+		}catch(err){
+			holder = "nothing";
+		}
+		if (e.target.id != "submenu1" &amp;&amp; e.target.tagName != "SPAN" &amp;&amp; e.target.id != "submenu2" &amp;&amp; e.target.id != "submenu3" &amp;&amp; e.target.className != "grow" &amp;&amp; e.target.className != "arrow" &amp;&amp; holder != "replace") {
+			closeOthers();
+		}
+	});
+	
+	$(document).bind('keydown', 'esc', function(evt){closeOthers();});
+	
+	$("p:first","div[id^='submenu']").click(function(){
+		if($(this).parent().css('top') == "-40px"){
+			$(this).parent().css('height','265px');
+			$(this).parent().animate({top: '-260px'}, 500);
+			closeOthers();
+			$(".arrow", this).attr({src: "images/home_page/interactive/white_arrow_down.png" });
+			$(this).parent().addClass('open');
+		}
+		else{
+			closeOthers();
+		}
+	});
+	
+	$("a", "#more").mousedown(function(){
+		$("img", this).attr({src: "images/home_page/interactive/dark_grey_button_click.png" });
+	});
+	
+		$("a", "#more").mouseup(function(){
+		$("img", this).attr({src: "images/home_page/interactive/dark_grey_button.png" });
+	});
+	
+	$("#menu").click(function(){
+		$("div[id^='submenu']").css("visibility", "visible");
+		$(".separator").css("visibility", "visible");
+	});
+	
+	function closeOthers(clicked){
+		$(".open").animate({top: '-40px'}, 500);
+		$(".arrow", ".open").attr({src: "images/home_page/interactive/white_arrow.png"});
+		$(".open").removeClass('open');
+	}
+
+	/*
+//Load outside content
+	$("#menu li a").click(function(){
+		$('.active').removeClass('active');
+		$(this).addClass('active');
+		var clicked = $(this).parent().attr("id");
+		closeOthers();		
+		$.ajax({
+			type: "GET",
+			url: "homepage.xml",
+			dataType: $.browser.msie ? "text" : "xml",
+			success: function(data){						
+				var xml;
+				if (typeof data == "string"){
+					xml = new ActiveXObject("Microsoft.XMLDOM");
+					xml.async = false;
+					xml.loadXML(data);
+				}
+				else {	xml = data;	}
+				
+				$(xml).find("#" + clicked).each(function(){
+					var info_text = $(this).find('info').text();
+					var pics = $(this).find('pics').text();
+					var subMenu1 = $(this).find('submenu1').text();
+					var subMenu2 = $(this).find('submenu2').text();
+					var subMenu3 = $(this).find('submenu3').text();
+					$("#text").html(info_text);
+					$("#pics").html(pics);
+					setTimeout(function(){$(".replace", "#submenu1").html(subMenu1);}, 500);
+					setTimeout(function(){$(".replace", "#submenu2").html(subMenu2);}, 500);
+					setTimeout(function(){$(".replace", "#submenu3").html(subMenu3);}, 500);
+					cycle();
+				});
+		   	},
+			error: function (xml, status){
+				alert(status);
+			}
+		});
+	});
+*/
+	
+	
+	//Drop Down Menu
+	var drop = "nothing";
+	var bringUp, resetDrop;
+	$("#directories, #calendar, #aboutbyui, #library").hide();
+	
+	$("#blueMenu li a").click(function(e){
+		if(drop == e.target.parentNode.className){
+			//Left empty on purpose
+		}else if (e.target.parentNode.className == "directories" || e.target.parentNode.className == "library" || e.target.parentNode.className == "aboutbyui" || e.target.parentNode.className == "calendar"){
+			closeOthers();
+			$("#" + drop).slideUp(100);
+			drop = e.target.parentNode.className;
+			$("#" + e.target.parentNode.className).slideDown(100);
+		}
+	});
+	
+	$("#blueMenu li").hover(function(e){
+		clearTimeout(bringUp);
+		clearTimeout(resetDrop);
+	}, function(){
+		bringUp = setTimeout(function(){$("#" + drop).slideUp(100);}, 1000);
+		resetDrop = setTimeout(function(){drop = "nothing";}, 1001);
+	});
+	
+	//News and Events Box
+	$("#news").click(function(){
+	  $("#news").addClass("selected");
+	  $("#events").removeClass("selected");
+	  loadConnect();
+	});
+	$("#events").click(function(){
+	  $("#events").addClass("selected");
+	  $("#news").removeClass("selected");
+	  loadLinks();
+	});
+	
+	loadConnect();
+
+	////////////////////
+	// RSS Functionality
+	////////////////////
+	/*
+function loadLinks(){
+	  jQuery('#newsEventsList').html("");
+  	jQuery(function() {
+    	  jQuery.getFeed({
+  	        url: 'links.xml',
+  	        success: function(xml) {
+  	            var html = '&lt;ul&gt;';
+  	            for(var i = 0; i &lt; xml.items.length; i++) {
+  	                var item = xml.items[i];
+  	                if(i % 2 == 0){
+  	                  html += '&lt;li class="even"&gt;';
+  	                }else{
+  	                  html += '&lt;li class="odd"&gt;';
+  	                }
+  	                html += ' 	&lt;a href="'
+  	                + item.link
+  	                + '" '
+  	                + 'title="'
+  	                + item.updated
+  	                + item.description.replace(/\\n/g, "")
+  	                + '"&gt;'
+  	                + item.title
+  	                + '&lt;/a&gt;'
+  	                + '&lt;/li&gt;';
+  	            }
+  	            html += '&lt;/ul&gt;';
+  	            jQuery('#newsEventsList').append(html);
+  	            $("#newsEventsList").jScrollPane({scrollbarWidth:16});
+  	        }    
+  	    });
+  	});	
+  };
+  
+  function loadConnect(){
+    jQuery('#newsEventsList').html("");
+	jQuery(function() {
+  	  jQuery.getFeed({
+	        url: 'connect.xml',
+	        success: function(xml) {
+	            var html = '&lt;ul&gt;';
+	            for(var i = 0; i &lt; xml.items.length; i++) {
+	                var item = xml.items[i];
+	                if(i % 2 == 0){
+	                  html += '&lt;li class="even"&gt;';
+	                }else{
+	                  html += '&lt;li class="odd"&gt;';
+	                }
+	                html += ' 	&lt;a href="'
+	                + item.link
+	                + '" '
+	                + 'title="'
+	                + item.updated
+	                + item.description.replace(/\\n/g, "")
+	                + '"&gt;'
+	                + item.title
+	                + '&lt;/a&gt;'
+	                + '&lt;/li&gt;';
+	            }
+	            html += '&lt;/ul&gt;';
+	            jQuery('#newsEventsList').append(html);
+	            $("#newsEventsList").jScrollPane({scrollbarWidth:16});
+	        }    
+  	    });
+  	});	
+*/
+  };
+});</ESContent></EmptyShell>

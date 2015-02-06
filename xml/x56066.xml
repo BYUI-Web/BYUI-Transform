@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.82 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x56066" Name="PH 101" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">PH 101 Timeline</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">A timeline of when PH 101 will be offered.</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<div>
+<p align="center" style="text-align: center;"><span style="font-family: arial,helvetica,sans-serif; font-size: small;"> With the implementation of the Foundations program, many of the General Education courses have been fazed out.&nbsp; PH 101, Fundamentals of Physics is still required by some majors so the course itself has not been eliminated, it is however offered more sparingly. </span></p>
+<p align="center" style="text-align: center;"><span style="font-family: arial,helvetica,sans-serif; font-size: small;">The following is the current schedule of when you can expect to see it offered. </span></p>
+<table border="0" style="width: 250px; height: 168px; margin-left: auto; margin-right: auto;">
+<tbody>
+<tr>
+<td><strong>Year</strong></td>
+<td style="text-align: center;"><strong>Winter</strong></td>
+<td><strong> Spring</strong></td>
+<td><strong> Fall</strong></td>
+</tr>
+<tr>
+<td><strong>2012</strong></td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><strong>2013</strong></td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td><strong>2014</strong></td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><strong>2015</strong></td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="text-align: center;"><span style="font-family: arial,helvetica,sans-serif; font-size: small;">...and so on and so forth....</span></p>
+<p align="center" style="text-align: center;"><span style="font-family: arial,helvetica,sans-serif; font-size: small;">As you can see it will now be offered twice in the even years, and then not at all in the odd years or in the Spring semesters.&nbsp; This way we can accomodate all tracks without majors gaps. </span></p>
+<p align="center" style="text-align: center;"><span style="font-family: arial,helvetica,sans-serif; font-size: small;"> If you have further questions please feel free to contact us at 496-7730.</span></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+</div>]]></BodyCopy><xPower Type="Component" Component="x21260" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x1855" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

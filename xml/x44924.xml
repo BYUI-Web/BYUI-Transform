@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<PolicyPage ID="x44924" Name="Fixed Assets Inventory" Layout="general_Policy.xsl"><Title type="string" label="Policy Title" readonly="false" hidden="false" required="true">Fixed Assets Inventory</Title><Abstract type="string" label="Policy Abstract" readonly="false" hidden="false" required="true">Fixed Assets Inventory</Abstract><Date type="date" label="Revision Date" readonly="false" hidden="false" required="true" display="localdateshort" UTC="true">20120815T18:00:00</Date><BodyCopy type="dhtml" label="Policy" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+li{
+font-family: Verdana, Arial, sans-serif;}
+--></style>
+<h3 style="font-family: Verdana, Arial, sans-serif;"><strong>Policy</strong></h3>
+<p style="font-family: Verdana, Arial, sans-serif;">Campus wide inventory records will be kept of the following classification or types of assets:</p>
+<ol>
+<li>Land and facilities,</li>
+<li>Capital equipment (unit price $5,000 and over),</li>
+<li>All computer and peripheral equipment, and operating equipment costing over $500 that is susceptible to theft.&nbsp;</li>
+</ol>
+<p style="font-family: Verdana, Arial, sans-serif;">This includes such items as:</p>
+<ul>
+<li>Certain classroom/lab equipment such as microscopes</li>
+<li>Sewing machines and typewriters</li>
+<li>Cameras and projectors</li>
+<li>Musical instruments</li>
+<li>Art, paintings, sculptures, etc</li>
+<li>Electronic equipment</li>
+</ul>
+<p style="font-family: Verdana, Arial, sans-serif;">A record of assets which do not fall within these classifications may be kept by the department chairmen and managers.</p>
+<h3 style="font-family: Verdana, Arial, sans-serif;"><strong>Procedures</strong></h3>
+<ol>
+<li>When equipment is purchased or is constructed through the work order system, the following Object Codes (last four digits in the account number) will identify those assets which will be kept on the Fixed Assets System.
+<ul>
+<li><strong>8300</strong>Operating Equipment costing from $500 to $5,000 which can easily be stolen, and all computer monitors, CPU's and network printers costing less than $5,000.</li>
+<li><strong>8400</strong>Capital Equipment costing $5,000 or more.</li>
+<li><strong>8350</strong> "Operating Equip/Non-Inventory" will be used for purchases of equipment items that do not fall into one of the above object codes.</li>
+</ul>
+</li>
+<li>All equipment to be kept on the Fixed Asset Inventory System (8300 and 8400) will be tagged or identified with a BYU-Idaho bar code numbered tag. The equipment will be identified by this tag number as long as it is owned by BYU-Idaho. Equipment not required to be kept on the Fixed Asset System (8350) may be tagged with a BYU-Idaho property tag, but the tag will not be numbered. These tags will be placed on the equipment at either Stores &amp; Receiving.</li>
+<li>Periodically, Financial Services will do an inventory of assets held by each department. Financial Services will then notify the departments of any differences for explanation.</li>
+<li>Refer to the section on Surplus Sales and Disposal of University Assets for instructions on the sale and disposal of assets assigned to the department.&nbsp;</li>
+</ol>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="Policy" label="Policy" readonly="false" hidden="false" required="false" CompTypes="PolicyNavigationComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="true"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">true</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x18419" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></PolicyPage>

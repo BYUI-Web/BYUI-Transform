@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x63165" Name="homebody" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;style&gt;
+#page_title h2{font-weight: normal;padding: 0}
+#theFrame{
+                box-shadow: 10px 10px 10px #888888; 
+                border: 1px solid black;
+            }
+
+            #frameDisplay{
+                position: fixed;
+                margin-left: auto;
+                margin-right: auto;
+                width: 46em;
+                vertical-align: middle;
+            }
+
+            #closeFrameButton{
+                left:91.9%; 
+                border: 1px solid black; 
+                color:white; 
+                text-decoration:none; 
+                background-color: rgb(50,107,169); 
+                border-radius:6px; 
+                display: block;
+                width: 2.35em;
+                margin-left: 42.8em;
+            }
+
+            #noline{
+                display:inline;
+            }
+&lt;/style&gt;
+&lt;style&gt;
+.type h4{text-indent: 0px}
+&lt;/style&gt;
+&lt;div id="frameDisplay"&gt;&lt;/div&gt;
+&lt;div id="darken"&gt;
+&lt;section class="span-18 last" id="top_content"&gt;
+&lt;div class="span-18 last" id="page_title"&gt;
+&lt;h2&gt;Help Desk (Technology)&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;div class="span-12"&gt;&lt;xsl:apply-templates select="report" mode="serverstatus" /&gt; &lt;xsl:apply-templates select="../InsertItems/status" mode="serverstatus" /&gt;&lt;hr class="space: 5px"/&gt;&lt;br /&gt;
+&lt;div class="span-12"&gt;
+&lt;div class="loud" style="width: 320px; clear: left; padding-left: 10px; padding-bottom: 30px; font-size: 12.5px;"&gt;If myBYUI is down, I-Learn and Email may be reached using the following direct links:&lt;br /&gt;&lt;a href="http://byui.brainhoney.com"&gt;I-Learn&lt;/a&gt; | &lt;a href="http://owa.byui.edu"&gt;Email (Employee)&lt;/a&gt; | &lt;a href="http://web.byui.edu/outlooklive"&gt;Email (Student)&lt;/a&gt;&lt;/div&gt;
+&lt;p id="noline"&gt;Retirees may access the following:&lt;/p&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href="http://www.byui.edu/financial-services/my-account" title="Financial Services Account Access Link"&gt;Financial Services Account&lt;/a&gt; | &lt;a href="http://owa.byui.edu/owa" title="Email access link"&gt;Email&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;div class="span-6" style="font-size: 13px;"&gt;
+&lt;h4&gt;On Campus Walk-in Support:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Walk-in: Located in 322 McKay Library&lt;/li&gt;
+&lt;li&gt;Hours of operation: Mon-Fri: 7:00 am &amp;ndash; 9:00 pm&lt;/li&gt;
+&lt;li&gt;Weekend hours: Sat: 9 am - 5 pm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="span-6 last" style="font-size: 13px;"&gt;
+&lt;h4&gt;On and Off Campus Phone (Call 9000) and Chat Support:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Off Campus: 208-496-9000 or 1-866-237-5195 (toll free)&lt;/li&gt;
+&lt;li&gt;Hours of operation: We are always open except on Sunday from 2:00am to 6:00pm.&lt;/li&gt;
+&lt;li&gt;Email: helpdesk@byui.edu&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="span-6 last"&gt;
+&lt;h3 style="text-align: center;"&gt;Let Us Help You&lt;/h3&gt;
+&lt;hr class="space: 5px" /&gt;&lt;img height="50" width="230" src="images/helpdesk/letushelp.png" alt="Let Us Help You" /&gt; &lt;a class="span-6" href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;amp;file=visitorWantsToChat&amp;amp;site=1132447&amp;amp;byhref=1&amp;amp;SESSIONVAR!skill=Help%20Desk&amp;amp;imageUrl=https://web.byui.edu/admissions/liveperson/large" onclick="javascript:window.open('https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;amp;file=visitorWantsToChat&amp;amp;site=1132447&amp;amp;SESSIONVAR!skill=Help%20Desk&amp;amp;imageUrl=https://web.byui.edu/admissions/liveperson/large&amp;amp;referrer=' escape(document.location),'chat1132447','width=472,height=320');return false;" style="margin-bottom: 12px;" target="_blank"&gt; &lt;img alt="Chat Live" src="images/helpdesk/helpdesk.jpg" /&gt; &lt;/a&gt; &lt;a class="span-6" id="requestlink" onclick='displayIframe();' title="Click here to submit a request form" style="margin-bottom: 12px;"&gt;&lt;img alt="Submit Request" src="images/helpdesk/submitrequest.png" /&gt;&lt;/a&gt; &lt;a href="http://helpdesk.byui.net/"&gt;&lt;img alt="Search the Knowledgebase" src="images/helpdesk/search.jpg" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="quick_links span-18 last"&gt;
+&lt;div class="quick_link_column span-6"&gt;
+&lt;h4&gt;Help Links&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="help-desk/frequently-asked-questions/email-help" target="_blank"&gt;Email Help&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="help-desk/frequently-asked-questions/virus-protection"&gt;Virus Removal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="help-desk/frequently-asked-questions/wireless-setup"&gt;Wireless Setup (Internet Access)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://web.byui.edu/Username/ForgotPassword.aspx"&gt;Forgot Password&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://web.byui.edu/Username/ChangePassword.aspx"&gt;Change Password&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="help-desk/frequently-asked-questions/password-change-process"&gt;Password Change Process&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="quick_link_column span-6"&gt;
+&lt;h4&gt;Direct Links&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://byui.brainhoney.com"&gt;I-Learn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://web.byui.edu/outlooklive"&gt;Email (Student)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://owa.byui.edu"&gt;Email (Employee)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="quick_link_column span-6 last"&gt;
+&lt;h4&gt;Misc Links&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://cms.byui.edu/home/it" target="_blank"&gt;IT SharePoint(Restricted Access)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="help-desk/security-officer" target="_blank"&gt;Security Officer Alert&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="help-desk/it-reorganization" target="_blank"&gt;IT Organizational Changes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+            var displayCount = 0;
+            function displayIframe() {
+                frameDisplay.innerHTML = "&lt;a id='closeFrameButton' href='javascript: closeIframe()'&gt;Close&lt;/a&gt;&lt;iframe id='theFrame' src='http://www2.byui.edu/helpdesk/newhelprequest.html' frameborder='0'&gt;&lt;/iframe&gt;";
+                if(displayCount == 0) {
+                    document.getElementById('frameDisplay').style.zIndex="100";
+                    displayCount++;
+                }
+                document.getElementById('theFrame').style.height="37em";
+                document.getElementById('theFrame').style.width="45.09em";
+                document.getElementById('theFrame').style.backgroundColor="white";
+                document.getElementById('darken').style.opacity="0.4";
+                document.getElementById('university_message').style.opacity="0.4";
+                document.getElementById('local_nav').style.opacity="0.4";
+                document.getElementById('breadcrumbs').style.opacity="0.4";
+                document.getElementById('main_header').style.opacity="0.4";
+                document.getElementById('top_header').style.opacity="0.4";
+                document.getElementById('footer_nav').style.opacity="0.4";
+                document.getElementById('footer_links_container').style.opacity="0.4";
+                document.getElementById('footer_brand').style.opacity="0.4";
+                document.getElementById('page_title').style.opacity="0.4";
+            }
+
+            //code to close the box and return the page to normal.
+            function closeIframe() {
+                frameDisplay.innerHTML = "";
+                document.getElementById('university_message').style.opacity="1.0";
+		document.getElementById('darken').style.opacity="1.0";
+                document.getElementById('local_nav').style.opacity="1.0";
+                document.getElementById('breadcrumbs').style.opacity="1.0";
+                document.getElementById('main_header').style.opacity="1.0"; 
+                document.getElementById('top_header').style.opacity="1.0";
+                document.getElementById('footer_nav').style.opacity="1.0";
+                document.getElementById('footer_links_container').style.opacity="1.0";
+                document.getElementById('footer_brand').style.opacity="1.0";
+                document.getElementById('page_title').style.opacity="1.0";
+            }
+        &lt;/script&gt;</ContentSnippet></ContentSnippet>

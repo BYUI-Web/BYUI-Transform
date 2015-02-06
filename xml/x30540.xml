@@ -1,0 +1,247 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.68 - http://www.ingeniux.com ***-->
+<AdminPage ID="x30540" Name="Veterans" Layout="admin_office_home.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Veterans Association</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Brigtham Young University Idaho -  Veterans Association</Abstract><MainMesgTop type="boolean" label="Enable to move &quot;Main Message&quot; to top of page" readonly="false" required="false" hidden="false">true</MainMesgTop><IntroCopy type="dhtml" label="Main Message" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+#page{width: 710px; height: auto; min-height: 600px;}
+    #page #header{width: 710px; height: 265px;}
+    #page #content{width: 78%; height: auto; min-height: 300px; float: left; padding: 1%;}
+    #page #content p{padding-left: 5px;}
+
+    #page #buttons{width: 18%; height: auto; min-height: 300px; float: left; padding: 1%; text-align: center;margin-top:40px;}
+    #page #buttons a{display:block; width: 100px; height: 100px; margin-left: auto; margin-top: 10px; margin-bottom: 20px;
+        }
+    #page #buttons .useful{background-image: url('Images/student-support/Associations/Association_icons/latinW.png'); background-size: 100%; background-repeat: no-repeat;}
+    #page #buttons .fun{background-image: url('Images/student-support/Associations/Association_icons/latinF.png'); background-size: 100%; background-repeat: no-repeat;}
+    #page #buttons .join{background-image: url('Images/student-support/Associations/Association_icons/join(1).png'); background-size: 100%; background-repeat: no-repeat;margin-left:30px;}
+
+    #page #buttons .useful:hover{background-image: url('Images/student-support/Associations/Association_icons/blackandwhite.png');}
+    #page #buttons .fun:hover{background-image: url('Images/student-support/Associations/Association_icons/blackandwhiteF.png');}
+    #page #buttons .join:hover{background-image: url('Images/student-support/Associations/Association_icons/join(0)blackandwhite.png');}
+    
+
+    #page #block{width:533px;}
+    #page #block h2{font-weight:bold;color:#404B62;margin-top:11px;}
+#page #block p{margin-left:-5px;}
+#page .inactive{
+        width:610px;
+        height:40px;
+        margin:-20px 0 15px 0;
+        padding:0;
+        background-color:#FF6600;
+        background-image: linear-gradient(bottom, rgb(255,102,0) 21%, rgb(235,105,18) 61%, rgb(250,103,5) 81%);
+background-image: -o-linear-gradient(bottom, rgb(255,102,0) 21%, rgb(235,105,18) 61%, rgb(250,103,5) 81%);
+background-image: -moz-linear-gradient(bottom, rgb(255,102,0) 21%, rgb(235,105,18) 61%, rgb(250,103,5) 81%);
+background-image: -webkit-linear-gradient(bottom, rgb(255,102,0) 21%, rgb(235,105,18) 61%, rgb(250,103,5) 81%);
+background-image: -ms-linear-gradient(bottom, rgb(255,102,0) 21%, rgb(235,105,18) 61%, rgb(250,103,5) 81%);
+
+background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.21, rgb(255,102,0)),
+    color-stop(0.61, rgb(235,105,18)),
+    color-stop(0.81, rgb(250,103,5))
+);
+        float:left;
+        border-radius:2px;
+    }
+    #page .inactive p{
+        color:white;
+        font-size:1.5em;
+        margin:0;
+        padding:0;
+        margin-top:5px;
+    }
+		#slideout {
+			position: fixed;
+			top: 200px;
+			right: 0;
+			width: 35px;
+            height: 128px;
+			padding: 12px 0;
+			text-align: center;
+			background: #326ba9;
+			-webkit-transition-duration: 0.5s;
+			-moz-transition-duration: 0.5s;
+			-o-transition-duration: 0.5s;
+			transition-duration: 0.5s;
+			-webkit-border-radius: 5px 0 0 5px;
+			-moz-border-radius: 5px 0 0 5px;
+			border-radius: 5px 0 0 5px;
+		}
+		#slideout_inner {
+			position: fixed;
+			top: 200px;
+			right: -451px;
+			background: #fff;
+            border-width: 1px;
+            border-style: solid;
+            border-color: #326ba9;
+			width: 400px;
+            height: 150px;
+			padding: 25px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+			color:black;
+            text-align: left;
+			-webkit-transition-duration: 0.5s;
+			-moz-transition-duration: 0.5s;
+			-o-transition-duration: 0.5s;
+			transition-duration: 0.5s;
+			/*-webkit-border-radius: 0 0 0 5px;*/
+			/*-moz-border-radius: 0 0 0 5px;*/
+			/*border-radius: 0 0 0 5px;*/
+		}
+		.slide-text{
+			margin:2px;
+            font-size:80%;
+            color: #999;
+		}
+        #feedback-button{
+            background: url(Images/student-support/feedback-button.png);
+            width: 141px;
+            height: 29px;
+            font-size: 80%;
+            margin-top: 20px;
+        }
+        #feedback-button #feed-text{
+            padding-top: 5px;
+            padding-left: 17px;
+        }
+        #feedback-button #feed-text a{
+            text-decoration:none;
+            color: black;
+        }
+        #feedback-button a, a:visited{
+            text-decoration:none;
+            color: black;
+        }
+        #slide-header{
+            margin-top:20px;
+            margin-bottom:6px;
+        }
+		#slideout:hover {
+			right: 450px;
+		}
+		#slideout:hover #slideout_inner {
+			right: 0;
+		}
+--></style>
+<div id="page">
+<div id="header"><img src="Images/student-support/Associations/Association_headers/Veterans_710px.jpg" /></div>
+<div id="content"><!-- <section class="inactive">
+            <p>This association is inactive for the Fall 2013 semester.</p>
+            </section> -->
+<h1>Welcome!</h1>
+<p>Our goal is to bring veterans together and raise awareness of the issues that affect our vets.</p>
+<br />
+<h1>Join Us</h1>
+<div id="content"><span style="font-size: xx-small;"><span style="font-size: xx-small;"><span style="font-family: trebuchet ms,geneva; font-size: medium;"><strong>We do not currently have a Veteran Association President. Please contact us if you are interested by emailing, calling, or coming into the Rigby 272 M-F between 2 and 5 pm.<br />Contact: <br /><strong>President: N/A<br /></strong><br /></strong></span></span></span>
+<ul>
+<li><small><strong>Phone: </strong>208.496.1420</small></li>
+<li><small><strong>Email: </strong>associations@byui.edu</small></li>
+</ul>
+<span style="font-size: xx-small;"><span style="font-family: trebuchet ms,geneva; font-size: medium;"><strong></strong> </span> </span><hr /><img src="Images/student-support/Associations/Association_headers/911Webbanner.png" style="padding: 0; margin-bottom: -7px;" width="553" /> <br />
+<div id="block">
+<h2>Remembering 9/11</h2>
+<p>Thank you to all who attended and served in the ceremony! Click <a href="x45943.xml">here</a> for images of the event.</p>
+<iframe frameborder="0" height="315" src="http://www.youtube.com/embed/RGqD2zv83NI" width="560"></iframe>
+<p>&nbsp;</p>
+<div id="facebook"><a href="http://www.facebook.com/pages/BYU-Idaho-Russian-Association/219508281407605#!/pages/BYU-Idaho-Veterans-Association/163812833722375" title="Go to Our Facebook page"><img alt="Like us on Facebook" src="http://www.byui.edu/Images/student-support/home_page/facebook.png" /></a></div>
+<div id="slideout"><img alt="Feedback" src="Images/student-support/feedback.png" />
+<div id="slideout_inner">
+<h3 id="slide-header">We want to hear from you!</h3>
+<div class="slide-text">BYU-Idaho values suggestions and ideas that can improve the university. Use our Feedback Form to let us know what you think.
+<div id="feedback-button">
+<div id="feed-text"><a href="http://www.byui.edu/feedback/?cid=fli:192">Feedback Form</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<h1>Useful Words</h1>
+<p>Whether you are a veteran, or just want to know more about them, these words will help you blow them away with your language skills. Have fun!</p>
+<table border="0">
+<tbody>
+<tr>
+<td colspan="2">
+<h1 style="text-align: center;">Useful Military Slang</h1>
+</td>
+</tr>
+<tr>
+<td><br />E-Tool</td>
+<td><br />Excavation tool; shovel</td>
+</tr>
+<tr>
+<td><br />FOB</td>
+<td><br />forward operating base.</td>
+</tr>
+<tr>
+<td>Foot Mobil</td>
+<td><br />Person on foot</td>
+</tr>
+<tr>
+<td><br />Got your six</td>
+<td><br />I've got your back</td>
+</tr>
+<tr>
+<td>Stay Frosty</td>
+<td>Keep cool under pressure.</td>
+</tr>
+</tbody>
+</table>
+<div>
+<div>
+<h1>Fun Facts</h1>
+<h3>Did you know that...</h3>
+<ul>
+<li>
+<p>21.8 Million Vets Live in the U.S.</p>
+</li>
+<li>
+<p>There Are 1.6 Million Female Vets</p>
+</li>
+<li>
+<p>71% of veterans cast a ballot in the 2008 presidential election. Compare that to the general public of which 61% voted that same year.</p>
+</li>
+<li>
+<p>7.6 million Vietnam-era vets are living in the U.S. right now. Another 4.8 million served during the Gulf War, 2.6 million in Korea, and 2.1 million during World War II. There are no living American veterans of World War I.</p>
+</li>
+</ul>
+</div>
+<br />
+<div id="facebook"><br /> <a href="http://www.facebook.com/pages/BYU-Idaho-Russian-Association/219508281407605#!/pages/BYU-Idaho-Veterans-Association/163812833722375" title="Go to Our Facebook page"> <img alt="Like us on Facebook" height="25" src="Images/student-support/like-us-on-facebook220.jpg" /> </a></div>
+</div>
+<p>
+<script type="text/javascript">
+window.onload = function() {
+
+                                $('.join').hover(function() {
+                                    $(this).attr('src', 'Images/student-support/Associations/Association_icons/joingray.png');
+                                },
+                                        function() {
+                                            $(this).attr('src', 'Images/student-support/Associations/Association_icons/join.png');
+                                        }
+                                );
+
+                            }//end window load
+</script>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+                            _gaq.push(['_setAccount', 'UA-33977325-1']);
+                            _gaq.push(['_trackPageview']);
+
+                            (function() {
+                                var ga = document.createElement('script');
+                                ga.type = 'text/javascript';
+                                ga.async = true;
+                                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                                var s = document.getElementsByTagName('script')[0];
+                                s.parentNode.insertBefore(ga, s);
+                            })();
+</script>
+</p>
+</div>
+</div>
+</div>
+</div>]]></IntroCopy><xPower Type="GroupStart" GroupStart="" Name="CellGroup" label="Cells" readonly="false" hidden="false" required="false" Expanded="true"><numColumns type="enumeration" values="1 2 3 4 5" label="Select number of cell columns." readonly="false" hidden="false" required="true">3</numColumns><xPower Type="List" List="xpowercomponent_Cell" Name="CellList" label="Cell List" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="true"><xPower Type="Component" Component="" Name="Cell" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"/></xPower></xPower><xPower Type="List" List="xpowercomponent_BannerAd" Name="BannerAds" label="Rotating Ads (650x216px required)" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="true"><xPower Type="Component" Component="" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/></xPower><xPower Type="Navigation" StartPage="" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="" Query="" Name="DeptEvents" label="Define Your Events Folder" readonly="false" hidden="false" required="false" Expanded="false"/><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="QuickLinksGroup" label="Quick Links Group" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Component="" Name="QuickLinks" label="Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x35763" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></AdminPage>

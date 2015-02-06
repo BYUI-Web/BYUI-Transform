@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x62154" Name="Support Staff" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Support Page</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Support Page</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style type="text/css"><!--
+#page_title{
+     display: none;
+}
+--></style>
+<p><span style="line-height: 30px; margin-top: 10px; font-size: 200%; font-family: Georgia; color: black;">Support Staff</span></p>
+<hr />
+<table border="0">
+<tbody>
+<tr>
+<td rowspan="4" style="padding-right: 10px;"><img alt="Marci" height="167" src="Images/counseling-center/mnite.png" width="120" /></td>
+<td colspan="3" style="padding-left: 10px;"><strong>Marci Nite:</strong> Office Assistant</td>
+</tr>
+<tr>
+<td style="padding: 5px; background-color: #ebebeb; border: 4px solid #ffffff; height: 30px; width: 148px;">
+<p style="margin-bottom: 0; padding: 0;"><span style="font-size: small;">OFFICE:</span></p>
+<p><span style="font-size: small; padding: 0; margin-bottom: 0;">Counseling Center</span></p>
+</td>
+<td style="padding: 5px; background-color: #ebebeb; border: 4px solid #ffffff; height: 30px; width: 148px;">
+<p style="margin-bottom: 0; padding: 0;"><span style="font-size: small;">EMAIL:</span></p>
+<p><a href="mailto:nitem@byui.edu"><span style="font-size: small; padding: 0; margin-bottom: 0;">nitem@byui.edu</span></a></p>
+</td>
+<td style="padding: 5px; background-color: #ebebeb; border: 4px solid #ffffff; width: 148px; height: 30px;">
+<p style="margin-bottom: 0; padding: 0;"><span style="font-size: small;">PHONE:</span></p>
+<p><span style="font-size: small; padding: 0; margin-bottom: 0;">(208) 496-9370</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding-left: 10px;"><a href="http://web.byui.edu/Directory/Employee/nitem@byui.edu"><img alt="schedule" height="16" src="Images/counseling-center/schedule.png" width="16" /></a>
+<p style="margin: 0; margin-left: 25px; margin-top: -17px;"><a href="http://web.byui.edu/Directory/Employee/nitem@byui.edu">Schedule</a></p>
+</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p><strong>Student Support</strong></p>
+<ul>
+<li>Kristie Allred</li>
+<li>Sara Anderson</li>
+<li>Micah Brock</li>
+<li>Shae Dana</li>
+<li>Olivia Long</li>
+<li>Jessica Teuscher</li>
+<li>Tayla Walker</li>
+</ul>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x17637" CompTypes="SiteControl" Expanded="false"/></Content>

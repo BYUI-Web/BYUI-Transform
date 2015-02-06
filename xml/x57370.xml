@@ -1,0 +1,280 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.89 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x57370" Name="study skills code" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;!-- Insert inline CSS styles here --&gt;
+&lt;style type="text/css"&gt;&lt;!--
+DIV.subcenter {
+        PADDING: 0px; MARGIN: 0px auto; DISPLAY: block; MARGIN-LEFT: 5px; FONT-FAMILY: Arial, Verdana, Sans-serif; 
+        WIDTH: 630px;
+  }
+
+  DIV.subcenter DIV {
+        PADDING: 0px; MARGIN: 0px auto; DISPLAY: block
+  }
+  DIV.subcenter P {
+	PADDING: 0px; MARGIN: 0px auto; FONT-FAMILY: Arial, Verdana, Sans-serif; DISPLAY: block; LINE-HEIGHT: 100%;
+  }
+  DIV.subcenter A {
+        PADDING: 0px; MARGIN: 0px auto; TEXT-DECORATION: none; COLOR: black;
+  }
+  DIV.subcenter A:hover {
+        TEXT-DECORATION: underline; COLOR: black;
+  }
+  DIV.subcenter A.welcome:visited {
+        TEXT-DECORATION: none;
+  }
+
+  DIV.subcenter H1 {
+        FONT-SIZE: 22pt; COLOR: #8d939a; FONT-WEIGHT: normal; MARGIN-BOTTOM: 10px;
+  }
+
+  DIV.subcenter A.welcome {
+        FONT-SIZE: 22pt; COLOR: #8d939a; FONT-WEIGHT: normal; MARGIN-BOTTOM: 10px;
+  }
+  
+  DIV.subcenter A.welcome:hover {
+        COLOR: #8D939a; TEXT-DECORATION: none;
+  }
+
+  DIV.subcenter DIV.assess A {
+        BACKGROUND: url(http://courses.byui.edu/AcademicSupport/study-skills/web-pics/assessment_bknd.jpg) no-repeat; no-repeat;
+        WIDTH: 396px; HEIGHT: 481px; FLOAT: left; DISPLAY: block; TEXT-ALIGN: center;
+  }
+  DIV.subcenter DIV.assess A P.style1 {
+        MARGIN-RIGHT: 153px; FONT-SIZE: 45px; COLOR: #4d5154; POSITION: relative; TOP: 10px; TEXT-ALIGN: center;
+  }
+  DIV.subcenter DIV.assess A P.style2 {
+        MARGIN-RIGHT: 153px; FONT-SIZE: 63px; COLOR: #1b1b1b; POSITION: relative; TEXT-ALIGN: center;
+  }
+  DIV.subcenter DIV.assess A P.style3 {
+        MARGIN-RIGHT: 153px; FONT-SIZE: 63px; COLOR: #1b1b1b; POSITION: relative; TOP: -13px; TEXT-ALIGN: center;
+  }
+  DIV.subcenter DIV.assess A P.style4 {
+        MARGIN-RIGHT: 153px; FONT-SIZE: 31px; COLOR: #4d5055; POSITION: relative; TOP: -20px; TEXT-ALIGN: center;
+  }
+  DIV.subcenter DIV.assess A:hover {
+        TEXT-DECORATION: none;
+  }
+  DIV.subcenter DIV.assess A:hover P.style4 {
+        TEXT-DECORATION: underline;
+  }
+
+  DIV.subcenter DIV.videos {
+        BACKGROUND: url(http://courses.byui.edu/AcademicSupport/study-skills/web-pics/videos_bknd.jpg) no-repeat; yellow no-repeat;
+        WIDTH: 232px; HEIGHT: 299px; FLOAT: left; DISPLAY: block; TEXT-ALIGN: left;
+  }
+  DIV.subcenter DIV.videos A P.style1 {
+        MARGIN-LEFT: 17px; FONT-SIZE: 20px; COLOR: #4c5053; POSITION: relative; TOP: 4px; TEXT-ALIGN: left;
+  }
+  DIV.subcenter DIV.videos A P.style2 {
+        MARGIN-LEFT: 5px; FONT-SIZE: 50px; COLOR: #36373b; POSITION: relative; TOP: 0px; TEXT-ALIGN: left;
+  }
+  DIV.subcenter DIV.videos A:hover {
+        TEXT-DECORATION: none;
+  }
+  DIV.subcenter DIV.videos A:hover P.style2 {
+        TEXT-DECORATION: underline;
+  }
+  
+  DIV.subcenter DIV.tutor {
+        WIDTH: 232px; HEIGHT: 182px; FLOAT: left;
+  }
+  DIV.subcenter DIV.tutor A {
+        BACKGROUND: url(http://courses.byui.edu/AcademicSupport/study-skills/web-pics/tutor_bknd.jpg) no-repeat;
+        WIDTH: 232px; HEIGHT: 182px; FLOAT: left; TEXT-ALIGN: right; MARGIN-BOTTOM: 10px;
+  }
+  DIV.subcenter DIV.tutor A P.style1 {
+        PADDING: 3px; MARGIN-LEFT: 112px; MARGIN-TOP: -10px; FONT-SIZE: 28px; COLOR: #4d5154; POSITION: relative; TOP: 7px; TEXT-ALIGN: center;
+  }
+  DIV.subcenter DIV.tutor A P.style2 {
+        PADDING: 3px; MARGIN-LEFT: 112px; FONT-SIZE: 30px; COLOR: #36373b; POSITION: relative; TOP: -3px; TEXT-ALIGN: center;
+  }
+  DIV.subcenter DIV.tutor A:hover {
+        TEXT-DECORATION: none;
+  }
+  DIV.subcenter DIV.tutor A:hover P.style2 {
+        TEXT-DECORATION: underline;
+  }
+
+  DIV.subcenter DIV.tutor P.class_codes {
+        TEXT-ALIGN: left; MARGIN-TOP: 26px; MARGIN-LEFT: 133px;
+  }
+  DIV.subcenter DIV.tutor P.class_codes A {
+        COLOR:#a24174; FONT-SIZE: 16px; LINE-HEIGHT: 22px;
+  }
+  DIV.subcenter DIV.tutor P.class_codes A:hover {
+        COLOR:#a24174;
+  }
+  .slides_container {
+        FLOAT: left; WIDTH:200px; HEIGHT: 182px; POSITION: relative; TOP: 12px; LEFT: 11px; 
+  }
+  ul.pagination {
+	FLOAT: left; width:150px; height: 12px; position: relative; overflow:hidden; MARGIN-TOP: 20px;
+   }
+
+  ul.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;      
+  }
+  ul.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(http://courses.byui.edu/AcademicSupport/pics/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+  }
+  .pagination li.current a {
+	background-position:0 -12px;
+  }
+
+  DIV.subcenter DIV.social_media {
+        DISPLAY: block;
+  }
+  DIV.subcenter DIV.social_media P {
+        FLOAT: left; MARGIN-LEFT: 15px; MARGIN-RIGHT: 15px; FONT-SIZE: 25px; COLOR: #36373b; POSITION: relative; TOP: 20px; TEXT-ALIGN: left; DISPLAY: block;
+  }
+  DIV.subcenter DIV.social_media A {
+        FLOAT: left; DISPLAY: block; WIDTH: 60px; HEIGHT: 91px; BACKGROUND-POSITION:0 0; MARGIN-RIGHT: 10px; POSITION: relative; TOP: 20px;
+  }
+  DIV.subcenter DIV.social_media A.facebook {
+        BACKGROUND: url(http://courses.byui.edu/AcademicSupport/pics/facebook-button.jpg) no-repeat;
+  }
+  DIV.subcenter DIV.social_media A.twitter {
+        BACKGROUND: url(http://courses.byui.edu/AcademicSupport/pics/twitter-button.jpg) no-repeat;
+  }
+  DIV.subcenter DIV.social_media A.youtube {
+        BACKGROUND: url(http://courses.byui.edu/AcademicSupport/pics/youtube-button.jpg) no-repeat;
+  }
+  DIV.subcenter DIV.social_media A:hover {
+        BACKGROUND-POSITION:0 -91;
+  }
+  
+  DIV.subcenter DIV.small_box {
+        MARGIN-BOTTOM: 5px; FLOAT: left; WIDTH: 170px; MARGIN: 17px;
+  }
+  DIV.subcenter DIV.small_box DIV.title {
+        PADDING-LEFT: 35px; PADDING-TOP: 3px; FONT-WEIGHT: bold; MARGIN-BOTTOM: 2px; HEIGHT: 25px; COLOR: #363739;
+  }
+  DIV.subcenter DIV.small_box DIV#info {
+        BACKGROUND: url(http://courses.byui.edu/AcademicSupport/pics/info-link.jpg) no-repeat;
+  }
+  DIV.subcenter DIV.small_box DIV#exclaim {
+        BACKGROUND: url(http://courses.byui.edu/AcademicSupport/pics/exclaim-link.jpg) no-repeat;
+  }
+  DIV.subcenter DIV.small_box DIV#contact {
+        BACKGROUND: url(http://courses.byui.edu/AcademicSupport/pics/contact-link.jpg) no-repeat;
+  }
+  DIV.subcenter DIV.small_box DIV.subtext {
+        MARGIN-LEFT: 20px; WIDTH: 175px; MARGIN-BOTTOM: 20px; FONT-SIZE: 15px; 
+  }
+  DIV.subcenter DIV.small_box DIV.subtext A {
+        FLOAT: RIGHT; FONT-WEIGHT: bold;
+  }
+  DIV.subcenter DIV.small_box DIV.subtext A#info {
+        COLOR: #d9511d;
+  }
+  DIV.subcenter DIV.small_box DIV.subtext A#exclaim {
+        COLOR: #1c71b2;
+  }
+  DIV.subcenter DIV.small_box DIV.subtext A#contact {
+        COLOR: #a24176;
+  }
+--&gt;&lt;/style&gt;
+&lt;!-- Insert your body html here --&gt;
+&lt;div class="subcenter" id="subcenter"&gt;
+&lt;h1&gt;&lt;a class="welcome" href="/academic-support-centers" &gt;Welcome to the Academic Support Centers&lt;/a&gt;&lt;/h1&gt;
+&lt;div class="assess" id="assess"&gt;&lt;a href="https://tutortrac.byui.edu/tracweb40/main.4sp?orl=S-ASSESS-byu2010"&gt; &lt;P class="style1"&gt;TAKE THE&lt;/P&gt; &lt;P class="style2"&gt;STUDY&lt;/P&gt; &lt;P class="style3"&gt;SKILLS&lt;/P&gt; &lt;P class="style4"&gt;ASSESSMENT&lt;/P&gt; &lt;/a&gt;&lt;/div&gt;
+&lt;div class="videos" id="videos"&gt;&lt;a href="/academic-support-centers/study-skills/study-skills-videos" &gt; &lt;P class="style1"&gt;MINI-LESSONS &amp;amp; &lt;/P&gt; &lt;P class="style2"&gt;VIDEOS&lt;/P&gt; &lt;/a&gt;
+&lt;div id="slides"&gt;
+&lt;div class="slides_container"&gt;&lt;a href="http://www.byui.edu/StudySkills/videos/memory.htm" title="Memory of an Elephant" target="_blank"&gt;&lt;img alt="Memory of an Elephant" height="182" src="http://courses.byui.edu/AcademicSupport/study-skills/web-pics/memory.jpg" width="200" /&gt;&lt;/a&gt; &lt;a href="http://www.byui.edu/StudySkills/videos/word_of_wisdom.htm" title="Word of Wisdom" target="_blank"&gt;&lt;img alt="Word of Wisdom" height="182" src="http://courses.byui.edu/AcademicSupport/study-skills/web-pics/word-of-wisdom.jpg" width="200" /&gt;&lt;/a&gt; &lt;a href="http://www.byui.edu/StudySkills/videos/setting_the_mood.htm" title="Setting the Mood" target="_blank"&gt;&lt;img alt="Setting the Mood" height="182" src="http://courses.byui.edu/AcademicSupport/study-skills/web-pics/setting-the-mood.jpg" width="200" /&gt;&lt;/a&gt; &lt;a href="http://www.byui.edu/StudySkills/videos/study_8-5.htm" title="8 to 5" target="_blank"&gt;&lt;img alt="8 to 5" height="182" src="http://courses.byui.edu/AcademicSupport/study-skills/web-pics/8-5.jpg" width="200" /&gt;&lt;/a&gt; &lt;a href="http://www.byui.edu/StudySkills/videos/class_attendance.htm" title="Class Attendance" target="_blank"&gt;&lt;img alt="Class Attendance" height="182" src="http://courses.byui.edu/AcademicSupport/study-skills/web-pics/class-attendance.jpg" width="200" /&gt;&lt;/a&gt; &lt;a href="http://www.byui.edu/StudySkills/videos/potluck_dinner.htm" title="Potluck Dinner" target="_blank"&gt;&lt;img alt="Potluck Dinner" height="182" src="http://courses.byui.edu/AcademicSupport/study-skills/web-pics/potluck.jpg" width="200" /&gt;&lt;/a&gt; &lt;a href="/academic-support-centers/study-skills/study-skills-videos/look-before-you-leap" title="Look Before You Leap" target="_blank"&gt;&lt;img alt="Look Before You Leap" height="182" src="http://courses.byui.edu/AcademicSupport/study-skills/web-pics/look-before.jpg" width="200" /&gt;&lt;/a&gt; &lt;a href="https://web.byui.edu/Services/Login/?RedirectURL=http://www.byui.edu/videoplayer/BYUIplayer.html?StartCue=0%26EndCue=30%26VideoName=121330_12%26VideoType=lectures" title="The Effects of Cramming" target="_blank"&gt;&lt;img alt="The Effects of Cramming" height="182" src="http://courses.byui.edu/AcademicSupport/study-skills/web-pics/effects-of-cramming.jpg" width="200" /&gt;&lt;/a&gt; &lt;a href="http://www.byui.edu/StudySkills/videos/common_sense.htm" title="Common Sense" target="_blank"&gt;&lt;img alt="Common Sense" height="182" src="http://courses.byui.edu/AcademicSupport/study-skills/web-pics/common-sense.jpg" width="200" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="tutor" id="tutor"&gt;&lt;a href="https://tutortrac.byui.edu/TracWeb40/Default.html"&gt; &lt;P class="style1"&gt;STUDY&lt;/P&gt; &lt;P class="style1"&gt;SKILLS&lt;/P&gt; &lt;P class="style2"&gt;TUTOR&lt;/P&gt; &lt;/a&gt;&lt;/div&gt;
+&lt;div class="small_box" id="test_reviews"&gt;
+&lt;div class="title" id="info"&gt;&lt;a href="/academic-support-centers/study-skills/study-tips" &gt;study tip&lt;/a&gt;&lt;/div&gt;
+&lt;div class="subtext"&gt;
+&lt;p&gt;
+&lt;script language="JavaScript" type="text/javascript"&gt;
+var Tip=new Array() // do not change this!
+         
+         Tip[0] = "Read your textbook in sections; summarize what you have read after each section.";
+         Tip[1] = "Work on difficult and/or unpleasant tasks first.";
+         Tip[2] = "After class or textbook reading, record in writing your own words of what you've learned.";
+         Tip[3] = "Set academic goals for each of your courses. Having goals will help to keep you focused.";
+         Tip[4] = "Use the few minutes between classes to review and preview the lectures.";
+         Tip[5] = "Establish consistent sleep and wake schedules, even on weekends.";
+         Tip[6] = "Learn the instructor's testing style and study appropriately.";
+         Tip[7] = "Prior to class prepare a list of questions to ask in class.";
+         Tip[8] = "Pay attention to the charts and pictures in your textbook.";
+         Tip[9] = "Sit where you can see the speaker easily and where other distractions are at a minimum.";
+         
+         var L = Tip.length;
+         var whichTip=Math.round(Math.random()*(L-1));
+         function showTip(){document.write(Tip[whichTip]);}
+         showTip();
+&lt;/script&gt;
+&lt;br /&gt; &lt;a href="/academic-support-centers/study-skills/study-tips" id="info"&gt;[more tips]&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="small_box" id="courses"&gt;
+&lt;div class="title" id="exclaim"&gt;&lt;a href="/academic-support-centers/study-skills/study-skills-courses" &gt;courses&lt;/a&gt;&lt;/div&gt;
+&lt;div class="subtext"&gt;
+&lt;p&gt;Feel like you need extra help? We offer several courses to help students develop better study habits and skills&lt;br /&gt; &lt;a href="/academic-support-centers/study-skills/study-skills-courses" id="exclaim"&gt;[more info]&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="small_box" id="contact_us"&gt;
+&lt;div class="title" id="contact"&gt;&lt;a href="/academic-support-centers/contact-us" &gt;contact us&lt;/a&gt;&lt;/div&gt;
+&lt;div class="subtext"&gt;
+&lt;p&gt;McKay Library Commons&lt;br /&gt; 1st floor, West Wing&lt;br /&gt; &lt;br /&gt; Phone: 208.496.4291&lt;br /&gt; &lt;a href="/academic-support-centers/contact-us" id="contact"&gt;[more contacts]&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- END html area --&gt;
+&lt;script type="text/javascript"&gt;
+//Ignore this function area
+  function loadScript(url, callback)
+  {
+    //load script tag at end of body
+    var body = document.getElementsByTagName('body')[0];
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = url;
+
+    // then bind the event to the callback function 
+    // there are several events for cross browser compatibility
+    script.onreadystatechange = callback;
+    script.onload = callback;
+
+
+    // fire the loading
+    body.appendChild(script);
+  }
+
+
+  //define inline script to be called inside the callback function parameter
+  var scriptCallback = function()
+  {
+    //insert any inline jquery you would like to run here, ie
+    //things that normally go between script tags, for example:
+    $('#slides').slides(
+    {
+      preload: true,
+      preloadImage: 'http://courses.byui.edu/AcademicSupport/pics/loading.gif',
+      play: 5000,
+      pause: 2500,
+      hoverPause: true
+    });
+  }
+
+
+  // Execute the entire function after page has finished 
+  // loading (script import and callback inline javascript)
+  window.onload = function()
+  { 
+    //put the path to your jquery-dependent script below here
+    loadScript("http://courses.byui.edu/AcademicSupport/js/slide/slides.min.jquery.js", scriptCallback);
+  }
+&lt;/script&gt;</ContentSnippet></ContentSnippet>

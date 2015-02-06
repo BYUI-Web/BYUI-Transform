@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x46686" Name="Immunizations" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Immunizations</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Immunizations</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<link href="Documents/health-center/topper.css" rel="stylesheet" />
+<link href="Documents/health-center/layout.css" rel="stylesheet" />
+<style><!--
+   body #content_zone #maincontent .titlehead {
+      border-bottom: solid thin #663300
+   }
+
+   body #content_zone #maincontent #frame .icons {
+      background-position: -150px -300px;
+   }
+
+   body #content_zone #setwidth {
+      margin-top: 80px;
+   }
+--></style>
+<div id="content_zone">
+<div id="nav"><a href="x27790.xml">
+<div class="title">Student Health Center</div>
+</a> <iframe class="items" frameborder="0" scrolling="auto" src="Documents/health-center/links.html"></iframe></div>
+<div id="maincontent">
+<div id="topper">
+<div class="titlehead">Immunizations</div>
+<div id="frame">
+<div class="icons immun"></div>
+<div class="shadow"></div>
+</div>
+</div>
+<div id="topsec">
+<p><strong>The university now recommends all students and staff receive certain immunizations.&nbsp; The following lists the immunizations and who should receive them:</strong></p>
+<p class="comment">There is also a $6 administration fee <strong>per visit</strong>, not per shot.</p>
+</div>
+<div id="setwidth">
+<table id="immunization">
+<tbody>
+<tr>
+<td class="header">
+<p><strong>Immunization</strong></p>
+</td>
+<td class="header">
+<p><strong>Recommended For:</strong></p>
+</td>
+</tr>
+<tr>
+<td class="name">
+<p><strong>MMR</strong></p>
+</td>
+<td>
+<p>All college students born after 1956</p>
+</td>
+</tr>
+<tr>
+<td class="name">
+<p><strong>Polio</strong></p>
+</td>
+<td>
+<p>International travelers to areas or countries where polio is epidemic or endemic</p>
+</td>
+</tr>
+<tr>
+<td class="name">
+<p><strong>Varicella</strong></p>
+</td>
+<td>
+<p>Any student who has not had the Chicken Pox</p>
+</td>
+</tr>
+<tr>
+<td class="name">
+<p><strong>Tdap <br />(Tetanus, Diphtheria, Pertussis)</strong></p>
+</td>
+<td>
+<p>All college students</p>
+</td>
+</tr>
+<tr>
+<td class="name">
+<p><strong>Hepatitis A</strong></p>
+</td>
+<td>
+<p>Those traveling to countries where Hepatitis A is moderately or highly endemic</p>
+</td>
+</tr>
+<tr>
+<td class="name">
+<p><strong>Hepatitis B</strong></p>
+</td>
+<td>
+<p>All college students</p>
+</td>
+</tr>
+<tr>
+<td class="name">
+<p><strong>Meningococcal Meningitis</strong></p>
+</td>
+<td>
+<p>All college students</p>
+</td>
+</tr>
+<tr>
+<td class="name">
+<p><strong>Influenza</strong></p>
+</td>
+<td>
+<p>All members of a campus community</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="margin-bottom: 30px;">For more information, please visit the Centers for Disease Control and Prevention at <a href="http://www.cdc.gov/vaccines/spec-grps/college.htm">http://www.cdc.gov/vaccines/spec-grps/college.htm</a></p>
+<p><strong>The following immunization shots are available at the BYU-Idaho Health Center:</strong></p>
+<table id="shots">
+<tbody>
+<tr>
+<td class="name">
+<p style="margin: 0; padding: 0;"><span style="color: #555555;"><strong>Allergy Shot</strong></span></p>
+<ul style="margin-bottom: 0;">
+<li>
+<p><span style="color: #555555;">Kenalog</span></p>
+</li>
+<li>
+<p><span style="color: #555555;">Recurring (Patients need to bring their own serum)</span></p>
+</li>
+</ul>
+</td>
+<td>
+<p><span style="color: #555555; line-height: 110%;">Prices are subject to change</span></p>
+</td>
+</tr>
+<tr>
+<td class="name">
+<p style="margin: 0;"><span style="color: #555555;"><strong>Hepatitis A</strong></span></p>
+</td>
+<td>
+<p><span style="color: #555555;">$72.00</span></p>
+</td>
+</tr>
+<tr>
+<td class="name">
+<p style="margin: 0;"><span style="color: #555555;"><strong>Hepatitis B</strong></span></p>
+</td>
+<td>
+<p><span style="color: #555555;">$30.00</span></p>
+</td>
+</tr>
+<tr>
+<td class="name">
+<p style="margin: 0;"><span style="color: #555555;"><strong>Combination Hepatitis A &amp; B</strong></span></p>
+</td>
+<td>
+<p><span style="color: #555555;">$98.00</span></p>
+</td>
+</tr>
+<tr>
+<td class="name">
+<p style="margin: 0;"><span style="color: #555555;"><strong>Meningococcal Meningitis</strong></span></p>
+</td>
+<td>
+<p><span style="color: #555555;">$106.00</span></p>
+</td>
+</tr>
+<tr>
+<td class="name">
+<p style="margin: 0;"><span style="color: #555555;"><strong>MMR</strong></span></p>
+</td>
+<td>
+<p><span style="color: #555555;">$53.00</span></p>
+</td>
+</tr>
+<tr>
+<td class="name">
+<p style="margin: 0;"><span style="color: #555555;"><strong>Polio</strong></span></p>
+</td>
+<td>
+<p><span style="color: #555555;">$30.00</span></p>
+</td>
+</tr>
+<tr>
+<td class="name">
+<p style="margin: 0;"><span style="color: #555555;"><strong>Tdap (Tetanus, Diphtheria, Pertussis)</strong></span></p>
+</td>
+<td>
+<p><span style="color: #555555;">$40.00</span></p>
+</td>
+</tr>
+<tr>
+<td class="name">
+<p style="margin: 0;"><span style="color: #555555;"><strong>Typhoid</strong></span></p>
+</td>
+<td>
+<p><span style="color: #555555;">$57.00</span></p>
+</td>
+</tr>
+<tr>
+<td class="name">
+<p><strong>Influenza</strong></p>
+</td>
+<td>
+<p>Price Varies</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>The schedule for immunizations is limited. Please call the Health Center to make an appointment. If you are receiving immunizations for a mission, please bring a list of your past immunizations.</p>
+<p>The Student Health Center does not provide childhood immunizations. Patients are referred to the District Seven Health Department for these services.</p>
+<span style="color: #555555;">District Seven Health Department</span> <br /><span style="color: #555555;">314 North 3rd East</span> <br /><span style="color: #555555;">Rexburg, Idaho 83440</span> <br /><span style="color: #555555;">(208) 356-3239</span> <br /><a href="http://maps.google.com/maps?saddr=Brigham+Young+University%E2%80%93Idaho,+Rexburg,+ID&amp;daddr=314+North+3rd+East,+Rexburg,+ID&amp;hl=en&amp;ie=UTF8&amp;ll=43.824248,-111.773186&amp;spn=0.022974,0.055575&amp;sll=43.82301,-111.775246&amp;sspn=0.022974,0.055575&amp;geocode=FTKfnAIdg1BW-SES9I7D0zRVHg%3BFevUnAIdOXJW-Sk16-EfRQpUUzH4DtwpekawrQ&amp;vpsrc=6&amp;mra=ls&amp;t=m&amp;z=15" target="_blank">View Map</a><br /><br />
+<p><strong>For more information, call (208) 496-9330</strong></p>
+</div>
+<iframe frameborder="0" id="footer" scrolling="no" src="Documents/health-center/footer.html"></iframe></div>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x28441" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

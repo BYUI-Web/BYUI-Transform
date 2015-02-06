@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.68 - http://www.ingeniux.com ***-->
+<AdminPage ID="x61485" Name="Programs &amp; Camps" Layout="admin_office_home.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Programs &amp; Camps</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">All of the programs and camps offered at BYUI.</Abstract><MainMesgTop type="boolean" label="Enable to move &quot;Main Message&quot; to top of page" readonly="false" required="false" hidden="false">false</MainMesgTop><IntroCopy type="dhtml" label="Main Message" readonly="false" hidden="false" required="false"><![CDATA[<h1>Announcing the New 2013 Youth Program Theme!</h1>
+<p><strong>"I Will Go &amp; Do" based on the scripture 1 Nephi 3:7.&nbsp;</strong></p>
+<p>This year's youth programs will be focusing the activities and devotionals around the principle that Nephi teaches us of "I will go and do."&nbsp; Prepare by focusing your studies on this concept and this summer will be one to remember forever!</p>
+<p><img alt="" src="Images/badger-creek/GoAndDo_pictureonly.gif" title="Announcing the New 2013 Youth Program Theme!" /></p>
+<table class="table-listing" style="width: 764px; height: 449px;">
+<tbody>
+<tr>
+<td class="image-column"><img src="images/community-connections/afy.jpg" /><a href="x34601.xml"><br /></a></td>
+<td class="content-column">
+<h2><strong><span style="color: #0066cc;"></span><a href="x28834.xml" target="_blank"><span style="color: #0066cc;">Adventure For Youth (AFY)</span></a></strong></h2>
+<p>Activities from nightly firesides to white water rafting are dedicated to making the experience one that will have a lasting impression on the youth who attend.</p>
+<p></p>
+<h3>REGISTER NOW!!!! AFY 8 - June 17th-21st</h3>
+</td>
+</tr>
+<tr>
+<td class="image-column"><a href="x28835.xml"><img src="images/community-connections/oya.jpg" /></a></td>
+<td class="content-column">
+<h3><a href="x44459.xml" title="Outdoor Edition">AFY Outdoor Edition </a>(formerly known as OYA)</h3>
+<p>The&nbsp;Outdoor Edition&nbsp;program is an exhilarating and spiritual five-day adventure. Challenging outdoor workshops are balanced with firesides and daily scripture study.</p>
+<h3>REGISTER NOW!!! Sessions are filling up!</h3>
+</td>
+</tr>
+<tr>
+<td class="image-column"></td>
+<td class="content-column">
+<div class="list-content">&nbsp;</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p><br /><strong>To register for youth programs, click <a class="extLink" href="https://commerce.cashnet.com/OLC" title="https://commerce.cashnet.com/OLC" target="_blank">here</a>.</strong></p>]]></IntroCopy><xPower Type="GroupStart" GroupStart="" Name="CellGroup" label="Cells" readonly="false" hidden="false" required="false" Expanded="false"><numColumns type="enumeration" values="1 2 3 4 5" label="Select number of cell columns." readonly="false" hidden="false" required="true">3</numColumns><xPower Type="List" List="xpowercomponent_Cell" Name="CellList" label="Cell List" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"><xPower Type="Component" Component="" Name="Cell" readonly="false" hidden="false" required="false" CompTypes="CellComponent" Expanded="false"/></xPower></xPower><xPower Type="List" List="xpowercomponent_BannerAd" Name="BannerAds" label="Rotating Ads (650x216px required)" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"><xPower Type="Component" Component="" Name="BannerAd" readonly="false" hidden="false" required="false" CompTypes="BannerAdComponent" Expanded="false"/></xPower><xPower Type="Navigation" StartPage="" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="" Query="" Name="DeptEvents" label="Define Your Events Folder" readonly="false" hidden="false" required="false" Expanded="false"/><xPower Type="Component" Component="x28840" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="QuickLinksGroup" label="Quick Links Group" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Component="" Name="QuickLinks" label="Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinks" label="Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x44785" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></AdminPage>

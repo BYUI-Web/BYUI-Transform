@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<Content ID="x48318" Name="test purchasing" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">test purchasing</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">test purchasing</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style><!--
+img.button:hover{opacity:0.8;}
+#ibox_wrapper {max-width:700px;}
+--></style>
+<p>
+<script type="text/javascript">
+function leave() {
+  window.location = "https://eprocurement.esmsolutions.com/?me=byu-id";
+}
+function go() {
+setTimeout("leave()", 5000);
+}
+</script>
+</p>
+<p>
+<script type="text/javascript">
+window.jQuery || document.write('<script src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" _mce_src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" src="prebuilt/stylenew/js/libs/jquery-1.7.min.js" _mce_src="prebuilt/stylenew/js/libs/jquery-1.7.min.js"><\/script>')
+</script>
+<script src="Documents/student-records-and-registration/ibox2.js" type="text/javascript"></script>
+</p>
+<div id="pop" style="display: none;">
+<p id="isVis" style="font-size: 200%;">You are about to leave the BYU-Idaho site and go to a secured 3rd party site provided by ESM Solutions. If you do not automatically connect after 5 seconds, use the following link <a href="https://eprocurement.esmsolutions.com/?me=byu-id"><span style="text-decoration: underline;">continue</span></a></p>
+</div>
+<table border="0" style="width: 540px; font-size: 7pt;">
+<tbody style="font-size: 7pt;">
+<tr style="font-size: 7pt;">
+<td style="font-size: 7pt;"><a href="#pop" rel="ibox" title=""><img alt="I-Buy" class="button" height="150" onclick="go()" src="Images/financial-services/purchasing%20and%20disbursements/I-BUY.gif" width="255" /></a></td>
+<td style="font-size: 7pt;"><a href="http://www.eway.com/ce/eway/enter?ps=N"><img alt="Staples E-way" class="button" height="150" src="Images/financial-services/purchasing%20and%20disbursements/Staples-E-way.gif" width="255" /></a></td>
+</tr>
+<tr>
+<td style="font-size: 7pt;"><a href="https://dep.byui.edu/Purchasing/autopr/MAIN.ASP"><img alt="Purchase Requisition form" class="button" height="150" src="Images/financial-services/purchasing%20and%20disbursements/Purchase-Requisition-Form.gif" width="255" /></a></td>
+<td style="font-size: 7pt;"><a href="Documents/financial-services/HowToFillOutAPurchaseRequisition.PDF"><img alt="How to fill out a purchase requisition" class="button" height="150" src="Images/financial-services/purchasing%20and%20disbursements/How-to-fill-out-a-purchase-requisition.gif" width="255" /></a></td>
+</tr>
+</tbody>
+</table>
+<p><strong><a href="x33241.xml" title="Location and Hours | Purchasing/Disbursements"><strong>Location and Hours</strong></a><br /></strong>Where and when to find the people you need to talk to,</p>
+<p><a href="x24724.xml" title="Training"><strong>Purchasing&nbsp;Training </strong></a><br />This training will help you to get information on how to purchase products and services</p>
+<p><a href="x51121.xml"><strong>I-BUY Training </strong></a><br />Learn how to use our new E-Market page to purchase your frequently needed items.</p>
+<p><a href="x34024.xml" title="Purchase Order Terms and Conditions"><strong>Purchase</strong> <strong>Orders</strong></a><br />Here you can view the Purchase Order Terms and Conditons</p>
+<p><a href="x24723.xml" title="Purchasing Card"><strong>Purchase Card</strong>&nbsp;<strong>Policy</strong><br /></a>Policies and other information regarding employee Purchase Cards</p>
+<p><a href="x35093.xml#payments_purchasing_po" title="Who to Call"><strong>Who to Call</strong></a><br />Our team of professionals can advise you with your purchasing needs</p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="true"><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote"/></xPower><xPower Type="Component" Component="x69560" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="ContentSnippet"><xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x18419" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

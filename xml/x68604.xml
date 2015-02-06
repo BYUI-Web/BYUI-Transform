@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<ColumnTextComponent ID="x68604" Name="Components Nav"><TextColumn type="dhtml" label="Column of Text" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+	#component_nav {margin-bottom: 15px;}
+	#component_nav img {float:left; margin-right: 5px;}
+	#component_nav h3 {font-size: 18px; margin:20px 0 7px; border-bottom: 1px solid;}
+	#component_nav ul {padding-left: 0; margin: 0;}
+	#component_nav li {margin-left: 25px; float: none; display: none;}
+	#component_nav a {font-size: 14px; margin-bottom: 0; line-height: 16px; text-decoration: none;}
+	#component_nav a:hover {text-decoration: underline;}
+
+.fade, .fade p {opacity: 0.7;}
+--></style>
+<!--  Use this style in the body copy area to choose what links to display.  .bannerad, .cell, .column, .contact, .faqcomp, .xtrnallink, .eventcomp, .face, .highlinks, .imgfile, .msg, .msgcntl, .lclblarge, .lclbsmall, .lnkgrp, .mediafile, .newsnav, .policysnav, .public, .sitecntl, .sitecntlcmn, .quicklinks, .quote {display: block !important;} -->
+<div id="component_nav"><img height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/component.png" width="20" />
+<h3>Components</h3>
+<ul>
+<li class="bannerad"> <a href="x36444.xml">Banner Ad Component</a></li>
+<li class="cell"> <a href="x36443.xml">Cell</a></li>
+<li class="column"> <a href="x36442.xml">Column Component</a></li>
+<li class="contact"> <a href="x36441.xml">Contact Information</a></li>
+<li class="faqcomp"> <a class="fade" onclick="underConstruction2()">Content FAQ Component</a></li>
+<li class="eventcomp"> <a href="x36439.xml">Event Component</a></li>
+<li class="xtrnallink"> <a href="x36515.xml">External Link Component</a></li>
+<li class="face"> <a href="x36438.xml">Facebook</a></li>
+<li class="highlinks"> <a href="x36423.xml">Highlighted Links</a></li>
+<li class="imgfile"> <a href="x36424.xml">Image File</a></li>
+<li class="msg"> <a class="fade" onclick="underConstruction2()">Institutional Message</a></li>
+<li class="msgcntl"> <a class="fade" onclick="underConstruction2()">Institutional Message Global</a></li>
+<li class="lclblarge"> <a class="fade" onclick="underConstruction2()">Left Column Link Block Large</a></li>
+<li class="lclbsmall"> <a class="fade" onclick="underConstruction2()">Left Column Link Block Small</a></li>
+<li class="lnkgrp"> <a class="fade" onclick="underConstruction2()">Link Group</a></li>
+<li class="mediafile"> <a href="x36430.xml">Media File</a></li>
+<li class="newsnav"> <a href="x36431.xml">News Navigation Comp</a></li>
+<li class="policysnav"> <a class="fade" onclick="underConstruction2()">Policy Navigation Comp</a></li>
+<li class="public"> <a href="x36433.xml">Publication Component</a></li>
+<li class="sitecntl"> <a class="fade" onclick="underConstruction2()">Site Control - Admin / College</a></li>
+<li class="sitecntlcmn"> <a class="fade" onclick="underConstruction2()">Site Control - Common</a></li>
+<li class="quicklinks"> <a href="x36436.xml">Quick Links</a></li>
+<li class="quote"> <a href="x36437.xml">Quote</a></li>
+</ul>
+</div>
+<!--
+<p>Links below are for working pages.</p>
+<p> </p>
+<pre>
+class = bannerad    href = x36444.xml   Banner Ad Component<br />
+class = cell        href = x36443.xml   Cell<br />
+class = column      href = x36442.xml   Column Component<br />
+class = contact     href = x36441.xml   Contact Information<br />
+class = faqcomp     href = x36440.xml   Content FAQ Component<br />
+class = eventcomp   href = x36439.xml   Event Component<br />
+class = xtrnallink  href = x36515.xml   External Link Component<br />
+class = face        href = x36438.xml   Facebook<br />
+class = highlinks   href = x36423.xml   Highlighted Links<br />
+class = imgfile     href = x36424.xml   Image File<br />
+class = msg         href = x36425.xml   Institutional Message<br />
+class = msgcntl     href = x36426.xml   Institutional Message Global<br /> class = lclblarge   href = x36427.xml   Left Column Link Block Large<br /> class = lclbsmall   href = x36428.xml   Left Column Link Block Small<br /> class = lnkgrp      href = x36429.xml   Link Group<br />
+class = mediafile   href = x36430.xml   Media File<br />
+class = newsnav     href = x36431.xml   News Navigation Component<br /> class = policysnav  href = x36432.xml   Policy Navigation Component<br /> class = public      href = x36433.xml   Publication Component<br />
+class = sitecntl    href = x36434.xml   Site Control - Admin / College<br /> class = sitecntlcmn href = x36435.xml   Site Control - Common<br />
+class = quicklinks  href = x36436.xml   Quick Links<br />
+class = quote       href = x36437.xml   Quote<br />
+</pre>
+-->
+<script type="text/javascript">
+function underConstruction2() {
+	alert ("We are sorry the training page you tried to access is under construction.");
+}
+</script>]]></TextColumn></ColumnTextComponent>

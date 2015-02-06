@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x68334" Name="Event Detail" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Event Detail</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Event Detail</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style type="text/css"><!--
+.acdmhome, .adminhome, .adminevent {display: block !important;}
+
+.chkBx, .comp, .date, .grpList, .image, .pgProp, .text, .webEdit {display: block !important;}
+
+.highlinks, .imgfile {display: block !important;}
+--></style>
+<link href="prebuilt/stylenew/css/training.css" media="screen, projection" rel="stylesheet" type="text/css" />
+<div id="training">
+<p class="cutMargin">Top Section</p>
+<hr />
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/text.png" width="20" />
+<p><strong>Event Title: </strong>Enter the name of the event being            featured. This content is treated the same as "Title" mentioned in most Page Types.</p>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/edit.png" width="20" />
+<p><strong>Event Details: </strong> Describe   information about the event here.</p>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/image.png" width="20" />
+<p><strong>Right side image:</strong> Content in the "Event Details" web editor will wrap around this image. This image will position itself inside the top right corner of the Event Detail page.</p>
+<p class="cutMargin">Mid Section</p>
+<hr />
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/list.png" width="20" />
+<h3><strong>Available Semesters </strong></h3>
+<div class="level1"><img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/check.png" width="20" />
+<p><strong>Available Fall: </strong> Check enable if event runs in the fall semester.</p>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/check.png" width="20" />
+<p><strong>Available Winter: </strong> Check enable if event runs in the winter semester.</p>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/check.png" width="20" />
+<p><strong>Available Spring: </strong> Check enable if event runs in the spring semester.</p>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/check.png" width="20" />
+<p><strong>Gallery Available (deprecated): </strong>This is automaticly selected when an gallery image is detected.</p>
+</div>
+<p class="cutMargin">Bottom Section</p>
+<hr />
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/list.png" width="20" />
+<h3><strong>Dates </strong></h3>
+<div class="level1"><img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/date_time.png" width="20" />
+<p><strong>Date: </strong>List the dates the event accrues on.</p>
+</div>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/edit.png" width="20" />
+<p><strong>General Information: </strong>Additional information about the event can be placed here.</p>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/list.png" width="20" />
+<h3><strong>Gallery Images </strong></h3>
+<div class="level1"><img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/component.png" width="20" />
+<p><strong>Images: </strong>Insert <a href="x36424.xml">Image File Components</a> in this list to display a image gallery a the bottom of the Event Detail  page.</p>
+</div>
+<p class="cutMargin">Left Column Section</p>
+<hr />
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/component.png" width="20" />
+<p><strong>Highlighted Links: </strong>Insert a <a href="x36423.xml">Highlighted Links Component</a> to list a set of links under the left navigation of the Event Detail  page.</p>
+</div>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Component" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="x36276" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/><xpowercomponent_Optional Type="Component" Component="x36121" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/><xpowercomponent_Optional Type="Component" Component="x35847" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/><xpowercomponent_Optional Type="Component" Component="x36611" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x14845" CompTypes="SiteControl"/></Content>

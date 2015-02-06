@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x46518" Name="Chemical Spill Report Form" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Chemical Spill Report Form</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Chemical Spill Report Form</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<div id="container">
+<div id="main_body"><!-- LEFT COLUMN --> <!-- RIGHT COLUMN -->
+<div id="content_section">
+<div class="content_bottom_section">
+<div class="leftAREA">
+<div align="left">
+<table border="0" cellpadding="0" cellspacing="0" style="width: 752px; height: 735px;">
+<tbody>
+<tr>
+<td height="735" valign="top" width="612">
+<p align="center"><strong><span style="color: #ff0000; font-size: x-small;">(For reporting to the University Safety Office Only)</span></strong></p>
+<hr /><form action="http://www2.byui.edu/AspUtilities/emailAForm.asp" method="post" name="FrontPage_Form1"><input name="txtEmailTo" type="hidden" value="harmstone@byui.edu;gilbertb@byui.edu" /> <input name="txtEmailFrom" type="hidden" value="safety@byui.edu" /> <input name="txtSubject" type="hidden" value="Chemical Spill Report" />
+<p align="center"><span style="color: #000000; font-size: medium;"><strong>Spill Report <br /></strong></span></p>
+<p align="left"><span style="font-family: Arial Unicode MS;"> <span style="color: #000000; font-size: x-small;">Department Name:</span><span style="font-size: x-small;">&nbsp; </span></span><span style="color: #000000; font-family: Arial Unicode MS;"><input name="Department" size="20" type="text" /></span><span style="font-family: Arial Unicode MS; font-size: x-small;">&nbsp; </span></p>
+<p align="left"><span style="color: #000000;"> <span style="font-family: Arial Unicode MS; font-size: x-small;">Reporting Person:&nbsp; </span> <span style="font-family: Arial Unicode MS;"> <input name="Reported_by" size="20" type="text" /></span><span style="font-family: Arial Unicode MS; font-size: x-small;"> &nbsp; Telephone:&nbsp; </span><span style="font-family: Arial Unicode MS;"> <input name="Telephone" size="20" type="text" /></span></span><span style="font-family: Arial Unicode MS; font-size: x-small;"> </span></p>
+<p align="left"><span style="color: #000000;"> <span style="font-family: Arial Unicode MS; font-size: x-small;">Reporting Person's Campus Address:</span><span style="font-family: Arial Unicode MS;"><input name="Reporting_Person_Address" size="28" type="text" /></span></span></p>
+<p><span style="color: #000000;"><span style="font-family: Arial Unicode MS; font-size: x-small;">Date of Incident: </span><span style="font-family: Arial Unicode MS;"> <input name="Date" size="20" type="text" /></span><span style="font-family: Arial Unicode MS; font-size: x-small;"> </span> </span></p>
+<p><span style="color: #000000;"><span style="font-family: Arial Unicode MS; font-size: x-small;">Time of Incident: </span><span style="font-family: Arial Unicode MS;"> <input name="Time" size="20" type="text" /></span><span style="font-family: Arial Unicode MS; font-size: x-small;">&nbsp; </span> </span></p>
+<p><span style="color: #000000;"> <span style="font-family: Arial Unicode MS; font-size: x-small;">Location: Room Number:&nbsp; </span><span style="font-family: Arial Unicode MS;"> <input name="Room_Number" size="11" type="text" /></span><span style="font-family: Arial Unicode MS; font-size: x-small;"> Building Name:&nbsp; </span><span style="font-family: Arial Unicode MS;"> <input name="Building" size="23" type="text" /></span></span><span style="font-family: Arial Unicode MS; font-size: x-small;"><br /> </span> <span style="color: #000000;"><span style="font-family: Arial Unicode MS; font-size: x-small;">Location/area outside of a building: <br /> </span><span style="font-family: Arial Unicode MS;"> <input name="Location_outside_of_building" size="86" type="text" /></span></span></p>
+<p><span style="font-family: Arial Unicode MS; font-size: x-small;">List all hazardous materials involved in the incident</span><span style="color: #000000;"><span style="font-family: Arial Unicode MS; font-size: x-small;">:<br /> </span><span style="font-family: Arial Unicode MS;"> <textarea cols="74" name="Chemicals" rows="2" style="width: 735px; height: 46px;"></textarea></span></span></p>
+<p><span style="color: #000000;"><span style="font-family: Arial Unicode MS; font-size: x-small;">Describe how the spill occurred to your best knowledge. Include any relevant circumstances in as much detail as possible:<br /> </span><span style="font-family: Arial Unicode MS;"> <textarea cols="74" name="Description_of_Spill" rows="2" style="width: 735px; height: 45px;"></textarea></span></span></p>
+<p><span style="color: #000000;"><span style="font-family: Arial Unicode MS; font-size: x-small;">What containment measures were taken to control the spill:<br /> </span><span style="font-family: Arial Unicode MS;"> <textarea cols="74" name="Containment" rows="2" style="width: 735px; height: 42px;"></textarea></span></span></p>
+<p><span style="color: #000000;"><span style="font-family: Arial Unicode MS; font-size: x-small;">What corrective actions were taken to control and clean up the spill:<br /> </span><span style="font-family: Arial Unicode MS;"> <textarea cols="74" name="Corrective_Actions" rows="2" style="width: 735px; height: 56px;"></textarea></span></span></p>
+<p><span style="font-family: Arial Unicode MS; font-size: x-small;">List any existing or potential hazards that either caused or resulted from the incident</span><span style="color: #000000;"><span style="font-family: Arial Unicode MS; font-size: x-small;">:<br /> </span><span style="font-family: Arial Unicode MS;"> <textarea cols="74" name="Hazards" rows="2" style="width: 735px; height: 55px;"></textarea></span></span></p>
+<p><span style="color: #000000;"><span style="font-family: Arial Unicode MS; font-size: x-small;">Describe any first aid treatment provided, in detail:<br /> </span><span style="font-family: Arial Unicode MS;"> <textarea cols="74" name="First_Aid" rows="2" style="width: 733px; height: 44px;"></textarea></span></span></p>
+<p><span style="color: #000000;"><span style="font-family: Arial Unicode MS; font-size: x-small;">List&nbsp;Full names and phone numbers of individuals who witnessed the incident:<br /> </span><span style="font-family: Arial Unicode MS;"> <textarea cols="74" name="Witnesses" rows="2" style="width: 733px; height: 44px;"></textarea></span></span></p>
+<p><span style="color: #000000;"><span style="font-family: Arial Unicode MS; font-size: x-small;">Any additional information relating to the incident:</span><br /> <textarea cols="74" name="Additional_Information" rows="2" style="width: 733px; height: 41px;"></textarea></span></p>
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="mailto:harmstone@byui.edu;gilbertb@byui.edu"><input name="Submit" type="submit" value="Submit" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="Reset" type="reset" value="Reset" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="Print" onclick="javascript:window.print()" type="button" value="  Print  " />&nbsp; (Print a copy for your records)</p>
+</form></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--EndEditor--></div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="shadow">Copyright
+<script type="text/javascript">
+var d = new Date();document.write(d.getFullYear());
+</script>
+BYU&ndash;Idaho<br />All Rights Reserved.</div>
+</div>
+</div>
+<!--EndEditorForm-->
+<p></p>
+<!-- TABLE FORMATTING SECTION -->
+<p>
+<script type="text/javascript">
+var tableTags = document.getElementById('main_body').getElementsByTagName("table");
+        for (var i = 0; i < tableTags.length; i++)
+        {
+            var trTags = tableTags[i].getElementsByTagName("tr");
+            for (var j = 0; j < trTags.length; j++)
+            {
+                if(j%2 == 0)
+                {
+                    trTags.item(j).style.backgroundColor = "#efefec";
+                }
+                else
+                {
+                    trTags.item(j).style.backgroundColor = "#ffffff";
+                }
+            }
+        }
+</script>
+</p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="x35774" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x17998" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x48218" Name="Social Media Buttons" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;style&gt;&lt;!--
+.social-links {
+	float: right;
+	clear: both;
+	margin: 10px 0 0 0;
+	width: 180px;
+}
+.social-links ul {
+	padding: 0;
+}
+.social-links li {
+	display: inline-block;
+	overflow: hidden;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-indent: -99999px;
+	width: 36px;
+	height: 36px;
+	margin-left: -6px;
+}
+.addthis_default_style .at300b,
+.addthis_default_style .at300m,
+.addthis_default_style .at300bo
+{
+	padding:0 6px;
+}
+
+
+
+--&gt;&lt;/style&gt;
+&lt;div class="social-links"&gt;
+&lt;div class="addthis_toolbox addthis_default_style addthis_32x32_style"&gt;
+&lt;a class="addthis_button_facebook"&gt;&lt;/a&gt;
+&lt;a class="addthis_button_google_plusone_share"&gt;&lt;/a&gt;
+&lt;a class="addthis_button_pinterest_share"&gt;&lt;/a&gt;
+&lt;a class="addthis_button_compact"&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+	var addthis_config = {
+		"data_track_addressbar":true
+	};
+&lt;/script&gt;
+&lt;script src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4e8f53ed7638d457" type="text/javascript"&gt;&lt;/script&gt;
+&lt;/div&gt;</ContentSnippet></ContentSnippet>

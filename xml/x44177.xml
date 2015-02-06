@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content ID="x44177" Name="Videos" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Videos</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Videos</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style><!--
+.divs {
+	width: 345px;
+	float: left;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+p {
+	margin-left: 15px;
+	padding-bottom: 5px;
+}
+
+img {
+	vertical-align: middle;
+}
+--></style>
+<div class="divs"><img alt="President Clark being filmed" height="238" src="Images/buildings-grounds/icenter/video_home.jpg" title="President Clark being filmed" width="350" /></div>
+<div class="divs"><!--
+<p><a href="x45724.xml" _mce_href="x45724.xml"><img alt="Play Dedication Video" height="20" src="Images/buildings-grounds/icenter/play.png" _mce_src="Images/buildings-grounds/icenter/play.png" title="Play Dedication Video" width="20" /></a>&nbsp; &nbsp;<a href="x45724.xml" _mce_href="x45724.xml">Dedication (Complete Video)</a></p>
+-->
+<p><a href="x46060.xml"><img alt="Play President Clark's Address" height="20" src="Images/buildings-grounds/icenter/play.png" title="Play President Clark's Address" width="20" /></a>&nbsp;&nbsp; <a href="x46060.xml">Dedication: President Clark</a></p>
+<p><a href="x45725.xml"><img alt="Play Elder Bednar Video" height="20" src="Images/buildings-grounds/icenter/play.png" title="Play Elder Bednar Video" width="20" /></a>&nbsp;&nbsp; <a href="x45725.xml">Dedication: Elder Bednar</a></p>
+<p><a href="x45726.xml"><img alt="Play Elder Nelson Video" height="20" src="Images/buildings-grounds/icenter/play.png" title="Play Elder Nelson Video" width="20" /></a>&nbsp;&nbsp; <a href="x45726.xml">Dedication: Elder Nelson</a></p>
+<p><a href="x45727.xml"><img alt="Play President Eyring Video" height="20" src="Images/buildings-grounds/icenter/play.png" title="Play President Eyring Video" width="20" /></a>&nbsp;&nbsp; <a href="x45727.xml">Dedication: President Eyring</a></p>
+<!--
+<p><a href="x45728.xml" _mce_href="x45728.xml"><img alt="Play Dedication Highlights" height="20" src="Images/buildings-grounds/icenter/play.png" _mce_src="Images/buildings-grounds/icenter/play.png" title="Play Dedication Highlights" width="20" /></a>&nbsp; &nbsp;<a href="x45728.xml" _mce_href="x45728.xml">Dedication Highlights</a></p>
+<p><a href="x45729.xml" _mce_href="x45729.xml"><img alt="Play Music Selection" height="20" src="Images/buildings-grounds/icenter/play.png" _mce_src="Images/buildings-grounds/icenter/play.png" title="Play Music Selection" width="20" /></a>&nbsp; &nbsp;<a href="x45729.xml" _mce_href="x45729.xml">Music Selection</a></p>
+-->
+<p><a href="x45730.xml"><img alt="Play Video Tour" height="20" src="Images/buildings-grounds/icenter/play.png" title="Play Video Tour" width="20" /></a>&nbsp; &nbsp;<a href="x45730.xml">Video Tour</a></p>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x44207" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

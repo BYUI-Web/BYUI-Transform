@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x65992" Name="Virtual EMS Instructions" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Virtual EMS Instructions</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Virtual EMS Instructions</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style><!--
+table, th, td {
+vertical-align: top;
+}
+--></style>
+<p>Before you can use online scheduling, you must create an account by following the instructions at <a href="http://scheduling.byui.edu" title="Virtual EMS at BYU-Idaho">scheduling.byui.edu</a></p>
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td valign="top" width="319">
+<p>Login at scheduling.byui.edu</p>
+<p>Remember to use your complete email address as your User ID.</p>
+</td>
+<td valign="top" width="319">
+<p><img alt="Virtual EMS Login" height="295" src="Images/scheduling-office/VirtualEMS1_login.jpg" title="Virtual EMS Login" width="500" /></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="319">
+<p>When logged in, your name will appear in the right corner of the gray bar.</p>
+<p>Click on Reservations to see the dropdown menu for Study/Practice Rooms</p>
+</td>
+<td valign="top" width="319">
+<p><img alt="Reservation Tab" height="194" src="Images/scheduling-office/VirtualEMS2_ReservationTab.jpg" title="Reservation Tab" width="500" /></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="319">
+<p>Find space by filling in When and Where fields, the attendance, and then clicking on the Find Space button. (You are restricted to only 2 business days in advance.)</p>
+<p>Select the room desired for your group by clicking on the green plus sign.</p>
+<p>Hint: If no rooms are currently available, switch to the grid view to see what rooms are open in other blocks of time.</p>
+</td>
+<td valign="top" width="319">
+<p><img alt="Find Location" height="346" src="Images/scheduling-office/VirtualEMS3_FindSpace.jpg" title="Find Location" width="500" /></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="319">
+<p>Fill in the Event Details for your group.</p>
+<p>For the&nbsp;Event Name,&nbsp;use your last name and the course name&nbsp;you are studying (e.g. Smith: FDREL-200)</p>
+<p>Include&nbsp;your University email address&nbsp;to receive a confirmation and your&nbsp;I-number as the GL/AR Account.</p>
+<p>Click on the Submit Reservation button.</p>
+</td>
+<td valign="top" width="319">
+<p><img alt="Details Tab" height="330" src="Images/scheduling-office/VirtualEMS4_Details.jpg" title="Details Tab" width="500" /></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Your request will be reviewed and a confirmation emailed back to you. Please print out your confirmation and take it with you as prove of your reservation when occupying the room.</p>
+<p>If your plans change so you no longer need the room, please cancel your booking by logging back in and find your listing under "View My Requests." This will reopen the space so it is available to others.</p>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="" GroupStart=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="x42567" CompTypes="HighlightedLinksComponent"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x40200" CompTypes="SiteControl"/></Content>

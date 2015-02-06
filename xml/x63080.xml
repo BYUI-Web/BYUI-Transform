@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.118 - http://www.ingeniux.com ***-->
+<Content ID="x63080" Name="Mission Physicals" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">navtest</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">navtest</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<link href="Documents/health-center/topper.css" rel="stylesheet" />
+<link href="Documents/health-center/layout.css" rel="stylesheet" />
+<style><!--
+   body #content_zone #maincontent .titlehead {
+      border-bottom: solid thin #A42626;
+   }
+--></style>
+<div id="content_zone">
+<div id="nav"><a href="x27790.xml">
+<div class="title">Student Health Center</div>
+</a> <iframe class="items" frameborder="0" scrolling="auto" src="Documents/health-center/links.html"></iframe></div>
+<div id="maincontent">
+<div id="topper">
+<div class="titlehead">Mission Physical Guidelines</div>
+<div id="frame">
+<div class="icons mission"></div>
+<div class="shadow"></div>
+</div>
+</div>
+<div id="topsec"><a href="Documents/health-center/Mission Physical Checklist.pdf"><img class="print" src="Images/health-center/print.png" /> Printer Friendly Version</a>
+<div class="clear"></div>
+<h4>Fill out and Print the following forms after you meet with your bishop:</h4>
+<ul>
+<li>Physician&rsquo;s Health Evaluation</li>
+<li>Personal Health History of Missionary Candidate</li>
+<li>Additional Health History</li>
+<li>Immunization Records</li>
+<li>Bishop's Address</li>
+</ul>
+<h4>Schedule two appointments at the Student Health Center by calling 208-496-9330:</h4>
+<ul>
+<li><strong>Immunizations Nurse</strong> and <strong>Lab</strong> 
+<ul>
+<li class="subtopic">Bring the following:                                                   
+<ul>
+<li class="comment">Printed forms</li>
+<li class="comment">Current Immunization records</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Physical appointment</strong> with a provider two days later</li>
+</ul>
+<h4>Remember to prepare for your appointment by:</h4>
+<ul>
+<li>Drinking plenty of water</li>
+<li>Wear eyeglasses or contacts if you normally wear them</li>
+</ul>
+<p>*The Student Health Center will mail your mission papers to your Bishop once they are complete.</p>
+</div>
+<iframe frameborder="0" id="footer" scrolling="no" src="Documents/health-center/footer.html"></iframe></div>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x28441" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

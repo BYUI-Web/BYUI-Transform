@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.88 - http://www.ingeniux.com ***-->
+<Content ID="x43711" Name="Involvement Rep" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Involvement Rep</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Involvement Rep</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style type="text/css"><!--
+#basic-modal-content {display:none;}
+#basic-modal-content ul li{
+display: inline;
+float: left;
+}
+#simplemodal-overlay {background-color:#000;}
+
+/* Container */
+#simplemodal-container {height:220px; width:690px; color:#bbb; background-color:#ccc; padding:12px;}
+#simplemodal-container .simplemodal-data {padding:8px;}
+#simplemodal-container code {background:#141414; border-left:3px solid #65B43D; color:#bbb; display:block; font-size:12px; margin-bottom:12px; padding:4px 6px 6px;}
+#simplemodal-container a {color:#ddd;}
+#simplemodal-container a.modalCloseImg {background:url(http://www.byui.edu/Images/student-support/close-button.png) no-repeat; width:25px; height:29px; display:inline; z-index:3200; position:absolute; top:-15px; right:-16px; cursor:pointer;}
+#simplemodal-container h3 {color:#84b8d9;}
+
+#page{width: 710px; height: auto; min-height: 600px;}
+    #page #header{width: 710px; height: 265px;}
+    #page #content{width: 78%; height: auto; min-height: 300px; float: left; padding: 1%;}
+    #page #content h4{
+    margin-left:-15px;
+}
+
+    #page #buttons{width: 18%; min-height: 300px; float: left; text-align: center;}
+    #page #buttons .one, #page #buttons .two,
+    #page #buttons .three, #page #buttons .four{
+        width: 100px; 
+        height: 100px; 
+        margin-left: auto; 
+        margin-right: auto; 
+        margin-top: 5px; 
+        margin-bottom: 5px;
+        display:block;
+        
+
+    }
+    #page #buttons .one{background-image: url('Images/student-support/volunteers/volunteer-interest-sprite.gif');background-position:0px 100px;}
+    #page #buttons .two{background-image: url('Images/student-support/volunteers/volunteer-interest-sprite.gif');background-position:0px 305px;}
+    #page #buttons .three{background-image: url('Images/student-support/volunteers/volunteer-interest-sprite.gif');background-position:0px 509px;}
+    #page #buttons .four{background-image:url('Images/student-support/volunteers/volunteer-interest-sprite.gif');background-position:0px 713px;}
+
+    #page #buttons .one:hover{background-image: url('Images/student-support/volunteers/volunteer-interest-sprite.gif');background-position:0px 203px;}
+    #page #buttons .two:hover{background-image: url('Images/student-support/volunteers/volunteer-interest-sprite.gif');background-position:0px 407px;}
+    #page #buttons .three:hover{background-image: url('Images/student-support/volunteers/volunteer-interest-sprite.gif');background-position:0px 613px;}
+    #page #buttons .four:hover{background-image:url('Images/student-support/volunteers/volunteer-interest-sprite.gif');background-position:1px 813px;}
+    
+    #page #buttons .live_chat{
+
+         margin-left:0px;
+       padding:10px 15px;
+        background-color:#FAD20A;
+        text-decoration:none;
+        color:#fff;
+        border-radius:4px;
+        font-family:sans-serif;
+        font-weight:bold;
+    }
+    #page #buttons .live_chat:hover{
+        background-color:#BEA030;
+    }
+--></style>
+<div id="basic-modal-content">
+<ul>
+<li><a href="https://cms.byui.edu/home/StudentSupport/Involvement/SitePages/Phone%20Interview%20Form.aspx"><img alt="Campus Students" src="Images/student-support/checklist/Campus-Students1.gif" /></a></li>
+<li><a href="https://cms.byui.edu/home/StudentSupport/Involvement/SitePages/Schedule%20Interview%20Form.aspx"><img alt="Online Students" src="Images/student-support/checklist/online1.gif" /></a></li>
+</ul>
+</div>
+<div id="page">
+<div id="header"><img height="266" src="Images/student-support/Involvement/Involvement-reps-header.gif" width="710" /></div>
+<div id="content">
+<h1>Involvement Rep</h1>
+<p>An Involvement Rep promotes other programs of Student Support, and it interviews new volunteers.</p>
+<hr />
+<h4>Requirements:</h4>
+<ul>
+<li><span style="font-size: 11pt; line-height: 1.4em;">Willing to spend # amount of hours per week</span></li>
+<li><span style="font-size: 11pt; line-height: 1.4em;">Full time student with # credits</span></li>
+</ul>
+<hr /></div>
+<div id="buttons"><strong>Quick Icons:</strong> <a class="one" href="x43408.xml"></a> <a class="two" href="https://cms.byui.edu/home/StudentSupport/Lists/Referrals/Item/newifs.aspx?IsDlg=0"></a> <a class="three" href="http://www.byui.edu/student-support/contact-student-support"></a>
+<p style="margin-top: -36px;">&nbsp;</p>
+<a class="live_chat" href="https://server.iad.liveperson.net/hc/1132447/?cmd=file&amp;file=visitorWantsToChat&amp;site=1132447&amp;byhref=1&amp;SESSIONVAR!skill=Student%20Support">Live Chat</a></div>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-33977325-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+</script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+<script src="Documents/student-support/get%20involved/jquery.simplemodal.js" type="text/javascript"></script>
+<script type="text/javascript">
+m$ = $;
+m$(document).ready(function(){
+m$("a.four").click(function(e){
+m$("#basic-modal-content").modal();
+});
+});
+</script>
+</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x19075" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

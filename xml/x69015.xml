@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.101 - http://www.ingeniux.com ***-->
+<ContentSnippet ID="x69015" Name="video tutorials" IsComponent="true"><ContentSnippet type="string" label="Content Snippet" readonly="false" hidden="false" required="false">&lt;style type="text/css"&gt;
+p.welcome {
+   margin: 0px; color: #0066cc; font-family: century; font-size: 20px;
+}
+p.second_line {
+   margin: 0px; margin-top: -20px; color: #0066cc; font-size: 60px; font-family: 'MS Sans Serif';
+}
+p.third_line {
+   margin: 0px; margin-top: -20px; font-size: 30px; color: grey; font-style: italic; font-family: 'Times New Roman';
+}
+p.desc {
+   color: #0066cc; font-family: Georgia;
+}
+p.choose {
+   color: grey; font-style: oblique;
+}
+ul.subject {
+   margin: 0; padding: 0; position: relative; display: table; border: 0; width: 100%; overflow: visible;
+}
+ul.subject li {
+   margin: 0px; float: left; width: 16.5%; font-size: 20px; font-family: Arial;
+   color: #585858; cursor: pointer; list-style: none;
+}
+ul.dropdown {
+   margin: 0; padding: 0; position: relative; display: table; border: 0; width: 100%; overflow: visible;
+}
+ul.dropdown li.list {
+   margin: 0px; float: left; width: 16.5%; list-style: none;
+}
+ul.dropdown li.list a {
+   text-decoration: none; font-size: 13px; color: grey;
+}
+div.box {
+   padding: 0px; background-color: white;
+}
+div.view_sci {
+   display: none;
+}
+div.view_lan {
+   display: none;
+}
+div.view_eco {
+   display: none;
+}
+div.view_mat {
+   display: none;
+}
+div.view_mus {
+   display: none;
+}
+div.view_fou {
+   display: none;
+}
+&lt;/style&gt;
+&lt;script type="text/javascript"&gt; 
+window.onload = function() { 
+$(".slide_sci").click(function(){ 
+    $(".view_sci").slideToggle("slow"); 
+  }); 
+$(".slide_lan").click(function(){ 
+    $(".view_lan").slideToggle("slow"); 
+  }); 
+$(".slide_eco").click(function(){ 
+    $(".view_eco").slideToggle("slow"); 
+  }); 
+$(".slide_mat").click(function(){ 
+    $(".view_mat").slideToggle("slow"); 
+  });
+$(".slide_mus").click(function(){ 
+    $(".view_mus").slideToggle("slow"); 
+  });
+$(".slide_fou").click(function(){ 
+    $(".view_fou").slideToggle("slow"); 
+  }); 
+}; 
+&lt;/script&gt;
+&lt;div width="710px"&gt;
+
+&lt;p class="welcome"&gt;welcome to the&lt;/p&gt;
+&lt;p class="second_line"&gt;TUTORING CENTER'S&lt;/span&gt;&lt;/p&gt;
+&lt;p class="third_line"&gt;online video tutorials&lt;/p&gt;
+&lt;p class="desc"&gt;Find a variety of helpful videos to aid in your studing 
+Can't find what you are looking for? let us know how we can 
+help by sending a request at &lt;a&gt;gentrym@byui.edu&lt;/a&gt;
+&lt;/p&gt;
+&lt;p class="choose"&gt;Choose a subject to begin...&lt;/p&gt;
+&lt;ul class="subject"&gt;
+&lt;li class="slide_sci"&gt;Science&lt;/li&gt;
+&lt;li class="slide_lan"&gt;Languages&lt;/li&gt;
+&lt;li class="slide_eco"&gt;Economics&lt;/li&gt;
+&lt;li class="slide_mat"&gt;Math&lt;/li&gt;
+&lt;li class="slide_mus"&gt;Music&lt;/li&gt;
+&lt;li class="slide_fou"&gt;Foundations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="dropdown"&gt;
+&lt;li class="list"&gt;
+&lt;div class="box"&gt;
+&lt;div class="view_sci"&gt;
+&lt;ul id="Science"&gt;
+&lt;li&gt;&lt;a href="/academic-support-centers/tutoring-center/Biology"&gt;Biology&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/academic-support-centers/tutoring-center/Chemistry-101"&gt;Chemistry 101&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/academic-support-centers/tutoring-center/Chemistry-105"&gt;Chemistry 105&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/academic-support-centers/tutoring-center/Chemistry-106"&gt;Chemistry 106&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/academic-support-centers/tutoring-center/Chemistry-351"&gt;Chemistry 351&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/academic-support-centers/tutoring-center/Chemistry-352"&gt;Chemistry 352&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/academic-support-centers/tutoring-center/Chemistry-481"&gt;Chemistry 481&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/academic-support-centers/tutoring-center/Kinesiology"&gt;Kinesiology&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/academic-support-centers/tutoring-center/Physics"&gt;Physics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li class="list"&gt;
+&lt;div class="box"&gt;
+&lt;div class="view_lan"&gt;
+&lt;ul id="Languages"&gt;
+&lt;li&gt;&lt;a href="/academic-support-centers/tutoring-center/English-basic-writing"&gt;English - basic writing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="x69006.xml"&gt;English - advanced grammar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/academic-support-centers/tutoring-center/Spanish"&gt;Spanish&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li class="list"&gt;
+&lt;div class="box"&gt;
+&lt;div class="view_eco"&gt;
+&lt;ul id="Economics"&gt;
+&lt;li&gt;&lt;a href="/academic-support-centers/tutoring-center/Economics"&gt;Economics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li class="list"&gt;
+&lt;div class="box"&gt;
+&lt;div class="view_mat"&gt;
+&lt;ul id="Math"&gt;
+&lt;li&gt;&lt;a href="/academic-support-centers/tutoring-center/Differential-equations"&gt;Differential Equations&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li class="list"&gt;
+&lt;div class="box"&gt;
+&lt;div class="view_mus"&gt;
+&lt;ul id="Music"&gt;
+&lt;li&gt;&lt;a href="/academic-support-centers/tutoring-center/Musicianship"&gt;Musicianship&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li class="list"&gt;
+&lt;div class="box"&gt;
+&lt;div class="view_fou"&gt;
+&lt;ul id="Foundations"&gt;
+&lt;li&gt;&lt;a href="/academic-support-centers/tutoring-center/American-foundations"&gt;American foundations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/academic-support-centers/tutoring-center/History"&gt;History&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/academic-support-centers/tutoring-center/Musicianship"&gt;Musicianship&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/div&gt;</ContentSnippet></ContentSnippet>

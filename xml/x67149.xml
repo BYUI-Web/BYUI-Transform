@@ -1,0 +1,246 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 6.0.82 - http://www.ingeniux.com ***-->
+<DetailPage ID="x67149" Name="Fight the Flu" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Fight the Flu</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Fight the Flu</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="true"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false">Fight the Flu</BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false">Fight the Flu</MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="false" required="false">0.5</Priority></xPower><xPower Type="Component" Component="x14" Name="RelatedLinks" label="Related Links" readonly="false" hidden="false" required="false" CompTypes="RelatedLinksComponent" Expanded="false"/><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<style><!--
+#body_content {
+	padding:10px 0 0 0;
+}
+#random_image {
+	margin:0px
+	padding:0px;
+	display:block;
+	width:650px;
+	height:204px;
+	background-color:#FFF;
+}
+#random_image {
+	border:0px;
+	text-decoration:none;
+}
+#random_image img{
+	width:650px;
+	height:204px;
+}
+#type_A #main_body {
+	background:none;
+	min-height: 1200px;
+}
+#fighttheflu_nav {
+	display:block;
+	width:180px;
+	padding:0px;
+	padding-top:10px;
+	padding-left:10px;
+	padding-right:10px;
+	margin:0px;
+	border:0;
+	float:left;
+}
+#fighttheflu_nav ul {
+	margin:10px;
+}
+img {
+	border:0px;
+}
+#type_A .leftAREA {
+	padding:0px;
+	}
+#sub_head {
+	display:block;
+	width:520px;
+	height:100px;
+	padding:10px 10px 10px 10px;
+}
+#sub_head h3 {
+	font-family:Arial, Helvetica, sans-serif !important;
+	font-size:22px;
+	color:#524A43;
+	padding-top:20px;
+	padding-bottom:20px;
+	
+}
+#sub_head p {
+	font-family:Georgia, Times New Roman, serif;
+	font-size:14px;
+	color:#524A43;
+	padding-bottom:10px;
+}
+.item_image {
+	display:block;
+	width:96px;
+	height:96px;
+	position:relative;
+	margin-top:10px;
+	margin-left:10px;
+}
+.item_description {
+	display:block;
+	/*width:400px;*/
+	height:96px;
+	position:absolute;
+	margin-top:-103px;
+	margin-left:120px;
+	padding:5px;
+	font-family:Georgia, Times New Roman, serif;
+	color:#524A43;
+	font-size: 11px;
+}
+.item_description a{
+	display:inline !important;
+}
+#content_main div h3 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#524A43;
+	font-style:normal;
+	line-height:22px;
+	padding:0;
+}
+#thumbnail img{
+	float: left;
+	padding-right: 6px;
+	padding-bottom: 6px;
+}
+
+#largImageDiv {
+	visibility: hidden;
+	position: absolute;
+	top: 300px;
+	left: 0px;
+	width: 560px;
+}
+
+.specialNav {
+	font-weight: bold;
+	font-size: 15px;
+	padding: 0px;
+}
+
+.imageNav{
+	padding-bottom: 10px;
+}
+
+.right_bottom_section{
+	border-left: 1px solid #E4E1D9;
+	width:578px;
+}
+
+#thumbnail {
+	padding-left: 10px;
+}
+
+#type_A .leftAREA {
+	width:579px;
+}
+
+.back, .back:hover, a.back {
+	float: right;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.next, .next:hover, a.next {
+	float: right;
+	padding: 10px;
+	text-decoration: none;
+}
+#head_h3 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:22px;
+	color:#524A43;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:10px;
+}
+--></style>
+<script type="text/javascript">
+//Begin 
+                       
+	rnd.today=new Date();
+	rnd.seed=rnd.today.getTime();
+
+	function rnd() {
+		rnd.seed = (rnd.seed*9301+49297) % 233280;
+		return rnd.seed/(233280.0);
+	}
+
+	function rand(number) {
+		var result = Math.ceil(rnd()*number);
+		if (!result)result++;
+    	return result
+	}
+	
+function randomImageDisplay(){ 
+	var ad_cnta = 7;
+	var ada = rand(ad_cnta);
+	//var linka;
+	var adBannera;
+	//var widtha
+	//var heighta
+	var adAlt = "Drive or Walk Banner image";
+	if (ada==1) {
+		adBannera = "Images/new_image_structure/administrative_departments/university_communications/Campaigns/fight_the_flu/banners/away.png";
+	}
+	if (ada==2) {
+		adBannera = "Images/new_image_structure/administrative_departments/university_communications/Campaigns/fight_the_flu/banners/hands.png";
+	}
+	if (ada==3) {
+		adBannera = "Images/new_image_structure/administrative_departments/university_communications/Campaigns/fight_the_flu/banners/help.png";
+	}
+	if (ada==4) {
+		adBannera = "Images/new_image_structure/administrative_departments/university_communications/Campaigns/fight_the_flu/banners/home.png";
+	}
+    if (ada==5) {
+		adBannera = "Images/new_image_structure/administrative_departments/university_communications/Campaigns/fight_the_flu/banners/lather.png";
+	}
+	if (ada==6) {
+		adBannera = "Images/new_image_structure/administrative_departments/university_communications/Campaigns/fight_the_flu/banners/shot.png";
+	}
+	if (ada==7) {
+		adBannera = "Images/new_image_structure/administrative_departments/university_communications/Campaigns/fight_the_flu/banners/tissue.png";
+	}
+	document.getElementById('bannerImage').src = adBannera;
+	document.getElementById('bannerImage').alt = adAlt;
+}
+
+// End
+</script>
+<div id="random_image">
+<div><img alt="Fight The Flu" id="bannerImage" />
+<script language="JavaScript" type="text/javascript">
+randomImageDisplay();
+</script>
+<div id="titleBoxdrivewalk" style="background: transparent;"><!--DRIVE or WALK?--></div>
+</div>
+</div>
+<div id="sub_head">
+<h3>7 Steps for a Healthy Semester</h3>
+<p>With flu season underway, please take precautions to avoid getting sick or passing viruses to other people. Following are some suggestions to keep healthy and to prevent spreading illnesses to others.</p>
+</div>
+<div class="item_image"><img src="Images/new_image_structure/administrative_departments/university_communications/Campaigns/fight_the_flu/small_icons/get_shot.png" /></div>
+<div class="item_description">
+<h3>Get a Shot</h3>
+Protect yourself from the seasonal flu by getting vaccinated.</div>
+<div class="item_image"><img src="Images/new_image_structure/administrative_departments/university_communications/Campaigns/fight_the_flu/small_icons/lather_up.png" /></div>
+<div class="item_description">
+<h3>Lather Up</h3>
+Wash your hands often with soap and warm water for 15-20 seconds,especially after you cough or sneeze. Alcohol-based hand sanitizers are also effective.</div>
+<div class="item_image"><img src="Images/new_image_structure/administrative_departments/university_communications/Campaigns/fight_the_flu/small_icons/tissue_please.png" /></div>
+<div class="item_description">
+<h3>Tissue Please</h3>
+Sneeze into a tissue or your sleeve, not into your hands.</div>
+<div class="item_image"><img src="Images/new_image_structure/administrative_departments/university_communications/Campaigns/fight_the_flu/small_icons/hands_off.png" /></div>
+<div class="item_description">
+<h3>Hands Off</h3>
+Don't touch your eyes, nose or mouth. This is how germs spread.</div>
+<div class="item_image"><img src="Images/new_image_structure/administrative_departments/university_communications/Campaigns/fight_the_flu/small_icons/keep_away.png" /></div>
+<div class="item_description">
+<h3>Keep Away</h3>
+Avoid close contact with others who are ill.</div>
+<div class="item_image"><img src="Images/new_image_structure/administrative_departments/university_communications/Campaigns/fight_the_flu/small_icons/stay_home.png" /></div>
+<div class="item_description">
+<h3>Stay Home</h3>
+When sick, limit contact with others to keep from infecting them. Stay home until your fever has been gone for 24 hours (without fever-reducing medications).</div>
+<div class="item_image"><img src="Images/new_image_structure/administrative_departments/university_communications/Campaigns/fight_the_flu/small_icons/get_help.png" /></div>
+<div class="item_description">
+<h3>Get Help</h3>
+To determine if you need to seek medical care for the flu, please see the <a href="http://symptoms.webmd.com/default.htm#./introView" target="_blank">Symptom Checker</a> and also determine if you are <a href="http://www.byui.edu/FighttheFlu/amihighrisk.htm">high risk</a>. Flu symptoms include fever, cough, sore throat, body aches, headache, chills, runny or stuffy nose, fatigue, diarrhea, nausea and vomiting. If you feel you need to see a physician, call the <a href="http://www.byui.edu/health-center/frequently-asked-questions/common-health-concerns/what-to-do-about-the-flu">Student Health Center</a> at 496-1300.</div>]]></BodyCopy><xPower Type="List" List="xpowercomponent_ImageComponent" Name="LeftColumnImageComponentList" label="Left Column Image Component List" readonly="false" hidden="false" required="false" Component="" CompTypes="LeftColumnImageComponent" Expanded="false"><xPower Type="Component" Component="" Name="ImageComponent" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent" Expanded="false"/></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x4205" Name="SiteControl" label="Site Control" readonly="true" hidden="true" required="false" CompTypes="SiteControl" Expanded="false"/></DetailPage>

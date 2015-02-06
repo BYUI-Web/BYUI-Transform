@@ -1,0 +1,711 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 8.0.65 - http://www.ingeniux.com ***-->
+<Content ID="x47643" Name="14)dropDownSliders" Layout="byuidefault.xsl" IsComponent="false"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Some Testing Page</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Some Testing Page</Abstract><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="true"><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<!--[if IE]><![endif]--><!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]--><!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]--><!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]--><!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]--><!--[if (gt IE 9)|!(IE)]><!--><!--<![endif]-->
+<p><meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+<title>What to Expect</title>
+<meta /><meta content="Learn how to get involved during Education Week at BYU-Idaho." name="description" /><meta content="" name="keywords" /></p>
+<p><link href="prebuilt/stylenew/images/ico/favicon.ico" rel="shortcut icon" type="image/x-icon" /></p>
+<p><meta content="" name="robots" /></p>
+<p><link href="prebuilt/stylenew/css/blueprint/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> <link href="prebuilt/stylenew/css/blueprint/print.css" media="print" rel="stylesheet" type="text/css" /></p>
+<!--[if lt IE 8]>
+					<link rel="stylesheet" href="prebuilt/stylenew/css/blueprint/ie.css" type="text/css" media="screen, projection" />				
+				<![endif]-->
+<p><link href="prebuilt/stylenew/css/main.css" media="screen, projection" rel="stylesheet" type="text/css" /></p>
+<p>
+<script src="prebuilt/stylenew/js/libs/modernizr-2.0.6.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+			  _gaq.push(['_setAccount', 'UA-12079604-6']);
+			  _gaq.push(['_trackPageview']);
+
+			  (function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			  })();
+</script>
+</p>
+<!--Transformed from x50521, with page type Content-->
+<style><!--
+.emergency-base{background-color:#db520c;border:0 solid;border-color:#a73e09;color:#FFF;padding-left:30px;padding-bottom:10px;padding-top:10px}.emergency-wrapper{background-color:#FFF;border:10px solid #db520c;color:#FFF;margin-top:-1.5em;padding-left:30px;padding-bottom:10px;padding-top:10px}#EmergencyTitle{text-align:center}#EmergencyTitle p{width:70px;margin:0 10px;float:left;color:#000;text-align:left}#EmergencyTitle p+p{border-left:1px solid #DDD;padding-left:20px}#EmergencyTitle h2{background-color:#db520c;width:50px;color:#FFF;font-size:22px;text-transform:uppercase;margin:-10px auto 10px auto}
+--></style>
+<style><!--
+/* Set the nav menu item for the current page to appear selected */
+ul#top-nav > li > a#what-to-expect {
+	color: #ffcf06;
+	background-color: #000;
+}
+/* Style for the rest of the page */
+div.number-point {
+	height: 26px;
+	width: 26px;
+	margin: 3px 15px 0 0;
+	padding: 0;
+	-webkit-border-radius: 13px;
+	-moz-border-radius: 13px;
+	border-radius: 13px;
+	background: #000;
+	text-align: center;
+	float: left;
+}
+div.number-point > p {
+	color: #ffcf06;
+	font-family: "Century Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	margin: 0;
+	height: 100%;
+}
+div#learning-section-container1,
+div#learning-section-container2,
+div#learning-section-container3
+{
+	margin: 2px 0 10px 0;
+	border: solid 1px #777;
+	-webkit-box-shadow: 2px 2px 3px #888;
+	-moz-box-shadow: 2px 2px 3px #888;
+	box-shadow: 2px 2px 3px #888;
+	border-collapse: separate;
+	position: relative;
+}
+div.learning-section-title {
+	width: 675px;
+	height: 45px;
+	padding: 10px 0 0 20px;
+	background-color: #0f6cb6;
+	position: relative;
+}
+div#learning-section-container1:hover h2,
+div#learning-section-container1:hover div.secondary-title > p,
+div#learning-section-container2:hover h2,
+div#learning-section-container2:hover div.secondary-title > p,
+div#learning-section-container3:hover h2,
+div#learning-section-container3:hover div.secondary-title > p
+{
+	text-decoration: underline;
+}
+div.learning-section-title > h2 {
+	font-size: 1.7em;
+	text-transform: uppercase;
+	display: block;
+	padding: none;
+	line-height: 0.75em;
+}
+div.secondary-title {
+	position: absolute;
+	top: 0;
+	left: 362px;
+	height: 55px;
+	width: 50px;
+	background: #000;
+}
+div.learning-section-title > h2,
+div.secondary-title > p
+{
+	color: #fff;
+}
+div.secondary-title > p {
+	margin: 16px 0 0 60px;
+	font-size: 1.4em;
+}
+div.text-container {
+	width: 400px;
+	padding-right: 25px;
+}
+div.image-container {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 20px;
+	height: 100%;
+	overflow: hidden;
+}
+div#prepare-content,
+div#participate-content,
+div#ponder-content
+{
+	width: 100px;
+	position: relative;
+}
+div.header-container
+{
+	cursor: pointer;
+}
+div.blue-arrow {
+	position: absolute;
+	top: 20px;
+	left: 695px;
+	width: 7px;
+	height: 13px;
+	background: url("Images/university-relations/education-week/side-arrow-blue.png") no-repeat;
+}
+div#down-arrow1,
+div#down-arrow2,
+div#down-arrow3
+{
+	width: 28px;
+	height: 28px;
+	position: absolute;
+	top: 14px;
+	right: 20px;
+	background: url("images/university-relations/education-week/up-down-arrow.png") no-repeat 0 0;
+}
+div#prepare-click:hover div#down-arrow1,
+div#participate-click:hover div#down-arrow2,
+div#ponder-click:hover div#down-arrow3
+{
+	background: url("images/university-relations/education-week/up-down-arrow.png") no-repeat 0 -28px;
+}
+div#up-arrow1,
+div#up-arrow2,
+div#up-arrow3
+{
+	width: 28px;
+	height: 28px;
+	position: absolute;
+	top: 14px;
+	right: 20px;
+	background: url("images/university-relations/education-week/up-down-arrow.png") no-repeat -28px 0;
+}
+div#prepare-click:hover div#up-arrow1,
+div#participate-click:hover div#up-arrow2,
+div#ponder-click:hover div#up-arrow3
+{
+	background: url("images/university-relations/education-week/up-down-arrow.png") no-repeat -28px -28px;
+}
+p.subheading {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+p.info-text,
+ul.item-list
+{
+	margin: 0;
+	padding: 14px 14px 7px 14px;
+	font-family: "Century Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+ul.item-list {
+	margin-left: 18px;
+}
+ul.item-list > li {
+	margin-bottom: 7px;
+}
+ul.item-list > ul > li {
+	margin: 10px 18px;
+	padding: 0;
+}
+--></style>
+<style><!--
+.type ol {
+	padding: 0;
+}
+.type ol li {
+	margin: 0 0 10px 20px;
+}
+div.main-title-banner,
+div.secondary-banner
+{
+	width: 100%;
+	margin: 0;
+}
+div.main-title-banner,
+div.small-image-label
+{
+	background-color: #0f6cb6;
+}
+div.secondary-banner {
+	background-color: #000;
+}
+div.small-image1,
+div.small-image2,
+div.small-image3
+{
+	position: relative;
+	float: left;
+	border: 1px solid #888;
+	width: 102px;
+	height: 212px;
+}
+div.small-image1,
+div.small-image2
+{
+	margin: 15px 19px 0 0;
+}
+div.small-image3 {
+	margin: 15px 0 0 0;
+}
+div.small-image1:hover,
+div.small-image2:hover,
+div.small-image3:hover
+{
+	border-color: #282828;
+}
+div.small-image1:hover > div.small-image-label,
+div.small-image2:hover > div.small-image-label,
+div.small-image3:hover > div.small-image-label
+{
+	background-color: #fff;
+}
+div.small-image1:hover p,
+div.small-image2:hover p,
+div.small-image3:hover p
+{
+	color: #0f6cb6;
+}
+div.small-image-label {
+	position: absolute;
+	top: 0;
+	width: 50%;
+	height: 36px;
+}
+div.main-title-banner > p,
+div.secondary-banner > p,
+div.small-image-label > p
+{
+	margin: 5px auto;
+	text-align: center;
+	font-weight: bold;
+	font-family: "Century Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+div.main-title-banner > p {
+	height: 50px;
+	letter-spacing: 2pt;
+	font-size: 2.8em;
+}
+div.main-title-banner > p,
+div.small-image-label > p
+{
+	color: #fff;
+}
+div.main-title-banner > p.slogan {
+	font-weight: normal;
+	font-family: Georgia, Times, serif;
+	font-size: 1.1em;
+	font-style: italic;
+	height: 25px;
+	letter-spacing: 0;
+}
+div.small-image-label > p {
+	font-size: 1.2em;
+}
+div.secondary-banner > p {
+	color: #fff;
+	height: 40px;
+	font-size: 2pt;
+}
+div.main-image {
+	margin: -8px 0;
+}
+div.style-container {
+	margin-top: -2px;
+}
+div.text-box {
+	background-color: #ffcf06;
+	padding: 20px 20px 25px 0;
+	margin-bottom: 15px;
+	clear: both;
+}
+div.text-box > p,
+div.text-box > h1,
+div.text-box > h2,
+div.text-box > h3,
+div.text-box > h4,
+div.text-box > hr
+{
+	color: #000;
+}
+div.text-box > h1,
+div.text-box > h2,
+div.text-box > h3,
+div.text-box > h4
+{
+	text-transform: uppercase;
+	letter-spacing: 3pt;
+	margin-bottom: 10px;
+}
+div.text-box > p {
+	font-size: 1.2em;
+	margin-bottom: 0;
+	padding-left: 20px;
+}
+div.main-title-container,
+div.subtitle-container
+{
+	padding-right: 7px;
+	background-repeat: no-repeat;
+	background-position: right center;
+	display: inline-block;
+}
+div.main-title-container {
+	margin: 0;
+	background-image: url("images/university-relations/education-week/side-arrow-black.png");
+}
+div.subtitle-container {
+	margin: 20px 0 12px 0;
+	background-image: url("images/university-relations/education-week/side-arrow-blue.png");
+}
+div.more-info p,
+p.show-more
+{
+	margin-top: -20px;
+}
+hr.separator {
+	background: #000;
+	color: #000;
+	margin: 15px 0 15px 0;
+}
+.type h1 {
+	padding: 7px 20px;
+	background-color: #000;
+	letter-spacing: 4pt;
+	font-size: 1.8em;
+	line-height: 1.2em;
+}
+.type h1,
+.type h2
+{
+	color: #fff;
+	margin: 0;
+	text-transform: uppercase;
+	display: inline-block;
+}
+.type h2 {
+	padding: 7px 17px;
+	background-color: #0f6cb6;
+	letter-spacing: 2pt;
+	font-size: 1.3em;
+	line-height: 1.1em;
+}
+.type h3 {
+	padding-bottom: 0;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+span.make-link {
+	position: absolute; 
+	width: 50%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	background-image: url("empty.png");
+}
+/* Generic float classes */
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+/* TABLES STYLE */
+.type table {
+	width: 210px;
+	margin: 0 0 25px 0;
+}
+.type table th {
+	color: #000;
+	background-color: #ffcf06;
+	font-size: 0.7em;
+	letter-spacing: 1.5pt;
+	text-transform: uppercase;
+	padding-left: 20px;
+}
+.type table,
+.type table caption,
+div.hotel-copy
+{
+	-webkit-box-shadow: 2px 2px 3px #888;
+	-moz-box-shadow: 2px 2px 3px #888;
+	box-shadow: 2px 2px 3px #888;
+}
+.type table tbody tr:nth-child(even) td,
+.type table tbody tr:nth-child(even):hover td
+{
+	background-color: #f1f1f1;
+}
+.type table tbody tr:nth-child(odd):hover td {
+	background-color: #fff;
+}
+.type table td {
+	color: #000;
+	padding-left: 20px;
+}
+caption {
+	background-color: #fff;
+	caption-side: bottom;
+	font-size: 0.7em;
+}
+--></style>
+<style><!--
+ul#top-nav {
+	width: 50%;
+	float: left;
+	margin: 0 0 25px 0;
+	padding: 0;
+}
+ul#top-nav > li,
+li.hidden-nav-item
+{
+	list-style-type: none;
+	background-color: #0f6cb6;
+	margin: 0;
+	padding: 0;
+}
+ul#top-nav > li {
+	float: left;
+	width: 25%;
+}
+ul#top-nav > li a {
+	text-align: center;
+}
+ul#top-nav > li a,
+li.hidden-nav-item > a
+{
+	color: #fff;
+	padding: 5px 0;
+	text-decoration: none;
+	font-size: 0.9em;
+	font-weight: bold;
+	font-family: "Century Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	letter-spacing: 1.5pt;
+	display: block;
+}
+ul#top-nav > li > a:hover,
+ul.hidden-nav-menu > li > a:hover
+{
+	background-color: #000;
+}
+ul.hidden-nav-menu {
+	display: none;
+}
+li:hover > ul.hidden-nav-menu {
+	display: block;
+}
+ul#top-nav > li:nth-child(1n+2) > a,
+ul.hidden-nav-menu
+{
+	border-left: 1px solid #fff;
+}
+ul#top-nav a,
+ul.hidden-nav-menu
+{
+	
+}
+--></style>
+<div class="global_outside page_content">
+<section class="container" id="page_content">
+<div class="span-24">
+<section class="span-24 type" id="main_content">
+<div class="style-container"></div>
+<div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function() {
+// Hide content on page load using JS so that
+// it still shows up on JS-disabled browsers
+	// $("#prepare-content").hide();
+	$("#participate-content").hide();
+	$("#ponder-content").hide();
+});
+</script>
+<hr class="separator" /><!-- PREPARE SECTION -->
+<div id="learning-section-container1">
+<div class="header-container" id="prepare-click">
+<div class="learning-section-title">
+<div class="number-point">
+<p>1</p>
+</div>
+<h2>on campus<em><br /></em></h2>
+</div>
+<div class="blue-arrow"></div>
+<div id="down-arrow1"></div>
+</div>
+<div id="prepare-content">
+<div class="text-container">
+<p class="info-text">PrInformation</p>
+<p class="info-text subheading">Suggestions&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<ul class="item-list">
+<li><strong>Prayerfully decide to attend</strong> Education Week. iugiypiu</li>
+</ul>
+<p class="info-text subheading">Additional resources</p>
+<ul class="item-list">
+<li><a href="http://www.byui.edu/education-week">Education Week home page</a></li>
+</ul>
+</div>
+</div>
+</div>
+<!-- PARTICIPATE SECTION -->
+<div id="learning-section-container2">
+<div class="header-container" id="participate-click">
+<div class="learning-section-title">
+<div class="number-point">
+<p>2</p>
+</div>
+<h2>off campus</h2>
+</div>
+<div class="blue-arrow"></div>
+<div id="down-arrow2"></div>
+</div>
+<div id="participate-content">
+<div class="text-container">
+<p class="info-text">Ge Information eryone is welcome to any class.</p>
+<p class="info-text subheading">Suggestions</p>
+<ul class="item-list">
+<li><strong>Prepare questions</strong> to bring to class.</li>
+<li><strong>Meet at least one classmate</strong> per class.</li>
+<li><strong>Share insights</strong> on social media sites.</li>
+<li><strong>Participate</strong> in Education Week activities.</li>
+<li><strong>Meet teachers</strong> after class if time permits.</li>
+<li><strong>Thank hosting staff</strong> for their volunteer work.,jhgjkhgkjg</li>
+<li><strong>Visit each building</strong> on campus.</li>
+<li><strong>Get involved</strong> with BYU&ndash;Idaho programs, initiatives, and the alumni community.</li>
+<li><strong>Discuss</strong> Education Week topics with your friends and family each night.</li>
+</ul>
+<p class="info-text subheading">Additional resources</p>
+<ul class="item-list">
+<li><a href="http://www.byui.edu/about/defining-aspects/learning-model" target="_blank">The BYU&ndash;Idaho Learning Model</a></li>
+<li><a href="http://www.byuiconnect.com" target="_blank">BYU&ndash;Idaho Student and Alumni Network</a></li>
+<li style="padding-bottom: 14px;"><a href="http://www.byui.edu/about/defining-aspects" target="_blank">Defining Aspects of BYU&ndash;Idaho</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</section>
+</div>
+<p></p>
+<!-- PONDER SECTION -->
+<div id="learning-section-container3">
+<div class="header-container" id="ponder-click">
+<div class="learning-section-title">
+<div class="number-point">
+<p>3</p>
+</div>
+<h2>This is a new box</h2>
+</div>
+<div class="blue-arrow"></div>
+<div id="down-arrow3"></div>
+</div>
+<div id="ponder-content">
+<div class="text-container">
+<p class="info-text">AInfo Info info</p>
+<p class="info-text subheading">Suggestions</p>
+<ul class="item-list">
+<li><strong>Prayerfully consider</strong> the asdfasdf.</li>
+<li><strong>Write in your journal</strong> about asdfasdfa.</li>
+<li><strong>Review</strong> your notes, handouts, asdfasd.</li>
+<li><strong>Discuss</strong> Eduasdfasdf Weefasaasdfa teachings and materials in family home evening, Mutual, etc.</li>
+<li><strong>Create a study program</strong> to continue learning about topics discovered.</li>
+<li><strong>Set goals</strong> to prepare for next year's Education Week.</li>
+</ul>
+<!--
+<p class="info-text subheading">Additional resources</p>
+<ul class="item-list">
+<li><a href="http://www.byui.edu/education-week" target="_blank">Education Week home page</a></li>
+<li style="padding-bottom: 14px;"><a href="http://www.mormon.org" target="_blank">Mormon.org</a></li>
+</ul>
+--></div>
+</div>
+</div>
+<hr class="separator" />
+<div>
+<script type="text/javascript">
+$(function() {
+	// "Prepare" will be expanded by default, so the arrow should point up
+	$("#down-arrow1").attr("id", "up-arrow1");
+
+	// Is each section currently hidden?
+	var visible1 = true; // have "Prepare" expanded by default
+	var visible2 = false;
+	var visible3 = false;
+
+	// Expands or contracts the corresponding section,
+	//    then changes the arrow to point up or down
+	function expandToggle(sectionId) {
+		var visible;
+		var idNumber;
+
+		// Set some section-specific values
+		if (sectionId == "#prepare") {
+			visible1 = !visible1;
+			visible = visible1;
+			idNumber = "1";
+		} else if (sectionId == "#participate") {
+			visible2 = !visible2;
+			visible = visible2;
+			idNumber = "2";
+		} else {
+			visible3 = !visible3;
+			visible = visible3;
+			idNumber = "3";
+		}
+
+		// Make the arrow point up or down
+		if (visible) {
+			$("#down-arrow" + idNumber).attr("id", "up-arrow" + idNumber);
+		} else {
+			$("#up-arrow" + idNumber).attr("id", "down-arrow" + idNumber);
+		}
+
+		// Expand the section into and out of view
+		$(sectionId + "-content").slideToggle(800);
+	}
+
+	// Listen for a section to be clicked
+
+	$("#prepare-click").click(function() {
+		expandToggle("#prepare");
+	});
+
+	$("#participate-click").click(function() {
+		expandToggle("#participate");
+	});
+
+	$("#ponder-click").click(function() {
+		expandToggle("#ponder");
+	});
+});
+</script>
+</div>
+<p>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+window.jQuery || document.write('<script id="jQueryLoad" src="prebuilt/stylenew/js/libs/jquery-1.7.min.js"><\/script>')
+</script>
+</p>
+<!--[if lt IE 7 ]>
+			  <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+			  <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+			<![endif]-->
+<p>
+<script type="text/javascript">
+$('.Info').click(function() {
+				  $('.pageInfo').slideDown('fast', function() {
+				  });
+				});
+</script>
+<script src="prebuilt/stylenew/js/mylibs/accordionNav.js" type="text/javascript"></script>
+<script src="prebuilt/stylenew/js/libs/jquery.scroll.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(window).load(function() {
+						$('.scrollbar').scrollbar();
+						$('.fff').scrollbar({handleHeight:'auto'});
+					});
+</script>
+<script src="prebuilt/stylenew/js/default-scripts.js" type="text/javascript"></script>
+<script src="prebuilt/stylenew/js/mobile-cookies.js" type="text/javascript"></script>
+<script src="PreBuilt/stylenew/js/libs/omniture/s_code.js" type="text/javascript"></script>
+<script src="PreBuilt/stylenew/js/libs/omniture/omniture.js" type="text/javascript"></script>
+</p>
+<!-- BEGIN LivePerson Monitor. -->
+<p>
+<script language="javascript" type="text/javascript">
+var lpMTagConfig = {'lpServer' : "server.iad.liveperson.net",'lpNumber' : "1132447",'lpProtocol' : "https"}; function lpAddMonitorTag(src){if(typeof(src)=='undefined'||typeof(src)=='object'){src=lpMTagConfig.lpMTagSrc?lpMTagConfig.lpMTagSrc:'/hcp/html/mTag.js';}if(src.indexOf('http')!=0){src=lpMTagConfig.lpProtocol+"://"+lpMTagConfig.lpServer+src+'?site='+lpMTagConfig.lpNumber;}else{if(src.indexOf('site=')<0){if(src.indexOf('?')<0)src=src+'?';else src=src+'&';src=src+'site='+lpMTagConfig.lpNumber;}};var s=document.createElement('script');s.setAttribute('type','text/javascript');s.setAttribute('charset','iso-8859-1');s.setAttribute('src',src);document.getElementsByTagName('head').item(0).appendChild(s);} if (window.attachEvent) window.attachEvent('onload',lpAddMonitorTag); else window.addEventListener("load",lpAddMonitorTag,false);
+</script>
+</p>
+<!-- END LivePerson Monitor. -->
+<p></p>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"><xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/><xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x41457" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content>

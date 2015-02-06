@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.5.82 - http://www.ingeniux.com ***-->
+<Content_wSideColumn ID="x31960" Name="Perfectionism Self-Test" Layout="general_content.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Self-Test for Perfectionsim</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">A Self-Test for Perfectionism provided by the BYU-Idaho Counseling Center</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/><fbookTop type="boolean" label="Put facebook at top of page" readonly="false" hidden="false" required="false">false</fbookTop><fbookStatus type="string" label="Facebook ID#" readonly="false" hidden="false" required="false"></fbookStatus><fbookToken type="string" label="Access_Token" readonly="false" hidden="false" required="false"></fbookToken><fbookDisplayed type="string" label="Number of facebook messages to display" readonly="false" hidden="false" required="false">1</fbookDisplayed></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<script type="text/javascript">
+function check(num) {
+var checkbox = document.getElementById("q" + num);
+if (checkbox.src == "http://ingeniux.byui.edu/beta/xml/Images/counseling-center/check.png") {
+checkbox.src="http://ingeniux.byui.edu/beta/xml/Images/counseling-center/check2.png";
+} else {
+checkbox.src="http://ingeniux.byui.edu/beta/xml/Images/counseling-center/check.png";
+}
+}
+
+function getAnswer() {
+var score = 0;
+for (var i = 0; i < 12; i++) {
+var check = document.getElementById("q" + (i + 1));
+if (check.src == "http://ingeniux.byui.edu/beta/xml/Images/counseling-center/check2.png") {
+score++;
+}
+}
+
+var output = document.getElementById("score");
+
+if(score >= 3) {
+output.innerHTML = "<h4>You experience more stress than the average person.</h4>";
+} else {
+   output.innerHTML = "<h4>You experience an average amount of stress.</h4>";
+}
+}
+</script>
+<p><span style="font-family: helvetica;"><em><span style="font-size: small;">This list is a guide to help you determine the degree of perfectionism in yourself.  Check the statements that apply to you and click "Submit".</span></em></span></p>
+<table border="0" style="border: 0pt solid #000000;">
+<tbody>
+<tr>
+<td><span style="font-size: small; font-family: helvetica;"><img alt="check" height="13" id="q1" onclick="check(1)" src="Images/counseling-center/check.png" width="13" /></span></td>
+<td style="padding-left: 30px; padding-top: 10px; padding-bottom: 10px;"><span style="font-size: small; font-family: helvetica;">I place excessive demands on myself.</span></td>
+</tr>
+<tr>
+<td><span style="font-size: small; font-family: helvetica;"><img alt="check" height="13" id="q2" onclick="check(2)" src="Images/counseling-center/check.png" width="13" /></span></td>
+<td style="padding-left: 30px; padding-top: 10px; padding-bottom: 10px;"><span style="font-size: small; font-family: helvetica;">Others would describe me as a perfectionist.</span></td>
+</tr>
+<tr>
+<td><span style="font-size: small; font-family: helvetica;"><img alt="check" height="13" id="q3" onclick="check(3)" src="Images/counseling-center/check.png" width="13" /></span></td>
+<td style="padding-left: 30px; padding-top: 10px; padding-bottom: 10px;"><span style="font-size: small; font-family: helvetica;">I often obsess about the details of a task, even though it may not be important.</span></td>
+</tr>
+<tr>
+<td><span style="font-size: small; font-family: helvetica;"><img alt="check" height="13" id="q4" onclick="check(4)" src="Images/counseling-center/check.png" width="13" /></span></td>
+<td style="padding-left: 30px; padding-top: 10px; padding-bottom: 10px;"><span style="font-size: small; font-family: helvetica;">I am annoyed when others don't act or behave as well as I do (for example, being on time, keeping order, etc.)</span></td>
+</tr>
+<tr>
+<td><span style="font-size: small; font-family: helvetica;"><img alt="check" height="13" id="q5" onclick="check(5)" src="Images/counseling-center/check.png" width="13" /></span></td>
+<td style="padding-left: 30px; padding-top: 10px; padding-bottom: 10px;"><span style="font-size: small; font-family: helvetica;">I am very organized in one or more areas of my life.</span></td>
+</tr>
+<tr>
+<td><span style="font-size: small; font-family: helvetica;"><img alt="check" height="13" id="q6" onclick="check(6)" src="Images/counseling-center/check.png" width="13" /></span></td>
+<td style="padding-left: 30px; padding-top: 10px; padding-bottom: 10px;"><span style="font-size: small; font-family: helvetica;">I get very upset with myself if I make a mistake.</span></td>
+</tr>
+<tr>
+<td><span style="font-size: small; font-family: helvetica;"><img alt="check" height="13" id="q7" onclick="check(7)" src="Images/counseling-center/check.png" width="13" /></span></td>
+<td style="padding-left: 30px; padding-top: 10px; padding-bottom: 10px;"><span style="font-size: small; font-family: helvetica;">I often have a mental list of things I "should be doing".</span></td>
+</tr>
+<tr>
+<td><span style="font-size: small; font-family: helvetica;"><img alt="check" height="13" id="q8" onclick="check(8)" src="Images/counseling-center/check.png" width="13" /></span></td>
+<td style="padding-left: 30px; padding-top: 10px; padding-bottom: 10px;"><span style="font-size: small; font-family: helvetica;">I never seem to be doing enough.</span></td>
+</tr>
+<tr>
+<td><span style="font-size: small; font-family: helvetica;"><img alt="check" height="13" id="q9" onclick="check(9)" src="Images/counseling-center/check.png" width="13" /></span></td>
+<td style="padding-left: 30px; padding-top: 10px; padding-bottom: 10px;"><span style="font-size: small; font-family: helvetica;">I tend to notice error in myself or others before I notice the positive.</span></td>
+</tr>
+<tr>
+<td><span style="font-size: small; font-family: helvetica;"><img alt="check" height="13" id="q10" onclick="check(10)" src="Images/counseling-center/check.png" width="13" /></span></td>
+<td style="padding-left: 30px; padding-top: 10px; padding-bottom: 10px;"><span style="font-size: small; font-family: helvetica;">I have an "all or nothing" philosophy: If I can't do it all or do it well, why bother?</span></td>
+</tr>
+<tr>
+<td><span style="font-size: small; font-family: helvetica;"><img alt="check" height="13" id="q11" onclick="check(11)" src="Images/counseling-center/check.png" width="13" /></span></td>
+<td style="padding-left: 30px; padding-top: 10px; padding-bottom: 10px;"><span style="font-size: small; font-family: helvetica;">I am devastated by criticism.</span></td>
+</tr>
+<tr>
+<td><span style="font-size: small; font-family: helvetica;"><img alt="check" height="13" id="q12" onclick="check(12)" src="Images/counseling-center/check.png" width="13" /></span></td>
+<td style="padding-left: 30px; padding-top: 10px; padding-bottom: 10px;"><span style="font-size: small; font-family: helvetica;">I have difficulty making decisions.</span></td>
+</tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr>
+<td><span style="font-size: small; font-family: helvetica;"><input onclick="getAnswer()" style="margin-bottom: 20px;" type="button" value="Submit" /></span></td>
+<td style="padding-left: 30px;">
+<div id="score"></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>]]></BodyCopy><xPower Type="Component" Component="x24495" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x17637" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>

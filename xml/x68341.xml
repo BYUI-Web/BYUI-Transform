@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x68341" Name="Content" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Content</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Content</Abstract><xPower Type="GroupStart" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"/><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"/><NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow><NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex><NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP><Priority type="enumeration" label="Priority" readonly="false" hidden="true" required="false" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0">0.5</Priority></xPower><xPower Type="GroupStart" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false" GroupStart=""><HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle><Hideleftnavigation type="boolean" label="Hide left navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height=""><![CDATA[<style type="text/css"><!--
+.chkBx, .comp, .grpList, .image, .insert, .pgProp, .webEdit {display: block !important;}
+
+.column, .face, .highlinks, .imgfile, .mediafile, .quicklinks, .quote {display: block !important;}
+--></style>
+<link href="prebuilt/stylenew/css/training.css" media="screen, projection" rel="stylesheet" type="text/css" />
+<div id="training"><img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/list.png" width="20" />
+<h3><strong>Page Options</strong></h3>
+<div class="level1"><img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/check.png" width="20" />
+<p><strong>Hide Title: </strong><br />Enable to prevent the content in the "Title" text field from displaying at the top of the Content page.</p>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/check.png" width="20" />
+<p><strong>Hide left navigation: </strong><br />Enable to remove the left column from the Content  page.</p>
+</div>
+<br /> <img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/list.png" width="20" />
+<h3><strong>Related Images(s)</strong></h3>
+<div class="level1"><img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/image.png" width="20" />
+<p><strong>Image: </strong>Images declared here are ???</p>
+</div>
+<br /> <img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/edit.png" width="20" />
+<p><strong>Body Copy: </strong>The content placed here will fill in the main section of the Content  page.</p>
+<br /><img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/list.png" width="20" />
+<h3><strong>Page Components </strong></h3>
+<div class="level1"><img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/list.png" width="20" />
+<p class="cutMargin"><strong>Optional Column Component</strong></p>
+<div class="level2"><img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/component.png" width="20" />
+<p class="cutMargin"><strong>Optional: </strong> This input field allows you to insert content into the right column of the Content  page, using components. Compatible components available for this page are listed below:</p>
+<div class="level3">
+<div class="compatible">
+<p>Compatible CMS Pages</p>
+<ul>
+<li><a href="x36442.xml">Column Component</a> </li>
+<li><a href="x36438.xml">Facebook</a></li>
+<li><a href="x36437.xml">Quote</a> </li>
+</ul>
+<ul>
+<li><a href="x36424.xml">Image File</a> </li>
+<li><a href="x36430.xml">Media File</a> </li>
+</ul>
+</div>
+</div>
+</div>
+<br /><img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/component.png" width="20" />
+<p><strong>QuickLinks Column 1, 2 &amp; 3: </strong>Insert up to three <a href="x36436.xml">Quick Links Components</a> used to display up to three columns of links at the foot of the Content  page.</p>
+<span class="clear"> </span></div>
+<br /><img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/component.png" width="20" />
+<p><strong>Highlighted Links: </strong>Insert a <a href="x36423.xml">Highlighted Links Component</a> to list a set of links under the left navigation within the left column of the Content  page.</p>
+<img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/list.png" width="20" />
+<h3><strong>Insert</strong></h3>
+<div class="level1"><img class="icon" height="20" src="Images/Internal_Use/Ingeniux_Training/Icons/image.png" width="20" />
+<p><strong>InsertItems: </strong> This inserts external web pages below the page's main content. It would be best to use this feature to support content in the Content  page, not be the content.</p>
+</div>
+</div>]]></BodyCopy><xPower Type="GroupStart" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded=""><xPower Type="List" Name="OptionalColumnComponent" label="Optional Column Component" readonly="false" hidden="false" required="false" Expanded="" List=""><xpowercomponent_Optional Type="Component" Component="x36121" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/><xpowercomponent_Optional Type="Component" Component="x35847" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/><xpowercomponent_Optional Type="Component" Component="x36611" Name="Optional" readonly="false" hidden="false" required="false" CompTypes="Facebook;Image;ColumnTextComponent;Media;Quote" Expanded="false"/></xPower><xPower Type="Component" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/><xPower Type="Component" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" Component="" CompTypes="QuickLinksComponent"/></xPower><xPower Type="Component" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" Component="" CompTypes="HighlightedLinksComponent"/><xPower Type="List" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false"><xPower Type="Component" Name="ContentSnippet" readonly="false" hidden="false" required="false" Component="" CompTypes="ContentSnippet"/></xPower><xPower Type="Navigation" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" Navigation="Ancestors" GenerationOrder="down" StartPage="x5" MaxNodes="" MaxDepth="" Query=""/><xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="x14845" CompTypes="SiteControl"/></Content>
