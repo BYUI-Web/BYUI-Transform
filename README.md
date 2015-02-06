@@ -3,6 +3,7 @@ This application searches a specified directory for XML files of a specified sch
 
 ## Usage
 The application requires the following:
+
 1. Windows 7+
 2. The directory with the XML to transform must contain a folder named 'xsl-transforms' containing the XSLT files used for transforming.
 3. The XSLT files in the 'xsl-transforms' directory must have the same name as the root element of the schemas they transform (e.g. 'Content_wSideColumn.xslt').
