@@ -19,3 +19,8 @@ This folder contains the installation files for the application.
 
 ### xml
 This is a directory of XML files for testing the application.
+
+## Issues
+The current version contains the follwing issues:
+
+* If the folder containing the XML to transform does not contain a folder named 'xsl-transforms' with the specified XSLT file inside of it, an exception is thrown.
