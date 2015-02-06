@@ -8,6 +8,8 @@ The application requires the following:
 2. The directory with the XML to transform must contain a folder named 'xsl-transforms' containing the XSLT files used for transforming.
 3. The XSLT files in the 'xsl-transforms' directory must have the same name as the root element of the schemas they transform (e.g. 'Content_wSideColumn.xslt').
 
+Note that after the transforms have been applied backups of the previous file versions are created. These backups are in the same directory with '_Replaced' added to the end of the filename.
+
 ## Folder Overview
 A description of each folder in the repo is given bellow
 
