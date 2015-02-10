@@ -17,7 +17,7 @@
         <xsl:value-of select="Abstract"/>
       </Abstract>
 
-      <IsResponsive type="boolean" label="Mobile Ready (responsive)" readonly="false" hidden="false" required="false">true</IsResponsive>
+      <IsResponsive type="boolean" label="Mobile Ready (responsive)" readonly="false" hidden="false" required="false">false</IsResponsive>
 
       <!--if the page was new enough to have an SEOGroup section, just copy it. Else insert the default config.-->
       <xsl:if test="xPower[@Name='SEOGroup']">
