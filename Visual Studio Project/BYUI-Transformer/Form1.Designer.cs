@@ -37,6 +37,7 @@
             this.lbPagesToUpdate = new System.Windows.Forms.ListBox();
             this.pagesFound = new System.Windows.Forms.Label();
             this.stopSearch = new System.Windows.Forms.Button();
+            this.searchProgress = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
             // cmPageType
@@ -50,7 +51,7 @@
             // 
             // convertButton
             // 
-            this.convertButton.Location = new System.Drawing.Point(437, 298);
+            this.convertButton.Location = new System.Drawing.Point(437, 315);
             this.convertButton.Name = "convertButton";
             this.convertButton.Size = new System.Drawing.Size(75, 23);
             this.convertButton.TabIndex = 2;
@@ -99,18 +100,29 @@
             // 
             // stopSearch
             // 
-            this.stopSearch.Location = new System.Drawing.Point(356, 298);
+            this.stopSearch.Enabled = false;
+            this.stopSearch.Location = new System.Drawing.Point(360, 315);
             this.stopSearch.Name = "stopSearch";
             this.stopSearch.Size = new System.Drawing.Size(75, 23);
             this.stopSearch.TabIndex = 7;
             this.stopSearch.Text = "Stop Search";
             this.stopSearch.UseVisualStyleBackColor = true;
             // 
+            // searchProgress
+            // 
+            this.searchProgress.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.searchProgress.Location = new System.Drawing.Point(15, 286);
+            this.searchProgress.Name = "searchProgress";
+            this.searchProgress.Size = new System.Drawing.Size(497, 23);
+            this.searchProgress.TabIndex = 8;
+            this.searchProgress.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(524, 333);
+            this.ClientSize = new System.Drawing.Size(528, 352);
+            this.Controls.Add(this.searchProgress);
             this.Controls.Add(this.stopSearch);
             this.Controls.Add(this.pagesFound);
             this.Controls.Add(this.lbPagesToUpdate);
@@ -137,6 +149,7 @@
         private System.Windows.Forms.ListBox lbPagesToUpdate;
         private System.Windows.Forms.Label pagesFound;
         private System.Windows.Forms.Button stopSearch;
+        private System.Windows.Forms.ProgressBar searchProgress;
     }
 }
 

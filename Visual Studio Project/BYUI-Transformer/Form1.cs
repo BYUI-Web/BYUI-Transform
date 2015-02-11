@@ -24,6 +24,9 @@ namespace BYUI_Transformer
         //background worker for searching files
         BackgroundWorker worker = new BackgroundWorker();
 
+        //total number of files to search
+        private double numberOfFiles = 0;
+
         public Form1()
         {
             InitializeComponent();
@@ -65,6 +68,10 @@ namespace BYUI_Transformer
             worker.CancelAsync();
 
             pagesFound.Text = pagesFound.Text.Substring(0, pagesFound.Text.IndexOf("cli"));
+
+            searchProgress.Visible = false;
+
+            stopSearch.Enabled = false;
         }
 
         /// <summary>
@@ -123,10 +130,17 @@ namespace BYUI_Transformer
                 string file = openFileDialog1.FileName;
                 try
                 {
-                    //string text = File.ReadAllText(file);
+                    //enable the stop search button and progress bar
+                    stopSearch.Enabled = true;
+                    searchProgress.Visible = true;
+
+                    //get the selected path and set necessary variables
                     file = folderBrowserDialog1.SelectedPath;
                     directoryLabel.Text = file;
                     direcotryPath = file;
+
+                    //get the number of files to search
+                    numberOfFiles = Directory.GetFiles(file, "*", SearchOption.TopDirectoryOnly).Length;
 
                     //search the directory if a page type has been selected
                     if (cmPageType.SelectedIndex != 0)
@@ -262,7 +276,7 @@ namespace BYUI_Transformer
                 //update the count label every 100 iterations
                 if (loopCount % 100 == 0)
                 {
-                    bkgwk.ReportProgress(0, "Pages Found: " + pagesFound.Split('^').Count().ToString() + " click 'stop search' to stop search and view current results.");
+                    bkgwk.ReportProgress(0,pagesFound.Split('^').Count().ToString() + "^" + loopCount);
                 }
             }
 
@@ -282,10 +296,39 @@ namespace BYUI_Transformer
             if (e.ProgressPercentage == 1)
             {
                 lbPagesToUpdate.DataSource = new BindingList<String>(e.UserState.ToString().Split('^'));
+
+                //stop any threads and disable the stop search button
+                worker.CancelAsync();
+
+                try
+                {
+                    pagesFound.Text = pagesFound.Text.Substring(0, pagesFound.Text.IndexOf("cli"));
+                }
+                catch (Exception ex)
+                {
+                    //the text was already changed.
+                }
+
+                searchProgress.Visible = false;
+
+                stopSearch.Enabled = false;
             }
             else
             {
-                pagesFound.Text = e.UserState.ToString();
+                string numberFound = e.UserState.ToString().Substring(0, e.UserState.ToString().IndexOf('^'));
+                string loopCount = e.UserState.ToString().Substring(e.UserState.ToString().IndexOf('^') + 1);
+
+                pagesFound.Text = "Pages found: " + numberFound + " click 'stop search' to stop search and view current results.";
+
+                //update the progress bar
+                try
+                {
+                    searchProgress.Value = Convert.ToInt32(Convert.ToDouble(loopCount) / (double)numberOfFiles * 100);
+                }
+                catch (Exception ex)
+                {
+                    //do nothing
+                }
             }
         }
     }
