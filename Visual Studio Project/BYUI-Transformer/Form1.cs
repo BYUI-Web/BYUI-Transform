@@ -201,7 +201,7 @@ namespace BYUI_Transformer
         }
 
         /// <summary>
-        /// This function is executed when the seraach finishes.
+        /// This function is executed when the search finishes.
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
