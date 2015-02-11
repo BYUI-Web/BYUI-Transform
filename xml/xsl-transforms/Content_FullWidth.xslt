@@ -44,8 +44,8 @@
 
       <!--default page options values-->
       <xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false">
-        <HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle>
-        <Hideleftnavigation type="boolean" label="Hide Navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation>
+        <HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">true</HideTitle>
+        <Hideleftnavigation type="boolean" label="Hide Navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation>
       </xPower>
 
       <!--custom body copy-->

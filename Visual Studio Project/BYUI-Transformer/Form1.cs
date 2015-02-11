@@ -34,12 +34,13 @@ namespace BYUI_Transformer
             //register the  button on click events
             convertButton.Click += new EventHandler(this.convertButton_Click);
             btChooseDirectory.Click += new EventHandler(this.btChooseDirectory_Click);
-            
+
 
             //add the available pages
             //Please note that the string added to the list must match the root element name of the page type exactly
             availablePages.Add("Select a Page Type");
             availablePages.Add("Content_wSideColumn");
+            availablePages.Add("Content_FullWidth");
 
             //bind the list to the multi select
             cmPageType.DataSource = availablePages;
@@ -48,7 +49,7 @@ namespace BYUI_Transformer
             worker.DoWork += new DoWorkEventHandler(worker_DoWork);
             worker.RunWorkerCompleted += new RunWorkerCompletedEventHandler(worker_RunWorkerCompleted);
             worker.WorkerReportsProgress = true;
-            worker.ProgressChanged += new ProgressChangedEventHandler (worker_ProgressChanged);
+            worker.ProgressChanged += new ProgressChangedEventHandler(worker_ProgressChanged);
             worker.WorkerSupportsCancellation = true;
 
             stopSearch.Click += new EventHandler(stopSearch_Click);
@@ -67,7 +68,7 @@ namespace BYUI_Transformer
         }
 
         /// <summary>
-        /// If the page type is changed and a direcotry has been selected, enable path button
+        /// If the page type is changed and a directory has been selected, enable path button
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -90,11 +91,14 @@ namespace BYUI_Transformer
 
         private void convertButton_Click(object sender, EventArgs e)
         {
+            //stop any search threads that were running
+            worker.CancelAsync();
+
             var selectedCount = lbPagesToUpdate.SelectedItems.Count;
 
             if (selectedCount > 0)
             {
-                DialogResult dialogResult = MessageBox.Show("Are you sure you want to transorm " + selectedCount + " pages?" , "Transform?", MessageBoxButtons.YesNo);
+                DialogResult dialogResult = MessageBox.Show("Are you sure you want to transform " + selectedCount + " pages?", "Transform?", MessageBoxButtons.YesNo);
                 if (dialogResult == DialogResult.Yes)
                 {
                     transformSelected();
@@ -109,7 +113,7 @@ namespace BYUI_Transformer
         /// <param name="e"></param>
         private void btChooseDirectory_Click(object sender, EventArgs e)
         {
-            //stop any search threads that werer running
+            //stop any search threads that were running
             worker.CancelAsync();
 
             // Show the dialog and get result.
@@ -123,11 +127,14 @@ namespace BYUI_Transformer
                     file = folderBrowserDialog1.SelectedPath;
                     directoryLabel.Text = file;
                     direcotryPath = file;
-        
+
                     //search the directory if a page type has been selected
                     if (cmPageType.SelectedIndex != 0)
                     {
-                        worker.RunWorkerAsync(cmPageType.SelectedItem.ToString());  
+                        //stop any search threads that were running
+                        worker.CancelAsync();
+
+                        worker.RunWorkerAsync(cmPageType.SelectedItem.ToString());
                     }
                     else
                     {
@@ -186,7 +193,7 @@ namespace BYUI_Transformer
         /// <param name="e"></param>
         void worker_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
-            
+
         }
 
         /// <summary>
@@ -211,38 +218,46 @@ namespace BYUI_Transformer
                 {
                     break;
                 }
-                
-                loopCount++; 
+
+                loopCount++;
                 int counter = 0;
                 string line;
 
                 // Read the file and display it line by line.
-                System.IO.StreamReader currentFile = new System.IO.StreamReader(file);
-                while (counter <= 3)
+                try
                 {
-                    line = currentFile.ReadLine();
+                    System.IO.StreamReader currentFile = new System.IO.StreamReader(file);
 
-                    //if there was a line to read
-                    if (line != null)
+                    while (counter <= 3)
                     {
-                        //check if contains the page type
-                        if (line.Contains(pageMatch) && !file.Contains("_Replaced"))
+                        line = currentFile.ReadLine();
+
+                        //if there was a line to read
+                        if (line != null)
                         {
-                            //if page type was found, add it to the list of files
-                            pagesFound += "^" + file;
+                            //check if contains the page type
+                            if (line.Contains(pageMatch) && !file.Contains("_Replaced"))
+                            {
+                                //if page type was found, add it to the list of files
+                                pagesFound += "^" + file;
+                                break;
+                            }
+                        }
+                        else
+                        {
+                            //if no more lines, break out of while loop early
                             break;
                         }
-                    }
-                    else
-                    {
-                        //if no more lines, break out of while loop early
-                        break;
+
+                        counter++;
                     }
 
-                    counter++;
+                    currentFile.Close();
                 }
-               
-                currentFile.Close();
+                catch(IOException ex)
+                {
+                    Console.Write(ex);
+                }
 
                 //update the count label every 100 iterations
                 if (loopCount % 100 == 0)
@@ -259,7 +274,7 @@ namespace BYUI_Transformer
         /// Updates the UI with the current number of pages matching the criteria found. When the search finishes,
         /// this method sends back all the files found with the matching page type.
         /// </summary>
-        /// <param name="sender">Background Workder</param>
+        /// <param name="sender">Background Worker</param>
         /// <param name="e"></param>
         private void worker_ProgressChanged(object sender, ProgressChangedEventArgs e)
         {
