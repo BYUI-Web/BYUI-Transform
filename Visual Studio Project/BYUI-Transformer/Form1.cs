@@ -193,7 +193,7 @@ namespace BYUI_Transformer
 
                     MessageBox.Show("Finished Transformation.");
                 }
-                catch (FileNotFoundException e)
+                catch (DirectoryNotFoundException e)
                 {
                     MessageBox.Show("Error: could not find the XSL transform. Please make sure " + direcotryPath + "\\xsl-transforms\\" + cmPageType.SelectedItem + ".xsl exists.");
                 }
