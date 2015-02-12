@@ -38,12 +38,12 @@ namespace BYUI_Transformer
             convertButton.Click += new EventHandler(this.convertButton_Click);
             btChooseDirectory.Click += new EventHandler(this.btChooseDirectory_Click);
 
-
             //add the available pages
             //Please note that the string added to the list must match the root element name of the page type exactly
             availablePages.Add("Select a Page Type");
             availablePages.Add("Content_wSideColumn");
             availablePages.Add("Content_FullWidth");
+            availablePages.Add("CustomPageWithReturn");
 
             //bind the list to the multi select
             cmPageType.DataSource = availablePages;
