@@ -5,9 +5,10 @@
   <xsl:output method="xml" indent="yes"/>
   <xsl:template match="CustomPageWithReturn">
     <xsl:variable select="@ID" name="xid"></xsl:variable>
+    <xsl:variable select="@Name" name="name"></xsl:variable>
 
     <!--*** Ingeniux CMS 8.0.143 - http://www.ingeniux.com ***-->
-    <Content ID="{$xid}" Name="Content Page" Layout="byuidefault.xsl" IsComponent="false">
+    <Content ID="{$xid}" Name="{$name}" Layout="byuidefault.xsl" IsComponent="false">
       <Title type="string" label="Title" readonly="false" hidden="false" required="true">
         <xsl:value-of select="Title"/>
       </Title>

@@ -187,8 +187,6 @@ namespace BYUI_Transformer
                         //move the file
                         if (File.Exists(fileName))
                         {
-
-
                             File.Replace(fileName, page.ToString(), page.ToString() + "_Replaced", true);
                         }
                     }

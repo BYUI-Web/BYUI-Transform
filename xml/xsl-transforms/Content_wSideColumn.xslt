@@ -6,8 +6,10 @@
 
   <xsl:template match="Content_wSideColumn">
     <xsl:variable select="@ID" name="xid"></xsl:variable>
+    <xsl:variable select="@Name" name="name"></xsl:variable>
+    
     <!--*** Ingeniux CMS 8.0.143 - http://www.ingeniux.com ***-->
-    <Content ID="{$xid}" Name="Content" Layout="byuidefault.xsl" IsComponent="false">
+    <Content ID="{$xid}" Name="{$name}" Layout="byuidefault.xsl" IsComponent="false">
 
       <Title type="string" label="Title" readonly="false" hidden="false" required="true">
         <xsl:value-of select="Title"/>
