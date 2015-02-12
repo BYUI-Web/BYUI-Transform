@@ -16,9 +16,6 @@ A description of each folder in the repo is given bellow
 ### Visual Studio Project
 This folder contains source code of the application and visual studio project files.
 
-### Published Application
-This folder contains the installation files for the application.
-
 ### xml
 This is a directory of XML files for testing the application.
 
