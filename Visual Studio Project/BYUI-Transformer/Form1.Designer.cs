@@ -38,6 +38,7 @@
             this.pagesFound = new System.Windows.Forms.Label();
             this.stopSearch = new System.Windows.Forms.Button();
             this.searchProgress = new System.Windows.Forms.ProgressBar();
+            this.btSingle = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // cmPageType
@@ -76,7 +77,7 @@
             this.btChooseDirectory.Enabled = false;
             this.btChooseDirectory.Location = new System.Drawing.Point(14, 65);
             this.btChooseDirectory.Name = "btChooseDirectory";
-            this.btChooseDirectory.Size = new System.Drawing.Size(75, 23);
+            this.btChooseDirectory.Size = new System.Drawing.Size(103, 23);
             this.btChooseDirectory.TabIndex = 4;
             this.btChooseDirectory.Text = "Choose...";
             this.btChooseDirectory.UseVisualStyleBackColor = true;
@@ -117,11 +118,21 @@
             this.searchProgress.TabIndex = 8;
             this.searchProgress.Visible = false;
             // 
+            // btSingle
+            // 
+            this.btSingle.Location = new System.Drawing.Point(120, 65);
+            this.btSingle.Name = "btSingle";
+            this.btSingle.Size = new System.Drawing.Size(103, 23);
+            this.btSingle.TabIndex = 9;
+            this.btSingle.Text = "Single Transform";
+            this.btSingle.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(528, 352);
+            this.Controls.Add(this.btSingle);
             this.Controls.Add(this.searchProgress);
             this.Controls.Add(this.stopSearch);
             this.Controls.Add(this.pagesFound);
@@ -150,6 +161,7 @@
         private System.Windows.Forms.Label pagesFound;
         private System.Windows.Forms.Button stopSearch;
         private System.Windows.Forms.ProgressBar searchProgress;
+        private System.Windows.Forms.Button btSingle;
     }
 }
 
