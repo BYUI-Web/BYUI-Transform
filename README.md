@@ -1,5 +1,5 @@
 # BYU-I Page Type Transformer
-This application searches a specified directory for XML files of a specified schema. After this search the users are able to select all or some of the pages found and apply an XSL transform to them. This application was specificaly built for transforming outdated Ingeniux pages to more current schemas.
+This application searches a specified directory of XML files for pages of a specified schema. After this search the user is able to select all or some of the pages found and apply an XSL transform to them. This application was specificaly built for transforming outdated Ingeniux pages to more current schemas.
 
 ## Usage
 The application requires the following:
@@ -22,7 +22,3 @@ This folder contains the installation files for the application.
 ### xml
 This is a directory of XML files for testing the application.
 
-## Issues
-The current version contains the follwing issues:
-
-* If the folder containing the XML to transform does not contain a folder named 'xsl-transforms' with the specified XSLT file inside of it, an exception is thrown.
