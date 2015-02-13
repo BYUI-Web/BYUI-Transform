@@ -44,6 +44,7 @@ namespace BYUI_Transformer
             availablePages.Add("Content_wSideColumn");
             availablePages.Add("Content_FullWidth");
             availablePages.Add("CustomPageWithReturn");
+            availablePages.Add("Content ID^ADCArticle");
 
             //bind the list to the multi select
             cmPageType.DataSource = availablePages;
@@ -193,7 +194,7 @@ namespace BYUI_Transformer
 
                     MessageBox.Show("Finished Transformation.");
                 }
-                catch (DirectoryNotFoundException e)
+                catch (IOException e)
                 {
                     MessageBox.Show("Error: could not find the XSL transform. Please make sure " + direcotryPath + "\\xsl-transforms\\" + cmPageType.SelectedItem + ".xsl exists.");
                 }
@@ -223,6 +224,12 @@ namespace BYUI_Transformer
             //files to update
             String pagesFound = "";
             String pageMatch = (String)e.Argument;
+
+            //if the name of the transform is not the name of the page to search for
+            if (pageMatch.Contains('^'))
+            {
+                pageMatch = pageMatch.Substring(0, pageMatch.IndexOf('^'));
+            }
 
             //for every file in the directory
             int loopCount = 0;

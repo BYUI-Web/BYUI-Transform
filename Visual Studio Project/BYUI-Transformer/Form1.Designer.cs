@@ -55,7 +55,7 @@
             this.convertButton.Name = "convertButton";
             this.convertButton.Size = new System.Drawing.Size(75, 23);
             this.convertButton.TabIndex = 2;
-            this.convertButton.Text = "Convert";
+            this.convertButton.Text = "Transform";
             this.convertButton.UseVisualStyleBackColor = true;
             // 
             // openFileDialog1
