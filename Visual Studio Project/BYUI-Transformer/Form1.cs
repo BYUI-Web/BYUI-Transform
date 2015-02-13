@@ -73,6 +73,7 @@ namespace BYUI_Transformer
             searchProgress.Visible = false;
 
             stopSearch.Enabled = false;
+            convertButton.Enabled = true;
         }
 
         /// <summary>
@@ -132,6 +133,7 @@ namespace BYUI_Transformer
                 try
                 {
                     //enable the stop search button and progress bar
+                    convertButton.Enabled = false;
                     stopSearch.Enabled = true;
                     searchProgress.Visible = true;
 
@@ -316,9 +318,10 @@ namespace BYUI_Transformer
                     //the text was already changed.
                 }
 
+                //enable/disable the proper buttons
                 searchProgress.Visible = false;
-
                 stopSearch.Enabled = false;
+                convertButton.Enabled = true;
             }
             else
             {
