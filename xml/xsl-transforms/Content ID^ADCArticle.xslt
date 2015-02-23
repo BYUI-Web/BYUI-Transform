@@ -1,11 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-  xmlns:msxsl="urn:schemas-microsoft-com:xslt" exclude-result-prefixes="msxsl">
+    xmlns:msxsl="urn:schemas-microsoft-com:xslt" exclude-result-prefixes="msxsl">
   <xsl:output method="xml" indent="yes"/>
-  
+ 
   <!--*** Ingeniux CMS 8.0.143 - http://www.ingeniux.com ***-->
   <xsl:template match="Content">
-    <xsl:apply-templates select="@*|node()"/>
     <xsl:variable select="@ID" name="xid"></xsl:variable>
     <AcademicDiscoveryCenterArticle ID="{$xid}" Name="{@Name}" IsComponent="false" Layout="byuidefault.xsl">
       <Title type="string" label="Title" readonly="false" hidden="false" required="true">
@@ -59,11 +58,4 @@
       <xPower Type="Component" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" Component="{xPower[@Name='SiteControl']/@Component}" CompTypes="SiteControl" Expanded="false"/>
     </AcademicDiscoveryCenterArticle>
   </xsl:template>
-
-  <xsl:template match="@* | node()">
-    <xsl:copy>
-      <xsl:apply-templates select="@* | node()"/>
-    </xsl:copy>
-  </xsl:template>
-
 </xsl:stylesheet>
