@@ -4,6 +4,7 @@
 >
   <xsl:output method="xml" indent="yes"/>
   <xsl:template match="CustomPageWithReturn">
+    <xsl:apply-templates select="@*|node()"/>
     <xsl:variable select="@ID" name="xid"></xsl:variable>
     <xsl:variable select="@Name" name="name"></xsl:variable>
 
@@ -76,5 +77,11 @@
       <xPower Type="Component" Component="{xPower[@Name='SiteControl']/@Component}" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/>
     </Content>
 
+  </xsl:template>
+
+  <xsl:template match="@* | node()">
+    <xsl:copy>
+      <xsl:apply-templates select="@* | node()"/>
+    </xsl:copy>
   </xsl:template>
 </xsl:stylesheet>
