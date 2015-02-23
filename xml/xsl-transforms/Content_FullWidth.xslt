@@ -4,7 +4,6 @@
 >
   <xsl:output method="xml" indent="yes"/>
   <xsl:template match="Content_FullWidth">
-    <xsl:apply-templates select="@*|node()"/>
     <xsl:variable select="@ID" name="xid"></xsl:variable>
     <xsl:variable select="@Name" name="name"></xsl:variable>
 
@@ -78,11 +77,4 @@
     </Content>
 
   </xsl:template>
-
-  <xsl:template match="@* | node()">
-    <xsl:copy>
-      <xsl:apply-templates select="@* | node()"/>
-    </xsl:copy>
-  </xsl:template>
-
 </xsl:stylesheet>
