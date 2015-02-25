@@ -343,5 +343,20 @@ namespace BYUI_Transformer
                 }
             }
         }
+
+        private void helpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void aboutToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This application searches the specified directory for XML documents of the specified page type. \n\nFor more information see https://github.com/westonkd/BYUI-Transform.\n", "About BYU-I Transformer", MessageBoxButtons.OK);
+        }
     }
 }

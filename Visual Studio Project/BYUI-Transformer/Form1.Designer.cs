@@ -38,12 +38,18 @@
             this.pagesFound = new System.Windows.Forms.Label();
             this.stopSearch = new System.Windows.Forms.Button();
             this.searchProgress = new System.Windows.Forms.ProgressBar();
+            this.menu = new System.Windows.Forms.MenuStrip();
+            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.helpToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu.SuspendLayout();
             this.SuspendLayout();
             // 
             // cmPageType
             // 
             this.cmPageType.FormattingEnabled = true;
-            this.cmPageType.Location = new System.Drawing.Point(14, 12);
+            this.cmPageType.Location = new System.Drawing.Point(14, 29);
             this.cmPageType.Name = "cmPageType";
             this.cmPageType.Size = new System.Drawing.Size(498, 21);
             this.cmPageType.TabIndex = 0;
@@ -65,7 +71,7 @@
             // directoryLabel
             // 
             this.directoryLabel.AutoSize = true;
-            this.directoryLabel.Location = new System.Drawing.Point(12, 49);
+            this.directoryLabel.Location = new System.Drawing.Point(12, 63);
             this.directoryLabel.Name = "directoryLabel";
             this.directoryLabel.Size = new System.Drawing.Size(107, 13);
             this.directoryLabel.TabIndex = 3;
@@ -74,7 +80,7 @@
             // btChooseDirectory
             // 
             this.btChooseDirectory.Enabled = false;
-            this.btChooseDirectory.Location = new System.Drawing.Point(14, 65);
+            this.btChooseDirectory.Location = new System.Drawing.Point(14, 79);
             this.btChooseDirectory.Name = "btChooseDirectory";
             this.btChooseDirectory.Size = new System.Drawing.Size(75, 23);
             this.btChooseDirectory.TabIndex = 4;
@@ -117,6 +123,49 @@
             this.searchProgress.TabIndex = 8;
             this.searchProgress.Visible = false;
             // 
+            // menu
+            // 
+            this.menu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.helpToolStripMenuItem,
+            this.helpToolStripMenuItem1});
+            this.menu.Location = new System.Drawing.Point(0, 0);
+            this.menu.Name = "menu";
+            this.menu.Size = new System.Drawing.Size(528, 24);
+            this.menu.TabIndex = 9;
+            this.menu.Text = "menuStrip1";
+            // 
+            // helpToolStripMenuItem
+            // 
+            this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aboutToolStripMenuItem});
+            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.helpToolStripMenuItem.Text = "File";
+            this.helpToolStripMenuItem.Click += new System.EventHandler(this.helpToolStripMenuItem_Click);
+            // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.aboutToolStripMenuItem.Text = "Quit";
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
+            // 
+            // helpToolStripMenuItem1
+            // 
+            this.helpToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aboutToolStripMenuItem1});
+            this.helpToolStripMenuItem1.Name = "helpToolStripMenuItem1";
+            this.helpToolStripMenuItem1.Size = new System.Drawing.Size(44, 20);
+            this.helpToolStripMenuItem1.Text = "Help";
+            // 
+            // aboutToolStripMenuItem1
+            // 
+            this.aboutToolStripMenuItem1.Name = "aboutToolStripMenuItem1";
+            this.aboutToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.aboutToolStripMenuItem1.Text = "About";
+            this.aboutToolStripMenuItem1.Click += new System.EventHandler(this.aboutToolStripMenuItem1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -130,9 +179,13 @@
             this.Controls.Add(this.directoryLabel);
             this.Controls.Add(this.convertButton);
             this.Controls.Add(this.cmPageType);
+            this.Controls.Add(this.menu);
+            this.MainMenuStrip = this.menu;
             this.Name = "Form1";
             this.Text = "BYUI Page Converter";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.menu.ResumeLayout(false);
+            this.menu.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -150,6 +203,11 @@
         private System.Windows.Forms.Label pagesFound;
         private System.Windows.Forms.Button stopSearch;
         private System.Windows.Forms.ProgressBar searchProgress;
+        private System.Windows.Forms.MenuStrip menu;
+        private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem1;
     }
 }
 
