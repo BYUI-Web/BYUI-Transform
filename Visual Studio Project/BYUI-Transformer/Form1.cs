@@ -44,7 +44,7 @@ namespace BYUI_Transformer
             availablePages.Add("Content_wSideColumn");
             availablePages.Add("Content_FullWidth");
             availablePages.Add("CustomPageWithReturn");
-            availablePages.Add("Content ID^ADCArticle");
+            //availablePages.Add("Content ID^ADCArticle");
 
             //bind the list to the multi select
             cmPageType.DataSource = availablePages;
@@ -91,6 +91,8 @@ namespace BYUI_Transformer
             {
                 btChooseDirectory.Enabled = false;
             }
+
+            lbPagesToUpdate.DataSource = new BindingList<String>();
         }
 
         private void Form1_Load(object sender, EventArgs e)
