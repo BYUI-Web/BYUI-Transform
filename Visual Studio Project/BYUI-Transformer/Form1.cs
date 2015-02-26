@@ -72,8 +72,10 @@ namespace BYUI_Transformer
 
             searchProgress.Visible = false;
 
+            //enable the correct elements
             stopSearch.Enabled = false;
             convertButton.Enabled = true;
+            cmPageType.Enabled = true;
         }
 
         /// <summary>
@@ -92,7 +94,7 @@ namespace BYUI_Transformer
                 btChooseDirectory.Enabled = false;
             }
 
-            lbPagesToUpdate.DataSource = new BindingList<String>();
+            lbPagesToUpdate.DataSource = null;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -134,6 +136,9 @@ namespace BYUI_Transformer
                 string file = openFileDialog1.FileName;
                 try
                 {
+                    //disable the page selection box
+                    cmPageType.Enabled = false;
+
                     //enable the stop search button and progress bar
                     convertButton.Enabled = false;
                     stopSearch.Enabled = true;
@@ -324,6 +329,7 @@ namespace BYUI_Transformer
                 searchProgress.Visible = false;
                 stopSearch.Enabled = false;
                 convertButton.Enabled = true;
+                cmPageType.Enabled = true;
             }
             else
             {

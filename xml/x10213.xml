@@ -1,7 +1,38 @@
-<?xml version="1.0"?>
-<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
-<Content_wSideColumn ID="x10213" Name="Graphic Design" Layout="byuidefault.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Graphic Design</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Graphic Design</Abstract><xPower Type="GroupStart" GroupStart="" Name="SideColumn" label="L/R Column" readonly="false" hidden="false" required="false" Expanded="false"><MoveLeft type="boolean" label="Toggle column right or left (right is default)" readonly="false" hidden="false" required="false">false</MoveLeft><xPower Type="Component" Component="" Name="ImageComponent" label="Image Component" readonly="false" hidden="false" required="false" CompTypes="LeftColumnImageComponent"/><xPower Type="Component" Component="" Name="TextComponent" label="Text Component" readonly="false" hidden="false" required="false" CompTypes="ColumnTextComponent"/></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<img alt="Graphic Design" height="241" src="Images/Admin_Offices/university_communications/Our Services/Graphic1.jpg" title="Graphic Design" width="650" />
-<style><!--
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x10213" Name="Graphic Design" Layout="byuidefault.xsl" IsComponent="false">
+  <Title type="string" label="Title" readonly="false" hidden="false" required="true">Graphic Design</Title>
+  <Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Graphic Design</Abstract>
+  <IsResponsive type="boolean" label="Mobile Ready (responsive)" readonly="false" hidden="false" required="false">false</IsResponsive>
+  <xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false">
+    <BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false" />
+    <MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false" />
+    <NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow>
+    <NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex>
+    <NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP>
+    <Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority>
+  </xPower>
+  <xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false">
+    <BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false" />
+    <MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false" />
+    <NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow>
+    <NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex>
+    <NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP>
+    <Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority>
+  </xPower>
+  <xPower Type="GroupStart" GroupStart="" Name="SocialMedia" label="Social Media" readonly="false" hidden="false" required="false" Expanded="false">
+    <SocialTitle type="string" label="Title" readonly="false" hidden="false" required="false" />
+    <SocialDescription type="string" label="Description" readonly="false" hidden="false" required="false" />
+    <SocialImage type="imagefile" label="Image" readonly="false" hidden="false" required="false" Expanded="false" Width="" Height="" Border="" HSpace="" VSpace="" Alignment="" />
+    <SocialVideo type="mediafile" label="Video" readonly="false" hidden="false" required="false" Expanded="false" />
+    <SocialAudio type="string" label="Audio" readonly="false" hidden="false" required="false" />
+    <SocialSeeAlso type="string" label="See Also" readonly="false" hidden="false" required="false" />
+  </xPower>
+  <xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false">
+    <HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle>
+    <Hideleftnavigation type="boolean" label="Hide Navigation" readonly="false" hidden="false" required="false">false</Hideleftnavigation>
+  </xPower>
+  <BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height="">&lt;img alt="Graphic Design" height="241" src="Images/Admin_Offices/university_communications/Our Services/Graphic1.jpg" title="Graphic Design" width="650" /&gt;
+&lt;style&gt;&lt;!--
 #recent-work{
 	margin-left: 15px;
 	display: block;
@@ -67,23 +98,39 @@
         margin-top: 10px;
         margin-left: 15px;
 }
---></style>
-<div id="recent-work">
-<h2>recent work</h2>
-<div class="article" onclick="location.href=''">
-<div class="image"><img alt="place-holder 1" height="66" src="Images/university-communications/place-holders/Library-01.jpg" width="60" /></div>
-<div class="article-body">
-<h3>David O. McKay Library Campain</h3>
-<p>The Graphic Design team has played a huge role in helping rebrand the David O. McKay Library. As a result of their efforts new traffic has been driven to the library and the website.</p>
-<span class="readMore"><a href="x43847.xml">read more &gt;&gt;</a></span></div>
-</div>
-<div class="article" onclick="location.href=''">
-<div class="image"><img alt="place holder 2" height="61" src="Images/university-communications/place-holders/LegacyHall-01.jpg" width="60" /></div>
-<div class="article-body">
-<h3>Legacy Hall</h3>
-<p>This project in the Manwaring Center displays the prophetic direction here at BYU-Idaho. It shows the history and making of this great univeristy over the past couple decades.</p>
-<span class="readMore"><a href="x43940.xml">read more &gt;&gt;</a></span></div>
-</div>
-<div class="article" onclick="location.href=''"></div>
-</div>
-<div id="ads"><a><img alt="place holder 3" height="168" src="Images/university-communications/place-holders/place-holder-4.jpg" width="168" /></a> <a><img alt="place holder 5" height="168" src="Images/university-communications/place-holders/place-holder-5.jpg" width="168" /></a></div>]]></BodyCopy><xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false"/><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x10072" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></Content_wSideColumn>
+--&gt;&lt;/style&gt;
+&lt;div id="recent-work"&gt;
+&lt;h2&gt;recent work&lt;/h2&gt;
+&lt;div class="article" onclick="location.href=''"&gt;
+&lt;div class="image"&gt;&lt;img alt="place-holder 1" height="66" src="Images/university-communications/place-holders/Library-01.jpg" width="60" /&gt;&lt;/div&gt;
+&lt;div class="article-body"&gt;
+&lt;h3&gt;David O. McKay Library Campain&lt;/h3&gt;
+&lt;p&gt;The Graphic Design team has played a huge role in helping rebrand the David O. McKay Library. As a result of their efforts new traffic has been driven to the library and the website.&lt;/p&gt;
+&lt;span class="readMore"&gt;&lt;a href="x43847.xml"&gt;read more &amp;gt;&amp;gt;&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="article" onclick="location.href=''"&gt;
+&lt;div class="image"&gt;&lt;img alt="place holder 2" height="61" src="Images/university-communications/place-holders/LegacyHall-01.jpg" width="60" /&gt;&lt;/div&gt;
+&lt;div class="article-body"&gt;
+&lt;h3&gt;Legacy Hall&lt;/h3&gt;
+&lt;p&gt;This project in the Manwaring Center displays the prophetic direction here at BYU-Idaho. It shows the history and making of this great univeristy over the past couple decades.&lt;/p&gt;
+&lt;span class="readMore"&gt;&lt;a href="x43940.xml"&gt;read more &amp;gt;&amp;gt;&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="article" onclick="location.href=''"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="ads"&gt;&lt;a&gt;&lt;img alt="place holder 3" height="168" src="Images/university-communications/place-holders/place-holder-4.jpg" width="168" /&gt;&lt;/a&gt; &lt;a&gt;&lt;img alt="place holder 5" height="168" src="Images/university-communications/place-holders/place-holder-5.jpg" width="168" /&gt;&lt;/a&gt;&lt;/div&gt;</BodyCopy>
+  <xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="true">
+    <xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="true" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote;LeftColumnImageComponent">
+      <xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="true" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote;LeftColumnImageComponent" />
+      <xPower Type="Component" Component="" Name="Optional" readonly="false" hidden="false" required="false" Expanded="true" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote;LeftColumnImageComponent" />
+    </xPower>
+    <xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false" />
+    <xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false" />
+    <xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false" />
+  </xPower>
+  <xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false" />
+  <xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="ContentSnippet">
+    <xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet" />
+  </xPower>
+  <xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" />
+  <xPower Type="Component" Component="x10072" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false" />
+</Content>
