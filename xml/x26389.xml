@@ -1,31 +1,75 @@
-<?xml version="1.0"?>
-<!--*** Ingeniux CMS 7.0.70 - http://www.ingeniux.com ***-->
-<CustomPageWithReturn ID="x26389" Name="2011 May Students Present at APS Conference" Layout="general_content.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Students Present at APS Conference</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Students Present at APS Conference May 26, 2011, in Washington D.C.; </Abstract><xPower Type="GroupStart" GroupStart="" Name="LeftNavGroup" label="Left Nav Return" readonly="false" hidden="false" required="false" Expanded="false"><ParentName type="string" label="Parent Name" readonly="false" hidden="false" required="false"></ParentName><xPower Type="Link" Link="x10260" Name="Link" label="Link" readonly="false" hidden="false" required="true" LinkText="" Target="" Expanded="false"/></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<div style="text-align: center;"><span style="font-size: medium;"><strong>NEWS &amp; NOTES; UNIVER SITY NEWS BRIEF                 M a y 2 6 , 2 0 1 1</strong></span></div>
-<p style="text-align: center;"><span style="font-size: medium;"><strong>Students present at international conference</strong></span></p>
-<p>Four students from the Department of Psychology were invited to present their research ar the Association of Psychological Science (APS) conference held in Washington, D.C., May 25-29. Universities from around the world gather for this conference, including students and professors from Italy, Germany, Egypt, and Switzerland. Additionally, prestigious schools from across the nation are represented at the five-day conference such as Princeton, Stanford, and Yale.  By attending this conference, the students will have the opportunity to network with many large companies, including a few of the representatives from the conference sponsors: McGraw-Hill, the National Cancer Institute, and Pearson.</p>
-<table align="center" border="0" cellpadding="1" style="width: 755px; height: 160px;">
-<tbody>
-<tr align="center" valign="top">
-<td align="center" valign="top">
-<h6 style="text-align: center;"><img alt="APS" height="125" src="Images/psychology/Student Research/DSCF1471r.JPG" width="164" /> Yohan Delton, Travis Bowers<br /> Matt Nearents, Kayla Green</h6>
-</td>
-<td align="center" valign="top">
-<h6 style="text-align: center;"><img height="131" src="Images/psychology/Student Research/DSCF1459r.JPG" width="176" /><br /> Alex North, Arwen Berends,<br />Kayla Green</h6>
-</td>
-<td align="center" valign="top">
-<p><img height="135" src="Images/psychology/Student Research/DSCF1479r.JPG" style="display: block; margin-left: auto; margin-right: auto;" width="180" /></p>
-</td>
-<td align="center" valign="middle">
-<h6 style="text-align: center;"><img height="133" src="Images/psychology/Student Research/DSCF1478r.JPG" width="184" /> Yohan Delton, Arwen Berands, <br /> Travis Bowers, Matt Nearents</h6>
-</td>
-</tr>
-</tbody>
-</table>
-<p> </p>
-<p> </p>
-<p> </p>
-<div><br />
-<p> </p>
-<p> </p>
-<p> </p>
-</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x1848" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></CustomPageWithReturn>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x26389" Name="2011 May Students Present at APS Conference" Layout="byuidefault.xsl" IsComponent="false">
+  <Title type="string" label="Title" readonly="false" hidden="false" required="true">Students Present at APS Conference</Title>
+  <Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Students Present at APS Conference May 26, 2011, in Washington D.C.; </Abstract>
+  <IsResponsive type="boolean" label="Mobile Ready (responsive)" readonly="false" hidden="false" required="false">false</IsResponsive>
+  <xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false">
+    <BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false" />
+    <MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false" />
+    <NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow>
+    <NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex>
+    <NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP>
+    <Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority>
+  </xPower>
+  <xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false">
+    <BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false" />
+    <MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false" />
+    <NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow>
+    <NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex>
+    <NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP>
+    <Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority>
+  </xPower>
+  <xPower Type="GroupStart" GroupStart="" Name="SocialMedia" label="Social Media" readonly="false" hidden="false" required="false" Expanded="false">
+    <SocialTitle type="string" label="Title" readonly="false" hidden="false" required="false" />
+    <SocialDescription type="string" label="Description" readonly="false" hidden="false" required="false" />
+    <SocialImage type="imagefile" label="Image" readonly="false" hidden="false" required="false" Expanded="false" Width="" Height="" Border="" HSpace="" VSpace="" Alignment="" />
+    <SocialVideo type="mediafile" label="Video" readonly="false" hidden="false" required="false" Expanded="false" />
+    <SocialAudio type="string" label="Audio" readonly="false" hidden="false" required="false" />
+    <SocialSeeAlso type="string" label="See Also" readonly="false" hidden="false" required="false" />
+  </xPower>
+  <xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false">
+    <HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle>
+    <Hideleftnavigation type="boolean" label="Hide Navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation>
+  </xPower>
+  <BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height="">&lt;div style="text-align: center;"&gt;&lt;span style="font-size: medium;"&gt;&lt;strong&gt;NEWS &amp;amp; NOTES; UNIVER SITY NEWS BRIEF                 M a y 2 6 , 2 0 1 1&lt;/strong&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;p style="text-align: center;"&gt;&lt;span style="font-size: medium;"&gt;&lt;strong&gt;Students present at international conference&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Four students from the Department of Psychology were invited to present their research ar the Association of Psychological Science (APS) conference held in Washington, D.C., May 25-29. Universities from around the world gather for this conference, including students and professors from Italy, Germany, Egypt, and Switzerland. Additionally, prestigious schools from across the nation are represented at the five-day conference such as Princeton, Stanford, and Yale.  By attending this conference, the students will have the opportunity to network with many large companies, including a few of the representatives from the conference sponsors: McGraw-Hill, the National Cancer Institute, and Pearson.&lt;/p&gt;
+&lt;table align="center" border="0" cellpadding="1" style="width: 755px; height: 160px;"&gt;
+&lt;tbody&gt;
+&lt;tr align="center" valign="top"&gt;
+&lt;td align="center" valign="top"&gt;
+&lt;h6 style="text-align: center;"&gt;&lt;img alt="APS" height="125" src="Images/psychology/Student Research/DSCF1471r.JPG" width="164" /&gt; Yohan Delton, Travis Bowers&lt;br /&gt; Matt Nearents, Kayla Green&lt;/h6&gt;
+&lt;/td&gt;
+&lt;td align="center" valign="top"&gt;
+&lt;h6 style="text-align: center;"&gt;&lt;img height="131" src="Images/psychology/Student Research/DSCF1459r.JPG" width="176" /&gt;&lt;br /&gt; Alex North, Arwen Berends,&lt;br /&gt;Kayla Green&lt;/h6&gt;
+&lt;/td&gt;
+&lt;td align="center" valign="top"&gt;
+&lt;p&gt;&lt;img height="135" src="Images/psychology/Student Research/DSCF1479r.JPG" style="display: block; margin-left: auto; margin-right: auto;" width="180" /&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td align="center" valign="middle"&gt;
+&lt;h6 style="text-align: center;"&gt;&lt;img height="133" src="Images/psychology/Student Research/DSCF1478r.JPG" width="184" /&gt; Yohan Delton, Arwen Berands, &lt;br /&gt; Travis Bowers, Matt Nearents&lt;/h6&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;div&gt;&lt;br /&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;/div&gt;</BodyCopy>
+  <xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="true">
+    <xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="true" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote;LeftColumnImageComponent" />
+    <xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false" />
+    <xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false" />
+    <xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false" />
+  </xPower>
+  <xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false" />
+  <xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="ContentSnippet">
+    <xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet" />
+  </xPower>
+  <xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" />
+  <xPower Type="Component" Component="x1848" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false" />
+</Content>

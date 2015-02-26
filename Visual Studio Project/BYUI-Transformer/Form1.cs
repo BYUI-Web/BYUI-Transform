@@ -117,6 +117,9 @@ namespace BYUI_Transformer
                     transformSelected();
                 }
             }
+
+            //clear the list
+            lbPagesToUpdate.DataSource = null;
         }
 
         /// <summary>

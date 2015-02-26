@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
+<CustomPageWithReturn ID="x21568" Name="Bottom Right Menu" Layout="general_content.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Bottom Right Menu</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Bottom Right Menu</Abstract><xPower Type="GroupStart" GroupStart="" Name="LeftNavGroup" label="Left Nav Return" readonly="false" hidden="false" required="false" Expanded="true"><ParentName type="string" label="Parent Name" readonly="false" hidden="false" required="false">UC</ParentName><xPower Type="Link" Link="x10057" Name="Link" label="Link" readonly="false" hidden="false" required="true" LinkText="" Target="" Expanded="false" URL=""/></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<script type="text/javascript">
+$(document).ready(function(){
+var positionOne = $('#slide-menu').width();
+	var pathname = window.location.pathname;
+	$('#GlobalNavigation').after('<div id="slide-menu" ><ul><li id="search-menu">Search</li><li id="chat-menu">Ask BYU-I</li><li id="feedback-menu">Feedback</li></ul></div>');
+$('#search-menu').click(function(){
+$('#slide-menu').prepend('<div class="pop-up" id="searchpop"><h2><a>Search</a></h2></div>');
+});
+$('#searchpop h2 a').click(function(){
+$(this).parent().remove();
+alert('here');
+});
+});
+</script>
+<link href="PreBuilt/css_v2/pagetype_groups/colorbox.css" rel="stylesheet" type="text/css" />
+<style><!--
+#slide-menu{
+position: fixed;
+right: 0;
+bottom: 0;
+text-transform: uppercase;
+z-index: 9999;
+background-color: white;
+width: auto;
+height: auto;
+display: block
+}
+#slide-menu ul {
+
+}
+#slide-menu ul li{
+float: left;
+list-style-type: none;
+width: auto;
+display: block;
+font-size: 20px;
+padding: 5px;
+border-top: solid black 1px;
+border-bottom: solid black 1px;
+height: inherit;
+cursor: pointer;
+}
+.pop-up{
+height: 200px;
+width: 200px;
+border: solid 2px black;
+display: block;
+background: white;
+}
+.pop-up h2{
+width: 100%;
+height: 20px;
+font-size: 15px;
+display: block;
+background: black;
+color: white;
+}
+#searchpop{
+position: absolute;
+bottom: 34px;
+}
+--></style>
+<meta />
+<span style="font-family: Arial, Helvetica, sans; font-size: 11px;">
+<div id="lipsum" style="font-size: 11px; font-family: Arial, Helvetica, sans; text-align: justify; margin: 0px;">
+<p style="text-align: justify; font-size: 11px; line-height: 14px; margin-top: 0px; margin-right: 0px; margin-bottom: 14px; margin-left: 0px; padding: 0px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie neque justo. Cras tempor sapien vel mi consectetur quis consequat nulla mollis. Aliquam egestas iaculis est, in vulputate ante tristique in. Morbi ut ante enim. In hac habitasse platea dictumst. Sed gravida nisi eu felis euismod aliquam. Suspendisse potenti. Duis id tellus elit. In consectetur egestas nunc a auctor. Nulla ut nunc neque, id vehicula neque. Phasellus tincidunt interdum ullamcorper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut pharetra nibh sed sapien mattis fermentum sed ut erat.</p>
+<p style="text-align: justify; font-size: 11px; line-height: 14px; margin-top: 0px; margin-right: 0px; margin-bottom: 14px; margin-left: 0px; padding: 0px;">Sed vehicula molestie viverra. Etiam viverra nulla at lectus eleifend vel ultricies metus auctor. Maecenas eget felis vel nulla convallis blandit ac at diam. Praesent tincidunt, arcu quis placerat scelerisque, felis dolor tincidunt elit, ac facilisis nisi justo non libero. Phasellus eget cursus nisi. Fusce mauris nisi, cursus nec bibendum ac, bibendum nec lacus. Phasellus pellentesque velit vitae nunc varius vehicula. Pellentesque aliquet turpis vel dui rhoncus at interdum nunc pellentesque. Quisque vestibulum sagittis pellentesque. Fusce tempor, lacus vitae adipiscing molestie, erat justo tincidunt tortor, ac pellentesque orci nunc sit amet ipsum. Etiam ullamcorper consectetur sem, condimentum viverra quam lobortis at. Duis vel volutpat magna.</p>
+<p style="text-align: justify; font-size: 11px; line-height: 14px; margin-top: 0px; margin-right: 0px; margin-bottom: 14px; margin-left: 0px; padding: 0px;">Vestibulum in lacus eu orci sagittis lacinia nec eu nisi. Fusce sodales magna accumsan ante tincidunt bibendum. Phasellus sit amet justo turpis, sit amet rutrum orci. Aenean ornare erat nisl. Mauris sed purus sapien. Nullam eros lacus, laoreet et molestie a, aliquam eget tortor. Vestibulum tempus placerat eros, at malesuada diam malesuada non. Sed est libero, egestas non adipiscing eget, bibendum sit amet massa. Aenean eu purus eget quam tincidunt feugiat nec sed orci. Suspendisse potenti. Suspendisse fermentum semper nulla sed ultricies. Praesent sollicitudin diam volutpat lectus congue hendrerit. Aliquam porta pretium nisl, ac luctus libero ultricies sed. Aenean sit amet nibh molestie justo rutrum egestas. Donec commodo consequat sapien id aliquam. Vivamus sagittis tellus id lectus pellentesque mattis. Morbi facilisis sem non mi ultricies ornare.</p>
+<p style="text-align: justify; font-size: 11px; line-height: 14px; margin-top: 0px; margin-right: 0px; margin-bottom: 14px; margin-left: 0px; padding: 0px;">Cras lacus sapien, tincidunt vitae aliquet at, ultricies eget lacus. Quisque at aliquam erat. Quisque in mattis lacus. Nam quis ipsum et eros commodo eleifend. Fusce non imperdiet sapien. Nulla facilisi. Fusce posuere risus ac dui porttitor hendrerit. Maecenas vestibulum posuere quam, a faucibus neque sagittis non. Sed leo felis, rutrum sit amet pretium sed, fringilla eget arcu. Nunc adipiscing libero pulvinar sapien malesuada et pretium justo blandit. Proin sit amet mi quis quam eleifend cursus. Aliquam faucibus sem id nibh auctor in mollis erat porttitor. Sed velit augue, cursus ut placerat ac, dictum nec magna. Nunc at consectetur enim. Sed dolor eros, semper ac volutpat eu, tempus a lorem. Sed mollis sollicitudin lectus at pharetra.</p>
+<p style="text-align: justify; font-size: 11px; line-height: 14px; margin-top: 0px; margin-right: 0px; margin-bottom: 14px; margin-left: 0px; padding: 0px;">Vestibulum arcu nisi, aliquet a lacinia vitae, malesuada porta tellus. Nullam feugiat, risus molestie eleifend tempus, arcu nibh fringilla metus, non tincidunt erat turpis vel enim. Sed vehicula orci orci. Curabitur malesuada pharetra turpis, vitae imperdiet tortor porttitor a. Cras malesuada arcu sed nibh tempus tristique. Quisque sed mi urna. Curabitur elementum pulvinar placerat. Fusce orci odio, imperdiet at sollicitudin eget, ullamcorper et purus. Vestibulum pulvinar lectus a mi porta lacinia. Fusce sem quam, tristique in varius non, tempus a nibh. Fusce mollis justo vitae tortor euismod at imperdiet metus fermentum. Vestibulum sit amet dolor nulla, a molestie nisi. Nulla non est neque, et venenatis nisi. Aenean nibh odio, condimentum eget rhoncus id, dictum non orci. Nullam condimentum placerat orci. Etiam vitae lectus purus, eget consectetur augue. Sed ultrices lacus eu sapien ullamcorper blandit. Vivamus mollis nisl fermentum lacus convallis sollicitudin.</p>
+<p style="text-align: justify; font-size: 11px; line-height: 14px; margin-top: 0px; margin-right: 0px; margin-bottom: 14px; margin-left: 0px; padding: 0px;">
+<meta />
+<span style="font-family: Arial, Helvetica, sans; font-size: 11px;">&nbsp;</span></p>
+<div id="lipsum" style="font-size: 11px; font-family: Arial, Helvetica, sans; text-align: justify; margin: 0px;">
+<p style="text-align: justify; font-size: 11px; line-height: 14px; margin-top: 0px; margin-right: 0px; margin-bottom: 14px; margin-left: 0px; padding: 0px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie neque justo. Cras tempor sapien vel mi consectetur quis consequat nulla mollis. Aliquam egestas iaculis est, in vulputate ante tristique in. Morbi ut ante enim. In hac habitasse platea dictumst. Sed gravida nisi eu felis euismod aliquam. Suspendisse potenti. Duis id tellus elit. In consectetur egestas nunc a auctor. Nulla ut nunc neque, id vehicula neque. Phasellus tincidunt interdum ullamcorper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut pharetra nibh sed sapien mattis fermentum sed ut erat.</p>
+<p style="text-align: justify; font-size: 11px; line-height: 14px; margin-top: 0px; margin-right: 0px; margin-bottom: 14px; margin-left: 0px; padding: 0px;">Sed vehicula molestie viverra. Etiam viverra nulla at lectus eleifend vel ultricies metus auctor. Maecenas eget felis vel nulla convallis blandit ac at diam. Praesent tincidunt, arcu quis placerat scelerisque, felis dolor tincidunt elit, ac facilisis nisi justo non libero. Phasellus eget cursus nisi. Fusce mauris nisi, cursus nec bibendum ac, bibendum nec lacus. Phasellus pellentesque velit vitae nunc varius vehicula. Pellentesque aliquet turpis vel dui rhoncus at interdum nunc pellentesque. Quisque vestibulum sagittis pellentesque. Fusce tempor, lacus vitae adipiscing molestie, erat justo tincidunt tortor, ac pellentesque orci nunc sit amet ipsum. Etiam ullamcorper consectetur sem, condimentum viverra quam lobortis at. Duis vel volutpat magna.</p>
+<p style="text-align: justify; font-size: 11px; line-height: 14px; margin-top: 0px; margin-right: 0px; margin-bottom: 14px; margin-left: 0px; padding: 0px;">Vestibulum in lacus eu orci sagittis lacinia nec eu nisi. Fusce sodales magna accumsan ante tincidunt bibendum. Phasellus sit amet justo turpis, sit amet rutrum orci. Aenean ornare erat nisl. Mauris sed purus sapien. Nullam eros lacus, laoreet et molestie a, aliquam eget tortor. Vestibulum tempus placerat eros, at malesuada diam malesuada non. Sed est libero, egestas non adipiscing eget, bibendum sit amet massa. Aenean eu purus eget quam tincidunt feugiat nec sed orci. Suspendisse potenti. Suspendisse fermentum semper nulla sed ultricies. Praesent sollicitudin diam volutpat lectus congue hendrerit. Aliquam porta pretium nisl, ac luctus libero ultricies sed. Aenean sit amet nibh molestie justo rutrum egestas. Donec commodo consequat sapien id aliquam. Vivamus sagittis tellus id lectus pellentesque mattis. Morbi facilisis sem non mi ultricies ornare.</p>
+<p style="text-align: justify; font-size: 11px; line-height: 14px; margin-top: 0px; margin-right: 0px; margin-bottom: 14px; margin-left: 0px; padding: 0px;">Cras lacus sapien, tincidunt vitae aliquet at, ultricies eget lacus. Quisque at aliquam erat. Quisque in mattis lacus. Nam quis ipsum et eros commodo eleifend. Fusce non imperdiet sapien. Nulla facilisi. Fusce posuere risus ac dui porttitor hendrerit. Maecenas vestibulum posuere quam, a faucibus neque sagittis non. Sed leo felis, rutrum sit amet pretium sed, fringilla eget arcu. Nunc adipiscing libero pulvinar sapien malesuada et pretium justo blandit. Proin sit amet mi quis quam eleifend cursus. Aliquam faucibus sem id nibh auctor in mollis erat porttitor. Sed velit augue, cursus ut placerat ac, dictum nec magna. Nunc at consectetur enim. Sed dolor eros, semper ac volutpat eu, tempus a lorem. Sed mollis sollicitudin lectus at pharetra.</p>
+<p style="text-align: justify; font-size: 11px; line-height: 14px; margin-top: 0px; margin-right: 0px; margin-bottom: 14px; margin-left: 0px; padding: 0px;">Vestibulum arcu nisi, aliquet a lacinia vitae, malesuada porta tellus. Nullam feugiat, risus molestie eleifend tempus, arcu nibh fringilla metus, non tincidunt erat turpis vel enim. Sed vehicula orci orci. Curabitur malesuada pharetra turpis, vitae imperdiet tortor porttitor a. Cras malesuada arcu sed nibh tempus tristique. Quisque sed mi urna. Curabitur elementum pulvinar placerat. Fusce orci odio, imperdiet at sollicitudin eget, ullamcorper et purus. Vestibulum pulvinar lectus a mi porta lacinia. Fusce sem quam, tristique in varius non, tempus a nibh. Fusce mollis justo vitae tortor euismod at imperdiet metus fermentum. Vestibulum sit amet dolor nulla, a molestie nisi. Nulla non est neque, et venenatis nisi. Aenean nibh odio, condimentum eget rhoncus id, dictum non orci. Nullam condimentum placerat orci. Etiam vitae lectus purus, eget consectetur augue. Sed ultrices lacus eu sapien ullamcorper blandit. Vivamus mollis nisl fermentum lacus convallis sollicitudin.</p>
+<div></div>
+</div>
+<p>
+<meta />
+<span style="font-family: Arial, Helvetica, sans; font-size: 11px;">&nbsp;</span></p>
+<div id="lipsum" style="font-size: 11px; font-family: Arial, Helvetica, sans; text-align: justify; margin: 0px;">
+<p style="text-align: justify; font-size: 11px; line-height: 14px; margin-top: 0px; margin-right: 0px; margin-bottom: 14px; margin-left: 0px; padding: 0px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam molestie neque justo. Cras tempor sapien vel mi consectetur quis consequat nulla mollis. Aliquam egestas iaculis est, in vulputate ante tristique in. Morbi ut ante enim. In hac habitasse platea dictumst. Sed gravida nisi eu felis euismod aliquam. Suspendisse potenti. Duis id tellus elit. In consectetur egestas nunc a auctor. Nulla ut nunc neque, id vehicula neque. Phasellus tincidunt interdum ullamcorper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut pharetra nibh sed sapien mattis fermentum sed ut erat.</p>
+<p style="text-align: justify; font-size: 11px; line-height: 14px; margin-top: 0px; margin-right: 0px; margin-bottom: 14px; margin-left: 0px; padding: 0px;">Sed vehicula molestie viverra. Etiam viverra nulla at lectus eleifend vel ultricies metus auctor. Maecenas eget felis vel nulla convallis blandit ac at diam. Praesent tincidunt, arcu quis placerat scelerisque, felis dolor tincidunt elit, ac facilisis nisi justo non libero. Phasellus eget cursus nisi. Fusce mauris nisi, cursus nec bibendum ac, bibendum nec lacus. Phasellus pellentesque velit vitae nunc varius vehicula. Pellentesque aliquet turpis vel dui rhoncus at interdum nunc pellentesque. Quisque vestibulum sagittis pellentesque. Fusce tempor, lacus vitae adipiscing molestie, erat justo tincidunt tortor, ac pellentesque orci nunc sit amet ipsum. Etiam ullamcorper consectetur sem, condimentum viverra quam lobortis at. Duis vel volutpat magna.</p>
+<p style="text-align: justify; font-size: 11px; line-height: 14px; margin-top: 0px; margin-right: 0px; margin-bottom: 14px; margin-left: 0px; padding: 0px;">Vestibulum in lacus eu orci sagittis lacinia nec eu nisi. Fusce sodales magna accumsan ante tincidunt bibendum. Phasellus sit amet justo turpis, sit amet rutrum orci. Aenean ornare erat nisl. Mauris sed purus sapien. Nullam eros lacus, laoreet et molestie a, aliquam eget tortor. Vestibulum tempus placerat eros, at malesuada diam malesuada non. Sed est libero, egestas non adipiscing eget, bibendum sit amet massa. Aenean eu purus eget quam tincidunt feugiat nec sed orci. Suspendisse potenti. Suspendisse fermentum semper nulla sed ultricies. Praesent sollicitudin diam volutpat lectus congue hendrerit. Aliquam porta pretium nisl, ac luctus libero ultricies sed. Aenean sit amet nibh molestie justo rutrum egestas. Donec commodo consequat sapien id aliquam. Vivamus sagittis tellus id lectus pellentesque mattis. Morbi facilisis sem non mi ultricies ornare.</p>
+<p style="text-align: justify; font-size: 11px; line-height: 14px; margin-top: 0px; margin-right: 0px; margin-bottom: 14px; margin-left: 0px; padding: 0px;">Cras lacus sapien, tincidunt vitae aliquet at, ultricies eget lacus. Quisque at aliquam erat. Quisque in mattis lacus. Nam quis ipsum et eros commodo eleifend. Fusce non imperdiet sapien. Nulla facilisi. Fusce posuere risus ac dui porttitor hendrerit. Maecenas vestibulum posuere quam, a faucibus neque sagittis non. Sed leo felis, rutrum sit amet pretium sed, fringilla eget arcu. Nunc adipiscing libero pulvinar sapien malesuada et pretium justo blandit. Proin sit amet mi quis quam eleifend cursus. Aliquam faucibus sem id nibh auctor in mollis erat porttitor. Sed velit augue, cursus ut placerat ac, dictum nec magna. Nunc at consectetur enim. Sed dolor eros, semper ac volutpat eu, tempus a lorem. Sed mollis sollicitudin lectus at pharetra.</p>
+<p style="text-align: justify; font-size: 11px; line-height: 14px; margin-top: 0px; margin-right: 0px; margin-bottom: 14px; margin-left: 0px; padding: 0px;">Vestibulum arcu nisi, aliquet a lacinia vitae, malesuada porta tellus. Nullam feugiat, risus molestie eleifend tempus, arcu nibh fringilla metus, non tincidunt erat turpis vel enim. Sed vehicula orci orci. Curabitur malesuada pharetra turpis, vitae imperdiet tortor porttitor a. Cras malesuada arcu sed nibh tempus tristique. Quisque sed mi urna. Curabitur elementum pulvinar placerat. Fusce orci odio, imperdiet at sollicitudin eget, ullamcorper et purus. Vestibulum pulvinar lectus a mi porta lacinia. Fusce sem quam, tristique in varius non, tempus a nibh. Fusce mollis justo vitae tortor euismod at imperdiet metus fermentum. Vestibulum sit amet dolor nulla, a molestie nisi. Nulla non est neque, et venenatis nisi. Aenean nibh odio, condimentum eget rhoncus id, dictum non orci. Nullam condimentum placerat orci. Etiam vitae lectus purus, eget consectetur augue. Sed ultrices lacus eu sapien ullamcorper blandit. Vivamus mollis nisl fermentum lacus convallis sollicitudin.</p>
+<div></div>
+</div>
+<div id="hidden"></div>
+</div>
+</span>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x10072" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></CustomPageWithReturn>

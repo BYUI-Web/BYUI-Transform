@@ -1,20 +1,64 @@
-<?xml version="1.0"?>
-<!--*** Ingeniux CMS 7.0.33 - http://www.ingeniux.com ***-->
-<CustomPageWithReturn ID="x20974" Name="MeldrumInterview" Layout="general_content.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">BYU-Idaho Concurrent Enrollment</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">BYU-Idaho announces new online concurrent enrollment program</Abstract><xPower Type="GroupStart" GroupStart="" Name="LeftNavGroup" label="Left Nav Return" readonly="false" hidden="false" required="false" Expanded="true"><ParentName type="string" label="Parent Name" readonly="false" hidden="false" required="false">Concurrent Enrollment</ParentName><xPower Type="Link" Link="x17611" Name="Link" label="Link" readonly="false" hidden="false" required="true" LinkText="" Target="" Expanded="false" URL=""/></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<div>
-<p>http://www.byuiconnect.com/s/1085/07-idaho/index.aspx?sid=1085&amp;gid=4&amp;pgid=252&amp;cid=6934&amp;ecid=6934&amp;crid=0&amp;calpgid=1639&amp;calcid=4280</p>
-<div id="myEventWatcherDiv" style="display: none;"></div>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<h1 style="text-align: center;">Content is placed here</h1>
-<p style="text-align: center;">This can be any compatible content (html, javascript, flash, etc.). It has to be confined to the width of the body. The height will expand.</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x17147" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></CustomPageWithReturn>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x20974" Name="MeldrumInterview" Layout="byuidefault.xsl" IsComponent="false">
+  <Title type="string" label="Title" readonly="false" hidden="false" required="true">BYU-Idaho Concurrent Enrollment</Title>
+  <Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">BYU-Idaho announces new online concurrent enrollment program</Abstract>
+  <IsResponsive type="boolean" label="Mobile Ready (responsive)" readonly="false" hidden="false" required="false">false</IsResponsive>
+  <xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false">
+    <BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false" />
+    <MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false" />
+    <NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow>
+    <NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex>
+    <NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP>
+    <Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority>
+  </xPower>
+  <xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false">
+    <BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false" />
+    <MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false" />
+    <NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow>
+    <NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex>
+    <NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP>
+    <Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority>
+  </xPower>
+  <xPower Type="GroupStart" GroupStart="" Name="SocialMedia" label="Social Media" readonly="false" hidden="false" required="false" Expanded="false">
+    <SocialTitle type="string" label="Title" readonly="false" hidden="false" required="false" />
+    <SocialDescription type="string" label="Description" readonly="false" hidden="false" required="false" />
+    <SocialImage type="imagefile" label="Image" readonly="false" hidden="false" required="false" Expanded="false" Width="" Height="" Border="" HSpace="" VSpace="" Alignment="" />
+    <SocialVideo type="mediafile" label="Video" readonly="false" hidden="false" required="false" Expanded="false" />
+    <SocialAudio type="string" label="Audio" readonly="false" hidden="false" required="false" />
+    <SocialSeeAlso type="string" label="See Also" readonly="false" hidden="false" required="false" />
+  </xPower>
+  <xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false">
+    <HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle>
+    <Hideleftnavigation type="boolean" label="Hide Navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation>
+  </xPower>
+  <BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height="">&lt;div&gt;
+&lt;p&gt;http://www.byuiconnect.com/s/1085/07-idaho/index.aspx?sid=1085&amp;amp;gid=4&amp;amp;pgid=252&amp;amp;cid=6934&amp;amp;ecid=6934&amp;amp;crid=0&amp;amp;calpgid=1639&amp;amp;calcid=4280&lt;/p&gt;
+&lt;div id="myEventWatcherDiv" style="display: none;"&gt;&lt;/div&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h1 style="text-align: center;"&gt;Content is placed here&lt;/h1&gt;
+&lt;p style="text-align: center;"&gt;This can be any compatible content (html, javascript, flash, etc.). It has to be confined to the width of the body. The height will expand.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/div&gt;</BodyCopy>
+  <xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="true">
+    <xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="true" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote;LeftColumnImageComponent" />
+    <xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false" />
+    <xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false" />
+    <xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false" />
+  </xPower>
+  <xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false" />
+  <xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="ContentSnippet">
+    <xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet" />
+  </xPower>
+  <xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" />
+  <xPower Type="Component" Component="x17147" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false" />
+</Content>

@@ -1,29 +1,73 @@
-<?xml version="1.0"?>
-<!--*** Ingeniux CMS 7.0.70 - http://www.ingeniux.com ***-->
-<CustomPageWithReturn ID="x26261" Name="Drug Court Evaluator" Layout="general_content.xsl"><Title type="string" label="Title" readonly="false" hidden="false" required="true">Drug Court Evaluator</Title><Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Drug Court Evaluator information and requirements</Abstract><xPower Type="GroupStart" GroupStart="" Name="LeftNavGroup" label="Left Nav Return" readonly="false" hidden="false" required="false" Expanded="false"><ParentName type="string" label="Parent Name" readonly="false" hidden="false" required="false"></ParentName><xPower Type="Link" Link="x10260" Name="Link" label="Link" readonly="false" hidden="false" required="true" LinkText="" Target="" Expanded="false"/></xPower><BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false"><![CDATA[<span style="font-family: arial,helvetica,sans-serif; font-size: small;">Students selected for this internship will be directly involved in  the evaluation of drug courts for the Seventh Judicial District.  Interns will  evaluate treatment staff members, judges, and drug court  participants.</span>
-<div>
-<p align="left"><span style="font-size: small;">What is the Drug Court Program:</span></p>
-<ul>
-<li> Drug Courts are an innovative approach in dealing with the impact of drugs and  drug related crimes on our community.  Drug Courts are an alternative approach  in which drug offenders are placed into community based treatment programs  instead of going to jail.</li>
-</ul>
-<ul>
-<li> Judges, attorneys, law enforcement officials and treatment professionals work  collaboratively as a team to move repeating drug offenders out of the criminal  justice system and aid them in living productive and drug/alcohol free lives.</li>
-</ul>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content ID="x26261" Name="Drug Court Evaluator" Layout="byuidefault.xsl" IsComponent="false">
+  <Title type="string" label="Title" readonly="false" hidden="false" required="true">Drug Court Evaluator</Title>
+  <Abstract type="string" label="Abstract" readonly="false" hidden="false" required="true">Drug Court Evaluator information and requirements</Abstract>
+  <IsResponsive type="boolean" label="Mobile Ready (responsive)" readonly="false" hidden="false" required="false">false</IsResponsive>
+  <xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false">
+    <BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false" />
+    <MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false" />
+    <NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow>
+    <NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex>
+    <NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP>
+    <Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority>
+  </xPower>
+  <xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false">
+    <BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false" />
+    <MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false" />
+    <NoFollow type="boolean" label="No Follow" readonly="false" hidden="true" required="false">false</NoFollow>
+    <NoIndex type="boolean" label="No Index" readonly="false" hidden="true" required="false">false</NoIndex>
+    <NoODP type="boolean" label="No ODP" readonly="false" hidden="true" required="false">false</NoODP>
+    <Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority>
+  </xPower>
+  <xPower Type="GroupStart" GroupStart="" Name="SocialMedia" label="Social Media" readonly="false" hidden="false" required="false" Expanded="false">
+    <SocialTitle type="string" label="Title" readonly="false" hidden="false" required="false" />
+    <SocialDescription type="string" label="Description" readonly="false" hidden="false" required="false" />
+    <SocialImage type="imagefile" label="Image" readonly="false" hidden="false" required="false" Expanded="false" Width="" Height="" Border="" HSpace="" VSpace="" Alignment="" />
+    <SocialVideo type="mediafile" label="Video" readonly="false" hidden="false" required="false" Expanded="false" />
+    <SocialAudio type="string" label="Audio" readonly="false" hidden="false" required="false" />
+    <SocialSeeAlso type="string" label="See Also" readonly="false" hidden="false" required="false" />
+  </xPower>
+  <xPower Type="GroupStart" GroupStart="" Name="PageOptions" label="Page Options" readonly="false" hidden="false" required="false" Expanded="false">
+    <HideTitle type="boolean" label="Hide Title" readonly="false" hidden="false" required="false">false</HideTitle>
+    <Hideleftnavigation type="boolean" label="Hide Navigation" readonly="false" hidden="false" required="false">true</Hideleftnavigation>
+  </xPower>
+  <BodyCopy type="dhtml" label="Body Copy" readonly="false" hidden="false" required="false" Height="">&lt;span style="font-family: arial,helvetica,sans-serif; font-size: small;"&gt;Students selected for this internship will be directly involved in  the evaluation of drug courts for the Seventh Judicial District.  Interns will  evaluate treatment staff members, judges, and drug court  participants.&lt;/span&gt;
+&lt;div&gt;
+&lt;p align="left"&gt;&lt;span style="font-size: small;"&gt;What is the Drug Court Program:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt; Drug Courts are an innovative approach in dealing with the impact of drugs and  drug related crimes on our community.  Drug Courts are an alternative approach  in which drug offenders are placed into community based treatment programs  instead of going to jail.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt; Judges, attorneys, law enforcement officials and treatment professionals work  collaboratively as a team to move repeating drug offenders out of the criminal  justice system and aid them in living productive and drug/alcohol free lives.&lt;/li&gt;
+&lt;/ul&gt;
 Interns will need to have a flexible schedule and be able to  travel from Driggs to Blackfoot.  The evaluations will occur at different times  during the day on different days of the week.  Excellent observation skills,  writing skills and interviewing skills are essential.
-<p>Description of Internship Duties:</p>
-<ul>
-<li>Attend the various drug courts </li>
-<li>Administer questionnaires to the drug court participants </li>
-<li>Do a courtroom evaluation of each drug court attended </li>
-<li>Write up the various reports for submission to the drug court coordinators </li>
-<li>Data entry of the various drug court sites </li>
-<li>Attend group counseling sessions </li>
-</ul>
-<p align="left">Contact:  Dr. Samuel Clay<br />Limit:  2-3 interns per semester</p>
-<p> </p>
-<p align="left"> </p>
-<p align="left"> </p>
-<p align="left"> </p>
-<br />
-<p> </p>
-</div>]]></BodyCopy><xPower Type="GroupStart" GroupStart="" Name="SEOGroup" label="SEO Group" readonly="false" hidden="false" required="false" Expanded="false"><BrowserBarTitle type="string" label="Browser Bar Title" readonly="false" hidden="false" required="false"></BrowserBarTitle><MetaDescription type="string" label="Meta Description" readonly="false" hidden="false" required="false"></MetaDescription><NoFollow type="boolean" hidden="true" label="No Follow" readonly="false" required="false">false</NoFollow><NoIndex type="boolean" hidden="true" label="No Index" readonly="false" required="false">false</NoIndex><NoODP type="boolean" hidden="true" label="No ODP" readonly="false" required="false">false</NoODP><Priority type="enumeration" values="0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0" label="Priority" readonly="false" hidden="true" required="false">0.5</Priority></xPower><xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false"/><xPower Type="Component" Component="x1848" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false"/></CustomPageWithReturn>
+&lt;p&gt;Description of Internship Duties:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Attend the various drug courts &lt;/li&gt;
+&lt;li&gt;Administer questionnaires to the drug court participants &lt;/li&gt;
+&lt;li&gt;Do a courtroom evaluation of each drug court attended &lt;/li&gt;
+&lt;li&gt;Write up the various reports for submission to the drug court coordinators &lt;/li&gt;
+&lt;li&gt;Data entry of the various drug court sites &lt;/li&gt;
+&lt;li&gt;Attend group counseling sessions &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p align="left"&gt;Contact:  Dr. Samuel Clay&lt;br /&gt;Limit:  2-3 interns per semester&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p align="left"&gt; &lt;/p&gt;
+&lt;p align="left"&gt; &lt;/p&gt;
+&lt;p align="left"&gt; &lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;/div&gt;</BodyCopy>
+  <xPower Type="GroupStart" GroupStart="" Name="PageComponents" label="Page Components" readonly="false" hidden="false" required="false" Expanded="true">
+    <xPower Type="List" List="xpowercomponent_Optional" Name="OptionalColumnComponent" label="Optional Column Components" readonly="false" hidden="false" required="false" Expanded="true" Component="" CompTypes="FacebookComponent;Image;ColumnTextComponent;Media;Quote;LeftColumnImageComponent" />
+    <xPower Type="Component" Component="" Name="QuickLinksColumn1" label="QuickLinks Column 1" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false" />
+    <xPower Type="Component" Component="" Name="QuickLinksColumn2" label="QuickLinks Column 2" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false" />
+    <xPower Type="Component" Component="" Name="QuickLinksColumn3" label="QuickLinks Column 3" readonly="false" hidden="false" required="false" CompTypes="QuickLinksComponent" Expanded="false" />
+  </xPower>
+  <xPower Type="Component" Component="" Name="HighlightedLinks" label="Highlighted Links" readonly="false" hidden="false" required="false" CompTypes="HighlightedLinksComponent" Expanded="false" />
+  <xPower Type="List" List="xpowercomponent_ContentSnippet" Name="ContentSnippet" label="Content Snippet" readonly="false" hidden="false" required="false" Expanded="false" Component="" CompTypes="ContentSnippet">
+    <xPower Type="Component" Component="" Name="ContentSnippet" readonly="false" hidden="false" required="false" Expanded="false" CompTypes="ContentSnippet" />
+  </xPower>
+  <xPower Type="Navigation" StartPage="x5" MaxDepth="" MaxNodes="" GenerationOrder="down" Navigation="Ancestors" Query="" Name="AncestorNavigation" label="Ancestor Navigation" readonly="true" hidden="true" required="false" Expanded="false" />
+  <xPower Type="Component" Component="x1848" Name="SiteControl" label="Site Control" readonly="true" hidden="false" required="false" CompTypes="SiteControl" Expanded="false" />
+</Content>
